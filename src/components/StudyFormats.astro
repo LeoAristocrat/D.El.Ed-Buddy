@@ -1,0 +1,5 @@
+---
+import {resourceTypes} from '../data/site';
+const {course,unit}=Astro.props;
+---
+<div class="format-grid">{resourceTypes.map(type=><a href={`/materials/?course=${course||''}&unit=${unit||''}&type=${encodeURIComponent(type)}`}><span>{type}</span><span aria-hidden="true">↗</span></a>)}</div><p class="small muted">Only published resources appear here. Notes and subject quizzes are being prepared; drafts stay out of the study library until human review.</p>

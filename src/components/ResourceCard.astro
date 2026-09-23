@@ -1,0 +1,4 @@
+---
+const {resource:r}=Astro.props;const d=r.data;
+---
+<article class="card resource-card" data-resource data-title={d.title.toLowerCase()} data-type={d.type} data-course={d.course||''} data-unit={d.unit||''} data-difficulty={d.difficulty}><div class="card-top"><span class="badge">{d.origin}</span><span class="code">{d.type}</span></div><h3><a href={`/materials/${r.id}/`}>{d.title}</a></h3><p>{d.description}</p><div class="card-bottom"><span>{d.course?.replace('s1-','S1.')||'Semester 1'}{d.unit?` · Unit ${d.unit}`:''}</span><span>Updated {d.updatedDate}</span></div></article>

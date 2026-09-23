@@ -1,0 +1,4 @@
+---
+const {questions,label='Practice quiz'}=Astro.props;
+---
+<section id="quiz" class="content-panel" data-questions={JSON.stringify(questions)}><div class="quiz-top"><span class="badge">{label}</span><span id="quiz-position"></span></div><progress id="quiz-progress" max={questions.length} value="0"></progress><form id="quiz-form"><fieldset><legend id="quiz-question"></legend><div id="quiz-options"></div></fieldset><button class="button" type="submit" id="quiz-next" disabled>Next question →</button></form><div id="quiz-results" hidden></div></section>

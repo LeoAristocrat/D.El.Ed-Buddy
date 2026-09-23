@@ -1,0 +1,4 @@
+---
+import Layout from '../layouts/Layout.astro';import PageHeader from '../components/PageHeader.astro';
+---
+<Layout title="Search"><div class="wrap"><PageHeader title="What are you studying today?" description="Search course titles, official topics, practicals and published resources." kicker="FIND YOUR WAY" back="/search/" backLabel="Search"/><form id="site-search" class="search-strip"><label for="query" class="sr-only">Search terms</label><input id="query" name="q" type="search" placeholder="Try Piaget, multilingualism or S1.1"/><button class="button">Search →</button></form><p class="small muted spaced" role="status" id="search-status">Enter a topic or course code to begin.</p><div id="search-results" class="unit-list"></div><noscript><p>Search needs JavaScript. You can still <a href="/courses/semester-1/">browse every course and unit</a>.</p></noscript></div></Layout>

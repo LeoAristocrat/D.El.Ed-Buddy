@@ -1,0 +1,4 @@
+---
+import Layout from '../layouts/Layout.astro';import PageHeader from '../components/PageHeader.astro';
+---
+<Layout title="Saved resources"><div class="wrap"><PageHeader title="Your little study collection." description="Units and resources you’ve saved on this browser. Pick up wherever you left off." kicker="SAVED FOR LATER" back="/saved/" backLabel="Saved resources"/><div id="saved-list" class="grid"></div><div id="saved-empty" class="empty"><h2>No saved pages yet.</h2><p>Open a unit or resource and choose Save to keep it here.</p><a class="button" href="/courses/semester-1/">Find your subject →</a></div><p class="small muted spaced">Bookmarks are stored locally. They won’t follow you to another device.</p></div></Layout>

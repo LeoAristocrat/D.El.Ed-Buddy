@@ -1,0 +1,4 @@
+---
+import Layout from '../../layouts/Layout.astro';import PageHeader from '../../components/PageHeader.astro';
+---
+<Layout title="Your courses"><div class="wrap"><PageHeader title="One semester at a time." description="Start with Semester 1. The rest of the course will find its place here as the project grows." kicker="THE TWO-YEAR JOURNEY"/><div class="grid">{[1,2,3,4].map(n=><a class="card" href={`/courses/semester-${n}/`}><span class="eyebrow">YEAR {n<3?1:2}</span><h2>Semester {n}</h2><span class="badge">{n===1?'Syllabus available':'Coming later'}</span><p class="spaced">{n===1?'9 courses, 37 units and School Internship - I.':'Study content is not yet available for this semester.'}</p><span class="text-link">{n===1?'Open your semester ↗':'See availability →'}</span></a>)}</div></div></Layout>

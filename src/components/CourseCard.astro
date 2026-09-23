@@ -1,0 +1,5 @@
+---
+const {course:c,index=0}=Astro.props;
+const symbols=['◉','✿','Aa','◎','Ab','π','✳','☼','⌂'];
+---
+<a class="card course-card" href={`/courses/semester-1/${c.id}/`}><div class="card-top"><span class="course-symbol">{symbols[index%9]}</span><span class="code">{c.code}</span></div><h3>{c.title}</h3><p>{c.summary}</p><div class="card-bottom"><span>{c.units.length} units · {c.credits} credits · {c.marks} marks</span><span aria-hidden="true">↗</span></div></a>
