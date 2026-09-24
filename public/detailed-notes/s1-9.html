@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper S1.9: Work and Education - Comprehensive Academic Monograph (2026)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Plus Jakarta Sans (Body), Outfit (Headings), JetBrains Mono (Technical/Math/Metrics) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- KaTeX CDN for Formal Notation, Formulas & Economic Metrics -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #f8fafc;
+      color: #0f172a;
+      margin: 0;
+      padding: 0;
+      line-height: 1.74;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Outfit', sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    .font-mono-term {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Academic Editorial Card Styles */
+    .academic-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.03);
+    }
+
+    /* Academic Data Tables */
+    .academic-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #ffffff;
+    }
+    .academic-table th {
+      background-color: #f1f5f9;
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 12px 14px;
+      border-bottom: 1.5px solid #94a3b8;
+      border-right: 1px solid #cbd5e1;
+    }
+    .academic-table td {
+      padding: 11px 14px;
+      border-bottom: 1px solid #e2e8f0;
+      border-right: 1px solid #e2e8f0;
+      vertical-align: top;
+      font-size: 0.86rem;
+      line-height: 1.62;
+    }
+    .academic-table tr:last-child td {
+      border-bottom: none;
+    }
+    .academic-table th:last-child, .academic-table td:last-child {
+      border-right: none;
+    }
+
+    /* Unit Index Badges */
+    .unit-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: #b45309;
+      color: #ffffff;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+
+    .sub-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: #fffbeb;
+      color: #b45309;
+      font-weight: 700;
+      font-size: 0.75rem;
+      border: 1px solid #fde68a;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* KaTeX Adjustments */
+    .katex {
+      font-size: 1.02em !important;
+    }
+    .katex-display {
+      margin: 0.6em 0 !important;
+    }
+
+    /* ==========================================================================
+       PRECISION PRINT & CONTINUOUS A4 PDF ENGINE
+       Eliminates gaping whitespaces, keeps continuous multi-page reading flow
+       ========================================================================== */
+    @page {
+      size: A4 portrait;
+      margin: 12mm 10mm 12mm 10mm;
+    }
+
+    @media print {
+      html, body {
+        background-color: #ffffff !important;
+        color: #0f172a !important;
+        font-size: 9.3pt !important;
+        line-height: 1.5 !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .main-container {
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .academic-card {
+        box-shadow: none !important;
+        border: 1px solid #cbd5e1 !important;
+        border-radius: 6px !important;
+        margin-bottom: 14px !important;
+        padding: 16px !important;
+        background: #ffffff !important;
+      }
+      
+      h1, h2, h3, h4, h5, h6 {
+        break-after: avoid !important;
+        page-break-after: avoid !important;
+      }
+
+      article, section, .academic-card {
+        break-inside: auto !important;
+        page-break-inside: auto !important;
+      }
+
+      tr, .compact-callout {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+      }
+
+      thead {
+        display: table-header-group !important;
+      }
+
+      * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+    }
+  </style>
+</head>
+<body class="selection:bg-amber-100 selection:text-amber-900 pb-20">
+
+  <!-- ==================== STICKY ACTION & NAVIGATION BAR ==================== -->
+  <header class="no-print sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 px-4 py-2.5 shadow-xs">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand & Metadata Badge -->
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-amber-700 text-white font-extrabold flex items-center justify-center font-display text-sm shadow-xs">
+          S1.9
+        </div>
+        <div>
+          <h1 class="text-slate-900 text-xs sm:text-sm font-bold flex items-center gap-2">
+            Work and Education
+            <span class="text-[10px] bg-amber-50 text-amber-800 border border-amber-200 px-2 py-0.5 rounded-full font-bold">50 Marks (20 Ext + 30 Int) • 2 Credits</span>
+          </h1>
+          <p class="text-[11px] text-slate-500">Comprehensive In-Depth Academic Monograph • Continuous Layout • Session 2026</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex items-center flex-wrap gap-1.5">
+        <a href="#unit-1" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg text-slate-600 hover:text-amber-700 hover:bg-slate-100 transition">U1: Foundations</a>
+        <a href="#unit-2" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg text-slate-600 hover:text-amber-700 hover:bg-slate-100 transition">U2: Behavioral Shifts</a>
+        <a href="#unit-3" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg text-slate-600 hover:text-amber-700 hover:bg-slate-100 transition">U3: Integration & Craft</a>
+        <a href="#unit-4" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg text-slate-600 hover:text-amber-700 hover:bg-slate-100 transition">U4: Family & Society</a>
+        <a href="#practicum" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg text-slate-600 hover:text-amber-700 hover:bg-slate-100 transition">Practicum & SIP</a>
+        <button onclick="window.print()" class="flex items-center gap-1.5 bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition shadow-xs cursor-pointer">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          Print / Save PDF (A4)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN DOCUMENT ENVELOPE ==================== -->
+  <main class="main-container max-w-5xl mx-auto px-4 sm:px-6 my-6">
+
+    <!-- ==================== HERO HEADER ==================== -->
+    <header class="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 mb-6 shadow-xs">
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-slate-100 text-slate-800 text-xs font-semibold uppercase tracking-wider">
+          <span class="w-2 h-2 rounded-full bg-amber-600"></span>
+          D.El.Ed First Semester • Core Paper S1.9
+        </span>
+        <div class="flex items-center gap-2 text-xs font-medium text-slate-500">
+          <span class="px-2.5 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-700 font-mono-term">Exam: $20\text{ Ext} + 30\text{ Int} = 50\text{ Marks}$</span>
+          <span class="px-2.5 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-700 font-mono-term">$2\text{ Credits} \bullet 50\text{ Hours}$</span>
+        </div>
+      </div>
+
+      <h1 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+        Work and Education
+      </h1>
+      <p class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed max-w-4xl">
+        An exhaustive academic monograph investigating the philosophical and sociological foundations of manual labour, the epistemological synthesis of work in learning, the comparative taxonomy of Work Education (SUPW) versus Vocational Education, the UNESCO Delors Report's four pillars of education, foundational philosophical treatises (Mahatma Gandhi's *Nai Talim* / Wardha Scheme of Craft-Centric Education and J.J. Rousseau's *Emile*), policy evolution (Kothari Commission Work Experience, Ishwarbhai Patel Committee SUPW, NEP $2020$ / NCF-SE $2023$ $10\text{ Bagless Days}$ and vocational exposure), tri-domain behavioral modifications (Cognitive, Psychomotor, and Affective / Dignity of Labour), interdisciplinary curriculum correlation (Mathematics, Science, Social Sciences, Language), indigenous traditional crafts of Assam (Bamboo and Cane, Muga and Eri sericulture, Sarthebari bell-metal, Asharikandi terracotta), participatory triangular school problem-solving, authentic performance rubrics (process versus product), domestic responsibility without gender bias, household financial budgeting in Indian Rupees ($\text{₹}$), intergenerational eldercare, ecological conservation, home safety and disaster mitigation, and the continuous $30\text{-mark}$ Practicum framework featuring school internship (SIP-I) implementation.
+      </p>
+
+      <div class="mt-6 pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
+        <div class="flex items-center gap-2">
+          <span>Made with ❤️ by <strong class="text-slate-900 font-bold">Sayeem Sadik</strong></span>
+          <span>•</span>
+          <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-amber-700 font-semibold hover:underline font-mono-term">
+            leoaristocrat.eu.cc
+          </a>
+        </div>
+        <div class="inline-flex items-center gap-1.5 font-medium bg-slate-50 border border-slate-200 rounded px-2.5 py-1 text-slate-700">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+          Curriculum Session 2026 • Exhaustive Master Reference Edition
+        </div>
+      </div>
+    </header>
+
+    <!-- ==================== TABLE OF CONTENTS / BLUEPRINT ==================== -->
+    <nav class="academic-card p-4 sm:p-6 mb-8">
+      <div class="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-2">
+          <svg class="w-4 h-4 text-amber-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+          Syllabus Architecture & Module Weightage
+        </h2>
+        <span class="text-xs font-semibold text-slate-500 font-mono-term">Total: $20\text{ External Marks}$</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
+        <a href="#unit-1" class="p-3 rounded-lg border border-slate-200 hover:border-amber-400 hover:bg-amber-50/30 transition block">
+          <div class="flex items-center justify-between mb-1.5">
+            <strong class="text-slate-900 font-bold text-sm">Unit 1</strong>
+            <span class="text-amber-800 font-bold bg-amber-100 px-2 py-0.5 rounded text-[11px] font-mono-term">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-semibold text-slate-800 text-xs">Foundations & Thinkers</div>
+          <p class="text-[11px] text-slate-500 mt-1 leading-relaxed">Concept of Work, Work vs. Vocational Ed, Delors 4 Pillars, Gandhi's *Nai Talim*, Rousseau, Kothari, SUPW, NEP $2020$.</p>
+        </a>
+
+        <a href="#unit-2" class="p-3 rounded-lg border border-slate-200 hover:border-amber-400 hover:bg-amber-50/30 transition block">
+          <div class="flex items-center justify-between mb-1.5">
+            <strong class="text-slate-900 font-bold text-sm">Unit 2</strong>
+            <span class="text-orange-800 font-bold bg-orange-100 px-2 py-0.5 rounded text-[11px] font-mono-term">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-semibold text-slate-800 text-xs">Behavioral Transformations</div>
+          <p class="text-[11px] text-slate-500 mt-1 leading-relaxed">Tri-Domain Impact (Cognitive, Psychomotor, Affective), Dignity of Labour (*Shramor Moriyada*), 4 Practical Case Studies.</p>
+        </a>
+
+        <a href="#unit-3" class="p-3 rounded-lg border border-slate-200 hover:border-amber-400 hover:bg-amber-50/30 transition block">
+          <div class="flex items-center justify-between mb-1.5">
+            <strong class="text-slate-900 font-bold text-sm">Unit 3</strong>
+            <span class="text-emerald-800 font-bold bg-emerald-100 px-2 py-0.5 rounded text-[11px] font-mono-term">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-semibold text-slate-800 text-xs">Curricular Integration & Craft</div>
+          <p class="text-[11px] text-slate-500 mt-1 leading-relaxed">Interdisciplinary Subject Linkage, Assam Indigenous Crafts, Community as Laboratory, Performance Assessment Rubrics.</p>
+        </a>
+
+        <a href="#unit-4" class="p-3 rounded-lg border border-slate-200 hover:border-amber-400 hover:bg-amber-50/30 transition block">
+          <div class="flex items-center justify-between mb-1.5">
+            <strong class="text-slate-900 font-bold text-sm">Unit 4</strong>
+            <span class="text-sky-800 font-bold bg-sky-100 px-2 py-0.5 rounded text-[11px] font-mono-term">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-semibold text-slate-800 text-xs">Family & Social Duties</div>
+          <p class="text-[11px] text-slate-500 mt-1 leading-relaxed">Domestic Chores without Gender Bias, Financial Budgeting ($\text{₹}$), Eldercare, Ecological Thrift, Home Safety Protocols.</p>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 1: UNDERSTANDING WORK AND VOCATIONAL EDUCATION                                       -->
+    <!-- ========================================================================================= -->
+    <section id="unit-1" class="mb-12">
+      
+      <!-- Unit Header -->
+      <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-6">
+        <div class="flex items-center gap-3">
+          <span class="unit-badge">1</span>
+          <div>
+            <h2 class="text-lg sm:text-2xl font-bold text-slate-900">Epistemology of Work, Thinkers & Curricular Policies</h2>
+            <p class="text-xs text-slate-500 font-medium">Concept of Work, Work vs. Vocational Education, Delors 4 Pillars, Gandhi, Rousseau, Kothari, SUPW & NEP 2020</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold px-3 py-1 rounded-md bg-slate-100 text-slate-700 border border-slate-200 font-mono-term">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 1.1 & 1.2 Meaning and Objectives -->
+      <article class="academic-card p-5 sm:p-7 mb-6">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">1.1 & 1.2</span> Epistemological Meaning of Work & Objectives of Work Education in Schools
+          </h3>
+          <span class="text-[11px] font-semibold text-amber-800 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">Work as Pedagogical Medium</span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+          Not all physical exertion constitutes educational work. In educational philosophy, <strong>Work</strong> is defined as planned, purposive, and socially meaningful physical activity that manipulates raw materials, maintains physical environments, or provides community services resulting in tangible utility. Work is not an extracurricular distraction; it is the <strong>primary epistemic medium</strong> through which children bridge abstract theoretical concepts with empirical physical reality. Divorcing academic intellect from manual labor produces alienated, bookish graduates disconnected from the socio-economic life of society.
+        </p>
+
+        <!-- 4 Core Objectives Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs text-slate-700 mb-4">
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">1. Dignity of Labour (শ্ৰমৰ মৰ্যাদা)</strong>
+              <p class="text-slate-600 text-xs leading-relaxed">
+                Eradicates entrenched feudal, caste, and elitist prejudices that devalue manual physical sweat while glorifying white-collar sedentary clerical jobs. Establishes deep respect for working-class artisans.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-term">Affective Social Parity</div>
+          </div>
+
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">2. Conceptual Concretization</strong>
+              <p class="text-slate-600 text-xs leading-relaxed">
+                Translates abstract textbook formulas of physics, geometry, biology, and chemistry into tangible reality through agricultural cultivation, tool fabrication, and material experimentation.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-term">Epistemic Scaffolding</div>
+          </div>
+
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">3. Psychomotor Fluency</strong>
+              <p class="text-slate-600 text-xs leading-relaxed">
+                Calibrates fine and gross neuromuscular coordination, pincer dexterity, visual-spatial estimation, and digital precision in manipulating blades, needles, joinery tools, and soil.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-term">Neuromuscular Dexterity</div>
+          </div>
+
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">4. Community Integration</strong>
+              <p class="text-slate-600 text-xs leading-relaxed">
+                Integrates the isolated primary school room with the surrounding economic reality of rural farmers, weavers, potters, and carpenters, fostering social responsibility and community capital.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-term">Community Linkage</div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 1.3 Work Education vs. Vocational Education -->
+      <article class="academic-card p-5 sm:p-7 mb-6">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">1.3</span> Comparative Taxonomy: Work Education vs. Vocational Education
+          </h3>
+          <span class="text-[11px] font-semibold text-rose-800 bg-rose-50 px-2 py-0.5 rounded border border-rose-200">Critical Pedagogical Distinction</span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+          A persistent error in educational planning is conflating Work Education with specialized Vocational Training. The table below delineates their distinct taxonomic parameters:
+        </p>
+
+        <!-- Comparative Table -->
+        <div class="overflow-x-auto my-3">
+          <table class="academic-table">
+            <thead>
+              <tr>
+                <th class="w-1/5">Comparative Parameter</th>
+                <th class="w-2/5 bg-amber-50 text-amber-950">Work Education (কাৰ্য শিক্ষা / SUPW)</th>
+                <th class="w-2/5 bg-sky-50 text-sky-950">Vocational Education (বৃত্তিমূলক শিক্ষা)</th>
+              </tr>
+            </thead>
+            <tbody class="text-xs sm:text-sm text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">1. Overarching Aim & Philosophy</td>
+                <td>Pedagogical and humanistic: Inculcating positive work attitudes, dignity of labour, habits of collective helpfulness, self-reliance, and cognitive reinforcement.</td>
+                <td>Economic and occupational: Equipping the trainee with specialized, marketable, industry-standard competencies for immediate employment or enterprise.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">2. Target Curricular Stage</td>
+                <td>Universal and compulsory across the Foundational, Preparatory, and Middle stages (Classes $1\text{ to } 8$) as an integral core component of general schooling.</td>
+                <td>Specialized at Secondary and Higher Secondary stages (Classes $9\text{ to } 12$) and post-school polytechnics/ITIs, with exploratory orientation in Grades $6\text{--}8$.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">3. Nature of Skills Imparted</td>
+                <td>Broad, life-oriented, multi-disciplinary generic skills (gardening, clay shaping, simple stitching, book repair, campus sanitation, kitchen maintenance).</td>
+                <td>Trade-specific, standardized technical competencies (electrician, plumbing, computer hardware, sericulture reeling, commercial tailoring, commercial horticulture).</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">4. Economic Expectation</td>
+                <td>Non-commercial: Focuses on process and character building; products satisfy immediate school or domestic utility rather than commercial market profit.</td>
+                <td>Commercial viability: Fabricated products and technical services must meet competitive market standards to generate wages or enterprise revenue in Rupees ($\text{₹}$).</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+
+      <!-- 1.4 to 1.7 Thinkers, 4 Pillars & Policy Evolution -->
+      <article class="academic-card p-5 sm:p-7">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">1.4 – 1.7</span> Philosophical Treatises, The Delors Pillars & Policy Evolution
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-term">Ideological Foundations</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Delors 4 Pillars & Rousseau -->
+          <div class="space-y-4">
+            <div class="p-4 rounded-lg border border-slate-200 bg-slate-50">
+              <h4 class="font-bold text-slate-900 text-xs uppercase mb-2">1.4 Integrating the Four Pillars of Education (UNESCO Delors Report, $1996$):</h4>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                The landmark Jacques Delors Report (*Learning: The Treasure Within*) formulated four universal pillars that Work Education uniquely harmonizes:
+              </p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>Learning to Know:</strong> Understanding the scientific properties of matter (soil chemistry, seed germination, fiber strength).</li>
+                <li>• <strong>Learning to Do:</strong> Acquiring practical competence to manipulate materials (sawing wood, grafting shoots, stitching fabric).</li>
+                <li>• <strong>Learning to Live Together:</strong> Engaging in cooperative team labor, shared tool stewardship, and democratic cleanup.</li>
+                <li>• <strong>Learning to Be:</strong> Cultivating personal autonomy, self-discipline, resilience against failure, aesthetic pride, and self-actualization.</li>
+              </ul>
+            </div>
+
+            <div class="p-4 rounded-lg border border-slate-200 bg-slate-50">
+              <h4 class="font-bold text-slate-900 text-xs uppercase mb-1.5">1.5 Jean-Jacques Rousseau's Naturalistic Labor (*Emile*, $1762$):</h4>
+              <p class="text-slate-600 text-xs leading-relaxed">
+                Rousseau vehemently condemned dry verbalism: <em>"Instead of making the child stick to his books, keep him busy in the workshop; his hands will work for the benefit of his brain."</em> He insisted that his pupil Emile master <strong>carpentry</strong>—a trade demanding physical stamina, mental geometry, and honesty of purpose, making a man self-reliant, immune to social vanity, and grounded in natural equality.
+              </p>
+            </div>
+          </div>
+
+          <!-- Gandhi, Kothari, SUPW & NEP 2020 -->
+          <div class="space-y-4">
+            <div class="p-4 rounded-lg border border-slate-200 bg-slate-50">
+              <h4 class="font-bold text-slate-900 text-xs uppercase mb-1.5">1.5 Mahatma Gandhi's Nai Talim (Buniyadi Shiksha, $1937$):</h4>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                Mahatma Gandhi revolutionized pedagogy through <strong>Craft-Centric Education</strong>. In *Nai Talim*, work is not an ancillary extracurricular hobby; it is the <strong>central axis</strong> around which all academic disciplines are correlated:
+              </p>
+              <div class="font-mono-term text-[11px] bg-white border border-slate-200 p-2 rounded text-slate-800 text-center font-bold mb-2">
+                $$\text{Holistic Education} = \text{Head } (\text{Intellect}) + \text{Heart } (\text{Morals/Spirit}) + \text{Hand } (\text{Manual Craft})$$
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed">
+                When a child spins cotton (*Takli / Charkha*), they simultaneously learn arithmetic (counting yarn counts), history (the decline of Indian handlooms under British tariffs), geography (cotton soil belts), and social justice. Self-supporting education liberates the rural populace from dependency!
+              </p>
+            </div>
+
+            <div class="p-4 rounded-lg border border-slate-200 bg-slate-50">
+              <h4 class="font-bold text-slate-900 text-xs uppercase mb-1.5">1.6 & 1.7 Policy Evolution: Kothari, SUPW & NEP $2020$:</h4>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>Kothari Commission ($1964\text{--}66$):</strong> Recommended <strong>"Work Experience"</strong> as a compulsory curricular element linking education directly with national economic productivity.</li>
+                <li>• <strong>Ishwarbhai Patel Committee ($1977$):</strong> Codified this as <strong>SUPW (Socially Useful Productive Work)</strong>—purposive, meaningful manual work resulting in goods or services beneficial to community life.</li>
+                <li>• <strong>NEP $2020$ & NCF-SE $2023$ Paradigm:</strong> Mandates vocational craft exposure (carpentry, metalwork, gardening, pottery) from Grade $6$ onwards; introduces <strong>$10\text{ Bagless Days}$</strong> during which students intern with local artisans!</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 2: BEHAVIORAL CHANGES IN LEARNERS                                                   -->
+    <!-- ========================================================================================= -->
+    <section id="unit-2" class="mb-12">
+      
+      <!-- Unit Header -->
+      <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-6">
+        <div class="flex items-center gap-3">
+          <span class="unit-badge">2</span>
+          <div>
+            <h2 class="text-lg sm:text-2xl font-bold text-slate-900">Behavioral Transformations in the Learner</h2>
+            <p class="text-xs text-slate-500 font-medium">Tri-Domain Psychological Architecture: Knowledge, Psychomotor Dexterity & Affective Transformation</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold px-3 py-1 rounded-md bg-slate-100 text-slate-700 border border-slate-200 font-mono-term">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 2.1 The Tri-Domain Behavioral Impact Architecture -->
+      <article class="academic-card p-5 sm:p-7 mb-6">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">2.1</span> The Tri-Domain Behavioral Architecture: Head, Hand and Heart
+          </h3>
+          <span class="text-[11px] font-semibold text-orange-800 bg-orange-50 px-2 py-0.5 rounded border border-orange-200">Bloom's Taxonomy Synthesis</span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+          Work education is a developmental intervention. When an elementary student engages in systematic manual production, transformative changes occur concurrently across the three classic domains of human psychology: <strong>Cognitive (Knowledge)</strong>, <strong>Psychomotor (Skills)</strong>, and <strong>Affective (Attitude & Values)</strong>:
+        </p>
+
+        <!-- 3 Domain Transformation Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5 text-xs sm:text-sm text-slate-700 mb-5">
+          
+          <!-- Cognitive Domain -->
+          <div class="p-4 rounded-lg border border-slate-200 bg-slate-50 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-slate-200 pb-1 mb-2">
+                <strong class="text-slate-900 font-bold text-xs uppercase">1. Cognitive Domain (জ্ঞানমূলক)</strong>
+                <span class="text-[9px] bg-sky-100 text-sky-900 font-bold px-1.5 py-0.5 rounded font-mono-term">Knowledge</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">Practical intellect grounded in physical matter:</p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>Understanding Material Properties:</strong> Knowing why green bamboo bends while dry bamboo splits; analyzing compost carbon-to-nitrogen ratios.</li>
+                <li>• <strong>Algorithmic Sequencing:</strong> Planning multi-step production pipelines:
+                  <div class="font-mono-term text-[10px] bg-white border border-slate-200 p-1 rounded text-slate-800 text-center my-1 font-bold">
+                    $$\text{Folding} \to \text{Collating} \to \text{Sewing} \to \text{Gluing} \to \text{Pressing} \to \text{Trimming}$$
+                  </div>
+                </li>
+                <li>• <strong>Costing & Troubleshooting:</strong> Calculating perimeter waste, estimating cost per unit in Rupees ($\text{₹}$), and rectifying design flaws dynamically.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-white border border-slate-200 text-sky-900 font-bold p-1 rounded text-center">
+              Theory is tested against raw physical reality!
+            </div>
+          </div>
+
+          <!-- Psychomotor Domain -->
+          <div class="p-4 rounded-lg border border-slate-200 bg-slate-50 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-slate-200 pb-1 mb-2">
+                <strong class="text-slate-900 font-bold text-xs uppercase">2. Psychomotor Domain (মনোপ্ৰেৰণামূলক)</strong>
+                <span class="text-[9px] bg-emerald-100 text-emerald-900 font-bold px-1.5 py-0.5 rounded font-mono-term">Manual Skills</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">Neuromuscular calibration through tool manipulation:</p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>Fine-Motor Pincer Dexterity:</strong> Threading needles, steady brush strokes, exact ruler measurement down to millimeters.</li>
+                <li>• <strong>Ergonomic Muscle Memory:</strong> Proper mechanical grip of spades, saws, chisels, trowels, and shears without injury or early fatigue.</li>
+                <li>• <strong>Hand-Eye Coordination:</strong> Coordinating depth perception with manual pressure when turning clay on a potter's wheel or hammering a nail.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-white border border-slate-200 text-emerald-900 font-bold p-1 rounded text-center">
+              Fingers transform into intelligent sensory tools!
+            </div>
+          </div>
+
+          <!-- Affective Domain -->
+          <div class="p-4 rounded-lg border border-slate-200 bg-slate-50 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-slate-200 pb-1 mb-2">
+                <strong class="text-slate-900 font-bold text-xs uppercase">3. Affective Domain (ভাৱাত্মক)</strong>
+                <span class="text-[9px] bg-rose-100 text-rose-900 font-bold px-1.5 py-0.5 rounded font-mono-term">Attitude & Values</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">Cultivating moral virtues and social empathy:</p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>Dignity of Labour (*Shramor Moriyada*):</strong> Respecting sanitation workers, sweepers, and cobblers; feeling zero shame in cleaning school toilets or weeding compost pits.</li>
+                <li>• <strong>Patience & Perseverance:</strong> Realizing that craftsmanship requires hours of disciplined effort; handling broken pots without temper tantrums.</li>
+                <li>• <strong>Joy of Creation:</strong> Experiencing genuine pride when eating vegetables cultivated with one's own hands in the school garden!</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-white border border-slate-200 text-rose-900 font-bold p-1 rounded text-center">
+              Eradicates arrogance and self-centered laziness!
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Case Illustration Table -->
+        <h4 class="font-bold text-slate-900 text-xs uppercase mb-2.5">Representative Work Activities & Behavioral Matrix:</h4>
+        <div class="overflow-x-auto my-2">
+          <table class="academic-table">
+            <thead>
+              <tr>
+                <th class="w-1/4">Representative Work Activity</th>
+                <th class="w-1/4">Knowledge Acquired (Cognitive)</th>
+                <th class="w-1/4">Manual Skills Mastered (Psychomotor)</th>
+                <th class="w-1/4">Attitudinal Shift (Affective)</th>
+              </tr>
+            </thead>
+            <tbody class="text-xs sm:text-sm text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">School Vegetable Gardening (শাক-পাচলিৰ খেতি)</td>
+                <td>Photosynthesis, seasonal crop cycles, organic pest control, compost microbial decomposition.</td>
+                <td>Spading soil, measuring bed rows, transplanting delicate seedlings, delicate watering.</td>
+                <td>Reverence for nature, empathy for rural farmers, patience while awaiting harvest, teamwork.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">Bookbinding & Stationery Craft (বহী বন্ধা)</td>
+                <td>Grammage of paper, grain direction, ratio of PVA adhesives, geometric page cutting.</td>
+                <td>Precise folding bone scoring, needle stitching, clamp tightening, paper guillotine alignment.</td>
+                <td>Habit of neatness, zero tolerance for wastage, valuing books as sacred objects of human labor.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">Traditional Bamboo Weaving (বাঁহ-বেতৰ শিল্প)</td>
+                <td>Tensile physics of green vs. mature bamboo, curing against borers, geometric symmetry.</td>
+                <td>Splitting bamboo sticks with *Dao*, peeling outer skin, interweaving strips into baskets.</td>
+                <td>Pride in Assamese indigenous ethnic heritage, perseverance against finger cuts, self-reliance.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 3: CURRICULAR INTEGRATION AND ASSESSMENT                                             -->
+    <!-- ========================================================================================= -->
+    <section id="unit-3" class="mb-12">
+      
+      <!-- Unit Header -->
+      <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-6">
+        <div class="flex items-center gap-3">
+          <span class="unit-badge">3</span>
+          <div>
+            <h2 class="text-lg sm:text-2xl font-bold text-slate-900">Curricular Integration, Community Linkage & Assessment</h2>
+            <p class="text-xs text-slate-500 font-medium">Subject Correlation, Local Artisans, Participatory School Problem Solving & Performance Rubrics</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold px-3 py-1 rounded-md bg-slate-100 text-slate-700 border border-slate-200 font-mono-term">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 3.1 & 3.2 Interdisciplinary Correlation & Assam Crafts -->
+      <article class="academic-card p-5 sm:p-7 mb-6">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">3.1 & 3.2</span> Interdisciplinary Subject Correlation & Localized Crafts in Assam
+          </h3>
+          <span class="text-[11px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Curricular Integration</span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+          Work Education must never be isolated as an orphaned Friday afternoon activity where children aimlessly sweep the veranda. It acts as an <strong>epistemological mortar</strong> bonding every subject in the primary curriculum:
+        </p>
+
+        <!-- 4 Subjects Correlation Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs text-slate-700 mb-4">
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">📐 With Mathematics</strong>
+            <p class="text-slate-600 text-xs leading-relaxed mb-1.5">Applying geometric area, perimeter, and commerce:</p>
+            <div class="font-mono-term text-[10.5px] bg-white border border-slate-200 p-1.5 rounded text-slate-800 space-y-0.5">
+              <div>$$\text{Garden Area: } A = l \times w$$</div>
+              <div>$$\text{Perimeter: } P = 2(l + w)$$</div>
+              <div>$$\text{Profit } (\text{₹}) = \text{Selling Price} - \text{Cost Price}$$</div>
+            </div>
+          </div>
+
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">🔬 With Environmental Studies</strong>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Studying seed germination, the nitrogen cycle in compost pits, capillary action in plant roots, friction on tools, hygiene and bacterial action during pickle preservation.
+            </p>
+          </div>
+
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">🌍 With Social Studies</strong>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Tracing the evolution of agricultural implements from Stone Age flint to modern tractors; understanding the division of labor, trade routes, and economic interdependence in village markets.
+            </p>
+          </div>
+
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">📖 With Language & Literature</strong>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Writing detailed step-by-step recipe manuals, maintaining reflective farming diaries, documenting folklore about monsoon sowing, expanding technical craft vocabulary.
+            </p>
+          </div>
+        </div>
+
+        <!-- Regional Craft Integration in Assam -->
+        <div class="p-3.5 rounded-lg border border-amber-200 bg-amber-50/50 text-xs text-slate-700">
+          <strong class="text-amber-950 font-bold block mb-1">Locally Specific Productive Crafts of Assam:</strong>
+          Primary schools in Assam are surrounded by indigenous ecological wealth. Curricular work must directly draw upon: (1) <strong>Bamboo & Cane Fabrication:</strong> Weaving *Japi*, fishing traps (*Jakoi*, *Polo*), domestic mats; (2) <strong>Sericulture & Weaving:</strong> Caring for Muga and Eri silk cocoons, spinning yarn on spindles (*Takli*), traditional handloom motifs on *Gamosa* generating rural livelihood income in Indian Rupees ($\text{₹}$); (3) <strong>Horticulture & Tea Craft:</strong> Nursery sapling raising, pruning, organic composting; (4) <strong>Bell-Metal and Pottery:</strong> Clay shaping modeled after Sarthebari bell-metal and Asharikandi terracotta traditions.
+        </div>
+      </article>
+
+      <!-- 3.3 to 3.6 Problem-Solving, Living Labs & Authentic Assessment -->
+      <article class="academic-card p-5 sm:p-7">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">3.3 – 3.6</span> Community Problem Solving & Performance Assessment Rubrics
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-term">Authentic Assessment</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-xs sm:text-sm text-slate-700 mb-5">
+          
+          <!-- Triangular Problem Solving -->
+          <div class="p-4 rounded-lg border border-slate-200 bg-slate-50">
+            <h4 class="font-bold text-slate-900 text-xs uppercase mb-2">3.3 Tripartite Problem Solving (Head, Teacher, Parents):</h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-2">
+              Work education projects identify authentic campus deficits and resolve them through collective agency:
+            </p>
+            <ul class="space-y-1 text-xs text-slate-700">
+              <li>• <strong>Campus Deficit Auditing:</strong> Broken benches, leaking roofs, barren school grounds, overflowing garbage, or lack of boundary green cover.</li>
+              <li>• <strong>Joint Action Planning:</strong> The School Management Committee (SMC), Head Teacher, and parent artisans formulate an action calendar.</li>
+              <li>• <strong>Participatory Student Labor:</strong> Children assist safely—planting shade hedges, painting classroom blackboards, repairing library book bindings.</li>
+            </ul>
+          </div>
+
+          <!-- Community Resources as Living Laboratories -->
+          <div class="p-4 rounded-lg border border-slate-200 bg-slate-50">
+            <h4 class="font-bold text-slate-900 text-xs uppercase mb-2">3.4 Community as a Living Technical Laboratory:</h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-2">
+              The school need not build costly industrial workshops; the village itself serves as the master academy:
+            </p>
+            <ul class="space-y-1 text-xs text-slate-700">
+              <li>• <strong>Inviting Master Artisans:</strong> Welcoming village carpenters, blacksmiths, weavers, and potters as "Guest Specialized Instructors" (mandated by NEP $2020$).</li>
+              <li>• <strong>Apprenticeship Visits:</strong> Visiting agricultural poly-houses, dairy cooperatives, local bakeries, and handloom weaving centers.</li>
+              <li>• <strong>Honoring Folk Wisdom:</strong> Validating indigenous knowledge—such as natural botanical dyes and pest-repellent leaves—elevating community pride.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Authentic Assessment Tools -->
+        <h4 class="font-bold text-slate-900 text-xs uppercase mb-2.5">3.5 & 3.6 Reforming Assessment: From Rote Tests to Authentic Performance Rubrics:</h4>
+        <p class="text-slate-600 text-xs leading-relaxed mb-3">
+          A major historic error in Indian schooling was testing manual work through written examinations (e.g., asking children to write an essay on <em>"How to grow potatoes"</em> while they never touched a hoe!). Authentic evaluation assesses the <strong>Process (how the child works)</strong> alongside the <strong>Product (the finished artifact)</strong>:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs text-slate-700">
+          <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">1. Analytical Rubrics</strong>
+            <p class="text-slate-600 text-xs leading-relaxed mb-1">Multi-tiered scoring grids evaluating specific criteria across graded bands:</p>
+            <div class="font-mono-term text-[10px] bg-white border border-slate-200 p-1.5 rounded text-slate-800 space-y-0.5">
+              <div>• Tool Handling & Safety ($25\%$)</div>
+              <div>• Resource Thrift & Care ($25\%$)</div>
+              <div>• Craft Precision/Neatness ($25\%$)</div>
+              <div>• Team Collaboration ($25\%$)</div>
+            </div>
+          </div>
+
+          <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">2. Cumulative Portfolios</strong>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Folders preserving preliminary sketches, fabric swatches, step-wise photos, expense accounts in Rupees ($\text{₹}$), and personal reflective notes documenting growth across months.
+            </p>
+          </div>
+
+          <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">3. Checklists & Scales</strong>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Binary or $5\text{-point}$ Likert scales tracking concrete behavioral habits: <em>"Cleans tools immediately after painting (Yes/No)"; "Returns tools to toolbox ($1\text{ to } 5$)"</em>.
+            </p>
+          </div>
+
+          <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">4. Practical Viva & Demo</strong>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Oral inquiry while the student demonstrates: <em>"Why did you choose this angle of grafting? What will you do if the soil becomes waterlogged?"</em> Probes true cognitive depth.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-3 p-3 rounded-lg border border-rose-200 bg-rose-50/50 text-xs text-rose-950">
+          <strong>Golden Rule for Educators:</strong> Never judge a child's work solely by commercial symmetry! A lopsided clay pot crafted with intense curiosity, independent effort, and joyful persistence is pedagogically far superior to a factory-perfect item secretly purchased from the market by wealthy parents!
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 4: RESPONSIBILITY TOWARDS FAMILY AND SOCIETY                                        -->
+    <!-- ========================================================================================= -->
+    <section id="unit-4" class="mb-12">
+      
+      <!-- Unit Header -->
+      <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-6">
+        <div class="flex items-center gap-3">
+          <span class="unit-badge">4</span>
+          <div>
+            <h2 class="text-lg sm:text-2xl font-bold text-slate-900">Responsibility Towards Family and Society</h2>
+            <p class="text-xs text-slate-500 font-medium">Household Chores Without Gender Bias, Financial Literacy, Intergenerational Eldercare & Safety</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold px-3 py-1 rounded-md bg-slate-100 text-slate-700 border border-slate-200 font-mono-term">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 4.1 to 4.5 The Five Pillars of Domestic Living -->
+      <article class="academic-card p-5 sm:p-7">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">4.1 – 4.5</span> The Five Pillars of Domestic Competence & Social Responsibility
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-term">Domestic & Civic Life Skills</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 text-xs text-slate-700 mb-4">
+          
+          <!-- 4.1 Sharing Household Responsibilities -->
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">4.1 Sharing Domestic Chores (লিঙ্গ-নিৰ্বিশেষে গৃহকৰ্ম)</strong>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                Dismantling toxic patriarchal gender divisions of labor within the household:
+              </p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• Boys and girls alike participate equally in sweeping, washing dining utensils, folding clothes, chopping vegetables, and dusting furniture.</li>
+                <li>• Eradicating the assumption that mothers and sisters are domestic servants while fathers and sons sit idle waiting for food.</li>
+                <li>• Instilling early domestic self-reliance: packing one's school bag, polishing shoes, making one's bed upon waking.</li>
+              </ul>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-term">Gender-Neutral Chore Sharing</div>
+          </div>
+
+          <!-- 4.2 Domestic Budgeting -->
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">4.2 Domestic Budgeting & Planning (পাৰিবাৰিক বাজেট)</strong>
+              <p class="text-slate-600 text-xs leading-relaxed mb-1.5">
+                Cultivating early financial literacy and consumer wisdom in Indian Rupees ($\text{₹}$):
+              </p>
+              <div class="font-mono-term text-[11px] bg-white border border-slate-200 p-1.5 rounded text-slate-800 text-center font-bold mb-2">
+                $$\text{Expenditure} = \text{Income } (\text{₹}) - \text{Savings } (\text{₹})$$
+              </div>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• Tracking utility expenses: comparing electricity bills, LPG cylinder refills, mobile data recharges, and grocery receipts across months.</li>
+                <li>• Eliminating emotional consumerism and peer pressure; understanding the severe struggle of working-class parents to earn daily bread.</li>
+              </ul>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-term">Financial Literacy ($\text{₹}$)</div>
+          </div>
+
+          <!-- 4.3 Eldercare & Nursing -->
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">4.3 Intergenerational Eldercare & Nursing (জ্যেষ্ঠজনৰ সেৱা)</strong>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                Nurturing authentic compassion in an increasingly fragmented, nuclear world:
+              </p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• Reading newspapers aloud to aging grandparents with diminishing eyesight; assisting them with walking sticks and medication timing.</li>
+                <li>• Caring for younger siblings: feeding, telling bedtime folktales, ensuring safety during play.</li>
+                <li>• Basic nursing empathy for sick family members: applying cold wet forehead compresses during fever, preparing oral rehydration solution (ORS).</li>
+              </ul>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-term">Intergenerational Compassion</div>
+          </div>
+
+          <!-- 4.4 Ecological Conservation -->
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">4.4 Ecological Conservation Habits (সম্পদ সংৰক্ষণ)</strong>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                Embedding environmental sustainability into unconscious muscle memory:
+              </p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>Water Auditing:</strong> Tightly turning off dripping taps; utilizing kitchen vegetable rinse water to irrigate potted home plants; rainwater harvesting.</li>
+                <li>• <strong>Energy Thrift:</strong> Switching off bulbs and fans immediately upon vacating rooms; maximizing daylight study; cleaning solar panels.</li>
+                <li>• <strong>Zero Waste & Fuel Economy:</strong> Walking or cycling for nearby grocery errands rather than burning petrol; avoiding single-use plastic bags.</li>
+              </ul>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-term">Sustainable Resource Habits</div>
+          </div>
+
+          <!-- 4.5 House Safety & Security -->
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50 flex flex-col justify-between sm:col-span-2">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">4.5 Household Safety, Disaster Preparedness & Maintenance (নিৰাপত্তা আৰু শুশ্ৰূষা)</strong>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                Empowering children as active domestic first responders:
+              </p>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-700">
+                <div>
+                  • <strong>Electrical Safety:</strong> Never touching switches with wet hands; knowing the main circuit breaker (MCB) location; reporting frayed cord wires.<br>
+                  • <strong>LPG Fire Safety:</strong> Checking regulator knob locks nightly; knowing never to strike matches if sulfur gas odor is detected; ventilating kitchen.
+                </div>
+                <div>
+                  • <strong>Home First-Aid Box Mastery:</strong> Storing antiseptic liquid (*Dettol*), sterile cotton, band-aids, burn ointments, thermometer, and ORS sachets.<br>
+                  • <strong>Flood & Cyclone Readiness in Assam:</strong> Storing dry grain, torches, chlorine water purification tablets, and battery radios during monsoon seasons.
+                </div>
+              </div>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-term">Disaster Readiness & First-Aid</div>
+          </div>
+
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- PRACTICUM & INTERNAL ASSESSMENT ARCHITECTURE (30 MARKS)                                   -->
+    <!-- ========================================================================================= -->
+    <section id="practicum" class="compact-callout bg-slate-900 text-white rounded-2xl p-6 sm:p-8 mb-8 shadow-xs">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3 mb-5">
+        <div>
+          <h3 class="text-sm sm:text-base font-bold font-display text-amber-300 uppercase tracking-wide">
+            Paper S1.9 Continuous Internal Assessment Blueprint
+          </h3>
+          <p class="text-xs text-slate-400">Total: $30\text{ Internal Marks}$ • Practical Workshops, Farm Visits, Craft Production & SIP Linkage</p>
+        </div>
+        <span class="text-xs bg-slate-800 border border-slate-700 px-3 py-1 rounded text-slate-300 font-mono-term">
+          Session 2026
+        </span>
+      </div>
+
+      <!-- Mark Allocation Grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3.5 text-center text-xs mb-5">
+        <div class="bg-slate-800/80 border border-slate-700 rounded-xl p-3">
+          <span class="block text-slate-400 text-xs mb-1">Daily Campus Work</span>
+          <span class="text-base font-bold text-amber-300 font-display font-mono-term">$5\text{ Marks}$</span>
+          <span class="text-[10px] text-slate-400 block mt-0.5">Assembly & Sanitation</span>
+        </div>
+        <div class="bg-slate-800/80 border border-slate-700 rounded-xl p-3">
+          <span class="block text-slate-400 text-xs mb-1">Practical Workshops</span>
+          <span class="text-base font-bold text-amber-300 font-display font-mono-term">$10\text{ Marks}$</span>
+          <span class="text-[10px] text-slate-400 block mt-0.5">Any $5\text{ Hand-Turned Crafts}$</span>
+        </div>
+        <div class="bg-slate-800/80 border border-slate-700 rounded-xl p-3">
+          <span class="block text-slate-400 text-xs mb-1">Assignments & Test</span>
+          <span class="text-base font-bold text-amber-300 font-display font-mono-term">$5\text{ Marks}$</span>
+          <span class="text-[10px] text-slate-400 block mt-0.5">Written Task + Unit Exam</span>
+        </div>
+        <div class="bg-slate-800/80 border border-slate-700 rounded-xl p-3">
+          <span class="block text-slate-400 text-xs mb-1">SIP-I School Activity</span>
+          <span class="text-base font-bold text-amber-300 font-display font-mono-term">$10\text{ Marks}$</span>
+          <span class="text-[10px] text-slate-400 block mt-0.5">Garden / Waste Craft / Stitching</span>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-4 text-xs text-slate-300 space-y-3">
+        <div class="text-center font-mono-term bg-slate-800/60 p-2 rounded-lg border border-slate-700 text-amber-200">
+          $$\text{Total Internal Assessment} = 5\text{ (Daily)} + 10\text{ (Workshops)} + 5\text{ (Test/Assignment)} + 10\text{ (SIP-I)} = 30\text{ Marks}$$
+        </div>
+
+        <div>
+          <strong class="text-white block uppercase tracking-wider text-xs mb-1.5 font-display">Prescribed Practicum Component Requirements:</strong>
+          <ul class="space-y-2 list-disc pl-4 text-slate-400 text-xs">
+            <li><strong>Daily Campus Work ($5\text{ Marks}$):</strong> Punctual conduct of morning school assembly, physical campus sweeping, beautification of institution courtyards, maintaining green flowerbeds, and toilet sanitation monitoring.</li>
+            <li><strong>Practical Workshop Mode (Select Any $5\text{ -- } 10\text{ Marks}$):</strong> Making decorative products from domestic solid waste; bamboo craft weaving; clay modeling; medicinal tree plantation; vegetable nursery seedling raising; vegetative plant propagation (budding, grafting, layering); food preservation (jam, jelly, pickle making); mushroom cultivation; stationery fabrication (office files, envelopes, writing pads); local Assamese cookery skills; hand embroidery, garment cutting and tailoring; household accounts planning in Indian Rupees ($\text{₹}$); rainwater harvesting setup.</li>
+            <li><strong>Exposure Visit & Field Survey:</strong> Visit an agricultural or horticultural nursery, food processing unit, sericulture farm, shelter house, or old age home; or conduct an empirical field survey documenting traditional vocations practiced across neighboring multi-ethnic villages.</li>
+          </ul>
+        </div>
+
+        <div class="border-t border-slate-800 pt-3">
+          <strong class="text-amber-300 block uppercase tracking-wider text-xs mb-1 font-display">School Internship (SIP-I Linkage - $10\text{ Marks}$):</strong>
+          <p class="leading-relaxed text-slate-400 text-xs mb-2">
+            During the $2\text{-week}$ School Internship-I, student-teachers must select and execute work activities with elementary children in their allotted lab schools:
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-slate-300 text-xs">
+            <div class="p-2.5 rounded bg-slate-800/60 border border-slate-700">
+              <strong class="text-white block font-bold mb-0.5">1. School Garden Bed:</strong> Setting up or maintaining a medicinal or vegetable garden bed on campus with primary students.
+            </div>
+            <div class="p-2.5 rounded bg-slate-800/60 border border-slate-700">
+              <strong class="text-white block font-bold mb-0.5">2. Waste-to-Wealth Craft:</strong> Leading children to manufacture decorative learning items or envelopes using discarded cardboard and scrap paper.
+            </div>
+            <div class="p-2.5 rounded bg-slate-800/60 border border-slate-700">
+              <strong class="text-white block font-bold mb-0.5">3. Tailoring & Stitching:</strong> Demonstrating the step-by-step process of garment stitching and tailoring using sewing machines and cloth materials, submitting an analytical report countersigned by the school head teacher.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DOCUMENT FOOTER ==================== -->
+    <footer class="pt-6 border-t border-slate-200 text-center text-xs text-slate-500 space-y-2">
+      <div class="flex items-center justify-center gap-2 font-bold text-slate-800">
+        <span>Paper S1.9 Master Study Notes</span>
+        <span>•</span>
+        <span class="text-amber-700 font-semibold">Curriculum Session 2026</span>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-2 font-medium text-slate-600">
+        <span>Made with ❤️ by <strong class="text-slate-900 font-bold">Sayeem Sadik</strong></span>
+        <span>•</span>
+        <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-amber-700 hover:underline font-mono-term">
+          https://leoaristocrat.eu.cc
+        </a>
+      </div>
+
+      <div class="text-[11px] text-slate-400">
+        All Rights Safeguarded 🛡️ • Comprehensive Work and Education Monograph
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- KaTeX Auto-Render Initialization -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

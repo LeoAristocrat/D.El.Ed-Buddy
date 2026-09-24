@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper S1.5: Proficiency in English - I - Comprehensive Academic Monograph (2026)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Plus Jakarta Sans (Body), Outfit (Headings), JetBrains Mono (Technical/Phonetics) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- KaTeX CDN for Formal Notation and Scientific Models -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #f8fafc;
+      color: #0f172a;
+      margin: 0;
+      padding: 0;
+      line-height: 1.74;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Outfit', sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    .font-mono-ling {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Academic Editorial Card Styles */
+    .academic-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.03);
+    }
+
+    /* Academic Data Tables */
+    .academic-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #ffffff;
+    }
+    .academic-table th {
+      background-color: #f1f5f9;
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 12px 14px;
+      border-bottom: 1.5px solid #94a3b8;
+      border-right: 1px solid #cbd5e1;
+    }
+    .academic-table td {
+      padding: 11px 14px;
+      border-bottom: 1px solid #e2e8f0;
+      border-right: 1px solid #e2e8f0;
+      vertical-align: top;
+      font-size: 0.86rem;
+      line-height: 1.62;
+    }
+    .academic-table tr:last-child td {
+      border-bottom: none;
+    }
+    .academic-table th:last-child, .academic-table td:last-child {
+      border-right: none;
+    }
+
+    /* Unit Index Badges */
+    .unit-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: #0284c7;
+      color: #ffffff;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+
+    .sub-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: #f0f9ff;
+      color: #0369a1;
+      font-weight: 700;
+      font-size: 0.75rem;
+      border: 1px solid #bae6fd;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* KaTeX Adjustments */
+    .katex {
+      font-size: 1.02em !important;
+    }
+    .katex-display {
+      margin: 0.6em 0 !important;
+    }
+
+    /* ==========================================================================
+       PRECISION PRINT & CONTINUOUS A4 PDF ENGINE
+       Eliminates gaping whitespaces, keeps continuous multi-page reading flow
+       ========================================================================== */
+    @page {
+      size: A4 portrait;
+      margin: 12mm 10mm 12mm 10mm;
+    }
+
+    @media print {
+      html, body {
+        background-color: #ffffff !important;
+        color: #0f172a !important;
+        font-size: 9.3pt !important;
+        line-height: 1.5 !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .main-container {
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .academic-card {
+        box-shadow: none !important;
+        border: 1px solid #cbd5e1 !important;
+        border-radius: 6px !important;
+        margin-bottom: 14px !important;
+        padding: 16px !important;
+        background: #ffffff !important;
+      }
+      
+      h1, h2, h3, h4, h5, h6 {
+        break-after: avoid !important;
+        page-break-after: avoid !important;
+      }
+
+      article, section, .academic-card {
+        break-inside: auto !important;
+        page-break-inside: auto !important;
+      }
+
+      tr, .compact-callout {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+      }
+
+      thead {
+        display: table-header-group !important;
+      }
+
+      * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+    }
+  </style>
+</head>
+<body class="selection:bg-sky-100 selection:text-sky-900 pb-20">
+
+  <!-- ==================== STICKY ACTION & NAVIGATION BAR ==================== -->
+  <header class="no-print sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 px-4 py-2.5 shadow-xs">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand & Metadata Badge -->
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-sky-700 text-white font-extrabold flex items-center justify-center font-display text-sm shadow-xs">
+          S1.5
+        </div>
+        <div>
+          <h1 class="text-slate-900 text-xs sm:text-sm font-bold flex items-center gap-2">
+            Proficiency in English - I
+            <span class="text-[10px] bg-sky-50 text-sky-800 border border-sky-200 px-2 py-0.5 rounded-full font-bold">50 Marks (35 Ext + 15 Int) • 2 Credits</span>
+          </h1>
+          <p class="text-[11px] text-slate-500">Comprehensive In-Depth Academic Monograph • Continuous Layout • Session 2026</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex items-center flex-wrap gap-1.5">
+        <a href="#unit-1" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg text-slate-600 hover:text-sky-700 hover:bg-slate-100 transition">U1: Status of English</a>
+        <a href="#unit-2" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg text-slate-600 hover:text-sky-700 hover:bg-slate-100 transition">U2: Oral & Phonology</a>
+        <a href="#unit-3" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg text-slate-600 hover:text-sky-700 hover:bg-slate-100 transition">U3: Critical Reading</a>
+        <a href="#unit-4" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg text-slate-600 hover:text-sky-700 hover:bg-slate-100 transition">U4: Word Architecture</a>
+        <a href="#practicum" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg text-slate-600 hover:text-sky-700 hover:bg-slate-100 transition">Practicum & SIP-I</a>
+        <button onclick="window.print()" class="flex items-center gap-1.5 bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition shadow-xs cursor-pointer">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          Print / Save PDF (A4)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN DOCUMENT ENVELOPE ==================== -->
+  <main class="main-container max-w-5xl mx-auto px-4 sm:px-6 my-6">
+
+    <!-- ==================== HERO HEADER ==================== -->
+    <header class="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 mb-6 shadow-xs">
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-slate-100 text-slate-800 text-xs font-semibold uppercase tracking-wider">
+          <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+          D.El.Ed First Semester • Core Paper S1.5
+        </span>
+        <div class="flex items-center gap-2 text-xs font-medium text-slate-500">
+          <span class="px-2.5 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-700 font-mono-ling">Exam: $35\text{ Ext} + 15\text{ Int} = 50\text{ Marks}$</span>
+          <span class="px-2.5 py-0.5 rounded bg-slate-100 border border-slate-200 text-slate-700 font-mono-ling">$2\text{ Credits} \bullet 50\text{ Hours}$</span>
+        </div>
+      </div>
+
+      <h1 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+        Proficiency in English - I
+      </h1>
+      <p class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed max-w-4xl">
+        An exhaustive academic monograph investigating the historical, sociological, and constitutional status of English in India (Lord Macaulay, Wood's Despatch, Kothari Commission, Official Languages Act), its role as a global lingua franca (Braj Kachru's Three Concentric Circles), the psycholinguistic architecture of a print-rich classroom, listening comprehension models, English phonetics and phonology (the $44\text{ IPA phonemes}$, vowels, diphthongs, consonants), supra-segmental dynamics (word stress, stress-timed rhythm, intonation contours), spoken discourse pedagogy, critical reading strategies (skimming, scanning, intensive, extensive), textual discourse analysis across four genres, the Three-Phase Reading Model, Kenneth Goodman's Miscue Analysis, lexical categorization (open vs. closed word classes), morphology and affixation processes, and semantic relationships (homophones, homonyms, synonyms, idioms, and collocations).
+      </p>
+
+      <div class="mt-6 pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
+        <div class="flex items-center gap-2">
+          <span>Made with ❤️ by <strong class="text-slate-900 font-bold">Sayeem Sadik</strong></span>
+          <span>•</span>
+          <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-sky-700 font-semibold hover:underline font-mono-ling">
+            leoaristocrat.eu.cc
+          </a>
+        </div>
+        <div class="inline-flex items-center gap-1.5 font-medium bg-slate-50 border border-slate-200 rounded px-2.5 py-1 text-slate-700">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+          Curriculum Session 2026 • Exhaustive Master Reference Edition
+        </div>
+      </div>
+    </header>
+
+    <!-- ==================== TABLE OF CONTENTS / BLUEPRINT ==================== -->
+    <nav class="academic-card p-4 sm:p-6 mb-8">
+      <div class="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-2">
+          <svg class="w-4 h-4 text-sky-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+          Syllabus Architecture & Module Weightage
+        </h2>
+        <span class="text-xs font-semibold text-slate-500 font-mono-ling">Total: $35\text{ External Marks}$</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
+        <a href="#unit-1" class="p-3 rounded-lg border border-slate-200 hover:border-sky-400 hover:bg-sky-50/30 transition block">
+          <div class="flex items-center justify-between mb-1.5">
+            <strong class="text-slate-900 font-bold text-sm">Unit 1</strong>
+            <span class="text-sky-800 font-bold bg-sky-100 px-2 py-0.5 rounded text-[11px] font-mono-ling">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-semibold text-slate-800 text-xs">Status of English</div>
+          <p class="text-[11px] text-slate-500 mt-1 leading-relaxed">Colonial History, Kachru's Concentric Circles, Constitutional Mandates (AOL), and the $L_1/L_2/FL$ Continuum.</p>
+        </a>
+
+        <a href="#unit-2" class="p-3 rounded-lg border border-slate-200 hover:border-sky-400 hover:bg-sky-50/30 transition block">
+          <div class="flex items-center justify-between mb-1.5">
+            <strong class="text-slate-900 font-bold text-sm">Unit 2</strong>
+            <span class="text-indigo-800 font-bold bg-indigo-100 px-2 py-0.5 rounded text-[11px] font-mono-ling">$10\text{ Marks}$</span>
+          </div>
+          <div class="font-semibold text-slate-800 text-xs">Oral Discourses & Phonology</div>
+          <p class="text-[11px] text-slate-500 mt-1 leading-relaxed">Print-Rich Ecologies, IPA $44\text{ Phonemes}$, Word/Sentence Stress, Stress-Timed Rhythm, and Classroom Theatre.</p>
+        </a>
+
+        <a href="#unit-3" class="p-3 rounded-lg border border-slate-200 hover:border-sky-400 hover:bg-sky-50/30 transition block">
+          <div class="flex items-center justify-between mb-1.5">
+            <strong class="text-slate-900 font-bold text-sm">Unit 3</strong>
+            <span class="text-emerald-800 font-bold bg-emerald-100 px-2 py-0.5 rounded text-[11px] font-mono-ling">$10\text{ Marks}$</span>
+          </div>
+          <div class="font-semibold text-slate-800 text-xs">Critical Reading Strategies</div>
+          <p class="text-[11px] text-slate-500 mt-1 leading-relaxed">Skimming, Scanning, 4 Text Genres, Three-Phase Instructional Reading, and Kenneth Goodman's Miscue Analysis.</p>
+        </a>
+
+        <a href="#unit-4" class="p-3 rounded-lg border border-slate-200 hover:border-sky-400 hover:bg-sky-50/30 transition block">
+          <div class="flex items-center justify-between mb-1.5">
+            <strong class="text-slate-900 font-bold text-sm">Unit 4</strong>
+            <span class="text-amber-800 font-bold bg-amber-100 px-2 py-0.5 rounded text-[11px] font-mono-ling">$10\text{ Marks}$</span>
+          </div>
+          <div class="font-semibold text-slate-800 text-xs">Word Architecture & Lexicon</div>
+          <p class="text-[11px] text-slate-500 mt-1 leading-relaxed">Open vs. Closed Classes, Derivational/Inflectional Affixation, Compounding, Homophones, and Collocations.</p>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 1: STATUS OF ENGLISH IN INDIA AND GLOBALLY                                          -->
+    <!-- ========================================================================================= -->
+    <section id="unit-1" class="mb-12">
+      
+      <!-- Unit Header -->
+      <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-6">
+        <div class="flex items-center gap-3">
+          <span class="unit-badge">1</span>
+          <div>
+            <h2 class="text-lg sm:text-2xl font-bold text-slate-900">Status of English in India and the Global Landscape</h2>
+            <p class="text-xs text-slate-500 font-medium">Historical Trajectory, Global Lingua Franca, Constitutional Status & The $L_1/L_2/FL$ Continuum</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold px-3 py-1 rounded-md bg-slate-100 text-slate-700 border border-slate-200 font-mono-ling">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 1.1 Historical Perspective of English in India -->
+      <article class="academic-card p-5 sm:p-7 mb-6">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">1.1</span> Historical Trajectory: From Colonial Instrument to National Empowerer
+          </h3>
+          <span class="text-[11px] font-semibold text-sky-800 bg-sky-50 px-2 py-0.5 rounded border border-sky-200">Historical Evolution</span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+          The presence of English in the Indian subcontinent represents an intricate sociolinguistic journey spanning more than two centuries. It arrived not through natural folk convergence, but as a deliberate political instrument of British imperial rule. Over the decades, however, the language has been indigenized, appropriated, and reshaped by Indian citizens into a vital instrument for democratic empowerment, legal advocacy, inter-state administration, and international mobility.
+        </p>
+
+        <!-- Chronology Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 text-xs text-slate-700 mb-4">
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+                Macaulay's Minute ($1835$)
+              </strong>
+              <p class="text-slate-600 text-xs leading-relaxed">
+                Lord Thomas Babington Macaulay formulated the imperial policy aiming to cultivate <em>"a class of persons, Indian in blood and colour, but English in taste, in opinions, in morals, and in intellect"</em> to serve as administrative intermediaries.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-ling">
+              Policy: Downward Filtration Theory
+            </div>
+          </div>
+
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+                Wood's Despatch ($1854$)
+              </strong>
+              <p class="text-slate-600 text-xs leading-relaxed">
+                Referred to as the <em>"Magna Carta of English Education in India"</em>. Recommended establishing universities (Calcutta, Bombay, Madras) with English as the medium for higher learning, while recognizing vernacular primary schools.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-ling">
+              Policy: Higher Ed Institutionalization
+            </div>
+          </div>
+
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+                Radhakrishnan Commission ($1948$)
+              </strong>
+              <p class="text-slate-600 text-xs leading-relaxed">
+                The first post-independence university education commission. Strongly cautioned against hasty abandonment of English: <em>"English is a window through which we can see the scientific and technological advancements of the world."</em>
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-ling">
+              Policy: Library Language Concept
+            </div>
+          </div>
+
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50/70 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-bold text-xs uppercase mb-1 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+                Kothari Commission ($1964\text{--}66$)
+              </strong>
+              <p class="text-slate-600 text-xs leading-relaxed">
+                Formalized the Three-Language Formula ($R_1, R_2, R_3$). Affirmed that English must serve as an essential <strong>link language</strong> between states and the central union, as well as a window to global knowledge.
+              </p>
+            </div>
+            <div class="mt-2 pt-2 border-t border-slate-200 text-[10px] text-slate-500 font-mono-ling">
+              Policy: Link & Library Medium
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 1.2 & 1.3 Global Language & Place in School Curriculum -->
+      <article class="academic-card p-5 sm:p-7 mb-6">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">1.2 & 1.3</span> English as a Global Lingua Franca & Positioning in the School Curriculum
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-ling">Sociolinguistics</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-xs sm:text-sm text-slate-700 mb-4">
+          
+          <!-- Kachru's Concentric Circles -->
+          <div>
+            <h4 class="font-bold text-slate-900 mb-2">Braj Kachru's Three Concentric Circles of English:</h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-3">
+              Linguist Braj Kachru categorized the global diffusion of the English language into three distinct demographic and functional spheres:
+            </p>
+
+            <div class="space-y-2 text-xs">
+              <div class="p-3 rounded-lg border border-sky-200 bg-sky-50/50">
+                <strong class="text-sky-950 block font-bold mb-0.5">1. The Inner Circle (Norm-Providing):</strong>
+                Native English-speaking nations where English is the primary mother tongue ($L_1$): UK, USA, Canada, Australia, New Zealand ($\approx 380\text{ million}$ speakers).
+              </div>
+              <div class="p-3 rounded-lg border border-emerald-200 bg-emerald-50/50">
+                <strong class="text-emerald-950 block font-bold mb-0.5">2. The Outer Circle (Norm-Developing):</strong>
+                Post-colonial multilingual nations where English functions as an institutionalized second language ($L_2$): India, Nigeria, Singapore, Ghana, Philippines ($\approx 300\text{--}500\text{ million}$ speakers).
+              </div>
+              <div class="p-3 rounded-lg border border-amber-200 bg-amber-50/50">
+                <strong class="text-amber-950 block font-bold mb-0.5">3. The Expanding Circle (Norm-Dependent):</strong>
+                Nations without colonial English history where English is learned as a foreign language ($FL$) for global trade, science, and tourism: China, Japan, Germany, Brazil ($\approx 1\text{ billion}$ learners).
+              </div>
+            </div>
+
+            <div class="mt-3 p-2.5 rounded bg-slate-50 border border-slate-200 text-xs">
+              <strong>Sociolinguistic Reality:</strong> Today, non-native speakers of English in the Outer and Expanding circles significantly outnumber native speakers in the Inner Circle by a ratio exceeding $3:1$!
+            </div>
+          </div>
+
+          <!-- Curriculum Positioning -->
+          <div>
+            <h4 class="font-bold text-slate-900 mb-2">Positioning English in NCF $2005$, NEP $2020$ & NCF-SE $2023$:</h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-3">
+              National policy has shifted the pedagogical posture towards English from exclusionary elitism to democratic access:
+            </p>
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 rounded border border-slate-200 bg-slate-50">
+                • <strong>From Elitist Gatekeeper to Democratic Right:</strong> NCF $2005$ emphasized that English must no longer function as a socio-economic barrier dividing urban elites from rural masses; all children deserve communicative exposure.
+              </div>
+              <div class="p-2.5 rounded border border-slate-200 bg-slate-50">
+                • <strong>Additive Multilingualism under NEP $2020$:</strong> Early schooling prioritizes the mother tongue or home dialect ($L_1$) as the medium of instruction until at least Grade $5$. English is introduced concurrently as a communicative subject without displacing the home tongue.
+              </div>
+              <div class="p-2.5 rounded border border-slate-200 bg-slate-50">
+                • <strong>Communicative Competence Goal:</strong> Modern curricula reject rote grammar rules, translation memorization, and spelling drills. The overarching objective is authentic spoken fluency, conversational confidence, and reading comprehension.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- 1.4 & 1.5 Constitutional Status & L1 vs L2 vs FL Continuum -->
+      <article class="academic-card p-5 sm:p-7">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">1.4 & 1.5</span> Constitutional Status of English & The $L_1$ / $L_2$ / Foreign Language Continuum
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-ling">Legal & Theoretical Architecture</span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+          Under <strong>Article 343</strong> of the Constitution of India, Hindi in Devanagari script was declared the Official Language of the Union. The framers originally stipulated that English would continue to be utilized for official transactions for only $15\text{ years}$ (expiring in $1965$). However, strong linguistic anxieties voiced across non-Hindi southern and northeastern states led Parliament to pass the <strong>Official Languages Act of $1963$ (amended in $1967$)</strong>, establishing English as the indefinite <strong>Associate Official Language (AOL)</strong> of India.
+        </p>
+
+        <!-- Master Comparative Matrix Table -->
+        <div class="overflow-x-auto my-3">
+          <table class="academic-table">
+            <thead>
+              <tr>
+                <th class="w-1/4">Evaluative Feature</th>
+                <th class="w-1/4 bg-emerald-50 text-emerald-950">First Language ($L_1$ - Mother Tongue)</th>
+                <th class="w-1/4 bg-sky-50 text-sky-950">Second Language ($L_2$ - English in India)</th>
+                <th class="w-1/4 bg-amber-50 text-amber-950">Foreign Language ($FL$ - e.g., French, German)</th>
+              </tr>
+            </thead>
+            <tbody class="text-xs sm:text-sm text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">1. Natural Environment & Acquisition</td>
+                <td>Subconsciously acquired from birth within the domestic family and immediate neighborhood.</td>
+                <td>Acquired and learned in classrooms and institutional environments supported by public environmental print.</td>
+                <td>Learned strictly in formal classrooms with negligible social exposure outside the school gate.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">2. Societal Presence</td>
+                <td>Language of emotional intimacy, domestic routines, and regional cultural identity.</td>
+                <td>Pervasive on signboards, mobile apps, television, banking, administrative documents, and news.</td>
+                <td>Zero organic presence in daily street transactions or domestic home conversations in India.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">3. Primary Motivational Utility</td>
+                <td>Basic human survival, socio-emotional attachment, self-concept formulation.</td>
+                <td>Academic advancement, national administration, employment opportunities, and inter-state trade.</td>
+                <td>International diplomacy, specialized translation, and foreign tourism.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="compact-callout p-3.5 rounded-lg border border-sky-200 bg-sky-50/50 text-xs text-slate-700 mt-4">
+          <strong class="text-sky-950 font-bold block mb-1">Pedagogical Lesson for Elementary Educators:</strong>
+          In Assam and across India, English is a <strong>Second Language ($L_2$)</strong>, never a Foreign Language ($FL$). Because English surrounds young children on shop packaging, vehicle number plates, and mobile devices, teachers must treat this environmental familiarity as a learning asset rather than teaching English as a dry, dead subject.
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 2: ORAL DISCOURSES & PHONOLOGY                                                      -->
+    <!-- ========================================================================================= -->
+    <section id="unit-2" class="mb-12">
+      
+      <!-- Unit Header -->
+      <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-6">
+        <div class="flex items-center gap-3">
+          <span class="unit-badge">2</span>
+          <div>
+            <h2 class="text-lg sm:text-2xl font-bold text-slate-900">Understanding Language: Oral Discourses & Phonology</h2>
+            <p class="text-xs text-slate-500 font-medium">Print-Rich Ecologies, IPA Sound Inventory ($44\text{ Sounds}$), Supra-segmentals & Discourse Pedagogy</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold px-3 py-1 rounded-md bg-slate-100 text-slate-700 border border-slate-200 font-mono-ling">
+          Weightage: $10\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 2.1 & 2.2 Print-Rich Environment & Listening Comprehension -->
+      <article class="academic-card p-5 sm:p-7 mb-6">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">2.1 & 2.2</span> The Language-Rich Classroom & Cognitive Models of Listening
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-ling">Psycholinguistic Foundations</span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+          Language is an interactive human capacity. Children cannot acquire proficiency in sterile, silent classrooms where only the teacher lectures from the blackboard. Early primary classrooms must be designed as <strong>Language-Rich and Print-Rich Environments</strong>:
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700 mb-5">
+          <div class="p-4 rounded-lg border border-slate-200 bg-slate-50">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1.5 flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+              The Print-Rich Physical Ecology
+            </strong>
+            <p class="text-slate-600 text-xs leading-relaxed mb-2">
+              Every physical surface in the primary classroom acts as an instructional aid. Low display shelves, bilingual object labels (<em>Table / মেজ</em>, <em>Door / দুৱাৰ</em>), classroom message boards, thematic word walls, and accessible pictorial storybook corners immerse the child in visual text.
+            </p>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              When children see their own drawings and scribbled stories mounted on walls at eye-level, their sense of linguistic authorship and self-worth expands significantly.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-lg border border-slate-200 bg-slate-50">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1.5 flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+              Hearing vs. Listening with Comprehension
+            </strong>
+            <p class="text-slate-600 text-xs leading-relaxed mb-2">
+              <strong>Hearing</strong> is a passive, involuntary physiological phenomenon occurring when sound vibrations contact the tympanic membrane without active cognitive engagement.
+            </p>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              <strong>Listening</strong> is a conscious, voluntary cognitive operation requiring selective attention, auditory discrimination, acoustic decoding, syntactic parsing, and contextual meaning extraction.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-lg border border-slate-200 bg-slate-50 md:col-span-2">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1.5 flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+              Dual Cognitive Models of Listening Processing
+            </strong>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs mt-2">
+              <div class="p-3 rounded border border-slate-200 bg-white">
+                <strong class="text-slate-900 block font-bold mb-0.5">Bottom-Up Processing (Acoustic Decoding):</strong>
+                Decoding speech linearly from the smallest phonetic components upward:
+                $$\text{Phonetic Sounds} \to \text{Words} \to \text{Phrases} \to \text{Grammatical Clauses} \to \text{Literal Meaning}$$
+                Trained through minimal pair discrimination and phonics exercises.
+              </div>
+              <div class="p-3 rounded border border-slate-200 bg-white">
+                <strong class="text-slate-900 block font-bold mb-0.5">Top-Down Processing (Schema-Driven Inferencing):</strong>
+                Using prior background knowledge, cultural context, and situational cues to predict and construct meaning:
+                $$\text{World Knowledge} + \text{Contextual Clues} \to \text{Anticipation} \to \text{Holistic Interpretation}$$
+                Trained through story predictions, picture discussions, and contextual riddles.
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2.3 Segmental Features: The 44 Sounds of English (IPA) -->
+      <article class="academic-card p-5 sm:p-7 mb-6">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">2.3</span> Segmental Features: The International Phonetic Alphabet ($44\text{ Sounds}$)
+          </h3>
+          <span class="text-[11px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Phonetics Core</span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+          Unlike transparent phonetic scripts (such as Assamese, Bengali, or Devanagari, where graphic letters map directly to sounds), English features an opaque, non-phonetic orthography. The $26\text{ letters}$ of the Roman alphabet must articulate approximately <strong>$44\text{ distinct phonemic sounds}$</strong> in standard Received Pronunciation (RP):
+        </p>
+
+        <!-- Master Sound Classification Tables -->
+        <div class="space-y-4 my-3">
+          
+          <!-- Vowels Table -->
+          <div>
+            <h4 class="text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5 flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+              The 20 Vowel Sounds: Monophthongs ($12$) and Diphthongs ($8$)
+            </h4>
+            <div class="overflow-x-auto">
+              <table class="academic-table text-xs">
+                <thead>
+                  <tr>
+                    <th class="w-1/4">Vowel Category</th>
+                    <th class="w-1/4">Phonemic Symbols</th>
+                    <th class="w-1/2">Illustrative Word Examples</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="font-bold text-slate-900 bg-slate-50/50">Short Monophthongs ($7$)</td>
+                    <td class="font-mono-ling text-sky-800 font-bold">/ɪ/, /e/, /æ/, /ɒ/, /ʌ/, /ʊ/, /ə/</td>
+                    <td>s<strong>i</strong>t, b<strong>e</strong>d, c<strong>a</strong>t, h<strong>o</strong>t, c<strong>u</strong>p, b<strong>oo</strong>k, <strong>a</strong>bout (the schwa)</td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold text-slate-900 bg-slate-50/50">Long Monophthongs ($5$)</td>
+                    <td class="font-mono-ling text-sky-800 font-bold">/iː/, /ɑː/, /ɔː/, /uː/, /ɜː/</td>
+                    <td>s<strong>ee</strong>t, f<strong>a</strong>ther, d<strong>oo</strong>r, m<strong>oo</strong>n, b<strong>ir</strong>d</td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold text-slate-900 bg-slate-50/50">Centring Diphthongs ($3$)</td>
+                    <td class="font-mono-ling text-indigo-800 font-bold">/ɪə/, /eə/, /ʊə/</td>
+                    <td>n<strong>ear</strong>, h<strong>air</strong>, t<strong>our</strong></td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold text-slate-900 bg-slate-50/50">Closing Diphthongs ($5$)</td>
+                    <td class="font-mono-ling text-indigo-800 font-bold">/eɪ/, /aɪ/, /ɔɪ/, /əʊ/, /aʊ/</td>
+                    <td>d<strong>ay</strong>, sk<strong>y</strong>, b<strong>oy</strong>, g<strong>o</strong>, n<strong>ow</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Consonants Table -->
+          <div>
+            <h4 class="text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5 flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+              The 24 Consonant Sounds (Voiced vs. Voiceless Typology)
+            </h4>
+            <div class="overflow-x-auto">
+              <table class="academic-table text-xs">
+                <thead>
+                  <tr>
+                    <th class="w-1/4">Articulatory Manner</th>
+                    <th class="w-3/8 bg-slate-50 text-slate-900">Voiceless (No Vocal Fold Vibration)</th>
+                    <th class="w-3/8 bg-sky-50 text-sky-950">Voiced (Vocal Fold Vibration)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="font-bold text-slate-900 bg-slate-50/50">Plosives / Stops</td>
+                    <td><span class="font-mono-ling font-bold text-slate-800">/p/</span> (pin), <span class="font-mono-ling font-bold text-slate-800">/t/</span> (tin), <span class="font-mono-ling font-bold text-slate-800">/k/</span> (cat)</td>
+                    <td><span class="font-mono-ling font-bold text-sky-800">/b/</span> (bin), <span class="font-mono-ling font-bold text-sky-800">/d/</span> (din), <span class="font-mono-ling font-bold text-sky-800">/ɡ/</span> (gun)</td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold text-slate-900 bg-slate-50/50">Fricatives</td>
+                    <td><span class="font-mono-ling font-bold text-slate-800">/f/</span> (fan), <span class="font-mono-ling font-bold text-slate-800">/θ/</span> (think), <span class="font-mono-ling font-bold text-slate-800">/s/</span> (sip), <span class="font-mono-ling font-bold text-slate-800">/ʃ/</span> (ship), <span class="font-mono-ling font-bold text-slate-800">/h/</span> (hat)</td>
+                    <td><span class="font-mono-ling font-bold text-sky-800">/v/</span> (van), <span class="font-mono-ling font-bold text-sky-800">/ð/</span> (this), <span class="font-mono-ling font-bold text-sky-800">/z/</span> (zip), <span class="font-mono-ling font-bold text-sky-800">/ʒ/</span> (measure)</td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold text-slate-900 bg-slate-50/50">Affricates</td>
+                    <td><span class="font-mono-ling font-bold text-slate-800">/tʃ/</span> (church)</td>
+                    <td><span class="font-mono-ling font-bold text-sky-800">/dʒ/</span> (judge)</td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold text-slate-900 bg-slate-50/50">Nasals, Liquids & Glides</td>
+                    <td><em>None (All sonorant consonants are voiced)</em></td>
+                    <td><span class="font-mono-ling font-bold text-sky-800">/m/</span> (man), <span class="font-mono-ling font-bold text-sky-800">/n/</span> (net), <span class="font-mono-ling font-bold text-sky-800">/ŋ/</span> (sing), <span class="font-mono-ling font-bold text-sky-800">/l/</span> (lip), <span class="font-mono-ling font-bold text-sky-800">/r/</span> (red), <span class="font-mono-ling font-bold text-sky-800">/w/</span> (wet), <span class="font-mono-ling font-bold text-sky-800">/j/</span> (yes)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="compact-callout p-3 rounded-lg border border-slate-200 bg-slate-50 text-xs text-slate-700 mt-3">
+          <strong class="text-slate-900 block font-bold mb-0.5">The Diagnostic Tool: Minimal Pairs Drill</strong>
+          Minimal pairs are word pairings differing by only one single phoneme: <em>ship /ʃɪp/ vs. sheep /ʃiːp/</em>, <em>pen /pen/ vs. pan /pæn/</em>, <em>fan /fæn/ vs. van /væn/</em>. Using minimal pair contrast drills in primary classrooms directly corrects regional dialect interference.
+        </div>
+      </article>
+
+      <!-- 2.4 & 2.5 Supra-segmentals & Oral Discourse Pedagogy -->
+      <article class="academic-card p-5 sm:p-7">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">2.4 & 2.5</span> Supra-segmental Features & Oral Discourse Pedagogy
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-ling">Speech Prosody</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Supra-segmental Dynamics -->
+          <div>
+            <h4 class="font-bold text-slate-900 mb-2">The Prosodic Triad: Stress, Rhythm & Intonation:</h4>
+            <div class="space-y-2 text-xs">
+              <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+                <strong class="text-slate-900 block font-bold mb-0.5">1. Word and Sentence Stress:</strong>
+                Syllables produced with greater breath force, pitch elevation, and duration. Stress alters word class:
+                <div class="mt-1 font-mono-ling text-sky-800">
+                  $$\text{Noun: } \mathbf{'CON}\text{-duct} \quad \longleftrightarrow \quad \text{Verb: con-}\mathbf{'DUCT}$$
+                  $$\text{Noun: } \mathbf{'OB}\text{-ject} \quad \longleftrightarrow \quad \text{Verb: ob-}\mathbf{'JECT}$$
+                </div>
+              </div>
+
+              <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+                <strong class="text-slate-900 block font-bold mb-0.5">2. English Rhythm (Stress-Timed):</strong>
+                English intervals between stressed syllables remain uniform regardless of how many unstressed syllables intervene. In contrast, Indian languages are <strong>syllable-timed</strong> (every syllable receives equal duration). Indian students must be guided into rhythmic stress pulsing.
+              </div>
+
+              <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+                <strong class="text-slate-900 block font-bold mb-0.5">3. Intonation Contours:</strong>
+                • <strong>Falling Tone ($\searrow$):</strong> Declarative facts, commands, Wh-questions (<em>"Where are you going? $\searrow$"</em>).<br>
+                • <strong>Rising Tone ($\nearrow$):</strong> Polite requests, Yes/No questions (<em>"Are you ready? $\nearrow$"</em>).<br>
+                • <strong>Fall-Rise ($\searrow\nearrow$):</strong> Nuanced reservation, warning, or polite correction.
+              </div>
+            </div>
+          </div>
+
+          <!-- Spoken Discourses & Theatre -->
+          <div>
+            <h4 class="font-bold text-slate-900 mb-2">Classroom Theatre, Storytelling & The Fluency Balance:</h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-3">
+              Children develop spoken competence through communicative performance rather than textbook interrogation:
+            </p>
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 rounded border border-slate-200 bg-slate-50">
+                • <strong>Classroom Theatre & Role Play:</strong> Enacting character roles behind cloth puppets or mask props dissolves adolescent stage anxiety and invites authentic spontaneous dialogue.
+              </div>
+              <div class="p-2.5 rounded border border-slate-200 bg-slate-50">
+                • <strong>Oral Narratives & Retelling:</strong> Listening to rich teacher storytelling followed by student narrative retelling in their own creative words develops narrative sequencing and causal logic.
+              </div>
+              <div class="p-2.5 rounded border border-slate-200 bg-slate-50">
+                • <strong>The Fluency vs. Accuracy Dilemma:</strong> In the early foundational stage, educators must prioritize <strong>Fluency over Accuracy</strong>. Interrupting a child's spontaneous expression to correct minor preposition or tense errors causes affective mutism and anxiety!
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 3: CRITICAL READING AND TEXTUAL DISCOURSE                                           -->
+    <!-- ========================================================================================= -->
+    <section id="unit-3" class="mb-12">
+      
+      <!-- Unit Header -->
+      <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-6">
+        <div class="flex items-center gap-3">
+          <span class="unit-badge">3</span>
+          <div>
+            <h2 class="text-lg sm:text-2xl font-bold text-slate-900">Critical Reading, Comprehension & Textual Discourse</h2>
+            <p class="text-xs text-slate-500 font-medium">Reading Modes & Sub-skills, Four Discourse Genres, Three-Phase Reading & Goodman's Miscue Analysis</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold px-3 py-1 rounded-md bg-slate-100 text-slate-700 border border-slate-200 font-mono-ling">
+          Weightage: $10\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 3.1 & 3.2 Reading Modes & Text Genres -->
+      <article class="academic-card p-5 sm:p-7 mb-6">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">3.1 & 3.2</span> Mechanics of Reading, Sub-skills and The Four Text Genres
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-ling">Reading Literacy</span>
+        </div>
+
+        <!-- Master Modes Comparative Table -->
+        <div class="overflow-x-auto my-3">
+          <table class="academic-table">
+            <thead>
+              <tr>
+                <th class="w-1/4">Reading Strategy</th>
+                <th class="w-3/8 bg-slate-50 text-slate-900">Operational Mechanism</th>
+                <th class="w-3/8 bg-sky-50 text-sky-950">Primary Primary School Pedagogical Function</th>
+              </tr>
+            </thead>
+            <tbody class="text-xs sm:text-sm text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">Reading Aloud (সস্বৰ পাঠ)</td>
+                <td>Vocalizing written graphemes into acoustic phonemes with correct pronunciation, pitch, and phrasing.</td>
+                <td>Develops phonemic fluency, auditory self-monitoring, and speech audibility in lower primary classes.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">Silent Reading (নীৰৱ পাঠ)</td>
+                <td>Visual decoding directly to mental concepts without vocal cord vibration or lip movement.</td>
+                <td>Maximizes reading speed, reflective concentration, and mature cognitive comprehension.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">Intensive Reading</td>
+                <td>Close, granular analytical study of short, complex texts focusing on syntactic structure and grammar.</td>
+                <td>Deconstructing grammatical rules, lexical nuances, and specific detailed text propositions.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">Extensive Reading</td>
+                <td>Reading large volumes of accessible, enjoyable literature (storybooks, comics) for global pleasure.</td>
+                <td>Cultivates autonomous reading habits, sight-word automaticity, and broad vocabulary exposure.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Four Text Genres Grid -->
+        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-700 mb-2.5 mt-5 flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+          The Four Text Genres in Elementary School Discourse:
+        </h4>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs text-slate-700">
+          <div class="p-3 rounded-lg border border-slate-200 bg-slate-50/70">
+            <strong class="text-sky-950 block font-bold mb-1">1. Descriptive Texts</strong>
+            Presents detailed sensory characteristics of people, animals, places, or objects using rich spatial adverbs and adjectives (e.g., <em>"A Monsoon Day in Majuli"</em>).
+          </div>
+          <div class="p-3 rounded-lg border border-slate-200 bg-slate-50/70">
+            <strong class="text-sky-950 block font-bold mb-1">2. Narrative Texts</strong>
+            Chronicles sequential events occurring across chronological time, featuring setting, character motivations, conflict, climax, and emotional resolution.
+          </div>
+          <div class="p-3 rounded-lg border border-slate-200 bg-slate-50/70">
+            <strong class="text-sky-950 block font-bold mb-1">3. Expository Texts</strong>
+            Communicates factual, objective scientific or historical knowledge through cause-effect, compare-contrast, and logical classifications (e.g., <em>"How Plants Make Food"</em>).
+          </div>
+          <div class="p-3 rounded-lg border border-slate-200 bg-slate-50/70">
+            <strong class="text-sky-950 block font-bold mb-1">4. Persuasive Texts</strong>
+            Constructs argumentative rhetoric and presents evidentiary claims to convince the reader to adopt a specific belief, attitude, or civic behavior.
+          </div>
+        </div>
+      </article>
+
+      <!-- 3.3 & 3.4 Instructional Reading Model & Miscue Analysis -->
+      <article class="academic-card p-5 sm:p-7">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">3.3 & 3.4</span> The Three-Phase Instructional Reading Model & Goodman's Miscue Analysis
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-ling">Reading Diagnostics</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Three-Phase Reading Model -->
+          <div>
+            <h4 class="font-bold text-slate-900 mb-2">The Three-Phase Instructional Reading Model:</h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-3">
+              Transforming reading instruction from mechanical calling of words into an active comprehension journey:
+            </p>
+            <div class="space-y-2 text-xs">
+              <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+                <strong class="text-slate-900 block font-bold mb-0.5">1. Pre-Reading (Schema Activation):</strong>
+                Predicting story events from the title and cover illustrations; connecting the theme to personal life; pre-teaching $2\text{--}3$ critical vocabulary bottleneck words.
+              </div>
+              <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+                <strong class="text-slate-900 block font-bold mb-0.5">2. While-Reading (Active Engagement):</strong>
+                Silent reading with guiding prompt questions; confirming or revising predictions; self-monitoring comprehension; annotating confusing lines.
+              </div>
+              <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+                <strong class="text-slate-900 block font-bold mb-0.5">3. Post-Reading (Integration & Extension):</strong>
+                Critical discussion, character role-play, drawing emotional scenes, dramatization, and creative alternate ending composition.
+              </div>
+            </div>
+          </div>
+
+          <!-- Miscue Analysis -->
+          <div>
+            <h4 class="font-bold text-slate-900 mb-2">Kenneth Goodman's Miscue Analysis:</h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-2">
+              Linguist Kenneth Goodman revolutionized literacy assessment by redefining oral reading errors as <strong>"Miscues"</strong>—diagnostic windows into the reader's three subconscious cueing systems:
+            </p>
+            <div class="space-y-1.5 text-xs">
+              <div class="p-2.5 rounded border border-slate-200 bg-white">
+                • <strong>Graphophonic Miscue (Visual Cue):</strong> Reading <em>"horse"</em> as <em>"house"</em>. The child relies excessively on similar letter shapes while ignoring context.
+              </div>
+              <div class="p-2.5 rounded border border-slate-200 bg-white">
+                • <strong>Syntactic Miscue (Grammar Cue):</strong> Reading <em>"The dog ran"</em> as <em>"The dog walked"</em>. The grammar and part of speech fit perfectly, though the word differs.
+              </div>
+              <div class="p-2.5 rounded border border-slate-200 bg-white">
+                • <strong>Semantic Miscue (Meaning Cue):</strong> Reading <em>"The king sat on his horse"</em> as <em>"The king sat on his pony"</em>. The visual word differs, but the fundamental meaning is $100\%$ preserved!
+              </div>
+            </div>
+            <div class="mt-3 p-2.5 rounded bg-emerald-50 border border-emerald-200 text-xs text-emerald-950 font-medium">
+              <strong>Pedagogical Directive:</strong> Never interrupt or penalize semantic miscues! They demonstrate that the child is actively comprehending text meaning rather than barking at letters.
+            </div>
+          </div>
+
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 4: VOCABULARY IN CONTEXT AND WORD ARCHITECTURE                                      -->
+    <!-- ========================================================================================= -->
+    <section id="unit-4" class="mb-12">
+      
+      <!-- Unit Header -->
+      <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-6">
+        <div class="flex items-center gap-3">
+          <span class="unit-badge">4</span>
+          <div>
+            <h2 class="text-lg sm:text-2xl font-bold text-slate-900">Vocabulary in Context and Word Architecture</h2>
+            <p class="text-xs text-slate-500 font-medium">Open vs. Closed Classes, Morphological Affixation, Lexical Semantics & Multi-Word Expressions</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold px-3 py-1 rounded-md bg-slate-100 text-slate-700 border border-slate-200 font-mono-ling">
+          Weightage: $10\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 4.1 & 4.2 Word Classes: Open vs Closed & Content vs Function -->
+      <article class="academic-card p-5 sm:p-7 mb-6">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">4.1 & 4.2</span> Lexical Taxonomy: Open-Class Content Words vs. Closed-Class Function Words
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-ling">Grammatical Architecture</span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+          In contemporary structural linguistics, a language's vocabulary is not an arbitrary flat list. Words operate within two fundamentally distinct systemic categories based on their semantic weight and structural flexibility:
+        </p>
+
+        <!-- Comparative Table Open vs Closed -->
+        <div class="overflow-x-auto my-3">
+          <table class="academic-table">
+            <thead>
+              <tr>
+                <th class="w-1/4">Evaluative Feature</th>
+                <th class="w-3/8 bg-emerald-50 text-emerald-950">Open-Class Words (Content Words)</th>
+                <th class="w-3/8 bg-sky-50 text-sky-950">Closed-Class Words (Function / Structure Words)</th>
+              </tr>
+            </thead>
+            <tbody class="text-xs sm:text-sm text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">Constituent Parts of Speech</td>
+                <td><strong>Nouns, Lexical Main Verbs, Adjectives, Descriptive Adverbs</strong> (e.g., <em>classroom, sprint, luminous, quietly</em>).</td>
+                <td><strong>Pronouns, Prepositions, Conjunctions, Determiners, Auxiliary Verbs</strong> (e.g., <em>she, under, although, the, could</em>).</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">Membership Influx</td>
+                <td><strong>Infinite and Dynamic:</strong> Constantly assimilates new coinages and loan words (e.g., <em>selfie, download, internet, vlog</em>).</td>
+                <td><strong>Finite and Fixed:</strong> Resists new coinages. The set of English prepositions or auxiliary verbs rarely admits new members.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">Semantic Payload</td>
+                <td>Carries the primary informational meaning, propositional content, and sensory imagery of an utterance.</td>
+                <td>Provides grammatical syntax and relational mortar connecting content words together.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50/50">Phonetic Prosody</td>
+                <td>Typically articulated with full phonetic value and receive <strong>sentence stress</strong> in natural connected speech.</td>
+                <td>Typically unstressed in running speech and pronounced in their weakened vowel forms (e.g., <em>to</em> as /tə/, <em>and</em> as /ən/).</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+
+      <!-- 4.3 & 4.4 Morphology & Word Formation Processes -->
+      <article class="academic-card p-5 sm:p-7 mb-6">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">4.3 & 4.4</span> Morphology, Affixation Engines & Compounding
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-ling">Word Formation</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Affixation -->
+          <div>
+            <h4 class="font-bold text-slate-900 mb-2">Morphological Affixation (Prefixes vs. Suffixes):</h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-3">
+              A <strong>Root / Base</strong> is the irreducible core carrying fundamental lexical meaning. Affixes attach to generate morphological variants:
+            </p>
+            <div class="space-y-2 text-xs">
+              <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+                <strong class="text-slate-900 block font-bold mb-0.5">Prefixation:</strong>
+                Affixes attached before the root (frequently alters semantic meaning without altering grammatical class):
+                <div class="mt-1 font-mono-ling text-sky-800">
+                  $$\text{un- [not]} + \text{happy [Adj]} = \text{unhappy [Adj]}$$
+                  $$\text{dis- [reversal]} + \text{honest [Adj]} = \text{dishonest [Adj]}$$
+                </div>
+              </div>
+
+              <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+                <strong class="text-slate-900 block font-bold mb-0.5">Derivational vs. Inflectional Suffixes:</strong>
+                • <strong>Derivational Suffixes:</strong> Transform grammatical category or create distinct lexical identities:
+                <div class="my-1 font-mono-ling text-emerald-800">
+                  $$\text{teach [Verb]} + \text{-er} = \text{teacher [Noun]}$$
+                  $$\text{beauty [Noun]} + \text{-ful} = \text{beautiful [Adjective]}$$
+                </div>
+                • <strong>Inflectional Suffixes:</strong> Mark grammatical tense, number, or comparison without changing word class:
+                <div class="mt-1 font-mono-ling text-indigo-800">
+                  $$\text{play} \to \text{plays, played, playing} \quad \text{[always Verbs]}$$
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Compounding & Modifiers -->
+          <div>
+            <h4 class="font-bold text-slate-900 mb-2">Compounding & Noun Phrase Modifiers:</h4>
+            <div class="space-y-2 text-xs">
+              <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+                <strong class="text-slate-900 block font-bold mb-0.5">Compounding (যৌগিক শব্দ গঠন):</strong>
+                Fusing two or more independent free roots to generate a single composite lexical unit:
+                <div class="my-1 font-mono-ling text-sky-800">
+                  $$\text{black [Adj]} + \text{board [Noun]} = \text{blackboard [Noun]}$$
+                  $$\text{sun [Noun]} + \text{flower [Noun]} = \text{sunflower [Noun]}$$
+                </div>
+              </div>
+
+              <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+                <strong class="text-slate-900 block font-bold mb-0.5">Pre-Modifiers vs. Post-Modifiers:</strong>
+                Structural elements expanding or restricting a head noun:
+                • <strong>Pre-modifier:</strong> Appears before head noun (<em>"A [clever, industrious] student"</em>).<br>
+                • <strong>Post-modifier:</strong> Appears after head noun as prepositional phrase or relative clause (<em>"The student [with the blue satchel who scored highest]"</em>).
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- 4.5 Semantic Lexical Relationships & Figurative Discourse -->
+      <article class="academic-card p-5 sm:p-7">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-4">
+          <h3 class="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="sub-badge">4.5</span> Semantic Relationships, Multi-Word Chunks & Figurative Idioms
+          </h3>
+          <span class="text-[11px] font-semibold text-slate-500 font-mono-ling">Lexical Semantics</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs sm:text-sm text-slate-700">
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">1. Synonyms & Antonyms</strong>
+            <p class="text-slate-600 text-xs leading-relaxed mb-1">
+              <strong>Synonyms:</strong> Words sharing near-equivalent denotations (e.g., <em>enormous / gigantic</em>). True absolute synonyms are rare due to differing registers!
+            </p>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              <strong>Antonyms:</strong> Relational opposites (e.g., <em>hot / cold</em>, <em>buy / sell</em>, <em>alive / dead</em>).
+            </p>
+          </div>
+
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">2. Homophones vs. Homographs</strong>
+            <p class="text-slate-600 text-xs leading-relaxed mb-1">
+              • <strong>Homophones:</strong> Identical sound, differing spelling & meaning (<em>sun / son</em>, <em>sea / see</em>, <em>write / right</em>).
+            </p>
+            <p class="text-slate-600 text-xs leading-relaxed mb-1">
+              • <strong>Homographs:</strong> Identical spelling, differing sound & meaning (<em>lead /liːd/ (guide) vs. lead /led/ (metal)</em>).
+            </p>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              • <strong>Homonyms:</strong> Identical sound AND spelling, differing meaning (<em>bank (river) vs. bank (money)</em>).
+            </p>
+          </div>
+
+          <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50">
+            <strong class="text-slate-900 block font-bold text-xs uppercase mb-1">3. Phrasal Verbs & Collocations</strong>
+            <p class="text-slate-600 text-xs leading-relaxed mb-1">
+              • <strong>Phrasal Verbs:</strong> Idiomatic verb + particle combinations (<em>give up, look after, carry out</em>).
+            </p>
+            <p class="text-slate-600 text-xs leading-relaxed mb-1">
+              • <strong>Idioms:</strong> Metaphorical expressions whose meaning cannot be deduced literally (<em>"break a leg", "piece of cake"</em>).
+            </p>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              • <strong>Collocations:</strong> Natural habitual pairings of words (<em>fast food</em> NOT <em>quick food</em>; <em>make an effort</em> NOT <em>do an effort</em>).
+            </p>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- PRACTICUM & INTERNAL ASSESSMENT ARCHITECTURE (15 MARKS)                                   -->
+    <!-- ========================================================================================= -->
+    <section id="practicum" class="compact-callout bg-slate-900 text-white rounded-2xl p-6 sm:p-8 mb-8 shadow-xs">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3 mb-5">
+        <div>
+          <h3 class="text-sm sm:text-base font-bold font-display text-sky-300 uppercase tracking-wide">
+            Paper S1.5 Continuous Internal Assessment Blueprint
+          </h3>
+          <p class="text-xs text-slate-400">Total: $15\text{ Internal Marks}$ • Practical Verification, Material Design & Profile Submission</p>
+        </div>
+        <span class="text-xs bg-slate-800 border border-slate-700 px-3 py-1 rounded text-slate-300 font-mono-ling">
+          Session 2026
+        </span>
+      </div>
+
+      <!-- Mark Allocation Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-center text-xs mb-5">
+        <div class="bg-slate-800/80 border border-slate-700 rounded-xl p-3.5">
+          <span class="block text-slate-400 text-xs mb-1">Practicum Tasks & Individual Profile Submission</span>
+          <span class="text-lg font-bold text-sky-300 font-display font-mono-ling">$10\text{ Marks}$</span>
+          <span class="text-[11px] text-slate-400 block mt-1">LSRW Material Design + Reflective Journals</span>
+        </div>
+        <div class="bg-slate-800/80 border border-slate-700 rounded-xl p-3.5">
+          <span class="block text-slate-400 text-xs mb-1">Institutional Written Unit Test</span>
+          <span class="text-lg font-bold text-sky-300 font-display font-mono-ling">$5\text{ Marks}$</span>
+          <span class="text-[11px] text-slate-400 block mt-1">Evaluates Theoretical & Linguistic Mastery</span>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-4 text-xs text-slate-300 space-y-3">
+        <div>
+          <strong class="text-white block uppercase tracking-wider text-xs mb-1.5 font-display">Prescribed Practicum Assignment Tasks:</strong>
+          <ul class="space-y-2 list-disc pl-4 text-slate-400 text-xs">
+            <li><strong>LSRW Material Design Workshop ($5\text{ Marks}$):</strong> Design, fabricate, and demonstrate innovative, zero-cost teaching-learning materials (TLMs) engineered specifically to develop Listening, Speaking, and Reading comprehension in primary school learners.</li>
+            <li><strong>Textbook Lexicon & Phonics Audit ($5\text{ Marks}$):</strong> Collect sample passages from Class 1 to 5 SCERT English textbooks; categorize words into open vs. closed classes; construct minimal pair phonetic contrast cards to eliminate mother-tongue phonetic interference.</li>
+            <li><strong>Cumulative Trainee Portfolio:</strong> Compile an organized individual profile documenting all classroom spoken dialogues, dramatic scripts, reading discourse evaluations, and phonetic charts across the semester.</li>
+            <li><strong>Reflective Journal:</strong> Maintain a continuous personal log documenting authentic pedagogical encounters, vocabulary breakthroughs, and self-efficacy growth.</li>
+          </ul>
+        </div>
+
+        <div class="border-t border-slate-800 pt-3">
+          <strong class="text-sky-300 block uppercase tracking-wider text-xs mb-1 font-display">School Internship Linkage (SIP-I - 2 Weeks):</strong>
+          <p class="leading-relaxed text-slate-400 text-xs">
+            During School Internship-I, student-teachers observe children's spontaneous oral English attempts, analyze reading errors using Kenneth Goodman's miscue analysis framework, construct an active "Word Wall" inside the primary classroom, and compile an analytical observation report countersigned by the school head teacher.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DOCUMENT FOOTER ==================== -->
+    <footer class="pt-6 border-t border-slate-200 text-center text-xs text-slate-500 space-y-2">
+      <div class="flex items-center justify-center gap-2 font-bold text-slate-800">
+        <span>Paper S1.5 Master Study Notes</span>
+        <span>•</span>
+        <span class="text-sky-700 font-semibold">Curriculum Session 2026</span>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-2 font-medium text-slate-600">
+        <span>Made with ❤️ by <strong class="text-slate-900 font-bold">Sayeem Sadik</strong></span>
+        <span>•</span>
+        <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-sky-700 hover:underline font-mono-ling">
+          https://leoaristocrat.eu.cc
+        </a>
+      </div>
+
+      <div class="text-[11px] text-slate-400">
+        All Rights Safeguarded 🛡️ • Comprehensive English Language Proficiency Monograph
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- KaTeX Auto-Render Initialization -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

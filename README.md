@@ -79,3 +79,5 @@ The nine supplied HTML files are preserved in `public/study-notes/`, with Markdo
 `coversUnits` associates whole-course notes with all corresponding unit pages and filters. `htmlFile` enables the isolated embedded reader, full-tab reading and original HTML download. Files retain their original external Tailwind/KaTeX/font dependencies. `publicationBasis: owner-supplied` records the owner's explicit request to publish supplied AI-generated material; it does not assert academic review. Unrequested AI drafts still require `reviewedBy` before publication.
 
 Study-note downloads now use the supplied PDF files in `public/downloads/`. Each resource has separate `htmlFile` (web reader) and `pdf` (download) fields. The full-screen HTML also links to the matching PDF.
+
+Detailed Notes are available for all nine courses in `public/detailed-notes/`, with matching resource records and all 37 unit links. Their HTML files are preserved as supplied. No detailed-note PDFs have been supplied yet; the existing Study Notes PDF downloads remain separate.
