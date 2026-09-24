@@ -13,6 +13,7 @@ publicationBasis: "owner-supplied"
 source: "Study notes by Sayeem Sadik / Leo Aristocrat."
 updatedDate: "2026-09-24"
 publishedDate: "2026-09-24"
+pdf: "/downloads/s1-2-study-notes.pdf"
 htmlFile: "/study-notes/s1-2.html"
 difficulty: "Core"
 ---
