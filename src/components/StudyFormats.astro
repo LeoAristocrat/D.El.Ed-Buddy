@@ -2,4 +2,4 @@
 import {resourceTypes} from '../data/site';
 const {course,unit}=Astro.props;
 ---
-<div class="format-grid">{resourceTypes.map(type=><a href={`/materials/?course=${course||''}&unit=${unit||''}&type=${encodeURIComponent(type)}`}><span>{type}</span><span aria-hidden="true">↗</span></a>)}</div><p class="small muted">Study Notes are available for all nine subjects. Detailed Notes and one-page unit Infographics will be added separately.</p>
+<div class="format-grid">{resourceTypes.map(type=><a href={`/materials/?course=${course||''}&unit=${unit||''}&type=${encodeURIComponent(type)}`}><span>{type}</span><span aria-hidden="true">↗</span></a>)}</div>

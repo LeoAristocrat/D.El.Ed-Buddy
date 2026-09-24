@@ -6,8 +6,8 @@ course: "s1-6"
 unit: 2
 semester: 1
 syllabusVersion: "2024"
-author: "AI-assisted draft for Sayeem Sadik"
-origin: "AI-assisted"
+author: "D.El.Ed Buddy draft"
+origin: "Student Resource"
 status: "review"
 source: "SCERT Assam, Revised Curriculum-Syllabus 2024, mode of transaction in S1.6, printed pages 18–19 (PDF pages 29–30); unit 2 topic 2.4 on PDF page 31."
 sourcePage: 29
