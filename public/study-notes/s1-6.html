@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper S1.6: Pedagogy of Mathematics - I - Master Notes (2026)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Fredoka, Plus Jakarta Sans, Caveat, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- KaTeX CDN for crisp, textbook-grade mathematical formula rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0b1329;
+      color: #0f172a;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .font-doodle {
+      font-family: 'Fredoka', cursive, sans-serif;
+    }
+
+    .font-hand {
+      font-family: 'Caveat', cursive;
+    }
+
+    .font-mono-math {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Comic Neo-Brutalist Card Shadows & Solid Borders */
+    .comic-box {
+      border: 2.5px solid #0f172a;
+      box-shadow: 4px 4px 0px #0f172a;
+      border-radius: 12px;
+      background-color: #ffffff;
+    }
+
+    .comic-box-sm {
+      border: 2px solid #0f172a;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+      border-radius: 8px;
+      background-color: #ffffff;
+    }
+
+    /* Vibrant Circular Number Badges */
+    .badge-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 9999px;
+      border: 2px solid #0f172a;
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 12px;
+      box-shadow: 1.5px 1.5px 0px #0f172a;
+      flex-shrink: 0;
+    }
+
+    /* Adhesive Tape Pin Effect */
+    .tape-pin {
+      position: relative;
+    }
+    .tape-pin::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      left: 20%;
+      width: 44px;
+      height: 14px;
+      background: rgba(254, 240, 138, 0.95);
+      border: 1px dashed rgba(180, 83, 9, 0.6);
+      transform: rotate(-3deg);
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+      z-index: 10;
+    }
+
+    /* 3D Pushpin Graphic */
+    .pushpin-red {
+      position: absolute;
+      top: -6px;
+      right: 12px;
+      width: 14px;
+      height: 14px;
+      background: radial-gradient(circle at 30% 30%, #ef4444, #991b1b);
+      border: 1.5px solid #0f172a;
+      border-radius: 50%;
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.35);
+      z-index: 20;
+    }
+
+    /* Document Envelope */
+    .doc-container {
+      max-width: 1040px;
+      margin: 24px auto;
+      padding: 36px 32px;
+      background: #fafaf9;
+      background-image: radial-gradient(#cbd5e1 0.85px, transparent 0.85px);
+      background-size: 12px 12px;
+      border: 3.5px solid #0f172a;
+      box-shadow: 8px 10px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 20px;
+      position: relative;
+    }
+
+    /* Custom Table Styling */
+    .comic-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 2px solid #0f172a;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #ffffff;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+    }
+    .comic-table th, .comic-table td {
+      border-bottom: 1.5px solid #e2e8f0;
+      border-right: 1.5px solid #e2e8f0;
+      padding: 10px 14px;
+    }
+    .comic-table th:last-child, .comic-table td:last-child {
+      border-right: none;
+    }
+    .comic-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Column Math Calculation Display */
+    .math-column-calc {
+      display: inline-block;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      font-size: 1.05rem;
+      line-height: 1.35;
+      text-align: right;
+      padding: 10px 18px;
+      background-color: #ffffff;
+      border: 2px solid #0f172a;
+      border-radius: 8px;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+    }
+    .math-calc-line {
+      border-bottom: 2px solid #0f172a;
+      margin-bottom: 3px;
+      padding-bottom: 2px;
+    }
+
+    /* KaTeX Tuning */
+    .katex {
+      font-size: 1.05em !important;
+    }
+    .katex-display {
+      margin: 0.35em 0 !important;
+    }
+
+    /* Print & PDF Calibration */
+    .avoid-break {
+      break-inside: avoid !important;
+      page-break-inside: avoid !important;
+    }
+
+    .force-page-break {
+      break-before: page !important;
+      page-break-before: always !important;
+    }
+
+    @media print {
+      body {
+        background-color: transparent !important;
+        padding: 0 !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .doc-container {
+        margin: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        background: transparent !important;
+      }
+      .comic-box {
+        box-shadow: none !important;
+        border: 2px solid #0f172a !important;
+      }
+    }
+  </style>
+</head>
+<body class="selection:bg-amber-200 selection:text-amber-900 pb-16">
+
+  <!-- ==================== SCREEN-ONLY QUICK ACTION BAR ==================== -->
+  <header class="no-print sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b-2 border-slate-700 px-4 py-2.5 shadow-xl">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand Badge -->
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 bg-gradient-to-tr from-amber-400 via-orange-500 to-rose-600 rounded-xl flex items-center justify-center text-white font-black shadow-md border-2 border-slate-900 text-sm font-doodle">
+          S1.6
+        </div>
+        <div>
+          <h1 class="text-white text-xs sm:text-sm font-extrabold flex items-center gap-2 tracking-tight">
+            Pedagogy of Mathematics - I
+            <span class="text-[10px] bg-amber-500/25 text-amber-300 border border-amber-500/40 px-2 py-0.5 rounded-full font-bold">50 Marks (35 Ext + 15 Int) • 2 Credits</span>
+          </h1>
+          <p class="text-[11px] text-slate-400">Curriculum Session 2026 • Made with ❤️ by Sayeem Sadik</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex items-center flex-wrap gap-2">
+        <a href="#unit-1" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30 hover:bg-amber-500/30 transition">
+          U1: FLN & Early Math
+        </a>
+        <a href="#unit-2" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 hover:bg-indigo-500/30 transition">
+          U2: Approaches (ELPS)
+        </a>
+        <a href="#unit-3" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/30 transition">
+          U3: Core Competencies
+        </a>
+        <a href="#unit-4" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-sky-500/20 text-sky-300 border border-sky-500/30 hover:bg-sky-500/30 transition">
+          U4: 360° PARAKH Assessment
+        </a>
+        <a href="#unit-5" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-rose-500/20 text-rose-300 border border-rose-500/30 hover:bg-rose-500/30 transition">
+          U5: 5 Great Mathematicians
+        </a>
+        <a href="#assessment-blueprint" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-purple-500/20 text-purple-300 border border-purple-500/30 hover:bg-purple-500/30 transition">
+          Practicum & SIP
+        </a>
+        <button onclick="window.print()" class="flex items-center gap-1.5 bg-amber-400 hover:bg-amber-300 text-slate-950 text-xs font-extrabold px-3.5 py-1.5 rounded-lg transition shadow border border-slate-900 font-doodle">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          Print / Save PDF (A4)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN DOCUMENT ENVELOPE ==================== -->
+  <main class="doc-container">
+
+    <!-- ==================== HERO HEADER ==================== -->
+    <header class="avoid-break mb-8 relative">
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+        
+        <!-- Left Tape Ribbon -->
+        <div class="tape-pin bg-amber-100 border-2 border-slate-900 px-3.5 py-1 rounded-lg transform -rotate-2 shadow-xs">
+          <span class="pushpin-red"></span>
+          <div class="text-[9px] font-black uppercase tracking-wider text-amber-950">D.El.Ed First Semester • Paper S1.6</div>
+          <div class="text-sm font-doodle font-bold text-slate-900 leading-tight">Pedagogy of Mathematics - I</div>
+          <div class="text-[9px] font-bold text-amber-800">Foundational Numeracy, Concrete Models & Mathematical Discourse • 2026 Session</div>
+        </div>
+
+        <!-- Right Quick Stats Badges -->
+        <div class="flex items-center gap-2">
+          <div class="comic-box-sm bg-rose-100 px-3 py-1 text-center transform rotate-1">
+            <div class="text-[8px] font-black text-rose-700 uppercase tracking-tight">Exam Breakdown</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">35 Ext + 15 Int</div>
+            <div class="text-[8px] text-slate-600 font-bold">Total: 50 Marks</div>
+          </div>
+          <div class="comic-box-sm bg-amber-100 px-3 py-1 text-center transform -rotate-1">
+            <div class="text-[8px] font-black text-amber-700 uppercase tracking-tight">Course Load</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">2 Credits</div>
+            <div class="text-[8px] text-slate-600 font-bold">50 Study Hours</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Main Title Box -->
+      <div class="comic-box bg-gradient-to-r from-amber-50 via-orange-50 to-yellow-50 p-5 text-center relative overflow-hidden">
+        <div class="inline-block relative">
+          <span class="absolute -inset-1.5 bg-amber-200 rounded-lg transform -rotate-1 border-2 border-slate-900 -z-10 shadow-xs"></span>
+          <h1 class="text-xl sm:text-3xl font-doodle font-black uppercase text-slate-900 tracking-tight px-4 py-1">
+            Pedagogy of Mathematics - I
+          </h1>
+        </div>
+        <p class="text-xs sm:text-sm font-bold text-slate-700 mt-2 max-w-2xl mx-auto leading-relaxed">
+          Comprehensive Study Notes on Foundational Numeracy (FLN), Piaget's Epistemology, ELPS & Pedagogical Models, Pre-Number Concepts, Core Competency Architecture, 360° PARAKH Assessment, and Master Mathematicians
+        </p>
+
+        <!-- Author Ribbon -->
+        <div class="mt-4 pt-3 border-t-2 border-dashed border-slate-300 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-1.5 font-bold text-slate-800">
+            <span>Made with ❤️ by</span>
+            <span class="text-amber-950 font-black underline decoration-amber-500 decoration-2">Sayeem Sadik</span>
+            <span class="text-slate-400">•</span>
+            <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-brand-700 hover:underline font-mono-math text-indigo-700 font-extrabold">
+              leoaristocrat.eu.cc
+            </a>
+          </div>
+          <div class="inline-flex items-center gap-1.5 font-mono-math font-bold text-[10.5px] bg-white border border-slate-900 rounded-md px-2 py-0.5 shadow-2xs">
+            <span class="w-2 h-2 rounded-full bg-amber-500"></span>
+            Curriculum Session 2026
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==================== TABLE OF CONTENTS ==================== -->
+    <nav class="avoid-break comic-box bg-amber-50/90 p-4 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-900 pb-2 mb-3">
+        <div class="flex items-center gap-2">
+          <span class="text-base">📑</span>
+          <h2 class="text-xs font-doodle font-bold uppercase tracking-wider text-amber-950">
+            Syllabus Blueprint & Marks Allocation
+          </h2>
+        </div>
+        <span class="text-[10px] font-bold bg-amber-200 border border-amber-400 text-amber-950 px-2 py-0.5 rounded-full">
+          5 Core Units • 35 External + 15 Internal Marks
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-2.5 text-xs">
+        <a href="#unit-1" class="comic-box-sm p-2.5 hover:bg-amber-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-amber-950 text-sm">Unit 1</strong>
+            <span class="bg-amber-100 border border-amber-300 text-amber-900 font-bold px-1.5 py-0.5 rounded text-[10px]">8 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Intro to Early Math & FLN</div>
+          <div class="text-[10px] text-slate-500">NIPUN Mission, Foundational Numeracy, Learning Outcomes</div>
+        </a>
+
+        <a href="#unit-2" class="comic-box-sm p-2.5 hover:bg-indigo-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-indigo-950 text-sm">Unit 2</strong>
+            <span class="bg-indigo-100 border border-indigo-300 text-indigo-900 font-bold px-1.5 py-0.5 rounded text-[10px]">7 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Principles & Approaches</div>
+          <div class="text-[10px] text-slate-500">Piaget, Error Diagnostics, ELPS, REACT, 4-Block</div>
+        </a>
+
+        <a href="#unit-3" class="comic-box-sm p-2.5 hover:bg-emerald-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-emerald-950 text-sm">Unit 3</strong>
+            <span class="bg-emerald-100 border border-emerald-300 text-emerald-900 font-bold px-1.5 py-0.5 rounded text-[10px]">10 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Core Math Components</div>
+          <div class="text-[10px] text-slate-500">Pre-Number, Place Value, Spatial Shapes, Data</div>
+        </a>
+
+        <a href="#unit-4" class="comic-box-sm p-2.5 hover:bg-sky-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-sky-950 text-sm">Unit 4</strong>
+            <span class="bg-sky-100 border border-sky-300 text-sky-900 font-bold px-1.5 py-0.5 rounded text-[10px]">5 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Assessment in Math</div>
+          <div class="text-[10px] text-slate-500">PARAKH, 360° Evaluation, Holistic Report Card</div>
+        </a>
+
+        <a href="#unit-5" class="comic-box-sm p-2.5 hover:bg-rose-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-rose-950 text-sm">Unit 5</strong>
+            <span class="bg-rose-100 border border-rose-300 text-rose-900 font-bold px-1.5 py-0.5 rounded text-[10px]">5 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Great Mathematicians</div>
+          <div class="text-[10px] text-slate-500">Aryabhata, Brahmagupta, Ramanujan, Euclid, Pythagoras</div>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 1: INTRODUCTION TO PREPARATIONAL AND FOUNDATIONAL MATHEMATICS                         -->
+    <!-- ========================================================================================= -->
+    <section id="unit-1" class="mb-10">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-amber-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-amber-500">1</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-amber-950">
+              Unit 1: Introduction to Preparational & Foundational Mathematics
+            </h2>
+            <p class="text-[11px] text-amber-800 font-semibold">FLN Imperatives, Meaning of Foundational Numeracy, Early Math Domains & Competency Learning Outcomes</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-amber-950 shadow-2xs">
+          Weightage: 8 Marks
+        </span>
+      </div>
+
+      <!-- 1.1 & 1.2 Understanding & Importance of FLN -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-amber-700">1.1 & 1.2</span> Foundational Literacy & Numeracy (FLN): The National Mission
+          </h3>
+          <span class="text-[10px] bg-amber-100 text-amber-900 border border-amber-300 px-2 py-0.5 rounded font-bold">
+            NEP 2020 & NIPUN Bharat Mandate
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          The National Education Policy (NEP 2020) identifies universal acquisition of <strong>Foundational Literacy and Numeracy (FLN)</strong> by Grade 3 as an urgent, non-negotiable national priority. Empirical research in cognitive neuro-development shows that when children fail to acquire basic reading comprehension and number sense by the age of 8 (Grade 3), they suffer from a severe <em>cumulative learning deficit</em>. They can no longer "learn to read and calculate," rendering future curricular learning in science, social studies, and advanced mathematics largely inaccessible.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-amber-500">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">🎯 The Learning Crisis</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">National surveys (NAS, ASER) revealed that over 5 crore elementary students could not perform simple 2-digit subtraction with borrowing or identify two-digit numbers, creating a severe foundation gap.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-emerald-500">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">🌟 NIPUN Bharat Mission</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Launched under Samagra Shiksha: <em>National Initiative for Proficiency in Reading with Understanding and Numeracy</em> sets clear grade-wise milestones (Lakshyas) to be achieved across India.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-sky-500">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">📈 Economic & Cognitive Dividend</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Mastering foundational numeracy unlocks higher-order reasoning, logical problem-solving, algorithmic thinking, and vocational productivity required in a 21st-century knowledge economy.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1.3 & 1.4 Meaning and Importance of Foundational Numeracy (FN) -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-amber-700">1.3 & 1.4</span> Deconstructing Foundational Numeracy (FN)
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded">
+            Number Sense vs. Mechanical Calculation
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          <strong>Foundational Numeracy (FN)</strong> is <em>not</em> the ability to mechanically chant multiplication tables or copy algorithmic additions from a blackboard. It is the ability to reason, solve quantitative problems in daily life, and comfortably navigate numbers, shapes, and measurements. It represents an integrated psychological ecosystem anchored in <strong>Number Sense</strong>:
+        </p>
+
+        <!-- Comparative Table: Rote Math vs Number Sense -->
+        <div class="avoid-break overflow-x-auto my-2">
+          <table class="comic-table text-xs sm:text-sm">
+            <thead class="bg-amber-100 text-amber-950 font-bold border-b-2 border-slate-900 text-[11px] uppercase">
+              <tr>
+                <th class="w-1/4">Key Dimension</th>
+                <th class="w-3/8 bg-rose-50 text-rose-950">Traditional Rote Computation (যান্ত্ৰিক গণনা)</th>
+                <th class="w-3/8 bg-emerald-50 text-emerald-950">True Foundational Numeracy (সংখ্যা বোধ)</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Cognitive Goal</td>
+                <td>Memorizing procedures, facts, and steps without understanding the underlying logic.</td>
+                <td>Intuitive understanding of numbers, their relationships, and multiple decomposition pathways.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Handling Addition (e.g., $18 + 7$)</td>
+                <td>Stacking numbers vertically in columns; struggling if carry-over rules are forgotten.</td>
+                <td>Flexible mental bridging: $18 + 2 = 20$, then $20 + 5 = 25$; or $10 + (8 + 7) = 25$.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Contextual Application</td>
+                <td>Fails to translate textbook sums into real-life buying, selling, or estimation.</td>
+                <td>Effortlessly estimates change in Indian Rupees ($\text{₹}$) at the local shop, compares vegetable prices, and measures distances.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Affective State</td>
+                <td>Causes acute <em>mathematics anxiety</em> (Math Phobia) and feeling of helplessness.</td>
+                <td>Builds mathematical confidence, joyful curiosity, and persistent problem-solving drive.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 1.5 & 1.6 Major Aspects of Early Math & Learning Outcomes -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-amber-700">1.5 & 1.6</span> Major Aspects of Early Mathematics & Competency Learning Outcomes
+          </h3>
+          <span class="text-[10px] bg-sky-100 text-sky-900 border border-sky-300 font-bold px-2 py-0.5 rounded">
+            NCF-FS 2022 & NIPUN Lakshya
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">1. Pre-Number Concepts</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Matching, sorting, classifying, comparing size/length, ordering, and establishing one-to-one correspondence before symbols.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">2. Numbers & Operations</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Counting, subitizing, place value understanding ($10\text{ ones} = 1\text{ ten}$), addition, subtraction, multiplication as repeated addition.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">3. Shapes & Spatial Thinking</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Identifying 2D and 3D shapes in the environment, spatial language (above, below, inside, outside), tangrams, and symmetry.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">4. Measurement & Money</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Transitioning from intuitive non-standard units (handspans, paces) to standard units for length, weight, volume, time, and money in Rupees ($\text{₹}$).</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">5. Patterns & Early Algebra</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Observing, extending, and creating repeating and growing patterns with beads, leaves, sounds, and numbers (such as $2, 4, 6, 8, \dots$).</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">6. Data Handling & Communication</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Collecting information, drawing simple pictographs, tallying objects, and orally articulating mathematical reasoning with peers.</p>
+          </div>
+        </div>
+
+        <!-- Learning Outcomes Box -->
+        <div class="comic-box-sm bg-amber-50 border-l-4 border-amber-600 p-2.5 text-xs text-amber-950 mt-2">
+          <strong>Understanding Learning Outcomes (LOs):</strong> An LO is an explicit, observable, and measurable statement of what a learner is expected to know, understand, and demonstrate after a learning experience. Unlike traditional syllabus completion ("covered Chapter 3"), LOs focus on masterable student competencies (e.g., <em>"Class 2 child can read and write numerals up to 99 and solve real-life addition problems up to 99 without carry-over"</em>).
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 2: PRINCIPLES AND APPROACHES FOR TEACHING MATHEMATICS AT FOUNDATIONAL STAGE           -->
+    <!-- ========================================================================================= -->
+    <section id="unit-2" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-indigo-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-indigo-600">2</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-indigo-950">
+              Unit 2: Principles & Pedagogical Approaches in Early Mathematics
+            </h2>
+            <p class="text-[11px] text-indigo-800 font-semibold">Piagetian Stages, Error Diagnostics, ELPS Model, REACT Framework & The 4-Block Approach</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-indigo-950 shadow-2xs">
+          Weightage: 7 Marks
+        </span>
+      </div>
+
+      <!-- 2.1 & 2.2 Learner Diversity & Piaget's Theory of Math Learning -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.1 & 2.2</span> Understanding the Individual Learner & Jean Piaget's Epistemology
+          </h3>
+          <span class="text-[10px] bg-indigo-50 text-indigo-900 border border-indigo-200 px-2 py-0.5 rounded font-bold">
+            Constructivist Engine
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Young children enter primary school with diverse informal mathematical knowledge rooted in their cultural home experiences. However, their cognitive apparatus processes mathematical reality very differently from adult minds. As Jean Piaget demonstrated, abstract mathematical logic cannot be transmitted verbally into a child's head; it must be constructed through physical actions on real objects:
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">1. Preoperational Stage (Ages 2–7)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Child relies on perceptual appearance (centration). If 5 counters are spread out, the child insists there are "more counters" because the row is longer. <strong>Irreversibility</strong> prevents mental back-tracking ($4 + 3 = 7$ implies $7 - 3 = 4$).</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">2. Conservation Milestone (~Ages 6–7)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">The vital watershed in math learning! Conservation of number, length, and mass means understanding that quantity remains unaltered despite physical rearrangements. Formal arithmetic fails before conservation matures.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">3. Concrete Operational (Ages 7–11)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Logical thought blossoms, but remains tied strictly to <strong>concrete, tangible objects</strong>. Abstract symbols ($x, y$, formulas) cause acute confusion unless preceded by physical manipulative experiences.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2.3 Role of Errors in Mathematics -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.3</span> Mathematical Errors as Windows into Children's Thinking
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded">
+            Error Diagnostic Pedagogy
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Traditional authoritarian teaching treats student errors as punishable mistakes or evidence of carelessness. Modern constructivist pedagogy views errors as <strong>valuable diagnostic windows</strong> revealing the child's internal alternative conceptual logic. Children rarely make random guesses; they often invent consistent, "buggy rules" when they lack underlying place-value understanding.
+        </p>
+
+        <!-- Side-by-Side Visual Comparison of the Error vs Correct Process -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 my-2">
+          
+          <!-- Box 1: The Child's Systematic Error Explained -->
+          <div class="comic-box-sm bg-rose-50/70 p-3 border-l-4 border-rose-600 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-rose-200 pb-1 mb-2">
+                <strong class="text-rose-950 font-doodle text-xs uppercase">Child's Systematic Misconception</strong>
+                <span class="text-[9px] bg-rose-200 text-rose-900 font-bold px-1.5 py-0.5 rounded">Buggy Rule</span>
+              </div>
+
+              <div class="flex items-center gap-3 my-2">
+                <!-- Erroneous Calculation Box -->
+                <div class="math-column-calc text-slate-900 bg-white">
+                  <div class="text-[10px] text-slate-500 font-mono-math">Tens &nbsp; Ones</div>
+                  <div>&nbsp; 5 &nbsp;&nbsp;&nbsp; 2</div>
+                  <div class="math-calc-line">− 2 &nbsp;&nbsp;&nbsp; 7</div>
+                  <div class="text-rose-700 font-black">&nbsp; 3 &nbsp;&nbsp;&nbsp; 5</div>
+                </div>
+
+                <div class="text-[11px] text-slate-700 leading-snug">
+                  <span class="text-rose-800 font-bold block mb-1">What went wrong in the child's mind?</span>
+                  In the <strong>Ones column</strong>, the problem requires subtracting $7$ from $2$ (which cannot be done with whole positive counters without borrowing).
+                  <br><br>
+                  Instead of regrouping from the Tens, the child invents a shortcut rule: <em>"Whenever subtracting, always take the smaller digit from the larger digit!"</em>
+                  <br>
+                  So they calculate: $7 - 2 = 5$.
+                </div>
+              </div>
+
+              <p class="text-[11px] text-slate-700 leading-tight mt-1 border-t border-rose-200 pt-1.5">
+                Next, in the <strong>Tens column</strong>, since they did not borrow, they compute $5 - 2 = 3$. 
+                <br>
+                <strong>Erroneous Answer:</strong> <span class="text-rose-700 font-bold">$35$</span> (Incorrect by $10$!).
+              </p>
+            </div>
+            <div class="mt-2 text-[10px] bg-rose-100 text-rose-950 font-bold p-1 rounded text-center">
+              Diagnosed Bug: "Smaller-from-Larger" Reversal (No Regrouping Schema)
+            </div>
+          </div>
+
+          <!-- Box 2: Correct Place-Value Regrouping & Constructivist Remediation -->
+          <div class="comic-box-sm bg-emerald-50/70 p-3 border-l-4 border-emerald-600 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-emerald-200 pb-1 mb-2">
+                <strong class="text-emerald-950 font-doodle text-xs uppercase">Correct Place-Value Regrouping</strong>
+                <span class="text-[9px] bg-emerald-200 text-emerald-900 font-bold px-1.5 py-0.5 rounded">Sound Understanding</span>
+              </div>
+
+              <div class="flex items-center gap-3 my-2">
+                <!-- Correct Calculation Display -->
+                <div class="math-column-calc text-slate-900 bg-white">
+                  <div class="text-[10px] text-slate-500 font-mono-math">Tens &nbsp; Ones</div>
+                  <div class="text-[10px] text-emerald-700 font-bold font-mono-math">&nbsp; (4) &nbsp;&nbsp; (12)</div>
+                  <div>&nbsp; 5 &nbsp;&nbsp;&nbsp; 2</div>
+                  <div class="math-calc-line">− 2 &nbsp;&nbsp;&nbsp; 7</div>
+                  <div class="text-emerald-800 font-black">&nbsp; 2 &nbsp;&nbsp;&nbsp; 5</div>
+                </div>
+
+                <div class="text-[11px] text-slate-700 leading-snug">
+                  <span class="text-emerald-900 font-bold block mb-1">Step-by-Step Regrouping:</span>
+                  1. You have $2$ ones and need to subtract $7$. Since $2 < 7$, you must borrow $1\text{ ten}$ from the $5\text{ tens}$.
+                  <br>
+                  2. $5\text{ tens}$ becomes $4\text{ tens}$.
+                  <br>
+                  3. The borrowed $1\text{ ten}$ is $10\text{ ones}$. Add to the $2\text{ ones}$: $10 + 2 = 12\text{ ones}$.
+                  <br>
+                  4. Now subtract in the Ones column: $12 - 7 = 5$.
+                  <br>
+                  5. In the Tens column: $4 - 2 = 2$.
+                </div>
+              </div>
+
+              <!-- Remediation Strategy -->
+              <div class="border-t border-emerald-200 pt-1.5 mt-1 text-[11px] text-slate-700">
+                <strong class="text-emerald-950 block font-doodle text-xs mb-0.5">Teacher's Constructivist Remediation:</strong>
+                <ul class="space-y-1 text-[10.5px] text-slate-600 list-disc pl-4">
+                  <li>Never force mechanical drilling of the algorithm 20 times in their notebook!</li>
+                  <li><strong>Use Bundles & Sticks:</strong> Give the child $5$ bundles of 10 matchsticks and $2$ loose sticks ($52$).</li>
+                  <li><strong>Prompt with a question:</strong> <em>"Can you give me 7 loose sticks? We only have 2 loose sticks on the desk. What can we do to one of our bundles of 10?"</em></li>
+                  <li>The child physically unties $1$ bundle into $10$ loose sticks, combines them with the $2$ ($10 + 2 = 12$), removes $7$, leaving $5$ loose sticks and $2$ bundles. Answer: $25$. The misconception disappears forever!</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-2 text-[10px] bg-emerald-100 text-emerald-950 font-bold p-1 rounded text-center">
+              Correct Answer: $52 - 27 = 25$ • Concrete Experience Resolves the Bug
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 2.4 Approaches of Teaching Foundational Mathematics -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.4</span> Innovative Pedagogical Frameworks for Early Mathematics
+          </h3>
+          <span class="text-[10px] bg-amber-100 text-amber-900 border border-amber-300 font-bold px-2 py-0.5 rounded">
+            ELPS, REACT & The 4-Block Model
+          </span>
+        </div>
+
+        <!-- Pamela Liebeck's ELPS Model -->
+        <div class="comic-box-sm bg-amber-50/70 p-3 mb-3">
+          <div class="flex items-center justify-between border-b border-amber-300 pb-1 mb-2">
+            <strong class="font-doodle text-amber-950 text-xs uppercase">
+              The Gold Standard: Pamela Liebeck's ELPS Approach ($E \to L \to P \to S$)
+            </strong>
+            <span class="text-[9px] bg-amber-200 text-amber-900 px-2 py-0.5 rounded font-bold">Universal Early Math Sequence</span>
+          </div>
+          <p class="text-xs text-slate-700 leading-relaxed mb-2">
+            Mathematical abstractions cannot be taught directly through abstract symbols. Children must travel through four sequential developmental stages:
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 text-xs">
+            <div class="bg-white border border-amber-300 rounded p-2 text-center">
+              <span class="badge-number bg-amber-600 mb-1">E</span>
+              <strong class="block font-doodle text-amber-950 text-xs">Experience</strong>
+              <span class="text-[10px] text-slate-600">Hands-on manipulation with concrete objects (pebbles, leaves, beads, sticks).</span>
+            </div>
+            <div class="bg-white border border-amber-300 rounded p-2 text-center">
+              <span class="badge-number bg-indigo-600 mb-1">L</span>
+              <strong class="block font-doodle text-indigo-950 text-xs">Spoken Language</strong>
+              <span class="text-[10px] text-slate-600">Describing the action in mother tongue: <em>"I had 3 mangoes and added 2 more"</em>.</span>
+            </div>
+            <div class="bg-white border border-amber-300 rounded p-2 text-center">
+              <span class="badge-number bg-sky-600 mb-1">P</span>
+              <strong class="block font-doodle text-sky-950 text-xs">Pictures</strong>
+              <span class="text-[10px] text-slate-600">Representing quantity through drawings, pictographs, or dot diagrams.</span>
+            </div>
+            <div class="bg-white border border-amber-300 rounded p-2 text-center">
+              <span class="badge-number bg-rose-600 mb-1">S</span>
+              <strong class="block font-doodle text-rose-950 text-xs">Symbols</strong>
+              <span class="text-[10px] text-slate-600">Writing abstract mathematical numerals and operational signs: $3 + 2 = 5$.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other Pedagogical Models Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 text-xs text-slate-700">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">1. REACT Approach (CORD)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">
+              • <strong>R</strong>elating (connecting to life experiences)<br>
+              • <strong>E</strong>xperiencing (hands-on exploration)<br>
+              • <strong>A</strong>pplying (using in daily context)<br>
+              • <strong>C</strong>ooperating (peer learning)<br>
+              • <strong>T</strong>ransferring (novel problem-solving).
+            </p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">2. The 4-Block Approach</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">
+              • <strong>Block 1:</strong> Oral Math Talk & Number Sense (15 min)<br>
+              • <strong>Block 2:</strong> Core Skill Teaching & Procedures (20 min)<br>
+              • <strong>Block 3:</strong> Math Games & Activity Corners (20 min)<br>
+              • <strong>Block 4:</strong> Guided Problem Solving & Journaling (15 min).
+            </p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">3. Gradual Release of Responsibility (GRR)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">
+              • <strong>"I Do"</strong> (Teacher explicit modeling)<br>
+              • <strong>"We Do"</strong> (Guided collaborative practice)<br>
+              • <strong>"You Do Together"</strong> (Peer group activity)<br>
+              • <strong>"You Do Alone"</strong> (Independent confident mastery).
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-2 text-[11px] bg-sky-50 border border-sky-300 rounded p-2 text-sky-950">
+          <strong>Art, Toy & Sports Integration:</strong> Using native bamboo toys, weaving patterns, seed counting games, Hopscotch (Ek-dukkhi) for number line jumps, and Rangoli geometric symmetry to eliminate math phobia!
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 3: COMPONENTS OF MATHEMATICS LEARNING AT FOUNDATIONAL STAGE                           -->
+    <!-- ========================================================================================= -->
+    <section id="unit-3" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-emerald-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-emerald-600">3</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-emerald-950">
+              Unit 3: Core Components of Mathematics Learning
+            </h2>
+            <p class="text-[11px] text-emerald-800 font-semibold">Pre-Number Logic, Number Sense & Operations, Spatial Geometry, Measurement Progression & Data</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-emerald-950 shadow-2xs">
+          Weightage: 10 Marks
+        </span>
+      </div>
+
+      <!-- 3.1 Pre-Number Concepts -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">3.1</span> Pre-Number Concepts: The Cognitive Preconditions for Counting
+          </h3>
+          <span class="text-[10px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-2 py-0.5 rounded-full">
+            Foundational Pre-Requisite
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          A common mistake in elementary schooling is forcing children to memorize digits ($1, 2, 3, \dots$) on day one. Before symbols make cognitive sense, children must master six fundamental <strong>Pre-Number Concepts</strong> through physical object play:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 text-xs text-slate-700">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-0.5">1. Matching (মিল কৰা)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Pairing identical or complementary items (e.g., matching a cup to a saucer, a lock to a key, or a leaf to its outline).</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-0.5">2. Sorting & Classification (শ্ৰেণীবিভাজন)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Grouping a collection of varied objects by a single common attribute: color (all red buttons), size (big leaves), or shape.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-0.5">3. Comparing (তুলনা)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Developing perceptual vocabulary: big/small, heavy/light, long/short, more/less, tall/short, thick/thin.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-0.5">4. Ordering / Seriation (ক্ৰমিক সজ্জা)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Arranging a series of objects in ascending or descending sequence based on graded magnitude (e.g., arranging 5 sticks from shortest to longest).</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-0.5">5. One-to-One Correspondence (একৈক সম্পৰ্ক)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Pairing each member of one set with exactly one member of another set (e.g., matching 1 bottle to 1 cap). The biological cornerstone of true counting!</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-0.5">6. Pattern Recognition (বিন্যাস চিনাক্তকৰণ)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Identifying repeating rhythmic visual orders (such as circle, triangle, circle, triangle...), forming the cognitive roots of early algebraic thought.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.2 Numbers and Operations on Numbers -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">3.2</span> Numbers, Counting Nuances & The Four Basic Operations
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded">
+            Number Architecture
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 mb-3">
+          
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">Counting Principles & Subitizing</strong>
+            <ul class="space-y-1 text-xs text-slate-600">
+              <li>• <strong>Subitizing:</strong> Instantly perceiving the quantity of a small group of items without counting (e.g., seeing 5 dots on a die and shouting "five!").</li>
+              <li>• <strong>Stable Order Principle:</strong> Number words must always be recited in the same fixed order ($1, 2, 3, 4, \dots$).</li>
+              <li>• <strong>Cardinality Principle:</strong> The final number name counted represents the total quantity of the entire set!</li>
+              <li>• <strong>Abstraction & Order Irrelevance:</strong> Any collection can be counted regardless of object type or spatial arrangement.</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">Place Value Architecture & Operations</strong>
+            <ul class="space-y-1 text-xs text-slate-600">
+              <li>• <strong>Place Value:</strong> Built using bundle-and-stick methods or Base-10 blocks ($10\text{ units} = 1\text{ ten}$; $10\text{ tens} = 1\text{ hundred}$).</li>
+              <li>• <strong>Addition:</strong> Combining sets or augmenting a quantity ($5 + 3 = 8$).</li>
+              <li>• <strong>Subtraction:</strong> Taking away, finding the missing part, or comparison/difference ($8 - 3 = 5$).</li>
+              <li>• <strong>Multiplication:</strong> Conceptualized as <strong>repeated addition</strong> ($3 \times 4 = 4 + 4 + 4 = 12$) or arrays.</li>
+              <li>• <strong>Division:</strong> Conceptualized as <strong>equal sharing</strong> ($12 \div 3 = 4$) or repeated subtraction.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 3.3 to 3.7 Shapes, Measurement, Patterns & Data Handling -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">3.3 – 3.7</span> Spatial Geometry, Measurement Progression, Patterns & Data
+          </h3>
+          <span class="text-[10px] bg-indigo-100 text-indigo-900 border border-indigo-300 font-bold px-2 py-0.5 rounded">
+            Integrated Mathematical Literacy
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700">
+          <div class="comic-box-sm bg-indigo-50/60 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">📐 Shapes & Space</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Exploring 3D solids (boxes, balls, cans) before abstract 2D flat shapes (squares, circles). Playing with the ancient 7-piece <strong>Tangram</strong> puzzle and creating floor tessellations.</p>
+          </div>
+
+          <div class="comic-box-sm bg-amber-50/60 p-2.5">
+            <strong class="text-amber-950 block font-doodle text-xs mb-1">📏 Measurement Arc</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Stage 1: Direct comparison (holding sticks side-by-side). Stage 2: Non-standard units (handspans, footsteps, cups of water). Stage 3: Realizing need for uniform standard metric units (meters, centimeters, kilograms, liters) and currency ($\text{₹}$).</p>
+          </div>
+
+          <div class="comic-box-sm bg-purple-50/60 p-2.5">
+            <strong class="text-purple-950 block font-doodle text-xs mb-1">🔁 Patterns & Algebra</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Progressing from repeating sensory patterns (clap, tap, clap, tap) to geometric growth patterns and numerical rules ($5, 10, 15, 20, \dots$). Patterns cultivate predictive mathematical reasoning.</p>
+          </div>
+
+          <div class="comic-box-sm bg-rose-50/60 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">📊 Data & Communication</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Children collect favorite fruit data of peers, use concrete tally marks, create colorful visual <strong>pictographs</strong>, and orally articulate inferences: <em>"Most classmates love mangoes!"</em></p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 4: ASSESSMENT IN FOUNDATIONAL STAGE                                                  -->
+    <!-- ========================================================================================= -->
+    <section id="unit-4" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-sky-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-sky-600">4</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-sky-950">
+              Unit 4: Assessment in Foundational Mathematics
+            </h2>
+            <p class="text-[11px] text-sky-800 font-semibold">Formative Assessment Principles, 360° Multidimensional PARAKH Model & The Holistic Progress Card (HPC)</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-sky-950 shadow-2xs">
+          Weightage: 5 Marks
+        </span>
+      </div>
+
+      <!-- 4.1 to 4.3 Criteria for Assessment & PARAKH 360° Framework -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-sky-700">4.1 – 4.3</span> Criteria for Assessment, PARAKH & The Holistic Progress Card (HPC)
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded">
+            Zero Formal Tests
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          In early mathematics, formal sit-down pen-and-paper examinations, percentage rankings, and pass-fail marks are strictly prohibited under NEP 2020 and NCF-FS 2022. Assessment is conducted <strong>for learning</strong> and <strong>as learning</strong>, seamlessly woven into joyful daily classroom interactions:
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700 mb-3">
+          
+          <!-- PARAKH Architecture -->
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2">
+              PARAKH 360° Multidimensional Assessment Model
+            </h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-2">
+              <strong>PARAKH</strong> (<em>Performance Assessment, Review, and Analysis of Knowledge for Holistic Development</em>) shifts evaluation away from rote recall toward competency mastery by integrating multiple feedback voices:
+            </p>
+            <ul class="space-y-1.5 text-xs text-slate-700">
+              <li>• <strong>Self-Assessment:</strong> The child reflects on math activities using smiley stamps (e.g., <em>"I loved building shapes with sticks today!"</em>).</li>
+              <li>• <strong>Peer Assessment:</strong> Collaborative group observation during math games, puzzles, and pattern building.</li>
+              <li>• <strong>Teacher Observation:</strong> Continuous narrative logs tracking student milestones, spatial vocabulary, and mathematical perseverance.</li>
+              <li>• <strong>Parental Feedback:</strong> Insights into child application of numbers and currency change in home tasks.</li>
+            </ul>
+          </div>
+
+          <!-- Holistic Progress Card (HPC) -->
+          <div class="comic-box-sm bg-sky-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-sky-950 text-xs uppercase border-b border-sky-200 pb-1 mb-2">
+                The Holistic Progress Card (HPC) for Foundational Numeracy
+              </h4>
+              <p class="text-slate-600 text-xs mb-2">
+                Instead of recording numerical marks (e.g., "35 out of 50 marks"), the HPC provides descriptive developmental feedback across 3 proficiency tiers:
+              </p>
+              <div class="space-y-1 text-[11px] font-mono-math">
+                <div class="bg-white p-1 rounded border border-sky-200">
+                  <strong class="text-sky-900">Level 1 (Beginning):</strong> Needs concrete physical support to count and compare quantities.
+                </div>
+                <div class="bg-white p-1 rounded border border-sky-200">
+                  <strong class="text-sky-900">Level 2 (Progressing):</strong> Confidently performs operations with partial pictorial scaffolding.
+                </div>
+                <div class="bg-white p-1 rounded border border-sky-200">
+                  <strong class="text-sky-900">Level 3 (Proficient):</strong> Independently applies number sense to solve daily math problems.
+                </div>
+              </div>
+            </div>
+            <div class="mt-2 text-[10px] bg-sky-100 text-sky-950 font-bold p-1 rounded text-center">
+              Never rank or label a foundational child; assess to guide growth!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 5: LIFE AND CONTRIBUTION OF MATHEMATICIANS                                           -->
+    <!-- ========================================================================================= -->
+    <section id="unit-5" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-rose-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-rose-600">5</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-rose-950">
+              Unit 5: Historical Pioneers of Mathematical Thought
+            </h2>
+            <p class="text-[11px] text-rose-800 font-semibold">Life, Epistemology & Enduring Breakthroughs of Five Master Mathematicians</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-rose-950 shadow-2xs">
+          Weightage: 5 Marks
+        </span>
+      </div>
+
+      <!-- 5 Pioneers Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-xs sm:text-sm text-slate-700">
+        
+        <!-- 1. Aryabhata -->
+        <div class="comic-box bg-white p-3 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between border-b border-slate-200 pb-1 mb-2">
+              <strong class="font-doodle text-slate-900 text-xs uppercase">1. Aryabhata (476–550 CE)</strong>
+              <span class="text-[9px] bg-amber-100 text-amber-900 border border-amber-300 font-bold px-1.5 py-0.5 rounded">Ancient India</span>
+            </div>
+            <p class="text-slate-600 text-xs mb-2">
+              The luminous astronomer-mathematician from Kusumapura (Pataliputra), author of the celebrated treatise <strong>Aryabhatiya</strong>:
+            </p>
+            <ul class="space-y-1 text-xs text-slate-700">
+              <li>• <strong>Zero & Place Value:</strong> Formalized the decimal place-value notation where zero served as both symbol and place-holder.</li>
+              <li>• <strong>Approximation of $\pi$:</strong> Calculated $\pi \approx \frac{62832}{20000} \approx 3.1416$, noting explicitly that it was an irrational approximation!</li>
+              <li>• <strong>Trigonometry & Astronomy:</strong> Formulated foundational sine tables (<em>Jya</em>) and proved Earth rotates daily on its axis and revolves around the Sun.</li>
+            </ul>
+          </div>
+          <div class="mt-2 text-[10px] bg-amber-50 text-amber-950 font-bold p-1 rounded text-center border border-amber-200">
+            Author of <em>Aryabhatiya</em> • Pioneer of Decimal Notation
+          </div>
+        </div>
+
+        <!-- 2. Brahmagupta -->
+        <div class="comic-box bg-white p-3 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between border-b border-slate-200 pb-1 mb-2">
+              <strong class="font-doodle text-slate-900 text-xs uppercase">2. Brahmagupta (598–668 CE)</strong>
+              <span class="text-[9px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-1.5 py-0.5 rounded">Bhinmal, Rajasthan</span>
+            </div>
+            <p class="text-slate-600 text-xs mb-2">
+              The mathematical titan who headed the observatory at Ujjain, author of <strong>Brahmasphutasiddhanta</strong>:
+            </p>
+            <ul class="space-y-1 text-xs text-slate-700">
+              <li>• <strong>Rules of Zero ($Shunya$):</strong> First in human history to treat zero as a full operational number with algebraic rules: $0 + a = a$, $a - 0 = a$, $a \times 0 = 0$.</li>
+              <li>• <strong>Negative Numbers:</strong> Defined operational arithmetic of negative numbers using debts (<em>rina</em>) and fortunes (<em>dhana</em>).</li>
+              <li>• <strong>Cyclic Quadrilaterals:</strong> Discovered the monumental formula for the area of a cyclic quadrilateral: $\text{Area} = \sqrt{(s-a)(s-b)(s-c)(s-d)}$, where $s = \frac{a+b+c+d}{2}$.</li>
+            </ul>
+          </div>
+          <div class="mt-2 text-[10px] bg-emerald-50 text-emerald-950 font-bold p-1 rounded text-center border border-emerald-200">
+            The Father of Zero Arithmetic & Negative Numbers
+          </div>
+        </div>
+
+        <!-- 3. Srinivasa Ramanujan -->
+        <div class="comic-box bg-white p-3 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between border-b border-slate-200 pb-1 mb-2">
+              <strong class="font-doodle text-slate-900 text-xs uppercase">3. Srinivasa Ramanujan (1887–1920)</strong>
+              <span class="text-[9px] bg-sky-100 text-sky-900 border border-sky-300 font-bold px-1.5 py-0.5 rounded">Erode, Tamil Nadu</span>
+            </div>
+            <p class="text-slate-600 text-xs mb-2">
+              The self-taught mathematical genius whose intuitive brilliance astounded Cambridge Professor G.H. Hardy:
+            </p>
+            <ul class="space-y-1 text-xs text-slate-700">
+              <li>• <strong>Number Theory & Partitions:</strong> Breakthrough formulas for integer partitions $p(n)$ and mock theta functions.</li>
+              <li>• <strong>The Hardy-Ramanujan Number ($1729$):</strong> Smallest integer expressible as the sum of two cubes in two different ways: $1729 = 1^3 + 12^3 = 9^3 + 10^3$.</li>
+              <li>• <strong>National Mathematics Day:</strong> December 22 celebrated annually across India in honor of his birth anniversary.</li>
+            </ul>
+          </div>
+          <div class="mt-2 text-[10px] bg-sky-50 text-sky-950 font-bold p-1 rounded text-center border border-sky-200">
+            Taxicab Number $1729$ • Celebrated Dec 22
+          </div>
+        </div>
+
+        <!-- 4. Euclid -->
+        <div class="comic-box bg-white p-3 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between border-b border-slate-200 pb-1 mb-2">
+              <strong class="font-doodle text-slate-900 text-xs uppercase">4. Euclid of Alexandria (c. 300 BCE)</strong>
+              <span class="text-[9px] bg-purple-100 text-purple-900 border border-purple-300 font-bold px-1.5 py-0.5 rounded">Ancient Greece</span>
+            </div>
+            <p class="text-slate-600 text-xs mb-2">
+              Universally celebrated as the <strong>"Father of Geometry"</strong> who revolutionized human logical deduction:
+            </p>
+            <ul class="space-y-1 text-xs text-slate-700">
+              <li>• <strong>The Elements (<em>Stoicheia</em>):</strong> The world's most influential mathematics textbook spanning 13 volumes.</li>
+              <li>• <strong>Axiomatic Method:</strong> Proved complex geometric theorems rigorously from a foundational base of 5 common notions and 5 postulates (including the Parallel Postulate).</li>
+              <li>• <strong>Number Theory:</strong> Proved there are infinitely many prime numbers and developed the Euclidean Algorithm for the Greatest Common Divisor (GCD/HCF).</li>
+            </ul>
+          </div>
+          <div class="mt-2 text-[10px] bg-purple-50 text-purple-950 font-bold p-1 rounded text-center border border-purple-200">
+            Author of <em>The Elements</em> • Father of Axiomatic Geometry
+          </div>
+        </div>
+
+        <!-- 5. Pythagoras -->
+        <div class="comic-box bg-white p-3 flex flex-col justify-between md:col-span-2 lg:col-span-2">
+          <div>
+            <div class="flex items-center justify-between border-b border-slate-200 pb-1 mb-2">
+              <strong class="font-doodle text-slate-900 text-xs uppercase">5. Pythagoras of Samos (c. 570–495 BCE)</strong>
+              <span class="text-[9px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-1.5 py-0.5 rounded">Ancient Greece</span>
+            </div>
+            <p class="text-slate-600 text-xs mb-2">
+              Philosopher-mathematician who established the Pythagorean brotherhood, viewing numbers as the cosmic essence of reality:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs text-slate-700">
+              <div>
+                <strong class="text-rose-900 block mb-0.5">The Pythagorean Theorem:</strong>
+                In any right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides:
+                <div class="font-mono-math bg-slate-50 p-1.5 rounded border border-slate-200 text-center my-1 font-bold text-sm">
+                  $$a^2 + b^2 = c^2$$
+                </div>
+                Identified integer triples: $(3, 4, 5)$, $(5, 12, 13)$, $(8, 15, 17)$.
+              </div>
+              <div>
+                <strong class="text-rose-900 block mb-0.5">Discovery of Incommensurability (Irrational Numbers):</strong>
+                Proved that the diagonal of a unit square ($\sqrt{2}$) cannot be expressed as a ratio of two integers ($\frac{p}{q}$, such as $\frac{5}{3}$), discovering irrational numbers! Also connected mathematical string ratios to musical acoustics (octaves).
+              </div>
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] bg-rose-50 text-rose-950 font-bold p-1 rounded text-center border border-rose-200">
+            $a^2 + b^2 = c^2$ • Discovery of Irrational Numbers ($\sqrt{2}$)
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- PRACTICUM & INTERNAL ASSESSMENT BLUEPRINT (15 MARKS)                                      -->
+    <!-- ========================================================================================= -->
+    <section id="assessment-blueprint" class="avoid-break comic-box bg-slate-900 text-white p-6 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-700 pb-3 mb-4">
+        <div class="flex items-center gap-2">
+          <span class="text-xl text-amber-400">★</span>
+          <h3 class="text-sm sm:text-base font-doodle font-bold text-amber-300 uppercase">
+            Paper S1.6 Practicum & Internal Assessment Architecture (15 Marks)
+          </h3>
+        </div>
+        <span class="text-xs bg-slate-800 border border-slate-700 px-2.5 py-1 rounded text-slate-300 font-bold font-mono-math">
+          Syllabus 2026
+        </span>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-center text-xs mb-4">
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Compulsory Activity</span>
+          <span class="text-base font-doodle font-black text-amber-400">3 Marks</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Class 1–3 Lesson Analysis</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Prescribed Project</span>
+          <span class="text-base font-doodle font-black text-emerald-400">3 Marks</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Survey / Diagnostic Study</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Assignments (Any 2)</span>
+          <span class="text-base font-doodle font-black text-sky-400">3 Marks</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">TLM / Rangoli / Symmetry</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Institutional Unit Test</span>
+          <span class="text-base font-doodle font-black text-rose-400">6 Marks</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Internal Written Evaluation</span>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-3 text-xs text-slate-300 space-y-2">
+        <div>
+          <strong class="text-white block font-doodle text-xs mb-1">Prescribed Practicum Activity Options:</strong>
+          <ul class="space-y-1 text-[11px] list-disc pl-4 text-slate-300">
+            <li><strong>Compulsory Task (3 Marks):</strong> Select any mathematics lesson from Class 1 to 3 SCERT textbooks; analyze it in terms of target Learning Outcomes (LO), design concrete learning activities using the ELPS approach, and develop an innovative instructional aid (TLM).</li>
+            <li><strong>Project Option 1:</strong> Select a village neighborhood; survey educational status across households whose house numbers are multiples of 3 ($3, 6, 9, 12, \dots$); compile statistical bar diagrams and interpretive inferences.</li>
+            <li><strong>Project Option 2:</strong> Visit five local weekly markets; survey and compare the prices of 15 common vegetables in Indian Rupees ($\text{₹}$); present statistically valid charts and cost-saving inferences.</li>
+            <li><strong>Project Option 3:</strong> Draw an illustrated developmental progression chart showing the stages of child growth and mapping expected mathematical milestones according to Jean Piaget's theory.</li>
+            <li><strong>Assignments Option:</strong> Create mathematical Rangoli designs illustrating geometric symmetries; or prepare a symmetrical classification chart dividing English alphabet letters ($A, B, C, \dots$) and numerals ($0, \dots, 9$) along lines of symmetry.</li>
+          </ul>
+        </div>
+
+        <div class="border-t border-slate-800 pt-2">
+          <strong class="text-amber-300 block font-doodle text-xs mb-0.5">School Internship (SIP-I Linkage):</strong>
+          <p class="leading-relaxed text-[11px]">
+            During SIP-I, student-teachers will map foundational numeracy competencies in primary classrooms, set up an interactive "Math Learning Corner" containing concrete manipulatives (pebbles, beads, tangrams, dice), deliver ELPS-aligned learning episodes, and prepare a reflective analytical report countersigned by the school head.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DOCUMENT FOOTER ==================== -->
+    <footer class="avoid-break pt-4 border-t-2 border-dashed border-slate-400 text-center text-xs text-slate-600">
+      <div class="comic-box-sm bg-slate-900 text-white py-2.5 px-4 flex flex-wrap items-center justify-between gap-3 shadow-sm">
+        <div class="flex items-center gap-1.5 font-bold text-amber-300">
+          <span>★</span> Paper S1.6 Study Notes <span>•</span> Curriculum Session 2026
+        </div>
+
+        <div class="text-center font-medium text-slate-300">
+          Made with ❤️ by <strong class="text-white font-bold">Sayeem Sadik</strong>
+          <span class="text-slate-500">•</span>
+          <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-cyan-300 font-bold hover:underline font-mono-math">
+            https://leoaristocrat.eu.cc
+          </a>
+        </div>
+
+        <div class="text-[11px] text-slate-400 font-bold">
+          All Rights Safeguarded 🛡️
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- KaTeX Auto-Render Trigger -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper S1.8: Yoga Education - Master Notes (2026)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Fredoka, Plus Jakarta Sans, Caveat, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- KaTeX CDN for crisp, textbook-grade formula & metric rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0b1329;
+      color: #0f172a;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .font-doodle {
+      font-family: 'Fredoka', cursive, sans-serif;
+    }
+
+    .font-hand {
+      font-family: 'Caveat', cursive;
+    }
+
+    .font-mono-math {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Comic Neo-Brutalist Card Shadows & Solid Borders */
+    .comic-box {
+      border: 2.5px solid #0f172a;
+      box-shadow: 4px 4px 0px #0f172a;
+      border-radius: 12px;
+      background-color: #ffffff;
+    }
+
+    .comic-box-sm {
+      border: 2px solid #0f172a;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+      border-radius: 8px;
+      background-color: #ffffff;
+    }
+
+    /* Vibrant Circular Number Badges */
+    .badge-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 9999px;
+      border: 2px solid #0f172a;
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 12px;
+      box-shadow: 1.5px 1.5px 0px #0f172a;
+      flex-shrink: 0;
+    }
+
+    /* Adhesive Tape Pin Effect */
+    .tape-pin {
+      position: relative;
+    }
+    .tape-pin::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      left: 20%;
+      width: 44px;
+      height: 14px;
+      background: rgba(254, 240, 138, 0.95);
+      border: 1px dashed rgba(180, 83, 9, 0.6);
+      transform: rotate(-3deg);
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+      z-index: 10;
+    }
+
+    /* 3D Pushpin Graphic */
+    .pushpin-red {
+      position: absolute;
+      top: -6px;
+      right: 12px;
+      width: 14px;
+      height: 14px;
+      background: radial-gradient(circle at 30% 30%, #ef4444, #991b1b);
+      border: 1.5px solid #0f172a;
+      border-radius: 50%;
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.35);
+      z-index: 20;
+    }
+
+    /* Document Envelope */
+    .doc-container {
+      max-width: 1040px;
+      margin: 24px auto;
+      padding: 36px 32px;
+      background: #fafaf9;
+      background-image: radial-gradient(#cbd5e1 0.85px, transparent 0.85px);
+      background-size: 12px 12px;
+      border: 3.5px solid #0f172a;
+      box-shadow: 8px 10px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 20px;
+      position: relative;
+    }
+
+    /* Custom Table Styling */
+    .comic-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 2px solid #0f172a;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #ffffff;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+    }
+    .comic-table th, .comic-table td {
+      border-bottom: 1.5px solid #e2e8f0;
+      border-right: 1.5px solid #e2e8f0;
+      padding: 10px 14px;
+    }
+    .comic-table th:last-child, .comic-table td:last-child {
+      border-right: none;
+    }
+    .comic-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* KaTeX Size Tuning */
+    .katex {
+      font-size: 1.05em !important;
+    }
+    .katex-display {
+      margin: 0.35em 0 !important;
+    }
+
+    /* Print & PDF Calibration */
+    .avoid-break {
+      break-inside: avoid !important;
+      page-break-inside: avoid !important;
+    }
+
+    .force-page-break {
+      break-before: page !important;
+      page-break-before: always !important;
+    }
+
+    @media print {
+      body {
+        background-color: transparent !important;
+        padding: 0 !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .doc-container {
+        margin: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        background: transparent !important;
+      }
+      .comic-box {
+        box-shadow: none !important;
+        border: 2px solid #0f172a !important;
+      }
+    }
+  </style>
+</head>
+<body class="selection:bg-amber-200 selection:text-amber-900 pb-16">
+
+  <!-- ==================== SCREEN-ONLY QUICK ACTION BAR ==================== -->
+  <header class="no-print sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b-2 border-slate-700 px-4 py-2.5 shadow-xl">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand & Metadata Badge -->
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 bg-gradient-to-tr from-teal-400 via-emerald-500 to-indigo-600 rounded-xl flex items-center justify-center text-white font-black shadow-md border-2 border-slate-900 text-sm font-doodle">
+          S1.8
+        </div>
+        <div>
+          <h1 class="text-white text-xs sm:text-sm font-extrabold flex items-center gap-2 tracking-tight">
+            Yoga Education
+            <span class="text-[10px] bg-teal-500/25 text-teal-300 border border-teal-500/40 px-2 py-0.5 rounded-full font-bold">$50\text{ Marks } (20\text{ Ext} + 30\text{ Int}) \bullet 2\text{ Credits}$</span>
+          </h1>
+          <p class="text-[11px] text-slate-400">Curriculum Session 2026 • Made with ❤️ by Sayeem Sadik</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex items-center flex-wrap gap-2">
+        <a href="#unit-1" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-teal-500/20 text-teal-300 border border-teal-500/30 hover:bg-teal-500/30 transition">
+          U1: Foundations & Myths
+        </a>
+        <a href="#unit-2" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 hover:bg-indigo-500/30 transition">
+          U2: Raja, Hatha & Paths
+        </a>
+        <a href="#unit-3" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/30 transition">
+          U3: Asana, Pranayama, Kriya
+        </a>
+        <a href="#unit-4" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-rose-500/20 text-rose-300 border border-rose-500/30 hover:bg-rose-500/30 transition">
+          U4: Therapy & Health
+        </a>
+        <a href="#assessment-blueprint" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30 hover:bg-amber-500/30 transition">
+          Practicum & SIP ($30\text{ Marks}$)
+        </a>
+        <button onclick="window.print()" class="flex items-center gap-1.5 bg-teal-400 hover:bg-teal-300 text-slate-950 text-xs font-extrabold px-3.5 py-1.5 rounded-lg transition shadow border border-slate-900 font-doodle">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          Print / Save PDF (A4)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN DOCUMENT ENVELOPE ==================== -->
+  <main class="doc-container">
+
+    <!-- ==================== HERO HEADER ==================== -->
+    <header class="avoid-break mb-8 relative">
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+        
+        <!-- Left Tape Ribbon -->
+        <div class="tape-pin bg-teal-100 border-2 border-slate-900 px-3.5 py-1 rounded-lg transform -rotate-2 shadow-xs">
+          <span class="pushpin-red"></span>
+          <div class="text-[9px] font-black uppercase tracking-wider text-teal-950">D.El.Ed First Semester • Paper S1.8</div>
+          <div class="text-sm font-doodle font-bold text-slate-900 leading-tight">Yoga Education</div>
+          <div class="text-[9px] font-bold text-teal-800">Holistic Wellness, Classical Systems, Therapeutic Anatomy & Mind-Body Mastery • 2026 Session</div>
+        </div>
+
+        <!-- Right Quick Stats Badges -->
+        <div class="flex items-center gap-2">
+          <div class="comic-box-sm bg-rose-100 px-3 py-1 text-center transform rotate-1">
+            <div class="text-[8px] font-black text-rose-700 uppercase tracking-tight">Exam Evaluation</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">$20\text{ Ext} + 30\text{ Int}$</div>
+            <div class="text-[8px] text-slate-600 font-bold">Total: $50\text{ Marks}$</div>
+          </div>
+          <div class="comic-box-sm bg-amber-100 px-3 py-1 text-center transform -rotate-1">
+            <div class="text-[8px] font-black text-amber-700 uppercase tracking-tight">Workload</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">$2\text{ Credits}$</div>
+            <div class="text-[8px] text-slate-600 font-bold">$50\text{ Study Hours}$</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Main Title Box -->
+      <div class="comic-box bg-gradient-to-r from-teal-50 via-emerald-50 to-amber-50 p-5 text-center relative overflow-hidden">
+        <div class="inline-block relative">
+          <span class="absolute -inset-1.5 bg-teal-200 rounded-lg transform -rotate-1 border-2 border-slate-900 -z-10 shadow-xs"></span>
+          <h1 class="text-xl sm:text-3xl font-doodle font-black uppercase text-slate-900 tracking-tight px-4 py-1">
+            Yoga Education
+          </h1>
+        </div>
+        <p class="text-xs sm:text-sm font-bold text-slate-700 mt-2 max-w-2xl mx-auto leading-relaxed">
+          Comprehensive Study Notes on Historical Foundations, Patanjali's Ashtanga Yoga, Hatha Yoga, Four Spiritual Paths, Postural Anatomy, Pranayama, Mudras, Bandhas, Shatkriyas, Lifestyle Disease Therapy, and School Practicum
+        </p>
+
+        <!-- Author Ribbon -->
+        <div class="mt-4 pt-3 border-t-2 border-dashed border-slate-300 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-1.5 font-bold text-slate-800">
+            <span>Made with ❤️ by</span>
+            <span class="text-teal-950 font-black underline decoration-teal-500 decoration-2">Sayeem Sadik</span>
+            <span class="text-slate-400">•</span>
+            <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-brand-700 hover:underline font-mono-math text-indigo-700 font-extrabold">
+              leoaristocrat.eu.cc
+            </a>
+          </div>
+          <div class="inline-flex items-center gap-1.5 font-mono-math font-bold text-[10.5px] bg-white border border-slate-900 rounded-md px-2 py-0.5 shadow-2xs">
+            <span class="w-2 h-2 rounded-full bg-teal-500"></span>
+            Curriculum Session 2026
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==================== TABLE OF CONTENTS ==================== -->
+    <nav class="avoid-break comic-box bg-teal-50/90 p-4 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-900 pb-2 mb-3">
+        <div class="flex items-center gap-2">
+          <span class="text-base">📑</span>
+          <h2 class="text-xs font-doodle font-bold uppercase tracking-wider text-teal-950">
+            Syllabus Architecture & Marks Distribution
+          </h2>
+        </div>
+        <span class="text-[10px] font-bold bg-teal-200 border border-teal-400 text-teal-950 px-2 py-0.5 rounded-full font-mono-math">
+          4 Core Units • Total $20\text{ External} + 30\text{ Internal Marks}$
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-2.5 text-xs">
+        <a href="#unit-1" class="comic-box-sm p-2.5 hover:bg-teal-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-teal-950 text-sm">Unit 1</strong>
+            <span class="bg-teal-100 border border-teal-300 text-teal-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Foundations & History</div>
+          <div class="text-[10px] text-slate-500">Origin, Aims, Scope, Myths & School Values</div>
+        </a>
+
+        <a href="#unit-2" class="comic-box-sm p-2.5 hover:bg-indigo-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-indigo-950 text-sm">Unit 2</strong>
+            <span class="bg-indigo-100 border border-indigo-300 text-indigo-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Classical Forms & Paths</div>
+          <div class="text-[10px] text-slate-500">Raja (Ashtanga), Hatha, Karma, Jnana, Bhakti</div>
+        </a>
+
+        <a href="#unit-3" class="comic-box-sm p-2.5 hover:bg-emerald-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-emerald-950 text-sm">Unit 3</strong>
+            <span class="bg-emerald-100 border border-emerald-300 text-emerald-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Core Techniques Catalog</div>
+          <div class="text-[10px] text-slate-500">Surya Namaskar, Asanas, Pranayama, Mudra, Kriya</div>
+        </a>
+
+        <a href="#unit-4" class="comic-box-sm p-2.5 hover:bg-rose-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-rose-950 text-sm">Unit 4</strong>
+            <span class="bg-rose-100 border border-rose-300 text-rose-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Therapy & Organ Systems</div>
+          <div class="text-[10px] text-slate-500">Lifestyle Diseases, Anatomy & Self-Actualization</div>
+        </a>
+
+        <a href="#assessment-blueprint" class="comic-box-sm p-2.5 hover:bg-amber-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-amber-950 text-sm">Practicum</strong>
+            <span class="bg-amber-100 border border-amber-300 text-amber-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$30\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Field Visits, Morning Drills</div>
+          <div class="text-[10px] text-slate-500">June 21 Yoga Day, School Asanas & SIP</div>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 1: INTRODUCTION TO YOGA AND HISTORY OF YOGA                                         -->
+    <!-- ========================================================================================= -->
+    <section id="unit-1" class="mb-10">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-teal-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-teal-600">1</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-teal-950">
+              Unit 1: Introduction to Yoga and History of Yoga
+            </h2>
+            <p class="text-[11px] text-teal-800 font-semibold">Etymological Origins, Aims, Scope, Demystifying Misconceptions & School Pedagogy</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-teal-950 shadow-2xs font-mono-math">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 1.1 & 1.2 Meaning, Definitions & History -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-teal-700">1.1 & 1.2</span> Etymology, Classical Definitions & Historical Trajectory
+          </h3>
+          <span class="text-[10px] bg-teal-100 text-teal-900 border border-teal-300 px-2 py-0.5 rounded font-bold">
+            Vedic to Contemporary Era
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          The word <strong>Yoga</strong> originates from the Sanskrit root verb <em>'Yuj'</em> (युज्), which signifies <em>to join, to yoke, to unite, or to harness</em>. Epistemologically, Yoga represents the experiential union of the individual finite consciousness (<em>Jivatma</em>) with the supreme universal consciousness (<em>Paramatma</em>). Rather than a modern fitness fad, Yoga is an ancient, science-backed psycho-philosophical technology engineered for the harmonization of body, breath, mind, intellect, and spirit:
+        </p>
+
+        <!-- Classical Definitions Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-teal-600">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">Maharshi Patanjali:</strong>
+            <div class="font-mono-math text-[11px] text-teal-950 bg-teal-50 p-1.5 rounded border border-teal-200 my-1">
+              "योगश्चিত্তवृत्ति निरोधঃ" <br>
+              <em>(Yogaś citta-vṛtti-nirodhaḥ)</em>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight">"Yoga is the intentional cessation, quieting, and mastery of the fluctuations, modifications, and agitations of the mind-stuff (<em>Chitta</em>)."</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-amber-600">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">Bhagavad Gita (Lord Krishna):</strong>
+            <div class="font-mono-math text-[11px] text-amber-950 bg-amber-50 p-1.5 rounded border border-amber-200 my-1">
+              "যোগঃ কর্মসু কৌশলম্" <br>
+              <em>(Yogaḥ karmasu kauśalam)</em>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight">"Yoga is supreme dexterity, wisdom, mindfulness, and selfless excellence in all actions and duties." (Chapter $2$, Verse $50$).</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-indigo-600">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">Equanimity of Mind:</strong>
+            <div class="font-mono-math text-[11px] text-indigo-950 bg-indigo-50 p-1.5 rounded border border-indigo-200 my-1">
+              "সমত্বং যোগ উচ্যতে" <br>
+              <em>(Samatvaṁ yoga ucyate)</em>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight">"Evenness, emotional equilibrium, and balance in triumph or defeat, pleasure or sorrow, is designated as Yoga."</p>
+          </div>
+        </div>
+
+        <!-- Historical Chronology Matrix -->
+        <div class="avoid-break overflow-x-auto my-2">
+          <table class="comic-table text-xs sm:text-sm">
+            <thead class="bg-teal-100 text-teal-950 font-bold border-b-2 border-slate-900 text-[11px] uppercase">
+              <tr>
+                <th class="w-1/4">Historical Epoch</th>
+                <th class="w-1/3">Foundational Treatises & Key Figures</th>
+                <th class="w-5/12">Doctrinal Focus & Evolution</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">1. Pre-Vedic & Vedic Era (c. $3000\text{--}1500\text{ BCE}$)</td>
+                <td>Indus-Saraswati Seals (Pashupati in yogic posture); Rigveda, Atharvaveda.</td>
+                <td>Hymns of spiritual aspiration, solar adoration, tapas (austerity), and meditative absorption through sacred rituals.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">2. Pre-Classical Period (c. $1500\text{--}500\text{ BCE}$)</td>
+                <td>Upanishads (Katha, Maitri, Shvetashvatara); Mahabharata and Bhagavad Gita.</td>
+                <td>Yoga internalized as contemplation of the Self (<em>Atman</em>); synthesis of Karma Yoga, Jnana Yoga, and Bhakti Yoga.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">3. Classical Period (c. $500\text{ BCE}\text{--}200\text{ CE}$)</td>
+                <td>Maharshi Patanjali's <strong>Yoga Sutras</strong> ($196\text{ aphorisms}$ in $4\text{ chapters}$).</td>
+                <td>Standardization of <strong>Raja Yoga</strong> and the Eight-Limbed (<em>Ashtanga</em>) system; philosophical dualism of <em>Purusha</em> (pure consciousness) and <em>Prakriti</em> (matter).</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">4. Post-Classical & Hatha Yoga (c. $500\text{--}1800\text{ CE}$)</td>
+                <td>Matsyendranath, Gorakhnath; <em>Hatha Yoga Pradipika</em> (Swami Swatmarama), <em>Gheranda Samhita</em>.</td>
+                <td>Shift towards optimizing the physical vessel (<em>Deha</em>) through asanas, shatkriyas, pranayama, mudras, and bandhas to awaken Kundalini energy.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">5. Modern Era ($1893\text{--Present}$)</td>
+                <td>Swami Vivekananda ($1893\text{ Chicago Parliament}$), T. Krishnamacharya, B.K.S. Iyengar, Swami Sivananda.</td>
+                <td>Global democratization of yoga; scientific biomedical validation; International Yoga Day celebrated globally every year on <strong>June 21</strong>!</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 1.3, 1.4 & 1.5 Scope, Misconceptions & School Pedagogy -->
+      <div class="comic-box bg-white p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Five Deadly Misconceptions -->
+          <div class="comic-box-sm bg-rose-50/60 p-3 flex flex-col justify-between border-l-4 border-rose-600">
+            <div>
+              <h4 class="font-doodle font-bold text-rose-950 text-xs uppercase border-b border-rose-200 pb-1 mb-2">
+                1.4 Dismantling Prevalent Misconceptions About Yoga
+              </h4>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>Myth 1: "Yoga is a Religious Dogma":</strong> <em>Reality:</em> Yoga is a universal, secular science of mind-body optimization. It requires no conversion, worships no exclusive sectarian deity, and operates via empirical physiology.</li>
+                <li>• <strong>Myth 2: "Yoga is Mere Physical Contortionism/Gymnastics":</strong> <em>Reality:</em> Asanas are merely the $3\text{rd}$ step of an $8\text{-fold}$ psycho-spiritual ladder. A person can perform a perfect headstand and still be completely un-yogic if their mind is consumed by greed and rage!</li>
+                <li>• <strong>Myth 3: "Yoga is Only for Sanyasis, Ascetics & The Elderly":</strong> <em>Reality:</em> Yoga is designed for householders, school children, and active professionals to maintain equilibrium amidst worldly responsibilities.</li>
+                <li>• <strong>Myth 4: "Yoga Requires Extreme Ascetic Starvation":</strong> <em>Reality:</em> The Bhagavad Gita emphasizes moderation: <em>"Yoga is not for one who overeats, nor for one who fasts excessively."</em></li>
+                <li>• <strong>Myth 5: "Yoga is Too Slow to Provide Health Benefits":</strong> <em>Reality:</em> Yoga works profoundly on the endocrine, autonomic, and nervous systems, offering deep restorative, metabolic, and cardiovascular longevity.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-rose-100 text-rose-950 font-bold p-1 rounded text-center">
+              Yoga is not about touching your toes; it is about what you learn on the way down!
+            </div>
+          </div>
+
+          <!-- Importance in School Education -->
+          <div class="comic-box-sm bg-teal-50/60 p-3 flex flex-col justify-between border-l-4 border-teal-600">
+            <div>
+              <h4 class="font-doodle font-bold text-teal-950 text-xs uppercase border-b border-teal-200 pb-1 mb-2">
+                1.3 & 1.5 Scope & Importance of Yoga in School Education
+              </h4>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                Incorporating daily yogic practices in elementary schooling addresses classroom crises of attention deficit, anxiety, postural degeneration, and behavioral turbulence:
+              </p>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>"Prevention is Better Than Cure":</strong> Inculcating early lifestyle hygiene immunizes children against adolescent obesity, juvenile hypertension, and anxiety disorders.</li>
+                <li>• <strong>Cognitive & Scholastic Amplification:</strong> Mindful breath regulation increases oxygenation to the prefrontal cortex, enhancing memory encoding and auditory concentration.</li>
+                <li>• <strong>Emotional Regulation:</strong> Shifting the autonomic nervous system from sympathetic (fight-or-flight) to parasympathetic (rest-and-digest), mitigating schoolyard aggression.</li>
+                <li>• <strong>Postural Ergonomics:</strong> Neutralizing the postural deformities (kyphosis, slouching) caused by heavy school satchels and prolonged sedentary bench seating.</li>
+              </ul>
+              
+              <!-- Age-Appropriate Curricular Sequence -->
+              <div class="mt-2 p-2 bg-white border border-teal-200 rounded text-[11px] font-mono-math text-teal-950">
+                <strong>Curricular Age Progression (SCERT Guidelines):</strong><br>
+                • <strong>Under Age $5$:</strong> Light stretching, balancing play, animal imitation postures (Cat, Butterfly).<br>
+                • <strong>Age $5\text{ to } 7$ (Ka-Shreni / Classes $1\text{--}2$):</strong> Structured Asanas and simple silent meditation circles.<br>
+                • <strong>Age $8+$ (Classes $3$ onwards):</strong> Formal Pranayama (Anulom-Viloma, Bhastrika), Bandhas, and Mudras.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 2: INTRODUCTION TO VARIOUS FORMS OF YOGA                                            -->
+    <!-- ========================================================================================= -->
+    <section id="unit-2" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-indigo-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-indigo-600">2</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-indigo-950">
+              Unit 2: Classical Forms & Philosophical Streams of Yoga
+            </h2>
+            <p class="text-[11px] text-indigo-800 font-semibold">Patanjali's Raja Yoga (Ashtanga Architecture), Hatha Yoga Systems & The Four Classical Paths</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-indigo-950 shadow-2xs font-mono-math">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 2.1 Raja Yoga & The 8 Limbs (Ashtanga Yoga) -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.1</span> Raja Yoga: Maharshi Patanjali's Eight-Limbed Architecture (অষ্টাঙ্গ যোগ)
+          </h3>
+          <span class="text-[10px] bg-indigo-100 text-indigo-900 border border-indigo-300 font-bold px-2 py-0.5 rounded-full font-mono-math">
+            $8\text{ Limbs of Raja Yoga}$
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          <strong>Raja Yoga</strong> (the "Royal Path") focuses directly on controlling the psyche and transcending the ego through ethical cultivation, meditative discipline, and mental absorption. Patanjali systematically codified this progressive transformation into eight sequential limbs (<em>Ashtanga</em>):
+        </p>
+
+        <!-- 8 Limbs Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700 mb-3">
+          
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-t-4 border-rose-500">
+            <div class="flex items-center justify-between mb-1">
+              <strong class="text-rose-950 font-doodle text-xs">1. Yama (যম)</strong>
+              <span class="text-[9px] bg-rose-100 text-rose-900 px-1 py-0.5 rounded font-bold">Social Restraints</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Five universal ethical harmonies with society:</p>
+            <ul class="text-[10.5px] space-y-0.5 text-slate-700">
+              <li>• <em>Ahimsa:</em> Non-violence in deed, word, and thought.</li>
+              <li>• <em>Satya:</em> Truthfulness and integrity.</li>
+              <li>• <em>Asteya:</em> Non-stealing (material and intellectual).</li>
+              <li>• <em>Brahmacharya:</em> Moderation and chaste energy.</li>
+              <li>• <em>Aparigraha:</em> Non-possessiveness and non-greed.</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-t-4 border-amber-500">
+            <div class="flex items-center justify-between mb-1">
+              <strong class="text-amber-950 font-doodle text-xs">2. Niyama (নিয়ম)</strong>
+              <span class="text-[9px] bg-amber-100 text-amber-900 px-1 py-0.5 rounded font-bold">Personal Observances</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Five personal moral disciplines for inner purity:</p>
+            <ul class="text-[10.5px] space-y-0.5 text-slate-700">
+              <li>• <em>Saucha:</em> Internal and external cleanliness.</li>
+              <li>• <em>Santosha:</em> Deep contentment with present state.</li>
+              <li>• <em>Tapas:</em> Fortitude, austerity, and persistent effort.</li>
+              <li>• <em>Svadhyaya:</em> Self-study and sacred reading.</li>
+              <li>• <em>Ishvara Pranidhana:</em> Surrender to supreme order.</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-t-4 border-emerald-500">
+            <div class="flex items-center justify-between mb-1">
+              <strong class="text-emerald-950 font-doodle text-xs">3. Asana (আসন)</strong>
+              <span class="text-[9px] bg-emerald-100 text-emerald-900 px-1 py-0.5 rounded font-bold">Physical Poise</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Defined as <em>"Sthira Sukham Asanam"</em> (steady and comfortable posture).</p>
+            <p class="text-[10.5px] text-slate-700 leading-tight">Postural stillness frees the mind from somatic disturbances and physical restlessness.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-t-4 border-teal-500">
+            <div class="flex items-center justify-between mb-1">
+              <strong class="text-teal-950 font-doodle text-xs">4. Pranayama (প্ৰাণায়াম)</strong>
+              <span class="text-[9px] bg-teal-100 text-teal-900 px-1 py-0.5 rounded font-bold">Breath Expansion</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Regulation of the respiratory cycle (Inhalation, Retention, Exhalation).</p>
+            <p class="text-[10.5px] text-slate-700 leading-tight">Controls the vital life-force (<em>Prana</em>), acting as the direct physiological bridge to the brain.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-t-4 border-sky-500">
+            <div class="flex items-center justify-between mb-1">
+              <strong class="text-sky-950 font-doodle text-xs">5. Pratyahara (প্ৰত্যাহাৰ)</strong>
+              <span class="text-[9px] bg-sky-100 text-sky-900 px-1 py-0.5 rounded font-bold">Sensory Withdrawal</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Withdrawing the $5\text{ cognitive senses}$ from external stimuli, like a tortoise retracting its limbs.</p>
+            <p class="text-[10.5px] text-slate-700 leading-tight">Prevents sensory distraction from disturbing internal contemplation.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-t-4 border-indigo-500">
+            <div class="flex items-center justify-between mb-1">
+              <strong class="text-indigo-950 font-doodle text-xs">6. Dharana (ধাৰণা)</strong>
+              <span class="text-[9px] bg-indigo-100 text-indigo-900 px-1 py-0.5 rounded font-bold">Focused Attention</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Fixing the attention exclusively on a single spatial point or symbol (e.g., breath at the nose-tip, candle flame, or Ajna chakra).</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-t-4 border-purple-500">
+            <div class="flex items-center justify-between mb-1">
+              <strong class="text-purple-950 font-doodle text-xs">7. Dhyana (ধ্যান)</strong>
+              <span class="text-[9px] bg-purple-100 text-purple-900 px-1 py-0.5 rounded font-bold">Meditation</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">An uninterrupted, seamless flow of awareness towards the object of concentration, like oil poured from one vessel to another.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-t-4 border-pink-500">
+            <div class="flex items-center justify-between mb-1">
+              <strong class="text-pink-950 font-doodle text-xs">8. Samadhi (সমাধি)</strong>
+              <span class="text-[9px] bg-pink-100 text-pink-900 px-1 py-0.5 rounded font-bold">Superconscious State</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Total transcendental absorption where the meditator, the act of meditating, and the object of meditation dissolve into pure unity.</p>
+          </div>
+
+        </div>
+
+        <div class="comic-box-sm bg-indigo-50 border-l-4 border-indigo-600 p-2 text-xs text-indigo-950">
+          <strong>Bahiranga vs. Antaranga Yoga:</strong> Limbs $1\text{ to } 5$ (<em>Yama, Niyama, Asana, Pranayama, Pratyahara</em>) constitute the <strong>External Path (Bahiranga)</strong> preparatory disciplines; Limbs $6\text{ to } 8$ (<em>Dharana, Dhyana, Samadhi</em>) constitute the internal triad known as <strong>Samyama (Antaranga)</strong>, representing direct psychological transcendence.
+        </div>
+      </div>
+
+      <!-- 2.2 Hatha Yoga & The Symbiotic Relationship -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.2</span> Hatha Yoga: Physiology of Energetic Balance & Link to Raja Yoga
+          </h3>
+          <span class="text-[10px] bg-amber-100 text-amber-900 border border-amber-300 font-bold px-2 py-0.5 rounded">
+            Harmonizing Sun & Moon
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          The term <strong>Hatha</strong> is composed of two primordial monosyllables: <strong>'Ha'</strong> (হ) signifying the Sun (<em>Surya</em> energy, representing the vital breath, prana, masculine principle, and right nostril / <em>Pingala Nadi</em>), and <strong>'Tha'</strong> (ঠ) signifying the Moon (<em>Chandra</em> energy, representing the mind, consciousness, feminine principle, and left nostril / <em>Ida Nadi</em>). Hatha Yoga is the energetic science of balancing these opposing polarities to awaken the central spiritual conduit: the <strong>Sushumna Nadi</strong>.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 mb-2">
+          
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1 border-b border-slate-200 pb-1">
+              Core Pillars of Hatha Yoga (Hatha Yoga Pradipika)
+            </strong>
+            <ul class="space-y-1.5 text-xs text-slate-700">
+              <li>• <strong>Shatkriyas (Purificatory Cleansings):</strong> Detoxifying bodily fluids (<em>Tridoshas</em>: Vata, Pitta, Kapha) before attempting advanced postures.</li>
+              <li>• <strong>Asanas:</strong> Cultivating physical steadiness, suppleness, and metabolic vigor.</li>
+              <li>• <strong>Pranayama (Kumbhaka):</strong> Restraining breath to quiet mental restlessness.</li>
+              <li>• <strong>Mudras & Bandhas:</strong> Neuromuscular locks that seal energetic leakage and stimulate dormant Kundalini.</li>
+              <li>• <strong>Nadanusandhana:</strong> Internal meditative absorption on sacred inner acoustic vibrations.</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-amber-50/60 p-3 border-l-4 border-amber-600 flex flex-col justify-between">
+            <div>
+              <strong class="text-amber-950 block font-doodle text-xs mb-1 border-b border-amber-200 pb-1">
+                The Symbiotic Link: Hatha Yoga as the Ladder to Raja Yoga
+              </strong>
+              <p class="text-xs text-slate-700 leading-relaxed mb-1">
+                Swami Swatmarama clearly affirms in the <em>Hatha Yoga Pradipika</em>:
+              </p>
+              <div class="font-mono-math text-[10.5px] bg-white p-1 rounded border border-amber-200 text-amber-900 my-1">
+                <em>"Kevalam raja-yogaya hatha-vidyopadisyate"</em><br>
+                (Hatha Yoga is taught solely as a stepping-stone ladder to reach Raja Yoga).
+              </div>
+              <p class="text-[11px] text-slate-600 leading-tight">
+                Attempting to control the agitated human mind directly through pure meditation (Raja Yoga) without preparing the physical body and breath (Hatha Yoga) is like trying to ride an untrained wild stallion. Physical purification and breath stabilization lay the indispensable bedrock for mental stillness!
+              </p>
+            </div>
+            <div class="mt-1 text-[10px] bg-amber-200 text-amber-950 font-bold p-1 rounded text-center">
+              Hatha Yoga is the Physical Foundation ➔ Raja Yoga is the Spiritual Pinnacle!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 2.3 The Four Classical Paths of Yoga -->
+      <div class="comic-box bg-white p-4">
+        <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase border-b border-slate-200 pb-1.5 mb-2.5 flex items-center gap-1.5">
+          <span class="text-indigo-700">2.3</span> The Four Classical Spiritual Paths & Tantra Yoga
+        </h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700">
+          
+          <div class="comic-box-sm bg-rose-50/60 p-2.5 border-t-4 border-rose-600">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">1. Karma Yoga (কৰ্মযোগ)</strong>
+            <p class="text-[10px] bg-rose-100 text-rose-900 font-bold px-1 py-0.5 rounded inline-block mb-1">Path of Selfless Action</p>
+            <p class="text-[11px] text-slate-600 leading-tight">
+              Anchored in the Bhagavad Gita's philosophy of <em>Nishkama Karma</em>—performing duty with total diligence while relinquishing selfish attachment to the fruits of action (<em>Karmaphala</em>). Teaches educators to teach with love without egoic demands for adulation!
+            </p>
+          </div>
+
+          <div class="comic-box-sm bg-sky-50/60 p-2.5 border-t-4 border-sky-600">
+            <strong class="text-sky-950 block font-doodle text-xs mb-1">2. Jnana Yoga (জ্ঞানযোগ)</strong>
+            <p class="text-[10px] bg-sky-100 text-sky-900 font-bold px-1 py-0.5 rounded inline-block mb-1">Path of Philosophical Inquiry</p>
+            <p class="text-[11px] text-slate-600 leading-tight">
+              The intellectual path of discerning the Real from the Unreal (<em>Viveka</em>), dispassionate detachment (<em>Vairagya</em>), and rigorous self-inquiry (<em>"Who am I?" / Neti, Neti</em>). Dissolves ignorance (<em>Avidya</em>) through enlightened wisdom.
+            </p>
+          </div>
+
+          <div class="comic-box-sm bg-amber-50/60 p-2.5 border-t-4 border-amber-600">
+            <strong class="text-amber-950 block font-doodle text-xs mb-1">3. Bhakti Yoga (ভক্তিযোগ)</strong>
+            <p class="text-[10px] bg-amber-100 text-amber-900 font-bold px-1 py-0.5 rounded inline-block mb-1">Path of Pure Devotion</p>
+            <p class="text-[11px] text-slate-600 leading-tight">
+              Channeling emotional energy into sublime, unconditional devotion, surrender (<em>Prapatti</em>), prayer, and chanting. Exemplified in Assam by <strong>Mahapurush Srimanta Sankardeva</strong> and <strong>Sri Sri Madhabdeva</strong> through the Neo-Vaishnavite <em>Nam-Kirtan</em> renaissance!
+            </p>
+          </div>
+
+          <div class="comic-box-sm bg-purple-50/60 p-2.5 border-t-4 border-purple-600">
+            <strong class="text-purple-950 block font-doodle text-xs mb-1">4. Tantra Yoga (তন্ত্ৰযোগ)</strong>
+            <p class="text-[10px] bg-purple-100 text-purple-900 font-bold px-1 py-0.5 rounded inline-block mb-1">Path of Energetic Transformation</p>
+            <p class="text-[11px] text-slate-600 leading-tight">
+              Utilizing sacred geometric diagrams (<em>Yantras</em>), vibrational syllables (<em>Mantras</em>), and psychosomatic energy chakras (Muladhara to Sahasrara) to expand consciousness and transform primal physical forces into transcendental spiritual vitality.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 3: CONCEPT OF ASANAS, PRANAYAMA, MUDRA, BANDHA AND KRIYA                            -->
+    <!-- ========================================================================================= -->
+    <section id="unit-3" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-emerald-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-emerald-600">3</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-emerald-950">
+              Unit 3: Yogic Practices Catalog: Asana, Pranayama, Mudra, Bandha & Kriya
+            </h2>
+            <p class="text-[11px] text-emerald-800 font-semibold">Surya Namaskar, Postural Anatomies, Pranic Regulation, Neuro-Vascular Locks & Shatkarma Detoxification</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-emerald-950 shadow-2xs font-mono-math">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 3.1 & 3.2 Postural Anatomy & Asana Categorization -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">3.1 & 3.2</span> The Master Asana Catalog: Postural Classification & Surya Namaskar
+          </h3>
+          <span class="text-[10px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-2 py-0.5 rounded-full font-mono-math">
+            $12\text{ Steps of Surya Namaskar}$
+          </span>
+        </div>
+
+        <!-- Surya Namaskar Card -->
+        <div class="comic-box-sm bg-amber-50/70 p-3 mb-3 border-l-4 border-amber-500">
+          <div class="flex items-center justify-between border-b border-amber-200 pb-1 mb-1.5">
+            <strong class="text-amber-950 font-doodle text-xs uppercase">☀️ Surya Namaskar (The $12\text{-Step}$ Solar Salutation)</strong>
+            <span class="text-[9px] bg-amber-200 text-amber-900 px-2 py-0.5 rounded font-bold">Complete Cardiovascular & Neuromuscular Flow</span>
+          </div>
+          <p class="text-[11px] text-slate-700 leading-tight mb-2">
+            A dynamic sequential flow linking $12\text{ postures}$ harmonized with specific inhalation, exhalation, and solar mantras:
+          </p>
+          <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-1.5 text-[10.5px] font-mono-math text-slate-800 text-center">
+            <div class="bg-white p-1 rounded border border-amber-300">1. Pranamasana (Exhale)</div>
+            <div class="bg-white p-1 rounded border border-amber-300">2. Hastauttanasana (Inhale)</div>
+            <div class="bg-white p-1 rounded border border-amber-300">3. Padahastasana (Exhale)</div>
+            <div class="bg-white p-1 rounded border border-amber-300">4. Ashwa Sanchalan (Inhale)</div>
+            <div class="bg-white p-1 rounded border border-amber-300">5. Dandasana (Retain)</div>
+            <div class="bg-white p-1 rounded border border-amber-300">6. Ashtanga Namaskar (Exhale)</div>
+            <div class="bg-white p-1 rounded border border-amber-300">7. Bhujangasana (Inhale)</div>
+            <div class="bg-white p-1 rounded border border-amber-300">8. Parvatasana (Exhale)</div>
+            <div class="bg-white p-1 rounded border border-amber-300">9. Ashwa Sanchalan (Inhale)</div>
+            <div class="bg-white p-1 rounded border border-amber-300">10. Padahastasana (Exhale)</div>
+            <div class="bg-white p-1 rounded border border-amber-300">11. Hastauttana (Inhale)</div>
+            <div class="bg-white p-1 rounded border border-amber-300">12. Pranamasana (Exhale)</div>
+          </div>
+        </div>
+
+        <!-- 4 Postural Categories Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700">
+          
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-teal-950 block font-doodle text-xs mb-1 border-b border-slate-200 pb-0.5">
+              1. Standing Asanas (দণ্ডায়মান)
+            </strong>
+            <ul class="space-y-1 text-[11px] text-slate-600">
+              <li>• <strong>Tadasana:</strong> Mountain pose; builds vestibular balance, elongates spine, corrects flat feet.</li>
+              <li>• <strong>Vrikshasana:</strong> Tree pose; cultivates proprioception and mental concentration.</li>
+              <li>• <strong>Pada Hastasana:</strong> Standing forward bend; stretches hamstrings, stimulates digestion.</li>
+              <li>• <strong>Ardhachakrasana:</strong> Half-wheel backward arch; expands lung volume and heart cavity.</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-teal-950 block font-doodle text-xs mb-1 border-b border-slate-200 pb-0.5">
+              2. Sitting Asanas (উপবিষ্ট)
+            </strong>
+            <ul class="space-y-1 text-[11px] text-slate-600">
+              <li>• <strong>Padmasana & Sukhasana:</strong> Classical meditative seats; grounds pelvic floor, straightens spine.</li>
+              <li>• <strong>Vajrasana:</strong> Thunderbolt posture; the *only* asana permitted immediately after meals; enhances portal circulation.</li>
+              <li>• <strong>Dandasana:</strong> Staff pose; strengthens core abdominal and lower lumbar back extensors.</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-teal-950 block font-doodle text-xs mb-1 border-b border-slate-200 pb-0.5">
+              3. Prone Asanas (উপুড় হৈ শোৱা)
+            </strong>
+            <ul class="space-y-1 text-[11px] text-slate-600">
+              <li>• <strong>Makarasana:</strong> Crocodile pose; deep psychosomatic diaphragm relaxation.</li>
+              <li>• <strong>Bhujangasana:</strong> Cobra pose; backward spinal extension, expands thoracic cage, stimulates thyroid.</li>
+              <li>• <strong>Shalabhasana:</strong> Locust pose; tones buttocks and lumbar muscles.</li>
+              <li>• <strong>Dhanurasana:</strong> Bow pose; intra-abdominal pressure massages pancreas and liver.</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-teal-950 block font-doodle text-xs mb-1 border-b border-slate-200 pb-0.5">
+              4. Supine Asanas (উত্তান হৈ শোৱা)
+            </strong>
+            <ul class="space-y-1 text-[11px] text-slate-600">
+              <li>• <strong>Savasana:</strong> Corpse pose; conscious somatic stillness, triggers parasympathetic relaxation.</li>
+              <li>• <strong>Pawanmuktasana:</strong> Wind-relieving pose; relieves gas and abdominal bloating.</li>
+              <li>• <strong>Sarvangasana:</strong> Shoulder-stand; reverses venous pooling, bathes brain and thyroid in rich blood.</li>
+              <li>• <strong>Halasana & Chakrasana:</strong> Plow and Wheel; extreme spinal flexibility, tones adrenal glands.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 3.3 to 3.7 Pranayama, Mudras, Bandhas & Shatkriyas -->
+      <div class="comic-box bg-white p-4">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 mb-3">
+          
+          <!-- Pranayama Mechanics -->
+          <div class="comic-box-sm bg-sky-50/60 p-3">
+            <div class="flex items-center justify-between border-b border-sky-200 pb-1 mb-1.5">
+              <strong class="text-sky-950 font-doodle text-xs uppercase">3.3 Pranayama: The Vital Respiratory Technology</strong>
+              <span class="text-[9px] bg-sky-200 text-sky-900 px-1.5 py-0.5 rounded font-bold">Puraka • Kumbhaka • Rechaka</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-2">
+              Three fundamental phases: <em>Puraka</em> (controlled inhalation), <em>Kumbhaka</em> (retention; internal or external), and <em>Rechaka</em> (controlled exhalation):
+            </p>
+            <ul class="space-y-1.5 text-xs text-slate-700">
+              <li>• <strong>Anulom-Viloma (Nadi Shodhana):</strong> Alternate nostril breathing without breath holding. Balances sympathetic (Pingala) and parasympathetic (Ida) hemispheres, reducing stress.</li>
+              <li>• <strong>Kapalbhati:</strong> Literally *"Skull Shining"*; rapid, forceful diaphragmatic exhalations with passive automatic inhalations. Clears frontal sinuses, dispels lethargy, and ignites digestive fire (<em>Jatharagni</em>).</li>
+              <li>• <strong>Bhastrika:</strong> *"Bellows breath"*; forceful, deep inhalations and exhalations generating profound metabolic heat and cellular oxygenation.</li>
+            </ul>
+          </div>
+
+          <!-- Mudras and Bandhas -->
+          <div class="comic-box-sm bg-purple-50/60 p-3">
+            <div class="flex items-center justify-between border-b border-purple-200 pb-1 mb-1.5">
+              <strong class="text-purple-950 font-doodle text-xs uppercase">3.4 & 3.5 Mudras & Bandhas (Energy Seals & Locks)</strong>
+              <span class="text-[9px] bg-purple-200 text-purple-900 px-1.5 py-0.5 rounded font-bold">Neuro-Vascular Gates</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-2">
+              <strong>Mudras</strong> redirect subtle psychic energy (<em>Prana</em>) through neuromuscular circuits:
+            </p>
+            <div class="grid grid-cols-2 gap-1.5 text-[10.5px] mb-2">
+              <div class="bg-white p-1 rounded border border-purple-200">
+                <strong>Gyan / Chin Mudra:</strong> Thumb touches index finger; enhances memory, calms the mind.
+              </div>
+              <div class="bg-white p-1 rounded border border-purple-200">
+                <strong>Anjali Mudra:</strong> Palms folded at heart; fosters humility and inner devotion.
+              </div>
+            </div>
+            <strong class="text-purple-950 block font-doodle text-xs mb-1">The Three Master Bandhas (Energy Locks):</strong>
+            <ul class="text-[11px] space-y-1 text-slate-600">
+              <li>• <strong>Jalandhara Bandha (Throat Lock):</strong> Chin rests on jugular notch; regulates carotid sinus pressure and thyroid.</li>
+              <li>• <strong>Uddiyana Bandha (Abdominal Lock):</strong> Abdomen pulled in and up towards spine; massages viscera.</li>
+              <li>• <strong>Mula Bandha (Root Lock):</strong> Perineal/pelvic contraction; channels energy upwards. (<em>Maha Bandha</em> combines all three!)</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Shatkriyas & Japa/Ajapa Strip -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700">
+          
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1 border-b border-slate-200 pb-0.5">
+              3.6 The Shatkriyas: Six Classical Yogic Purifications (ষট্কৰ্ম)
+            </strong>
+            <div class="grid grid-cols-3 gap-1.5 text-[10.5px] text-center">
+              <div class="bg-white p-1 rounded border border-slate-300"><strong>1. Neti:</strong> Nasal cleanse (Jala/Sutra)</div>
+              <div class="bg-white p-1 rounded border border-slate-300"><strong>2. Dhauti:</strong> Digestive tract wash</div>
+              <div class="bg-white p-1 rounded border border-slate-300"><strong>3. Nauli:</strong> Abdominal churning</div>
+              <div class="bg-white p-1 rounded border border-slate-300"><strong>4. Basti:</strong> Colonic cleansing</div>
+              <div class="bg-white p-1 rounded border border-slate-300"><strong>5. Kapalbhati:</strong> Sinus/frontal detox</div>
+              <div class="bg-white p-1 rounded border border-slate-300"><strong>6. Trataka:</strong> Ocular gaze focus</div>
+            </div>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 flex flex-col justify-between">
+            <div>
+              <strong class="text-slate-900 block font-doodle text-xs mb-1 border-b border-slate-200 pb-0.5">
+                3.7 Japa vs. Ajapa (জপ আৰু অজপা)
+              </strong>
+              <p class="text-[11px] text-slate-600 leading-tight">
+                <strong>Japa:</strong> Deliberate, conscious, repetitive recitation of a sacred mantra (<em>Om</em>, Gayatri, etc.) either aloud, whispered, or mentally.<br>
+                <strong>Ajapa:</strong> Spontaneous, effortless, continuous breath awareness that occurs without voluntary mental effort—tuning into the natural <em>"So-Ham"</em> sound of human breathing (<em>"So"</em> on inhale, <em>"Ham"</em> on exhale).
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 4: GENERAL AND THERAPEUTIC BENEFITS OF YOGA                                         -->
+    <!-- ========================================================================================= -->
+    <section id="unit-4" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-rose-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-rose-600">4</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-rose-950">
+              Unit 4: Therapeutic Benefits of Yoga, Lifestyle Diseases & Systems Physiology
+            </h2>
+            <p class="text-[11px] text-rose-800 font-semibold">Supplemental/Regenerative Modes, Combating Psychosomatic Ailments & Anatomical Organ Impacts</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-rose-950 shadow-2xs font-mono-math">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 4.1 Categories of Yoga Practices -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase border-b border-slate-200 pb-1.5 mb-2.5 flex items-center gap-1.5">
+          <span class="text-rose-600">4.1</span> Four Functional Modalities of Modern Yogic Practice
+        </h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">1. Supplemental Yoga</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Yogic routines practiced as an adjunct to professional sports or strenuous physical labour to optimize agility, spatial reflexes, and lung capacity.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">2. Compensatory Yoga</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Targeted postures engineered to reverse the structural deformities caused by modern sedentary desk jobs, repetitive keyboard strain, or standing all day.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">3. Regenerative / Restorative</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Passive, supported postures (using pillows, bolsters, wall-ropes) holding bodies in stillness to lower cortisol, stimulate lymph drainage, and convalesce post-illness.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">4. Power Yoga</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Vigorous, fast-paced modern fitness derivative based on Ashtanga Vinyasa; emphasizes dynamic calorie burning, core strength, and cardiovascular stamina.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4.2 Therapeutic Benefits in Lifestyle Diseases -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-rose-600">4.2</span> Therapeutic Interventions for Contemporary Lifestyle Pandemics
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded">
+            Psychosomatic Medicine
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700 mb-2">
+          
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">1. Anxiety & Depression</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Chronic stress triggers amygdala hyperactivity. Yoga activates the <strong>vagus nerve</strong>, boosting soothing neurotransmitters (GABA, Serotonin) and reducing serum cortisol.</p>
+            <span class="text-[10px] font-mono-math text-indigo-900 font-bold">Key Rx: Savasana, Bhramari, Yoga Nidra.</span>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">2. Obesity & Dyslipidemia</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Stimulates sluggish thyroid metabolism, stimulates liver lipase activity, burns subcutaneous adipose tissue, and curtails emotional binge-eating.</p>
+            <span class="text-[10px] font-mono-math text-indigo-900 font-bold">Key Rx: Surya Namaskar, Kapalbhati, Paschimottanasana.</span>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">3. Essential Hypertension</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Attenuates sympathetic hyperarousal, restores aortic baroreceptor sensitivity, and induces systemic peripheral vasodilation, lowering BP.</p>
+            <span class="text-[10px] font-mono-math text-indigo-900 font-bold">Key Rx: Savasana, Nadi Shodhana, Sheetali (Avoid headstands!).</span>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">4. Type-II Diabetes Mellitus</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Torsional spinal twists and abdominal compression asanas directly massage the pancreas, stimulating the Islets of Langerhans to secrete insulin.</p>
+            <span class="text-[10px] font-mono-math text-indigo-900 font-bold">Key Rx: Ardha Matsyendrasana, Mandukasana, Dhanurasana.</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 4.3 & 4.4 Self-Actualization & Impact on Bodily Systems -->
+      <div class="comic-box bg-white p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Yoga and Self-Actualization -->
+          <div class="comic-box-sm bg-amber-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-amber-950 text-xs uppercase border-b border-amber-200 pb-1 mb-2">
+                4.3 Yoga and Human Self-Actualization
+              </h4>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                Humanistic psychologist Abraham Maslow posited <strong>Self-Actualization</strong> as the highest hierarchy of psychological human need—realizing one's supreme innate potential. Yoga offers the practical empirical methodology for attaining this state:
+              </p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>Transcending the Ego (<em>Ahamkara</em>):</strong> Dissolves petty insecurities and defensiveness, cultivating unconditional universal empathy.</li>
+                <li>• <strong>Inner Coherence:</strong> Harmonizing thought, speech, and physical action into authentic ethical living.</li>
+                <li>• <strong>Peak Experiences (<em>Samadhi</em>):</strong> Unlocking profound states of inner peace, clarity, and creative intuition.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-amber-100 text-amber-950 font-bold p-1 rounded text-center">
+              Yoga transforms an educator from an insecure worker into an inspiring, radiant presence!
+            </div>
+          </div>
+
+          <!-- Physiological Systems Matrix -->
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2">
+              4.4 Direct Physiological Impact Across Human Organ Systems
+            </h4>
+            <div class="space-y-1 text-[11px] text-slate-700">
+              <div>• <strong>Circulatory System:</strong> Enhances venous blood return to the heart; lowers resting pulse; prevents varicose veins.</div>
+              <div>• <strong>Musculoskeletal:</strong> Corrects spinal curvature (scoliosis/lordosis); increases synovial lubrication in joints; prevents osteoporosis.</div>
+              <div>• <strong>Digestive System:</strong> Peristaltic intra-abdominal pressure cures chronic constipation and enhances digestive enzyme secretion.</div>
+              <div>• <strong>Nervous System:</strong> Shifts autonomic tone towards parasympathetic dominance; promotes alpha and theta brainwaves.</div>
+              <div>• <strong>Respiratory System:</strong> Expands vital lung capacity; strengthens the diaphragm; improves alveolar oxygen diffusion.</div>
+              <div>• <strong>Excretory System:</strong> Promotes cellular metabolic waste evacuation via sweating, deep exhalation, and enhanced renal blood filtration.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- PRACTICUM & INTERNAL ASSESSMENT ARCHITECTURE (30 MARKS)                                   -->
+    <!-- ========================================================================================= -->
+    <section id="assessment-blueprint" class="avoid-break comic-box bg-slate-900 text-white p-6 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-700 pb-3 mb-4">
+        <div class="flex items-center gap-2">
+          <span class="text-xl text-teal-400">★</span>
+          <h3 class="text-sm sm:text-base font-doodle font-bold text-teal-300 uppercase">
+            Paper S1.8 Practicum, Morning Drills & Internal Assessment Architecture ($30\text{ Marks}$)
+          </h3>
+        </div>
+        <span class="text-xs bg-slate-800 border border-slate-700 px-2.5 py-1 rounded text-slate-300 font-bold font-mono-math">
+          Syllabus 2026
+        </span>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-center text-xs mb-4">
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Classroom Assignments</span>
+          <span class="text-base font-doodle font-black text-teal-400">$5\text{ Marks}$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Yogic Theory Portfolios</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Practicum & Interview</span>
+          <span class="text-base font-doodle font-black text-emerald-400">$5\text{ Marks}$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Field Report & Asana Demo</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Institutional Unit Tests</span>
+          <span class="text-base font-doodle font-black text-sky-400">$10\text{ Marks}$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Internal Written Evaluation</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">SIP-I School Activity</span>
+          <span class="text-base font-doodle font-black text-amber-400">$10\text{ Marks}$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">School Asanas & Case Data</span>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-3 text-xs text-slate-300 space-y-2">
+        <div>
+          <strong class="text-white block font-doodle text-xs mb-1">Prescribed Practicum Requirements:</strong>
+          <ul class="space-y-1 text-[11px] list-disc pl-4 text-slate-300">
+            <li><strong>Field Visit / Reporting Task:</strong> Visit a local recognized yoga ashram or healthcare center; interview an active practitioner on verified therapeutic benefits; or prepare a comprehensive monograph on district observance of the <strong>International Day of Yoga (June 21)</strong>.</li>
+            <li><strong>Peer Demonstration:</strong> Flawlessly demonstrate at least $5\text{ prescribed asanas}$ before the peer group, articulating safety precautions, alignment, and contraindications.</li>
+            <li><strong>Daily Morning Assembly Protocol:</strong> Lead and practice Pranayama (Anulom-Viloma, Kapalbhati, Bhastrika) and silent mindfulness meditation for at least $10\text{ minutes}$ every single morning during institutional training.</li>
+          </ul>
+        </div>
+
+        <div class="border-t border-slate-800 pt-2">
+          <strong class="text-teal-300 block font-doodle text-xs mb-0.5">School Internship (SIP-I Linkage - $10\text{ Marks}$):</strong>
+          <p class="leading-relaxed text-[11px]">
+            During the $2\text{-week}$ School Internship-I, trainees must conduct daily morning yoga and asana sessions for elementary children (Sukhasana, Vajrasana, Bhujangasana, Tadasana, Vrikshasana) and compile documented field data of at least one local individual who recovered from chronic conditions (trauma, depression, paralysis, hypertension) through yoga therapy, submitting an analytical report countersigned by the school head.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DOCUMENT FOOTER ==================== -->
+    <footer class="avoid-break pt-4 border-t-2 border-dashed border-slate-400 text-center text-xs text-slate-600">
+      <div class="comic-box-sm bg-slate-900 text-white py-2.5 px-4 flex flex-wrap items-center justify-between gap-3 shadow-sm">
+        <div class="flex items-center gap-1.5 font-bold text-teal-300">
+          <span>★</span> Paper S1.8 Study Notes <span>•</span> Curriculum Session 2026
+        </div>
+
+        <div class="text-center font-medium text-slate-300">
+          Made with ❤️ by <strong class="text-white font-bold">Sayeem Sadik</strong>
+          <span class="text-slate-500">•</span>
+          <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-cyan-300 font-bold hover:underline font-mono-math">
+            https://leoaristocrat.eu.cc
+          </a>
+        </div>
+
+        <div class="text-[11px] text-slate-400 font-bold">
+          All Rights Safeguarded 🛡️
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- KaTeX Auto-Render Trigger -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper S1.3: Understanding Language and Early Language Development - Master Notes (2026)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Fredoka (Doodle/Display), Plus Jakarta Sans (Body), Caveat (Handwritten), JetBrains Mono (Technical/Metrics) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- KaTeX CDN for crisp, textbook-grade mathematical & scientific formula rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0b1329;
+      color: #0f172a;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .font-doodle {
+      font-family: 'Fredoka', cursive, sans-serif;
+    }
+
+    .font-hand {
+      font-family: 'Caveat', cursive;
+    }
+
+    .font-mono-math {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Comic Neo-Brutalist Card Shadows & Solid Borders */
+    .comic-box {
+      border: 2.5px solid #0f172a;
+      box-shadow: 4px 4px 0px #0f172a;
+      border-radius: 12px;
+      background-color: #ffffff;
+    }
+
+    .comic-box-sm {
+      border: 2px solid #0f172a;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+      border-radius: 8px;
+      background-color: #ffffff;
+    }
+
+    /* Vibrant Circular Number Badges */
+    .badge-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 9999px;
+      border: 2px solid #0f172a;
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 12px;
+      box-shadow: 1.5px 1.5px 0px #0f172a;
+      flex-shrink: 0;
+    }
+
+    /* Adhesive Tape Pin Effect */
+    .tape-pin {
+      position: relative;
+    }
+    .tape-pin::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      left: 20%;
+      width: 44px;
+      height: 14px;
+      background: rgba(254, 240, 138, 0.95);
+      border: 1px dashed rgba(180, 83, 9, 0.6);
+      transform: rotate(-3deg);
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+      z-index: 10;
+    }
+
+    /* 3D Pushpin Graphic */
+    .pushpin-red {
+      position: absolute;
+      top: -6px;
+      right: 12px;
+      width: 14px;
+      height: 14px;
+      background: radial-gradient(circle at 30% 30%, #ef4444, #991b1b);
+      border: 1.5px solid #0f172a;
+      border-radius: 50%;
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.35);
+      z-index: 20;
+    }
+
+    /* Document Envelope */
+    .doc-container {
+      max-width: 1040px;
+      margin: 24px auto;
+      padding: 36px 32px;
+      background: #fafaf9;
+      background-image: radial-gradient(#cbd5e1 0.85px, transparent 0.85px);
+      background-size: 12px 12px;
+      border: 3.5px solid #0f172a;
+      box-shadow: 8px 10px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 20px;
+      position: relative;
+    }
+
+    /* Custom Table Styling */
+    .comic-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 2px solid #0f172a;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #ffffff;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+    }
+    .comic-table th, .comic-table td {
+      border-bottom: 1.5px solid #e2e8f0;
+      border-right: 1.5px solid #e2e8f0;
+      padding: 10px 14px;
+    }
+    .comic-table th:last-child, .comic-table td:last-child {
+      border-right: none;
+    }
+    .comic-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* KaTeX Size & Spacing Tuning */
+    .katex {
+      font-size: 1.05em !important;
+    }
+    .katex-display {
+      margin: 0.35em 0 !important;
+    }
+
+    /* Print & PDF Calibration */
+    .avoid-break {
+      break-inside: avoid !important;
+      page-break-inside: avoid !important;
+    }
+
+    .force-page-break {
+      break-before: page !important;
+      page-break-before: always !important;
+    }
+
+    @media print {
+      body {
+        background-color: transparent !important;
+        padding: 0 !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .doc-container {
+        margin: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        background: transparent !important;
+      }
+      .comic-box {
+        box-shadow: none !important;
+        border: 2px solid #0f172a !important;
+      }
+    }
+  </style>
+</head>
+<body class="selection:bg-amber-200 selection:text-amber-900 pb-16">
+
+  <!-- ==================== SCREEN-ONLY QUICK ACTION BAR ==================== -->
+  <header class="no-print sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b-2 border-slate-700 px-4 py-2.5 shadow-xl">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand & Metadata Badge -->
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 bg-gradient-to-tr from-cyan-400 via-blue-500 to-indigo-600 rounded-xl flex items-center justify-center text-white font-black shadow-md border-2 border-slate-900 text-sm font-doodle">
+          S1.3
+        </div>
+        <div>
+          <h1 class="text-white text-xs sm:text-sm font-extrabold flex items-center gap-2 tracking-tight">
+            Understanding Language & Early Language Development
+            <span class="text-[10px] bg-cyan-500/25 text-cyan-300 border border-cyan-500/40 px-2 py-0.5 rounded-full font-bold">50 Marks • 2 Credits</span>
+          </h1>
+          <p class="text-[11px] text-slate-400">Curriculum Session 2026 • Made with ❤️ by Sayeem Sadik</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex items-center flex-wrap gap-2">
+        <a href="#unit-1" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 hover:bg-cyan-500/30 transition">
+          U1: Nature
+        </a>
+        <a href="#unit-2" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/30 transition">
+          U2: Acquisition & FLN
+        </a>
+        <a href="#unit-3" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30 hover:bg-amber-500/30 transition">
+          U3: Multilingualism
+        </a>
+        <a href="#unit-4" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-purple-500/20 text-purple-300 border border-purple-500/30 hover:bg-purple-500/30 transition">
+          U4: LAC & BICS/CALP
+        </a>
+        <button onclick="window.print()" class="flex items-center gap-1.5 bg-cyan-400 hover:bg-cyan-300 text-slate-950 text-xs font-extrabold px-3.5 py-1.5 rounded-lg transition shadow border border-slate-900 font-doodle">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          Print / Save PDF (A4)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN DOCUMENT ENVELOPE ==================== -->
+  <main class="doc-container">
+
+    <!-- ==================== HERO HEADER ==================== -->
+    <header class="avoid-break mb-8 relative">
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+        
+        <!-- Left Tape Ribbon -->
+        <div class="tape-pin bg-cyan-100 border-2 border-slate-900 px-3.5 py-1 rounded-lg transform -rotate-2 shadow-xs">
+          <span class="pushpin-red"></span>
+          <div class="text-[9px] font-black uppercase tracking-wider text-cyan-950">D.El.Ed First Semester • Paper S1.3</div>
+          <div class="text-sm font-doodle font-bold text-slate-900 leading-tight">Language & Early Development</div>
+          <div class="text-[9px] font-bold text-cyan-800">Linguistics, Multilingualism & FLN Pedagogy • 2026 Session</div>
+        </div>
+
+        <!-- Right Quick Stats Badges -->
+        <div class="flex items-center gap-2">
+          <div class="comic-box-sm bg-amber-100 px-3 py-1 text-center transform rotate-1">
+            <div class="text-[8px] font-black text-amber-700 uppercase tracking-tight">Exam Breakdown</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">35 Ext + 15 Int</div>
+            <div class="text-[8px] text-slate-600 font-bold">Total: 50 Marks</div>
+          </div>
+          <div class="comic-box-sm bg-sky-100 px-3 py-1 text-center transform -rotate-1">
+            <div class="text-[8px] font-black text-sky-700 uppercase tracking-tight">Course Load</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">2 Credits</div>
+            <div class="text-[8px] text-slate-600 font-bold">50 Study Hours</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Main Title Box -->
+      <div class="comic-box bg-gradient-to-r from-cyan-50 via-sky-50 to-indigo-50 p-5 text-center relative overflow-hidden">
+        <div class="inline-block relative">
+          <span class="absolute -inset-1.5 bg-cyan-200 rounded-lg transform -rotate-1 border-2 border-slate-900 -z-10 shadow-xs"></span>
+          <h1 class="text-xl sm:text-3xl font-doodle font-black uppercase text-slate-900 tracking-tight px-4 py-1">
+            Understanding Language & Early Language Development
+          </h1>
+        </div>
+        <p class="text-xs sm:text-sm font-bold text-slate-700 mt-2 max-w-2xl mx-auto leading-relaxed">
+          Comprehensive Study Notes on Sociolinguistics, Language Acquisition Mechanisms, Foundational Literacy (FLN), Multilingual Pedagogy, and Language Across Curriculum (LAC)
+        </p>
+
+        <!-- Author Ribbon -->
+        <div class="mt-4 pt-3 border-t-2 border-dashed border-slate-300 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-1.5 font-bold text-slate-800">
+            <span>Made with ❤️ by</span>
+            <span class="text-indigo-950 font-black underline decoration-cyan-500 decoration-2">Sayeem Sadik</span>
+            <span class="text-slate-400">•</span>
+            <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-brand-700 hover:underline font-mono-math text-indigo-700 font-extrabold">
+              leoaristocrat.eu.cc
+            </a>
+          </div>
+          <div class="inline-flex items-center gap-1.5 font-mono-math font-bold text-[10.5px] bg-white border border-slate-900 rounded-md px-2 py-0.5 shadow-2xs">
+            <span class="w-2 h-2 rounded-full bg-cyan-500"></span>
+            Curriculum Session 2026
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==================== TABLE OF CONTENTS ==================== -->
+    <nav class="avoid-break comic-box bg-cyan-50/90 p-4 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-900 pb-2 mb-3">
+        <div class="flex items-center gap-2">
+          <span class="text-base">📑</span>
+          <h2 class="text-xs font-doodle font-bold uppercase tracking-wider text-cyan-950">
+            Syllabus Blueprint & Marks Allocation
+          </h2>
+        </div>
+        <span class="text-[10px] font-bold bg-cyan-200 border border-cyan-400 text-cyan-950 px-2 py-0.5 rounded-full">
+          4 Core Units • 35 External Marks
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs">
+        <a href="#unit-1" class="comic-box-sm p-2.5 hover:bg-cyan-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-cyan-950 text-sm">Unit 1</strong>
+            <span class="bg-cyan-100 border border-cyan-300 text-cyan-900 font-bold px-1.5 py-0.5 rounded text-[10px]">10 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Language & Communication in Society</div>
+          <div class="text-[10px] text-slate-500">Nature of Language, Dynamic Traits, Identity</div>
+        </a>
+
+        <a href="#unit-2" class="comic-box-sm p-2.5 hover:bg-emerald-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-emerald-950 text-sm">Unit 2</strong>
+            <span class="bg-emerald-100 border border-emerald-300 text-emerald-900 font-bold px-1.5 py-0.5 rounded text-[10px]">10 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Language Acquisition & Learning</div>
+          <div class="text-[10px] text-slate-500">L1 to L2 Bridge, FLN, Phonetics & Morphology</div>
+        </a>
+
+        <a href="#unit-3" class="comic-box-sm p-2.5 hover:bg-amber-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-amber-950 text-sm">Unit 3</strong>
+            <span class="bg-amber-100 border border-amber-300 text-amber-900 font-bold px-1.5 py-0.5 rounded text-[10px]">9 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Diversity & Multilingualism</div>
+          <div class="text-[10px] text-slate-500">Articles 350A/351, Translanguaging, 3-Language</div>
+        </a>
+
+        <a href="#unit-4" class="comic-box-sm p-2.5 hover:bg-purple-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-purple-950 text-sm">Unit 4</strong>
+            <span class="bg-purple-100 border border-purple-300 text-purple-900 font-bold px-1.5 py-0.5 rounded text-[10px]">6 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Language Across Curriculum (LAC)</div>
+          <div class="text-[10px] text-slate-500">Halliday's Functions, BICS vs CALP Iceberg</div>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 1: LANGUAGE AND COMMUNICATION IN SOCIETY                                             -->
+    <!-- ========================================================================================= -->
+    <section id="unit-1" class="mb-10">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-cyan-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-cyan-600">1</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-cyan-950">
+              Unit 1: Language and Communication in Society
+            </h2>
+            <p class="text-[11px] text-cyan-800 font-semibold">Epistemological Nature, Core Characteristics, Cultural Identity & Expressive Vehicles</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-cyan-950 shadow-2xs">
+          Weightage: 10 Marks
+        </span>
+      </div>
+
+      <!-- 1.1 Nature of Language & Nature of Knowledge -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-cyan-700">1.1</span> The Nature of Language and the Nature of Knowledge
+          </h3>
+          <span class="text-[10px] bg-cyan-50 text-cyan-900 border border-cyan-300 px-2 py-0.5 rounded font-bold">
+            Epistemological Core
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          <strong>Language</strong> is not merely an external tool for transmitting data or issuing commands; it is a complex, rule-governed symbolic system of communication that operates as the very <strong>scaffolding of human cognition</strong>. In linguistics, language is defined as an arbitrary system of vocal symbols through which human beings communicate, conceptualize reality, and construct meaning.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 my-2">
+          <div class="comic-box-sm bg-slate-50 p-3 border-l-4 border-cyan-600">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">🧠 Nature of Language</strong>
+            <ul class="space-y-1 text-xs text-slate-600">
+              <li>• <strong>Rule-Governed System:</strong> Constrained by syntax, phonology, and grammar yet infinitely productive.</li>
+              <li>• <strong>Arbitrary:</strong> No inherent physical link exists between the phonetic sound $/k\text{-}\ae\text{-}t/$ and the actual feline creature.</li>
+              <li>• <strong>Species-Specific:</strong> While animals communicate via signals, only humans possess recursive grammar and displaced discourse (talking about the past or future).</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-3 border-l-4 border-indigo-600">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">💡 Nature of Knowledge & Epistemology</strong>
+            <ul class="space-y-1 text-xs text-slate-600">
+              <li>• <strong>Propositional Knowledge:</strong> Knowing <em>that</em> something is true requires linguistic formulation (e.g., "Water freezes at $0^\circ\text{C}$").</li>
+              <li>• <strong>Social Construction:</strong> Knowledge is not discovered in isolation; it is co-constructed through dialogue, peer debate, and linguistic interaction (Vygotskian constructivism).</li>
+              <li>• <strong>Language as Cognitive Tool:</strong> Thinking without language is extremely limited; words categorize experiences into manageable concepts.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="comic-box-sm bg-cyan-50/70 p-2.5 text-xs text-cyan-950 mt-2">
+          <strong>Teacher's Insight:</strong> When a child enters your classroom, they do not arrive "empty-headed". Even if they cannot read formal script, they already possess a remarkably rich, intuitive mental grammar of their mother tongue comprising over $3{,}000$ words!
+        </div>
+      </div>
+
+      <!-- 1.2 Need of Language for Acquiring Other Knowledge -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase border-b border-slate-200 pb-1.5 mb-2.5 flex items-center gap-1.5">
+          <span class="text-cyan-700">1.2</span> The Essential Role of Language in Acquiring Knowledge
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Language serves as the primary epistemological vehicle across every school subject. Without linguistic comprehension, conceptual mastery in other curricular areas is impossible:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs text-slate-700">
+          <div class="comic-box-sm bg-emerald-50/60 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">📐 In Mathematics</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Word problems require reading comprehension, vocabulary decoding (e.g., "difference", "total", "quotient"), and symbolic translation before calculating numbers.</p>
+          </div>
+          <div class="comic-box-sm bg-sky-50/60 p-2.5">
+            <strong class="text-sky-950 block font-doodle text-xs mb-1">🔬 In Science</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Hypothesis testing, explaining cause-and-effect, observing phenomena, and classifying natural specimens all rely on precise scientific vocabulary.</p>
+          </div>
+          <div class="comic-box-sm bg-amber-50/60 p-2.5">
+            <strong class="text-amber-950 block font-doodle text-xs mb-1">🌍 In Social Studies</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Understanding historical narratives, constitutional rights, geographical features, and empathy for diverse cultures demands critical reading and verbal discussion.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1.3 to 1.5 Characteristics, Culture & Self-Expression -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-cyan-700">1.3 – 1.5</span> Dynamic Nature, Cultural Identity & Expressive Power
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded">
+            Key Exam Anchor
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs text-slate-700 mb-3">
+          
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">1. Dynamic & Living</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Language is never static. It evolves over time, adopting new loan words, dropping obsolete terms, and morphing through cultural interaction (e.g., technology words entering our daily vocabulary).</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">2. Creative & Generative</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">As Noam Chomsky highlighted, with a finite set of grammatical rules and words, a speaker can generate and comprehend an <strong>infinite number of novel sentences</strong> never uttered before.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">3. Arbitrary System</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Ferdinand de Saussure proved the link between the *Signifier* (word/sound) and *Signified* (mental concept) is purely conventional. A dog is called "Kukur" in Assamese, "Kutta" in Hindi, and "Chien" in French.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">4. Perpetual & Enduring</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Language transcends individual human mortality. It links past ancestors with future generations, preserving collective oral histories, folk tales, lullabies, and literature perpetually across centuries.</p>
+          </div>
+
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 pt-2 border-t border-slate-200">
+          <div class="comic-box-sm bg-indigo-50/60 p-3">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">1.4 Cultural Repository & Identity (ভাষা আৰু সংস্কৃতি)</strong>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Language is the living skin of culture. It carries community proverbs, idioms, folklore, and indigenous environmental knowledge. The <strong>Sapir-Whorf Hypothesis (Linguistic Relativity)</strong> posits that the structure of a language influences how its speakers perceive the world. To suppress a child's mother tongue in school is to suppress their cultural self-worth!
+            </p>
+          </div>
+
+          <div class="comic-box-sm bg-rose-50/60 p-3">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">1.5 Primary Tool of Self-Expression & Catharsis</strong>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Language enables human emotional health. Children use language to express fear, joy, grief, desire, and creative imagination. When classrooms silence children's natural spontaneous speech, their socio-emotional and creative growth is severely stunted.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 2: LANGUAGE ACQUISITION AND LEARNING                                                 -->
+    <!-- ========================================================================================= -->
+    <section id="unit-2" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-emerald-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-emerald-600">2</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-emerald-950">
+              Unit 2: Language Acquisition and Learning
+            </h2>
+            <p class="text-[11px] text-emerald-800 font-semibold">$L_1$ to $L_2$ Transition, Foundational Literacy (FLN/NIPUN), Phonology & Morphology</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-emerald-950 shadow-2xs">
+          Weightage: 10 Marks
+        </span>
+      </div>
+
+      <!-- 2.1 & 2.2 Acquisition vs Learning & Home-to-School Bridge -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">2.1 & 2.2</span> Acquisition vs. Learning & The Home-to-School Bridge
+          </h3>
+          <span class="text-[10px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-2 py-0.5 rounded-full">
+            Krashen's Distinction
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Linguist Stephen Krashen made a critical distinction between how humans master their first language ($L_1$) versus an unfamiliar target language ($L_2$) in formal school settings:
+        </p>
+
+        <!-- Comparative Table -->
+        <div class="avoid-break overflow-x-auto my-2">
+          <table class="comic-table text-xs sm:text-sm">
+            <thead class="bg-emerald-100 text-emerald-950 font-bold border-b-2 border-slate-900 text-[11px] uppercase">
+              <tr>
+                <th class="w-1/4">Key Dimension</th>
+                <th class="w-3/8 bg-emerald-50 text-emerald-950">Language Acquisition (অর্জন - $L_1$)</th>
+                <th class="w-3/8 bg-amber-50 text-amber-950">Language Learning (শিকন - $L_2$)</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Process Nature</td>
+                <td>Subconscious, natural, implicit, and effortless absorption.</td>
+                <td>Conscious, formal, explicit study with deliberate effort.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Environment</td>
+                <td>Informal home setting with parents, siblings, and community.</td>
+                <td>Formal classroom with textbooks, teacher drills, and blackboard rules.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Role of Grammar</td>
+                <td>No explicit grammar instruction; intuitive mastery of syntax.</td>
+                <td>Explicit grammar rules, worksheets, spelling tests, and definitions.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Focus</td>
+                <td>Exclusively on <strong>communication and meaning</strong>.</td>
+                <td>Often over-focused on <strong>form, spelling, and error correction</strong>.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- The Home Language to School Language Transition -->
+        <div class="comic-box-sm bg-rose-50 border border-rose-300 p-3 mt-3">
+          <strong class="text-rose-950 block font-doodle text-xs mb-1">🌉 The Transition Dilemma (গৃহভাষা আৰু বিদ্যালয়ৰ ভাষা)</strong>
+          <p class="text-xs text-slate-700 leading-relaxed">
+            In many Indian schools, a massive linguistic chasm exists: the child's <strong>Home Language ($L_1$)</strong> (e.g., local dialects, tea garden Sadri, tribal languages like Bodo, Mising, Karbi, Dimasa) is abruptly banned at the school gate in favor of a standard formal medium. This causes <em>linguistic trauma</em>, mutism, and severe dropout rates.
+          </p>
+          <div class="mt-2 bg-white border border-rose-300 rounded p-2 text-xs font-bold text-rose-900">
+            ✔ Pedagogical Solution (NEP 2020): Build a warm translanguaging bridge! Use $L_1$ as a supportive scaffolding tool rather than an obstacle. Children learn $L_2$ best when their $L_1$ is honored and celebrated.
+          </div>
+        </div>
+      </div>
+
+      <!-- 2.3 Foundational Literacy and Numeracy (FLN) -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">2.3</span> Foundational Literacy and Numeracy (FLN) Framework
+          </h3>
+          <span class="text-[10px] bg-indigo-50 text-indigo-900 border border-indigo-200 px-2 py-0.5 rounded font-bold">
+            NIPUN Bharat & NEP 2020 Mission
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          NEP 2020 identifies universal Foundational Literacy and Numeracy by Grade $3$ as an urgent national priority. A child who cannot "read to learn" by age $8$ is left behind permanently. The acquisition of early literacy follows an integrated progression:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-2 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2 text-center">
+            <span class="badge-number bg-emerald-600 mb-1">1</span>
+            <strong class="block text-slate-900 font-doodle text-xs">Oral Language</strong>
+            <span class="text-[10px] text-slate-500">Conversations, rhymes, storytelling, puppet talk.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2 text-center">
+            <span class="badge-number bg-emerald-600 mb-1">2</span>
+            <strong class="block text-slate-900 font-doodle text-xs">Phonological Awareness</strong>
+            <span class="text-[10px] text-slate-500">Hearing syllables, alliteration, rhyming sounds.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2 text-center">
+            <span class="badge-number bg-emerald-600 mb-1">3</span>
+            <strong class="block text-slate-900 font-doodle text-xs">Print Awareness & Phonics</strong>
+            <span class="text-[10px] text-slate-500">Connecting spoken sounds to written letter symbols.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2 text-center">
+            <span class="badge-number bg-emerald-600 mb-1">4</span>
+            <strong class="block text-slate-900 font-doodle text-xs">Reading Fluency</strong>
+            <span class="text-[10px] text-slate-500">Reading accurately with appropriate speed and expression.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2 text-center">
+            <span class="badge-number bg-emerald-600 mb-1">5</span>
+            <strong class="block text-slate-900 font-doodle text-xs">Reading Comprehension</strong>
+            <span class="text-[10px] text-slate-500">Extracting meaning and making real-world inferences.</span>
+          </div>
+        </div>
+
+        <div class="bg-amber-100 text-amber-950 font-bold p-2 rounded-lg text-xs flex items-center justify-between">
+          <span>🎯 National Target: Reading with comprehension at $45 - 60$ words per minute by end of Grade $3$.</span>
+          <span class="text-[10px] font-mono-math bg-white px-2 py-0.5 rounded border border-amber-300">NIPUN Lakshya</span>
+        </div>
+      </div>
+
+      <!-- 2.4 & 2.5 Structure of Language: Phonetics, Phonology & Morphology -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">2.4 & 2.5</span> Linguistic Structure: Phonetics, Phonology & Morphology
+          </h3>
+          <span class="text-[10px] bg-sky-100 text-sky-900 border border-sky-300 font-bold px-2 py-0.5 rounded">
+            Technical Linguistics
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Phonology & Phonics -->
+          <div class="comic-box-sm bg-sky-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-sky-950 text-xs uppercase border-b border-sky-200 pb-1 mb-2">
+                1. Phonetics & Phonology (ধ্বনিবিজ্ঞান)
+              </h4>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>Phoneme:</strong> The smallest contrastive unit of sound that distinguishes meaning (e.g., changing $/p/$ to $/b/$ turns <em>pat</em> into <em>bat</em>). English has $\approx 44$ phonemes; Assamese has $8$ vowels and $21$ consonants.</li>
+                <li>• <strong>Phonemic Awareness:</strong> The purely auditory ability to recognize and manipulate individual sounds in spoken words (blending, segmenting).</li>
+                <li>• <strong>Phonics:</strong> The visual-auditory bridge connecting spoken phonemes to written graphemes (letters).</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-sky-100 text-sky-950 font-bold p-1 rounded">
+              💡 Phonological awareness precedes alphabet writing!
+            </div>
+          </div>
+
+          <!-- Morphology -->
+          <div class="comic-box-sm bg-emerald-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-emerald-950 text-xs uppercase border-b border-emerald-200 pb-1 mb-2">
+                2. Morphology (ৰূপতত্ত্ব / শব্দৰূপ)
+              </h4>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>Morpheme:</strong> The smallest meaningful linguistic unit of a language.</li>
+                <li>• <strong>Free Morphemes:</strong> Can stand alone as independent words (e.g., <em>play</em>, <em>book</em>, <em>man</em>).</li>
+                <li>• <strong>Bound Morphemes:</strong> Cannot stand alone; must attach as affixes (prefixes like <em>un-</em>, suffixes like <em>-ful</em>, <em>-ing</em>, Assamese post-positional markers like <em>-k</em>, <em>-lɔi</em>, <em>-e</em>).</li>
+                <li>• <strong>Syntax:</strong> The grammatical rules governing how morphemes and words assemble into meaningful sentences (SOV order in Assamese/Hindi vs. SVO order in English).</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-emerald-100 text-emerald-950 font-bold p-1 rounded font-mono-math">
+              🔍 $\text{Root: happy} \xrightarrow{+\text{un-}} \text{unhappy} \xrightarrow{+\text{-ly}} \text{unhappily (3 morphemes)}$
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 3: LANGUAGE DIVERSITY AND MULTILINGUALISM                                            -->
+    <!-- ========================================================================================= -->
+    <section id="unit-3" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-amber-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-amber-500">3</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-amber-950">
+              Unit 3: Language Diversity and Multilingualism
+            </h2>
+            <p class="text-[11px] text-amber-800 font-semibold">Constitutional Safeguards, Regional Mosaic, Translanguaging & The Three-Language Formula</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-amber-950 shadow-2xs">
+          Weightage: 9 Marks
+        </span>
+      </div>
+
+      <!-- 3.1 Constitutional Provisions -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-amber-800">3.1</span> Constitutional Provisions Regarding Language in India
+          </h3>
+          <span class="text-[10px] bg-amber-100 text-amber-900 border border-amber-300 font-bold px-2 py-0.5 rounded-full">
+            Legal Architecture
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          India's Constitution provides extensive, progressive safeguards to protect linguistic diversity and defend the fundamental educational rights of linguistic minorities:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 text-xs text-slate-700">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">Article 343 & 345</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Article 343 declares Hindi in Devanagari script as the Official Language of the Union, with English as an associate official language. Article 345 empowers State Legislatures to adopt official regional languages.</p>
+          </div>
+
+          <div class="comic-box-sm bg-rose-50 border border-rose-300 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">Article 350A (Crucial for D.El.Ed!)</strong>
+            <p class="text-[11px] text-slate-700 leading-tight">Directs every State and local authority to provide <strong>adequate facilities for instruction in the mother tongue at the primary stage of education</strong> to children belonging to linguistic minority groups.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">Article 351 & Eighth Schedule</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Article 351 promotes the enrichment and spread of Hindi. The Eighth Schedule recognizes <strong>$22$ scheduled languages</strong> (including Assamese, Bodo, Bengali, Hindi, Manipuri, Nepali, Santali, Sanskrit, etc.).</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.2 to 3.4 Language Diversity & Multilingualism as Resource -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-amber-800">3.2 – 3.4</span> Language Diversity in Assam & Multilingualism as a Pedagogical Resource
+          </h3>
+          <span class="text-[10px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-2 py-0.5 rounded">
+            Asset-Based Pedagogy
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Diversity Context -->
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2">
+              The Linguistic Landscape of Assam
+            </h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-2">
+              Assam represents one of the world's most vibrant linguistic crossroads, uniting multiple major language families:
+            </p>
+            <ul class="space-y-1 text-xs text-slate-700">
+              <li>• <strong>Indo-Aryan:</strong> Assamese, Bengali, Bishnupriya Manipuri, Nepali.</li>
+              <li>• <strong>Tibeto-Burman:</strong> Bodo, Mising, Karbi, Dimasa, Rabha, Tiwa, Garo.</li>
+              <li>• <strong>Austro-Asiatic:</strong> Khasi/Pnar speaking pockets.</li>
+              <li>• <strong>Creoles / Contact Varieties:</strong> "Sadri" (tea garden community lingua franca), Nagamese, and Deshi varieties.</li>
+            </ul>
+          </div>
+
+          <!-- Multilingualism as Resource -->
+          <div class="comic-box-sm bg-emerald-50/50 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-emerald-950 text-xs uppercase border-b border-emerald-200 pb-1 mb-2">
+                Multilingualism as a Class Resource (NOT an Obstacle!)
+              </h4>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                Traditional deficit perspectives viewed diverse student languages as a nuisance. Modern sociolinguistics treats multilingualism as an extraordinary cognitive asset:
+              </p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>Cognitive Flexibility:</strong> Multilingual children exhibit superior divergent thinking, metalinguistic awareness, and problem-solving flexibility.</li>
+                <li>• <strong>Translanguaging Pedagogy:</strong> Allowing students to draw fluidly across their entire linguistic repertoire to discuss science, history, and literature.</li>
+                <li>• <strong>Classroom Strategy:</strong> Creating multilingual wall charts (words for <em>water, sun, tree</em> in Assamese, Bodo, Bengali, Karbi, English).</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-emerald-100 text-emerald-950 font-bold p-1 rounded text-center">
+              A multilingual classroom is a laboratory of democratic inclusion!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 3.5 The Three Language Formula -->
+      <div class="comic-box bg-white p-4">
+        <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase border-b border-slate-200 pb-1.5 mb-2.5 flex items-center gap-1.5">
+          <span class="text-amber-800">3.5</span> The Three-Language Formula (ত্রৈভাষিক সূত্র: $R_1, R_2, R_3$)
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Originally formulated by the Central Advisory Board of Education (CABE) in 1956 and endorsed by the Kothari Commission (1964–66), the <strong>Three-Language Formula</strong> balances regional linguistic pride with national unity and global access:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">$R_1$ (First Language)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">The <strong>Mother Tongue ($L_1$)</strong> or regional language. Medium of primary instruction to ensure unhindered cognitive development.</p>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">$R_2$ (Second Language)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">In Hindi-speaking states: another modern Indian language or English. In non-Hindi speaking states: <strong>Hindi or English</strong>.</p>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">$R_3$ (Third Language)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">A modern Indian language or English not studied as $R_1$ or $R_2$ (studied at upper primary stage).</p>
+          </div>
+        </div>
+
+        <div class="bg-amber-50 border border-amber-300 rounded p-2 text-xs text-amber-950">
+          <strong>NEP 2020 Update:</strong> Re-emphasizes great flexibility in the Three-Language Formula. No language will be imposed on any State. At least two of the three languages chosen must be native Indian languages, prioritizing the mother tongue/home language until at least Grade $5$!
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 4: LANGUAGE ACROSS THE CURRICULUM (LAC)                                              -->
+    <!-- ========================================================================================= -->
+    <section id="unit-4" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-purple-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-purple-600">4</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-purple-950">
+              Unit 4: Language Across the Curriculum (LAC)
+            </h2>
+            <p class="text-[11px] text-purple-800 font-semibold">Integrative LAC Model, Hallidayan Functional Taxonomy & Jim Cummins' BICS / CALP</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-purple-950 shadow-2xs">
+          Weightage: 6 Marks
+        </span>
+      </div>
+
+      <!-- 4.1 & 4.2 Language Across Curriculum -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-purple-700">4.1 & 4.2</span> Concept of Language Across the Curriculum (LAC)
+          </h3>
+          <span class="text-[10px] bg-purple-100 text-purple-900 border border-purple-300 font-bold px-2 py-0.5 rounded-full">
+            Bullock Report (1975)
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          The <strong>Language Across the Curriculum (LAC)</strong> approach emphasizes that language education is not confined to the "language period" (English, Assamese, Hindi). <strong>Every teacher is a language teacher</strong> because every academic discipline relies entirely on language to formulate, evaluate, and communicate conceptual knowledge.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700">
+          <div class="comic-box-sm bg-purple-50/50 p-3">
+            <strong class="text-purple-950 block font-doodle text-xs mb-1">1. Learning Language (ভাষা শিক্ষণ)</strong>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Acquiring the linguistic mechanics: vocabulary, phonetics, syntax, punctuation, spelling, and literary appreciation during dedicated language lessons.
+            </p>
+          </div>
+          <div class="comic-box-sm bg-sky-50/50 p-3">
+            <strong class="text-sky-950 block font-doodle text-xs mb-1">2. Learning Through Language (ভাষাৰ জৰিয়তে জ্ঞান আহৰণ)</strong>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Using language as a cognitive searchlight to analyze social issues, question scientific hypotheses, debate ethics, and solve mathematical puzzles across all subjects.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4.3 Functions of Language -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase border-b border-slate-200 pb-1.5 mb-2.5 flex items-center gap-1.5">
+          <span class="text-purple-700">4.3</span> Functional Taxonomy of Language (Inside & Outside Classroom)
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Linguist M.A.K. Halliday outlined how children employ language to navigate their social, psychological, and academic realities:
+        </p>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs text-slate-700">
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-indigo-900 block font-doodle text-xs">1. Instrumental</strong>
+            <span class="text-[10px] text-slate-600">"I want" &rarr; Expressing material needs and bodily requests.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-indigo-900 block font-doodle text-xs">2. Regulatory</strong>
+            <span class="text-[10px] text-slate-600">"Do as I tell you" &rarr; Controlling the behavior of peers and classroom routines.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-indigo-900 block font-doodle text-xs">3. Interactional</strong>
+            <span class="text-[10px] text-slate-600">"Me and you" &rarr; Social bonding, greeting peers, making friends, establishing rapport.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-indigo-900 block font-doodle text-xs">4. Personal</strong>
+            <span class="text-[10px] text-slate-600">"Here I come" &rarr; Asserting unique personal identity, feelings, pride, and opinions.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-indigo-900 block font-doodle text-xs">5. Heuristic</strong>
+            <span class="text-[10px] text-slate-600">"Tell me why" &rarr; Investigating, asking exploratory questions, probing nature.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-indigo-900 block font-doodle text-xs">6. Imaginative</strong>
+            <span class="text-[10px] text-slate-600">"Let's pretend" &rarr; Storytelling, fantasy play, reciting rhymes, creating drama.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2 sm:col-span-2">
+            <strong class="text-indigo-900 block font-doodle text-xs">7. Representational / Informative</strong>
+            <span class="text-[10px] text-slate-600">"I have something to tell you" &rarr; Transmitting academic knowledge, factual data, and propositions.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4.4 BICS vs CALP (Jim Cummins) -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-purple-700">4.4</span> Jim Cummins' Framework: BICS vs. CALP (The Dual Iceberg Model)
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded">
+            Vital Exam Concept
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Professor Jim Cummins demonstrated that conversational fluency must never be confused with academic language competence. His model is visualised as an <strong>Iceberg</strong>:
+        </p>
+
+        <div class="avoid-break overflow-x-auto my-2">
+          <table class="comic-table text-xs sm:text-sm">
+            <thead class="bg-purple-100 text-purple-950 font-bold border-b-2 border-slate-900 text-[11px] uppercase">
+              <tr>
+                <th class="w-1/4">Key Dimension</th>
+                <th class="w-3/8 bg-sky-50 text-sky-950">BICS (Basic Interpersonal Communicative Skills)</th>
+                <th class="w-3/8 bg-purple-50 text-purple-950">CALP (Cognitive Academic Language Proficiency)</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Core Definition</td>
+                <td>Day-to-day conversational fluency; playground language used in face-to-face social interactions.</td>
+                <td>Formal academic language required to comprehend, synthesize, and write abstract school subjects.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Context Dependency</td>
+                <td><strong>Context-Embedded:</strong> Supported by facial expressions, hand gestures, physical objects, and eye contact.</td>
+                <td><strong>Context-Reduced:</strong> Few interpersonal cues; meaning resides entirely within the written academic text.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Cognitive Demand</td>
+                <td>Cognitively Undemanding: Simple, familiar vocabulary and automatic syntax.</td>
+                <td>Cognitively Demanding: Higher-order thinking skills (HOTS), technical jargon, analysis, and hypothesis formulation.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Acquisition Timeline</td>
+                <td>Usually mastered in <strong>$1 - 2\text{ years}$</strong> of exposure.</td>
+                <td>Requires <strong>$5 - 7\text{ years}$</strong> of sustained, explicit pedagogical scaffolding to attain grade-level parity!</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="comic-box-sm bg-purple-50 border-l-4 border-purple-600 p-3 text-xs text-purple-950 mt-3">
+          <strong>The Teacher's Pedagogical Takeaway:</strong> Just because a student from a linguistic minority or rural background chats cheerfully in the schoolyard (BICS) does NOT mean they are ready to read an expository science chapter in Class 4 (CALP). The teacher must provide intentional graphic organizers, vocabulary banks, and conceptual bridges!
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- PRACTICUM & INTERNAL ASSESSMENT CONTAINER                                                 -->
+    <!-- ========================================================================================= -->
+    <section class="avoid-break comic-box bg-slate-900 text-white p-6 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-700 pb-3 mb-4">
+        <div class="flex items-center gap-2">
+          <span class="text-xl text-cyan-400">★</span>
+          <h3 class="text-sm sm:text-base font-doodle font-bold text-cyan-300 uppercase">
+            Paper S1.3 Practicum & Internal Assessment Blueprint (15 Marks)
+          </h3>
+        </div>
+        <span class="text-xs bg-slate-800 border border-slate-700 px-2.5 py-1 rounded text-slate-300 font-bold font-mono-math">
+          Syllabus 2026
+        </span>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-2 gap-3 text-center text-xs mb-4">
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-3">
+          <span class="block text-slate-400 text-xs">Practicum Tasks & Activities (Task 1 Compulsory + Any 1)</span>
+          <span class="text-xl font-doodle font-black text-cyan-400">10 Marks ($5 \times 2 = 10$)</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-3">
+          <span class="block text-slate-400 text-xs">Institutional Unit Test</span>
+          <span class="text-xl font-doodle font-black text-cyan-400">5 Marks</span>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-3 text-xs text-slate-300 space-y-2">
+        <div>
+          <strong class="text-white block font-doodle text-xs mb-1">Prescribed Practicum Activity Options:</strong>
+          <ul class="space-y-1 text-[11px] list-disc pl-4 text-slate-300">
+            <li><strong>Task 1 (Compulsory):</strong> Literary activities like debate, extempore speech, storytelling, and role-play demonstrating spoken discourse.</li>
+            <li><strong>Task 2:</strong> Development of instructional charts related to early language learning and phonics for primary classrooms.</li>
+            <li><strong>Task 3:</strong> Project work on multilingualism, documenting home languages and neighborhood dialect usage.</li>
+            <li><strong>Task 4:</strong> Collection of traditional folk tales, proverbs, and folk lullabies from diverse ethnic communities and sharing in class.</li>
+            <li><strong>Task 5:</strong> Preparing a critical case study on challenges and strategies in a real multilingual primary classroom.</li>
+            <li><strong>Task 6:</strong> Critical textual analysis of children's literature, primary language textbooks, and local daily newspapers.</li>
+          </ul>
+        </div>
+
+        <div class="border-t border-slate-800 pt-2">
+          <strong class="text-amber-300 block font-doodle text-xs mb-0.5">School Internship (SIP-I) Linkage:</strong>
+          <p class="leading-relaxed text-[11px]">
+            During SIP-I, student-teachers will observe children's spontaneous oral interactions, map the gap between children's home language and textbooks, test phonemic awareness, and implement translanguaging strategies to help quiet children find their voice.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DOCUMENT FOOTER ==================== -->
+    <footer class="avoid-break pt-4 border-t-2 border-dashed border-slate-400 text-center text-xs text-slate-600">
+      <div class="comic-box-sm bg-slate-900 text-white py-2.5 px-4 flex flex-wrap items-center justify-between gap-3 shadow-sm">
+        <div class="flex items-center gap-1.5 font-bold text-cyan-300">
+          <span>★</span> Paper S1.3 Study Notes <span>•</span> Curriculum Session 2026
+        </div>
+
+        <div class="text-center font-medium text-slate-300">
+          Made with ❤️ by <strong class="text-white font-bold">Sayeem Sadik</strong>
+          <span class="text-slate-500">•</span>
+          <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-cyan-300 font-bold hover:underline font-mono-math">
+            https://leoaristocrat.eu.cc
+          </a>
+        </div>
+
+        <div class="text-[11px] text-slate-400 font-bold">
+          All Rights Safeguarded 🛡️
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- KaTeX Auto-Render Trigger -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

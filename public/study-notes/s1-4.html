@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper S1.4: Towards Self-Understanding - Master Notes (2026)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Fredoka, Plus Jakarta Sans, Caveat, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- KaTeX CDN for crisp, textbook-grade mathematical & psychological metric rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0b1329;
+      color: #0f172a;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .font-doodle {
+      font-family: 'Fredoka', cursive, sans-serif;
+    }
+
+    .font-hand {
+      font-family: 'Caveat', cursive;
+    }
+
+    .font-mono-math {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Comic Neo-Brutalist Card Shadows & Solid Borders */
+    .comic-box {
+      border: 2.5px solid #0f172a;
+      box-shadow: 4px 4px 0px #0f172a;
+      border-radius: 12px;
+      background-color: #ffffff;
+    }
+
+    .comic-box-sm {
+      border: 2px solid #0f172a;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+      border-radius: 8px;
+      background-color: #ffffff;
+    }
+
+    /* Vibrant Circular Number Badges */
+    .badge-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 9999px;
+      border: 2px solid #0f172a;
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 12px;
+      box-shadow: 1.5px 1.5px 0px #0f172a;
+      flex-shrink: 0;
+    }
+
+    /* Adhesive Tape Pin Effect */
+    .tape-pin {
+      position: relative;
+    }
+    .tape-pin::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      left: 20%;
+      width: 44px;
+      height: 14px;
+      background: rgba(254, 240, 138, 0.95);
+      border: 1px dashed rgba(180, 83, 9, 0.6);
+      transform: rotate(-3deg);
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+      z-index: 10;
+    }
+
+    /* 3D Pushpin Graphic */
+    .pushpin-red {
+      position: absolute;
+      top: -6px;
+      right: 12px;
+      width: 14px;
+      height: 14px;
+      background: radial-gradient(circle at 30% 30%, #ef4444, #991b1b);
+      border: 1.5px solid #0f172a;
+      border-radius: 50%;
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.35);
+      z-index: 20;
+    }
+
+    /* Document Envelope */
+    .doc-container {
+      max-width: 1040px;
+      margin: 24px auto;
+      padding: 36px 32px;
+      background: #fafaf9;
+      background-image: radial-gradient(#cbd5e1 0.85px, transparent 0.85px);
+      background-size: 12px 12px;
+      border: 3.5px solid #0f172a;
+      box-shadow: 8px 10px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 20px;
+      position: relative;
+    }
+
+    /* Custom Table Styling */
+    .comic-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 2px solid #0f172a;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #ffffff;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+    }
+    .comic-table th, .comic-table td {
+      border-bottom: 1.5px solid #e2e8f0;
+      border-right: 1.5px solid #e2e8f0;
+      padding: 10px 14px;
+    }
+    .comic-table th:last-child, .comic-table td:last-child {
+      border-right: none;
+    }
+    .comic-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* KaTeX Size & Spacing Tuning */
+    .katex {
+      font-size: 1.05em !important;
+    }
+    .katex-display {
+      margin: 0.35em 0 !important;
+    }
+
+    /* Print & PDF Calibration */
+    .avoid-break {
+      break-inside: avoid !important;
+      page-break-inside: avoid !important;
+    }
+
+    .force-page-break {
+      break-before: page !important;
+      page-break-before: always !important;
+    }
+
+    @media print {
+      body {
+        background-color: transparent !important;
+        padding: 0 !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .doc-container {
+        margin: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        background: transparent !important;
+      }
+      .comic-box {
+        box-shadow: none !important;
+        border: 2px solid #0f172a !important;
+      }
+    }
+  </style>
+</head>
+<body class="selection:bg-amber-200 selection:text-amber-900 pb-16">
+
+  <!-- ==================== SCREEN-ONLY QUICK ACTION BAR ==================== -->
+  <header class="no-print sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b-2 border-slate-700 px-4 py-2.5 shadow-xl">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand & Metadata Badge -->
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 bg-gradient-to-tr from-rose-400 via-purple-500 to-indigo-600 rounded-xl flex items-center justify-center text-white font-black shadow-md border-2 border-slate-900 text-sm font-doodle">
+          S1.4
+        </div>
+        <div>
+          <h1 class="text-white text-xs sm:text-sm font-extrabold flex items-center gap-2 tracking-tight">
+            Towards Self-Understanding
+            <span class="text-[10px] bg-purple-500/25 text-purple-300 border border-purple-500/40 px-2 py-0.5 rounded-full font-bold">50 Marks (Internal) • 2 Credits</span>
+          </h1>
+          <p class="text-[11px] text-slate-400">Curriculum Session 2026 • Made with ❤️ by Sayeem Sadik</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex items-center flex-wrap gap-2">
+        <a href="#unit-1" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-rose-500/20 text-rose-300 border border-rose-500/30 hover:bg-rose-500/30 transition">
+          U1: Reflective Writing
+        </a>
+        <a href="#unit-2" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 hover:bg-indigo-500/30 transition">
+          U2: Workshops & Life Skills
+        </a>
+        <a href="#unit-3" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/30 transition">
+          U3: Seminars & Emotional Mastery
+        </a>
+        <a href="#assessment-blueprint" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30 hover:bg-amber-500/30 transition">
+          Assessment & SIP
+        </a>
+        <button onclick="window.print()" class="flex items-center gap-1.5 bg-rose-400 hover:bg-rose-300 text-slate-950 text-xs font-extrabold px-3.5 py-1.5 rounded-lg transition shadow border border-slate-900 font-doodle">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          Print / Save PDF (A4)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN DOCUMENT ENVELOPE ==================== -->
+  <main class="doc-container">
+
+    <!-- ==================== HERO HEADER ==================== -->
+    <header class="avoid-break mb-8 relative">
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+        
+        <!-- Left Tape Ribbon -->
+        <div class="tape-pin bg-purple-100 border-2 border-slate-900 px-3.5 py-1 rounded-lg transform -rotate-2 shadow-xs">
+          <span class="pushpin-red"></span>
+          <div class="text-[9px] font-black uppercase tracking-wider text-purple-950">D.El.Ed First Semester • Paper S1.4</div>
+          <div class="text-sm font-doodle font-bold text-slate-900 leading-tight">Towards Self-Understanding</div>
+          <div class="text-[9px] font-bold text-purple-800">Reflective Inquiry, Life Skills & Emotional Intelligence • 2026 Session</div>
+        </div>
+
+        <!-- Right Quick Stats Badges -->
+        <div class="flex items-center gap-2">
+          <div class="comic-box-sm bg-rose-100 px-3 py-1 text-center transform rotate-1">
+            <div class="text-[8px] font-black text-rose-700 uppercase tracking-tight">Assessment Mode</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">100% Internal</div>
+            <div class="text-[8px] text-slate-600 font-bold">Total: $50\text{ Marks}$</div>
+          </div>
+          <div class="comic-box-sm bg-amber-100 px-3 py-1 text-center transform -rotate-1">
+            <div class="text-[8px] font-black text-amber-700 uppercase tracking-tight">Course Load</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">$2\text{ Credits}$</div>
+            <div class="text-[8px] text-slate-600 font-bold">$50\text{ Study Hours}$</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Main Title Box -->
+      <div class="comic-box bg-gradient-to-r from-rose-50 via-purple-50 to-indigo-50 p-5 text-center relative overflow-hidden">
+        <div class="inline-block relative">
+          <span class="absolute -inset-1.5 bg-rose-200 rounded-lg transform -rotate-1 border-2 border-slate-900 -z-10 shadow-xs"></span>
+          <h1 class="text-xl sm:text-3xl font-doodle font-black uppercase text-slate-900 tracking-tight px-4 py-1">
+            Towards Self-Understanding
+          </h1>
+        </div>
+        <p class="text-xs sm:text-sm font-bold text-slate-700 mt-2 max-w-2xl mx-auto leading-relaxed">
+          Comprehensive Study Notes on Introspective Writing, SWOT Analysis, Johari Window, WHO Life Skills, Professional Ethics, Mindfulness, and Emotional Intelligence ($\text{EQ}$)
+        </p>
+
+        <!-- Author Ribbon -->
+        <div class="mt-4 pt-3 border-t-2 border-dashed border-slate-300 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-1.5 font-bold text-slate-800">
+            <span>Made with ❤️ by</span>
+            <span class="text-purple-950 font-black underline decoration-rose-500 decoration-2">Sayeem Sadik</span>
+            <span class="text-slate-400">•</span>
+            <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-brand-700 hover:underline font-mono-math text-indigo-700 font-extrabold">
+              leoaristocrat.eu.cc
+            </a>
+          </div>
+          <div class="inline-flex items-center gap-1.5 font-mono-math font-bold text-[10.5px] bg-white border border-slate-900 rounded-md px-2 py-0.5 shadow-2xs">
+            <span class="w-2 h-2 rounded-full bg-rose-500"></span>
+            Curriculum Session 2026
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==================== TABLE OF CONTENTS ==================== -->
+    <nav class="avoid-break comic-box bg-rose-50/90 p-4 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-900 pb-2 mb-3">
+        <div class="flex items-center gap-2">
+          <span class="text-base">📑</span>
+          <h2 class="text-xs font-doodle font-bold uppercase tracking-wider text-rose-950">
+            Syllabus Blueprint & Internal Marks Distribution
+          </h2>
+        </div>
+        <span class="text-[10px] font-bold bg-rose-200 border border-rose-400 text-rose-950 px-2 py-0.5 rounded-full">
+          Continuous Experiential Evaluation • Total $50\text{ Marks}$
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs">
+        <a href="#unit-1" class="comic-box-sm p-2.5 hover:bg-rose-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-rose-950 text-sm">Unit 1</strong>
+            <span class="bg-rose-100 border border-rose-300 text-rose-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$15\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Reflective Writing Tasks</div>
+          <div class="text-[10px] text-slate-500">Introspection, Values, Stress, Spiritual Leaders</div>
+        </a>
+
+        <a href="#unit-2" class="comic-box-sm p-2.5 hover:bg-indigo-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-indigo-950 text-sm">Unit 2</strong>
+            <span class="bg-indigo-100 border border-indigo-300 text-indigo-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$15\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Workshops on Personal Growth</div>
+          <div class="text-[10px] text-slate-500">SWOT, Life Skills, Johari Window, Mindfulness</div>
+        </a>
+
+        <a href="#unit-3" class="comic-box-sm p-2.5 hover:bg-emerald-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-emerald-950 text-sm">Unit 3</strong>
+            <span class="bg-emerald-100 border border-emerald-300 text-emerald-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$10\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Seminars on Emotional Mastery</div>
+          <div class="text-[10px] text-slate-500">Humane Qualities, EQ, Soft Skills, Self-Esteem</div>
+        </a>
+
+        <a href="#assessment-blueprint" class="comic-box-sm p-2.5 hover:bg-amber-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-amber-950 text-sm">SIP-I Link</strong>
+            <span class="bg-amber-100 border border-amber-300 text-amber-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$10\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Life Skills Field Practice</div>
+          <div class="text-[10px] text-slate-500">School Internship Transaction & Reporting</div>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 1: WRITING TASKS & INTROSPECTIVE REFLECTION                                          -->
+    <!-- ========================================================================================= -->
+    <section id="unit-1" class="mb-10">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-rose-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-rose-600">1</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-rose-950">
+              Unit 1: Reflective Writing Tasks for Self-Awareness
+            </h2>
+            <p class="text-[11px] text-rose-800 font-semibold">Introspective Journals, Social Values, Stress Dynamics & Philosophical Heritage</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-rose-950 shadow-2xs font-mono-math">
+          Evaluation: $5 \times 3 = 15\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 1.1 The Epistemology of Self-Reflective Writing -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-rose-600">1.1</span> The Epistemology of Reflective Writing: Developing the "Inner Witness"
+          </h3>
+          <span class="text-[10px] bg-rose-50 text-rose-900 border border-rose-300 px-2 py-0.5 rounded font-bold">
+            Reflective Practitioner Model
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          In teacher education, <strong>self-reflection</strong> is not passive daydreaming; it is a systematic, cognitive process of examining one's underlying beliefs, emotional triggers, subconscious prejudices, and classroom actions. As educational philosopher Donald Schön articulated, great teachers do not simply operate as mechanical syllabus transmitters; they are <strong>reflective practitioners</strong> who engage in continuous <em>reflection-on-action</em> and <em>reflection-in-action</em>.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5 text-xs text-slate-700 my-2">
+          <div class="comic-box-sm bg-rose-50/60 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">✍️ Monthly Creative Writing</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Documenting authentic classroom observations, tracking moments of self-doubt or breakthroughs with quiet children, and crystallizing lessons learned from day-to-day encounters.</p>
+          </div>
+          <div class="comic-box-sm bg-amber-50/60 p-2.5">
+            <strong class="text-amber-950 block font-doodle text-xs mb-1">🎭 Scripting Values in Action</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Translating abstract virtues like <em>honesty, moral courage, empathy, and mutual cooperation</em> into dialogic role-play scripts for children to enact and emotionally internalize.</p>
+          </div>
+          <div class="comic-box-sm bg-indigo-50/60 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">💡 Introspective Event Audits</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Analyzing a significant lived crisis or triumph to identify one's coping strategies, emotional blind spots, and the resilience mechanisms that emerged.</p>
+          </div>
+        </div>
+
+        <div class="comic-box-sm bg-rose-50 border-l-4 border-rose-600 p-2.5 text-xs text-rose-950 mt-2">
+          <strong>Teacher's Psychological Insight:</strong> "We do not learn from experience alone; we learn from <em>reflecting</em> on experience." An unexamined teaching practice repeats the same $1\text{ year}$ of teaching experience $30\text{ times}$, whereas a reflective practice evolves into $30\text{ years}$ of compounding pedagogical wisdom!
+        </div>
+      </div>
+
+      <!-- 1.2 "Understanding Oneself is Power" & Self-Efficacy -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase border-b border-slate-200 pb-1.5 mb-2.5 flex items-center gap-1.5">
+          <span class="text-rose-600">1.2</span> "Understanding Oneself is Power": Psychological Foundations
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          The timeless philosophical axiom—<em>"Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power"</em> (Lao Tzu)—serves as the foundational bedrock of educator mental health. Psychologically, self-understanding is anchored in three interconnected constructs:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">1. Self-Concept & Self-Image</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">The cognitive schema of who you believe you are—your strengths, limitations, core values, and behavioral tendencies. A realistic self-concept prevents both paralyzing self-deprecation and arrogant narcissism.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">2. Teacher Self-Efficacy (Bandura)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Albert Bandura demonstrated that an educator's deep internal conviction in their ability to influence even the most disengaged, marginalized learners directly correlates with actual student scholastic achievement!</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">3. Internal Locus of Control</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Rejecting victim mentality. Rather than blaming poor rural infrastructure or unsupportive parents for classroom deficits, self-aware educators ask: <em>"What innovative pedagogical agency can I exercise right now?"</em></p>
+          </div>
+        </div>
+
+        <!-- Appreciation and Feedback Loop -->
+        <div class="bg-amber-50 border border-amber-300 rounded-lg p-2.5 text-xs text-amber-950">
+          <strong>The Role of Appreciation in Self-Understanding:</strong> Genuine appreciation received from mentors, peers, and young students serves as social mirroring. However, a mature teacher must balance external validation with internal integrity, ensuring that self-worth does not fluctuate wildly with praise or criticism.
+        </div>
+      </div>
+
+      <!-- 1.3 Stress Management, Harmony & Spiritual Trailblazers -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-rose-600">1.3 & 1.4</span> Stress Management, Peace & Inspirational Role Models
+          </h3>
+          <span class="text-[10px] bg-indigo-100 text-indigo-900 border border-indigo-300 font-bold px-2 py-0.5 rounded">
+            Heritage & Resilience
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700 mb-3">
+          
+          <!-- Stress Dynamics -->
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2">
+              Deconstructing Teacher Stress & Burnout
+            </h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-2">
+              Teaching is an emotionally demanding, high-burnout profession. Chronic stress triggers the sympathetic nervous system ($\text{fight-or-flight}$), impairing the prefrontal cortex and leading to classroom irritability:
+            </p>
+            <ul class="space-y-1 text-xs text-slate-700">
+              <li>• <strong>Cognitive Reframing (CBT):</strong> Separating factual classroom events from catastrophic catastrophic thoughts (e.g., "A child is distracted" vs. "I am a total failure as a teacher").</li>
+              <li>• <strong>Somatic Anchoring:</strong> Taking $3$ deliberate diaphragmatic breaths before responding to unruly classroom disruptions.</li>
+              <li>• <strong>Compartmentalization:</strong> Leaving institutional conflicts at the school gate to nurture private personal rejuvenation.</li>
+            </ul>
+          </div>
+
+          <!-- Spiritual Trailblazers of Self-Realization -->
+          <div class="comic-box-sm bg-purple-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-purple-950 text-xs uppercase border-b border-purple-200 pb-1 mb-2">
+                Exemplars of Self-Realization & Educational Reform
+              </h4>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>Mahapurush Srimanta Sankardeva:</strong> Pioneer of neo-Vaishnavite egalitarianism in Assam. Demonstrated profound self-realization by demolishing caste barriers through community Namghars, drama (Ankiya Naat), and literature.</li>
+                <li>• <strong>Sri Sri Madhabdeva:</strong> Master of surrender, self-mastery, and devotion (Bhakti), modeling complete ego-dissolution in service to societal upliftment and ethical literature (Naam Ghosha).</li>
+                <li>• <strong>Swami Vivekananda:</strong> Defined education as <em>"the manifestation of the perfection already in man."</em> Advocated character-building, moral courage, and fearlessness ($Abhih$).</li>
+                <li>• <strong>Paramahansa Yogananda:</strong> Illustrated the scientific mastery of life forces through Kriya Yoga, showing that true inner peace is attained by quieting sensory turbulence.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-purple-100 text-purple-950 font-bold p-1 rounded text-center">
+              Self-realization transforms the teacher from a taskmaster into an inspiring moral compass!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 2: EXPERIENTIAL WORKSHOPS FOR SELF-DEVELOPMENT                                       -->
+    <!-- ========================================================================================= -->
+    <section id="unit-2" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-indigo-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-indigo-600">2</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-indigo-950">
+              Unit 2: Experiential Workshops on Personal Growth
+            </h2>
+            <p class="text-[11px] text-indigo-800 font-semibold">SWOT Analysis, WHO Life Skills, Johari Window, Communication Barriers & Mindfulness</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-indigo-950 shadow-2xs font-mono-math">
+          Evaluation: $5 \times 3 = 15\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 2.1 Personal & Institutional SWOT Analysis -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.1</span> Personal & Institutional SWOT Matrix
+          </h3>
+          <span class="text-[10px] bg-indigo-100 text-indigo-900 border border-indigo-300 font-bold px-2 py-0.5 rounded-full">
+            Strategic Self-Audit
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Originally adapted from strategic organizational management, <strong>SWOT Analysis</strong> serves as an extraordinarily powerful reflective exercise for student-teachers. It balances internal diagnostic capabilities against external environmental realities:
+        </p>
+
+        <!-- SWOT Matrix Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 my-2">
+          
+          <!-- Strengths -->
+          <div class="comic-box-sm bg-emerald-50/70 p-3 border-l-4 border-emerald-600">
+            <div class="flex items-center justify-between border-b border-emerald-200 pb-1 mb-1.5">
+              <strong class="text-emerald-950 font-doodle text-xs uppercase">S - Strengths (অভ্যন্তরীণ সবলতা)</strong>
+              <span class="text-[9px] bg-emerald-200 text-emerald-900 px-1.5 py-0.5 rounded font-bold">Internal & Present</span>
+            </div>
+            <p class="text-[11px] text-slate-600 mb-1.5">Inherent positive assets, skills, knowledge, and psychological virtues you possess:</p>
+            <ul class="space-y-0.5 text-xs text-slate-700">
+              <li>• High empathy, patience with young children, and vocal clarity.</li>
+              <li>• Mastery over regional dialects; artistic storytelling flair.</li>
+              <li>• Willingness to learn, punctuality, and technological literacy.</li>
+            </ul>
+          </div>
+
+          <!-- Weaknesses -->
+          <div class="comic-box-sm bg-rose-50/70 p-3 border-l-4 border-rose-600">
+            <div class="flex items-center justify-between border-b border-rose-200 pb-1 mb-1.5">
+              <strong class="text-rose-950 font-doodle text-xs uppercase">W - Weaknesses (অভ্যন্তরীণ দুৰ্বলতা)</strong>
+              <span class="text-[9px] bg-rose-200 text-rose-900 px-1.5 py-0.5 rounded font-bold">Internal & Present</span>
+            </div>
+            <p class="text-[11px] text-slate-600 mb-1.5">Internal liabilities, limiting habits, and developmental deficits requiring remediation:</p>
+            <ul class="space-y-0.5 text-xs text-slate-700">
+              <li>• Fear of public speaking / stage anxiety during morning assembly.</li>
+              <li>• Impatience when children repeatedly make computational errors.</li>
+              <li>• Difficulty setting professional boundaries; procrastination in grading.</li>
+            </ul>
+          </div>
+
+          <!-- Opportunities -->
+          <div class="comic-box-sm bg-sky-50/70 p-3 border-l-4 border-sky-600">
+            <div class="flex items-center justify-between border-b border-sky-200 pb-1 mb-1.5">
+              <strong class="text-sky-950 font-doodle text-xs uppercase">O - Opportunities (বাহ্যিক সুযোগ)</strong>
+              <span class="text-[9px] bg-sky-200 text-sky-900 px-1.5 py-0.5 rounded font-bold">External & Future</span>
+            </div>
+            <p class="text-[11px] text-slate-600 mb-1.5">Environmental possibilities, professional networks, and institutional pathways:</p>
+            <ul class="space-y-0.5 text-xs text-slate-700">
+              <li>• Leveraging DIKSHA, SWAYAM, and online teacher professional development.</li>
+              <li>• Learning indigenous folk arts and puppetry from local village artisans.</li>
+              <li>• Collaborating with senior mentor teachers during School Internship (SIP).</li>
+            </ul>
+          </div>
+
+          <!-- Threats -->
+          <div class="comic-box-sm bg-amber-50/70 p-3 border-l-4 border-amber-600">
+            <div class="flex items-center justify-between border-b border-amber-200 pb-1 mb-1.5">
+              <strong class="text-amber-950 font-doodle text-xs uppercase">T - Threats (বাহ্যিক প্ৰত্যাহ্বান)</strong>
+              <span class="text-[9px] bg-amber-200 text-amber-900 px-1.5 py-0.5 rounded font-bold">External & Future</span>
+            </div>
+            <p class="text-[11px] text-slate-600 mb-1.5">External obstacles, socio-economic challenges, and systemic pressures:</p>
+            <ul class="space-y-0.5 text-xs text-slate-700">
+              <li>• Extreme socio-economic distress, seasonal floods, or student absenteeism.</li>
+              <li>• Lack of physical electricity or multimedia infrastructure in remote schools.</li>
+              <li>• Cynicism or passive resistance from disengaged colleagues in school staffrooms.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 2.2 WHO's 10 Core Life Skills -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.2</span> Life Skills Education: The WHO 10-Skill Framework
+          </h3>
+          <span class="text-[10px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-2 py-0.5 rounded-full">
+            WHO / UNICEF Architecture
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          The World Health Organization (WHO) defines <strong>Life Skills</strong> as the abilities for adaptive and positive behavior that enable individuals to deal effectively with the demands and challenges of everyday life. These $10$ core skills operate in complementary pairs across three broad domains:
+        </p>
+
+        <div class="avoid-break overflow-x-auto my-2">
+          <table class="comic-table text-xs sm:text-sm">
+            <thead class="bg-indigo-100 text-indigo-950 font-bold border-b-2 border-slate-900 text-[11px] uppercase">
+              <tr>
+                <th class="w-1/4">Skill Cluster</th>
+                <th class="w-1/3">Paired Life Skills</th>
+                <th class="w-5/12">Operational Meaning in Primary Education</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50" rowspan="2">
+                  1. Thinking Skills<br>
+                  <span class="text-[10px] text-indigo-700 font-bold">(Cognitive Domain)</span>
+                </td>
+                <td><strong>Creative Thinking $\leftrightarrow$ Critical Thinking</strong></td>
+                <td>Generating novel pedagogical solutions with low-cost TLMs while objectively analyzing biases, textbooks, and socio-cultural dogmas.</td>
+              </tr>
+              <tr>
+                <td><strong>Decision Making $\leftrightarrow$ Problem Solving</strong></td>
+                <td>Evaluating classroom contingencies, choosing optimal conflict resolutions, and systematically troubleshooting student learning bottlenecks.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50" rowspan="2">
+                  2. Social Skills<br>
+                  <span class="text-[10px] text-emerald-700 font-bold">(Interpersonal Domain)</span>
+                </td>
+                <td><strong>Effective Communication $\leftrightarrow$ Interpersonal Relationships</strong></td>
+                <td>Articulating instructions clearly with warm body language while building trusting, non-coercive bonds with diverse children and guardians.</td>
+              </tr>
+              <tr>
+                <td><strong>Empathy</strong></td>
+                <td>The supreme capacity to step into a child's shoes, understanding their unexpressed hunger, trauma, or confusion without jumping to scolding.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">
+                  3. Emotional Skills<br>
+                  <span class="text-[10px] text-rose-700 font-bold">(Affective Domain)</span>
+                </td>
+                <td><strong>Coping with Emotions $\leftrightarrow$ Coping with Stress</strong></td>
+                <td>Recognizing internal emotional triggers (anger, pride, anxiety) and exercising healthy self-regulation before reacting impulsively in the classroom.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mt-2 bg-indigo-50 border border-indigo-200 rounded p-2 text-xs text-indigo-950">
+          <strong>Mode of Transaction:</strong> Life skills cannot be lectured from a blackboard! They must be acquired experientially through structured drama, dilemma simulations, circle times, collaborative team building, and reflective journaling.
+        </div>
+      </div>
+
+      <!-- 2.3 & 2.4 Johari Window & Communication Barriers -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.3 & 2.4</span> The Johari Window Model & Breaking Communication Barriers
+          </h3>
+          <span class="text-[10px] bg-amber-100 text-amber-900 border border-amber-300 font-bold px-2 py-0.5 rounded">
+            Joseph Luft & Harry Ingham ($1955$)
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700 mb-3">
+          
+          <!-- Johari Window Grid -->
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2">
+              The Four Quadrants of the Johari Window
+            </h4>
+            <div class="grid grid-cols-2 gap-2 text-center text-xs">
+              <div class="bg-emerald-100 border border-emerald-400 p-2 rounded-lg">
+                <strong class="block text-emerald-950 font-doodle text-[11px]">1. Open / Arena</strong>
+                <span class="text-[9px] text-slate-600 block">Known to Self & Known to Others</span>
+                <p class="text-[10px] text-slate-700 mt-1 leading-tight">Shared public behaviors, values, transparent pedagogical practices.</p>
+              </div>
+              <div class="bg-amber-100 border border-amber-400 p-2 rounded-lg">
+                <strong class="block text-amber-950 font-doodle text-[11px]">2. Blind Spot</strong>
+                <span class="text-[9px] text-slate-600 block">Unknown to Self, Known to Others</span>
+                <p class="text-[10px] text-slate-700 mt-1 leading-tight">Unconscious ticks, tone sharpness, or favoritism seen only by peers.</p>
+              </div>
+              <div class="bg-sky-100 border border-sky-400 p-2 rounded-lg">
+                <strong class="block text-sky-950 font-doodle text-[11px]">3. Hidden / Façade</strong>
+                <span class="text-[9px] text-slate-600 block">Known to Self, Unknown to Others</span>
+                <p class="text-[10px] text-slate-700 mt-1 leading-tight">Private anxieties, imposter fears, personal domestic struggles.</p>
+              </div>
+              <div class="bg-purple-100 border border-purple-400 p-2 rounded-lg">
+                <strong class="block text-purple-950 font-doodle text-[11px]">4. Unknown</strong>
+                <span class="text-[9px] text-slate-600 block">Unknown to Self & Unknown to Others</span>
+                <p class="text-[10px] text-slate-700 mt-1 leading-tight">Latent potentials and subconscious repressions unlocked through crisis.</p>
+              </div>
+            </div>
+            <div class="mt-2 text-[10px] text-slate-700 bg-white border border-slate-200 p-1.5 rounded">
+              🎯 <strong>The Goal of Teacher Training:</strong> Expand the <em>Open Arena</em> by soliciting honest peer feedback (reducing the Blind Spot) and healthy vulnerability/disclosure (reducing the Façade).
+            </div>
+          </div>
+
+          <!-- Communication Barriers -->
+          <div class="comic-box-sm bg-rose-50/50 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-rose-950 text-xs uppercase border-b border-rose-200 pb-1 mb-2">
+                Overcoming Communication Barriers in School
+              </h4>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>Physical Barriers:</strong> Poor classroom acoustic reverberation, loud street traffic, broken benches, extreme humidity.</li>
+                <li>• <strong>Psychological Barriers:</strong> Teacher authoritarian anger, student fear/anxiety, defensive ego resistance.</li>
+                <li>• <strong>Semantic & Linguistic Barriers:</strong> Using complex technical jargon or formal standard language that contradicts the child's home dialect.</li>
+                <li>• <strong>Systemic / Cultural Barriers:</strong> Rigid patriarchal status hierarchies discouraging young children from asking spontaneous questions.</li>
+              </ul>
+            </div>
+            <div class="mt-2 bg-white border border-rose-300 rounded p-1.5 text-[10.5px] font-mono-math text-rose-950 font-bold">
+              The 7 Cs Solution: Clear • Concise • Concrete • Correct • Coherent • Complete • Courteous!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 2.5 & 2.6 Professional Ethics & Mindfulness -->
+      <div class="comic-box bg-white p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Professional Ethics -->
+          <div class="comic-box-sm bg-slate-50 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2">
+                Teacher Professional Ethics & Accountability
+              </h4>
+              <p class="text-slate-600 text-xs mb-2">
+                A professional code of ethics is the moral compass guiding educator decisions in the absence of external monitoring:
+              </p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>Duty Towards Students:</strong> Zero discrimination (caste, religion, gender, ability); complete elimination of corporal punishment and mental sarcasm; safeguarding confidentiality.</li>
+                <li>• <strong>Duty Towards Community:</strong> Respecting village cultural heritage, mobilizing parents, maintaining transparent communication.</li>
+                <li>• <strong>Duty Towards Profession:</strong> Continuous lifelong self-upgradation, resisting commercial private tuitions, exhibiting punctuality and integrity.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-amber-100 text-amber-950 font-bold p-1 rounded text-center">
+              Accountability is an internal moral commitment, not mere fear of bureaucratic inspection!
+            </div>
+          </div>
+
+          <!-- Mindfulness and Meditation -->
+          <div class="comic-box-sm bg-teal-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-teal-950 text-xs uppercase border-b border-teal-200 pb-1 mb-2">
+                Mindfulness & Meditation: Practical Science of Stillness
+              </h4>
+              <p class="text-slate-600 text-xs mb-2">
+                Mindfulness is maintaining moment-by-moment, non-judgmental awareness of bodily sensations, thoughts, and classroom environments:
+              </p>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>Neurobiological Benefits:</strong> Decreases cortisol, calms hyperactive amygdala reactivity, and strengthens executive function in the prefrontal cortex.</li>
+                <li>• <strong>Classroom Practice (Anapanasati):</strong> $2\text{ minutes}$ of quiet collective mindful breath-anchoring before commencing Class 1 lessons.</li>
+                <li>• <strong>Mindful Responding vs. Reactive Shouting:</strong> Cultivating the momentary space between emotional stimulus and conscious pedagogical response.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-teal-100 text-teal-950 font-bold p-1 rounded text-center">
+              A tranquil, emotionally centered teacher creates an effortlessly calm classroom!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 3: SEMINARS ON HUMANE QUALITIES & EMOTIONAL REGULATION                              -->
+    <!-- ========================================================================================= -->
+    <section id="unit-3" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-emerald-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-emerald-600">3</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-emerald-950">
+              Unit 3: Reflective Seminars on Humane Qualities & Emotional Mastery
+            </h2>
+            <p class="text-[11px] text-emerald-800 font-semibold">Carl Rogers' Humanism, Goleman's EQ, Soft Skills Etiquette & Resilient Self-Esteem</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-emerald-950 shadow-2xs font-mono-math">
+          Evaluation: $5 \times 2 = 10\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 3.1 Nurturing Humane Qualities (Carl Rogers) -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">3.1</span> Nurturing Humane Qualities: Carl Rogers' Humanistic Pedagogy
+          </h3>
+          <span class="text-[10px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-2 py-0.5 rounded-full">
+            Person-Centered Education
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Psychologist Carl Rogers demonstrated that true cognitive learning cannot take place in a climate of psychological threat, ridicule, or conditional acceptance. To cultivate an environment of transformative human warmth, the educator must embody <strong>Three Core Attitudinal Conditions</strong>:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-emerald-50/70 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">1. Unconditional Positive Regard (UPR)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Accepting and prizing every child for their inherent human worth, completely detached from their scholastic marks, tidy clothes, or socioeconomic pedigree. Love without prerequisites!</p>
+          </div>
+
+          <div class="comic-box-sm bg-emerald-50/70 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">2. Empathetic Understanding</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Sensing the student's private inner world as if it were your own, without ever losing the "as-if" quality. Perceiving why a child feels anxious during oral reading without judging them.</p>
+          </div>
+
+          <div class="comic-box-sm bg-emerald-50/70 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">3. Congruence / Genuineness</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Being real, authentic, and transparent. Dropping the artificial mask of the "infallible teacher". A congruent teacher honestly admits: <em>"I do not know the answer to that question, let us research it together!"</em></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.2 Emotional Intelligence (Daniel Goleman) -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">3.2</span> Managing Emotions: Daniel Goleman's Emotional Intelligence ($\text{EQ}$)
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded font-mono-math">
+            $\text{EQ} > \text{IQ}$ in Teaching
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Research in educational neuro-psychology confirms that a high $\text{IQ}$ (Intelligence Quotient) alone does not make an inspiring teacher; <strong>$\text{EQ}$ (Emotional Quotient)</strong> is the primary predictor of classroom harmony, student trust, and pedagogical longevity. Goleman structures $\text{EQ}$ into five sequential domains:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-2 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2 text-center">
+            <span class="badge-number bg-emerald-600 mb-1">1</span>
+            <strong class="block text-slate-900 font-doodle text-xs">Self-Awareness</strong>
+            <span class="text-[10px] text-slate-500">Recognizing an emotional mood as it surges in real time.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2 text-center">
+            <span class="badge-number bg-emerald-600 mb-1">2</span>
+            <strong class="block text-slate-900 font-doodle text-xs">Self-Regulation</strong>
+            <span class="text-[10px] text-slate-500">Managing disruptive impulses; delaying knee-jerk punitive reactions.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2 text-center">
+            <span class="badge-number bg-emerald-600 mb-1">3</span>
+            <strong class="block text-slate-900 font-doodle text-xs">Internal Motivation</strong>
+            <span class="text-[10px] text-slate-500">Pursuing educational goals with passion beyond external paychecks.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2 text-center">
+            <span class="badge-number bg-emerald-600 mb-1">4</span>
+            <strong class="block text-slate-900 font-doodle text-xs">Empathy</strong>
+            <span class="text-[10px] text-slate-500">Intuitively deciphering unvocalized emotional currents in students.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2 text-center">
+            <span class="badge-number bg-emerald-600 mb-1">5</span>
+            <strong class="block text-slate-900 font-doodle text-xs">Social Skills</strong>
+            <span class="text-[10px] text-slate-500">Skillful persuasion, collaborative leadership, and conflict mediation.</span>
+          </div>
+        </div>
+
+        <div class="comic-box-sm bg-emerald-50 border-l-4 border-emerald-600 p-2.5 text-xs text-emerald-950">
+          <strong>Classroom Application:</strong> When two Class 3 students get into a fistfight, an emotionally reactive teacher shouts and slaps both. An emotionally intelligent teacher separates them gently, lets their adrenaline stabilize, validates their anger (<em>"I see you are furious"</em>), and teaches verbal conflict de-escalation.
+        </div>
+      </div>
+
+      <!-- 3.3 & 3.4 Soft Skills & Self-Criticism vs Self-Validation -->
+      <div class="comic-box bg-white p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Soft Skills & Social Grace -->
+          <div class="comic-box-sm bg-sky-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-sky-950 text-xs uppercase border-b border-sky-200 pb-1 mb-2">
+                3.3 Inculcating Soft Skills & Social Grace
+              </h4>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                Children learn social grace by observing the teacher's embodied conduct. Soft skills operate as emotional lubricants in school ecosystems:
+              </p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>Active Non-Verbal Modeling:</strong> Maintaining respectful eye contact at child eye-level, polite posture, and cheerful morning greetings.</li>
+                <li>• <strong>Social Etiquette:</strong> Consistently modeling <em>"Please", "Thank you", and "Excuse me"</em> when requesting classroom favors from children.</li>
+                <li>• <strong>Conflict De-escalation:</strong> Teaching children to articulate disagreements with <em>"I-statements"</em> (e.g., "I feel sad when you snatch my crayon") rather than physical violence.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-sky-100 text-sky-950 font-bold p-1 rounded text-center">
+              Children rarely do what we tell them to do; they do what they see us do!
+            </div>
+          </div>
+
+          <!-- Self-Criticism vs Self-Validation -->
+          <div class="comic-box-sm bg-rose-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-rose-950 text-xs uppercase border-b border-rose-200 pb-1 mb-2">
+                3.4 Negotiating Self-Criticism vs. Self-Validation
+              </h4>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                Student-teachers frequently fall into two destructive psychological traps regarding self-esteem:
+              </p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>The Trap of Toxic Self-Criticism:</strong> Relentless internal voice of condemnation, imposter syndrome, and magnifying small teaching slips into proof of worthlessness.</li>
+                <li>• <strong>The Trap of Fragile Vanity:</strong> Defensively refusing to accept constructive mentor critique or blaming students for unsuccessful lessons.</li>
+                <li>• <strong>The Golden Synthesis (Self-Compassion - Kristin Neff):</strong> Acknowledging flaws with warm kindness: <em>"My reading activity did not go well today, but teaching is a complex art. I will adjust my scaffolding tomorrow."</em></li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-rose-100 text-rose-950 font-bold p-1 rounded text-center">
+              Self-validation anchors healthy self-esteem independent of external praise!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- PRACTICUM & INTERNAL ASSESSMENT ARCHITECTURE (50 MARKS TOTAL)                             -->
+    <!-- ========================================================================================= -->
+    <section id="assessment-blueprint" class="avoid-break comic-box bg-slate-900 text-white p-6 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-700 pb-3 mb-4">
+        <div class="flex items-center gap-2">
+          <span class="text-xl text-rose-400">★</span>
+          <h3 class="text-sm sm:text-base font-doodle font-bold text-rose-300 uppercase">
+            Paper S1.4 Continuous Internal Assessment Architecture ($50\text{ Marks}$)
+          </h3>
+        </div>
+        <span class="text-xs bg-slate-800 border border-slate-700 px-2.5 py-1 rounded text-slate-300 font-bold font-mono-math">
+          100% Practical & Portfolio Based
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-4 gap-2.5 text-center text-xs mb-4">
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Unit 1: Reflective Writings</span>
+          <span class="text-base font-doodle font-black text-rose-400">$15\text{ Marks } (5 \times 3)$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Select Any 5 Writing Tasks</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Unit 2: Workshop Reports</span>
+          <span class="text-base font-doodle font-black text-indigo-400">$15\text{ Marks } (5 \times 3)$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">SWOT + Any 2 Workshops</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Unit 3: Seminar Presentations</span>
+          <span class="text-base font-doodle font-black text-emerald-400">$10\text{ Marks } (5 \times 2)$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Paper & Deliberation on 2 Themes</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">SIP-I Life Skills Field Delivery</span>
+          <span class="text-base font-doodle font-black text-amber-400">$10\text{ Marks}$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Assigned via School Internship</span>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-3 text-xs text-slate-300 space-y-2">
+        <div>
+          <strong class="text-white block font-doodle text-xs mb-1">Prescribed Trainee Activity Requirements:</strong>
+          <ul class="space-y-1 text-[11px] list-disc pl-4 text-slate-300">
+            <li><strong>Reflective Journal Portfolio:</strong> Each student-teacher must maintain an ongoing introspective journal documenting classroom observations, self-analysis, and emotional growth.</li>
+            <li><strong>Interactive Workshops:</strong> Actively engage in Johari Window disclosure, peer feedback exercises, and daily morning assembly meditation/mindfulness drills.</li>
+            <li><strong>SIP-I School Transaction Link:</strong> Conceptual understanding of Life Skills Education must be tested in real classrooms during the $2\text{-week}$ School Internship I. Trainees will organize life skills games and submit an analytical report countersigned by the school head.</li>
+          </ul>
+        </div>
+
+        <div class="border-t border-slate-800 pt-2">
+          <strong class="text-amber-300 block font-doodle text-xs mb-0.5">Evaluation Philosophy:</strong>
+          <p class="leading-relaxed text-[11px]">
+            Faculty mentors evaluate Paper S1.4 not on rote theoretical regurgitation, but on the depth of the student-teacher's critical self-honesty, emotional vulnerability, empathy, and constructive professional attitude. Total internal marks: $15 + 15 + 10 + 10 = 50\text{ Marks}$.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DOCUMENT FOOTER ==================== -->
+    <footer class="avoid-break pt-4 border-t-2 border-dashed border-slate-400 text-center text-xs text-slate-600">
+      <div class="comic-box-sm bg-slate-900 text-white py-2.5 px-4 flex flex-wrap items-center justify-between gap-3 shadow-sm">
+        <div class="flex items-center gap-1.5 font-bold text-rose-300">
+          <span>★</span> Paper S1.4 Study Notes <span>•</span> Curriculum Session 2026
+        </div>
+
+        <div class="text-center font-medium text-slate-300">
+          Made with ❤️ by <strong class="text-white font-bold">Sayeem Sadik</strong>
+          <span class="text-slate-500">•</span>
+          <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-cyan-300 font-bold hover:underline font-mono-math">
+            https://leoaristocrat.eu.cc
+          </a>
+        </div>
+
+        <div class="text-[11px] text-slate-400 font-bold">
+          All Rights Safeguarded 🛡️
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- KaTeX Auto-Render Trigger -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

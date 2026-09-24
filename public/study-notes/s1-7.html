@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper S1.7: Art and Creative Education - I - Master Notes (2026)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Fredoka, Plus Jakarta Sans, Caveat, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- KaTeX CDN for crisp, textbook-grade formula & metric rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0b1329;
+      color: #0f172a;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .font-doodle {
+      font-family: 'Fredoka', cursive, sans-serif;
+    }
+
+    .font-hand {
+      font-family: 'Caveat', cursive;
+    }
+
+    .font-mono-math {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Comic Neo-Brutalist Card Shadows & Solid Borders */
+    .comic-box {
+      border: 2.5px solid #0f172a;
+      box-shadow: 4px 4px 0px #0f172a;
+      border-radius: 12px;
+      background-color: #ffffff;
+    }
+
+    .comic-box-sm {
+      border: 2px solid #0f172a;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+      border-radius: 8px;
+      background-color: #ffffff;
+    }
+
+    /* Vibrant Circular Number Badges */
+    .badge-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 9999px;
+      border: 2px solid #0f172a;
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 12px;
+      box-shadow: 1.5px 1.5px 0px #0f172a;
+      flex-shrink: 0;
+    }
+
+    /* Adhesive Tape Pin Effect */
+    .tape-pin {
+      position: relative;
+    }
+    .tape-pin::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      left: 20%;
+      width: 44px;
+      height: 14px;
+      background: rgba(254, 240, 138, 0.95);
+      border: 1px dashed rgba(180, 83, 9, 0.6);
+      transform: rotate(-3deg);
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+      z-index: 10;
+    }
+
+    /* 3D Pushpin Graphic */
+    .pushpin-red {
+      position: absolute;
+      top: -6px;
+      right: 12px;
+      width: 14px;
+      height: 14px;
+      background: radial-gradient(circle at 30% 30%, #ef4444, #991b1b);
+      border: 1.5px solid #0f172a;
+      border-radius: 50%;
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.35);
+      z-index: 20;
+    }
+
+    /* Document Envelope */
+    .doc-container {
+      max-width: 1040px;
+      margin: 24px auto;
+      padding: 36px 32px;
+      background: #fafaf9;
+      background-image: radial-gradient(#cbd5e1 0.85px, transparent 0.85px);
+      background-size: 12px 12px;
+      border: 3.5px solid #0f172a;
+      box-shadow: 8px 10px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 20px;
+      position: relative;
+    }
+
+    /* Custom Table Styling */
+    .comic-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 2px solid #0f172a;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #ffffff;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+    }
+    .comic-table th, .comic-table td {
+      border-bottom: 1.5px solid #e2e8f0;
+      border-right: 1.5px solid #e2e8f0;
+      padding: 10px 14px;
+    }
+    .comic-table th:last-child, .comic-table td:last-child {
+      border-right: none;
+    }
+    .comic-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* KaTeX Size Tuning */
+    .katex {
+      font-size: 1.05em !important;
+    }
+    .katex-display {
+      margin: 0.35em 0 !important;
+    }
+
+    /* Print & PDF Calibration */
+    .avoid-break {
+      break-inside: avoid !important;
+      page-break-inside: avoid !important;
+    }
+
+    .force-page-break {
+      break-before: page !important;
+      page-break-before: always !important;
+    }
+
+    @media print {
+      body {
+        background-color: transparent !important;
+        padding: 0 !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .doc-container {
+        margin: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        background: transparent !important;
+      }
+      .comic-box {
+        box-shadow: none !important;
+        border: 2px solid #0f172a !important;
+      }
+    }
+  </style>
+</head>
+<body class="selection:bg-amber-200 selection:text-amber-900 pb-16">
+
+  <!-- ==================== SCREEN-ONLY QUICK ACTION BAR ==================== -->
+  <header class="no-print sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b-2 border-slate-700 px-4 py-2.5 shadow-xl">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand & Metadata Badge -->
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 bg-gradient-to-tr from-pink-500 via-rose-500 to-amber-500 rounded-xl flex items-center justify-center text-white font-black shadow-md border-2 border-slate-900 text-sm font-doodle">
+          S1.7
+        </div>
+        <div>
+          <h1 class="text-white text-xs sm:text-sm font-extrabold flex items-center gap-2 tracking-tight">
+            Art and Creative Education - I
+            <span class="text-[10px] bg-pink-500/25 text-pink-300 border border-pink-500/40 px-2 py-0.5 rounded-full font-bold">$50\text{ Marks } (20\text{ Ext} + 30\text{ Int}) \bullet 2\text{ Credits}$</span>
+          </h1>
+          <p class="text-[11px] text-slate-400">Curriculum Session 2026 • Made with ❤️ by Sayeem Sadik</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex items-center flex-wrap gap-2">
+        <a href="#unit-1" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-pink-500/20 text-pink-300 border border-pink-500/30 hover:bg-pink-500/30 transition">
+          U1: Creative Skills
+        </a>
+        <a href="#unit-2" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 hover:bg-indigo-500/30 transition">
+          U2: History & Sattriya Art
+        </a>
+        <a href="#unit-3" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/30 transition">
+          U3: Masters & Monuments
+        </a>
+        <a href="#assessment-blueprint" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30 hover:bg-amber-500/30 transition">
+          Practicum & BALA ($30\text{ Marks}$)
+        </a>
+        <button onclick="window.print()" class="flex items-center gap-1.5 bg-pink-500 hover:bg-pink-400 text-slate-950 text-xs font-extrabold px-3.5 py-1.5 rounded-lg transition shadow border border-slate-900 font-doodle">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          Print / Save PDF (A4)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN DOCUMENT ENVELOPE ==================== -->
+  <main class="doc-container">
+
+    <!-- ==================== HERO HEADER ==================== -->
+    <header class="avoid-break mb-8 relative">
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+        
+        <!-- Left Tape Ribbon -->
+        <div class="tape-pin bg-pink-100 border-2 border-slate-900 px-3.5 py-1 rounded-lg transform -rotate-2 shadow-xs">
+          <span class="pushpin-red"></span>
+          <div class="text-[9px] font-black uppercase tracking-wider text-pink-950">D.El.Ed First Semester • Paper S1.7</div>
+          <div class="text-sm font-doodle font-bold text-slate-900 leading-tight">Art and Creative Education - I</div>
+          <div class="text-[9px] font-bold text-pink-800">Visual Arts, Sattriya Heritage, Aesthetics & BALA Pedagogy • 2026 Session</div>
+        </div>
+
+        <!-- Right Quick Stats Badges -->
+        <div class="flex items-center gap-2">
+          <div class="comic-box-sm bg-rose-100 px-3 py-1 text-center transform rotate-1">
+            <div class="text-[8px] font-black text-rose-700 uppercase tracking-tight">Exam Breakdown</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">$20\text{ Ext} + 30\text{ Int}$</div>
+            <div class="text-[8px] text-slate-600 font-bold">Total: $50\text{ Marks}$</div>
+          </div>
+          <div class="comic-box-sm bg-amber-100 px-3 py-1 text-center transform -rotate-1">
+            <div class="text-[8px] font-black text-amber-700 uppercase tracking-tight">Course Load</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">$2\text{ Credits}$</div>
+            <div class="text-[8px] text-slate-600 font-bold">$50\text{ Study Hours}$</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Main Title Box -->
+      <div class="comic-box bg-gradient-to-r from-pink-50 via-rose-50 to-amber-50 p-5 text-center relative overflow-hidden">
+        <div class="inline-block relative">
+          <span class="absolute -inset-1.5 bg-pink-200 rounded-lg transform -rotate-1 border-2 border-slate-900 -z-10 shadow-xs"></span>
+          <h1 class="text-xl sm:text-3xl font-doodle font-black uppercase text-slate-900 tracking-tight px-4 py-1">
+            Art and Creative Education - I
+          </h1>
+        </div>
+        <p class="text-xs sm:text-sm font-bold text-slate-700 mt-2 max-w-2xl mx-auto leading-relaxed">
+          Comprehensive Study Notes on Visual Expression, Sketching & Clay Craft, Sattriya Cultural Heritage, John Berger's Ways of Seeing, Elements of Composition, Masters & Monuments, and BALA Classroom Integration
+        </p>
+
+        <!-- Author Ribbon -->
+        <div class="mt-4 pt-3 border-t-2 border-dashed border-slate-300 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-1.5 font-bold text-slate-800">
+            <span>Made with ❤️ by</span>
+            <span class="text-pink-950 font-black underline decoration-pink-500 decoration-2">Sayeem Sadik</span>
+            <span class="text-slate-400">•</span>
+            <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-brand-700 hover:underline font-mono-math text-indigo-700 font-extrabold">
+              leoaristocrat.eu.cc
+            </a>
+          </div>
+          <div class="inline-flex items-center gap-1.5 font-mono-math font-bold text-[10.5px] bg-white border border-slate-900 rounded-md px-2 py-0.5 shadow-2xs">
+            <span class="w-2 h-2 rounded-full bg-pink-500"></span>
+            Curriculum Session 2026
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==================== TABLE OF CONTENTS ==================== -->
+    <nav class="avoid-break comic-box bg-pink-50/90 p-4 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-900 pb-2 mb-3">
+        <div class="flex items-center gap-2">
+          <span class="text-base">📑</span>
+          <h2 class="text-xs font-doodle font-bold uppercase tracking-wider text-pink-950">
+            Syllabus Blueprint & Marks Allocation
+          </h2>
+        </div>
+        <span class="text-[10px] font-bold bg-pink-200 border border-pink-400 text-pink-950 px-2 py-0.5 rounded-full font-mono-math">
+          3 Core Units • Total $20\text{ External} + 30\text{ Internal Marks}$
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs">
+        <a href="#unit-1" class="comic-box-sm p-2.5 hover:bg-pink-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-pink-950 text-sm">Unit 1</strong>
+            <span class="bg-pink-100 border border-pink-300 text-pink-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$10\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Development of Skill</div>
+          <div class="text-[10px] text-slate-500">Creative Writing, Sketching, Stenciling, Clay</div>
+        </a>
+
+        <a href="#unit-2" class="comic-box-sm p-2.5 hover:bg-indigo-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-indigo-950 text-sm">Unit 2</strong>
+            <span class="bg-indigo-100 border border-indigo-300 text-indigo-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">History & Theory of Art</div>
+          <div class="text-[10px] text-slate-500">Sattriya Heritage, Ways of Seeing, Elements</div>
+        </a>
+
+        <a href="#unit-3" class="comic-box-sm p-2.5 hover:bg-emerald-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-emerald-950 text-sm">Unit 3</strong>
+            <span class="bg-emerald-100 border border-emerald-300 text-emerald-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Documentation & Monuments</div>
+          <div class="text-[10px] text-slate-500">Indian/Western Masters, Da-Parbatia, Madan Kamdev</div>
+        </a>
+
+        <a href="#assessment-blueprint" class="comic-box-sm p-2.5 hover:bg-amber-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-amber-950 text-sm">Practicum</strong>
+            <span class="bg-amber-100 border border-amber-300 text-amber-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$30\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Workshops, BALA & SIP-I</div>
+          <div class="text-[10px] text-slate-500">Posters, Albums, Wall Murals, Field Studies</div>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 1: DEVELOPMENT OF SKILL                                                             -->
+    <!-- ========================================================================================= -->
+    <section id="unit-1" class="mb-10">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-pink-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-pink-600">1</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-pink-950">
+              Unit 1: Development of Expressive & Creative Skills
+            </h2>
+            <p class="text-[11px] text-pink-800 font-semibold">Creative Writing, Observational Outdoor Sketching, Stenciling, Indigenous Toy Craft & Tactile Clay Modeling</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-pink-950 shadow-2xs font-mono-math">
+          Weightage: $10\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 1.1 Creative Writing & Verbal Imagination -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-pink-700">1.1</span> Creative Writing: Memory, Metaphor, Dramatic Script & Classroom Journalism
+          </h3>
+          <span class="text-[10px] bg-pink-100 text-pink-900 border border-pink-300 px-2 py-0.5 rounded font-bold">
+            Literary & Cathartic Art
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Art education is not restricted to paint on canvas; <strong>literary and performative creation</strong> is an integral aesthetic discipline. In elementary education, creative writing provides emotional catharsis, unlocks subconscious imagery, and develops narrative empathy. When children articulate their inner world through words, language ceases to be a dry textbook subject and transforms into living self-expression:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-pink-500">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">1. Childhood Memory Essays</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Harvesting personal sensory recollections (the smell of wet Assam soil after rain, fear of dark bamboo groves, village fairs). Teaches vivid adjective use and emotional honesty.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-amber-500">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">2. Story & Poetry Crafting</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Composing rhythmic nursery rhymes, nonsense verses, and folktale adaptations. Children explore alliteration, onomatopoeia, and plot structures (conflict, climax, moral resolution).</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-emerald-500">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">3. Role-Play Scriptwriting</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Drafting conversational scripts for puppet shows, environmental street plays, and historical skits. Cultivates dialogue pacing, vocal inflection, and character perspective-taking.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-sky-500">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">4. Classroom News Journalism</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Writing daily class reports on the weather, bird sightings in the schoolyard, or cultural celebrations. Connects objective observation with lively reportage for school wall magazines.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1.2 Outdoor Sketching & Still Life -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-pink-700">1.2</span> Outdoor Sketching, Drawing from Nature & Still Life Observation
+          </h3>
+          <span class="text-[10px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-2 py-0.5 rounded">
+            Perceptual Acuity
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Drawing is not merely a motor skill; it is a way of <em>thinking with the eye and hand</em>. Traditional rote instruction forces children to copy rigid textbook diagrams from the blackboard. Genuine art education takes learners outdoors to observe nature directly:
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 mb-2">
+          <div class="comic-box-sm bg-emerald-50/60 p-3 border-l-4 border-emerald-600">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">🌿 Outdoor Studies & Drawing from Nature:</strong>
+            <ul class="space-y-1 text-xs text-slate-600">
+              <li>• <strong>Observing Botanical Details:</strong> Sketching leaf venation, tree bark textures, seed pods, and the branching angles of local bamboo clumps.</li>
+              <li>• <strong>Capturing Natural Light & Horizon:</strong> Understanding how daylight shifts shadows across school ponds, paddy fields, and morning mist.</li>
+              <li>• <strong>Developing Visual Memory:</strong> Children observe an insect or flying kingfisher for $60\text{ seconds}$, then draw its silhouette from mental memory.</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-amber-50/60 p-3 border-l-4 border-amber-600">
+            <strong class="text-amber-950 block font-doodle text-xs mb-1">🏺 Still Life Drawing & Spatial Depth:</strong>
+            <ul class="space-y-1 text-xs text-slate-600">
+              <li>• <strong>Arranging Everyday Objects:</strong> Composing traditional brass utensils (<em>Kahi</em>, <em>Bati</em>), earthen pots, water jugs, and ripe fruits on a wooden table.</li>
+              <li>• <strong>Positive vs. Negative Space:</strong> Training the eye to see the background air spaces <em>between</em> objects, not just the objects themselves.</li>
+              <li>• <strong>Cross-Hatching & Shading:</strong> Using pencil pressure and cross-strokes to create illusions of $3\text{D}$ volume, cast shadows, and reflective highlights.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1.3 & 1.4 Stencils, Toy Making, Collage & Clay Modeling -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-pink-700">1.3 & 1.4</span> Stencil Craft, Indigenous Toy Making, Collage & Tactile Clay Modeling
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded">
+            Hands-On Tactile Intelligence
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">1. Stencil Printing</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Cutting cardboard or leaf templates to explore positive/negative silhouettes and repeat geometric patterns for book covers and textile borders.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">2. Indigenous Toy Making</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Crafting moving toys from local bamboo splints, jute twine, dried gourd shells, and discarded cardboard. Implements NEP $2020$ <strong>Toy Pedagogy</strong>!</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">3. Collage Composition</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Tearing and pasting discarded newspapers, dry tea leaves, fabric remnants, and colored wrappers to build textured visual landscapes without expensive paints.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">4. Clay Modeling (মৃৎশিল্প)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Kneading river clay to shape animals, fruits, and miniature pots. Strengthens fine-motor pincer dexterity and translates $2\text{D}$ mental ideas into solid $3\text{D}$ form.</p>
+          </div>
+        </div>
+
+        <div class="comic-box-sm bg-pink-50 border-l-4 border-pink-600 p-2.5 text-xs text-pink-950 mt-2">
+          <strong>Teacher's Recipe for Safe Classroom Play-Dough:</strong> In rural schools without clay, mix $2\text{ cups}$ wheat flour (<em>Aata</em>), $\frac{1}{2}\text{ cup}$ salt, $2\text{ tablespoons}$ vegetable oil, and warm water. Tint with natural turmeric (<em>Haldi</em> for yellow), spinach extract (green), or beetroot juice (red). $100\%$ non-toxic, sensory-rich, and zero-cost!
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 2: HISTORY AND THEORY OF ART                                                        -->
+    <!-- ========================================================================================= -->
+    <section id="unit-2" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-indigo-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-indigo-600">2</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-indigo-950">
+              Unit 2: History and Theory of Art & The Cultural Heritage of Assam
+            </h2>
+            <p class="text-[11px] text-indigo-800 font-semibold">Sattriya Traditions, Borgeet, Bhaona, Sachipat Paintings, Ways of Seeing & Elements of Visual Art</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-indigo-950 shadow-2xs font-mono-math">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 2.1 & 2.2 Sattriya Culture of Assam -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.1 & 2.2</span> Sattriya Culture: The Neo-Vaishnavite Artistic Renaissance of Assam
+          </h3>
+          <span class="text-[10px] bg-amber-100 text-amber-900 border border-amber-300 px-2 py-0.5 rounded font-bold font-mono-math">
+            Mahapurush Srimanta Sankardeva ($1449\text{--}1568$)
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          In the $15\text{th}$ and $16\text{th}$ centuries, <strong>Mahapurush Srimanta Sankardeva</strong> and his prime disciple <strong>Sri Sri Madhabdeva</strong> spearheaded an extraordinary cultural and egalitarian renaissance in Assam. Rather than confining spiritual expression to dry scripture, Sankardeva harnessed the visual, performing, and musical arts to unite a multi-ethnic society. The Sattra institutions became epicenters of five interrelated artistic pillars:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">1. Borgeet (বৰগীত)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Noble, classical devotional songs composed in the sacred literary language <em>Brajavali</em>, set to rigorous classical Ragas and spiritual Talas on the Khol drum.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">2. Sattriya Nritya (সত্ৰীয়া নৃত্য)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Recognized by Sangeet Natak Akademi as one of India's $8$ classical dance forms. Defined by exquisite hand gestures (<em>Mudras</em>), footwork, and devotion (<em>Bhakti</em>).</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">3. Bhaona & Ankiya Naat</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Traditional theatre staged in community <em>Namghars</em>. Features dramatic masks (<em>Mukha</em> craft of Majuli), elaborate costumes, dance-dialogues, and moral upliftment.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">4. Sachipat Manuscript Art</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Painting on bark from the Sachi tree (<em>Aquilaria agallocha</em>). Masterpieces like <em>Chitra Bhagavata</em> and <em>Hastividyarnava</em> using natural mineral and botanical dyes.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2.3 & 2.4 Ways of Seeing & Fine Arts vs Visual Arts -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
+          
+          <!-- John Berger Ways of Seeing -->
+          <div class="comic-box-sm bg-slate-50 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2">
+                2.3 John Berger's "Ways of Seeing" (দৰ্শনৰ ধাৰণা)
+              </h4>
+              <p class="text-slate-600 text-xs leading-relaxed mb-2">
+                Art critic John Berger established that <em>"Seeing comes before words. The child looks and recognizes before it can speak."</em> How we look at art is never neutral; it is conditioned by social habits, media exposure, and historical context:
+              </p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>The Gaze is Selective:</strong> We only look at what we are trained or conditioned to notice.</li>
+                <li>• <strong>Reproducibility of Imagery:</strong> Digital photography and smartphones duplicate art endlessly, often stripping original paintings of their sacred aura and contemplative stillness.</li>
+                <li>• <strong>Pedagogical Duty:</strong> Teach children to look critically at advertising billboards, magazine photos, and social media imagery to identify hidden consumerist manipulation!</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-sky-100 text-sky-950 font-bold p-1 rounded text-center">
+              Visual literacy is as essential for $21\text{st}$-century citizenship as reading text!
+            </div>
+          </div>
+
+          <!-- Fine Arts vs Visual Arts -->
+          <div class="comic-box-sm bg-indigo-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-indigo-950 text-xs uppercase border-b border-indigo-200 pb-1 mb-2">
+                2.4 Visual Arts vs. Fine Arts
+              </h4>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>Visual Arts:</strong> The broad umbrella term encompassing <em>everything</em> created primarily for visual perception—painting, sculpture, printmaking, photography, video, design, crafts, and architecture.</li>
+                <li>• <strong>Fine Arts:</strong> Historically cultivated purely for aesthetic contemplation, intellectual beauty, and spiritual expression (painting, sculpture, classical music) rather than practical utility.</li>
+                <li>• <strong>Applied / Decorative Arts:</strong> Visual arts applied to functional objects of daily utility (weaving Assamese <em>Gamosa</em>, pottery, bamboo furniture, bell-metal casting).</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-indigo-100 text-indigo-950 font-bold p-1 rounded text-center">
+              In primary school, merge Fine Arts with Applied Folk Crafts!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 2.5 Elements of Visual Art -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.5</span> The Seven Building Blocks: Elements of Visual Art & Composition
+          </h3>
+          <span class="text-[10px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-2 py-0.5 rounded font-mono-math">
+            $7\text{ Core Elements}$
+          </span>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-2 text-xs text-center text-slate-700">
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="block text-indigo-950 font-doodle text-xs mb-0.5">1. Line</strong>
+            <span class="text-[10px] text-slate-600 leading-tight">Straight, curved, jagged, diagonal; creates movement, contour, and energy.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="block text-indigo-950 font-doodle text-xs mb-0.5">2. Shape</strong>
+            <span class="text-[10px] text-slate-600 leading-tight">$2\text{D}$ enclosed area; geometric (circles, squares) vs. organic (leaves, puddles).</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="block text-indigo-950 font-doodle text-xs mb-0.5">3. Form</strong>
+            <span class="text-[10px] text-slate-600 leading-tight">$3\text{D}$ entity with height, width, and depth (cubes, spheres, sculpted clay animals).</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="block text-indigo-950 font-doodle text-xs mb-0.5">4. Colour</strong>
+            <span class="text-[10px] text-slate-600 leading-tight">Hue, value (light/dark), saturation; primary (R/Y/B) and complementary pairs.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="block text-indigo-950 font-doodle text-xs mb-0.5">5. Value</strong>
+            <span class="text-[10px] text-slate-600 leading-tight">Gradation from pure white to deep black; renders volume through light and shadow.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="block text-indigo-950 font-doodle text-xs mb-0.5">6. Texture</strong>
+            <span class="text-[10px] text-slate-600 leading-tight">Surface tactile feel: rough bark, smooth pebble, prickly pineapple, soft silk.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="block text-indigo-950 font-doodle text-xs mb-0.5">7. Space</strong>
+            <span class="text-[10px] text-slate-600 leading-tight">Perspective, foreground, middle ground, background, and breathing room.</span>
+          </div>
+        </div>
+
+        <div class="mt-2 text-[11px] bg-amber-50 border border-amber-300 rounded p-2 text-amber-950">
+          <strong>Principles of Design / Composition:</strong> How the elements are organized—<em>Balance</em> (symmetrical vs asymmetrical), <em>Rhythm / Movement</em>, <em>Contrast</em>, <em>Focal Point / Emphasis</em>, and <em>Unity / Harmony</em>.
+        </div>
+      </div>
+
+      <!-- 2.6 & 2.7 Educational Values & Aesthetics for Livelihood -->
+      <div class="comic-box bg-white p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Educational Values of Art -->
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2">
+              2.6 Aims & Educational Values of Fine Arts (Elliot Eisner)
+            </h4>
+            <ul class="space-y-1 text-xs text-slate-700">
+              <li>• <strong>Cultivating Multiple Solutions:</strong> Unlike multiple-choice math tests with only one answer, art teaches children that problems can have countless valid, beautiful solutions.</li>
+              <li>• <strong>Nuanced Perception:</strong> Developing sensitivity to subtle differences in tone, mood, line curvature, and emotional resonance.</li>
+              <li>• <strong>Cognitive Flexibility:</strong> Engaging with non-verbal metaphors, building patience, emotional regulation, and joyful concentration.</li>
+            </ul>
+          </div>
+
+          <!-- Aesthetics and Livelihood -->
+          <div class="comic-box-sm bg-rose-50/50 p-3">
+            <h4 class="font-doodle font-bold text-rose-950 text-xs uppercase border-b border-rose-200 pb-1 mb-2">
+              2.7 Aesthetics, Indigenous Culture & Livelihood in Assam
+            </h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-2">
+              Art in Assam is not a luxury hobby for elite salons; it is woven directly into rural economic sustenance and ethnic dignity:
+            </p>
+            <ul class="space-y-1 text-xs text-slate-700">
+              <li>• <strong>Sericulture & Weaving:</strong> Traditional handloom weaving of <em>Muga</em>, <em>Eri</em>, and <em>Pat</em> silk by rural women weavers generating household income in Rupees ($\text{₹}$).</li>
+              <li>• <strong>Bamboo & Cane Crafts:</strong> Crafting the iconic <em>Japi</em> headgear, fishing traps (<em>Polo</em>, <em>Jakoi</em>), and domestic baskets.</li>
+              <li>• <strong>Bell Metal of Sarthebari:</strong> Hand-hammered bell-metal ware (<em>Kahi</em>, <em>Bati</em>, <em>Sarai</em>).</li>
+              <li>• <strong>Terracotta of Asharikandi (Dhubri):</strong> Red clay pottery and decorative village figurines.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 3: DOCUMENTATION, ARTISTS & HISTORICAL MONUMENTS                                     -->
+    <!-- ========================================================================================= -->
+    <section id="unit-3" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-emerald-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-emerald-600">3</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-emerald-950">
+              Unit 3: Documentation of Art, Legendary Masters & Architectural Monuments
+            </h2>
+            <p class="text-[11px] text-emerald-800 font-semibold">Contemporary Indian and Western Masters, Ajanta, Ellora, Khajuraho, Madan Kamdev & Da-Parbatia</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-emerald-950 shadow-2xs font-mono-math">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 3.1 Indian & Western Contemporary Artists -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">3.1</span> Pioneers of Visual Art: Indian & Western Masters
+          </h3>
+          <span class="text-[10px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-2 py-0.5 rounded-full font-mono-math">
+            Art Historical Canon
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 mb-2">
+          
+          <!-- Indian Masters -->
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1 border-b border-slate-200 pb-1">
+              🇮🇳 Master Indian Trailblazers
+            </strong>
+            <ul class="space-y-1.5 text-xs text-slate-700">
+              <li>• <strong>Raja Ravi Varma ($1848\text{--}1906$):</strong> Fused European academic realism and oil techniques with Hindu epics (Mahabharata, Ramayana), democratizing divine imagery via oleograph litho-presses.</li>
+              <li>• <strong>Abanindranath Tagore ($1871\text{--}1951$):</strong> Founder of the Bengal School of Art; rejected European materialism in favor of Swadeshi spiritual wash paintings (iconic <em>Bharat Mata</em>).</li>
+              <li>• <strong>Jamini Roy & Nandalal Bose:</strong> Roy embraced raw Santhal and Kalighat folk simplicity; Bose led Santiniketan art and illuminated the original Constitution of India manuscript!</li>
+              <li>• <strong>Sobha Brahma ($1929\text{--}2012$):</strong> Assam's monumental modernist painter and sculptor; pioneer of contemporary Assamese fine arts blending tribal folk motifs with modernism.</li>
+            </ul>
+          </div>
+
+          <!-- Western Masters -->
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1 border-b border-slate-200 pb-1">
+              🌍 Master Western Trailblazers
+            </strong>
+            <ul class="space-y-1.5 text-xs text-slate-700">
+              <li>• <strong>Leonardo da Vinci ($1452\text{--}1519$):</strong> Supreme Italian Renaissance polymath; master of <em>Sfumato</em> (delicate smoky gradations), anatomical accuracy, and perspective (<em>Mona Lisa</em>, <em>The Last Supper</em>).</li>
+              <li>• <strong>Vincent van Gogh ($1853\text{--}1890$):</strong> Post-Impressionist titan whose turbulent impasto brushwork, swirling lines, and raw colors expressed deep psychic emotion (<em>The Starry Night</em>, <em>Sunflowers</em>).</li>
+              <li>• <strong>Pablo Picasso ($1881\text{--}1973$):</strong> Co-founder of Cubism; shattered traditional single-point Renaissance perspective to depict subjects simultaneously from multiple angles (<em>Guernica</em>).</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 3.2 Five Monumental Heritage Sites -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">3.2</span> Monumental Architectural Sites of India & Assam
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded font-mono-math">
+            $5\text{ Heritage Anchors}$
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs text-slate-700">
+          
+          <div class="comic-box-sm bg-amber-50/60 p-2.5">
+            <strong class="text-amber-950 block font-doodle text-xs mb-1">1. Ajanta Caves (Maharashtra)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">$30\text{ rock-cut Buddhist cave monuments}$ ($2\text{nd c. BCE}\text{ -- }5\text{th c. CE}$). Globally renowned for ancient fresco-secco mural paintings depicting Jataka tales, spiritual compassion, and supple bodily movement (<em>Padmapani Bodhisattva</em>).</p>
+          </div>
+
+          <div class="comic-box-sm bg-sky-50/60 p-2.5">
+            <strong class="text-sky-950 block font-doodle text-xs mb-1">2. Ellora Caves (Maharashtra)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">$34\text{ rock-cut shrines}$ spanning Hindu, Buddhist, and Jain traditions. Home to Cave $16$: the breathtaking monolithic <strong>Kailash Temple</strong>, carved entirely top-down from a single basalt mountain cliff!</p>
+          </div>
+
+          <div class="comic-box-sm bg-purple-50/60 p-2.5">
+            <strong class="text-purple-950 block font-doodle text-xs mb-1">3. Khajuraho (Madhya Pradesh)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Chandela dynasty temples ($950\text{--}1050\text{ CE}$) representing the pinnacle of Nagara sandstone temple architecture. Celebrated for intricate exterior carvings depicting celestial maidens (<em>Apsaras</em>), music, war, and spiritual union.</p>
+          </div>
+
+          <div class="comic-box-sm bg-rose-50/60 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">4. Madan Kamdev (Baihata Chariali, Assam)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Celebrated as the <em>"Khajuraho of Assam"</em>. $10\text{th--}12\text{th century}$ archaeological ruins of the Kamarupa Pala dynasty perched atop Madanguri hill. Features ornate granite reliefs, dancing Ganeshas, lion gargoyles, and erotic sculpture.</p>
+          </div>
+
+          <div class="comic-box-sm bg-emerald-50/60 p-2.5 sm:col-span-2">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">5. Da-Parbatia Temple Doorframe (Tezpur, Assam)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">The oldest and most exquisite sculptural relic of classical Gupta art in Assam ($5\text{th--}6\text{th century CE}$). The ancient sandstone doorframe features breathtaking, graceful carvings of river goddesses <strong>Ganga</strong> and <strong>Yamuna</strong> standing upon divine lotuses, flanked by flying swans (<em>Hamsas</em>) and celestial garlands. A crown jewel of Indian architectural heritage!</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- PRACTICUM & INTERNAL ASSESSMENT ARCHITECTURE (30 MARKS)                                   -->
+    <!-- ========================================================================================= -->
+    <section id="assessment-blueprint" class="avoid-break comic-box bg-slate-900 text-white p-6 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-700 pb-3 mb-4">
+        <div class="flex items-center gap-2">
+          <span class="text-xl text-pink-400">★</span>
+          <h3 class="text-sm sm:text-base font-doodle font-bold text-pink-300 uppercase">
+            Paper S1.7 Practicum, Workshop & Internal Assessment Architecture ($30\text{ Marks}$)
+          </h3>
+        </div>
+        <span class="text-xs bg-slate-800 border border-slate-700 px-2.5 py-1 rounded text-slate-300 font-bold font-mono-math">
+          Syllabus 2026
+        </span>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-center text-xs mb-4">
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Workshops & Painting</span>
+          <span class="text-base font-doodle font-black text-pink-400">$10\text{ Marks}$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Performance in Practical Arts</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Assignments Submission</span>
+          <span class="text-base font-doodle font-black text-emerald-400">$5\text{ Marks}$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Albums / Monument Project</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">Institutional Unit Test</span>
+          <span class="text-base font-doodle font-black text-sky-400">$5\text{ Marks}$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">Internal Written Evaluation</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-2.5">
+          <span class="block text-slate-400 text-[11px]">SIP-I School Art Activity</span>
+          <span class="text-base font-doodle font-black text-amber-400">$10\text{ Marks}$</span>
+          <span class="text-[9px] text-slate-400 block mt-0.5">BALA / Wall Magazine / Dance</span>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-3 text-xs text-slate-300 space-y-2">
+        <div>
+          <strong class="text-white block font-doodle text-xs mb-1">Prescribed Practicum Tasks (Institutional Workshops):</strong>
+          <ul class="space-y-1 text-[11px] list-disc pl-4 text-slate-300">
+            <li><strong>Outdoor Nature Studies:</strong> Outdoor landscape observation, recording natural light, and analyzing color compositions in sketchbook albums.</li>
+            <li><strong>Monument Album Project:</strong> Compiling an illustrated monograph documenting Assam's architectural heritage (e.g., Da-Parbatia, Madan Kamdev, Rang Ghar, Talatal Ghar, Shiva Doul).</li>
+            <li><strong>Creative Craft Workshop:</strong> Designing stencils, hand-turned painted clay pots, waste material collage compositions, and indigenous bamboo toys.</li>
+            <li><strong>Innovative Art Centre Design:</strong> Planning an engaging, low-cost "Art and Activity Corner" inside a local primary school.</li>
+          </ul>
+        </div>
+
+        <div class="border-t border-slate-800 pt-2">
+          <strong class="text-pink-300 block font-doodle text-xs mb-0.5">School Internship (SIP-I Linkage - $10\text{ Marks}$):</strong>
+          <p class="leading-relaxed text-[11px]">
+            During the $2\text{-week}$ School Internship-I, student-teachers will select and execute at least two art activities with elementary children:
+            (1) <strong>BALA (Building as Learning Aid):</strong> Creating instructional educational paintings and geometric murals directly on primary classroom walls; 
+            (2) <strong>Community Awareness Posters:</strong> Leading children to design posters against social evils (child marriage, child labour, plastic pollution);
+            (3) <strong>Wall Magazine Creation:</strong> Compiling children's spontaneous drawings, folk poems, and hand-traced emojis into a vibrant school wall magazine; 
+            (4) <strong>Traditional Dance & Music:</strong> Transacting regional folk rhymes, Borgeet, or traditional Bihu rhythms.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DOCUMENT FOOTER ==================== -->
+    <footer class="avoid-break pt-4 border-t-2 border-dashed border-slate-400 text-center text-xs text-slate-600">
+      <div class="comic-box-sm bg-slate-900 text-white py-2.5 px-4 flex flex-wrap items-center justify-between gap-3 shadow-sm">
+        <div class="flex items-center gap-1.5 font-bold text-pink-300">
+          <span>★</span> Paper S1.7 Study Notes <span>•</span> Curriculum Session 2026
+        </div>
+
+        <div class="text-center font-medium text-slate-300">
+          Made with ❤️ by <strong class="text-white font-bold">Sayeem Sadik</strong>
+          <span class="text-slate-500">•</span>
+          <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-cyan-300 font-bold hover:underline font-mono-math">
+            https://leoaristocrat.eu.cc
+          </a>
+        </div>
+
+        <div class="text-[11px] text-slate-400 font-bold">
+          All Rights Safeguarded 🛡️
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- KaTeX Auto-Render Trigger -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

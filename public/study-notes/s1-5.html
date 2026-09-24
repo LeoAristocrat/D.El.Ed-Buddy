@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper S1.5: Proficiency in English - I - Master Notes (2026)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Fredoka, Plus Jakarta Sans, Caveat, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- KaTeX CDN for crisp, textbook-grade formula & phonetic metric rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0b1329;
+      color: #0f172a;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .font-doodle {
+      font-family: 'Fredoka', cursive, sans-serif;
+    }
+
+    .font-hand {
+      font-family: 'Caveat', cursive;
+    }
+
+    .font-mono-math {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Comic Neo-Brutalist Card Shadows & Solid Borders */
+    .comic-box {
+      border: 2.5px solid #0f172a;
+      box-shadow: 4px 4px 0px #0f172a;
+      border-radius: 12px;
+      background-color: #ffffff;
+    }
+
+    .comic-box-sm {
+      border: 2px solid #0f172a;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+      border-radius: 8px;
+      background-color: #ffffff;
+    }
+
+    /* Vibrant Circular Number Badges */
+    .badge-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 9999px;
+      border: 2px solid #0f172a;
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 12px;
+      box-shadow: 1.5px 1.5px 0px #0f172a;
+      flex-shrink: 0;
+    }
+
+    /* Adhesive Tape Pin Effect */
+    .tape-pin {
+      position: relative;
+    }
+    .tape-pin::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      left: 20%;
+      width: 44px;
+      height: 14px;
+      background: rgba(254, 240, 138, 0.95);
+      border: 1px dashed rgba(180, 83, 9, 0.6);
+      transform: rotate(-3deg);
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+      z-index: 10;
+    }
+
+    /* 3D Pushpin Graphic */
+    .pushpin-red {
+      position: absolute;
+      top: -6px;
+      right: 12px;
+      width: 14px;
+      height: 14px;
+      background: radial-gradient(circle at 30% 30%, #ef4444, #991b1b);
+      border: 1.5px solid #0f172a;
+      border-radius: 50%;
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.35);
+      z-index: 20;
+    }
+
+    /* Document Envelope */
+    .doc-container {
+      max-width: 1040px;
+      margin: 24px auto;
+      padding: 36px 32px;
+      background: #fafaf9;
+      background-image: radial-gradient(#cbd5e1 0.85px, transparent 0.85px);
+      background-size: 12px 12px;
+      border: 3.5px solid #0f172a;
+      box-shadow: 8px 10px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 20px;
+      position: relative;
+    }
+
+    /* Custom Table Styling */
+    .comic-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 2px solid #0f172a;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #ffffff;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+    }
+    .comic-table th, .comic-table td {
+      border-bottom: 1.5px solid #e2e8f0;
+      border-right: 1.5px solid #e2e8f0;
+      padding: 10px 14px;
+    }
+    .comic-table th:last-child, .comic-table td:last-child {
+      border-right: none;
+    }
+    .comic-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* KaTeX Size Tuning */
+    .katex {
+      font-size: 1.05em !important;
+    }
+    .katex-display {
+      margin: 0.35em 0 !important;
+    }
+
+    /* Print & PDF Calibration */
+    .avoid-break {
+      break-inside: avoid !important;
+      page-break-inside: avoid !important;
+    }
+
+    .force-page-break {
+      break-before: page !important;
+      page-break-before: always !important;
+    }
+
+    @media print {
+      body {
+        background-color: transparent !important;
+        padding: 0 !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .doc-container {
+        margin: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        background: transparent !important;
+      }
+      .comic-box {
+        box-shadow: none !important;
+        border: 2px solid #0f172a !important;
+      }
+    }
+  </style>
+</head>
+<body class="selection:bg-amber-200 selection:text-amber-900 pb-16">
+
+  <!-- ==================== SCREEN-ONLY QUICK ACTION BAR ==================== -->
+  <header class="no-print sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b-2 border-slate-700 px-4 py-2.5 shadow-xl">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand & Metadata Badge -->
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 bg-gradient-to-tr from-sky-400 via-blue-500 to-indigo-600 rounded-xl flex items-center justify-center text-white font-black shadow-md border-2 border-slate-900 text-sm font-doodle">
+          S1.5
+        </div>
+        <div>
+          <h1 class="text-white text-xs sm:text-sm font-extrabold flex items-center gap-2 tracking-tight">
+            Proficiency in English - I
+            <span class="text-[10px] bg-sky-500/25 text-sky-300 border border-sky-500/40 px-2 py-0.5 rounded-full font-bold">$50\text{ Marks } (35\text{ Ext} + 15\text{ Int}) \bullet 2\text{ Credits}$</span>
+          </h1>
+          <p class="text-[11px] text-slate-400">Curriculum Session 2026 • Made with ❤️ by Sayeem Sadik</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex items-center flex-wrap gap-2">
+        <a href="#unit-1" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-sky-500/20 text-sky-300 border border-sky-500/30 hover:bg-sky-500/30 transition">
+          U1: Status & Policy
+        </a>
+        <a href="#unit-2" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 hover:bg-indigo-500/30 transition">
+          U2: Oral & Phonology
+        </a>
+        <a href="#unit-3" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/30 transition">
+          U3: Critical Reading
+        </a>
+        <a href="#unit-4" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30 hover:bg-amber-500/30 transition">
+          U4: Lexicon & Words
+        </a>
+        <a href="#assessment-blueprint" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-rose-500/20 text-rose-300 border border-rose-500/30 hover:bg-rose-500/30 transition">
+          Assessment & SIP
+        </a>
+        <button onclick="window.print()" class="flex items-center gap-1.5 bg-sky-400 hover:bg-sky-300 text-slate-950 text-xs font-extrabold px-3.5 py-1.5 rounded-lg transition shadow border border-slate-900 font-doodle">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          Print / Save PDF (A4)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN DOCUMENT ENVELOPE ==================== -->
+  <main class="doc-container">
+
+    <!-- ==================== HERO HEADER ==================== -->
+    <header class="avoid-break mb-8 relative">
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+        
+        <!-- Left Tape Ribbon -->
+        <div class="tape-pin bg-sky-100 border-2 border-slate-900 px-3.5 py-1 rounded-lg transform -rotate-2 shadow-xs">
+          <span class="pushpin-red"></span>
+          <div class="text-[9px] font-black uppercase tracking-wider text-sky-950">D.El.Ed First Semester • Paper S1.5</div>
+          <div class="text-sm font-doodle font-bold text-slate-900 leading-tight">Proficiency in English - I</div>
+          <div class="text-[9px] font-bold text-sky-800">Language Proficiency, Discourse Analysis, Phonology & Applied Lexicon • 2026 Session</div>
+        </div>
+
+        <!-- Right Quick Stats Badges -->
+        <div class="flex items-center gap-2">
+          <div class="comic-box-sm bg-amber-100 px-3 py-1 text-center transform rotate-1">
+            <div class="text-[8px] font-black text-amber-700 uppercase tracking-tight">Exam Breakdown</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">$35\text{ Ext} + 15\text{ Int}$</div>
+            <div class="text-[8px] text-slate-600 font-bold">Total: $50\text{ Marks}$</div>
+          </div>
+          <div class="comic-box-sm bg-sky-100 px-3 py-1 text-center transform -rotate-1">
+            <div class="text-[8px] font-black text-sky-700 uppercase tracking-tight">Course Load</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">$2\text{ Credits}$</div>
+            <div class="text-[8px] text-slate-600 font-bold">$50\text{ Study Hours}$</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Main Title Box -->
+      <div class="comic-box bg-gradient-to-r from-sky-50 via-blue-50 to-indigo-50 p-5 text-center relative overflow-hidden">
+        <div class="inline-block relative">
+          <span class="absolute -inset-1.5 bg-sky-200 rounded-lg transform -rotate-1 border-2 border-slate-900 -z-10 shadow-xs"></span>
+          <h1 class="text-xl sm:text-3xl font-doodle font-black uppercase text-slate-900 tracking-tight px-4 py-1">
+            Proficiency in English - I
+          </h1>
+        </div>
+        <p class="text-xs sm:text-sm font-bold text-slate-700 mt-2 max-w-2xl mx-auto leading-relaxed">
+          Comprehensive Study Notes on Historical Perspectives, IPA Phonetics ($44\text{ Phonemes}$) & Supra-segmentals, Spoken Discourses, Critical Reading Models, Miscue Analysis, and Lexical Word Architecture
+        </p>
+
+        <!-- Author Ribbon -->
+        <div class="mt-4 pt-3 border-t-2 border-dashed border-slate-300 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-1.5 font-bold text-slate-800">
+            <span>Made with ❤️ by</span>
+            <span class="text-sky-950 font-black underline decoration-sky-500 decoration-2">Sayeem Sadik</span>
+            <span class="text-slate-400">•</span>
+            <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-brand-700 hover:underline font-mono-math text-indigo-700 font-extrabold">
+              leoaristocrat.eu.cc
+            </a>
+          </div>
+          <div class="inline-flex items-center gap-1.5 font-mono-math font-bold text-[10.5px] bg-white border border-slate-900 rounded-md px-2 py-0.5 shadow-2xs">
+            <span class="w-2 h-2 rounded-full bg-sky-500"></span>
+            Curriculum Session 2026
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==================== TABLE OF CONTENTS ==================== -->
+    <nav class="avoid-break comic-box bg-sky-50/90 p-4 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-900 pb-2 mb-3">
+        <div class="flex items-center gap-2">
+          <span class="text-base">📑</span>
+          <h2 class="text-xs font-doodle font-bold uppercase tracking-wider text-sky-950">
+            Syllabus Blueprint & Marks Allocation
+          </h2>
+        </div>
+        <span class="text-[10px] font-bold bg-sky-200 border border-sky-400 text-sky-950 px-2 py-0.5 rounded-full font-mono-math">
+          4 Units • Total $35\text{ External} + 15\text{ Internal Marks}$
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs">
+        <a href="#unit-1" class="comic-box-sm p-2.5 hover:bg-sky-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-sky-950 text-sm">Unit 1</strong>
+            <span class="bg-sky-100 border border-sky-300 text-sky-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$5\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Status of English</div>
+          <div class="text-[10px] text-slate-500">History, Global Lingua Franca, NCF/NEP, $L_1$ vs $L_2$ vs $FL$</div>
+        </a>
+
+        <a href="#unit-2" class="comic-box-sm p-2.5 hover:bg-indigo-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-indigo-950 text-sm">Unit 2</strong>
+            <span class="bg-indigo-100 border border-indigo-300 text-indigo-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$10\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Oral Discourses & Phonology</div>
+          <div class="text-[10px] text-slate-500">IPA ($44\text{ Sounds}$), Stress, Rhythm, Intonation, Drama</div>
+        </a>
+
+        <a href="#unit-3" class="comic-box-sm p-2.5 hover:bg-emerald-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-emerald-950 text-sm">Unit 3</strong>
+            <span class="bg-emerald-100 border border-emerald-300 text-emerald-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$10\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Critical Reading Strategies</div>
+          <div class="text-[10px] text-slate-500">Skimming, Scanning, 4 Text Genres, Miscue Analysis</div>
+        </a>
+
+        <a href="#unit-4" class="comic-box-sm p-2.5 hover:bg-amber-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-amber-950 text-sm">Unit 4</strong>
+            <span class="bg-amber-100 border border-amber-300 text-amber-900 font-bold px-1.5 py-0.5 rounded text-[10px]">$10\text{ Marks}$</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Vocabulary in Context</div>
+          <div class="text-[10px] text-slate-500">Open vs Closed Words, Affixes, Compounds, Idioms</div>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 1: STATUS OF ENGLISH                                                                 -->
+    <!-- ========================================================================================= -->
+    <section id="unit-1" class="mb-10">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-sky-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-sky-600">1</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-sky-950">
+              Unit 1: Status of English in India and the Global Landscape
+            </h2>
+            <p class="text-[11px] text-sky-800 font-semibold">Colonial Trajectory, Global Lingua Franca, Constitutional Mandates & The $L_1/L_2/FL$ Continuum</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-sky-950 shadow-2xs font-mono-math">
+          Weightage: $5\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 1.1 Historical Trajectory of English in India -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-sky-600">1.1</span> Historical Trajectory: From Colonial Imposition to National Empowerment
+          </h3>
+          <span class="text-[10px] bg-sky-50 text-sky-900 border border-sky-300 px-2 py-0.5 rounded font-bold">
+            Historical Evolution
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          The story of the English language in India is one of complex socio-political transformation. English entered India not as a neutral linguistic medium, but as an instrument of imperial governance, cultural hegemony, and bureaucratic control. Over two centuries, however, it has been Indianized and repurposed into a vital gateway for higher education, economic mobility, and national integration.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-rose-500">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">Macaulay's Minute ($1835$)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Lord Macaulay aimed to create <em>"a class of persons, Indian in blood and colour, but English in taste, in opinions, in morals, and in intellect"</em> to run the British civil bureaucracy.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-amber-500">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">Wood's Despatch ($1854$)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Termed the <em>Magna Carta of English Education in India</em>. Recommended English as the medium for higher learning while retaining indigenous languages for primary schooling.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-sky-500">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">Radhakrishnan Comm. ($1948$)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Cautioned against hasty abandonment of English in university education, famously stating: <em>"English is a window through which we can see the scientific advancements of the world."</em></p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5 border-l-4 border-emerald-500">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">Kothari Comm. ($1964\text{–}66$)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Formalized the <strong>Three-Language Formula</strong> and designated English as a critical "library language" linking states and accessing global scientific literature.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1.2 & 1.3 Global Language & Place in School Curriculum -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-sky-600">1.2 & 1.3</span> English Around Us: Global Lingua Franca & Curriculum Positioning
+          </h3>
+          <span class="text-[10px] bg-indigo-100 text-indigo-900 border border-indigo-300 font-bold px-2 py-0.5 rounded font-mono-math">
+            NCF $2005$ & NEP $2020$ Paradigm
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700 mb-3">
+          
+          <!-- English as Global Language -->
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2">
+              Kachru's Three Concentric Circles of English
+            </h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-2">
+              Linguist Braj Kachru visualizes the global spread of English into three concentric circles:
+            </p>
+            <ul class="space-y-1.5 text-xs text-slate-700">
+              <li>• <strong>Inner Circle:</strong> Native, norm-providing English (UK, USA, Australia, Canada, NZ).</li>
+              <li>• <strong>Outer Circle (India, Nigeria, Singapore):</strong> Norm-developing English used in administration, legal courts, higher education, and mass media.</li>
+              <li>• <strong>Expanding Circle (China, Japan, Brazil):</strong> Norm-dependent English learned as a foreign language for international trade.</li>
+            </ul>
+            <div class="mt-2 text-[10.5px] bg-sky-100 text-sky-950 font-bold p-1 rounded">
+              Today, non-native speakers of English vastly outnumber native speakers worldwide!
+            </div>
+          </div>
+
+          <!-- Place in School Curriculum -->
+          <div class="comic-box-sm bg-indigo-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-indigo-950 text-xs uppercase border-b border-indigo-200 pb-1 mb-2">
+                English in NCF $2005$, NEP $2020$ & NCF-SE $2023$
+              </h4>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>From "Elitist Gatekeeper" to "Democratic Right":</strong> English is no longer restricted to urban elite schools; its exposure starts from early primary years (Ka-Shreni / Class $1$).</li>
+                <li>• <strong>No Disenfranchisement of Mother Tongue:</strong> NEP $2020$ mandates mother tongue / home language as the medium of instruction until at least Grade $5$, with English taught communicatively.</li>
+                <li>• <strong>Aim of ELT:</strong> To produce bilingual/multilingual learners capable of authentic communication rather than memorizing archaic grammar definitions.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10.5px] bg-indigo-100 text-indigo-950 font-bold p-1 rounded text-center">
+              English should complement, not displace, the child's rich home language!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 1.4 & 1.5 Constitutional Status & L1 vs L2 vs FL -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-sky-600">1.4 & 1.5</span> Constitutional Status & The $L_1$ / $L_2$ / Foreign Language Continuum
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded">
+            Legal & Conceptual Clarity
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Under <strong>Article $343$</strong> of the Indian Constitution, Hindi in Devanagari script is the Official Language of the Union. The Constitution originally provided that English would continue for official purposes for only $15\text{ years}$ (until $1965$). However, due to intense socio-political concerns from non-Hindi speaking southern and northeastern states, Parliament enacted the <strong>Official Languages Act of $1963$</strong>, formally enshrining English as the <strong>Associate Official Language (AOL)</strong> of India indefinitely.
+        </p>
+
+        <!-- Comparative Table L1 vs L2 vs FL -->
+        <div class="avoid-break overflow-x-auto my-2">
+          <table class="comic-table text-xs sm:text-sm">
+            <thead class="bg-sky-100 text-sky-950 font-bold border-b-2 border-slate-900 text-[11px] uppercase">
+              <tr>
+                <th class="w-1/4">Key Dimension</th>
+                <th class="w-1/4 bg-emerald-50 text-emerald-950">First Language ($L_1$)</th>
+                <th class="w-1/4 bg-sky-50 text-sky-950">Second Language ($L_2$)</th>
+                <th class="w-1/4 bg-amber-50 text-amber-950">Foreign Language ($FL$)</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Natural Acquisition vs Learning</td>
+                <td>Acquired subconsciously from birth in home and family settings.</td>
+                <td>Learned/acquired in schools and societal environments for official utility.</td>
+                <td>Learned deliberately in formal classrooms; zero daily community presence.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Societal Presence in India</td>
+                <td>Mother tongue (e.g., Assamese, Bengali, Bodo, Hindi, Karbi).</td>
+                <td><strong>English in India</strong> (ubiquitous on signboards, banks, news, internet).</td>
+                <td>French, German, Russian, Spanish, Japanese, Mandarin.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Primary Purpose</td>
+                <td>Forming core self-concept, immediate communication, emotional bonding.</td>
+                <td>National administration, higher education, professional employment, judiciary.</td>
+                <td>Diplomatic missions, international tourism, specialized trade translation.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="comic-box-sm bg-amber-50 border-l-4 border-amber-600 p-2.5 text-xs text-amber-950 mt-2">
+          <strong>Crucial Takeaway for Trainees:</strong> In India, English is an <strong>$L_2$ (Second Language)</strong>, NOT a Foreign Language! Because English surrounds children on signboards, packaging, mobile screens, and textbooks, teachers must leverage this informal environmental exposure instead of treating English as an alien subject like Latin or French.
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 2: UNDERSTANDING LANGUAGE: ORAL DISCOURSES & PHONOLOGY                               -->
+    <!-- ========================================================================================= -->
+    <section id="unit-2" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-indigo-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-indigo-600">2</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-indigo-950">
+              Unit 2: Oral Discourses, Listening Comprehension & Phonetics
+            </h2>
+            <p class="text-[11px] text-indigo-800 font-semibold">Print-Rich Environments, IPA Sound Inventory ($44\text{ Sounds}$), Supra-segmentals & Discourse Types</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-indigo-950 shadow-2xs font-mono-math">
+          Weightage: $10\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 2.1 Language-Rich Classroom & Listening Comprehension -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.1 & 2.2</span> The Language-Rich Classroom & Processing Listening Skills
+          </h3>
+          <span class="text-[10px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-2 py-0.5 rounded-full">
+            Receptive Foundation
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Language is both a tool for human thought and our primary vehicle for socio-emotional interaction. Children cannot learn a language in sterile, silent classrooms where only the teacher speaks. To acquire English naturally, primary classrooms must be transformed into <strong>Print-Rich and Language-Rich Environments</strong> containing labeled classroom furniture, student drawing walls, rhyming charts, picture dictionaries, and designated reading corners.
+        </p>
+
+        <!-- Listening vs Hearing & Top-down vs Bottom-up -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 my-2">
+          
+          <div class="comic-box-sm bg-slate-50 p-3 border-l-4 border-indigo-600">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">👂 Hearing vs. Listening with Comprehension</strong>
+            <ul class="space-y-1 text-xs text-slate-600">
+              <li>• <strong>Hearing:</strong> Passive, involuntary biological perception of auditory sound waves entering the eardrum. Zero active mental focus.</li>
+              <li>• <strong>Listening:</strong> Active, voluntary cognitive process requiring focused attention, phonological decoding, meaning extraction, and pragmatic interpretation.</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-3 border-l-4 border-emerald-600">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">🧠 Cognitive Processing in Listening</strong>
+            <ul class="space-y-1 text-xs text-slate-600">
+              <li>• <strong>Bottom-Up Processing:</strong> Decoding language piece-by-piece from the acoustic data ($\text{sounds} \to \text{words} \to \text{phrases} \to \text{sentences}$).</li>
+              <li>• <strong>Top-Down Processing:</strong> Using prior background knowledge, cultural context, and situational cues to predict and infer the overall speaker meaning.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 2.2.2 IPA Segmental Features: The 44 Sounds of English -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.2.2</span> Segmental Features: The International Phonetic Alphabet (IPA)
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded font-mono-math">
+            Phonology Core: $44\text{ Sounds}$
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Unlike Indian languages (which are largely phonetic and transparent—we write what we speak), English exhibits an irregular, non-phonetic spelling system. The $26$ Roman letters generate approximately <strong>$44$ distinct phonemes (sounds)</strong> in Received Pronunciation (RP):
+        </p>
+
+        <!-- Sound Breakdown Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs text-slate-700 mb-3">
+          
+          <div class="comic-box-sm bg-emerald-50/70 p-2.5">
+            <div class="flex items-center justify-between border-b border-emerald-200 pb-1 mb-1">
+              <strong class="text-emerald-950 font-doodle text-xs">$12\text{ Pure Vowels (Monophthongs)}$</strong>
+              <span class="text-[9px] bg-emerald-200 text-emerald-900 px-1 py-0.5 rounded font-bold">Unchanging Quality</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1.5">Vowels produced without any glide or shift in tongue position:</p>
+            <ul class="text-[10.5px] font-mono-math space-y-0.5 text-slate-700">
+              <li>• Short: /ɪ/ (sit), /e/ (bed), /æ/ (cat), /ɒ/ (hot), /ʌ/ (cup), /ʊ/ (book), /ə/ (sofa/schwa).</li>
+              <li>• Long: /iː/ (seat), /ɑː/ (car), /ɔː/ (door), /uː/ (moon), /ɜː/ (bird).</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-sky-50/70 p-2.5">
+            <div class="flex items-center justify-between border-b border-sky-200 pb-1 mb-1">
+              <strong class="text-sky-950 font-doodle text-xs">$8\text{ Diphthongs (Vowel Glides)}$</strong>
+              <span class="text-[9px] bg-sky-200 text-sky-900 px-1 py-0.5 rounded font-bold">Two Vowels in One</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1.5">A smooth glide from one vowel sound to another within the same syllable:</p>
+            <ul class="text-[10.5px] font-mono-math space-y-0.5 text-slate-700">
+              <li>• Closing glides towards /ɪ/: /eɪ/ (day), /aɪ/ (sky), /ɔɪ/ (boy).</li>
+              <li>• Closing glides towards /ʊ/: /aʊ/ (now), /əʊ/ (go).</li>
+              <li>• Centring glides towards /ə/: /ɪə/ (near), /eə/ (hair), /ʊə/ (tour).</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-purple-50/70 p-2.5">
+            <div class="flex items-center justify-between border-b border-purple-200 pb-1 mb-1">
+              <strong class="text-purple-950 font-doodle text-xs">$24\text{ Consonant Sounds}$</strong>
+              <span class="text-[9px] bg-purple-200 text-purple-900 px-1 py-0.5 rounded font-bold">Plosives, Fricatives, etc.</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1.5">Classified by Voicing, Place, and Manner of Articulation:</p>
+            <ul class="text-[10.5px] font-mono-math space-y-0.5 text-slate-700">
+              <li>• Voiceless (Vocal cords still): /p/, /t/, /k/, /f/, /θ/ (thin), /s/, /ʃ/ (ship), /tʃ/ (church).</li>
+              <li>• Voiced (Vocal cords vibrate): /b/, /d/, /ɡ/, /v/, /ð/ (this), /z/, /ʒ/ (measure), /dʒ/ (judge), /m/, /n/, /ŋ/ (sing), /l/, /r/, /w/, /j/ (yes).</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Minimal Pairs Box -->
+        <div class="comic-box-sm bg-slate-50 border border-slate-300 p-2 text-xs">
+          <strong>Pedagogical Tool — Minimal Pairs:</strong> Pairs of words differing by only one single phoneme (e.g., <em>ship /ʃɪp/ vs. sheep /ʃiːp/</em>, <em>bat /bæt/ vs. bet /bet/</em>, <em>pen /pen/ vs. pan /pæn/</em>). Using minimal pair drills trains children to overcome mother-tongue phonetic interference!
+        </div>
+      </div>
+
+      <!-- 2.2.3 Supra-segmental Features: Stress, Rhythm & Intonation -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.2.3</span> Supra-segmental Features: Stress, Rhythm & Intonation Contours
+          </h3>
+          <span class="text-[10px] bg-amber-100 text-amber-900 border border-amber-300 font-bold px-2 py-0.5 rounded">
+            Musical Architecture of Speech
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs sm:text-sm text-slate-700 mb-3">
+          
+          <!-- Stress -->
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">1. Word & Sentence Stress</strong>
+            <p class="text-[11px] text-slate-600 mb-1">Giving extra breath force, higher pitch, and longer vowel duration to a syllable:</p>
+            <ul class="space-y-0.5 text-[11px] text-slate-700">
+              <li>• <strong>Shift in Part of Speech:</strong> <em>'PRE-sent</em> (Noun/Gift) vs. <em>pre-'SENT</em> (Verb/To offer); <em>'RE-cord</em> (Noun) vs. <em>re-'CORD</em> (Verb).</li>
+              <li>• <strong>Sentence Stress:</strong> Content words (nouns, main verbs) are stressed; function words are unstressed.</li>
+            </ul>
+          </div>
+
+          <!-- Rhythm -->
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">2. English Rhythm (Stress-Timed)</strong>
+            <p class="text-[11px] text-slate-600 mb-1">The time interval between stressed syllables is roughly equal:</p>
+            <div class="bg-white border border-slate-200 p-1.5 rounded text-[10.5px] font-mono-math">
+              "<strong>CATS</strong> <strong>CHASE</strong> <strong>MICE</strong>"<br>
+              "The <strong>CATS</strong> will have <strong>CHASED</strong> all the <strong>MICE</strong>"
+            </div>
+            <p class="text-[10px] text-slate-500 mt-1">Both sentences take almost identical time to utter! (Unlike Indian languages which are syllable-timed).</p>
+          </div>
+
+          <!-- Intonation -->
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">3. Intonation (Pitch Variation)</strong>
+            <p class="text-[11px] text-slate-600 mb-1">The rising and falling tune of the voice conveying grammatical purpose and emotion:</p>
+            <ul class="space-y-0.5 text-[11px] text-slate-700">
+              <li>• <strong>Falling Tone ($\searrow$):</strong> Definite statements, commands, Wh-questions: <em>"Where do you live? $\searrow$"</em></li>
+              <li>• <strong>Rising Tone ($\nearrow$):</strong> Polite requests, Yes/No questions: <em>"Are you ready? $\nearrow$"</em></li>
+              <li>• <strong>Fall-Rise ($\searrow\nearrow$):</strong> Hesitation, doubt, warning: <em>"Well, I can try... $\searrow\nearrow$"</em></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 2.3 to 2.5 Oral Presentation, Theatre & Classroom Fluency -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-indigo-700">2.3 – 2.5</span> Producing Oral Discourses: Classroom Theatre & Conversational Routines
+          </h3>
+          <span class="text-[10px] bg-sky-100 text-sky-900 border border-sky-300 font-bold px-2 py-0.5 rounded">
+            Interactive Classroom Action
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700">
+          <div class="comic-box-sm bg-indigo-50/60 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">🎭 Classroom Theatre</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Enacting scripted role-plays and puppet shows removes speaking inhibitions. Children adopt characters and produce authentic dialogue naturally.</p>
+          </div>
+
+          <div class="comic-box-sm bg-amber-50/60 p-2.5">
+            <strong class="text-amber-950 block font-doodle text-xs mb-1">📖 Storytelling & Retelling</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Teacher narrates using facial expressions and modulated vocal pitch. Children retell the narrative in their own words, building cognitive sequencing.</p>
+          </div>
+
+          <div class="comic-box-sm bg-emerald-50/60 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">📞 Situational Dialogues</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Practicing telephonic conversations, railway announcements, market shopping, and reporting daily school assembly weather updates.</p>
+          </div>
+
+          <div class="comic-box-sm bg-rose-50/60 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">⚖️ Fluency vs. Accuracy</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Prioritize <strong>Fluency over Accuracy</strong> in early stages! Constant, intrusive teacher error interruption cripples a child's spontaneous desire to speak English.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 3: CRITICAL READING AND TEXTUAL DISCOURSE                                           -->
+    <!-- ========================================================================================= -->
+    <section id="unit-3" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-emerald-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-emerald-600">3</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-emerald-950">
+              Unit 3: Critical Reading, Comprehension & Textual Discourse
+            </h2>
+            <p class="text-[11px] text-emerald-800 font-semibold">Reading Mechanics, Four Discourse Genres, Three-Phase Reading Model & Kenneth Goodman's Miscue Analysis</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-emerald-950 shadow-2xs font-mono-math">
+          Weightage: $10\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 3.1 Reading Skills & Strategies -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">3.1</span> Strategies for Reading: Mechanics, Modes & Scaffolding
+          </h3>
+          <span class="text-[10px] bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold px-2 py-0.5 rounded-full">
+            Strategic Processing
+          </span>
+        </div>
+
+        <!-- Comparative Table: Reading Aloud vs Silent Reading & Intensive vs Extensive -->
+        <div class="avoid-break overflow-x-auto my-2">
+          <table class="comic-table text-xs sm:text-sm">
+            <thead class="bg-emerald-100 text-emerald-950 font-bold border-b-2 border-slate-900 text-[11px] uppercase">
+              <tr>
+                <th class="w-1/4">Reading Mode</th>
+                <th class="w-3/8">Operational Definition & Primary Mechanism</th>
+                <th class="w-3/8">Educational Objective in Primary School</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Reading Aloud (সস্বৰ পাঠ)</td>
+                <td>Vocalizing written script with correct pronunciation, phrasing, stress, and pause.</td>
+                <td>Develops phonemic fluency, speech articulation, and audibility in lower primary classes.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Silent Reading (নীৰৱ পাঠ)</td>
+                <td>Reading without moving lips or vocalizing; direct visual-to-mental conceptual mapping.</td>
+                <td>Maximizes reading speed, deep critical concentration, and mature cognitive comprehension.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Intensive Reading</td>
+                <td>Close, in-depth analytical study of shorter textbook passages for micro-details.</td>
+                <td>Mastering complex grammatical structures, syntax, vocabulary, and authorial style.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Extensive Reading</td>
+                <td>Rapid reading of longer texts (children's storybooks, comic magazines) for global pleasure.</td>
+                <td>Building reading habit, automatic word recognition, and broad general world knowledge.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Skimming, Scanning & Cohesion -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs text-slate-700 mt-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">⚡ Skimming (Glancing for Gist)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Rapid eye-movement over headings, opening sentences, and summary paragraphs to extract the general overarching theme without getting stuck on unfamiliar words.</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">🎯 Scanning (Target Search)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Darting the eyes down a page to locate a specific, predetermined item of information (e.g., finding a train arrival time on a timetable, a phone number, or a historical date).</p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">🔗 Coherence & Cohesion</strong>
+            <p class="text-[11px] text-slate-600 leading-tight"><strong>Cohesion</strong> refers to visible grammatical and lexical connectors (<em>however, therefore, this, they</em>); <strong>Coherence</strong> is the underlying logical unity of ideas making a text sensible.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.2 Four Core Text Genres -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase border-b border-slate-200 pb-1.5 mb-2.5 flex items-center gap-1.5">
+          <span class="text-emerald-700">3.2</span> The Four Major Text Genres in School Discourses
+        </h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700">
+          <div class="comic-box-sm bg-sky-50/60 p-2.5">
+            <strong class="text-sky-950 block font-doodle text-xs mb-1">1. Descriptive Texts</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Paints a vivid sensory picture of a person, animal, historical monument, or landscape using sensory adjectives and spatial organizers.</p>
+            <span class="text-[9px] font-mono-math bg-white px-1.5 py-0.5 rounded border border-sky-300 text-sky-900 font-bold block text-center">Ex: "A Rainy Morning in Assam"</span>
+          </div>
+
+          <div class="comic-box-sm bg-rose-50/60 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">2. Narrative Texts</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Chronicles a sequence of events across time featuring a setting, characters, central conflict, climax, and emotional resolution.</p>
+            <span class="text-[9px] font-mono-math bg-white px-1.5 py-0.5 rounded border border-rose-300 text-rose-900 font-bold block text-center">Ex: Folk tales, Biographies</span>
+          </div>
+
+          <div class="comic-box-sm bg-amber-50/60 p-2.5">
+            <strong class="text-amber-950 block font-doodle text-xs mb-1">3. Expository / Informative</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Objective, factual explanation of scientific phenomena, historical eras, or processes using cause-and-effect and comparison.</p>
+            <span class="text-[9px] font-mono-math bg-white px-1.5 py-0.5 rounded border border-amber-300 text-amber-900 font-bold block text-center">Ex: "The Water Cycle" (Science)</span>
+          </div>
+
+          <div class="comic-box-sm bg-purple-50/60 p-2.5">
+            <strong class="text-purple-950 block font-doodle text-xs mb-1">4. Persuasive Texts</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1">Aims to convince the reader to accept a specific viewpoint, adopt an attitude, or take action using rhetoric and evidence.</p>
+            <span class="text-[9px] font-mono-math bg-white px-1.5 py-0.5 rounded border border-purple-300 text-purple-900 font-bold block text-center">Ex: Advertisements, Debates</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.5 & 3.6 Three-Phase Reading Model & Miscue Analysis -->
+      <div class="comic-box bg-white p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Three Phase Reading Model -->
+          <div class="comic-box-sm bg-slate-50 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2">
+                3.5 The Three-Phase Instructional Reading Model
+              </h4>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>1. Pre-Reading (Schema Activation):</strong> Brainstorming title, predicting story outcomes from illustrations, pre-teaching $3\text{--}4$ difficult bottleneck words.</li>
+                <li>• <strong>2. While-Reading (Active Engagement):</strong> Silent reading with guiding prompt questions, confirming hypotheses, self-monitoring comprehension, annotating text.</li>
+                <li>• <strong>3. Post-Reading (Integration & Reflection):</strong> Discussion, character analysis, debate, creative role-play, drawing emotional scenes, critical evaluation.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-emerald-100 text-emerald-950 font-bold p-1 rounded text-center">
+              Good readers actively predict, clarify, and evaluate while reading!
+            </div>
+          </div>
+
+          <!-- Miscue Analysis -->
+          <div class="comic-box-sm bg-rose-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-rose-950 text-xs uppercase border-b border-rose-200 pb-1 mb-2">
+                3.6 Kenneth Goodman's Miscue Analysis
+              </h4>
+              <p class="text-slate-600 text-xs mb-2">
+                Linguist Kenneth Goodman revolutionized literacy by treating oral reading errors not as punishable mistakes, but as <strong>"Miscues"</strong>—diagnostic windows into the child's cognitive cueing systems:
+              </p>
+              <ul class="space-y-1 text-xs text-slate-700">
+                <li>• <strong>Graphophonic Miscue:</strong> Reading <em>"horse"</em> as <em>"house"</em> (child relies on visual letter shape, ignoring meaning).</li>
+                <li>• <strong>Syntactic Miscue:</strong> Reading <em>"The dog ran"</em> as <em>"The dog barked"</em> (grammar fits, but visual word differs).</li>
+                <li>• <strong>Semantic Miscue:</strong> Reading <em>"The king sat on the pony"</em> as <em>"The king sat on the horse"</em> (visual word differs, but meaning is $100\%$ preserved!).</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-rose-100 text-rose-950 font-bold p-1 rounded text-center">
+              Never punish semantic miscues; celebrate that the child is comprehending!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 4: VOCABULARY IN CONTEXT                                                             -->
+    <!-- ========================================================================================= -->
+    <section id="unit-4" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-amber-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-amber-500">4</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-amber-950">
+              Unit 4: Vocabulary in Context and Word Architecture
+            </h2>
+            <p class="text-[11px] text-amber-800 font-semibold">Open vs. Closed Classes, Content vs. Function Words, Morphology & Lexical Relationships</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-amber-950 shadow-2xs font-mono-math">
+          Weightage: $10\text{ Marks}$
+        </span>
+      </div>
+
+      <!-- 4.1 & 4.2 Word Classes: Open vs Closed & Content vs Function -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-amber-800">4.1 & 4.2</span> Classification of Words: Open vs. Closed Classes & Function vs. Content
+          </h3>
+          <span class="text-[10px] bg-amber-100 text-amber-900 border border-amber-300 font-bold px-2 py-0.5 rounded-full">
+            Lexical Classification
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          A language's vocabulary is not a random list of words memorized from a dictionary; words operate in structural ecosystems. A mature teacher must understand the fundamental divide between open and closed classes:
+        </p>
+
+        <!-- Comparative Table: Content vs Function / Open vs Closed -->
+        <div class="avoid-break overflow-x-auto my-2">
+          <table class="comic-table text-xs sm:text-sm">
+            <thead class="bg-amber-100 text-amber-950 font-bold border-b-2 border-slate-900 text-[11px] uppercase">
+              <tr>
+                <th class="w-1/4">Key Dimension</th>
+                <th class="w-3/8 bg-emerald-50 text-emerald-950">Open-Word Classes (Content Words)</th>
+                <th class="w-3/8 bg-sky-50 text-sky-950">Closed-Word Classes (Function Words)</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Constituent Parts of Speech</td>
+                <td><strong>Nouns, Lexical Main Verbs, Adjectives, Adverbs</strong> (e.g., <em>teacher, sprint, beautiful, quietly</em>).</td>
+                <td><strong>Pronouns, Prepositions, Conjunctions, Determiners, Auxiliary Verbs</strong> (e.g., <em>he, in, because, the, should</em>).</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Membership Flexibility</td>
+                <td><strong>Infinite & Growing:</strong> New words are constantly invented and added (e.g., <em>internet, selfie, vlog, download</em>).</td>
+                <td><strong>Finite & Static:</strong> Rarely accepts new coinages. The set of English pronouns or prepositions is closed.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Semantic Role</td>
+                <td>Carries primary semantic meaning and information of a sentence; heavy lexical payload.</td>
+                <td>Carries grammatical glue, signaling structural relationships between content words.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-slate-50">Stress in Spoken English</td>
+                <td>Typically <strong>stressed</strong> in natural connected speech.</td>
+                <td>Typically <strong>unstressed</strong> and pronounced in their weak forms (e.g., /tə/, /ən/).</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 4.4 Morphological Word Formation Processes -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-amber-800">4.4</span> Morphological Word Formation Processes
+          </h3>
+          <span class="text-[10px] bg-indigo-100 text-indigo-900 border border-indigo-300 font-bold px-2 py-0.5 rounded">
+            Morphology & Affixation
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">1. Prefixation</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1.5">Adding an affix to the front of a base/root word (usually alters meaning, keeps class):</p>
+            <span class="text-[10px] font-mono-math bg-white px-1.5 py-0.5 rounded border border-slate-300 text-indigo-900 font-bold block">
+              \text{un-} + \text{happy} = \text{unhappy}<br>
+              \text{dis-} + \text{obey} = \text{disobey}<br>
+              \text{re-} + \text{write} = \text{rewrite}
+            </span>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">2. Suffixation</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1.5">Adding an affix to the end of a root (frequently transforms grammatical class):</p>
+            <span class="text-[10px] font-mono-math bg-white px-1.5 py-0.5 rounded border border-slate-300 text-indigo-900 font-bold block">
+              \text{teach (V)} + \text{-er} = \text{teacher (N)}<br>
+              \text{beauty (N)} + \text{-ful} = \text{beautiful (Adj)}<br>
+              \text{quick (Adj)} + \text{-ly} = \text{quickly (Adv)}
+            </span>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">3. Compounding</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1.5">Joining two or more free root words to create a brand new single lexical item:</p>
+            <span class="text-[10px] font-mono-math bg-white px-1.5 py-0.5 rounded border border-slate-300 text-indigo-900 font-bold block">
+              \text{black} + \text{board} = \text{blackboard}<br>
+              \text{tooth} + \text{paste} = \text{toothpaste}<br>
+              \text{sun} + \text{flower} = \text{sunflower}
+            </span>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-indigo-950 block font-doodle text-xs mb-1">4. Modifiers (Pre & Post)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight mb-1.5">Linguistic elements describing or restricting a head noun:</p>
+            <span class="text-[10px] font-mono-math bg-white px-1.5 py-0.5 rounded border border-slate-300 text-indigo-900 font-bold block">
+              Pre: "A [clever] girl"<br>
+              Post: "The girl [with the red ribbon]"
+            </span>
+          </div>
+        </div>
+
+        <div class="bg-amber-50 border border-amber-300 rounded p-2 text-xs text-amber-950">
+          <strong>Derivational vs. Inflectional Suffixes:</strong> <em>Derivational suffixes</em> create new words or change part of speech (e.g., $\text{care} \to \text{careless}$). <em>Inflectional suffixes</em> only mark grammatical aspects without altering part of speech (e.g., $\text{play} \to \text{plays}, \text{played}, \text{playing}$).
+        </div>
+      </div>
+
+      <!-- 4.5 Semantic Lexical Relationships -->
+      <div class="comic-box bg-white p-4">
+        <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase border-b border-slate-200 pb-1.5 mb-2.5 flex items-center gap-1.5">
+          <span class="text-amber-800">4.5</span> Semantic Lexical Relationships & Figurative Discourse
+        </h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs text-slate-700">
+          
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">1. Synonyms & Antonyms</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">
+              <strong>Synonyms:</strong> Words sharing near-identical core meanings (e.g., <em>huge / gigantic, begin / commence</em>). Note: True absolute synonyms are rare due to differing registers!<br>
+              <strong>Antonyms:</strong> Binary lexical opposites (e.g., <em>hot / cold, buy / sell, alive / dead</em>).
+            </p>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">2. Homophones vs. Homographs vs. Homonyms</strong>
+            <ul class="space-y-1 text-[11px] text-slate-600">
+              <li>• <strong>Homophones:</strong> Same sound, different spelling & meaning (e.g., <em>sun / son</em>, <em>sea / see</em>, <em>write / right</em>).</li>
+              <li>• <strong>Homographs:</strong> Same spelling, different sound & meaning (e.g., <em>lead /liːd/ (to guide) vs. lead /led/ (metal)</em>).</li>
+              <li>• <strong>Homonyms:</strong> Same sound AND same spelling, different meaning (e.g., <em>bank (river edge) vs. bank (money)</em>).</li>
+            </ul>
+          </div>
+
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">3. Phrasal Verbs, Idioms & Collocations</strong>
+            <ul class="space-y-1 text-[11px] text-slate-600">
+              <li>• <strong>Phrasal Verbs:</strong> Verb + particle with non-literal meaning (e.g., <em>give up, look after, turn down</em>).</li>
+              <li>• <strong>Idioms:</strong> Fixed cultural expressions whose overall meaning cannot be deduced from individual words (e.g., <em>"a piece of cake", "break a leg"</em>).</li>
+              <li>• <strong>Collocations:</strong> Natural habitual co-occurrence of words (e.g., <em>fast food</em> NOT <em>quick food</em>; <em>make a mistake</em> NOT <em>do a mistake</em>).</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- PRACTICUM & INTERNAL ASSESSMENT CONTAINER (15 MARKS)                                      -->
+    <!-- ========================================================================================= -->
+    <section id="assessment-blueprint" class="avoid-break comic-box bg-slate-900 text-white p-6 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-700 pb-3 mb-4">
+        <div class="flex items-center gap-2">
+          <span class="text-xl text-sky-400">★</span>
+          <h3 class="text-sm sm:text-base font-doodle font-bold text-sky-300 uppercase">
+            Paper S1.5 Practicum & Internal Assessment Architecture ($15\text{ Marks}$)
+          </h3>
+        </div>
+        <span class="text-xs bg-slate-800 border border-slate-700 px-2.5 py-1 rounded text-slate-300 font-bold font-mono-math">
+          Syllabus 2026
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-center text-xs mb-4">
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-3">
+          <span class="block text-slate-400 text-[11px]">Practicum Tasks & Profile Portfolio</span>
+          <span class="text-xl font-doodle font-black text-sky-400">$10\text{ Marks}$</span>
+          <span class="text-[10px] text-slate-400 block mt-0.5">LSRW Material Design + Reflective Journals</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-3">
+          <span class="block text-slate-400 text-[11px]">Institutional Unit Test</span>
+          <span class="text-xl font-doodle font-black text-sky-400">$5\text{ Marks}$</span>
+          <span class="text-[10px] text-slate-400 block mt-0.5">Internal Written Evaluation</span>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-3 text-xs text-slate-300 space-y-2">
+        <div>
+          <strong class="text-white block font-doodle text-xs mb-1">Prescribed Practicum Requirements:</strong>
+          <ul class="space-y-1 text-[11px] list-disc pl-4 text-slate-300">
+            <li><strong>Workshop Design Task:</strong> Designing and preparing innovative, low-cost concrete teaching aids (TLMs) specifically engineered to develop Listening, Speaking, and Reading comprehension in elementary children.</li>
+            <li><strong>Word-Work Explorations:</strong> Collecting text passages from Class 1 to 5 SCERT English textbooks; categorizing words into open vs. closed classes; designing minimal pair worksheets for pronunciation practice.</li>
+            <li><strong>Individual Trainee Portfolio:</strong> Every trainee must maintain an organized individual profile and cumulative portfolio documenting all spoken dialogues, reading discourse reviews, and classroom theatre scripts across the semester.</li>
+            <li><strong>Reflective Journal:</strong> Maintaining a daily reflective analytical journal capturing personal insights, vocabulary breakthroughs, and peer teaching feedback throughout the course.</li>
+          </ul>
+        </div>
+
+        <div class="border-t border-slate-800 pt-2">
+          <strong class="text-amber-300 block font-doodle text-xs mb-0.5">School Internship (SIP-I Linkage):</strong>
+          <p class="leading-relaxed text-[11px]">
+            During SIP-I, student-teachers will observe children's spontaneous spoken English attempts, analyze reading errors through Kenneth Goodman's miscue analysis, create an active "Word Wall" inside the primary classroom, and submit a documented analytical report countersigned by the school head.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DOCUMENT FOOTER ==================== -->
+    <footer class="avoid-break pt-4 border-t-2 border-dashed border-slate-400 text-center text-xs text-slate-600">
+      <div class="comic-box-sm bg-slate-900 text-white py-2.5 px-4 flex flex-wrap items-center justify-between gap-3 shadow-sm">
+        <div class="flex items-center gap-1.5 font-bold text-sky-300">
+          <span>★</span> Paper S1.5 Study Notes <span>•</span> Curriculum Session 2026
+        </div>
+
+        <div class="text-center font-medium text-slate-300">
+          Made with ❤️ by <strong class="text-white font-bold">Sayeem Sadik</strong>
+          <span class="text-slate-500">•</span>
+          <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-cyan-300 font-bold hover:underline font-mono-math">
+            https://leoaristocrat.eu.cc
+          </a>
+        </div>
+
+        <div class="text-[11px] text-slate-400 font-bold">
+          All Rights Safeguarded 🛡️
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- KaTeX Auto-Render Trigger -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

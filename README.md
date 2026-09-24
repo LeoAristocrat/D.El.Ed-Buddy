@@ -71,3 +71,9 @@ Bookmarks/progress/checklists live on the current browser only. The site has no 
 ## Add an interactive quiz
 
 Set `type: "Quizzes"` on a resource and add a `questions` YAML array. Each question has `question`, exactly four `options`, `answer` (0–3), `explanation`, `topic` to revise, and `page` (source PDF page, 1–136). The resource template automatically adds the interactive quiz. AI-assisted quizzes still require human review. The current five-question curriculum check is a separate orientation tool.
+
+## Study-note editions
+
+The nine supplied HTML files are preserved in `public/study-notes/`, with Markdown resource records under their respective `content/resources/s1-N/` folders. `Study Notes` means the visually organized, quicker-read edition (not Short Notes). `Detailed Notes` is reserved for future thorough topic-by-topic coverage. `Infographics` supports future single-page unit images; assign course and unit when uploading. Existing semester reference graphics remain labelled as Reference.
+
+`coversUnits` associates whole-course notes with all corresponding unit pages and filters. `htmlFile` enables the isolated embedded reader, full-tab reading and original HTML download. Files retain their original external Tailwind/KaTeX/font dependencies. `publicationBasis: owner-supplied` records the owner's explicit request to publish supplied AI-generated material; it does not assert academic review. Unrequested AI drafts still require `reviewedBy` before publication.

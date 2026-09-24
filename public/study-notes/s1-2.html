@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper S1.2: Early Childhood Care and Education (ECCE) - Master Notes (2026)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Fredoka (Doodle/Display), Plus Jakarta Sans (Body), Caveat (Handwritten), JetBrains Mono (Technical/Metrics) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- KaTeX CDN for crisp, textbook-grade mathematical & scientific formula rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0b1329;
+      color: #0f172a;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .font-doodle {
+      font-family: 'Fredoka', cursive, sans-serif;
+    }
+
+    .font-hand {
+      font-family: 'Caveat', cursive;
+    }
+
+    .font-mono-math {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Comic Neo-Brutalist Card Shadows & Solid Borders */
+    .comic-box {
+      border: 2.5px solid #0f172a;
+      box-shadow: 4px 4px 0px #0f172a;
+      border-radius: 12px;
+      background-color: #ffffff;
+    }
+
+    .comic-box-sm {
+      border: 2px solid #0f172a;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+      border-radius: 8px;
+      background-color: #ffffff;
+    }
+
+    /* Vibrant Circular Number Badges */
+    .badge-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 9999px;
+      border: 2px solid #0f172a;
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 12px;
+      box-shadow: 1.5px 1.5px 0px #0f172a;
+      flex-shrink: 0;
+    }
+
+    /* Adhesive Tape Pin Effect */
+    .tape-pin {
+      position: relative;
+    }
+    .tape-pin::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      left: 20%;
+      width: 44px;
+      height: 14px;
+      background: rgba(254, 240, 138, 0.95);
+      border: 1px dashed rgba(180, 83, 9, 0.6);
+      transform: rotate(-3deg);
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+      z-index: 10;
+    }
+
+    /* 3D Pushpin Graphic */
+    .pushpin-red {
+      position: absolute;
+      top: -6px;
+      right: 12px;
+      width: 14px;
+      height: 14px;
+      background: radial-gradient(circle at 30% 30%, #ef4444, #991b1b);
+      border: 1.5px solid #0f172a;
+      border-radius: 50%;
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.35);
+      z-index: 20;
+    }
+
+    /* Document Envelope */
+    .doc-container {
+      max-width: 1040px;
+      margin: 24px auto;
+      padding: 36px 32px;
+      background: #fafaf9;
+      background-image: radial-gradient(#cbd5e1 0.85px, transparent 0.85px);
+      background-size: 12px 12px;
+      border: 3.5px solid #0f172a;
+      box-shadow: 8px 10px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 20px;
+      position: relative;
+    }
+
+    /* Custom Table Styling */
+    .comic-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 2px solid #0f172a;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #ffffff;
+      box-shadow: 2.5px 2.5px 0px #0f172a;
+    }
+    .comic-table th, .comic-table td {
+      border-bottom: 1.5px solid #e2e8f0;
+      border-right: 1.5px solid #e2e8f0;
+      padding: 10px 14px;
+    }
+    .comic-table th:last-child, .comic-table td:last-child {
+      border-right: none;
+    }
+    .comic-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* KaTeX Size & Spacing Tuning */
+    .katex {
+      font-size: 1.05em !important;
+    }
+    .katex-display {
+      margin: 0.35em 0 !important;
+    }
+
+    /* Print & PDF Calibration */
+    .avoid-break {
+      break-inside: avoid !important;
+      page-break-inside: avoid !important;
+    }
+
+    .force-page-break {
+      break-before: page !important;
+      page-break-before: always !important;
+    }
+
+    @media print {
+      body {
+        background-color: transparent !important;
+        padding: 0 !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .doc-container {
+        margin: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        background: transparent !important;
+      }
+      .comic-box {
+        box-shadow: none !important;
+        border: 2px solid #0f172a !important;
+      }
+    }
+  </style>
+</head>
+<body class="selection:bg-amber-200 selection:text-amber-900 pb-16">
+
+  <!-- ==================== SCREEN-ONLY QUICK ACTION BAR ==================== -->
+  <header class="no-print sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b-2 border-slate-700 px-4 py-2.5 shadow-xl">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand & Metadata Badge -->
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 bg-gradient-to-tr from-emerald-400 via-teal-500 to-indigo-600 rounded-xl flex items-center justify-center text-white font-black shadow-md border-2 border-slate-900 text-sm font-doodle">
+          S1.2
+        </div>
+        <div>
+          <h1 class="text-white text-xs sm:text-sm font-extrabold flex items-center gap-2 tracking-tight">
+            Early Childhood Care and Education (ECCE)
+            <span class="text-[10px] bg-emerald-500/25 text-emerald-300 border border-emerald-500/40 px-2 py-0.5 rounded-full font-bold">50 Marks • 2 Credits</span>
+          </h1>
+          <p class="text-[11px] text-slate-400">Curriculum Session 2026 • Made with ❤️ by Sayeem Sadik</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex items-center flex-wrap gap-2">
+        <a href="#unit-1" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/30 transition">
+          U1: Significance
+        </a>
+        <a href="#unit-2" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30 hover:bg-amber-500/30 transition">
+          U2: Pedagogy
+        </a>
+        <a href="#unit-3" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-sky-500/20 text-sky-300 border border-sky-500/30 hover:bg-sky-500/30 transition">
+          U3: Classroom
+        </a>
+        <a href="#unit-4" class="text-xs font-bold px-2.5 py-1.5 rounded-lg bg-purple-500/20 text-purple-300 border border-purple-500/30 hover:bg-purple-500/30 transition">
+          U4: Assessment
+        </a>
+        <button onclick="window.print()" class="flex items-center gap-1.5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-extrabold px-3.5 py-1.5 rounded-lg transition shadow border border-slate-900 font-doodle">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          Print / Save PDF (A4)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN DOCUMENT ENVELOPE ==================== -->
+  <main class="doc-container">
+
+    <!-- ==================== HERO HEADER ==================== -->
+    <header class="avoid-break mb-8 relative">
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+        
+        <!-- Left Tape Ribbon -->
+        <div class="tape-pin bg-emerald-100 border-2 border-slate-900 px-3.5 py-1 rounded-lg transform -rotate-2 shadow-xs">
+          <span class="pushpin-red"></span>
+          <div class="text-[9px] font-black uppercase tracking-wider text-emerald-950">D.El.Ed First Semester • Paper S1.2</div>
+          <div class="text-sm font-doodle font-bold text-slate-900 leading-tight">Early Childhood Care & Education</div>
+          <div class="text-[9px] font-bold text-emerald-800">Foundational Stage Pedagogy (Ages 3–8) • 2026 Session</div>
+        </div>
+
+        <!-- Right Quick Stats Badges -->
+        <div class="flex items-center gap-2">
+          <div class="comic-box-sm bg-amber-100 px-3 py-1 text-center transform rotate-1">
+            <div class="text-[8px] font-black text-amber-700 uppercase tracking-tight">Exam Evaluation</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">35 Ext + 15 Int</div>
+            <div class="text-[8px] text-slate-600 font-bold">Total: 50 Marks</div>
+          </div>
+          <div class="comic-box-sm bg-sky-100 px-3 py-1 text-center transform -rotate-1">
+            <div class="text-[8px] font-black text-sky-700 uppercase tracking-tight">Workload</div>
+            <div class="text-xs font-doodle font-bold text-slate-900">2 Credits</div>
+            <div class="text-[8px] text-slate-600 font-bold">50 Study Hours</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Main Title Box -->
+      <div class="comic-box bg-gradient-to-r from-emerald-50 via-teal-50 to-sky-50 p-5 text-center relative overflow-hidden">
+        <div class="inline-block relative">
+          <span class="absolute -inset-1.5 bg-emerald-200 rounded-lg transform -rotate-1 border-2 border-slate-900 -z-10 shadow-xs"></span>
+          <h1 class="text-xl sm:text-3xl font-doodle font-black uppercase text-slate-900 tracking-tight px-4 py-1">
+            Early Childhood Care and Education (ECCE)
+          </h1>
+        </div>
+        <p class="text-xs sm:text-sm font-bold text-slate-700 mt-2 max-w-2xl mx-auto leading-relaxed">
+          Comprehensive Study Notes on Foundational Neuro-Development, Play-Based & Toy Pedagogy, Activity Corners, and Holistic Assessment (Units 1 to 4)
+        </p>
+
+        <!-- Author Ribbon -->
+        <div class="mt-4 pt-3 border-t-2 border-dashed border-slate-300 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-1.5 font-bold text-slate-800">
+            <span>Made with ❤️ by</span>
+            <span class="text-emerald-950 font-black underline decoration-rose-500 decoration-2">Sayeem Sadik</span>
+            <span class="text-slate-400">•</span>
+            <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-brand-700 hover:underline font-mono-math text-emerald-800 font-extrabold">
+              leoaristocrat.eu.cc
+            </a>
+          </div>
+          <div class="inline-flex items-center gap-1.5 font-mono-math font-bold text-[10.5px] bg-white border border-slate-900 rounded-md px-2 py-0.5 shadow-2xs">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            Curriculum Session 2026
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==================== TABLE OF CONTENTS ==================== -->
+    <nav class="avoid-break comic-box bg-emerald-50/90 p-4 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-900 pb-2 mb-3">
+        <div class="flex items-center gap-2">
+          <span class="text-base">📑</span>
+          <h2 class="text-xs font-doodle font-bold uppercase tracking-wider text-emerald-950">
+            Syllabus Blueprint & Marks Allocation
+          </h2>
+        </div>
+        <span class="text-[10px] font-bold bg-emerald-200 border border-emerald-400 text-emerald-950 px-2 py-0.5 rounded-full">
+          4 Core Units • 35 External Marks
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs">
+        <a href="#unit-1" class="comic-box-sm p-2.5 hover:bg-emerald-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-emerald-950 text-sm">Unit 1</strong>
+            <span class="bg-emerald-100 border border-emerald-300 text-emerald-900 font-bold px-1.5 py-0.5 rounded text-[10px]">8 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Definition, Nature & Significance</div>
+          <div class="text-[10px] text-slate-500">Neuroscience, 5 Domains, ECCE Agencies</div>
+        </a>
+
+        <a href="#unit-2" class="comic-box-sm p-2.5 hover:bg-amber-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-amber-950 text-sm">Unit 2</strong>
+            <span class="bg-amber-100 border border-amber-300 text-amber-900 font-bold px-1.5 py-0.5 rounded text-[10px]">10 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Pedagogical Approaches to ECCE</div>
+          <div class="text-[10px] text-slate-500">Play Spectrum, Toy/Inquiry, Rote Trap</div>
+        </a>
+
+        <a href="#unit-3" class="comic-box-sm p-2.5 hover:bg-sky-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-sky-950 text-sm">Unit 3</strong>
+            <span class="bg-sky-100 border border-sky-300 text-sky-900 font-bold px-1.5 py-0.5 rounded text-[10px]">9 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Classroom Planning & Management</div>
+          <div class="text-[10px] text-slate-500">Activity Corners, Theme Webs, Community</div>
+        </a>
+
+        <a href="#unit-4" class="comic-box-sm p-2.5 hover:bg-purple-100/60 transition block">
+          <div class="flex items-center justify-between">
+            <strong class="font-doodle text-purple-950 text-sm">Unit 4</strong>
+            <span class="bg-purple-100 border border-purple-300 text-purple-900 font-bold px-1.5 py-0.5 rounded text-[10px]">8 Marks</span>
+          </div>
+          <div class="font-bold text-slate-800 text-[11px] mt-1">Assessment in ECCE</div>
+          <div class="text-[10px] text-slate-500">HPC 360°, Portfolio, 8 Quality Standards</div>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 1: DEFINITION, NATURE AND SIGNIFICANCE OF ECCE                                       -->
+    <!-- ========================================================================================= -->
+    <section id="unit-1" class="mb-10">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-emerald-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-emerald-600">1</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-emerald-950">
+              Unit 1: Definition, Nature and Significance of ECCE
+            </h2>
+            <p class="text-[11px] text-emerald-800 font-semibold">Foundational Brain Architecture, Panchakosha Domains & Institutional Agencies</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-emerald-950 shadow-2xs">
+          Weightage: 8 Marks
+        </span>
+      </div>
+
+      <!-- 1.1 & 1.2 Meaning and Significance -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">1.1 & 1.2</span> Concept, Meaning & Neuroscience of Early Childhood
+          </h3>
+          <span class="text-[10px] bg-emerald-50 text-emerald-900 border border-emerald-300 px-2 py-0.5 rounded font-bold">
+            NEP 2020 Foundational Stage
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          <strong>Early Childhood Care and Education (ECCE)</strong> refers to the holistic support, care, nutrition, health, and structured play-based stimulation provided to children from <strong>prenatal stage up to 8 years of age</strong>. In the pedagogical framework of NEP 2020 and the National Curriculum Framework for Foundational Stage (NCF-FS 2022), ECCE constitutes the critical core of the <strong>$5+3+3+4$ architecture</strong>, covering age 3 to 6 in Anganwadi / Pre-Primary (Ka-Shreni / Balvatika) and age 6 to 8 in Classes 1 and 2.
+        </p>
+
+        <!-- Neuro-development callout box -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5 text-xs text-slate-700 my-3">
+          <div class="comic-box-sm bg-emerald-50/70 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">🧠 85% Brain Development</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Neuroscience establishes that over $85\%$ of an individual's cumulative brain development occurs before the age of 6. Synaptic connections form at an unprecedented rate of over $1{,}000{,}000$ per second.</p>
+          </div>
+          <div class="comic-box-sm bg-amber-50/70 p-2.5">
+            <strong class="text-amber-950 block font-doodle text-xs mb-1">⏳ Sensitive Periods</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Windows of developmental plasticity where neural pathways for sensory perception, language syntax, emotional regulation, and social bonding are most malleable.</p>
+          </div>
+          <div class="comic-box-sm bg-sky-50/70 p-2.5">
+            <strong class="text-sky-950 block font-doodle text-xs mb-1">📈 Heckman Curve Equation</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Nobel Laureate James Heckman proved that investing in high-quality early childhood yields the highest economic return ($\text{₹}7 - \text{₹}10$ returned per $\text{₹}1$ invested, a $7:1 \text{ to } 10:1$ benefit-cost ratio), vastly exceeding returns on tertiary education.</p>
+          </div>
+        </div>
+
+        <div class="comic-box-sm bg-rose-50 border-l-4 border-rose-500 p-3 text-xs text-rose-950 mt-2">
+          <strong>Crucial Distinction:</strong> ECCE is <em>not</em> a downward extension of formal primary schooling. It is not about forcing 3-year-olds to write the alphabet or sit silently at desks. It is an integrated web of care: <strong>Healthcare + Nutritious Diet + Emotional Security + Playful Exploration</strong>.
+        </div>
+      </div>
+
+      <!-- 1.3 Domains of Development in ECCE -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-emerald-700">1.3</span> The Five Developmental Domains (Panchakosha Model)
+          </h3>
+          <span class="text-[10px] bg-indigo-50 text-indigo-900 border border-indigo-200 px-2 py-0.5 rounded font-bold">
+            NCF-FS 2022 Core Framework
+          </span>
+        </div>
+
+        <div class="avoid-break overflow-x-auto my-2">
+          <table class="comic-table text-xs sm:text-sm">
+            <thead class="bg-emerald-100 text-emerald-950 font-bold border-b-2 border-slate-900 text-[11px] uppercase">
+              <tr>
+                <th class="w-1/5">Domain & Kosha</th>
+                <th class="w-2/5">Core Competencies & Developmental Focus</th>
+                <th class="w-2/5">Classroom / Learning Centre Activity</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 text-slate-700">
+              <tr>
+                <td class="font-bold text-slate-900 bg-emerald-50/50">
+                  1. Physical-Motor<br>
+                  <span class="text-[10px] text-emerald-800 font-mono-math font-bold">(Annamaya Kosha)</span>
+                </td>
+                <td>Gross motor coordination (running, jumping, balancing) and fine motor dexterity (pincer grasp, hand-eye coordination, finger isolation).</td>
+                <td>Clay pinching, bead stringing, balancing on a taped line, free outdoor tag games, crawling through tunnels.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-emerald-50/50">
+                  2. Socio-Emotional & Ethical<br>
+                  <span class="text-[10px] text-emerald-800 font-mono-math font-bold">(Pranamaya & Manomaya)</span>
+                </td>
+                <td>Self-identity, emotional self-regulation, empathy, sharing, turn-taking, following classroom routines, resolving peer friction.</td>
+                <td>Circle time emotion talks ("How do you feel today?"), dramatic role-play (doctor-patient, market), cooperative clean-up games.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-emerald-50/50">
+                  3. Cognitive Domain<br>
+                  <span class="text-[10px] text-emerald-800 font-mono-math font-bold">(Vijnanamaya Kosha)</span>
+                </td>
+                <td>Sensory perception, spatial reasoning, cause-and-effect understanding, seriation, pattern identification, early number sense.</td>
+                <td>Sorting leaves by size, matching natural objects, nesting cups, simple wooden jigsaws, shadow-matching games.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-emerald-50/50">
+                  4. Language & Early Literacy<br>
+                  <span class="text-[10px] text-emerald-800 font-mono-math font-bold">(Manomaya Kosha)</span>
+                </td>
+                <td>Emergent listening comprehension, oral articulation in mother tongue, phonological awareness, print awareness, scribbling.</td>
+                <td>Action songs, local nursery rhymes, interactive picture book reading (Big Books), puppet storytelling, sound-matching games.</td>
+              </tr>
+              <tr>
+                <td class="font-bold text-slate-900 bg-emerald-50/50">
+                  5. Aesthetic & Cultural<br>
+                  <span class="text-[10px] text-emerald-800 font-mono-math font-bold">(Anandamaya Kosha)</span>
+                </td>
+                <td>Free creative expression, sensory enjoyment of colors, rhythm, body movement, appreciation of nature and cultural heritage.</td>
+                <td>Finger-painting, tearing and pasting paper collage, dance to folk beats, rangoli with flower petals and seeds.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 1.4 Factors Influencing & 1.6 Agencies -->
+      <div class="comic-box bg-white p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Factors Influencing -->
+          <div class="comic-box-sm bg-slate-50 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2 flex items-center justify-between">
+                <span>1.4 Factors Influencing Holistic Development</span>
+                <span class="text-[9px] bg-slate-200 text-slate-800 px-1.5 py-0.5 rounded">Ecology</span>
+              </h4>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>Home Environment:</strong> Secure parent-child attachment, verbal stimulation, nutritional adequacy, and absence of toxic domestic stress.</li>
+                <li>• <strong>Community Ecosystem:</strong> Safe sanitation, clean drinking water, open green play spaces, and community childcare support networks.</li>
+                <li>• <strong>School / Centre Climate:</strong> Child-friendly educators, absence of fear/punishment, culturally inclusive language, and hygienic infrastructure.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-amber-100 text-amber-950 font-bold p-1 rounded">
+              💡 Bronfenbrenner's ecological model: Child is at the center of intersecting microsystems.
+            </div>
+          </div>
+
+          <!-- Agencies Involved in ECCE -->
+          <div class="comic-box-sm bg-teal-50/60 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-teal-950 text-xs uppercase border-b border-teal-200 pb-1 mb-2 flex items-center justify-between">
+                <span>1.6 Key Institutional Agencies in ECCE</span>
+                <span class="text-[9px] bg-teal-200 text-teal-900 px-1.5 py-0.5 rounded">Framework</span>
+              </h4>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>ICDS (Anganwadi Services):</strong> World's largest community-based outreach providing non-formal pre-schooling ($3 - 6$ years), supplementary nutrition, and immunization.</li>
+                <li>• <strong>Samagra Shiksha (MoE):</strong> Formalizing pre-primary classes (Ka-Shreni / Balvatika) co-located within government elementary schools.</li>
+                <li>• <strong>Ministry of WCD:</strong> Administering national ECCE policies, Poshan Abhiyaan, and early childhood care regulations.</li>
+                <li>• <strong>Civil Society & Panchayats:</strong> Local Mothers' Groups, Village Health Sanitation & Nutrition Committees (VHSNC), and community self-help groups.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-teal-100 text-teal-950 font-bold p-1 rounded">
+              🎯 Inter-ministerial convergence (MoE + MoWCD + MoHFW) is mandatory under NEP 2020!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 2: PEDAGOGICAL APPROACHES TO ECCE                                                    -->
+    <!-- ========================================================================================= -->
+    <section id="unit-2" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-amber-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-amber-500">2</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-amber-950">
+              Unit 2: Pedagogical Approaches to ECCE
+            </h2>
+            <p class="text-[11px] text-amber-800 font-semibold">Play-Based Learning Spectrum, Toy Pedagogy, Inquiry, and Crucial Curricular Concerns</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-amber-950 shadow-2xs">
+          Weightage: 10 Marks
+        </span>
+      </div>
+
+      <!-- 2.1 The Spectrum of Play -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-amber-800">2.1</span> The Play-Based Learning Spectrum
+          </h3>
+          <span class="text-[10px] bg-amber-100 text-amber-900 border border-amber-300 font-bold px-2 py-0.5 rounded-full">
+            Play = Child's Serious Work
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Play is the primary vehicle through which young children make sense of physical phenomena, master language, regulate impulse, and build social competence. In early childhood education, play is not an unstructured recess; it operates across a deliberate tripartite spectrum:
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs sm:text-sm">
+          
+          <!-- Free Play -->
+          <div class="comic-box-sm bg-emerald-50/70 p-3 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-emerald-200 pb-1 mb-2">
+                <h4 class="font-doodle font-bold text-emerald-950 text-xs uppercase">1. Free Play (মুক্ত খেল)</h4>
+                <span class="text-[8px] font-bold bg-emerald-200 text-emerald-900 px-1.5 py-0.5 rounded">Child-Directed</span>
+              </div>
+              <p class="text-slate-600 text-xs mb-2">Initiated and governed entirely by the child. No adult-imposed rules, targets, or predefined outcomes.</p>
+              <div class="bg-white border border-emerald-200 rounded p-2 text-xs text-slate-700 space-y-1">
+                <div>• <strong>Examples:</strong> Constructing castles in the sandpit, scribbling freely on slates, dressing dolls in dramatic play.</div>
+                <div>• <strong>Value:</strong> Builds intrinsic autonomy, decision-making, emotional decompression, and raw creative imagination.</div>
+              </div>
+            </div>
+            <div class="mt-2 text-[10px] text-emerald-900 bg-emerald-100 rounded px-2 py-1 font-bold">
+              Role: Teacher observes unobtrusively to assess child preferences.
+            </div>
+          </div>
+
+          <!-- Guided Play -->
+          <div class="comic-box-sm bg-sky-50/70 p-3 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-sky-200 pb-1 mb-2">
+                <h4 class="font-doodle font-bold text-sky-950 text-xs uppercase">2. Guided Play (পৰিচালিত খেল)</h4>
+                <span class="text-[8px] font-bold bg-sky-200 text-sky-900 px-1.5 py-0.5 rounded">Gold Standard</span>
+              </div>
+              <p class="text-slate-600 text-xs mb-2">Teacher prepares an intentional, resource-rich environment and gently scaffolds learning with open-ended prompts.</p>
+              <div class="bg-white border border-sky-200 rounded p-2 text-xs text-slate-700 space-y-1">
+                <div>• <strong>Examples:</strong> Providing assorted river pebbles & asking: <em>"Can you sort them from smoothest to roughest?"</em></div>
+                <div>• <strong>Value:</strong> Maximizes conceptual understanding while preserving child agency and playful excitement.</div>
+              </div>
+            </div>
+            <div class="mt-2 text-[10px] text-sky-900 bg-sky-100 rounded px-2 py-1 font-bold">
+              Role: Teacher is an active conversational partner and scaffold.
+            </div>
+          </div>
+
+          <!-- Structured Play -->
+          <div class="comic-box-sm bg-purple-50/70 p-3 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-purple-200 pb-1 mb-2">
+                <h4 class="font-doodle font-bold text-purple-950 text-xs uppercase">3. Structured Play (নিয়মবদ্ধ খেল)</h4>
+                <span class="text-[8px] font-bold bg-purple-200 text-purple-900 px-1.5 py-0.5 rounded">Teacher-Led</span>
+              </div>
+              <p class="text-slate-600 text-xs mb-2">Organized games designed by the educator with specific rules, sequential stages, and clear pedagogical targets.</p>
+              <div class="bg-white border border-purple-200 rounded p-2 text-xs text-slate-700 space-y-1">
+                <div>• <strong>Examples:</strong> "Simon Says", musical chairs, color-hunt races, rhythmic ring-a-ring-o-roses.</div>
+                <div>• <strong>Value:</strong> Teaches impulse control, turn-taking, auditory listening, and collective rule adherence.</div>
+              </div>
+            </div>
+            <div class="mt-2 text-[10px] text-purple-900 bg-purple-100 rounded px-2 py-1 font-bold">
+              Role: Teacher sets boundaries and models prosocial rules.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 2.1.1 to 2.1.3 Pedagogical Approaches Grid -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase border-b border-slate-200 pb-1.5 mb-3 flex items-center gap-1.5">
+          <span class="text-amber-800">2.1.1 – 2.1.3</span> Core Pedagogical Modes in Foundational Learning
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5 text-xs text-slate-700">
+          <div class="comic-box-sm bg-amber-50/60 p-2.5">
+            <strong class="text-amber-950 block font-doodle text-xs mb-1">🧸 2.1.1 Toy-Based Learning</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">
+              Using indigenous, low-cost local toys (clay figurines, wooden carts, nesting cups, spinning tops, cloth puppets). Toys serve as tangible thinking tools converting abstract mathematical and spatial concepts into concrete tactile manipulation.
+            </p>
+          </div>
+
+          <div class="comic-box-sm bg-sky-50/60 p-2.5">
+            <strong class="text-sky-950 block font-doodle text-xs mb-1">🔍 2.1.2 Inquiry-Based Learning</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">
+              Stimulating natural wonder through guided discovery. Instead of lecturing, the educator asks: <em>"Why do leaves float while stones sink?"</em> Children test hypotheses in water basins, observe shadows, and record leaf impressions.
+            </p>
+          </div>
+
+          <div class="comic-box-sm bg-rose-50/60 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">🎵 2.1.3 Songs, Rhymes, Art & Craft</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">
+              Action rhymes and traditional folk lullabies build phonemic sensitivity and auditory memory. Sensory art (finger painting, clay squishing, paper tearing) strengthens wrist bones and pincer dexterity necessary for later writing.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2.2 Curricular Issues and Concerns in ECCE -->
+      <div class="comic-box bg-white p-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-amber-800">2.2</span> Critical Curricular Issues and Concerns in ECCE
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded">
+            Exam Anchor
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs text-slate-700">
+          
+          <!-- Multilingualism -->
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">1. Multilingualism (বহুভাষিকতা)</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Young children think and process emotions in their <strong>Home Language (L1)</strong>. Forcing an unfamiliar school medium causes mutism and anxiety. The ECCE classroom must embrace code-switching and use home language as a scaffold.</p>
+          </div>
+
+          <!-- Inclusion -->
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">2. Inclusion & Diversity</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">ECCE settings must accommodate children with special needs (CWSN), first-generation learners, and socially marginalized groups with zero discrimination. Universal Design for Learning (UDL) applies from age 3.</p>
+          </div>
+
+          <!-- Gender Equality -->
+          <div class="comic-box-sm bg-slate-50 p-2.5">
+            <strong class="text-slate-900 block font-doodle text-xs mb-1">3. Gender Neutrality</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Eliminate gender stereotypes early. Boys should participate freely in kitchen/doll dramatic corners, and girls must be actively encouraged in block building, climbing, and ball sports.</p>
+          </div>
+
+          <!-- Adverse Effects of Early Formal Instruction -->
+          <div class="comic-box-sm bg-rose-50 border border-rose-300 p-2.5 sm:col-span-2">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">4. The Hazard of Premature Formal Instruction ("The 3R Trap")</strong>
+            <p class="text-[11px] text-slate-700 leading-tight">
+              Forcing children under 6 into rote memorization, repetitive blackboard copying, tests, and heavy homework causes severe cognitive burnout and "school phobia". Their neuromuscular skeletal systems are not ready for rigid pencil grips; early drilling damages intrinsic curiosity!
+            </p>
+          </div>
+
+          <!-- School Readiness -->
+          <div class="comic-box-sm bg-emerald-50 border border-emerald-300 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">5. True School Readiness</strong>
+            <p class="text-[11px] text-slate-700 leading-tight">
+              School readiness is a <strong>two-way street</strong>: (1) Children ready for school, (2) <em>Schools ready for children</em>, and (3) Families ready to support. It is not passing an admission test, but achieving emotional and physical self-help maturity.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 3: PLANNING AND MANAGEMENT OF ECCE CLASSROOM                                         -->
+    <!-- ========================================================================================= -->
+    <section id="unit-3" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-sky-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-sky-600">3</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-sky-950">
+              Unit 3: Planning and Management of ECCE Classroom
+            </h2>
+            <p class="text-[11px] text-sky-800 font-semibold">Balanced Schedules, Activity Corners Architecture, Theme Webs & Family Engagement</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-sky-950 shadow-2xs">
+          Weightage: 9 Marks
+        </span>
+      </div>
+
+      <!-- 3.1 Principles of Planning a Balanced Programme -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase border-b border-slate-200 pb-1.5 mb-2.5 flex items-center gap-1.5">
+          <span class="text-sky-700">3.1</span> Core Principles of Planning a Balanced Daily Schedule
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          An effective ECCE schedule maintains equilibrium across physical, mental, and social energies throughout the day. The routine must balance four fundamental pedagogical dichotomies:
+        </p>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs">
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <span class="font-doodle text-slate-900 block text-xs">Active ↔ Quiet</span>
+            <span class="text-[10px] text-slate-500">Balancing high-energy outdoor running with quiet book-reading.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <span class="font-doodle text-slate-900 block text-xs">Indoor ↔ Outdoor</span>
+            <span class="text-[10px] text-slate-500">Balancing tabletop fine-motor tasks with open sand and water exploration.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <span class="font-doodle text-slate-900 block text-xs">Child-Led ↔ Teacher-Guided</span>
+            <span class="text-[10px] text-slate-500">Balancing autonomous free exploration with structured group circles.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <span class="font-doodle text-slate-900 block text-xs">Individual ↔ Group</span>
+            <span class="text-[10px] text-slate-500">Balancing private solitary play with collaborative cooperative games.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.2 Classroom Management & Activity Corners Blueprint -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-sky-700">3.2</span> Classroom Management & The 5 Core Activity Corners
+          </h3>
+          <span class="text-[10px] bg-sky-100 text-sky-900 border border-sky-300 font-bold px-2 py-0.5 rounded">
+            Physical Space As 3rd Teacher
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          In an ECCE classroom, rigid rows of benches are prohibited. The space is organized into well-demarcated <strong>Activity Learning Corners (শিকাৰ কোণ)</strong> where materials are accessible on low, open shelves at the child's eye level:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 text-xs text-slate-700">
+          
+          <div class="comic-box-sm bg-amber-50/60 p-2.5">
+            <strong class="text-amber-950 block font-doodle text-xs mb-1">1. Dramatic Play / Doll Corner</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Equipped with old clean clothes, kitchen utensils, cloth dolls, empty cartons. Children recreate home experiences, decompress anxieties, and develop emotional empathy.</p>
+          </div>
+
+          <div class="comic-box-sm bg-emerald-50/60 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">2. Book / Reading Corner</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Well-lit space with a clean mat and low display racks featuring Big Books, pictorial storybooks, touch-and-feel books. Fosters print awareness, left-to-right orientation, and love of literature.</p>
+          </div>
+
+          <div class="comic-box-sm bg-sky-50/60 p-2.5">
+            <strong class="text-sky-950 block font-doodle text-xs mb-1">3. Block Building & Math Corner</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Wooden blocks, nesting boxes, geometric plastic shapes, counters, seeds, measuring cups. Lays the concrete foundation for spatial relations, balance, and early number concepts.</p>
+          </div>
+
+          <div class="comic-box-sm bg-rose-50/60 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">4. Art & Creative Sensory Corner</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Non-toxic clay/dough, child-safe safety scissors, slates, chalks, colored paper scraps, and leaves for tearing, pasting, stamping, and tactile hand manipulation.</p>
+          </div>
+
+          <div class="comic-box-sm bg-teal-50/60 p-2.5">
+            <strong class="text-teal-950 block font-doodle text-xs mb-1">5. Discovery / Science Corner</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Magnifying glasses, sea shells, different soil types, seeds for sprouting, magnets, and water basins to explore floating vs sinking phenomena.</p>
+          </div>
+
+          <div class="comic-box-sm bg-purple-50/60 p-2.5">
+            <strong class="text-purple-950 block font-doodle text-xs mb-1">🌿 Outdoor Play Area</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Level green court, sandpit, balancing logs, discarded tires, child-safe swings, and water troughs. Develops vestibular balance and gross physical stamina.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 3.3 Theme-Based Planning Web & 3.4 Community -->
+      <div class="comic-box bg-white p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
+          
+          <!-- Theme-Based Planning Web -->
+          <div class="comic-box-sm bg-slate-50 p-3">
+            <h4 class="font-doodle font-bold text-slate-900 text-xs uppercase border-b border-slate-200 pb-1 mb-2">
+              3.3 Design of Theme-Based Integrated Planning
+            </h4>
+            <p class="text-slate-600 text-xs mb-2">
+              Instead of teaching isolated "subjects", ECCE organizes learning around familiar life themes (e.g., <strong>Theme: "Water" / "Plants" / "Our Family"</strong>):
+            </p>
+            <div class="space-y-1 text-[11px] font-mono-math text-slate-800 bg-white p-2 border border-slate-200 rounded">
+              <div>• <strong>Language:</strong> Singing rhymes on rain; water vocabulary.</div>
+              <div>• <strong>Cognitive:</strong> Floating vs sinking experiments in basins.</div>
+              <div>• <strong>Physical:</strong> Pouring water across different-sized containers.</div>
+              <div>• <strong>Aesthetic:</strong> Blue water painting; paper boat origami.</div>
+              <div>• <strong>Socio-Emotional:</strong> Talking about clean water habits & sharing.</div>
+            </div>
+          </div>
+
+          <!-- Parental & Community Involvement -->
+          <div class="comic-box-sm bg-emerald-50/50 p-3 flex flex-col justify-between">
+            <div>
+              <h4 class="font-doodle font-bold text-emerald-950 text-xs uppercase border-b border-emerald-200 pb-1 mb-2">
+                3.4 Parental and Community Engagement
+              </h4>
+              <p class="text-slate-600 text-xs mb-2">
+                Parents are the child's first educators. ECCE centers must actively involve them:
+              </p>
+              <ul class="space-y-1.5 text-xs text-slate-700">
+                <li>• <strong>Grandparents' Storytelling:</strong> Inviting local elders to narrate indigenous folk tales and songs.</li>
+                <li>• <strong>Mothers' Circles:</strong> Workshops on positive discipline, local weaning diets, and child health tracking.</li>
+                <li>• <strong>Community Toy Banks:</strong> Mobilizing local carpenters and tailors to make low-cost wooden blocks and puppets.</li>
+              </ul>
+            </div>
+            <div class="mt-2 text-[10px] bg-emerald-100 text-emerald-950 font-bold p-1 rounded text-center">
+              A vibrant ECCE center reflects its community's culture and heritage!
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- UNIT 4: ASSESSMENT IN ECCE                                                               -->
+    <!-- ========================================================================================= -->
+    <section id="unit-4" class="mb-10 force-page-break">
+      
+      <!-- Unit Header Banner -->
+      <div class="comic-box bg-purple-100/90 p-3 mb-4 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-number bg-purple-600">4</span>
+          <div>
+            <h2 class="text-sm sm:text-base font-doodle font-black uppercase text-purple-950">
+              Unit 4: Assessment in ECCE & Quality Standards
+            </h2>
+            <p class="text-[11px] text-purple-800 font-semibold">Continuous Observational Assessment, Holistic Progress Card (HPC) & 8 Key Standards</p>
+          </div>
+        </div>
+        <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-white border border-slate-900 text-purple-950 shadow-2xs">
+          Weightage: 8 Marks
+        </span>
+      </div>
+
+      <!-- 4.1 Principles of Assessment -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-purple-700">4.1</span> Core Principles of Assessment in Early Years
+          </h3>
+          <span class="text-[10px] bg-rose-100 text-rose-900 border border-rose-300 font-bold px-2 py-0.5 rounded-full">
+            Zero Formal Exams
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          Assessment in early childhood is conducted <strong>for learning</strong> and <strong>as learning</strong>, never <em>of learning</em> in a summative, pass-fail sense. The core tenets are non-negotiable:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700">
+          <div class="comic-box-sm bg-rose-50/70 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">❌ No Pen-and-Paper Tests</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Formal sit-down tests, grades, marks, and rankings are strictly prohibited by NEP 2020 and NCF-FS.</p>
+          </div>
+          <div class="comic-box-sm bg-rose-50/70 p-2.5">
+            <strong class="text-rose-950 block font-doodle text-xs mb-1">❌ No Negative Labelling</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">Children must never be branded as "weak", "dull", or "slow". Assessment highlights progress and growth trajectories.</p>
+          </div>
+          <div class="comic-box-sm bg-emerald-50/70 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">✔ Naturalistic Observation</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">The educator observes the child unobtrusively during spontaneous play, peer interaction, and daily routines.</p>
+          </div>
+          <div class="comic-box-sm bg-emerald-50/70 p-2.5">
+            <strong class="text-emerald-950 block font-doodle text-xs mb-1">✔ Individual Comparison Only</strong>
+            <p class="text-[11px] text-slate-600 leading-tight">A child is compared only to their own past performance, never against peers in the classroom.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4.2 Holistic Progress Card & 4.3 Tools -->
+      <div class="comic-box bg-white p-4 mb-4">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-1.5 mb-3">
+          <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase flex items-center gap-1.5">
+            <span class="text-purple-700">4.2 & 4.3</span> The Holistic Progress Card (HPC) & Observational Tools
+          </h3>
+          <span class="text-[10px] bg-purple-100 text-purple-900 border border-purple-300 font-bold px-2 py-0.5 rounded">
+            360-Degree Evaluation
+          </span>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-3">
+          The <strong>Holistic Progress Card (HPC)</strong> is a 360-degree, multidimensional record that captures the unique capabilities of each child across all five developmental domains. It synthesizes four distinct evaluative voices:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-xs text-slate-700 mb-3">
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-indigo-900 block font-doodle text-xs mb-0.5">1. Self-Assessment:</strong>
+            <span class="text-[11px] text-slate-600">Child marks their own feelings using smiling/thoughtful smiley stamps on activities they enjoyed.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-indigo-900 block font-doodle text-xs mb-0.5">2. Peer Feedback:</strong>
+            <span class="text-[11px] text-slate-600">Peers express who helped them during block building or shared lunch during circle time.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-indigo-900 block font-doodle text-xs mb-0.5">3. Teacher Observation:</strong>
+            <span class="text-[11px] text-slate-600">Descriptive narratives of milestone attainment, persistence, and social warmth recorded in journals.</span>
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-indigo-900 block font-doodle text-xs mb-0.5">4. Parent Reflection:</strong>
+            <span class="text-[11px] text-slate-600">Inputs from parents on child habits, self-care routines, sleep, and emotional patterns at home.</span>
+          </div>
+        </div>
+
+        <!-- Documentation Tools Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2 text-xs text-slate-700 bg-purple-50/50 p-2.5 border border-purple-200 rounded-lg">
+          <div>
+            <strong class="text-purple-950 block text-[11px]">📁 Portfolios:</strong>
+            A curated chronological folder of child drawings, clay pictures, scribbles, and collage work showcasing growth across the year.
+          </div>
+          <div>
+            <strong class="text-purple-950 block text-[11px]">📝 Anecdotal Notes:</strong>
+            Brief factual narrative logs capturing significant behavioral events in context without teacher bias.
+          </div>
+          <div>
+            <strong class="text-purple-950 block text-[11px]">📋 Checklists:</strong>
+            Developmentally sequenced milestone indicators marked periodically (e.g., <em>"Can jump with both feet off the ground"</em>).
+          </div>
+        </div>
+      </div>
+
+      <!-- 4.4 Eight Key Standards to Ensure Quality ECCE -->
+      <div class="comic-box bg-white p-4">
+        <h3 class="text-xs sm:text-sm font-doodle font-bold text-slate-900 uppercase border-b border-slate-200 pb-1.5 mb-2.5 flex items-center gap-1.5">
+          <span class="text-purple-700">4.4</span> Eight Key Standards for Ensuring Quality in ECCE
+        </h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 text-xs text-slate-700">
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-slate-900 block text-[11px] font-doodle">1. Adult-Child Interaction:</strong>
+            Warm, responsive, sensitive; safe caregiver ratio ($1:20$ for pre-school, $1:10$ for toddlers).
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-slate-900 block text-[11px] font-doodle">2. Play-Based Curriculum:</strong>
+            Contextualized, age-appropriate, grounded in concrete experiences and joyful games.
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-slate-900 block text-[11px] font-doodle">3. Physical Space & Safety:</strong>
+            Clean, well-ventilated, well-lit, barrier-free, hazard-free, child-accessible shelves.
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-slate-900 block text-[11px] font-doodle">4. Health, Nutrition & Hygiene:</strong>
+            Clean drinking water, child-friendly toilets, routine health check-ups, hot balanced meals.
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-slate-900 block text-[11px] font-doodle">5. Continuous Assessment:</strong>
+            Observational, non-punitive, documented through portfolios and the Holistic Progress Card.
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-slate-900 block text-[11px] font-doodle">6. Inclusivity & Equity:</strong>
+            Respect for all languages, cultures, genders, and welcoming children with special needs.
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-slate-900 block text-[11px] font-doodle">7. Community Linkage:</strong>
+            Active parental involvement, local artisan partnerships, regular mothers' meetings.
+          </div>
+          <div class="comic-box-sm bg-slate-50 p-2">
+            <strong class="text-slate-900 block text-[11px] font-doodle">8. Qualified Educators:</strong>
+            Trained in early childhood pedagogy, exhibiting patience, warmth, and ethical commitment.
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================================= -->
+    <!-- PRACTICUM & INTERNAL ASSESSMENT CONTAINER                                                 -->
+    <!-- ========================================================================================= -->
+    <section class="avoid-break comic-box bg-slate-900 text-white p-6 mb-8">
+      <div class="flex items-center justify-between border-b-2 border-slate-700 pb-3 mb-4">
+        <div class="flex items-center gap-2">
+          <span class="text-xl text-emerald-400">★</span>
+          <h3 class="text-sm sm:text-base font-doodle font-bold text-emerald-300 uppercase">
+            Paper S1.2 Practicum & Internal Assessment Blueprint (15 Marks)
+          </h3>
+        </div>
+        <span class="text-xs bg-slate-800 border border-slate-700 px-2.5 py-1 rounded text-slate-300 font-bold font-mono-math">
+          Syllabus 2026
+        </span>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-2 gap-3 text-center text-xs mb-4">
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-3">
+          <span class="block text-slate-400 text-xs">ECCE Practicum Assignment & Portfolio</span>
+          <span class="text-xl font-doodle font-black text-emerald-400">10 Marks</span>
+        </div>
+        <div class="comic-box-sm bg-slate-800 border-slate-700 p-3">
+          <span class="block text-slate-400 text-xs">Internal Unit Test</span>
+          <span class="text-xl font-doodle font-black text-emerald-400">5 Marks</span>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-3 text-xs text-slate-300 space-y-2">
+        <div>
+          <strong class="text-white block font-doodle text-xs mb-1">Prescribed Practicum Tasks:</strong>
+          <p class="leading-relaxed text-[11px]">
+            <strong>1. Theme-Based Project Design:</strong> Select any one universal theme (e.g., <em>Flowers, Birds, Vegetables, Water, Family, Community Helpers</em>) and prepare age-appropriate activities and concrete TLMs spanning all five developmental domains (Physical, Cognitive, Language, Socio-Emotional, Aesthetic).
+          </p>
+          <p class="leading-relaxed text-[11px] mt-1">
+            <strong>2. Daily Programme Schedule:</strong> Develop an optimal daily routine schedule for Ka-Shreni / Pre-Primary demonstrating an effective balance of active/quiet, indoor/outdoor, and child-led/teacher-guided learning.
+          </p>
+        </div>
+
+        <div class="border-t border-slate-800 pt-2">
+          <strong class="text-amber-300 block font-doodle text-xs mb-0.5">SIP-I Internship Linkage (2 Weeks):</strong>
+          <p class="leading-relaxed text-[11px]">
+            During School Internship I, trainees will observe Ka-Shreni transactions for 5 days, document activity corners, implement their prepared theme-based TLM, and prepare an analytical observation report countersigned by the school head.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DOCUMENT FOOTER ==================== -->
+    <footer class="avoid-break pt-4 border-t-2 border-dashed border-slate-400 text-center text-xs text-slate-600">
+      <div class="comic-box-sm bg-slate-900 text-white py-2.5 px-4 flex flex-wrap items-center justify-between gap-3 shadow-sm">
+        <div class="flex items-center gap-1.5 font-bold text-emerald-300">
+          <span>★</span> Paper S1.2 Study Notes <span>•</span> Curriculum Session 2026
+        </div>
+
+        <div class="text-center font-medium text-slate-300">
+          Made with ❤️ by <strong class="text-white font-bold">Sayeem Sadik</strong>
+          <span class="text-slate-500">•</span>
+          <a href="https://leoaristocrat.eu.cc" target="_blank" rel="noopener noreferrer" class="text-cyan-300 font-bold hover:underline font-mono-math">
+            https://leoaristocrat.eu.cc
+          </a>
+        </div>
+
+        <div class="text-[11px] text-slate-400 font-bold">
+          All Rights Safeguarded 🛡️
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- KaTeX Auto-Render Trigger -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>
