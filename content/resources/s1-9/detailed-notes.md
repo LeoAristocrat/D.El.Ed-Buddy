@@ -14,5 +14,6 @@ source: "Detailed study notes by Sayeem Sadik / Leo Aristocrat."
 updatedDate: "2026-09-24"
 publishedDate: "2026-09-24"
 htmlFile: "/detailed-notes/s1-9.html"
+pdf: "/downloads/s1-9-detailed-notes.pdf"
 difficulty: "Core"
 ---
