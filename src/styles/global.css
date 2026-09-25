@@ -12,3 +12,35 @@
 .notes-toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:0 0 24px}.notes-toolbar .actions{margin:0;gap:10px}.format-help{margin-bottom:24px}.uploaded-notes .source-note{margin-top:0}@media(max-width:800px){.header nav{top:78px}}@media(max-width:650px){.notes-toolbar{align-items:flex-start;flex-direction:column}.notes-toolbar .actions{flex-wrap:wrap}.notes-toolbar .button{padding:10px 13px;font-size:13px}}
 
 .brand-logo{display:block;flex:0 0 46px;width:46px;height:46px;overflow:hidden;border-radius:10px;background:#fffef8}.brand-logo img{display:block;width:140%;height:140%;max-width:none;transform:translate(-14.2857%,-14.2857%)}@media(max-width:600px){.brand-logo{flex-basis:38px;width:38px;height:38px}}
+:root{--button-ink:#fff}
+[data-theme=dark]{--button-ink:#14221e}
+[data-theme=mocha]{--bg:#1e1e2e;--surface:#252537;--ink:#cdd6f4;--muted:#bac2de;--green:#cba6f7;--pale:#313244;--line:#45475a;--accent:#f9e2af;--button-ink:#1e1e2e;color-scheme:dark}
+[data-theme=monochrome]{--bg:#f5f5f5;--surface:#fff;--ink:#171717;--muted:#555;--green:#262626;--pale:#eaeaea;--line:#ccc;--accent:#666;--button-ink:#fff;color-scheme:light}
+[data-theme=dracula]{--bg:#282a36;--surface:#303241;--ink:#f8f8f2;--muted:#c2c3d3;--green:#bd93f9;--pale:#383a4b;--line:#56586b;--accent:#ff79c6;--button-ink:#282a36;color-scheme:dark}
+[data-theme=hacker]{--bg:#080e09;--surface:#101b12;--ink:#d7fbdc;--muted:#9ebda2;--green:#74f58a;--pale:#182c1c;--line:#315439;--accent:#a5ffb3;--button-ink:#080e09;color-scheme:dark}
+[data-theme=hacker] body{font-family:ui-monospace,Consolas,monospace}
+html[data-theme] .button{background:var(--green);color:var(--button-ink)}
+html[data-theme] .button.secondary{background:var(--surface);color:var(--green)}
+html[data-theme] .button:hover{filter:brightness(.92)}
+html[data-theme] .semester-note,html[data-theme] .notice-panel{background:var(--pale);border-color:var(--line);box-shadow:var(--shadow)}
+html[data-theme] .semester-note :is(h2,p,strong,a){color:var(--ink);border-color:var(--line)}
+html[data-theme] :is(.note-top,.note-caption,.note-stats span,.notice-panel p){color:var(--muted)}
+html[data-theme] .note-rule{background:var(--line)}
+html[data-theme] .notice-panel .section-heading{border-color:var(--line)}
+html[data-theme] .semester-tabs .selected{background:var(--green);color:var(--button-ink)}
+html[data-theme] .semester-tabs .selected span{background:var(--surface);color:var(--ink)}
+html[data-theme] .topline{background:var(--pale);color:var(--ink)}
+html[data-theme] .topline span{color:var(--muted)}
+.theme-picker{position:relative;padding:0;border:0;background:none;z-index:30}
+.theme-picker>summary{list-style:none;margin:0!important;font-size:21px;font-weight:400}
+.theme-picker>summary::-webkit-details-marker{display:none}
+.theme-panel{position:absolute;right:0;top:calc(100% + 12px);width:230px;padding:18px;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 35px #0003}
+.theme-panel label{display:block;font-size:14px;font-weight:700;margin-bottom:10px}
+.theme-panel select{width:100%;font-size:16px}
+.support-section{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(240px,1fr);gap:40px;align-items:start;scroll-margin-top:24px}
+.support-section>div:first-child{max-width:650px}
+.coffee-button{display:inline-flex;align-items:center;gap:12px;padding:12px 20px;border-radius:9px;background:#ffdd00;color:#171717!important;font-weight:700;margin-top:4px}
+.coffee-button:hover{background:#f0ce00}
+.upi-card{text-align:center}.upi-card h3{margin-top:0}.upi-qr{display:block;width:100%;max-width:280px;height:auto;margin:16px auto;background:white;border-radius:8px}.upi-card p{margin-bottom:12px}
+.personal-links .contact-email{text-transform:none;overflow-wrap:anywhere}
+@media(max-width:700px){.support-section{grid-template-columns:1fr;gap:24px}.upi-card{max-width:380px;width:100%}.theme-panel{right:-35px}}

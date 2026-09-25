@@ -1,7 +1,9 @@
 const safeStore = {get(key:string,fallback:any=null){try{return JSON.parse(localStorage.getItem(key)||'null')??fallback}catch{return fallback}},set(key:string,value:any){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}};
-const theme=document.querySelector<HTMLButtonElement>('#theme');
-function themeLabel(){theme?.setAttribute('aria-label',`Switch to ${document.documentElement.dataset.theme==='dark'?'light':'dark'} mode`)}
-themeLabel();theme?.addEventListener('click',()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';try{localStorage.setItem('buddy-theme',dark?'dark':'light')}catch{}themeLabel()});
+const theme=document.querySelector<HTMLSelectElement>('#theme');
+const themePicker=document.querySelector<HTMLDetailsElement>('.theme-picker');
+if(theme){theme.value=document.documentElement.dataset.theme||'light';theme.addEventListener('change',()=>{document.documentElement.dataset.theme=theme.value;try{localStorage.setItem('buddy-theme',theme.value)}catch{}})}
+document.addEventListener('click',event=>{if(themePicker&&event.target instanceof Node&&!themePicker.contains(event.target))themePicker.open=false});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&themePicker?.open){themePicker.open=false;themePicker.querySelector<HTMLElement>('summary')?.focus()}});
 document.querySelector('#menu')?.addEventListener('click',()=>{const open=document.querySelector('header nav')?.classList.toggle('open');document.querySelector('#menu')?.setAttribute('aria-expanded',String(open))});
 export {safeStore};
 
