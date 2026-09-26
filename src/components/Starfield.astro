@@ -1,0 +1,52 @@
+---
+// Starfield concept inspired by Uiverse.io / amir_6539.
+// Deterministic positions keep the decoration static across builds; CSS moves each layer.
+const layers = [90, 45, 20].map((count, layer) => {
+  let seed = 6539 + layer * 97;
+  const random = () => {
+    seed = (seed * 16807) % 2147483647;
+    return seed / 2147483647;
+  };
+  return Array.from({length: count}, () =>
+    `${(random() * 100).toFixed(2)}vw ${(random() * 100).toFixed(2)}vh currentColor`
+  ).join(',');
+});
+---
+<div class="site-starfield" aria-hidden="true">
+  {layers.map((shadows, index) => <span class={`star-layer star-layer-${index + 1}`} style={`--stars:${shadows}`}></span>)}
+</div>
+<style is:global>
+  body { isolation: isolate; }
+  .site-starfield {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+    user-select: none;
+    color: var(--accent-primary);
+    opacity: .24;
+    background: radial-gradient(ellipse at bottom, color-mix(in srgb, var(--accent-primary) 5%, transparent), transparent 75%);
+  }
+  :root:is([data-theme=dark], [data-theme=mocha], [data-theme=dracula]) .site-starfield { color: var(--text-primary); opacity: .3; }
+  :root[data-theme=hacker] .site-starfield { opacity: .32; }
+  .star-layer, .star-layer::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--star-size, 1px);
+    height: var(--star-size, 1px);
+    border-radius: 50%;
+    box-shadow: var(--stars);
+  }
+  .star-layer::after { content: ''; top: 100vh; }
+  .star-layer-1 { --star-duration: 120s; }
+  .star-layer-2 { --star-size: 2px; --star-duration: 90s; }
+  .star-layer-3 { --star-size: 3px; --star-duration: 65s; }
+  @media (prefers-reduced-motion: no-preference) {
+    .star-layer { animation: buddy-star-drift var(--star-duration) linear infinite; }
+  }
+  @keyframes buddy-star-drift { to { transform: translateY(-100vh); } }
+  @media (max-width: 600px) { .star-layer-3 { display: none; } }
+  @media print { .site-starfield { display: none !important; } }
+</style>

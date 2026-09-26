@@ -1,0 +1,34 @@
+/* Progressive motion: content is never hidden waiting for JavaScript. */
+@view-transition{navigation:auto}
+::view-transition-old(root){animation:page-out 120ms ease-out both}
+::view-transition-new(root){animation:page-in 200ms var(--ease-out) both}
+@keyframes page-out{to{opacity:0}}@keyframes page-in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@keyframes arrive{from{opacity:.25;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes panel-in{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:none}}
+@keyframes turn{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:no-preference){
+  .hero-copy{animation:arrive 650ms var(--ease-out) both}.study-folio{animation:arrive 750ms 90ms var(--ease-out) both}
+  .page-header{animation:page-in 400ms var(--ease-out) both}
+  .is-revealing{animation:arrive var(--duration-reveal) var(--ease-out) both}.is-revealing:focus-within{animation:none}
+  .theme-picker[open] .theme-panel,.header nav.open,dialog[open]{animation:panel-in 180ms var(--ease-out) both}
+  .button,.icon-btn,.card,.format-grid a,.unit-row,.search-result,.coffee-button{transition:transform var(--duration-normal) var(--ease-out),background-color var(--duration-fast),border-color var(--duration-fast),color var(--duration-fast)}
+  .button .ui-icon,.text-link .ui-icon,.card-bottom .ui-icon,.format-grid a>.ui-icon:last-child{transition:transform var(--duration-normal) var(--ease-out)}
+  .button:hover .ui-icon,.text-link:hover .ui-icon{transform:translate(2px,-1px)}
+  .button:active,.icon-btn:active{transform:scale(.98)}
+  .header nav>a::after{transition:transform var(--duration-normal) var(--ease-out)}.header nav>a:hover::after{transform:scaleX(1)}
+  .toast{transition:opacity 180ms,transform 240ms var(--ease-out)}
+  .folio-stack{transition:transform 420ms var(--ease-out)}.folio-tab{transition:transform 300ms var(--ease-out)}.folio-tab:hover{transform:rotate(0) translateY(-3px)}
+  progress::-webkit-progress-value{transition:width 400ms var(--ease-out)}
+  .media-loading::before{animation:turn 1s linear infinite}
+  .contribution-form[aria-busy=true] button[type=submit]::after{content:'';width:12px;height:12px;border:1px solid currentColor;border-right-color:transparent;border-radius:50%;animation:turn 1s linear infinite}
+  @media(hover:hover) and (pointer:fine){a.card:hover,.resource-card:hover{transform:translateY(-3px)}.card:hover .card-bottom .ui-icon,.format-grid a:hover>.ui-icon:last-child{transform:translate(2px,-2px)}}
+}
+#search-results[aria-busy=true]{min-height:180px;position:relative;border:0}
+#search-results[aria-busy=true]::before{content:'';position:absolute;inset:20px 24px;background:linear-gradient(var(--pale),var(--pale)) 0 0/32% 12px no-repeat,linear-gradient(var(--pale),var(--pale)) 0 34px/65% 24px no-repeat,linear-gradient(var(--pale),var(--pale)) 0 80px/90% 12px no-repeat,linear-gradient(var(--pale),var(--pale)) 0 106px/70% 12px no-repeat}
+@media(prefers-reduced-motion:reduce){
+  @view-transition{navigation:none}
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}
+  .folio-stack{transform:rotate(-6deg)!important}
+}
+@media print{*,*::before,*::after{animation:none!important;transition:none!important}.is-revealing{opacity:1!important;transform:none!important}}

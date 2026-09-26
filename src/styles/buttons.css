@@ -1,0 +1,41 @@
+/* Diagonal slice interaction inspired by Uiverse.io / nikk7007. */
+:where(button, .button, .icon-btn, .coffee-button, [role=button]) {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  --slice-base: var(--surface);
+  --slice-fill: var(--green);
+  --slice-text: var(--button-ink);
+}
+.button { --slice-base: var(--green); --slice-fill: var(--filled-button-sweep, var(--ink)); }
+[data-theme=monochrome] { --filled-button-sweep: #62625c; }
+.button.secondary, .icon-btn, .text-button { --slice-base: var(--surface); --slice-fill: var(--green); }
+.coffee-button { --slice-base: #ffdd00; --slice-fill: #ff9900; --slice-text: #171717; }
+:where(button, .button, .icon-btn, .coffee-button, [role=button])::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: calc(300% + 1em);
+  transform: translate(-50%, -50%) rotate(30deg);
+  background: var(--slice-fill);
+  pointer-events: none;
+  transition: width 700ms cubic-bezier(.83, 0, .17, 1);
+}
+:is(button, .button, .icon-btn, .coffee-button, [role=button]):is(:hover, :focus-visible):not(:disabled):not([aria-disabled=true]) {
+  background: var(--slice-base);
+  color: var(--slice-text);
+}
+:is(button, .button, .icon-btn, .coffee-button, [role=button]):is(:hover, :focus-visible):not(:disabled):not([aria-disabled=true])::before { width: calc(140% + 1em); }
+:where(button, .button, .icon-btn, .coffee-button, [role=button]):is(:disabled, [aria-disabled=true])::before { display: none; }
+@media (prefers-reduced-motion: no-preference) {
+  :is(button, .button, .icon-btn, .coffee-button, [role=button]):active:not(:disabled):not([aria-disabled=true]) { scale: .98; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :where(button, .button, .icon-btn, .coffee-button, [role=button])::before { transition: none; }
+}
+@media print {
+  :where(button, .button, .icon-btn, .coffee-button, [role=button])::before { display: none !important; }
+}

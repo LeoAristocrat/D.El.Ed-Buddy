@@ -1,5 +1,6 @@
 ---
+import Icon from './Icon.astro';
 const {course:c,index=0}=Astro.props;
-const symbols=['◉','✿','Aa','◎','Ab','π','✳','☼','⌂'];
+const symbols=['sprout','heart','language','spark','globe','math','palette','heart','tools'];
 ---
-<a class="card course-card" href={`/courses/semester-1/${c.id}/`}><div class="card-top"><span class="course-symbol">{symbols[index%9]}</span><span class="code">{c.code}</span></div><h3>{c.title}</h3><p>{c.summary}</p><div class="card-bottom"><span>{c.units.length} units · {c.credits} credits · {c.marks} marks</span><span aria-hidden="true">↗</span></div></a>
+<a class="card course-card" href={`/courses/semester-1/${c.id}/`}><div class="card-top"><span class="code">{c.code}</span><span class="course-symbol"><Icon name={symbols[index%9]} size={24}/></span></div><h3>{c.title}</h3><p>{c.summary}</p><div class="card-bottom"><span>{c.units.length} units <span class="meta-dot">·</span> {c.credits} credits <span class="meta-dot">·</span> {c.marks} marks</span><Icon name="arrow-up-right" size={18}/></div></a>

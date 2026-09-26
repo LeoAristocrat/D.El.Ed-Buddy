@@ -1,0 +1,17 @@
+---
+import Icon from './Icon.astro';
+---
+<aside class="study-folio" aria-label="Your D.El.Ed. sidekick" data-folio>
+  <div class="folio-orbit" aria-hidden="true"></div>
+  <div class="folio-stack">
+    <div class="folio-sheet sheet-back" aria-hidden="true"><span>THE STUDY SHELF</span><div class="sheet-lines"></div></div>
+    <div class="folio-sheet sheet-middle" aria-hidden="true"><span>ONE SEMESTER AT A TIME</span></div>
+    <div class="folio-cover">
+      <div class="folio-top"><span>D.El.Ed BUDDY</span><Icon name="spark" size={24}/></div>
+      <div class="folio-title"><span>Your semester.</span><span>Your notes.</span><span>Your practicals.</span><em>Your sanity.</em></div>
+      <div class="folio-bottom"><span>Your D.El.Ed. sidekick.</span><span aria-hidden="true">01 — 04</span></div>
+    </div>
+  </div>
+  <a class="folio-tab" href="/materials/?type=Previous%20Year%20Questions%20(PYQs)"><Icon name="paper"/><span>Past papers.<br/><strong>Future confidence.</strong></span><Icon name="arrow-up-right" size={16}/></a>
+  <div class="folio-caption"><span class="status-dot" aria-hidden="true"></span>Less searching. More studying.</div>
+</aside>

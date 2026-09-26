@@ -1,0 +1,36 @@
+/* Supporting copy remains readable at every breakpoint. */
+.hero .hero-foot { font-size: 14px; line-height: 1.6; flex-wrap: wrap; gap: 10px 20px; }
+.study-folio .folio-caption { font-size: 14px; line-height: 1.5; }
+.study-folio .folio-top { font-size: 12px; }
+.study-folio .folio-tab, .study-folio .folio-tab strong { font-size: 13px; }
+.hero .hero-description { font-size: 16px; }
+.hero .text-link, .section-heading > .text-link { font-size: 14px; }
+.eyebrow, .section-heading .eyebrow, .home-search .eyebrow { font-size: 12px; line-height: 1.6; }
+.code, .card .card-bottom, .resource-label, .unit-status { font-size: 13px; line-height: 1.5; }
+.semester-tabs a > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 9px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.semester-tabs a.selected > span {
+  background: var(--pale);
+  border-color: color-mix(in srgb, var(--green) 35%, var(--line));
+  color: var(--green);
+}
+.home-formats .format-copy small, .unit-row p, .internship-banner p { font-size: 14px; }
+.breadcrumb, .filter-bar label { font-size: 13px; }
+.button, .reader-aside .button, .notes-toolbar .button { font-size: 14px; }
+.footer-bottom, .disclaimer { font-size: 13px; line-height: 1.6; }
+@media (max-width: 700px) {
+  .home-search > div { flex-wrap: wrap; }
+  .hero .hero-foot { gap: 8px 16px; }
+  .study-folio .folio-caption { bottom: -22px; }
+}

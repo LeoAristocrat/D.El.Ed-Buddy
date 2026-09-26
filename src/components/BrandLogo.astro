@@ -1,0 +1,15 @@
+<!-- Display the supplied artwork without its surrounding empty canvas. -->
+<span class="book-brand" aria-hidden="true">
+  <svg viewBox="250 420 1500 900" xmlns="http://www.w3.org/2000/svg" focusable="false">
+    <image href="/brand/deled-buddy-transparent.png" width="2000" height="2000" />
+  </svg>
+</span>
+<style>
+  .book-brand { display: block; width: 132px; height: 76px; flex-shrink: 0; padding: 4px 6px; }
+  svg { display: block; width: 100%; height: 100%; filter: brightness(0); }
+  :global([data-theme=dark]) svg,
+  :global([data-theme=mocha]) svg,
+  :global([data-theme=dracula]) svg,
+  :global([data-theme=hacker]) svg { filter: none; }
+  @media(max-width:600px) { .book-brand { width: 112px; height: 66px; padding: 3px 4px; } }
+</style>

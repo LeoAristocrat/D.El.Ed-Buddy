@@ -1,4 +1,5 @@
 ---
+import Icon from './Icon.astro';
 const {title,description,kicker='SEMESTER 1',back='/courses/',backLabel='Courses'}=Astro.props;
 ---
-<div class="page-header"><div class="breadcrumb"><a href="/">Home</a><span>/</span><a href={back}>{backLabel}</a></div><div class="eyebrow">{kicker}</div><h1>{title}</h1>{description&&<p>{description}</p>}<slot/></div>
+<div class="page-header"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a>{back!=='/'&&<><span aria-hidden="true">/</span><a href={back}>{backLabel}</a></>}</nav><div class="page-heading-rule"><div class="eyebrow">{kicker}</div><Icon name="spark" size={18}/></div><h1>{title}</h1>{description&&<p>{description}</p>}<slot/></div>

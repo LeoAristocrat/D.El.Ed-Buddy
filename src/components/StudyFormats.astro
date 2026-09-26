@@ -1,5 +1,7 @@
 ---
 import {resourceTypes} from '../data/site';
+import Icon from './Icon.astro';
 const {course,unit}=Astro.props;
+const icons=['book','layers','image','list','questions','paper'];
 ---
-<div class="format-grid">{resourceTypes.map(type=><a href={`/materials/?course=${course||''}&unit=${unit||''}&type=${encodeURIComponent(type)}`}><span>{type}</span><span aria-hidden="true">↗</span></a>)}</div>
+<div class="format-grid">{resourceTypes.map((type,i)=><a href={`/materials/?course=${course||''}&unit=${unit||''}&type=${encodeURIComponent(type)}`}><Icon name={icons[i]} size={20}/><span>{type}</span><Icon name="arrow-up-right" size={16}/></a>)}</div>
