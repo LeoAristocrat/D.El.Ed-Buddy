@@ -1,0 +1,28 @@
+---
+import { institutes, initialCard } from '../../data/id-card';
+import StudentPhotoUploader from './StudentPhotoUploader.astro';
+---
+<form id="id-card-form" class="contribution-form" autocomplete="off">
+  <fieldset id="id-editor-fields" disabled>
+  <fieldset><legend>Institute details</legend>
+    <label for="id-institute">Institute preset<select id="id-institute">{institutes.map(institute => <option value={institute.id}>{institute.name}</option>)}<option value="custom">Other institute</option></select></label>
+    <label for="id-institute-name">Institute name<input id="id-institute-name" name="instituteName" required maxlength="100" value={initialCard.instituteName}/></label>
+    <div class="contribution-grid">
+      <label for="id-title">Card title<input id="id-title" name="cardTitle" maxlength="60" value={initialCard.cardTitle}/></label>
+      <label for="id-validity">Valid upto<input id="id-validity" name="validity" maxlength="24" value={initialCard.validity} placeholder="2027 or a date"/></label>
+    </div>
+  </fieldset>
+  <fieldset><legend>Student details</legend>
+    <label for="id-name">Full name<input id="id-name" name="fullName" required maxlength="70" placeholder="Your full name"/></label>
+    <div class="contribution-grid">
+      <label for="id-course">Course<input id="id-course" name="course" required maxlength="50" value={initialCard.course}/></label>
+      <label for="id-session">Session<input id="id-session" name="session" required maxlength="30" placeholder="e.g. 2026–2028"/></label>
+      <label for="id-dob">Date of birth <span class="field-help">(optional)</span><input id="id-dob" name="dob" type="date"/></label>
+      <label for="id-contact">Contact number <span class="field-help">(optional)</span><input id="id-contact" name="contact" type="tel" inputmode="tel" maxlength="30" placeholder="e.g. +91 98765 43210"/></label>
+    </div>
+    <label for="id-father">Father’s name <span class="field-help">(optional)</span><input id="id-father" name="fatherName" maxlength="70"/></label>
+  </fieldset>
+  <StudentPhotoUploader/>
+  <button class="text-button" type="reset">Clear student details</button>
+  </fieldset>
+</form>

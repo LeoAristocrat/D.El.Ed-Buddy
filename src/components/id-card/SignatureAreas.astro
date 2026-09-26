@@ -1,0 +1,9 @@
+---
+const { labels } = Astro.props;
+---
+<g data-signature-areas fill="#14282a" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">
+  {labels.map((label: string, index: number) => <g>
+    <text x={index === 0 ? 214 : 642} y="459">{label}</text>
+    <path d={index === 0 ? 'M65 520H363' : 'M493 520H791'} stroke="#426962" stroke-width="1.5" fill="none"/>
+  </g>)}
+</g>

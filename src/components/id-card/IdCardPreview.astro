@@ -1,0 +1,34 @@
+---
+import { cardTemplates } from '../../data/id-card';
+import SignatureAreas from './SignatureAreas.astro';
+const template = cardTemplates['student-id-v1'];
+const { colors, photo, blocks, labels } = template;
+---
+<svg id="student-id-card" xmlns="http://www.w3.org/2000/svg" viewBox={`0 0 ${template.width} ${template.height}`} width="856" height="540" role="img" aria-labelledby="id-card-title" style="font-family:Arial, sans-serif">
+  <title id="id-card-title">Student ID card preview with blank physical signature spaces</title>
+  <defs><clipPath id="student-photo-circle"><circle cx={photo.x + photo.size / 2} cy={photo.y + photo.size / 2} r={photo.size / 2}/></clipPath></defs>
+  <rect width="856" height="540" fill={colors.paper}/>
+  <path d="M0 0H856V120H0Z" fill={colors.header}/>
+  <g fill="white" font-weight="700">
+    <text data-card-field="instituteName" text-anchor="middle"/>
+    <text data-card-field="cardTitle" text-anchor="middle"/>
+  </g>
+  <g clip-path="url(#student-photo-circle)">
+    <rect x={photo.x} y={photo.y} width={photo.size} height={photo.size} fill="#d9e8e6"/>
+    <g data-photo-placeholder fill="#94b3ad"><circle cx="145" cy="223" r="37"/><ellipse cx="145" cy="323" rx="77" ry="63"/></g>
+    <image data-card-photo x={photo.x} y={photo.y} width={photo.size} height={photo.size} preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <circle cx="145" cy="250" r="105" stroke="#aac6bf" stroke-width="2" fill="none"/>
+  <text data-card-field="fullName" fill={colors.ink} font-weight="700"/>
+  <g fill={colors.ink}>
+    {(['course','session','dob','fatherName','contact'] as const).map(field => <g>
+      <text x="284" y={blocks[field].y} font-size="18" font-weight="700">{labels[field]} :</text>
+      <text data-card-field={field} font-weight="600"/>
+    </g>)}
+  </g>
+  <rect x="40" y="371" width="210" height="53" rx="9" fill={colors.badge}/>
+  <text x="145" y="389" text-anchor="middle" font-size="14" fill="white">{labels.validity}</text>
+  <text data-card-field="validity" text-anchor="middle" fill="white" font-weight="700"/>
+  <SignatureAreas labels={template.signatures}/>
+  <rect x="3" y="3" width="850" height="534" fill="none" stroke={colors.border} stroke-width="6"/>
+</svg>

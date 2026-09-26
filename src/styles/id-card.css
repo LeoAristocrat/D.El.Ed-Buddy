@@ -1,0 +1,36 @@
+.id-workspace{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:32px;align-items:start}
+.id-generator-page .id-privacy{color:var(--muted);max-width:750px;margin-bottom:28px}
+.id-form-panel{min-width:0;padding:26px}
+.id-form-panel fieldset{min-width:0;border:0;padding:0;margin:0 0 25px;display:flex;flex-direction:column;gap:17px}
+.id-form-panel #id-editor-fields{margin:0}
+.id-form-panel legend{font-family:'Manrope',sans-serif;font-size:19px;font-weight:700;margin-bottom:16px}
+.id-form-panel .field-help{font-weight:400}
+.id-form-panel input[type=range]{padding:0;accent-color:var(--green);min-height:30px}
+.id-form-panel input[type=file]{font-size:13px;padding:10px}
+.id-photo-fields [hidden]{display:none!important}
+.id-photo-fields button{margin-top:14px}
+.id-preview-panel{position:sticky;top:24px;min-width:0}
+.id-preview-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}
+.id-preview-heading h2{font-size:1.4rem;margin:0}.id-preview-heading span{font-size:13px;color:var(--muted)}
+.id-card-mount{padding:18px;background:var(--pale);border:1px solid var(--line);border-radius:12px;margin-bottom:18px}
+.id-card-mount svg,#id-dialog-card svg{display:block;width:100%;height:auto;color-scheme:light}
+.id-preview-panel .field-help{font-size:13px;color:var(--muted);margin:12px 0}
+.id-export-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0 16px}
+.id-export-actions .button{padding:12px 10px;gap:8px}
+#id-export-status,#id-layout-status{font-size:14px;overflow-wrap:anywhere}
+#id-print-preview{width:min(650px,calc(100% - 24px));max-height:90vh;overflow:auto;padding:24px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink)}
+#id-print-preview::backdrop{background:#0009}
+.id-dialog-heading{display:flex;justify-content:space-between;align-items:center;gap:12px}.id-dialog-heading h2{font-size:1.5rem;margin:0}
+#id-print-preview p{font-size:14px;color:var(--muted);margin:14px 0}
+.id-paper-preview{aspect-ratio:210/297;background:white;border:1px solid #ccc;padding:5.714%;margin-bottom:20px}
+#id-dialog-card{width:46.02%}
+@media(max-width:900px){.id-workspace{grid-template-columns:1fr}.id-preview-panel{position:static}.id-card-mount{max-width:620px}.id-export-actions{max-width:620px}}
+@media(max-width:600px){.id-form-panel{padding:20px}.id-card-mount{padding:9px}.id-preview-heading{align-items:flex-start}.id-preview-heading span{white-space:nowrap}}
+@media print{
+  @page{size:A4;margin:12mm}
+  html,body{background:white!important;color:black!important;margin:0!important;padding:0!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  body> :not(main),main> :not(.id-generator-page),.id-generator-page> :not(.id-workspace),.id-workspace> :not(.id-preview-panel),.id-preview-panel> :not(.id-card-mount){display:none!important}
+  .id-generator-page,.id-workspace,.id-preview-panel{display:block!important;position:static!important;margin:0!important;padding:0!important;width:auto!important;max-width:none!important}
+  .id-card-mount{display:block!important;width:85.6mm!important;height:54mm!important;max-width:none!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:white!important;box-shadow:none!important;break-inside:avoid}
+  .id-card-mount svg{display:block!important;width:85.6mm!important;height:54mm!important}
+}

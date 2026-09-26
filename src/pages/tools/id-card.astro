@@ -1,0 +1,38 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import IdCardForm from '../../components/id-card/IdCardForm.astro';
+import IdCardPreview from '../../components/id-card/IdCardPreview.astro';
+import '../../styles/id-card.css';
+---
+<Layout title="ID Card Generator" description="Create your student ID card with a live preview, a private photo crop and blank spaces for physical signatures.">
+  <div class="wrap id-generator-page">
+    <PageHeader title="Your ID, ready for signing." kicker="ID CARD GENERATOR" back="/tools/" backLabel="Tools" description="Fill in your details, add a photo and take your printed card for physical signatures."/>
+    <p class="id-privacy">Your details and photo stay in this tab. Nothing is uploaded or saved by the site. Refreshing clears your work.</p>
+    <noscript><p class="empty">Please enable JavaScript to edit and export your ID card.</p></noscript>
+    <div class="id-workspace">
+      <section class="content-panel id-form-panel" aria-label="ID card details"><IdCardForm/></section>
+      <section class="id-preview-panel" aria-labelledby="id-preview-heading">
+        <div class="id-preview-heading"><h2 id="id-preview-heading">Live preview</h2><span>85.6 × 54 mm</span></div>
+        <div class="id-card-mount"><IdCardPreview/></div>
+        <p class="field-help">Signature spaces stay blank. Print first, then obtain the signatures from your institute.</p>
+        <p id="id-layout-status" class="field-help" role="status" aria-live="polite"></p>
+        <div class="id-export-actions">
+          <button class="button secondary" type="button" id="id-preview-button" disabled>Print preview</button>
+          <button class="button" type="button" id="id-print" disabled>Print ID card</button>
+          <button class="button secondary" type="button" id="id-png" disabled>Download PNG</button>
+          <button class="button secondary" type="button" id="id-pdf" disabled>Save as PDF</button>
+        </div>
+        <p class="field-help">For PDF, choose “Save as PDF” in the print dialog. Use A4, 100% scale and turn off headers and footers. The card keeps its actual size on the page.</p>
+        <p id="id-export-status" role="status" aria-live="polite" tabindex="-1"></p>
+      </section>
+    </div>
+    <dialog id="id-print-preview" aria-labelledby="id-dialog-title">
+      <div class="id-dialog-heading"><h2 id="id-dialog-title">Print preview</h2><button class="button secondary" id="id-preview-close" type="button">Close</button></div>
+      <p>One card on A4 · 85.6 × 54 mm at 100% scale</p>
+      <div class="id-paper-preview"><div id="id-dialog-card"></div></div>
+      <button class="button" id="id-dialog-print" type="button">Print / Save as PDF</button>
+    </dialog>
+  </div>
+</Layout>
+<script>import '../../scripts/id-card';</script>

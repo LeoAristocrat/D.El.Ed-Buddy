@@ -1,0 +1,13 @@
+<fieldset class="id-photo-fields">
+  <legend>Student photograph <span class="field-help">(optional)</span></legend>
+  <label for="id-photo">Choose or replace photo</label>
+  <input id="id-photo" type="file" accept="image/jpeg,image/png,image/webp,image/gif,image/avif" aria-describedby="id-photo-help id-photo-status"/>
+  <p class="field-help" id="id-photo-help">JPG, PNG, WebP, GIF or AVIF · up to 10 MB. Adjust the crop in the live preview.</p>
+  <p id="id-photo-status" class="field-help" role="status" aria-live="polite"></p>
+  <div id="id-photo-adjustments" hidden>
+    <label for="id-photo-zoom">Zoom<input id="id-photo-zoom" type="range" min="1" max="3" step="0.05" value="1"/></label>
+    <label for="id-photo-x">Move left / right<input id="id-photo-x" type="range" min="-100" max="100" value="0"/></label>
+    <label for="id-photo-y">Move up / down<input id="id-photo-y" type="range" min="-100" max="100" value="0"/></label>
+    <button class="text-button" type="button" id="id-photo-remove">Remove photo</button>
+  </div>
+</fieldset>

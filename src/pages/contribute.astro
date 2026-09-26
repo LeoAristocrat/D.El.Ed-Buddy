@@ -1,0 +1,81 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import courses from '../data/courses.json';
+import {resourceTypes} from '../data/site';
+---
+<Layout title="Contribute"><div class="wrap narrow">
+<PageHeader title="Help make Buddy better." description="Share something useful, or let me know what needs fixing." kicker="CONTRIBUTE" back="/" backLabel="Home"/>
+
+<div class="contribution-tabs"><a class="button secondary" href="#share-notes">Share your notes</a><a class="button secondary" href="#report-issue">Report an issue</a></div>
+<section id="share-notes" class="content-panel contribution-section"><h2>Share your notes</h2><p class="muted">Have something that could help another student? Share a link for me to review.</p>
+<form class="contribution-form" data-contribution-form action="https://formspree.io/f/xbglabwl" method="POST">
+<input type="hidden" name="submissionType" value="Note contribution"/><input type="text" name="_gotcha" hidden tabindex="-1" autocomplete="off" aria-label="Leave this field empty"/>
+<div class="contribution-grid"><label>Your name<input name="name" required autocomplete="name" maxlength="100"/></label><label>Email<input type="email" name="email" required autocomplete="email" maxlength="254"/></label>
+<label>Subject<select name="course" required id="contribution-course"><option value="">Choose a subject</option>{courses.map(c=><option value={c.id}>{c.code} · {c.title}</option>)}</select></label>
+<label>Unit<select name="unit" id="contribution-unit"><option value="">Whole subject / multiple units</option></select></label></div>
+<label>Resource type<select name="resourceType" required><option value="">Choose a format</option>{resourceTypes.map(type=><option value={type}>{type}</option>)}<option value="Other">Other</option></select></label>
+<label>Link to your material<input name="materialUrl" type="url" pattern="https://.*" placeholder="https://drive.google.com/…" required maxlength="2000" aria-describedby="material-link-help"/></label><p id="material-link-help" class="field-help">Use a Google Drive or another HTTPS sharing link. Give view access so I can review it.</p>
+<label>A short description<textarea name="description" required rows="4" maxlength="3000" placeholder="What does it cover? Include the exam year if relevant."></textarea></label>
+<label class="contribution-check"><input name="permission" type="checkbox" required/><span>I created this material or have permission to share it, and I give D.El.Ed Buddy permission to publish it after review.</span></label>
+<label class="contribution-check"><input name="credit" type="checkbox"/><span>Credit me using the name above if my contribution is published.</span></label>
+<p class="field-help">Your submission is sent through Formspree. Your email is only for reviewing your submission and following up, and won’t be published. Nothing is published automatically. <a class="text-link" href="/privacy/#submissions">Submission privacy</a></p>
+<button class="button" type="submit">Send contribution</button><p class="field-help" data-submit-status role="status" aria-live="polite" tabindex="-1"></p><button class="text-button" type="button" data-direct-submit hidden>Continue on Formspree</button>
+</form></section>
+<section id="report-issue" class="content-panel contribution-section"><h2>Report an issue</h2><p class="muted">Spotted a mistake in a note, a broken link, or something on the website that isn’t working?</p>
+<form class="contribution-form" data-contribution-form action="https://formspree.io/f/mdekljbg" method="POST">
+<input type="hidden" name="submissionType" value="Issue report"/><input type="text" name="_gotcha" hidden tabindex="-1" autocomplete="off" aria-label="Leave this field empty"/>
+<label>Page or resource<input id="report-page" name="page" type="text" required maxlength="2000" placeholder="Paste the page link or resource name"/></label>
+<label>Issue type<select name="issueType" required><option value="">Choose an issue</option><option>Incorrect information</option><option>Missing content</option><option>Broken link or download</option><option>Website bug</option><option>Other</option></select></label>
+<label>What’s wrong?<textarea name="issue" required rows="5" maxlength="5000" placeholder="Include the PDF page, unit or infographic section. For a website bug, tell me what happened and what you expected."></textarea></label>
+<label>Suggested correction or source (optional)<textarea name="suggestion" rows="3" maxlength="3000" placeholder="Share a correction or a link that would help me check it."></textarea></label>
+<label>Email for a reply (optional)<input name="email" type="email" autocomplete="email" maxlength="254"/></label>
+<p class="field-help">Your report is sent through Formspree to me for review. Your contact details won’t be published. Please leave out passwords and other private information. <a class="text-link" href="/privacy/#submissions">Submission privacy</a></p>
+<button class="button" type="submit">Send report</button><p class="field-help" data-submit-status role="status" aria-live="polite" tabindex="-1"></p><button class="text-button" type="button" data-direct-submit hidden>Continue on Formspree</button>
+</form></section>
+</div></Layout>
+<script define:vars={{unitOptions:courses.map(c=>({id:c.id,units:c.units.map(u=>({number:u.number,title:u.title}))}))}}>
+const course=document.querySelector('#contribution-course');
+const unit=document.querySelector('#contribution-unit');
+course?.addEventListener('change',()=>{unit.replaceChildren(new Option('Whole subject / multiple units',''));const selected=unitOptions.find(c=>c.id===course.value);selected?.units.forEach(u=>unit.add(new Option(`Unit ${u.number} · ${u.title}`,String(u.number))));});
+const page=new URLSearchParams(location.search).get('page');
+if(page)document.querySelector('#report-page').value=page.slice(0,2000);
+document.querySelectorAll('[data-contribution-form]').forEach(form=>{
+  const button=form.querySelector('button[type="submit"]');
+  const status=form.querySelector('[data-submit-status]');
+  const direct=form.querySelector('[data-direct-submit]');
+  const label=button.textContent;
+  let pending=false;
+  direct.addEventListener('click',()=>{if(!pending&&form.reportValidity()){HTMLFormElement.prototype.submit.call(form);}});
+  form.addEventListener('submit',async event=>{
+    event.preventDefault();
+    if(pending||!form.reportValidity())return;
+    const data=new FormData(form);
+    if(data.get('_gotcha'))return;
+    if(data.has('permission'))data.set('permission','Permission to publish after review granted');
+    if(form.querySelector('[name="credit"]'))data.set('credit',form.querySelector('[name="credit"]').checked?'Credit my name':'Do not publish my name');
+    pending=true;button.disabled=true;button.textContent='Sending…';direct.hidden=true;
+    form.setAttribute('aria-busy','true');status.textContent='Sending your submission…';
+    const controller=new AbortController();
+    const timeout=setTimeout(()=>controller.abort(),30000);
+    try{
+      const response=await fetch(form.action,{method:'POST',body:data,headers:{Accept:'application/json'},signal:controller.signal});
+      if(response.ok){
+        form.reset();
+        if(form.querySelector('#contribution-course'))course.dispatchEvent(new Event('change'));
+        if(form.querySelector('#report-page')&&page)form.querySelector('#report-page').value=page.slice(0,2000);
+        status.textContent=form.querySelector('[name="submissionType"]').value==='Note contribution'?'Thanks! Your contribution was submitted for review. Nothing is published automatically.':'Thanks! Your issue report was submitted for review.';
+      }else if(response.status===429){
+        status.textContent='Submissions are temporarily limited. Please try again later. Your entries are still here.';
+      }else{
+        status.textContent='Your submission wasn’t accepted. Your entries are still here. You can continue on Formspree to complete any required verification.';
+        direct.hidden=false;
+      }
+    }catch{
+      status.textContent='We couldn’t confirm delivery. Your entries are still here. Check your connection before trying again; avoid repeated submissions.';
+    }finally{
+      clearTimeout(timeout);pending=false;button.disabled=false;button.textContent=label;form.removeAttribute('aria-busy');status.focus();
+    }
+  });
+});
+</script>
