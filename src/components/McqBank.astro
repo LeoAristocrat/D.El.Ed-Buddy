@@ -1,0 +1,18 @@
+---
+import bank from '../data/dled_first_semester_mcqs.json';
+import '../styles/mcq.css';
+const {course=''}=Astro.props;
+---
+<section id="mcq-bank" data-course={course} class="content-panel mcq-bank">
+<form id="mcq-setup"><div class="mcq-filters">
+<label>Subject<select id="mcq-subject">{Object.entries(bank.subjects).map(([code,s])=><option value={code}>{code} · {s.name} ({s.questions.length} questions)</option>)}</select></label>
+<label>Unit<select id="mcq-unit"><option value="">All units</option></select></label>
+<label>Difficulty<select id="mcq-difficulty"><option value="">All difficulties</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select></label>
+</div><p id="mcq-count" role="status"></p><div class="actions"><button class="button" type="submit" id="mcq-start">Start quiz →</button><button class="button secondary" type="button" id="mcq-resume" hidden>Resume saved quiz</button></div><p class="small muted">Questions are shuffled each time. Progress is saved on this browser.</p></form>
+<section id="mcq-session" hidden><p id="mcq-context" class="small muted"></p><p id="mcq-position" aria-live="polite"></p><progress id="mcq-progress" aria-label="Answered questions" max="50" value="0"></progress>
+<form id="mcq-answer-form"><fieldset><legend id="mcq-question" tabindex="-1"></legend><div id="mcq-options"></div></fieldset><button class="button" type="submit" id="mcq-submit" disabled>Check answer</button></form>
+<div id="mcq-feedback" role="status" aria-live="polite" hidden></div><div class="actions"><button id="mcq-next" class="button" type="button" hidden>Next question →</button><button id="mcq-finish" class="button secondary" type="button">Finish quiz</button><button id="mcq-back" class="text-button" type="button">Change subject / filters</button></div></section>
+<section id="mcq-results" hidden><h2 id="mcq-result-title" tabindex="-1">Your results</h2><p id="mcq-score"></p><h3>Missed questions</h3><div id="mcq-missed"></div><button id="mcq-retry" class="button" type="button">Choose another quiz →</button></section>
+<p id="mcq-storage" role="status" class="small muted"></p><noscript><p>Enable JavaScript to select a subject and take the quiz.</p></noscript>
+</section>
+<script>import '../scripts/mcq';</script>

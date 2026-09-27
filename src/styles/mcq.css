@@ -1,0 +1,18 @@
+.mcq-bank{max-width:900px;margin:0 auto 48px;overflow-wrap:anywhere}
+.mcq-bank [hidden]{display:none!important}
+.mcq-filters{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.mcq-filters label:first-child{grid-column:1/-1}
+.mcq-filters label{display:grid;gap:8px;min-width:0}
+.mcq-filters select{width:100%;min-width:0;max-width:100%;font:inherit}
+.mcq-bank fieldset{border:0;padding:0;margin:24px 0;min-width:0}
+.mcq-bank legend{font-size:clamp(1.2rem,3vw,1.55rem);font-weight:700;line-height:1.5;margin-bottom:20px;width:100%}
+#mcq-options{display:grid;gap:12px}
+.mcq-option{display:flex;align-items:flex-start;gap:12px;padding:16px;border:1px solid var(--line);border-radius:var(--radius-sm);cursor:pointer;line-height:1.6}
+.mcq-option input{flex:0 0 auto;width:20px;height:20px;margin-top:3px;accent-color:var(--green)}
+.mcq-option:has(input:checked){border-color:var(--green);background:var(--pale)}
+.mcq-option:focus-within{outline:2px solid var(--green);outline-offset:3px}
+#mcq-feedback{padding:20px;background:var(--pale);border-left:4px solid var(--green);margin:20px 0}
+.mcq-bank progress{width:100%;accent-color:var(--green)}
+.mcq-bank .actions{flex-wrap:wrap;gap:12px}
+.mcq-bank .answer-review{padding:20px 0;border-bottom:1px solid var(--line);margin-bottom:20px}
+@media(max-width:600px){.mcq-filters{grid-template-columns:1fr}.mcq-bank{padding:20px}.mcq-bank .button{max-width:100%;white-space:normal}.mcq-option{padding:12px}}
