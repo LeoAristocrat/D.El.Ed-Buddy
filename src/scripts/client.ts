@@ -1,7 +1,7 @@
 const safeStore = {get(key:string,fallback:any=null){try{return JSON.parse(localStorage.getItem(key)||'null')??fallback}catch{return fallback}},set(key:string,value:any){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}};
 const theme=document.querySelector<HTMLSelectElement>('#theme');
 const themePicker=document.querySelector<HTMLDetailsElement>('.theme-picker');
-if(theme){theme.value=document.documentElement.dataset.theme||'light';theme.addEventListener('change',()=>{document.documentElement.dataset.theme=theme.value;try{localStorage.setItem('buddy-theme',theme.value)}catch{}})}
+if(theme){theme.value=document.documentElement.dataset.theme||'mocha';theme.addEventListener('change',()=>{document.documentElement.dataset.theme=theme.value;try{localStorage.setItem('buddy-theme',theme.value)}catch{}})}
 document.addEventListener('click',event=>{if(themePicker&&event.target instanceof Node&&!themePicker.contains(event.target))themePicker.open=false});
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&themePicker?.open){themePicker.open=false;themePicker.querySelector<HTMLElement>('summary')?.focus()}});
 const menuButton=document.querySelector<HTMLButtonElement>('#menu');
