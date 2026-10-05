@@ -1,0 +1,21 @@
+---
+const {file,title,resourceId,author}=Astro.props;
+---
+<section class="uploaded-notes pdf-reader" aria-label="Question paper PDF">
+  <div class="notes-toolbar">
+    <span class="small muted">{author}</span>
+    <div class="actions">
+      <a class="button" href={file} target="_blank" rel="noopener">Open full screen ↗</a>
+      <a class="button secondary" href={file} download>Download PDF ↓</a>
+      <button class="button secondary" data-bookmark={`resource-${resourceId}`} data-bookmark-title={title}>Save resource</button>
+    </div>
+  </div>
+  <p id="storage-message" role="status" class="small"></p>
+  <p class="small muted">If the preview doesn’t appear on your device, <a href={file} target="_blank" rel="noopener">open the PDF directly ↗</a>.</p>
+  <iframe src={`${file}#view=FitH`} title={`${title} — PDF preview`} loading="lazy" referrerpolicy="no-referrer"></iframe>
+</section>
+<style>
+  .notes-toolbar,.actions{flex-wrap:wrap}
+  .pdf-reader iframe{height:80vh;height:80dvh;min-height:420px}
+  @media(max-width:600px){.notes-toolbar{align-items:flex-start}.actions{width:100%}.button{white-space:normal}}
+</style>

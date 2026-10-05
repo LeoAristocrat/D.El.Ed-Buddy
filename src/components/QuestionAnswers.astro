@@ -1,0 +1,84 @@
+---
+import { getQaUnit } from '../data/qa-bank';
+interface Props { course: string; unit: number; title: string; resourceId: string }
+const { course, unit, title, resourceId } = Astro.props;
+const bank = getQaUnit(course, unit);
+const groups = [1, 2, 3, 4, 5];
+---
+<section class="qa-bank" aria-label="Questions and model answers">
+  <div class="qa-intro">
+    <p>{bank.practice.length} practice questions · {bank.pyqs.length} verified previous-year questions</p>
+    <button class="button secondary" data-bookmark={`resource-${resourceId}`} data-bookmark-title={title}>Save resource</button>
+  </div>
+  <p id="storage-message" role="status" class="small"></p>
+  {course === 's1-4' && <p class="qa-note">Practice for your writing tasks, workshops and seminars. The mark groups are study aids, not an official examination marking scheme. No S1.4 question paper was supplied.</p>}
+  <p class="qa-help">Try answering first, then open the question to compare your response with the model answer.</p>
+  <nav class="qa-jumps" aria-label="Question groups">
+    {bank.pyqs.length > 0 && <a href="#previous-questions">Previous-year questions</a>}
+    {groups.map(marks => <a href={`#practice-${marks}`}>{marks}-mark practice</a>)}
+  </nav>
+  {bank.pyqs.length > 0 && <section class="qa-group" id="previous-questions" aria-labelledby="previous-heading">
+    <h2 id="previous-heading">Previous-year questions</h2>
+    <p>Original-paper years appear beside each question. Answers are model responses for study.</p>
+    {bank.pyqs.map((item, index) => <details class="qa-question" id={item.id}>
+      <summary><span class="qa-question-text"><span class="qa-number">{index + 1}.</span> {item.question}</span><span class="qa-badges"><span class="qa-mark">{item.marks} {item.marks === 1 ? 'mark' : 'marks'}</span>{[...new Set(item.occurrences.map(source => source.year))].sort().map(year => <span class="qa-year" aria-label={`Previous-year question: ${year}`}>{year}</span>)}<span class="qa-chevron" aria-hidden="true">⌄</span></span></summary>
+      <div class="qa-answer"><p class="qa-answer-label">Model answer</p>{item.answer.length > 1 ? <ol>{item.answer.map(point => <li>{point}</li>)}</ol> : <p>{item.answer[0]}</p>}
+      {item.tables?.map(table => <div class="qa-table-scroll" tabindex="0" role="region" aria-label={table.caption}><table><caption>{table.caption}</caption><thead><tr>{table.headers.map(header => <th scope="col">{header}</th>)}</tr></thead><tbody>{table.rows.map(row => <tr>{row.map((cell, index) => index === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>)}</tr>)}</tbody></table></div>)}
+      {item.illustration && <figure class="qa-illustration"><a href={item.illustration.src} target="_blank" rel="noopener" aria-label="Open model illustration at full size"><img src={item.illustration.src} alt={item.illustration.alt} loading="lazy" width="800" height="520" /></a><figcaption>{item.illustration.caption}</figcaption></figure>}
+      <div class="qa-evidence">{item.occurrences.map(source => <a href={`${source.paper}#page=${source.page}`} target="_blank" rel="noopener">{source.year} paper · p. {source.page}, Q. {source.questionNumber} ↗</a>)}</div></div>
+    </details>)}
+  </section>}
+  {groups.map(marks => <section class="qa-group" id={`practice-${marks}`} aria-labelledby={`practice-heading-${marks}`}>
+    <h2 id={`practice-heading-${marks}`}>{marks}-mark practice <span class="qa-count">{bank.practice.filter(item => item[0] === marks).length} questions</span></h2>
+    {bank.practice.filter(item => item[0] === marks).map(([, question, answer], index) => <details class="qa-question" id={`practice-${marks}-${index + 1}`}>
+      <summary><span class="qa-question-text"><span class="qa-number">{index + 1}.</span> {question}</span><span class="qa-badges"><span class="qa-mark">Practice</span><span class="qa-chevron" aria-hidden="true">⌄</span></span></summary>
+      <div class="qa-answer"><p class="qa-answer-label">Model answer</p>{answer.length > 1 ? <ol>{answer.map(point => <li>{point}</li>)}</ol> : <p>{answer[0]}</p>}</div>
+    </details>)}
+  </section>)}
+  <details class="qa-sources"><summary>References used for these answers</summary><ul>{bank.sources.map(source => <li><a href={source.url} target="_blank" rel="noopener">{source.label} ↗</a></li>)}</ul><p>New practice questions and model answers were prepared with AI assistance and checked against the listed materials. They are not official answer keys.</p></details>
+</section>
+<style>
+  .qa-bank{max-width:960px;margin:0 auto 3rem;font-size:1.05rem;line-height:1.7}
+  .qa-intro{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+  .qa-note{padding:1rem 1.25rem;border-left:3px solid var(--green);background:var(--surface);border-radius:.4rem}
+  .qa-help{color:var(--muted)}
+  .qa-jumps{display:flex;flex-wrap:wrap;gap:.65rem;margin:1.5rem 0 2.5rem}
+  .qa-jumps a{border:1px solid var(--line);border-radius:999px;padding:.55rem 1rem;text-decoration:none;color:var(--ink)}
+  .qa-jumps a:hover{border-color:var(--green);color:var(--green)}
+  .qa-group{margin:2.75rem 0;scroll-margin-top:2rem}
+  .qa-group h2{font-size:clamp(1.4rem,3vw,1.85rem);display:flex;gap:.6rem 1rem;align-items:baseline;flex-wrap:wrap}
+  .qa-count{font-size:1rem;font-weight:400;color:var(--muted)}
+  .qa-question{border:1px solid var(--line);border-radius:1rem;background:var(--surface);margin:.75rem 0;padding:0;overflow:hidden;scroll-margin-top:2rem}
+  .qa-question summary{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;list-style:none;padding:1.15rem 1.3rem;margin:0;font-size:1.05rem;line-height:1.7;cursor:pointer;font-weight:600}
+  .qa-question[open]>summary{margin-bottom:0}
+  .qa-question summary::-webkit-details-marker{display:none}
+  .qa-question summary:focus-visible,.qa-jumps a:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+  .qa-question-text{min-width:0;overflow-wrap:anywhere}
+  .qa-number{color:var(--muted);font-weight:400}
+  .qa-badges{display:flex;justify-content:flex-end;align-items:center;flex-wrap:wrap;gap:.4rem;flex-shrink:0;max-width:40%}
+  .qa-year,.qa-mark{font-size:.875rem;line-height:1.5;border:1px solid var(--line);padding:.15rem .6rem;border-radius:999px;white-space:nowrap}
+  .qa-year{color:var(--green);border-color:var(--green)}
+  .qa-mark{color:var(--muted);font-weight:400}
+  .qa-chevron{display:inline-block;transition:transform .15s;margin-left:.15rem}
+  .qa-question[open] .qa-chevron{transform:rotate(180deg)}
+  .qa-answer{padding:.2rem 1.4rem 1.3rem;border-top:1px solid var(--line)}
+  .qa-answer-label{font-weight:600;color:var(--green);margin:.9rem 0 .5rem}
+  .qa-answer ol{padding-left:1.5rem;margin:.5rem 0}
+  .qa-answer li{padding-left:.2rem;margin:.7rem 0}
+  .qa-answer p,.qa-answer li{white-space:pre-line}
+  .qa-table-scroll{max-width:100%;overflow-x:auto;margin:1.25rem 0;border:1px solid var(--line);border-radius:.65rem}
+  .qa-table-scroll:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+  .qa-table-scroll table{width:100%;min-width:540px;border-collapse:collapse;margin:0;font-size:1rem;line-height:1.6}
+  .qa-table-scroll caption{text-align:left;padding:.8rem 1rem;font-weight:600;color:var(--green)}
+  .qa-table-scroll th,.qa-table-scroll td{padding:.75rem;text-align:left;vertical-align:top;border:1px solid var(--line);white-space:normal}
+  .qa-table-scroll th{font-weight:600}
+  .qa-illustration{margin:1.5rem 0}
+  .qa-illustration img{display:block;width:100%;height:auto;border-radius:.75rem;background:#fff}
+  .qa-illustration figcaption{font-size:.95rem;color:var(--muted);margin-top:.65rem}
+  .qa-evidence{display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem}
+  .qa-sources{margin:3rem 0 0;color:var(--muted);font-size:1rem}
+  .qa-sources summary{cursor:pointer;font-weight:600}
+  .qa-sources a,.qa-evidence a{color:var(--green);text-decoration:underline;text-underline-offset:.2em}
+  @media(max-width:560px){.qa-question summary{padding:1rem;gap:.65rem;flex-wrap:wrap}.qa-question-text{flex-basis:100%}.qa-badges{max-width:100%;margin-left:auto}.qa-answer{padding:.2rem 1rem 1rem}.qa-bank{font-size:1rem}}
+  @media(prefers-reduced-motion:reduce){.qa-chevron{transition:none}}
+</style>

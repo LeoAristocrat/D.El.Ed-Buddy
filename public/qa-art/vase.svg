@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title"><title id="title">Flower vase — original colour study</title><rect width="800" height="520" fill="#fffdf6"/><g stroke="#27363a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M35 418H765" stroke="#b6a89a"/><ellipse cx="440" cy="440" rx="155" ry="23" fill="#d9d0c4" stroke="none"/>
+<g fill="none" stroke="#527b45" stroke-width="6"><path d="M400 307L374 158M403 307L454 116M392 310L310 222M410 310L506 220"/></g>
+<g fill="#73945a" stroke="#527b45"><path d="M380 246Q321 226 340 201Q378 208 380 246ZM416 248Q424 198 461 200Q458 234 416 248ZM352 270Q309 271 297 244Q332 235 352 270Z"/></g>
+<g fill="#cb625b" stroke="#a14443"><ellipse cx="371" cy="133" rx="17" ry="27"/><ellipse cx="346" cy="155" rx="27" ry="17"/><ellipse cx="394" cy="155" rx="27" ry="17"/><ellipse cx="372" cy="178" rx="17" ry="27"/><circle cx="372" cy="155" r="14" fill="#e9bd5c"/></g>
+<g fill="#e9bd5c" stroke="#bf943b"><ellipse cx="458" cy="90" rx="16" ry="26"/><ellipse cx="434" cy="113" rx="26" ry="16"/><ellipse cx="482" cy="113" rx="26" ry="16"/><ellipse cx="458" cy="138" rx="16" ry="26"/><circle cx="458" cy="113" r="13" fill="#8c633f"/></g>
+<g fill="#d99083" stroke="#a95853"><path d="M309 223Q278 231 284 207Q258 188 282 177Q277 150 303 162Q324 143 333 168Q362 169 348 193Q361 218 334 221Q326 244 309 223Z"/><circle cx="317" cy="193" r="12" fill="#eac569"/><path d="M494 217Q469 224 471 205Q452 190 472 178Q476 157 494 169Q513 151 526 174Q552 186 531 202Q536 226 514 223Q499 242 494 217Z"/><circle cx="504" cy="194" r="10" fill="#eac569"/></g>
+<path d="M351 303Q362 340 332 387Q319 425 365 441H439Q484 422 470 389Q441 340 454 303Z" fill="#4d8ba5" stroke="#2e627b"/>
+<path d="M419 312Q416 355 445 393Q461 423 425 437H440Q484 422 470 389Q441 340 454 303Z" fill="#346d87" stroke="none"/>
+<ellipse cx="403" cy="303" rx="52" ry="12" fill="#aad0d8" stroke="#2e627b"/>
+<path d="M356 395Q346 414 370 423M362 376L367 361" fill="none" stroke="#b9d8dc" stroke-width="9"/></g></svg>

@@ -4,4 +4,4 @@ import Icon from './Icon.astro';
 const {course,unit}=Astro.props;
 const icons=['book','layers','image','list','questions','paper'];
 ---
-<div class="format-grid">{resourceTypes.map((type,i)=><a href={`/materials/?course=${course||''}&unit=${unit||''}&type=${encodeURIComponent(type)}`}><Icon name={icons[i]} size={20}/><span>{type}</span><Icon name="arrow-up-right" size={16}/></a>)}</div>
+<div class="format-grid">{resourceTypes.map((type,i)=><a href={type==='Previous Year Questions (PYQs)'?'/pyqs/':`/materials/?course=${course||''}&unit=${unit||''}&type=${encodeURIComponent(type)}`}><Icon name={icons[i]} size={20}/><span>{type}</span><Icon name="arrow-up-right" size={16}/></a>)}</div>

@@ -1,0 +1,13 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import ResourceCard from '../../components/ResourceCard.astro';
+import {getPyqYears} from '../../data/pyqs';
+export async function getStaticPaths(){return (await getPyqYears()).map(({year,papers})=>({params:{year:String(year)},props:{year,papers}}));}
+const {year,papers}=Astro.props;
+---
+<Layout title={`${year} Previous Year Questions`}><div class="wrap">
+<PageHeader title={`${year} question papers.`} description={`${papers.length} available First Semester subject papers, ordered by subject code.`} kicker="PREVIOUS YEAR QUESTIONS (PYQs)" back="/pyqs/" backLabel="All years"/>
+<div class="grid">{papers.map(resource=><ResourceCard resource={resource}/>)}</div>
+<p class="small muted spaced">Only available papers are listed. More will be added when received.</p>
+</div></Layout>

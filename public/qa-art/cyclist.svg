@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title"><title id="title">Cyclist — original observational drawing example</title><rect width="800" height="520" fill="#fffdf6"/><g stroke="#27363a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<g fill="none"><path d="M90 429H712" stroke="#abb1aa"/><ellipse cx="259" cy="434" rx="143" ry="9" stroke="none" fill="#dddcd3"/><ellipse cx="577" cy="434" rx="106" ry="9" stroke="none" fill="#dddcd3"/>
+<circle cx="235" cy="339" r="88" stroke-width="6"/><circle cx="574" cy="339" r="88" stroke-width="6"/>
+<circle cx="235" cy="339" r="78" stroke-width="1"/><circle cx="574" cy="339" r="78" stroke-width="1"/>
+<path d="M235 251V427M147 339H323M173 277L297 401M173 401L297 277M574 251V427M486 339H662M512 277L636 401M512 401L636 277" stroke="#9ba4a1" stroke-width="1"/>
+<path d="M235 339L329 231L387 339ZM329 231H523L387 339M523 231L574 339M329 231L315 210M523 231L508 199L541 183L562 190" stroke-width="6"/>
+<path d="M292 210H340" stroke-width="9"/><circle cx="387" cy="339" r="17"/><path d="M387 339L410 365H430M387 339L363 313H345" stroke-width="4"/>
+</g><path d="M339 145Q372 112 402 115L457 169L423 197L372 165L351 209L316 207Z" fill="#e2e6e0"/>
+<path d="M315 207L361 202L408 254L369 310L348 301L373 255L334 237L355 276L420 343L417 358L403 359L331 290L300 243Z" fill="#a8b2b0"/>
+<path d="M407 127L449 150L488 191L534 187L541 199L481 207L435 170L413 164Z" fill="#f5e9d7"/>
+<path d="M398 114L406 93L434 96L429 120L421 137Z" fill="#f5e9d7"/>
+<path d="M412 50Q450 44 462 72L466 92L455 95L450 113L423 110L407 91Z" fill="#f5e9d7"/>
+<path d="M401 70Q401 35 433 35Q461 36 469 68Z" fill="#98a6a1"/><path d="M412 66L422 41M434 66L442 41M405 73L429 108L462 75" fill="none"/>
+<path d="M347 301L369 310L376 320H343L338 314Z" fill="#485658"/><path d="M403 355L420 357L435 370H402L397 365Z" fill="#485658"/></g></svg>

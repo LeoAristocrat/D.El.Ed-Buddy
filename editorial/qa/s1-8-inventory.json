@@ -1,0 +1,95 @@
+{
+  "course": "s1-8",
+  "method": "All eight original scan pages visually inspected; every optional question retained with printed marks.",
+  "years": {
+    "2021": {
+      "published": [
+        "1(a)",
+        "1(b)",
+        "1(c)",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6(a)",
+        "6(b)",
+        "6(c)"
+      ],
+      "review": []
+    },
+    "2022": {
+      "published": [
+        "1(a)",
+        "1(b)",
+        "1(c)",
+        "1(d)",
+        "1(e)",
+        "1(e) (alternative)",
+        "2",
+        "2 (alternative)",
+        "3",
+        "4",
+        "4 (alternative)",
+        "5",
+        "5 (alternative)",
+        "6",
+        "6 (alternative)",
+        "7",
+        "7 (alternative)"
+      ],
+      "review": []
+    },
+    "2023": {
+      "published": [
+        "1",
+        "2",
+        "3",
+        "3 (alternative)",
+        "4",
+        "5",
+        "5 (alternative)",
+        "6",
+        "7(a)",
+        "7(b)",
+        "7(c)",
+        "7(d)"
+      ],
+      "review": []
+    },
+    "2024": {
+      "published": [
+        "1(a)",
+        "1(b)",
+        "1(c)",
+        "1(d)",
+        "2(a)",
+        "2(b)",
+        "2(c)",
+        "2(d)",
+        "3",
+        "3 (alternative)",
+        "4"
+      ],
+      "review": []
+    },
+    "2025": {
+      "published": [
+        "1(a)",
+        "1(b)",
+        "1(c)",
+        "1(d)",
+        "1(e)",
+        "1(f)",
+        "2(a)",
+        "2(b)",
+        "2(c)",
+        "2(d)",
+        "3",
+        "3 (alternative)",
+        "4",
+        "5"
+      ],
+      "review": []
+    }
+  }
+}

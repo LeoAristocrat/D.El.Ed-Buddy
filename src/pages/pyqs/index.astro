@@ -1,0 +1,11 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import Icon from '../../components/Icon.astro';
+import {getPyqYears} from '../../data/pyqs';
+const years = await getPyqYears();
+---
+<Layout title="Previous Year Questions (PYQs)"><div class="wrap">
+<PageHeader title="Pick a year. Find your paper." description="First Semester question papers, organized by exam year. Choose a year to see the available subjects." kicker="PREVIOUS YEAR QUESTIONS (PYQs)" back="/materials/" backLabel="Study materials"/>
+<div class="grid">{years.map(({year,papers}) => <article class="card"><div class="resource-label"><Icon name="paper" size={18}/><span>Semester 1</span></div><h2><a href={`/pyqs/${year}/`}>{year}</a></h2><p>{papers.length} subject papers available</p><a class="text-link" href={`/pyqs/${year}/`} aria-label={`View ${year} question papers`}>View papers →</a></article>)}</div>
+</div></Layout>

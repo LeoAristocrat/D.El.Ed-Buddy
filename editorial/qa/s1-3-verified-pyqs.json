@@ -1,0 +1,1715 @@
+[
+  {
+    "unit": 1,
+    "id": "s1-3-2021-1-a",
+    "question": "Give one scientific definition of language.",
+    "marks": 1,
+    "answer": [
+      "Language is a socially shared, rule-governed system of symbols used to communicate and construct meaning; it can be spoken, signed or represented in writing."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "1(a)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "1(a)",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "1(b)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "1(e)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2021-1-b",
+    "question": "What is the central vowel phone of Assamese language?",
+    "marks": 1,
+    "answer": [
+      "The open central vowel /a/, commonly represented by আ, in the conventional eight-vowel description of standard Assamese."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "1(b)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2021-1-c",
+    "question": "Name the only tribal language of Assam which is recognised by the constitution of India.",
+    "marks": 1,
+    "answer": [
+      "Bodo (Boro) is the intended answer in this Assam-focused question and is listed in the Eighth Schedule. The wording “only tribal language” should not be treated as a claim that no other tribal language has constitutional recognition: Santali is also scheduled."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "1(c)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "1(e)",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2021-1-d",
+    "question": "Which core linguistic family does Assamese language belongs to?",
+    "marks": 1,
+    "answer": [
+      "Assamese belongs to the Indo-Aryan branch of the Indo-European language family."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "1(d)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2021-1-e",
+    "question": "What is the full form of LAD?",
+    "marks": 1,
+    "answer": [
+      "Language Acquisition Device, a theoretical construct associated with Chomsky’s account of language acquisition."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "1(e)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2021-1-f",
+    "question": "Write one function of language.",
+    "marks": 1,
+    "answer": [
+      "Language can express personal needs, for example asking for drinking water."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "1(f)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2021-2-a",
+    "question": "“Language is arbitrary” — Explain.",
+    "marks": 2,
+    "answer": [
+      "Most word–meaning relationships depend on social convention rather than a necessary natural connection.",
+      "For example, different languages use different words for the same object; speakers learn and share their community’s conventions. Arbitrariness does not mean language has no rules."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "2(a)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2022,
+        "page": 1,
+        "questionNumber": "2(a)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "2(a)",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2021-2-b",
+    "question": "Write two differences between phonetics and phonology?",
+    "marks": 2,
+    "answer": [
+      "Phonetics studies how speech sounds are produced, transmitted and perceived; phonology studies how sounds function and are patterned in a particular language.",
+      "Phonetics can describe physical differences between two pronunciations, while phonology asks whether those differences distinguish meaning or are predictable variants within that language."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "2(b)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "2(d)",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2021-2-c",
+    "question": "Write two suggestions according to NCF-2005 about multilingualism.",
+    "marks": 2,
+    "answer": [
+      "Treat children’s existing languages as a resource for classroom learning rather than a problem to eliminate.",
+      "Use the home language as an important foundation and create opportunities to learn additional languages, supporting understanding and participation in a multilingual classroom."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "2(c)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2021-2-d",
+    "question": "Briefly explain about “Three language formula”.",
+    "marks": 2,
+    "answer": [
+      "The three-language formula is an educational approach to learning three languages so that regional or home-language development is accompanied by wider communication and multilingual understanding.",
+      "The traditional pattern includes Hindi, English and a modern Indian language in Hindi-speaking states, and the regional language, Hindi and English in non-Hindi-speaking states. NEP 2020 allows flexible choices, with at least two languages native to India and no imposed language."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "2(d)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2022,
+        "page": 1,
+        "questionNumber": "2(d)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "2(b)",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2021-2-e",
+    "question": "What is “language learning and learning through language”?",
+    "marks": 2,
+    "answer": [
+      "Language learning develops the ability to understand and use a language, such as learning to tell a clear story.",
+      "Learning through language uses language to develop other knowledge, such as discussing why a seed needs water during an EVS activity."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "2(e)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2021-2-f",
+    "question": "As a language teacher design an activity to develop patriotism among the learners at the elementary level.",
+    "marks": 2,
+    "answer": [
+      "Organise a short storytelling circle about people from different Indian communities who helped others, using accessible languages and age-appropriate accounts.",
+      "Ask children to discuss shared values and create a class message about caring for their community, linking love of country with inclusion, respect and responsible action rather than hostility towards others."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "2(f)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2021-3",
+    "question": "Explain the importance of language as carrier of heritage and culture.",
+    "marks": 3,
+    "answer": [
+      "Stories, songs, proverbs and oral histories pass cultural knowledge and memories between generations.",
+      "Language conveys ways of greeting, naming relationships and describing local life, helping people express belonging and identity.",
+      "Using and documenting diverse community languages sustains this heritage while allowing cultures to develop through dialogue rather than remain fixed or isolated."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "3",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "3(a)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2021-4",
+    "question": "Explain the importance of story telling for the development of speaking skill of children.",
+    "marks": 3,
+    "answer": [
+      "Listening to and retelling stories provides meaningful vocabulary and sentence patterns in context.",
+      "Children practise sequencing events, explaining characters’ actions and using voice or gesture for an audience.",
+      "Supportive pair retelling and open questions encourage participation and confidence; familiar languages and pictures help children contribute without memorising an identical script."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "4",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2021-5",
+    "question": "Write the challenges in a multilingual classroom while using school language among the learners.",
+    "marks": 3,
+    "answer": [
+      "Children may understand concepts but struggle with unfamiliar vocabulary and instructions in the school language.",
+      "A teacher may not know every home language, and suitable multilingual materials or interpretation support may be limited.",
+      "Unequal status given to languages can discourage participation or produce ridicule; these are barriers in classroom provision and attitudes, not evidence that multilingual children are deficient."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "5",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2021-6",
+    "question": "“Language helps learners gathering over all knowledge” — Discuss.",
+    "marks": 4,
+    "answer": [
+      "Language gives learners words and structures for describing observations, asking questions and relating new ideas to earlier experience.",
+      "Listening and reading provide access to explanations, stories and information beyond immediate personal experience.",
+      "Discussion and writing help learners compare evidence, explain reasoning and revise understanding across subjects.",
+      "For example, a child can observe a plant directly and then discuss changes using words such as root and growth. Language supports knowledge, but the claim should not erase non-verbal learning through action, images and perception."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "6",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2021-7",
+    "question": "Prepare a table of the vowel phone of Assamese language according to the position and place of the tongue while pronouncing.",
+    "marks": 4,
+    "answer": [
+      "The table presents a conventional eight-oral-vowel analysis of standard Assamese, classified by tongue height and front–back position.",
+      "These are speech sounds, not a count of written vowel letters. Actual vowel qualities and inventories vary across Assamese varieties; IPA transcriptions can also differ between descriptions."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 1,
+        "questionNumber": "7",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ],
+    "tables": [
+      {
+        "caption": "Conventional Assamese oral-vowel classification",
+        "headers": [
+          "Tongue height",
+          "Front",
+          "Central",
+          "Back"
+        ],
+        "rows": [
+          [
+            "Close / high",
+            "/i/",
+            "—",
+            "/u/"
+          ],
+          [
+            "Close-mid",
+            "/e/",
+            "—",
+            "/o/"
+          ],
+          [
+            "Open-mid",
+            "/ɛ/",
+            "—",
+            "/ɔ/"
+          ],
+          [
+            "Open / low",
+            "—",
+            "/a/",
+            "/ɒ/"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2022-1-a",
+    "question": "Write any two primary elements of language.",
+    "marks": 1,
+    "answer": [
+      "Speech sounds and meaningful units such as words are two basic elements of language."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 1,
+        "questionNumber": "1(a)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2022-1-b",
+    "question": "What is the trilled sound of Assamese language?",
+    "marks": 1,
+    "answer": [
+      "The rhotic /r/, represented by ৰ; its actual pronunciation may be a tap or trill depending on the speaker and context."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 1,
+        "questionNumber": "1(b)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2022-1-c",
+    "question": "Mention the name of a language of Sino-Tibetan language family found in Assam.",
+    "marks": 1,
+    "answer": [
+      "Bodo (Boro), a Tibeto-Burman language within the Sino-Tibetan family."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 1,
+        "questionNumber": "1(c)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2022-1-d",
+    "question": "Who wrote the book, “Asomiya Sahityar Ruprekha”?",
+    "marks": 1,
+    "answer": [
+      "Maheswar Neog."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 1,
+        "questionNumber": "1(d)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2022-2-b",
+    "question": "Mention two natures of language.",
+    "marks": 2,
+    "answer": [
+      "Language is dynamic: vocabulary and usage change across time and social contexts.",
+      "Language is creative: speakers can combine familiar elements to express new messages rather than only repeat memorised sentences."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 1,
+        "questionNumber": "2(b)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "2(a)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2022-2-c",
+    "question": "What is “aspirated sound”? What are the “aspirated sounds of Assamese Language”?",
+    "marks": 2,
+    "answer": [
+      "An aspirated stop has a noticeable release of breath; voiced counterparts are commonly described as breathy-voiced or voiced aspirated stops.",
+      "In the standard Assamese stop inventory, the six aspirated counterparts are খ /kʰ/, ঘ /ɡʱ/, থ /tʰ/, ধ /dʱ/, ফ /pʰ/ and ভ /bʱ/. This is a sound inventory, not a count of all traditional Sanskrit-derived letters."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 1,
+        "questionNumber": "2(c)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "2(b)",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2022-2-e",
+    "question": "Write the provisions provided by Indian constitution about Language.",
+    "marks": 2,
+    "answer": [
+      "Article 29(1) protects the right of a section of citizens with a distinct language, script or culture to conserve it.",
+      "Article 350A directs states and local authorities to endeavour to provide adequate mother-tongue instruction facilities at the primary stage for children belonging to linguistic minorities."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 1,
+        "questionNumber": "2(e)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "2(c)",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "2(c)",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "2(f)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2022-3-a",
+    "question": "“Language acquisition and language learning is complementary to each other” — explain the statement.",
+    "marks": 3,
+    "answer": [
+      "Acquisition refers to developing language through meaningful use and interaction, while deliberate learning involves focused attention to forms and strategies.",
+      "A classroom can combine conversation, stories and purposeful reading with useful explanations, feedback and practice.",
+      "For example, children may acquire expressions during role play and then discuss a recurring sentence pattern. These processes can support each other; they are not restricted respectively to first and additional languages."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 2,
+        "questionNumber": "3(a)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2022-3-b",
+    "question": "Discuss which aspects of learning can be developed through outside actions of a language classroom.",
+    "marks": 3,
+    "answer": [
+      "Interviews or conversations outside class develop listening, questioning and adapting speech to different people.",
+      "Observing signs, notices and local texts connects reading and vocabulary with real purposes and community knowledge.",
+      "Writing a brief account of a visit or experience develops organisation and reflection, bringing outside learning back into classroom discussion."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 2,
+        "questionNumber": "3(b)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2022-3-c",
+    "question": "“The need of language learning is important in acquiring other subjects’ knowledge” — Describe it.",
+    "marks": 3,
+    "answer": [
+      "Understanding subject vocabulary and instructions helps learners access tasks in mathematics, EVS and other subjects.",
+      "Discussion and reading allow them to compare ideas, ask for clarification and connect concepts with experience.",
+      "Explaining a solution or writing an observation makes reasoning visible, so teachers should support language alongside subject content rather than mistake unfamiliar wording for lack of ability."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 2,
+        "questionNumber": "3(c)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "3",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2022-3-d",
+    "question": "Describe the processes about language learning and learning through language.",
+    "marks": 3,
+    "answer": [
+      "Language learning develops listening, speaking, reading and writing through meaningful practice and appropriate attention to language forms.",
+      "Learning through language uses these abilities to explore content, such as reading a chart or explaining a science observation.",
+      "The processes interact: a class describing plant growth develops both conceptual understanding and language for sequence and change."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 2,
+        "questionNumber": "3(d)",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "8",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2022-4",
+    "question": "What do you mean by home language and school language? What should be the role of a language teacher in transforming home language to school language?",
+    "marks": 4,
+    "answer": [
+      "Home language means the language or languages used in family and everyday home life; school language is used for instruction and school activities. They may overlap or differ.",
+      "Learn about children’s existing language resources and welcome them in conversation, stories and initial explanations.",
+      "Connect familiar meanings to school-language words using pictures, objects, bilingual support and purposeful peer interaction.",
+      "Provide gradual practice and supportive feedback while retaining respect for home languages. Transition means adding access to the school language, not replacing or devaluing the language of home."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 2,
+        "questionNumber": "4",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2022-5",
+    "question": "What is multilingualism? Discuss the strategies to be undertaken by language teacher in using multilingualism as a resource in the language classroom.",
+    "marks": 5,
+    "answer": [
+      "Multilingualism is the use or development of more than one language within a person or community; competence can vary across purposes and languages.",
+      "Learn which languages children use, welcome their contributions and prevent ridicule so that linguistic knowledge becomes a resource for participation.",
+      "Use familiar stories, songs and carefully checked multilingual labels to connect new words with existing meanings, rather than require immediate understanding of an unfamiliar language.",
+      "Organise purposeful peer discussion and comparison of expressions, with shared explanations so no group is excluded and no child is made a permanent interpreter.",
+      "Link these experiences to supported reading, writing and school-language development, assessing understanding separately from avoidable language barriers and involving families where useful."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2022,
+        "page": 2,
+        "questionNumber": "5",
+        "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2023-1-a",
+    "question": "Where does the word “language” derived from?",
+    "marks": 1,
+    "answer": [
+      "English “language” comes through Old French langage, ultimately from Latin lingua, meaning tongue or language."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "1(a)",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "1(c)",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2023-1-b",
+    "question": "Give a definition of speech sound.",
+    "marks": 1,
+    "answer": [
+      "A speech sound is a sound produced by the human vocal apparatus and used in spoken language."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "1(b)",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "1(c)",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2023-1-d",
+    "question": "What is unaspirated sound?",
+    "marks": 1,
+    "answer": [
+      "An unaspirated stop is released without the strong accompanying puff of breath characteristic of an aspirated stop."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "1(d)",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2023-1-e",
+    "question": "In which year, Bodo language was included in the eighth schedule of the constitution of India?",
+    "marks": 1,
+    "answer": [
+      "It was added by the Constitution (Ninety-second Amendment) Act, 2003, which received presidential assent on 7 January 2004. Thus 2003 is the amendment’s title year; 2004 is the year it became law."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "1(e)",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2023-2-a",
+    "question": "Write how does language works as a tool for self-expression.",
+    "marks": 2,
+    "answer": [
+      "Language allows people to communicate feelings, needs, experiences and opinions in ways others can understand.",
+      "For example, a child can tell a personal story or explain disagreement, developing a voice and sense of identity through respectful opportunities to speak, sign or write."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "2(a)",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2023-2-b",
+    "question": "Briefly mention the constitutional provisions for regional language of India.",
+    "marks": 2,
+    "answer": [
+      "Article 345 allows a state legislature to adopt one or more languages in use in the state, or Hindi, for its official purposes, subject to the Constitution.",
+      "Article 29(1) protects conservation of a distinct language, script or culture, supporting linguistic communities alongside arrangements for official use."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "2(b)",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2023-2-c",
+    "question": "How does a child’s home language influence in learning school language?",
+    "marks": 2,
+    "answer": [
+      "The home language provides concepts, experiences and communicative strategies that can support learning in another language.",
+      "Differences in vocabulary, sounds or grammar may require explicit connections and practice, but the teacher should build on this foundation rather than regard it as an obstacle to remove."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "2(c)",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2023-2-e",
+    "question": "Why language is called “dynamic”?",
+    "marks": 2,
+    "answer": [
+      "Language changes as people use it in new social, cultural and technological situations.",
+      "New words, meanings and patterns can enter use while others become less common; for example, digital communication has introduced new everyday vocabulary."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "2(e)",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "2(a)",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2023-2-f",
+    "question": "Write briefly about the importance of Assamese language as a lingua franca of the North East.",
+    "marks": 2,
+    "answer": [
+      "Assamese has served as a contact language among different communities in Assam and parts of the wider region, supporting trade, public interaction and cultural exchange.",
+      "Its role varies by place and community; it should not be described as the sole common language of every northeastern state or used to diminish other languages."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "2(f)",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2023-2-g",
+    "question": "Briefly write what aspects of learners linguistic development are possible through the activities inside the classroom.",
+    "marks": 2,
+    "answer": [
+      "Conversation, storytelling and discussion develop listening, vocabulary and spoken expression.",
+      "Shared reading and purposeful writing develop understanding of print, text organisation and expression, with feedback and accessible language support."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "2(g)",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2023-3",
+    "question": "“Language plays an important role as carrier of culture and heritage” — Justify the statement.",
+    "marks": 4,
+    "answer": [
+      "Language preserves stories, songs, proverbs and oral histories that carry community memories.",
+      "Its words and expressions communicate local knowledge, social relationships and cultural practices between generations.",
+      "Using a community language can express identity and belonging, while translation and dialogue allow cultural exchange.",
+      "Schools can invite diverse stories and document them with permission, helping children appreciate heritage without presenting cultures as unchanging or ranking one language above another."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "3",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "6",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2023-4",
+    "question": "As a language teacher what are the strategies you will adopt to overcome the challenges faced in using learners mother tongue in a multilingual classroom.",
+    "marks": 4,
+    "answer": [
+      "Identify children’s home languages and agree that all languages deserve respect, intervening when ridicule or exclusion occurs.",
+      "Use pictures, objects, gestures and multilingual resources to make meanings shared even when the teacher does not speak every language.",
+      "Allow purposeful home-language discussion and peer support, then help children connect ideas with the school language so participation and new-language development both advance.",
+      "Invite appropriate family or community contributions and assess understanding through accessible responses, reviewing which children still lack support rather than assuming one strategy suits everyone."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 3,
+        "questionNumber": "4",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2023-5",
+    "question": "Design a suitable activity to assess the listening skill of students in the lower primary level.",
+    "marks": 4,
+    "answer": [
+      "Tell a short age-appropriate story in a familiar instructional language, checking that children can hear and that unfamiliar vocabulary does not dominate the task.",
+      "Ask children to arrange three or four picture cards in the order they heard, so the task does not depend mainly on reading or handwriting.",
+      "Invite a simple response about a character or event, accepting pointing or another accessible response where appropriate, and note understanding of sequence and detail.",
+      "Record the support provided and use the result to plan further listening opportunities. Repeat observations rather than make a broad judgement from one story."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 4,
+        "questionNumber": "5",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2023-6",
+    "question": "“Teaching through language refers to that teaching, where a language plays the role of a medium of instruction” — Justify the statement.",
+    "marks": 4,
+    "answer": [
+      "In teaching through language, language is used to explore and communicate the subject matter rather than being the only object of study.",
+      "For example, an EVS discussion about clean water uses questions, explanations and descriptions to build understanding of health and the environment.",
+      "Learners need access to both familiar meanings and relevant subject vocabulary, so teachers can use objects, pictures and home-language connections.",
+      "Effective teaching therefore develops content and the language needed to express it together; merely speaking at children in a language they do not understand does not ensure learning."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2023,
+        "page": 4,
+        "questionNumber": "6",
+        "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2024-1-b",
+    "question": "How many vowels in Assamese language?",
+    "marks": 1,
+    "answer": [
+      "Standard Assamese is commonly described as having eight oral vowel phonemes: /i, e, ɛ, a, ɒ, ɔ, o, u/. Vowels are produced without a consonant-like obstruction of airflow. This counts speech sounds, not traditional written vowel letters."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "1(b)",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "1(a)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2024-1-d",
+    "question": "What is Multilingualism?",
+    "marks": 1,
+    "answer": [
+      "Multilingualism is the use or development of more than one language by a person or within a community."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "1(d)",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "1(d)",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      },
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "1(d)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2024-4",
+    "question": "Which skills of language are known as “active and productive skill” and why?",
+    "marks": 4,
+    "answer": [
+      "Speaking and writing are conventionally called productive language skills.",
+      "Speaking creates spoken messages for purposes such as explaining, requesting and discussing.",
+      "Writing creates written messages, requiring selection and organisation of ideas for readers.",
+      "They are called productive because the learner produces language. Listening and reading are termed receptive, but they also involve active interpretation; they are not mentally passive activities."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "4",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2024-5",
+    "question": "Write the role of a teacher in transition of home language to school language.",
+    "marks": 4,
+    "answer": [
+      "Find out which languages and varieties children already use and build a welcoming classroom where these are valued.",
+      "Connect familiar ideas and words with school-language expressions through objects, stories, pictures and bilingual explanations where available.",
+      "Provide gradual opportunities for conversation, shared reading and purposeful writing, using peer support and gentle feedback without shaming accents or early errors.",
+      "Observe understanding and participation, adapt support and involve families. The goal is an additive transition that expands language access rather than suppresses the home language."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "5",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2024-7",
+    "question": "Discuss the role of a language teacher in a multilingual classroom.",
+    "marks": 3,
+    "answer": [
+      "Create an inclusive environment that recognises children’s languages and prevents ridicule or unequal participation.",
+      "Use multilingual materials, accessible explanations and purposeful peer interaction to connect existing knowledge with the school language.",
+      "Observe learning fairly, adapt support and involve families, treating linguistic diversity as a resource rather than a reason to lower expectations."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "7",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2024-9",
+    "question": "Write about the importance of language in curriculum.",
+    "marks": 3,
+    "answer": [
+      "Language is a subject through which learners develop communication, literacy and appreciation of texts.",
+      "It is also used across subjects to understand instructions, discuss ideas, read information and explain reasoning.",
+      "Curriculum planning should therefore support relevant language in every subject, connecting home-language resources with academic expression so learners can participate meaningfully."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2024,
+        "page": 2,
+        "questionNumber": "9",
+        "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2025-1-b",
+    "question": "What is the smallest unit of language?",
+    "marks": 1,
+    "answer": [
+      "For the sound system, a phoneme is the smallest contrastive unit. The smallest meaningful grammatical unit is a morpheme; the distinction matters because the question does not specify “sound” or “meaning”."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "1(b)",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2025-1-e",
+    "question": "In which year did “Right to Education Act” came into force in Assam?",
+    "marks": 1,
+    "answer": [
+      "For Assam’s state implementation rules, the expected year is 2011. Distinguish this from the national RTE Act’s commencement on 1 April 2010; Assam approved and notified its implementing rules in July 2011."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "1(e)",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2025-2-d",
+    "question": "What is the full form of BICS and CALP.",
+    "marks": 2,
+    "answer": [
+      "BICS: Basic Interpersonal Communicative Skills.",
+      "CALP: Cognitive Academic Language Proficiency."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "2(d)",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2025-3",
+    "question": "How can foundational literacy and numeracy be acquired at the elementary level.",
+    "marks": 3,
+    "answer": [
+      "Develop oral language, sound awareness, sound–symbol knowledge and reading with understanding through systematic support alongside stories and meaningful texts.",
+      "Build number sense through counting, comparing, grouping and solving simple problems with concrete materials and everyday situations.",
+      "Use familiar languages, accessible activities and ongoing observation to provide timely support, connecting reading, writing and mathematical understanding rather than relying only on memorisation."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "3",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2025-4",
+    "question": "What is phonetics and phonology? Explain.",
+    "marks": 4,
+    "answer": [
+      "Phonetics studies the production, acoustic properties and perception of speech sounds.",
+      "For example, it describes how the lips and airflow produce /p/ or how voicing differs between sounds.",
+      "Phonology studies the organisation and meaningful contrasts of sounds within a language, including patterns of their combination.",
+      "For example, English /p/ and /b/ distinguish pat and bat, while some variations in the pronunciation of /p/ do not create a different word. Teachers use both perspectives to understand pronunciation without treating every accent difference as an error."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "4",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2025-5",
+    "question": "Write any three functions of language outside the classroom.",
+    "marks": 3,
+    "answer": [
+      "It serves practical purposes such as asking directions or requesting help.",
+      "It builds social relationships through greetings, conversation and sharing experiences.",
+      "It carries community knowledge and creativity through stories, songs, notices and discussion of local events."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "5",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2025-6",
+    "question": "“Teaching through language refers to that teaching, where language plays the role of a medium of instruction” — Justify the statement.",
+    "marks": 3,
+    "answer": [
+      "Language provides the means for explaining, questioning and discussing subject content.",
+      "For example, learners use words for comparison and sequence when describing an experiment, developing knowledge through the discussion.",
+      "Teachers should make this language accessible through familiar meanings, examples and visual support; the goal is understanding the subject, not simply hearing unfamiliar terms."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "6",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2025-7",
+    "question": "Describe the need of international transmission of language and culture.",
+    "marks": 4,
+    "answer": [
+      "International exchange allows people to understand experiences, literature and ideas from communities beyond their own country.",
+      "Translation and language learning support education, collaboration and communication while helping people recognise different perspectives.",
+      "Sharing stories, art and local knowledge can sustain cultural expression and challenge stereotypes when communities control how their heritage is represented.",
+      "Such exchange should be reciprocal and respectful, avoiding the assumption that one language or culture must replace another. It complements, rather than substitutes for, transmission within families and local communities."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "7",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2025-8",
+    "question": "Explain the challenges faced by learners’ in using mother tongue in a multilingual classroom.",
+    "marks": 5,
+    "answer": [
+      "Children may speak different home languages, so a contribution understood by one group may not yet be accessible to others without explanation or support.",
+      "Teachers may lack proficiency in some languages, making it harder to follow children’s ideas and provide precise feedback; suitable materials and community support may also be limited.",
+      "School-language-only expectations or the higher status assigned to one language can make children reluctant to use their mother tongue, weakening participation and confidence.",
+      "Differences in vocabulary, script or grammatical patterns can require careful connections when learners move between home-language discussion and school-language texts.",
+      "Unequal peer grouping or ridicule can further exclude children. These challenges call for inclusive organisation, shared meaning and additional-language support, not the conclusion that mother-tongue use itself is harmful."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2025,
+        "page": 2,
+        "questionNumber": "8",
+        "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2026-1-c",
+    "question": "What is the full form of BICS?",
+    "marks": 1,
+    "answer": [
+      "Basic Interpersonal Communicative Skills."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "1(c)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2026-1-f",
+    "question": "What are the structures of language?",
+    "marks": 1,
+    "answer": [
+      "Major structural levels include phonology (sound patterns), morphology (word structure) and syntax (sentence structure); semantics concerns meaning and pragmatics concerns use in context."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "1(f)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 1,
+    "id": "s1-3-2026-2-b",
+    "question": "State two ways in which language helps in acquiring knowledge.",
+    "marks": 2,
+    "answer": [
+      "Listening and reading give access to other people’s explanations and information.",
+      "Discussion and writing help learners organise ideas, ask questions and explain or revise their reasoning."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "2(b)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2026-2-c",
+    "question": "What is meant by home language?",
+    "marks": 2,
+    "answer": [
+      "Home language refers to the language or languages a child uses in family and everyday home interactions.",
+      "It carries familiar meanings and experiences that can support school learning; it may be different from the language or standard variety used for instruction."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "2(c)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2026-2-d",
+    "question": "What is Foundational Literacy and Numeracy (FLN)?",
+    "marks": 2,
+    "answer": [
+      "Foundational literacy is the ability to understand and use basic oral and written language, including reading with meaning.",
+      "Foundational numeracy is the ability to understand and use numbers and basic mathematical ideas in simple everyday problems; both support further learning."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "2(d)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2026-2-e",
+    "question": "What is phonology?",
+    "marks": 2,
+    "answer": [
+      "Phonology studies how speech sounds are organised and function within a language.",
+      "It examines meaningful sound contrasts and patterns, such as which sound combinations are possible, rather than only the physical production of individual sounds."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "2(e)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2026-2-g",
+    "question": "Write any two objectives of Foundational Literacy given by NEP 2020.",
+    "marks": 2,
+    "answer": [
+      "Develop the ability to read basic text with understanding, rather than merely pronounce words.",
+      "Develop basic writing and oral-language abilities that allow children to express ideas and participate in further learning."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 1,
+        "questionNumber": "2(g)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "id": "s1-3-2026-3-b",
+    "question": "Describe how children move from home language to school language.",
+    "marks": 3,
+    "answer": [
+      "Children begin with familiar meanings, experiences and communicative skills developed through home interactions.",
+      "Teachers connect these resources with school-language expressions through conversation, pictures, stories and bilingual or peer support where suitable.",
+      "With meaningful practice and feedback, children gradually participate in school-language reading, writing and discussion while continuing to value and use their home languages."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 2,
+        "questionNumber": "3(b)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2026-3-c",
+    "question": "Explain the importance of multilingual classrooms.",
+    "marks": 3,
+    "answer": [
+      "Recognising children’s languages supports belonging and makes their existing knowledge available for learning.",
+      "Comparing and using languages can develop awareness of how language works and broaden communication across communities.",
+      "Inclusive multilingual practice helps children access new languages and subject content without requiring them to abandon home-language identity; benefits depend on supportive teaching, not diversity alone."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 2,
+        "questionNumber": "3(c)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2026-3-d",
+    "question": "Describe language diversity in the context of Assam.",
+    "marks": 3,
+    "answer": [
+      "Assam includes Indo-Aryan languages such as Assamese, Bengali and Nepali, and Tibeto-Burman languages such as Bodo, Mising and Karbi.",
+      "Other communities contribute languages such as Santali, and local varieties and contact practices add further diversity; language use varies across regions and families.",
+      "Schools should learn the actual language profile of their children and use it in inclusive teaching rather than assume everyone in Assam shares one mother tongue."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 2,
+        "questionNumber": "3(d)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2026-4",
+    "question": "Explain the Three Language Formula and its importance.",
+    "marks": 4,
+    "answer": [
+      "The formula promotes learning three languages to connect regional or home-language development with communication across wider communities.",
+      "The traditional arrangement combines the regional language, Hindi and English in non-Hindi-speaking states, and Hindi, English and a modern Indian language in Hindi-speaking states.",
+      "NEP 2020 retains a flexible formula: choices reflect states, regions and students, no language is imposed, and at least two chosen languages are native to India.",
+      "Its educational value lies in multilingual access, cultural understanding and national integration. Effective implementation requires suitable teachers, materials and respect for linguistic rights rather than rote learning of three separate subjects."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 2,
+        "questionNumber": "4",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2026-4-alternative",
+    "question": "Write about Cognitive Academic Language Proficiency (CALP)?",
+    "marks": 4,
+    "answer": [
+      "CALP refers to the language proficiency needed to understand and express ideas in academic tasks, such as explaining causes, comparing evidence and interpreting subject texts.",
+      "It includes relevant vocabulary, text organisation and ways of reasoning in school subjects, rather than simply knowing difficult words.",
+      "A learner may converse comfortably in everyday situations yet still need support for a written scientific explanation; conversational fluency alone does not establish readiness for every academic task.",
+      "Teachers can support academic language through models, diagrams, vocabulary in context and guided discussion and writing. Development varies with opportunities and support, so CALP should not become a fixed label for a child’s intelligence."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 2,
+        "questionNumber": "4 (alternative)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2026-5",
+    "question": "What is the place of language in the curriculum?",
+    "marks": 4,
+    "answer": [
+      "Language has a place as a subject, developing communication, literacy and engagement with literature and other texts.",
+      "It is also a medium for learning across mathematics, EVS, social studies and other areas.",
+      "Each subject uses particular vocabulary and forms of explanation, so its teacher shares responsibility for helping learners understand and use them.",
+      "Curriculum planning should connect home-language resources, oral interaction, reading and writing with meaningful content, making participation accessible rather than separating language from conceptual learning."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 2,
+        "questionNumber": "5",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 4,
+    "id": "s1-3-2026-5-alternative",
+    "question": "State two functions of language inside and outside the classroom.",
+    "marks": 4,
+    "answer": [
+      "Inside the classroom, language supports inquiry: learners ask questions, explain observations and compare ideas.",
+      "It also organises participation through instructions, turn-taking and discussion of shared tasks.",
+      "Outside the classroom, language serves practical needs such as requesting help and exchanging information.",
+      "It also maintains social and cultural relationships through conversation, storytelling and community interaction. The same function can operate in both settings."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2026,
+        "page": 2,
+        "questionNumber": "5 (alternative)",
+        "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  },
+  {
+    "unit": 3,
+    "id": "s1-3-2021-1-d-bengali-version",
+    "question": "To which language family does Bengali belong?",
+    "marks": 1,
+    "answer": [
+      "Bengali belongs to the Indo-Aryan branch of the Indo-European language family."
+    ],
+    "status": "verified",
+    "occurrences": [
+      {
+        "year": 2021,
+        "page": 2,
+        "questionNumber": "1(d) (Bengali version)",
+        "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+        "verification": "visually-checked-original"
+      }
+    ]
+  }
+]

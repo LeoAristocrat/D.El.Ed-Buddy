@@ -1,0 +1,3633 @@
+{
+  "course": "s1-6",
+  "units": [
+    {
+      "unit": 1,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Pedagogy of Mathematics I",
+          "url": "/curriculum-2024.pdf#page=31"
+        },
+        {
+          "label": "NCERT — National Curriculum Framework for Foundational Stage, mathematics pedagogy",
+          "url": "https://ncert.nic.in/pdf/focus-group/NCF-FS_2022EN.pdf#page=129"
+        },
+        {
+          "label": "National Education Policy 2020 — foundational literacy and numeracy",
+          "url": "https://www.education.gov.in/sites/upload_files/mhrd/files/nep/NEP_Final_English.pdf"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "Expand FLN.",
+          [
+            "Foundational Literacy and Numeracy."
+          ]
+        ],
+        [
+          1,
+          "What does “number sense” mean?",
+          [
+            "An understanding of quantities, number relationships and flexible ways of working with numbers."
+          ]
+        ],
+        [
+          1,
+          "Name one early mathematical domain beyond arithmetic.",
+          [
+            "Measurement, such as comparing lengths."
+          ]
+        ],
+        [
+          1,
+          "Which is a learning outcome: “teach shapes” or “sort objects by shape”?",
+          [
+            "“Sort objects by shape”, because it describes an observable learner action."
+          ]
+        ],
+        [
+          1,
+          "A child sees three dots and says “three” without counting. Name this ability.",
+          [
+            "Subitising."
+          ]
+        ],
+        [
+          1,
+          "What is a benchmark in foundational learning?",
+          [
+            "A reference describing expected learning that helps teachers assess progress and plan support."
+          ]
+        ],
+        [
+          1,
+          "Give one example of numeracy used during a school meal.",
+          [
+            "Matching one plate to each child to check whether there are enough plates."
+          ]
+        ],
+        [
+          1,
+          "What is meant by an informal mathematical experience?",
+          [
+            "Learning or using mathematical ideas in everyday activity, such as comparing portions while sharing food."
+          ]
+        ],
+        [
+          1,
+          "Name one way to observe numeracy without a written worksheet.",
+          [
+            "Ask a child to arrange objects by length and explain the arrangement."
+          ]
+        ],
+        [
+          1,
+          "Does memorising number words prove that a child can count objects accurately?",
+          [
+            "No. Accurate object counting also requires matching one number word to each object and understanding the total."
+          ]
+        ],
+        [
+          2,
+          "Distinguish foundational literacy from foundational numeracy.",
+          [
+            "Foundational literacy involves understanding and using oral and written language for meaning.",
+            "Foundational numeracy involves understanding and using quantities, numbers, shapes, measures and relationships; the two can support each other in meaningful tasks."
+          ]
+        ],
+        [
+          2,
+          "How can a child get a correct sum without showing number sense?",
+          [
+            "The child may copy a remembered procedure without understanding the quantities or why the steps work.",
+            "Ask for an estimate, explanation or a related real-life example to find out whether the answer reflects understanding."
+          ]
+        ],
+        [
+          2,
+          "Give two reasons to teach mathematical vocabulary in context.",
+          [
+            "Words such as fewer, longer and between gain meaning when linked to objects and actions.",
+            "Discussing a familiar situation lets children explain an idea in their home language while connecting it to classroom terminology."
+          ]
+        ],
+        [
+          2,
+          "Rewrite “The learner knows measurement” as a clearer outcome.",
+          [
+            "“The learner compares the lengths of two objects by aligning one endpoint and identifies the longer object.”",
+            "This specifies an action and a comparison that the teacher can observe, rather than the vague word knows."
+          ]
+        ],
+        [
+          2,
+          "Why is an outcome different from a classroom activity?",
+          [
+            "An activity describes what children do, such as playing with blocks.",
+            "An outcome describes the intended learning, such as composing a larger shape from smaller shapes and explaining how the pieces fit."
+          ]
+        ],
+        [
+          2,
+          "Explain one connection between numeracy and EVS.",
+          [
+            "A class can count and compare the numbers of leaves on two observed plants.",
+            "The mathematical record supports an EVS discussion, while children learn that a larger count alone does not explain why plants grow differently."
+          ]
+        ],
+        [
+          2,
+          "How can early spatial understanding support daily independence?",
+          [
+            "Children use words such as beside and behind to locate objects or follow directions.",
+            "Recognising shapes and fitting objects into spaces also helps with packing, arranging materials and navigating familiar places."
+          ]
+        ],
+        [
+          2,
+          "Why should an outcome not require every learner to use the same strategy?",
+          [
+            "Different valid strategies can demonstrate the same understanding, such as counting on or decomposing a number.",
+            "Requiring one method can hide understanding and discourage learners from explaining efficient approaches they already use."
+          ]
+        ],
+        [
+          2,
+          "Give two signs that a task measures copying more than numeracy.",
+          [
+            "All responses reproduce the teacher’s completed example with no changed quantities.",
+            "Children can copy the numerals but cannot connect them to objects or explain what the result means."
+          ]
+        ],
+        [
+          2,
+          "What should a teacher do when an FLN benchmark has not yet been reached?",
+          [
+            "Identify the specific skill or access barrier through a manageable task and discussion.",
+            "Provide targeted support and revisit progress; a missed benchmark should guide teaching, not label the child permanently incapable."
+          ]
+        ],
+        [
+          3,
+          "Explain how a story can integrate literacy and numeracy without losing either aim.",
+          [
+            "Tell a short story about four birds joined by two more, checking that children understand the events.",
+            "Invite learners to represent the change with counters and explain why there are six birds.",
+            "Ask them to retell the situation in their own words and create another ending, observing both language and quantitative reasoning."
+          ]
+        ],
+        [
+          3,
+          "A child recites to 50 but double-counts objects. What does this show, and what would you do?",
+          [
+            "Reciting a sequence is a strength, but it does not establish accurate one-to-one counting.",
+            "Provide a smaller collection and let the child move each counted object into a separate space while saying one number word.",
+            "Ask how many there are altogether and repeat with a rearranged collection to check counting and cardinality."
+          ]
+        ],
+        [
+          3,
+          "Explain three ways in which learning outcomes help lesson planning.",
+          [
+            "They clarify the intended mathematical understanding, helping the teacher select a suitable task.",
+            "They identify evidence to look for, such as an explanation, representation or accurate comparison.",
+            "They help the teacher decide whether to extend the task or provide further support after observing learners."
+          ]
+        ],
+        [
+          3,
+          "Distinguish an aim, a competency and a lesson outcome using early mathematics.",
+          [
+            "An aim is a broad purpose, such as developing confident mathematical reasoning.",
+            "A competency is an integrated ability, such as using measurement to compare objects appropriately.",
+            "A lesson outcome makes an aspect observable, such as measuring two pencils with equal-sized units placed without gaps."
+          ]
+        ],
+        [
+          3,
+          "Why should foundational mathematics include data handling?",
+          [
+            "Children learn to collect information to answer a meaningful question rather than treat numbers as isolated symbols.",
+            "Organising observations into groups or simple charts develops comparison and representation.",
+            "Discussing what the data show supports reasoning and communication, including recognising when a conclusion goes beyond the evidence."
+          ]
+        ],
+        [
+          3,
+          "A worksheet says “Circle the bigger number” but uses unfamiliar language. How could this distort assessment?",
+          [
+            "A child may understand quantities but fail to understand the instruction, so the result mixes language access with mathematical knowledge.",
+            "Show two collections and ask the comparison in familiar language or with an accessible demonstration.",
+            "Compare this response with the numeral task to identify whether the difficulty concerns language, quantity or symbol recognition."
+          ]
+        ],
+        [
+          3,
+          "Explain why confidence and accuracy are both relevant to early mathematics.",
+          [
+            "Confidence helps children attempt tasks, ask questions and explain uncertain ideas.",
+            "Accuracy matters because quantities and relationships must be represented correctly, with opportunities to check results.",
+            "Teachers can support both by valuing reasoning and giving specific corrective feedback instead of praising any answer or shaming mistakes."
+          ]
+        ],
+        [
+          3,
+          "Suggest three outcomes for a class shop activity, each from a different mathematical area.",
+          [
+            "Number: combine the prices of two objects within a selected range and explain the total.",
+            "Measurement: compare two packages using a balance and identify which is heavier.",
+            "Data: record classmates’ chosen items using one mark per choice and compare the totals."
+          ]
+        ],
+        [
+          3,
+          "How can everyday mathematical knowledge be recognised when children enter school?",
+          [
+            "Ask children to describe sharing food, playing games, helping at a stall or arranging household objects.",
+            "Offer familiar materials so they can show strategies even if they cannot yet write numerals.",
+            "Record these strengths and connect classroom representations to them, avoiding assumptions based on family income or language."
+          ]
+        ],
+        [
+          3,
+          "What makes a learning outcome useful for inclusion?",
+          [
+            "It identifies the intended concept clearly, so access arrangements do not accidentally change what is assessed.",
+            "It allows different ways of demonstrating understanding, such as speech, sign, touch or objects where suitable.",
+            "It guides individual support while keeping meaningful learning expectations rather than reducing a child to a diagnostic label."
+          ]
+        ],
+        [
+          4,
+          "Design an outcome, activity and assessment for comparing quantities up to 10.",
+          [
+            "Outcome: the learner compares two small collections and explains which has more, fewer or the same number.",
+            "Activity: pairs give one token to each toy in two groups, first matching tokens and then counting if needed.",
+            "Assessment: rearrange one collection without changing its number and ask the learner to compare again, explaining the choice.",
+            "Record whether the child uses matching, counting or visual length. Respond with a targeted demonstration and a new comparison instead of only marking the answer."
+          ]
+        ],
+        [
+          4,
+          "Critique the outcome “All children will finish page 12 in ten minutes.”",
+          [
+            "Finishing a page describes completion, not the mathematical understanding being developed.",
+            "The fixed time may measure reading or writing speed and create unnecessary barriers.",
+            "Replace it with an observable concept, for example explaining two ways to compose the number 8 with objects or drawings.",
+            "Use the worksheet as one possible activity and gather explanations, adapting time and response mode while keeping the mathematical goal clear."
+          ]
+        ],
+        [
+          4,
+          "Explain how gaps in foundational numeracy can affect later learning without treating them as permanent.",
+          [
+            "Later arithmetic assumes understanding of quantity, grouping and place value; gaps can make written procedures difficult to interpret.",
+            "Measurement, graphs and science tasks can also become harder when learners cannot compare or represent quantities reliably.",
+            "This may reduce confidence if mistakes repeatedly receive only negative judgement.",
+            "Nevertheless, focused teaching, accessible representations and regular feedback can improve understanding. Diagnose the particular gap and provide support rather than claim that an early difficulty fixes a child’s future."
+          ]
+        ],
+        [
+          4,
+          "Plan a brief observation to distinguish numeral recognition, counting and cardinality.",
+          [
+            "Show numeral cards separately and ask the child to name or match them to known quantities.",
+            "Present a small collection and observe whether each object receives exactly one number word.",
+            "After counting, ask “How many altogether?” and observe whether the final count is used as the total.",
+            "Compare the three observations before planning support. A child may recognise symbols without accurate counting, or count objects while still developing the meaning of the total."
+          ]
+        ],
+        [
+          4,
+          "Explain the relationship between meaningful practice and conceptual understanding.",
+          [
+            "Conceptual understanding connects numbers, operations and representations, explaining why a method works.",
+            "Practice helps a learner use these relationships more fluently, especially when tasks vary in thoughtful ways.",
+            "For example, after making ten with counters, compare 8 + 2, 8 + 3 and a missing-part problem rather than repeat one identical calculation.",
+            "Ask for explanations and review errors. Practice need not be mindless repetition, and understanding does not remove the need to consolidate skills."
+          ]
+        ],
+        [
+          5,
+          "Design a one-week plan that connects five areas of early mathematics through a classroom garden.",
+          [
+            "Begin with an outcome for each area and adapt the number range to the class. On day one, children count pots and make a one-to-one record of seedlings.",
+            "On day two, compare plant heights using equal-sized blocks, discussing endpoints and units.",
+            "On day three, describe shapes and positions when arranging pots, using terms such as beside and between.",
+            "On day four, make and explain repeating label patterns. On day five, chart the class’s plant choices using one symbol per child and compare totals.",
+            "Observe explanations and save short records across the week. The garden provides a shared context, but each activity must still make its mathematical learning explicit."
+          ]
+        ],
+        [
+          5,
+          "A parent asks why children play with objects instead of doing pages of sums. Give a balanced response.",
+          [
+            "Explain that manipulating objects can help children understand quantities and operations before or alongside using notation.",
+            "Demonstrate combining two collections and then representing the same action as an addition sentence. Ask the child to explain the connection.",
+            "Explain that purposeful games also reveal strategies, misconceptions and mathematical language that copied answers may conceal.",
+            "Written work and practice still have a role when connected to meaning and suited to the child’s current learning; objects are not an excuse to avoid progress.",
+            "Share the learning outcome and a concrete example of improvement. Suggest a short, enjoyable home task without requiring expensive materials or turning every interaction into a test."
+          ]
+        ],
+        [
+          5,
+          "Develop an inclusive assessment plan for the outcome “compares lengths using equal units”.",
+          [
+            "Offer two manageable objects and a set of equal-sized units, with the task explained in familiar language.",
+            "Allow visual or tactile access and a suitable response mode; ensure the units are easy to handle and identify.",
+            "Observe whether the learner aligns the start, places units end to end without gaps or overlaps, and compares the resulting counts.",
+            "Ask for an explanation or demonstration, and change an object’s position to check that orientation alone does not determine the answer.",
+            "Record the specific strategy and next step, then reassess after support. Do not confuse limited handwriting, speech or vision with lack of measurement understanding."
+          ]
+        ],
+        [
+          5,
+          "How would you evaluate whether a foundational numeracy programme is helping learners?",
+          [
+            "Specify the competencies to examine, such as counting, place value, comparing lengths and explaining simple problems.",
+            "Gather starting evidence through accessible tasks, then use comparable but not identical tasks after a period of teaching.",
+            "Examine individual strategies and progress as well as group patterns; an average can hide children who need support.",
+            "Include participation, confidence and opportunities to learn, checking whether language, attendance or materials limit access.",
+            "Use the findings to adjust instruction and follow up. Improvement on practised questions alone is weaker evidence than successful explanation and transfer to a new situation."
+          ]
+        ],
+        [
+          5,
+          "Explain how FLN supports educational access while avoiding a narrow “basics only” curriculum.",
+          [
+            "Understanding language and quantities helps learners take part in classroom discussion, follow tasks and connect with later subject learning.",
+            "Without appropriate support, unfamiliar text and number demands can exclude children even when they have useful everyday knowledge.",
+            "Therefore schools need purposeful teaching, familiar-language support and early identification of specific difficulties.",
+            "However, foundational learning should also include stories, art, play, movement, exploration and relationships. These provide rich contexts for literacy and mathematics rather than distractions from them.",
+            "Plan connected activities with clear outcomes and observe progress. Access means expanding learners’ opportunities, not confining children who struggle to endless copying or drills."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-6-2021-2-a",
+          "question": "“Mathematics is the science of logic” — Explain the statement.",
+          "marks": 2,
+          "answer": [
+            "Mathematics uses precise definitions, relationships and justified steps to reach conclusions rather than relying only on guesses.",
+            "For example, from 7 = 5 + 2 we can explain why 7 − 2 = 5 by the inverse relationship between addition and subtraction."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-1-a",
+          "question": "Mention one important objective of teaching mathematics at elementary level.",
+          "marks": 1,
+          "answer": [
+            "To develop children’s ability to reason and solve meaningful problems involving quantities, shapes and relationships."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-9",
+          "question": "Write briefly about the educational values of teaching mathematics.",
+          "marks": 4,
+          "answer": [
+            "Practical value: children use quantities, measures, time and money in everyday decisions.",
+            "Intellectual value: they practise analysing relationships, justifying claims and solving problems.",
+            "Communicative and social value: explaining strategies and comparing solutions develops precise expression and cooperative reasoning.",
+            "Aesthetic and cultural value: patterns in art, buildings and local practices reveal mathematical structure and the contributions of different communities."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "9",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-1-c",
+          "question": "What do you mean by mathematization?",
+          "marks": 1,
+          "answer": [
+            "Mathematization means expressing and reasoning about a situation through mathematical ideas such as quantities, relationships, shapes or patterns."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-2-c",
+          "question": "What are the practical values of mathematics? Explain how mathematics is part of daily life with examples.",
+          "marks": 2,
+          "answer": [
+            "Mathematics helps people calculate prices, quantities and change when buying goods.",
+            "It also supports measuring materials, planning time, comparing distances and interpreting information for everyday decisions."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-3-a",
+          "question": "Mention two vocations which use mathematics. Explain how these vocations use mathematics.",
+          "marks": 3,
+          "answer": [
+            "A carpenter measures length, checks angles and calculates areas before cutting wood.",
+            "A shopkeeper totals bills, measures quantities, calculates change and compares costs.",
+            "In both cases, choosing suitable units and checking whether a result is reasonable helps prevent waste and mistakes."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 2,
+              "questionNumber": "3(a)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-2-d",
+          "question": "What is mathematisation? Explain with an example.",
+          "marks": 2,
+          "answer": [
+            "Mathematisation involves identifying and expressing the mathematical relationships in a situation so it can be reasoned about.",
+            "If 12 children need one pencil each and only 8 pencils are available, representing the shortage as 12 − 8 gives 4 more pencils needed."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-1-f",
+          "question": "What is the importance of FN in the life of a child?",
+          "marks": 1,
+          "answer": [
+            "Foundational numeracy helps a child understand quantities and relationships, solve everyday problems and build a basis for later mathematical learning."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(f)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-2-a",
+          "question": "Name any two major aspects of early mathematics.",
+          "marks": 2,
+          "answer": [
+            "Numbers and operations, such as counting and combining quantities.",
+            "Shapes and spatial understanding, such as recognising shapes and describing relative positions."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-5",
+          "question": "What do you mean by a learning outcome? Explain with an example from elementary mathematics.",
+          "marks": 4,
+          "answer": [
+            "A learning outcome states what learners are expected to know, understand or demonstrate after learning; it focuses on learners’ performance rather than topics the teacher has covered.",
+            "A useful outcome is sufficiently clear to guide the choice of an activity and evidence of understanding.",
+            "Illustrative outcome: “The child groups a collection of up to 30 objects into tens and ones and explains the grouping.”",
+            "Give 24 sticks and ask the child to organise and explain them. Two bundles of ten and four loose sticks, connected to 24, provide evidence; simply copying “24” does not establish the same understanding."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 3,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Pedagogy of Mathematics I",
+          "url": "/curriculum-2024.pdf#page=31"
+        },
+        {
+          "label": "NCERT — National Curriculum Framework for Foundational Stage, mathematics pedagogy",
+          "url": "https://ncert.nic.in/pdf/focus-group/NCF-FS_2022EN.pdf#page=129"
+        },
+        {
+          "label": "CORD — REACT strategies",
+          "url": "https://www.cord.org/wp-content/uploads/2023/09/Adult-CPL-Updated-Sept-2023-Day-2-2.pdf"
+        },
+        {
+          "label": "H. E. Armstrong — The Heuristic Method of Teaching",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1949-8594.1902.tb00110.x"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What does the L in ELPS represent?",
+          [
+            "Spoken language: describing the mathematical experience in words."
+          ]
+        ],
+        [
+          1,
+          "What does the T in CORD’s REACT strategy represent?",
+          [
+            "Transferring learning to a new situation."
+          ]
+        ],
+        [
+          1,
+          "Name the third block in NCERT’s Four Blocks model for mathematics.",
+          [
+            "Skills practice."
+          ]
+        ],
+        [
+          1,
+          "What is meant by scaffolding a mathematical task?",
+          [
+            "Providing temporary support that helps a learner attempt a task and is adjusted or reduced as understanding develops."
+          ]
+        ],
+        [
+          1,
+          "Give one example of a teacher prompt that reveals reasoning.",
+          [
+            "“How did you decide that these two groups have the same number?”"
+          ]
+        ],
+        [
+          1,
+          "What is conservation of number?",
+          [
+            "Understanding that rearranging a collection does not change its number when no objects are added or removed."
+          ]
+        ],
+        [
+          1,
+          "Which representation comes after pictures in the ELPS sequence?",
+          [
+            "Symbols, such as numerals and operation signs."
+          ]
+        ],
+        [
+          1,
+          "What is a mathematical misconception?",
+          [
+            "An incorrect underlying idea or relationship that can produce a pattern of errors."
+          ]
+        ],
+        [
+          1,
+          "Does independent practice mean the teacher stops observing?",
+          [
+            "No. The teacher still observes, gives feedback and offers support when needed."
+          ]
+        ],
+        [
+          1,
+          "Name one mathematical concept that can be explored through a dance pattern.",
+          [
+            "Repeating patterns, such as a clap–step–clap–step sequence."
+          ]
+        ],
+        [
+          2,
+          "Distinguish a slip from a misconception.",
+          [
+            "A slip may be an occasional mistake despite understanding, such as miscopying a digit.",
+            "A misconception reflects an incorrect idea used systematically; discussion and varied tasks help distinguish them rather than one answer alone."
+          ]
+        ],
+        [
+          2,
+          "Why should a teacher ask for an explanation before diagnosing an error?",
+          [
+            "The same wrong answer can arise from different reasoning, misreading or a recording slip.",
+            "Hearing or observing the child’s strategy helps the teacher choose support that addresses the actual difficulty."
+          ]
+        ],
+        [
+          2,
+          "Explain “relating” and “experiencing” in REACT with a length example.",
+          [
+            "Relating connects the task to a familiar need, such as choosing a ribbon long enough for a parcel.",
+            "Experiencing involves comparing ribbons or measuring them directly, allowing learners to investigate the length relationship."
+          ]
+        ],
+        [
+          2,
+          "How does cooperation differ from copying a partner’s answer?",
+          [
+            "Cooperation involves sharing responsibility, explaining ideas and checking reasoning together.",
+            "Copying may produce a correct response without understanding; give each child a role and ask each to explain a decision."
+          ]
+        ],
+        [
+          2,
+          "Give two reasons to use a child’s home language during mathematics discussion.",
+          [
+            "It lets the child express existing mathematical ideas without an unnecessary language barrier.",
+            "It helps the teacher connect familiar expressions to mathematical terms and notation used at school."
+          ]
+        ],
+        [
+          2,
+          "Explain teacher modelling in gradual release of responsibility.",
+          [
+            "The teacher demonstrates a strategy while making the reasoning visible, such as grouping tens and explaining an exchange.",
+            "Learners observe the decision process, then participate with guidance before attempting related tasks more independently."
+          ]
+        ],
+        [
+          2,
+          "Why is a picture not always sufficient for teaching a new concept?",
+          [
+            "A learner may attend to irrelevant details or fail to see what parts of the picture represent.",
+            "Link the picture to a concrete action and a spoken explanation, checking how the child interprets it before introducing notation."
+          ]
+        ],
+        [
+          2,
+          "How can sport support measurement learning without a speed contest?",
+          [
+            "Children can measure and compare the distance of beanbag throws using equal units.",
+            "Focus on consistent measuring and explanations, offering adapted movements or roles so participation does not depend on athletic ability."
+          ]
+        ],
+        [
+          2,
+          "Why should Piaget’s age ranges be used cautiously in planning?",
+          [
+            "They describe broad theoretical tendencies, not exact deadlines for every child.",
+            "Actual performance depends on experience, language, task demands and support, so planning should also use direct observation."
+          ]
+        ],
+        [
+          2,
+          "Give two features of a useful mathematical story problem.",
+          [
+            "Its quantities and relationships are clear and meaningful to learners.",
+            "It invites mathematical reasoning at an appropriate level rather than burying a simple idea in unnecessarily complex language."
+          ]
+        ],
+        [
+          3,
+          "Use ELPS to introduce subtraction as taking away.",
+          [
+            "Experience: start with seven counters and remove two. Language: describe having seven, taking away two and having five left.",
+            "Pictures: draw seven objects and cross out two, linking the drawing to the action.",
+            "Symbols: write 7 − 2 = 5 and ask the child to explain what each number and sign represents."
+          ]
+        ],
+        [
+          3,
+          "A child writes 4 + 0 = 40. Suggest a diagnosis and response.",
+          [
+            "The child may be joining written digits rather than interpreting addition, but first ask how the answer was formed.",
+            "Use four objects and an empty group, combine them and discuss why there are still four.",
+            "Connect the action to 4 + 0 = 4 and distinguish it from writing forty, then check with another number."
+          ]
+        ],
+        [
+          3,
+          "Explain how a project differs from a disconnected set of mathematics activities.",
+          [
+            "A project centres on a meaningful question or purpose, such as deciding how to organise classroom materials.",
+            "Its counting, measuring and recording activities contribute to that shared purpose.",
+            "Learners use the findings to make and explain a decision, reflecting on the mathematics rather than merely completing unrelated worksheets."
+          ]
+        ],
+        [
+          3,
+          "Plan oral math talk for the number 9.",
+          [
+            "Show nine dots arranged in two groups and invite children to say how they see the total.",
+            "Record strategies such as 5 + 4 or 6 + 3, asking learners to explain the connection to the dots.",
+            "Compare the representations without making speed the goal, then use observations to select the following teaching task."
+          ]
+        ],
+        [
+          3,
+          "A learner can add with blocks but not with numerals. What transition would you provide?",
+          [
+            "Ask the learner to describe each action with the blocks and ensure the quantities are understood.",
+            "Draw a matching representation next to the objects, then place the numeral and operation sentence alongside it.",
+            "Have the learner point between the objects, drawing and symbols, explaining each part before gradually reducing the physical support."
+          ]
+        ],
+        [
+          3,
+          "How can an art activity develop symmetry rather than only decoration?",
+          [
+            "Ask children to make a design on one side of a fold line and predict where matching parts should lie.",
+            "Fold, trace or use a mirror to test whether corresponding parts match in position and size.",
+            "Discuss mismatches and revise the design, connecting the artistic product to the mathematical idea of reflection."
+          ]
+        ],
+        [
+          3,
+          "Give an example of transferring learning in REACT.",
+          [
+            "Children first learn equal grouping by placing twelve counters into groups of three.",
+            "Later ask how to pack fifteen pencils with three in each packet, using the same grouping relationship in a new context.",
+            "Ask learners to explain what stayed the same and what changed, rather than treating transfer as another identical worksheet."
+          ]
+        ],
+        [
+          3,
+          "How should a teacher respond when two valid methods give the same answer?",
+          [
+            "Invite both learners to show their reasoning with representations the class can follow.",
+            "Compare the relationships used, such as counting on versus making ten, and check that both methods fit the problem.",
+            "Discuss which method might be convenient in a new example without labelling one child’s method inherently superior."
+          ]
+        ],
+        [
+          3,
+          "Explain how observation should guide the pace of gradual release.",
+          [
+            "During modelling and guided work, note whether learners can explain the key relationship rather than only imitate movements.",
+            "Offer pair or independent tasks when there is evidence that learners can attempt the reasoning.",
+            "If confusion appears, restore focused support and then check again; release is responsive, not an irreversible timetable."
+          ]
+        ],
+        [
+          3,
+          "A game rewards only the fastest correct answer. How would you improve it?",
+          [
+            "Replace speed-based elimination with a shared task, such as finding different pairs that make ten.",
+            "Allow objects, drawings and discussion, giving each learner time and an active role.",
+            "Reward clear explanations and checking, and use observations to identify the next teaching step."
+          ]
+        ],
+        [
+          4,
+          "Compare the ELPS sequence with the Four Blocks model.",
+          [
+            "ELPS links concrete experience, spoken language, pictures and symbols to develop a mathematical idea.",
+            "The Four Blocks model organises mathematics time into oral math talk, skills teaching, skills practice and a math game.",
+            "ELPS can be used within skills teaching and revisited during practice; the two models address different aspects of lesson design.",
+            "For example, a combining-counters ELPS activity can follow oral talk and be followed by varied addition tasks and a game. Do not rename the four blocks as concrete, pictorial, abstract and apply."
+          ]
+        ],
+        [
+          4,
+          "Design a story-based lesson that reveals different meanings of subtraction.",
+          [
+            "Tell a story in which a child has nine shells and gives three away, inviting a take-away model.",
+            "Change the story to comparing nine shells with six shells and ask how many more the first child has.",
+            "Introduce a missing-part story: six shells are visible and there are nine altogether; how many are hidden?",
+            "Discuss how 9 − 6 or 9 − 3 represents the relevant relationship in each case, using objects and explanations to avoid relying on a single keyword."
+          ]
+        ],
+        [
+          4,
+          "A child says a longer row must contain more counters. Explain a supportive response.",
+          [
+            "Arrange two equal collections in matching pairs and ask the child to check them.",
+            "Spread one row without adding or removing counters and ask what changed and what stayed the same.",
+            "Invite the child to match or count again and explain the result, rather than simply announce that the judgement is wrong.",
+            "Repeat with varied arrangements over time. Treat the response as evidence about current reasoning and task interpretation, not proof that the child cannot learn arithmetic."
+          ]
+        ],
+        [
+          4,
+          "Use all five REACT strategies in a lesson on equal sharing.",
+          [
+            "Relating: discuss sharing classroom materials fairly. Experiencing: let children distribute twelve counters among four toy characters.",
+            "Applying: ask them to work out how many crayons each of four groups can receive from twelve crayons.",
+            "Cooperating: partners compare distributions and explain how they checked equal shares.",
+            "Transferring: change the quantities or ask how many groups can receive three each. Connect the situations to division while checking that each learner understands the relationship."
+          ]
+        ],
+        [
+          4,
+          "Explain how to analyse a class set of subtraction errors responsibly.",
+          [
+            "Collect a few varied examples and ask children to explain or demonstrate selected solutions.",
+            "Look for patterns such as place-value confusion, operation misunderstanding or occasional recording slips; do not diagnose from one result alone.",
+            "Group the instructional needs and plan representations or questions addressing each pattern, keeping records private and descriptive.",
+            "After feedback, offer a new task to check whether reasoning changed. Avoid fixed ability labels or repeated punishment for an unaddressed misconception."
+          ]
+        ],
+        [
+          5,
+          "Plan a Four Blocks lesson for composing and decomposing 10.",
+          [
+            "Set the outcome: children represent 10 as two parts and explain how they know the total remains 10. Begin oral math talk with a ten-frame and invite different ways of seeing it.",
+            "During skills teaching, move ten counters into two groups, describe the parts and connect them to pictures and addition statements.",
+            "For skills practice, pairs find several decompositions, including a group of zero, and explain how they check the total. Offer ten-frames or tactile counters as needed.",
+            "For the math game, hide part of a ten-counter collection and ask partners to infer the hidden quantity, then reveal and check it.",
+            "Record strategies and misconceptions for the next lesson. The sequence should balance explanation, guided teaching, varied practice and purposeful play rather than four unrelated activities."
+          ]
+        ],
+        [
+          5,
+          "Develop an inclusive project on organising a classroom lending library.",
+          [
+            "Pose a shared problem: how can the class arrange and lend books so they are easy to find and return? Agree on manageable mathematical outcomes.",
+            "Children count collections, compare shelf space, classify books using a chosen rule and make a simple lending record.",
+            "Provide accessible roles, such as handling tactile labels, counting with a partner, drawing categories or explaining an arrangement in a familiar language.",
+            "Discuss whether different categories overlap, how totals are checked and what a missing record means. The teacher links practical choices to mathematics.",
+            "Groups present and test their system, then reflect on improvements. Assess each learner’s reasoning and participation, not only the appearance of the final display."
+          ]
+        ],
+        [
+          5,
+          "A teacher believes manipulatives automatically produce understanding. Critically examine this claim.",
+          [
+            "Manipulatives provide useful representations, but learners may attend to colour, play or procedures without seeing the mathematical relationship.",
+            "The teacher must select materials whose structure fits the concept, such as bundles of ten for place value, and explain the relevant features.",
+            "Invite learners to act, describe, draw and connect to notation, checking whether they can move between representations.",
+            "Vary tasks and ask for predictions or explanations to distinguish conceptual understanding from memorised handling routines.",
+            "Reduce or adapt support when appropriate, but allow learners to return to a representation when reasoning becomes difficult. Understanding depends on the meaning made through the activity, not on an object’s presence alone."
+          ]
+        ],
+        [
+          5,
+          "Design a cycle of diagnosis, teaching and reassessment for confusion about the equals sign.",
+          [
+            "Present 6 + 2 = __ and 6 + 2 = __ + 3, asking the child to explain the meaning of the sign and each answer.",
+            "If the child treats equals as “write the result next”, use two balanced collections or a balance representation to show equivalent quantities on both sides.",
+            "Build statements such as 8 = 5 + 3 and 4 + 4 = 6 + 2, describing why both sides have equal value.",
+            "Invite the learner to create a true statement and explain it to a partner, then solve a new missing-number example.",
+            "Record the explanation and any remaining difficulty. Correct entries alone are insufficient if the child still cannot interpret equality as a relationship."
+          ]
+        ],
+        [
+          5,
+          "Explain how to combine explicit instruction with learner exploration in mathematics.",
+          [
+            "Exploration gives learners opportunities to notice patterns, try strategies and reveal prior understanding, but it should have a clear mathematical purpose.",
+            "Explicit instruction can focus attention on a key relationship, model a useful representation or address a difficulty that unguided trial has not resolved.",
+            "For example, children explore bundling sticks, then the teacher explains the exchange of ten ones for one ten and models its written representation.",
+            "Learners practise with new quantities, discuss methods and gradually work independently while the teacher checks explanations.",
+            "The balance depends on the concept and learners’ responses. Neither lengthy telling nor unsupported discovery should become a fixed rule for every lesson."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-6-2021-2-b",
+          "question": "Write two ways to make mathematics learning joyful.",
+          "marks": 2,
+          "answer": [
+            "Use purposeful games, such as matching dot cards to quantities, with enough thinking time for every child.",
+            "Connect concepts to familiar stories and objects, inviting different strategies and treating errors as opportunities to learn."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-2-e",
+          "question": "Who is the father of the heuristic method? Why is this method called child-centric?",
+          "marks": 2,
+          "answer": [
+            "Henry Edward Armstrong is commonly credited with developing the heuristic method of teaching science.",
+            "It is child-centred because learners investigate questions, try procedures and draw conclusions with teacher guidance, instead of receiving only ready-made statements."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "2(e)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-2-f",
+          "question": "“Mathematics is a tough and fearsome subject.” As a mathematics teacher, what strategy would you adopt to eradicate this negative belief?",
+          "marks": 2,
+          "answer": [
+            "Begin with accessible, meaningful problems using familiar objects so children experience success and can explain their reasoning.",
+            "Give time, supportive feedback and choices of representation; discuss mistakes without ridicule and avoid equating speed with intelligence."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "2(f)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-2-f-alternative",
+          "question": "Write two differences between inductive and deductive methods.",
+          "marks": 2,
+          "answer": [
+            "Induction moves from particular examples towards a generalisation; deduction starts with an accepted rule and applies logical steps to a particular case.",
+            "Induction can suggest a conjecture from patterns, while deduction can establish a conclusion from stated premises. Testing examples alone does not prove a universal rule."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "2(f) (alternative)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-2",
+          "question": "Why is learning error analysis important to a mathematics teacher?",
+          "marks": 2,
+          "answer": [
+            "It helps reveal how a child is thinking, including misconceptions that a correct/incorrect score alone conceals.",
+            "The teacher can then choose suitable examples, representations and feedback, and check whether the revised explanation transfers to a new problem."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-7",
+          "question": "How does tangram activity help you become a good mathematics teacher?",
+          "marks": 3,
+          "answer": [
+            "Exploring pieces helps the teacher identify mathematical ideas such as composition of shapes, equal areas and spatial transformations.",
+            "Trying different solutions develops the ability to ask open questions and anticipate children’s strategies rather than insist on one procedure.",
+            "Observing learners arranging pieces provides evidence for feedback and adaptation, including larger or tactile pieces where needed."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "7",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-10",
+          "question": "As a mathematics teacher, how would you make a mathematics class joyful? Explain with an example of developing a mathematical concept.",
+          "marks": 3,
+          "answer": [
+            "Use a familiar context, such as a pretend fruit stall, with counters and price cards at an appropriate level.",
+            "Let pairs choose purchases, calculate totals and compare strategies, ensuring everyone handles materials and explains an idea.",
+            "Finish with a short discussion and supportive feedback on reasoning. Enjoyment should support a clear learning outcome, not replace mathematical thinking."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "10",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "3(c)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-11",
+          "question": "What is the inductive-deductive method? How would you use it to teach a concept of triangles? Give a suitable example.",
+          "marks": 4,
+          "answer": [
+            "It combines forming a generalisation from examples with applying and justifying the generalisation through reasoning.",
+            "For an older elementary group, give several paper triangles. Tear or fold their corners together on a straight line to suggest an angle sum of 180°.",
+            "Explain that measurements and paper demonstrations suggest the rule rather than prove it for every triangle; introduce a parallel-line justification when learners know angle relationships.",
+            "Apply the rule to a new triangle: if two angles are 50° and 60°, the third is 180° − 110° = 70°. Ask learners to explain and check their result."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "11",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-11-alternative",
+          "question": "What do you mean by “project”? Explain: “Project method is based on the principle of learning by doing.”",
+          "marks": 4,
+          "answer": [
+            "A project is purposeful, planned work addressing a meaningful question or producing an outcome through connected activities.",
+            "For example, learners can investigate how to organise a class reading corner, deciding what to count and measure.",
+            "They collect measurements, group books, record findings and compare possible arrangements, using mathematics while doing the task.",
+            "The teacher helps connect these actions to concepts and asks learners to explain decisions; reflection and feedback turn activity into learning."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "11 (alternative)",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-2-d",
+          "question": "Mention two beliefs about the teaching-learning process of mathematics.",
+          "marks": 2,
+          "answer": [
+            "Two constructive beliefs are that every child can develop mathematical understanding with appropriate opportunities and support, and that reasoning and meaningful experience are essential alongside practice.",
+            "These counter common but harmful beliefs that only a few children can do mathematics or that speed and memorisation alone show understanding."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-4",
+          "question": "Distinguish inductive and deductive methods of teaching mathematics. Which would you prefer as a mathematics teacher? Give reasons.",
+          "marks": 4,
+          "answer": [
+            "Induction starts with particular cases and looks for a general relationship; deduction applies accepted general statements to reach particular conclusions.",
+            "For example, arranging several even-sized groups in pairs suggests a pattern, whereas applying the definition 2n shows why a particular even number can be paired.",
+            "For introducing a concept, I would usually begin with guided exploration so children connect meaning to examples and explain what they notice.",
+            "I would then use deduction for justification and application. The methods are complementary; examples alone cannot establish every universal claim, and unexplained rules alone may encourage rote use."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 2,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-4-alternative",
+          "question": "What is the activity-based method of teaching mathematics? Why is it important at elementary level?",
+          "marks": 4,
+          "answer": [
+            "It develops mathematical ideas through purposeful actions such as grouping, measuring, sorting and representing, followed by discussion.",
+            "Concrete experiences make quantities and relationships accessible before or alongside formal notation.",
+            "Children’s actions and explanations reveal their understanding, helping teachers adapt support.",
+            "For instance, sharing counters equally can lead to a division statement. The teacher explicitly connects the action, language and symbols so the activity develops a concept rather than just entertains."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "4 (alternative)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-3-a",
+          "question": "A child writes 50 − 28 = 38. Is there an error? Why might it occur, and how can it be mitigated?",
+          "marks": 3,
+          "answer": [
+            "Yes: the correct answer is 22. The child may be subtracting the smaller digit from the larger in each column: 5 − 2 = 3 and 8 − 0 = 8. Ask the child to explain before confirming this diagnosis.",
+            "Use five bundles of ten. Exchange one bundle for ten ones, giving four tens and ten ones; remove two tens and eight ones to leave two tens and two ones.",
+            "Connect the model to written regrouping, check 22 + 28 = 50, and then use a different subtraction to check understanding."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "3(a)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-3-b",
+          "question": "Why is the activity-based method needed for developing mathematical concepts? Explain classroom implementation with an example.",
+          "marks": 3,
+          "answer": [
+            "Purposeful activity connects an abstract idea to actions and representations children can discuss.",
+            "For addition, let pairs combine groups of 4 and 3 counters, describe what they did, draw the groups and write 4 + 3 = 7.",
+            "Ask how the result changes when the groups swap, observe explanations and provide feedback. Explicit discussion links the activity to the concept."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "3(b)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-3-b-alternative",
+          "question": "For which classes is the play-way method of teaching mathematics applicable? Explain with an example.",
+          "marks": 3,
+          "answer": [
+            "It is especially appropriate in preschool and the foundational years, and purposeful mathematical games can also support older classes.",
+            "For young learners, play a “feed the dolls” game: place one pretend fruit with each doll, then decide whether any doll needs more.",
+            "The teacher asks children to explain matching and quantities, varying the numbers and materials to suit their readiness. Play should remain inclusive and connected to a learning aim."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "3(b) (alternative)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-1-d",
+          "question": "According to Piaget’s theory, at what stage of cognitive development can children solve simple addition and subtraction problems?",
+          "marks": 1,
+          "answer": [
+            "The expected Piagetian answer is the concrete operational stage, associated with reversible logical operations. Children can nevertheless solve some simple arithmetic problems earlier using objects and support; the stage is not an absolute teaching threshold."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-3-b",
+          "question": "Choose a foundational mathematics concept and explain its development using the Four Block Approach.",
+          "marks": 3,
+          "answer": [
+            "For addition within 10, use NCERT’s Four Blocks model: (1) Oral math talk — discuss a familiar “3 children and 2 more” situation and hear different strategies.",
+            "(2) Skills teaching — model combining counters, explain the quantities and connect them to 3 + 2 = 5. (3) Skills practice — children solve varied joining and missing-part tasks using objects, pictures or notation, explaining their choices.",
+            "(4) Math game — pairs turn over dot cards and find totals, checking each other’s reasoning. Use observations to adjust the next lesson; these blocks are not the concrete–pictorial–abstract sequence."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "3(b)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-3-b-alternative",
+          "question": "Give an example of an error committed by Class II students in mathematics and explain how a teacher can mitigate it.",
+          "marks": 3,
+          "answer": [
+            "A child may write 27 + 15 = 312 by recording 2 + 1 and 7 + 5 side by side without regrouping. Ask the child to explain how the answer was obtained.",
+            "Use bundles of ten and loose sticks: 2 tens + 1 ten = 3 tens, and 7 + 5 = 12 ones. Exchange 10 ones for 1 ten, giving 4 tens and 2 ones.",
+            "Relate the model to 42 and written addition, then ask the child to solve and explain a new example with and without regrouping."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "3(b) (alternative)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-4",
+          "question": "Compare Piaget’s pre-operational and concrete operational stages of development.",
+          "marks": 4,
+          "answer": [
+            "In Piaget’s account, the pre-operational stage, roughly 2–7 years, includes growing symbolic thought, but reasoning can be strongly influenced by appearances or one salient feature.",
+            "The concrete operational stage, roughly 7–11 years, involves more coordinated logical reasoning about concrete situations, including classification, reversibility and conservation.",
+            "For example, a child reasoning pre-operationally may judge a spread-out row as having more counters; conservation involves recognising that rearrangement has not changed the number.",
+            "These are broad theoretical descriptions, not fixed tests of an individual’s ability. Teachers should observe actual strategies, use accessible materials and language, and offer support rather than withhold learning until a birthday."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 3,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Pedagogy of Mathematics I",
+          "url": "/curriculum-2024.pdf#page=31"
+        },
+        {
+          "label": "NCERT — National Curriculum Framework for Foundational Stage, mathematics pedagogy",
+          "url": "https://ncert.nic.in/pdf/focus-group/NCF-FS_2022EN.pdf#page=129"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "How many tens and ones are in 46?",
+          [
+            "Four tens and six ones."
+          ]
+        ],
+        [
+          1,
+          "Name the counting principle that links the last number word to the total.",
+          [
+            "Cardinality."
+          ]
+        ],
+        [
+          1,
+          "What is the repeating unit in red–blue–blue–red–blue–blue?",
+          [
+            "Red–blue–blue."
+          ]
+        ],
+        [
+          1,
+          "Which unit is suitable for measuring the length of a pencil?",
+          [
+            "Centimetres."
+          ]
+        ],
+        [
+          1,
+          "How many vertices does a cube have?",
+          [
+            "Eight."
+          ]
+        ],
+        [
+          1,
+          "What does a tally mark represent in a simple one-to-one frequency record?",
+          [
+            "One occurrence or response."
+          ]
+        ],
+        [
+          1,
+          "What is the value of the zero digit in 304?",
+          [
+            "It indicates zero tens and preserves the positions of the hundreds and ones."
+          ]
+        ],
+        [
+          1,
+          "A bag has 12 beads. How many groups of 4 can be made?",
+          [
+            "Three groups."
+          ]
+        ],
+        [
+          1,
+          "What is the perimeter of a square with side 5 cm?",
+          [
+            "20 cm, since 4 × 5 = 20."
+          ]
+        ],
+        [
+          1,
+          "What distinguishes sorting from seriation?",
+          [
+            "Sorting groups objects by an attribute; seriation arranges them in order along an attribute such as length."
+          ]
+        ],
+        [
+          2,
+          "Explain why counting the same objects in a different order should give the same total.",
+          [
+            "Each object still receives exactly one number word and none is added or removed.",
+            "The counting order may change, but the size of the collection does not; this is order irrelevance."
+          ]
+        ],
+        [
+          2,
+          "Show two ways to represent 32 using tens and ones.",
+          [
+            "Three tens and two ones represent 32.",
+            "Two tens and twelve ones also represent 32, because one ten can be exchanged for ten ones."
+          ]
+        ],
+        [
+          2,
+          "A child writes 408 as 48. What meaning needs clarification?",
+          [
+            "The empty tens place must still be represented to distinguish four hundreds and eight ones from four tens and eight ones.",
+            "Use a hundreds–tens–ones chart with 4, 0 and 8, connecting it to grouped objects."
+          ]
+        ],
+        [
+          2,
+          "Distinguish sharing division from grouping division with 15 counters.",
+          [
+            "Sharing: distribute 15 counters equally among 3 groups to find 5 in each.",
+            "Grouping: make groups of 3 from 15 counters to find 5 groups; the numerical result is the same, but the unknown quantity differs."
+          ]
+        ],
+        [
+          2,
+          "Why must non-standard measuring units be equal-sized?",
+          [
+            "A unit count is comparable only when each unit represents the same amount.",
+            "If large and small blocks are mixed, “six blocks long” does not give a consistent measure of length."
+          ]
+        ],
+        [
+          2,
+          "Explain why a square turned onto a corner remains a square.",
+          [
+            "Rotation changes orientation, not side lengths or angles.",
+            "It still has four equal sides and four right angles; naming shapes by their position or resemblance to a familiar picture can mislead."
+          ]
+        ],
+        [
+          2,
+          "A clock shows 3:30. Describe the positions of both hands.",
+          [
+            "The minute hand points at 6 because 30 minutes is half an hour.",
+            "The hour hand lies halfway between 3 and 4, not exactly on 3."
+          ]
+        ],
+        [
+          2,
+          "An item costs ₹37 and a child pays ₹50. Find change using counting on.",
+          [
+            "From ₹37 to ₹40 is ₹3; from ₹40 to ₹50 is ₹10.",
+            "The change is ₹13, and ₹37 + ₹13 = ₹50 checks it."
+          ]
+        ],
+        [
+          2,
+          "State the difference between area and perimeter using a classroom mat.",
+          [
+            "Area measures the surface covered by the mat, using square units.",
+            "Perimeter measures the distance around its boundary, using length units."
+          ]
+        ],
+        [
+          2,
+          "Why must a pictograph include a key?",
+          [
+            "The key explains the quantity represented by each symbol.",
+            "Without it, three pictures could mean three objects or, for example, six objects if each picture stands for two."
+          ]
+        ],
+        [
+          3,
+          "A child says 1/8 is greater than 1/4 because 8 is greater than 4. Explain a response.",
+          [
+            "Use two equal-sized wholes, dividing one into four equal parts and the other into eight.",
+            "Compare one part from each: with the same whole, more equal parts means smaller individual pieces, so 1/8 < 1/4.",
+            "Ask the child to explain using the pieces, then check a new pair of unit fractions; ensure the wholes remain equal-sized."
+          ]
+        ],
+        [
+          3,
+          "Plan a task to assess classification by two attributes.",
+          [
+            "Provide shapes varying in colour and form, such as red and blue circles and triangles.",
+            "Ask children to find all red triangles and explain the two conditions, then arrange the objects in a two-way grid.",
+            "Observe whether an object must satisfy both attributes, using clear or tactile alternatives if colour alone is inaccessible."
+          ]
+        ],
+        [
+          3,
+          "Explain the difference between a repeating pattern and a growing pattern.",
+          [
+            "A repeating pattern cycles through a fixed unit, such as clap–tap–tap.",
+            "A growing pattern changes systematically, such as arrangements with 1, 3, 5 and 7 counters.",
+            "Ask learners to describe the rule and predict later terms, rather than infer that every pattern is a repeated colour sequence."
+          ]
+        ],
+        [
+          3,
+          "Show how an array can explain 3 × 4 = 4 × 3.",
+          [
+            "Arrange twelve counters in three rows of four and count by rows.",
+            "View or rotate the array as four rows of three; no counters are added or removed.",
+            "Both descriptions give twelve, illustrating commutativity for multiplication of these whole-number quantities."
+          ]
+        ],
+        [
+          3,
+          "A child measures from the 1 cm mark to the 8 cm mark and says the length is 8 cm. Explain the correction.",
+          [
+            "The scale reading at the end is not the measured length when the object does not start at zero.",
+            "Count the seven unit intervals, or calculate 8 − 1 = 7 cm.",
+            "Repeat with a different starting mark and ask the child to explain why the interval difference gives the length."
+          ]
+        ],
+        [
+          3,
+          "Design a classroom task for the words inside, outside and between.",
+          [
+            "Place three containers and familiar objects where children can see or touch their positions.",
+            "Ask learners to put a block inside a container, another outside it, and a third between two containers.",
+            "Invite a partner to describe and check the arrangement, varying positions so children apply the relationships rather than memorise locations."
+          ]
+        ],
+        [
+          3,
+          "A bar graph has values 3, 7 and 5. Ask and answer three useful questions.",
+          [
+            "Which category has the largest value? The category with 7.",
+            "How many more are in the largest than the smallest? 7 − 3 = 4.",
+            "How many observations are represented altogether? 3 + 7 + 5 = 15, assuming each observation belongs to exactly one category."
+          ]
+        ],
+        [
+          3,
+          "Explain why comparing two containers by height alone can be misleading.",
+          [
+            "Capacity depends on all internal dimensions, not just height.",
+            "A short wide container can hold more than a tall narrow one.",
+            "Test with the same small cup or by pouring from one to the other, discussing consistent units and avoiding spills that distort the comparison."
+          ]
+        ],
+        [
+          3,
+          "Use decomposition to calculate 48 + 27 and explain the regrouping.",
+          [
+            "Decompose into tens and ones: 40 + 20 = 60 and 8 + 7 = 15.",
+            "Fifteen ones can be regrouped as one ten and five ones, so 60 + 15 = 75.",
+            "Connect this to seven tens and five ones and check with another method, such as 48 + 20 + 7."
+          ]
+        ],
+        [
+          3,
+          "Distinguish a 2D drawing of a cube from the cube itself.",
+          [
+            "The cube itself is a three-dimensional solid with six square faces.",
+            "Its drawing is a two-dimensional representation using lines and perspective to suggest depth.",
+            "Some edges may appear slanted or shortened in the drawing, so discuss the real object’s properties instead of measuring the sketch as if it were the solid."
+          ]
+        ],
+        [
+          4,
+          "Design a progression from direct comparison to standard length measurement.",
+          [
+            "First compare two ribbons by aligning one endpoint and identifying which extends farther.",
+            "Next measure each with repeated equal-sized units, placed without gaps or overlaps, and compare the counts.",
+            "Discuss why different-sized units produce different counts, motivating a shared standard.",
+            "Introduce a ruler’s centimetre intervals, explaining the zero point and checking measurements with objects whose lengths can be compared directly."
+          ]
+        ],
+        [
+          4,
+          "A class survey asks children to choose a favourite fruit. Explain a fair data-handling process.",
+          [
+            "Agree on the question and whether each child chooses exactly one option, including a suitable option for choices not listed.",
+            "Record one response per child and check that the total matches the number who answered.",
+            "Represent the counts using equally sized symbols or a bar graph with a clear scale and labels.",
+            "Discuss what the class data show, but do not claim that they represent all children’s preferences or reveal which fruit is healthiest."
+          ]
+        ],
+        [
+          4,
+          "Explain equal sharing of 17 objects among four groups, including the remainder.",
+          [
+            "Give one object to each group repeatedly until each group has four and one object remains.",
+            "Record 17 = 4 × 4 + 1, identifying four objects per group and remainder one.",
+            "Explain that the treatment of the remainder depends on context: an indivisible object may remain unused, while divisible material could be shared further.",
+            "Ask learners to compare with grouping into fours, where the answer describes four complete groups and one extra object."
+          ]
+        ],
+        [
+          4,
+          "How would you address the belief that every rectangle must have unequal adjacent sides?",
+          [
+            "Present several rectangles, including a square, and compare their defining angle properties.",
+            "Explain that a rectangle has four right angles; this definition does not require adjacent sides to differ.",
+            "A square satisfies that definition and additionally has four equal sides, so it belongs to both classes.",
+            "Ask learners to sort examples and non-examples using reasons, including rotated shapes, rather than relying on one typical picture."
+          ]
+        ],
+        [
+          4,
+          "Explain how mathematical communication can be developed during problem solving.",
+          [
+            "Invite learners to represent a problem with objects, drawings, spoken explanations or symbols before choosing a method.",
+            "Ask questions such as “What does this number represent?” and “How can we check?”, giving time and language support.",
+            "Let pairs compare solutions and identify an agreement or difference, using respectful discussion.",
+            "End by connecting representations and recording a clear explanation. Assess the reasoning conveyed, not only formal vocabulary or handwriting quality."
+          ]
+        ],
+        [
+          5,
+          "Plan a place-value lesson that makes regrouping visible and checks transfer.",
+          [
+            "Set the outcome: learners explain why ten ones can be exchanged for one ten without changing the total.",
+            "Give a collection such as 36 sticks and ask pairs to organise it so the quantity is easy to see. Compare counting singly with bundling tens.",
+            "Connect three bundles and six ones to a place-value chart and to 30 + 6 = 36. Exchange one bundle to represent two tens and sixteen ones.",
+            "Ask learners to use the exchange in a related task, such as combining 36 and 8, and explain why fourteen ones become one ten and four ones.",
+            "Assess a new quantity through explanation or demonstration, providing larger or tactile materials where needed. A correct numeral without understanding the exchange is not enough evidence."
+          ]
+        ],
+        [
+          5,
+          "Develop a lesson connecting a repeating pattern to prediction and generalisation.",
+          [
+            "Start with a visible or tactile pattern circle–square–square repeated several times, and ask children what part repeats.",
+            "Have them extend and explain the pattern, distinguishing the three-item repeating unit from one individual shape.",
+            "Number positions and ask what appears at positions 3, 6 and 9, linking these positions to the last square in each unit.",
+            "For learners ready to extend the reasoning, ask about position 12 or a missing section and invite explanations based on complete units, not only counting one by one.",
+            "Let children create and describe another pattern, then exchange it with a partner. Observe whether they can state a consistent rule and use it on a new example."
+          ]
+        ],
+        [
+          5,
+          "Design an investigation showing that equal perimeter does not imply equal area.",
+          [
+            "Provide unit squares or squared paper and ask learners to build a 1-by-5 rectangle and a 2-by-4 rectangle.",
+            "Calculate their perimeters: 2(1 + 5) = 12 units and 2(2 + 4) = 12 units.",
+            "Count the covered unit squares: their areas are 5 and 8 square units respectively.",
+            "Discuss that perimeter concerns the boundary while area concerns coverage, so one fixed boundary length can enclose different areas.",
+            "Ask learners to find another comparison or explain why counting boundary segments cannot measure the surface. Use correct units and connect calculations to the physical or drawn models."
+          ]
+        ],
+        [
+          5,
+          "How would you teach money calculations while supporting children with different home experiences?",
+          [
+            "Use pretend currency and familiar low-cost classroom objects, avoiding assumptions that every child shops or has spending money.",
+            "Clarify denomination and value by composing the same amount in different ways, such as ₹10 as two ₹5 pieces.",
+            "Develop buying tasks involving a total and change, allowing counters or number lines and asking children to explain the quantities.",
+            "Discuss checking the calculation and distinguishing a price from the amount paid. Use illustrative prices rather than present them as current market facts.",
+            "Assess a new transaction in an accessible response mode. The goal is understanding value and relationships, not judging family finances or requiring real money."
+          ]
+        ],
+        [
+          5,
+          "Plan a mathematical discussion around two different solutions to 52 − 19.",
+          [
+            "Ask children to solve with a representation they understand, then select two clear methods for discussion.",
+            "One method subtracts 20 and adds 1 back: 52 − 20 + 1 = 33. Another counts from 19 to 20, then to 50 and 52: 1 + 30 + 2 = 33.",
+            "Link both to the same difference between 19 and 52, using a number line to show their relationships.",
+            "Ask learners to check 33 + 19 = 52 and explain why the adjustment in the first method is addition rather than subtraction.",
+            "Offer a related problem and let learners choose and justify a strategy. Avoid reducing the discussion to copying whichever procedure looks shortest."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-6-2021-1-a",
+          "question": "What is the place value of 5 in 35896?",
+          "marks": 1,
+          "answer": [
+            "5,000, because 5 occupies the thousands place."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-1-b",
+          "question": "Write the difference between “Number” and “Numerals”.",
+          "marks": 1,
+          "answer": [
+            "A number is an abstract quantity or value; a numeral is its written representation. For example, 5 and V represent the same number five."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-1-c",
+          "question": "Expand the number 35.896.",
+          "marks": 1,
+          "answer": [
+            "35.896 = 30 + 5 + 0.8 + 0.09 + 0.006."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-1-d",
+          "question": "Express 95 in Roman Number system.",
+          "marks": 1,
+          "answer": [
+            "XCV: XC represents 90 and V represents 5."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-1-e",
+          "question": "Which whole number is not a natural number?",
+          "marks": 1,
+          "answer": [
+            "0, under the school convention that natural numbers start at 1 and whole numbers start at 0. Some mathematical conventions include 0 among natural numbers."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-1-f",
+          "question": "Show −4 × 3 in a number line.",
+          "marks": 1,
+          "answer": [
+            "Use commutativity to interpret (−4) × 3 as three jumps of −4: 0 → −4 → −8 → −12. Hence (−4) × 3 = −12."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(f)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/math-negative-product.svg",
+            "alt": "Show −4 × 3 in a number line.",
+            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          }
+        },
+        {
+          "id": "s1-6-2021-1-g",
+          "question": "Which geometrical shape has only one end point?",
+          "marks": 1,
+          "answer": [
+            "A ray has one endpoint and extends indefinitely in one direction."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(g)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-1-h",
+          "question": "“If A is an obtuse angle, then 90° < A < 180°” — is the statement correct?",
+          "marks": 1,
+          "answer": [
+            "Yes. An obtuse angle is greater than 90° and less than 180°."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(h)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-1-i",
+          "question": "When will a rhombus become a square?",
+          "marks": 1,
+          "answer": [
+            "When one of its angles is a right angle; then all four angles are right angles, while its four sides are already equal."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(i)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-1-j",
+          "question": "If AB ∥ CD and CD ∥ PQ, what is the relation between AB and PQ?",
+          "marks": 1,
+          "answer": [
+            "AB ∥ PQ, assuming the named lines are distinct: two lines parallel to the same line are parallel to each other."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(j)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-2-c",
+          "question": "What do you mean by pattern? Give one example to explain a number pattern.",
+          "marks": 2,
+          "answer": [
+            "A pattern is an arrangement or sequence organised by a recognisable relationship or rule.",
+            "For example, 3, 6, 9, 12 follows “add 3”; under this rule the next number is 15. A finite list alone can fit other rules, so the intended rule should be stated."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-2-d",
+          "question": "In a right-angled triangle, the other two angles are (x + 1)° and (2x + 5)°. Find the other two angles.",
+          "marks": 2,
+          "answer": [
+            "The two acute angles total 90°: (x + 1) + (2x + 5) = 90, so 3x = 84 and x = 28.",
+            "Thus the angles are 29° and 61°; 29° + 61° + 90° = 180°."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-3-a",
+          "question": "“Symbols and mathematical language give mathematics a unique status” — How?",
+          "marks": 3,
+          "answer": [
+            "Symbols express relationships concisely: 3 + 2 = 5 records a combination without a long sentence.",
+            "Defined terms and notation make reasoning precise; for example, “equal” states a relationship between two values, not an instruction to write an answer.",
+            "Shared conventions support communication across spoken languages, although learners still need explicit teaching of their meanings and explanations in a language they understand."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "3(a)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-3-b",
+          "question": "If the sum of the diagonals of a rhombus of side 4 cm is 10 cm, what is its area?",
+          "marks": 3,
+          "answer": [
+            "Let the diagonals be d₁ and d₂. Their perpendicular halves form a right triangle, so (d₁/2)² + (d₂/2)² = 4² and d₁² + d₂² = 64.",
+            "As d₁ + d₂ = 10, squaring gives 100 = 64 + 2d₁d₂, hence d₁d₂ = 18.",
+            "Area = ½d₁d₂ = 9 cm²."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 3,
+              "questionNumber": "3(b)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-3-c",
+          "question": "What is a tangram? Explain its uses in learning mathematics.",
+          "marks": 3,
+          "answer": [
+            "A traditional tangram is a seven-piece dissection puzzle: five triangles, one square and one parallelogram, originally forming a square.",
+            "Rearranging pieces develops recognition of shapes, spatial visualisation, rotation and reflection.",
+            "Comparing or combining pieces can support discussion of area and fractions; children should explain how pieces fit rather than merely copy an outline."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 3,
+              "questionNumber": "3(c)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-1-b",
+          "question": "Find the place value of 7 in 85.275.",
+          "marks": 1,
+          "answer": [
+            "Seven hundredths: 7/100 = 0.07."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-1-c",
+          "question": "Convert 3.004 into an improper fraction.",
+          "marks": 1,
+          "answer": [
+            "3.004 = 3004/1000 = 751/250."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-1-d",
+          "question": "How do you write 7452283 in the international number system?",
+          "marks": 1,
+          "answer": [
+            "7,452,283: seven million four hundred fifty-two thousand two hundred eighty-three."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-3",
+          "question": "Represent 4 × 5 on a number line.",
+          "marks": 2,
+          "answer": [
+            "Interpret 4 × 5 as four equal jumps of 5 from 0 to the right.",
+            "The landings are 5, 10, 15 and 20, so 4 × 5 = 20."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/math-product20.svg",
+            "alt": "Represent 4 × 5 on a number line.",
+            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          }
+        },
+        {
+          "id": "s1-6-2022-4",
+          "question": "Write the differences among digit, number and numeral. Give examples.",
+          "marks": 2,
+          "answer": [
+            "A digit is one symbol used to write numerals; the decimal digits are 0 to 9. A number is an abstract value or quantity.",
+            "A numeral is a representation of a number: “24” is a numeral made of digits 2 and 4, representing the number twenty-four."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-8",
+          "question": "How many tiles of size 26 cm × 10 cm are required for a path 260 m long and 15 m wide?",
+          "marks": 3,
+          "answer": [
+            "Convert dimensions to centimetres: the path is 26,000 cm × 1,500 cm, with area 39,000,000 cm².",
+            "Each tile covers 26 × 10 = 260 cm². Number = 39,000,000 ÷ 260 = 150,000.",
+            "A matching arrangement has 1,000 tiles along the length and 150 across. This assumes no gaps, breakage or extra allowance."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "8",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-1-a",
+          "question": "Write a rational number between 2/3 and 3/4.",
+          "marks": 1,
+          "answer": [
+            "17/24, since 2/3 = 16/24 < 17/24 < 18/24 = 3/4."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-1-b",
+          "question": "“All parallelograms are trapeziums.” True or false?",
+          "marks": 1,
+          "answer": [
+            "True under the inclusive school definition of a trapezium as a quadrilateral with at least one pair of parallel sides. Under an exclusive “exactly one pair” definition it is false; state the convention being used."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-2-a",
+          "question": "Simplify: 40 of 3/5 + 2⅔ + 9 × 1/27 − 8.",
+          "marks": 2,
+          "answer": [
+            "Treat “of” as multiplication and 2⅔ as the mixed number 8/3: 40 × 3/5 = 24 and 9 × 1/27 = 1/3.",
+            "Therefore 24 + 8/3 + 1/3 − 8 = 24 + 3 − 8 = 19."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-2-b",
+          "question": "What is the place value of 9 in 73.905? Also write the number in expanded form.",
+          "marks": 2,
+          "answer": [
+            "The place value of 9 is nine tenths, or 0.9.",
+            "73.905 = 70 + 3 + 0.9 + 0/100 + 0.005; the zero hundredths term may be omitted."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-2-e",
+          "question": "How will you teach students to calculate −5 + 2 using a number line?",
+          "marks": 2,
+          "answer": [
+            "Mark equally spaced integers and locate −5. Explain that adding positive 2 means moving two units to the right.",
+            "Move −5 → −4 → −3, then read the landing point: −5 + 2 = −3."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 2,
+              "questionNumber": "2(e)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/math-negative-add.svg",
+            "alt": "How will you teach students to calculate −5 + 2 using a number line?",
+            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          }
+        },
+        {
+          "id": "s1-6-2023-3-b",
+          "question": "What do you mean by pre-number concept? Prepare two questions to test a student’s pre-number concept.",
+          "marks": 3,
+          "answer": [
+            "Pre-number concepts include matching, sorting, comparing, ordering and one-to-one correspondence that support later number understanding.",
+            "Task 1: “Can you put these sticks in order from shortest to longest?” Observe whether endpoints are aligned and length is used consistently.",
+            "Task 2: “Give one cup to each doll. Does any doll have no cup?” Observe one-to-one matching without requiring numeral reading."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 2,
+              "questionNumber": "3(b)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-3-c",
+          "question": "An isosceles triangle has area 60 m² and height 15 m. Find its base. If its other two sides are 5 m each, what is its perimeter?",
+          "marks": 3,
+          "answer": [
+            "Using area = ½ × base × height gives base = 2 × 60 ÷ 15 = 8 m.",
+            "The formal perimeter calculation from the separately supplied lengths is 8 + 5 + 5 = 18 m. However, these lengths are inconsistent with the stated height and area.",
+            "A 5, 5, 8 triangle has height √(5² − 4²) = 3 m and area 12 m², not height 15 m and area 60 m². No actual triangle satisfies all the printed data; 18 m is only the result of the second arithmetic instruction."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 2,
+              "questionNumber": "3(c)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-5-a",
+          "question": "Define an obtuse triangle with an example and figure.",
+          "marks": 2,
+          "answer": [
+            "An obtuse triangle has one interior angle greater than 90°.",
+            "For example, a triangle with angles 120°, 30° and 30° is obtuse; its angles total 180°."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "5(a)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/math-obtuse-triangle.svg",
+            "alt": "Define an obtuse triangle with an example and figure.",
+            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          }
+        },
+        {
+          "id": "s1-6-2023-5-b",
+          "question": "Define perpendicular lines with an example and figure.",
+          "marks": 2,
+          "answer": [
+            "Perpendicular lines meet at a right angle, 90°.",
+            "A horizontal line and a vertical line in the same plane are an example; the diagram marks their right angle."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "5(b)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/math-perpendicular.svg",
+            "alt": "Define perpendicular lines with an example and figure.",
+            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          }
+        },
+        {
+          "id": "s1-6-2023-5-c",
+          "question": "Define opposite angles with an example and figure.",
+          "marks": 2,
+          "answer": [
+            "In the intersecting-lines context, vertically opposite angles are the non-adjacent angles formed when two straight lines cross; they are equal.",
+            "If ∠AOC = 60°, its vertically opposite angle ∠BOD is also 60°."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "5(c)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/math-opposite-angles.svg",
+            "alt": "Define opposite angles with an example and figure.",
+            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          }
+        },
+        {
+          "id": "s1-6-2024-1-a",
+          "question": "What is the face value of 5 in 23541?",
+          "marks": 1,
+          "answer": [
+            "5. Face value is the digit itself, irrespective of its position."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-1-b",
+          "question": "Which is bigger: 2/3 or 3/4?",
+          "marks": 1,
+          "answer": [
+            "3/4, because 2/3 = 8/12 and 3/4 = 9/12."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-1-c",
+          "question": "Express XCI in the decimal number system.",
+          "marks": 1,
+          "answer": [
+            "91: XC = 90 and I = 1."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-1-d",
+          "question": "What is the complement of a 90° angle?",
+          "marks": 1,
+          "answer": [
+            "0°, since complementary measures total 90°."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-1-e",
+          "question": "Convert 1.005 into a vulgar fraction.",
+          "marks": 1,
+          "answer": [
+            "1.005 = 1005/1000 = 201/200."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-2-a",
+          "question": "Represent 2 + (−3) on a number line.",
+          "marks": 2,
+          "answer": [
+            "Start at 2. Adding −3 means moving three units to the left: 2 → 1 → 0 → −1.",
+            "The endpoint is −1, so 2 + (−3) = −1."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/math-add-negative.svg",
+            "alt": "Represent 2 + (−3) on a number line.",
+            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          }
+        },
+        {
+          "id": "s1-6-2024-2-b",
+          "question": "Is −5 a rational number? Explain with reason.",
+          "marks": 2,
+          "answer": [
+            "Yes. A rational number can be written as p/q with integers p and q and q ≠ 0.",
+            "Since −5 = −5/1, it satisfies this definition."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-2-e",
+          "question": "Ramen’s school is 1.008 km from his house and Bhanita’s is 0.499 km from hers. Whose school is farther from home, and by how much?",
+          "marks": 2,
+          "answer": [
+            "Ramen’s school is farther because 1.008 km > 0.499 km.",
+            "Difference = 1.008 − 0.499 = 0.509 km = 509 m. Align decimal places when subtracting."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "2(e)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-3-d",
+          "question": "How would you explain the difference between 2D and 3D shapes to students?",
+          "marks": 3,
+          "answer": [
+            "Show a drawn square and a box. A 2D shape is flat in the mathematical model, with length and width; a 3D object also has depth and occupies space.",
+            "Let children handle a cube and trace one face to connect the solid with a square outline. Discuss faces, edges and vertices using the object.",
+            "Ask learners to sort pictures and objects and explain their choices. Clarify that a thin sheet or coin is physically 3D even when its face models a 2D shape."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 3,
+              "questionNumber": "3(d)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-3-d-alternative",
+          "question": "A trapezium has area 34 cm² and height 4 cm. One parallel side is 6 cm. Find the other parallel side.",
+          "marks": 3,
+          "answer": [
+            "Let the other parallel side be x cm. Area = ½ × (sum of parallel sides) × height.",
+            "34 = ½ × (6 + x) × 4 = 2(6 + x), so 17 = 6 + x.",
+            "Thus x = 11 cm. Check: ½ × (6 + 11) × 4 = 34 cm²."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 3,
+              "questionNumber": "3(d) (alternative)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-4",
+          "question": "Can we draw a triangle with sides 2 cm, 3 cm and 6 cm? Explain with reason.",
+          "marks": 4,
+          "answer": [
+            "No. In any non-degenerate triangle, the sum of any two side lengths must exceed the third.",
+            "Here 2 + 3 = 5 cm, which is less than 6 cm, so the condition fails.",
+            "If a 6 cm segment is the base, arms of length 2 cm and 3 cm attached to its endpoints cannot meet, even when directed towards each other.",
+            "Therefore no triangle with these three lengths exists; a sketch that appears to show one cannot be drawn to those measurements."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 3,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-1-a",
+          "question": "Give two examples of pre-number concepts.",
+          "marks": 1,
+          "answer": [
+            "Matching and seriation, such as pairing objects and arranging sticks from shortest to longest."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-1-b",
+          "question": "Complete the pattern: 56, 48, 40, 32, ___.",
+          "marks": 1,
+          "answer": [
+            "24, using the rule “subtract 8 each time”."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-1-c",
+          "question": "Name the polygon having the least number of sides.",
+          "marks": 1,
+          "answer": [
+            "A triangle, with three sides."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-2-b",
+          "question": "The sum of two numbers is 3004. If one is 298, what is the other?",
+          "marks": 2,
+          "answer": [
+            "Other number = 3004 − 298 = 3004 − 300 + 2 = 2706.",
+            "Check: 2706 + 298 = 3004."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-2-c",
+          "question": "Write one similarity and one difference between a rhombus and a square.",
+          "marks": 2,
+          "answer": [
+            "Similarity: both have four equal sides.",
+            "Difference: every square has four right angles, whereas a general rhombus need not. A square is a special rhombus, not a completely separate class."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-3-a",
+          "question": "A carton measures 30 cm × 15 cm × 10 cm. Each washing bar measures 5 cm × 3 cm × 1 cm. How many bars fit?",
+          "marks": 3,
+          "answer": [
+            "Carton volume = 30 × 15 × 10 = 4,500 cm³; one bar’s volume = 5 × 3 × 1 = 15 cm³.",
+            "The volume ratio is 4,500 ÷ 15 = 300. Confirm a fitting arrangement: 30/5 = 6 along the length, 15/3 = 5 across, and 10/1 = 10 layers.",
+            "Thus 6 × 5 × 10 = 300 bars fit, assuming rectangular bars, internal carton measurements and no extra wrapping or gaps."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "3(a)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Pedagogy of Mathematics I",
+          "url": "/curriculum-2024.pdf#page=31"
+        },
+        {
+          "label": "NCERT — National Curriculum Framework for Foundational Stage, mathematics pedagogy",
+          "url": "https://ncert.nic.in/pdf/focus-group/NCF-FS_2022EN.pdf#page=129"
+        },
+        {
+          "label": "NCERT PARAKH — National Assessment Centre",
+          "url": "https://parakh.ncert.gov.in/"
+        },
+        {
+          "label": "PARAKH — Holistic Progress Card, Foundational Stage",
+          "url": "https://parakh.ncert.gov.in/themes/parakh/hpc-files/1-Holistic-Progress-Card-%28Foundational-Stage%29.pdf"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is formative assessment?",
+          [
+            "Gathering and using evidence during learning to improve the next teaching and learning steps."
+          ]
+        ],
+        [
+          1,
+          "What does HPC stand for?",
+          [
+            "Holistic Progress Card."
+          ]
+        ],
+        [
+          1,
+          "Give one example of evidence of mathematical reasoning.",
+          [
+            "A learner explains why two different arrangements contain the same number of counters."
+          ]
+        ],
+        [
+          1,
+          "What is an assessment criterion?",
+          [
+            "A stated feature of performance used to judge evidence of learning, such as using equal units consistently."
+          ]
+        ],
+        [
+          1,
+          "Name one assessment tool suited to observing a shape-sorting task.",
+          [
+            "An observation checklist with clearly defined criteria."
+          ]
+        ],
+        [
+          1,
+          "What is an anecdotal record?",
+          [
+            "A brief factual account of a significant observed event, including its context and relevant learner behaviour."
+          ]
+        ],
+        [
+          1,
+          "Should a progress card describe a child as “bad at maths”?",
+          [
+            "No. It should describe specific evidence, strengths and next steps rather than a fixed label."
+          ]
+        ],
+        [
+          1,
+          "What is self-assessment?",
+          [
+            "A learner reflecting on their own work against understandable goals or criteria."
+          ]
+        ],
+        [
+          1,
+          "What is a portfolio in classroom assessment?",
+          [
+            "A purposeful collection of work showing learning and progress over time."
+          ]
+        ],
+        [
+          1,
+          "Give one example of constructive feedback on counting.",
+          [
+            "“You counted each object once; now tell me how many there are altogether.”"
+          ]
+        ],
+        [
+          2,
+          "Distinguish assessment of learning from assessment for learning.",
+          [
+            "Assessment of learning summarises achievement at a point in time.",
+            "Assessment for learning uses evidence to decide what feedback, support or further teaching is needed."
+          ]
+        ],
+        [
+          2,
+          "Why should mathematical assessment consider process as well as the final answer?",
+          [
+            "A correct answer may come from guessing or imitation, while an incorrect answer may contain useful reasoning and a small slip.",
+            "Observing the strategy helps the teacher identify what is understood and what needs attention."
+          ]
+        ],
+        [
+          2,
+          "Write two observable criteria for measuring an object with blocks.",
+          [
+            "The learner uses equal-sized blocks placed end to end without gaps or overlaps.",
+            "The learner counts the units accurately and states the result with the unit, such as “six blocks long”."
+          ]
+        ],
+        [
+          2,
+          "Why is one worksheet an insufficient basis for a broad progress judgement?",
+          [
+            "Performance on one occasion can be affected by language, fatigue, unfamiliar presentation or limited task coverage.",
+            "Use evidence across tasks and time to form a more dependable picture of the learner’s understanding."
+          ]
+        ],
+        [
+          2,
+          "Explain how a checklist differs from a descriptive observation note.",
+          [
+            "A checklist records whether specified behaviours or criteria were observed.",
+            "A descriptive note records contextual details and the learner’s strategy, which may explain why a criterion was or was not met."
+          ]
+        ],
+        [
+          2,
+          "How can a teacher reduce language bias in a numeracy assessment?",
+          [
+            "Explain the task in accessible language and allow familiar-language responses where appropriate.",
+            "Keep the mathematical demand intact while offering objects, diagrams or demonstrations so language difficulty does not conceal understanding."
+          ]
+        ],
+        [
+          2,
+          "Give one strength and one limitation of peer assessment.",
+          [
+            "Peers can explain strategies and help each other notice missing steps.",
+            "Their feedback may be inaccurate or shaped by friendships, so the teacher should model criteria and check the mathematical reasoning."
+          ]
+        ],
+        [
+          2,
+          "Why should a portfolio include dates and brief context?",
+          [
+            "Dates help reveal development rather than a collection of unrelated products.",
+            "Context records the task and support provided, making comparisons more meaningful."
+          ]
+        ],
+        [
+          2,
+          "How can parent observations contribute without becoming a home examination?",
+          [
+            "Parents can share examples of everyday reasoning, such as a child comparing portions or counting steps.",
+            "The teacher interprets these alongside classroom evidence without requiring extra drills, purchases or formal marks at home."
+          ]
+        ],
+        [
+          2,
+          "What should follow identification of a learning gap?",
+          [
+            "Plan a specific teaching response linked to the observed difficulty.",
+            "Offer a new task after support to check progress rather than repeatedly recording the same gap without action."
+          ]
+        ],
+        [
+          3,
+          "Write a three-criterion rubric for explaining an addition strategy.",
+          [
+            "Quantity representation: the learner represents the given groups accurately with objects, pictures or numerals.",
+            "Reasoning: the explanation connects combining the groups to the total, rather than merely naming a procedure.",
+            "Checking: the learner uses a suitable way to verify the result, with the level of support recorded for each criterion."
+          ]
+        ],
+        [
+          3,
+          "Turn “Needs improvement in number work” into useful descriptive feedback.",
+          [
+            "State the strength: “Matches numerals to collections up to ten accurately.”",
+            "Identify the specific need: “When counting a scattered collection, sometimes counts one object twice.”",
+            "Suggest the next step: “Practise moving each object into a counted group, then explain the total; check again with a new collection.”"
+          ]
+        ],
+        [
+          3,
+          "How could children self-assess a pattern-making task?",
+          [
+            "Share simple criteria: a repeating unit is visible, the pattern continues consistently, and the child can explain the rule.",
+            "Ask learners to point to the unit and check each repetition, using speech, gesture or a partner where needed.",
+            "Invite them to identify one successful feature and one change, then revise the pattern; a smiley alone gives little evidence of understanding."
+          ]
+        ],
+        [
+          3,
+          "Explain assessment as learning with a subtraction example.",
+          [
+            "A learner compares their solution with the original quantities and checks it using addition.",
+            "They notice a mismatch, identify a regrouping step that needs attention and try a revised representation.",
+            "The reflection and checking help the learner regulate their own work, while the teacher supports the process rather than only awarding a mark."
+          ]
+        ],
+        [
+          3,
+          "A child is quiet in group work. What evidence should be gathered before judging mathematical understanding?",
+          [
+            "Offer an individual or pair task with a response mode the child can use comfortably.",
+            "Observe objects, drawings, gestures or written reasoning as well as spoken participation.",
+            "Consider language and group dynamics; silence in a busy discussion alone does not establish lack of mathematical knowledge."
+          ]
+        ],
+        [
+          3,
+          "Explain three features of a useful holistic progress comment.",
+          [
+            "It describes specific learning evidence and context, such as comparing quantities independently during a game.",
+            "It recognises strengths and development across relevant domains without reducing the child to a single score.",
+            "It identifies a manageable next step and support, communicating progress respectfully to the child and family."
+          ]
+        ],
+        [
+          3,
+          "Why should speed not be the sole criterion for mathematical competence?",
+          [
+            "Fast answers may reflect memorised facts but reveal little about explanation or transfer.",
+            "A careful learner may reason accurately while taking time to interpret language or use a representation.",
+            "Assessment should therefore include understanding, strategy, accuracy and communication, with fluency considered appropriately rather than equated with racing."
+          ]
+        ],
+        [
+          3,
+          "Design an exit task for a lesson on tens and ones.",
+          [
+            "Give a new quantity, such as 43, and ask learners to show it as tens and ones.",
+            "Ask whether three tens and thirteen ones represent the same quantity and invite an explanation.",
+            "Use responses to distinguish symbol recognition from understanding regrouping, then plan support for the next lesson."
+          ]
+        ],
+        [
+          3,
+          "What makes a record factual rather than judgemental?",
+          [
+            "It reports an observable action, such as “counted one counter twice”, instead of inferring a character trait such as carelessness.",
+            "It includes the task and support so the event can be interpreted in context.",
+            "It separates observation from a tentative explanation and checks that explanation through further evidence."
+          ]
+        ],
+        [
+          3,
+          "How can a teacher check whether feedback has been understood?",
+          [
+            "Ask the learner to explain the suggested change in their own words or demonstrate it.",
+            "Provide a related task where the learner can apply the feedback with appropriate support.",
+            "Compare the new reasoning with the earlier attempt rather than assume that receiving a comment means learning occurred."
+          ]
+        ],
+        [
+          4,
+          "Create an assessment plan for recognising and describing 2D shapes.",
+          [
+            "Choose criteria based on properties, such as counting sides and identifying straight or curved boundaries.",
+            "Present varied sizes and orientations, including non-examples, so recognition does not depend on one familiar picture.",
+            "Invite sorting and explanations using speech, touch or drawing as appropriate, recording the support given.",
+            "Use the evidence to plan targeted discussion, then reassess with new examples. Do not infer understanding solely from recalling shape names."
+          ]
+        ],
+        [
+          4,
+          "Explain how assessment can inform differentiation without fixed ability groups.",
+          [
+            "Identify the particular concept or strategy that needs support, rather than rank children by a general maths label.",
+            "Offer temporary task groups, such as learners needing a concrete exchange model and learners ready for a new application.",
+            "Observe progress and allow movement between tasks or groups as needs change.",
+            "Keep shared worthwhile goals and avoid making group membership a public judgement about intelligence or long-term potential."
+          ]
+        ],
+        [
+          4,
+          "Compare a traditional marks-only report with a holistic progress account.",
+          [
+            "A marks-only report summarises performance numerically but may not explain the tasks, strategies or support involved.",
+            "A holistic account can include mathematical understanding, participation, communication and development across other domains.",
+            "It uses varied evidence and descriptive feedback to show strengths and next steps, rather than merely replace one number with vague praise.",
+            "Both require sound evidence; a longer report is not automatically more useful if its comments are generic or unsupported."
+          ]
+        ],
+        [
+          4,
+          "A teacher gives the same assessment in print, orally and with objects. How should results be interpreted?",
+          [
+            "Check that all versions address the same mathematical relationship and do not unintentionally change the difficulty.",
+            "Compare strategies across versions to see whether a barrier lies in reading, notation or the concept itself.",
+            "Record access arrangements and support rather than treating the versions as unrelated scores to average.",
+            "Use the pattern to plan instruction and further checks. Better performance with objects may show understanding that has not yet transferred to symbols."
+          ]
+        ],
+        [
+          4,
+          "Explain how to make group-project assessment fair to individuals.",
+          [
+            "Define the mathematical criteria before the project and give each child a meaningful role.",
+            "Observe individual contributions, asking each learner to explain a decision or representation.",
+            "Use brief individual follow-up tasks alongside the shared product to check understanding.",
+            "Record collaboration separately from mathematical evidence so a polished group display does not conceal unequal participation or learning."
+          ]
+        ],
+        [
+          5,
+          "Design a week-long formative assessment cycle for counting and comparing collections.",
+          [
+            "Set clear outcomes, such as counting each object once, stating the total and comparing two collections with a reason.",
+            "Begin with short individual tasks using familiar objects and record strategies rather than only scores.",
+            "Use the findings to plan small-group support, such as matching pairs or moving counted objects, while offering extensions to learners ready for them.",
+            "Gather evidence during games and discussions across the week, varying arrangement and materials while maintaining the mathematical focus.",
+            "Finish with comparable new tasks and discuss progress with learners. Record what changed, what support remains necessary and the next teaching action; assessment should lead to decisions throughout the cycle."
+          ]
+        ],
+        [
+          5,
+          "How would you prepare a responsible holistic progress entry for a learner who struggles with written sums but explains well orally?",
+          [
+            "Collect several examples to establish the pattern, noting the mathematical demand, language and support in each task.",
+            "Describe the strength specifically, such as explaining part–whole relationships accurately with counters and speech.",
+            "Describe the need separately, such as difficulty recording place-value exchanges in written notation; do not convert it into a general judgement of low ability.",
+            "Plan a bridge using aligned objects, drawings and symbols, and agree on a manageable practice opportunity with the learner.",
+            "Review progress after instruction and communicate the evidence respectfully to the family. The account should show both capability and next steps, without claiming a diagnosis that the classroom evidence cannot establish."
+          ]
+        ],
+        [
+          5,
+          "Develop a child-friendly peer-feedback routine for a measurement activity.",
+          [
+            "Introduce two or three clear criteria: start points align, units are equal and contiguous, and the result includes a unit.",
+            "Model helpful language with a sample measurement, showing how to describe evidence rather than criticise a person.",
+            "Pair learners so one measures while the other observes, then switch roles and allow each to explain their choices.",
+            "Ask partners to give one specific observation and one suggestion, testing disagreements by measuring again rather than voting on an answer.",
+            "The teacher checks feedback and gathers individual evidence. Adapt materials and communication so the routine supports learning and dignity instead of becoming a public ranking exercise."
+          ]
+        ],
+        [
+          5,
+          "Explain how to evaluate the quality of a mathematics assessment task.",
+          [
+            "Check alignment: does the task elicit the intended concept, or mainly test copying, reading speed or recall unrelated to the outcome?",
+            "Check accessibility: are language, layout and materials understandable, with suitable ways to respond?",
+            "Check evidence: will the answer, explanation or action reveal the learner’s strategy and possible misconceptions?",
+            "Check interpretation: are criteria clear enough that similar evidence receives consistent feedback, and is more than one task needed for a broad judgement?",
+            "Check usefulness: can the teacher identify a practical next step from the result? Revise and try the task with learners, observing unexpected barriers before using it to make consequential decisions."
+          ]
+        ],
+        [
+          5,
+          "Plan a conversation with a family about mathematical progress using evidence instead of labels.",
+          [
+            "Begin with a specific strength and show an example of the child’s work or explanation in context.",
+            "Describe one current difficulty, such as counting a scattered collection accurately, without suggesting that the child is lazy or incapable.",
+            "Explain the support being used in class and how you will check progress with a new task.",
+            "Invite family observations about everyday counting or sharing, recognising different languages, time constraints and resources.",
+            "Agree on a small optional activity using available objects and arrange follow-up. The conversation should build a shared understanding of progress, not transfer the school’s teaching responsibility to the family or demand paid materials."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-6-2025-1-e",
+          "question": "Write the full form of PARAKH.",
+          "marks": 1,
+          "answer": [
+            "Performance Assessment, Review and Analysis of Knowledge for Holistic Development."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-2-d",
+          "question": "Write two points on the importance of assessment.",
+          "marks": 2,
+          "answer": [
+            "Assessment identifies what a child understands and where further support is needed.",
+            "It guides teaching decisions and feedback so the next activity addresses the learner’s progress rather than merely producing a score."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-2-e",
+          "question": "What do you mean by 360° assessment?",
+          "marks": 2,
+          "answer": [
+            "It is a holistic view of a learner’s development across several domains, using evidence from varied activities and perspectives.",
+            "Teacher observations, children’s reflection, suitable peer feedback and family observations can inform this view; it is not simply an average of marks or votes about a child."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "2(e)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Pedagogy of Mathematics I",
+          "url": "/curriculum-2024.pdf#page=31"
+        },
+        {
+          "label": "University of St Andrews, MacTutor — Aryabhata",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/"
+        },
+        {
+          "label": "University of St Andrews, MacTutor — Brahmagupta",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/"
+        },
+        {
+          "label": "University of St Andrews, MacTutor — Ramanujan",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan/"
+        },
+        {
+          "label": "University of St Andrews, MacTutor — Euclid",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/"
+        },
+        {
+          "label": "University of St Andrews, MacTutor — Pythagoras",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pythagoras/"
+        },
+        {
+          "label": "MacTutor — history of zero",
+          "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Zero/"
+        },
+        {
+          "label": "Government announcement of National Mathematics Day",
+          "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=79204"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "Name the mathematical-astronomical work composed by Aryabhata in 499 CE.",
+          [
+            "Aryabhatiya."
+          ]
+        ],
+        [
+          1,
+          "Which mathematician wrote the Brahmasphutasiddhanta?",
+          [
+            "Brahmagupta."
+          ]
+        ],
+        [
+          1,
+          "What is a partition of a positive integer?",
+          [
+            "A way of expressing it as a sum of positive integers, disregarding the order of the summands."
+          ]
+        ],
+        [
+          1,
+          "Which side is the hypotenuse in a right triangle?",
+          [
+            "The side opposite the right angle."
+          ]
+        ],
+        [
+          1,
+          "State the Pythagorean relationship using legs a and b and hypotenuse c.",
+          [
+            "a² + b² = c²."
+          ]
+        ],
+        [
+          1,
+          "How many books make up Euclid’s Elements?",
+          [
+            "Thirteen."
+          ]
+        ],
+        [
+          1,
+          "What is an axiom or postulate in a deductive system?",
+          [
+            "A statement accepted as a starting assumption from which further results are reasoned."
+          ]
+        ],
+        [
+          1,
+          "Write the semiperimeter of a quadrilateral with sides a, b, c and d.",
+          [
+            "s = (a + b + c + d)/2."
+          ]
+        ],
+        [
+          1,
+          "Name Ramanujan’s well-known collaborator at Cambridge.",
+          [
+            "G. H. Hardy."
+          ]
+        ],
+        [
+          1,
+          "What condition is essential when applying Brahmagupta’s familiar quadrilateral area formula?",
+          [
+            "The quadrilateral must be cyclic, meaning its vertices lie on a circle."
+          ]
+        ],
+        [
+          2,
+          "Explain why 3.1416 should be written as an approximation to π.",
+          [
+            "π has a non-terminating, non-repeating decimal expansion, so a finite decimal cannot equal it exactly.",
+            "Write π ≈ 3.1416; the approximation is useful for calculation but must not be presented as an exact value."
+          ]
+        ],
+        [
+          2,
+          "Distinguish zero as a placeholder from zero as a number.",
+          [
+            "As a placeholder, 0 preserves position in numerals such as 507, indicating no tens.",
+            "As a number, zero represents a quantity or additive identity and participates in operations such as 5 + 0 = 5."
+          ]
+        ],
+        [
+          2,
+          "Verify the two positive-cube representations of 1729.",
+          [
+            "1³ + 12³ = 1 + 1728 = 1729.",
+            "9³ + 10³ = 729 + 1000 = 1729, so the two distinct pairs give the same total."
+          ]
+        ],
+        [
+          2,
+          "Use a 3–4–5 triangle to check the Pythagorean relationship.",
+          [
+            "3² + 4² = 9 + 16 = 25.",
+            "Since 5² = 25, the side lengths satisfy the right-triangle relationship, with 5 as the hypotenuse."
+          ]
+        ],
+        [
+          2,
+          "Why is Euclid’s method different from trusting a diagram alone?",
+          [
+            "A drawing can be inaccurate or show only one special case.",
+            "Deductive reasoning explains why a conclusion follows from stated assumptions and established results, rather than only from appearance."
+          ]
+        ],
+        [
+          2,
+          "List the partitions of 4 and state their number.",
+          [
+            "They are 4; 3 + 1; 2 + 2; 2 + 1 + 1; and 1 + 1 + 1 + 1.",
+            "Thus p(4) = 5; changing the order of summands does not create a new partition."
+          ]
+        ],
+        [
+          2,
+          "Calculate the area of a cyclic quadrilateral with sides 3, 4, 3 and 4 units.",
+          [
+            "The semiperimeter is 7, so Brahmagupta’s formula gives √((7 − 3)(7 − 4)(7 − 3)(7 − 4)).",
+            "This is √(4 × 3 × 4 × 3) = 12 square units; the cyclic condition is part of the question."
+          ]
+        ],
+        [
+          2,
+          "Why should a lesson avoid saying Aryabhata alone invented every aspect of zero?",
+          [
+            "The use of placeholders, positional notation and arithmetic with zero has a long, varied history.",
+            "A more accurate account names specific documented contributions, distinguishing Aryabhata’s mathematical astronomy from Brahmagupta’s arithmetic rules."
+          ]
+        ],
+        [
+          2,
+          "What is the difference between a conjecture and a proof?",
+          [
+            "A conjecture is a proposed claim supported by examples or intuition but not yet established.",
+            "A proof gives a logically sufficient argument from accepted assumptions and results; many examples alone do not prove a universal claim."
+          ]
+        ],
+        [
+          2,
+          "Can the theorem named after Pythagoras be used for every triangle?",
+          [
+            "No. The equation relating the squares of the two legs to the hypotenuse applies to right triangles.",
+            "For an arbitrary triangle, first establish a right angle or use an appropriate different relationship."
+          ]
+        ],
+        [
+          3,
+          "Explain a classroom use of Aryabhata’s approximation of π.",
+          [
+            "Measure the circumference and diameter of several circular objects using suitable tools.",
+            "Compare the ratios with 3.1416, discussing measurement error and the meaning of approximation.",
+            "Connect the activity to historical attempts to calculate mathematical quantities accurately, without claiming that a few measurements prove the value of π."
+          ]
+        ],
+        [
+          3,
+          "Explain the role of definitions, assumptions and conclusions in a Euclidean-style argument.",
+          [
+            "Definitions clarify the objects and terms, such as what is meant by a right angle.",
+            "Assumptions and previously established results provide the starting statements that may be used.",
+            "The conclusion must follow through justified steps; explicitly identifying these roles helps learners distinguish reasoning from unsupported assertion."
+          ]
+        ],
+        [
+          3,
+          "Use an example to explain why division by zero is undefined in ordinary arithmetic.",
+          [
+            "If 6 ÷ 0 were a number x, multiplication would require 0 × x = 6, which is impossible.",
+            "For 0 ÷ 0, every x gives 0 × x = 0, so no unique quotient is determined.",
+            "Historical rules involving zero must therefore be distinguished from the modern definition of division, rather than repeated as valid simply because they are old."
+          ]
+        ],
+        [
+          3,
+          "Use Ramanujan’s interest in partitions to design a small investigation.",
+          [
+            "Give children five identical counters and ask them to organise them into unordered groups representing sums to five.",
+            "Record arrangements systematically, treating 4 + 1 and 1 + 4 as the same partition.",
+            "Compare lists to remove duplicates and explain why each arrangement totals five; the investigation introduces a genuine number-theory idea without demanding advanced formulas."
+          ]
+        ],
+        [
+          3,
+          "Find the hypotenuse of a right triangle with legs 5 cm and 12 cm.",
+          [
+            "Apply c² = 5² + 12² = 25 + 144 = 169.",
+            "Take the positive square root because a length is positive: c = 13 cm.",
+            "Check that 13 is longer than either leg and keep the length unit separate from the squared units used during calculation."
+          ]
+        ],
+        [
+          3,
+          "Explain why the history of Pythagoras requires cautious attribution.",
+          [
+            "Much information about Pythagoras comes from later accounts rather than surviving writings by him.",
+            "The right-triangle relationship was known in earlier mathematical cultures, so the theorem’s name alone does not establish its first discovery.",
+            "Distinguish the contribution of the Pythagorean tradition from claims about a specific proof or discovery personally made by Pythagoras."
+          ]
+        ],
+        [
+          3,
+          "How can mathematical biography support learners without promoting the “born genius” myth?",
+          [
+            "Show the questions, effort, collaboration and social circumstances behind mathematical work.",
+            "Use an accessible investigation connected to the work so learners can participate in reasoning rather than only admire a famous name.",
+            "Emphasise that people develop understanding through study, feedback and persistence; biography should not imply that mathematics belongs only to exceptional individuals."
+          ]
+        ],
+        [
+          3,
+          "Compare the educational value of a numerical pattern and a deductive argument.",
+          [
+            "A pattern can invite curiosity and suggest a general relationship from examples.",
+            "A deductive argument addresses why the relationship follows and under what assumptions it holds.",
+            "Teaching both connects exploration with justification: learners can notice that two odd numbers sum to an even number and then explain it using paired objects plus two unpaired objects."
+          ]
+        ],
+        [
+          3,
+          "Apply the Euclidean algorithm to find the greatest common divisor of 48 and 18.",
+          [
+            "48 = 2 × 18 + 12, so reduce the problem to 18 and 12.",
+            "18 = 1 × 12 + 6, and 12 = 2 × 6 + 0.",
+            "The last non-zero remainder is 6, so gcd(48, 18) = 6."
+          ]
+        ],
+        [
+          3,
+          "Explain how to check a historical quotation used in a mathematics lesson.",
+          [
+            "Look for an identifiable original text or a reliable scholarly edition, with enough context to understand the statement.",
+            "Distinguish the author’s words from a later paraphrase or anecdote, checking attribution and translation.",
+            "If the source cannot be established, omit quotation marks and avoid presenting the saying as a verified statement by that mathematician."
+          ]
+        ],
+        [
+          4,
+          "Demonstrate the Pythagorean theorem through areas and explain the limitation of one example.",
+          [
+            "Draw squares on the three sides of a right triangle, identifying the square on the hypotenuse.",
+            "For a 3–4–5 example, compare areas 9 and 16 with 25 square units, showing that 9 + 16 = 25.",
+            "Explain that the theorem concerns areas of squares, not the sum of the side lengths.",
+            "This verifies one example and illustrates meaning, but a general dissection or deductive argument is needed to prove the result for every right triangle."
+          ]
+        ],
+        [
+          4,
+          "Design a display comparing Aryabhata and Brahmagupta without confusing their contributions.",
+          [
+            "Include their names, historical periods and principal works: Aryabhatiya and Brahmasphutasiddhanta.",
+            "For Aryabhata, highlight mathematical astronomy and examples such as π approximation or sine tables.",
+            "For Brahmagupta, highlight arithmetic with zero and negative quantities and the cyclic-quadrilateral area formula.",
+            "Add a short source note and one worked mathematical example for each. Avoid a single “inventor of everything” label and distinguish historical statements from modern valid rules."
+          ]
+        ],
+        [
+          4,
+          "Explain how 1729 can lead to a lesson on systematic checking.",
+          [
+            "Start by calculating the two cube sums, checking each multiplication rather than relying on a famous anecdote.",
+            "Ask learners what makes the pairs distinct and clarify the condition of positive integer cubes.",
+            "To investigate smaller candidates, list cubes and organise pair sums systematically, avoiding duplicate pairs in reverse order.",
+            "Explain that demonstrating two representations does not by itself prove minimality; the additional search or argument must exclude all smaller possibilities."
+          ]
+        ],
+        [
+          4,
+          "Develop a simple deductive explanation that the sum of two even numbers is even.",
+          [
+            "Define an even number as a whole number that can be arranged in pairs without an unpaired object.",
+            "Represent two even collections as 2m and 2n, or as two groups of complete pairs.",
+            "Combining them gives m + n pairs, so their total is 2(m + n), which is even.",
+            "Connect the general argument to a small counter example, explaining that the reasoning works for any two such collections, not just the example shown."
+          ]
+        ],
+        [
+          4,
+          "How can a teacher use mathematicians’ errors productively in class?",
+          [
+            "Choose a historically documented example, such as difficulties in formulating rules for division by zero.",
+            "Explain the historical context respectfully and separate what was an advance from what does not match current mathematics.",
+            "Test the claim using definitions and examples, inviting learners to see why a rule needs revision.",
+            "Use this to model checking and improvement, not ridicule. The lesson is that authority and reputation do not replace mathematical justification."
+          ]
+        ],
+        [
+          5,
+          "Plan a mathematics-history lesson combining biography, investigation and reflection.",
+          [
+            "Select one modest, documented contribution, such as Euclid’s use of systematic proof, and introduce its historical context briefly.",
+            "Give learners an accessible claim to explore, such as the sum of two odd numbers being even, using counters and several examples.",
+            "Ask them to move from noticing a pattern to explaining it generally through paired and unpaired objects.",
+            "Connect their explanation to the role of definitions and justified steps, distinguishing the classroom model from a quotation or reconstruction of an original ancient proof.",
+            "Finish with a reflection on how examples and proof contribute differently to knowledge. Assess learners’ reasoning rather than their ability to memorise a biography."
+          ]
+        ],
+        [
+          5,
+          "Explain how to teach the development of zero as a historical process rather than a single event.",
+          [
+            "Begin by distinguishing an empty quantity, a placeholder in positional notation and a number governed by arithmetic rules.",
+            "Use 205 and 25 to illustrate the placeholder role, then use 7 − 7 = 0 and 7 + 0 = 7 to illustrate numerical operations.",
+            "Explain that different cultures and periods contributed to these ideas, and that documented Indian work was important in their development.",
+            "Discuss Brahmagupta’s systematic rules while noting that historical treatments of division by zero require correction under modern arithmetic.",
+            "Ask learners to compare the roles of zero in new examples and identify why a single inventor story hides these distinctions. Keep historical claims tied to reliable sources rather than repeating popular attributions."
+          ]
+        ],
+        [
+          5,
+          "Design an investigation of partitions that encourages systematic reasoning.",
+          [
+            "Use six identical counters and define a partition as an unordered sum of positive integers, so reversing parts does not create a new result.",
+            "Ask learners to group their records by largest part: six, five, four and so on, making omissions easier to notice.",
+            "Have partners compare lists and explain why every entry totals six, removing duplicates by writing parts in descending order.",
+            "Discuss how an organised method differs from random trial, and connect the investigation to the broader study of partitions associated with Ramanujan.",
+            "Assess the organisation and explanation, not just the final count. Provide smaller starting numbers or physical groupings where needed, and extend to comparing successive partition counts for learners ready for more."
+          ]
+        ],
+        [
+          5,
+          "Use a cyclic quadrilateral example to teach the importance of a formula’s conditions.",
+          [
+            "State Brahmagupta’s area formula and define the semiperimeter and the condition that all four vertices lie on a circle.",
+            "For a 3-by-4 rectangle, explain that it is cyclic and calculate s = 7 and area √(4 × 3 × 4 × 3) = 12 square units.",
+            "Compare this with the rectangle formula 3 × 4 = 12 as a useful check.",
+            "Then explain that four side lengths alone do not fix the area of every quadrilateral; changing angles can change area when the cyclic condition is not imposed.",
+            "Ask learners to identify the given information and conditions before substituting numbers. The aim is thoughtful application rather than treating every memorised formula as universally valid."
+          ]
+        ],
+        [
+          5,
+          "How would you evaluate a student presentation on the five syllabus mathematicians?",
+          [
+            "Check that each person is connected to a specific, accurately described contribution, with uncertainty acknowledged where evidence is limited.",
+            "Look for meaningful mathematical examples, such as a partition, a π approximation or a right-triangle calculation, rather than a list of celebratory adjectives.",
+            "Check that the presentation distinguishes Aryabhata’s work from Brahmagupta’s and avoids claiming that the theorem’s name proves Pythagoras was its first discoverer.",
+            "Assess source use, clarity and the connection to classroom learning, allowing accessible formats such as posters, speech or tactile models.",
+            "Give feedback on a concrete strength and a correction or extension. Do not reward unsupported dramatic stories more than careful explanation and mathematical understanding."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-6-2021-4-a",
+          "question": "Write a short note on Aryabhatta.",
+          "marks": 2,
+          "answer": [
+            "Aryabhata, born in 476 CE, composed the Aryabhatiya in 499 CE, covering mathematics and astronomy.",
+            "His work includes an approximation of π as 3.1416, sine tables and methods for solving mathematical problems; he also explained apparent daily celestial motion through Earth’s rotation."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 3,
+              "questionNumber": "4(a)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-4-b",
+          "question": "Write a short note on Ramanujan.",
+          "marks": 2,
+          "answer": [
+            "Srinivasa Ramanujan (1887–1920) was an Indian mathematician known for work in number theory, infinite series, partitions and continued fractions.",
+            "His collaboration with G. H. Hardy and extensive notebooks stimulated later research. His birthday, 22 December, is observed as National Mathematics Day in India."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 3,
+              "questionNumber": "4(b)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2021-4-c",
+          "question": "Write a short note on Euclid.",
+          "marks": 2,
+          "answer": [
+            "Euclid worked in Alexandria around 300 BCE and is traditionally called the father of geometry.",
+            "His Elements organised geometry and number theory into definitions, postulates and logically connected propositions, making proof central to mathematical study."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 3,
+              "questionNumber": "4(c)",
+              "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2022-12",
+          "question": "Write briefly the mathematical contributions of any two: (a) Aryabhatta, (b) Ramanujan, (c) Euclid.",
+          "marks": 4,
+          "answer": [
+            "Model response choosing Aryabhata and Euclid; the original question allows any two of the three named mathematicians.",
+            "Aryabhata’s Aryabhatiya presents mathematical and astronomical methods, including an approximation π ≈ 3.1416 and a sine table. His work influenced later mathematical astronomy.",
+            "Euclid’s Elements systematically develops propositions from definitions and postulates. It includes plane and solid geometry and important number-theoretic results, exemplifying deductive proof."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "12",
+              "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-6",
+          "question": "Who is known as the father of geometry? Write about his contributions to mathematics.",
+          "marks": 4,
+          "answer": [
+            "Euclid of Alexandria, who worked around 300 BCE, is traditionally called the father of geometry.",
+            "His Elements organised earlier and contemporary mathematical knowledge into a systematic sequence of definitions, postulates and propositions.",
+            "It develops plane and solid geometry through deductive reasoning and includes number theory, such as the infinitude of primes and procedures related to the greatest common divisor.",
+            "Its enduring contribution is a model of proof: conclusions must follow from stated assumptions, rather than only from the appearance of a drawing."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2023-6-alternative",
+          "question": "Whose birthday is celebrated as National Mathematics Day in India? Write briefly about his mathematical contributions.",
+          "marks": 4,
+          "answer": [
+            "Srinivasa Ramanujan’s birthday, 22 December, is celebrated as National Mathematics Day in India.",
+            "He made major contributions to number theory, especially properties of integers and partition functions, including work with G. H. Hardy.",
+            "His research also involved infinite series, continued fractions and mock theta functions, which stimulated substantial later work.",
+            "The famous number 1729 illustrates his interest in number relationships: 1³ + 12³ = 9³ + 10³ = 1729. It is the smallest positive integer expressible as a sum of two positive cubes in two different ways."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "6 (alternative)",
+              "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 3,
+              "questionNumber": "5 (alternative)",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2024-5",
+          "question": "Who invented zero? Write briefly about his life and mathematical contributions.",
+          "marks": 4,
+          "answer": [
+            "The question’s single-inventor wording oversimplifies a long history. Brahmagupta is especially associated with systematically stating arithmetic rules for zero as a number; he did not originate every use of a zero placeholder.",
+            "Born in 598 CE, he worked in the Indian mathematical-astronomical tradition and wrote the Brahmasphutasiddhanta in 628 CE.",
+            "He described operations involving zero and positive and negative quantities, and developed algebraic methods. His historical rules for division by zero do not all agree with modern arithmetic, where division by zero is undefined.",
+            "He also gave the area formula for a cyclic quadrilateral: √((s − a)(s − b)(s − c)(s − d)), where s is the semiperimeter."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 3,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-2-f",
+          "question": "Who was Aryabhatta? Write his special invention.",
+          "marks": 2,
+          "answer": [
+            "Aryabhata was an Indian mathematician and astronomer, author of the Aryabhatiya in 499 CE.",
+            "A notable contribution is his accurate approximation of π as 3.1416, alongside work on sine tables. Calling him the sole inventor of zero is historically unsupported; the question does not identify one unique “invention”."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "2(f)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-6-2025-3-c",
+          "question": "Whose birthday is celebrated as National Mathematics Day in India? Write briefly about his mathematical contributions.",
+          "marks": 3,
+          "answer": [
+            "Srinivasa Ramanujan’s birthday, 22 December, is observed as National Mathematics Day in India.",
+            "He made important contributions to number theory and integer partitions, including work with G. H. Hardy.",
+            "His studies of infinite series, continued fractions and mock theta functions continue to influence mathematical research."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 3,
+              "questionNumber": "3(c)",
+              "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
