@@ -1,0 +1,1948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="D.El.Ed Semester I Study Notes">
+<meta name="description" content="Development of artistic skill, history and theory of art, and documentation of artists and monuments.">
+<meta name="keywords" content="D.El.Ed, Semester 1, S1.7, SCERT Assam, PSTE, teacher education, study notes">
+<meta name="subject" content="Diploma in Elementary Education (PSTE) — Semester I">
+<meta name="color-scheme" content="light">
+<title>S1.7 — Art and Creative Education – I | D.El.Ed Semester I Notes</title>
+<link rel="icon" href="/favicon.svg">
+<style>
+/* ============================================================
+   D.El.Ed Semester 1 — Shared Design System
+   Premium academic notebook aesthetic
+   ============================================================ */
+
+:root {
+  /* --- Paper & surface --- */
+  --paper:          #faf6ee;
+  --paper-deep:     #f3ece0;
+  --card:           #fffdf8;
+  --card-beige:     #f6efe2;
+  --card-beige-2:   #f2e9d8;
+
+  /* --- Ink --- */
+  --ink:            #33302b;
+  --ink-soft:       #55504a;
+  --ink-faint:      #7a736a;
+  --rule:           #ded2bd;
+  --rule-soft:      #e9e0cf;
+
+  /* --- Accents --- */
+  --terracotta:     #b4623c;
+  --terracotta-d:   #8f4a2a;
+  --terracotta-bg:  #f7e9e0;
+  --olive:          #6d7a4a;
+  --olive-d:        #54603a;
+  --olive-bg:       #ecefdd;
+  --dusty-blue:     #4c6a83;
+  --dusty-blue-bg:  #e5ecf2;
+  --plum:           #7a5570;
+  --plum-bg:        #f1e8ee;
+  --gold:           #a5822e;
+  --gold-bg:        #f7efd8;
+
+  /* --- Type --- */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+           Georgia, "Times New Roman", serif;
+  --sans:  "Segoe UI", "Gill Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  --mono:  "Consolas", "SF Mono", "Menlo", monospace;
+
+  --fs-body: 10.6pt;
+  --lh-body: 1.62;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 34px 20px 80px;
+  font-family: var(--serif);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.20) 1px, transparent 0);
+  background-size: 22px 22px;
+  background-attachment: fixed;
+}
+
+/* ============ Document container ============ */
+.doc {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(120, 100, 70, 0.06),
+    0 10px 34px -14px rgba(90, 72, 45, 0.22);
+  padding: 46px 56px 64px;
+  position: relative;
+}
+.doc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0);
+  background-size: 22px 22px;
+  opacity: 0.75;
+}
+.doc > * { position: relative; z-index: 1; }
+
+/* ============ Hero / subject header ============ */
+.hero {
+  border: 1px solid var(--rule);
+  border-top: 5px solid var(--terracotta);
+  background: linear-gradient(180deg, #fffdf8 0%, #f7f0e3 100%);
+  padding: 26px 30px 22px;
+  margin-bottom: 26px;
+  border-radius: 3px;
+}
+.hero .kicker {
+  font-family: var(--sans);
+  font-size: 8.4pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-size: 25pt;
+  line-height: 1.16;
+  margin: 0 0 4px;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.hero .code {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--paper);
+  background: var(--ink);
+  padding: 3px 11px;
+  border-radius: 2px;
+  margin: 0 0 12px;
+}
+.hero .tagline {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 4px;
+  max-width: 62ch;
+}
+/* The divider doubles as the maker-credit row: rule on the left, credit on the
+   right. Keeping them on one line costs no vertical space in the hero, which
+   the one-page-before-Unit-1 budget cannot spare. */
+.hero .rule-line {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 13px 0 12px;
+}
+.hero .rule-line::before {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, var(--terracotta), var(--rule) 55%, transparent);
+}
+.made-by {
+  flex: 0 0 auto;
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+.made-by .heart {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", var(--sans);
+  font-size: 8.4pt;
+}
+.made-by a {
+  color: var(--terracotta-d);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+}
+.made-by a:hover { border-bottom-color: var(--terracotta); }
+
+/* ============ At a glance ============ */
+.glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.glance .g-item {
+  flex: 1 1 152px;
+  background: #fffdf8;
+  padding: 9px 12px 10px;
+}
+.glance .g-label {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 2px;
+}
+.glance .g-value {
+  font-size: 9.6pt;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.34;
+}
+
+/* ============ Table of contents ============ */
+.toc {
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--olive);
+  background: #fcf9f2;
+  padding: 20px 24px 18px;
+  border-radius: 3px;
+  margin: 26px 0 30px;
+}
+.toc h2 {
+  font-family: var(--sans);
+  font-size: 9.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  margin: 0 0 12px;
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+}
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
+.toc > ol > li {
+  counter-increment: toc;
+  margin: 0 0 9px;
+}
+.toc > ol > li > a {
+  font-weight: 700;
+  font-size: 10.6pt;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.toc > ol > li > a:hover { color: var(--terracotta-d); border-bottom-color: var(--terracotta); }
+.toc > ol > li > a::before {
+  content: counter(toc, upper-roman) " · ";
+  color: var(--terracotta);
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.toc .sub {
+  margin: 4px 0 0 4px;
+  padding: 0 0 0 14px;
+  list-style: none;
+  border-left: 1px solid var(--rule-soft);
+  columns: 2;
+  column-gap: 26px;
+}
+.toc .sub li {
+  font-size: 9.4pt;
+  color: var(--ink-soft);
+  line-height: 1.48;
+  margin-bottom: 2px;
+  break-inside: avoid;
+}
+.toc .sub a { color: inherit; text-decoration: none; }
+.toc .sub a:hover { color: var(--terracotta-d); }
+
+/* ============ Headings ============ */
+h2 {
+  font-size: 16.5pt;
+  line-height: 1.22;
+  margin: 40px 0 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  padding: 0 0 9px 15px;
+  border-left: 5px solid var(--terracotta);
+  border-bottom: 1px solid var(--rule);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h2 .h2num {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+h3 {
+  font-size: 12.6pt;
+  line-height: 1.3;
+  margin: 26px 0 8px;
+  font-weight: 700;
+  color: #3d3933;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  background: var(--olive);
+  border-radius: 50%;
+  margin-right: 9px;
+  vertical-align: 0.06em;
+}
+
+h4 {
+  font-size: 10.9pt;
+  line-height: 1.35;
+  margin: 18px 0 6px;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--terracotta-d);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h5 {
+  font-size: 9.9pt;
+  margin: 14px 0 4px;
+  font-weight: 700;
+  color: var(--olive-d);
+  font-family: var(--sans);
+  letter-spacing: 0.03em;
+  break-after: avoid;
+}
+
+/* ============ Body text ============ */
+p { margin: 0 0 10px; text-align: justify; hyphens: auto; }
+p.tight { margin-bottom: 4px; }
+.doc > p, .unit-body > p { max-width: 74ch; }
+
+strong, b { font-weight: 700; color: #26231f; }
+
+em { font-style: italic; }
+
+.lead {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 72ch;
+}
+
+/* ============ Lists ============ */
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 5px; }
+li > ul, li > ol { margin-top: 5px; margin-bottom: 3px; }
+
+ul.bul { list-style: none; padding-left: 0; }
+ul.bul > li {
+  position: relative;
+  padding-left: 17px;
+  margin-bottom: 6px;
+}
+ul.bul > li::before {
+  content: "▸";
+  position: absolute;
+  left: 2px;
+  top: -0.02em;
+  color: var(--terracotta);
+  font-size: 0.92em;
+}
+
+ul.check { list-style: none; padding-left: 0; }
+ul.check > li { position: relative; padding-left: 20px; margin-bottom: 5px; }
+ul.check > li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--olive);
+  font-weight: 700;
+  font-size: 0.88em;
+}
+
+ol.num { list-style: none; counter-reset: n; padding-left: 26px; }
+ol.num > li { position: relative; margin-bottom: 7px; counter-increment: n; }
+ol.num > li::before {
+  content: counter(n) ".";
+  position: absolute;
+  left: -22px;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  font-family: var(--sans);
+  font-size: 0.88em;
+}
+
+dl { margin: 0 0 12px; }
+dt { font-weight: 700; color: #26231f; margin-top: 8px; }
+dd { margin: 2px 0 0 0; }
+
+abbr { text-decoration: none; border-bottom: 1px dotted var(--ink-faint); }
+
+/* ============ Callout cards ============ */
+.card {
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 12px 16px 13px;
+  margin: 14px 0;
+  background: #fffdf8;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.card > :last-child { margin-bottom: 0; }
+.card p { text-align: left; }
+
+.card .lbl {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.def {
+  background: #fdf6ec;
+  border-color: #e3d2b6;
+  border-left: 4px solid var(--gold);
+}
+.def .lbl { color: var(--gold); }
+
+.idea {
+  background: var(--olive-bg);
+  border-color: #d3d9bd;
+  border-left: 4px solid var(--olive);
+}
+.idea .lbl { color: var(--olive-d); }
+
+.rem {
+  background: var(--terracotta-bg);
+  border-color: #e8cebc;
+  border-left: 4px solid var(--terracotta);
+}
+.rem .lbl { color: var(--terracotta-d); }
+
+.ex {
+  background: #f4f1fa;
+  border-color: #d9d0e8;
+  border-left: 4px solid #6b5a94;
+}
+.ex .lbl { color: #5b4c80; }
+
+.cls {
+  background: var(--dusty-blue-bg);
+  border-color: #ccd9e3;
+  border-left: 4px solid var(--dusty-blue);
+}
+.cls .lbl { color: #3d5a71; }
+
+.exam {
+  background: #fbf4e3;
+  border-color: #e6d5aa;
+  border-left: 4px solid #a5822e;
+}
+.exam .lbl { color: #856722; }
+
+.mist {
+  background: #f9ecec;
+  border-color: #eccfcf;
+  border-left: 4px solid #a44b4b;
+}
+.mist .lbl { color: #8b3c3c; }
+
+.refl {
+  background: var(--plum-bg);
+  border-color: #dfcddd;
+  border-left: 4px solid var(--plum);
+}
+.refl .lbl { color: #654761; }
+
+.quick {
+  background: #f4f6ef;
+  border-color: #d6dcc4;
+  border-left: 4px solid #7d8a52;
+}
+.quick .lbl { color: #5f6a38; }
+
+/* inline term highlight */
+.term {
+  background: #f2ead6;
+  padding: 0 3px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+mark.hl {
+  background: #f6e7c4;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ============ Tables ============ */
+.tw {
+  margin: 14px 0 16px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fffdf8;
+}
+.tw.tkeep { break-inside: avoid; page-break-inside: avoid; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.1pt;
+  line-height: 1.46;
+}
+caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  padding: 9px 12px 7px;
+  background: #f6f1e6;
+  border-bottom: 1px solid var(--rule);
+}
+th {
+  background: #efe8d8;
+  color: #3a342b;
+  font-family: var(--sans);
+  font-size: 8.2pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+th:last-child { border-right: 0; }
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--rule-soft);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+  text-align: left;
+}
+td:last-child { border-right: 0; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:nth-child(even) td { background: #fcf8f0; }
+table.compact { font-size: 8.6pt; }
+table.compact th, table.compact td { padding: 5px 8px; }
+
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+
+/* ============ Figure / diagram ============ */
+figure {
+  margin: 18px 0;
+  padding: 14px 16px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fcf9f2;
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+figure svg { max-width: 100%; height: auto; }
+figcaption {
+  font-family: var(--sans);
+  font-size: 7.8pt;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+  margin-top: 8px;
+  text-align: center;
+}
+figcaption b { color: var(--ink-soft); }
+
+/* ============ Unit review block ============ */
+.review {
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--olive);
+  background: #fbf8f0;
+  border-radius: 3px;
+  padding: 16px 20px 18px;
+  margin: 22px 0 30px;
+}
+.review h4 {
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  font-style: normal;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
+}
+.review h5 {
+  font-size: 8.4pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  margin: 13px 0 5px;
+  font-family: var(--sans);
+}
+.review h5:first-of-type { margin-top: 9px; }
+.review p { text-align: left; }
+.review > :last-child { margin-bottom: 0; }
+
+.qa { margin: 0; }
+.qa .q { margin-bottom: 8px; break-inside: avoid; page-break-inside: avoid; }
+.qa .qt {
+  font-family: var(--sans);
+  font-size: 7.2pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--ink-soft);
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+.qa .q.l { border-left: 3px solid var(--terracotta); padding-left: 9px; }
+.qa .q.s { border-left: 3px solid var(--olive); padding-left: 9px; }
+.qa .q.v { border-left: 3px solid var(--dusty-blue); padding-left: 9px; }
+.qa .q p { margin: 0; text-align: left; display: inline; }
+
+/* ============ Subject card grid (project index only) ============ */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 14px;
+  margin: 18px 0 24px;
+}
+.subjcard {
+  display: block;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--terracotta);
+  border-radius: 3px;
+  background: #fffdf8;
+  padding: 13px 15px 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.subjcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -8px rgba(90, 72, 45, .45);
+}
+.subjcard .sc-code {
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--terracotta-d);
+}
+.subjcard .sc-title {
+  font-size: 11.4pt;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 4px 0 6px;
+  color: var(--ink);
+}
+.subjcard .sc-desc {
+  font-size: 9pt;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin-bottom: 9px;
+}
+.subjcard .sc-meta {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 7px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.subjcard.olive { border-top-color: var(--olive); }
+.subjcard.olive .sc-code { color: var(--olive-d); }
+.subjcard.blue { border-top-color: var(--dusty-blue); }
+.subjcard.blue .sc-code { color: #3d5a71; }
+.subjcard.gold { border-top-color: var(--gold); }
+.subjcard.gold .sc-code { color: #856722; }
+
+.linkpair {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.08em;
+  margin-top: 7px;
+  display: flex;
+  gap: 12px;
+}
+.linkpair a { color: var(--terracotta-d); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.linkpair a:hover { border-bottom-color: var(--terracotta); }
+
+.tocwide { columns: 2; column-gap: 30px; }
+.tocwide li { break-inside: avoid; }
+
+/* ============ Misc components ============ */
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 18px;
+}
+.chip {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  padding: 3px 11px;
+}
+
+.hr {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+  margin: 30px 0;
+}
+
+.footnote {
+  font-size: 8.6pt;
+  color: var(--ink-faint);
+  line-height: 1.5;
+}
+
+/* two-column comparison */
+.two-col { column-count: 2; column-gap: 30px; column-rule: 1px solid var(--rule-soft); }
+.two-col > * { break-inside: avoid; }
+
+/* ============ Responsive ============ */
+@media (max-width: 780px) {
+  body { padding: 14px 8px 40px; background-size: 18px 18px; }
+  .doc { padding: 26px 20px 36px; border-radius: 3px; }
+  .hero { padding: 20px 18px 18px; }
+  .hero h1 { font-size: 20pt; }
+  h2 { font-size: 14.5pt; padding-left: 11px; border-left-width: 4px; }
+  h3 { font-size: 11.6pt; }
+  .toc .sub { columns: 1; }
+  .tocwide { columns: 1; }
+  .two-col { column-count: 1; }
+  table { font-size: 8.4pt; }
+}
+
+/* ============================================================
+   PRINT / PDF  —  A4
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 15mm 14mm 16mm 14mm;
+}
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+    background-image: none !important;
+  }
+  body { padding: 0; font-size: 10.1pt; line-height: 1.56; }
+  .doc {
+    max-width: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .doc::before { display: none; }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Keep a whisper of the notebook dot-grid on the page, but far fainter
+     than on screen so a 70-page print run does not look noisy. */
+  .doc {
+    background-color: #fffdf8 !important;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0) !important;
+    background-size: 5.6mm 5.6mm !important;
+  }
+
+  h2, h3, h4, h5 { break-after: avoid; page-break-after: avoid; }
+  h2 { margin-top: 20pt; }
+
+  .card, figure, .qa .q, .tw.tkeep, tr, .chip-row { break-inside: avoid; page-break-inside: avoid; }
+  .tw, .card, .review { break-inside: auto; page-break-inside: auto; }
+
+  thead { display: table-header-group; }
+  tfoot { display: table-footer-group; }
+  p, li { orphans: 2; widows: 2; }
+
+  a { color: inherit; text-decoration: none; }
+  .made-by a { border-bottom: 0; }
+
+  .toc a { color: var(--ink); }
+
+  /* page-break control utility classes */
+  .pb { break-before: page; page-break-before: always; }
+  .avoid { break-inside: avoid; page-break-inside: avoid; }
+}
+
+</style>
+</head>
+<body>
+<article class="doc">
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="kicker">D.El.Ed &mdash; Semester I &middot; Paper S1.7</div>
+  <div class="code">S1.7</div>
+  <h1>Art and Creative Education &ndash; I</h1>
+  <p class="tagline">A studio manual as much as a study resource: creative writing, sketching, colour work, clay and collage on one side; the monuments, traditions and artists of Assam and India on the other.</p>
+  <div class="rule-line"><span class="made-by">Made with <span class="heart">&#10084;&#65039;</span> by <strong>Sayeem Sadik</strong> &middot; <a href="https://leoaristocrat.eu.cc">leoaristocrat.eu.cc</a></span></div>
+  <div class="glance">
+    <div class="g-item"><div class="g-label">Units</div><div class="g-value">3 &mdash; 10, 5, 5</div></div>
+    <div class="g-item"><div class="g-label">Marks</div><div class="g-value">20 Ext + 30 Int = 50</div></div>
+    <div class="g-item"><div class="g-label">Credits</div><div class="g-value">2</div></div>
+    <div class="g-item"><div class="g-label">Periods / week</div><div class="g-value">2&ndash;3</div></div>
+  </div>
+</header>
+
+<p class="lead">Thirty of the fifty marks in this paper are internal, and not one of those thirty can be earned by memorisation. The portfolio you build, the assignment you submit, the unit test you sit and the School Internship activity you carry out in a real school are the marks. Do the work &mdash; the notes below give the studio method, the history and theory, and the documentation you need.</p>
+
+<!-- ============ CONTENTS ============ -->
+<nav class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#unit-1">Unit 1 &mdash; Development of Skill (10)</a>
+      <ul class="sub">
+        <li><a href="#s1-1">1.1 Creative Writing: Memory, Story, Poem, Role Play, News</a></li>
+        <li><a href="#s1-2">1.2 Outdoor Sketch, Natural Object and Still Life</a></li>
+        <li><a href="#s1-3">1.3 Stencil Painting, Pot and Toy Making, Collage</a></li>
+        <li><a href="#s1-4">1.4 Clay Modelling</a></li>
+        <li><a href="#s1-1-assess">How Art Is Assessed: Process, Not Product</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-2">Unit 2 &mdash; History and Theory of Art (5)</a>
+      <ul class="sub">
+        <li><a href="#s2-1">2.1 History of Art: Monuments and Heritage Sites</a></li>
+        <li><a href="#s2-2">2.2 Sattriya Culture of Assam</a></li>
+        <li><a href="#s2-3">2.3 Basic Concepts of Way of Seeing</a></li>
+        <li><a href="#s2-4">2.4 Basic Features of Visual Art and Fine Arts</a></li>
+        <li><a href="#s2-5">2.5 Elements of Visual Art</a></li>
+        <li><a href="#s2-6">2.6 Aims and Educational Values of Fine Arts</a></li>
+        <li><a href="#s2-7">2.7 Art and Culture; Aesthetics and Livelihood</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-3">Unit 3 &mdash; Documentation (5)</a>
+      <ul class="sub">
+        <li><a href="#s3-1">3.1 Indian and Western Contemporary Artists</a></li>
+        <li><a href="#s3-2">3.2 Ajanta, Ellora, Khajuraho, Madan Kamdev, Da Parbatia</a></li>
+      </ul>
+    </li>
+    <li><a href="#practicum">Practicum &mdash; Five Studio and Field Tasks</a></li>
+    <li><a href="#sip">SIP Activities &mdash; Any Two of Five</a></li>
+    <li><a href="#internal">Internal Assessment (30 Marks)</a></li>
+    <li><a href="#revision">Quick Subject Revision</a></li>
+    <li><a href="#differences">Important Differences</a></li>
+    <li><a href="#courseinfo">Course Information</a></li>
+    <li><a href="#mentors">Faculty / Mentor Notes</a></li>
+    <li><a href="#readings">Suggested Readings</a></li>
+  </ol>
+</nav>
+
+<!-- ============ UNIT 1 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-1"><span class="h2num">Unit 1 &middot; 10 Marks</span>Development of Skill</h2>
+
+<p>One warning, because it governs everything that follows. A first outdoor sketch is <em>supposed</em> to be awkward. What is assessed is not how good it looks but whether the maker looked at the thing, made a series of decisions, and can see what they did and what they would change.</p>
+
+<!-- ---- 1.1 CREATIVE WRITING ---- -->
+<h3 id="s1-1">1.1 Creative Writing: Childhood Memory, Story, Poem, Role Play and News Writing</h3>
+
+<p>Creative writing here is not a literary exercise; it is a way of paying attention. Writing about childhood forces you to remember, and to remember accurately you must notice, because the mind fills gaps with invention unless it is held to the particular. The syllabus therefore begins where every writer begins and where no adult begins &mdash; with childhood memory &mdash; and widens into five forms, each training a different faculty.</p>
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Creative writing</strong> is writing in which the writer is not merely reporting a true occurrence but selecting, ordering and shaping experience so that it communicates something beyond the information &mdash; a feeling, a tension, a surprise, a pattern. Its opposite is not bad writing but <em>record-writing</em>, which is accurate and unmoved. The five syllabus forms sit at different points on the axis between the two: a news report nearest the record end, a poem furthest away, and a role play script in the middle, because it is dialogue written for other people to say.</p>
+</div>
+
+<h4>The sensory detail method and free writing</h4>
+
+<p>The most useful single technique at this level is the <strong>sensory detail method</strong>: describe what you can sense, and nothing else &mdash; not what you conclude, not what you feel about it, only what a camera would record and a skin would register. Memory is itself stored as sensation, so this brings a memory alive without effort. Work through the five channels in turn: <strong>sight</strong> (colour, light, shape, what is at the edge of vision), <strong>hearing</strong> (what sound, how loud, continuous or intermittent), <strong>smell</strong> (damp earth, kerosene, chalk dust, wet grass &mdash; the most neglected and often the most powerful), <strong>touch</strong> (rough, hot, wet, heavy) and <strong>taste</strong> (rarely used, and instantly effective at dating a memory).</p>
+
+<p>Alongside it sits the <strong>free-writing exercise</strong>, the standard way to break the blockage of a blank page. Take one word &mdash; <em>rain</em>, <em>stone</em>, <em>waiting</em>, <em>boat</em> &mdash; and write for ten minutes without stopping, without crossing anything out and without worrying about grammar. The product is not the point; the discovery that you have more to say than you thought is. A teacher can run this with a whole class in twenty minutes, and the sheets that come in afterwards are never the usual careful sentences.</p>
+
+<h4>The five forms</h4>
+
+<p><strong>Story.</strong> A sequence of events joined by cause and consequence. Insist on three things: a <strong>beginning in which something is wrong</strong>; a <strong>middle in which the situation changes because somebody makes a choice</strong>, not because of luck &mdash; this is what separates a story from an episode; and an <strong>end in which the situation has been altered</strong>, even if only in understanding. Then add dialogue, because dialogue is where character appears.</p>
+
+<p><strong>Poem.</strong> Not short prose set in lines. It works by <strong>compression</strong> (one moment may take the whole text) and by <strong>music</strong> (line-break, sound-pattern, repetition and rhyme carry meaning the literal words do not fully carry). A workable sequence: choose one image, list the ten words that come to mind, then cut to three. Teach <strong>lineation</strong> explicitly &mdash; where to break a line is a decision. In an Assamese or bilingual classroom the poetry of the <em>Borgeet</em> (2.2) is the local model, where metre and rhythm are inseparable from meaning.</p>
+
+<p><strong>Role play script.</strong> The drama strand of objective 8, and it must be written, not only performed. A script has a <strong>title</strong>; a <strong>cast list with the number of performers</strong>; a <strong>short statement of the situation</strong> (time, place, what is at stake); <strong>dialogue</strong> written out in full, with stage directions in brackets; and a note of the <strong>props and costumes</strong>. The characteristic fault of a first script is that it explains too much and dramatises too little: cut every line carrying information the audience can already see.</p>
+
+<p><strong>News report.</strong> The outlier of the list, included because it teaches <strong>selection under constraint</strong>. It answers six questions in this order &mdash; <strong>who, what, when, where, why, how</strong> &mdash; in a fixed shape: headline, dateline, a lead paragraph carrying the essential fact, a body giving detail in descending order of importance, and a closing line. A good exercise is to write the same school event at three lengths on one sheet. The craft of the news report is <em>omission</em>.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 1.1 &mdash; The Five Forms of Creative Writing and the Capacity Each Trains</caption>
+    <thead><tr><th>Form</th><th>Core demand on the writer</th><th>What it trains</th><th>Teaching tip for an elementary classroom</th></tr></thead>
+    <tbody>
+      <tr><td>Childhood memory</td><td>Sensory accuracy before interpretation</td><td>Observation; recall; trust in material</td><td>Give the class one object &mdash; a chalk stub, a leaf &mdash; and ask for the memory it belongs to.</td></tr>
+      <tr><td>Free writing</td><td>Volume; no self-censorship</td><td>Confidence; fluency; discovery</td><td>One word, ten minutes, no correction.</td></tr>
+      <tr><td>Story</td><td>Problem &rarr; choice &rarr; change</td><td>Structure; cause and consequence</td><td>Story-chain: each child adds one sentence to a single story passed round the room.</td></tr>
+      <tr><td>Poem</td><td>Compression and music</td><td>Economy; ear; lineation</td><td>Collect ten words, throw away seven, make the poem from three.</td></tr>
+      <tr><td>Role play script</td><td>Dialogue that shows, not tells</td><td>Character; stage sense</td><td>Give three objects and ask the group to invent the person who owns them.</td></tr>
+      <tr><td>News report</td><td>Selection under a word limit</td><td>Priority; the six Ws; omission</td><td>Write the same event at three lengths on one sheet.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Build one chain rather than five separate exercises. A character discovered from an object becomes a diary written in the first person; the diary supplies the role play; the role play is the piece performed at the exhibition the syllabus asks student-teachers to organise. The internal assessment then writes itself.</p>
+
+<!-- ---- 1.2 SKETCHING ---- -->
+<h3 id="s1-2">1.2 Outdoor Sketch, Drawing from a Natural Object, Still Life</h3>
+
+<p>Section 1.2 has three parts and they form a ladder. The <strong>outdoor sketch</strong> trains you to look at the world at large and record it quickly, working directly from the thing in front of you. Drawing from a <strong>natural object</strong> &mdash; a stone, a leaf, a branch, a fruit &mdash; trains you to look at one object exhaustively and to understand volume, texture and surface. <strong>Still life</strong>, a deliberately arranged group of objects, trains grouping, light and shade, cast shadow and composition. The movement from the first to the third is the movement from the open field to the controlled one.</p>
+
+<p>The difference between drawing and inventing is that a drawing is made by <strong>looking at something that is actually there</strong>. A beginner's commonest failure is a flight from the object: within four minutes the drawn tree has become a symbol of a tree remembered from a textbook. The rule of the studio is <em>keep your eyes on the thing, not on the paper</em>.</p>
+
+<figure>
+  <svg viewBox="0 0 760 216" role="img" aria-label="Six-step process flow for an outdoor sketch">
+    <defs>
+      <marker id="arS1" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+        <path d="M0,0 L7,3.2 L0,6.4 z" fill="#7a736a"/>
+      </marker>
+    </defs>
+    <rect x="0" y="0" width="760" height="216" fill="none"/>
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b">
+      <g>
+        <rect x="10" y="34" width="112" height="86" rx="3" fill="#f7e9e0" stroke="#b4623c" stroke-width="1"/>
+        <circle cx="66" cy="34" r="12" fill="#b4623c"/>
+        <text x="66" y="38" text-anchor="middle" font-size="12" fill="#faf6ee" font-weight="bold">1</text>
+        <text x="66" y="66" text-anchor="middle" font-weight="bold">Arrive &amp; stand</text>
+        <text x="66" y="84" text-anchor="middle" font-size="11">Note the light and</text>
+        <text x="66" y="99" text-anchor="middle" font-size="11">the direction of it</text>
+        <text x="66" y="114" text-anchor="middle" font-size="11">from the start</text>
+      </g>
+      <g>
+        <rect x="136" y="34" width="112" height="86" rx="3" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1"/>
+        <circle cx="192" cy="34" r="12" fill="#6d7a4a"/>
+        <text x="192" y="38" text-anchor="middle" font-size="12" fill="#faf6ee" font-weight="bold">2</text>
+        <text x="192" y="66" text-anchor="middle" font-weight="bold">Frame it</text>
+        <text x="192" y="84" text-anchor="middle" font-size="11">Make a viewfinder;</text>
+        <text x="192" y="99" text-anchor="middle" font-size="11">choose one viewpoint</text>
+        <text x="192" y="114" text-anchor="middle" font-size="11">and hold it</text>
+      </g>
+      <g>
+        <rect x="262" y="34" width="112" height="86" rx="3" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1"/>
+        <circle cx="318" cy="34" r="12" fill="#4c6a83"/>
+        <text x="318" y="38" text-anchor="middle" font-size="12" fill="#faf6ee" font-weight="bold">3</text>
+        <text x="318" y="66" text-anchor="middle" font-weight="bold">Thumbnail</text>
+        <text x="318" y="84" text-anchor="middle" font-size="11">Three minutes, small</text>
+        <text x="318" y="99" text-anchor="middle" font-size="11">size, whole picture</text>
+        <text x="318" y="114" text-anchor="middle" font-size="11">as masses</text>
+      </g>
+      <g>
+        <rect x="388" y="34" width="112" height="86" rx="3" fill="#f7efd8" stroke="#a5822e" stroke-width="1"/>
+        <circle cx="444" cy="34" r="12" fill="#a5822e"/>
+        <text x="444" y="38" text-anchor="middle" font-size="12" fill="#faf6ee" font-weight="bold">4</text>
+        <text x="444" y="66" text-anchor="middle" font-weight="bold">Block in</text>
+        <text x="444" y="84" text-anchor="middle" font-size="11">Light and dark masses</text>
+        <text x="444" y="99" text-anchor="middle" font-size="11">first, with a broad</text>
+        <text x="444" y="114" text-anchor="middle" font-size="11">tool or charcoal</text>
+      </g>
+      <g>
+        <rect x="514" y="34" width="112" height="86" rx="3" fill="#f1e8ee" stroke="#7a5570" stroke-width="1"/>
+        <circle cx="570" cy="34" r="12" fill="#7a5570"/>
+        <text x="570" y="38" text-anchor="middle" font-size="12" fill="#faf6ee" font-weight="bold">5</text>
+        <text x="570" y="66" text-anchor="middle" font-weight="bold">Work up</text>
+        <text x="570" y="84" text-anchor="middle" font-size="11">Add line, texture,</text>
+        <text x="570" y="99" text-anchor="middle" font-size="11">detail &mdash; eyes still</text>
+        <text x="570" y="114" text-anchor="middle" font-size="11">on the object</text>
+      </g>
+      <g>
+        <rect x="640" y="34" width="112" height="86" rx="3" fill="#f6efe2" stroke="#7a736a" stroke-width="1"/>
+        <circle cx="696" cy="34" r="12" fill="#7a736a"/>
+        <text x="696" y="38" text-anchor="middle" font-size="12" fill="#faf6ee" font-weight="bold">6</text>
+        <text x="696" y="66" text-anchor="middle" font-weight="bold">Compare</text>
+        <text x="696" y="84" text-anchor="middle" font-size="11">Hold the drawing up</text>
+        <text x="696" y="99" text-anchor="middle" font-size="11">against the object;</text>
+        <text x="696" y="114" text-anchor="middle" font-size="11">correct; annotate</text>
+      </g>
+      <line x1="124" y1="77" x2="134" y2="77" stroke="#7a736a" stroke-width="1.4" marker-end="url(#arS1)"/>
+      <line x1="250" y1="77" x2="260" y2="77" stroke="#7a736a" stroke-width="1.4" marker-end="url(#arS1)"/>
+      <line x1="376" y1="77" x2="386" y2="77" stroke="#7a736a" stroke-width="1.4" marker-end="url(#arS1)"/>
+      <line x1="502" y1="77" x2="512" y2="77" stroke="#7a736a" stroke-width="1.4" marker-end="url(#arS1)"/>
+      <line x1="628" y1="77" x2="638" y2="77" stroke="#7a736a" stroke-width="1.4" marker-end="url(#arS1)"/>
+      <rect x="10" y="140" width="742" height="60" rx="3" fill="#f4f6ef" stroke="#d6dcc4" stroke-width="1"/>
+      <text x="24" y="163" font-size="12" font-weight="bold" fill="#54603a">Timing for a 40-minute outdoor sketch</text>
+      <text x="24" y="177" font-size="11">3 min arrive and choose viewpoint &#183; 3 min thumbnails &#183; 12 min block in light and dark</text>
+      <text x="24" y="193" font-size="11">15 min work up &#183; 5 min compare and correct &#183; 2 min title, date and sign</text>
+    </g>
+  </svg>
+  <figcaption><b>Figure 1.1</b> &mdash; The six-step outdoor sketching process. Steps 2 and 6 are the two beginners skip, and they are the two that make the difference between a sketch and a copy.</figcaption>
+</figure>
+
+<h4>The outdoor sketch: kit, viewpoint, method</h4>
+
+<p><strong>What to carry.</strong> Keep it small enough that you will actually carry it: a board about A4 or A5, an <strong>HB or 2B</strong> for line and a <strong>4B or 6B</strong> for tone, a soft graphite stick or charcoal for large areas of value, a <strong>kneaded eraser</strong> (it lifts tone without damaging the paper tooth, unlike a rubber), a <strong>card cut as a viewfinder</strong>, a notebook, a cloth and a water bottle. In a school, add spare pencils &mdash; sharing supplies is part of the lesson. Colour is optional; tone and value will teach you more in the first ten sessions.</p>
+
+<p><strong>Choosing a viewpoint.</strong> A common beginner error is to sit down in the first clear space. Instead, walk round the subject once and ask four questions: What is the <em>subject</em>, and can it be stated in five words? Where is the light coming from, and what does it do to the shapes? What is behind it, and can I find a background that will not fight with it? Is there a foreground? Then choose the viewpoint and <em>do not move from it</em>. A drawing is made from one position at one moment, and defending that position is part of the discipline.</p>
+
+<p><strong>The viewfinder.</strong> Cut a rectangle about 10&nbsp;&times;&nbsp;15&nbsp;cm from stiff card and hold it at arm's length. It solves the commonest compositional complaint, which is that everything in the landscape is equally important: through a viewfinder you choose a smaller, stronger slice &mdash; the doorway with the tree through it, the two boats and not the whole riverbank. As you hold the frame up, ask: <em>is the horizon cutting the frame in half? is the main shape cut in half by the edge? can I find a third of the picture to make it bigger?</em></p>
+
+<p><strong>The thumbnail.</strong> Before the large drawing, make two or three thumbnails, each no bigger than a postage stamp, in three minutes. A thumbnail records only the arrangement &mdash; where the masses sit, where the light is, where the empty spaces are. If a thumbnail fails you have lost three minutes; if a full-size drawing fails, forty.</p>
+
+<p><strong>Block in before you detail.</strong> With the side of the pencil or a charcoal stick, lay in the <strong>large masses of light and dark</strong> before drawing any edge. Find the darkest mass (usually a doorway, a tree mass against the sky, a shadowed wall) and the lightest (usually the sky) and place them first as simple shapes. Only when the value structure is in place should you describe forms. The rule is <em>big to small, dark to light, general to particular</em>. A drawing that begins with detail will never hang together.</p>
+
+<p><strong>Work up.</strong> Now line and detail go in, but the eyes must still be on the object. Look for the <strong>edges</strong> that are firm and those that are lost &mdash; a firm edge is where colour or texture changes abruptly, a lost edge where it changes gradually. Drawing everything at the same weight is a great waste of a beginner's effort; varying the pressure of the line to vary the edge is what makes a drawing look observed rather than outlined.</p>
+
+<p><strong>Compare and correct.</strong> Before packing up, hold the drawing at arm's length and then against the object. Three things will be wrong: the <strong>proportion</strong> of one part to another, the <strong>value</strong> of a mass, and the <strong>position</strong> of something relative to the frame. Correct them. Then title the sheet and sign it with the date, the place and the time of day &mdash; that line is what makes the drawing <em>documentary</em> rather than decorative, and it earns marks in the practicum album.</p>
+
+<h4>Drawing from a natural object and from still life</h4>
+
+<p>Drawing a single <strong>natural object</strong> &mdash; a stone, a fallen branch, a leaf, a fruit, a bell-metal vessel &mdash; removes the problem of composition and leaves only the problem of seeing. Work in three passes. First the <strong>outline</strong>: the silhouette against a plain background, drawn as one continuous contour, since a contour that wanders is a contour drawn from an idea and not from an object. Second the <strong>mass</strong>: shade the whole form as a single simple volume, usually an egg-shape or a cylinder, so that you understand how much of the object is turning away from you.</p>
+
+  <p>Third the <strong>surface</strong>: only now add the character of the material &mdash; the pitted grey of a river stone, the grain of a branch, the hammered facets of a bell-metal bowl. A fourth pass, kept for a later session, is the <strong>cast shadow</strong> and the ground the object sits on. Most beginners reverse this order, drawing the texture of a stone while the stone is still shapeless, and cannot then understand why the result looks flat.</p>
+
+<p><strong>Still life</strong> &mdash; a group of arranged objects such as fruit, a vessel, a bowl, cloth &mdash; is the natural climax of this section, because it puts three problems in one frame: <em>grouping</em>, <em>light</em>, and <em>arrangement</em>. Three rules govern the arrangement, and they are learnable in an afternoon. <strong>Group, do not scatter</strong> &mdash; the objects must touch or overlap; a line of objects spaced like a queue reads as a list, not a picture.</p>
+
+  <p><strong>Vary the heights and the sizes</strong> &mdash; three objects of similar height make a flat fence; one tall, one medium, one low gives the eye somewhere to travel. <strong>Overlap the cast shadows</strong> &mdash; the shadows must run into one another, because that is what binds separate objects into one group. Against these rules the choice of objects matters less than beginners suppose: three humble objects arranged well beat ten arranged badly.</p>
+
+<p>The second problem is <strong>light</strong>, and it must be decided before any drawing begins. Fix on <strong>one light source</strong> &mdash; a window, a lamp, a bulb held high and to the left &mdash; and never use a second. A single source gives every object a <strong>highlight</strong>, a <strong>light</strong>, a <strong>half-tone</strong>, a <strong>core shadow</strong> and a <strong>reflected light</strong>, and it makes the cast shadow fall consistently in the opposite direction.</p>
+
+  <p>Beginners routinely omit the fifth, the reflected light &mdash; the bounce of light off the table back into the underside of the object &mdash; and without it objects look pasted on. Draw the cast shadow <em>before</em> the object that throws it: it is darkest and sharpest at the point of contact and lighter and softer as it runs away.</p>
+
+<figure>
+  <svg viewBox="0 0 760 268" role="img" aria-label="Still life arrangement with single light source, cloth backdrop and cast shadow">
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b">
+      <rect x="0" y="0" width="760" height="268" fill="#faf6ee"/>
+      <rect x="252" y="30" width="300" height="168" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.2"/>
+      <text x="402" y="24" text-anchor="middle" font-size="12" fill="#4c6a83" font-weight="bold">Cloth / paper backdrop &mdash; a plain field, not a pattern</text>
+      <text x="402" y="212" text-anchor="middle" font-size="12" fill="#7a736a">Table top</text>
+      <line x1="252" y1="198" x2="552" y2="198" stroke="#33302b" stroke-width="1.4"/>
+      <circle cx="120" cy="58" r="22" fill="#f7efd8" stroke="#a5822e" stroke-width="1.4"/>
+      <text x="120" y="62" text-anchor="middle" font-size="12" fill="#856722" font-weight="bold">L</text>
+      <g stroke="#a5822e" stroke-width="1.2" fill="none">
+        <line x1="120" y1="36" x2="120" y2="20"/><line x1="120" y1="80" x2="120" y2="96"/>
+        <line x1="98" y1="58" x2="82" y2="58"/><line x1="142" y1="58" x2="158" y2="58"/>
+        <line x1="104" y1="42" x2="92" y2="30"/><line x1="136" y1="42" x2="148" y2="30"/>
+        <line x1="104" y1="74" x2="92" y2="86"/><line x1="136" y1="74" x2="148" y2="86"/>
+      </g>
+      <text x="120" y="122" text-anchor="middle" font-size="12" fill="#856722" font-weight="bold">One light source,</text>
+      <text x="120" y="139" text-anchor="middle" font-size="12" fill="#856722" font-weight="bold">upper left</text>
+      <text x="120" y="156" text-anchor="middle" font-size="12" fill="#7a736a">decide this first,</text>
+      <text x="120" y="173" text-anchor="middle" font-size="12" fill="#7a736a">and never use a</text>
+      <text x="120" y="190" text-anchor="middle" font-size="12" fill="#7a736a">second light</text>
+      <g>
+        <ellipse cx="330" cy="152" rx="42" ry="44" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.4"/>
+        <path d="M300,120 Q296,164 322,192" fill="none" stroke="#6d7a4a" stroke-width="1.2"/>
+        <text x="330" y="160" text-anchor="middle" font-size="12" fill="#54603a">Sphere</text>
+        <text x="330" y="177" text-anchor="middle" font-size="12" fill="#54603a">(form)</text>
+      </g>
+      <g>
+        <path d="M410,198 L410,110 L438,86 L466,110 L466,198 Z" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.4"/>
+        <rect x="404" y="100" width="68" height="16" fill="#f1e8ee" stroke="#7a5570" stroke-width="1.2"/>
+        <text x="438" y="160" text-anchor="middle" font-size="12" fill="#8f4a2a">Bottle</text>
+        <text x="438" y="177" text-anchor="middle" font-size="12" fill="#8f4a2a">(form + edge)</text>
+      </g>
+      <g>
+        <path d="M508,198 L512,168 Q544,150 576,168 L580,198 Z" fill="#f6efe2" stroke="#7a736a" stroke-width="1.4"/>
+        <path d="M508,198 L580,198" stroke="#7a736a" stroke-width="1.4"/>
+        <text x="544" y="188" text-anchor="middle" font-size="12" fill="#55504a">Bowl</text>
+        <text x="544" y="214" text-anchor="middle" font-size="12" fill="#7a736a">(ellipse + line)</text>
+      </g>
+      <g>
+        <path d="M368,198 L470,198 L520,232 L318,232 Z" fill="#e3d2b6" stroke="#a5822e" stroke-width="1.2"/>
+        <text x="419" y="248" text-anchor="middle" font-size="12" fill="#856722" font-weight="bold">Cast shadow &mdash; draw it before you draw the object</text>
+        <text x="419" y="264" text-anchor="middle" font-size="12" fill="#7a736a">Its direction always points away from the light</text>
+      </g>
+    </g>
+  </svg>
+  <figcaption><b>Figure 1.2</b> &mdash; A still life set up for teaching. Group the objects, decide the light first, place the cast shadow, and only then build the objects one by one against a plain cloth.</figcaption>
+</figure>
+
+<p>A third skill, easily taught alongside the first two, is <strong>judging distance and proportion by measurement</strong>. Hold a pencil at arm&rsquo;s length, close one eye, and use its length as a unit to compare one part of the object with another. Never measure <em>on</em> the paper, always <em>at</em> the object; doing so corrects the distorted proportions that make a beginner&rsquo;s figures look like children&rsquo;s drawings even when the technique is otherwise sound.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 1.2 &mdash; Common Errors in Beginner Drawing and Their Correction</caption>
+    <thead><tr><th>#</th><th>The error</th><th>Why it happens</th><th>The correction</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Drawing from memory or from a textbook symbol</td><td>Fear of what is actually in front of one</td><td>Draw only what is visible; forbid copying any known image for a whole session</td></tr>
+      <tr><td>2</td><td>Starting large and detailing early</td><td>Eagerness to &ldquo;get something done&rdquo;</td><td>Thumbnail first, then values, then detail &mdash; big to small</td></tr>
+      <tr><td>3</td><td>Everything outlined at the same weight</td><td>No understanding of edges</td><td>Vary the line: firm edge where contrast changes, lost edge where it fades</td></tr>
+      <tr><td>4</td><td>Only two values &mdash; black and white</td><td>Using the pencil as a pen</td><td>Make a five-step value scale from white to black and keep to it</td></tr>
+      <tr><td>5</td><td>No cast shadow under the object</td><td>The object is not understood as occupying space</td><td>Place the shadow before the object; anything on a surface throws one</td></tr>
+      <tr><td>6</td><td>The picture is centred and static</td><td>Fear of cutting a shape at the edge</td><td>Use the viewfinder; place the subject off-centre; let something be cut</td></tr>
+      <tr><td>7</td><td>Distorted proportion</td><td>Measuring with the drawing hand</td><td>Measure at the object with a held pencil or a thread, never on the paper</td></tr>
+      <tr><td>8</td><td>Sky left blank white</td><td>Not noticing that paper is already light</td><td>The sky is nearly always a value, not white &mdash; tone it</td></tr>
+      <tr><td>9</td><td>Erasing with a rubber and tearing the paper</td><td>Wrong tool for the job</td><td>Use a kneaded eraser for tone; lift rather than scrub</td></tr>
+      <tr><td>10</td><td>No title, date, place or time</td><td>Stopping the moment it looks finished</td><td>Insist on the caption line; it makes the drawing a record</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="s1-3">1.3 Stencil Painting, Pot and Toy Making, Collage</h3>
+
+<p>Section 1.3 moves from drawing the observed world to <strong>making objects</strong>. The three crafts named in the syllabus &mdash; stencil painting, pot and toy making, and collage &mdash; between them demand the whole range of skills a primary teacher needs: <em>control</em> (stencil), <em>three-dimensional thinking and hand skill</em> (pot and toy), and <em>selection and arrangement</em> (collage). They are also cheap: cardboard, bottles, clay and old magazine pages are enough, and none requires a special studio. Because the materials are ordinary, the discipline must come from the <em>handling</em>, and each material has limits that must be respected. Table 1.3 sets out the principal materials, what each is used for, and the mistake each one punishes.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 1.3 &mdash; Studio Materials, Their Uses and Their Limits</caption>
+    <thead><tr><th>Material</th><th>Principal use in art teaching</th><th>The limit that must be respected</th></tr></thead>
+    <tbody>
+      <tr><td>Paper, cartridge sheet</td><td>Drawing, painting, collage base</td><td>Buckles if damp; cannot take heavy repeated wet media</td></tr>
+      <tr><td>Chart paper</td><td>Large posters, murals, group work</td><td>Too large for fine detail; tears if folded</td></tr>
+      <tr><td>Cardboard and thermocol</td><td>Mounting, collage, stencils, masks, bases</td><td>Edges cut in one stroke; scores show through when painted</td></tr>
+      <tr><td>Stiff plastic sheet or acetate</td><td>Stencil cutting; stencils for spray and poster colour</td><td>Cracks if the design has long thin bridges between openings</td></tr>
+      <tr><td>Poster colour / acrylic</td><td>Stencil and poster work, collage assembly</td><td>Fast-drying on palette; two thin coats beat one thick</td></tr>
+      <tr><td>Water colour</td><td>Light washes, value scales, illustration</td><td>Dries light; cannot be re-wetted once dry</td></tr>
+      <tr><td>Modelling clay / terracotta clay</td><td>Clay modelling, pots, relief, toys</td><td>Must dry slowly and evenly or it cracks; cannot be used again after firing</td></tr>
+      <tr><td>Old magazine and newspaper pages</td><td>Collage; texture and value contrast</td><td>Print tone varies; mount the back if the text must not show through</td></tr>
+      <tr><td>Fabric offcuts, thread, jute</td><td>Collage, soft toys, puppet construction</td><td>Edges fray; must be cut with pinking shears or overcast</td></tr>
+      <tr><td>Found materials &mdash; bottle tops, bangles, wire, seeds</td><td>Toy making, assemblage, texture</td><td>Must be cleaned and checked for sharp edges before children handle them</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>Stencil painting</h4>
+
+<p>A <strong>stencil</strong> is a thin sheet &mdash; of plastic, card, metal or leather &mdash; in which openings have been cut out. The design is held flat over the surface and colour is pushed or sprayed through the openings, so that the cut shape is reproduced exactly. Making one teaches a child something freehand painting does not: that a design can be <em>planned as a shape</em> and then repeated. The making proceeds in five steps. <strong>1. Design</strong> &mdash; draw the motif boldly; stencil designs need fewer, larger shapes than freehand ones, because the bridges of material between them must survive cutting. <strong>2.</p>
+
+  <p>Transfer</strong> &mdash; fix the design to the sheet with tape. <strong>3. Cut out</strong> the openings, remembering the principle: <strong>the parts you leave uncut are the bridge points that hold the design together</strong>. A stencil whose openings are all isolated pieces is not a stencil but a pile of cut-outs. <strong>4. Fix</strong> it flat with one hand, or with low-tack tape, so that it cannot shift. <strong>5. Apply</strong> colour with poster colour, a stiff brush carrying a little colour, or a spray; too much colour floods the openings and blurs the edge. Lift the stencil only when the colour is nearly dry, and lift it straight up, not sideways.</p>
+
+<p>Stencils are used for wall lettering, on chart paper for school notice boards, on cloth for bags and garments, and on leftover card for greeting cards and bookmarks. A particularly effective school use is a <strong>letter stencil</strong> for the school's own name: it makes the children designers rather than decorators, and the repeated letter teaches the value of a consistent form.</p>
+
+<h4>Pot making and toy making</h4>
+
+<p><strong>Pot making</strong> by the coil method is within the reach of any classroom. A ball of clay is rolled between the palms into a rope; the rope is laid on a flat base in overlapping rings, each ring joined to the last by scoring and slipping; the pot is then <strong>hollowed</strong> from the top, thinned to an even wall, and the rim turned and smoothed.</p>
+
+  <p>Three rules govern the result: the coils must be <strong>joined</strong>, not merely stacked, or the pot splits at the joins; the wall must be of <strong>even thickness</strong>, or it dries unevenly and cracks; and the pot must be <strong>turned</strong> as it is built, so that it is not lopsided. Before use it must dry <em>completely</em> &mdash; in shade, slowly, over several days &mdash; because clay that is fired or painted while damp will crack. <strong>Decoration</strong> comes only after the pot is bone dry: painting, applique with small cut pieces, or incising with a pointed tool.</p>
+
+<p><strong>Toy making</strong> in the primary classroom rests on the same material logic at a smaller scale. A clay ball on a stick is a <em>rattle</em>; a small hollow pot with a pierced base is a <em>pot drum</em>; a shaped-and-dried figure with a hole in the base slides on a stick and becomes a <em>puppet</em>; wire, thermocol, cloth offcuts and jute can be assembled into a <em>soft toy</em> that moves.</p>
+
+  <p>The design principle is that a toy must be <strong>able to do one thing well</strong>, and the child should choose what the toy will do &mdash; <em>sound</em>, <em>movement</em>, or <em>pressure on the palm</em> &mdash; before choosing what it will look like. Assorted thermocol sheets, beads, bangles, wire, bottle tops, seeds and buttons are the raw material, and everything with a sharp edge must be checked before it reaches a Class III child.</p>
+
+<h4>Collage</h4>
+
+<p><strong>Collage</strong> &mdash; the French word for pasting &mdash; is the technique of building an image by assembling found and made materials on a ground, rather than by drawing or painting it. It is the most forgiving of the three crafts and the most undervalued, because it demands no skill a beginner does not already have and it forces the two hardest decisions in art: <strong>selection</strong> and <strong>arrangement</strong>. It is an excellent thinking exercise and a poor exercise in draughtsmanship, and a teacher should present it as the first of the two.</p>
+
+<p>Collage is done in four stages. <strong>1. Ground</strong> &mdash; a sheet of paper, card or board. <strong>2. Selection</strong> &mdash; gather more materials than you need: torn and cut newspaper and magazine, coloured and plain papers, fabric, jute, sand, stone, seeds, leaves, wood shavings, torn cloth. <strong>3. Cutting and tearing</strong> &mdash; some materials are better torn than cut, because the torn edge of paper is irregular and lively while the cut edge is mechanical. <strong>4. Assembly</strong> &mdash; fix the pieces from the background forward, overlapping as you go, and glue only the edges so the face of the material stays visible. Work in three groups of value &mdash; <strong>light, middle, dark</strong> &mdash; and let the darks carry the composition. The materials are the raw stock; the discipline is in the choosing.</p>
+
+<p>A good classroom example for Assam is a collage of <strong>&ldquo;My Market, My River&rdquo;</strong> on a sheet of chart paper. Children collect <em>labels and wrappers from their own kitchen</em> (a design lesson in itself), torn <em>jute</em> from the rice sack, <em>sand</em>, <em>leaves</em>, <em>seeds</em> and scraps of <em>cloth</em>; they build the market stalls from cardboard and the river from a band of dyed paper or torn cloth. The result is a picture of <em>their own</em> town, and every child recognises it &mdash; which is the surest way to show a child that art is not decoration but record.</p>
+
+<!-- ---- 1.4 CLAY MODELLING ---- -->
+<h3 id="s1-4">1.4 Clay Modelling</h3>
+
+<p><strong>Clay modelling</strong> is the shaping of a three-dimensional form out of a soft plastic material. In a school it means <em>modelling clay</em> (a ready-made oil-based clay that needs no firing) or <em>terracotta clay</em> (a natural clay that must be dried and fired). Modelling clay is forgiving, can be reused, and is the right material for teaching; terracotta is more permanent and is what a potter uses. The method divides into two families, and every piece of modelled work uses both.</p>
+
+<p><strong>The additive method</strong> builds the form by <em>adding</em> material: a base slab, then coarse lumps for the masses, joined together. <strong>The subtractive method</strong> begins with a solid block and <em>removes</em> what is not wanted, using a wire loop, a knife or a rib. Most finished work is additive first and subtractive last &mdash; built up to find the form, then cut back to correct it. The two together are simply the logic of any craft: <em>add to discover, cut to decide</em>.</p>
+
+<p><strong>Armature.</strong> Before any clay goes on, decide how the piece will stand. For a figure, a simple <strong>armature</strong> of thick wire &mdash; a vertical spine, a cross-bar for the shoulders, two shorter lengths for the legs &mdash; gives the form internal support and settles the proportions before any clay is committed. Wrap the wire in torn paper strips dipped in paste, so that the clay has something to grip and the wire cannot push through. For a relief, a mask or a wall piece no armature is needed: <strong>the wall is the armature</strong>, which is exactly why a relief is the sensible first project for a class.</p>
+
+<p><strong>Building up and joining.</strong> Put on a base slab, then add the major masses &mdash; torso, limbs, head &mdash; as coarse lumps, each pressed firmly onto what is beneath. Join with <strong>slip</strong>: the joint surfaces are <em>scored</em> with a needle or a knife tip to give a key, wetted with slip, and pressed together; a small coil of clay run along the seam is the belt-and-braces repair. Add and join <em>one part at a time</em>, and check the silhouette from the side after each addition. The silhouette is the truth about a three-dimensional form &mdash; the front view flatters you and the side view does not.</p>
+
+<p><strong>Hollowing.</strong> A solid lump of clay larger than a fist will crack as it dries, because the outside dries faster than the inside. So the interior must be removed with a loop tool, a knife or the fingers, leaving a wall of roughly even thickness &mdash; about the thickness of a coin at this scale. Work from an opening, remove material in stages, and turn the piece as you go. Stop when the wall is thin enough to lift the form on one side of the opening without its sagging.</p>
+
+<p><strong>Drying.</strong> Drying is a stage of the process, not a waiting period. Dry the piece <strong>slowly, in shade, and covered</strong>, so that the moisture leaves evenly; uneven drying is the cause of almost every crack. A simple classroom method is to keep the piece in a closed plastic bag or a cardboard box for a day, then leave it out, and paint only when it is bone dry. If a crack does appear, the repair is the same as for a join: wet the crack, fill it with slip, let it dry, and scrape or sand it level.</p>
+
+<p><strong>Tools.</strong> The tool list for a school art room is short and costs almost nothing: a wooden modelling tool or a spatula, a craft knife, a small loop (a piece of wire bent into a teardrop), a needle, a rib or a shell for smoothing, a scrap of fine wire for cutting off excess, a rolling pin and a flat board, and a small container of water. A plastic spoon and a broken tile are entirely serviceable. The classic instruction to a pupil is <em>cut, then smooth, then cut again</em> &mdash; the tool is for shaping, the fingers are for feeling, and the two are used together.</p>
+
+<div class="card rem">
+  <span class="lbl">Remember</span>
+  <p>The studio order of clay work, in the sequence it must be done and not the sequence it is usually told:</p>
+  <ul class="bul">
+    <li><strong>Wedge</strong> the clay on a board to remove air bubbles; knead it until it is uniform.</li>
+    <li><strong>Decide the armature</strong> &mdash; or decide that the wall is the armature, for a relief.</li>
+    <li><strong>Build the masses</strong> on a base slab, one part at a time, checking the silhouette from the side.</li>
+    <li><strong>Score and slip</strong> every joint; run a coil over any seam you are not sure of.</li>
+    <li><strong>Hollow</strong> the form to a wall of even thickness, or it will crack as it dries.</li>
+    <li><strong>Support</strong> any weak projecting part with crumpled paper or a slip mixture while it is wet.</li>
+    <li><strong>Dry in shade, covered</strong>, slowly &mdash; never in direct sun, never on a hot board.</li>
+    <li><strong>Decorate only when bone dry</strong>, and fire last of all, if at all.</li>
+  </ul>
+</div>
+
+<h3 id="s1-1-assess">How Art Is Assessed: Process, Not Product</h3>
+
+<p>This section is not separately numbered in the syllabus, but it belongs in Unit 1 because Unit 1 produces the evidence this paper actually assesses. The 30 internal marks are distributed across performance and participation (10), assignment submission (5), unit test (5) and SIP activity (10). Not one of those four rewards a single beautiful finished object, and the mentor instruction is explicit about the reason: the paper stresses the <strong>importance of Continuous and Comprehensive Evaluation (CCE) in Art Education</strong>. Table 1.4 sets the two bases of assessment against each other.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 1.4 &mdash; Art-Process Assessment Compared with Art-Product Assessment</caption>
+    <thead><tr><th>Basis</th><th>Art-process assessment</th><th>Art-product assessment</th></tr></thead>
+    <tbody>
+      <tr><td>What is judged</td><td>The decisions, attempts, revisions and observations behind the work</td><td>The single finished object</td></tr>
+      <tr><td>Evidence used</td><td>Portfolio, thumbnails, drafts, dated sketches, observation notes, self-assessment, verbal critique</td><td>The final piece as presented</td></tr>
+      <tr><td>When</td><td>Continuously, through the unit</td><td>At the end, once</td></tr>
+      <tr><td>Effect on the learner</td><td>Encourages experiment, risk and revision; reduces the fear of the blank page</td><td>Encourages conformity; rewards the confident and the tutored</td></tr>
+      <tr><td>Effect on the assessor</td><td>Requires a rubric, a record and time; gives a fuller and fairer picture</td><td>Fast and simple &mdash; and largely measures talent, teaching and money, not learning</td></tr>
+      <tr><td>Typical failure</td><td>Becomes an exercise in record-keeping rather than art</td><td>Judges motor skill, not observation or imagination</td></tr>
+      <tr><td>Fit with this paper</td><td>Consistent with CCE, with the internal assessment scheme and with SIP</td><td>Inconsistent with all three</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Four instruments make process assessment practical. The <strong>portfolio</strong> is the simplest and the best: a set of work, deliberately kept, in which the early awkward attempts are still present &mdash; a portfolio curated to hide the beginnings is no longer evidence of anything. The <strong>observation record</strong> is a short dated note on each session: what was set, what the group did, what two named individuals did, what the difficulties were.</p>
+
+  <p>The <strong>critique</strong> is a class discussion in which the work on the wall is <em>described</em> before it is judged and the artist listens before replying; describing before evaluating stops the exercise becoming a matter of taste. The <strong>self-assessment card</strong> asks the student three questions before the session closes: <em>What did I look at? What did I change? What would I do differently next time?</em></p>
+
+<p>&ldquo;Why should art be assessed on process rather than product?&rdquo; is a standard two- or five-mark question, and the answer that scores has four parts. (i) Art skill develops through attempt and revision, so the process is where the learning is. (ii) A product judge cannot distinguish a well-taught beginner from a self-taught one. (iii) Process assessment is continuous, so it is a form of CCE and it gives the learner feedback while it can still be acted on. (iv) It encourages free expression, which the mentor instructions of this syllabus explicitly require. A fifth point worth making is that it is the only fair way to assess a class in which drawing skill is unevenly distributed &mdash; which in a rural Assamese-medium school it always is.</p>
+
+</section>
+
+<!-- ============ UNIT 1 REVIEW ============ -->
+<div class="review">
+  <h4>Unit 1 Review &mdash; Development of Skill</h4>
+  <h5>Key Points</h5>
+  <ul class="bul">
+    <li><strong>1.1 Creative writing</strong> &mdash; five forms from childhood memory: the story, the poem, the role play script, the news report and the piece built by free writing. The sensory detail method forces accuracy of observation; free writing breaks the blockage of the blank page. Each form has a characteristic demand &mdash; structure in the story, compression and music in the poem, dialogue that shows rather than tells in the script, selection under a word limit in the report.</li>
+    <li><strong>1.2 Sketching</strong> &mdash; the six steps: sight the light, frame the view with a viewfinder, thumbnail, block in the light and dark masses, work up with firm and lost edges, compare and correct. Then the single natural object in three passes (outline, mass, surface) and the still life, where grouping, varied height, a plain backdrop, one light source with its five tones, and the cast shadow are the essential knowledge.</li>
+    <li><strong>1.3 Applied crafts</strong> &mdash; the stencil needs a simplified silhouette and bridge points of at least 4&nbsp;mm between openings, and is coloured with a barely damp brush or sponge; the pot is made by the coil method &mdash; slab the base, coil the wall, join with slip, scrape the ribs &mdash; which is the method a school can actually teach; the collage is built by developing a visual idea first, selecting material by colour and texture rather than by subject, gluing thinly from the background forward, and finishing the edges.</li>
+    <li><strong>1.4 Clay modelling</strong> &mdash; additive and subtractive methods, the armature, building up and joining with slip, hollowing to an even wall, slow covered drying, and a short set of simple tools. Clay is also the material that teaches that a mistake is not a failure: every pupil will break a piece and every pupil can repair it.</li>
+    <li><strong>The assessment principle</strong> &mdash; all of Unit 1 must be judged on <strong>process, not product</strong>, using portfolios that keep the early attempts, dated observation records, classroom critique and self-assessment cards, in line with the paper&rsquo;s own instruction to mentors on CCE.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p>Creative writing &middot; Sensory detail method &middot; Free writing &middot; Lineation &middot; Role play script &middot; News report &middot; Dateline &middot; Outdoor sketch &middot; Viewfinder &middot; Thumbnail &middot; Block-in &middot; Firm edge &middot; Lost edge &middot; Value scale &middot; Cast shadow &middot; Still life &middot; Highlight &middot; Core shadow &middot; Reflected light &middot; Stencil &middot; Bridge point &middot; Wedging &middot; Centring &middot; Slab and coil method &middot; Slip &middot; Collage &middot; Mixed media &middot; Additive method &middot; Subtractive method &middot; Armature &middot; Score and slip &middot; Hollowing &middot; Portfolio &middot; Critique &middot; CCE</p>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>What is the sensory detail method in creative writing, and what does it force the writer to do?</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Name the six steps of an outdoor sketch.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>What is a bridge point in a stencil, and why is it necessary?</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Name the five tones on a lit object and say which is most often forgotten.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Describe the coil method of making a pot. Why is it more suitable for a school than the wheel method?</p></div>
+    <div class="q s"><span class="qt">SA</span><p>List any six common errors of a beginner&rsquo;s drawing and give the correction for each.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>&ldquo;Art should be assessed on process and not on product.&rdquo; Discuss this statement with reference to the internal assessment of this paper and to Continuous and Comprehensive Evaluation.</p></div>
+  </div>
+</div>
+
+<!-- ============ UNIT 2 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-2"><span class="h2num">Unit 2 &middot; 5 Marks</span>History and Theory of Art</h2>
+
+<p>Unit 2 carries only five marks, but it is where the paper becomes an education rather than a hobby. Seven sub-sections are packed into those five marks, and they fall into three movements. Sections <strong>2.1 and 2.2</strong> are historical &mdash; the monuments and heritage sites of Assam and India, and the living culture of the Sattrias. Sections <strong>2.3, 2.4 and 2.5</strong> are theoretical &mdash; how we see, what visual art and fine arts are made of, and the elements they are built from.</p>
+
+  <p>Sections <strong>2.6 and 2.7</strong> are evaluative &mdash; what art is for in a school, and how art, culture, aesthetics and livelihood are bound together. Because the marks are few and the material broad, the right revision strategy is not memorisation but structure: learn the seven headings, learn the four or five facts most likely to be examined under each, and learn to argue. A descriptive question on Ajanta or on Sattriya Nritya should be answered with a mixture of fact and significance &mdash; what it is, and why it matters to a teacher in Assam.</p>
+
+<!-- ---- 2.1 HISTORY OF ART ---- -->
+<h3 id="s2-1">2.1 History of Art: Historical Monuments and Heritage Sites of Assam and India</h3>
+
+<p><strong>History of art</strong>, in the sense this syllabus uses it, is the study of what human beings have made and built, and of the ideas those objects carry. It is not a list of styles. A monument is a document: a temple tells you about the belief, the economy, the technology and the social organisation of the people who raised it, and a painting tells you what they thought was worth remembering. For a teacher the practical value is direct &mdash; a child who has seen a photograph of the Kailasa temple at Ellora, or of a <em>satra</em> gate in Majuli, has a store of real images to draw from and real monuments to visit.</p>
+
+<p>Three features distinguish art history as a discipline from general history, and they are worth stating because they are the frame in which any long answer on this section sits. First, <strong>art is material evidence</strong> &mdash; unlike a chronicle, a carved pillar cannot be edited by a later court. Second, <strong>art is not only religious</strong>: alongside temples and caves there are pots, coins, textiles, toys, jewellery, tools and houses, and a child&rsquo;s clay bull is no less a historical document than a colossal.</p>
+
+  <p>Third, <strong>art is usually anonymous or collective</strong> &mdash; very few monuments have a named sculptor, and that is itself evidence about how the societies that built them organised labour. The monuments named in this paper fall into three traditions of building, and the tradition explains much of what you see at the site.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 2.1 &mdash; Three Traditions of Indian Monument Building</caption>
+    <thead><tr><th>Tradition</th><th>How it is built</th><th>Examples in this paper</th><th>Characteristic concern</th></tr></thead>
+    <tbody>
+      <tr><td>Rock-cut</td><td>Carved out of a living rock from the top down; a negative process, so the building is never assembled from separate stones</td><td>Ajanta, Ellora</td><td>Sculpture freed from the stone; painting in the inner chambers</td></tr>
+      <tr><td>Structural stone</td><td>Built piece by piece from dressed stone; a positive process</td><td>Khajuraho</td><td>The exterior surface as a whole; a coordinated vertical profile</td></tr>
+      <tr><td>Timber, bamboo and brick</td><td>Built in a light, renewable material, and in Assamese practice often periodically rebuilt</td><td>The Sattria buildings of Assam, including Da Parbatia</td><td>Carved wooden panels, the <em>namghar</em> prayer hall, continuing community function</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>A <strong>heritage site</strong> is a place recognised as carrying outstanding universal value and protected for the benefit of future generations. In India the two statutory instruments a teacher should be able to name are the <strong>Ancient Monuments and Archaeological Sites and Remains Act (AMASR), 1958</strong> and the <strong>Antiquities and Art Treasures Act, 1972</strong>, and both are administered by the <strong>Archaeological Survey of India</strong>. The distinction matters for a D.El.Ed student because a protected monument is one a pupil may not be permitted to draw from directly &mdash; a photograph, a postcard or a measured sketch made on the spot is often the legitimate route, and that is precisely what the practicum album and the documentation unit require.</p>
+
+<div class="card exam">
+  <span class="lbl">Exam Focus</span>
+  <p>Because 2.1 is a wide sub-section, the external question is usually descriptive: <em>&ldquo;Describe briefly the historical monuments and heritage sites of Assam and India.&rdquo;</em> A five-mark answer needs four or five located and dated examples, spread across more than one tradition &mdash; the three-traditions frame above guarantees that &mdash; plus one closing sentence on why a teacher should care. A two-mark question is often <em>&ldquo;What is a heritage site?&rdquo;</em> For that, the definition, the two Acts and the name of the Archaeological Survey are the whole answer. Do not spend a two-mark answer on a description of a cave.</p>
+</div>
+
+<!-- ---- 2.2 SATTRIYA CULTURE ---- -->
+<h3 id="s2-2">2.2 Sattriya Culture of Assam (Borgeet, Sattriya Nritya, Bhaona, Manuscript Painting)</h3>
+
+<p>Of all the content in Unit 2 this is the part most specific to Assam, and the part a student-teacher is most likely to be examined on. It is also the part candidates most often write about vaguely, so the following stays close to what can be defended from the standard sources.</p>
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p>A <strong>Sattra</strong> (also written <em>sattra</em>, <em>sattriya</em> or <em>sekhra</em>) is a Vaishnavite monastic institution of the Assamese <em>bhakti</em> tradition &mdash; the devotional movement that worships Vishnu in his form as Krishna, and whose great poet-saint was <strong>Madhavdeva</strong> (also called Sankardeva), working in the sixteenth century. The Sanskrit root is <em>sthala</em>, a place of residence or abode. A Sattra is at once a <strong>temple</strong>, a <strong>monastery</strong>, a <strong>school</strong> and a <strong>performing arts academy</strong>: it holds the deity, it houses the <em>bhakta</em>s who serve, it trains young boys in music and dance, and it is where the community&rsquo;s plays, songs and paintings are produced and kept. The <em>Satwa</em> &mdash; the male devotees who perform &mdash; and the Sattriya community together developed an artistic practice recognised internationally.</p>
+</div>
+
+<h4>Borgeet</h4>
+
+<p><strong>Borgeet</strong> (&ldquo;songs of Bhakti&rdquo;) is the body of devotional songs of the Assamese Vaishnavite tradition, sung to the accompaniment of the <em>khol</em> &mdash; a set of drums of which the <strong>muri</strong> (a larger kettle drum) and the <strong>khanji</strong> (a smaller drum) are the best known, together with cymbals called <strong>khanis</strong>. The songs are performed by the <em>Satwas</em> standing in two rows facing each other, which is why they are songs of exchange and dialogue rather than of solo address. The great names of the tradition are <strong>Madhavdeva</strong> and <strong>Madan Kamdev</strong>; the songs are still performed today. They are short, metrically strict, and draw heavily on the imagery of the <em>Rukmini Harana</em> &mdash; the abduction and recovery of Rukmini by Krishna.</p>
+
+<h4>Sattriya Nritya</h4>
+
+<p><strong>Sattriya Nritya</strong> is the classical dance form of Assam, and in <strong>2000</strong> it was inscribed by UNESCO on the Representative List of the <strong>Intangible Cultural Heritage of Humanity</strong>. This is an intangible-heritage inscription, not a World Heritage inscription &mdash; a distinction examiners test. Its distinguishing features are set out in Table 2.2, and all of them are examinable.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 2.2 &mdash; Distinguishing Features of Sattriya Nritya</caption>
+    <thead><tr><th>Feature</th><th>Description</th></tr></thead>
+    <tbody>
+      <tr><td>Nature</td><td>A <strong>collective and standardised</strong> community dance with a codified set of movements, not an individual&rsquo;s expressive improvisation</td></tr>
+      <tr><td>UNESCO status</td><td>Inscribed on the Representative List of the Intangible Cultural Heritage of Humanity in <strong>2000</strong></td></tr>
+      <tr><td>Origin and use</td><td>Developed within the Sattrias for the performance of <em>Bhaona</em> and devotional music; performed by trained <em>Satwa</em> dancers</td></tr>
+      <tr><td>Costumes</td><td>Two colour-coded sets: the <strong><em>Pakhowal</em></strong>, an orange or copper-coloured costume for <em>male</em> characters, and the <strong><em>Jewon</em> (<em>jewan</em>)</strong>, a blue-and-yellow costume for <em>female</em> characters &mdash; colour carries the character type</td></tr>
+      <tr><td>Music</td><td>The <em>khol</em> &mdash; <em>muri</em>, <em>khanji</em> and cymbals &mdash; together with, in present-day practice, harmonium, violin and other <strong>synthonised instrumentation</strong> alongside the traditional ensemble</td></tr>
+      <tr><td>Performance structure</td><td>Plays are performed in two main modes, <em>Nat</em> (pure dance) and <em>Dhrman</em> (dance-drama), and each play is performed in a set sequence of named <em>rasa</em> sections</td></tr>
+      <tr><td>Discipline</td><td>Transmitted within the Sattra through long apprenticeship; the movement vocabulary has its own specific named terms</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>Bhaona</h4>
+
+<p><strong>Bhaona</strong> is the one-act dance-drama of the Assamese Vaishnavite tradition, developed from the <em>Rukmini Harana</em> story and performed as part of the devotional music of the Sattra. Its structure is unlike that of ordinary theatre, and the differences are the examinable points. <strong>Only <em>Satwa</em> musicians and dancers perform</strong> &mdash; there is no separate acting company and no separate orchestra, because the dancer and the musician are the same person.</p>
+
+  <p>There are <strong>no separate sets and no modern props</strong>; the stage is bare, and the storytelling is carried by gesture, movement and music. There is <strong>no mimetic acting</strong> in the sense of pretending to be a domestic scene: the performance is symbolic and devotional rather than realistic. The text is a formalised, metrical Assamese composition, not everyday speech, and it is recited in a style halfway between singing and declamation.</p>
+
+<h4>Manuscript painting</h4>
+
+<p><strong>Manuscript painting</strong> is the tradition of illustrating texts by hand, and in Assam it is known by the Sanskrit word <strong><em>Chitralekha</em></strong>, the <em>chitralekha</em> being the manuscript painter. The most distinctive Assamese material is the <strong><em>barua khand</em></strong>, the palm-leaf manuscript: text is incised on dried palm leaf with a stylus and then darkened, and the folio is perforated and strung with a cord through a hole. The oldest written Assamese literature is of this kind, and it is <em>illustrated</em> &mdash; the painter&rsquo;s image is part of the manuscript, not decoration added to it.</p>
+
+<p>Two points are frequently muddled and are worth stating precisely. First, the manuscript painter is a <strong>distinct and highly trained person</strong>, working in a style governed by convention. Second, the Sattrias have been major centres of this art <em>and of its transmission</em>, alongside the manuscript libraries they built up. A student-teacher who can say that the Sattrias function as <strong>living repositories of Assamese literary and artistic heritage</strong> &mdash; preserving manuscripts, training musicians and dancers, and staging the <em>Bhaona</em> &mdash; has grasped the essential point of section 2.2.</p>
+
+<p>The Sattria is best understood as an <strong>integrated cultural institution</strong>. Religion, education, music, dance, drama, painting and manuscript preservation are not separate departments within it; they are one continuous life, sustained by a community, for centuries. A Sattria preserves a form of intangible heritage by <em>transmitting it through practice</em> &mdash; which is precisely what a school does when it teaches a child a folk song the child&rsquo;s grandmother sang.</p>
+
+<p>A classroom activity that borrows this without needing a Sattra nearby: each child chooses a Sattria song, learns the <em>rasa</em> of one section, and teaches one movement of it to a partner; the class then makes a group chart recording the song, the <em>rasa</em>, the costume colour and the <em>Satwa</em> who taught it. The chart teaches the tradition, produces a piece of visual art, and puts something the children already know in front of them.</p>
+
+<!-- ---- 2.3 WAY OF SEEING ---- -->
+<h3 id="s2-3">2.3 Basic Concepts of Way of Seeing</h3>
+
+<p>Section 2.3 is the most intellectually demanding item in the paper, and the one with a named modern text behind it: <strong>John Berger</strong>, <em>Ways of Seeing</em> (1972, Penguin), which grew out of his BBC series of the same name. Its argument is short and it is radical: <strong>we do not simply see. We look, and what we look at, and how we see it, is shaped by what we know and what we believe.</strong></p>
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Way of seeing</strong> (John Berger): the set of assumptions, expectations, habits and interests through which a person looks at an image or at the world. Berger's claim is that seeing is not passive or neutral &mdash; a picture is never simply read off the retina; it is interpreted, and the interpretation comes from the viewer's own history, language and social position.</p>
+</div>
+
+<p>Berger opens with two sentences that are the hinge of the whole book: <strong>&ldquo;Seeing comes before words.&rdquo;</strong> And, describing a photograph of two naked girls as it appears in a popular magazine, he observes that <strong>&ldquo;a single picture held us captive&rdquo;</strong> &mdash; the image had the power to make its readers accept its framing, its cropping and its implied meaning as natural, without ever having questioned it. If seeing comes before words, the images we absorb before we can name them shape what we think we are seeing when we finally do name them.</p>
+
+<p>Two further ideas complete the reading. The <strong>&ldquo;invisible&rdquo; factors</strong> are what a picture takes for granted and does not show you: the crop and the frame, which decide what is in and what is out; the selection of the instant out of all the instants available; the light, and the time of day it implies; the people who are not in the picture but are implied by it; the pose of the body, and what the pose has been trained to conceal; and the surrounding text &mdash; caption, article, advertisement &mdash; which tells the reader how to feel.</p>
+
+  <p><strong>Publicity</strong> is the way an image is detached from its original context, surrounded by words, repeated by reproduction and offered for sale; advertising, poster-making and propaganda all belong here, which is why the SIP activity on a poster for a social cause sits so naturally in this paper.</p>
+
+  <p><strong>Publicity</strong> is the way an image is detached from its original context, surrounded by words, repeated by reproduction and offered for sale; advertising, poster-making and propaganda all belong here, which is why the SIP activity on a poster for a social cause sits so naturally in this paper &mdash; the student-teacher is being asked to make a publicity image, and to understand what makes one effective.</p>
+
+<p>The practical advice is the pedagogical heart of the book. Because the deciding factors in a picture are invisible, a viewer becomes a critic only by looking at <em>many pictures in comparison</em>. Put five reproductions of the same subject side by side &mdash; five photographs of the same building, five versions of the same face &mdash; and the invisible differences become visible in a way that no amount of commentary achieves.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 2.3 &mdash; Five Classroom Exercises That Teach Way of Seeing</caption>
+    <thead><tr><th>Exercise</th><th>What the child does</th><th>What it teaches</th></tr></thead>
+    <tbody>
+      <tr><td>The unseen</td><td>Given a cropped photograph, draw what must lie outside the frame</td><td>Selection, crop, frame</td></tr>
+      <tr><td>Five pictures, one subject</td><td>Compare five images of the same subject side by side</td><td>Comparison as the only route to criticism</td></tr>
+      <tr><td>Remove the caption</td><td>Read a caption, then read the image with the words covered</td><td>How text builds meaning in an image</td></tr>
+      <tr><td>Redraw it badly</td><td>Copy a publicity image exactly, to show how it is engineered</td><td>Technique as persuasion</td></tr>
+      <tr><td>Who made this, for whom?</td><td>Ask and answer the four questions of publicity</td><td>Publicity, commodity, audience</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ---- 2.4 VISUAL ART AND FINE ARTS ---- -->
+<h3 id="s2-4">2.4 Basic Features of Visual Art and Fine Arts</h3>
+
+<p>Art is usually classified by the <strong>medium</strong> in which it is made and by the <strong>purpose</strong> for which it is made. Section 2.4 asks about the two central categories, visual art and fine arts, and about how they relate. Four features distinguish visual art from the other art forms. It <strong>occupies space and is looked at</strong>; it is <strong>largely static</strong>, unlike cinema, theatre or music, though the eye does move across it; it is <strong>physical</strong>, occupying real material space that can be damaged, moved or lost; and it is <strong>a system of signs</strong>, carrying meanings that depend on the culture, the period and the viewer &mdash; which is exactly what section 2.3 was about.</p>
+
+  
+
+<div class="tw">
+  <table>
+    <caption>Table 2.4 &mdash; Visual Art, Fine Art, Craft and Commercial Art Compared</caption>
+    <thead><tr><th>Basis</th><th>Visual art</th><th>Fine art</th><th>Craft</th><th>Commercial / applied art</th></tr></thead>
+    <tbody>
+      <tr><td>Nature</td><td>The art forms that address the eye: painting, sculpture, architecture, drawing, photography, printmaking</td><td>The category of art made for its own sake and for the response it evokes</td><td>Skill applied to material to make a useful object</td><td>Design made to be sold, used or manufactured</td></tr>
+      <tr><td>Primary test</td><td>Does it address the eye?</td><td>Does it stand on its own aesthetic merit?</td><td>Is it well and skilfully made, and is it useful?</td><td>Does it work for the market and the user?</td></tr>
+      <tr><td>Place of the maker</td><td>Often visible as an individual hand</td><td>Expression of the artist's vision</td><td>Often anonymous; a tradition of making</td><td>A designer working to a brief</td></tr>
+      <tr><td>Example</td><td>A mural, a sculpture, a photograph</td><td>An oil painting; a marble figure</td><td>A woven <em>chador</em>; a bamboo basket</td><td>A tea packet design; a school poster</td></tr>
+      <tr><td>Relation to daily life</td><td>May be removed from daily use</td><td>Usually apart from it</td><td>At the centre of it</td><td>Directly in it</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Note where the boundaries lie, because candidates routinely confuse them. <strong>Fine art</strong> is that part of the arts produced primarily for aesthetic and intellectual purposes &mdash; to be looked at and contemplated rather than used. <strong>Craft</strong> uses the same materials and the same technical skill but produces a useful object, and its standard is different: a well-made basket is not a less beautiful object than a sculpture, but its beauty is judged together with its fitness.</p>
+
+  <p><strong>Commercial or applied art</strong> is design produced to sell, and its criterion is partly functional and commercial. <strong>Visual art</strong> is the wider, medium-based category that includes fine art, craft and applied art, together with architecture, photography and the electronic image. Folding a poster is a visual art; whether it is also fine art, craft or commercial art depends on what it was made for.</p>
+
+<div class="card mist">
+  <span class="lbl">Common Mistake</span>
+  <p>Do not say that craft is "not really art" or that commercial art is inferior. Section 2.7 of this very syllabus argues that art supports a livelihood, which means the crafts are arts. The distinction is also socially loaded: to describe the weaving of a <em>gamosa</em> or the making of a <em>kaj</em> as mere craft is to make an aesthetic judgement about a community's work that has no basis in its quality.</p>
+</div>
+
+<!-- ---- 2.5 ELEMENTS ---- -->
+<h3 id="s2-5">2.5 Elements of Visual Art (Shape, Form, Colour, Composition)</h3>
+
+<p>Every visual artwork, from a Khajuraho sculpture to a Class IV child&rsquo;s collage, is built out of a small number of basic ingredients called the <strong>elements</strong> of visual art. The syllabus names four &mdash; <strong>shape, form, colour and composition</strong> &mdash; and they are the ones to learn in detail, but the complete studio set is longer. The elements fall into three groups: the ingredients of <strong>structure and space</strong> (line, shape, form, space, texture, volume), the ingredients of <strong>colour and light</strong> (hue, value, saturation, contrast and harmony), and the ingredients of <strong>organisation and movement</strong> (composition, balance, emphasis, rhythm, pattern). Table 2.5 gives each one with a concrete example.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 2.5 &mdash; The Elements of Visual Art, With a Concrete Example of Each</caption>
+    <thead><tr><th>Element</th><th>Meaning</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Line</strong></td><td>The path of a point moving across the surface; the simplest and most expressive mark</td><td>The single contour line of a <em>Borgeet</em> manuscript drawing; a wire drawing of a fishing hook</td></tr>
+      <tr><td><strong>Shape</strong></td><td>A closed, flat, two-dimensional area enclosed by lines &mdash; a silhouette with depth of no kind</td><td>The triangular gable of a <em>satra</em> pavilion; the teardrop shape of a paisley</td></tr>
+      <tr><td><strong>Form</strong></td><td>A three-dimensional mass that occupies space and is seen from a particular viewpoint</td><td>A terracotta storage pot; a carved figure at Khajuraho seen in the round</td></tr>
+      <tr><td><strong>Space</strong></td><td>The area the work occupies, and the sense of depth created within it</td><td>The shallow relief where the background stays close behind the figure</td></tr>
+      <tr><td><strong>Colour</strong></td><td>Hue, value and saturation together &mdash; the most emotional of the elements</td><td>The vermilion and deep blue of a Bhaona costume against the gold of a ceremonial seat</td></tr>
+      <tr><td><strong>Value</strong></td><td>The lightness or darkness of a tone, independent of its hue</td><td>The single dark doorway in an outdoor sketch of a whitewashed wall</td></tr>
+      <tr><td><strong>Texture</strong></td><td>The surface quality &mdash; how the material feels, or looks as though it feels</td><td>Woven <em>muga</em> silk beside unglazed terracotta; the crackle of an old painted wall</td></tr>
+      <tr><td><strong>Volume</strong></td><td>The mass and solidity of a three-dimensional object</td><td>A heavy stone temple block against the light weight of a bamboo wall</td></tr>
+      <tr><td><strong>Composition</strong></td><td>The arrangement of the parts within the whole &mdash; the single most important structural decision</td><td>Placing the horizon on a third rather than in the centre; grouping three objects of different heights</td></tr>
+      <tr><td><strong>Balance</strong></td><td>The distribution of visual weight so that the picture rests</td><td>A large dark tree mass on the left balanced by a small bright doorway on the right</td></tr>
+      <tr><td><strong>Emphasis</strong></td><td>The point the eye reaches first; the <strong>focal point</strong></td><td>The highest contrast and the sharpest edge in one place only</td></tr>
+      <tr><td><strong>Rhythm</strong></td><td>The movement produced by the repetition of marks, forms or colours</td><td>The repeating niches of a temple wall; the repeated beat of the <em>khol</em> in a dance sequence</td></tr>
+      <tr><td><strong>Pattern</strong></td><td>A regular, often decorative, unit repeated to make a surface</td><td>A lotus and creeper border around a Khajuraho panel</td></tr>
+      <tr><td><strong>Proportion and scale</strong></td><td>The relative size of parts to one another and to the whole</td><td>A colossal figure against a small doorway</td></tr>
+      <tr><td><strong>Unity and variety</strong></td><td>The sameness that holds a work together, and the difference that keeps it alive</td><td>A restricted palette with one unexpected accent colour &mdash; the standard recipe for a poster that holds attention</td></tr>
+      <tr><td><strong>Movement</strong></td><td>The implied motion in a still image, produced by rhythm, line direction and asymmetry</td><td>A Sattriya dancer caught mid-step, the diagonal of the arm implying the next position</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>Colour in detail</h4>
+
+<p>Three properties describe any colour. <strong>Hue</strong> is its name &mdash; red, blue, yellow-green. <strong>Value</strong> is its lightness or darkness: the same hue at full strength and the same hue ten per cent towards white are one hue and two values. <strong>Saturation</strong> (intensity, chroma) is its purity: a saturated colour is at full strength, an unsaturated one has grey mixed into it. The vermilion of a temple door, the same vermilion faded by ten years of sun, and the same vermilion diluted to a wash are one hue at three states, and saying so is a mark of a trained eye.</p>
+
+<figure>
+  <svg viewBox="0 0 760 320" role="img" aria-label="Six-part colour wheel showing primary, secondary and tertiary colours, with warm and cool halves">
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b">
+      <rect x="0" y="0" width="760" height="320" fill="none"/>
+      <g>
+        <path d="M300,160 L300,24 L418,92 Z" fill="#b4623c" stroke="#faf6ee" stroke-width="1.5"/>
+        <path d="M300,160 L418,92 L418,228 Z" fill="#7a5570" stroke="#faf6ee" stroke-width="1.5"/>
+        <path d="M300,160 L418,228 L300,296 Z" fill="#4c6a83" stroke="#faf6ee" stroke-width="1.5"/>
+        <path d="M300,160 L300,296 L182,228 Z" fill="#6d7a4a" stroke="#faf6ee" stroke-width="1.5"/>
+        <path d="M300,160 L182,228 L182,92 Z" fill="#a5822e" stroke="#faf6ee" stroke-width="1.5"/>
+        <path d="M300,160 L182,92 L300,24 Z" fill="#e0c552" stroke="#faf6ee" stroke-width="1.5"/>
+        <circle cx="300" cy="160" r="48" fill="#faf6ee" stroke="#7a736a" stroke-width="1.2"/>
+        <text x="300" y="153" text-anchor="middle" font-size="12" fill="#33302b" font-weight="bold">6 tertiaries</text>
+        <text x="300" y="170" text-anchor="middle" font-size="11" fill="#55504a">from a primary +</text>
+        <text x="300" y="185" text-anchor="middle" font-size="11" fill="#55504a">its neighbour</text>
+        <text x="340" y="92" text-anchor="middle" font-size="12" fill="#faf6ee" font-weight="bold">RED</text>
+        <text x="340" y="232" text-anchor="middle" font-size="12" fill="#faf6ee" font-weight="bold">VIOLET</text>
+        <text x="300" y="252" text-anchor="middle" font-size="12" fill="#faf6ee" font-weight="bold">BLUE</text>
+        <text x="260" y="232" text-anchor="middle" font-size="12" fill="#faf6ee" font-weight="bold">GREEN</text>
+        <text x="260" y="92" text-anchor="middle" font-size="12" fill="#33302b" font-weight="bold">ORANGE</text>
+        <text x="300" y="88" text-anchor="middle" font-size="12" fill="#33302b" font-weight="bold">YELLOW</text>
+        <text x="366" y="42" text-anchor="middle" font-size="11" fill="#8f4a2a">red-orange</text>
+        <text x="234" y="42" text-anchor="middle" font-size="11" fill="#856722">yellow-orange</text>
+        <text x="440" y="172" text-anchor="middle" font-size="11" fill="#654761">red-violet</text>
+        <text x="440" y="188" text-anchor="middle" font-size="11" fill="#654761">blue-violet</text>
+        <text x="160" y="172" text-anchor="middle" font-size="11" fill="#54603a">blue-green</text>
+        <text x="160" y="188" text-anchor="middle" font-size="11" fill="#54603a">yellow-green</text>
+        <text x="300" y="316" text-anchor="middle" font-size="12" fill="#7a736a">Complementary pairs lie directly opposite: red&ndash;green, yellow&ndash;violet, blue&ndash;orange</text>
+      </g>
+      <g>
+        <rect x="490" y="20" width="256" height="90" rx="3" fill="#f7efd8" stroke="#e6d5aa"/>
+        <text x="506" y="40" font-size="12" font-weight="bold" fill="#856722">WARM &mdash; advance, feel near</text>
+        <text x="506" y="60" font-size="12" fill="#33302b">Red, orange, yellow &mdash; and their tertiaries</text>
+        <text x="506" y="78" font-size="11" fill="#55504a">They appear to come forward; they stir,</text>
+        <text x="506" y="94" font-size="11" fill="#55504a">suggest heat, energy, fire, celebration</text>
+        <rect x="490" y="120" width="256" height="90" rx="3" fill="#e5ecf2" stroke="#ccd9e3"/>
+        <text x="506" y="140" font-size="12" font-weight="bold" fill="#3d5a71">COOL &mdash; recede, feel distant</text>
+        <text x="506" y="160" font-size="12" fill="#33302b">Green, blue, violet &mdash; and their tertiaries</text>
+        <text x="506" y="178" font-size="11" fill="#55504a">They draw back; they suggest water,</text>
+        <text x="506" y="194" font-size="11" fill="#55504a">sky, distance, calm, and sometimes sorrow</text>
+        <rect x="490" y="220" width="256" height="76" rx="3" fill="#ecefdd" stroke="#d3d9bd"/>
+        <text x="506" y="240" font-size="12" font-weight="bold" fill="#54603a">COLOUR AND MOOD</text>
+        <text x="506" y="260" font-size="11" fill="#55504a">The Sattria <em>rasa</em> system does the same work</text>
+        <text x="506" y="276" font-size="11" fill="#55504a">with gesture, costume and tempo &mdash; the palette</text>
+        <text x="506" y="292" text-anchor="middle" font-size="11" fill="#55504a">is the painted equivalent of the mood</text>
+      </g>
+    </g>
+  </svg>
+  <figcaption><b>Figure 2.1</b> &mdash; The colour wheel: primaries at the alternate points, secondaries between them, tertiaries between those; the warm half and the cool half; complementary pairs opposite one another.</figcaption>
+</figure>
+
+<p>Colours are arranged in three orders of mixture. The <strong>primaries</strong> cannot be made by mixing others: in pigment, red, yellow and blue; in light, red, green and blue. The <strong>secondaries</strong> are two primaries in equal parts: orange, green, violet. The <strong>tertiaries</strong> are a primary plus a neighbour, giving six. Colours directly opposite each other on the wheel are <strong>complementary</strong> and intensify one another side by side; colours adjacent are <strong>analogous</strong> and harmonise quietly; a single hue worked through many values is a <strong>monochrome</strong>.</p>
+
+<p>Three further points complete the section. <strong>Warm colours advance and cool colours recede</strong>, which is why a warm object in front of a cool field appears to come forward, and why a distant hill painted in blue-violet looks far away. <strong>Colour affects mood</strong>: warm, saturated colours excite and are used in festival and in advertising for celebration; cool, desaturated colours quieten and are used for calm, distance and melancholy. And <strong>value is more important than hue</strong> &mdash; a drawing in one colour can be strong if its values are well placed, and a drawing in many colours can be weak if every area has the same tone. That is the principle behind the studio advice to block in values before colour.</p>
+
+<h4>Composition</h4>
+
+<p>If the elements are the ingredients, <strong>composition</strong> is the arrangement of them &mdash; the decision about where everything goes, and the single most important structural decision in a picture. Four ideas carry almost all of it, and all four are set out in the table above: <strong>balance</strong> (symmetrical, asymmetrical or radial, the distribution of visual weight so that the picture rests), <strong>emphasis</strong> and the <strong>focal point</strong> it creates, <strong>proportion and scale</strong>, and <strong>unity and variety</strong> &mdash; without variety a picture is flat, and without unity it is chaos.</p>
+
+
+
+<!-- ---- 2.6 AIMS AND VALUES ---- -->
+<h3 id="s2-6">2.6 Aims and Educational Values of Fine Arts</h3>
+
+<p>Section 2.6 is the justificatory heart of the paper: why are fine arts taught at all? The answers are not only aesthetic, and the strongest long answer is the one that says so, because a school administrator who must be persuaded of a new period needs the wider case.</p>
+
+<p><strong>Aesthetic development</strong> &mdash; the capacity to perceive beauty, order and proportion and to judge a work, which is a perceptual capacity and not a decorative one, and which transfers to mathematics, science and the assessment of everyday objects. <strong>Self-expression and communication</strong> &mdash; a means of giving form to what cannot be spoken, particularly important for a child with limited language, limited confidence, or a home situation that cannot be talked about. <strong>Cognitive and intellectual development</strong> &mdash; observation, memory, imagination, concentration, decision-making and problem-solving, all exercised through a single activity. <strong>Motor and sensory development</strong> &mdash; hand-eye coordination, muscular control and the tactile sense, which is why clay, collage and hand printing belong in an elementary art course and not only painting.</p>
+
+  <p><strong>Social and emotional development</strong> &mdash; cooperation in a group project, tolerance of other people's ways of seeing, the discipline of sharing a task. <strong>Cultural understanding and national identity</strong> &mdash; learning what one's own community has made, and therefore who one is; a direct argument for teaching the Sattria tradition and the local crafts. <strong>Discipline and patience</strong> &mdash; a large object made carefully over days teaches something no other subject does. <strong>Recreation, enjoyment and mental health</strong> &mdash; which the syllabus's opening paragraph places first of all, as the well-being and fulfilment of the individual. <strong>Creative and vocational capacity</strong> &mdash; the practical skill that 2.7 turns into a livelihood argument, and which NEP 2020 and NCF-SE 2023 both support in making arts and crafts a serious part of the school stage.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 2.6 &mdash; Aims of Fine Art in Education and the Evidence of Achievement</caption>
+    <thead><tr><th>Aim</th><th>What it means in practice</th><th>What evidence would show it</th></tr></thead>
+    <tbody>
+      <tr><td>Aesthetic development</td><td>Perception of beauty, order, proportion</td><td>The child can say <em>why</em> one arrangement is better, not only that it is</td></tr>
+      <tr><td>Self-expression</td><td>Giving form to the unsaid</td><td>Choices in a drawing that are the child's own, not a template's</td></tr>
+      <tr><td>Cognitive development</td><td>Observation, memory, concentration, decision</td><td>A sketchbook full of dated observations of the same place</td></tr>
+      <tr><td>Motor and sensory development</td><td>Hand control; use of tools; the tactile sense</td><td>Increasing control of line and pressure across a term</td></tr>
+      <tr><td>Social and emotional development</td><td>Working in a group; being seen; receiving critique</td><td>Participation records; willingness to revise after critique</td></tr>
+      <tr><td>Cultural identity</td><td>Knowing what one's community has made</td><td>Work that draws on local form, material and motif</td></tr>
+      <tr><td>Discipline and patience</td><td>Finishing something over days</td><td>Completion rate on long projects</td></tr>
+      <tr><td>Well-being</td><td>Enjoyment, relaxation, fulfilment</td><td>The child chooses to continue without being told to</td></tr>
+      <tr><td>Creative and vocational capacity</td><td>Skill that can become a livelihood</td><td>A finished product of usable quality, with its making process documented</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Note how these connect back to the eight objectives of the paper: aesthetic sensibility is the first row, self-expression the second, cognitive development the third, cultural identity the sixth, and creative and vocational capacity the last. A candidate who makes these cross-references in a five-mark answer gains marks that a bare list of aims does not.</p>
+
+<!-- ---- 2.7 ART AND CULTURE ---- -->
+<h3 id="s2-7">2.7 Inter-connection Between Art and Culture; Aesthetics and Livelihood</h3>
+
+<p>Section 2.7 joins three things usually taught separately &mdash; art, culture and livelihood &mdash; and asks who benefits from art and who is left out.</p>
+
+<p><strong>Art as cultural memory and identity.</strong> Culture is the whole of a community's life &mdash; what it eats, wears, sings, believes, builds and remembers. Art is how that life is stored and transmitted. A Borgeet preserves a devotional tradition and a musical repertoire together; a <em>gamosa</em> pattern carries the identity of the community that weaves it; a <em>satra</em> preserves manuscripts, dance, drama and music in a single institution that has been doing so for centuries.</p>
+
+  <p>Art functions as <strong>cultural memory</strong>: memory carried only in speech disappears within three generations, while memory carried in a song, a painting or a building does not. And it functions as <strong>identity</strong>: a child who can recognise the form of a <em>khap</em> motif, the rhythm of a <em>khanji</em> or the shape of a <em>satra</em> gateway knows who they are in a way no textbook statement achieves.</p>
+
+<p>The syllabus asks for the inter-connection, not one direction. <strong>Art takes from culture and gives back to it.</strong> It takes its materials, motifs, instruments, stories and forms from the community, and returns a visible, portable, teachable version of that community &mdash; a poster that makes an argument, a photograph that records a festival, a play that puts a local problem on a stage. The hand magazine the SIP list asks for is exactly this two-way movement, which is why it appears there.</p>
+
+<p><strong>Aesthetics and livelihood.</strong> <strong>Aesthetics</strong> (from the Greek <em>aisthesis</em>, sensation) is the branch of philosophy that deals with beauty and the principles of artistic judgement. To say that art supports a livelihood is not to abandon aesthetics for economics; it is to notice that in most traditional societies the two have never been separate. The weaver producing a <em>mekhela chador</em> is applying knowledge of proportion, rhythm and colour while also feeding a family; the potter throwing a balanced wall is using the same judgement a critic of form would use. <strong>Traditional craft communities in India are aesthetic communities first and economic communities second</strong>, and the standard of the work is set by taste and training rather than by an accountant.</p>
+
+<p>The craft traditions of Assam and the wider north-east are strong examples and should be named in any answer to this section: <strong>weaving</strong> &mdash; <em>muga</em>, <em>eri</em> and <em>pat</em> silk, and cotton cloth on the <em>khap</em> and <em>kingaap</em> looms; <strong>bell-metal</strong> work, associated with the <em>Rangbaj</em> or <em>Rangjali</em> tradition of travelling smiths who work and sell in the villages, notably in the <em>Morigaon</em> and <em>Darrang</em> areas; <strong>cane and bamboo</strong> work; <strong>mask-making</strong>; <strong>terracotta</strong>; <strong><em>dokra</em></strong>, the lost-wax metal casting of the <em>Bhutia</em> and <em>Karbi</em> communities; and <strong>jewellery</strong>. Each is a school of form-making, and each is also an occupation.</p>
+
+<p><strong>Machine production</strong> can reproduce a pattern faster, more cheaply and in perfect uniformity, and the market responds to price. When a printed cloth competes with a woven one the weaver is not out-competed on skill; the machine is out-competed on nothing. The effect is not merely economic: when an apprenticeship has no economic justification it stops, and what is lost is <em>aesthetic</em> knowledge, because the transmission of judgement was the thing being paid for. The craft object survives on the shelf and the school of making dies. <strong>Art education is one of the few forces that works against this</strong> &mdash; a child who has thrown a coil is a child for whom the hand-made object has a meaning a printed imitation cannot have.</p>
+
+<p>Four moves make a strong answer: art as cultural memory and as identity, with one concrete example; the two-way relation; the craft traditions of the region named specifically as aesthetic communities that also earn; and the threat from machine production, with art education as the practical response. A weak answer stays abstract.</p>
+
+</section>
+
+<!-- ============ UNIT 2 REVIEW ============ -->
+<div class="review">
+  <h4>Unit 2 Review &mdash; History and Theory of Art</h4>
+  <h5>Key Points</h5>
+  <ul class="bul">
+    <li><strong>2.1</strong> &mdash; art history as the study of what people made and the ideas it carries; three traditions of Indian monument building &mdash; rock-cut (Ajanta, Ellora), structural stone (Khajuraho), and timber, bamboo and brick (the Sattria heritage of Assam). AMASR Act 1958; Antiquities and Art Treasures Act 1972; ASI.</li>
+    <li><strong>2.2</strong> &mdash; the Sattra as an integrated cultural institution, and its four art forms: the <em>Borgeet</em> sung to the <em>khol</em> of <em>muri</em>, <em>khanji</em> and cymbals; Sattriya Nritya, collective and codified, inscribed by UNESCO as Intangible Cultural Heritage in 2000, with <em>Pakhowal</em> and <em>Jewon</em> costumes; <em>Bhaona</em>, the one-act dance-drama in which the actor <em>is</em> the musician, with no sets, props or mimetic acting; and <em>Chitralekha</em> manuscript painting on the palm-leaf <em>barua khand</em>.</li>
+    <li><strong>2.3</strong> &mdash; Berger's <em>Ways of Seeing</em>: seeing comes before words; a single picture can hold us captive; the deciding factors in an image are the invisible ones &mdash; crop, selection of the instant, light, absent people, pose, surrounding text; publicity turns an image into a commodity; criticism comes only through comparison.</li>
+    <li><strong>2.4</strong> &mdash; visual art as the medium-based category; fine art, craft and commercial art as purpose-based distinctions within it. All are visual art; none is a lesser kind.</li>
+    <li><strong>2.5</strong> &mdash; the elements in three groups; hue, value and saturation; primary, secondary and tertiary; complementary and analogous; warm advances, cool recedes; value outranks hue; composition, balance, emphasis, focal point, unity and variety.</li>
+    <li><strong>2.6</strong> &mdash; nine aims, from aesthetic development to creative and vocational capacity.</li>
+    <li><strong>2.7</strong> &mdash; art as cultural memory and identity, art drawing from culture and giving back to it, the craft traditions of the region as aesthetic communities that also earn, and machine production as the threat art education answers.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p>Heritage site &middot; Rock-cut tradition &middot; Structural stone temple &middot; Sattra &middot; Satwa &middot; Bhakti &middot; Borgeet &middot; Khol &middot; Muri &middot; Khanji &middot; Sattriya Nritya &middot; Rasa &middot; Pakhowal &middot; Jewon &middot; Bhaona &middot; Rukmini Harana &middot; Chitralekha &middot; Barua khand &middot; Way of seeing &middot; The invisible &middot; Publicity &middot; Visual art &middot; Fine art &middot; Craft &middot; Commercial art &middot; Line &middot; Shape &middot; Form &middot; Space &middot; Texture &middot; Volume &middot; Colour &middot; Value &middot; Saturation &middot; Complementary &middot; Analogous &middot; Composition &middot; Balance &middot; Emphasis &middot; Focal point &middot; Rhythm &middot; Pattern &middot; Aesthetics &middot; Cultural memory &middot; Livelihood</p>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>What is a Sattra, and what four functions does it perform?</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Name the two colour-coded costumes of Sattriya Nritya, and in which year was it inscribed by UNESCO?</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>State two of John Berger's key propositions about seeing.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Describe the <em>Bhaona</em> form, giving four points of difference between it and ordinary theatre.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>What are the "invisible" factors in a picture, and what does Berger mean by "publicity"?</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Discuss the inter-connection between art and culture, the relation between aesthetics and livelihood naming the craft traditions of your region, and the threat of machine production.</p></div>
+  </div>
+</div>
+
+<!-- ============ UNIT 3 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-3"><span class="h2num">Unit 3 &middot; 5 Marks</span>Documentation</h2>
+
+<p><strong>Documentation</strong> is not description; it is the making of a record that somebody else can use &mdash; photographs, notes, sketches, descriptions, catalogues, albums. The paper asks the student-teacher to become a careful recorder of two things: <strong>contemporary artists, Indian and Western (3.1)</strong>, and <strong>five specific cases &mdash; Ajanta, Ellora, Khajuraho, Madan Kamdev and Da Parbatia (3.2)</strong>. In 3.1 the choice of artist is yours, so the test is whether the choice was made well and the account of it is accurate.</p>
+
+<div class="card idea">
+  <span class="lbl">Key Idea</span>
+  <p>Documentation in this unit has three layers, and a good answer works at all three. <strong>The facts</strong> &mdash; who, when, where, what medium, what themes. <strong>The significance</strong> &mdash; why this artist or site matters, and what it is evidence of. <strong>The use</strong> &mdash; what a teacher in Assam would actually do with the documentation, in a lesson, in an album or in a wall display. Most candidates stop at the first layer. The third layer is where the marks are.</p>
+</div>
+
+<h3 id="s3-1">3.1 Indian and Western Contemporary Artists</h3>
+
+<p><em>Contemporary</em> in art-history usage means artists of the present and the recent past, in contrast to the classical and medieval material of Unit 2. For a teaching diploma the useful range is roughly the nineteenth century to the present, and the purpose is to give the student-teacher working models: artists who came from ordinary circumstances, who taught, who made work for ordinary people, and whose subjects came from the world around them. Only sourced facts are given below; where a detail is contested it is left out.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 3.1 &mdash; Indian Artists of the Nineteenth and Twentieth Centuries</caption>
+    <thead><tr><th>Artist</th><th>Dates</th><th>What is known</th><th>For the classroom</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Raja Ravi Varma</strong></td><td>1848&ndash;1906</td><td>Painter of the academic tradition, working mainly in oil; mythological and devotional subjects; his images reached an enormous public through calendar-art printing, so he shaped the visual idea of the Indian gods for a whole century</td><td>Compare a Ravi Varma print with the poster of a deity on a local hoarding &mdash; what has changed in a century?</td></tr>
+      <tr><td><strong>Abanindranath Tagore</strong></td><td>1871&ndash;1951</td><td>Leading figure of the Bengal School, which sought an Indian art that was not simply a copy of European academic painting; worked in washes and flat colour, and on Japanese print</td><td>Ask why a group of artists looked deliberately to India and Japan for their sources</td></tr>
+      <tr><td><strong>Amrita Sher-Gil</strong></td><td>1913&ndash;1941</td><td>Indian-Hungarian painter whose work deliberately stood between Indian and European ways of seeing; from a family with a distinguished public role; her self-portraits and figure compositions are the best-known work</td><td>The clearest example in the syllabus of art as a bridge between two cultures</td></tr>
+      <tr><td><strong>M. F. Husain</strong></td><td>1915&ndash;2011</td><td>The most widely known modern Indian painter; self-taught, from a small town in Madhya Pradesh; associated with the Progressive Artists' Group and the Indian People's Theatre Association; a freedom-movement participant; later a member of the Rajya Sabha. The horse, the film and the city are recurring subjects</td><td>The horse, again and again &mdash; a short study on why one subject returns</td></tr>
+      <tr><td><strong>K. G. Subramanyan</strong></td><td>1924&ndash;2016</td><td>Painter, muralist and, above all, a teacher of art teachers &mdash; he taught at Baroda and at Kala Bhavana and trained a generation of art educators; his own work includes terracotta, murals and folk-narrative subjects, and he was deeply concerned with art education in schools</td><td>The best single argument in the syllabus for why art teachers matter</td></tr>
+      <tr><td><strong>B. C. Sanyal</strong></td><td>1923&ndash;2016</td><td>Painter, sculptor and founding member of the Calcutta Group; figure work, drawings and prints; a significant influence on modern Indian figure drawing</td><td>Use a figure drawing to show that figure work is a study of structure, not of drawing ability</td></tr>
+      <tr><td><strong>Tyeb Mehta</strong></td><td>1935&ndash;2016</td><td>One of India's best-known contemporary painters, working in a modernist idiom; the falling or leaping <em>bull</em> is his recurring motif; his work is collected internationally and held in the country's public art institutions</td><td>Ask a class to find the motif that returns in one artist's whole body of work, and to say what it does</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 3.2 &mdash; Four Western Artists Whose Work Is Useful to a Student-Teacher</caption>
+    <thead><tr><th>Artist</th><th>Dates</th><th>Movement and what is known</th><th>Why it is on this list</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Vincent van Gogh</strong></td><td>1853&ndash;1890</td><td>Dutch painter, a leading Post-Impressionist; known for the emotional and rhythmic use of colour and heavy impasto; <em>The Potato Eaters</em> and <em>The Starry Night</em> are the two works most often reproduced</td><td>His letters show what a painter actually noticed &mdash; a fence, a peasant, a sprig of wheat &mdash; which makes him a model for observational practice</td></tr>
+      <tr><td><strong>Claude Monet</strong></td><td>1840&ndash;1926</td><td>French Impressionist; worked out of doors, interested in the effect of light and atmosphere on the same subject; developed the practice of painting a series of the same motif at different times and weathers</td><td>The series is the best demonstration anywhere that a subject is a variable, not a fixed thing</td></tr>
+      <tr><td><strong>Pablo Picasso</strong></td><td>1881&ndash;1973</td><td>Spanish painter and sculptor; with Georges Braque developed Cubism, which broke an object into planes and showed several viewpoints at once</td><td>Cubism is the clearest case of a picture deciding to describe a thing in a new way rather than copy it</td></tr>
+      <tr><td><strong>Georgia O'Keeffe</strong></td><td>1887&ndash;1986</td><td>American painter, famous for very large close-up paintings of single flowers and natural forms, and for a long career spent in New Mexico</td><td>Shows what can be done with one subject, one shape and one colour &mdash; the opposite of a busy composition</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Two further names are worth having available, both frequently examined: <strong>Frida Kahlo</strong> (1907&ndash;1954), the Mexican painter whose sustained series of self-portraits records her own body and her own condition rather than an observed exterior, and <strong>Nandalal Bose</strong> (1882&ndash;1966), who worked with Abanindranath Tagore in shaping the Bengal School and who taught a generation at Santiniketan.</p>
+
+<p>What is the point of learning these names? <strong>They are models of sustained practice</strong> &mdash; Van Gogh&rsquo;s wheat fields, Monet&rsquo;s haystacks, Husain&rsquo;s horses and O&rsquo;Keeffe&rsquo;s flowers are one idea worked again and again, which is what a student-teacher should do with a single motif for a term. <strong>They supply images</strong>: a child who has seen a reproduction has a picture in memory, and a picture in memory is a subject to draw. And <strong>they are proof that art can be made outside a capital and a gallery</strong> &mdash; Husain never went to an art school, O&rsquo;Keeffe spent forty years in the American desert, and the Sattria <em>Satwas</em> of Assam never left their village.</p>
+
+<p>Make the documentation class produce something. Each student selects one artist, finds three reproductions, and writes a paragraph for each on the template <em>&ldquo;artist &middot; years &middot; what he or she made &middot; what the work is about &middot; one thing I could try that they tried&rdquo;</em>. The last item on the template is the one that teaches, because it converts a name into an experiment.</p>
+
+<h3 id="s3-2">3.2 Ajanta, Ellora, Khajuraho, Madan Kamdev, Da Parbatia</h3>
+
+<p>The five subjects named here are of three quite different kinds &mdash; two rock-cut cave sites, one stone temple group, one man, and one institution. Each is named below with what it is, where it is, and why it matters.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 3.3 &mdash; The Four Sites of Section 3.2 Compared</caption>
+    <thead><tr><th>Basis</th><th>Ajanta</th><th>Ellora</th><th>Khajuraho</th><th>Da Parbatia</th></tr></thead>
+    <tbody>
+      <tr><td>Location</td><td>Near Aurangabad, Maharashtra</td><td>Near Aurangabad, Maharashtra</td><td>Madhya Pradesh</td><td>Jagiroad, Darrang district, Assam</td></tr>
+      <tr><td>Period</td><td>2nd century BCE to about 480 CE</td><td>6th to 10th century CE</td><td>c. 950&ndash;1050 CE</td><td>Traditionally placed in the 16th century</td></tr>
+      <tr><td>Type</td><td>Rock-cut caves, about thirty</td><td>Rock-cut caves, thirty-two</td><td>Freestanding stone temples; about thirty survive</td><td>A Sattra &mdash; a living Vaishnavite monastic institution</td></tr>
+      <tr><td>Religion</td><td>Predominantly Buddhist</td><td>Hindu, Buddhist <em>and</em> Jain</td><td>Hindu, Vaishnava and Shaiva</td><td>Vaishnavite <em>bhakti</em></td></tr>
+      <tr><td>Chief features</td><td>Painted murals, Buddha images, narrative panels including the Pandavas at Hastinapura, the dying princess, flying <em>apsaras</em></td><td>The Kailasa temple carved out of a single rock; Cave 10, "Vishwakarma", the single-storey hall of a craftsman's guild; Cave 29, the "Trimurti"</td><td>The Kandariya Mahadeva temple, the largest; the best-preserved is the temple popularly called the "Temple of Dance" (Dulhadev / Duladeo); carved erotic figures on the outer walls, celestial <em>apsaras</em> within</td><td>Manuscript painting, Sattriya Nritya and <em>Bhaona</em>; preserves Assamese literary and artistic heritage; the Ananda Vaishnava Sattra is also associated with the place</td></tr>
+      <tr><td>Technique</td><td>Excavated from the rock; painted with natural mineral and vegetable pigments</td><td>Excavated from the rock, in three religious phases</td><td>Built of dressed stone, carved externally as one continuous surface</td><td>Timber, bamboo, brick and carved wooden panels; periodically rebuilt</td></tr>
+      <tr><td>Status</td><td>UNESCO World Heritage Site, 1983</td><td>UNESCO World Heritage Site, 1983</td><td>UNESCO World Heritage Site, 1986</td><td>Part of the living Sattria heritage of Assam</td></tr>
+      <tr><td>Why it is taught here</td><td>The finest surviving ancient Indian mural painting</td><td>Proof of long peaceful coexistence of three religions at one site</td><td>High stone carving at its most ambitious; an outward-facing life of belief</td><td>The Assamese counterpart &mdash; heritage that is still in use</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>Ajanta Caves</h4>
+
+<p>Ajanta is not one campaign but several: excavation began in the second century BCE and continued in phases to about 480 CE. Add what the table does not carry &mdash; the fame rests above all on the <strong>wall paintings</strong>, executed in pigments made from local minerals and vegetable matter, and on the <strong>sculpture of the Buddha</strong> and the Bodhisattvas, none of which is visible in the rock itself.</p>
+
+<p>Ajanta is worth teaching because of continuity rather than difficulty. These are paintings of people &mdash; a court, a hunting party, a dying woman &mdash; made sixteen centuries ago, and they are still legible. A Class VI lesson using a printed reproduction of the dying princess teaches more about looking at art than a paragraph of art history.</p>
+
+<h4>Ellora Caves</h4>
+
+<p>What makes Ellora remarkable is the <strong>order</strong> of the work. Buddhist caves came first, then Hindu, then Jain, and the sequence is written into the rock: nobody demolished anybody else's work, and all three stand side by side in one continuous cliff. That is cultural diversity as a physical fact, and it is exactly what the mentor instruction to this paper means by making students understand the different traditional art forms of the country. Cave <strong>10</strong>, the &ldquo;Vishwakarma&rdquo;, is remarkable for the plainness of its structure against the richness of its sculpture; the <strong>Kailasa temple</strong> is the only complete temple anywhere carved downward out of a single mass of rock.</p>
+
+
+
+<h4>Khajuraho Group</h4>
+
+<p>The defining feature of the Khajuraho group is that the outer wall of each temple is treated as <strong>one continuous carved surface</strong>, so that sculpture, architecture and ornament are a single design rather than three. The largest and best-known temple is the <strong>Kandariya Mahadeva</strong>, a Shaiva temple named for Shiva as the &ldquo;Lord of the Cave&rdquo;.</p>
+
+<p>The feature every schoolchild knows is the erotic sculpture on the outer walls; the feature every schoolchild is taught wrongly is that the temple was built for sex. The outer erotic figures are a small proportion of the sculptural programme. Alongside them are the surasundaris, musicians, ganas and the full range of Hindu iconography, and the apsaras within and the human figures outside form a deliberate pair. Write the erotic element as one part of a large iconographic programme in which the erotic is placed alongside the divine and the everyday &mdash; and remember that &ldquo;Temple of Dance&rdquo; is a modern description, not the temple's original name.</p>
+
+
+
+<h4>Madan Kamdev</h4>
+
+<p><strong>Madan Kamdev</strong> &mdash; Madan Mohan Deva &mdash; was the court poet of Raghunath Singha, the Ahom king of Assam of the sixteenth and early seventeenth centuries, and creator of the Assamese <strong>Borgeet</strong>, the devotional song-cycles of the Vaishnavite tradition; the name means literally &ldquo;songs of Bhakti&rdquo;. His songs are sung by the Satwas to the accompaniment of the khol and are saturated with the imagery of the <em>Rukmini Harana</em>.</p>
+
+  <p>He stands in the same devotional stream as Madhavdeva, and the two names are almost always spoken together &mdash; but they are two different people and must not be merged. An annual Madan Kamdev Award and a state organisation in his name show his place in the Assamese literary canon. He matters to this paper because he is the point where literature, music and dance meet: the songs he wrote are the material of the Sattria repertoire, performed in Sattriya Nritya and in Bhaona, and are the reason the Sattra institutions are repositories of artistic as well as religious life.</p>
+
+<h4>Da Parbatia</h4>
+
+<p><strong>Da Parbatia</strong> is a major <strong>Sattria centre of Assamese culture</strong> at Jagiroad in Darrang district, traditionally placed in the sixteenth century, in the period of the great Assamese <em>bhakti</em> movement; the <strong>Ananda Vaishnava Sattra</strong> is also associated with the area. It remains a centre in which manuscript painting, Sattriya Nritya and the <em>Bhaona</em> dance-drama are practised, taught and preserved, together with the literary and musical culture of the Borgeet.</p>
+
+  <p>It therefore belongs in this unit not as a monument to a past but as evidence of something rarer: <strong>living heritage</strong>. Ajanta and Ellora are what remains of a tradition; Da Parbatia is a tradition that is still running &mdash; and a student-teacher who has visited such a centre and recorded what is actually being done there has done better documentation than one who has memorised its date.</p>
+
+
+
+<p>What to document in each case is worth stating explicitly: for <strong>Ajanta</strong>, one mural described in detail &mdash; who is in it, where the light comes from, what the painter chose to show; for <strong>Ellora</strong>, the evidence of three religions in one plan and how the rock was worked from above downward; for <strong>Khajuraho</strong>, the Kandariya Mahadeva profile and how the outer surface reads as one continuous design; for <strong>Madan Kamdev</strong>, one song &mdash; its <em>rasa</em>, its metre, its instruments, and where it is sung; for <strong>Da Parbatia</strong>, what is being practised now &mdash; painting, dance, music, manuscript work &mdash; and by whom.</p>
+
+<p>Section 3.2 is the most predictable descriptive question in the paper. Learn location, period, type, religious affiliation, chief features, technique and UNESCO status for Ajanta, Ellora and Khajuraho &mdash; the table above is the whole answer, and the dates to have instantly are Ajanta 1983, Ellora 1983, Khajuraho 1986. For Madan Kamdev and Da Parbatia learn the contribution rather than a list of dates. Do not confuse Sattriya Nritya&rsquo;s 2000 inscription, which is on the Intangible Cultural Heritage list, with a World Heritage inscription.</p>
+
+</section>
+
+<!-- ============ UNIT 3 REVIEW ============ -->
+<div class="review">
+  <h4>Unit 3 Review &mdash; Documentation</h4>
+  <h5>Key Points</h5>
+  <ul class="bul">
+    <li><strong>3.1</strong> &mdash; the Indian artists to know are Raja Ravi Varma and the calendar art; Abanindranath Tagore and the Bengal School; Amrita Sher-Gil; M. F. Husain, the self-taught painter whose subjects include the horse, the film and the city; K. G. Subramanyan, the teacher of art teachers; B. C. Sanyal; and Tyeb Mehta and his falling bull. From the West, four chosen for what a teacher can use: van Gogh, Monet, Picasso and O'Keeffe. Frida Kahlo and Nandalal Bose are worth having available.</li>
+    <li><strong>3.2</strong> &mdash; five cases. Ajanta: about thirty rock-cut Buddhist caves near Aurangabad, 2nd c. BCE to c. 480 CE, famous for murals in natural mineral and vegetable pigments, UNESCO 1983. Ellora: thirty-two rock-cut caves near Aurangabad, 6th&ndash;10th c. CE, Hindu, Buddhist and Jain together, with the rock-cut Kailasa temple, UNESCO 1983. Khajuraho: the Chandela group in Madhya Pradesh, c. 950&ndash;1050 CE, about thirty temples surviving, Kandariya Mahadeva the largest, the "Temple of Dance" the best preserved, UNESCO 1986. Madan Kamdev: court poet of Raghunath Singha, creator of the <em>Borgeet</em>. Da Parbatia: a Sattria centre at Jagiroad, Darrang, significant as living rather than surviving heritage.</li>
+    <li><strong>The method</strong> &mdash; work at three levels: the facts, the significance, and the use you would make of it in a lesson, an album or a wall display.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p>Documentation &middot; Contemporary art &middot; Bengal School &middot; Post-Impressionism &middot; Impressionism &middot; Cubism &middot; Rock-cut architecture &middot; Structural stone temple &middot; Vihara &middot; Guildhall &middot; Apsara &middot; Iconography &middot; Chandela &middot; Kailasa &middot; Kandariya Mahadeva &middot; UNESCO World Heritage Site &middot; Borgeet &middot; Raghunath Singha &middot; Ahom &middot; Sattra &middot; Chitralekha &middot; Living heritage</p>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>Where is the Ajanta Caves complex, and what is it famous for?</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Who was Madan Kamdev, and in which district of Assam is Da Parbatia?</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Write a short note on the mural paintings of Ajanta, naming three well-known subjects.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Write a note on Da Parbatia as a centre of Sattria culture, and explain why it is called living heritage.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Describe and compare the Ajanta and Ellora Caves on location, period, religious affiliation, technique and UNESCO status.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Write notes on any five Indian and any three Western contemporary artists, and explain how their work can be used in an elementary art classroom.</p></div>
+  </div>
+</div>
+
+<!-- ============ PRACTICUM ============ -->
+
+<h2 id="practicum"><span class="h2num">Practicum</span>Five Studio and Field Tasks</h2>
+
+<p>The practicum is not a set of readings to be summarised; it is a set of things to be made. The five tasks named in the syllabus cover the whole cycle the paper describes: look, write, make, document, and give back to the community.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 4.1 &mdash; The Five Practicum Tasks, Their Products and Their Evidence</caption>
+    <thead><tr><th>Syllabus task</th><th>What you actually produce</th><th>Evidence for internal assessment</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Outdoor studies</strong> &mdash; observation of nature, landscape and colour composition</td><td>Six to eight dated sketches from two or three locations, plus a written observation of each</td><td>A sketchbook showing the same place seen more than once</td></tr>
+      <tr><td><strong>Album or project work</strong> on the historical and architectural monuments of Assam</td><td>A bound album with photographs, sketches, notes and a map</td><td>Evidence of an actual visit, and of selection</td></tr>
+      <tr><td><strong>Creative writing</strong></td><td>Five short pieces in the five prescribed forms</td><td>First drafts kept alongside the final versions</td></tr>
+      <tr><td><strong>Making of poster, pot, collage or toy</strong></td><td>At least one finished object, with its process notes</td><td>Photographs of the work in progress, not only the finished piece</td></tr>
+      <tr><td><strong>Development of an innovative Art Centre</strong> in the locality</td><td>A proposal with a plan, a budget sketch and a display</td><td>Evidence of consultation with the community it is meant to serve</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p><strong>Outdoor studies.</strong> The syllabus asks for <em>observation of nature, landscape and colour composition</em>. Do not treat this as a single session. Plan it as a returning practice: choose two or three places within reach &mdash; a riverbank, a market, a temple compound, the field behind the school &mdash; and return to each at least twice, at two different times of day.</p>
+
+  <p>The second visit will teach you more than the first, because you will see the difference between the place in the morning and the place at dusk, and because the first set of sketches gives a baseline against which to measure your own observation. For each session record four things: the date, the time, the place, and one sentence on the <strong>colour composition</strong> &mdash; which colours dominate, where the warm colours sit, where the cool colours sit, and where the strongest contrast falls.</p>
+
+<p><strong>The album on the monuments of Assam.</strong> The best version of this task is built on a visit, and even a single day trip changes the quality of everything. Where a visit is not possible, build the album from photographs and published sources and <em>say so</em> &mdash; a document honest about its sources is better documentation than one that implies a visit that did not occur. Structure it to read as a route: an introduction with a map, then a sequence of entries, each with a photograph or a drawing, a short note on date and place, a note on material and construction technique, and one observation of your own. End with an index.</p>
+
+<p><strong>Creative writing.</strong> Five pieces in the five forms of 1.1: from a childhood memory, a story, a poem, a role play script, and a news report. Keep every draft. The drafts are the evidence of the process, and five polished pieces with no drafts are five exercises rather than five pieces of writing.</p>
+
+<p><strong>Making a poster, a pot, a collage or a toy.</strong> Make at least one, and photograph it at three stages: the raw material, the work in progress, and the finished object in its setting. A poster for a local awareness issue &mdash; the SIP list suggests a social cause &mdash; is the easiest to make and the most useful to learn, because it forces the compression of a message into a single visual decision.</p>
+
+<p><strong>Developing an innovative Art Centre in the locality.</strong> This is the most ambitious task and the one that best serves objective 5, the aesthetic and cultural bond with society. The word <em>innovative</em> is doing real work here: the task is not to propose a new building, but to propose something that does not yet exist in that locality. Think about what the locality lacks.</p>
+
+  <p>A village with a strong weaving tradition and no display space for it; a school with a wall nobody has ever used; a <em>Haat</em> whose artisans sell but never explain; a cluster of children with clay and no kiln. A good proposal names the gap, identifies the existing skill in the locality, sketches a floor plan and a programme, and &mdash; crucially &mdash; shows that the community was asked rather than assumed.</p>
+
+<p>Before you start, write in one page what your own locality <em>already</em> makes that nobody has ever thought to record. The list tells you which of the five tasks is genuinely available to you, and it is also the first entry in the album.</p>
+
+<!-- ============ SIP ============ -->
+
+<h2 id="sip"><span class="h2num">Field Work</span>SIP Activities &mdash; Any Two of Five</h2>
+
+<p>The syllabus lists five School Internship Programme activities and requires <strong>any two</strong> of them. They are printed here in full, because the list is examinable, with a note on what a strong submission contains. The activities are meant to acquaint the student-teacher with the school process, and are conducted internally by the faculty.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 4.2 &mdash; The Five SIP Activities and What a Good Submission Contains</caption>
+    <thead><tr><th>#</th><th>Activity as listed in the syllabus</th><th>What a strong submission contains</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Nature observation, object drawing, collage painting, clay modelling, stencil painting</td><td>At least three of the five actually done &mdash; not described. A dated set of observations, and finished objects with photographs of the process</td></tr>
+      <tr><td>2</td><td>Making a poster, hoarding or advertisement for an awareness programme against social evils</td><td>A poster with a single clear message, legible at a distance, the Sattria or local craft idiom used deliberately, and a plan for where it will be displayed and by whom</td></tr>
+      <tr><td>3</td><td>Different forms of traditional dance and music of Assam</td><td>Identification of the form, its <em>rasa</em> and its costume; a demonstration that the class can perform a short sequence; and the name of the <em>Satwa</em> or group who taught it</td></tr>
+      <tr><td>4</td><td>Preparation of a hand magazine or wall magazine</td><td>A finished, hung or bound object with a masthead, sections, contributors and images; and a record of who chose the content and why</td></tr>
+      <tr><td>5</td><td>Beautification of the school campus, and Building as Learning Aid (BALA) activities on the school wall</td><td>A plan made <em>with</em> the school, not for it; a painted wall that teaches something &mdash; a map, a proverb in the local language, a timeline, a periodic table in pictures &mdash; and the children's contribution visible in it</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Activity 2 deserves a further note, because it is the one in which Berger's <em>publicity</em> from 2.3 becomes directly useful. A poster against a social evil is a <strong>publicity image</strong>: a designed construction with an audience, a purpose and a limited time on a wall. What makes it work is not decoration but the four questions &mdash; who made it, for whom, what does it show, and what does it leave out. The best say one thing, in a type size readable from across a road, using an image the audience recognises from its own life. A poster crowded with slogans communicates nothing, and a beautiful drawing with no message communicates nothing at all.</p>
+
+<p>Activity 5 carries the longest title and does the most work. The <strong>Building as Learning Aid</strong> idea is that the school's own walls, floors, corridors and verandas should be teaching surfaces &mdash; a child walking to the classroom should be learning something on the way. In an elementary school in Assam this is inexpensive and transformative: a painted map of the district on a veranda wall, a border of Assamese proverbs along a corridor, a calendar of Sattria festivals up a staircase. The test is simple: does a child learn something from it without a teacher standing in front of it?</p>
+
+<!-- ============ INTERNAL ASSESSMENT ============ -->
+
+<h2 id="internal"><span class="h2num">Assessment</span>Internal Assessment (30 Marks)</h2>
+
+<p>Thirty of the fifty marks of this paper are internal, and the distribution is worth quoting exactly. The four components measure four different things &mdash; what you <em>did</em> in a room with other people, what you <em>produced</em> and submitted, what you <em>know</em>, and what you <em>did</em> in a school &mdash; and no single strong suit substitutes for the others.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 4.3 &mdash; Internal Assessment: Four Components, 30 Marks</caption>
+    <thead><tr><th>Component</th><th>Marks</th><th>What is assessed</th><th>Evidence to keep</th></tr></thead>
+    <tbody>
+      <tr><td>Performance and participation in workshop, drama, paintings, etc.</td><td>10</td><td>Presence, effort, contribution and growth across the term &mdash; not the finished quality of any one object</td><td>Dated attendance and observation notes; photographs of group activity; your own reflective journal</td></tr>
+      <tr><td>Assignment submission</td><td>5</td><td>The quality, completeness and presentation of the assigned work &mdash; typically the album or the project</td><td>Drafts, the plan, the final piece, and a short note on what you would change</td></tr>
+      <tr><td>Unit test</td><td>5</td><td>Knowledge and understanding of the three units &mdash; monuments, artists, theory, technique</td><td>Revision notes; the elements table; the artist tables</td></tr>
+      <tr><td>SIP activity</td><td>10</td><td>Field engagement in a school, and the ability to organise an arts activity for children</td><td>Permission, plan, the activity itself, photographs, and the report</td></tr>
+      <tr><td><strong>Total</strong></td><td><strong>30</strong></td><td>&nbsp;</td><td>&nbsp;</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The first component deserves a word, because candidates most often approach it passively. <em>Performance and participation in workshop, drama, paintings</em> is worth ten marks and is the largest single item in the internal assessment. It is not a judgement on the finished painting; it is a judgement on <strong>presence</strong> &mdash; whether you were in the room, contributed, accepted correction, attempted the unfamiliar and improved across the term. A candidate who works steadily will do better here than one who produces one brilliant picture and is absent for the other eleven sessions.</p>
+
+<!-- ============ QUICK SUBJECT REVISION ============ -->
+<h2 id="revision"><span class="h2num">Revision</span>Quick Subject Revision</h2>
+
+<div class="review">
+
+  <h5>Unit 1 &mdash; Development of Skill (10)</h5>
+  <ul class="bul">
+    <li><strong>Creative writing:</strong> sensory detail method (sight, hearing, smell, touch, taste) and free writing. Story = problem, choice, change; poem = compression, music, lineation; role play script = title, cast, situation, dialogue, props; news report = headline, dateline, lead, body in descending order, the six Ws.</li>
+    <li><strong>Outdoor sketch, six steps:</strong> sight the light, frame it (viewfinder), thumbnail, block in values, work up (firm and lost edges), compare and correct. One light source; cast shadow before the object; the sky is a value, not white. Natural object = outline, mass, surface. Still life = varied heights and shapes, grouped, plain backdrop; the five tones are highlight, light, half-tone, core shadow, reflected light.</li>
+    <li><strong>Applied crafts:</strong> stencil (thick card, silhouette, 4&nbsp;mm bridges, damp sponge, lift vertically); pot making (wheel: wedge, centre, open, pull, shape, trim, dry, fire; or slab and coil with slip); collage (torn, cut, mixed media; choose material by colour and texture, not subject; glue from the background forward).</li>
+    <li><strong>Clay modelling:</strong> additive and subtractive; armature of thick wire wrapped in pasted paper; score and slip every join; hollow to an even wall; dry in shade; simple tools only.</li>
+    <li><strong>Assessment:</strong> process, not product &mdash; portfolio, dated observation record, critique, self-assessment; CCE.</li>
+  </ul>
+
+  <h5>Unit 2 &mdash; History and Theory of Art (5)</h5>
+  <ul class="bul">
+    <li><strong>2.1</strong> Three traditions: rock-cut (Ajanta, Ellora), structural stone (Khajuraho), timber/bamboo/brick (Sattria heritage of Assam). AMASR Act 1958; Antiquities and Art Treasures Act 1972; ASI.</li>
+    <li><strong>2.2 Sattria</strong> = temple + monastery + school + performing arts academy. <em>Borgeet</em> ("songs of Bhakti") sung to the <em>khol</em> &mdash; <em>muri</em>, <em>khanji</em>, cymbals &mdash; by <em>Satwas</em> in two facing rows; Madhavdeva and Madan Kamdev. <strong>Sattriya Nritya</strong>: collective and codified, UNESCO Intangible Cultural Heritage <strong>2000</strong>; costumes <em>Pakhowal</em> (orange, male) and <em>Jewon</em> (blue-yellow, female); <em>Nat</em> and <em>Dhrman</em>. <em>Bhaona</em>: one-act dance-drama from the <em>Rukmini Harana</em> tradition; the actor <em>is</em> the musician; no sets, props or mimetic acting. Manuscript painting = <em>Chitralekha</em> on the palm-leaf <em>barua khand</em>; the image is part of the text.</li>
+    <li><strong>2.3 Berger:</strong> "Seeing comes before words"; "a single picture held us captive"; the <em>invisible</em> factors (crop, selection of the instant, light, absent people, pose, surrounding text); publicity; criticism only by comparison.</li>
+    <li><strong>2.4</strong> Visual art = medium-based category; fine art, craft, commercial art = purpose-based distinctions within it. Visual art occupies space, is static, is physical, is a system of signs.</li>
+    <li><strong>2.5</strong> Elements in three groups: structure and space (line, shape, form, space, texture, volume); colour and light (hue, value, saturation, contrast, harmony); organisation (composition, balance, emphasis, rhythm, pattern). Primary/secondary/tertiary; complementary vs analogous; warm advances, cool recedes; value outranks hue; composition = the verb among the nouns.</li>
+    <li><strong>2.6</strong> Nine aims: aesthetic; self-expression; cognitive; motor-sensory; social-emotional; cultural identity; discipline and patience; well-being; creative-vocational capacity.</li>
+    <li><strong>2.7</strong> Art as cultural memory and identity; art takes from culture and gives back; craft traditions (weaving, bell-metal, cane and bamboo, mask, terracotta, <em>dokra</em>, jewellery) as aesthetic communities that also earn; machine production is the threat art education answers.</li>
+  </ul>
+
+  <h5>Unit 3 &mdash; Documentation (5)</h5>
+  <ul class="bul">
+    <li><strong>Indian artists:</strong> Raja Ravi Varma (1848&ndash;1906, calendar art); Abanindranath Tagore (1871&ndash;1951, Bengal School); Amrita Sher-Gil (1913&ndash;1941); M. F. Husain (1915&ndash;2011, self-taught, the horse); K. G. Subramanyan (1924&ndash;2016, teacher of art teachers); B. C. Sanyal (1923&ndash;2016); Tyeb Mehta (1935&ndash;2016, the bull). Also Frida Kahlo, Nandalal Bose.</li>
+    <li><strong>Western artists:</strong> van Gogh (1853&ndash;1890, observation); Monet (1840&ndash;1926, the series); Picasso (1881&ndash;1973, Cubism); O'Keeffe (1887&ndash;1986, one subject).</li>
+    <li><strong>Ajanta:</strong> c. 30 rock-cut Buddhist caves, Aurangabad, 2nd c. BCE&ndash;c. 480 CE, murals in natural mineral and vegetable pigments, Pandavas at Hastinapura, the dying princess, flying <em>apsaras</em>, UNESCO 1983.</li>
+    <li><strong>Ellora:</strong> 32 rock-cut caves, 6th&ndash;10th c. CE, Hindu + Buddhist + Jain, Kailasa temple (cave 16), Cave 10 "Vishwakarma", Cave 29 "Trimurti", UNESCO 1983.</li>
+    <li><strong>Khajuraho:</strong> Chandela, Madhya Pradesh, c. 950&ndash;1050 CE, c. 30 temples, Kandariya Mahadeva largest, "Temple of Dance" (<em>Dulhadev</em>) best preserved, UNESCO 1986.</li>
+    <li><strong>Madan Kamdev:</strong> court poet of Raghunath Singha, creator of the <em>Borgeet</em>. <strong>Da Parbatia:</strong> Sattria centre, Jagiroad, Darrang &mdash; living heritage.</li>
+  </ul>
+
+  <h5>Dates and Facts to Have Instantly</h5>
+  <p>Sattriya Nritya UNESCO <strong>2000</strong> (Intangible Cultural Heritage list) &middot; Ajanta and Ellora UNESCO <strong>1983</strong> (World Heritage list) &middot; Khajuraho UNESCO <strong>1986</strong> &middot; Madhavdeva, 16th century &middot; Madan Kamdev, court poet of Raghunath Singha, 16th&ndash;17th century &middot; AMASR Act <strong>1958</strong> &middot; Antiquities and Art Treasures Act <strong>1972</strong> &middot; Internal assessment split <strong>10 + 5 + 5 + 10 = 30</strong>.</p>
+
+  <h5>Assessment and Practicum Essentials</h5>
+  <ul class="check">
+    <li>Internal (30): performance and participation 10, assignment 5, unit test 5, SIP 10. External 20. Total 50.</li>
+    <li>Mentor instructions (seven): CCE; free expression and creativity; work together on small and large projects; insight into sensibility and aesthetics; provide opportunity to observe and imagine; cultural diversity through traditional art forms; innovative thoughts.</li>
+    <li>SIP: any two of five &mdash; (1) nature observation / object drawing / collage / clay / stencil; (2) poster or hoarding for an awareness programme against social evils; (3) traditional dance and music of Assam; (4) hand or wall magazine; (5) campus beautification and BALA on the school wall.</li>
+    <li>Practicum: outdoor studies; album on the monuments of Assam; creative writing; poster / pot / collage / toy; innovative Art Centre in the locality.</li>
+  </ul>
+</div>
+
+<!-- ============ IMPORTANT DIFFERENCES ============ -->
+<h2 id="differences"><span class="h2num">Exam Aid</span>Important Differences</h2>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table D.1 &mdash; Frequent Exam Distinctions and the Point That Earns the Mark</caption>
+    <thead><tr><th>Pair</th><th>The distinction that earns the mark</th></tr></thead>
+    <tbody>
+      <tr><td>Decoration vs perception</td><td>Decoration applies beauty from outside; perception recognises the inherent rhythm, beauty and harmony in forms, relations and character</td></tr>
+      <tr><td>Shape vs form</td><td>Shape is flat and two-dimensional; form is three-dimensional and occupies space</td></tr>
+      <tr><td>Visual art vs fine art</td><td>Visual art is the medium-based category (including craft, applied art, architecture, photography); fine art is the purpose-based category within it</td></tr>
+      <tr><td>Fine art vs craft vs commercial art</td><td>Different <em>purposes</em> &mdash; aesthetic response, useful object, market product &mdash; not different qualities; all three are visual art</td></tr>
+      <tr><td>Hue vs value vs saturation</td><td>Hue is the name of the colour, value its lightness, saturation its purity</td></tr>
+      <tr><td>Primary in pigment vs in light</td><td>Red, yellow, blue in pigment; red, green, blue in light</td></tr>
+      <tr><td>Complementary vs analogous</td><td>Complementary colours are opposite on the wheel and intensify each other; analogous colours are adjacent and harmonise quietly</td></tr>
+      <tr><td>Warm vs cool colour</td><td>Warm colours advance and excite; cool colours recede and quieten</td></tr>
+      <tr><td>Symmetrical vs asymmetrical balance</td><td>Equal weight either side of an axis against unequal masses that still balance</td></tr>
+      <tr><td>Additive vs subtractive (clay)</td><td>Adding material against removing it; most finished work is both</td></tr>
+      <tr><td>Slab vs coil (pot making)</td><td>A flat sheet cut to shape against a rolled rope of clay laid in rings</td></tr>
+      <tr><td>Art-process vs art-product assessment</td><td>Decisions, attempts and revisions against a single finished object; this paper assesses the process</td></tr>
+      <tr><td>Ajanta vs Ellora</td><td>Earlier and predominantly Buddhist against later and holding Hindu, Buddhist and Jain caves together</td></tr>
+      <tr><td>Surviving heritage vs living heritage</td><td>Ajanta and Ellora as what remains of a tradition; Da Parbatia as a tradition still being practised</td></tr>
+      <tr><td><em>Borgeet</em> vs Sattriya Nritya vs <em>Bhaona</em></td><td>The devotional songs, the classical dance, and the one-act dance-drama &mdash; three distinct forms within one Sattria tradition</td></tr>
+      <tr><td>Madan Kamdev vs Madhavdeva</td><td>Two different figures of the Assamese Vaishnavite tradition, named together but never the same person</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ COURSE INFORMATION ============ -->
+<h2 id="courseinfo"><span class="h2num">Back Matter</span>Course Information</h2>
+
+<p>The syllabus states the purpose of this paper in a paragraph worth reading: <em>&ldquo;The well-being and fulfilment of an individual is the common thread of the component of Fine Art and creative Drama, literary art, cinema etc. Art education aims to help connect these with the inner aspects of one's being to appreciate and create beauty and harmony within and outside. It is not about beautification applying something from outside, but an ability to appreciate the inherent rhythms, beauty and harmony in forms, relation and character.&rdquo;</em></p>
+
+<p>The last sentence is the one that should change your teaching. It distinguishes two things both loosely called &ldquo;art&rdquo;. The first is <strong>decoration</strong> &mdash; putting something beautiful on the outside of a thing that is otherwise untouched: a classroom wall is painted, a cover page is bordered, a chart is shaded with neat colour. The second is <strong>perception</strong> &mdash; the ability to notice that a bamboo stool has a rhythm in its legs, that a crowd on a river ghat has a pattern, that a character in a novel has a shape to the way they speak. The first is applied from outside; the second is <em>recognised</em>. Art education in this syllabus is about the second.</p>
+
+<h3>Objectives</h3>
+<p>On completion of the course a student-teacher should be able to:</p>
+<ol class="num">
+  <li>Develop creative self-expression through different forms of visual and performing art.</li>
+  <li>Appreciate different forms of visual and performing art.</li>
+  <li>Develop skills of keen observation, imagination, patience and discipline.</li>
+  <li>Develop aesthetic sensibility.</li>
+  <li>Develop a commitment of aesthetic and cultural bond with the society.</li>
+  <li>Exchange thought and culture.</li>
+  <li>Identify and develop one's own creativity and potential.</li>
+  <li>Recognise the role of drama in elementary school education.</li>
+</ol>
+<p>Objectives 1 and 2 are the two directions of one activity &mdash; doing and responding. Objectives 3 and 4 supply the underlying capacities, and they are the ones a school most often neglects. Objective 5 turns the enterprise outward towards society; objective 8 singles out drama, which is why role play, hot seating, character diaries and the building of stories and songs appear in the mode of transaction and again in the practicum.</p>
+
+<h3>Mode of Transaction</h3>
+<p>With only two or three periods a week, this 2-credit paper has to get a maximum of doing out of very little clock time. The syllabus proposes a participative and image-driven method, and its provisions should be read as a set of techniques:</p>
+<ul class="bul">
+  <li><strong>Images (photo, painting) as stimulus</strong> &mdash; put an image in front of a group and ask questions with no correct answer: what do you see, what is missing, what is the artist telling you, what could be happening outside the frame. The image is not there to be copied; it is there to be argued with.</li>
+  <li><strong>Still photographs of the students themselves</strong> &mdash; used to track a line of thought about issues. The photographs become the subject of a written observation, the basis of a discussion, the stimulus for a portrait, or the &ldquo;characters&rdquo; in a role play.</li>
+  <li><strong>Role play</strong> puts a body in front of an idea, so a shy student who cannot write about an emotion can act it.</li>
+  <li><strong>Hot seating</strong> trains listening, quick thinking and the ability to argue a position from the inside.</li>
+  <li><strong>Building stories and songs</strong> shows cumulatively that a text is made, and that many people can make one.</li>
+  <li><strong>Making and analysing characters' diaries</strong> links inner life to written evidence, and is often the most revealing activity in the paper.</li>
+  <li><strong>Personal belongings (objects) of characters</strong> gives a story a material anchor; an object carries history, and history is what a story needs.</li>
+  <li><strong>Opportunity to explore information on different topics</strong>, plus <strong>organising exhibitions and visits to places of importance</strong> &mdash; the self-study and field-exploration component.</li>
+</ul>
+
+<h3>Assessment Structure</h3>
+<p>External 20 marks; internal 30 marks as set out in Table 4.3 (performance and participation 10, assignment 5, unit test 5, SIP 10). Three of the four internal components cannot be produced by memorisation at all: a candidate who has never made a pot cannot be assessed on pot making, and one who has never taken a class outdoors cannot be assessed on outdoor studies. Hence the instruction to candidates is blunt &mdash; <em>do the work</em>.</p>
+
+<!-- ============ FACULTY / MENTOR NOTES ============ -->
+<h2 id="mentors"><span class="h2num">Back Matter</span>Faculty / Mentor Notes</h2>
+
+<p>The syllabus gives seven instructions to mentors and faculties. They are worth reading as a description of what kind of art teacher the course is trying to produce, not of how to assess:</p>
+<ol class="num">
+  <li>Emphasise the importance of Continuous and Comprehensive Evaluation (CCE) in Art Education.</li>
+  <li>Encourage students for free expression and creativity.</li>
+  <li>Work together on small and large projects.</li>
+  <li>Encourage students to develop an insight towards sensibility and aesthetics appreciation.</li>
+  <li>Provide an opportunity to observe and imagine.</li>
+  <li>Make students understand cultural diversity by recognising different traditional art forms prevalent in the country.</li>
+  <li>Involve students for innovative thoughts.</li>
+</ol>
+<p><strong>CCE</strong> is the framework and the other six are its content: evaluation that is continuous happens while the work is still soft enough to change. <strong>Free expression</strong> and comprehensive assessment are in tension unless the process &mdash; the effort, the observation, the decision, the revision &mdash; is assessed rather than the finished object. <strong>Working together on projects</strong> acknowledges that most people do their best work alongside other people. <strong>Providing an opportunity to observe and imagine</strong> is a scheduling instruction as much as a pedagogical one, and in a two-or-three-period paper it is the first thing sacrificed &mdash; it should not be. <strong>Recognising traditional art forms</strong> connects the classroom to the community, which is why 2.2 and 2.7 are in the syllabus.</p>
+
+<!-- ============ SUGGESTED READINGS ============ -->
+<h2 id="readings"><span class="h2num">Back Matter</span>Suggested Readings</h2>
+
+<h4>Assamese heritage and the arts</h4>
+<ul class="bul">
+  <li><em>Bharatiyacharukalar Rengani</em> (Restless currents of Indian art) &mdash; Mousumi Kandali, ASTPPC</li>
+  <li><em>Asamaradhunik Shilpakala</em> (Modern art of Assam) &mdash; Mousumi Kandali, Black and White, Gujarat</li>
+  <li><em>Sattriya Nritya &ndash; Geet &ndash; Badya, Hatputhi</em> &mdash; Dr. Jagnnath Mahanta</li>
+  <li><em>Sattriya Utsavar Parichay Aru Tatporja</em> &mdash; Dr. SriSri Pitambar Dev Goswami</li>
+  <li><em>Fine Arts</em> &mdash; Pradip Nath, AANK-BAAK, Guwahati</li>
+  <li><em>Shilpakalar Krama o Vikash</em> &mdash; Gouri Barman, Asom Prakashan Parishad</li>
+  <li><em>Asomarlok Shilpakola</em> (Assamese folk art) &mdash; D. K. Talukdar, Bani Mandir, Guwahati</li>
+  <li><em>Shilpakalar Navajanma</em> &mdash; Shobha Brahma, Students' Store, Guwahati</li>
+  <li><em>Shilpakalar Upalabdhi and Ananda</em> &mdash; Nilmoni Phukan, Anwesha, Guwahati</li>
+</ul>
+
+<h4>Theory of art and art education</h4>
+<ul class="bul">
+  <li><em>Ways of Seeing</em> &mdash; John Berger, Penguin Classics. The book behind 2.3.</li>
+  <li><em>How to Look at Art</em> &mdash; Susie Hodge. A practical companion to Berger; closer to the studio.</li>
+  <li><em>The Arts and the Creation of Mind</em> &mdash; Elliot W. Eisner. On what art does to thinking; the best theoretical support for objective 4.</li>
+  <li><em>Art Education</em> &mdash; J. Prasad, Kanishka Publishers, New Delhi</li>
+  <li><em>Classroom Management for Art, Music and PE Teachers</em> &mdash; Michael Linsin</li>
+  <li><em>200 Projects to Strengthen Your Art Skills</em> &mdash; V. Colston</li>
+</ul>
+
+<h4>Web resources and national policy</h4>
+<ul class="bul">
+  <li>www.theartofed.com &middot; www.incredibleart.org &middot; www.artandeducation.net</li>
+  <li><em>National Curriculum Framework for the Foundational Stage</em>, 2022 &mdash; the arts and crafts position for ages 3&ndash;8</li>
+  <li><em>National Curriculum Framework for School Education</em>, 2023 &mdash; the arts and crafts position for Classes 1&ndash;8</li>
+  <li><em>National Education Policy</em>, 2020 &mdash; the arts-education and vocational-education mandate</li>
+</ul>
+</article>
+</body>
+</html>

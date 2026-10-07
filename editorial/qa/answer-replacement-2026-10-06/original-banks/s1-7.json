@@ -1,0 +1,1929 @@
+{
+  "course": "s1-7",
+  "units": [
+    {
+      "unit": 1,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Art and Creative Education I",
+          "url": "/curriculum-2024.pdf#page=34"
+        },
+        {
+          "label": "Subject study notes",
+          "url": "/detailed-notes/s1-7.html"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is a contour in observational drawing?",
+          [
+            "A contour is the line that describes the visible outline or edge of an object."
+          ]
+        ],
+        [
+          1,
+          "What is negative space in a still-life arrangement?",
+          [
+            "Negative space is the area around and between the objects being drawn."
+          ]
+        ],
+        [
+          1,
+          "Name the technique of building a clay pot from rolled ropes of clay.",
+          [
+            "Coiling."
+          ]
+        ],
+        [
+          1,
+          "What is a stencil bridge?",
+          [
+            "A bridge is an uncut strip that holds an enclosed part of a stencil in place."
+          ]
+        ],
+        [
+          1,
+          "What does a stage direction tell a performer?",
+          [
+            "It indicates an action, movement, expression or other aspect of how a scene is performed."
+          ]
+        ],
+        [
+          1,
+          "Give one example of a sensory detail in childhood-memory writing.",
+          [
+            "“The warm rice smelt of wood smoke” supplies a specific sensory detail."
+          ]
+        ],
+        [
+          1,
+          "What is alliteration?",
+          [
+            "Alliteration is the repetition of an initial consonant sound in nearby words, as in “bamboo branches bend”."
+          ]
+        ],
+        [
+          1,
+          "What is a thumbnail sketch?",
+          [
+            "A thumbnail sketch is a small, quick drawing used to plan a composition."
+          ]
+        ],
+        [
+          1,
+          "Name one material suitable for a simple paper toy.",
+          [
+            "Clean, reused card is suitable for making a folded animal toy."
+          ]
+        ],
+        [
+          1,
+          "What is the purpose of a headline in classroom news writing?",
+          [
+            "A headline identifies the main event and draws attention to the report."
+          ]
+        ],
+        [
+          2,
+          "Distinguish between drawing from observation and drawing from memory.",
+          [
+            "Observation drawing uses an object or scene that the learner can examine while working.",
+            "Memory drawing reconstructs what the learner remembers after the object or scene is no longer visible."
+          ]
+        ],
+        [
+          2,
+          "How can overlapping objects create depth in a drawing?",
+          [
+            "An object that covers part of another appears nearer to the viewer.",
+            "For example, drawing a cup partly in front of a pot establishes their relative positions without changing their actual shapes."
+          ]
+        ],
+        [
+          2,
+          "Why should a news report distinguish fact from opinion?",
+          [
+            "Facts report checkable details such as who participated and what happened.",
+            "An opinion expresses a judgment; labelling it prevents a writer’s preference from being mistaken for evidence."
+          ]
+        ],
+        [
+          2,
+          "Suggest two ways to help a child begin a story without supplying the whole plot.",
+          [
+            "Offer a starting situation, such as finding an unexpected object on the way to school.",
+            "Ask an open question about what the character wants or does next, leaving the child to choose the events."
+          ]
+        ],
+        [
+          2,
+          "How does a stencil print differ from a leaf impression?",
+          [
+            "In stencil printing, colour passes through cut openings while the sheet masks other areas.",
+            "In a leaf impression, colour on the leaf is transferred by contact, often recording its veins and surface texture."
+          ]
+        ],
+        [
+          2,
+          "Why can a clay animal lose its legs while drying?",
+          [
+            "Thin legs or weak joins may not support the body, especially when parts dry unevenly.",
+            "Use a balanced shape and attach compatible moist parts firmly by scoring and joining; support the model while it dries."
+          ]
+        ],
+        [
+          2,
+          "Give two ways to make a collage visually coherent when using varied scraps.",
+          [
+            "Repeat a limited set of colours or shapes so separate pieces feel related.",
+            "Arrange the pieces around a clear main subject rather than filling every space indiscriminately."
+          ]
+        ],
+        [
+          2,
+          "How can a movable paper puppet support role play?",
+          [
+            "Its joints allow the child to represent actions and emotions while speaking as a character.",
+            "Working in pairs also requires listening and responding to the other puppet’s dialogue."
+          ]
+        ],
+        [
+          2,
+          "Distinguish between a highlight and a cast shadow.",
+          [
+            "A highlight is a relatively bright area on an object receiving or reflecting strong light.",
+            "A cast shadow lies on another surface where the object blocks the light."
+          ]
+        ],
+        [
+          2,
+          "Why should feedback on a child’s poem go beyond correcting rhyme?",
+          [
+            "A poem may use rhythm, imagery and feeling effectively without rhyming.",
+            "Feedback should notice a successful image or choice of words and suggest one clear revision without replacing the child’s voice."
+          ]
+        ],
+        [
+          3,
+          "Explain how to observe a leaf before drawing it.",
+          [
+            "Examine the overall outline, proportion and direction of the stalk before adding small details.",
+            "Locate the main vein and observe how smaller veins branch, noting whether the edge is smooth or toothed.",
+            "Draw lightly, compare the drawing with the leaf and revise the parts that differ instead of relying on a familiar leaf symbol."
+          ]
+        ],
+        [
+          3,
+          "A stencil gives blurred edges. Explain three possible improvements.",
+          [
+            "Secure the stencil so that it cannot slide while colour is applied.",
+            "Use a small amount of thick enough colour on a sponge or nearly dry brush; excess liquid seeps under the edges.",
+            "Dab vertically and lift the stencil carefully after printing, rather than dragging it across the wet surface."
+          ]
+        ],
+        [
+          3,
+          "Describe how to make a small pinch pot.",
+          [
+            "Knead the clay and form a smooth ball; press a thumb into its centre without piercing the base.",
+            "Turn the pot while gently pinching the walls between thumb and fingers, keeping their thickness reasonably even.",
+            "Smooth the rim and base, then allow slow, even drying. A classroom unfired pot is a model, not automatically a waterproof vessel."
+          ]
+        ],
+        [
+          3,
+          "Suggest three prompts for revising a childhood-memory paragraph.",
+          [
+            "Ask “Where were you, and what could you hear or see?” to replace vague description with a setting.",
+            "Ask “What happened first and next?” to help the writer arrange events clearly.",
+            "Ask “What did you feel then?” to connect the event with a personal response without requiring disclosure of upsetting memories."
+          ]
+        ],
+        [
+          3,
+          "How would you turn a short story into a role-play script?",
+          [
+            "Identify the main conflict and choose a small cast so each role has a purpose.",
+            "Convert key events into dialogue, with short stage directions for necessary movements.",
+            "Rehearse the sequence and revise lines that are hard to speak or do not help the audience understand the story."
+          ]
+        ],
+        [
+          3,
+          "Describe a classroom exercise in using light and dark pencil values.",
+          [
+            "Ask learners to make a strip of five values, from pale grey to dark, by changing pencil pressure or hatching.",
+            "Place a ball under one light source and locate its light side, shaded side and cast shadow.",
+            "Use the value strip as a guide to draw the ball’s volume, preserving the brightest areas rather than outlining every tonal change."
+          ]
+        ],
+        [
+          3,
+          "How would you organise a short outdoor sketching session?",
+          [
+            "Choose an accessible, supervised place and ask learners to select one manageable view.",
+            "Allow time to observe large shapes, foreground and background before drawing details.",
+            "Return to compare different observations and discuss one revision each learner would make; judge careful looking rather than identical pictures."
+          ]
+        ],
+        [
+          3,
+          "Explain how a child can improve a handmade toy after trying it out.",
+          [
+            "Observe a specific problem, such as a paper spinner that falls without turning.",
+            "Change one feature, such as the balance or fold of its blades, and compare the result.",
+            "Keep the better version and explain the change, connecting creative making with observation and problem-solving."
+          ]
+        ],
+        [
+          3,
+          "Write a brief fictional classroom news report about a reading corner opening.",
+          [
+            "Reading Corner Opens in Class III — On Monday, Class III opened a reading corner with books collected by pupils and teachers.",
+            "The class arranged picture books and stories in labelled baskets. Each group introduced one book it wanted others to read.",
+            "Pupils agreed to return books to their baskets after use. A weekly rota will help keep the corner organised. (This is an invented practice report.)"
+          ]
+        ],
+        [
+          3,
+          "What should a teacher observe while learners make clay figures?",
+          [
+            "Observe how learners coordinate both hands to roll, pinch, join and refine parts.",
+            "Notice how they solve balance and proportion problems rather than assessing only a smooth finished surface.",
+            "Listen to their explanation of the figure and note persistence or experimentation so feedback addresses the making process."
+          ]
+        ],
+        [
+          4,
+          "Design an inclusive collage activity for a mixed-ability primary class.",
+          [
+            "Introduce an open theme such as “Our neighbourhood”, allowing different personal interpretations.",
+            "Provide clean paper, cloth scraps and card in accessible containers; offer large pre-cut pieces or adapted scissors where needed.",
+            "Let pupils choose individual or shared compositions, first arranging pieces without glue and discussing their choices.",
+            "Assess use of materials, communication of an idea and participation. Do not reward expensive materials or identical copies of the teacher’s sample."
+          ]
+        ],
+        [
+          4,
+          "Compare still-life drawing and outdoor landscape drawing as learning experiences.",
+          [
+            "Still life uses an arranged group of objects; a landscape includes a wider natural or built environment.",
+            "Still life makes it easier to compare nearby proportions and controlled lighting; outdoor light and moving elements can change during the session.",
+            "Both require attention to shape, overlap and light, but landscapes give more opportunity to study distance and large spatial relationships.",
+            "A teacher can begin with a simple pot and fruit arrangement, then extend observation to a courtyard view, allowing enough time and accessible viewpoints."
+          ]
+        ],
+        [
+          4,
+          "Explain how to assess creative writing without discouraging originality.",
+          [
+            "Use clear criteria such as a comprehensible sequence, vivid details and expression of an idea, rather than demanding one approved story.",
+            "Ask the learner to identify a line they like and explain its purpose, giving the teacher evidence of intention.",
+            "Respond with specific feedback, such as suggesting a clearer transition, instead of rewriting the whole piece.",
+            "Allow revision and compare drafts. Treat spelling support separately where possible so language errors do not erase recognition of imagination."
+          ]
+        ],
+        [
+          4,
+          "Plan a low-cost classroom toy-making workshop.",
+          [
+            "Choose a manageable toy, such as a folded-card animal with movable paper limbs, and show the basic joining method.",
+            "Collect clean reusable card and suitable fasteners; adults prepare any holes or sharp cuts that children cannot safely make.",
+            "Invite learners to vary the animal, colour and movement, then test whether its parts move as intended.",
+            "Finish with sharing, repair and tidy-up. Assess design choices and cooperation as well as the toy’s function."
+          ]
+        ],
+        [
+          4,
+          "A class copies the same house drawing every week. How would you improve the activity?",
+          [
+            "Replace the single outline with observation of different homes or photographs, asking pupils to notice roofs, openings and surroundings.",
+            "Let each learner choose a viewpoint and details connected with their experience, so variation has a reason.",
+            "Demonstrate only a needed technique, such as overlap, without supplying a complete picture to reproduce.",
+            "Display contrasting solutions and invite explanations. Praise careful observation and purposeful choices rather than resemblance to the teacher’s house."
+          ]
+        ],
+        [
+          5,
+          "Prepare a sequence for a lesson that combines sensory memory and creative storytelling.",
+          [
+            "Begin with a neutral prompt such as a journey, a market or a rainy afternoon; allow an imagined experience instead of a private memory.",
+            "Use a word web to collect sights, sounds, textures and feelings. Children may discuss these first in a familiar language.",
+            "Ask each learner to choose a character, a small problem and a possible resolution, using the sensory details as the setting.",
+            "Allow drafting through writing, dictation or a picture sequence; pair learners to check whether the sequence is understandable.",
+            "Invite revision of one vague passage and voluntary sharing. Evaluate the clarity and individuality of the story, keeping personal disclosures optional."
+          ]
+        ],
+        [
+          5,
+          "Discuss the educational value of a clay-modelling project through the making of an animal.",
+          [
+            "Clay modelling gives an idea a three-dimensional form; a learner must consider the animal from more than one side.",
+            "Rolling a body, pinching ears and joining legs practise controlled hand movements and eye–hand coordination.",
+            "Comparing the lengths of limbs and testing whether the figure stands engage proportion and practical problem-solving.",
+            "Discussing the animal and explaining revisions connects visual expression with vocabulary and reflection. Shared tools also require turn-taking.",
+            "Use manageable models and appropriate clay, support different motor abilities and assess experimentation. A single attractive product alone cannot establish a child’s overall ability."
+          ]
+        ],
+        [
+          5,
+          "Explain the stages of planning, producing and reviewing a classroom wall magazine.",
+          [
+            "Agree on a theme and audience, then divide space among stories, drawings, poems and factual news without excluding quieter contributors.",
+            "Assign rotating roles such as writer, illustrator and editor. Collect original work and record contributors’ names with their agreement.",
+            "Check reports for accurate names and events, and help writers revise unclear passages while preserving their voice.",
+            "Arrange readable headings, suitable spacing and illustrations that relate to the text; mount the work at a height children can use.",
+            "Invite reader responses and discuss what the next issue could improve. The magazine becomes a continuing communication activity rather than a teacher-made display."
+          ]
+        ],
+        [
+          5,
+          "Develop an assessment rubric for an observational drawing task and explain its use.",
+          [
+            "Observation: assess whether the drawing includes features actually noticed, such as an uneven rim, rather than only a memorised symbol.",
+            "Proportion and placement: consider the relationships among parts and objects, allowing developmental differences in precision.",
+            "Use of line and value: notice purposeful contours or shading that helps communicate the form; do not demand a particular personal style.",
+            "Process and revision: record looking back at the object, trying alternatives and responding to feedback, using brief observation notes.",
+            "Discuss these criteria before the task and use descriptive levels such as beginning, developing and independent. Compare the learner’s progress across attempts, not artistic talent against classmates."
+          ]
+        ],
+        [
+          5,
+          "How can a teacher connect stencil printing, collage and creative writing in one project without making them repetitive?",
+          [
+            "Choose a shared purpose, such as a class book about local trees, while giving each technique a different role.",
+            "Use leaf-inspired stencils to print a repeated border, exploring rhythm and control of colour application.",
+            "Use collage for the central tree image, selecting textures that suggest bark, foliage or ground rather than copying the border.",
+            "Invite an original short narrative or description from the tree’s imagined viewpoint, connecting visual choices with language.",
+            "Review how image, pattern and text work together. Offer material and communication choices, and assess each contribution against its purpose instead of requiring identical finished pages."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-7-2024-1-c",
+          "question": "Write the name of a soft pencil.",
+          "marks": 1,
+          "answer": [
+            "A 2B pencil."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2022-5",
+          "question": "To make teaching mathematics joyful at lower primary level, draw pictures from the below given numbers: 0, 4, 7, 9.",
+          "marks": 2,
+          "answer": [
+            "One possible set is 0 → balloon, 4 → sailboat, 7 → flag and 9 → bird. The coloured strokes in the example preserve each starting digit while extra lines complete the picture."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/numbers.svg",
+            "alt": "Four drawings made from the digits: 0 becomes a balloon, 4 a sailboat, 7 a flag and 9 a bird. The starting digit is highlighted.",
+            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          }
+        },
+        {
+          "id": "s1-7-2021-4",
+          "question": "Draw a sketch of a cyclist.",
+          "marks": 3,
+          "answer": [
+            "The example shows a rider in side view with hands reaching the handlebar and bent legs reaching the pedals. Keep the wheels aligned and relate the rider’s proportions to the bicycle.",
+            "Use light construction lines before strengthening the final contours. Add a ground line and a little shading; the drawing itself is the answer, not a written definition."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2021/s1-7-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/cyclist.svg",
+            "alt": "Side-view line sketch of a rider pedalling a bicycle, with two wheels, frame, handlebar and bent limbs.",
+            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          }
+        },
+        {
+          "id": "s1-7-2021-5",
+          "question": "Prepare a script on any one of the following topics: (a) Human Rights (b) Plantation (c) Covid-19.",
+          "marks": 3,
+          "answer": [
+            "Chosen topic: Plantation. Title: A Tree Needs Tomorrow Too. Characters: Mina, Raju and Teacher. Scene: a school garden after a planting activity. This is an original model script.",
+            "Mina [holding a sapling]: “We planted our tree. Shall we leave?” Raju: “Who will water it when the soil is dry?” Mina: “I thought planting was the whole job!”",
+            "Teacher: “First choose a suitable place and tree. Then protect and care for it.” Raju: “Our groups can take turns checking it.” Mina: “Let us keep a growth diary too.” All [placing a care label beside the sapling]: “Plant with care; help it grow!”"
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2021/s1-7-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2025-5",
+          "question": "Compose a poem based on natural beauty.",
+          "marks": 3,
+          "answer": [
+            "Morning by the River — an original model poem\nA silver river wakes the day,\nAnd carries little clouds away.\nThe bamboo whispers in the breeze,\nWhile sunlight settles on the trees.\nA bird lifts music to the blue;\nThe grass holds beads of shining dew.\nI pause beside the waters bright,\nAnd greet the world in morning light."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2025-6",
+          "question": "Draw a flower vase using oil pastel colours.",
+          "marks": 3,
+          "answer": [
+            "The digital colour study shows a vase with a rounded body, an elliptical rim and a small group of flowers. Darker colour on one side and a cast shadow suggest volume.",
+            "For the examination task, make your own drawing using oil pastels. Layer lighter and darker strokes, keep the highlights clear and connect the stems naturally to the vase opening."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/vase.svg",
+            "alt": "Colour study of a blue flower vase on a table with stems, leaves and red and yellow flowers.",
+            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          }
+        },
+        {
+          "id": "s1-7-2023-6",
+          "question": "Draw an outdoor sketch of an ideal school campus.",
+          "marks": 4,
+          "answer": [
+            "The example places classrooms and a library around open space, with a garden, drinking-water point, toilets and a clear connecting path.",
+            "Keep buildings and trees in proportion and show depth through overlap and relative size. Add readable labels only where helpful; the required response is the campus sketch."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/school.svg",
+            "alt": "School campus sketch showing classrooms, a library, a garden, drinking water, toilets, a path and play space.",
+            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          }
+        },
+        {
+          "id": "s1-7-2023-6-alternative",
+          "question": "Explain with examples how still life drawings enhance students’ concentration and observation skills.",
+          "marks": 4,
+          "answer": [
+            "Still-life drawing asks learners to look repeatedly at stable objects rather than draw only from a remembered symbol.",
+            "Comparing a pot and a cup requires attention to relative height, width and position, improving purposeful observation of detail and proportion.",
+            "Following the light and shadows on fruit sustains attention through successive decisions about line and tone.",
+            "Checking the drawing against the arrangement encourages noticing and correcting differences. Short, suitable sessions support concentration without demanding that every child work at the same pace."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "6 (alternative)",
+              "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2023-7",
+          "question": "Prepare a script of street play on the theme of “Child Labour” or “Human Rights”.",
+          "marks": 4,
+          "answer": [
+            "Chosen theme: Child Labour. Title: A Schoolbag, Not a Burden. Characters: Narrator, Child, Shopkeeper, Neighbour and Teacher. A small group forms a circle. This is an original model script.",
+            "Narrator: “The school bell rings, but one child is still carrying boxes.” Child [putting down a box]: “I want to learn with my friends.” Shopkeeper: “But there is work to finish.”",
+            "Neighbour: “A child’s opportunity to learn and grow cannot wait for the shop.” Teacher: “Let us speak with the family and arrange support so this child can return to learning.” Child: “Will someone help me catch up?” Teacher: “Yes. You belong in our class.”",
+            "Narrator: “Do not blame children for circumstances they did not choose.” All [raising a schoolbag]: “Protect childhood. Support families. Let every child learn!” The group invites the audience to identify ways their community can support children."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "7",
+              "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2025-7",
+          "question": "Draw a painting on any one of the following topics (using colours): (a) Scenery of rainy day (b) Village scenery.",
+          "marks": 4,
+          "answer": [
+            "Chosen topic: Village scenery. The example includes houses, trees, fields and a path leading into the distance, arranged as one connected scene.",
+            "Use colour to distinguish the sky, vegetation, roofs and ground. Vary the size and overlap of forms to show distance and keep the main buildings readable."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "7",
+              "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/village.svg",
+            "alt": "Coloured village landscape with houses, trees, a winding path, fields and distant hills.",
+            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          }
+        },
+        {
+          "id": "s1-7-2022-3",
+          "question": "Draw an outdoor sketch of river side scenery.",
+          "marks": 5,
+          "answer": [
+            "The model uses a winding river to connect foreground and distance, with irregular banks, trees and a small boat. Distant forms are smaller and lighter.",
+            "Begin with the broad composition, then add observed details and consistent light and shade. Use the model as a study of arrangement, not as the only possible river scene."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "illustration": {
+            "src": "/qa-art/river.svg",
+            "alt": "Riverside landscape sketch showing a winding river, banks, a boat, trees and distant hills.",
+            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          }
+        },
+        {
+          "id": "s1-7-2022-4",
+          "question": "Give reasons how collage making benefits a student in fine motor development. Mention the steps to make a collage.",
+          "marks": 5,
+          "answer": [
+            "Tearing, cutting and positioning small pieces practise controlled finger movements and coordination between the two hands.",
+            "Applying glue and placing pieces accurately require eye–hand coordination and control of pressure; suitable tools and piece sizes allow different learners to participate.",
+            "Choose a theme and base, then collect clean paper, fabric or other appropriate materials with useful colours and textures.",
+            "Prepare the pieces and arrange them without glue. Adjust shape, overlap and spacing until the main idea is clear.",
+            "Paste the pieces carefully, let the work dry and review the composition. Discuss choices and improvements rather than judging only neatness."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2022-4-alternative",
+          "question": "How clay modelling helps in fine motor development of a student? Share your views with an example of clay model of “Pumpkin”.",
+          "marks": 5,
+          "answer": [
+            "Clay modelling requires small, controlled hand and finger actions together with eye–hand coordination. Its resistance gives feedback about pressure and shape.",
+            "For a pumpkin, knead suitable clay and roll a ball between the palms, then flatten it slightly to establish the rounded body.",
+            "Press shallow vertical grooves around the body with a blunt tool or finger to suggest the pumpkin’s ribs, turning it as you work.",
+            "Pinch a short stem and attach it securely, refining the join and surface. Rolling, pressing, pinching and joining each practise a different controlled movement.",
+            "Compare the model with a real pumpkin or image and revise it. Adapt the size and tools to the learner, and assess control and improvement rather than expecting identical models."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "4 (alternative)",
+              "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Art and Creative Education I",
+          "url": "/curriculum-2024.pdf#page=34"
+        },
+        {
+          "label": "Subject study notes",
+          "url": "/detailed-notes/s1-7.html"
+        },
+        {
+          "label": "Sangeet Natak Akademi — Jatin Goswami",
+          "url": "https://www.sangeetnatak.gov.in/public/uploads/1649250360427.SNA-Citation_compressed_compressed.pdf"
+        },
+        {
+          "label": "Assam — Rang Ghar",
+          "url": "https://sivasagar.assam.gov.in/tourist-place-detail/276"
+        },
+        {
+          "label": "Assam — Asharikandi terracotta",
+          "url": "https://dhubri.assam.gov.in/tourist-place-detail/251"
+        },
+        {
+          "label": "Assam archaeological sites",
+          "url": "https://archaeology.assam.gov.in/information-services/detail/list-of-protected-archaeological-sites-and-monuments"
+        },
+        {
+          "label": "President of India — Padma Awards 2023",
+          "url": "https://www.presidentofindia.gov.in/sites/default/files/2023-04/1_padma_awards_2023_i.pdf"
+        },
+        {
+          "label": "Citra Bhagavata — introductory study",
+          "url": "https://atributetosankaradeva.org/manuscript_painting.htm"
+        },
+        {
+          "label": "Assamese writers and their sobriquets",
+          "url": "https://www.assamquiz.com/2019/10/assamese-writer-pen-name.html"
+        },
+        {
+          "label": "Phani Sarma — filmography",
+          "url": "https://en.wikipedia.org/wiki/Phani_Sarma"
+        },
+        {
+          "label": "Indramalati — film credits",
+          "url": "https://en.wikipedia.org/wiki/Indramalati"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is Borgeet?",
+          [
+            "Borgeet is a tradition of devotional songs associated with Sankardeva and Madhabdeva, organised around specified ragas."
+          ]
+        ],
+        [
+          1,
+          "What is Bhaona?",
+          [
+            "Bhaona is a traditional dramatic performance of Assam associated with the Neo-Vaishnavite tradition."
+          ]
+        ],
+        [
+          1,
+          "What is composition in visual art?",
+          [
+            "Composition is the arrangement of visual elements within an artwork."
+          ]
+        ],
+        [
+          1,
+          "Which element refers to the lightness or darkness of a colour?",
+          [
+            "Value."
+          ]
+        ],
+        [
+          1,
+          "What is visual texture?",
+          [
+            "Visual texture is the appearance of a surface quality, such as roughness, represented in an image."
+          ]
+        ],
+        [
+          1,
+          "Name the author associated with Ways of Seeing.",
+          [
+            "John Berger."
+          ]
+        ],
+        [
+          1,
+          "What is a focal point in a picture?",
+          [
+            "A focal point is the area that attracts the viewer’s main attention."
+          ]
+        ],
+        [
+          1,
+          "What is an applied art?",
+          [
+            "Applied art brings artistic design to objects or settings that have practical uses."
+          ]
+        ],
+        [
+          1,
+          "Name the traditional prepared bark support used in many Assamese manuscripts.",
+          [
+            "Sanchipat, also written sachipat."
+          ]
+        ],
+        [
+          1,
+          "Identify the design principle in a row of alternating leaf motifs.",
+          [
+            "Rhythm, created through repetition and alternation."
+          ]
+        ],
+        [
+          2,
+          "Distinguish shape from form using an example.",
+          [
+            "Shape has two dimensions, such as a circle drawn on paper.",
+            "Form has three dimensions, such as a clay sphere with height, width and depth."
+          ]
+        ],
+        [
+          2,
+          "How does a namghar differ from a sattra?",
+          [
+            "A namghar is a community prayer and gathering hall in the Assamese Vaishnavite tradition.",
+            "A sattra is a religious and cultural institution that may include a namghar and facilities for its wider activities."
+          ]
+        ],
+        [
+          2,
+          "How can colour contrast make a poster easier to read?",
+          [
+            "A strong difference in lightness between lettering and background helps the words stand out.",
+            "For example, dark letters on a pale area remain clearer than two similarly dark colours, even when their hues differ."
+          ]
+        ],
+        [
+          2,
+          "Why is a decorated everyday pot relevant to art education?",
+          [
+            "Its shape and ornament show aesthetic decisions as well as practical design.",
+            "Studying it connects art with local making and everyday culture rather than restricting art to gallery paintings."
+          ]
+        ],
+        [
+          2,
+          "State two differences between visual and performing arts.",
+          [
+            "Visual arts chiefly organise visible forms in works such as drawings or sculptures; performing arts unfold through actions such as dance or drama.",
+            "A painting can be examined at the viewer’s pace, while a live dance develops through time. Some art forms combine both modes."
+          ]
+        ],
+        [
+          2,
+          "How can the caption under a photograph affect its meaning?",
+          [
+            "A caption selects a context or interpretation that directs attention to particular details.",
+            "The same image of a crowd might suggest celebration or congestion depending on the caption, so readers should examine image and wording together."
+          ]
+        ],
+        [
+          2,
+          "Distinguish symmetrical balance from asymmetrical balance.",
+          [
+            "Symmetrical balance arranges similar visual weight on either side of an axis.",
+            "Asymmetrical balance uses unlike elements that still feel balanced, such as one large pale shape and several smaller dark ones."
+          ]
+        ],
+        [
+          2,
+          "Give two ways a school can acknowledge the work of a visiting artisan.",
+          [
+            "Introduce the artisan by name and describe their skill rather than treating the craft as anonymous decoration.",
+            "Agree on payment or other appropriate arrangements beforehand and credit the maker when displaying the demonstrated work."
+          ]
+        ],
+        [
+          2,
+          "Why should manuscript paintings be studied alongside their text?",
+          [
+            "Pictures may represent episodes, characters or ideas in the text, so the pairing helps explain their subject.",
+            "Page layout, sequence and script also show how the manuscript communicated, which an isolated decorative image may conceal."
+          ]
+        ],
+        [
+          2,
+          "What is the difference between describing an artwork and judging it?",
+          [
+            "Description identifies visible evidence, such as repeated curved lines or three figures.",
+            "Judgment evaluates the work, such as whether those lines communicate movement, and should be supported by reasons rather than preference alone."
+          ]
+        ],
+        [
+          3,
+          "Explain three connections among music, movement and drama in Sattriya culture.",
+          [
+            "Borgeet contributes a devotional musical tradition in which melody and rhythm shape expression.",
+            "Sattriya dance uses coordinated movement, gesture and expression to communicate themes within its cultural tradition.",
+            "Bhaona brings dramatic narration, acting, music and visual presentation together, showing that these forms often interact rather than exist in isolation."
+          ]
+        ],
+        [
+          3,
+          "Apply the idea of ways of seeing to a classroom discussion of an advertisement.",
+          [
+            "Ask learners to describe what is actually shown, including size, colour, people and objects.",
+            "Discuss what the image encourages them to desire or believe and how its design supports that message.",
+            "Compare possible interpretations and ask what information is absent, distinguishing a persuasive presentation from complete evidence."
+          ]
+        ],
+        [
+          3,
+          "Explain how line can suggest movement without treating its meanings as fixed.",
+          [
+            "Repeated diagonals can guide the eye along a direction and make a figure appear active.",
+            "Curved lines can suggest a turning or flowing motion, especially when repeated through a composition.",
+            "Interpretation depends on the subject and arrangement; a diagonal is not automatically a universal symbol of one emotion."
+          ]
+        ],
+        [
+          3,
+          "How can a school introduce a religious art tradition in an inclusive way?",
+          [
+            "Present its history, techniques and cultural significance without requiring pupils to adopt its beliefs.",
+            "Invite respectful observation and questions while acknowledging that families may have different traditions.",
+            "Offer alternative ways to participate, such as studying rhythm, costume design or narrative, and avoid ranking communities by their art."
+          ]
+        ],
+        [
+          3,
+          "Explain three ways art and livelihood are connected in a craft community.",
+          [
+            "Making and selling well-designed objects can provide income, linking skill with practical economic activity.",
+            "Local materials and inherited techniques shape the products, while makers adapt designs to changing uses and customers.",
+            "Sustaining the craft depends on fair returns and opportunities to learn; appreciating the object alone does not guarantee the maker’s livelihood."
+          ]
+        ],
+        [
+          3,
+          "Why is it misleading to call every traditional work anonymous and unchanging?",
+          [
+            "Some works have known makers, patrons or workshops whose names can be documented.",
+            "Traditions change as artists respond to materials, audiences and new circumstances.",
+            "A responsible description identifies available evidence and acknowledges unknown authorship instead of assuming all makers worked in exactly the same way."
+          ]
+        ],
+        [
+          3,
+          "How would you teach the difference between actual and visual texture?",
+          [
+            "Let learners examine safe surfaces, such as cloth and corrugated card, and describe how each feels.",
+            "Ask them to draw marks that suggest those surfaces on smooth paper.",
+            "Compare the tactile surface with its drawn representation: the card is physically ridged, while the drawing only appears to be so."
+          ]
+        ],
+        [
+          3,
+          "Explain how a heritage building can be studied as evidence of culture.",
+          [
+            "Its materials and construction show skills and resources available to the builders.",
+            "Its plan and imagery can suggest uses and beliefs, when supported by historical evidence.",
+            "Later repairs and continued use reveal changing relationships with the building; observation should be combined with trustworthy records rather than legend alone."
+          ]
+        ],
+        [
+          3,
+          "A learner says a picture is bad because it is not realistic. How would you respond?",
+          [
+            "Ask what the artist appears to be trying to express, since accurate imitation is only one possible aim.",
+            "Examine specific choices such as simplified shapes, repeated patterns or exaggerated colour and their effects.",
+            "Encourage a reasoned response that relates technique to intention, while allowing the learner to keep a personal preference."
+          ]
+        ],
+        [
+          3,
+          "How can art discussions build respect for different interpretations?",
+          [
+            "Invite several learners to describe what they notice before announcing a preferred reading.",
+            "Ask each to support an interpretation with something visible in the work or known about its context.",
+            "Compare the evidence respectfully, recognising that multiple supported readings can coexist while unsupported factual claims still need correction."
+          ]
+        ],
+        [
+          4,
+          "Explain the role of sattras in sustaining artistic knowledge.",
+          [
+            "Sattras have supported learning and practice in forms such as devotional music, dance and drama within Assam’s Vaishnavite tradition.",
+            "Training through demonstration and repeated practice passes on techniques, repertoire and performance conventions.",
+            "Manuscripts, costumes and craft objects preserve aspects of visual and literary culture alongside performance.",
+            "Documentation and respectful engagement with practitioners help students understand these as living traditions, not merely old objects detached from their communities."
+          ]
+        ],
+        [
+          4,
+          "Analyse a classroom mural using four principles of composition.",
+          [
+            "Balance: examine whether the arrangement feels stable, considering both the size and visual weight of different areas.",
+            "Emphasis: identify the main idea and check whether contrast or placement directs attention towards it.",
+            "Rhythm: notice repeated shapes or colours and how they guide the eye across the wall.",
+            "Unity: explain how subject, palette and spacing connect separate contributions. A mural can remain varied without becoming visually unrelated."
+          ]
+        ],
+        [
+          4,
+          "Discuss the relationship between aesthetic appreciation and conservation.",
+          [
+            "Careful looking helps students recognise features such as craftsmanship, proportion and surface detail that may otherwise be overlooked.",
+            "Learning a work’s context gives those features cultural significance and can encourage concern for its survival.",
+            "Appreciation must be translated into responsible behaviour: observe without marking, climbing or removing fragments.",
+            "Use sketches, permitted photographs and records to share knowledge. “Beautifying” a historic surface with new paint may destroy evidence rather than conserve it."
+          ]
+        ],
+        [
+          4,
+          "How would you organise a lesson about local craft without reducing it to decoration?",
+          [
+            "Begin with the object’s use, maker and materials, so pupils understand the problem it solves.",
+            "Observe the making process through a visit or demonstration and record the sequence and skill involved.",
+            "Discuss its design, cultural meanings and the conditions under which makers sell their work, avoiding stereotypes about craft labour.",
+            "Let pupils attempt a suitable simplified design and reflect on what was difficult. Credit the source tradition and distinguish their exercise from an authentic artisan product."
+          ]
+        ],
+        [
+          4,
+          "Explain why assessment in fine arts should allow more than one successful solution.",
+          [
+            "An open artistic problem, such as communicating a festival mood, can be solved through different compositions, colours and materials.",
+            "Assessment should therefore ask how effectively choices serve the learner’s idea rather than compare every work with one model.",
+            "Shared criteria can still include observation, purposeful use of materials, experimentation and explanation of decisions.",
+            "Examples of different successful responses make standards clearer without turning creative work into copying or abandoning careful evaluation."
+          ]
+        ],
+        [
+          5,
+          "Plan an inquiry into an Assamese manuscript painting for elementary learners.",
+          [
+            "Choose a clear, age-appropriate reproduction and identify its manuscript and source; explain that students are seeing a copy.",
+            "Begin with observation of figures, colours, borders and page arrangement before giving a complete interpretation.",
+            "Connect the image with a short account of the related text or episode, separating what is visible from information supplied by the source.",
+            "Discuss the prepared writing surface and the work of scribes and painters. For classroom experiments use modern suitable materials, not historic pigments of uncertain safety.",
+            "Invite children to illustrate a short story and explain their design. Compare how text and image communicate, without calling the new work an original historical manuscript."
+          ]
+        ],
+        [
+          5,
+          "Discuss how a teacher can develop critical visual literacy through contrasting images.",
+          [
+            "Choose two images of the same subject, such as a market photograph and an advertisement, and establish their sources and purposes.",
+            "Ask pupils to list visible details first, avoiding an immediate judgment about which image is “true”.",
+            "Compare framing, viewpoint, scale, colour and the people or activities included. These choices influence attention and interpretation.",
+            "Read captions and discuss missing information: an attractive photograph may not reveal working conditions, prices or the whole setting.",
+            "Have groups explain their conclusions with evidence and consider another reading. The aim is thoughtful interpretation, not automatic distrust of every image."
+          ]
+        ],
+        [
+          5,
+          "Explain how an art programme can support cultural understanding without stereotyping Assam’s communities.",
+          [
+            "Include varied examples from living practitioners and historical works, showing that Assam contains many artistic traditions.",
+            "Name the particular community, maker or place where evidence permits, instead of describing every work as representing all Assamese people.",
+            "Discuss purpose and context as well as appearance, recognising religious, domestic, expressive and commercial uses.",
+            "Invite learners to contribute voluntarily and avoid making one child speak for an entire community. Compare works without ranking cultures as superior or primitive.",
+            "Show adaptation and contemporary creativity alongside continuity. Assess respectful observation and evidence-based explanation rather than memorisation of a few costumes or motifs."
+          ]
+        ],
+        [
+          5,
+          "A school gives art time only to competition winners. Critically examine this practice.",
+          [
+            "Art education is an opportunity for all learners to explore materials, perception and expression; prior success should not be an entry requirement.",
+            "Selecting only winners narrows participation and can make beginners believe that artistic ability is fixed.",
+            "Competitive products may reward polish or outside help while overlooking experimentation, improvement and collaborative work.",
+            "Provide regular open-ended activities with accessible materials, individual choices and descriptive feedback for everyone. Exhibitions can show process and progress as well as finished work.",
+            "Optional competitions may coexist with this programme, but they should not determine who receives instruction or whose work is valued."
+          ]
+        ],
+        [
+          5,
+          "Propose an art-and-livelihood project centred on a local craftsperson.",
+          [
+            "Identify a willing craftsperson and agree on the visit’s purpose, time and arrangements, treating their expertise as skilled work.",
+            "Prepare questions about materials, techniques, design decisions, learning the craft and finding customers; avoid intrusive questions about private income.",
+            "Record observations and permitted photographs, noting the maker’s own explanation separately from pupils’ interpretations.",
+            "Create a class display with a process diagram, a credited account and an age-appropriate practical experiment. Explain the difference between pupils’ models and the maker’s products.",
+            "Discuss fair recognition and the challenges of sustaining a craft. Evaluate accurate documentation, respectful interaction and understanding of the link between aesthetics, use and livelihood."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-7-2022-1-a",
+          "question": "Name the Assamese poet who is known as “Bhangani Konwar”.",
+          "marks": 1,
+          "answer": [
+            "Ananda Chandra Agarwala."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2022-1-b",
+          "question": "Define Fine Arts.",
+          "marks": 1,
+          "answer": [
+            "Fine arts are arts pursued primarily for aesthetic and expressive purposes, such as painting and sculpture."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2022-1-c",
+          "question": "State the name of the director of the Assamese film “Piyali Phukan”.",
+          "marks": 1,
+          "answer": [
+            "Phani Sarma (also written Phani Sharma)."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2023-1",
+          "question": "Write the name of the Assamese poet known as “Pratimar Khanikar”.",
+          "marks": 1,
+          "answer": [
+            "Chandra Kumar Agarwala."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "1",
+              "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2023-2",
+          "question": "Which mask making artist has been honored with the Padma Shri award in the year 2023?",
+          "marks": 1,
+          "answer": [
+            "Hem Chandra Goswami, the mask-making artist from Assam."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2023-3",
+          "question": "Mention the name of the director of the Assamese film Indramalati.",
+          "marks": 1,
+          "answer": [
+            "Jyotiprasad Agarwala."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2024-1-b",
+          "question": "Mention the name of a medium of sculpture.",
+          "marks": 1,
+          "answer": [
+            "Clay."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2024-1-d",
+          "question": "Write the name of an illustrated manuscript written by Srimanta Sankardeva.",
+          "marks": 1,
+          "answer": [
+            "Chitra Bhagavata (Citra Bhagavata), an illustrated manuscript of the Bhagavata text composed in Assamese by Sankardeva. This identifies the author of the text, not necessarily the painter of its illustrations."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2025-1-a",
+          "question": "Write the name of one renowned Satriya dancer of Assam.",
+          "marks": 1,
+          "answer": [
+            "Jatin Goswami."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2025-1-b",
+          "question": "Write the name of a manuscript of painting of Assam.",
+          "marks": 1,
+          "answer": [
+            "Chitra Bhagavata is an example of Assam’s illustrated manuscript tradition."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2025-1-c",
+          "question": "Give an example of visual art.",
+          "marks": 1,
+          "answer": [
+            "Painting."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2022-1-d",
+          "question": "Differentiate between painting and sculpture.",
+          "marks": 2,
+          "answer": [
+            "Painting mainly organises pigments on a two-dimensional surface, although it may suggest depth through colour, shading or perspective.",
+            "Sculpture creates actual three-dimensional form by processes such as modelling, carving or assembling; even relief sculpture projects from a background."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2023-4",
+          "question": "Write in brief about the educational value of Fine Arts.",
+          "marks": 2,
+          "answer": [
+            "Fine arts develop careful observation, imagination and the ability to express ideas or feelings through visual choices.",
+            "Discussing and making art can also support aesthetic judgment, confidence and appreciation of different people’s expressions and cultural traditions."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2023-5",
+          "question": "Mention any two characteristics of the historical monuments of Assam.",
+          "marks": 2,
+          "answer": [
+            "They preserve varied forms of skilled construction and ornament, including brick architecture and carved stone, rather than one uniform style.",
+            "Their functions reflect cultural and political life: for example, Rang Ghar served as a royal pavilion, while temple remains preserve religious imagery and spaces."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2025-3",
+          "question": "Mention the names of two places of Assam where terracotta sculptures are found.",
+          "marks": 2,
+          "answer": [
+            "Asharikandi in Dhubri district, known for its living terracotta craft tradition.",
+            "Ambari in Guwahati, an archaeological site where terracotta human figurines have been found."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2022-2",
+          "question": "Establish with example the importance of art and creative education with any one of the curricular subjects in elementary level.",
+          "marks": 3,
+          "answer": [
+            "In mathematics, art can make shape and pattern relationships visible and open to manipulation, instead of leaving them only as verbal rules.",
+            "For example, pupils can design a border with paper triangles and squares, describe the repeating unit and predict the next shape.",
+            "The teacher assesses the mathematical pattern and asks pupils to explain artistic choices such as colour and spacing. The activity combines conceptual understanding, expression and active participation."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2024-3",
+          "question": "What is Art? Write the importance of Art in elementary level of the school education.",
+          "marks": 3,
+          "answer": [
+            "Art is creative expression through forms such as images, objects, music, movement and drama.",
+            "It gives children opportunities to observe carefully, imagine alternatives and communicate feelings or ideas beyond ordinary written answers.",
+            "Art activities can develop coordination, cooperation and cultural appreciation, while meaningful links with other subjects make concepts easier to explore."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2021-2",
+          "question": "What steps would you take as a teacher to achieve the aims of art and creative education in primary level? Discuss briefly.",
+          "marks": 4,
+          "answer": [
+            "Provide regular opportunities for drawing, music, movement, making and imaginative writing so all children can express ideas in different ways.",
+            "Use accessible local materials and open-ended tasks; demonstrate techniques without insisting that every child copy one finished model.",
+            "Connect activities with familiar experiences and other subjects, while giving children time to observe, experiment and discuss their choices.",
+            "Encourage cooperation and respect for different cultural forms. Assess participation, creative decisions and improvement through specific feedback rather than ranking only the most polished products."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2021/s1-7-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2021-3",
+          "question": "Discuss the characteristics of architectural art during the period of Ahom rule.",
+          "marks": 4,
+          "answer": [
+            "Ahom patronage produced different building types, including royal palaces, temples, ceremonial structures and burial monuments; their forms responded to different functions.",
+            "Surviving brick and masonry monuments show skilled construction and surface decoration. Arched openings and ornamental details occur in important royal buildings.",
+            "Rang Ghar illustrates a distinctive two-storeyed sports pavilion with an octagonal base and a roof recalling an inverted boat. Its form supported royal viewing of events.",
+            "Palaces such as Kareng Ghar and Talatal Ghar demonstrate planned rooms, levels and circulation. These examples should be studied individually rather than assuming that all Ahom monuments share one identical shape."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2021/s1-7-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2021-6",
+          "question": "What is Art? Discuss with examples how to integrate art with other curricular subjects.",
+          "marks": 5,
+          "answer": [
+            "Art is the creative expression and communication of ideas, feelings and experiences through forms such as images, objects, music, movement and drama.",
+            "Language: children can dramatise a story and illustrate its events, using dialogue and images to explore character and sequence.",
+            "Mathematics: making repeated border patterns or symmetrical paper designs helps learners examine repetition, shapes and reflection.",
+            "Environmental studies: observational leaf drawings can support comparison of plant features; the teacher checks scientific observations alongside artistic choices.",
+            "Social studies: a local craft or monument album can connect design with community life and history. Integration should serve both the subject concept and artistic exploration, rather than add an unrelated decoration."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2021/s1-7-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2023-8",
+          "question": "What is Art Integration? Describe the importance of integrating art and creative education with curricular subjects at elementary level.",
+          "marks": 5,
+          "answer": [
+            "Art integration is a teaching approach that uses artistic processes to explore curricular concepts while also developing artistic understanding and expression.",
+            "It makes ideas tangible: a shape collage can help pupils classify and compare geometric forms.",
+            "It creates more routes to understanding and communication. Drama, drawing or music can help children express ideas before they can explain them fully in writing.",
+            "It encourages active thought and cooperation when pupils plan a performance, discuss a design or revise a shared piece of work.",
+            "It connects learning with culture and familiar experience, such as studying local craft through environmental studies. Activities need clear subject and art objectives; decoration without conceptual connection is insufficient."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 2,
+              "questionNumber": "8",
+              "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Art and Creative Education I",
+          "url": "/curriculum-2024.pdf#page=34"
+        },
+        {
+          "label": "Subject study notes",
+          "url": "/detailed-notes/s1-7.html"
+        },
+        {
+          "label": "UNESCO — Ajanta Caves",
+          "url": "https://whc.unesco.org/en/list/242/"
+        },
+        {
+          "label": "ASI — Ellora Caves and their recorded history",
+          "url": "https://asi.nic.in/pages/WorldHeritageElloraCaves"
+        },
+        {
+          "label": "UNESCO — Khajuraho",
+          "url": "https://whc.unesco.org/en/list/240/"
+        },
+        {
+          "label": "NGMA — Jamini Roy",
+          "url": "https://www.ngmaindia.gov.in/virtual-tour-of-modern-art-1.asp"
+        },
+        {
+          "label": "NGMA — Nandalal Bose",
+          "url": "https://ngmaindia.gov.in/virtual-tour-of-nandalal-bose.asp"
+        },
+        {
+          "label": "NGMA — Abanindranath Tagore",
+          "url": "https://www.ngmaindia.gov.in/virtual-tour-of-abanindranath-tagore.asp"
+        },
+        {
+          "label": "Assam — protected heritage sites",
+          "url": "https://culturalaffairs.assam.gov.in/portlet-innerpage/protected-archaeological-sites-and-monuments"
+        },
+        {
+          "label": "MoMA — Picasso and Braque, collage history",
+          "url": "https://assets.moma.org/documents/moma_press-release_327550.pdf"
+        },
+        {
+          "label": "Incredible India — Kandariya Mahadeva",
+          "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/khajuraho/kandariya-mahadev-temple-khajuraho"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is provenance in documenting an artwork?",
+          [
+            "Provenance is the recorded history of an artwork’s ownership and custody."
+          ]
+        ],
+        [
+          1,
+          "Which Indian artist is associated with the Haripura posters?",
+          [
+            "Nandalal Bose."
+          ]
+        ],
+        [
+          1,
+          "Name the artist of Bharat Mata, painted in 1905.",
+          [
+            "Abanindranath Tagore."
+          ]
+        ],
+        [
+          1,
+          "Which artist is associated with a folk-inspired style using bold outlines and flat colour?",
+          [
+            "Jamini Roy."
+          ]
+        ],
+        [
+          1,
+          "What is a monolithic monument?",
+          [
+            "It is a monument carved from a single mass of rock."
+          ]
+        ],
+        [
+          1,
+          "Which Assam town is associated with the Da-Parbatia doorframe?",
+          [
+            "Tezpur."
+          ]
+        ],
+        [
+          1,
+          "Name the two river goddesses represented on the Da-Parbatia doorframe.",
+          [
+            "Ganga and Yamuna."
+          ]
+        ],
+        [
+          1,
+          "Near which town is the Madan Kamdev archaeological site?",
+          [
+            "Baihata Chariali in Assam."
+          ]
+        ],
+        [
+          1,
+          "What is a mural?",
+          [
+            "A mural is a painting made on or for a wall or another large architectural surface."
+          ]
+        ],
+        [
+          1,
+          "What does an accession number identify in a museum?",
+          [
+            "It identifies an object entered into the museum’s collection records."
+          ]
+        ],
+        [
+          2,
+          "Why should a monument album distinguish an observation from an interpretation?",
+          [
+            "An observation records visible evidence, such as a carved lotus on a doorway.",
+            "An interpretation explains its possible meaning; keeping the two separate makes clear what needs historical support."
+          ]
+        ],
+        [
+          2,
+          "State two features to record when documenting a sculpture.",
+          [
+            "Record its material and approximate dimensions, using a reliable label or permitted measurement.",
+            "Describe its subject, pose and surface treatment, noting damage or missing parts without inventing their original appearance."
+          ]
+        ],
+        [
+          2,
+          "Distinguish a relief sculpture from a sculpture in the round.",
+          [
+            "A relief remains attached to a background and projects from it.",
+            "A sculpture in the round is three-dimensional and can generally be viewed from different sides."
+          ]
+        ],
+        [
+          2,
+          "How did prints help extend the audience for Raja Ravi Varma’s imagery?",
+          [
+            "Reproduction allowed images based on paintings to circulate in multiple copies rather than remain in a single collection.",
+            "More households could encounter the imagery through prints, although a print is not the same physical work as the original painting."
+          ]
+        ],
+        [
+          2,
+          "Why is an artist’s nationality insufficient to explain a painting?",
+          [
+            "Artists from the same country may use very different subjects, techniques and purposes.",
+            "A sound account examines the particular work and its context rather than assigning one national style to every artist."
+          ]
+        ],
+        [
+          2,
+          "How can a detail sketch complement a photograph in a monument record?",
+          [
+            "A sketch can isolate a motif or structural relationship that is difficult to see in a wide photograph.",
+            "The photograph preserves broader visual evidence; using both helps readers locate the detail within the whole monument."
+          ]
+        ],
+        [
+          2,
+          "Why should pupils record the date and source of a heritage photograph?",
+          [
+            "The date helps establish which condition or stage of repair the image shows.",
+            "The source credits its creator and lets readers check whether the image actually represents the named monument."
+          ]
+        ],
+        [
+          2,
+          "What is the difference between restoration and an artist’s reconstruction drawing?",
+          [
+            "Restoration is an intervention on an existing object or structure to conserve or recover aspects of it under appropriate expertise.",
+            "A reconstruction drawing proposes how something may once have looked; it should identify uncertain features and does not physically restore the site."
+          ]
+        ],
+        [
+          2,
+          "Why should Ajanta and Ellora not be treated as interchangeable names?",
+          [
+            "They are separate cave complexes with different histories and distinctive works.",
+            "Ajanta is especially known for Buddhist murals, while Ellora includes Buddhist, Hindu and Jain monuments and the rock-cut Kailasa temple."
+          ]
+        ],
+        [
+          2,
+          "How can a museum reproduction be used honestly in a classroom display?",
+          [
+            "Label it as a reproduction, giving the artist, work and source when known.",
+            "Explain changes such as reduced scale or altered colour, so viewers do not mistake the classroom copy for the original object."
+          ]
+        ],
+        [
+          3,
+          "Describe three features of a useful artist profile for a school album.",
+          [
+            "Identify the artist and historical context with verified biographical details, avoiding unnecessary lists of dates.",
+            "Discuss at least one named work through its visible techniques and subject rather than unsupported praise.",
+            "Add a credited image or reference and explain what learners can investigate through the work, such as pattern, narrative or viewpoint."
+          ]
+        ],
+        [
+          3,
+          "How can Jamini Roy’s work introduce the relationship between folk traditions and modern art?",
+          [
+            "His simplified figures, emphatic outlines and flat areas of colour offer visible points for close observation.",
+            "These features can be discussed alongside the Bengali folk and craft traditions that informed his work.",
+            "Pupils can then experiment with simplifying a familiar subject, recognising that his work creatively reinterprets traditions rather than merely copying them."
+          ]
+        ],
+        [
+          3,
+          "Explain the educational value of studying Nandalal Bose’s Haripura posters.",
+          [
+            "Their subjects bring attention to ordinary occupations and everyday life as worthy themes in art.",
+            "Students can examine economical shapes and lines that make actions and tools recognisable.",
+            "A related task can document local work through original observation, linking artistic decisions with respect for different kinds of labour."
+          ]
+        ],
+        [
+          3,
+          "What should a pupil record about the Da-Parbatia doorframe?",
+          [
+            "Record the site near Tezpur and identify the surviving doorway as an architectural fragment rather than a complete temple.",
+            "Describe the carved figures and decorative motifs, including the river goddesses Ganga and Yamuna.",
+            "Use a trustworthy heritage source for its dating and context, keeping those facts distinct from details observed in a photograph or visit."
+          ]
+        ],
+        [
+          3,
+          "Explain why the ruined condition of Madan Kamdev matters when preparing an album.",
+          [
+            "Surviving temple remains and sculptures provide evidence, but they do not show every part of the original buildings.",
+            "Record the location of visible fragments and their carving without presenting an imagined complete temple as fact.",
+            "Use archaeological descriptions to explain context and mark uncertain reconstructions clearly, making the limits of evidence part of the learning."
+          ]
+        ],
+        [
+          3,
+          "How would you compare two paintings without relying only on liking or disliking them?",
+          [
+            "Describe a shared aspect, such as the treatment of figures, colour or space, in each work.",
+            "Support the comparison with visible details, for example flat outlined shapes versus gradual tonal modelling.",
+            "Relate those choices to different expressive purposes, while separating a personal preference from an evidence-based judgment."
+          ]
+        ],
+        [
+          3,
+          "Explain three responsible practices during a school visit to a heritage site.",
+          [
+            "Observe from permitted routes and avoid touching fragile carvings, climbing structures or removing objects.",
+            "Follow the site’s rules on photographs and make quiet sketches or written notes without obstructing other visitors.",
+            "Record labels and sources accurately and discuss any uncertainty with the guide instead of writing guesses as historical facts."
+          ]
+        ],
+        [
+          3,
+          "How can children investigate the difference between painting and architectural space?",
+          [
+            "Study how a painting suggests depth on a surface through overlap or shading.",
+            "Compare this with a building or model that physically encloses spaces and can be viewed or entered from different directions.",
+            "Ask learners to draw the model from two viewpoints, linking a two-dimensional representation with an actual three-dimensional form."
+          ]
+        ],
+        [
+          3,
+          "Suggest a way to document an artist’s process rather than only a finished work.",
+          [
+            "Collect permitted evidence such as sketches, studies, photographs of stages or the artist’s own account.",
+            "Arrange the evidence in sequence and note decisions about materials, composition or revision.",
+            "Explain what the record supports and what remains unknown; do not invent the artist’s thoughts from the finished picture alone."
+          ]
+        ],
+        [
+          3,
+          "Why is the term contemporary unsuitable as a blanket label for every artist in a historical album?",
+          [
+            "Contemporary usually refers to art of the present or relatively recent period, not simply art that is admired today.",
+            "Historical artists such as Leonardo da Vinci belong to earlier contexts even when their work still influences viewers.",
+            "Use clear period labels and dates from sources, while discussing continuing relevance separately from when a work was made."
+          ]
+        ],
+        [
+          4,
+          "Compare Ajanta and Khajuraho as resources for learning about art and architecture.",
+          [
+            "Ajanta consists of rock-cut Buddhist caves, with paintings and sculptures integrated into their interiors.",
+            "Khajuraho is known for structural temples and extensive sculptural decoration, rather than a series of painted cave monasteries.",
+            "Ajanta supports study of mural narrative and interior space; Khajuraho supports study of temple forms, carved figures and relationships between sculpture and architecture.",
+            "Use specific documented examples and historical context. Similar themes or beautiful carvings do not make the sites products of the same period or tradition."
+          ]
+        ],
+        [
+          4,
+          "Explain how to build a balanced comparison of an Indian and a Western artist.",
+          [
+            "Select particular works and establish their artists, dates and contexts from collection records.",
+            "Compare the same visible aspects in both, such as colour, figure treatment, material and composition.",
+            "Discuss differences in purpose and influences without reducing either work to a stereotype about an entire country.",
+            "Conclude with what each approach makes possible. A classroom experiment can explore one technique from each while clearly crediting the sources."
+          ]
+        ],
+        [
+          4,
+          "Design an album entry for a heritage monument that includes evidence and uncertainty.",
+          [
+            "Begin with the verified name, location and a credited overview image so the monument is identifiable.",
+            "Describe materials, plan and notable artistic details, adding a labelled sketch where it clarifies an observation.",
+            "Give historical information with its source; distinguish an inscription or archaeological report from a local story.",
+            "End with the present condition and unanswered questions. Label reconstructed or missing portions instead of completing them imaginatively without notice."
+          ]
+        ],
+        [
+          4,
+          "A student attributes every colourful painting to Van Gogh. How would you correct the method?",
+          [
+            "Explain that colour alone cannot identify an artist, because many artists use bright palettes.",
+            "Ask the student to locate a museum catalogue or reliable collection record for the particular image.",
+            "Compare the record’s title, date, medium and image with the supplied reproduction, checking for mislabelling.",
+            "Use visible brushwork and composition to discuss the verified work afterwards; stylistic resemblance can suggest a question but is not proof of authorship."
+          ]
+        ],
+        [
+          4,
+          "How can documentation contribute to protecting local heritage?",
+          [
+            "Dated photographs, sketches and descriptions create a record of visible condition that can support later comparison.",
+            "Accurate accounts make the site’s artistic and historical significance understandable to local learners.",
+            "Sharing records with appropriate custodians can draw attention to damage, while students avoid attempting repairs themselves.",
+            "Documentation should credit community knowledge and follow site rules; publicity or handling that harms a fragile object defeats the purpose of preservation."
+          ]
+        ],
+        [
+          5,
+          "Plan a comparative documentation project on the five monuments named in this unit.",
+          [
+            "Allocate Ajanta, Ellora, Khajuraho, Madan Kamdev and Da-Parbatia to groups, using a shared recording format and authoritative sources.",
+            "For each site, record location, broad historical context, material or construction method and one distinctive artistic feature.",
+            "Use credited images and labelled sketches to show differences: murals, rock-cut spaces, structural temples and surviving carved fragments should not be confused.",
+            "Combine the entries into a comparison chart and ask how function, material and setting influence the art. Do not present uncertain dates as exact facts.",
+            "Assess accuracy, clarity and source use, including explicit gaps. End with responsible conservation practices rather than encouraging pupils to collect physical fragments."
+          ]
+        ],
+        [
+          5,
+          "Discuss how studying artists can support children’s own expression rather than imitation.",
+          [
+            "Introduce a small number of contrasting works and ask learners to observe choices of line, colour, material and subject.",
+            "Explain relevant context and name the artists, but avoid presenting any one style as the only correct way to draw.",
+            "Set an open problem, such as expressing movement, and let learners choose which observed technique might help their own idea.",
+            "Invite explanation of what they adapted and what they changed. Credit inspiration without labelling the new work as an authentic work of the studied artist.",
+            "Evaluate purposeful experimentation and reflection as well as the final image, allowing different solutions and accessible materials."
+          ]
+        ],
+        [
+          5,
+          "Explain a source-checking procedure for an online monument album.",
+          [
+            "Identify the claim to be checked, such as a builder, date or the name of a carved figure, before searching for an answer.",
+            "Prefer an archaeological authority, museum record or scholarly source that discusses the specific monument; a copied caption is not independent evidence.",
+            "Match the image with the stated site and inspect whether it is a photograph, reconstruction or unrelated illustration.",
+            "Compare conflicting claims and record the source of each. Where evidence remains uncertain, use a qualified statement or leave the claim unresolved.",
+            "Keep a reference list with page or object details and review the final captions. This makes corrections possible and separates documented history from attractive but unsupported stories."
+          ]
+        ],
+        [
+          5,
+          "How would you prepare pupils for a museum visit and use their records afterwards?",
+          [
+            "Before the visit, introduce a manageable question, such as how artists represent people at work, and explain museum behaviour.",
+            "Give a short recording sheet for the work’s title, artist if known, material and two observed details, rather than a long copying exercise.",
+            "At the museum, allow time for close looking and sketching where permitted, with accessible alternatives for pupils who need them.",
+            "Back in class, compare the records, check missing details against collection information and discuss differences in observation.",
+            "Create a credited class display and an original response activity. Assess evidence and interpretation separately, keeping unknown facts marked as unknown."
+          ]
+        ],
+        [
+          5,
+          "Evaluate an album that contains beautiful pictures but no labels, references or observations.",
+          [
+            "Its images may attract attention, but viewers cannot reliably identify the works, their makers or their context.",
+            "Missing sources prevent checking dates, ownership and whether the pictures show originals or reproductions.",
+            "Without observations, the album gives little evidence that its maker examined materials, composition or artistic features.",
+            "Improve each entry with a verified caption, credited source and short description of visible evidence, then add a reasoned interpretation.",
+            "Retain the visual appeal through readable layout and selective images. A strong documentation project combines presentation with accurate, traceable learning rather than decoration alone."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-7-2024-1-a",
+          "question": "Who was the inventor of collage painting?",
+          "marks": 1,
+          "answer": [
+            "Pablo Picasso is conventionally credited in modern painting, notably for Still Life with Chair Caning (1912). Georges Braque also pioneered Cubist collage; pasted-material practices have a longer history."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2025-1-d",
+          "question": "Who built the Kandariya Mahadev Temple?",
+          "marks": 1,
+          "answer": [
+            "The Chandela king Vidyadhara is generally credited with commissioning the Kandariya Mahadeva Temple at Khajuraho."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2025-2",
+          "question": "Where is the Ellora Cave situated? Who discovered it?",
+          "marks": 2,
+          "answer": [
+            "Ellora is near Chhatrapati Sambhajinagar (formerly Aurangabad) in Maharashtra.",
+            "There is no single accepted modern discoverer: the Archaeological Survey of India records that Ellora remained known and was visited over centuries. The question’s discovery premise is misleading; it should not be answered by transferring the Ajanta discovery story to Ellora."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-7-2025-4",
+          "question": "What is Cave Painting? Mention a famous painting of Ajanta Cave.",
+          "marks": 2,
+          "answer": [
+            "Cave painting is painting made on the walls or ceilings of a cave.",
+            "The Bodhisattva Padmapani painting in Ajanta Cave 1 is a famous example."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

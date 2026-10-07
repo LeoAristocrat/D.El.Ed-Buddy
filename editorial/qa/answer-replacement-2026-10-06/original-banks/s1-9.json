@@ -1,0 +1,2419 @@
+{
+  "course": "s1-9",
+  "units": [
+    {
+      "unit": 1,
+      "sources": [
+        {
+          "label": "Syllabus: Work and Education",
+          "url": "/curriculum-2024.pdf#page=42"
+        },
+        {
+          "label": "Detailed notes",
+          "url": "/detailed-notes/s1-9.html"
+        },
+        {
+          "label": "NCERT: work experience and vocational education",
+          "url": "https://www.ncert.nic.in/division/der/pdf/Poonam.pdf"
+        },
+        {
+          "label": "UNESCO: four pillars of learning",
+          "url": "https://www.unesco.org/en/futures-education/visions-education"
+        },
+        {
+          "label": "Ministry of Education: bagless learning",
+          "url": "https://dsel.education.gov.in/sites/default/files/update/PIB2042313.pdf"
+        }
+      ],
+      "pyqs": [
+        {
+          "id": "s1-9-2021-1-a",
+          "question": "Write one objective of Work Education.",
+          "marks": 1,
+          "answer": [
+            "To develop respect for useful work and the people who perform it."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2021-1-b",
+          "question": "Mention the four pillars of education.",
+          "marks": 1,
+          "answer": [
+            "Learning to know, learning to do, learning to live together and learning to be."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2021-1-c",
+          "question": "Write one difference between work education and vocational education.",
+          "marks": 1,
+          "answer": [
+            "Work education uses practical work for broad educational development, while vocational education focuses more specifically on knowledge and skills related to occupations."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2022-1-a",
+          "question": "What is work in work education?",
+          "marks": 1,
+          "answer": [
+            "Work is purposeful practical activity used as a medium for developing knowledge, skills and values, often through making useful things or providing a useful service."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2022-1-c",
+          "question": "What is bagless day?",
+          "marks": 1,
+          "answer": [
+            "A bagless day is a planned day of experiential learning beyond routine textbook lessons, such as supervised craft or vocational exposure; it is not simply a holiday."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2022-1-d",
+          "question": "Mention one objective of vocational education.",
+          "marks": 1,
+          "answer": [
+            "To develop knowledge and practical skills relevant to an occupational field."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2023-1-d",
+          "question": "Define Vocational Education.",
+          "marks": 1,
+          "answer": [
+            "Vocational education develops knowledge, skills and attitudes related to occupational fields and preparation for working life."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2025-7-a",
+          "question": "Write a short note: NEP 2020 and work education.",
+          "marks": 1.5,
+          "answer": [
+            "NEP 2020 promotes experiential and vocational exposure, including a 10-day bagless period during Grades 6–8 with opportunities to learn from local experts. It seeks to connect learning with practical skills and respect for different kinds of work."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "7(a)",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2025-7-b",
+          "question": "Write a short note: View of Mahatma Gandhi regarding work education.",
+          "marks": 1.5,
+          "answer": [
+            "Gandhi saw meaningful productive work as a medium of education. Through craft-centred learning, intellectual development could be joined with practical skill, self-reliance, cooperation and dignity of labour."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "7(b)",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2025-7-c",
+          "question": "Write a short note: Differences between work education and vocational education.",
+          "marks": 1.5,
+          "answer": [
+            "Work education uses practical activity for broad educational development, including everyday skills and values. Vocational education focuses more specifically on preparation for occupational fields. Both can combine knowledge, practical competence and responsible attitudes."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "7(c)",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2021-6-a",
+          "question": "Write a short note: Kothari Commission and Work Education.",
+          "marks": 2,
+          "answer": [
+            "The Kothari Commission (1964–66) recommended work experience as an integral part of general education.",
+            "It sought to connect education with productive activity and everyday life, helping learners combine understanding with practical participation."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "6(a)",
+              "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2022-6-b",
+          "question": "Write a short note: Mahatma Gandhi and work education.",
+          "marks": 2,
+          "answer": [
+            "Gandhi's basic education placed meaningful productive craft at the centre of learning, connecting practical activity with intellectual development.",
+            "It also emphasised self-reliance, cooperation and dignity of labour rather than treating manual work as inferior."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "6(b)",
+              "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2022-6-c",
+          "question": "Write a short note: Four pillars of education.",
+          "marks": 2,
+          "answer": [
+            "The four pillars are learning to know (understanding), learning to do (practical competence), learning to live together (cooperation) and learning to be (personal development).",
+            "Work education can connect them through a shared practical task that requires investigation, skilled action, collaboration and responsibility."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "6(c)",
+              "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2023-6-a",
+          "question": "Write a short note: Mahatma Gandhi and Work Education.",
+          "marks": 3,
+          "answer": [
+            "Gandhi's Nai Talim used productive craft as a central medium of basic education.",
+            "School subjects could be connected with the craft, allowing learners to join thought with practical work.",
+            "The broader aims included self-reliance, cooperative living and respect for labour, not merely learning to manufacture an object."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 2,
+              "questionNumber": "6(a)",
+              "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What makes a work activity educational?",
+          [
+            "It has a planned learning purpose and connects practical action with understanding, skills or values."
+          ]
+        ],
+        [
+          1,
+          "Define dignity of labour.",
+          [
+            "Dignity of labour means respecting useful work and the people who perform it, regardless of its social status or whether it is manual."
+          ]
+        ],
+        [
+          1,
+          "What is learning by doing?",
+          [
+            "Learning by doing develops understanding through purposeful activity and reflection on the experience."
+          ]
+        ],
+        [
+          1,
+          "What is self-reliance in work education?",
+          [
+            "Self-reliance is the growing ability to perform suitable tasks responsibly and seek help appropriately when needed."
+          ]
+        ],
+        [
+          1,
+          "What is craft-centred learning?",
+          [
+            "Craft-centred learning uses a meaningful craft activity as a basis for connecting practical work with knowledge and values."
+          ]
+        ],
+        [
+          1,
+          "Name the thinker associated with Nai Talim.",
+          [
+            "Mahatma Gandhi."
+          ]
+        ],
+        [
+          1,
+          "Name the educational work associated with Rousseau's discussion of education through experience.",
+          [
+            "Émile, or On Education."
+          ]
+        ],
+        [
+          1,
+          "What is vocational exposure?",
+          [
+            "Vocational exposure introduces learners to different kinds of work and skills so they can understand possible occupations."
+          ]
+        ],
+        [
+          1,
+          "What does SUPW stand for?",
+          [
+            "Socially Useful Productive Work."
+          ]
+        ],
+        [
+          1,
+          "Which pillar of education emphasises cooperation with others?",
+          [
+            "Learning to live together."
+          ]
+        ],
+        [
+          2,
+          "State two educational benefits of making a useful classroom object.",
+          [
+            "Planning and making the object connects ideas such as measurement with practical decisions.",
+            "Using and reviewing it develops responsibility for the quality and usefulness of one's work."
+          ]
+        ],
+        [
+          2,
+          "Distinguish work education from using work as punishment.",
+          [
+            "Work education is planned for learning and shared fairly, with safe, age-appropriate participation.",
+            "Punitive work is imposed to cause discomfort or shame; it undermines respect for the task and for those who do it."
+          ]
+        ],
+        [
+          2,
+          "How can work education challenge gender stereotypes?",
+          [
+            "Offer all learners access to different tasks, such as gardening, stitching and organising materials, without assigning them by gender.",
+            "Discuss the skills required and recognise everyone's contribution rather than describing work as naturally belonging to boys or girls."
+          ]
+        ],
+        [
+          2,
+          "Explain the connection between practical activity and understanding.",
+          [
+            "Practical activity gives learners concrete evidence to examine, such as how a folded paper shape changes.",
+            "Discussion and reflection connect what happened with an idea, so doing an activity is followed by understanding it."
+          ]
+        ],
+        [
+          2,
+          "Give two reasons to include local occupations in school learning.",
+          [
+            "Local occupations provide familiar examples of how knowledge and skills are used outside school.",
+            "Meeting workers respectfully can broaden learners' understanding of community contributions and possible future interests."
+          ]
+        ],
+        [
+          2,
+          "Why is the finished product not the only purpose of work education?",
+          [
+            "Learners also develop planning, cooperation, safe working habits and problem-solving during the process.",
+            "An imperfect product can still show meaningful learning, while an adult-made product may reveal little about the learner's own development."
+          ]
+        ],
+        [
+          2,
+          "How does a work activity support learning to know?",
+          [
+            "Learners investigate the materials and ideas involved, such as what seeds need to germinate.",
+            "They use observations and explanations to understand the activity instead of merely following instructions."
+          ]
+        ],
+        [
+          2,
+          "How does a work activity support learning to do?",
+          [
+            "It gives learners guided opportunities to practise a practical skill, such as measuring and folding paper accurately.",
+            "Feedback and repeated attempts help them apply knowledge more effectively in a real task."
+          ]
+        ],
+        [
+          2,
+          "Explain learning to be through one work-education example.",
+          [
+            "Learning to be concerns personal development, judgement and responsibility.",
+            "A learner who plans, completes and reviews a manageable task can develop independence and confidence while recognising when help is needed."
+          ]
+        ],
+        [
+          2,
+          "Why should introductory vocational experiences remain broad?",
+          [
+            "Broad experiences let learners explore different interests and recognise many forms of skilled work.",
+            "They avoid confining a child prematurely to an occupation because of family background, gender or an adult's assumption."
+          ]
+        ],
+        [
+          3,
+          "Explain three objectives of work education beyond earning money.",
+          [
+            "Connect school knowledge with practical situations so learning becomes meaningful.",
+            "Develop useful skills and responsible habits through supervised activity.",
+            "Build cooperation and respect for workers by recognising the effort and expertise involved in different tasks."
+          ]
+        ],
+        [
+          3,
+          "A lesson only asks learners to copy the names of craft tools. Suggest three changes inspired by craft-centred learning.",
+          [
+            "Begin with a suitable useful task and introduce tools through their actual purpose rather than a list alone.",
+            "Connect the supervised activity with ideas such as measurement and material properties, asking learners to explain their choices.",
+            "Reflect on cooperation, resource use and the value of the work, joining practical activity with understanding and responsibility."
+          ]
+        ],
+        [
+          3,
+          "Describe three learning opportunities in observing a local craftsperson.",
+          [
+            "Learners can identify the materials and stages of production and ask why a method is used.",
+            "They can connect the work with classroom ideas such as shape, measurement or material properties.",
+            "They can recognise the craftsperson's expertise and reflect on how the work contributes to community life."
+          ]
+        ],
+        [
+          3,
+          "How is purposeful work different from mechanical repetition?",
+          [
+            "Purposeful work has a learning goal understood by the learners.",
+            "It requires attention to decisions and results, rather than repeating a movement without understanding.",
+            "Reflection allows learners to explain difficulties and improve their approach, turning experience into learning."
+          ]
+        ],
+        [
+          3,
+          "State three conditions for selecting an educational work activity.",
+          [
+            "It should fit a clear learning goal and be suitable for the learners' age and needs.",
+            "Materials, tools and supervision must make participation safe and accessible.",
+            "The activity should offer meaningful involvement and reflection rather than leaving most learners watching one person work."
+          ]
+        ],
+        [
+          3,
+          "Explain how vocational education can support informed career choices.",
+          [
+            "It introduces the knowledge and skills used in occupational fields.",
+            "Practical experience helps learners recognise interests and areas in which they need further training.",
+            "Information about qualifications and working conditions helps them consider choices realistically rather than relying on stereotypes."
+          ]
+        ],
+        [
+          3,
+          "A school reserves practical work only for pupils labelled weak in studies. Critique this arrangement in light of work experience as part of general education.",
+          [
+            "Work experience was recommended as an integral part of general education, so restricting it to a labelled group misses its broad educational purpose.",
+            "The arrangement can reinforce an unfair divide between intellectual and practical ability and stigmatise manual work.",
+            "Provide meaningful, accessible work experiences for all learners and connect them with classroom understanding, adapting support rather than excluding pupils."
+          ]
+        ],
+        [
+          3,
+          "How can a school connect a bagless activity with learning?",
+          [
+            "Set a learning purpose before the activity, such as understanding how a potter selects and shapes material.",
+            "Arrange safe observation, questions and appropriate hands-on participation with supervision.",
+            "Afterwards, help learners discuss or record what they learned and connect it with classroom concepts."
+          ]
+        ],
+        [
+          3,
+          "Explain the place of experience in Rousseau's educational thinking.",
+          [
+            "Rousseau criticised relying only on verbal instruction and book knowledge.",
+            "He emphasised learning through experience and engagement with the environment, taking the child's development into account.",
+            "Practical work can therefore be read as a means of developing understanding and independence, rather than simply preparing a product."
+          ]
+        ],
+        [
+          3,
+          "Why should work education be available to every learner?",
+          [
+            "Practical understanding and everyday responsibilities are useful to all learners.",
+            "Shared participation challenges the belief that manual work belongs only to particular social groups.",
+            "Adapted tasks allow learners with different abilities to contribute and develop skills rather than being excluded or labelled."
+          ]
+        ],
+        [
+          4,
+          "Illustrate the four pillars of learning through a school gardening activity.",
+          [
+            "Learning to know: investigate the conditions plants need and explain observations.",
+            "Learning to do: practise suitable tasks such as measuring spacing and watering carefully.",
+            "Learning to live together: share responsibilities, listen to suggestions and solve group disagreements.",
+            "Learning to be: develop responsibility and judgement by caring for plants and reviewing one's own contribution."
+          ]
+        ],
+        [
+          4,
+          "Compare work education and vocational education without treating either as inferior.",
+          [
+            "Work education uses purposeful work for broad learning, practical habits and values within education.",
+            "Vocational education gives more focused preparation in knowledge and skills related to occupational areas.",
+            "Their emphasis differs, but both can combine understanding, practical ability and responsible attitudes.",
+            "A general gardening project may develop cooperation and observation, while vocational horticultural study develops more specialised competence. Neither should be assigned on the assumption that some learners are unfit for academic learning."
+          ]
+        ],
+        [
+          4,
+          "Explain how a paper-making activity could become craft-centred learning.",
+          [
+            "Begin with a useful purpose, such as making a small notebook, and discuss suitable materials.",
+            "Connect preparation with measurement, counting and estimation of paper use.",
+            "During making, ask learners to explain choices and solve practical problems with guidance.",
+            "Review the notebook's usefulness, resource use and cooperation. These links make the craft a means of learning rather than an isolated decorative exercise."
+          ]
+        ],
+        [
+          4,
+          "Explain four ways to promote dignity of labour at school.",
+          [
+            "Speak respectfully about all workers and recognise the skill and effort in their work.",
+            "Share suitable classroom responsibilities fairly rather than allocating them by caste, gender or status.",
+            "Invite community workers to explain their expertise and encourage thoughtful questions.",
+            "Ensure activities are safe and educational, never humiliating or substitutes for hazardous adult work. Respect for labour must include respect for the person doing it."
+          ]
+        ],
+        [
+          4,
+          "Identify four weaknesses in a work programme based only on copying a model.",
+          [
+            "Learners may follow steps without understanding why the method works.",
+            "Identical outcomes can discourage creativity and adaptation to local needs.",
+            "A focus on neatness can hide differences in effort, cooperation and independent learning.",
+            "Without discussion or review, errors may be corrected mechanically rather than used for problem-solving. Add choices, explanations and reflection to improve the programme."
+          ]
+        ],
+        [
+          5,
+          "Design a school work-education programme grounded in meaningful learning.",
+          [
+            "Identify relevant needs and learning goals with learners and staff, such as organising a class library.",
+            "Choose safe, accessible tasks that link knowledge with practical action and offer different ways to contribute.",
+            "Plan materials, time, supervision and responsibilities, inviting suitable community expertise where useful.",
+            "Provide demonstrations, guided practice and opportunities for learners to make and explain decisions.",
+            "Assess understanding, skills, cooperation and the result through observation and reflection. Use the findings to improve the next activity, keeping learning rather than output alone at the centre."
+          ]
+        ],
+        [
+          5,
+          "Discuss how work education can connect school, home and community.",
+          [
+            "Select tasks connected with familiar needs, such as caring for plants, maintaining books or reducing material waste.",
+            "Invite learners to share relevant home experiences without assuming all families have the same resources or occupations.",
+            "Involve willing community members as knowledge partners and recognise their expertise respectfully.",
+            "Connect practical experiences with classroom ideas through discussion, measurement, records and explanation.",
+            "Review what learners can apply in safe everyday situations and seek feedback from participants. Community involvement should support learning without placing compulsory financial or labour demands on families."
+          ]
+        ],
+        [
+          5,
+          "Explain why education should connect intellectual and practical work.",
+          [
+            "Practical situations give ideas a concrete purpose, such as using measurement to make an object fit.",
+            "Planning and troubleshooting require reasoning, showing that manual work also involves thought.",
+            "Testing an idea against a result reveals misunderstandings and creates opportunities to revise explanations.",
+            "Combining discussion with action develops communication, cooperation and responsibility alongside practical skill.",
+            "It also challenges status divisions between forms of knowledge. A balanced education values understanding and skilled action without reducing learners to either academic or manual categories."
+          ]
+        ],
+        [
+          5,
+          "Plan an inclusive vocational-exposure visit.",
+          [
+            "Choose a suitable workplace or demonstration that supports a clear learning goal and can accommodate all learners.",
+            "Discuss access, consent, supervision and safe boundaries with the host; learners should not enter hazardous work areas.",
+            "Prepare accessible questions about materials, skills and the worker's contribution, avoiding assumptions based on gender or background.",
+            "During the visit, provide meaningful observation and suitable participation, with alternatives where direct handling is not appropriate.",
+            "Follow up through discussion or a record of learning, linking the experience to school subjects and future interests. Evaluate participation as well as factual recall."
+          ]
+        ],
+        [
+          5,
+          "Evaluate the statement: 'Work education is only a break from academic subjects.'",
+          [
+            "The statement overlooks work education's planned learning goals and its place in a balanced curriculum.",
+            "Activities can apply concepts from mathematics, science and language to meaningful tasks.",
+            "They also develop practical skill, cooperation, responsibility and respect for labour, which a break alone does not necessarily teach.",
+            "However, an unplanned activity without explanation or reflection may have limited educational value; merely keeping learners busy is insufficient.",
+            "A strong programme therefore connects action with inquiry and review. Enjoyment is welcome, but the learning purpose distinguishes work education from time away from study."
+          ]
+        ]
+      ]
+    },
+    {
+      "unit": 2,
+      "sources": [
+        {
+          "label": "Syllabus: behavioural changes",
+          "url": "/curriculum-2024.pdf#page=42"
+        },
+        {
+          "label": "Detailed notes",
+          "url": "/detailed-notes/s1-9.html"
+        }
+      ],
+      "pyqs": [
+        {
+          "id": "s1-9-2021-2",
+          "question": "Mention four activities of work education which helps in skill development of the learner.",
+          "marks": 2,
+          "answer": [
+            "Paper folding, clay modelling, supervised gardening and simple book-cover making."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2021-6-c",
+          "question": "Write a short note: Population Education and removal of evil customs from the society.",
+          "marks": 2,
+          "answer": [
+            "Population education helps learners examine relationships between people, resources, well-being and responsible social choices.",
+            "It can challenge harmful customs through informed discussion of equality, education and dignity, rather than blaming particular communities. School activities can build critical thinking and respectful communication that support social awareness."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "6(c)",
+              "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2023-3",
+          "question": "What do you understand by behavioural change of learner? Write with example.",
+          "marks": 2,
+          "answer": [
+            "Behavioural change is a development in a learner's actions, understanding or attitudes through learning and experience.",
+            "For example, after guided group work, a learner who previously kept shared tools may begin to offer turns and return them responsibly, showing growth in cooperation and care."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2024-5-a",
+          "question": "Write a short note: Behavioural changes in learners through work education activities.",
+          "marks": 2,
+          "answer": [
+            "Work education can develop understanding and practical skills, for example planning a sequence and measuring materials more accurately.",
+            "It can also develop cooperation, responsibility and respect for labour when activities include fair participation, feedback and reflection."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "5(a)",
+              "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2025-6",
+          "question": "Mention four activities of work education which help in knowledge and skill development of learners.",
+          "marks": 2,
+          "answer": [
+            "Supervised gardening, paper-box making, simple book-cover making and planning a model household budget."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2021-3",
+          "question": "“Work education promotes humanistic values of students” — Justify.",
+          "marks": 3,
+          "answer": [
+            "Sharing a practical task develops cooperation as learners listen, divide responsibilities and assist one another.",
+            "Experiencing the effort involved in useful work encourages respect for workers and challenges the idea that manual work is inferior.",
+            "Caring for common materials and contributing to a shared purpose develops responsibility and consideration for others. These values need fair participation and reflection, not merely the completion of a product."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2022-3",
+          "question": "What is behavioural changes in learners? Mention two activities of work education for elementary learners to develop Social skills.",
+          "marks": 3,
+          "answer": [
+            "Behavioural changes are developments in how learners understand, perform and respond to tasks and other people as a result of learning and experience.",
+            "A shared gardening activity can develop cooperation through planning roles, sharing materials and caring for plants together.",
+            "A group classroom-organising project can develop communication and responsibility as learners discuss categories, listen to suggestions and carry out agreed duties."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2023-6-b",
+          "question": "Write a short note: Sociocultural evils.",
+          "marks": 3,
+          "answer": [
+            "Sociocultural evils are harmful social practices or attitudes, such as discrimination and exclusion, that undermine dignity and equal participation.",
+            "Education can help learners question them through evidence, discussion and reflection on fairness.",
+            "Cooperative work and respectful engagement with different people offer practical opportunities to challenge stereotypes; a community should not be labelled inferior because some practices need criticism."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 2,
+              "questionNumber": "6(b)",
+              "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2024-6",
+          "question": "What is socio-cultural evils? What is the role of learners social skill development in removing social evils?",
+          "marks": 3,
+          "answer": [
+            "Socio-cultural evils are harmful social practices or attitudes that deny dignity or fair opportunities, such as discriminatory exclusion.",
+            "Communication and critical discussion help learners question stereotypes and express disagreement respectfully.",
+            "Empathy and cooperation support inclusive action, such as sharing roles fairly and challenging ridicule. Social skills contribute to change alongside broader educational and social efforts; they do not remove entrenched harms automatically."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2025-5",
+          "question": "How behavioural changes of learners can be gained through activities of work education? Explain with examples.",
+          "marks": 3,
+          "answer": [
+            "Repeated guided activity develops practical competence: measuring and folding paper can improve accuracy and coordination.",
+            "Planning and troubleshooting develop understanding: learners may compare reasons why a made object is unstable and test a revision.",
+            "Shared roles and reflection develop attitudes: a group gardening task can encourage cooperation and regular responsibility. Teachers should observe progress over time rather than assume change from participation alone."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is a cognitive outcome of work education?",
+          [
+            "It is a change in knowledge or thinking, such as understanding why a plant needs suitable soil and water."
+          ]
+        ],
+        [
+          1,
+          "What is a psychomotor outcome?",
+          [
+            "It is development in coordinated physical performance, such as folding paper accurately."
+          ]
+        ],
+        [
+          1,
+          "What is an affective outcome?",
+          [
+            "It is development in attitudes or values, such as greater care for shared materials."
+          ]
+        ],
+        [
+          1,
+          "Give one observable sign of cooperation during work.",
+          [
+            "A learner offers a shared tool to a partner when their turn is finished."
+          ]
+        ],
+        [
+          1,
+          "Give one observable sign of responsibility.",
+          [
+            "A learner returns materials to the agreed place after completing a task."
+          ]
+        ],
+        [
+          1,
+          "What is perseverance in a practical task?",
+          [
+            "Perseverance is continuing purposeful effort and trying an improved approach when a task is difficult."
+          ]
+        ],
+        [
+          1,
+          "What is hand-eye coordination?",
+          [
+            "Hand-eye coordination is the coordinated use of visual information to guide hand movements."
+          ]
+        ],
+        [
+          1,
+          "What is a baseline observation?",
+          [
+            "It is a record of a learner's starting performance used for comparison with later observations."
+          ]
+        ],
+        [
+          1,
+          "What is a work habit?",
+          [
+            "A work habit is a regularly practised way of approaching tasks, such as planning materials before starting."
+          ]
+        ],
+        [
+          1,
+          "What is transfer of learning?",
+          [
+            "Transfer of learning is applying understanding or skill learned in one situation to another."
+          ]
+        ],
+        [
+          2,
+          "Distinguish learning a fact from developing a work habit.",
+          [
+            "Learning a fact means gaining knowledge, such as naming a tool's purpose.",
+            "Developing a habit means consistently acting in a useful way, such as returning that tool safely after use."
+          ]
+        ],
+        [
+          2,
+          "Give two examples of cognitive development through gardening.",
+          [
+            "A learner explains how too little water affects a plant, using observations.",
+            "A learner compares possible causes when seeds fail to germinate rather than guessing without evidence."
+          ]
+        ],
+        [
+          2,
+          "Give two examples of skill development through paper craft.",
+          [
+            "Measuring and marking a required length improves precision in using a ruler.",
+            "Folding along a marked line develops controlled hand movements and coordination."
+          ]
+        ],
+        [
+          2,
+          "Give two examples of attitude development through a shared task.",
+          [
+            "Learners show willingness to share tools and assist partners.",
+            "They begin to value careful use of materials instead of wasting them or leaving clean-up to others."
+          ]
+        ],
+        [
+          2,
+          "Why is one successful performance insufficient evidence of a lasting change?",
+          [
+            "It may depend on close help, imitation or unusually favourable conditions.",
+            "Observing the learner on later occasions and in related tasks gives stronger evidence of consistent development."
+          ]
+        ],
+        [
+          2,
+          "How can feedback encourage perseverance?",
+          [
+            "Describe the useful effort or strategy, such as checking measurements before retrying.",
+            "Suggest an achievable next step so the learner knows how to improve instead of hearing only that the result is wrong."
+          ]
+        ],
+        [
+          2,
+          "Why should behavioural observations describe actions rather than personality?",
+          [
+            "An action such as taking turns can be observed and compared over time.",
+            "A label such as 'lazy' is a judgement that may overlook barriers and gives little guidance for support."
+          ]
+        ],
+        [
+          2,
+          "How can learners practise self-reliance without being left unsupported?",
+          [
+            "Give a manageable task and let learners attempt appropriate decisions themselves.",
+            "Provide help when needed and gradually reduce it as competence grows rather than expecting immediate independence."
+          ]
+        ],
+        [
+          2,
+          "State two ways a group task can encourage empathy.",
+          [
+            "Learners listen to a partner's difficulty and consider what support would help.",
+            "Sharing roles lets them appreciate the effort involved in contributions they might otherwise overlook."
+          ]
+        ],
+        [
+          2,
+          "What evidence would show transfer of careful material use?",
+          [
+            "The learner uses paper economically during a taught craft activity.",
+            "Later, they apply the same habit to an unfamiliar task, such as planning a display, without needing the same reminder."
+          ]
+        ],
+        [
+          3,
+          "Explain knowledge, skill and attitude outcomes of making a notebook.",
+          [
+            "Knowledge: learners understand the order of stages and why pages need to be aligned.",
+            "Skill: they practise measuring, folding and assembling with appropriate tools and support.",
+            "Attitude: they care for resources, share responsibilities and persist when the first attempt needs revision."
+          ]
+        ],
+        [
+          3,
+          "Explain how a plant-care task can build responsibility.",
+          [
+            "Agree on a manageable care routine and ensure the learner understands what the plant needs.",
+            "Give the learner a meaningful role with appropriate reminders and support.",
+            "Review observations together so the learner connects regular care and thoughtful decisions with the plant's condition, rather than merely obeying a schedule."
+          ]
+        ],
+        [
+          3,
+          "How can teachers help learners cope constructively with an unsuccessful product?",
+          [
+            "Treat the result as information about the process rather than proof of the learner's inability.",
+            "Help the learner identify a possible cause, such as an inaccurate measurement.",
+            "Plan and try a feasible adjustment, then compare the result so persistence is connected with learning."
+          ]
+        ],
+        [
+          3,
+          "Describe three signs that teamwork is improving.",
+          [
+            "Members listen to each other's suggestions before deciding what to do.",
+            "Tasks and tools are shared fairly, with support for someone who needs it.",
+            "The group resolves disagreements through discussion and accepts shared responsibility for the result."
+          ]
+        ],
+        [
+          3,
+          "How can a teacher promote respect for different workers through work education?",
+          [
+            "Introduce the knowledge and skill required for varied forms of work.",
+            "Model respectful language and challenge jokes or stereotypes that demean workers.",
+            "Use shared, safe activities and reflection to help learners appreciate contributions without assigning tasks according to social identity."
+          ]
+        ],
+        [
+          3,
+          "Explain how choice can support motivation in a work activity.",
+          [
+            "A limited choice of suitable materials or designs gives learners a sense of participation in the task.",
+            "Explaining the purpose helps them connect the work with a meaningful outcome.",
+            "Reviewing their own decisions encourages ownership, while guidance keeps the choices safe and manageable."
+          ]
+        ],
+        [
+          3,
+          "How should a teacher interpret a learner's reluctance to handle materials?",
+          [
+            "Observe the situation and ask sensitively about the difficulty instead of assuming unwillingness.",
+            "Consider unfamiliarity, fear, access needs or discomfort with the material.",
+            "Offer a demonstration, adapted material or alternative role and observe the response before drawing conclusions."
+          ]
+        ],
+        [
+          3,
+          "Suggest three ways to record changes in learners' work behaviour.",
+          [
+            "Use dated observations describing specific actions during tasks.",
+            "Keep examples or photographs of work, with appropriate consent and privacy, to show changes in performance.",
+            "Include brief learner reflections explaining choices and difficulties, comparing them with observed behaviour."
+          ]
+        ],
+        [
+          3,
+          "Why is reflection needed after a practical activity?",
+          [
+            "It helps learners identify the knowledge and skills they used rather than remembering only the product.",
+            "It allows them to examine cooperation, difficulties and choices.",
+            "It supports a plan for applying the learning or improving the next attempt."
+          ]
+        ],
+        [
+          3,
+          "Explain how a classroom clean-up routine can develop social responsibility.",
+          [
+            "A shared routine shows that maintaining a usable learning space is a collective responsibility.",
+            "Fair, safe roles let learners practise cooperation and care for common resources.",
+            "Discussion connects their actions with others' comfort and access; the task should not be used to shame selected children."
+          ]
+        ],
+        [
+          4,
+          "Describe how you would document a learner's growing independence.",
+          [
+            "Identify a specific task and record the help initially needed, such as reminders for each step in organising materials.",
+            "Provide suitable guidance and repeated opportunities to practise.",
+            "Record later performance, noting whether the learner plans steps, checks work and seeks help appropriately.",
+            "Compare similar situations over time and note contextual changes. Independence means informed action with appropriate help-seeking, not refusing all assistance."
+          ]
+        ],
+        [
+          4,
+          "Explain the interaction of knowledge, skills and attitudes in work education.",
+          [
+            "Knowledge helps a learner understand what needs doing and why a method may work.",
+            "Practical skill allows the learner to carry out the method with increasing control.",
+            "Attitudes such as care and cooperation influence how responsibly the learner uses that ability.",
+            "For example, plant care involves understanding needs, watering suitably and maintaining regular responsibility. Strong work education develops these dimensions together."
+          ]
+        ],
+        [
+          4,
+          "Plan a small task that develops both problem-solving and cooperation.",
+          [
+            "Ask groups to create a stable holder for classroom pencils using safe reusable materials.",
+            "Invite them to discuss possible designs and divide roles fairly before starting.",
+            "Let them test the holder, identify weaknesses and agree on a revision rather than providing an immediate ready-made solution.",
+            "Discuss how evidence and listening shaped the final design. Observe both the reasoning used and the way members worked together."
+          ]
+        ],
+        [
+          4,
+          "Explain four reasons a work activity may fail to produce intended behavioural changes.",
+          [
+            "The learning goal may be unclear, leaving learners focused only on finishing.",
+            "One learner or adult may do most of the work, so others have little meaningful practice.",
+            "Tasks may be inaccessible or too difficult, creating frustration rather than supported development.",
+            "Without feedback and later opportunities, new behaviours may not become consistent. Revise participation, support and review rather than blaming learners."
+          ]
+        ],
+        [
+          4,
+          "How can teachers assess respect for resources without judging family background?",
+          [
+            "Use observable criteria such as returning shared materials and choosing appropriate quantities.",
+            "Provide equal access to the materials needed, so performance does not depend on what a child can bring from home.",
+            "Discuss reasons for a learner's choices before interpreting them as careless or wasteful.",
+            "Record progress across tasks and give specific feedback. Avoid equating expensive or polished products with responsible attitudes."
+          ]
+        ],
+        [
+          5,
+          "Develop a plan to improve cooperative behaviour through work education.",
+          [
+            "Identify a specific concern, such as a few learners controlling all shared tools, and record a starting observation.",
+            "Choose an accessible group task that genuinely requires contributions from several members.",
+            "Model sharing and listening, agree on fair roles and provide support where learners need it.",
+            "Observe participation, intervene respectfully when exclusion occurs and invite learners to reflect on how their group worked.",
+            "Repeat opportunities and compare later observations with the starting point. Adjust roles and support until cooperation becomes more consistent rather than assuming one successful activity is enough."
+          ]
+        ],
+        [
+          5,
+          "Explain how behavioural change should be evaluated over time.",
+          [
+            "Define the intended change through observable behaviour, such as planning steps before starting.",
+            "Record an initial performance and the support available so later comparisons have context.",
+            "Gather evidence across several tasks using observation, work samples and learner explanations.",
+            "Look for increasing consistency and transfer, while considering differences in task difficulty or assistance.",
+            "Use the findings for constructive feedback and new goals. Avoid claiming that the activity alone caused every change or treating one lapse as proof that no learning occurred."
+          ]
+        ],
+        [
+          5,
+          "Use a school garden to explain holistic learner development.",
+          [
+            "Learners investigate plant needs and compare observations, developing understanding and reasoning.",
+            "Suitable planting and watering tasks build coordinated practical skills with supervision.",
+            "Planning roles and sharing resources provide opportunities for communication and cooperation.",
+            "Regular care can develop responsibility and appreciation of the work involved in growing food.",
+            "Reflection connects these experiences and helps learners apply them elsewhere. The outcomes depend on inclusive planning and guidance; the presence of a garden alone does not guarantee holistic learning."
+          ]
+        ],
+        [
+          5,
+          "Explain how a teacher can encourage perseverance without praising unsafe or pointless persistence.",
+          [
+            "Help learners identify a meaningful and achievable goal before starting.",
+            "When difficulty arises, examine the cause and model how to change strategy rather than repeat the same unsuccessful action.",
+            "Offer specific feedback and suitable assistance, recognising progress as well as effort.",
+            "Teach learners to stop and seek help when a task is unsafe or beyond their current ability; responsible judgement is part of learning.",
+            "Reflect on what the revised approach achieved and what remains to learn. Perseverance is thoughtful continued effort, not enduring harm or refusing support."
+          ]
+        ],
+        [
+          5,
+          "Discuss how work education can reduce prejudice about manual work.",
+          [
+            "Examine stereotypes that rank people by occupation and discuss why they are unfair.",
+            "Introduce the planning, knowledge and skill involved in different forms of practical work.",
+            "Give all learners fair access to safe, meaningful activities rather than assigning work by gender, caste or perceived academic ability.",
+            "Engage respectfully with workers and reflect on their contributions to everyday life.",
+            "Observe whether learners' language and behaviour towards others change over time. Practical participation needs explicit reflection and consistent teacher modelling to challenge prejudice."
+          ]
+        ]
+      ]
+    },
+    {
+      "unit": 3,
+      "sources": [
+        {
+          "label": "Syllabus: integration and assessment",
+          "url": "/curriculum-2024.pdf#page=42"
+        },
+        {
+          "label": "Detailed notes",
+          "url": "/detailed-notes/s1-9.html"
+        }
+      ],
+      "pyqs": [
+        {
+          "id": "s1-9-2021-1-d",
+          "question": "Mention two tools used for evaluation of Work Education.",
+          "marks": 1,
+          "answer": [
+            "An observation checklist and a rating scale."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2023-1-b",
+          "question": "What is community resource?",
+          "marks": 1,
+          "answer": [
+            "A community resource is a locally available person, institution, place or material that can support learning or useful activity."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2025-1-b",
+          "question": "What is human resource?",
+          "marks": 1,
+          "answer": [
+            "A human resource is a person whose knowledge, skills or experience can contribute to an activity, such as a local craftsperson helping learners understand a craft."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2022-2",
+          "question": "Suggest two measures for successful implementation of the subject work education in school.",
+          "marks": 2,
+          "answer": [
+            "Provide regular planned time, suitable materials and safe supervision for meaningful practical activities.",
+            "Connect activities with curriculum goals and available community expertise, then assess learners' participation and progress rather than only finished products."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2022-6-a",
+          "question": "Write a short note: Evaluation system in work education.",
+          "marks": 2,
+          "answer": [
+            "Evaluation should consider the learning process as well as the product, including understanding, practical skills, cooperation and responsible use of materials.",
+            "Teachers can combine observation, checklists, work samples and learner explanations, providing feedback during the task so learners can improve."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "6(a)",
+              "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2024-2",
+          "question": "Mention four activities to fulfill the objectives of work education successfully.",
+          "marks": 2,
+          "answer": [
+            "Supervised gardening, making useful paper items, organising a class library and creating suitable objects from safe reusable materials."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2024-7",
+          "question": "Mention the evaluation systems used in work education.",
+          "marks": 2,
+          "answer": [
+            "Use continuous formative evaluation during activities through observation, checklists, learner explanations and feedback.",
+            "Use a summative review of practical performance, work samples or portfolios against clear criteria. Include self- and peer reflection as supporting evidence while retaining teacher responsibility for fair judgement."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "7",
+              "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2021-4",
+          "question": "What is community resource? Prepare a list of community resources of your locality.",
+          "marks": 3,
+          "answer": [
+            "A community resource is a person, place, institution or material in the local community that can support learning and useful activity.",
+            "An illustrative list includes gardeners, potters, carpenters, weavers, a library, a nursery, a market and suitable locally available clay or reusable materials.",
+            "In an examination response, adapt this list to resources actually present in your locality. Explain their relevance, such as a gardener supporting a plant-care activity, rather than inventing local facilities."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2023-6-c",
+          "question": "Write a short note: Importance of morning assembly in school.",
+          "marks": 3,
+          "answer": [
+            "A well-planned assembly provides a shared beginning to the school day and communicates important information.",
+            "Learners can practise speaking, organising and cooperating through suitable rotating roles.",
+            "Inclusive activities can build a sense of community and responsibility. The programme should be accessible and respectful of different backgrounds rather than a platform for exclusion or humiliation."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 2,
+              "questionNumber": "6(c)",
+              "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2025-4",
+          "question": "“Work education is integrated with other curricular subjects” — Justify with examples.",
+          "marks": 3,
+          "answer": [
+            "A gardening task connects with mathematics when learners measure beds or compare quantities.",
+            "It connects with environmental studies when they observe plant growth and investigate water and soil needs.",
+            "Recording observations and explaining the process connect with language. Thus the same meaningful task applies and develops knowledge from several subjects."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2025-4-alternative",
+          "question": "Discuss about the role of teachers and parents in carrying out different activities of work education in school?",
+          "marks": 3,
+          "answer": [
+            "Teachers select curriculum-linked activities, plan accessible roles and materials, demonstrate suitable methods and supervise safe participation.",
+            "Parents can share relevant knowledge or voluntary support and encourage learners, without doing the assessed work for them or being required to provide unaffordable resources.",
+            "Teachers and parents can communicate about needs and progress, while the school evaluates learners' own understanding, skills and participation and improves the programme."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "4 (alternative)",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2022-4",
+          "question": "Explain with examples how the locally available human resources and material resources help in implementation of work education in school.",
+          "marks": 4,
+          "answer": [
+            "Human resources provide practical knowledge and guidance: a local gardener can explain plant care, while a craftsperson can demonstrate a suitable making process.",
+            "Material resources make activities concrete and feasible: suitable local clay, seeds, paper or reusable containers can support supervised projects.",
+            "Together they connect school concepts with familiar work. For example, a nursery worker and seed-growing materials can help learners study plant needs and practise observation.",
+            "Teachers must select safe, accessible activities, agree on supervision and connect the experience with reflection and assessment. Local availability alone does not guarantee educational value or safety."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2023-2",
+          "question": "Mention different areas of work education. For successful implementation of Work Education in school, what strategies you will adopt?",
+          "marks": 4,
+          "answer": [
+            "Areas include gardening, craft and simple production, care of learning materials, household skills and useful community-oriented activities.",
+            "Select age-appropriate work that connects with curriculum goals and local needs, rather than isolated busywork.",
+            "Provide time, safe materials, demonstrations, accessible roles and suitable supervision, involving community expertise where helpful.",
+            "Assess planning, participation, understanding and the outcome, then use feedback to improve the programme. Do not judge success only by the number or appearance of products."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2023-4",
+          "question": "Mention two short comings in evaluation of work education at school level and give suggestions for their elimination.",
+          "marks": 4,
+          "answer": [
+            "Shortcoming 1: judging only the finished product overlooks reasoning, effort and the help received.",
+            "Remedy: assess the process through observations, draft work and learner explanations alongside the result.",
+            "Shortcoming 2: vague or inconsistent criteria can favour expensive materials or polished work prepared by adults.",
+            "Remedy: use clear, accessible criteria, provide fair opportunities and record individual participation and progress over several occasions."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is curricular integration?",
+          [
+            "Curricular integration connects learning across subjects through a meaningful theme, problem or activity."
+          ]
+        ],
+        [
+          1,
+          "Give one mathematics concept used in making a paper box.",
+          [
+            "Measurement of length."
+          ]
+        ],
+        [
+          1,
+          "Give one language activity connected with a work project.",
+          [
+            "Writing clear instructions for completing the project."
+          ]
+        ],
+        [
+          1,
+          "What is a material resource?",
+          [
+            "A material resource is a physical item used for learning or work, such as paper, clay or a suitable tool."
+          ]
+        ],
+        [
+          1,
+          "What is a learning portfolio?",
+          [
+            "A learning portfolio is a purposeful collection of work and reflections showing a learner's progress over time."
+          ]
+        ],
+        [
+          1,
+          "What is an assessment checklist?",
+          [
+            "A checklist records whether specified observable features or actions are present."
+          ]
+        ],
+        [
+          1,
+          "What is a rubric?",
+          [
+            "A rubric describes criteria and levels of performance used to assess and explain the quality of work."
+          ]
+        ],
+        [
+          1,
+          "What is process assessment?",
+          [
+            "Process assessment examines how a learner plans, performs and reviews a task."
+          ]
+        ],
+        [
+          1,
+          "What is product assessment?",
+          [
+            "Product assessment examines the qualities of the completed outcome, such as whether a made object serves its purpose."
+          ]
+        ],
+        [
+          1,
+          "What is formative feedback?",
+          [
+            "Formative feedback gives information during learning that helps the learner improve a next step."
+          ]
+        ],
+        [
+          2,
+          "Give two links between gardening and environmental studies.",
+          [
+            "Learners observe plant growth and the conditions needed for it.",
+            "They examine responsible use of water and suitable reuse of organic material in a supervised activity."
+          ]
+        ],
+        [
+          2,
+          "Give two links between a work project and language learning.",
+          [
+            "Learners discuss plans and explain decisions to one another.",
+            "They write a sequence of steps or a report describing what they did and learned."
+          ]
+        ],
+        [
+          2,
+          "State two reasons for using local materials.",
+          [
+            "Suitable local materials can reduce cost and make an activity easier to organise.",
+            "They connect learning with familiar surroundings and invite discussion of local knowledge and resource use."
+          ]
+        ],
+        [
+          2,
+          "Give two considerations when inviting a community expert.",
+          [
+            "The person's knowledge should suit the learning goal and they should understand the learners' age and needs.",
+            "The school should agree on safe activities, respectful arrangements and appropriate supervision in advance."
+          ]
+        ],
+        [
+          2,
+          "Distinguish a checklist from a rating scale.",
+          [
+            "A checklist records the presence or absence of a specified action.",
+            "A rating scale indicates its degree or quality, such as how consistently a learner follows an agreed procedure."
+          ]
+        ],
+        [
+          2,
+          "State one strength and one limitation of teacher observation.",
+          [
+            "It reveals actual behaviour while learners work, including cooperation and use of materials.",
+            "It can miss events or be influenced by the observer's expectations, so clear criteria and repeated observations are needed."
+          ]
+        ],
+        [
+          2,
+          "State one strength and one limitation of a portfolio.",
+          [
+            "It can show development through successive work samples and reflections.",
+            "It requires purposeful selection and review; a collection of attractive items alone may not show who did the work or what was learned."
+          ]
+        ],
+        [
+          2,
+          "Why should assessment criteria be explained before an activity?",
+          [
+            "Learners understand what matters, such as planning, safe practice and cooperation, not only appearance.",
+            "Clear criteria also support useful self-assessment and more transparent feedback."
+          ]
+        ],
+        [
+          2,
+          "What can oral questioning reveal during a practical task?",
+          [
+            "It can show whether the learner understands why a step or material was chosen.",
+            "It can also reveal reasoning about a difficulty that the final product alone does not explain."
+          ]
+        ],
+        [
+          2,
+          "Give two ways parents can support a school work project without making the product for the child.",
+          [
+            "Share relevant experience or suitable reusable materials voluntarily.",
+            "Discuss the child's plan and encourage reflection while leaving age-appropriate decisions and making to the learner."
+          ]
+        ],
+        [
+          3,
+          "Explain three criteria for choosing a locally relevant project.",
+          [
+            "It should address a meaningful learning goal and connect with learners' surroundings.",
+            "Required materials, time and supervision should be feasible and safe.",
+            "All learners should have an accessible way to participate, without depending on unequal purchases or help from home."
+          ]
+        ],
+        [
+          3,
+          "Explain how making a cloth bag can integrate different subjects.",
+          [
+            "Mathematics: measure pieces and estimate the amount of material needed.",
+            "Language: describe the making process through instructions or an oral explanation.",
+            "Environmental studies: compare reuse with disposal and discuss how a durable bag can reduce repeated material use."
+          ]
+        ],
+        [
+          3,
+          "State three roles of the head teacher in a work-education project.",
+          [
+            "Provide time, coordination and approval for a feasible learning plan.",
+            "Arrange appropriate resources and supervision, including safe community involvement.",
+            "Review participation and learning with teachers and support improvements when barriers arise."
+          ]
+        ],
+        [
+          3,
+          "How can teachers identify a school problem suitable for a project?",
+          [
+            "Observe the setting and invite learners' and staff members' views about recurring difficulties.",
+            "Choose a manageable problem that offers learning opportunities, such as disorganised reading materials.",
+            "Check that the proposed student role is safe and educational; structural repairs and other specialist work belong to competent adults."
+          ]
+        ],
+        [
+          3,
+          "Explain three weaknesses of assessing only the finished product.",
+          [
+            "It may overlook reasoning, cooperation and safe habits developed during the activity.",
+            "It may reward adult help or purchased work rather than the learner's own performance.",
+            "It can disadvantage beginners whose learning is substantial even though their first product is imperfect."
+          ]
+        ],
+        [
+          3,
+          "Suggest three kinds of evidence for a group project assessment.",
+          [
+            "Teacher observations of each learner's participation and practical decisions.",
+            "Plans, draft versions and the completed work showing how the group developed its solution.",
+            "Individual explanations or reflections so a shared product does not conceal differences in understanding."
+          ]
+        ],
+        [
+          3,
+          "How can self-assessment be used after a work activity?",
+          [
+            "Give learners a few clear criteria, such as planning materials and completing an agreed role.",
+            "Ask them to identify evidence of a strength and a difficulty rather than merely awarding themselves a score.",
+            "Help them choose an achievable improvement and compare it with teacher feedback."
+          ]
+        ],
+        [
+          3,
+          "Explain how peer assessment can remain constructive.",
+          [
+            "Use specific shared criteria focused on work and behaviour rather than personal popularity.",
+            "Model respectful comments that identify evidence and suggest a next step.",
+            "Monitor the process and combine peer feedback with other evidence; peers should not publicly rank or ridicule classmates."
+          ]
+        ],
+        [
+          3,
+          "What should a report on a community resource visit include?",
+          [
+            "The purpose, setting and relevant people or materials observed.",
+            "A clear account of what learners investigated and how it connects with school learning.",
+            "Reflection on participation, safety, difficulties and how a future visit could be improved."
+          ]
+        ],
+        [
+          3,
+          "Why should assessment tools be combined?",
+          [
+            "Each tool reveals a different aspect: observation shows actions while questioning reveals reasons.",
+            "Work samples show outcomes and progress, but may not explain the level of help provided.",
+            "Using complementary evidence gives a fairer judgement than relying on a single score or impression."
+          ]
+        ],
+        [
+          4,
+          "Design a simple rubric for a classroom materials-organising project.",
+          [
+            "Planning: judge whether the learner identifies useful categories and explains the arrangement.",
+            "Practical work: judge appropriate handling, labelling and placement of materials.",
+            "Cooperation: judge contribution, listening and fair sharing of roles.",
+            "Review: judge whether the learner checks that the arrangement is usable and suggests an improvement. Describe levels such as 'with support' and 'independently' for each criterion so the rubric guides feedback."
+          ]
+        ],
+        [
+          4,
+          "A local artisan offers a demonstration using tools unsuitable for young children. How should the teacher adapt the opportunity?",
+          [
+            "Agree with the artisan on the learning goal and identify which processes learners can observe safely.",
+            "Arrange adult handling of hazardous tools and clear supervision; local expertise does not remove the need for school safeguards.",
+            "Provide an accessible alternative, such as exploring a weaving pattern with paper strips, so learners can practise the related idea safely.",
+            "Follow the activity with questions and reflection connecting the demonstration and adapted task. Respect the artisan's expertise while retaining responsibility for appropriate learner participation."
+          ]
+        ],
+        [
+          4,
+          "Plan assessment during a plant-growing project.",
+          [
+            "Before starting, identify criteria such as explaining plant needs, caring regularly and recording observations.",
+            "During the project, observe individual actions and ask learners to explain choices.",
+            "Collect brief records showing changes and responses to problems, not only the healthiest final plant.",
+            "Give feedback and review what was learned. Consider differences in starting materials and conditions so the assessment does not reward luck or resources alone."
+          ]
+        ],
+        [
+          4,
+          "Explain four ways to make work-education assessment fairer.",
+          [
+            "Use clear criteria linked to intended learning and explain them in accessible language.",
+            "Provide suitable materials and adaptations so learners have fair opportunities to demonstrate learning.",
+            "Gather evidence of each learner's process and understanding, including the assistance received.",
+            "Assess progress and give actionable feedback rather than judging only polish, cost or speed. Review inconsistent judgements with additional evidence."
+          ]
+        ],
+        [
+          4,
+          "Show how one classroom project can address a real problem and several subjects.",
+          [
+            "Problem: learners find it difficult to locate books in a shared collection.",
+            "Work task: organise and label books, designing a usable borrowing arrangement with support.",
+            "Subject links: count and classify books in mathematics, write labels and instructions in language, and discuss shared responsibility in social learning.",
+            "Review use of the collection and revise the arrangement. The project is integrated because the subject learning helps solve the problem."
+          ]
+        ],
+        [
+          5,
+          "Develop an integrated project using safe reusable materials.",
+          [
+            "Choose a useful outcome, such as a labelled stationery organiser, and discuss the problem it should solve.",
+            "Select clean, safe materials available to all learners and plan supervised methods suitable for their age.",
+            "Connect designing with measurement and shape, and connect planning and reporting with language learning.",
+            "Let learners share roles, test the organiser and revise its design using evidence about stability and usability.",
+            "Assess the process and result through observation, explanation and reflection. Discuss resource use and possible improvements rather than rewarding decoration alone."
+          ]
+        ],
+        [
+          5,
+          "Discuss the advantages and limitations of five assessment tools for work education.",
+          [
+            "Observation captures real actions but can miss events; use clear criteria and several occasions.",
+            "A checklist is quick for specific behaviours but gives little detail about quality or reasons.",
+            "A rubric describes quality more clearly, but its levels must be understandable and applied consistently.",
+            "A portfolio shows development over time, but needs purposeful selection and evidence of the learner's own work.",
+            "Oral questioning reveals understanding, but responses may be affected by language or anxiety. Use accessible prompts and combine tools to reach a balanced judgement."
+          ]
+        ],
+        [
+          5,
+          "Plan collaboration between teachers, parents and community members for a work activity.",
+          [
+            "Teachers identify learning goals and consult families about relevant knowledge and practical constraints.",
+            "Agree on a suitable activity and voluntary contributions, avoiding assumptions that every family can provide materials or time.",
+            "Clarify roles: teachers guide learning, community members share expertise and parents support arrangements where appropriate.",
+            "Plan access, supervision and safe methods before learners participate, keeping responsibility for the educational programme with the school.",
+            "Review learners' experiences and outcomes with participants, thank contributors and use feedback to improve future collaboration."
+          ]
+        ],
+        [
+          5,
+          "Explain how assessment can improve learning rather than merely produce a mark.",
+          [
+            "Define what learners should understand and be able to do so observations have a clear purpose.",
+            "Gather evidence during the task, allowing misconceptions or difficulties to be identified while improvement is still possible.",
+            "Give specific feedback about an effective action and a manageable next step.",
+            "Provide time to use the feedback and encourage learners to explain what changed.",
+            "Review progress with fresh evidence and adjust teaching. A final mark may summarise performance, but the ongoing feedback process is what directly supports further learning."
+          ]
+        ],
+        [
+          5,
+          "Critically examine an activity where parents produce most of the submitted models.",
+          [
+            "The model may be impressive but provides weak evidence of the learner's practical skill or understanding.",
+            "It creates unfair differences based on the time, money and expertise available at home.",
+            "Teachers should clarify that support may include discussion or arranging suitable materials, while learners do the appropriate work.",
+            "Provide supervised school time and assess plans, attempts and explanations so individual learning becomes visible.",
+            "Value progress, reasoning and reflection alongside the outcome. This reduces pressure for expensive products and makes assessment more educationally meaningful."
+          ]
+        ]
+      ]
+    },
+    {
+      "unit": 4,
+      "sources": [
+        {
+          "label": "Syllabus: family and society",
+          "url": "/curriculum-2024.pdf#page=42"
+        },
+        {
+          "label": "Detailed notes",
+          "url": "/detailed-notes/s1-9.html"
+        }
+      ],
+      "pyqs": [
+        {
+          "id": "s1-9-2022-1-b",
+          "question": "Write one advantage of domestic budget.",
+          "marks": 1,
+          "answer": [
+            "It helps a family plan essential spending within its available income."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2023-1-c",
+          "question": "Mention one importance of family budget.",
+          "marks": 1,
+          "answer": [
+            "A family budget helps prioritise essential expenses and check that the planned spending fits the available income."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2021-6-b",
+          "question": "Write a short note: Household safety and security.",
+          "marks": 2,
+          "answer": [
+            "Household safety involves recognising and reducing hazards, for example keeping movement areas clear and storing dangerous items appropriately under adult responsibility.",
+            "Security includes responsible care of the home and belongings and knowing whom to contact for help. Children should report problems to a trusted adult rather than attempt hazardous repairs or confront danger."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "6(b)",
+              "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2025-3",
+          "question": "What should be the roles and responsibilities of family members in the caring of elderlys sick person?",
+          "marks": 2,
+          "answer": [
+            "Family members should listen to the older or sick person's needs, provide companionship and share suitable everyday assistance while respecting dignity and privacy.",
+            "Responsible adults should coordinate any necessary professional care and practical arrangements. Help should support appropriate independence, and children should not be expected to manage medical treatment or hazardous care tasks."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2022-5",
+          "question": "How can we avoid misuse of natural resources? Give three suggestions.",
+          "marks": 3,
+          "answer": [
+            "Use water carefully and arrange repair of leaks through responsible adults, avoiding unnecessary wastage.",
+            "Avoid unnecessary energy use, for example by switching off unneeded lights and planning suitable journeys efficiently.",
+            "Maintain and reuse suitable materials, buy realistic quantities and separate waste appropriately so usable resources are not discarded needlessly."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2023-5",
+          "question": "“Work education helps students to be responsible towards family and society” — Explain.",
+          "marks": 3,
+          "answer": [
+            "Suitable household tasks develop self-reliance and an understanding that care of a home should be shared fairly.",
+            "Group and community-oriented activities develop cooperation and awareness of how one's actions affect others.",
+            "Resource conservation and care of common materials encourage responsibility beyond immediate personal benefit. Tasks should remain safe, age-appropriate and compatible with children's learning and well-being."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2025-2",
+          "question": "Why preparation of budget for the family is important? Mention the steps of preparing a domestic budget.",
+          "marks": 3,
+          "answer": [
+            "A budget helps a family prioritise needs, plan spending within income and prepare for future commitments.",
+            "Estimate the available income, list regular and likely irregular expenses, and allocate amounts for essentials, other spending and feasible savings.",
+            "Check that the total fits the income, record actual expenditure and review differences before adjusting the next plan."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2021-5",
+          "question": "What is the necessity of budget in a family? Prepare a model budget for middle class family.",
+          "marks": 4,
+          "answer": [
+            "A family budget helps match expenditure with available income, prioritise essential needs and plan for future or unexpected expenses.",
+            "Illustrative monthly income: ₹30,000. Housing ₹8,000; food and household essentials ₹8,000; utilities ₹2,500; transport ₹2,500.",
+            "Education ₹3,000; health and other necessary expenses ₹2,000; savings and contingency ₹4,000. Total allocation = ₹30,000.",
+            "This is a model, not a definition of a middle-class income or a recommended allocation for every household. Actual amounts depend on family size, location, income and needs."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-9-2024-4",
+          "question": "What is domestic budget? Prepare a model budget for your family?",
+          "marks": 4,
+          "answer": [
+            "A domestic budget is a plan for a household's income, expenditure and savings over a particular period.",
+            "Illustrative monthly income: ₹24,000. Housing ₹6,000; food and household needs ₹7,000; utilities ₹2,000.",
+            "Transport ₹2,000; education ₹2,000; health and other needs ₹2,000; savings and contingency ₹3,000. Total = ₹24,000.",
+            "For a personal answer, replace these fictional figures with an appropriate model without disclosing sensitive information. Check that categories meet the family's needs and that allocations do not exceed income."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is a household responsibility?",
+          [
+            "It is a task or duty that contributes to the care and functioning of a home and its members."
+          ]
+        ],
+        [
+          1,
+          "What is a fixed household expense?",
+          [
+            "It is an expense that usually remains the same over a given budgeting period, such as a fixed monthly rent."
+          ]
+        ],
+        [
+          1,
+          "What is a variable household expense?",
+          [
+            "It is an expense whose amount can change between budgeting periods, such as expenditure on transport."
+          ]
+        ],
+        [
+          1,
+          "Define saving in a household budget.",
+          [
+            "Saving is the part of income set aside rather than spent during the budgeting period."
+          ]
+        ],
+        [
+          1,
+          "What is a budget deficit?",
+          [
+            "A budget deficit occurs when planned or actual expenditure exceeds income for the period."
+          ]
+        ],
+        [
+          1,
+          "Give one example of a household need.",
+          [
+            "Safe drinking water."
+          ]
+        ],
+        [
+          1,
+          "Give one example of resource conservation at home.",
+          [
+            "Turning off an unused light conserves electricity."
+          ]
+        ],
+        [
+          1,
+          "What is preventive maintenance?",
+          [
+            "Preventive maintenance is timely care or repair intended to stop damage or failure before it becomes a larger problem."
+          ]
+        ],
+        [
+          1,
+          "Give one suitable responsibility for a young child at home.",
+          [
+            "Putting their own books in an agreed place, with support as needed."
+          ]
+        ],
+        [
+          1,
+          "What does respectful care involve?",
+          [
+            "Respectful care responds to a person's needs while preserving their dignity, preferences and appropriate independence."
+          ]
+        ],
+        [
+          2,
+          "Why should household work be shared without gender bias?",
+          [
+            "All family members benefit from the home and can contribute through suitable responsibilities.",
+            "Sharing work fairly develops practical competence and avoids placing an unequal burden on one gender."
+          ]
+        ],
+        [
+          2,
+          "Distinguish needs from wants when planning expenditure.",
+          [
+            "Needs are essential for basic living and responsibilities, such as food and necessary schooling expenses.",
+            "Wants are desirable but can often be postponed or reduced; the distinction helps prioritise limited income."
+          ]
+        ],
+        [
+          2,
+          "Why should a budget include an allowance for unexpected expenses?",
+          [
+            "Some expenses, such as an urgent repair, do not occur regularly but can disrupt a plan.",
+            "Setting aside a feasible amount makes the budget more resilient and reduces the need for sudden cuts to essential spending."
+          ]
+        ],
+        [
+          2,
+          "Give two ways to involve children in simple budgeting.",
+          [
+            "Use fictional amounts to plan a small activity and compare the cost of possible materials.",
+            "Ask children to check the total and explain a choice, without requiring disclosure of private family income."
+          ]
+        ],
+        [
+          2,
+          "State two respectful ways to support an older family member.",
+          [
+            "Ask what assistance they would find useful rather than assuming they cannot manage tasks.",
+            "Offer companionship or help with suitable everyday activities while respecting privacy and choices."
+          ]
+        ],
+        [
+          2,
+          "Give two ways learners can help conserve water safely.",
+          [
+            "Use only the water needed for a task and turn taps off properly.",
+            "Report leaks to a responsible adult so they can be repaired; children should not attempt unsafe repairs."
+          ]
+        ],
+        [
+          2,
+          "Give two ways to reduce unnecessary electricity use.",
+          [
+            "Switch off lights or fans when they are not needed, where the learner can do so safely.",
+            "Use available daylight for suitable activities and tell an adult about faulty equipment instead of handling damaged wiring."
+          ]
+        ],
+        [
+          2,
+          "Why should household chores suit a child's age and abilities?",
+          [
+            "A suitable task allows useful participation without exposing the child to avoidable danger or unreasonable strain.",
+            "It also provides an achievable learning experience while leaving time for education, rest and play."
+          ]
+        ],
+        [
+          2,
+          "What is the value of recording actual expenditure?",
+          [
+            "It shows where money was really spent rather than relying on memory.",
+            "Comparing it with the plan helps identify differences and prepare a more realistic next budget."
+          ]
+        ],
+        [
+          2,
+          "Give two ways to keep shared living spaces easier to use.",
+          [
+            "Return items to agreed places so family members can find them and move through the space.",
+            "Keep commonly used paths clear and report hazards to an adult rather than leaving them for someone else to encounter."
+          ]
+        ],
+        [
+          3,
+          "Explain three principles for sharing household tasks fairly.",
+          [
+            "Consider each person's age, ability, available time and existing responsibilities.",
+            "Avoid allocating tasks by gender or treating one member's work as automatically less important.",
+            "Discuss and review the arrangement so duties can change when needs or circumstances change."
+          ]
+        ],
+        [
+          3,
+          "Outline three stages of preparing a simple monthly budget.",
+          [
+            "Estimate the income available for the month and list essential commitments.",
+            "Allocate amounts for needs, other planned expenses and feasible savings, checking that the total fits the income.",
+            "Record actual spending and review differences before preparing the next plan."
+          ]
+        ],
+        [
+          3,
+          "A fictional family has ₹20,000 income and ₹18,500 planned spending. Calculate the balance and suggest how to use the result.",
+          [
+            "Balance = ₹20,000 − ₹18,500 = ₹1,500.",
+            "The balance can be assigned to savings or an identified future need rather than treated as automatically available for extra spending.",
+            "Check that essential and irregular expenses have been included before finalising the plan; this is an educational example, not a universal household budget."
+          ]
+        ],
+        [
+          3,
+          "How can a family adjust a budget when income temporarily falls?",
+          [
+            "Recalculate the income available and identify essential expenses first.",
+            "Review postponable or reducible spending and discuss fair adjustments with family members.",
+            "Track the revised plan and seek suitable support if essential needs cannot be met, rather than presenting all financial difficulty as careless spending."
+          ]
+        ],
+        [
+          3,
+          "Suggest three non-medical ways to support a sick family member.",
+          [
+            "Offer companionship and listen to what support the person wants.",
+            "Help with agreed everyday tasks, such as bringing suitable items or keeping their space comfortable.",
+            "Tell a responsible adult about concerns and leave treatment decisions to caregivers and qualified professionals; children should not take on adult nursing responsibilities."
+          ]
+        ],
+        [
+          3,
+          "Explain how caring for others can develop social responsibility.",
+          [
+            "It makes learners attentive to needs beyond their own convenience.",
+            "Suitable shared tasks develop cooperation and reliability.",
+            "Reflection connects helpful action with dignity and mutual support, avoiding the idea that a person receiving care has no say in decisions."
+          ]
+        ],
+        [
+          3,
+          "How can a family reduce waste when buying household goods?",
+          [
+            "Check existing supplies and prepare a list before shopping.",
+            "Choose quantities that can be used rather than buying more simply because of an offer.",
+            "Review storage and use of items so usable materials are not discarded unnecessarily."
+          ]
+        ],
+        [
+          3,
+          "Suggest a classroom activity about conserving household resources.",
+          [
+            "Use a fictional household scenario showing unnecessary use of water, electricity or materials.",
+            "Ask groups to identify feasible changes and explain why each would help.",
+            "Have learners create a short reminder plan and review it without requiring them to expose private family habits."
+          ]
+        ],
+        [
+          3,
+          "Why does household maintenance require planning?",
+          [
+            "Regular checks can identify small problems before they disrupt daily life.",
+            "Planning helps allocate time, money and appropriate adult or professional help.",
+            "Clear responsibility also prevents unsafe attempts by children and avoids assuming that one family member must handle every repair."
+          ]
+        ],
+        [
+          3,
+          "Explain how domestic work can support learning without becoming exploitation.",
+          [
+            "Tasks should be safe, age-appropriate and limited, with adult guidance.",
+            "They should develop useful habits and shared responsibility rather than replace necessary adult labour.",
+            "Participation must not interfere with schooling, rest, play or dignity, and the child's needs should remain central."
+          ]
+        ],
+        [
+          4,
+          "Prepare a balanced fictional monthly budget for an income of ₹25,000.",
+          [
+            "Housing: ₹7,000; food and household essentials: ₹7,000.",
+            "Utilities: ₹2,000; transport: ₹2,000; education: ₹2,000.",
+            "Health and other necessary expenses: ₹2,000; savings and contingency: ₹3,000.",
+            "Total = ₹25,000. These are illustrative allocations, not standard costs; an actual family should adapt the categories and amounts to its income, location and needs."
+          ]
+        ],
+        [
+          4,
+          "Explain four ways to support older people without reducing their independence.",
+          [
+            "Ask about their preferences and the tasks for which they want help.",
+            "Offer appropriate practical assistance while allowing them to continue activities they can and wish to manage.",
+            "Include them in family conversation and decisions rather than speaking as if they are absent.",
+            "Respect privacy and avoid making assumptions from age alone. Support should respond to the individual, with responsible adults handling specialised care needs."
+          ]
+        ],
+        [
+          4,
+          "Design a fair household-duty chart for a fictional family.",
+          [
+            "List recurring tasks such as arranging belongings, preparing meals, cleaning shared spaces and purchasing supplies.",
+            "Discuss members' time, abilities and existing workload before assigning suitable responsibilities.",
+            "Use rotation where practical and include shared tasks, avoiding labels such as 'boys' work' or 'girls' work'.",
+            "Review the chart regularly and adapt it during illness or other changes. Children's tasks should remain safe and limited, and adults retain responsibility for hazardous work."
+          ]
+        ],
+        [
+          4,
+          "Explain how careful planning can conserve water, electricity, fuel and materials.",
+          [
+            "Water: use suitable amounts for tasks and arrange repair of leaks through responsible adults.",
+            "Electricity: avoid leaving unnecessary appliances operating and use daylight where practical.",
+            "Fuel: plan suitable shared journeys or nearby errands to avoid unnecessary trips, considering safety and access.",
+            "Materials: maintain and reuse useful items and buy realistic quantities. Conservation should meet essential needs efficiently, not deny them."
+          ]
+        ],
+        [
+          4,
+          "A budget shows repeated overspending. Explain how to review it without blaming family members.",
+          [
+            "Compare planned and actual amounts to identify which categories differ.",
+            "Discuss reasons such as changing prices, overlooked necessities or unrealistic original estimates.",
+            "Agree on feasible adjustments and priorities, distinguishing essential needs from postponable spending.",
+            "Keep records and review the revised plan together. A budget is a planning tool, not proof that hardship results from individual failure."
+          ]
+        ],
+        [
+          5,
+          "Develop a school activity connecting household responsibility with social responsibility.",
+          [
+            "Begin with a fictional household and ask what tasks make shared daily life possible.",
+            "Discuss fair contributions according to age and ability, explicitly questioning gender stereotypes.",
+            "Connect the same principles with a suitable school task, such as organising shared learning materials.",
+            "Let learners plan roles, carry out the safe task and reflect on how their contribution affects others.",
+            "Assess cooperation and thoughtful explanation, not children's private home circumstances. Emphasise that responsible participation includes seeking help and respecting limits."
+          ]
+        ],
+        [
+          5,
+          "Explain the complete process of preparing and reviewing a family budget.",
+          [
+            "Identify the budgeting period and estimate income realistically, noting uncertainty where income varies.",
+            "List essential regular expenses and likely irregular commitments rather than relying only on last month's spending.",
+            "Allocate available income among priorities and feasible savings, checking the arithmetic and adjusting the plan if it exceeds income.",
+            "Record actual expenditure during the period and discuss significant differences respectfully.",
+            "Use the records to revise the next budget and respond to changed needs. The process helps make informed choices but cannot by itself solve inadequate income or unexpected hardship."
+          ]
+        ],
+        [
+          5,
+          "Plan a classroom lesson on caring for family members respectfully.",
+          [
+            "Use an age-appropriate fictional situation involving a family member who needs everyday assistance.",
+            "Ask learners to identify the person's preferences and needs rather than assuming that care means taking over all decisions.",
+            "Discuss suitable supportive actions such as companionship or help with simple agreed tasks, while leaving medical and hazardous responsibilities to adults and professionals.",
+            "Use role-play to practise asking permission, listening and offering help without pity or ridicule.",
+            "Reflect on dignity, boundaries and shared responsibility. Do not require disclosure of learners' private family or health situations."
+          ]
+        ],
+        [
+          5,
+          "Explain how a resource-conservation project can avoid becoming only a poster competition.",
+          [
+            "Choose a specific, observable issue in the school, such as paper being discarded after one-sided use.",
+            "Record a simple starting picture of the issue without collecting unnecessary personal information.",
+            "Plan a feasible change, such as a box for suitable reusable paper, with clear responsibility.",
+            "Try the change and review whether materials are actually reused and whether any access or hygiene concerns arise.",
+            "Use a poster only to communicate the agreed practice. Learning comes from investigating, acting and evaluating, not from decoration alone."
+          ]
+        ],
+        [
+          5,
+          "Discuss the relationship between self-reliance and mutual care in family life.",
+          [
+            "Self-reliance develops through managing suitable responsibilities, such as organising one's belongings.",
+            "Mutual care recognises that people also depend on one another and may need different kinds of support.",
+            "Fair sharing prevents independence from being confused with expecting everyone to manage without help.",
+            "Respectful communication allows family members to state needs and contribute according to their abilities and circumstances.",
+            "Together, these principles support a household in which people act responsibly and assist one another without humiliation, rigid gender roles or unreasonable burdens on children."
+          ]
+        ]
+      ]
+    }
+  ]
+}

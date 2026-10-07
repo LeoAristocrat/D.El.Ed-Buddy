@@ -370,7 +370,7 @@
           "question": "Mention one demerit of naturalistic observation.",
           "marks": 1,
           "answer": [
-            "The observer cannot control events, so an important behaviour may not occur during the observation period."
+            "The observer cannot control or repeat the situation, and may interpret what is seen through personal expectation. Behaviour that is rare or unusual is easily missed, since it may simply not occur while the observer is watching."
           ],
           "status": "verified",
           "occurrences": [
@@ -388,15 +388,21 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-017",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-3-a",
           "question": "Distinguish between growth and development.",
           "marks": 2,
           "answer": [
-            "Growth generally means measurable increases in bodily size, such as height or weight.",
-            "Development is broader: changes in abilities and functioning, such as learning to reason, communicate or cooperate; physical growth is one part of it."
+            "Growth and Development",
+            "Growth is quantitative and measurable — height, weight, girth, vocabulary count — and it stops when physical growth ceases around the end of adolescence. Development is qualitative and quantitative change in function and behaviour; it continues well into adulthood and is measured by rating scales, observation and teacher judgement. Growth is chiefly biological; development is biological and environmental. The child who grows 11 cm in a year has grown; the child who learns to hold a pencil has developed."
           ],
           "status": "verified",
           "occurrences": [
@@ -407,16 +413,25 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-070",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-1-2021-4-a",
           "question": "Briefly explain the principles of growth and development.",
           "marks": 3,
           "answer": [
-            "Development is an ongoing process in which earlier abilities support later ones, although its pace changes.",
-            "There are broad patterns, such as improving head control before standing and broad movements before precise manipulation, with individual variation.",
-            "Physical, cognitive, language and social-emotional development are interconnected and shaped by interacting biological and environmental influences."
+            "The principles of development are the working rules that let us predict what a normally developing child should be doing at a given age. The four most commonly listed are attributed to Edgar Arnold Hurlock.",
+            "1. Cephalocaudal — head to toe. Control appears first in the muscles of the head and neck, then the trunk and shoulders, then the arms, then the legs and feet. An infant controls the head before the hands, and the hands before the feet.",
+            "2. Proximodistal — centre outward. Control moves outwards from the central nervous system and trunk to the extremities: shoulders, then elbow, then wrist, then fingers. The whole arm moves before the digits can be moved separately.",
+            "3. Development is a continuous process. There is no sudden jump from stage to stage; a skill acquired today rests on what was built yesterday. This is why gaps in the foundation cannot be repaired cheaply later.",
+            "4. The rate of development is uneven. Physical growth is rapid in infancy, slows in early childhood and surges again at puberty; language is explosive between two and five; abstract reasoning is a late bloomer.",
+            "Two further principles are widely used. Integration — development in one domain supports the others, since secure language lets a child join in with peers, and accepted peers give the confidence to attempt harder cognitive tasks. Individual difference — the sequence is broadly common to all children, but the rate, the intensity and the final pattern vary. Development follows a general sequence, not a uniform timetable."
           ],
           "status": "verified",
           "occurrences": [
@@ -427,7 +442,13 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-017",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-6",
@@ -490,7 +511,7 @@
           "question": "What is development?",
           "marks": 1,
           "answer": [
-            "Development is the process of change in a person’s capacities and functioning across physical, cognitive, language and social-emotional domains."
+            "Development is the progressive series of orderly, coherent changes, qualitative as well as quantitative, by which the child comes to function at progressively higher levels of physical, mental, social and emotional organisation."
           ],
           "status": "verified",
           "occurrences": [
@@ -501,14 +522,20 @@
               "paper": "/downloads/pyqs/2022/s1-1-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-028",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2022-1-c",
           "question": "Which stage is called the age of questioning?",
           "marks": 1,
           "answer": [
-            "Early childhood, roughly 2–6 years, is commonly called the age of questioning because children frequently ask about the world around them."
+            "Early childhood, roughly two to six years, and especially around four — the age when a child begins asking 'why' about everything. This falls in Piaget's pre-operational stage, so the questions are intuitive rather than logical."
           ],
           "status": "verified",
           "occurrences": [
@@ -519,7 +546,13 @@
               "paper": "/downloads/pyqs/2022/s1-1-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-030",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2022-13",
@@ -547,9 +580,8 @@
           "question": "Write a short note on the case study method.",
           "marks": 3,
           "answer": [
-            "A case study is a detailed examination of a child or situation in its context over time.",
-            "The teacher combines observations, interviews, work samples and relevant background rather than depending on one score.",
-            "It supports individual understanding and planning, but requires confidentiality and care because one case cannot represent all children."
+            "Case study",
+            "A case study is a detailed, comprehensive, longitudinal study of a single individual, family, group or community, combining many sources of data over time in order to understand the whole rather than one part. It is the opposite of the controlled experiment: where an experiment isolates one variable by controlling everything else, the case study deliberately gathers everything. In use, the case is built from multiple sources — school records, observation, interviews with the child, parents and teacher, medical history, the child's own drawings, and the reflective journal — and organised chronologically, with three strands kept visible: what happened, how the child responded, and what the child's own account was. Because this is the tool the School Internship Programme requires, the essential discipline is not to report only the difficulties. Handle it as a professional confidential document, not gossip."
           ],
           "status": "verified",
           "occurrences": [
@@ -560,14 +592,20 @@
               "paper": "/downloads/pyqs/2022/s1-1-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-016",
+            "selection": "label:i"
+          }
         },
         {
           "id": "s1-1-2023-1-a",
           "question": "Name one tool for collecting information about child development.",
           "marks": 1,
           "answer": [
-            "Anecdotal records of observed incidents are one tool."
+            "Naturalistic observation — systematic, unobtrusive watching of a child in a natural setting such as the playground or classroom. It becomes a tool only when the watching is planned, focused, timed and written down."
           ],
           "status": "verified",
           "occurrences": [
@@ -578,15 +616,21 @@
               "paper": "/downloads/pyqs/2023/s1-1-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-022",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-2-a",
           "question": "State two principles of growth and development.",
           "marks": 2,
           "answer": [
-            "Children develop at different rates, even where broad patterns are shared.",
-            "Developmental domains are interrelated: changes in movement, communication and relationships can influence one another."
+            "1. Cephalocaudal — development proceeds from head to toe, so control comes first in the muscles of the head and neck, then the trunk, then the arms, and last the legs. An infant holds the head before sitting.",
+            "2. Proximodistal — development proceeds from centre outward, so control moves from the trunk to the shoulder, elbow, wrist and finally the fingers."
           ],
           "status": "verified",
           "occurrences": [
@@ -604,15 +648,21 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-044",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-2-b",
           "question": "Give one merit and one demerit of naturalistic observation.",
           "marks": 2,
           "answer": [
-            "Merit: it records behaviour in an ordinary setting, such as free play, instead of relying only on answers to a test.",
-            "Demerit: events cannot be controlled, and observer expectations may influence what is noticed or recorded."
+            "Merit: it records behaviour as it really happens, without the child knowing he is being watched, so the data is free of the distortion that a test or a formal interview produces. It is also cheap, needs no equipment, and every teacher already does it informally.",
+            "Demerit: the observer cannot control or repeat the situation, so rare behaviour may simply not occur, and the recording is coloured by the observer's own expectations. Interpretation must therefore be kept strictly separate from description."
           ],
           "status": "verified",
           "occurrences": [
@@ -623,16 +673,23 @@
               "paper": "/downloads/pyqs/2023/s1-1-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-062",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-3-a",
           "question": "Explain the main differences between growth and development.",
           "marks": 3,
           "answer": [
-            "Growth usually refers to measurable increases in physical size, such as height and weight; development includes changes in capacities and organisation of behaviour.",
-            "Growth is largely described quantitatively; development is studied through both quantitative measures and qualitative observations of functioning.",
-            "Physical growth slows after maturity, while development and adaptation can continue across life. They are related, not opposing processes."
+            "Growth and development are often used as if they mean the same thing. They do not, and the distinction is the first thing a teacher has to be clear about.",
+            "Growth is a measurable, quantitative increase in the size, proportion and number of the body's parts — height, weight, girth, head circumference — and of vocabulary. It is expressed in objective units, and it is chiefly biological, arising from heredity, nutrition and endocrine functioning.",
+            "Development is the progressive series of orderly, coherent changes, qualitative as well as quantitative, by which the child comes to function at progressively higher levels of physical, mental, social and emotional organisation. It depends on opportunity, practice, relationships and culture.",
+            "The practical differences are four. Growth stops around the end of adolescence, development continues into adulthood. Growth is measured with instruments; development is assessed through observation and teacher judgement. Growth is an increase in quantity, development an increase in organisation and competence. And the two are bound together: development cannot proceed normally without adequate growth, but growth alone does not guarantee it — a child with healthy limbs may never learn to write because nobody taught them."
           ],
           "status": "verified",
           "occurrences": [
@@ -650,16 +707,22 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-3-b",
           "question": "Discuss merits and demerits of the case study method for collecting child-development data.",
           "marks": 3,
           "answer": [
-            "Its depth and use of several sources help connect a child’s behaviour with circumstances and identify individual support needs.",
-            "It can reveal patterns missed by a single test and provide a basis for monitoring change.",
-            "However, it is time-consuming, vulnerable to interpretive bias and cannot be generalised automatically; careful records, triangulation and confidentiality are essential."
+            "A case study is a detailed, comprehensive, longitudinal study of a single individual, family, group or community, combining many sources of data over time in order to understand the whole rather than one part. It is the tool the School Internship Programme requires.",
+            "Merits.\n- It gives the whole picture of a child — physical-motor, cognitive, language, social, emotional — which no single observation or interview can give.\n- It draws on many sources: school records, observation, interviews with child, parent and teacher, medical history, the child's own drawings, and the reflective journal.\n- Being longitudinal, it shows change over time rather than a single slice.\n- It is the only tool that captures the child's own account of their own life.",
+            "Demerits.\n- Time-consuming and demanding, needing skill in interviewing and record-keeping.\n- The observer's own expectations colour what is noticed — the classic error of believing one has seen a child objectively.\n- Findings cannot be generalised, since the sample is one case.\n- It carries an ethical risk and must be handled as a confidential professional document, not as gossip."
           ],
           "status": "verified",
           "occurrences": [
@@ -670,14 +733,20 @@
               "paper": "/downloads/pyqs/2023/s1-1-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2024-1-b",
           "question": "Mention one principle of development.",
           "marks": 1,
           "answer": [
-            "Development varies in rate between individuals."
+            "Cephalocaudal development — control appears first in the muscles of the head and neck, then the trunk and shoulders, then the arms, and last the legs and feet. An infant controls the head before the hands, and the hands before the feet."
           ],
           "status": "verified",
           "occurrences": [
@@ -688,15 +757,21 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-016",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2024-2-a",
           "question": "State one merit and one demerit of the case study method.",
           "marks": 2,
           "answer": [
-            "Merit: it provides a detailed, contextual understanding of an individual child using several sources.",
-            "Demerit: findings from one case cannot be assumed to represent every child and may be affected by researcher bias."
+            "Merit: it gives a comprehensive, multi-source, longitudinal picture of the whole person rather than one fragment, combining school records, observation, interviews with child, parents and teacher, medical history and the child's own drawings over time.",
+            "Demerit: it is very costly in time and effort, and because it studies one individual only, its findings cannot be generalised to a wider population. Handled badly it also becomes gossip — it must be kept as a confidential professional document."
           ],
           "status": "verified",
           "occurrences": [
@@ -707,16 +782,21 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-057",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2024-3-c",
           "question": "Distinguish between nature and nurture.",
           "marks": 3,
           "answer": [
-            "Nature refers to inherited characteristics and biological processes, including maturation.",
-            "Nurture refers to environmental influences such as nutrition, caregiving, learning and culture.",
-            "They interact: a child’s developing nervous system and opportunities to practise both contribute to motor skill, so the distinction does not mean they operate independently."
+            "Nature and Nurture",
+            "Nature is the heredity factor — the genes that set the pattern and timing of the growth curve, the temperament, the individual genetic endowment that explains why two children of the same age mature at different rates. Nurture is the environmental factor — nutrition, family and parenting, school and teacher, socio-economic status, culture, language and media, and the peer group and the shocks life brings. Development is the outcome of the two constantly interacting. Heredity supplies the potential, the timetable and the limits; environment supplies the stimulation that makes the most of that potential. Neither can be substituted for the other: a child with delayed growth may still show normal intellectual development in a responsive environment, and a child with average heredity given rich stimulation will go further than a better-endowed child denied opportunity. This is the point of the whole paper — the teacher does not change the genes, but decides how much of the child's potential is ever actually used."
           ],
           "status": "verified",
           "occurrences": [
@@ -727,7 +807,13 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-005",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-1-2024-7",
@@ -777,7 +863,7 @@
           "question": "Mention one advantage of a reflective journal.",
           "marks": 1,
           "answer": [
-            "It helps a teacher connect classroom evidence with changes in teaching and review whether those changes helped."
+            "A reflective journal makes the observer's own thinking visible and therefore examinable, so it exposes the commonest error in child study — believing we have seen a child objectively when we have seen the child through our own expectations."
           ],
           "status": "verified",
           "occurrences": [
@@ -788,15 +874,22 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-2-a",
           "question": "Mention two factors influencing child development.",
           "marks": 2,
           "answer": [
-            "Biological factors, including inherited characteristics and maturation.",
-            "Environmental factors, such as nutrition, responsive care and opportunities to learn."
+            "Any two of the following:",
+            "1. Heredity — genes set the growth curve and its timing, temperament and rate of maturation; prenatal conditions such as maternal nutrition, illness, prematurity and low birth weight can damage a developmental process before it has begun.",
+            "2. Environment — nutrition, family and parenting, school and teacher, socio-economic status, culture and language, and the peer group. Of these the teacher most directly controls the school environment and the peer climate."
           ],
           "status": "verified",
           "occurrences": [
@@ -807,16 +900,22 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-052",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-3-a",
           "question": "Write a short note on naturalistic observation.",
           "marks": 3,
           "answer": [
-            "Naturalistic observation systematically records behaviour in an ordinary setting without deliberately manipulating it.",
-            "A teacher may record turn-taking during free play, noting context, actions and words separately from interpretation.",
-            "It offers authentic detail but limited control and possible observer bias; repeated observations, confidentiality and comparison with other evidence improve its usefulness."
+            "Naturalistic observation",
+            "Naturalistic observation is the systematic, unobtrusive watching of a child in a setting in which the child behaves naturally — the playground, the classroom, the home, the Anganwadi centre. The observer does not organise the situation; it is allowed to occur, and the observer records what happens. Every teacher does this informally all day, but it becomes a tool of data collection only when the watching is planned, focused on a stated behaviour, timed and written down.",
+            "In use: decide first what you are looking at and write it down — for instance, 'the number and kind of social interactions during free play in the first fifteen minutes' — then choose the setting and the time, obtain permission, and position yourself where you can see without becoming the centre of attention. Keep columns for date, setting and observed behaviour, and keep interpretation strictly separate from description, because mixing the two is the commonest way good observation becomes useless."
           ],
           "status": "verified",
           "occurrences": [
@@ -827,17 +926,26 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-008",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-1-2025-6",
           "question": "Define growth and development and explain two principles.",
           "marks": 4,
           "answer": [
-            "Growth means measurable increase in bodily size, such as height or weight.",
-            "Development includes changes in capacities and functioning across physical, cognitive, language and social-emotional domains.",
-            "Individual variation: children differ in pace, so one timetable cannot be imposed on every learner.",
-            "Interrelation: progress in one domain can support another, as improved movement creates opportunities for exploration and interaction."
+            "Growth and development are related but not the same, and the difference matters more in a classroom than the two words suggest.",
+            "Growth is a measurable, quantitative change in the physical — height, weight, girth, head circumference, or the number of vocabulary words a child owns. It can be expressed in objective units and recorded on a measuring scale. Development is the progressive series of orderly, coherent changes, qualitative as well as quantitative, by which the child comes to function at progressively higher levels of physical, mental, social and emotional organisation.",
+            "The two are supply and use. Growth supplies the raw material on which development builds. A child with healthy limbs may never learn to write because nobody taught them; a child with delayed growth may show entirely normal intellectual development in a responsive environment. Growth largely stops at the end of adolescence, while development continues well into adulthood. Development cannot proceed normally without adequate growth, and growth alone does not guarantee development.",
+            "Two principles of development, most commonly attributed to Edgar Arnold Hurlock:",
+            "**1. Cephalocaudal — development proceeds from head to toe.** Control appears first in the muscles of the head and neck, then the trunk and shoulders, then the arms, and last the legs and feet. An infant controls the head before the body, and the hands before the feet. The practical consequence is that an infant who is never allowed to lie on the floor and lift the head is being held back at the very start of the direction development will take.",
+            "**2. Proximodistal — development proceeds from the centre outward.** Control moves outwards from the central nervous system and trunk to the extremities: shoulder, then elbow, then wrist, then fingers. At first the whole arm moves as one piece; only later do the individual digits become controllable. This is why a young child holding a crayon in a tight fist eventually develops a proper pencil grip, and why rushing a child to write before the shoulder, elbow and wrist are steady produces a weak, painful grip and a lifelong dislike of writing.",
+            "Two further principles are commonly added: that development is a continuous process with no sudden jumps, so that gaps in the foundation cannot be repaired cheaply later; and that the rate of development is uneven, with physical growth rapid in infancy, language explosive between two and five, and abstract reasoning a late bloomer."
           ],
           "status": "verified",
           "occurrences": [
@@ -848,7 +956,13 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-11",
@@ -877,7 +991,7 @@
           "question": "Mention one advantage of anecdotal records.",
           "marks": 1,
           "answer": [
-            "They preserve a concrete example of a child’s behaviour with its context, helping a teacher review evidence rather than rely on memory."
+            "An anecdotal record captures a single significant incident while it is still fresh, and over a term these little entries become the raw material from which patterns in a child's behaviour begin to emerge."
           ],
           "status": "verified",
           "occurrences": [
@@ -888,15 +1002,21 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-002",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2026-2-b",
           "question": "State one merit and one demerit of the interview method.",
           "marks": 2,
           "answer": [
-            "Merit: it allows clarification and exploration of a child’s or caregiver’s perspective.",
-            "Demerit: leading questions or pressure to please the interviewer may distort responses."
+            "Merit: an interview reaches information no observation can. The parent tells us the language used at home, feeding, health, discipline and early worries — the years the child cannot report himself — and the child interview is the only way to hear the child's own account of school, fears and likes.",
+            "Demerit: what we get is a report, not a fact. Parents may forget, exaggerate or say what they think we want, and the child's own memory and language may be limited. Answered well it gives depth, but it must never stand alone."
           ],
           "status": "verified",
           "occurrences": [
@@ -907,18 +1027,23 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-043",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2026-7",
           "question": "Discuss the stages of child development and their characteristics.",
           "marks": 5,
           "answer": [
-            "A useful broad sequence is prenatal development, infancy/toddlerhood, early childhood, later childhood and adolescence; age boundaries vary between frameworks.",
-            "Prenatal development forms body systems. Infancy and toddlerhood, roughly birth–2, bring rapid growth, attachment, emerging movement and communication.",
-            "Early childhood, roughly 2–6, brings symbolic play, curiosity, expanding language and growing independence.",
-            "Later childhood, roughly 6–12, involves more organised concrete reasoning, skilled activity, friendships and group responsibility.",
-            "Adolescence includes puberty, identity exploration and increasing capacity for abstract thought. These broad patterns should guide observation, not stereotypes or rigid expectations."
+            "Development is not a smooth ramp but a series of qualitatively distinct periods, each with its own characteristic rate, style and dominant task. For elementary teacher education the childhood years are arranged in four periods.",
+            "- Infancy (birth to 2 years). Physical growth is rapid and almost uninterrupted; sensory and motor control advances; speech begins. The dominant task is trust and secure attachment, first autonomy, and the laying of language foundations. Growth in these three years is so fast that the child roughly doubles its birth weight in four to six months and triples it by the end of the first year, which is why infant nutrition is a matter of urgency rather than refinement.\n- Early childhood (2 to 6 years). Physical growth slows noticeably while language, cognition and imagination develop dramatically. Attention span is short, learning is by play, and social play moves from parallel towards cooperative. The dominant task is initiative, the mastery of language, and pre-operational thinking.\n- Late childhood (6 to 12 years). Growth is steady and slow, fine motor skills are refined, reasoning becomes logical and concrete, and the peer group grows more important than the adult. The dominant task is industry and achievement — the child wants to be competent at something. This is the elementary school, and everything a D.El.Ed teacher does is aimed at it.\n- Adolescence (12 to 18 years). The pubertal growth spurt arrives, emotion becomes intense and rapidly shifting, abstract reasoning begins, and identity is in question. The dominant task is identity and self-definition, with formal operational thinking emerging unevenly.",
+            "Three characteristics of development as a whole belong with these stages. Growth is not linear but sporadic and roughly sigmoid — slow at first, rapid in infancy, a pause in middle childhood, and a second surge at puberty; the most dramatic phase of all is prenatal and the first two years. Development is continuous, with no sudden jumps, so every skill acquired today rests on what was built yesterday, which is why a gap in the foundation cannot be repaired cheaply later. And the rate is uneven and individual difference is normal: within one child one domain may be well ahead of another, and while the sequence is broadly common to all children, the rate, the intensity and the final pattern vary.",
+            "Which is why a stage describes what most children do, and is not a timetable on which any individual child is to be graded."
           ],
           "status": "verified",
           "occurrences": [
@@ -929,18 +1054,23 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2026-8",
           "question": "Name four tools for collecting child-development information and explain with an example how a teacher can use it.",
           "marks": 5,
           "answer": [
-            "Four tools are naturalistic observation, interviews, anecdotal records and a reflective journal.",
-            "Observation and incident records document actions in context; interviews add the child’s or caregiver’s perspective, while reflection helps examine the teacher’s response.",
-            "For example, a child who avoids writing may manipulate blocks confidently but struggle with a thin pencil.",
-            "The teacher can discuss the pattern with the family, offer an easier grip and alternative ways to respond, and record progress across several lessons.",
-            "Persistent difficulty can prompt appropriate referral. Information should support teaching, remain confidential and never become a diagnosis based on one incident."
+            "The six tools of child study in this paper are naturalistic observation, interviews, case studies, anecdotal records, reflective journals and clinical methods. Four may be described here; clinical methods, the sixth, are diagnostic and belong to trained professionals.",
+            "- Naturalistic observation. Systematic, unobtrusive watching of a child in a setting where the child behaves naturally — the playground, the classroom, the home, the Anganwadi. The observer does not organise the situation but records what occurs. It becomes a tool only when the watching is planned, focused on a stated behaviour, timed and written down.\n- Interviews. Conversations held with a purpose, in two forms. The parent interview elicits history, habits, the language used at home, feeding, discipline, health and developmental concerns — the indispensable source of information about the early years that the child cannot supply. The child interview elicits the child's own account of family, school, fears and worries.\n- Case studies. A detailed, comprehensive, longitudinal study of a single child, family or group, built from many sources over time. Where an experiment isolates one variable by controlling everything else, the case study deliberately gathers everything.\n- Anecdotal records. A brief written account of a single significant incident, recorded the same day, in plain descriptive language. Where a case study is a book, an anecdotal record is a postcard — and it is the tool most likely to be used every day by a working teacher.",
+            "How children's data helps the teacher — a worked example. In a Class II in a rural Assamese-medium school a teacher keeps a small notebook. One entry reads: 'Ranju asked three times to go to the toilet in one period and did not ask again.' That is data; 'Ranju was a nuisance' is not. A month of such entries, kept in columns for date, setting and observed behaviour, turns one impression into a pattern — and a pattern lets the teacher do four things she could not do before. It tells her the children in her charge individually, so that Ranju is no longer read as careless but as possibly anxious. It groups children by need instead of by ability, so that a child who has never handled scissors is given real material rather than another worksheet. It measures the effect of her own teaching, since a fall in teasing after she introduced a turn-taking routine is evidence rather than opinion. And it supplies the raw material for the work she is formally required to do, namely the case study in the School Internship and the report on the parent interviews.",
+            "One caution has to end the answer. Five of the six tools are tools of description, not diagnosis. Careful data does not make a teacher qualified to call a child autistic or disabled; what it lets her do is notice, record, consult and refer — which is exactly what is asked of her."
           ],
           "status": "verified",
           "occurrences": [
@@ -951,7 +1081,13 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-005",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -1324,7 +1460,7 @@
           "question": "Give one example of play based on motor development.",
           "marks": 1,
           "answer": [
-            "Throwing and catching a soft ball develops gross motor coordination."
+            "Skipping with a rope, or hopping on one foot and then clapping the hands overhead, is play based on motor development — it exercises the large muscles of the trunk and legs and builds balance, strength and coordination."
           ],
           "status": "verified",
           "occurrences": [
@@ -1335,15 +1471,21 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-034",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-2-a",
           "question": "What is constructive play? Give an example.",
           "marks": 2,
           "answer": [
-            "Constructive play involves arranging or shaping materials to make something.",
-            "For example, building a bridge with blocks develops hand control, coordination and planning."
+            "Constructive play is play in which the child builds, arranges or makes something out of materials, using fine motor skill, imagination and planning together. The product matters less than the designing.",
+            "Example: a group of children given wooden blocks, empty matchboxes and a sheet of chart paper, asked to build a bridge strong enough to hold a book. They plan, measure, lay the base, test it and rebuild it when it topples — which is at once construction, problem solving, cooperation and real practice of the pincer grip and wrist control that writing needs."
           ],
           "status": "verified",
           "occurrences": [
@@ -1354,15 +1496,21 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-066",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-2-c",
           "question": "Mention four factors affecting motor development.",
           "marks": 2,
           "answer": [
-            "Biological maturation and health/nutritional status.",
-            "Opportunities for safe movement practice and encouragement from caregivers or teachers."
+            "Four influences worth naming:",
+            "- Opportunity and practice — movement must be practised to exist, so a child kept constantly carried or seated gets far less of it.\n- Nutrition and health, which supply the muscle and bone the movement is made of.\n- Space and safety — a courtyard, a field, a protected play period.\n- Emotional security, because a child who expects to be shouted at will not risk a difficult movement."
           ],
           "status": "verified",
           "occurrences": [
@@ -1380,15 +1528,21 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-045",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-3-c",
           "question": "Distinguish between growth and maturation.",
           "marks": 2,
           "answer": [
-            "Growth refers to quantitative bodily changes, such as an increase in height.",
-            "Maturation refers to biological changes in readiness and functioning, such as improved neuromuscular control; it interacts with health and experience."
+            "Growth is the quantitative increase in size, weight, length or girth, measurable in objective units. Maturation is the genetically determined unfolding of physical and neurological potential that makes new behaviour possible.",
+            "Growth depends on genes plus nutrition, health and endocrinology; maturation depends chiefly on biological programming and is almost independent of practice. Growth gives a bigger body; maturation gives a body capable of new performance — which is why grouping strictly by birth date repeatedly disadvantages the youngest-maturing child."
           ],
           "status": "verified",
           "occurrences": [
@@ -1406,15 +1560,21 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-047",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-3-d",
           "question": "Distinguish between fine and gross motor skills.",
           "marks": 2,
           "answer": [
-            "Fine motor skills require precise movements, especially of hands and fingers, as in fastening a button.",
-            "Gross motor skills involve larger muscle groups and whole-body coordination, as in running or jumping."
+            "Gross motor movement uses the large muscles of the trunk, shoulders, thighs and arms — walking, running, jumping, skipping, climbing, throwing, catching, swimming. Fine motor movement uses the small muscles of the fingers, hands and wrists — grasping, pincer grip, drawing, colouring, writing, cutting, threading, buttoning.",
+            "Gross motor is acquired earlier and follows the cephalocaudal direction; fine motor comes later, follows the proximodistal direction, and directly determines school readiness in writing and drawing."
           ],
           "status": "verified",
           "occurrences": [
@@ -1439,7 +1599,13 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-048",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-5",
@@ -1511,7 +1677,7 @@
           "question": "Define fine motor skill.",
           "marks": 1,
           "answer": [
-            "A fine motor skill is a precise, coordinated movement, especially of the hands and fingers, such as picking up a small object."
+            "Fine motor skill is the ability to use the small muscles of the hands, wrists and fingers together with hand-eye coordination — grasping, pincer grip, holding a pencil, colouring, cutting, threading beads and buttoning."
           ],
           "status": "verified",
           "occurrences": [
@@ -1529,15 +1695,21 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-2-c",
           "question": "Explain gross motor skills with examples.",
           "marks": 2,
           "answer": [
-            "Gross motor skills coordinate large muscle groups for movement, balance and posture.",
-            "Examples include running, jumping and throwing a ball."
+            "Gross motor skills are the movements made with the large muscles of the trunk, shoulders, arms and thighs. They are acquired earlier, practised spontaneously, and depend chiefly on opportunity, space and safety.",
+            "Examples: sitting, crawling, standing, walking, running, jumping, skipping, hopping, climbing, throwing, catching, kicking, balancing and swimming. A two-brick balance beam, a hoop to jump through and a ball thrown at a target are all cheap classroom versions of the same practice. Deprivation shows up as weakness, poor balance and low stamina."
           ],
           "status": "verified",
           "occurrences": [
@@ -1548,16 +1720,23 @@
               "paper": "/downloads/pyqs/2023/s1-1-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-063",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-3-c",
           "question": "Explain the importance of gross and fine motor development.",
           "marks": 3,
           "answer": [
-            "Gross motor abilities support mobility, balance, play and physical participation.",
-            "Fine motor abilities support dressing, manipulating materials, drawing and other everyday tasks.",
-            "Together they support independence and access to learning; activities should be adapted so motor difficulty does not exclude a child from understanding or participation."
+            "Motor development is the acquisition of the capacity to move the body and its parts with increasing control, strength, accuracy and coordination. It is the domain in which the environment has the clearest and most immediate effect, because movement must be practised to exist.",
+            "Gross motor development uses the large muscles of trunk and limbs — sitting, crawling, walking, running, jumping, skipping, climbing, throwing and catching. It is acquired earlier, practised spontaneously, and depends chiefly on opportunity, space, safety and freedom. Its importance is fitness, balance, stamina and the confidence that lets a child join in; deprived of it, a child grows weak and poorly balanced.",
+            "Fine motor development uses the smaller muscles of hands, wrists and fingers and the coordination of hand and eye — grasping, pincer grip, holding a pencil, colouring within the lines, writing, cutting, buttoning and tying. It is slower, more easily delayed by opportunity deprivation, and it directly determines school readiness in writing and drawing. When it is delayed we see a poor pencil grip, painful writing and trouble with buttons and zips.",
+            "The two are linked: fine motor is built on the gross motor foundation, so hurrying a child to write before the shoulder, elbow and wrist are controlled produces weak grip and a lifelong dislike of writing. Free play is not a break from physical education — it is the main occasion on which most children get their gross motor practice."
           ],
           "status": "verified",
           "occurrences": [
@@ -1568,17 +1747,22 @@
               "paper": "/downloads/pyqs/2023/s1-1-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-5",
           "question": "Explain a teacher’s role in children’s physical and motor development.",
           "marks": 4,
           "answer": [
-            "Provide safe, accessible space and regular movement breaks, outdoor play and rest.",
-            "Offer varied activities: balancing and ball games for gross control, and clay, blocks or paper work for fine control.",
-            "Demonstrate movements, encourage practice and adapt equipment and difficulty to individual needs without comparison or shame.",
-            "Observe progress, communicate with families and seek appropriate assessment for persistent concerns; teachers support development but do not diagnose disorders."
+            "Motor development is the domain in which the school environment has the clearest and most immediate effect, because movement must be practised in order to exist. A child who is not given space, time, equipment and safety cannot practise, and the capacity stays unused whatever the genes may have provided for. So what a teacher supplies is provision, in five forms.",
+            "- Space. A safe indoor or covered space for movement, a marked playing area, and room to move between desks rather than a corridor into which a running child is a nuisance. In a school with no ground, a modest strip levelled and cleared is worth a great deal.\n- Time. A play period protected in the timetable, protected meaning it will not be given away on a wet morning or before an examination. Free play is not a break from physical education; it is the main occasion on which most children get their gross motor practice at all.\n- Equipment. Simple and cheap is enough: balls of several sizes, skipping ropes, rings and hoops, a climbing frame, two bricks laid as a balance beam, chalk for drawing courts, and targets for throwing. Nothing need be bought in bulk; much of it can be made by the children themselves.\n- A developmental sequence. Order the skills from the one the class can do to the next, give each adequate practice, let it be practised at the easier level, and raise the demand only then. For fine motor, use real materials in ordinary routines — drawing, colouring, cutting paper, threading beads, gripping a brush, clay modelling, chalk on the slate — rather than worksheets asking a child to trace shapes their fingers cannot yet control.\n- Correct seating and a limit on fatigue. Furniture that fits the child, with the desk at elbow height and the chair deep enough to support the popliteal space, and no long unbroken stretch of sitting. Chronic poor seating is a genuine cause of later postural and spinal problems.",
+            "Two qualifications make this real rather than decorative. Motor provision is usually unequal — the large clumsy child pushed to the back, the girl kept away from the climbing frame, the child with a disability seated apart — so the teacher's grouping decides whether every child actually practises. And the teacher must watch: a child well behind the class in motor development is not lazy, and observation plus a plain conversation with the parent extends that child's practice hours at home, where most of them happen."
           ],
           "status": "verified",
           "occurrences": [
@@ -1603,15 +1787,21 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2024-2-b",
           "question": "How does play help motor development?",
           "marks": 2,
           "answer": [
-            "Movement games such as balancing and running practise gross motor coordination.",
-            "Manipulative play with blocks or clay practises precise hand movements through enjoyable repetition."
+            "Play is how most children actually get their motor practice, so it does two things. It supplies the opportunity, space and repetition that movement needs — running, jumping, climbing, throwing and catching cannot be learned from a book. And it builds the foundation in the right order: a child who cannot control the shoulder, elbow and wrist will grip a pencil weakly and painfully.",
+            "So removing play from the timetable is not saving time for study; it is removing the practice the writing will later depend on."
           ],
           "status": "verified",
           "occurrences": [
@@ -1622,14 +1812,20 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-058",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-1-a",
           "question": "What is maturation?",
           "marks": 1,
           "answer": [
-            "Maturation is the biologically influenced development of bodily structures and functions towards greater readiness and competence, interacting with experience and health."
+            "Maturation is the genetically determined, largely self-unfolding process by which the physical and neurological systems become capable of allowing new behaviours to appear, independent of and prior to any training."
           ],
           "status": "verified",
           "occurrences": [
@@ -1640,16 +1836,22 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-3-c",
           "question": "Explain parents’ role in physical and motor development.",
           "marks": 3,
           "answer": [
-            "Provide nutritious food, adequate rest, health care and a safe environment for movement.",
-            "Offer varied play and everyday practice, such as throwing a soft ball, building blocks or fastening clothes, with encouragement rather than pressure.",
-            "Notice progress and persistent difficulties, communicate with teachers and seek appropriate assessment while adapting activities to the child’s needs."
+            "A child develops motorically only through practice, and practice needs opportunity, material, time and safety. All four come from the parent, because for the young child the home is the entire motor world — the floor, the stair, the courtyard, the road.",
+            "- Allow movement instead of restricting it. Give an infant floor time rather than continuous carrying; let a toddler walk up the steps instead of being carried; keep an open outdoor space where messy active play is possible even in bad weather.\n- Supply the material of growth — food, sleep, health care and immunisation. A child who is underfed has no strength left to practise with.\n- Protect from injury. A hazardous staircase, an unguarded well, an open road and a stored pesticide are all motor hazards, and one fall can undo months of practice.\n- Give emotional security. A child who expects to be shouted at for spilling will not try to hold a cup steadily.",
+            "I have watched parents who consider sport unfashionable or unsafe for girls transmit that view silently and very effectively. Active parents model an active life, and that is the cheapest motor provision there is."
           ],
           "status": "verified",
           "occurrences": [
@@ -1667,7 +1869,13 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-001",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -2036,7 +2244,7 @@
           "question": "Mention one mental characteristic of childhood.",
           "marks": 1,
           "answer": [
-            "Curiosity: children actively seek explanations and explore how things work."
+            "Curiosity is the great mental characteristic of childhood. The child asks 'why' about everything, wants to know how things work, and learns best through activity, discovery and play rather than through verbal instruction."
           ],
           "status": "verified",
           "occurrences": [
@@ -2047,14 +2255,20 @@
               "paper": "/downloads/pyqs/2022/s1-1-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-031",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-1-b",
           "question": "Give one example of cognitive development.",
           "marks": 1,
           "answer": [
-            "A child learns to group objects by a shared property, such as sorting all round objects together."
+            "A four-year-old who sorts a heap of pencils by length and colour, and counts to ten with one object in hand, is showing cognitive development — the gain is not more knowledge but better organisation of what is already known."
           ],
           "status": "verified",
           "occurrences": [
@@ -2065,15 +2279,21 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-2-d",
           "question": "Briefly explain cognitive development.",
           "marks": 2,
           "answer": [
-            "Cognitive development is change in processes such as attention, memory, reasoning and problem-solving.",
-            "Children increasingly organise experience and use ideas or strategies, for example moving from trial-and-error matching towards sorting by an explicit rule."
+            "Cognitive development is the orderly change in perception, attention, memory, thinking, reasoning, problem solving and understanding. Three features matter: it is qualitative as well as quantitative — the child reorganises, not merely accumulates; it is constructive — the child actively selects, organises and tests; and it is stage-like in Piaget's account.",
+            "For a Class III child the practical point is simple: build on concrete material, let the child do the conservation experiment before you name the rule, and let a wrong answer be argued about rather than simply marked wrong."
           ],
           "status": "verified",
           "occurrences": [
@@ -2084,16 +2304,22 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-055",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-4",
           "question": "Explain three factors influencing cognitive development.",
           "marks": 3,
           "answer": [
-            "Biological maturation and health influence attention, energy and readiness for learning.",
-            "Active experience with objects and problems helps children build, test and reorganise ideas.",
-            "Social interaction and accessible language allow explanation, discussion and guidance; these influences work together with the child’s efforts to make sense of experience."
+            "Cognitive development is the orderly change in perception, attention, memory, thinking, reasoning and understanding. Like all development it is the outcome of heredity and environment interacting, but the cognitive domain is especially sensitive to one thing — the quantity and quality of language the child hears.",
+            "- Genetic and biological endowment. Genes set the size and structure of the brain, its efficiency and the timing of neural development. Prenatal nutrition, maternal illness, birth complications and later health affect it directly, and damage in the prenatal period and the first two years is the hardest to compensate for.\n- Language and communication. Vocabulary, memory and reasoning all grow on talk. The gap in vocabulary at school entry is one of the best-known predictors of later attainment.\n- Stimulation, experience and opportunity. Books and materials, guided play, contact with adults and older children, and encouragement to ask, guess, try, fail and try again.\n- Family, school and socio-economic conditions — parental expectations, class size, quality of instruction, and the quiet place and the books the household can actually provide.",
+            "The child's own motivation, effort, attention and self-concept form a fifth group, interacting with all the others."
           ],
           "status": "verified",
           "occurrences": [
@@ -2111,17 +2337,25 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-002",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-8",
           "question": "Describe Piaget’s stages of cognitive development.",
           "marks": 4,
           "answer": [
-            "Sensorimotor, approximately birth–2 years: learning through action and perception, with developing object permanence.",
-            "Preoperational, approximately 2–7: symbolic language and pretend play expand, while reasoning may focus on one striking feature.",
-            "Concrete operational, approximately 7–11: logical operations such as conservation, classification and reversibility develop in relation to concrete situations.",
-            "Formal operational, approximately 11 onward: hypothetical and abstract reasoning become possible. Ages are theoretical approximations; performance varies with experience, task and context."
+            "Jean Piaget (1896–1980), a Swiss psychologist, proposed that cognitive development passes through an invariable sequence of four qualitatively distinct stages, each with its own structure of thought. The sequence is fixed; the ages at which children enter the stages vary.",
+            "1. Sensorimotor stage (0 to 2 years). The infant knows the world through the senses and through movement. Knowledge begins with the mouth and the hands, and everything is learned by doing rather than by being told. Two achievements mark the end of the stage: object permanence, the understanding that a thing continues to exist when it is out of sight, which is why a child who drops a toy under a blanket does not look for it; and goal-directed action, in which several actions are coordinated into a plan, such as pushing a chair to reach a shelf. Implication: learn by doing.",
+            "2. Pre-operational stage (2 to 7 years). The child acquires the symbolic function and can use one thing to stand for another, so a piece of wood becomes a doll and a folded paper a boat. Five characteristics follow: egocentrism, the inability to take another person's point of view, which is a stage limitation and not selfishness; intuition rather than logic; no conservation, so that the same water poured into a wider vessel is thought to have increased; centration, attending to one aspect and ignoring the rest; and irreversibility, the inability to undo an action mentally. Implication: learn through play.",
+            "3. Concrete operational stage (7 to 11 years). Logical operations become possible, but only on material that is present and visible. Four operations characterise the stage: conservation, reversibility, classification and seriation. Reversibility is what makes schoolwork checkable and self-correcting. The child is still substantially egocentric but can now take another's view. Implication: learn by doing, on concrete material.",
+            "4. Formal operational stage (11 years onwards). Thinking becomes abstract and hypothetical, though unevenly until the mid-teens. The adolescent can reason about possibilities, formulate and test hypotheses, consider a system as a whole, detect inconsistency in an argument, and think about thinking itself. Implication: learn by discussion and self-direction.",
+            "For a teacher there are two practical warnings: a child cannot be taught a stage of thought they have not reached, and a child cannot be held back in a stage they have passed."
           ],
           "status": "verified",
           "occurrences": [
@@ -2132,14 +2366,20 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2026-1-a",
           "question": "What is cognitive development?",
           "marks": 1,
           "answer": [
-            "Cognitive development is change in the child’s processes of knowing, including attention, memory, reasoning and problem-solving."
+            "Cognitive development is the sequential and orderly change in a child's mental processes — perception, attention, memory, thinking, reasoning, problem solving, understanding and symbolisation — by which the child acquires and organises knowledge."
           ],
           "status": "verified",
           "occurrences": [
@@ -2150,19 +2390,25 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2026-9",
           "question": "Name Piaget’s stages of cognitive development and explain their characteristics.",
           "marks": 6,
           "answer": [
-            "Piaget proposed sensorimotor, preoperational, concrete operational and formal operational stages.",
-            "Sensorimotor, approximately birth–2: infants learn through perception and action and develop more purposeful behaviour and object permanence.",
-            "Preoperational, approximately 2–7: symbols, language and pretend play expand; reasoning may be egocentric or centred on one feature.",
-            "Concrete operational, approximately 7–11: children increasingly conserve quantity, classify, order and reverse mental operations in concrete situations.",
-            "Formal operational, approximately 11 onward: learners can consider hypotheses, possibilities and abstract relations more systematically.",
-            "These are theoretical patterns rather than fixed age tests. Teachers should observe actual reasoning, use suitable materials and recognise effects of task familiarity, experience and context."
+            "Cognitive development is the sequential and orderly change in the mental processes of a child — perception, attention, memory, thinking, reasoning, problem solving, understanding and symbolisation — by which the child acquires and organises knowledge. Jean Piaget (1896–1980), a Swiss psychologist who studied his own three children over years and asked not what children know but how they think and why their mistakes change with age, gave the most influential account of it. Three ideas run through the theory: children pass through an invariable sequence of qualitatively distinct stages, each with its own structure of thought; knowledge is constructed by assimilation, fitting new experience into an existing scheme, and accommodation, changing the scheme to fit the experience; and the sequence is invariable while the ages at which children enter the stages are not.",
+            "**Stage 1 — Sensorimotor (0 to 2 years).** The infant knows the world through the senses and through movement. Knowledge begins with the mouth and the hands, and everything is learned by doing rather than by being told. Two achievements mark the end of the stage: object permanence, the understanding that a thing continues to exist out of sight, which is why a child who drops a toy under a blanket will not look for it; and goal-directed action, in which several actions are coordinated into a plan, such as pushing a chair to reach a shelf. Implication: learn by doing.",
+            "**Stage 2 — Pre-operational (2 to 7 years).** The child acquires the symbolic function and can use one thing to stand for another — a piece of wood is a doll, a folded paper a boat — which is the foundation of pretend play, drawing, language and all later abstract thought. Five characteristics follow. Egocentrism, the inability to take another's point of view, which is a stage limitation and not selfishness, and is why a child who is 'wrong' in an argument genuinely cannot see the other side. Intuition rather than logic, so that it must be heavier because it is bigger. No conservation, so that water poured from a tall glass into a flat one is genuinely thought to have increased — the classic test of the transition. Centration, focusing on length or height and ignoring the rest. Irreversibility, the inability to undo an action mentally. Implication: learn through play.",
+            "**Stage 3 — Concrete operational (7 to 11 years).** Logical operations become possible, but only on material that is present and visible. Four operations characterise the stage: conservation; reversibility, the ability to undo an action mentally, which makes schoolwork checkable, revisable and self-correcting and is why the first real pleasure in arithmetic arrives at this age; classification, grouping by common properties and understanding that a thing belongs to several classes at once; and seriation, arranging objects along a quantitative dimension such as size. The child is still substantially egocentric but can now take another's view, which is why rule-governed team games and the peer group are so powerful. Implication: learn by doing, on concrete material.",
+            "**Stage 4 — Formal operational (11 years onwards).** Thinking becomes abstract and hypothetical, though unevenly until the mid-teens. The adolescent can reason about possibilities rather than facts, formulate and systematically test hypotheses, consider a system as a whole, detect inconsistency in an argument, and think about thinking itself. Mathematics, science, formal logic and abstract moral argument become genuinely accessible. Implication: learn by discussion and self-direction.",
+            "Two warnings follow directly for the classroom: a child cannot be taught a stage of thought they have not reached, and a child cannot be held back in a stage they have passed. In practice this means building the elementary curriculum on objects, blocks, apparatus and models, letting a Class III child perform the conservation experiment before naming it, and allowing dramatic and pretend play as a legitimate way of learning rather than a waste of time."
           ],
           "status": "verified",
           "occurrences": [
@@ -2173,7 +2419,13 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-006",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -2546,7 +2798,7 @@
           "question": "Give one example of social development in a child.",
           "marks": 1,
           "answer": [
-            "A child learns to take turns and share materials while playing with classmates."
+            "A five-year-old organising a game with three friends — common goal, shared plot, each taking a role — is showing social development, because this is cooperative play, the transition from playing beside others to playing with them."
           ],
           "status": "verified",
           "occurrences": [
@@ -2557,14 +2809,20 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-033",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-1-d",
           "question": "Define social development.",
           "marks": 1,
           "answer": [
-            "Social development is the growth of a child’s ability to form relationships, understand social expectations and participate with others."
+            "Social development is the progressive process by which a child acquires the knowledge, skills, attitudes and values needed to interact effectively with others, beginning with the family and extending to the wider community."
           ],
           "status": "verified",
           "occurrences": [
@@ -2575,14 +2833,20 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-035",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-1-e",
           "question": "What is positive feedback?",
           "marks": 1,
           "answer": [
-            "Positive feedback identifies something done well and encourages its continuation, for example, “You waited for your turn and listened to Rina.”"
+            "Positive feedback is a response that approves and reinforces what has been done — a nod of approval, a word of praise or a mark awarded for correct work — so that the behaviour is more likely to be repeated."
           ],
           "status": "verified",
           "occurrences": [
@@ -2593,14 +2857,20 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-036",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-1-f",
           "question": "Mention one social skill.",
           "marks": 1,
           "answer": [
-            "Cooperation: working with others towards a shared goal."
+            "Taking turns — waiting for a classmate's turn to speak, to use the slide or to finish first at the game. It is the simplest social skill and one of the hardest for a four-year-old to learn."
           ],
           "status": "verified",
           "occurrences": [
@@ -2618,14 +2888,20 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-020",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-1-g",
           "question": "Name two primary emotions.",
           "marks": 1,
           "answer": [
-            "Joy and fear are two commonly identified primary emotions."
+            "Any two of interest, distress, disgust, anger, fear and pleasure — these are the emotions of infancy, and the child's cry, gesture and facial expression carry all of them long before language does."
           ],
           "status": "verified",
           "occurrences": [
@@ -2636,15 +2912,21 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-038",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-2-d",
           "question": "Mention two strategies to develop social skills at school.",
           "marks": 2,
           "answer": [
-            "Use small cooperative tasks with rotating roles so every child practises sharing and responsibility.",
-            "Model listening and peaceful disagreement, then practise these through role-play with supportive feedback."
+            "1. Structured group games that push the child from parallel to cooperative play — common goal, divided roles, rules, turn-taking. This is the transition the early childhood period must make, and a teacher can actually make it happen.",
+            "2. Give every child a real part in class life — pairs or small groups for tasks, taking turns at the board, looking after the class plants. Social learning is not only peer learning; the teacher's own conduct is part of the social curriculum."
           ],
           "status": "verified",
           "occurrences": [
@@ -2655,16 +2937,22 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-069",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-4-b",
           "question": "Explain the importance of sports in social development.",
           "marks": 3,
           "answer": [
-            "Shared games create opportunities to cooperate, communicate and follow agreed rules.",
-            "Children practise fair play, taking turns and managing disappointment when supported by adults.",
-            "Inclusive teams build belonging and respect for different abilities; sport does not teach these values automatically if adults reward aggression or humiliation."
+            "Sports are not a break from real education in an elementary classroom; they are one of the main places where social development is actually practised.",
+            "- Learning the group. Team games are the clearest route from solitary and parallel play to cooperative play. A child who has organised a joint game with a common goal, a shared plot and divided roles has already learned group loyalty, rule-making and team feeling. The years of seven to twelve are exactly the years when formal games with rules and teams dominate play.\n- Learning fair dealing. Waiting for a turn, accepting a decision, losing without sulking and winning without gloating are learned nowhere else so cheaply. They are the small repeated situations in which self-control is actually built.\n- Learning the self. Sport gives a child a position — fast, strong, clever, persistent — that has nothing to do with family income, caste or marks. For many children that is the first experience of mattering for something they can succeed at, and it carries into classroom confidence.\n- Learning to include. Mixed-ability teams and rotated roles teach that everyone has a place, which is the practical answer to exclusion and teasing.",
+            "There is a real caution. If the teacher announces winners publicly and ranks children, competition turns into a fixed hierarchy and the losers withdraw. Sport builds social development when the game is the point, not the ranking."
           ],
           "status": "verified",
           "occurrences": [
@@ -2675,7 +2963,13 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-018",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-8",
@@ -2793,9 +3087,9 @@
           "question": "Describe language development in early childhood.",
           "marks": 3,
           "answer": [
-            "Vocabulary and sentence length usually grow rapidly as children move from short utterances to more complex expressions.",
-            "Children increasingly ask questions, recount experiences and use language in pretend play and conversation.",
-            "Grammar and turn-taking develop through meaningful interaction; progress varies and is influenced by language access and experience, so errors are useful signs of learning rather than reasons for ridicule."
+            "Language develops in a remarkably consistent sequence that runs right through the early childhood period. It begins with the cry, which differentiates by about two to three weeks so that a mother can tell hunger from pain or tiredness. From six weeks to six months comes cooing, and the infant turns towards a familiar voice by about four months. Between six and twelve months there is babbling, with first comprehension around nine to twelve months. The first word falls within a normal range of roughly nine to fifteen months, followed by two-word combinations such as \"my cup\" at twelve to eighteen months.",
+            "The great burst comes between two and five years, the most dramatic language growth of the whole developmental period. The child moves into short sentences with plurals, prepositions, questions and past tense, produces a simple narrative, and goes from roughly fifty words at two to well over a thousand by five.",
+            "What makes this happen is the adults around the child. Language develops through turn-taking, so a child whose word is answered learns that language produces results, while a child who is spoken over or ignored loses the incentive to speak. Reading aloud and story-telling are the most economical intervention a teacher has. Grammar errors should be accepted as signs of development, and the most damaging practice is public correction of every error, which teaches a child that speaking is dangerous."
           ],
           "status": "verified",
           "occurrences": [
@@ -2806,7 +3100,13 @@
               "paper": "/downloads/pyqs/2022/s1-1-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2022-7",
@@ -2835,9 +3135,10 @@
           "question": "Explain the role of competition in social development.",
           "marks": 3,
           "answer": [
-            "Fair, age-appropriate competition can provide practice in following rules, effort and accepting outcomes.",
-            "Excessive ranking or humiliation may encourage anxiety, exclusion or hostility rather than cooperation.",
-            "Teachers should balance it with shared goals, inclusive participation and feedback on improvement so winning is not the only source of worth."
+            "Social development is the process by which a child learns to become a member of a group, to cooperate and compete, to resolve conflict, and to see the self as others see it. Competition is one of the two ways children learn this, the other being cooperation, and a child needs both.",
+            "Constructive competition teaches a great deal. Between seven and twelve years, formal games with rules and teams dominate play, and this is exactly where the peer group holds real power, because a child's status among peers is settled in these games. A rule-governed game is where a child learns to wait for a turn, accept a decision, lose without crying, follow an agreed procedure and work towards a shared goal with other people. The child who is never picked, however, learns early that being left out is normal — and that is a heavy lesson to unlearn later.",
+            "But competition can turn destructive. When the adult running the activity compares children publicly, ranks them and rewards only the winner, competition becomes a fixed hierarchy in which the loser withdraws. The shy child stops trying, the aggressive child dominates, and the group learns that some people are not worth competing with at all.",
+            "So I would keep competition inside the rules of a game — mixed-ability teams, rotated roles — so that every child is on a winning side sometimes and the purpose stays the learning, not the ranking."
           ],
           "status": "verified",
           "occurrences": [
@@ -2848,16 +3149,23 @@
               "paper": "/downloads/pyqs/2022/s1-1-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2022-10",
           "question": "What is emotional development? Describe its stages.",
           "marks": 3,
           "answer": [
-            "Emotional development is the growth of emotional expression, understanding and regulation.",
-            "Infants communicate distress and pleasure with caregiver support; young children increasingly name feelings and need help managing frustration.",
-            "In later childhood children become better at understanding mixed feelings, others’ perspectives and coping strategies. These are broad patterns with individual and cultural variation, not rigid stages."
+            "Emotional development is the progressive process by which a child acquires the capacity to experience, recognise, express and control emotions, to form an increasingly differentiated emotional repertoire, to become attached to people, and to share and understand the emotional states of others, so that a regulated, socially responsive and self-aware person is gradually formed. Emotion is the child's first language and the fastest means of communication — an infant who cannot speak communicates hunger, fear, anger, joy and distress entirely through face, body and cry.",
+            "Across the stages two things happen at once: the repertoire grows, and control improves.",
+            "- Infancy (0-2). Interest, distress, disgust, anger, fear, pleasure, with crying and gesture as the main language. Self-soothing appears and improves, attachment forms, and stranger and separation anxiety appear — the first evidence of an inner self.\n- Early childhood (2-6). Fantasy, pride, shame, guilt, jealousy and embarrassment join the list. Feeling becomes more language-expressed, dramatic play becomes the child's way of working things out, and self-control appears first in play and much later outside it.\n- Late childhood (6-12). A wide and well-differentiated repertoire — disappointment, relief, gratitude, resentment, loyalty, fear of failure. Good impulse control develops, the child can wait and postpone, and self-talk begins to regulate feeling. Pride and shame now depend on achievement and comparison.\n- Adolescence (12-18). Intense and rapidly shifting, with the full adult range of ambivalence, longing, resentment and idealism. Control is temporarily reduced by strong feeling and self-consciousness; mood swings and sensitivity to criticism are an ordinary stage, not defiance.",
+            "Self-control, note, is learned and not inherited, in small repeated ordinary situations. And children read an adult's face and tone with an accuracy adults underestimate — a volatile teacher models volatility to the whole class."
           ],
           "status": "verified",
           "occurrences": [
@@ -2868,7 +3176,13 @@
               "paper": "/downloads/pyqs/2022/s1-1-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-015",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2022-11",
@@ -2921,9 +3235,8 @@
           "question": "Write a short note on the functions of emotions.",
           "marks": 3,
           "answer": [
-            "Emotions communicate needs and feelings, helping caregivers and peers respond.",
-            "They motivate action and protection: fear may prompt caution, while curiosity encourages exploration.",
-            "They influence attention, memory and relationships; learning to understand and regulate them supports participation without requiring children to suppress every unpleasant feeling."
+            "Functions of emotion",
+            "Emotions are not nuisances to be suppressed. They serve at least seven identifiable functions. Signal — emotion tells others what the child needs and how they are; the distress that brings a caregiver running is the child's first communication, and attachment is built on it. Motivating — emotion energises and directs behaviour; interest and joy sustain attention, fear and anger produce avoidance or aggression. Communicating — even before language, emotion is a message, and the emotional content of speech is read correctly before the words are. Adaptive and protective — fear has evolved to protect the child from danger, and losing the capacity for fear is not a developmental achievement. Social bonding — shared emotion is the basis of attachment, sympathy, empathy and love; friends are held together by common feeling rather than shared tasks. Evaluating — emotion is part of the basis on which a person judges a situation as safe or threatening, fair or unjust, and guilt and pride are the emotional forms of moral self-assessment. Self-knowledge and stress — emotion carries the child's sense of self-worth, and sustained strain shows in sleep disturbance, stomach aches, withdrawal or school refusal. The body of a distressed child often speaks before the child does."
           ],
           "status": "verified",
           "occurrences": [
@@ -2941,16 +3254,21 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-016",
+            "selection": "label:ii"
+          }
         },
         {
           "id": "s1-1-2022-15-iii",
           "question": "Write a short note on school culture.",
           "marks": 3,
           "answer": [
-            "School culture comprises the shared expectations, relationships and everyday practices through which a school operates.",
-            "Respectful teaching, inclusive celebrations and fair responses to conflict convey values more strongly than slogans alone.",
-            "A positive culture gives children safety, belonging and opportunities to participate; discriminatory or humiliating practices undermine these aims."
+            "School culture",
+            "School culture is the shared set of values, beliefs, norms and practices a school develops over time and that shapes how every member behaves — the ordinary atmosphere of a classroom rather than the written rules. It is built in small repeated ways: how a teacher responds when a child makes a mistake, whether waiting and turn-taking are actually practised, whether the teacher's own conduct is calm and fair, whether a child with no books at home is treated differently from one who has them. A healthy culture is one in which every child has a place, mistakes are treated as information, effort is noticed aloud, and no child's standing depends on family income, caste, language or disability. An unhealthy one is competitive, shaming and indifferent — and it is learned by the children far more thoroughly than anything on the notice board."
           ],
           "status": "verified",
           "occurrences": [
@@ -2961,14 +3279,20 @@
               "paper": "/downloads/pyqs/2022/s1-1-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-016",
+            "selection": "label:iii"
+          }
         },
         {
           "id": "s1-1-2023-1-c",
           "question": "What is a positive emotion?",
           "marks": 1,
           "answer": [
-            "A positive emotion is a pleasant emotional experience such as joy, interest or affection that can support engagement and connection."
+            "A positive emotion is a feeling of pleasantness and well-being — joy, interest, pleasure, pride, hope or gratitude. It widens attention, keeps the child engaged and makes the child more open to others."
           ],
           "status": "verified",
           "occurrences": [
@@ -2979,14 +3303,20 @@
               "paper": "/downloads/pyqs/2023/s1-1-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-024",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-1-d",
           "question": "Mention one factor influencing language development.",
           "marks": 1,
           "answer": [
-            "Frequent, responsive conversation in a language accessible to the child."
+            "The quantity and quality of talk in the home is the strongest single factor. Children who hear many words in varied, responsive conversation learn more words — it is adult talk directed at the child, not television, that matters."
           ],
           "status": "verified",
           "occurrences": [
@@ -2997,14 +3327,20 @@
               "paper": "/downloads/pyqs/2023/s1-1-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-025",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-1-e",
           "question": "Name the primary agent of socialisation.",
           "marks": 1,
           "answer": [
-            "The family is generally the earliest or primary agent of socialisation."
+            "The family. Socialisation begins in the home with the parents, who supply attachment, the model of communication, the treatment of feelings and the child's earliest experience of conflict and its resolution."
           ],
           "status": "verified",
           "occurrences": [
@@ -3015,15 +3351,22 @@
               "paper": "/downloads/pyqs/2023/s1-1-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-026",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-2-d",
           "question": "State two functions of emotions.",
           "marks": 2,
           "answer": [
-            "Emotions communicate needs and feelings to other people.",
-            "They motivate and guide action, such as approaching an interesting task or withdrawing from danger."
+            "Any two of these:",
+            "- Signal — emotion tells others what a child needs and how they are.\n- Motivating — it energises and directs behaviour; interest and joy hold attention, fear and anger produce avoidance or aggression.",
+            "Emotion is not a nuisance to be suppressed. It also communicates, protects, bonds, evaluates situations as good or bad, and carries the child's sense of self-worth."
           ],
           "status": "verified",
           "occurrences": [
@@ -3041,16 +3384,23 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-046",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-3-d",
           "question": "Explain the influence of peer groups on socialisation.",
           "marks": 3,
           "answer": [
-            "Peers provide opportunities to share, negotiate rules and consider viewpoints different from one’s own.",
-            "Friendship and group participation can strengthen confidence, cooperation and belonging.",
-            "Peer pressure, exclusion or bullying can also be harmful, so adults should support respectful relationships and intervene when needed."
+            "Socialisation is the process by which a child learns to take a place in a group, to form relationships, to cooperate and compete, and to see the self as others see it. It begins in the family, but from about six, and certainly from about ten, the peer group becomes a powerful agent.",
+            "The peer group is the child's first chosen social group, the one where they are evaluated by people who have nothing to offer except friendship. Peer groups sort themselves into friendships, gender groups, cliques and outcasts, and membership confers status. A child's peer reputation may predict their school life better than their home circumstances.",
+            "The influence works both ways. Peer groups can teach cooperation, courage, generosity, the rules of a game and how to lose well. They can equally teach exclusion, teasing, pressure to smoke or gamble, risk-taking and open defiance of adults.",
+            "For the teacher this creates the practical problem of the school-age shift from adult to peer orientation. A teacher unaware of it will find that the standards the child cares about are not the standards the teacher has set. So I would structure the class so that every child belongs to some working group — the child left at the edge is the one most easily drawn into a group that does neither of these things well."
           ],
           "status": "verified",
           "occurrences": [
@@ -3061,7 +3411,13 @@
               "paper": "/downloads/pyqs/2023/s1-1-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-6",
@@ -3138,11 +3494,9 @@
           "question": "Discuss the factors influencing language development.",
           "marks": 5,
           "answer": [
-            "Biological development, hearing and other sensory access influence how a child receives and produces communication.",
-            "Responsive interaction gives meaningful models, feedback and opportunities to take turns.",
-            "Play, stories, books and real experiences extend vocabulary and purposes for communication.",
-            "Emotional security and inclusive teaching encourage participation; fear or ridicule can inhibit it.",
-            "The languages and communication modes available shape experience. Multilingualism is not itself a cause of disorder; persistent difficulty across contexts should be assessed sensitively."
+            "Language is the child's first tool and the most reliable index of development a teacher has. What makes it develop is remarkably ordinary, so the list of factors is mostly a list of things adults do, or fail to do.",
+            "- Quantity and quality of talk in the home. This is the strongest predictor of all. Children who hear many words, in varied and responsive conversation, learn many words. What counts is adult talk directed at the child, not the noise of a television in the corner.\n- Responsiveness. Language grows through turn-taking. When an adult answers a child's sound or word, the child learns that speech produces results; when it is ignored, or the child is spoken over, the incentive to speak quietly dies.\n- Reading aloud and story-telling. The most economical intervention a teacher has — fifteen minutes a day gives vocabulary, the structure of a narrative, the knowledge that print carries meaning, and shared pleasure.\n- Mother tongue and the language of the classroom. A child thinks and forms concepts in the language of the home. In many Assamese schools a child may speak Bodo, Mising, Karbi, Tiwa or Assamese at home and be taught in Assamese or English, and the gap between the two has to be bridged deliberately through songs, stories, rhymes and play. A child who speaks no standard language at home but talks freely with friends in the mother tongue is not delayed.\n- Physical and health factors. Hearing is the foundation of spoken language, and a child with an unrecognised hearing loss is called slow in talking, or stupid, and the damage runs on for years. Nutrition and general health matter too.\n- Stimulation and print exposure. Books in the home, printed matter lying about, the child's own scribbles and drawings, and a wall on which children's own writing is displayed and treated as real writing.\n- Peer and cultural factors. The language of play with friends, the songs and games a community gives its children, and what a culture values. In many families talk is treated as a nuisance and silence as virtue, so a teacher who reads a quiet child as deficient is often reading the culture instead of the child.\n- The school and the teacher. The teacher's own speech, the time given for talk, whether a child is ever actually answered, and the decision to teach in a language the child understands.",
+            "The most damaging practice of all is the public correction of every error, which teaches a child very efficiently that speaking in class is dangerous."
           ],
           "status": "verified",
           "occurrences": [
@@ -3160,7 +3514,13 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-002",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-11",
@@ -3211,7 +3571,7 @@
           "question": "Mention one factor affecting social development.",
           "marks": 1,
           "answer": [
-            "The quality of relationships within the family."
+            "The home is the first and most enduring social environment. It sets the child's basic attitude to other people — whether the world is a place to be trusted or one to be defended against."
           ],
           "status": "verified",
           "occurrences": [
@@ -3222,14 +3582,20 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-018",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2024-1-e",
           "question": "Mention one function of emotion.",
           "marks": 1,
           "answer": [
-            "Emotions communicate needs and feelings to other people."
+            "Emotion signals to others what a child needs and how they are. The distress that brings a caregiver running is the child's first communication, and the whole system of attachment is built on it."
           ],
           "status": "verified",
           "occurrences": [
@@ -3240,15 +3606,22 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-019",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2024-2-c",
           "question": "Mention two factors affecting language development.",
           "marks": 2,
           "answer": [
-            "Access to language through hearing, vision or an appropriate communication mode.",
-            "Frequent, responsive interaction with adults and peers."
+            "1. The quantity and quality of talk in the home — the strongest predictor. Children who hear many words in varied, responsive conversation learn more words, and it is adult talk directed at the child, not television, that counts.",
+            "2. Responsiveness — language grows through turn-taking. When an adult answers a child's sound or word, the child learns that language produces results; when the child is ignored or spoken over, the incentive to speak weakens.",
+            "Reading aloud daily, using the mother tongue and hearing clearly all matter as much."
           ],
           "status": "verified",
           "occurrences": [
@@ -3259,15 +3632,21 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-059",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2024-2-d",
           "question": "Mention stages of social development.",
           "marks": 2,
           "answer": [
-            "Infancy involves early attachment and responsive interaction; early childhood brings increasing peer interest and shared play.",
-            "In later childhood, friendships, cooperation and understanding of group rules become more complex, with considerable individual variation."
+            "The stages follow the sequence of play forms:",
+            "- Reflexive or solitary (0–2 years) — plays alone; the social smile and stranger anxiety appear.\n- Parallel play (2–3) — plays beside other children with separate toys.\n- Associative play (3–4) — plays with similar toys in a group, exchanging materials but playing their own game.\n- Cooperative play (4–6) — a joint game with common goals and divided roles.\n- Games and group activities (7–12) — formal games with rules, teams and competition; the peer group dominates.\n- Adolescence (12–18) — peer-group identification and sub-culture."
           ],
           "status": "verified",
           "occurrences": [
@@ -3278,7 +3657,13 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-060",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2024-4",
@@ -3371,11 +3756,14 @@
           "question": "State characteristics of social development and explain the role of discipline in it.",
           "marks": 5,
           "answer": [
-            "Social development involves growing relationships, cooperation, social understanding and participation in groups.",
-            "It is shaped by interaction and cultural context and varies between children.",
-            "Positive discipline gives clear, age-appropriate expectations and predictable, proportionate responses.",
-            "Discussion, modelling and opportunities to repair harm help children understand consequences and develop self-regulation.",
-            "Physical punishment, threats and humiliation can damage trust; discipline should teach responsibility while respecting dignity, not merely secure obedience through fear."
+            "Social development is the process by which a child learns to become a member of a group — to understand its expectations, to form relationships, to cooperate and compete, to resolve conflict, and to see the self as others see it. It moves the child over some fifteen years from a wholly self-contained organism to a person who can take a place in a family, a friendship, a classroom and a community.",
+            "Characteristics of social development:",
+            "- It is learned, not inherited. Nothing about sharing, waiting or apologising is in the blood; the first and largest lessons come from the family.\n- It is reciprocal. It is accomplished between people, not done to the child. There is no such thing as a child socialised entirely by adults while the child contributes nothing.\n- It has two interlocking aspects. Social performance is the observable behaviour — sharing, leading, following, negotiating, excluding, teasing. Social understanding is the growing capacity to read another person's feelings and intentions and to know the rules. A child can be perfectly well behaved and understand nobody, which is why the two must be judged separately.\n- It is inseparable from emotion. Social experience is the main source of emotional learning: a child rejected by friends learns helplessness, and a child who feels anxious cannot concentrate, falls behind, and is rejected further.\n- It is staged — solitary, parallel, associative and cooperative play, then rule-governed games and teams, then the intense small friendship groups of adolescence.\n- It has a decisive turning point at school age, when the centre of gravity shifts from the adult to the peer group.",
+            "The role of discipline:",
+            "Discipline is the professional management of behaviour by appropriate means. It is not regulation by force, and the difference is the whole point — corporal punishment may silence a child for a minute; discipline teaches something that lasts.",
+            "Used well, discipline is one of the main engines of social development. Self-control does not arrive on its own; it is built in small, repeated, ordinary situations — waiting for a turn, putting away a toy, finishing a task before starting another, sitting through a lesson that is not interesting. Discipline is how a child learns that other people's needs are real, that rules exist before they are enforced, and that frustration can be survived. A classroom that never frustrates the child in order to stay pleasant produces an adult who cannot tolerate frustration.",
+            "It works best when it is warm and firm together. A teacher who only punishes produces fear and teaches nothing; a teacher who never holds a line produces a child who expects the world to rearrange itself.",
+            "Two cautions. Discipline must never be physical — section 17 of the RTE Act 2009 prohibits corporal punishment in educational institutions, and apart from the law, a child who is beaten learns that power settles arguments. And a teacher cannot discipline a child out of a condition: a child who is beaten at home or works fourteen hours needs protection, not punishment."
           ],
           "status": "verified",
           "occurrences": [
@@ -3393,14 +3781,20 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-1-d",
           "question": "What is emotion?",
           "marks": 1,
           "answer": [
-            "An emotion is a feeling state, such as joy or fear, involving appraisal, bodily responses and a tendency to act."
+            "Emotion is a feeling arising in response to a situation, carrying both bodily arousal and an urge to act. For the child it is the first language — hunger, fear, anger and distress are all communicated through the face and the cry."
           ],
           "status": "verified",
           "occurrences": [
@@ -3411,15 +3805,21 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-2-b",
           "question": "How does the home environment influence social development?",
           "marks": 2,
           "answer": [
-            "Warm, responsive relationships establish trust and provide models of respectful interaction.",
-            "Shared responsibilities, play and consistent non-violent guidance provide practice in cooperation and self-regulation."
+            "The home is the first and most enduring social environment, and it sets the child's basic attitude to other people — whether the world is a place to be trusted or one to be defended against. From it come secure attachment, the model of communication, the treatment of feelings, and the earliest experience of conflict and how it is resolved.",
+            "Temperament also counts: an infant who is difficult to soothe may be handled less patiently and so socialised less richly."
           ],
           "status": "verified",
           "occurrences": [
@@ -3430,17 +3830,25 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-053",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-9",
           "question": "What is language development? Explain two influencing factors.",
           "marks": 4,
           "answer": [
-            "Language development is the growth of understanding and expression through vocabulary, grammar and communication in context.",
-            "It includes receptive understanding and expressive communication in spoken, signed or other accessible forms.",
-            "Responsive interaction offers meaningful models and opportunities to take turns; adults can expand the child’s messages during play.",
-            "Sensory access and health affect access to language, so a child with hearing difficulty may need assessment and accessible communication support rather than extra repetition alone."
+            "Language development is the orderly and progressive process by which a child acquires the ability to understand and produce speech and, later, to use symbols on a page — moving from crying, through cooing and babbling, to words, phrases, sentences, conversation, and finally language used for reasoning and planning. The order of it is remarkably consistent across languages and cultures, while the timing varies enormously from child to child. For a teacher it is also the most reliable index of development available: almost everything else can be hidden by a quiet child, but a child who cannot use language cannot manage a classroom, make a friend, or show what they know.",
+            "The stages run as follows: crying, 0 to 6 weeks, the cry differentiating into hunger, pain, tiredness and anger by about two to three weeks; cooing, 6 weeks to 6 months; babbling, 6 to 12 months, in the language of the household; one-word and two-word, 12 to 18 months, the first word falling in a normal range of roughly 9 to 15 months; sentences and grammar, 2 to 5 years, with vocabulary rising from about fifty words at two to well over a thousand by five; and refinement and expansion, 5 to 8 years and beyond, when technical vocabulary, the written word and language for reasoning arrive.",
+            "Two factors among the many that influence this:",
+            "**Quantity and quality of talk in the home.** This is the strongest predictor of all. Children who hear many words, in varied and responsive conversation, learn many words. What counts is adult talk directed at the child, not the noise of a television in the corner. A child who is answered when they speak keeps speaking; a child who is ignored, or spoken over, learns quietly that speech does not produce results.",
+            "**Mother tongue and the language of the classroom.** A child thinks, forms concepts and builds first sentences in the language of the home. In an Assamese classroom a child may speak Bodo, Mising, Karbi or Tiwa at home and be taught in Assamese or English. Where the two differ there must be a deliberate bridging strategy — songs, stories, rhymes and play in the mother tongue first — because a child asked to think in a language they do not yet think in is being asked to do two things at once. The common error is the reverse one: reading a child who is quiet in class but talks freely with friends in the mother tongue as delayed at all.",
+            "Two cautions belong with this. The sequence is common but the timing is not, and a child with no meaningful words by about eighteen months warrants careful attention and referral. And assessment must be done in the language in which the child thinks."
           ],
           "status": "verified",
           "occurrences": [
@@ -3451,7 +3859,13 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-12",
@@ -3480,7 +3894,7 @@
           "question": "What is emotional development?",
           "marks": 1,
           "answer": [
-            "Emotional development is the growth of a child’s ability to express, understand and regulate emotions."
+            "Emotional development is the progressive process by which a child learns to experience, recognise, express and control emotions, becomes attached to people and shares the feelings of others, so that a self-aware and socially responsive person gradually forms."
           ],
           "status": "verified",
           "occurrences": [
@@ -3491,15 +3905,21 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2026-13-a",
           "question": "Write a short note on factors affecting emotional development.",
           "marks": 2,
           "answer": [
-            "Temperament, health and maturation influence emotional responses and regulation.",
-            "Relationships, modelling, security and opportunities to discuss feelings shape how children understand and manage those responses."
+            "Factors that influence emotional development",
+            "The inborn temperament — the easy, the difficult, the slow-to-warm — sets the initial intensity and regularity of emotional response. Then the quality of attachment in infancy becomes the child's working model of every later close relationship. Warm, responsive, reasonably firm parenting supports healthy emotional growth; a harsh or rejecting style produces insecurity and, later, aggression or withdrawal. Family stability matters too, since separation, loss and chronic conflict are powerfully corrosive to a child's emotional life."
           ],
           "status": "verified",
           "occurrences": [
@@ -3510,7 +3930,13 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-051",
+            "selection": "label:a"
+          }
         }
       ]
     },
@@ -3887,7 +4313,7 @@
           "question": "Give one example of a developmental hazard in infancy.",
           "marks": 1,
           "answer": [
-            "Severe undernutrition can threaten an infant’s growth and development."
+            "Prematurity and low birth weight are the classic hazards of infancy. Others include failure to breastfeed, untreated diarrhoea and measles, absence of immunisation, and sudden separation from the mother."
           ],
           "status": "verified",
           "occurrences": [
@@ -3898,14 +4324,20 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-1-g",
           "question": "Mention one sign of developmental delay in childhood.",
           "marks": 1,
           "answer": [
-            "Persistent difficulty acquiring an age-expected communication or movement skill is a reason for developmental assessment, not a diagnosis by itself."
+            "Loss of skills already acquired is the most serious symptom — a child who could speak and has stopped speaking, or could walk and has stopped walking. It needs immediate referral; it is not shyness."
           ],
           "status": "verified",
           "occurrences": [
@@ -3916,16 +4348,23 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-3-d",
           "question": "Describe types of developmental delays.",
           "marks": 3,
           "answer": [
-            "Motor delays affect movement or coordination; speech and language delays affect understanding or expressing communication.",
-            "Cognitive delays affect learning and problem-solving; social-emotional or adaptive delays affect interaction, regulation or everyday self-care.",
-            "Significant delay across two or more domains in a young child may be described clinically as global developmental delay. Identification requires assessment, not a teacher’s label from one observation."
+            "Types of developmental delay",
+            "Developmental delay is the persistent failure to attain within the expected period a milestone most children reach by that age. It is classified along two axes — whether it is general or specific, and which domain is affected.",
+            "- Global or general delay, affecting all or most domains: motor, language, cognitive, social and adaptive. Development is uniformly slow, milestones are late across the board, and it is usually evident before three years. It requires medical assessment.\n- Speech and language delay: late babbling, no words at eighteen months, no two-word combinations, late grammar, and a child who responds at home but appears silent in class.\n- Motor development delay: late sitting, standing and walking, late grasping and pencil grip, poor balance and coordination, affecting gross motor, fine motor or both.\n- Learning difficulty or specific learning disability: reading, writing or arithmetic lag markedly while intelligence and general development are normal, and the difficulty persists despite instruction.\n- Intellectual disability: a significant limitation of intellectual functioning together with adaptive behaviour from early development, needing specialist assessment and carrying a legal entitlement to education.\n- Autistic spectrum disorder: very limited eye contact, absence of joint attention, need for routine and distress at change, unusual sensory responses, often a late talker, with abilities uneven.\n- Social-emotional or attachment delay: emotional regulation and relationships affected, arising often from early deprivation or repeated change of caregiver.\n- Sensory impairment affecting development: unrecognised deafness mistaken for dullness, or visual difficulty mistaken for clumsiness.",
+            "Two distinctions carry marks: delay versus disability, since a delay is behind the expected period and may be overcome while a disability is a lasting limitation; and delay versus disorder, since a delay describes a gap in time and a disorder is the condition causing it."
           ],
           "status": "verified",
           "occurrences": [
@@ -3936,7 +4375,13 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-008",
+            "selection": "label:d"
+          }
         },
         {
           "id": "s1-1-2025-13",
@@ -3965,7 +4410,7 @@
           "question": "What is developmental delay?",
           "marks": 1,
           "answer": [
-            "Developmental delay refers to significantly slower acquisition of age-expected skills in one or more domains, identified through appropriate assessment."
+            "Developmental delay is the persistent failure of a child to attain, within the expected period, a milestone that most children reach by that age, in one or more of the physical-motor, cognitive, language, social, emotional or adaptive areas."
           ],
           "status": "verified",
           "occurrences": [
@@ -3976,18 +4421,24 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2026-11",
           "question": "Explain different types of developmental delays in detail.",
           "marks": 5,
           "answer": [
-            "Motor delay affects control of posture, movement or precise hand actions, influencing tasks such as walking or using utensils.",
-            "Speech and language delay affects understanding or expression; a hearing or communication assessment may help clarify needs.",
-            "Cognitive delay affects learning, remembering and problem-solving relative to developmental expectations.",
-            "Social-emotional and adaptive delays involve interaction, emotional regulation or everyday self-care, and should be understood in context.",
-            "Global developmental delay refers clinically to significant delay in at least two domains in a young child. Types can overlap; teachers document concerns and arrange assessment while providing support, rather than diagnosing from a checklist."
+            "Developmental delay is the persistent failure of a child to attain, within the expected period, a milestone that the majority of children reach by that age, in one or more of the areas of physical-motor, cognitive, language, social, emotional or adaptive development. It is a descriptive term and not a diagnosis, and the word delay is used rather than any older term both because it is more accurate and because it is now the required professional usage. A child can be growing normally and still be developmentally delayed; growth and development are not the same test.",
+            "Delay is classified along two axes — whether it is general or specific, and which domain it affects. This gives the following types.",
+            "- Global or general delay, affecting all or most domains: uniform slow development, milestones late across the board, usually evident before three years, requiring medical assessment.\n- Speech and language delay: late babbling, no words at eighteen months, no two-word combinations, late grammar, and a child who understands and responds perfectly at home but appears mute in class.\n- Motor development delay, affecting gross motor, fine motor or both: late sitting, standing and walking, late grasping, a pencil grip that never firms up, poor balance and coordination.\n- Learning difficulty or specific learning disability: reading, writing or arithmetic lag markedly while intelligence and general development are normal, persisting despite instruction, and usually accompanied by restlessness and low self-esteem because the child can see that others find the same work easy.\n- Intellectual disability: a significant limitation of intellectual functioning together with adaptive behaviour, present from early development, needing specialist assessment and carrying a legal entitlement to education.\n- Autistic spectrum disorder: very limited or no eye contact, absence of joint attention, preference for routine and distress at change, unusual sensory responses, often a late talker, with abilities uneven across domains.\n- Social-emotional or attachment delay: emotional regulation and relationships affected, the child very difficult or very withdrawn or indiscriminately friendly with strangers, often arising from early deprivation or repeated changes of caregiver.\n- Sensory impairment affecting development: no response to sound or to a name, unrecognised deafness mistaken for dullness, visual difficulty mistaken for clumsiness.",
+            "Two distinctions carry marks. Delay versus disability: a delay means the child is behind the expected period and may yet catch up, whereas a disability is a lasting limitation of function. Delay versus disorder: a delay describes a gap in time, a disorder is the condition causing that gap.",
+            "And the sentence that should close any answer on this subject: the teacher observes, records and refers, and does not diagnose. A child who does not babble by about twelve months, has no meaningful words by eighteen months, does not respond to a name, or has lost a skill they once had must be referred. Loss of previously acquired skills is a medical matter needing immediate referral; a child who could speak and has stopped speaking has not merely become shy."
           ],
           "status": "verified",
           "occurrences": [
@@ -3998,17 +4449,23 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2026-12",
           "question": "Explain developmental hazards at different stages.",
           "marks": 4,
           "answer": [
-            "Prenatal hazards include harmful exposures, some infections and poor maternal nutrition; antenatal care reduces avoidable risks.",
-            "Infancy may involve undernutrition, serious illness, injury or lack of responsive care, with prematurity or birth complications adding vulnerability.",
-            "Early childhood hazards include unsafe play environments, poisoning, persistent neglect and violence.",
-            "Later childhood hazards include bullying, exploitative work, prolonged stress and school exclusion. Risks do not determine outcomes; safe care, health services and early support can protect development."
+            "A developmental hazard is any condition, exposure or event lying in the path of a child's normal development with the potential to delay or distort it. The word hazard is used deliberately in preference to trauma, because a hazard need not already have done damage — it is a risk, and it becomes damage only when it operates. Hazards work through three routes: direct injury to the developing brain or body; deprivation of what development requires, such as nutrition, medical care, stimulation and safety; and psychological or social disruption of attachment and daily life.",
+            "The syllabus follows four stages, and what changes across them is not only the nature of the hazard but who controls it.",
+            "- Prenatal (conception to birth). Maternal malnutrition and anaemia, maternal illness, alcohol, tobacco or drugs, no antenatal care, untreated infection, physical and emotional stress, domestic violence, early and closely spaced pregnancy, early marriage. The consequences are low birth weight, prematurity and impaired brain development — the child is born already disadvantaged. The teacher's part is awareness alone.\n- Infancy (birth to 2 years). Prematurity, failure to breastfeed, malnutrition and infection, untreated diarrhoea, pneumonia and measles, unsafe water, falls, burns, poisoning, drowning, no immunisation, sudden separation from the mother, absence of responsive care and conversation. The result is failure to thrive, delayed motor, language and cognitive development, and disturbed attachment. This is the single most vulnerable period of life.\n- Early childhood (2 to 6 years). Child marriage and early pregnancy, child labour, malnutrition, no play space, road and drowning accidents, physical, sexual and emotional abuse, neglect, domestic violence witnessed at home, family substance use, a heavy domestic and sibling care load, migration or displacement. Denying a child play damages every other domain at once.\n- Late childhood (6 to 12 years). Child labour in its persistent forms — agriculture, tea gardens, brick kilns, domestic work, rag picking — child marriage in some communities, continuing abuse and neglect, sexual exploitation, school violence and bullying, and family crisis or death. What is lost is schooling in the very years in which the foundations are laid.",
+            "Two things stay in a teacher's power at all four stages: the register and the notice, meaning knowing which children work, which are often absent and which are never collected by a parent; and making the school a warm, predictable, non-violent place with a meal, a chair, and one adult who notices distress."
           ],
           "status": "verified",
           "occurrences": [
@@ -4019,7 +4476,13 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-001",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -4424,7 +4887,7 @@
           "question": "Write the full forms of ICPS and CCI.",
           "marks": 1,
           "answer": [
-            "ICPS: Integrated Child Protection Scheme; CCI: Child Care Institution."
+            "ICPS — Integrated Child Protection Services.\nCCI — Child Care Institution, the institution where children who have no family or who need long-term care are kept, supported by Mission Vatsalya."
           ],
           "status": "verified",
           "occurrences": [
@@ -4435,14 +4898,20 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-032",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-1-i",
           "question": "Name one Act concerning child rights and protection.",
           "marks": 1,
           "answer": [
-            "The Protection of Children from Sexual Offences Act, 2012 (POCSO Act)."
+            "The Juvenile Justice (Care and Protection of Children) Act, 2000, amended in 2015. It governs the care, protection and rehabilitation of all children below eighteen and establishes the Child Welfare Committee."
           ],
           "status": "verified",
           "occurrences": [
@@ -4481,14 +4950,20 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-1-j",
           "question": "Mention one principle of child protection.",
           "marks": 1,
           "answer": [
-            "The child’s best interests should guide decisions affecting their care and protection."
+            "The best interests of the child. It guides the JJ Act and the UNCRC, and it means the child's welfare comes first in every decision taken by an adult or an institution."
           ],
           "status": "verified",
           "occurrences": [
@@ -4499,15 +4974,21 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-041",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-2-b",
           "question": "Compose a slogan to prevent substance abuse.",
           "marks": 2,
           "answer": [
-            "“Choose health, choose hope—say no to substance abuse.”",
-            "The slogan encourages a healthy choice without insulting people who need treatment and support."
+            "\"Say no to gutka and kharra — let the child grow, not the habit.\"",
+            "The point of the slogan is to name the actual danger in an Assamese context — gutka and kharra sold openly near schools, and inhalant sniffing among street and working children. As a teacher I would put up such a poster along with the honest message that a child exposed to adults who use substances is harmed too, even if the child never touches one."
           ],
           "status": "verified",
           "occurrences": [
@@ -4525,15 +5006,21 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-042",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-3-b",
           "question": "Distinguish between child protection and child rights.",
           "marks": 2,
           "answer": [
-            "Child rights are the entitlements of every child, including survival, development, protection and participation.",
-            "Child protection consists of measures to prevent and respond to abuse, exploitation, neglect and violence; it helps realise the right to protection."
+            "Child rights are the entitlements — protection, care, development, participation, equality and freedom — that belong to every child simply by being a child, whatever their gender, caste, religion, disability or income. They are claims the child holds.",
+            "Child protection is the machinery that makes those claims real: the laws, services and institutions, governmental and non-governmental, that ensure every child's survival and well-being. Protection is universal but targeted, and preventive as well as remedial. Rights are the goal; protection is the working."
           ],
           "status": "verified",
           "occurrences": [
@@ -4551,16 +5038,23 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-050",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2021-4-c",
           "question": "Explain child labour and its impact on society.",
           "marks": 3,
           "answer": [
-            "Child labour is work that harms children’s well-being or interferes with their education and development; safe, age-appropriate household participation is not automatically child labour.",
-            "Exploitative work can expose children to injury, abuse and lost schooling, limiting later opportunities.",
-            "It can perpetuate poverty and inequality; prevention requires enforcement, accessible education, family support and rehabilitation rather than punishment of affected children."
+            "Child labour is the employment of a child below fourteen in any work, or below eighteen in a hazardous occupation, that interferes with schooling, denies play and education, or is harmful to health, safety or development. The Child Labour (Prohibition and Regulation) Act 1986, amended in 2016, bars employment below fourteen in any occupation and below eighteen in hazardous ones. Two ages to remember: fourteen as the general minimum, eighteen for hazardous work.",
+            "Its impact on society is severe and lasting.",
+            "- On the child. The years in which language, cognition and the foundations of learning are laid down are lost, and that loss is very hard to make up. Reported forms in Assam include work in tea gardens, brick kilns, domestic service, rag picking, roadside work and small workshops, with children from poor, riverine, marginalised, Scheduled Caste and Scheduled Tribe households over-represented, frequently as \"brought\" children.\n- On the family. Poverty is the root cause, but child labour traps families in it, because the child's earnings are counted on and the child cannot get the education that would break the cycle.\n- On society. It produces an unskilled, underemployed adult generation, keeps wages low, and costs the nation the human capital it will need. The denial of play harms every other developmental domain at once, not only schooling.",
+            "The Act's answer is rescue, education and rehabilitation, not merely telling the child to stop. The teacher's part is to notice, record and refer — never to assume that a working child simply prefers to work."
           ],
           "status": "verified",
           "occurrences": [
@@ -4571,16 +5065,23 @@
               "paper": "/downloads/pyqs/2021/s1-1-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-019",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2022-2",
           "question": "What is child abuse? Mention four types.",
           "marks": 3,
           "answer": [
-            "Child abuse is harmful treatment or maltreatment that damages or threatens a child’s safety, dignity, health or development.",
-            "Physical and emotional abuse are two types.",
-            "Sexual abuse and neglect are two others."
+            "Child abuse is any act, or any failure to act, by a parent, caregiver, relative, institution or stranger that causes, or is likely to cause, harm to a child — physically, sexually, emotionally or psychologically — or that places the child at risk, whether that harm is actual or potential. Two features of this definition must not be forgotten. It includes failure to act, so neglect — not providing food, care, medical attention, education or protection — is abuse. And it includes harm that is only likely, so a threat, a sexual proposition to a child, or an evident situation of risk counts even when nothing has yet happened. Protectionists often use the acronym ASI, for child abuse and sexual exploitation; that is a classification, not a word.",
+            "Any four of the following types:",
+            "- Physical abuse — beating, burning, twisting limbs, boxing the ears, throwing, poisoning, withholding food, made to stand in the sun.\n- Sexual abuse — rape, attempted rape, molestation, incest, inappropriate touching, use of a child in pornography. A child cannot give free consent.\n- Emotional abuse — rejection, humiliation, constant comparison, ridicule, isolation, threats and deliberate denial of love; no mark is left, which is why it goes unreported.\n- Neglect — chronic undernutrition, poor hygiene, untreated illness, consistently late or absent, no caregiver at meetings.",
+            "Corporal punishment, child labour, child marriage, trafficking, substance abuse and stress leading to self-harm are the remaining types in the full list."
           ],
           "status": "verified",
           "occurrences": [
@@ -4591,7 +5092,13 @@
               "paper": "/downloads/pyqs/2022/s1-1-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2022-14",
@@ -4620,9 +5127,8 @@
           "question": "Write a short note on protection of child rights.",
           "marks": 3,
           "answer": [
-            "Every child is entitled to survival, development, protection and participation without discrimination.",
-            "Families, schools and authorities must prevent violence, neglect and exploitation and provide accessible education and care.",
-            "Listening to children, providing safe reporting routes and using the appropriate protection authorities help turn these rights into everyday practice."
+            "Child rights protection",
+            "Child rights protection is the practical work of ensuring that the entitlements a child holds by virtue of being a child — protection, care, development, participation, equality and freedom — are actually respected. In India these rights rest on three pillars: the Constitution, the international conventions and the special Acts and schemes. Article 21A, inserted by the 86th Amendment Act of 2002, made free and compulsory education for the six-to-fourteen age group a fundamental right; Article 51A(k) makes it a fundamental duty of the State that the tender age of childhood is not abused; Article 29(2) bars employment of any child under fourteen in a factory or mine or other hazardous work; and Article 23(3) prohibits trafficking and exploitation for economic purposes. The UNCRC, adopted on 20 November 1989 and acceded to by India on 11 December 1992, supplies the wider framework, built on non-discrimination, the best interests of the child and respect for the child's views. Protection is universal but targeted, preventive as well as remedial, and a continuum of care."
           ],
           "status": "verified",
           "occurrences": [
@@ -4640,15 +5146,21 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-006",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-1-2023-2-e",
           "question": "Suggest two measures to stop child labour in India.",
           "marks": 2,
           "answer": [
-            "Enforce child-labour laws through responsible authorities and provide rescue and rehabilitation rather than merely removing children from one workplace.",
-            "Make schooling accessible and support vulnerable families so poverty and lost learning do not push children back into exploitative work."
+            "1. Rescue and rehabilitate rather than simply punish the employer. Under the Child Labour (Prohibition and Regulation) Act, 1986 as amended in 2016, a child found working is to be rescued, educated and rehabilitated — and the fourteen-year general minimum and eighteen-year hazardous-work limit enforced through inspections of tea gardens, brick kilns and workshops.",
+            "2. Attack the root through schooling and income support — mid-day meals, scholarships and hostels, and linking families to MGNREGA, so that a child is not a wage-earner because the household has no other option."
           ],
           "status": "verified",
           "occurrences": [
@@ -4659,16 +5171,23 @@
               "paper": "/downloads/pyqs/2023/s1-1-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-065",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-3-e",
           "question": "Describe different types of child abuse.",
           "marks": 3,
           "answer": [
-            "Physical abuse involves harmful physical treatment; emotional abuse includes repeated threats, rejection or humiliation.",
-            "Sexual abuse involves sexual exploitation or offences against a child, including non-contact forms.",
-            "Neglect is failure to meet essential care and protection needs; assessment must distinguish lack of resources from wilful failure and mobilise support."
+            "Child abuse is any act, or any failure to act, by a parent, caregiver, relative, institution or stranger that causes, or is likely to cause, harm to a child — physically, sexually, emotionally or psychologically — or places the child at risk. Two features of that definition matter: it includes failure to act, so neglect is abuse; and it includes harm that is only likely, so a threat or an evident risk counts before anything has happened.",
+            "The main types recognised are:",
+            "- Child marriage — below eighteen for a girl and twenty-one for a boy under the 2006 Act.\n- Child labour — work below fourteen, or hazardous work below eighteen.\n- Child trafficking — recruitment or movement of a child for exploitation.\n- Corporal punishment — force used as discipline, prohibited in schools by section 17 of the RTE Act 2009.\n- Sexual abuse — governed by the POCSO Act 2012.\n- Emotional abuse — harm through rejection, humiliation, comparison, ridicule and isolation; the most hidden form, because it leaves no mark.\n- Physical abuse — deliberate injury, usually disguised as discipline.\n- Substance abuse — use of or exposure to alcohol, tobacco, gutka and inhalants.\n- Stress and the risk of suicide — the pathway through which most other forms do their damage.",
+            "A teacher's duty in every case is the same: notice, record the same day in neutral language, refer to the child protection functionary or the Child Welfare Committee or helpline 1098 — never investigate, never promise secrecy, never return the child to the risk."
           ],
           "status": "verified",
           "occurrences": [
@@ -4679,7 +5198,13 @@
               "paper": "/downloads/pyqs/2023/s1-1-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2023-9",
@@ -4707,7 +5232,7 @@
           "question": "Write the full form of POCSO.",
           "marks": 1,
           "answer": [
-            "Protection of Children from Sexual Offences."
+            "POCSO — Protection of Children from Sexual Offences Act, 2012. It defines a child as one below eighteen, is gender-neutral, and creates a Special Court and a Special Public Prosecutor. Any offence under it is reportable."
           ],
           "status": "verified",
           "occurrences": [
@@ -4718,16 +5243,21 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-015",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2024-3-b",
           "question": "Distinguish between child protection and child rights.",
           "marks": 3,
           "answer": [
-            "Child rights are the entitlements of every child, including survival, development, protection and participation.",
-            "Child protection is the prevention of and response to abuse, neglect, violence and exploitation.",
-            "Thus protection is one essential way of realising rights; providing a safe classroom is protection, while ensuring access to education and listening to children addresses additional rights."
+            "Child protection and child rights",
+            "A right is an entitlement that belongs to the child simply in being a child — not a privilege, favour or property of adults. Child rights are the guarantees of protection, care, development, participation, equality and freedom recognised by international and national law irrespective of gender, caste, religion, race, disability or economic status. Child protection, on the other hand, is the set of activities, laws, services and institutions, governmental and non-governmental, that ensure the survival, development, protection and well-being of every child, especially the most vulnerable. So rights are the entitlements, which exist before any service is delivered, whereas protection is the machinery that secures those entitlements. Protection is also universal but targeted, preventive as well as remedial, and a continuum of care. Rights are usually grouped into three generations — civil-political, economic-social-cultural, and collective — while protection is carried forward by the JJ Act 2000 (amended 2015), the Child Marriage Act 2006, POCSO Act 2012, the Child Labour Act 1986 (amended 2016) and schemes like ICPS and Mission Vatsalya."
           ],
           "status": "verified",
           "occurrences": [
@@ -4738,16 +5268,21 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-005",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-1-2024-13-b",
           "question": "Write a short note on the POCSO Act, 2012.",
           "marks": 3,
           "answer": [
-            "The Protection of Children from Sexual Offences Act protects persons below 18 against specified sexual offences, regardless of gender.",
-            "It provides child-friendly procedures and Special Courts, with safeguards for the child’s identity and participation.",
-            "Section 19 requires reporting knowledge of, or apprehension of a likely, offence to the Special Juvenile Police Unit or local police. Schools must respond safely rather than investigate through repeated questioning or private compromise."
+            "POCSO Act 2012",
+            "The Protection of Children from Sexual Offences Act, passed in 2012, is the single most important Act for a teacher's duty. It deals specifically with offences against children, is gender-neutral in its protection, and defines a child as one below eighteen years. It prescribes stringent punishment, including where the offender is a police officer, a public servant or a person in a position of trust, and provides for a Special Court and a Special Public Prosecutor, for the rescue of the child and for protection of the child's identity. For the classroom teacher the practical content is short and sharp: on receiving a disclosure of sexual abuse, do not delay, do not investigate, and report. The offence is reportable by whoever knows of it — the teacher has a legal duty, not merely an ethical one."
           ],
           "status": "verified",
           "occurrences": [
@@ -4758,16 +5293,21 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-006",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-1-2024-13-c",
           "question": "Write a short note on child trafficking.",
           "marks": 3,
           "answer": [
-            "Child trafficking involves recruiting, moving, transferring, harbouring or receiving children for exploitation, including forced labour or sexual exploitation.",
-            "Deceptive job promises, separation from caregivers and displacement can create vulnerabilities; trafficking need not cross an international border.",
-            "Prevention combines safe care, education and community awareness with reporting and coordinated protection and rehabilitation by competent authorities."
+            "Child trafficking",
+            "Child trafficking is the recruitment, transportation, harbouring, transfer or receipt of a child by any means for exploitation — sexual exploitation, forced labour, criminal activity, organ removal, forced marriage or use in armed conflict. The recruitment itself is an abuse even where the child is never moved. Assam is a source, a transit and a destination state in the regional circuit linking the plains to the neighbouring North-Eastern states and beyond, for sexual exploitation, domestic and bonded labour and early marriage of girls; floods and seasonal displacement increase vulnerability, and riverine and border geography makes tracing very difficult. It is aggravated by child marriage and child labour, which are the routes by which most children are made available. The POCSO Act 2012 and the Juvenile Justice Act protect the child; the teacher detects, records and refers."
           ],
           "status": "verified",
           "occurrences": [
@@ -4778,14 +5318,20 @@
               "paper": "/downloads/pyqs/2024/s1-1-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-006",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-1-2025-1-f",
           "question": "When was Mission Vatsalya introduced?",
           "marks": 1,
           "answer": [
-            "It was announced in the Union Budget 2021–22. Its detailed scheme guidelines were issued on 5 July 2022; these are distinct dates."
+            "Mission Vatsalya was adopted in 2021. It is the national scheme for the protection, care and rehabilitation of children in need of care and protection, and it consolidates the child protection framework on a continuum of care."
           ],
           "status": "verified",
           "occurrences": [
@@ -4796,15 +5342,21 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-2-e",
           "question": "Write briefly about the Prohibition of Child Marriage Act, 2006.",
           "marks": 2,
           "answer": [
-            "The Act defines a child for marriage purposes as a male below 21 or a female below 18 and prohibits child marriage.",
-            "It provides prevention, penalties and remedies: child marriages are generally voidable at the option of the contracting party who was a child, with specified circumstances making them void. It does not make every such marriage automatically void."
+            "The Prohibition of Child Marriage Act, 2006, prohibits marriage below eighteen for a girl and below twenty-one for a boy. The offence is cognizable and carries stringent punishment, and the District Magistrate and the Child Protection Committee are involved.",
+            "It matters because child marriage denies the child childhood, schooling, health and free consent, and exposes a girl to early pregnancy, childbirth complications, domestic violence and lifelong economic dependence. Beti Bachao Beti Padhao, launched in 2015, is the principal programme working against it."
           ],
           "status": "verified",
           "occurrences": [
@@ -4822,16 +5374,23 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-056",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-5",
           "question": "Write a short note on ICDS.",
           "marks": 3,
           "answer": [
-            "Integrated Child Development Services was launched in 1975 to support young children and mothers through an integrated service approach.",
-            "Its service package includes supplementary nutrition, preschool non-formal education, nutrition and health education, immunisation, health check-ups and referral services, with health services delivered in convergence.",
-            "Anganwadi services now form part of Mission Saksham Anganwadi and Poshan 2.0; they link nutrition, care and early learning rather than function only as food distribution centres."
+            "ICDS — Integrated Child Development Services — is one of the earliest and largest Central Government programmes in India, launched in 1975-76 in rural and backward areas. It delivers a package of services through the Anganwadi centre, which works as the hub for early child care.",
+            "Who it serves. Children below six years, pregnant and lactating mothers, and adolescent girls.",
+            "What it provides. Supplementary nutrition, health check-ups, immunisation, nutrition and health education, and pre-school play and care for children aged three to six.",
+            "Why it matters to a teacher. ICDS reaches the child before the school does — before birth, through the mother, and through the first two years of life. It is the first contact point where developmental delay can be spotted early, and it is where an Anganwadi worker and a school teacher can support the same child instead of working at arm's length. Read it as the opening move in the sequence: ICDS reaches earliest, Beti Bachao Beti Padao addresses the girl child, ICPS is the statutory protection response, and Mission Vatsalya (2021) is the rehabilitation pathway."
           ],
           "status": "verified",
           "occurrences": [
@@ -4842,17 +5401,25 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m3-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2025-10",
           "question": "Define child abuse and explain three types with reference to Assam.",
           "marks": 4,
           "answer": [
-            "Child abuse is maltreatment that harms or threatens a child’s safety, dignity, health or development.",
-            "Physical abuse includes beating or other harmful force at home, school or work; it is not acceptable as discipline.",
-            "Emotional abuse includes persistent humiliation, threats or rejection, which may remain less visible than physical injuries.",
-            "Sexual abuse includes contact and non-contact offences against children. These risks exist in Assam as elsewhere; displacement and disrupted care can increase vulnerability, so examples should guide protection without stereotyping any community."
+            "Child abuse is any act, or any failure to act, by a parent, caregiver, relative, institution or stranger that causes, or is likely to cause, harm to a child — physically, sexually, emotionally or psychologically — or that places the child at risk of harm. Two features of the definition do real work. It includes a failure to act, so that neglect — not providing food, care, medical attention, education or protection — is abuse in its own right. And it includes harm that is only likely, so a threat, a sexual proposition to a child, or a situation of evident risk counts even though nothing has yet happened.",
+            "The paper classifies abuse into nine forms: child marriage, child labour, child trafficking, corporal punishment, sexual abuse, emotional abuse, physical abuse, substance abuse, and stress with the risk of suicide. Three are worth describing here.",
+            "**Child labour.** The employment of a child below fourteen in any work, and below eighteen in hazardous occupations, that interferes with schooling, denies play and education, or is harmful to health, safety or development. In Assam the reported forms are work in tea gardens, brick kilns, domestic service, rag picking, roadside and agricultural work, sand mining and small workshops, with children from poor, riverine, marginalised, Scheduled Caste and Scheduled Tribe households heavily over-represented, frequently as 'brought' children who have no family to return to. The Child Labour (Prohibition and Regulation) Act 1986, amended in 2016, sets 14 as the general minimum and 18 for hazardous work, and provides that a child found working is to be rescued, educated and rehabilitated, not merely told to stop.",
+            "**Child trafficking.** The recruitment, transportation, harbouring, transfer or receipt of a child by any means for exploitation — sexual exploitation, forced labour, criminal activity, organ removal, forced marriage, or use in armed conflict. The recruitment alone is an abuse even if the child is never moved. Assam is a source, a transit and a destination state in the regional circuit running from the plains to the neighbouring North-Eastern states and beyond, for sexual exploitation, for domestic and bonded labour, and for the forced marriage of girls. Floods and seasonal displacement push families into vulnerability, and the riverine and border geography makes tracing a missing child genuinely difficult.",
+            "**Child marriage.** The marriage of a child below eighteen — below eighteen for a girl and below twenty-one for a boy under the Prohibition of Child Marriage Act, 2006. It is abuse because the child is denied childhood, schooling, health and free consent, and is exposed instead to early pregnancy, complications of childbirth, domestic violence and lifelong economic dependence. It continues in some rural, hilly and riverine communities of Assam, often tangled up with labour and trafficking rather than occurring alone. Beti Bachao Beti Padhao, launched in 2015, is the principal countermeasure, and the teacher's role is awareness among parents and adolescents, and prompt referral when a girl begins to miss school.",
+            "Whatever the form, four rules govern the teacher's response: notice and record the same day in neutral language; refer without delay to the school's child protection functionary, the Child Welfare Committee, or the child helpline 1098; never investigate, never promise secrecy and never doubt the child; and never return the child to the risk."
           ],
           "status": "verified",
           "occurrences": [
@@ -4863,14 +5430,20 @@
               "paper": "/downloads/pyqs/2025/s1-1-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m41-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2026-1-c",
           "question": "Write the full forms of ICPS and BBBP.",
           "marks": 1,
           "answer": [
-            "ICPS: Integrated Child Protection Scheme; BBBP: Beti Bachao Beti Padhao."
+            "ICPS — Integrated Child Protection Services.\nBBBP — Beti Bachao Beti Padhao.\nBBBP was launched in 2015 for the girl child; ICPS is the scheme through which a child's case reaches the Child Welfare Committee."
           ],
           "status": "verified",
           "occurrences": [
@@ -4881,15 +5454,21 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2026-3-c",
           "question": "Distinguish between physical and emotional abuse.",
           "marks": 2,
           "answer": [
-            "Physical abuse involves harmful physical force, such as hitting or burning a child.",
-            "Emotional abuse involves harmful patterns such as threats, humiliation or rejection; it may occur without visible injury, and both forms can coexist."
+            "Physical abuse is deliberate injury to the body — beating, burning, twisting limbs, boxing the ears, withholding food, made to stand in the sun — and it is usually disguised as discipline.",
+            "Emotional abuse is persistent psychological harm done through words, silences and the withdrawal of affection — rejection, humiliation, constant comparison, ridicule, threats. It is often the more hidden of the two, because it leaves no wound, and so it is rarely reported. Neglect and bullying belong here too."
           ],
           "status": "verified",
           "occurrences": [
@@ -4900,15 +5479,21 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-049",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-1-2026-13-b",
           "question": "Write a short note on the Juvenile Justice Act.",
           "marks": 2,
           "answer": [
-            "The Juvenile Justice (Care and Protection of Children) Act, 2015 replaced the 2000 Act and provides a child-friendly framework for children in conflict with law and those needing care and protection.",
-            "Juvenile Justice Boards and Child Welfare Committees have distinct roles; the Act emphasises best interests, rehabilitation, family-based care where appropriate and institutional care as a last resort."
+            "The Juvenile Justice Act",
+            "The Juvenile Justice (Care and Protection of Children) Act was passed in 2000 and amended in 2015. It governs the care, protection, rehabilitation and justice of all children below eighteen. The 2015 amendment aligned it with the UNCRC, strengthened the best-interests-of-the-child principle, and reoriented the system towards children in need of care and protection. For a teacher it matters because it establishes the Child Welfare Committee, the statutory body to which a neglected, abused or at-risk child is reported."
           ],
           "status": "verified",
           "occurrences": [
@@ -4919,7 +5504,13 @@
               "paper": "/downloads/pyqs/2026/s1-1-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.1_m12-051",
+            "selection": "label:b"
+          }
         }
       ]
     }

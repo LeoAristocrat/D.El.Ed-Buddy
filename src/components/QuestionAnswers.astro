@@ -1,5 +1,6 @@
 ---
 import { getQaUnit } from '../data/qa-bank';
+import SuppliedAnswer from './SuppliedAnswer.astro';
 interface Props { course: string; unit: number; title: string; resourceId: string }
 const { course, unit, title, resourceId } = Astro.props;
 const bank = getQaUnit(course, unit);
@@ -22,7 +23,7 @@ const groups = [1, 2, 3, 4, 5];
     <p>Original-paper years appear beside each question. Answers are model responses for study.</p>
     {bank.pyqs.map((item, index) => <details class="qa-question" id={item.id}>
       <summary><span class="qa-question-text"><span class="qa-number">{index + 1}.</span> {item.question}</span><span class="qa-badges"><span class="qa-mark">{item.marks} {item.marks === 1 ? 'mark' : 'marks'}</span>{[...new Set(item.occurrences.map(source => source.year))].sort().map(year => <span class="qa-year" aria-label={`Previous-year question: ${year}`}>{year}</span>)}<span class="qa-chevron" aria-hidden="true">⌄</span></span></summary>
-      <div class="qa-answer"><p class="qa-answer-label">Model answer</p>{item.answer.length > 1 ? <ol>{item.answer.map(point => <li>{point}</li>)}</ol> : <p>{item.answer[0]}</p>}
+      <div class="qa-answer"><p class="qa-answer-label">Model answer</p>{item.answerFormat === 'paragraphs' ? <SuppliedAnswer paragraphs={item.answer}/> : item.answer.length > 1 ? <ol>{item.answer.map(point => <li>{point}</li>)}</ol> : <p>{item.answer[0]}</p>}
       {item.tables?.map(table => <div class="qa-table-scroll" tabindex="0" role="region" aria-label={table.caption}><table><caption>{table.caption}</caption><thead><tr>{table.headers.map(header => <th scope="col">{header}</th>)}</tr></thead><tbody>{table.rows.map(row => <tr>{row.map((cell, index) => index === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>)}</tr>)}</tbody></table></div>)}
       {item.illustration && <figure class="qa-illustration"><a href={item.illustration.src} target="_blank" rel="noopener" aria-label="Open model illustration at full size"><img src={item.illustration.src} alt={item.illustration.alt} loading="lazy" width="800" height="520" /></a><figcaption>{item.illustration.caption}</figcaption></figure>}
       <div class="qa-evidence">{item.occurrences.map(source => <a href={`${source.paper}#page=${source.page}`} target="_blank" rel="noopener">{source.year} paper · p. {source.page}, Q. {source.questionNumber} ↗</a>)}</div></div>

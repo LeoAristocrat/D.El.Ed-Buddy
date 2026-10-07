@@ -1,7 +1,11 @@
 ---
-import {resourceTypes} from '../data/site';
+import {studyFormats} from '../data/site';
 import Icon from './Icon.astro';
 const {course,unit}=Astro.props;
-const icons=['book','layers','image','list','questions','paper'];
 ---
-<div class="format-grid">{resourceTypes.map((type,i)=><a href={type==='Previous Year Questions (PYQs)'?'/pyqs/':`/materials/?course=${course||''}&unit=${unit||''}&type=${encodeURIComponent(type)}`}><Icon name={icons[i]} size={20}/><span>{type}</span><Icon name="arrow-up-right" size={16}/></a>)}</div>
+<div class="format-grid">{studyFormats.map(({type,icon,description})=><a href={type==='Previous Year Questions (PYQs)'?'/pyqs/':`/materials/?course=${course||''}&unit=${unit||''}&type=${encodeURIComponent(type)}`}><Icon name={icon} size={20}/><span class="format-description"><strong>{type}</strong><small>{description}</small></span><Icon name="arrow-up-right" size={16}/></a>)}</div>
+<style>
+  .format-description{display:grid;gap:.35rem;min-width:0}
+  .format-description strong{font-size:1rem;line-height:1.45}
+  .format-description small{font-size:.9375rem;line-height:1.5;color:var(--muted);font-weight:400}
+</style>

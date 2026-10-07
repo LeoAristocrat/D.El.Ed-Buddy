@@ -376,8 +376,7 @@
           "question": "Write a short note on the three-language formula.",
           "marks": 2,
           "answer": [
-            "The three-language formula promotes learning three languages to support multilingualism and communication across regions. Its historical school-policy formulation included the regional language, Hindi and English in non-Hindi-speaking states, and Hindi, English and another modern Indian language in Hindi-speaking states.",
-            "NEP 2020 retains the formula with flexibility and no imposition of a language; at least two of the three languages chosen should be native to India. It does not prescribe one identical combination for every learner."
+            "The three-language formula, introduced by the National Policy on Education 1968, requires every child to learn three languages: the mother tongue or regional language; a language of the 'other' regional group or another Indian language; and English or a foreign language. NEP 2020 restates it as the home or local language, the regional or another Indian language, and a foreign or additional language, with English often placed in the third slot or introduced early as a bridge."
           ],
           "status": "verified",
           "occurrences": [
@@ -409,16 +408,22 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-049",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-8",
           "question": "Elucidate the differences between mother-tongue and the second language.",
           "marks": 3,
           "answer": [
-            "A mother tongue is generally a language acquired early through family or community life; a second language is learned in addition to an earlier language and may serve wider social or educational purposes.",
-            "Early home-language learning usually involves extensive everyday interaction. Exposure to a second language varies: it may come through school, peers, media and daily life, not only formal lessons.",
-            "The labels do not rank languages or guarantee proficiency. A child may have more than one home language, and English may be a first language for some Indian children but an additional language for others."
+            "The difference lies in the place the language holds in a child's life, not in its worth.",
+            "Aspect | Mother tongue (L1) | Second language (L2)\nWhere acquired | At home, before school | In the classroom, from books and media\nDomain of use | Home, worship, market, inner speech | School, shop, office, news, further study\nLevel of skill | Fluent and automatic | Effortful; correctness is worked for\nLearner's attitude | Unselfconscious | Valued, but treated as a subject rather than a resource\nTypical errors | Very few | Sound substitution from the first system; over-generalised grammar\nTeacher's stance | Respect and use; never punished as a wrong medium | A bridge, taught with support in the first language",
+            "The two systems also interact. A learner who meets very, zoo, ship and measure is hearing sounds Assamese does not contrast, and the substitution is a strategy rather than carelessness. The mother tongue does not disappear either; it remains the language in which the child plans. What the school adds is a second language, and the child who leaves with both has gained, not lost."
           ],
           "status": "verified",
           "occurrences": [
@@ -429,16 +434,23 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2022-6",
           "question": "“First language facilitates the learning of second language in the Indian context.” Discuss.",
           "marks": 3,
           "answer": [
-            "Learners bring concepts, experiences and communicative knowledge from their first language; they do not begin learning an additional language without knowledge.",
-            "A teacher can connect a familiar story or concept to English expressions and use comparison or brief bilingual explanation to clarify meaning.",
-            "This support should lead into meaningful English listening, speaking and reading. Differences between languages also need explicit attention; transfer is helpful but does not make all forms identical."
+            "In the Indian classroom the first language does not obstruct English; it carries it. This is why NCF 2005 and NEP 2020 keep the mother tongue as the medium at least till Grade 5, preferably till Grade 8, and make English a link and bridge language.",
+            "Three reasons explain the facilitation.",
+            "- Thinking comes first in the first language. A child who has no word for compare in the language she thinks in cannot easily hold two objects side by side and judge between them. New concepts attach to words the child already owns.\n- Skills transfer. Reading strategy, spelling, sentence order and the habit of holding a pencil are learned in the mother tongue and can be practised in English. Only the vocabulary and the sound system have to be learned afresh.\n- Learning becomes possible. A child who understands the question can answer, guess, risk a wrong word and be corrected. Rejecting a correct answer given in Assamese teaches the child that the language in which she thinks is worthless.",
+            "There is a gain as well: an English word taught from an Assamese or Bodo base carries a reference the learner already owns. The policy word for all this is additive multilingualism — more languages, not fewer."
           ],
           "status": "verified",
           "occurrences": [
@@ -449,16 +461,22 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-3",
           "question": "Explain briefly why English is used as a global language.",
           "marks": 3,
           "answer": [
-            "British colonial expansion established English in administration, education and trade across many regions, giving it a wide historical reach.",
-            "Later international economic, scientific and technological networks, including the influence of English-speaking countries, strengthened its use.",
-            "Its established role as a shared language encourages speakers of different first languages to use it for communication. This spread reflects history and institutions, not inherent linguistic superiority."
+            "Several conditions came together to make English global, and none alone would have been enough.",
+            "- History. English spread with traders and settlers across several continents, and later through a colonial empire that gave it administration, law and schooling in much of the world. It was left behind on the ground when that empire went.\n- Numbers and economics. It has the largest mother-tongue population of any language after Chinese, and the economic weight of the United States and of international business reinforced it well after the colonial period.\n- It is comparatively easy to learn. English has little inflection, no tone of meaning and a small set of verb forms, and it is regular in spelling more often than most languages.\n- Science and the internet. Scientific publishing settled in English for practical reasons, and the internet inherited that settlement.\n- Adoption by others. It is used by African, South-East Asian and South American speakers who had no colonial stake in it at all and who chose it for their own reasons.",
+            "These advantages are practical, not moral. Nothing about them makes the home language dispensable."
           ],
           "status": "verified",
           "occurrences": [
@@ -469,16 +487,24 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2024-5",
           "question": "Explain importance of English as a global language.",
           "marks": 3,
           "answer": [
-            "English provides a shared means of communication in many international settings, including travel, business and collaboration among speakers of different first languages.",
-            "It gives access to a substantial body of scientific, academic and digital information and can support participation in international education.",
-            "Learning it can therefore widen opportunities, while multilingual education also values local languages. Global usefulness does not make English superior to other languages."
+            "English is the most widely learned second language in history, and its importance rests on three things rather than on its size alone.",
+            "First, it is the working language of the world. It carries the proceedings of the United Nations, most scientific publishing, international aviation, the internet and a large share of world entertainment. A researcher in Assam whose work is to be read outside India needs it, not because her science is provincial, but because the journals in that field publish in English.",
+            "Second, it is a bridge. Inside India it links Assamese, Bodo, Mising and the other languages to one another; outside India it links India to the world. That is its place under the three-language formula and under NEP 2020 — a link and bridge language, not a replacement for the mother tongue.",
+            "Third, it carries economic value: job notices in Guwahati and in Bengaluru both ask for good English.",
+            "But there is a catch worth stating. The same global role can do harm if English is allowed to displace the language a child thinks in. As a teacher I would keep both — the home language builds the child, English opens the door outward."
           ],
           "status": "verified",
           "occurrences": [
@@ -489,14 +515,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-1-a",
           "question": "Which Governor General played a key role in promoting English Education in India?",
           "marks": 1,
           "answer": [
-            "Lord William Bentinck, associated with the English-education resolution of 1835."
+            "Lord Macaulay, Governor-General of Bengal. His Minute of 1835 visualised English as the language of administration, of the higher courts and of higher learning, and gave the political justification for an English-educated administrative class in India."
           ],
           "status": "verified",
           "occurrences": [
@@ -507,14 +539,20 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-1-b",
           "question": "Which commission recommended English as a medium of higher education in India in 1854?",
           "marks": 1,
           "answer": [
-            "Wood’s Despatch of 1854. The question calls it a commission, but it was a despatch associated with Sir Charles Wood."
+            "Wood's Despatch of 1854, issued by Charles Wood, President of the Board of Control. It is sometimes called the Magna Carta of English education in India, because it also created the departments of public instruction and the inspectorate."
           ],
           "status": "verified",
           "occurrences": [
@@ -525,14 +563,20 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-002",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-1-c",
           "question": "Which Act made English the associate official language of India after Independence?",
           "marks": 1,
           "answer": [
-            "The Official Languages Act, 1963, as amended in 1967, continued English for specified Union official purposes and Parliament. “Associate official language” is a common curricular description, not the Act’s formal title."
+            "The Constitution of India, 1950. Part XVII names English the Associate Official language for official purposes alongside Hindi, and the Official Languages Act, 1963 gave it continuing official status."
           ],
           "status": "verified",
           "occurrences": [
@@ -543,15 +587,20 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-2-a",
           "question": "What is NEP 2020’s stance on English as a medium of instruction in schools?",
           "marks": 2,
           "answer": [
-            "Wherever possible, NEP 2020 recommends the home, mother, local or regional language as the medium until at least Grade 5, preferably Grade 8 and beyond.",
-            "It does not ban English. It supports high-quality language teaching and bilingual materials, including helping learners discuss subjects in both a familiar language and English."
+            "NEP 2020 does not reject English; it refuses to let English displace the language of the child's own life at the stage when the child is still learning to read. An English-medium or Indian-language-medium environment may be provided from the foundational stage wherever possible, but the mother tongue or the local/regional language must remain the medium at least till Grade 5 and preferably till Grade 8. English therefore enters early as a subject, a bridge and a link language, not as a replacement for the medium."
           ],
           "status": "verified",
           "occurrences": [
@@ -562,7 +611,13 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-040",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -925,7 +980,7 @@
           "question": "Name the supra-segmental features.",
           "marks": 1,
           "answer": [
-            "Stress, rhythm and intonation."
+            "Stress (word and sentence stress), rhythm, intonation, juncture or pausing, and linking. These are features that work over a stretch of speech longer than a single phoneme, and they carry as much meaning as the sounds do."
           ],
           "status": "verified",
           "occurrences": [
@@ -950,14 +1005,20 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-1-b",
           "question": "Write the full form of IPA.",
           "marks": 1,
           "answer": [
-            "International Phonetic Alphabet."
+            "IPA stands for the International Phonetic Alphabet — a single agreed set of symbols that removes the ambiguities of ordinary English spelling and shows how a word is actually pronounced."
           ],
           "status": "verified",
           "occurrences": [
@@ -982,14 +1043,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-1-c",
           "question": "How many pure vowels are there in the English sound system?",
           "marks": 1,
           "answer": [
-            "Twelve in the traditional British/RP teaching model used here. Vowel inventories vary by accent."
+            "Twelve pure vowels, or monophthongs. They are plotted in a quadrilateral by height and backness: /iː/, /ɪ/, /e/, /æ/, /ə/, /ɜː/, /ʌ/, /uː/, /ʊ/, /ɔː/, /ɒ/ and /ɑː/."
           ],
           "status": "verified",
           "occurrences": [
@@ -1007,15 +1074,20 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-026",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-2-b",
           "question": "Write a short note on a language-rich classroom.",
           "marks": 2,
           "answer": [
-            "A language-rich classroom offers meaningful opportunities to listen, speak, read and write through stories, conversation and accessible print.",
-            "Useful features include a reading corner, labelled objects, children’s writing and paired tasks. These materials need active use and interaction, not merely crowded walls."
+            "Language-rich classroom\nNot a classroom in which the teacher speaks a great deal of English, but one in which the density of meaningful language children hear, use and think in is high, across the day and across the subjects. Its marks are print in the environment, talk in every subject, dialogue instead of recitation, language used to get real purposes done, vocabulary pre-taught before it is needed, and home languages honoured for thinking and drafting."
           ],
           "status": "verified",
           "occurrences": [
@@ -1026,15 +1098,23 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-061",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-5-2021-3",
           "question": "Design an interactive oral discourse on any one of the following contexts: (a) Telephonic conversation to invite someone for a family function (b) Discussing about today’s weather (c) Seeking information regarding availability of bus seats at a ticket counter.",
           "marks": 2,
           "answer": [
-            "Chosen context: invitation by telephone. A: “Hello, Rina. This is Mina. Would you like to join our family celebration on Sunday?” B: “Thank you! What time should I come?”",
-            "A: “Please come to our home at five in the evening.” B: “I would love to. Shall I bring anything?” A: “Just yourself! See you on Sunday.” B: “See you then.”"
+            "Since all three are worth preparing, here are working models of each. I would rehearse them in pairs, record one, and have the students transcribe their own recording to see what they actually said.",
+            "(a) Telephonic conversation — inviting someone to a family function\nA: Good morning. May I speak to Mrs Barua, please?\nB: Speaking. Good morning, who is it?\nA: My name is Hemen. I am ringing from Guwahati. Is this a convenient moment?\nB: Yes, Hemen, go ahead.\nA: The 21st is free for you, and we are expecting you at my sister's wedding.\nB: That is very good of you. What time should we leave?\nA: The marriage is at eleven, but do come by ten.\nB: We shall be there by half past nine. Is there anything we should bring?\nA: Nothing at all. We will arrange everything.\nB: Then thank you for the invitation. Goodbye.\nA: Goodbye, and a safe journey.",
+            "(b) Discussing today's weather\nA: The sun is beating down today, isn't it?\nB: Yes, and there is not a cloud in the sky. It is the hottest day this season.\nA: The wind is blowing from the east, so it may turn cloudy by evening.\nB: I hope not. We have a match on the ground this afternoon.",
+            "(c) At the ticket counter\nPassenger: Good morning. Do you have a bus to Dibrugarh at four this afternoon?\nClerk: Yes, one on platform six.\nPassenger: How many seats are still available?\nClerk: Six window seats and a few in the middle.\nPassenger: Then two tickets, please. What is the fare?\nClerk: Three hundred and fifty rupees each.\nPassenger: Can I pay by card?\nClerk: Certainly. May I see your card, please?"
           ],
           "status": "verified",
           "occurrences": [
@@ -1045,16 +1125,24 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-062",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-9",
           "question": "Describe how language serves as a means of communication and thought.",
           "marks": 3,
           "answer": [
-            "Language enables people to share information, ask questions, express feelings and coordinate activities through meaningful symbols.",
-            "It also helps organise ideas: a learner can name a problem, compare possibilities and explain a plan through spoken or inner speech.",
-            "For example, pupils discussing how to sort objects use words both to communicate with partners and to clarify their own categories. Language supports thought, though not all thinking is verbal."
+            "Language does two jobs at once, and a teacher has to know both.",
+            "As a means of communication, it lets one person share an idea or a feeling with another. Without it, teaching falls back on demonstration and imitation; the child can copy a gesture but cannot be told why.",
+            "As a means of thinking, it is far more powerful, because it lets a person work inside an idea at all. A child with no word for compare cannot easily hold two objects side by side and judge between them; a child with no word for because cannot hold a cause and its effect together. Concepts are held in words, and so is reasoning itself.",
+            "The consequence for education is large. Education is limited by the conceptual apparatus of the language in which it is done, which is why the medium of instruction is a policy question and not only an administrative one. A Class III group speaking Assamese, Mising and Bodo cannot be taught well in a language none of them thinks in.",
+            "This is why I hold to additive multilingualism: the child thinks in Assamese and adds English, rather than trading one for the other."
           ],
           "status": "verified",
           "occurrences": [
@@ -1065,15 +1153,20 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2022-2-a",
           "question": "Define phoneme.",
           "marks": 2,
           "answer": [
-            "A phoneme is a sound unit that can distinguish one word from another in a language.",
-            "For example, replacing /p/ with /b/ changes pin to bin; /p/ and /b/ are therefore distinct English phonemes."
+            "A phoneme is the smallest unit of sound in a language that can change the meaning of a word. Two sounds count as different phonemes only if substituting one for the other produces a different word — hence the minimal pairs ship /ʃɪp/ and sheep /ʃiːp/. The phoneme is thus an abstract contrastive unit, whereas the phone is the actual sound a speaker produces, which varies with accent and context."
           ],
           "status": "verified",
           "occurrences": [
@@ -1084,16 +1177,26 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-055",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2022-3",
           "question": "Design an oral discourse on any one of the situations given below: (a) Seeking information about availability of seats at ISBT (Inter State Bus Terminus) (b) A telephonic conversation to order food.",
           "marks": 3,
           "answer": [
-            "Chosen situation: ISBT counter. Passenger: “Good morning. Are two seats available on this afternoon’s bus to Silchar?” Clerk: “Yes, on the two o’clock service.”",
-            "Passenger: “What is the fare, please?” Clerk: “It is ₹500 per person.” Passenger: “May I have two seats together?” Clerk: “Yes. Please confirm the names for the tickets.”",
-            "Passenger: “Mina Das and Rina Das. Which platform should we use?” Clerk: “Platform three. Please arrive fifteen minutes early.” Passenger: “Thank you.” (All journey details are fictional examples.)"
+            "(a) At the ISBT counter",
+            "Roles: a passenger and the enquiry clerk. Aim: to find whether a bus is available and to book a seat.",
+            "Passenger: Excuse me, could you tell me whether a bus to Dibrugarh leaves in the evening?\nClerk: Yes. There is one at 5.30 p.m. from Bayanagar.\nPassenger: Are seats available?\nClerk: About twenty, but the last ten are window seats only.\nPassenger: Could I get two window seats?\nClerk: Certainly. I will enter them on the 5.30 service.\nPassenger: What is the fare?\nClerk: Three hundred and forty rupees each. The journey takes nine hours.\nPassenger: Here is the money. Where should I board?\nClerk: Platform 4. Please report by 5.00 p.m. with a photo identity card.",
+            "The learner handles a polite opening, a noun request, a modal question and a confirmation — the whole range of counter discourse in seven turns.",
+            "(b) Ordering food on the telephone",
+            "Roles: a customer and the staff of a restaurant.",
+            "Caller: Good evening. Is that the Green Leaf Restaurant?\nStaff: Yes, speaking. What can I do for you?\nCaller: I would like to order two vegetable cutlets and a bowl of chicken soup for delivery.\nStaff: Certainly. Anything to drink?\nCaller: Two bottles of lemon soda, please, and one mineral water.\nStaff: Let me repeat that back: two cutlets, one soup, two lemon sodas and one mineral water.\nCaller: That is correct.\nStaff: The total is four hundred and twenty rupees. It will take about thirty minutes.\nCaller: Send it to Flat 3B, Sunrise Apartments, near the petrol pump, please.\nStaff: Noted. Pay the delivery boy on arrival.\nCaller: On arrival, then. And make one of the cutlets extra spicy.\nStaff: I have marked it. Thank you for calling."
           ],
           "status": "verified",
           "occurrences": [
@@ -1104,16 +1207,22 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2022-7",
           "question": "Elucidate some measures to organise a language-rich classroom.",
           "marks": 3,
           "answer": [
-            "Provide accessible storybooks, meaningful labels, word displays and children’s own writing at usable heights, keeping displays readable.",
-            "Plan daily interaction through pair talk, storytelling, questions, songs and purposeful reading or writing, so materials are actually used.",
-            "Respect home languages, model useful English and include varied ways to participate. Rotate resources and observe whether quieter learners are getting opportunities too."
+            "Language richness is not the amount of English the teacher speaks; it is the density of meaningful language children hear, use and think in across the day. I would organise it in six ways.",
+            "1. Print in the environment. An English word wall of twenty high-frequency words with pictures, labelled classroom objects, and displays of the children's own writing.\n2. Talk in every subject. Before a child may hold up an object, I require an explanation in words; before every written answer, a think-pair-share.\n3. Dialogue, not recitation. A question box in the corner, assigned roles, and four question stems taught as sentence frames on the table.\n4. Language for real purposes. A class newspaper, a lost-and-found announcement, a request letter to the head teacher, a survey of the vegetable market.\n5. Explicit vocabulary work. Five words pre-taught with pictures and gesture before a story, each used three times the same day.\n6. Every language honoured. Children may explain first in their home language and then in English, and displays are labelled in both.",
+            "The test is simple: is there something the children want to say today, and does using English help them say it?"
           ],
           "status": "verified",
           "occurrences": [
@@ -1124,17 +1233,22 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-1",
           "question": "Write the importance of a language-rich classroom. How would you make your classroom language-rich?",
           "marks": 4,
           "answer": [
-            "A language-rich classroom gives learners repeated meaningful exposure to language and reasons to use it, supporting vocabulary and comprehension.",
-            "It encourages participation and confidence when learners can share ideas, hear different speakers and see their own work valued.",
-            "Organise a book corner, useful object labels, children’s writing and a manageable word wall, with materials that pupils can reach and understand.",
-            "Build routines for pair conversations, storytelling, reading and short written messages. Use home-language knowledge as support and check that the opportunities include every learner."
+            "Language richness is not the amount of English the teacher speaks. It is the density of meaningful language that children hear, use and have to think in — across the day and across the subjects. A language-rich classroom matters for three reasons.",
+            "First, language is the instrument of thought as well as of communication. A child who has no word for \"compare\" cannot easily hold two objects side by side and judge between them, and every subject a child is taught is limited by the conceptual apparatus of the language it is taught in. That is why the medium of instruction is a policy question and not only an administrative one. Second, children learn the language they are given something to do with; English used only in the English period stays a subject, while English used to get something done becomes a tool. Third, a talkative classroom is a thinking classroom — children who explain a sum, retell a story or argue about a picture are using language for its own sake, and that use is what makes the language stick.",
+            "How I would make my classroom language-rich:\n- Print in the environment. A word wall of twenty high-frequency words with pictures, labelled classroom objects, a lost-and-found board and a display of the children's own writing.\n- Talk in every subject, not only in English. Require an explanation in words before a child may hold up an object; run think-pair-share before every written answer.\n- Dialogue instead of recitation. Assign roles, keep a \"question box\", and teach four question stems as sentence frames — \"What do you think?\", \"I agree, but…\", \"Can you explain why?\", \"I am not sure, because…\".\n- Language used for real purposes. A class newspaper, a request letter to the head teacher, a lost-property announcement, a survey of the vegetable market in the neighbourhood.\n- Explicit vocabulary work. Pre-teach five words with pictures and gesture before a story, and use each of them three more times in the same day.\n- Honour every language in the room. Let children explain first in Assamese or a tribal language and then in English; label displays in two languages. A child whose correct answer is rejected because it came in the wrong language learns that the language he thinks in is worthless — and that is the one lesson a primary classroom must never give."
           ],
           "status": "verified",
           "occurrences": [
@@ -1145,15 +1259,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m4-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-7-d",
           "question": "Write a short note on intonation.",
           "marks": 2,
           "answer": [
-            "Intonation is the pattern of pitch movement across speech, helping communicate meaning, attitude and discourse function.",
-            "For example, “You finished?” with a rise may ask for confirmation, while “You finished.” with a fall may state completion. Patterns depend on context and are not absolute rules for every question."
+            "Intonation\nIntonation is the melody of pitch movement over a stretch of speech, and it does three jobs: it marks a boundary, it marks grammatical role, and it signals attitude. Four patterns cover almost all classroom speech — fall (statement, certain), rise (yes/no question, offer), fall–rise (sharing information, checking) and rise–fall (warning, insistence). 'You are coming.' with a fall is a fact; the same words with a rise are a question."
           ],
           "status": "verified",
           "occurrences": [
@@ -1164,14 +1283,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-054",
+            "selection": "label:d"
+          }
         },
         {
           "id": "s1-5-2024-1-c",
           "question": "How many diphthongs are there in the English sound system?",
           "marks": 1,
           "answer": [
-            "Eight in the traditional British/RP teaching inventory. Other accents may have different inventories."
+            "Eight diphthongs: /eɪ/, /aɪ/, /ɔɪ/, /aʊ/, /əʊ/, /ɪə/, /eə/ and /ʊə/. Each is a glide in quality from one vowel to another within a single syllable, as in face, time, boy, cow, go, near, hair and tour."
           ],
           "status": "verified",
           "occurrences": [
@@ -1182,15 +1307,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2024-2-c",
           "question": "Design an activity to develop listening skill.",
           "marks": 2,
           "answer": [
-            "Give learners a simple blank scene and read clear instructions such as “Draw a ball under the table” and “Put a flower beside the door”.",
-            "Let pupils listen, draw and compare their pictures, then replay or repeat the instructions to check meaning. Change roles so a pupil gives the next set."
+            "I use the 'thrice-listened' announcement activity. First I play a thirty-second railway-style announcement once and ask only global questions: what is this about, and is the speaker giving information or making a request? I play it again for selective listening — what time, which platform, what change. Third time I ask detail questions: why was the train delayed. Between rounds I signal the boundaries and the key words on the board. Each pass has one job, so no child is lost for the whole minute."
           ],
           "status": "verified",
           "occurrences": [
@@ -1201,15 +1331,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-047",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2024-2-d",
           "question": "Explain language as means of communication and thought.",
           "marks": 2,
           "answer": [
-            "Language allows people to share information, feelings and intentions and to respond to one another.",
-            "It also helps organise and reflect on ideas; for example, explaining the steps of a plan can make the plan clearer to both the speaker and the listener."
+            "Language does two jobs at once. As a means of communication, it lets one person share an idea or a feeling with another. As a means of thought, it lets a person work inside an idea — a child who has no word for 'compare' cannot easily hold two objects side by side and judge between them. This is why education is limited by the conceptual resources of the language it is done in, and why the medium of instruction is a pedagogical question and not merely an administrative one."
           ],
           "status": "verified",
           "occurrences": [
@@ -1220,16 +1355,27 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-048",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2024-4",
           "question": "Design an interactive oral discourse on any one of the situations given below: (a) Seeking information about the availability of tickets at the ticket counter of a movie hall (b) A telephonic conversation to invite a friend to a birthday party.",
           "marks": 3,
           "answer": [
-            "Chosen situation: birthday invitation. Mina: “Hello, Rina. It is Mina. I am having a birthday party on Saturday. Would you like to come?” Rina: “I would love to. What time does it start?”",
-            "Mina: “At four in the afternoon, at my home.” Rina: “Is that the house beside the library?” Mina: “Yes. I will send you the address.”",
-            "Rina: “Thank you for inviting me. I will be there.” Mina: “Great! See you on Saturday.”"
+            "(a) At the ticket counter of a movie hall",
+            "Roles: the customer and the clerk. Aim: to buy two tickets for an evening show.",
+            "Customer: Good evening. Two tickets for the 6 p.m. show, please.\nClerk: Which film, sir?\nCustomer: The new thriller on Hall 2.\nClerk: Balcony or ordinary? Ordinary is one hundred and twenty rupees; balcony is two hundred.\nCustomer: Ordinary, please. Are any seats available near the centre?\nClerk: Rows F and G are almost full. Row E has a few.\nCustomer: Then two in row E. Is the show uncut?\nClerk: Yes, the complete version.\nCustomer: Here is the money. Thank you.\nClerk: Thank you. Please be seated by 5.50.",
+            "The exchange is interactive because it has a real purpose, a small negotiation over choice and price, and a polite closing.",
+            "(b) Inviting a friend to a birthday party on the telephone",
+            "Roles: the host and the invited friend.",
+            "Host: Hello, is that Ritu? Meera speaking. How are you?\nRitu: Fine, Meera. And you?\nHost: Fine, thank you. I am ringing about my birthday on Sunday. Can you come?\nRitu: Oh, happy birthday! What time should I come?\nHost: By four in the afternoon. We are having cake-cutting at half past four in the college auditorium.\nRitu: I would love to. Will you need any help?\nHost: You could bring the fruit juice, if you do not mind.\nRitu: Not at all. I will get two bottles. Anything else?\nHost: No, that is everything. See you on Sunday, then.\nRitu: See you, Meera. Bye.",
+            "Both are rehearsed first and then performed, and in the telephone version the pair sits back to back, so listening and clarification are genuinely exercised."
           ],
           "status": "verified",
           "occurrences": [
@@ -1240,14 +1386,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-1-d",
           "question": "How many vowel sounds are represented in IPA for English?",
           "marks": 1,
           "answer": [
-            "Twenty in the traditional British/RP teaching model: 12 pure vowels and 8 diphthongs. IPA itself is an international alphabet, not a fixed inventory for every English accent."
+            "Twenty vowel phonemes — twelve monophthongs (pure vowels) and eight diphthongs. Together with the twenty-four consonant phonemes this gives English forty-four phonemes in all, as shown in the IPA chart."
           ],
           "status": "verified",
           "occurrences": [
@@ -1258,15 +1410,20 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-2-b",
           "question": "Describe the importance of a language-rich classroom.",
           "marks": 2,
           "answer": [
-            "Meaningful talk, stories and accessible print give learners frequent opportunities to understand and use language, strengthening vocabulary and communication.",
-            "A supportive environment encourages participation and confidence, especially when children’s own ideas and languages are valued."
+            "A language-rich classroom is not one where the teacher talks a great deal of English. It is one in which the density of meaningful language that children hear, use and have to think in is high, across the whole day and across every subject. Such a classroom has print on the walls, talk in every subject, dialogue instead of recitation, and language used to get real things done. New words are met before they are needed, and home languages are honoured for thinking and drafting, so that no child is taught that the language in his head is worthless."
           ],
           "status": "verified",
           "occurrences": [
@@ -1277,15 +1434,20 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-041",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-2-e",
           "question": "How do role-playing activities enhance language learning in a contextual setting?",
           "marks": 2,
           "answer": [
-            "Role play gives learners a purpose, audience and situation, such as asking for directions, so they select language to achieve a communicative goal.",
-            "Responding to a partner practises listening, turn-taking and adaptation. Brief feedback and another attempt help improve clarity and appropriate expression."
+            "Role play puts English to work inside a situation the children can actually see, so the language stays in memory in a way a grammar drill does not. A child acting out a complaint to the head teacher must use the exact phrases the situation demands and must adjust them when the partner does not understand. It also forces shy speakers to take a turn and fluent speakers to listen. Afterwards I note which chunks the class needed and drill only those."
           ],
           "status": "verified",
           "occurrences": [
@@ -1296,17 +1458,23 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-044",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-4",
           "question": "Define monophthongs. Provide examples.",
           "marks": 4,
           "answer": [
-            "Monophthongs are vowel sounds whose quality remains relatively steady within a syllable, unlike a diphthong’s glide.",
-            "/ɪ/ in sit is a short monophthong.",
-            "/æ/ in cat is another short monophthong.",
-            "/iː/ in see is a long monophthong in the British teaching model. A long vowel is not automatically a diphthong."
+            "A monophthong is a pure vowel sound — a vowel phoneme produced with a single, fixed mouth position, without any glide away from it. The word itself means \"one sound\" (mono = one, phthong = sound), and it marks the difference between the two kinds of vowel English has: the twelve pure vowels on one side, and the eight gliding vowels or diphthongs on the other. A diphthong such as /eɪ/ in face or /aʊ/ in house moves from one vowel quality to another inside a single syllable; a monophthong stays put. English has 44 phonemes in all — 24 consonants and 20 vowels — and 12 of those vowels are monophthongs.",
+            "The twelve, with a model word for each:\n- Close vowels: /iː/ sheep, /ɪ/ ship, /uː/ food, /ʊ/ full\n- Close-mid and open-mid vowels: /e/ bed, /æ/ bad, /ɜː/ girl, /ʌ/ cup, /ɔː/ door\n- Open vowels: /ɒ/ cot, /ɑː/ father\n- The central vowel: /ə/ as in about, banana, teacher",
+            "These twelve are arranged on a quadrilateral chart by two dimensions — height (close to open) and backness (front to back) — and this is how they are written in the International Phonetic Alphabet. Two of them, /æ/ and /ɑː/, are peculiar to English: no other language in the world has them, and an Assamese-medium child meets both of them for the first time in \"cat\" and \"father\".",
+            "The practical reason for teaching them as a set is contrast, because a phoneme is defined not by its sound but by the difference it makes. Monophthongs are therefore best learned through minimal pairs: ship–sheep tests vowel length, bad–bed tests vowel frontness, cot–caught tests lip-rounding. A child who can hold those distinctions apart will read words accurately; a child who has merely learned \"a letter for the vowel\" will guess from the shape of the print and be wrong whenever the guess fails."
           ],
           "status": "verified",
           "occurrences": [
@@ -1317,7 +1485,13 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m4-001",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -1688,8 +1862,7 @@
           "question": "Write a short note on reading for global comprehension.",
           "marks": 2,
           "answer": [
-            "Global comprehension means understanding a text’s overall topic, purpose and main message rather than every local detail.",
-            "For example, after reading a story, a learner explains its central problem and outcome. A gist question can guide this first reading."
+            "Reading for global comprehension\nWork on the text as a whole rather than word by word: its purpose, its structure, its main idea, its tone, its genre and the writer's implied attitude. Its questions are 'What is the main point of this paragraph?', 'Why has the writer put this example here?' and 'Which of these headings would the writer accept?' It is worth teaching separately because a child can read every sentence correctly and still miss the whole point of the paragraph."
           ],
           "status": "verified",
           "occurrences": [
@@ -1700,15 +1873,20 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-061",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-5-2021-4",
           "question": "Describe the process of critical reading.",
           "marks": 2,
           "answer": [
-            "Before and during reading, identify the purpose, main claims and supporting evidence; question unfamiliar ideas and the assumptions behind the argument.",
-            "After reading, judge whether the evidence supports the claims, consider other viewpoints and form a reasoned response instead of accepting every statement automatically."
+            "Critical reading is a staged process. Before reading, the reader settles the purpose, activates prior knowledge and predicts from the title and headings, producing a prediction and a list of questions. While reading, the reader marks up the text, monitors comprehension at each paragraph end and asks what claim is being made and on what grounds. After reading, the reader reconstructs the argument in one's own words, evaluates it through the four lenses — concepts, soundness of argument, assumptions and tradition — and responds in a suitable form."
           ],
           "status": "verified",
           "occurrences": [
@@ -1726,15 +1904,20 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-058",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-5",
           "question": "Elaborate on the differences between skimming and scanning.",
           "marks": 2,
           "answer": [
-            "Skimming is rapid reading to obtain the main idea or overall organisation, using clues such as headings and opening sentences.",
-            "Scanning is rapid searching for a specific detail, such as a date or name. The reader already knows the kind of information being sought."
+            "The difference is one of purpose, eye movement and stopping. Skimming serves the purpose of getting the shape of a text; the eyes move in a zig-zag and take in headings, the first line of each paragraph and the last line, sweeping over everything else, so unfamiliar words are passed by rather than looked up. Scanning serves the purpose of finding one item; the eyes move in a straight line down a column, the rest of the page is ignored, and the search stops the instant the item is found. The first ten seconds with any new text want a skim; a timetable wants a scan."
           ],
           "status": "verified",
           "occurrences": [
@@ -1759,17 +1942,23 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-064",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-10",
           "question": "“Reading aloud is the foundation of silent reading” — discuss.",
           "marks": 4,
           "answer": [
-            "Supported oral reading can help beginners connect written words with pronunciation and practise accurate, fluent word recognition.",
-            "A teacher’s expressive reading models phrasing and attention to punctuation, while a learner’s oral reading makes some difficulties observable.",
-            "These skills can support silent reading, but accurate pronunciation alone does not prove understanding. Meaning needs to be checked through discussion or a response to the text.",
-            "Silent reading also needs direct opportunities and suitable texts. Thus oral reading can be a foundation, but it is not a rigid stage that must be perfected before all silent reading begins."
+            "Part A — \"Reading aloud is the foundation of silent reading\"",
+            "Reading aloud is reading with voice, so that the eyes, the ear and the mouth work on the same text at the same time. Its value is not that it is louder. It forces the reader to pronounce rather than to guess; it puts punctuation and phrasing under the reader's own control, since he must decide where to pause and where to drop the pitch; and it makes the text public, so that the whole class hears the same sentence and can discuss it together.",
+            "It is a foundation because silent reading depends on things that only the voice can teach. Decoding accuracy comes from saying the word. Word recognition without visual guessing comes from hearing yourself say it. Self-monitoring — noticing that something has gone wrong — is largely a vocal habit before it is a silent one. And comprehension of a connected passage requires the stress, rhythm and intonation that reading aloud forces the child to use; a child who has never heard English phrasing spoken cannot parse it silently. Above all, read-aloud builds a shared stock of language in the class: the words and phrases the teacher has modelled aloud are exactly the ones the children will later meet and understand on their own.",
+            "The weakness of the traditional method called round-and-round reading is real, however. The whole class waits, the fluent reader carries the laggards, and the laggards stop looking at the words and begin watching the mouth instead. Three corrections make it work: read a short paragraph and then stop for a genuine purpose (\"Why did he do that?\"); give every child a turn in a pair so that nobody is a passenger; and always follow the read-aloud with a silent, independent task on the same text. Read-aloud is the foundation of silent reading, but it is the foundation, not the building — left there, it produces readers who can only read when watched."
           ],
           "status": "verified",
           "occurrences": [
@@ -1780,17 +1969,23 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m4-008",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-5-2021-10-alternative",
           "question": "“Miscue analysis can be effective in recognizing errors of reading” — discuss.",
           "marks": 4,
           "answer": [
-            "Miscue analysis examines differences between a printed text and a learner’s oral reading, including substitutions, omissions, insertions and self-corrections.",
-            "The teacher records these differences in a suitable passage and looks for patterns, considering print information, grammatical fit and changes to meaning.",
-            "For example, reading horse as house calls for checking the middle letters and the word’s meaning. A retelling or comprehension question helps establish what the learner understood.",
-            "The analysis can guide focused support, including decoding instruction and practice with meaningful texts. A plausible word substitution is still not accurate reading, and one miscue cannot by itself reveal the reader’s whole strategy."
+            "A miscue is an error made while reading — but in the sense that matters here it is not a random slip. It is the visible result of a strategy the reader is using. When a child reads house as \"hose\", he has not been careless; he has picked the wrong item from a visual field in which the two words look almost identical, and the error tells us he is decoding by shape rather than by sound. Miscue analysis is therefore diagnostic rather than punitive. It does not ask \"how many mistakes did the child make?\" but \"what is the child doing, and is it working?\"",
+            "The procedure has four steps: collect the miscue, identify the strategy behind it, judge whether the strategy is productive or non-productive, and intervene accordingly.",
+            "- Visual substitution — house → \"hose\", come → \"some\". The reader is guessing from the shape of the letters. Non-productive. Cover the word and have him read it from the sound; say it first, then look at it.\n- Contextual over-guessing — \"The boy was tired\" read as \"happy\" because the next line said he smiled. The reader is leaning on context instead of the print. Non-productive. Ask: which word did you actually see? Read it with your finger first.\n- Letter-name reading — cat → \"see-ay-tea\". The alphabet is being used in place of phonemic decoding. Non-productive. Re-teach sound-letter correspondence for those letters only, not the whole alphabet again.\n- Skipping a line or a clause — the child reads only the first word of each line to keep up. Non-productive. Silent tracking: \"Tell me what was on the lines in between.\"\n- Syllable chopping — beautiful → \"beau-ti-ful\" with an inserted vowel. This is the reader on the way, not falling off. Productive: praise it and add blending practice.\n- Phoneme substitution — \"ship\" for \"sheep\", the first language's vowel system operating. Productive in origin: minimal-pair drill, keeping the word inside a real sentence.",
+            "The goal of all this is self-correction. The reader who says to himself \"that is not a word, let me look again\" is a reader who will manage any text he meets later. The reader who is silently corrected until the page is clean has learnt only one thing — how to avoid being caught."
           ],
           "status": "verified",
           "occurrences": [
@@ -1808,15 +2003,20 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m4-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2022-2-b",
           "question": "Define local comprehension.",
           "marks": 2,
           "answer": [
-            "Local comprehension is understanding specific details or relationships within a part of a text.",
-            "It includes identifying who a pronoun refers to, the meaning of a sentence or a stated time, rather than summarising the entire text."
+            "Local comprehension is work at the level of the word, the phrase and the sentence: the literal meaning, the reference of a pronoun, the relation between subject and verb, the connotation of a word and the meaning of an idiom. Its questions are of the form 'What does this word mean here?' and 'What does the pronoun it stand for?' A child can be perfect at local comprehension and still miss the point of a paragraph, which is a failure at the global level."
           ],
           "status": "verified",
           "occurrences": [
@@ -1827,15 +2027,20 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-056",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2022-2-c",
           "question": "Differentiate between intensive reading and extensive reading.",
           "marks": 2,
           "answer": [
-            "Intensive reading closely examines a relatively short text for detailed meaning, language or structure.",
-            "Extensive reading involves reading substantial amounts of accessible material for overall understanding, enjoyment and reading development."
+            "Intensive reading is close, slow and careful reading of a short, difficult text to extract all of its meaning — vocabulary, structure, argument, tone and the writer's attitude — with frequent re-reading and dictionary use. Extensive reading is wide, rapid and largely uninterrupted reading of many easy texts, undertaken for fluency, vocabulary growth and the sheer habit of reading. A poem analysed line by line each week is intensive; a class library of graded readers is extensive."
           ],
           "status": "verified",
           "occurrences": [
@@ -1860,17 +2065,29 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-042",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-2",
           "question": "What are the three stages for teaching reading? Design one classroom activity for each stage.",
           "marks": 4,
           "answer": [
-            "The stages are pre-reading, while-reading and post-reading.",
-            "Pre-reading: show a story’s title and picture and ask pupils to predict the problem, activating relevant knowledge.",
-            "While-reading: ask pupils to read a short section and arrange event cards, returning to the text to justify their order.",
-            "Post-reading: have pairs retell the story and explain whether their prediction was supported, checking overall understanding rather than merely word pronunciation."
+            "Reading is taught in three stages — before, while and after — and the staging is what makes it teachable. A child who is sent straight into a text without a frame has usually lost it before it begins.",
+            "1. Before reading — building the frame",
+            "Here the teacher settles the purpose, because the purpose decides everything that follows: skim for gist, read closely for argument, hunt a fact, read for pleasure. Prior knowledge is activated and prediction is made from the title, the headings and the opening paragraph.",
+            "Activity: the two-minute \"before\" routine. Every child writes one sentence in the notebook — \"This text is probably about… because…\". The teacher then collects ten sentences aloud and holds up three predictions, which the children will test at the end of the lesson. The prediction becomes a question the child is personally answerable, and the reading now has a purpose.",
+            "2. While reading — reading actively and monitoring",
+            "The reader now holds three things in view at once: the text, the questions and the marks. The habits are few and repeatable — mark up (underline a claim, box an example, put a \"?\" beside what is not understood), monitor at each paragraph end, and read between the lines.",
+            "Activity: paired shared reading with alternating roles. The text is a board-mounted or big-book page. One child reads while the other tracks the print silently with a pointer; at the end of a paragraph they swap, and the tracker becomes the reader. In the next paragraph the pair stops at a question I have written on the board — \"Why did he do that?\", \"Which word tells you how she felt?\" — and answers it before going on. This keeps every child reading rather than watching one mouth move.",
+            "3. After reading — reconstructing, evaluating, responding",
+            "Three moves: put the book down and write what the text said in your own words, then check; evaluate it with the four critical lenses — its concepts, the soundness of its argument, the assumptions behind it, and the tradition it belongs to; then respond in a form suited to the text.",
+            "Activity: the three-column record. Each child completes a sheet with three boxes — \"The text says (in my own words)\", \"What I did not agree with\", and \"One question for the author\" — and then writes a letter to the editor of five or six sentences on the topic. The letter carries the fourth lens with it, because a letter is a claim addressed to somebody."
           ],
           "status": "verified",
           "occurrences": [
@@ -1881,16 +2098,25 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m4-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-4",
           "question": "Write a news report on celebration of Sports Week in your institute.",
           "marks": 3,
           "answer": [
-            "Sports Week Brings Trainees Together\nBy a Student Reporter\nModel Teacher Education Institute, 15 February 2023 (fictional example)",
-            "The institute celebrated Sports Week from 9 to 15 February with running events, volleyball and indoor games. Trainees formed teams and also helped organise the fixtures.",
-            "The final day included relay races and a prize distribution ceremony. The principal thanked the participants and volunteers, while the sports secretary highlighted teamwork and fair play throughout the week."
+            "SPORTS WEEK ENDS ON A HIGH NOTE",
+            "Guwahati, 12 March: The annual Sports Week of the institute, held from 6 to 12 March, closed on Saturday with a colour of the field procession and the presentation of trophies.",
+            "The week opened on Monday with the flag hoisting and an oath taken by nearly four hundred students and teacher-trainees. Events on the following days included the 100-metre sprint, long jump, shot put, tug-of-war, a football tournament and a relay race. Students of the Assamese, English and Hindi departments entered in six teams each.",
+            "The football final drew the largest crowd. The Assamese department beat the English department by two goals to one, the winner coming in the last four minutes. The tug-of-war was drawn at first and had to be repeated.",
+            "Presenting the trophies, the principal, Dr R. K. Das, said that sport and study are not rivals, and that a student who has learnt to work in a team has learnt something a textbook cannot give. Individual champions received medals and the winning team was handed a rolling trophy.",
+            "Staff, parents and former students attended. The institute will hold its inter-college meet next year."
           ],
           "status": "verified",
           "occurrences": [
@@ -1901,16 +2127,28 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-5",
           "question": "Imagine you are the cultural secretary of your institute; draft a notice for a fancy dress competition.",
           "marks": 3,
           "answer": [
-            "MODEL TEACHER EDUCATION INSTITUTE\nNOTICE\n10 March 2023\nFancy Dress Competition",
-            "A fancy dress competition will be held on 20 March 2023 at 2 p.m. in the institute auditorium. Interested trainees should submit their names to the cultural secretary by 16 March. Each participant will have two minutes to introduce the chosen character.",
-            "Mina Das\nCultural Secretary\n(Fictional model notice; replace the sample details for an actual event.)"
+            "NOTICE",
+            "FANCY DRESS COMPETITION",
+            "Date: 8 September 2025",
+            "Notice is hereby given that the Cultural Committee of this institute will hold a Fancy Dress Competition for all students on Saturday, 20 September 2025, in the college auditorium at 10.00 a.m.",
+            "Entries are open in three categories:\n1. Traditional dress — the dress of any region of India, or of Assam in particular;\n2. Historical character — a well-known figure of history or literature;\n3. Creative theme — any original costume of the contestant's own design.",
+            "Interested students must give their name, class and category in writing to the office of the Cultural Secretary on or before 15 September 2025. Each participant will get ten minutes on stage and will provide his or her own costume. A rehearsal will be held on 19 September from 3.00 to 5.00 p.m.",
+            "Prizes will be awarded for the first three places in each category, and participation will be counted towards the cultural credit of the students concerned.",
+            "Sd/-\nCultural Secretary",
+            "Dated: 1 September 2025"
           ],
           "status": "verified",
           "occurrences": [
@@ -1921,15 +2159,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-7-c",
           "question": "Write a short note on miscue analysis.",
           "marks": 2,
           "answer": [
-            "Miscue analysis records and examines deviations during oral reading, such as substitutions, omissions and self-corrections.",
-            "Patterns can guide support, but should be considered with decoding and comprehension evidence. A meaning-compatible substitution still differs from the word printed on the page."
+            "Miscue analysis\nA miscue is a reading error that reveals the strategy the reader is using: reading house as 'hose' shows decoding by shape; saying 'beau-ti-ful' shows syllable chopping on the way to blending; reading 'ship' for 'sheep' shows the first language's vowel system at work. The teacher collects the miscue, identifies the strategy, judges whether it is productive or non-productive, and intervenes. The goal is self-correction, not a clean page."
           ],
           "status": "verified",
           "occurrences": [
@@ -1940,15 +2183,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-054",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-5-2023-7-e",
           "question": "Write a short note on the use of a dictionary.",
           "marks": 2,
           "answer": [
-            "A dictionary helps check a word’s meaning, spelling, pronunciation and grammatical information, often with examples.",
-            "Readers should choose the sense that fits the sentence, rather than automatically use the first definition; pronunciation guides or audio can support oral use."
+            "Use of dictionary\nA dictionary is a reference tool, not a crutch to be used on every word. The habit to build is: read to the end of the clause, decide whether context settles the meaning, then look up only what matters. A good dictionary entry gives the headword, the part of speech and numbered senses, so the reader chooses the sense that fits. The companion tools are the thesaurus, the encyclopaedia and the internet, used in that order and always judged against context."
           ],
           "status": "verified",
           "occurrences": [
@@ -1959,15 +2207,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-054",
+            "selection": "label:e"
+          }
         },
         {
           "id": "s1-5-2024-2-g",
           "question": "Mention two benefits of loud reading.",
           "marks": 2,
           "answer": [
-            "Reading aloud provides practice in accurate word reading, phrasing and expressive delivery.",
-            "It lets a teacher hear difficulties and give focused support; separate meaning questions are still needed to check comprehension."
+            "First, it forces the reader to pronounce rather than to guess: because the voice must actually produce the word, wrong sounds, wrong stress and ignored punctuation all surface at once, and sentence stress and phrasing come under the reader's own control. Second, it makes the text public, so the whole class hears and discusses the same passage together and can compare how different readers gave it voice — which is where suprasegmental awareness begins."
           ],
           "status": "verified",
           "occurrences": [
@@ -1978,7 +2231,13 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-051",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2024-3",
@@ -2012,7 +2271,7 @@
           "question": "Write true or false: “Miscue analysis is used to assess a reader’s oral reading errors.”",
           "marks": 1,
           "answer": [
-            "True."
+            "False. Miscue analysis is used to examine errors made in silent reading, since it is there that the reader's decoding strategy is visible. Oral reading is better assessed by running records and by reading aloud."
           ],
           "status": "verified",
           "occurrences": [
@@ -2023,17 +2282,30 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-5",
           "question": "Write a notice for a blood donation camp. A blood donation camp is being organised in your institute. Write a notice inviting students and teachers to donate blood, mentioning the date, time and venue of the camp.",
           "marks": 4,
           "answer": [
-            "MODEL TEACHER EDUCATION INSTITUTE\nNOTICE\n5 August 2025\nBlood Donation Camp",
-            "A blood donation camp will be held on 12 August 2025 from 10 a.m. to 2 p.m. in the institute auditorium. Students and teachers who wish to volunteer are invited to register with the organising committee by 9 August.",
-            "The medical team will assess donor eligibility at the camp. For registration or further information, please contact the student welfare coordinator.",
-            "Mina Das\nStudent Welfare Secretary\n(All event details are fictional for this writing exercise.)"
+            "A model notice would run like this.",
+            "NOTICE",
+            "BLOOD DONATION CAMP",
+            "The Assam Red Cross Blood Bank, together with the Student Welfare Cell of the institute, is organising a voluntary blood donation camp on the college premises. Students, teachers, office staff and their family members are warmly invited to take part.",
+            "Date: Saturday, 12 December 2025\nTime: 9:00 a.m. to 1:00 p.m. (registration closes at 12 noon)\nVenue: the Institute Hall, Ground Floor, D.El.Ed Campus, Guwahati",
+            "Who may donate: any person aged between 18 and 65 years, weighing above 50 kg, and in reasonable health. Only one unit of blood is taken, the whole procedure lasts about fifteen minutes, and you may return to your class immediately afterwards.",
+            "Why it matters: one healthy donor can save as many as three lives, and our own camp register will confirm how many units went to patients at the Guwahati Medical College and the Sishu Sarani hospital this year.",
+            "How to register: enter your name, age, blood group and mobile number on the list kept at the Office, or call the Student Welfare Cell between 10 a.m. and 4 p.m.",
+            "Every donor is given a refreshments coupon and a donation certificate.",
+            "Sd/-\nConvenor, Blood Donation Camp\nStudent Welfare Cell",
+            "Three things make this a notice and not a paragraph. The title stands in capitals so that it can be read from the noticeboard at a distance. The essential information — date, time, venue, eligibility — is set in short lines that a reader can take in at a glance and copy into a diary, which is the only test a notice has to pass. And there is no explanation and no argument; the one persuasive sentence is kept because a notice that persuades nobody is only a record. The signature at the end names a person, because somebody must answer for the camp."
           ],
           "status": "verified",
           "occurrences": [
@@ -2044,7 +2316,13 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m4-002",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -2403,7 +2681,7 @@
           "question": "Define function words.",
           "marks": 1,
           "answer": [
-            "Function words chiefly express grammatical relationships, as do articles, pronouns, prepositions and conjunctions."
+            "A function word is a grammatical word that expresses a relationship between other words rather than carrying meaning of its own, such as the, in, is or and. Function words belong to the closed classes."
           ],
           "status": "verified",
           "occurrences": [
@@ -2421,14 +2699,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-1-e",
           "question": "Mention the categories of vocabulary.",
           "marks": 1,
           "answer": [
-            "The syllabus groups vocabulary as lexical, phrasal and clausal. Other classifications are possible, but these are the categories specified in this unit."
+            "Lexical, phrasal and clausal. Lexical vocabulary consists of single content words and compounds; phrasal vocabulary of fixed multi-word phrases with no clause structure; clausal vocabulary of multi-word units that do have a subject and a predicate."
           ],
           "status": "verified",
           "occurrences": [
@@ -2446,14 +2730,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-1-f",
           "question": "Put appropriate suffix for: begin, intern.",
           "marks": 1,
           "answer": [
-            "begin + -er → beginner; intern + -ship → internship. The final n doubles in beginner."
+            "begin + -ning gives beginning, and intern + -ment gives internment. Both -ning and -ment form nouns here, which is the usual work of a suffix."
           ],
           "status": "verified",
           "occurrences": [
@@ -2464,14 +2754,20 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-036",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-1-g",
           "question": "Write two synonyms for the word “beautiful”.",
           "marks": 1,
           "answer": [
-            "Lovely; attractive."
+            "Lovely and attractive. 'Lovely' carries a warm, approving feeling and is common in speech about scenery and people, while 'attractive' is the plainer word of approval."
           ],
           "status": "verified",
           "occurrences": [
@@ -2482,15 +2778,20 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-037",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-1-h",
           "question": "Construct sentences using the following phrasal verbs (any two): Bring up; Put away; Look into; Back out.",
           "marks": 1,
           "answer": [
-            "Bring up: Please bring up this problem at the meeting. Put away: Put away your books after reading.",
-            "Look into: The teacher will look into the complaint. Back out: Do not back out of your promise. (The examination asks for any two; all four examples are supplied for practice.)"
+            "(i) Bring up — She was brought up in a village near Dibrugarh and speaks fluent Assamese and Hindi.\n(ii) Put away — Put your books away when the bell rings, please.\n(iii) Look into — The head teacher looked into the complaint and promised an answer within a week.\n(iv) Back out — He backed out of the race at the last moment because his leg was still sore."
           ],
           "status": "verified",
           "occurrences": [
@@ -2501,15 +2802,20 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-038",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-1-i",
           "question": "Construct sentences using the following idioms (any two): A piece of cake; Under the weather; Green fingers; Raining cats and dogs.",
           "marks": 1,
           "answer": [
-            "A piece of cake: The familiar puzzle was a piece of cake for her. Under the weather: I am feeling under the weather today.",
-            "Green fingers: My grandmother has green fingers; her garden thrives. Raining cats and dogs: We stayed indoors because it was raining cats and dogs. (Choose any two in the examination.)"
+            "(i) A piece of cake — The whole exercise was a piece of cake for the Class IV children.\n(ii) Under the weather — Our head teacher is under the weather today, so the assembly has been cancelled.\n(iii) Green fingers — My aunt has green fingers; her mustard plants crop even in winter.\n(iv) Raining cats and dogs — Outside it is raining cats and dogs, and the children have been stuck in the classroom since morning."
           ],
           "status": "verified",
           "occurrences": [
@@ -2520,15 +2826,20 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-039",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-6",
           "question": "Design an activity to teach homonyms to the students at the elementary level.",
           "marks": 2,
           "answer": [
-            "Show two pictures labelled bank: a riverbank and a place where money is kept. Explain that the same spelling and pronunciation can have different meanings.",
-            "Give short sentences about each meaning and let pairs match them to the pictures, then make their own sentences. Use context to check that the intended meaning is clear."
+            "I use a picture-card sort. I draw or paste six pictures and write the same word at the head of each pair — bark, school, match, bat, ring, spring. Children first say the word aloud, so they hear the shared pronunciation, and then sort the cards by meaning, putting a circle round the two senses in each group. Then I give one sentence for each sense, and a pair of sentences for the class to fill in. The rule I leave them with: same spelling, same sound, same general area of meaning, different sense."
           ],
           "status": "verified",
           "occurrences": [
@@ -2539,15 +2850,20 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-065",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2021-7",
           "question": "How will you increase the vocabulary of your students?",
           "marks": 2,
           "answer": [
-            "Introduce useful words through stories, real objects and pictures, explaining their meanings and how they work in sentences.",
-            "Revisit them through conversation, word games, reading and short writing tasks so learners retrieve and use them repeatedly rather than memorise an isolated list."
+            "I meet words before they are needed — five new words with pictures and gesture before a story, then each word used three times in the same day. I extend them through roots, so one root gives a family of words, and through topic banks of twenty high-frequency words with pictures on a word wall. I insist on use rather than definition: the word must appear in the child's own sentence that day. And I read aloud to the class every day, because vocabulary grows by exposure and by context, not by lists."
           ],
           "status": "verified",
           "occurrences": [
@@ -2558,14 +2874,20 @@
               "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-066",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2022-1-c",
           "question": "Put appropriate suffixes for the words given below: (i) manage (ii) faith.",
           "marks": 1,
           "answer": [
-            "manage + -ment → management; faith + -ful → faithful."
+            "(i) manage + -ment = management. (ii) faith + -ful = faithful. A suffix goes at the end of a word and usually decides its part of speech — here both answers are nouns."
           ],
           "status": "verified",
           "occurrences": [
@@ -2576,15 +2898,20 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-027",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2022-1-d",
           "question": "Construct sentences using the following phrases/idioms (any two): (i) Out and out (ii) Raining cats and dogs (iii) Look into.",
           "marks": 1,
           "answer": [
-            "Out and out: The claim was an out-and-out lie. Raining cats and dogs: It was raining cats and dogs when we left.",
-            "Look into: We will look into the cause of the delay. (The paper groups these together; look into is a phrasal verb. Choose any two.)"
+            "(i) Out and out — He is out and out the best player in our school team.\n(ii) Raining cats and dogs — It was raining cats and dogs when we reached the tea estate, and the road turned to mud.\n(iii) Look into — The teacher looked into the problem of absent children and found that most of them had no shoes in the monsoon."
           ],
           "status": "verified",
           "occurrences": [
@@ -2595,14 +2922,20 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-028",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2022-1-e",
           "question": "Put appropriate prefix for the words given below: (i) Happy (ii) Possible.",
           "marks": 1,
           "answer": [
-            "un- + happy → unhappy; im- + possible → impossible."
+            "(i) un- gives unhappy ('not happy'). (ii) im- gives impossible ('not possible'). In both cases the prefix reverses the meaning of the root without changing its part of speech."
           ],
           "status": "verified",
           "occurrences": [
@@ -2613,15 +2946,20 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-029",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2022-1-f",
           "question": "Construct sentences using the following phrasal verbs (any two): Look after; Switch off; Bring forth; Show up.",
           "marks": 1,
           "answer": [
-            "Look after: Please look after the plants. Switch off: Switch off the fan before leaving.",
-            "Bring forth: The discussion may bring forth new ideas. Show up: We expect everyone to show up on time. (Choose any two.)"
+            "(i) Look after — She looks after her younger brother every evening.\n(ii) Switch off — Please switch off the fan when you leave the classroom.\n(iii) Bring forth — The teacher brought forth an old map of Assam to show where the old kingdoms lay.\n(iv) Show up — Half the class did not show up for the Sunday remedial class."
           ],
           "status": "verified",
           "occurrences": [
@@ -2632,7 +2970,13 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-030",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2022-4",
@@ -2677,10 +3021,14 @@
           "question": "Design an activity to teach homophones to the students of elementary level.",
           "marks": 4,
           "answer": [
-            "Prepare picture and word cards for familiar pairs such as sun/son and sea/see, and say each pair so pupils notice the shared pronunciation.",
-            "Discuss the different meanings and spellings, then let groups match each word to an appropriate picture or sentence.",
-            "Read a sentence such as “The sun is bright” and ask pupils to select the correct spelling, explaining the context clue.",
-            "Finish with pupils writing one sentence for each meaning. Review errors through meaning and spelling instead of treating similar sound as sufficient for a correct word choice."
+            "Homophones are words that sound alike but differ in spelling and in meaning — bear/bare, pair/pear, two/too, write/right, sale/sail, week/weak. Since the children already use many of them informally and mispronounce very few, the difficulty at the elementary level is not hearing but knowing which spelling goes with which meaning. The activity below attacks exactly that point.",
+            "Activity: \"Sound Alike, Meaning Apart\"",
+            "Materials: two sets of cards — for each pair, one card with the written word, one card with a picture; ten to twelve pairs in all. The pictures are the heart of it: a bear, a bare tree branch; a pear, a pair of shoes; a sail, a sale.",
+            "Stage 1 — Listen first, read later. The teacher says one word aloud (say \"sale\") without showing the card. Every child holds up the picture they think is meant. Nothing is written on the board yet, so the child cannot fall back on the shape of the letters. The class sees immediately that the sound alone does not decide the word, and that meaning is needed to choose.",
+            "Stage 2 — Sort and say. The pairs are dealt out and the children sort them on the table, saying the meaning aloud as they place each card: \"A sail is made of cloth and catches the wind. A sale is when things are cheap.\" The teacher insists on a real sentence for every card, because the sentence is the thing that will be remembered.",
+            "Stage 3 — The odd-one-out hunt. A short paragraph of five or six sentences goes on the board containing all ten words in context — \"Ram wrote a letter to his right\" being the trap, since \"write\" and \"right\" look and read alike. Children underline every homophone and say what would change if the other spelling were used.",
+            "Stage 4 — Context dictation. Instead of isolated words, the dictation is three short sentences built round the pairs: \"Please sail the boat.\" Mistakes here are instructive and are discussed, not merely counted. Each child then finishes with a \"homophone album\" of five pairs with pictures cut from an old magazine, and one line of use for each.",
+            "Assessment is simple: at the end of the lesson the teacher says five words aloud and the children write five sentences, and the mark is not on spelling alone but on whether the sentence makes sense. One caution for the Assamese classroom: many of these pairs already exist as a single word in Assamese (the single word for the bear and for the bare branch, for instance), so the child often knows the distinction perfectly in the home language and only has to attach it to a second spelling. Pointing that out turns a difficulty into a resource."
           ],
           "status": "verified",
           "occurrences": [
@@ -2691,16 +3039,25 @@
               "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m4-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-6",
           "question": "Design one activity to improve the vocabulary of students studying at elementary stage.",
           "marks": 3,
           "answer": [
-            "Use a “word detective” activity with a short story containing four useful unfamiliar words. Read it together and discuss pictures and nearby sentences as clues.",
-            "Give groups word cards to match with simple meanings, then confirm the meanings and model pronunciation and sentence use.",
-            "Ask each group to make a new sentence or mini-story using the words. Revisit them in the next lesson to check recall and appropriate use."
+            "Activity: The Five Word Day",
+            "Aim: children learn five new words properly and use each of them at least three times in the same day.",
+            "Material: five word cards, a chart ruled into five columns, picture cut-outs from old magazines, coloured pencils.",
+            "Procedure:\n1. Before the lesson, I choose five words from the story to be read that day. I say each word aloud, show the picture and act it out where the word allows it, and let the class repeat. No definition is given; the word is attached to its situation.\n2. I write the five words vertically on the chart and place the pictures beside them.\n3. During the day, every time a child uses one of the words in speech or writing, that column is ticked. Children may tick their own.\n4. At the end of the day each child picks one word from the chart and draws it.",
+            "Follow-up: the chart stays on the wall and the same five words are met again on the next two days. Three encounters in real contexts, rather than thirty in a list, is what makes a word stick.",
+            "The teacher's record of which words each child actually used is more useful than any test, because it shows productive vocabulary, not merely recognised vocabulary."
           ],
           "status": "verified",
           "occurrences": [
@@ -2711,15 +3068,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-8-a",
           "question": "Give examples of two closed words and two open words.",
           "marks": 2,
           "answer": [
-            "Closed-class examples: the (article) and she (pronoun).",
-            "Open-class examples: teacher (noun) and quickly (adverb)."
+            "Closed word classes: 'the' (article), 'in' (preposition), 'because' (conjunction), 'have' (auxiliary). Open word classes: 'river' (noun), 'write' (verb), 'silent' (adjective), 'carefully' (adverb). The closed classes are a fixed set of about 100 to 150 words and no new one can be coined; the open classes can be added to every single day."
           ],
           "status": "verified",
           "occurrences": [
@@ -2730,15 +3092,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-052",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-8-b",
           "question": "Write two homophones and two homonyms.",
           "marks": 2,
           "answer": [
-            "Homophone pairs: sun/son and sea/see — same pronunciation, different meanings and spellings.",
-            "Homonym examples: bank (financial institution/river edge) and bat (flying mammal/sports implement) — same spelling and pronunciation, different meanings."
+            "Homophones share the sound but not the meaning: pair /peə/ and pear /peə/; two /tuː/ and too /tuː/. Homonyms share both form and general area of meaning, but differ in sense: the bark of a tree and the bark of a dog; a school as an institution and a school of fish. A quick test: if the pronunciation can be predicted from the meaning, it is a homonym."
           ],
           "status": "verified",
           "occurrences": [
@@ -2749,14 +3116,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-053",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-8-c",
           "question": "Write two words with the suffix “-ment”.",
           "marks": 1,
           "answer": [
-            "Development; enjoyment."
+            "Agreement and movement. The suffix -ment also forms abstract nouns: it turns the verbs agree and move into the nouns agreement and movement."
           ],
           "status": "verified",
           "occurrences": [
@@ -2767,14 +3140,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-020",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-8-d",
           "question": "Write two words with the prefix “inter-”.",
           "marks": 1,
           "answer": [
-            "International; interschool."
+            "International and interchange. The prefix inter- means 'between' or 'among', so international means 'between nations' and interchange means 'to exchange between two persons'."
           ],
           "status": "verified",
           "occurrences": [
@@ -2785,14 +3164,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-021",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-8-e",
           "question": "Frame a sentence using the phrasal verb “goes out”.",
           "marks": 1,
           "answer": [
-            "Rina goes out with her friends on Sundays."
+            "The lamp goes out at nine, and the whole hall falls silent. Here 'go out' is a phrasal verb meaning 'to be extinguished' or 'to stop burning'."
           ],
           "status": "verified",
           "occurrences": [
@@ -2803,14 +3188,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-022",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-8-f",
           "question": "Frame a sentence using the idiom “feel under the weather”.",
           "marks": 1,
           "answer": [
-            "I feel under the weather today, so I will rest."
+            "I have been feeling under the weather since yesterday. The idiom means 'unwell' or 'slightly ill', and its meaning cannot be worked out from the words under and weather."
           ],
           "status": "verified",
           "occurrences": [
@@ -2821,14 +3212,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-023",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2023-8-g",
           "question": "Write two synonyms for “cold”.",
           "marks": 1,
           "answer": [
-            "Chilly; frigid."
+            "Chilly and cool. 'Chilly' describes a temperature that makes one shiver, while 'cool' suggests a pleasantly mild temperature rather than an extreme one."
           ],
           "status": "verified",
           "occurrences": [
@@ -2839,14 +3236,20 @@
               "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-024",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2024-1-f",
           "question": "Put an appropriate prefix for the words: ___ activate, ___ close.",
           "marks": 1,
           "answer": [
-            "deactivate; enclose."
+            "de- gives deactivate ('to stop something being active'), and en- gives enclose ('to close something in'). The prefix changes the meaning but keeps the word a verb in both cases."
           ],
           "status": "verified",
           "occurrences": [
@@ -2857,14 +3260,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-016",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2024-1-g",
           "question": "Write two synonyms for the word “create”.",
           "marks": 1,
           "answer": [
-            "Make; produce."
+            "Make and produce. 'Make' is the plainer word and is preferred in speech; 'produce' suggests bringing something into existence by a planned process."
           ],
           "status": "verified",
           "occurrences": [
@@ -2875,14 +3284,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-017",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2024-1-h",
           "question": "Frame a sentence using the phrasal verb “break into”.",
           "marks": 1,
           "answer": [
-            "The thieves tried to break into the empty house."
+            "The children broke into the room laughing and holding a bundle of papers. Here 'break into' means 'to enter suddenly', often with a group."
           ],
           "status": "verified",
           "occurrences": [
@@ -2893,14 +3308,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-018",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2024-1-i",
           "question": "Write two words with the suffix “-ness”.",
           "marks": 1,
           "answer": [
-            "Kindness; darkness."
+            "Kindness and darkness. The suffix -ness usually forms an abstract noun — the state or quality of being something — so happy gives happiness and dark gives darkness."
           ],
           "status": "verified",
           "occurrences": [
@@ -2911,15 +3332,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-019",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2024-2-f",
           "question": "Differentiate between open word classes and closed word classes.",
           "marks": 2,
           "answer": [
-            "Open classes, such as nouns, main verbs, adjectives and many adverbs, readily accept new words.",
-            "Closed classes, such as pronouns, determiners and conjunctions, have relatively stable membership and mainly express grammatical relationships. “Closed” does not mean that change is historically impossible."
+            "The distinction is how readily new members can be added. Closed (function) classes are finite and fixed — about 100 to 150 items across pronouns, articles, determiners, prepositions, conjunctions, auxiliaries, modals and negative particles — and no new ones can be coined; they express grammatical relationships. Open (lexical or content) classes have no known limit and grow daily by derivation, compounding and borrowing; they are the nouns, verbs, adjectives and adverbs that carry the content of the message."
           ],
           "status": "verified",
           "occurrences": [
@@ -2930,16 +3356,22 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-050",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2024-6",
           "question": "Describe various ways that you will adopt to increase vocabulary of your students.",
           "marks": 3,
           "answer": [
-            "Introduce useful words in meaningful stories and situations, using pictures, actions and brief explanations to establish meaning.",
-            "Explore word families, prefixes and suffixes, synonyms or contrasts, checking which meaning and grammatical form fit a sentence.",
-            "Use reading, conversation, games and short writing to revisit the words over time. Ask learners to retrieve and apply them in new contexts and give specific feedback."
+            "Vocabulary grows by exposure, context and use, not by being taught as a list of definitions. I would work on it in six ways.",
+            "1. Build the environment. A word wall of twenty high-frequency words with pictures, labelled classroom objects, and displays of the children's own writing, so that words are met all day and not in one period.\n2. Pre-teach before the need arises. Five difficult words taught with pictures, objects and gesture before the story, each used three times on the same day.\n3. Extend through roots and affixes. A family tree from one root (port to import, export, transport, portable) turns one known word into five. Suffixes too, since they show what kind of word it is.\n4. Teach in blocks and in company: topic banks such as clothes or farming with pictures, and collocations — make a decision, make an effort, make friends.\n5. Use the English around the school: signboards, bus tickets, medicine labels, weather forecasts.\n6. Give the language a purpose. A class newspaper, a market survey and role play at the canteen make words something children need in order to finish a task.",
+            "I would also keep a record of which words each child has actually used, since recognised vocabulary always outruns used vocabulary."
           ],
           "status": "verified",
           "occurrences": [
@@ -2950,14 +3382,20 @@
               "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m3-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-1-f",
           "question": "Put an appropriate prefix for the words: ___ write, ___ connect.",
           "marks": 1,
           "answer": [
-            "rewrite; disconnect."
+            "re- gives rewrite ('to write again'), and dis- gives disconnect ('to undo the connection'). A prefix is placed before the root and modifies its meaning, but it never changes the part of speech."
           ],
           "status": "verified",
           "occurrences": [
@@ -2968,14 +3406,20 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-1-g",
           "question": "Give two synonyms for the word “small”.",
           "marks": 1,
           "answer": [
-            "Little; tiny."
+            "Little and tiny. 'Little' is the everyday word and is often used affectionately, while 'tiny' carries the extra suggestion of a very small size, as in a tiny insect."
           ],
           "status": "verified",
           "occurrences": [
@@ -2986,14 +3430,20 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-1-h",
           "question": "Frame a sentence using the phrasal verb “look after”.",
           "marks": 1,
           "answer": [
-            "Please look after my plants while I am away."
+            "She looks after her younger brother every evening after school. Here 'look after' is a clausal phrasal verb meaning 'to take care of'."
           ],
           "status": "verified",
           "occurrences": [
@@ -3004,14 +3454,20 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-1-i",
           "question": "Write the antonym for the word “hot”.",
           "marks": 1,
           "answer": [
-            "Cold."
+            "Cold. Hot and cold are complementary antonyms — they are strictly opposite in meaning, with no middle ground between the two of them."
           ],
           "status": "verified",
           "occurrences": [
@@ -3022,15 +3478,20 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-2-d",
           "question": "Define function words with examples.",
           "marks": 2,
           "answer": [
-            "Function words primarily mark grammatical relationships rather than name the main objects, actions or qualities in a message.",
-            "Examples include the article the, the pronoun she, the preposition in and the conjunction and."
+            "A function word is a grammatical word that expresses a relationship between other words rather than meaning of its own. In 'She has put the book on the table', she is a pronoun, has an auxiliary, the an article, on a preposition. The closed classes — pronouns, articles, determiners, prepositions, conjunctions, auxiliaries, modals and negative particles — number only about 100 to 150 items, make up half of all running text, and are picked up by absorption rather than memorised."
           ],
           "status": "verified",
           "occurrences": [
@@ -3041,17 +3502,23 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m12-043",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-5-2025-6",
           "question": "What do you understand by vocabulary? Mention few ways to develop vocabulary in young learners.",
           "marks": 4,
           "answer": [
-            "Vocabulary is the collection of words and expressions a person knows or uses, including their meanings and appropriate uses.",
-            "Introduce a manageable number through stories, pictures, actions and real objects, modelling clear pronunciation and meaning.",
-            "Use word families, meaningful contrasts and sentence examples to deepen understanding, instead of teaching every word as an isolated translation.",
-            "Revisit words through spaced reading, discussion, games and writing. Check whether children can use them in new situations and provide supportive feedback."
+            "Vocabulary is the whole stock of words a person commands, together with the knowledge of how those words fit together. A vocabulary is not a list but a network: to know a word properly is to know what it means, how it sounds, what part of speech it is, what words it habitually keeps company with, and what it suggests as well as what it states. A teacher who can define conscientious but has never heard it used has a fact, not a lexeme. Two related ideas belong here — lexis, which is vocabulary viewed as a system, and lexical competence, the ability to use that system appropriately.",
+            "Two facts should be held together. First, vocabulary is the largest single component of language ability: in any continuous piece of English, three to five words in every hundred carry the bulk of the meaning, and the rest is grammatical filler the reader can guess. Second, vocabulary does not grow by being taught item by item. Three encounters with a word in real contexts beat thirty encounters in a word list, because the list supplies the word without the net around it.",
+            "Ways to develop it in young learners:\n- Extend through roots and affixes. Build a family tree from one root — port gives import, export, transport, portable, porter, transportation — and let the child make the words himself. Prefixes never change the part of speech; suffixes usually do, which makes this a shortcut to grammar as well.\n- Extend through collocation. Teach make not alone but with a decision, an effort, a mistake, friends. Words are learned in the company they keep.\n- Extend through topic. Build picture word banks for \"my body\", \"clothes\", \"farming\", \"the classroom\", and use the same bank again in reading, writing and speech.\n- Pre-teach before the text is opened. Five new words met with a picture, a gesture and a first hearing are already half-learned when the story begins.\n- Build print into the room. A word wall of twenty high-frequency words with pictures, labelled classroom objects, a corner of graded readers, a display of the children's own writing, and four or five short easy texts a week chosen freely.\n- Reuse the word. A new word should be met three times in the same day in three different sentences, and the child should be made to use it once himself.",
+            "What must be avoided is the single word list copied into notebooks and never met again in speech."
           ],
           "status": "verified",
           "occurrences": [
@@ -3062,7 +3529,13 @@
               "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.5_m4-003",
+            "selection": "full-answer"
+          }
         }
       ]
     }

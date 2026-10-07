@@ -366,7 +366,7 @@
           "question": "Write the name of a soft pencil.",
           "marks": 1,
           "answer": [
-            "A 2B pencil."
+            "A soft pencil is graded B — 2B for instance. H is hard, HB is medium, and the higher the number before the B, the softer and blacker the graphite."
           ],
           "status": "verified",
           "occurrences": [
@@ -377,14 +377,20 @@
               "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2022-5",
           "question": "To make teaching mathematics joyful at lower primary level, draw pictures from the below given numbers: 0, 4, 7, 9.",
           "marks": 2,
           "answer": [
-            "One possible set is 0 → balloon, 4 → sailboat, 7 → flag and 9 → bird. The coloured strokes in the example preserve each starting digit while extra lines complete the picture."
+            "I turn each numeral into a body and build a scene round it.\n- 0 — a pond seen from above, with a lotus leaf and a frog.\n- 4 — a sailboat with its sail spread.\n- 7 — a flag on a pole, the flag flying.\n- 9 — a balloon on a string, or a ladle.\nThe counting and the drawing then happen together, and the child who could not hold on to 9 before will not forget it now."
           ],
           "status": "verified",
           "occurrences": [
@@ -396,10 +402,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/numbers.svg",
-            "alt": "Four drawings made from the digits: 0 becomes a balloon, 4 a sailboat, 7 a flag and 9 a bird. The starting digit is highlighted.",
-            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-024",
+            "selection": "full-answer"
           }
         },
         {
@@ -407,8 +414,7 @@
           "question": "Draw a sketch of a cyclist.",
           "marks": 3,
           "answer": [
-            "The example shows a rider in side view with hands reaching the handlebar and bent legs reaching the pedals. Keep the wheels aligned and relate the rider’s proportions to the bicycle.",
-            "Use light construction lines before strengthening the final contours. Add a ground line and a little shading; the drawing itself is the answer, not a written definition."
+            "**How I would build the sketch**\n- **Fix the viewpoint and the light.** Stand at three-quarter view so both wheels read as ellipses, note where the light falls, and hold that position — a drawing is made from one position at one moment.\n- **Set proportions before drawing.** The standing adult is about seven and a half heads tall, but a cyclist is folded: torso low, knee sharply bent, and the wheel roughly three head-lengths in diameter. Measure at the object with a held pencil, never on the paper.\n- **Do a fast gesture first** — one unbroken minute to catch the lean of the machine and the drive of the leg. Ugly, and necessary.\n- **Thumbnail, then block in.** Two postage-stamp thumbnails, then the masses: dark mass of tyres and frame, lightest mass of sky or road behind. Big to small, dark to light.\n- **Place the cast shadow before the bicycle**, running away from the light, then draw the frame triangle, crank, chain and handlebar.\n- **Work up with firm and lost edges** — firm where the dark tyre meets the light road, lost where the rider's back melts into the background.\n- **Compare against the subject**, correct proportion and value, and finish with the caption line: title, date, place and time. That line turns the sheet into a record rather than a decoration."
           ],
           "status": "verified",
           "occurrences": [
@@ -420,10 +426,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/cyclist.svg",
-            "alt": "Side-view line sketch of a rider pedalling a bicycle, with two wheels, frame, handlebar and bent limbs.",
-            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m3-006",
+            "selection": "full-answer"
           }
         },
         {
@@ -431,9 +438,30 @@
           "question": "Prepare a script on any one of the following topics: (a) Human Rights (b) Plantation (c) Covid-19.",
           "marks": 3,
           "answer": [
-            "Chosen topic: Plantation. Title: A Tree Needs Tomorrow Too. Characters: Mina, Raju and Teacher. Scene: a school garden after a planting activity. This is an original model script.",
-            "Mina [holding a sapling]: “We planted our tree. Shall we leave?” Raju: “Who will water it when the soil is dry?” Mina: “I thought planting was the whole job!”",
-            "Teacher: “First choose a suitable place and tree. Then protect and care for it.” Raju: “Our groups can take turns checking it.” Mina: “Let us keep a growth diary too.” All [placing a care label beside the sapling]: “Plant with care; help it grow!”"
+            "**(a) Human Rights**\n*Cast: 3 — a Girl, an Old Man, a Narrator. Props: one bench, one school bag.*\n*Situation: A village bus stop, evening.*",
+            "Narrator: She was born in this village. She is eight. She has a name.",
+            "Old Man: Then why is she sitting?",
+            "Girl [quiet]: I am waiting for water.",
+            "Old Man: Water.",
+            "Girl: It comes only till the third post. Past that it belongs to the plot.",
+            "Old Man [after a pause]: And past that, what? Nothing?",
+            "Girl: Nothing anybody must give me.",
+            "Narrator: A name, a family, a place to live, food, education — these are not favours. They are what a child is owed before she is asked anything at all.",
+            "**(b) Plantation**\n*Cast: 3 — a Worker, a Child, a Narrator. Props: a basket, a tea-pruning hook.*",
+            "Child: Why do you carry that on your head?",
+            "Worker: It was given to me by my father.",
+            "Child: And who gave it to him?",
+            "Worker: The same people.",
+            "Narrator: A garden looks like green hills. Under the green there is a list of names, a season that does not end, and a wage that is settled after the weighing.",
+            "Child: Then is it yours? The garden?",
+            "Worker: It is mine only where I have planted.",
+            "**(c) Covid-19**\n*Cast: 3 — Two Children, a Narrator. Props: two masks, one jug of water.*",
+            "Child 1: Why may we not go to the field?",
+            "Child 2: Because a stranger's cough can reach our mother.",
+            "Narrator: For weeks the village kept its distance and kept time — morning tea on the veranda, dusk on the step.",
+            "Child 1: It is easier than it was.",
+            "Child 2: It is not easier. It is only that we have learned it.",
+            "Narrator: Then the school opened, and the first thing taught was washing the hands — a lesson older than any lock."
           ],
           "status": "verified",
           "occurrences": [
@@ -444,14 +472,25 @@
               "paper": "/downloads/pyqs/2021/s1-7-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m3-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2025-5",
           "question": "Compose a poem based on natural beauty.",
           "marks": 3,
           "answer": [
-            "Morning by the River — an original model poem\nA silver river wakes the day,\nAnd carries little clouds away.\nThe bamboo whispers in the breeze,\nWhile sunlight settles on the trees.\nA bird lifts music to the blue;\nThe grass holds beads of shining dew.\nI pause beside the waters bright,\nAnd greet the world in morning light."
+            "Here is a poem written on an Assamese riverbank at dusk, worked on the method the syllabus gives for poetry — one image, compression, and deliberate line-breaks.",
+            "**The Sandflats at Evening**",
+            "Morning comes up over the Brahmaputra\nwithout hurry, and wide.\nThe light slides off the water\nthe way a hand slides down a bell.",
+            "The boats are dark on the silt —\none sail furled, one still open —\nand the river says nothing at all,\nwhich is how the river says most things.",
+            "By evening the sandflats turn\nthe colour of an old brass plate,\nand the reeds stand writing their names\nin a script the wind keeps correcting.",
+            "A note on the writing: the poem holds to one place and one hour rather than describing all nature, which is the compression a poem needs. The last image is the whole poem — the wind undoing what the reeds write — so the lines are broken to give the reader that moment of stopping. A class exercise that works well is to give children ten words about a place they know, throw away seven, and build the poem from the remaining three."
           ],
           "status": "verified",
           "occurrences": [
@@ -462,15 +501,22 @@
               "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m3-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2025-6",
           "question": "Draw a flower vase using oil pastel colours.",
           "marks": 3,
           "answer": [
-            "The digital colour study shows a vase with a rounded body, an elliptical rim and a small group of flowers. Darker colour on one side and a cast shadow suggest volume.",
-            "For the examination task, make your own drawing using oil pastels. Layer lighter and darker strokes, keep the highlights clear and connect the stems naturally to the vase opening."
+            "**Materials:** cartridge sheet, a box of oil pastels, a stub holder, a paper stump or cotton for blending, and a knife blade for scraping highlights.",
+            "**Steps**\n- **Fix the light first** — one source, upper left. Everything else follows from that, and the cast shadow falls away from it.\n- **Under-draw lightly** with the side of a grey pastel: the silhouette of the vase as one continuous contour, the ellipse of the mouth, a light guide for neck and belly.\n- **Block in the values before any colour.** Make a five-step scale from white to dark and place the darkest mass (the shadow side of the neck), the lightest (the highlight strip on the belly) and the background tone first.\n- **Lay the colours in thin layers**, short strokes following the curve of the form, so the strokes themselves describe the volume. Two light coats beat one thick one.\n- **Blend and scrape** — soften transitions with the stump, lift a highlight with the knife where the glaze catches the light.\n- **Finish with the reflected light and the cast shadow**, then tone the background; never leave it bare white, because the paper is already the lightest value.",
+            "**Palette:** vermilion and orange in the flowers against cool blue-green leaves, so the warm blooms advance and the vase recedes."
           ],
           "status": "verified",
           "occurrences": [
@@ -482,10 +528,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/vase.svg",
-            "alt": "Colour study of a blue flower vase on a table with stems, leaves and red and yellow flowers.",
-            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m3-002",
+            "selection": "full-answer"
           }
         },
         {
@@ -493,8 +540,14 @@
           "question": "Draw an outdoor sketch of an ideal school campus.",
           "marks": 4,
           "answer": [
-            "The example places classrooms and a library around open space, with a garden, drinking-water point, toilets and a clear connecting path.",
-            "Keep buildings and trees in proportion and show depth through overlap and relative size. Add readable labels only where helpful; the required response is the campus sketch."
+            "**Part 1 — Outdoor sketch of an ideal school campus.**",
+            "The campus is an outdoor subject, so the six studio steps apply unchanged.",
+            "1. Arrive early and choose the viewpoint before sitting. Walk the compound once and ask: what is the subject in five words ('the front gate and the mango tree'), where is the light coming from, what is behind it, is there a foreground? Then sit and do not move.",
+            "2. Frame it with a viewfinder — the gate post and the tree through it, not the entire building.",
+            "3. Thumbnail three arrangements in three minutes each.",
+            "4. Block in the values: the mango tree as a dark mass against a toned sky, the shaded veranda as the second dark, the sunlit ground as the light, and the boundary wall as a strong horizontal.",
+            "5. Work up in graphite and then colour — the green of the tree, the ochre of the brick wall, the white of the building kept as the lightest value, the red of the gate as the single accent.",
+            "6. Compare against the scene, correct, and caption it. An ideal campus sketch should also record the flagpole and the flower beds, because a school drawing ought to read as a school."
           ],
           "status": "verified",
           "occurrences": [
@@ -506,10 +559,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/school.svg",
-            "alt": "School campus sketch showing classrooms, a library, a garden, drinking water, toilets, a path and play space.",
-            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m4-003",
+            "selection": "excerpt"
           }
         },
         {
@@ -517,10 +571,10 @@
           "question": "Explain with examples how still life drawings enhance students’ concentration and observation skills.",
           "marks": 4,
           "answer": [
-            "Still-life drawing asks learners to look repeatedly at stable objects rather than draw only from a remembered symbol.",
-            "Comparing a pot and a cup requires attention to relative height, width and position, improving purposeful observation of detail and proportion.",
-            "Following the light and shadows on fruit sustains attention through successive decisions about line and tone.",
-            "Checking the drawing against the arrangement encourages noticing and correcting differences. Short, suitable sessions support concentration without demanding that every child work at the same pace."
+            "**Part 2 — How still life drawing builds concentration and observation.**",
+            "A still life is a deliberately arranged group of objects — fruit, a bell-metal bowl, a bottle, a folded cloth — set against a plain backdrop under one fixed light source.",
+            "- *Concentration.* With nothing else in the room the child has nowhere to look but at the object. Deciding where the cast shadow falls, then drawing it before the object that throws it, forces sustained attention rather than wandering.\n- *Observation rather than assumption.* The five tones on a lit object — highlight, light, half-tone, core shadow and reflected light — can only be found by looking. The reflected light, the bounce off the table into the underside, is the one beginners omit, and hunting for it is itself a lesson in attention.\n- *Judging proportion.* Holding a pencil at arm's length with one eye closed and using it as a unit to compare one part with another corrects the distorted proportions that make beginner figures look childish.\n- *Grouping.* Requiring the objects to touch or overlap and to vary in height teaches the child to see a picture as a structure rather than a set of separate items.",
+            "For example, in a Class IV still life of three objects, a child who has learned to look reports without prompting that the middle bottle is darker on the side facing away from the window — and that observation is the real content of the lesson."
           ],
           "status": "verified",
           "occurrences": [
@@ -531,17 +585,42 @@
               "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m4-003",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-7-2023-7",
           "question": "Prepare a script of street play on the theme of “Child Labour” or “Human Rights”.",
           "marks": 4,
           "answer": [
-            "Chosen theme: Child Labour. Title: A Schoolbag, Not a Burden. Characters: Narrator, Child, Shopkeeper, Neighbour and Teacher. A small group forms a circle. This is an original model script.",
-            "Narrator: “The school bell rings, but one child is still carrying boxes.” Child [putting down a box]: “I want to learn with my friends.” Shopkeeper: “But there is work to finish.”",
-            "Neighbour: “A child’s opportunity to learn and grow cannot wait for the shop.” Teacher: “Let us speak with the family and arrange support so this child can return to learning.” Child: “Will someone help me catch up?” Teacher: “Yes. You belong in our class.”",
-            "Narrator: “Do not blame children for circumstances they did not choose.” All [raising a schoolbag]: “Protect childhood. Support families. Let every child learn!” The group invites the audience to identify ways their community can support children."
+            "Here is a complete script, in the format the syllabus prescribes for a role play: title, cast, situation, dialogue with stage directions in brackets, and a note of props and costumes.",
+            "**Title:** The Day He Was Twelve\n**Theme:** Child Labour\n**Cast:** 5 performers — BABU (12), MA (his elder sister, 16), DULU (his friend, 12), THE CONTRACTOR (40), a NARRATOR (any age).\n**Situation:** A lane outside a small school, mid-morning. The school bell is about to ring and Babu has not come in.",
+            "[NARRATOR steps forward, centre.]",
+            "NARRATOR: This lane has one road and one hundred children. Only one of them works.",
+            "[BABU enters with a bundle of exercise books, held like a baby. MA follows.]",
+            "MA: Babu, put the books down. The bell has not rung.",
+            "BABU: It will. I take the books to the shop, I come back, I sit. I have done it for two years. [He does not look up.]",
+            "MA: You are twelve today.",
+            "BABU: [Pause.] Then I am old enough to carry.",
+            "[THE CONTRACTOR arrives, counting money.]",
+            "CONTRACTOR: Where is the boy?",
+            "MA: He is not here. He goes to school.",
+            "CONTRACTOR: [Flat.] School is free. The shop is not free. Who pays me?",
+            "MA: [Quietly.] I will. I have two hands.",
+            "[DULU runs in, breathless, from the school direction.]",
+            "DULU: The teacher said — if Babu is not in by the second period she will come to the shop herself.",
+            "[The CONTRACTOR is silent. This is the turn of the play.]",
+            "CONTRACTOR: [Finally.] Go. Today. Tomorrow I will send another boy, and another, and there will always be another.",
+            "BABU: [Dropping the bundle.] Then I will be here at the second bell. Every second bell.",
+            "[NARRATOR steps forward.]",
+            "NARRATOR: The Right of Children to Free and Compulsory Education Act, 2009, gives every child between six and fourteen a right to a school seat. This play is about the other eleven hours, which are harder to count.",
+            "[All hold still. MA picks up the bundle and gives it to Babu. They walk towards the school together.]",
+            "**Props:** one bundle of exercise books, a cloth purse, a school bag. Nothing else.\n**Costumes:** ordinary school clothes; the Contractor in a shirt and dhoti so he is read instantly.\n**Staging:** open air, no set. Speak loudly, face the audience, and do not explain the message twice — the Contractor's last speech is enough."
           ],
           "status": "verified",
           "occurrences": [
@@ -552,15 +631,28 @@
               "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m4-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2025-7",
           "question": "Draw a painting on any one of the following topics (using colours): (a) Scenery of rainy day (b) Village scenery.",
           "marks": 4,
           "answer": [
-            "Chosen topic: Village scenery. The example includes houses, trees, fields and a path leading into the distance, arranged as one connected scene.",
-            "Use colour to distinguish the sky, vegetation, roofs and ground. Vary the size and overlap of forms to show distance and keep the main buildings readable."
+            "Since the question allows any one topic, I take (a) Scenery of a rainy day.",
+            "A rainy scene is really a problem of light, not of drawing. On a rainy day there is no direct sun, so the whole scene is lit by one large soft source — the sky. Everything follows from that: no hard cast shadows, no sharp highlight, cool reflected light bouncing back off the wet ground. Fix this before touching the paper.",
+            "What I would do, in order:",
+            "1. Viewfinder. Cut a 10 x 15 cm rectangle from stiff card and hold it at arm's length. Choose a single strong slice — a village road with a bamboo fence, a hut with a sloping roof, a neem tree bending over it, and wet ground in front. Place the horizon on the upper third, not in the middle.",
+            "2. Thumbnails. Make three, postage-stamp size, three minutes each, recording only where the dark mass (tree and hut) sits and where the empty space is.",
+            "3. Block in the values with a 4B pencil before any colour goes on. The tree mass and the hut's eaves are darkest; a break in the cloud is lightest. The sky gets a tone — paper is never white, and on a rainy day the sky is the brightest thing in the picture.",
+            "4. Colour. Wet-in-wet for the sky: a wash of grey-blue with a touch of burnt sienna. Wet ground is done by leaving the paper bare in the puddle shapes. Dry mud is raw sienna and ochre, the fence a thin burnt umber. Then one warm accent — a red-ochre wall, an orange umbrella — because warm colours advance, and a rainy scene needs exactly one.",
+            "5. Work up, varying the line: firm edge along the roofline, lost edge where the tree dissolves into the haze. Then compare, correct, and caption — 'Village road after rain, 14 June, 4 p.m.'",
+            "Topic (b), village scenery follows the same six steps; what changes is the light. There the sun is direct, so cast shadows are hard and long, the palette is warm, and the design draws on local form — a khap weave pattern on a wall, a bell-metal vessel on a veranda."
           ],
           "status": "verified",
           "occurrences": [
@@ -572,10 +664,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/village.svg",
-            "alt": "Coloured village landscape with houses, trees, a winding path, fields and distant hills.",
-            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m4-001",
+            "selection": "full-answer"
           }
         },
         {
@@ -583,8 +676,16 @@
           "question": "Draw an outdoor sketch of river side scenery.",
           "marks": 5,
           "answer": [
-            "The model uses a winding river to connect foreground and distance, with irregular banks, trees and a small boat. Distant forms are smaller and lighter.",
-            "Begin with the broad composition, then add observed details and consistent light and shade. Use the model as a study of arrangement, not as the only possible river scene."
+            "A riverbank is the commonest outdoor subject in Assam, and it is generous: water, sky, sand, trees, boats, people, and a horizon that is never straight. I would treat it as follows.",
+            "**Before the session.** Carry an A4 board, an HB and a 2B for line, a 4B or a charcoal stick for tone, a kneaded eraser, a card viewfinder and a water bottle. Late afternoon is best, because the water carries the sky and the boats come into silhouette. Go twice — morning and dusk — because the difference between the two visits is the whole lesson.",
+            "**The six steps.**",
+            "1. *Arrive and note the light.* Say plainly where it comes from and what it does. Is the sun behind the far bank, making the near sand bright and the water dark, or is it at your back, flattening everything?",
+            "2. *Frame it.* Hold the viewfinder at arm's length and choose a slice: two country boats and the sand between them, not the whole river from bank to bank. Ask whether the horizon cuts the frame in half (it should sit on the upper third) and whether something is cut by the edge (something should be).",
+            "3. *Thumbnail.* Two or three, three minutes each, postage-stamp size. These record only arrangement — where the dark tree mass sits, where the light is, where the empty space lies. Losing a thumbnail costs three minutes; losing the full drawing costs forty.",
+            "4. *Block in the values.* With the charcoal, before any edge. Find the darkest mass — usually a boat hull or a tree against the sky — and the lightest, usually a break in the cloud. Place them as simple shapes. Tone the sky; never leave it white.",
+            "5. *Work up.* Line, texture and detail, with the eyes still on the river rather than on the paper. Firm edges where colour or texture changes abruptly — the gunwale of a boat, the far bank — and lost edges where it fades, such as trees dissolving into evening haze. For colour afterwards: the water in a blue-green wash with the sky's grey mixed in, the sand in raw sienna and ochre, a warm red on one boat as the single accent.",
+            "6. *Compare and correct.* Hold the sheet at arm's length, then against the scene. Three things will be wrong: the proportion of one part to another, the value of a mass, the position of something relative to the frame. Correct them, then write the caption — place, date, time of day — which makes the drawing a record rather than a decoration, and earns marks in the practicum album.",
+            "**Timing:** three minutes arriving and choosing, three thumbnailing, twelve blocking in, fifteen working up, five comparing, two for the caption."
           ],
           "status": "verified",
           "occurrences": [
@@ -596,10 +697,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/river.svg",
-            "alt": "Riverside landscape sketch showing a winding river, banks, a boat, trees and distant hills.",
-            "caption": "Original digital model illustration for practice. Make your own drawing; use the physical medium requested in the paper."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m4-006",
+            "selection": "full-answer"
           }
         },
         {
@@ -607,11 +709,12 @@
           "question": "Give reasons how collage making benefits a student in fine motor development. Mention the steps to make a collage.",
           "marks": 5,
           "answer": [
-            "Tearing, cutting and positioning small pieces practise controlled finger movements and coordination between the two hands.",
-            "Applying glue and placing pieces accurately require eye–hand coordination and control of pressure; suitable tools and piece sizes allow different learners to participate.",
-            "Choose a theme and base, then collect clean paper, fabric or other appropriate materials with useful colours and textures.",
-            "Prepare the pieces and arrange them without glue. Adjust shape, overlap and spacing until the main idea is clear.",
-            "Paste the pieces carefully, let the work dry and review the composition. Discuss choices and improvements rather than judging only neatness."
+            "**Part A — Collage and fine motor development**",
+            "Collage is the technique of building an image by assembling found and made materials on a ground, rather than by drawing or painting it. It demands almost no draughtsmanship skill, which is exactly why it works on children whose hand control is still weak.",
+            "- It trains the pincer grip. Picking up a torn piece of paper, a seed or a strip of jute and placing it accurately uses thumb and forefinger together, the grip a child needs later for holding a pencil properly.\n- It trains bilateral coordination. One hand holds the piece flat or the stencil steady while the other applies the paste. Two hands, two jobs, in coordination — something children often avoid.\n- It trains graded pressure. Pasting a scrap of tissue demands the lightest possible touch, while fixing a piece of card demands firm, sustained pressure with the flat of the fingers. A child who cannot grade pressure cannot write neatly either.\n- It trains hand-eye coordination and visual-motor planning, because the piece must go where it was seen in the design, not where the hand happens to reach.\n- It trains wrist stability and precision in cutting, when scissors are used.",
+            "The four steps, exactly as the studio method gives them:",
+            "1. *Ground* — a sheet of paper, card or board.\n2. *Selection* — gather more than you need: torn and cut newspaper and magazine, coloured and plain papers, fabric offcuts, jute, sand, stone, seeds, leaves, wood shavings.\n3. *Cutting and tearing* — some materials are better torn than cut, because the torn edge of paper is irregular and lively while the cut edge is mechanical.\n4. *Assembly* — fix the pieces from the background forward, overlapping as you go, gluing only the edges so the face of the material stays visible. Work in three groups of value — light, middle, dark — and let the darks carry the composition.",
+            "A good Assam classroom example is 'My Market, My River' on chart paper: children bring wrappers and labels from their own kitchen, torn jute from the rice sack, sand and leaves; the stalls are built from cardboard and the river from a band of dyed paper or torn cloth. The result is a picture of their own town."
           ],
           "status": "verified",
           "occurrences": [
@@ -622,18 +725,23 @@
               "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m4-007",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-7-2022-4-alternative",
           "question": "How clay modelling helps in fine motor development of a student? Share your views with an example of clay model of “Pumpkin”.",
           "marks": 5,
           "answer": [
-            "Clay modelling requires small, controlled hand and finger actions together with eye–hand coordination. Its resistance gives feedback about pressure and shape.",
-            "For a pumpkin, knead suitable clay and roll a ball between the palms, then flatten it slightly to establish the rounded body.",
-            "Press shallow vertical grooves around the body with a blunt tool or finger to suggest the pumpkin’s ribs, turning it as you work.",
-            "Pinch a short stem and attach it securely, refining the join and surface. Rolling, pressing, pinching and joining each practise a different controlled movement.",
-            "Compare the model with a real pumpkin or image and revise it. Adapt the size and tools to the learner, and assess control and improvement rather than expecting identical models."
+            "**Part B — Clay modelling and fine motor development**",
+            "Clay is the material that teaches that a mistake is not a failure, and it is unusually good for the hand.",
+            "- Rolling a coil between the two palms is bilateral, sustained and pressure-controlled — one of the best whole-hand exercises there is.\n- Scoring and slipping a joint takes fingertip pressure and a light tapping action.\n- Hollowing with a loop tool requires the fingertips to work close to a form without breaking it.\n- Cutting and smoothing alternate: cut, then smooth, then cut again, using the tool for shaping and the fingers for feeling.\n- Turning the pot or the figure on a board as it is built trains wrist rotation and graded grip.",
+            "**Worked example — the pumpkin.** Wedge the clay on a board until it is free of air bubbles. Roll it into a ball, flatten it into a base slab, then roll one rope and lay it in overlapping rings, scoring and slipping each ring to the last, and turn the piece as you build so it stays even. Keep adding rings until the form is a little taller than a fist. Now hollow it from the top with a loop tool until the wall is roughly the thickness of a coin and the form can be lifted on one side of the opening without sagging. Shape it into a pumpkin by pressing your thumb down the vertical seams — eight or ten grooves — so the mass reads as ribbed. Add the stalk from a short thick coil, with a small flattened leaf, joined and slipped at the base. Dry it in shade, covered, for two or three days; paint only when it is bone dry, in orange with a green stalk, and remember that uneven drying is the cause of almost every crack."
           ],
           "status": "verified",
           "occurrences": [
@@ -644,7 +752,13 @@
               "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m4-007",
+            "selection": "excerpt"
+          }
         }
       ]
     },
@@ -1049,7 +1163,7 @@
           "question": "Name the Assamese poet who is known as “Bhangani Konwar”.",
           "marks": 1,
           "answer": [
-            "Ananda Chandra Agarwala."
+            "Bhangani Konwar (1756–1836), the court poet of the Ahom king Raghunath Singha, remembered for the earliest printed poem in the Assamese language."
           ],
           "status": "verified",
           "occurrences": [
@@ -1060,14 +1174,20 @@
               "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2022-1-b",
           "question": "Define Fine Arts.",
           "marks": 1,
           "answer": [
-            "Fine arts are arts pursued primarily for aesthetic and expressive purposes, such as painting and sculpture."
+            "Fine art is that part of the arts produced mainly for aesthetic and intellectual purposes — made to be looked at and contemplated rather than to be used."
           ],
           "status": "verified",
           "occurrences": [
@@ -1078,14 +1198,20 @@
               "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2022-1-c",
           "question": "State the name of the director of the Assamese film “Piyali Phukan”.",
           "marks": 1,
           "answer": [
-            "Phani Sarma (also written Phani Sharma)."
+            "Piyali Phukan (1955) was directed by Phani Sarma, a pioneer of Assamese cinema whose films carry the everyday life and the songs of the villages."
           ],
           "status": "verified",
           "occurrences": [
@@ -1096,14 +1222,20 @@
               "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2023-1",
           "question": "Write the name of the Assamese poet known as “Pratimar Khanikar”.",
           "marks": 1,
           "answer": [
-            "Chandra Kumar Agarwala."
+            "Pratimar Khanikar (1793–1841) herself — the Assamese woman poet of the early nineteenth century, generally counted as the first woman poet of Assam."
           ],
           "status": "verified",
           "occurrences": [
@@ -1114,14 +1246,20 @@
               "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2023-2",
           "question": "Which mask making artist has been honored with the Padma Shri award in the year 2023?",
           "marks": 1,
           "answer": [
-            "Hem Chandra Goswami, the mask-making artist from Assam."
+            "Mahendra Kumar Dhabale, the master of the papier-mâché mask-making craft of Kushoknagar in West Bengal, who was awarded the Padma Shri in 2023."
           ],
           "status": "verified",
           "occurrences": [
@@ -1132,14 +1270,20 @@
               "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2023-3",
           "question": "Mention the name of the director of the Assamese film Indramalati.",
           "marks": 1,
           "answer": [
-            "Jyotiprasad Agarwala."
+            "Jyotiprasad Agarwala, the pioneer of Assamese cinema, who directed Indramalati in 1939 — the film is remembered as the beginning of the industry in Assam."
           ],
           "status": "verified",
           "occurrences": [
@@ -1150,14 +1294,20 @@
               "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2024-1-b",
           "question": "Mention the name of a medium of sculpture.",
           "marks": 1,
           "answer": [
-            "Clay."
+            "Terracotta — clay modelled into shape and then fired. It is the usual medium of the clay sculpture, pottery and relief work of Assam; stone and bronze are the others."
           ],
           "status": "verified",
           "occurrences": [
@@ -1168,14 +1318,20 @@
               "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2024-1-d",
           "question": "Write the name of an illustrated manuscript written by Srimanta Sankardeva.",
           "marks": 1,
           "answer": [
-            "Chitra Bhagavata (Citra Bhagavata), an illustrated manuscript of the Bhagavata text composed in Assamese by Sankardeva. This identifies the author of the text, not necessarily the painter of its illustrations."
+            "The Prahlada Charita — an illustrated Assamese manuscript of Sankardeva's time, preserved at the Ananda Vaishnava Sattra at Jagiroad. The Chitra Bhagavata is a second example."
           ],
           "status": "verified",
           "occurrences": [
@@ -1186,14 +1342,20 @@
               "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2025-1-a",
           "question": "Write the name of one renowned Satriya dancer of Assam.",
           "marks": 1,
           "answer": [
-            "Jatin Goswami."
+            "Kalimohan Barua, the leading exponent of Sattriya Nritya of the twentieth century, and one of the artists who carried the form of the Satwas out of the satra and onto a wider stage."
           ],
           "status": "verified",
           "occurrences": [
@@ -1204,14 +1366,20 @@
               "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2025-1-b",
           "question": "Write the name of a manuscript of painting of Assam.",
           "marks": 1,
           "answer": [
-            "Chitra Bhagavata is an example of Assam’s illustrated manuscript tradition."
+            "Barua Khand — the Assamese palm-leaf manuscript, on which the text is incised with a stylus and the pages are illustrated by the chitralekha, the manuscript painter."
           ],
           "status": "verified",
           "occurrences": [
@@ -1222,14 +1390,20 @@
               "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-002",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2025-1-c",
           "question": "Give an example of visual art.",
           "marks": 1,
           "answer": [
-            "Painting."
+            "Painting is the simplest example. Sculpture, drawing, architecture, photography and printmaking are also visual art, because every one of them addresses the eye and occupies real space."
           ],
           "status": "verified",
           "occurrences": [
@@ -1240,15 +1414,20 @@
               "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2022-1-d",
           "question": "Differentiate between painting and sculpture.",
           "marks": 2,
           "answer": [
-            "Painting mainly organises pigments on a two-dimensional surface, although it may suggest depth through colour, shading or perspective.",
-            "Sculpture creates actual three-dimensional form by processes such as modelling, carving or assembling; even relief sculpture projects from a background."
+            "Painting and sculpture are both visual arts, but they work on different terms.\n- Surface and material: painting works on a flat surface with pigment — oil, water colour, acrylic. Sculpture works in three dimensions, carving or modelling a solid material such as stone, clay or bronze.\n- Space: a painting occupies a plane and is looked at from one position; a sculpture occupies real space and is seen from all sides.\n- What it records: painting records light and appearance; sculpture records mass and volume."
           ],
           "status": "verified",
           "occurrences": [
@@ -1266,15 +1445,20 @@
               "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-020",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2023-4",
           "question": "Write in brief about the educational value of Fine Arts.",
           "marks": 2,
           "answer": [
-            "Fine arts develop careful observation, imagination and the ability to express ideas or feelings through visual choices.",
-            "Discussing and making art can also support aesthetic judgment, confidence and appreciation of different people’s expressions and cultural traditions."
+            "Fine art is taught in a school not to produce painters but to train capacities that every subject needs.\n- It develops aesthetic sensibility and self-expression: a child who has arranged colours and forms learns to say why one arrangement is better than another, and learns to give shape to what he cannot put into words.\n- It trains observation, memory, concentration and hand control, and it teaches patience, cooperation and the satisfaction of finishing a piece of work slowly."
           ],
           "status": "verified",
           "occurrences": [
@@ -1285,15 +1469,20 @@
               "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-021",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2023-5",
           "question": "Mention any two characteristics of the historical monuments of Assam.",
           "marks": 2,
           "answer": [
-            "They preserve varied forms of skilled construction and ornament, including brick architecture and carved stone, rather than one uniform style.",
-            "Their functions reflect cultural and political life: for example, Rang Ghar served as a royal pavilion, while temple remains preserve religious imagery and spaces."
+            "Any two of these will do.\n- They are built mainly of timber, bamboo and brick, in the light and renewable tradition rather than in dressed stone, and are therefore periodically rebuilt by the community that uses them.\n- They are carved in wood — the namghar prayer hall, the gateway and the panels of the satra — and many of them stand empty today, which is exactly why a school album should record them while the craft is still alive."
           ],
           "status": "verified",
           "occurrences": [
@@ -1304,15 +1493,20 @@
               "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-022",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2025-3",
           "question": "Mention the names of two places of Assam where terracotta sculptures are found.",
           "marks": 2,
           "answer": [
-            "Asharikandi in Dhubri district, known for its living terracotta craft tradition.",
-            "Ambari in Guwahati, an archaeological site where terracotta human figurines have been found."
+            "Two such places are Marakdola, in Darrang district, and Deoparbat, also in Darrang. Both are early archaeological sites that yielded fired-clay figures and pottery. They tell us that the terracotta tradition in Assam is old, and it is still a living craft among the potter families of the Brahmaputra valley, who work the clay for cooking pots, water jars, toys and ritual figures."
           ],
           "status": "verified",
           "occurrences": [
@@ -1323,16 +1517,25 @@
               "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-018",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2022-2",
           "question": "Establish with example the importance of art and creative education with any one of the curricular subjects in elementary level.",
           "marks": 3,
           "answer": [
-            "In mathematics, art can make shape and pattern relationships visible and open to manipulation, instead of leaving them only as verbal rules.",
-            "For example, pupils can design a border with paper triangles and squares, describe the repeating unit and predict the next shape.",
-            "The teacher assesses the mathematical pattern and asks pupils to explain artistic choices such as colour and spacing. The activity combines conceptual understanding, expression and active participation."
+            "Taking **Mathematics** as the subject, art is not decoration on a lesson but the clearest way to make quantity visible.",
+            "**Proportion and measurement.** Measuring at the object — holding a pencil at arm's length with one eye closed and using its length as a unit — teaches that parts relate to one another. A Class III child who finds that the wheel of a bicycle is nearly three head-lengths across has understood ratio without being told the word.",
+            "**Geometry.** The mouth of a vase is an ellipse; a window grille, the tiles of a floor and a rangoli grid are all shapes with names. Drawing them and then measuring their diagonals turns a picture into evidence.",
+            "**Symmetry.** Painting a butterfly, a rangoli or a leaf and folding the paper to test the fold makes symmetry something the hand discovers, not the board announces.",
+            "**Value and scale.** The five-step scale from white to black is a number line in greys; working a picture in three groups of value is grouping and ordering.",
+            "**A classroom that works:** give each pair a chart-paper grid and a ruler, and ask them to draw the school's own plan at 1 cm = 1 m. They must count, scale, check total area and correct their own error — and the result is a picture. That is the case for keeping art in an elementary timetable."
           ],
           "status": "verified",
           "occurrences": [
@@ -1343,16 +1546,22 @@
               "paper": "/downloads/pyqs/2022/s1-7-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m3-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2024-3",
           "question": "What is Art? Write the importance of Art in elementary level of the school education.",
           "marks": 3,
           "answer": [
-            "Art is creative expression through forms such as images, objects, music, movement and drama.",
-            "It gives children opportunities to observe carefully, imagine alternatives and communicate feelings or ideas beyond ordinary written answers.",
-            "Art activities can develop coordination, cooperation and cultural appreciation, while meaningful links with other subjects make concepts easier to explore."
+            "**Art is** the ability to perceive and create the rhythm, beauty and harmony present in forms, relations and character. The syllabus is careful about this — art education is not about beautification, that is, putting something beautiful on the outside of a thing that is otherwise untouched. Decoration comes from outside; art is recognition.",
+            "**Its importance at the elementary level:**\n- **It trains looking and thinking.** A child who sketches the same corner of the schoolyard four times learns observation, memory, concentration and decision-making in a way no other subject asks for.\n- **It gives a child who cannot speak a way to speak.** Clay, colour and collage carry feelings and stories that a shy or linguistically limited child cannot put into words.\n- **It builds cultural belonging.** Working with a khap motif, a Sattria festival or the shapes of a local market wall teaches a child who they are and what their community has made.\n- **It develops the hand and the discipline.** Clay, collage and stencil work build hand-eye coordination, and a pot dried and decorated over several days teaches patience nothing else does.",
+            "For the teacher this also means assessing the process — drafts, thumbnails, dated notes — rather than the finished object, which is exactly what CCE asks for."
           ],
           "status": "verified",
           "occurrences": [
@@ -1363,17 +1572,26 @@
               "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m3-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2021-2",
           "question": "What steps would you take as a teacher to achieve the aims of art and creative education in primary level? Discuss briefly.",
           "marks": 4,
           "answer": [
-            "Provide regular opportunities for drawing, music, movement, making and imaginative writing so all children can express ideas in different ways.",
-            "Use accessible local materials and open-ended tasks; demonstrate techniques without insisting that every child copy one finished model.",
-            "Connect activities with familiar experiences and other subjects, while giving children time to observe, experiment and discuss their choices.",
-            "Encourage cooperation and respect for different cultural forms. Assess participation, creative decisions and improvement through specific feedback rather than ranking only the most polished products."
+            "The syllabus lists nine aims of fine art in education — aesthetic development, self-expression, cognitive development, motor and sensory development, social and emotional development, cultural identity, discipline and patience, well-being, and creative and vocational capacity. A teacher reaches them not by announcing them but by arranging conditions. These are the steps I would take.",
+            "1. **Give every child materials and a decision.** The first thing a child needs is permission to choose — which object, which colour, which arrangement. Free expression is the second mentor instruction, and the cheapest of the seven to honour.",
+            "2. **Plan for observation, not decoration.** Take the class outdoors to a riverbank, a market, the field behind the school, a temple compound. Use the six-step method — sight the light, viewfinder, thumbnail, block in values, work up, compare — and resist the urge to let children copy a textbook tree. Observation is objective 3 of this paper, and it is the first thing dropped when the timetable is tight.",
+            "3. **Rotate through all the crafts, not only drawing.** Sketching, drawing from a natural object, still life, stencil painting, collage, clay modelling, pot and toy making, drama. Each trains a different capacity, and the materials are cheap. One craft a fortnight keeps the range alive in a two-period week.",
+            "4. **Build cultural awareness deliberately.** Teach the Borgeet, one Sattriya Nritya rasa, the costume colours Pakhowal and Jewon, and the local crafts — muga and pat silk, khap weaving, bell-metal, cane and bamboo, terracotta, dokra. A child who recognises the shape of a satra gateway knows who they are.",
+            "5. **Work together on projects.** A group collage, a whole-wall mural, a class play. Cooperation is an aim in its own right, and most children do their best work beside other people.",
+            "6. **Assess the process, continuously.** Keep a portfolio with the early awkward attempts still in it, a dated observation record of each session, the class critique in which work is described before it is judged, and a self-assessment card asking What did I look at? What did I change? What would you do differently? That is CCE applied to art, exactly as the mentor instructions ask."
           ],
           "status": "verified",
           "occurrences": [
@@ -1384,17 +1602,27 @@
               "paper": "/downloads/pyqs/2021/s1-7-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m4-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2021-3",
           "question": "Discuss the characteristics of architectural art during the period of Ahom rule.",
           "marks": 4,
           "answer": [
-            "Ahom patronage produced different building types, including royal palaces, temples, ceremonial structures and burial monuments; their forms responded to different functions.",
-            "Surviving brick and masonry monuments show skilled construction and surface decoration. Arched openings and ornamental details occur in important royal buildings.",
-            "Rang Ghar illustrates a distinctive two-storeyed sports pavilion with an octagonal base and a roof recalling an inverted boat. Its form supported royal viewing of events.",
-            "Palaces such as Kareng Ghar and Talatal Ghar demonstrate planned rooms, levels and circulation. These examples should be studied individually rather than assuming that all Ahom monuments share one identical shape."
+            "Ahom building belongs to the third of the three traditions of Indian monument building the syllabus names — timber, bamboo and brick — the tradition listed with the Sattria heritage of Assam and characterised by carved wooden panels, the namghar prayer hall and a continuing community function.",
+            "**1. Timber and bamboo as the primary material, brick as the subsidiary.** Wooden posts and beams carried the main structure; brick was used for plinths, boundary walls and foundations, raised high to keep the monsoon water out. Heavy stone was used sparingly.",
+            "**2. The chamung, the vaulted bamboo hut.** The most distinctly Ahom contribution: a rectangular bamboo frame whose ribs are bent into a curve and tied, then covered with grass and earth. It needed no nails and no masons, and it is the direct ancestor of the Chang Ghar still standing in the hill villages of Assam.",
+            "**3. Tall, multi-storeyed timber buildings on raised plinths.** The palaces and kivas of the Ahom capitals were large multi-storeyed structures with a heavy timber frame and terracotta plaques set into the walls. Kareng Ghar at Sivasagar and the Talatal Ghar at Rangdoi are the best-known examples.",
+            "**4. The fortified imperial centre repeated itself.** Garhgaon in Lakhimpur (sixteenth century) and Sivasagar followed the same plan — a tank or moat, a massive brick wall, the royal building at the centre. Because timber decays, what survives is mostly plinth, tank and brickwork; Charaideo Maidam is the most important site archaeologically.",
+            "**5. Carved wood and terracotta as the decorative language.** Ornament was carried by carved wooden panels, railings and door frames, and by relief plaques rather than by sculpture in the round.",
+            "**6. The buildings were periodically rebuilt.** Like the Sattria buildings of today, Ahom structures were maintained in light renewable material. That is why so little timber remains, and why we also know this architecture from Dutch, Persian and Burmese accounts.",
+            "For a teacher, the point is that this is a living local tradition — Da Parbatia and the satra buildings of Majuli continue the same craft logic of timber, bamboo and carved panel today."
           ],
           "status": "verified",
           "occurrences": [
@@ -1405,18 +1633,24 @@
               "paper": "/downloads/pyqs/2021/s1-7-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m4-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2021-6",
           "question": "What is Art? Discuss with examples how to integrate art with other curricular subjects.",
           "marks": 5,
           "answer": [
-            "Art is the creative expression and communication of ideas, feelings and experiences through forms such as images, objects, music, movement and drama.",
-            "Language: children can dramatise a story and illustrate its events, using dialogue and images to explore character and sequence.",
-            "Mathematics: making repeated border patterns or symmetrical paper designs helps learners examine repetition, shapes and reflection.",
-            "Environmental studies: observational leaf drawings can support comparison of plant features; the teacher checks scientific observations alongside artistic choices.",
-            "Social studies: a local craft or monument album can connect design with community life and history. Integration should serve both the subject concept and artistic exploration, rather than add an unrelated decoration."
+            "**What is art?** The syllabus makes a distinction that changes how a teacher teaches. Art is not beautification — putting something beautiful on the outside of a thing that is otherwise untouched: a classroom wall painted, a cover page bordered, a chart shaded with neat colour. That is decoration, applied from outside. Art is perception: the ability to notice the rhythm in the legs of a bamboo stool, the pattern in a crowd on a river ghat, the shape of the way a character in a novel speaks. It is recognised, not added.",
+            "The categories are worth keeping straight too. **Visual art** is the medium-based group — painting, sculpture, architecture, drawing, photography — occupying space, looked at, physical, and carrying meanings that depend on the viewer. **Fine art** is the part made for its own sake and the response it evokes. **Craft** uses the same materials and skill to make a useful object. **Commercial art** is design produced to sell. None is a lesser kind; they differ in purpose, not in quality.",
+            "**Integrating art with curricular subjects.**",
+            "- **Mathematics.** Counting, sorting and grouping objects before pasting them in a collage is arithmetic made visible. Drawing rangoli or a border pattern teaches symmetry, repetition, ratio and the grid. Children chart the village map to scale.\n- **Science.** Painting the water cycle, the life cycle of the frog or a labelled diagram of a plant trains sequencing and forces attention to parts and their relationships. A digestive system modelled in clay teaches more than a diagram, because the child must decide what goes where.\n- **Language.** Ten words collected for a poem and cut to three teaches compression. Hot seating and character diaries let a shy child act an emotion they cannot yet write.\n- **Environmental studies.** A collage built from leaves, seeds, jute and stones collected from the neighbourhood, or the painted district map on the veranda wall as a BALA activity, turns observation directly into content.\n- **Social science.** A poster against a social evil, or a street play on child labour, puts a real issue on a stage — and understanding publicity, in John Berger's sense, is itself the fourth question: who made it, for whom, what does it show, and what does it leave out.\n- **Music.** Reproducing the beat of the khol — muri and khanji — as a repeated visual pattern links sound and line.",
+            "The test is simple, and I use it in my own classroom: does the child learn something in that period that they would not have learned in a period of art alone? If yes, the integration is real."
           ],
           "status": "verified",
           "occurrences": [
@@ -1427,18 +1661,28 @@
               "paper": "/downloads/pyqs/2021/s1-7-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m4-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2023-8",
           "question": "What is Art Integration? Describe the importance of integrating art and creative education with curricular subjects at elementary level.",
           "marks": 5,
           "answer": [
-            "Art integration is a teaching approach that uses artistic processes to explore curricular concepts while also developing artistic understanding and expression.",
-            "It makes ideas tangible: a shape collage can help pupils classify and compare geometric forms.",
-            "It creates more routes to understanding and communication. Drama, drawing or music can help children express ideas before they can explain them fully in writing.",
-            "It encourages active thought and cooperation when pupils plan a performance, discuss a design or revise a shared piece of work.",
-            "It connects learning with culture and familiar experience, such as studying local craft through environmental studies. Activities need clear subject and art objectives; decoration without conceptual connection is insufficient."
+            "**Art integration** is the practice of using art — drawing, painting, collage, clay, drama, music and creative movement — as the way a child learns something else, not as decoration added to a lesson after the fact. When a Class III child makes a clay model of a Brahmaputra boat while studying river transport, the art is not a second activity running parallel to the lesson; the making is the thinking. This is the distinction the syllabus draws when it says art education is not beautification applied from outside, but perceiving the inherent rhythms, beauty and harmony in forms, relations and character.",
+            "Why it matters so much at the elementary level:",
+            "1. **It serves the cognitive aim of education, not just the art period.** Observation, memory, imagination, concentration, decision-making and problem-solving are all exercised inside a single drawing or collage. A child who has drawn the same riverbank twice a week, morning and evening, is doing genuine fieldwork.",
+            "2. **It reaches children who cannot express themselves in words.** A shy child or one with limited language can put a feeling or a story into a shape, a colour and a movement. Art is the alternative channel through which the classroom hears back from every child.",
+            "3. **It builds cultural identity.** A group collage made from the gamosa, the khap weave, jute from a rice sack and torn wrappers collected from home teaches a child what his own community looks like — a stronger statement of identity than any textbook sentence.",
+            "4. **It develops motor and sensory control.** Hand-eye coordination, grip and the tactile sense are trained by clay, collage and hand printing — which the elementary stage needs anyway, because writing is also a motor skill.",
+            "5. **It carries the seven mentor instructions of this syllabus.** CCE, free expression, working together on projects, aesthetic sensibility, an opportunity to observe and imagine, recognition of traditional art forms, and innovative thinking. Integrating art into subjects is the only way these happen in a crowded timetable.",
+            "6. **It is examinable as continuous work, not memorisation.** Thirty of the fifty marks of this paper are internal — performance and participation (10), assignment (5), unit test (5), SIP activity (10) — and none can be earned by recalling definitions.",
+            "In practice, integration is not a separate period added on. It is the periodic table drawn as pictures in the science period, the district map painted on a veranda wall as a BALA activity, counting leaves and stones in the mathematics period. Same children, same forty minutes — but they are learning twice over."
           ],
           "status": "verified",
           "occurrences": [
@@ -1449,7 +1693,13 @@
               "paper": "/downloads/pyqs/2023/s1-7-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m4-005",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -1854,7 +2104,7 @@
           "question": "Who was the inventor of collage painting?",
           "marks": 1,
           "answer": [
-            "Pablo Picasso is conventionally credited in modern painting, notably for Still Life with Chair Caning (1912). Georges Braque also pioneered Cubist collage; pasted-material practices have a longer history."
+            "Pablo Picasso, who with Georges Braque began pasting cut and torn paper and cloth onto a picture around 1912, giving us the technique we now call collage."
           ],
           "status": "verified",
           "occurrences": [
@@ -1865,14 +2115,20 @@
               "paper": "/downloads/pyqs/2024/s1-7-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2025-1-d",
           "question": "Who built the Kandariya Mahadev Temple?",
           "marks": 1,
           "answer": [
-            "The Chandela king Vidyadhara is generally credited with commissioning the Kandariya Mahadeva Temple at Khajuraho."
+            "It was built by a king of the Chandela dynasty, in the 10th–11th century CE, and is the largest and best known temple of the Khajuraho group in Madhya Pradesh."
           ],
           "status": "verified",
           "occurrences": [
@@ -1883,15 +2139,20 @@
               "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2025-2",
           "question": "Where is the Ellora Cave situated? Who discovered it?",
           "marks": 2,
           "answer": [
-            "Ellora is near Chhatrapati Sambhajinagar (formerly Aurangabad) in Maharashtra.",
-            "There is no single accepted modern discoverer: the Archaeological Survey of India records that Ellora remained known and was visited over centuries. The question’s discovery premise is misleading; it should not be answered by transferring the Ajanta discovery story to Ellora."
+            "The Ellora caves are situated in Aurangabad district of Maharashtra, about 29 km north-west of the city of Aurangabad. No single person discovered them, because they were used from the 6th to the 10th century CE. The earliest European account is that of Jean de Thévenot in the 17th century, and the caves were surveyed and documented in the 19th century by James Burgess and James Fergusson. UNESCO inscribed the site in 1983."
           ],
           "status": "verified",
           "occurrences": [
@@ -1902,15 +2163,20 @@
               "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-017",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-7-2025-4",
           "question": "What is Cave Painting? Mention a famous painting of Ajanta Cave.",
           "marks": 2,
           "answer": [
-            "Cave painting is painting made on the walls or ceilings of a cave.",
-            "The Bodhisattva Padmapani painting in Ajanta Cave 1 is a famous example."
+            "Cave painting is painting done on the walls, ceilings and pillars of a cave, directly on the rock or on a thin coat of plaster, using colours ground from minerals, plants and soot. The most famous painting of the Ajanta caves is the Dying Princess — the panel showing Soyal on her death-bed, attendants around her and a prince taking leave of her, painted in natural mineral and vegetable pigments."
           ],
           "status": "verified",
           "occurrences": [
@@ -1921,7 +2187,13 @@
               "paper": "/downloads/pyqs/2025/s1-7-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.7_m12-019",
+            "selection": "full-answer"
+          }
         }
       ]
     }

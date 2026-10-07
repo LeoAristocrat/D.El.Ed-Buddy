@@ -1,0 +1,3070 @@
+{
+  "course": "s1-5",
+  "units": [
+    {
+      "unit": 1,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Proficiency in English I",
+          "url": "/curriculum-2024.pdf#page=25"
+        },
+        {
+          "label": "Subject study notes",
+          "url": "/detailed-notes/s1-5.html"
+        },
+        {
+          "label": "National Curriculum Framework 2005 — language education",
+          "url": "https://www.cbse.gov.in/cbsenew/documents/NCF2005.pdf#page=57"
+        },
+        {
+          "label": "National Education Policy 2020 — paragraphs 4.11–4.14",
+          "url": "https://www.education.gov.in/sites/upload_files/mhrd/files/nep/NEP_Final_English.pdf"
+        },
+        {
+          "label": "Official Languages Act, 1963 — Section 3",
+          "url": "https://rajbhasha.gov.in/en/official-languages-act-1963"
+        },
+        {
+          "label": "Official Language Resolution, 1968",
+          "url": "https://rajbhasha.gov.in/en/official-language-resolution-1968"
+        },
+        {
+          "label": "Wood's Despatch of 1854 — original text",
+          "url": "https://en.wikisource.org/wiki/The_Despatch_of_1854%2C_on_General_Education_in_India"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is a lingua franca?",
+          [
+            "A lingua franca is a shared language used by people whose first languages differ."
+          ]
+        ],
+        [
+          1,
+          "What does 'foreign language' mean in a language-learning context?",
+          [
+            "A language learned where it is not widely used for everyday public communication; the classification depends on the learner's setting."
+          ]
+        ],
+        [
+          1,
+          "Name the 1835 document associated with Macaulay's argument for English education.",
+          [
+            "Macaulay's Minute on Indian Education."
+          ]
+        ],
+        [
+          1,
+          "What does L1 stand for in language education?",
+          [
+            "First language; a learner may acquire more than one first language."
+          ]
+        ],
+        [
+          1,
+          "What is meant by the medium of instruction?",
+          [
+            "The language used to teach and discuss school subjects."
+          ]
+        ],
+        [
+          1,
+          "What is multilingualism?",
+          [
+            "The use or knowledge of more than one language by a person or community."
+          ]
+        ],
+        [
+          1,
+          "Which article of the Constitution identifies the official language of the Union?",
+          [
+            "Article 343 identifies Hindi in Devanagari script as the official language of the Union."
+          ]
+        ],
+        [
+          1,
+          "What is meant by an English library language?",
+          [
+            "English used to access books, journals and other reference materials for learning."
+          ]
+        ],
+        [
+          1,
+          "Name one domain in which English can function as a link language in India.",
+          [
+            "Interstate professional communication among people with different first languages."
+          ]
+        ],
+        [
+          1,
+          "What is additive language learning?",
+          [
+            "Learning an additional language while maintaining and valuing languages already known."
+          ]
+        ],
+        [
+          2,
+          "Distinguish learning English as a subject from learning other subjects through English.",
+          [
+            "As a subject, English lessons develop listening, speaking, reading and writing in English. As a medium, English carries the content of subjects such as science; success then requires understanding both the language and the subject concepts."
+          ]
+        ],
+        [
+          2,
+          "Why should a teacher ask about languages used at home rather than assume each child has one mother tongue?",
+          [
+            "Children may use different languages with different family members and acquire several early languages. Asking about actual use helps the teacher select understandable examples and support without mislabelling a multilingual child."
+          ]
+        ],
+        [
+          2,
+          "Explain the difference between an official language and a national language in the Indian context.",
+          [
+            "An official language is assigned a role in government business. The Constitution does not designate a national language of India; therefore calling either Hindi or English India's constitutionally declared national language is incorrect."
+          ]
+        ],
+        [
+          2,
+          "Give two classroom examples of using English for a real purpose.",
+          [
+            "Learners ask a partner for a missing timetable entry and record the reply. They also read a short English instruction to assemble a paper model, using the language to complete an actual task."
+          ]
+        ],
+        [
+          2,
+          "How can access to English create an educational inequality?",
+          [
+            "Learners with books, confident speakers and paid support receive more exposure. If teaching and assessment assume that exposure, equally capable beginners may perform poorly because of language barriers rather than weak subject understanding."
+          ]
+        ],
+        [
+          2,
+          "Why is it misleading to describe Indian English as simply incorrect British English?",
+          [
+            "Indian English includes established patterns arising from its use in Indian settings. Teachers should distinguish variation from errors that obscure meaning and teach the register needed for a task without treating an identity or accent as inferior."
+          ]
+        ],
+        [
+          2,
+          "What is the difference between a language's status and a learner's proficiency in it?",
+          [
+            "Status concerns the language's social or institutional role, such as use in administration. Proficiency concerns an individual's ability to understand and use it; a language's high status does not mean every learner speaks it well."
+          ]
+        ],
+        [
+          2,
+          "Explain one limitation of teaching English entirely through memorised translations.",
+          [
+            "Learners may reproduce word equivalents without knowing how to respond in a new situation. Translation can clarify meaning, but it should lead into listening, reading and purposeful use rather than replace them."
+          ]
+        ],
+        [
+          2,
+          "Why can English be described as an additional language for some Indian children?",
+          [
+            "A child may already use two or more languages before learning English. 'Additional language' acknowledges that repertoire without incorrectly assuming English must be the child's second language in order of acquisition."
+          ]
+        ],
+        [
+          2,
+          "How can a teacher value Assamese while helping children learn English?",
+          [
+            "Invite learners to explain a familiar idea in Assamese, then model useful English expressions for it. Display or use both languages where helpful, so English adds a communicative resource without making Assamese seem less valuable."
+          ]
+        ],
+        [
+          3,
+          "Outline three broad phases in the changing role of English in India.",
+          [
+            "During colonial rule, English gained institutional importance in administration and higher education, with unequal access.",
+            "After independence, it continued in important official and educational functions alongside Indian languages.",
+            "Today it is also used in professional, digital and international communication, though opportunities to learn it remain uneven."
+          ]
+        ],
+        [
+          3,
+          "Explain the educational difference between an elitist and an inclusive approach to English.",
+          [
+            "An elitist approach treats prior fluency as a sign of intelligence and rewards those already exposed to English.",
+            "An inclusive approach regards English as learnable by everyone and provides models, practice and support for beginners.",
+            "For example, pair rehearsal and visual prompts allow a hesitant child to participate before speaking to the whole class."
+          ]
+        ],
+        [
+          3,
+          "How can an English lesson draw on a multilingual market scene?",
+          [
+            "Invite children to name goods and familiar buying expressions in languages they know.",
+            "Introduce English requests such as 'How much is this?' and 'I would like two bananas', using real objects or pictures.",
+            "Let pairs buy and sell with role cards, then check whether they understood quantities and responded politely rather than judging accent alone."
+          ]
+        ],
+        [
+          3,
+          "Why should a child's subject knowledge not be judged solely through unfamiliar English?",
+          [
+            "Limited English can prevent a child from expressing knowledge already developed in another language.",
+            "A teacher can check the concept through a diagram, demonstration or familiar-language explanation.",
+            "The teacher should then build the English needed to express the same idea, recording subject understanding and language development separately where appropriate."
+          ]
+        ],
+        [
+          3,
+          "Explain three ways in which English supports a trainee teacher's professional learning.",
+          [
+            "It can provide access to educational books, research and teaching resources available in English.",
+            "It can enable discussion with educators from other language backgrounds in courses or professional networks.",
+            "It can support preparation of classroom materials and communication when English is required, while resources in Indian languages remain equally valuable."
+          ]
+        ],
+        [
+          3,
+          "A pupil understands English stories but rarely speaks. Explain why this does not prove lack of learning.",
+          [
+            "Receptive understanding may develop before confident production, so speaking frequency alone is insufficient evidence.",
+            "Anxiety, limited opportunities or fear of correction may also inhibit speech.",
+            "Check understanding through sequencing pictures or choosing responses, then use supported pair talk and gradually increase independent speaking opportunities."
+          ]
+        ],
+        [
+          3,
+          "Explain three risks of treating English-medium schooling as a guarantee of good education.",
+          [
+            "The label does not establish whether teachers explain clearly or learners understand lessons.",
+            "Children can memorise unfamiliar English sentences without understanding the underlying concepts.",
+            "Quality also depends on teaching, materials, inclusion and feedback; language support is necessary whatever medium a school adopts."
+          ]
+        ],
+        [
+          3,
+          "How would you use an English bus timetable in a beginning language class?",
+          [
+            "Identify familiar destinations and model expressions such as 'The bus leaves at nine'.",
+            "Ask pairs to find a departure time and choose a bus for a stated arrival need.",
+            "Have learners explain their choice using supported English, checking both the information understood and the expression used."
+          ]
+        ],
+        [
+          3,
+          "Describe three ways to avoid language-based humiliation in the classroom.",
+          [
+            "Do not punish or ridicule children for home-language use or accent.",
+            "Correct selected errors respectfully by modelling and inviting another attempt rather than labelling the child weak.",
+            "Provide preparation time and cooperative tasks so beginners can contribute meaningful ideas while developing English."
+          ]
+        ],
+        [
+          3,
+          "What should a teacher consider when choosing English materials for a diverse class?",
+          [
+            "Check the difficulty of vocabulary and sentences against learners' present experience.",
+            "Choose culturally respectful examples that represent varied homes, occupations and languages.",
+            "Provide pictures, readable print or audio support as needed, while retaining a meaningful purpose that challenges learners without excluding beginners."
+          ]
+        ],
+        [
+          4,
+          "Explain the place of English in NCF 2005's multilingual approach.",
+          [
+            "NCF 2005 places English alongside Indian languages, with children's existing languages supporting additional-language learning.",
+            "It seeks both basic communicative proficiency and the use of language for thinking and acquiring knowledge.",
+            "It connects English with meaningful learning across subjects rather than treating it only as isolated grammar exercises.",
+            "A classroom implication is to combine accessible texts, discussion and purposeful tasks while respecting home languages; the framework does not justify making English a barrier to participation."
+          ]
+        ],
+        [
+          4,
+          "Explain how colonial purposes and present-day educational purposes for English differ.",
+          [
+            "Colonial English education was tied to imperial administration and the production of a limited English-educated group; its benefits were distributed unequally.",
+            "The language also became a resource that Indians used for their own intellectual and political purposes, so its history is not one of passive acceptance alone.",
+            "A democratic educational purpose is to broaden access to communication and knowledge for all learners.",
+            "Teaching should therefore combine useful English proficiency with respect for Indian languages and critical discussion of power and opportunity."
+          ]
+        ],
+        [
+          4,
+          "How can a teacher use bilingual resources without making every activity a translation exercise?",
+          [
+            "Use a bilingual glossary to clarify a few essential terms before a task rather than translate every line.",
+            "Allow initial discussion of a concept in familiar languages, then provide English phrases for reporting it.",
+            "Pair an English text with pictures or a familiar-language summary and ask learners to locate supporting information in the English original.",
+            "Gradually reduce the prompts as understanding grows, assessing whether pupils can use the English independently in a similar new task."
+          ]
+        ],
+        [
+          4,
+          "Critically examine the claim that a good English learner must imitate a foreign accent.",
+          [
+            "The central classroom goal is intelligible, appropriate communication, not imitation of a particular national identity.",
+            "Learners need practice with contrasts, stress and phrasing that affect meaning and comprehension.",
+            "A consistent reference pronunciation can help teaching, but exposure to varied comprehensible accents prepares learners for real communication.",
+            "Feedback should identify a specific difficulty and offer practice; it should not ridicule Indian accents or equate them with low intelligence."
+          ]
+        ],
+        [
+          4,
+          "Design a classroom enquiry into where English is used in the local community.",
+          [
+            "Set a question such as 'Where do we encounter English outside school?' and agree safe, supervised sources such as packaging and public signs.",
+            "Learners record examples and note whether other languages appear beside English.",
+            "Groups classify purposes, for example directions, advertising or product information, rather than merely counting English words.",
+            "Discuss who can understand each example and redesign one sign with pictures or another local language, connecting language study with accessibility."
+          ]
+        ],
+        [
+          5,
+          "Prepare an inclusive plan for teaching everyday English requests to a multilingual elementary class.",
+          [
+            "Aim: learners should obtain something politely and respond appropriately, rather than only recite a sentence. Use familiar objects such as pencils, books and water bottles.",
+            "Demonstrate a short exchange with gestures: 'May I borrow your pencil?' 'Yes, here you are.' Explain meaning through familiar languages when needed.",
+            "Pairs rotate requester and responder roles with picture cards; provide prompts to beginners and varied reasons or polite refusals to more confident learners.",
+            "Observe whether each learner communicates a clear request, understands the reply and takes turns. Correct one useful feature after the exchange without interrupting every attempt.",
+            "Finish with a new object or situation to check transfer, and revisit the expressions during ordinary classroom routines so the language remains functional."
+          ]
+        ],
+        [
+          5,
+          "Discuss English as both an opportunity and a possible barrier in Indian education.",
+          [
+            "English can open access to particular academic materials, professional interactions and communication across language backgrounds. These opportunities explain its educational importance.",
+            "Access to exposure and teaching is unequal, however, so making prior English fluency a condition for participation advantages some children.",
+            "If a child cannot understand the instructional language, memorisation may conceal weak conceptual understanding even when written answers sound fluent.",
+            "Schools should teach English explicitly and purposefully while using visual, bilingual and familiar-language support to keep subject learning accessible.",
+            "An equitable approach expands children's choices: it neither denies English opportunities nor treats Indian languages as obstacles to educational success."
+          ]
+        ],
+        [
+          5,
+          "Explain how you would assess progress in an additional-language class without rewarding only prior exposure.",
+          [
+            "First establish a starting profile through simple listening, speaking and reading tasks, noting the support each learner uses rather than applying a single fluency label.",
+            "Set specific goals such as following two instructions, making a request or finding a detail in a short text. Share examples of successful performance.",
+            "Gather evidence through pair tasks, individual responses and brief written work across time; group participation alone may hide a quiet child's learning.",
+            "Use clear criteria for meaning, comprehensibility and the language feature taught. Treat accent variation respectfully and provide accessible ways to demonstrate understanding.",
+            "Compare later performance with both the learning goals and the child's starting point, then give one achievable next step and another opportunity to practise it."
+          ]
+        ],
+        [
+          5,
+          "A parent insists that using the home language will prevent English learning. How would you respond as a teacher?",
+          [
+            "Listen to the parent's aspiration for strong English and explain that the class will provide regular, purposeful English exposure and practice.",
+            "Clarify that familiar-language discussion can help a child understand a concept, connect experience and participate while English expressions are developing.",
+            "Show a lesson example: children discuss a familiar festival, read a short supported English passage and describe one aspect in English. The home language supports, rather than substitutes for, the target task.",
+            "Explain how prompts will be reduced gradually and progress checked through independent English use in suitable tasks.",
+            "Invite the family to sustain stories and conversation in languages they use confidently; a rich language environment and a positive attitude are more helpful than shaming either language."
+          ]
+        ],
+        [
+          5,
+          "Develop a balanced classroom discussion on the statement 'Only English matters for the future'.",
+          [
+            "Ask learners to identify different purposes for language: family communication, local services, literature, higher study and international interaction. Record examples without ranking speakers.",
+            "Discuss opportunities that English may provide, including access to some digital resources and communication with people from other language backgrounds.",
+            "Ask what would be lost if familiar and regional languages were neglected, such as community participation, cultural expression and access for non-English speakers.",
+            "Use a practical comparison, such as designing information for both local families and visitors, to show why different languages and formats may be needed.",
+            "Conclude through learners' evidence-based statements: developing English is valuable, but multilingual competence expands choices more fully than dismissing all other languages."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-5-2021-2-a",
+          "question": "Write a short note on the three-language formula.",
+          "marks": 2,
+          "answer": [
+            "The three-language formula promotes learning three languages to support multilingualism and communication across regions. Its historical school-policy formulation included the regional language, Hindi and English in non-Hindi-speaking states, and Hindi, English and another modern Indian language in Hindi-speaking states.",
+            "NEP 2020 retains the formula with flexibility and no imposition of a language; at least two of the three languages chosen should be native to India. It does not prescribe one identical combination for every learner."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2(e)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "7(a)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2(e)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-8",
+          "question": "Elucidate the differences between mother-tongue and the second language.",
+          "marks": 3,
+          "answer": [
+            "A mother tongue is generally a language acquired early through family or community life; a second language is learned in addition to an earlier language and may serve wider social or educational purposes.",
+            "Early home-language learning usually involves extensive everyday interaction. Exposure to a second language varies: it may come through school, peers, media and daily life, not only formal lessons.",
+            "The labels do not rank languages or guarantee proficiency. A child may have more than one home language, and English may be a first language for some Indian children but an additional language for others."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "8",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-6",
+          "question": "“First language facilitates the learning of second language in the Indian context.” Discuss.",
+          "marks": 3,
+          "answer": [
+            "Learners bring concepts, experiences and communicative knowledge from their first language; they do not begin learning an additional language without knowledge.",
+            "A teacher can connect a familiar story or concept to English expressions and use comparison or brief bilingual explanation to clarify meaning.",
+            "This support should lead into meaningful English listening, speaking and reading. Differences between languages also need explicit attention; transfer is helpful but does not make all forms identical."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-3",
+          "question": "Explain briefly why English is used as a global language.",
+          "marks": 3,
+          "answer": [
+            "British colonial expansion established English in administration, education and trade across many regions, giving it a wide historical reach.",
+            "Later international economic, scientific and technological networks, including the influence of English-speaking countries, strengthened its use.",
+            "Its established role as a shared language encourages speakers of different first languages to use it for communication. This spread reflects history and institutions, not inherent linguistic superiority."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-5",
+          "question": "Explain importance of English as a global language.",
+          "marks": 3,
+          "answer": [
+            "English provides a shared means of communication in many international settings, including travel, business and collaboration among speakers of different first languages.",
+            "It gives access to a substantial body of scientific, academic and digital information and can support participation in international education.",
+            "Learning it can therefore widen opportunities, while multilingual education also values local languages. Global usefulness does not make English superior to other languages."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-1-a",
+          "question": "Which Governor General played a key role in promoting English Education in India?",
+          "marks": 1,
+          "answer": [
+            "Lord William Bentinck, associated with the English-education resolution of 1835."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-1-b",
+          "question": "Which commission recommended English as a medium of higher education in India in 1854?",
+          "marks": 1,
+          "answer": [
+            "Wood’s Despatch of 1854. The question calls it a commission, but it was a despatch associated with Sir Charles Wood."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-1-c",
+          "question": "Which Act made English the associate official language of India after Independence?",
+          "marks": 1,
+          "answer": [
+            "The Official Languages Act, 1963, as amended in 1967, continued English for specified Union official purposes and Parliament. “Associate official language” is a common curricular description, not the Act’s formal title."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-2-a",
+          "question": "What is NEP 2020’s stance on English as a medium of instruction in schools?",
+          "marks": 2,
+          "answer": [
+            "Wherever possible, NEP 2020 recommends the home, mother, local or regional language as the medium until at least Grade 5, preferably Grade 8 and beyond.",
+            "It does not ban English. It supports high-quality language teaching and bilingual materials, including helping learners discuss subjects in both a familiar language and English."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Proficiency in English I",
+          "url": "/curriculum-2024.pdf#page=26"
+        },
+        {
+          "label": "Subject study notes",
+          "url": "/detailed-notes/s1-5.html"
+        },
+        {
+          "label": "British Council — British English phonemic chart",
+          "url": "https://www.teachingenglish.org.uk/teaching-resources/teaching-secondary/teaching-tools/phonemic-chart-english-teachers"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is a minimal pair?",
+          [
+            "Two words that differ in only one phoneme in the same position and have different meanings, such as 'pin' and 'bin'."
+          ]
+        ],
+        [
+          1,
+          "What is a syllable?",
+          [
+            "A unit of pronunciation typically organised around a vowel sound, as in the two syllables of 'teacher'."
+          ]
+        ],
+        [
+          1,
+          "What does the symbol /ˈ/ indicate in a pronunciation entry?",
+          [
+            "Primary stress on the following syllable."
+          ]
+        ],
+        [
+          1,
+          "What is a voiced consonant?",
+          [
+            "A consonant produced with vibration of the vocal folds, such as /z/."
+          ]
+        ],
+        [
+          1,
+          "Which sound begins the word 'ship': /s/ or /ʃ/?",
+          [
+            "The sound /ʃ/."
+          ]
+        ],
+        [
+          1,
+          "What is turn-taking in conversation?",
+          [
+            "Managing when to speak and when to let another person speak."
+          ]
+        ],
+        [
+          1,
+          "What is listening for gist?",
+          [
+            "Listening to understand the overall meaning or main message."
+          ]
+        ],
+        [
+          1,
+          "What is a listening prediction?",
+          [
+            "An expectation about what may be heard, formed from a title, context or prior knowledge and checked while listening."
+          ]
+        ],
+        [
+          1,
+          "What is a clarifying question?",
+          [
+            "A question asked to make an unclear message easier to understand, such as 'Do you mean Tuesday or Thursday?'"
+          ]
+        ],
+        [
+          1,
+          "What is the main articulatory difference between vowels and consonants?",
+          [
+            "Vowels generally involve a relatively open vocal tract; consonants involve a more substantial obstruction or narrowing of airflow."
+          ]
+        ],
+        [
+          2,
+          "Distinguish hearing from active listening.",
+          [
+            "Hearing involves detecting sound; active listening involves attending to it and constructing meaning. A learner who hears an announcement but cannot identify its instruction may need support with attention or comprehension."
+          ]
+        ],
+        [
+          2,
+          "Why does counting letters not tell us how many phonemes a word has?",
+          [
+            "English spelling does not match sounds one to one: several letters may represent one sound, and some letters are silent. For example, 'ship' has four letters but three phonemes: /ʃ/, /ɪ/ and /p/."
+          ]
+        ],
+        [
+          2,
+          "Show how sentence stress can change the emphasis of 'Rina borrowed my book'.",
+          [
+            "Stress on 'Rina' contrasts her with someone else who might have borrowed it. Stress on 'my' contrasts the speaker's book with another person's book; the words remain the same but the focus changes."
+          ]
+        ],
+        [
+          2,
+          "Why should a listening lesson use a second hearing with a different task?",
+          [
+            "The first hearing can establish the situation and main message. A second hearing can target details, so learners do not have to understand and record everything at once."
+          ]
+        ],
+        [
+          2,
+          "Give two reasons for allowing pair rehearsal before an oral presentation.",
+          [
+            "Rehearsal gives learners time to organise ideas and try unfamiliar expressions. A partner's response also reveals unclear points, allowing improvement before the greater pressure of speaking to the class."
+          ]
+        ],
+        [
+          2,
+          "How can gestures help a beginning learner follow spoken instructions?",
+          [
+            "A gesture or demonstration connects unfamiliar words with an observable action, such as pointing while saying 'Put it under the table'. Gradually removing the gesture checks whether the learner now understands the spoken instruction itself."
+          ]
+        ],
+        [
+          2,
+          "What distinguishes a scripted dialogue from an information-gap exchange?",
+          [
+            "In a scripted dialogue, speakers follow supplied lines. In an information gap, each speaker holds different information and must ask, understand and respond to complete a task, so the exchange has a real communicative purpose."
+          ]
+        ],
+        [
+          2,
+          "Explain why not every English question is spoken with rising intonation.",
+          [
+            "Intonation depends on the speaker's purpose and context, not punctuation alone. An ordinary information-seeking wh-question may have a fall, while a confirmation question may rise; these are common patterns rather than universal rules."
+          ]
+        ],
+        [
+          2,
+          "How should a teacher respond when a listener asks for repetition?",
+          [
+            "Repeat or rephrase the relevant part at a natural, manageable pace and praise the useful clarification strategy. Check the listener's understanding through a response or action rather than treating the request as failure."
+          ]
+        ],
+        [
+          2,
+          "What is the value of recording a learner's short speech with consent?",
+          [
+            "A recording lets the learner notice specific features, such as unclear phrasing or repeated pauses, and compare a later attempt. It should have a clear learning purpose and be handled with permission and appropriate privacy, not shared to embarrass the learner."
+          ]
+        ],
+        [
+          3,
+          "Describe bottom-up and top-down listening with one example of each.",
+          [
+            "Bottom-up processing builds meaning from sounds, words and grammatical cues; recognising 'fifteen' rather than 'fifty' matters in an announcement.",
+            "Top-down processing uses context and prior knowledge; knowing the setting is a station helps predict references to platforms and departures.",
+            "Effective listening combines both and checks predictions against what was actually said, rather than guessing solely from context."
+          ]
+        ],
+        [
+          3,
+          "How would you teach the /p/–/b/ contrast to beginning learners?",
+          [
+            "Model a clear pair such as 'pat' and 'bat', drawing attention to vocal-fold vibration for /b/ while avoiding exaggerated claims that every aspect differs only in voicing.",
+            "Learners first identify the word heard by selecting a picture, then practise saying the pair.",
+            "Use the words in short meaningful phrases and check whether a partner can distinguish them, giving specific supportive feedback."
+          ]
+        ],
+        [
+          3,
+          "Explain three ways to support a learner who loses track during a spoken story.",
+          [
+            "Establish the setting and a few essential words with pictures before listening.",
+            "Break the story into manageable sections, using a simple sequence of images to track events.",
+            "Replay a section and ask the learner to arrange pictures or explain what happened, separating comprehension from the demand to produce a long English answer."
+          ]
+        ],
+        [
+          3,
+          "Plan a short task for listening to specific information in a school announcement.",
+          [
+            "Give learners a grid headed event, day, time and place, and explain the listening purpose.",
+            "Read a brief announcement twice, initially for context and then for filling the grid.",
+            "Ask pairs to compare answers and justify them from the announcement, replaying the relevant phrase where they disagree."
+          ]
+        ],
+        [
+          3,
+          "How can a teacher assess a group discussion fairly?",
+          [
+            "Use observable criteria such as relevant contribution, listening and responding, and making space for others.",
+            "Record individual evidence across several turns rather than reward the loudest speaker or the group result alone.",
+            "Give learners feedback with an example and a next step, such as asking a follow-up question instead of interrupting."
+          ]
+        ],
+        [
+          3,
+          "Explain how pauses and thought groups improve an oral presentation.",
+          [
+            "Thought groups divide speech into meaningful units, helping listeners connect words that belong together.",
+            "Pauses at sensible boundaries allow processing and can emphasise an important point.",
+            "A speaker can mark a short passage into groups, rehearse it and ask a listener whether the meaning is clear, avoiding a pause after every word."
+          ]
+        ],
+        [
+          3,
+          "How would you use a familiar song to practise spoken English without reducing the lesson to imitation?",
+          [
+            "Introduce the situation and explain a few useful expressions so learners understand what they sing.",
+            "Use rhythm and repeated lines to practise clear phrasing, while recognising that sung stress may differ from ordinary speech.",
+            "After singing, ask learners to use an expression in a new short exchange, checking meaningful use beyond memorisation."
+          ]
+        ],
+        [
+          3,
+          "Suggest a three-step procedure for a story-retelling activity.",
+          [
+            "Learners listen to or read a short story and identify its beginning, problem and ending with picture prompts.",
+            "They rehearse retelling it to a partner using their own words and simple linking expressions.",
+            "A listener checks whether the main events are understandable and in order; the teacher gives focused feedback before a second attempt."
+          ]
+        ],
+        [
+          3,
+          "Why is constant interruption for correction unhelpful during a fluency task?",
+          [
+            "Frequent interruption can break the speaker's train of thought and prevent a complete message.",
+            "It may increase fear of mistakes and reduce learners' willingness to try unfamiliar language.",
+            "The teacher should note recurring difficulties, intervene when communication fails, and address selected language points after the exchange with a chance to retry."
+          ]
+        ],
+        [
+          3,
+          "How can classroom theatre develop more than pronunciation?",
+          [
+            "Taking a role requires learners to choose language suitable for a character, purpose and situation.",
+            "Performers must listen and respond to partners' words and non-verbal cues, practising interaction and cooperation.",
+            "Reflection on a scene can examine tone, politeness and meaning, so success is not judged only by loudness, accent or memorised delivery."
+          ]
+        ],
+        [
+          4,
+          "Design an information-gap speaking task using two incomplete school timetables.",
+          [
+            "Prepare two versions of the same timetable with different missing subjects or times; neither learner should see the partner's sheet.",
+            "Model questions such as 'What do we have after lunch on Tuesday?' and provide prompts where needed.",
+            "Partners ask and answer until both timetables are complete, clarifying uncertain words rather than showing the answers.",
+            "Compare with the complete timetable and assess both accuracy of information and appropriate interaction. Repeat with fewer prompts to check independence."
+          ]
+        ],
+        [
+          4,
+          "Explain how you would teach word stress through a discovery activity.",
+          [
+            "Select familiar multisyllabic words and model them clearly, for example 'TAble' and 'beGIN', using capitals only as a classroom stress aid.",
+            "Learners listen, mark the prominent syllable and compare responses before checking a dictionary pronunciation.",
+            "Use tapping or a visual pattern to practise prominence, then place each word in a meaningful phrase.",
+            "Ask learners to record or perform a short new sentence and give feedback on intelligibility; avoid suggesting that every long word follows one stress rule."
+          ]
+        ],
+        [
+          4,
+          "Plan an oral presentation activity on a familiar local place.",
+          [
+            "Give a clear purpose: help a new classmate understand where the place is, what happens there and why it matters.",
+            "Provide a simple planning frame and optional pictures, allowing learners to organise ideas before rehearsing with a partner.",
+            "During a short presentation, listeners note one fact and prepare one relevant question, making the audience active.",
+            "Assess organisation, comprehensibility and response to the question, then let the speaker improve one part rather than grade confidence or accent alone."
+          ]
+        ],
+        [
+          4,
+          "How would you adapt a listening task for a learner with a hearing difficulty?",
+          [
+            "Ask about the learner's effective communication supports and follow available professional or school guidance rather than assume the same adjustment suits everyone.",
+            "Reduce background noise, ensure a clear view of the speaker and use accessible seating or agreed assistive support.",
+            "Provide captions, written key information or visual sequencing when appropriate, preserving participation in the learning goal.",
+            "Check understanding privately and distinguish a listening-only assessment from a broader comprehension task; an accommodation should not be treated as evidence of low ability."
+          ]
+        ],
+        [
+          4,
+          "Compare assessing pronunciation through isolated words and through connected speech.",
+          [
+            "Isolated words let a teacher focus on a particular sound or word-stress pattern and locate a difficulty precisely.",
+            "They do not show fully how learners link words, group ideas or maintain intelligibility while communicating.",
+            "Connected speech, such as a short exchange, provides evidence of phrasing, sentence stress and interaction, but several demands occur at once.",
+            "Use both: diagnose a selected feature in words, practise it, and then assess whether it helps listeners understand a meaningful message."
+          ]
+        ],
+        [
+          5,
+          "Develop a complete listening lesson around directions to a place on a simple map.",
+          [
+            "Set the goal: learners should follow directions from the school to one destination. Introduce only essential expressions such as 'turn left' and 'opposite', using the map and gestures.",
+            "Before listening, identify the starting point and landmarks. Let learners predict possible routes without revealing the correct destination.",
+            "On the first hearing, learners trace the general route; on the second, they check each turn and mark the destination. Offer a replay of difficult parts.",
+            "Pairs compare routes and explain where their answers differ. Verify using the spoken clues rather than simply announce the answer.",
+            "For transfer, one learner gives a different route and a partner follows it. Assess accurate understanding, clarification and useful expressions, and reteach any direction that repeatedly causes confusion."
+          ]
+        ],
+        [
+          5,
+          "Explain how you would build a respectful classroom debate for elementary learners.",
+          [
+            "Choose an accessible question, such as whether the class should have a reading corner outdoors, and provide balanced information about the options.",
+            "Establish rules: give reasons, listen fully, disagree with ideas rather than people, and make space for everyone. Model expressions such as 'I see your point, but…'.",
+            "Allow planning in pairs with a reason-and-example frame; allocate roles so hesitant speakers also have a manageable contribution.",
+            "During the debate, require learners to respond to a previous point instead of merely reciting prepared speeches. Note evidence of listening, reasoning and comprehensible language.",
+            "End with reflection on which reasons were supported and what communication improved. Give targeted feedback and a short second round so the activity develops skills rather than just selects a winner."
+          ]
+        ],
+        [
+          5,
+          "Describe a sequence for helping a learner whose individual words are clear but whose speech is difficult to follow.",
+          [
+            "Listen to a short sample and identify whether the main difficulty is excessive speed, misplaced pauses, weak prominence or unclear organisation; do not label the accent itself defective.",
+            "Select a short meaningful message and model it in thought groups, marking the important words and sensible pauses. Ask the learner to notice how the grouping supports meaning.",
+            "Practise one feature at a time through short phrases, then reconstruct the complete message at a comfortable pace.",
+            "Use a partner task in which the listener records the key information, providing evidence of what was understood rather than a vague judgement of fluency.",
+            "Compare a later attempt with the first sample and agree one next step. Continue practice with new messages so improvement is not limited to a memorised passage."
+          ]
+        ],
+        [
+          5,
+          "Plan a classroom interview task that integrates preparation, listening and follow-up speech.",
+          [
+            "Set a purpose, such as learning how a school gardener cares for plants, and agree an appropriate guest or a clearly identified classroom role-play.",
+            "Learners prepare a few open questions, check respectful wording and distribute roles such as interviewer, note-taker and summariser.",
+            "Rehearse asking a question and making a follow-up based on the reply, rather than reading an inflexible list. Provide useful prompts to beginners.",
+            "During the interview, pupils listen for key information, ask for clarification and take brief notes; the teacher supports without answering for them.",
+            "Afterwards, groups give a short oral summary that distinguishes the guest's information from their own assumptions. Assess questioning, listening accuracy and clear reporting, then discuss one improvement for a future interview."
+          ]
+        ],
+        [
+          5,
+          "How would you use a short advertisement to teach critical listening and oral response?",
+          [
+            "Choose an age-appropriate advertisement and establish its product, intended audience and setting before playing it. Avoid using a real purchasing task.",
+            "First ask learners to identify the main message; on a second hearing, note the words, tone, music or repetition that attract attention.",
+            "Separate claims from evidence: for example, 'the best' is a persuasive judgement unless supported by a meaningful comparison. Ask what information is missing.",
+            "Pairs prepare a brief spoken response explaining whether the message is convincing and why, using a frame such as 'The advert claims… but…'.",
+            "Assess accurate listening and reasons for the response, not agreement with the teacher. Finish by having groups make an honest alternative message and explain their language choices."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-5-2021-1-a",
+          "question": "Name the supra-segmental features.",
+          "marks": 1,
+          "answer": [
+            "Stress, rhythm and intonation."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-1-b",
+          "question": "Write the full form of IPA.",
+          "marks": 1,
+          "answer": [
+            "International Phonetic Alphabet."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-1-c",
+          "question": "How many pure vowels are there in the English sound system?",
+          "marks": 1,
+          "answer": [
+            "Twelve in the traditional British/RP teaching model used here. Vowel inventories vary by accent."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-2-b",
+          "question": "Write a short note on a language-rich classroom.",
+          "marks": 2,
+          "answer": [
+            "A language-rich classroom offers meaningful opportunities to listen, speak, read and write through stories, conversation and accessible print.",
+            "Useful features include a reading corner, labelled objects, children’s writing and paired tasks. These materials need active use and interaction, not merely crowded walls."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-3",
+          "question": "Design an interactive oral discourse on any one of the following contexts: (a) Telephonic conversation to invite someone for a family function (b) Discussing about today’s weather (c) Seeking information regarding availability of bus seats at a ticket counter.",
+          "marks": 2,
+          "answer": [
+            "Chosen context: invitation by telephone. A: “Hello, Rina. This is Mina. Would you like to join our family celebration on Sunday?” B: “Thank you! What time should I come?”",
+            "A: “Please come to our home at five in the evening.” B: “I would love to. Shall I bring anything?” A: “Just yourself! See you on Sunday.” B: “See you then.”"
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-9",
+          "question": "Describe how language serves as a means of communication and thought.",
+          "marks": 3,
+          "answer": [
+            "Language enables people to share information, ask questions, express feelings and coordinate activities through meaningful symbols.",
+            "It also helps organise ideas: a learner can name a problem, compare possibilities and explain a plan through spoken or inner speech.",
+            "For example, pupils discussing how to sort objects use words both to communicate with partners and to clarify their own categories. Language supports thought, though not all thinking is verbal."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "9",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-2-a",
+          "question": "Define phoneme.",
+          "marks": 2,
+          "answer": [
+            "A phoneme is a sound unit that can distinguish one word from another in a language.",
+            "For example, replacing /p/ with /b/ changes pin to bin; /p/ and /b/ are therefore distinct English phonemes."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-3",
+          "question": "Design an oral discourse on any one of the situations given below: (a) Seeking information about availability of seats at ISBT (Inter State Bus Terminus) (b) A telephonic conversation to order food.",
+          "marks": 3,
+          "answer": [
+            "Chosen situation: ISBT counter. Passenger: “Good morning. Are two seats available on this afternoon’s bus to Silchar?” Clerk: “Yes, on the two o’clock service.”",
+            "Passenger: “What is the fare, please?” Clerk: “It is ₹500 per person.” Passenger: “May I have two seats together?” Clerk: “Yes. Please confirm the names for the tickets.”",
+            "Passenger: “Mina Das and Rina Das. Which platform should we use?” Clerk: “Platform three. Please arrive fifteen minutes early.” Passenger: “Thank you.” (All journey details are fictional examples.)"
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-7",
+          "question": "Elucidate some measures to organise a language-rich classroom.",
+          "marks": 3,
+          "answer": [
+            "Provide accessible storybooks, meaningful labels, word displays and children’s own writing at usable heights, keeping displays readable.",
+            "Plan daily interaction through pair talk, storytelling, questions, songs and purposeful reading or writing, so materials are actually used.",
+            "Respect home languages, model useful English and include varied ways to participate. Rotate resources and observe whether quieter learners are getting opportunities too."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "7",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-1",
+          "question": "Write the importance of a language-rich classroom. How would you make your classroom language-rich?",
+          "marks": 4,
+          "answer": [
+            "A language-rich classroom gives learners repeated meaningful exposure to language and reasons to use it, supporting vocabulary and comprehension.",
+            "It encourages participation and confidence when learners can share ideas, hear different speakers and see their own work valued.",
+            "Organise a book corner, useful object labels, children’s writing and a manageable word wall, with materials that pupils can reach and understand.",
+            "Build routines for pair conversations, storytelling, reading and short written messages. Use home-language knowledge as support and check that the opportunities include every learner."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "1",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-7-d",
+          "question": "Write a short note on intonation.",
+          "marks": 2,
+          "answer": [
+            "Intonation is the pattern of pitch movement across speech, helping communicate meaning, attitude and discourse function.",
+            "For example, “You finished?” with a rise may ask for confirmation, while “You finished.” with a fall may state completion. Patterns depend on context and are not absolute rules for every question."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "7(d)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-1-c",
+          "question": "How many diphthongs are there in the English sound system?",
+          "marks": 1,
+          "answer": [
+            "Eight in the traditional British/RP teaching inventory. Other accents may have different inventories."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-2-c",
+          "question": "Design an activity to develop listening skill.",
+          "marks": 2,
+          "answer": [
+            "Give learners a simple blank scene and read clear instructions such as “Draw a ball under the table” and “Put a flower beside the door”.",
+            "Let pupils listen, draw and compare their pictures, then replay or repeat the instructions to check meaning. Change roles so a pupil gives the next set."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-2-d",
+          "question": "Explain language as means of communication and thought.",
+          "marks": 2,
+          "answer": [
+            "Language allows people to share information, feelings and intentions and to respond to one another.",
+            "It also helps organise and reflect on ideas; for example, explaining the steps of a plan can make the plan clearer to both the speaker and the listener."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-4",
+          "question": "Design an interactive oral discourse on any one of the situations given below: (a) Seeking information about the availability of tickets at the ticket counter of a movie hall (b) A telephonic conversation to invite a friend to a birthday party.",
+          "marks": 3,
+          "answer": [
+            "Chosen situation: birthday invitation. Mina: “Hello, Rina. It is Mina. I am having a birthday party on Saturday. Would you like to come?” Rina: “I would love to. What time does it start?”",
+            "Mina: “At four in the afternoon, at my home.” Rina: “Is that the house beside the library?” Mina: “Yes. I will send you the address.”",
+            "Rina: “Thank you for inviting me. I will be there.” Mina: “Great! See you on Saturday.”"
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-1-d",
+          "question": "How many vowel sounds are represented in IPA for English?",
+          "marks": 1,
+          "answer": [
+            "Twenty in the traditional British/RP teaching model: 12 pure vowels and 8 diphthongs. IPA itself is an international alphabet, not a fixed inventory for every English accent."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-2-b",
+          "question": "Describe the importance of a language-rich classroom.",
+          "marks": 2,
+          "answer": [
+            "Meaningful talk, stories and accessible print give learners frequent opportunities to understand and use language, strengthening vocabulary and communication.",
+            "A supportive environment encourages participation and confidence, especially when children’s own ideas and languages are valued."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-2-e",
+          "question": "How do role-playing activities enhance language learning in a contextual setting?",
+          "marks": 2,
+          "answer": [
+            "Role play gives learners a purpose, audience and situation, such as asking for directions, so they select language to achieve a communicative goal.",
+            "Responding to a partner practises listening, turn-taking and adaptation. Brief feedback and another attempt help improve clarity and appropriate expression."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "2(e)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-4",
+          "question": "Define monophthongs. Provide examples.",
+          "marks": 4,
+          "answer": [
+            "Monophthongs are vowel sounds whose quality remains relatively steady within a syllable, unlike a diphthong’s glide.",
+            "/ɪ/ in sit is a short monophthong.",
+            "/æ/ in cat is another short monophthong.",
+            "/iː/ in see is a long monophthong in the British teaching model. A long vowel is not automatically a diphthong."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Proficiency in English I",
+          "url": "/curriculum-2024.pdf#page=26"
+        },
+        {
+          "label": "Subject study notes",
+          "url": "/detailed-notes/s1-5.html"
+        },
+        {
+          "label": "British Council — coherence",
+          "url": "https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/c/coherence"
+        },
+        {
+          "label": "British Council — reading and writing genres",
+          "url": "https://www.teachingenglish.org.uk/sites/teacheng/files/RW8_Reading%20and%20writing%20genres.pdf"
+        },
+        {
+          "label": "Department for Education — reading framework (supporting pedagogy, not Assam syllabus)",
+          "url": "https://www.gov.uk/government/publications/the-reading-framework-teaching-the-foundations-of-literacy"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is an inference in reading?",
+          [
+            "A conclusion drawn from textual clues and relevant knowledge rather than stated directly."
+          ]
+        ],
+        [
+          1,
+          "What is a topic sentence?",
+          [
+            "A sentence that expresses the main idea of a paragraph."
+          ]
+        ],
+        [
+          1,
+          "What is a narrative text?",
+          [
+            "A text that relates events, usually involving characters, a setting and a sequence."
+          ]
+        ],
+        [
+          1,
+          "What is the main purpose of a persuasive text?",
+          [
+            "To influence the reader's opinion or action."
+          ]
+        ],
+        [
+          1,
+          "What does a thesaurus provide?",
+          [
+            "Words with related meanings, especially synonyms and sometimes antonyms."
+          ]
+        ],
+        [
+          1,
+          "What is an autobiography?",
+          [
+            "An account of a person's life written by that person."
+          ]
+        ],
+        [
+          1,
+          "What is extrapolation in reading?",
+          [
+            "Extending a text's ideas to a possible new situation or outcome, while recognising that the extension is not explicitly stated in the text."
+          ]
+        ],
+        [
+          1,
+          "What is a text's intended audience?",
+          [
+            "The readers for whom the text is written."
+          ]
+        ],
+        [
+          1,
+          "What is a heading's main reading function?",
+          [
+            "It signals the topic or organisation of the section that follows."
+          ]
+        ],
+        [
+          1,
+          "What does 're-read' mean?",
+          [
+            "Read a text or part of it again to check or deepen understanding."
+          ]
+        ],
+        [
+          2,
+          "Distinguish a fact from an opinion using a school-related example.",
+          [
+            "'The library opens at 9 a.m.' is a factual claim that can be checked against its schedule. 'The library is the best place in school' is an opinion expressing a judgement."
+          ]
+        ],
+        [
+          2,
+          "Explain coherence and cohesion with a brief distinction.",
+          [
+            "Coherence is the meaningful overall connection and organisation of ideas. Cohesion concerns language links such as pronouns, repeated key words and conjunctions; these help connect sentences but cannot by themselves make unrelated ideas coherent."
+          ]
+        ],
+        [
+          2,
+          "A story says, 'Mina closed her umbrella and shook water from her shoes.' What can you infer, and what cannot you safely infer?",
+          [
+            "It is reasonable to infer that Mina has been in wet conditions, probably rain. The line does not establish where she was going or how long it rained, so those details should not be presented as facts."
+          ]
+        ],
+        [
+          2,
+          "Why should readers check what a pronoun refers to?",
+          [
+            "A pronoun links information across a text, and choosing the wrong referent changes the meaning. In 'Rafi gave Neel a book. He thanked Rafi', 'He' refers to Neel because the action and wording support that connection."
+          ]
+        ],
+        [
+          2,
+          "Give two differences between a descriptive paragraph and an instruction.",
+          [
+            "A description presents qualities or features to help readers imagine a person, object or place. An instruction tells readers how to act, typically using ordered steps and clear action verbs."
+          ]
+        ],
+        [
+          2,
+          "Why is prediction useful only when it is checked against the text?",
+          [
+            "Prediction gives a reader a purpose and activates relevant knowledge. Checking prevents an initial guess from replacing the author's actual information, and a good reader revises a prediction when the evidence differs."
+          ]
+        ],
+        [
+          2,
+          "How does a summary differ from a personal response?",
+          [
+            "A summary briefly represents the text's main ideas without adding the reader's opinions. A personal response explains the reader's reaction or judgement, ideally with reasons linked to the text."
+          ]
+        ],
+        [
+          2,
+          "What is the difference between a dictionary and an encyclopaedia?",
+          [
+            "A dictionary primarily explains words, including meanings and often spelling, pronunciation and usage. An encyclopaedia gives organised information about topics, people, events or concepts rather than mainly about words."
+          ]
+        ],
+        [
+          2,
+          "How can a reader use a graph's title and key?",
+          [
+            "The title identifies what is being represented, while the key explains the meaning of colours, symbols or categories. Both should be read before interpreting the values, together with the axes and units."
+          ]
+        ],
+        [
+          2,
+          "Why is reading speed alone an inadequate measure of reading proficiency?",
+          [
+            "A learner may read rapidly while missing meaning or making uncorrected errors. Assessment should also examine accuracy, comprehension and appropriate expression or reading strategy for the task."
+          ]
+        ],
+        [
+          3,
+          "Explain how to choose between a literal, inferential and evaluative question.",
+          [
+            "Use a literal question to check information stated directly, such as where an event occurred.",
+            "Use an inferential question when learners must connect clues, for example why a character hides a damaged toy.",
+            "Use an evaluative question to ask for a reasoned judgement, such as whether the character's action was fair, requiring textual support rather than an unsupported preference."
+          ]
+        ],
+        [
+          3,
+          "How would you help pupils identify the main idea of a paragraph?",
+          [
+            "Ask what most sentences are about and have pupils underline repeated or related key ideas.",
+            "Compare a possible main-idea statement with the details: it should cover the paragraph without being too broad or too narrow.",
+            "Have pupils state the idea in their own words and identify one supporting detail, rather than simply select the first sentence every time."
+          ]
+        ],
+        [
+          3,
+          "A learner reads accurately but cannot explain the passage. What should the teacher do?",
+          [
+            "Check understanding with a short question or picture task to distinguish difficulty expressing an answer from difficulty understanding.",
+            "Investigate unfamiliar vocabulary, sentence structure and background knowledge rather than assume accurate decoding guarantees comprehension.",
+            "Model how to connect two ideas, reread a manageable section and ask the learner to explain or demonstrate its meaning before moving on."
+          ]
+        ],
+        [
+          3,
+          "How can a teacher teach cause and effect through a short story?",
+          [
+            "Choose a story with a clear causal link, such as a missed bus resulting from a late departure.",
+            "Ask learners to connect the event and reason using a simple 'because' or 'therefore' frame.",
+            "Compare cause with mere sequence: an event happening earlier does not automatically mean it caused the later one."
+          ]
+        ],
+        [
+          3,
+          "Explain how reading a table differs from reading continuous prose.",
+          [
+            "A table organises information by rows and columns, so readers must identify the relevant headings and the cell where they intersect.",
+            "Prose usually develops meaning through sentences and paragraphs read in sequence.",
+            "A teacher can ask learners to convert one table entry into a sentence, checking the heading, value and unit rather than reading isolated numbers."
+          ]
+        ],
+        [
+          3,
+          "How would you use paired reading without allowing the stronger reader to dominate?",
+          [
+            "Choose an accessible short passage and give both pupils clear turns, such as alternating paragraphs or reader-and-listener roles.",
+            "Teach the listener to allow thinking time, offer a prompt and discuss meaning rather than immediately supply every word.",
+            "Rotate roles and check each child's individual reading and understanding, so a smooth pair performance does not conceal one learner's difficulty."
+          ]
+        ],
+        [
+          3,
+          "What should pupils check before trusting an online educational text?",
+          [
+            "Identify the author or organisation and whether it has relevant expertise.",
+            "Check the date, evidence and links, especially where the information could have changed.",
+            "Compare important claims with another reliable source; attractive design, a high search position or confident language does not establish accuracy."
+          ]
+        ],
+        [
+          3,
+          "How can comparing two accounts of the same event develop critical reading?",
+          [
+            "Learners can identify shared facts and differences in emphasis or selection.",
+            "They can examine each writer's language, perspective and evidence, including whose voice is missing.",
+            "They should explain a conclusion using examples from both accounts, rather than assume different wording means one account is necessarily false."
+          ]
+        ],
+        [
+          3,
+          "Why should a critical reader examine a text's assumptions and cultural context?",
+          [
+            "An assumption is something the writer takes for granted; it may need evidence rather than automatic acceptance.",
+            "A text's historical or cultural tradition can influence which experiences it treats as normal and whose perspectives it includes.",
+            "Readers should explain these influences with textual examples and consider alternatives, avoiding both uncritical acceptance and rejection merely because the text comes from a different tradition."
+          ]
+        ],
+        [
+          3,
+          "How would you teach pupils to distinguish an author's claim from its supporting reason?",
+          [
+            "Use a short paragraph and ask what the writer wants readers to accept: that is the claim.",
+            "Then ask why the writer says it should be accepted, locating reasons or evidence.",
+            "Have pupils judge whether those reasons are relevant and adequate, for example whether one person's preference can support a claim about what every child enjoys."
+          ]
+        ],
+        [
+          4,
+          "Design a short reading task around a weather table.",
+          [
+            "Provide a small table showing days, temperature and rainfall with clearly labelled units. Ask pupils to identify what each heading means before answering questions.",
+            "Begin with a direct lookup, such as Monday's temperature, to check row-column reading.",
+            "Add a comparison, such as the wettest day, requiring pupils to use the whole relevant column rather than guess from position.",
+            "Ask pupils to write two evidence-based sentences and identify one question the table cannot answer, separating interpretation from unsupported inference."
+          ]
+        ],
+        [
+          4,
+          "Explain how scaffolding can be gradually removed during reading instruction.",
+          [
+            "First model a strategy explicitly, such as pausing to infer a character's feeling from actions and words.",
+            "Next read a similar section together, using prompts that direct attention to evidence without giving the answer.",
+            "Let pairs attempt another section with a shorter question frame, while the teacher observes and supports where needed.",
+            "Finally ask for an independent response to a new passage and check whether the strategy transfers; reduce support according to evidence rather than a fixed timetable."
+          ]
+        ],
+        [
+          4,
+          "Prepare an activity for examining bias in a short advertisement.",
+          [
+            "Choose an age-appropriate advert and ask who produced it and who is expected to respond.",
+            "Learners underline persuasive words and distinguish checkable claims from praise such as 'perfect' or 'best'.",
+            "Ask what relevant information is missing, such as conditions, limitations or an alternative viewpoint, without assuming every advertisement is false.",
+            "Learners rewrite the message more fairly and explain their changes with reference to the original, demonstrating critical reading through evidence."
+          ]
+        ],
+        [
+          4,
+          "How would you help learners interpret a difficult paragraph without explaining every sentence for them?",
+          [
+            "Set a focused purpose and clarify only the few words essential to accessing the passage.",
+            "Ask learners to read a manageable section, identify the main topic and mark a specific point of confusion.",
+            "Model one strategy, such as tracing a pronoun or connecting a conjunction, then let pairs apply it to the remaining difficulty.",
+            "Check with a paraphrase or an evidence-based question. Reteach unresolved parts, while preserving the learners' responsibility to construct meaning."
+          ]
+        ],
+        [
+          4,
+          "Explain four criteria for assessing a pupil's book review.",
+          [
+            "The review should accurately identify the book and briefly represent its subject or story without unnecessary retelling.",
+            "It should express a clear judgement about an aspect such as character, organisation or illustration.",
+            "The judgement should be supported by a specific example, rather than only 'good' or 'boring'.",
+            "It should address a likely audience with an organised, comprehensible recommendation; assessment should allow different reasoned opinions about the same book."
+          ]
+        ],
+        [
+          5,
+          "Plan a critical-reading lesson using two short accounts of a school event.",
+          [
+            "Select accessible accounts of the same event that differ in emphasis, for example one highlighting participation and another focusing on organisation. Explain that the task is comparison, not finding a predetermined villain.",
+            "Learners first identify the event, writer and main message of each account, recording common facts in a simple table.",
+            "Pairs underline evidence for different perspectives, including word choices, quoted voices and omitted details. Ask them to distinguish absence of information from proof that an event did not happen.",
+            "Groups form a judgement about what can reasonably be concluded and what further information is needed, supporting each point with the texts.",
+            "Assess accuracy, use of evidence and willingness to revise an interpretation. End with a balanced short summary that represents both accounts fairly."
+          ]
+        ],
+        [
+          5,
+          "Explain how you would support a learner who repeatedly guesses unfamiliar words from pictures.",
+          [
+            "Observe a short oral-reading sample to identify whether the learner attends to the written letters and sounds or substitutes a word mainly from the picture.",
+            "Use the picture to establish meaning, but explicitly direct attention to the complete printed word and relevant sound-letter patterns for reading it.",
+            "Model blending or another appropriate decoding step, then compare the result with the sentence meaning; context is a check, not a substitute for reading the word.",
+            "Provide short texts matched to the patterns taught and opportunities to reread for accurate, fluent understanding, giving supportive correction.",
+            "Monitor new examples to see whether accurate word reading and comprehension improve together. Seek additional support if difficulties persist rather than label the child careless."
+          ]
+        ],
+        [
+          5,
+          "Develop a reading activity that moves from understanding an instruction to evaluating it.",
+          [
+            "Provide a short set of instructions for making a paper bookmark, with safe materials and an identifiable intended audience.",
+            "Learners identify the goal, materials and sequence, explaining key action verbs before attempting the steps.",
+            "Pairs follow the instructions and note any ambiguity, missing information or order problem; this tests understanding through action.",
+            "Ask whether a younger beginner could follow the text and require evidence, such as an unclear pronoun or an unmentioned measurement, rather than a general complaint.",
+            "Learners revise one problematic step and test it with another pair. Assess comprehension, clarity of revision and the reasons offered, connecting critical reading with practical communication."
+          ]
+        ],
+        [
+          5,
+          "How would you evaluate comprehension through a mixed set of questions on a short narrative?",
+          [
+            "Include a literal question on an important stated event to establish basic understanding. Avoid filling the assessment only with minor factual details.",
+            "Add an inferential question requiring two relevant clues, such as why a character changed a decision, and allow more than one well-supported interpretation.",
+            "Ask learners to explain a word or reference in context so language understanding is connected to the passage.",
+            "Include an evaluative question about a character's action, assessing the quality of reasons and textual support rather than agreement with the teacher.",
+            "Use responses to plan feedback: distinguish word-reading, vocabulary, inference and expression difficulties, then offer a short follow-up task that checks the specific improvement."
+          ]
+        ],
+        [
+          5,
+          "Plan a sustained independent-reading routine for an elementary class.",
+          [
+            "Provide a manageable range of accessible texts with varied topics and formats, helping pupils select books they can understand and want to explore.",
+            "Set regular reading time and explain how to change an unsuitable book without treating the change as failure. Offer needed access supports and avoid publicly ranking readers.",
+            "Model a simple response routine, such as recording one main idea, an interesting detail and a question, rather than requiring a long worksheet for every book.",
+            "Hold brief individual conversations to check comprehension, interests and difficulties; recommend a suitable next text based on evidence.",
+            "Periodically let pupils share recommendations and reflect on progress. Assess engagement and growing understanding through several sources, not only pages read or speed."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-5-2021-2-c",
+          "question": "Write a short note on reading for global comprehension.",
+          "marks": 2,
+          "answer": [
+            "Global comprehension means understanding a text’s overall topic, purpose and main message rather than every local detail.",
+            "For example, after reading a story, a learner explains its central problem and outcome. A gist question can guide this first reading."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-4",
+          "question": "Describe the process of critical reading.",
+          "marks": 2,
+          "answer": [
+            "Before and during reading, identify the purpose, main claims and supporting evidence; question unfamiliar ideas and the assumptions behind the argument.",
+            "After reading, judge whether the evidence supports the claims, consider other viewpoints and form a reasoned response instead of accepting every statement automatically."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-5",
+          "question": "Elaborate on the differences between skimming and scanning.",
+          "marks": 2,
+          "answer": [
+            "Skimming is rapid reading to obtain the main idea or overall organisation, using clues such as headings and opening sentences.",
+            "Scanning is rapid searching for a specific detail, such as a date or name. The reader already knows the kind of information being sought."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "7(b)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-10",
+          "question": "“Reading aloud is the foundation of silent reading” — discuss.",
+          "marks": 4,
+          "answer": [
+            "Supported oral reading can help beginners connect written words with pronunciation and practise accurate, fluent word recognition.",
+            "A teacher’s expressive reading models phrasing and attention to punctuation, while a learner’s oral reading makes some difficulties observable.",
+            "These skills can support silent reading, but accurate pronunciation alone does not prove understanding. Meaning needs to be checked through discussion or a response to the text.",
+            "Silent reading also needs direct opportunities and suitable texts. Thus oral reading can be a foundation, but it is not a rigid stage that must be perfected before all silent reading begins."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "10",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-10-alternative",
+          "question": "“Miscue analysis can be effective in recognizing errors of reading” — discuss.",
+          "marks": 4,
+          "answer": [
+            "Miscue analysis examines differences between a printed text and a learner’s oral reading, including substitutions, omissions, insertions and self-corrections.",
+            "The teacher records these differences in a suitable passage and looks for patterns, considering print information, grammatical fit and changes to meaning.",
+            "For example, reading horse as house calls for checking the middle letters and the word’s meaning. A retelling or comprehension question helps establish what the learner understood.",
+            "The analysis can guide focused support, including decoding instruction and practice with meaningful texts. A plausible word substitution is still not accurate reading, and one miscue cannot by itself reveal the reader’s whole strategy."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "10 (alternative)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "8",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-2-b",
+          "question": "Define local comprehension.",
+          "marks": 2,
+          "answer": [
+            "Local comprehension is understanding specific details or relationships within a part of a text.",
+            "It includes identifying who a pronoun refers to, the meaning of a sentence or a stated time, rather than summarising the entire text."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-2-c",
+          "question": "Differentiate between intensive reading and extensive reading.",
+          "marks": 2,
+          "answer": [
+            "Intensive reading closely examines a relatively short text for detailed meaning, language or structure.",
+            "Extensive reading involves reading substantial amounts of accessible material for overall understanding, enjoyment and reading development."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-2",
+          "question": "What are the three stages for teaching reading? Design one classroom activity for each stage.",
+          "marks": 4,
+          "answer": [
+            "The stages are pre-reading, while-reading and post-reading.",
+            "Pre-reading: show a story’s title and picture and ask pupils to predict the problem, activating relevant knowledge.",
+            "While-reading: ask pupils to read a short section and arrange event cards, returning to the text to justify their order.",
+            "Post-reading: have pairs retell the story and explain whether their prediction was supported, checking overall understanding rather than merely word pronunciation."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "2",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-4",
+          "question": "Write a news report on celebration of Sports Week in your institute.",
+          "marks": 3,
+          "answer": [
+            "Sports Week Brings Trainees Together\nBy a Student Reporter\nModel Teacher Education Institute, 15 February 2023 (fictional example)",
+            "The institute celebrated Sports Week from 9 to 15 February with running events, volleyball and indoor games. Trainees formed teams and also helped organise the fixtures.",
+            "The final day included relay races and a prize distribution ceremony. The principal thanked the participants and volunteers, while the sports secretary highlighted teamwork and fair play throughout the week."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-5",
+          "question": "Imagine you are the cultural secretary of your institute; draft a notice for a fancy dress competition.",
+          "marks": 3,
+          "answer": [
+            "MODEL TEACHER EDUCATION INSTITUTE\nNOTICE\n10 March 2023\nFancy Dress Competition",
+            "A fancy dress competition will be held on 20 March 2023 at 2 p.m. in the institute auditorium. Interested trainees should submit their names to the cultural secretary by 16 March. Each participant will have two minutes to introduce the chosen character.",
+            "Mina Das\nCultural Secretary\n(Fictional model notice; replace the sample details for an actual event.)"
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-7-c",
+          "question": "Write a short note on miscue analysis.",
+          "marks": 2,
+          "answer": [
+            "Miscue analysis records and examines deviations during oral reading, such as substitutions, omissions and self-corrections.",
+            "Patterns can guide support, but should be considered with decoding and comprehension evidence. A meaning-compatible substitution still differs from the word printed on the page."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "7(c)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-7-e",
+          "question": "Write a short note on the use of a dictionary.",
+          "marks": 2,
+          "answer": [
+            "A dictionary helps check a word’s meaning, spelling, pronunciation and grammatical information, often with examples.",
+            "Readers should choose the sense that fits the sentence, rather than automatically use the first definition; pronunciation guides or audio can support oral use."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "7(e)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-2-g",
+          "question": "Mention two benefits of loud reading.",
+          "marks": 2,
+          "answer": [
+            "Reading aloud provides practice in accurate word reading, phrasing and expressive delivery.",
+            "It lets a teacher hear difficulties and give focused support; separate meaning questions are still needed to check comprehension."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2(g)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-3",
+          "question": "Describe the process of critical reading.",
+          "marks": 3,
+          "answer": [
+            "Before reading, identify the topic, source and purpose, and consider what questions the text should answer.",
+            "While reading, locate claims and evidence, clarify important terms and question assumptions or gaps in the reasoning.",
+            "After reading, evaluate whether the conclusions follow, compare other perspectives and justify your own response with evidence."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-1-j",
+          "question": "Write true or false: “Miscue analysis is used to assess a reader’s oral reading errors.”",
+          "marks": 1,
+          "answer": [
+            "True."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(j)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-5",
+          "question": "Write a notice for a blood donation camp. A blood donation camp is being organised in your institute. Write a notice inviting students and teachers to donate blood, mentioning the date, time and venue of the camp.",
+          "marks": 4,
+          "answer": [
+            "MODEL TEACHER EDUCATION INSTITUTE\nNOTICE\n5 August 2025\nBlood Donation Camp",
+            "A blood donation camp will be held on 12 August 2025 from 10 a.m. to 2 p.m. in the institute auditorium. Students and teachers who wish to volunteer are invited to register with the organising committee by 9 August.",
+            "The medical team will assess donor eligibility at the camp. For registration or further information, please contact the student welfare coordinator.",
+            "Mina Das\nStudent Welfare Secretary\n(All event details are fictional for this writing exercise.)"
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Proficiency in English I",
+          "url": "/curriculum-2024.pdf#page=27"
+        },
+        {
+          "label": "Subject study notes",
+          "url": "/detailed-notes/s1-5.html"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "Identify the base word in 'unhelpful'.",
+          [
+            "The base word is 'help'."
+          ]
+        ],
+        [
+          1,
+          "What is a morpheme?",
+          [
+            "The smallest unit of language that carries meaning or grammatical information."
+          ]
+        ],
+        [
+          1,
+          "Identify the compound word in this list: garden, sunflower, quickly.",
+          [
+            "Sunflower, formed from 'sun' and 'flower'."
+          ]
+        ],
+        [
+          1,
+          "What is the head word in the noun phrase 'the little wooden box'?",
+          [
+            "Box."
+          ]
+        ],
+        [
+          1,
+          "Identify the premodifier in 'a noisy classroom'.",
+          [
+            "Noisy."
+          ]
+        ],
+        [
+          1,
+          "Identify the postmodifier in 'the girl with a blue bag'.",
+          [
+            "With a blue bag."
+          ]
+        ],
+        [
+          1,
+          "What is a collocation?",
+          [
+            "A combination of words commonly used together, such as 'heavy rain'."
+          ]
+        ],
+        [
+          1,
+          "Which word is the antonym of 'scarce': plentiful or narrow?",
+          [
+            "Plentiful."
+          ]
+        ],
+        [
+          1,
+          "What does the idiom 'once in a blue moon' mean?",
+          [
+            "Very rarely."
+          ]
+        ],
+        [
+          1,
+          "What meaning does the prefix 'pre-' usually contribute in 'preheat'?",
+          [
+            "Before: 'preheat' means heat beforehand."
+          ]
+        ],
+        [
+          2,
+          "Distinguish inflection and derivation using 'walked' and 'walker'.",
+          [
+            "'Walked' adds grammatical past tense to the verb 'walk'; this is inflection. 'Walker' forms a noun referring to someone or something that walks; this is derivation."
+          ]
+        ],
+        [
+          2,
+          "Why are 'strong tea' and 'powerful tea' not equally natural in ordinary English?",
+          [
+            "Words with related meanings do not always share the same collocations. 'Strong tea' is the conventional combination for tea with an intense flavour, while 'powerful tea' is unusual in that everyday meaning."
+          ]
+        ],
+        [
+          2,
+          "Explain the two meanings of 'light' in 'a light bag' and 'a light room'.",
+          [
+            "In 'a light bag', 'light' means not heavy. In 'a light room', it usually means bright or well illuminated; the surrounding noun helps select the relevant meaning."
+          ]
+        ],
+        [
+          2,
+          "Separate 'carelessness' into meaningful parts and explain them.",
+          [
+            "Care + -less + -ness: 'care' is the base, '-less' forms 'careless' meaning lacking care, and '-ness' forms the noun naming that quality or state."
+          ]
+        ],
+        [
+          2,
+          "How does an idiom differ from a literal phrase?",
+          [
+            "'Spill the beans' can idiomatically mean reveal a secret, which is not obtained by interpreting each word literally. A literal phrase such as 'spill the rice' normally describes the physical action stated."
+          ]
+        ],
+        [
+          2,
+          "Explain why a synonym cannot always replace a word in every sentence.",
+          [
+            "Near-synonyms may differ in register, connotation or the words they combine with. 'Big' can replace 'large' in 'a large house', but 'a big mistake' is more natural than 'a large mistake' in many ordinary contexts."
+          ]
+        ],
+        [
+          2,
+          "Distinguish a free morpheme from a bound morpheme using 'books'.",
+          [
+            "'Book' is a free morpheme because it can stand alone as a word. The plural '-s' is a bound morpheme because it must attach to another form."
+          ]
+        ],
+        [
+          2,
+          "Explain the modifier difference between 'the red flower' and 'the flower in the vase'.",
+          [
+            "'Red' is a premodifier because it appears before the head noun 'flower'. 'In the vase' is a postmodifier because it follows the noun and identifies which flower is meant."
+          ]
+        ],
+        [
+          2,
+          "What does a learner need to know about a word besides its dictionary meaning?",
+          [
+            "The learner needs its pronunciation, spelling and grammatical behaviour to recognise and form it accurately. Knowledge of context, register and common combinations also helps the learner choose it appropriately."
+          ]
+        ],
+        [
+          2,
+          "Why is an unfamiliar word's context sometimes insufficient to establish its exact meaning?",
+          [
+            "The surrounding text may only indicate a broad category or may allow several plausible meanings. A learner should treat the inference as provisional and use a dictionary, explanation or further examples when precision matters."
+          ]
+        ],
+        [
+          3,
+          "Explain how compounding differs from adding a prefix or suffix.",
+          [
+            "Compounding joins bases, as in 'raincoat' from 'rain' and 'coat'.",
+            "Affixation attaches a bound element to a base, as in 'repaint' or 'kindness'.",
+            "A compound may be written solid, hyphenated or as separate words, so spacing alone does not determine how a word was formed."
+          ]
+        ],
+        [
+          3,
+          "How would you teach the different uses of 'bank' through context?",
+          [
+            "Present two sentences with pictures: 'We waited at the river bank' and 'She deposited money in the bank'.",
+            "Ask pupils to identify clues that establish the meaning in each sentence.",
+            "Have them write or complete a new sentence for each meaning, checking understanding rather than merely memorising that the word has two definitions."
+          ]
+        ],
+        [
+          3,
+          "Explain why articles and prepositions matter even though they carry less lexical content than nouns and verbs.",
+          [
+            "They signal grammatical relationships and help readers interpret a message.",
+            "Changing 'a book' to 'the book' can indicate that a particular book is already identifiable.",
+            "Changing 'on the desk' to 'under the desk' changes the spatial relation, so function words should not be dismissed as meaningless."
+          ]
+        ],
+        [
+          3,
+          "How would you teach a new word through an example and a non-example?",
+          [
+            "Give a clear contextual example, such as a child returning a lost purse to illustrate 'honest'.",
+            "Contrast it with a suitable non-example, such as knowingly claiming someone else's purse, and explain the relevant difference.",
+            "Ask learners to classify a fresh situation and give a reason, checking the concept beyond repetition of a definition."
+          ]
+        ],
+        [
+          3,
+          "What should a useful learner vocabulary notebook contain?",
+          [
+            "Record the word with a short learner-friendly meaning and a sentence showing the intended sense.",
+            "Add useful form information such as pronunciation, a word-family member or a common collocation.",
+            "Leave space for a later personal example and revisit the entry through retrieval, so the notebook supports use rather than only copying lists."
+          ]
+        ],
+        [
+          3,
+          "How can word sorting reveal whether pupils understand word classes?",
+          [
+            "Provide words in sentences so learners can judge their function rather than rely on endings alone.",
+            "Ask groups to sort selected words into categories such as nouns, verbs and adjectives and explain one decision.",
+            "Use a flexible word such as 'play' in 'We play' and 'a school play' to show that the same form may function differently in context."
+          ]
+        ],
+        [
+          3,
+          "Explain the distinction among a word, a phrase and a clause with examples.",
+          [
+            "A word is a single lexical or grammatical form, such as 'children'.",
+            "A phrase is a group functioning as a unit without a full subject–predicate structure, such as 'the young children'.",
+            "A clause contains a predication, typically a subject and verb, such as 'the children are singing'; it may be independent or part of a larger sentence."
+          ]
+        ],
+        [
+          3,
+          "How would you help learners choose the right dictionary meaning for 'charge'?",
+          [
+            "Provide a sentence such as 'The shop will charge ten rupees for the bag' and identify its situation and grammatical use.",
+            "Compare relevant dictionary senses, including asking a price and supplying electricity, rather than automatically selecting the first entry.",
+            "Substitute a short explanation into the sentence and check whether it preserves the meaning; here the price-related sense fits."
+          ]
+        ],
+        [
+          3,
+          "Explain why teaching prefixes requires attention to exceptions and whole-word meaning.",
+          [
+            "Prefixes often provide useful clues, such as 're-' meaning again in 'rewrite'.",
+            "However, a similar initial letter sequence is not always that prefix, and historical formation may not match a learner's simple split.",
+            "Teach clear examples and verify new words in context or a dictionary instead of encouraging learners to divide every word mechanically."
+          ]
+        ],
+        [
+          3,
+          "How can a teacher check whether a learner can use a new adjective rather than merely recognise it?",
+          [
+            "First ask the learner to identify an appropriate example, establishing receptive understanding.",
+            "Then ask for an original description or a choice justified with the adjective, creating a need for production.",
+            "Check both meaning and grammatical fit, provide feedback and revisit the word later in a different context to test retention."
+          ]
+        ],
+        [
+          4,
+          "Design a word-family activity around the base 'act'.",
+          [
+            "Begin with contextual sentences containing 'act', 'action', 'active' and 'actor', clarifying their different uses.",
+            "Ask learners to identify the shared base and notice how endings contribute new forms and meanings.",
+            "Have pairs complete sentence frames requiring a verb, noun or adjective, explaining why their chosen form fits.",
+            "Finish with an original short description using two family members and check meaning and grammar; do not suggest every family member is interchangeable."
+          ]
+        ],
+        [
+          4,
+          "Explain how to teach phrasal-verb word order using 'turn off'.",
+          [
+            "Demonstrate the action and model 'Turn off the light' and 'Turn the light off', which are both possible with this separable phrasal verb.",
+            "Replace the noun with a pronoun: 'Turn it off' is the appropriate order, rather than 'Turn off it'.",
+            "Let pairs give and carry out instructions with objects or pictures, then rewrite selected noun phrases with pronouns.",
+            "Check the target pattern in a new sentence and explain that other phrasal verbs may follow different patterns, so this rule should not be generalised to all of them."
+          ]
+        ],
+        [
+          4,
+          "Plan a contextual lesson distinguishing homophones from homographs.",
+          [
+            "Use 'sea' and 'see' in sentences to show words with the same pronunciation but different spelling and meaning.",
+            "Use 'lead' meaning guide and 'lead' meaning the metal to show the same spelling with different meanings and, in this example, different pronunciations.",
+            "Learners match each sentence to a meaning and sound, then create a clear new context for one pair.",
+            "Summarise the distinction carefully: homographs share spelling, but not all homographs differ in pronunciation. State the convention used if the term 'homonym' is also introduced."
+          ]
+        ],
+        [
+          4,
+          "How would you use a short passage to investigate content and function words?",
+          [
+            "Choose a short familiar passage and first establish its meaning, so classification is grounded in context.",
+            "Ask learners to highlight nouns, main verbs, adjectives and many adverbs as typical content words, then identify articles, pronouns and prepositions as typical function words.",
+            "Remove a few examples of each type and discuss what meaning or grammatical information is lost.",
+            "Check the generalisation in another passage, attending to words that change function; avoid claiming that content words alone make a complete grammatical message."
+          ]
+        ],
+        [
+          4,
+          "Explain how spaced retrieval can be used for a small set of classroom vocabulary.",
+          [
+            "Teach a few words in meaningful contexts and check initial understanding through examples and short responses.",
+            "Later, ask learners to recall a word from a clue or use it in a sentence before looking back at the list.",
+            "Return to the words over subsequent lessons with varied contexts, mixing familiar and newer items rather than repeating one list only once.",
+            "Record which words still cause difficulty and provide feedback and another attempt; successful recall and appropriate use guide further practice."
+          ]
+        ],
+        [
+          5,
+          "Design an enquiry lesson on premodifiers and postmodifiers in noun phrases.",
+          [
+            "Present two versions of a description: 'a bag' and 'the small cloth bag beside the chair'. Ask what extra information helps identify the object.",
+            "Locate the head noun 'bag', then distinguish words before it from the phrase after it. Explain their modifying function using position and meaning.",
+            "Give groups short descriptions to sort and annotate, including examples with only a premodifier, only a postmodifier and both.",
+            "Pairs describe one object in a shared picture so that a partner can identify it, providing a real reason to choose useful modifiers.",
+            "Assess whether the head and modifiers are correctly identified and whether the description is clear. Revisit a new paragraph to test the pattern beyond the original example."
+          ]
+        ],
+        [
+          5,
+          "How would you assess vocabulary depth without relying only on synonym matching?",
+          [
+            "Select a manageable set of words already taught in meaningful contexts and identify the knowledge each task should reveal.",
+            "Use a context-choice task to test the intended meaning, including plausible alternatives rather than obviously unrelated answers.",
+            "Ask learners to select or produce a natural collocation and an appropriate grammatical form, showing knowledge beyond a short definition.",
+            "Include an original sentence or oral response for a new situation, and ask for an explanation where more than one sense is possible.",
+            "Give feedback separately on meaning, form and use, then offer practice for the actual difficulty. A correct synonym match alone should not be treated as complete mastery."
+          ]
+        ],
+        [
+          5,
+          "Explain how you would teach idioms while preventing literal misunderstanding.",
+          [
+            "Choose a few common, age-appropriate idioms and introduce each in a short situation where the intended meaning is clear.",
+            "Contrast the literal picture with the figurative meaning, for example explaining that a difficult secret can be 'let out of the bag' without an actual bag being involved.",
+            "Discuss register and appropriateness: an idiom that suits friendly conversation may be unsuitable in a formal instruction or may confuse an unfamiliar listener.",
+            "Have pairs match situations to expressions and then create a brief exchange using one idiom naturally, checking meaning rather than rewarding quantity.",
+            "Revisit the expressions in later texts and ask learners to explain them in plain language. Encourage dictionary checking when a new idiom cannot be understood from its individual words."
+          ]
+        ],
+        [
+          5,
+          "Plan a word-formation investigation that tests rather than blindly memorises a rule.",
+          [
+            "Begin with clear examples such as 'kind–kindness' and 'dark–darkness', and ask learners what '-ness' contributes to meaning and word class.",
+            "Let groups propose a limited generalisation: the suffix can form a noun naming a quality or state from an adjective.",
+            "Introduce further examples such as 'happy–happiness' to examine spelling changes, and compare with words whose usual noun uses another pattern.",
+            "Have learners consult an appropriate dictionary before accepting an invented form; a productive pattern does not mean every possible combination is conventional.",
+            "Apply verified forms in sentences and assess both the explanation and grammatical use. The outcome is a useful, qualified pattern supported by examples rather than an absolute rule."
+          ]
+        ],
+        [
+          5,
+          "Develop a contextual vocabulary lesson using a short account of a school garden.",
+          [
+            "Choose a brief account with a few useful target words, such as 'moist', 'seedling', 'shade' and 'harvest', and ensure the situation is understandable through pictures or observation.",
+            "Learners read for overall meaning before examining the target words. Ask them to use clues and then confirm meanings through explanation, objects or a suitable dictionary.",
+            "Explore form and use, including a natural combination such as 'moist soil' and a distinction such as a seed versus a seedling.",
+            "Pairs describe a garden picture or plan using the words where they fit, then respond to a partner's question; the task should require meaning, not inserting every word mechanically.",
+            "Check an individual new sentence and revisit the vocabulary in a later garden observation, giving feedback on inaccurate or unnatural use."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-5-2021-1-d",
+          "question": "Define function words.",
+          "marks": 1,
+          "answer": [
+            "Function words chiefly express grammatical relationships, as do articles, pronouns, prepositions and conjunctions."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-1-e",
+          "question": "Mention the categories of vocabulary.",
+          "marks": 1,
+          "answer": [
+            "The syllabus groups vocabulary as lexical, phrasal and clausal. Other classifications are possible, but these are the categories specified in this unit."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-1-f",
+          "question": "Put appropriate suffix for: begin, intern.",
+          "marks": 1,
+          "answer": [
+            "begin + -er → beginner; intern + -ship → internship. The final n doubles in beginner."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(f)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-1-g",
+          "question": "Write two synonyms for the word “beautiful”.",
+          "marks": 1,
+          "answer": [
+            "Lovely; attractive."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(g)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-1-h",
+          "question": "Construct sentences using the following phrasal verbs (any two): Bring up; Put away; Look into; Back out.",
+          "marks": 1,
+          "answer": [
+            "Bring up: Please bring up this problem at the meeting. Put away: Put away your books after reading.",
+            "Look into: The teacher will look into the complaint. Back out: Do not back out of your promise. (The examination asks for any two; all four examples are supplied for practice.)"
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(h)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-1-i",
+          "question": "Construct sentences using the following idioms (any two): A piece of cake; Under the weather; Green fingers; Raining cats and dogs.",
+          "marks": 1,
+          "answer": [
+            "A piece of cake: The familiar puzzle was a piece of cake for her. Under the weather: I am feeling under the weather today.",
+            "Green fingers: My grandmother has green fingers; her garden thrives. Raining cats and dogs: We stayed indoors because it was raining cats and dogs. (Choose any two in the examination.)"
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(i)",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-6",
+          "question": "Design an activity to teach homonyms to the students at the elementary level.",
+          "marks": 2,
+          "answer": [
+            "Show two pictures labelled bank: a riverbank and a place where money is kept. Explain that the same spelling and pronunciation can have different meanings.",
+            "Give short sentences about each meaning and let pairs match them to the pictures, then make their own sentences. Use context to check that the intended meaning is clear."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2021-7",
+          "question": "How will you increase the vocabulary of your students?",
+          "marks": 2,
+          "answer": [
+            "Introduce useful words through stories, real objects and pictures, explaining their meanings and how they work in sentences.",
+            "Revisit them through conversation, word games, reading and short writing tasks so learners retrieve and use them repeatedly rather than memorise an isolated list."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "7",
+              "paper": "/downloads/pyqs/2021/s1-5-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-1-c",
+          "question": "Put appropriate suffixes for the words given below: (i) manage (ii) faith.",
+          "marks": 1,
+          "answer": [
+            "manage + -ment → management; faith + -ful → faithful."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-1-d",
+          "question": "Construct sentences using the following phrases/idioms (any two): (i) Out and out (ii) Raining cats and dogs (iii) Look into.",
+          "marks": 1,
+          "answer": [
+            "Out and out: The claim was an out-and-out lie. Raining cats and dogs: It was raining cats and dogs when we left.",
+            "Look into: We will look into the cause of the delay. (The paper groups these together; look into is a phrasal verb. Choose any two.)"
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-1-e",
+          "question": "Put appropriate prefix for the words given below: (i) Happy (ii) Possible.",
+          "marks": 1,
+          "answer": [
+            "un- + happy → unhappy; im- + possible → impossible."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-1-f",
+          "question": "Construct sentences using the following phrasal verbs (any two): Look after; Switch off; Bring forth; Show up.",
+          "marks": 1,
+          "answer": [
+            "Look after: Please look after the plants. Switch off: Switch off the fan before leaving.",
+            "Bring forth: The discussion may bring forth new ideas. Show up: We expect everyone to show up on time. (Choose any two.)"
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(f)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-4",
+          "question": "Describe strategies to teach different categories of vocabulary.",
+          "marks": 2,
+          "answer": [
+            "Teach single lexical items with pictures, objects and meaningful sentences, checking both meaning and use.",
+            "Teach phrasal and clausal expressions in short dialogues or texts, then ask learners to adapt them to new situations so they learn useful chunks rather than translate every word separately."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-4-alternative",
+          "question": "Discuss the role of the teacher to enrich active vocabulary of the students.",
+          "marks": 2,
+          "answer": [
+            "The teacher models useful words in meaningful contexts and checks that pupils understand their pronunciation, meaning and grammatical use.",
+            "Provide repeated chances to retrieve the words in speaking and writing, with prompts and feedback. This helps move words from recognition into active use."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "4 (alternative)",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2022-5",
+          "question": "Design an activity to teach homophones to the students of elementary level.",
+          "marks": 4,
+          "answer": [
+            "Prepare picture and word cards for familiar pairs such as sun/son and sea/see, and say each pair so pupils notice the shared pronunciation.",
+            "Discuss the different meanings and spellings, then let groups match each word to an appropriate picture or sentence.",
+            "Read a sentence such as “The sun is bright” and ask pupils to select the correct spelling, explaining the context clue.",
+            "Finish with pupils writing one sentence for each meaning. Review errors through meaning and spelling instead of treating similar sound as sufficient for a correct word choice."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2022/s1-5-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-6",
+          "question": "Design one activity to improve the vocabulary of students studying at elementary stage.",
+          "marks": 3,
+          "answer": [
+            "Use a “word detective” activity with a short story containing four useful unfamiliar words. Read it together and discuss pictures and nearby sentences as clues.",
+            "Give groups word cards to match with simple meanings, then confirm the meanings and model pronunciation and sentence use.",
+            "Ask each group to make a new sentence or mini-story using the words. Revisit them in the next lesson to check recall and appropriate use."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-8-a",
+          "question": "Give examples of two closed words and two open words.",
+          "marks": 2,
+          "answer": [
+            "Closed-class examples: the (article) and she (pronoun).",
+            "Open-class examples: teacher (noun) and quickly (adverb)."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "8(a)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-8-b",
+          "question": "Write two homophones and two homonyms.",
+          "marks": 2,
+          "answer": [
+            "Homophone pairs: sun/son and sea/see — same pronunciation, different meanings and spellings.",
+            "Homonym examples: bank (financial institution/river edge) and bat (flying mammal/sports implement) — same spelling and pronunciation, different meanings."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "8(b)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-8-c",
+          "question": "Write two words with the suffix “-ment”.",
+          "marks": 1,
+          "answer": [
+            "Development; enjoyment."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "8(c)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-8-d",
+          "question": "Write two words with the prefix “inter-”.",
+          "marks": 1,
+          "answer": [
+            "International; interschool."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "8(d)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-8-e",
+          "question": "Frame a sentence using the phrasal verb “goes out”.",
+          "marks": 1,
+          "answer": [
+            "Rina goes out with her friends on Sundays."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "8(e)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-8-f",
+          "question": "Frame a sentence using the idiom “feel under the weather”.",
+          "marks": 1,
+          "answer": [
+            "I feel under the weather today, so I will rest."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "8(f)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2023-8-g",
+          "question": "Write two synonyms for “cold”.",
+          "marks": 1,
+          "answer": [
+            "Chilly; frigid."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 1,
+              "questionNumber": "8(g)",
+              "paper": "/downloads/pyqs/2023/s1-5-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-1-f",
+          "question": "Put an appropriate prefix for the words: ___ activate, ___ close.",
+          "marks": 1,
+          "answer": [
+            "deactivate; enclose."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(f)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-1-g",
+          "question": "Write two synonyms for the word “create”.",
+          "marks": 1,
+          "answer": [
+            "Make; produce."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(g)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-1-h",
+          "question": "Frame a sentence using the phrasal verb “break into”.",
+          "marks": 1,
+          "answer": [
+            "The thieves tried to break into the empty house."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(h)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-1-i",
+          "question": "Write two words with the suffix “-ness”.",
+          "marks": 1,
+          "answer": [
+            "Kindness; darkness."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "1(i)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-2-f",
+          "question": "Differentiate between open word classes and closed word classes.",
+          "marks": 2,
+          "answer": [
+            "Open classes, such as nouns, main verbs, adjectives and many adverbs, readily accept new words.",
+            "Closed classes, such as pronouns, determiners and conjunctions, have relatively stable membership and mainly express grammatical relationships. “Closed” does not mean that change is historically impossible."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 1,
+              "questionNumber": "2(f)",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2024-6",
+          "question": "Describe various ways that you will adopt to increase vocabulary of your students.",
+          "marks": 3,
+          "answer": [
+            "Introduce useful words in meaningful stories and situations, using pictures, actions and brief explanations to establish meaning.",
+            "Explore word families, prefixes and suffixes, synonyms or contrasts, checking which meaning and grammatical form fit a sentence.",
+            "Use reading, conversation, games and short writing to revisit the words over time. Ask learners to retrieve and apply them in new contexts and give specific feedback."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2024/s1-5-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-1-f",
+          "question": "Put an appropriate prefix for the words: ___ write, ___ connect.",
+          "marks": 1,
+          "answer": [
+            "rewrite; disconnect."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(f)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-1-g",
+          "question": "Give two synonyms for the word “small”.",
+          "marks": 1,
+          "answer": [
+            "Little; tiny."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(g)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-1-h",
+          "question": "Frame a sentence using the phrasal verb “look after”.",
+          "marks": 1,
+          "answer": [
+            "Please look after my plants while I am away."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(h)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-1-i",
+          "question": "Write the antonym for the word “hot”.",
+          "marks": 1,
+          "answer": [
+            "Cold."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "1(i)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-2-d",
+          "question": "Define function words with examples.",
+          "marks": 2,
+          "answer": [
+            "Function words primarily mark grammatical relationships rather than name the main objects, actions or qualities in a message.",
+            "Examples include the article the, the pronoun she, the preposition in and the conjunction and."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 1,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-5-2025-6",
+          "question": "What do you understand by vocabulary? Mention few ways to develop vocabulary in young learners.",
+          "marks": 4,
+          "answer": [
+            "Vocabulary is the collection of words and expressions a person knows or uses, including their meanings and appropriate uses.",
+            "Introduce a manageable number through stories, pictures, actions and real objects, modelling clear pronunciation and meaning.",
+            "Use word families, meaningful contrasts and sentence examples to deepen understanding, instead of teaching every word as an isolated translation.",
+            "Revisit words through spaced reading, discussion, games and writing. Check whether children can use them in new situations and provide supportive feedback."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2025/s1-5-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

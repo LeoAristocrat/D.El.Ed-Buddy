@@ -1,0 +1,3136 @@
+{
+  "course": "s1-3",
+  "units": [
+    {
+      "unit": 1,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Understanding Language and Early Language Development",
+          "url": "/curriculum-2024.pdf#page=20"
+        },
+        {
+          "label": "NCERT — National Curriculum Framework 2005, language education",
+          "url": "https://www.cbse.gov.in/cbsenew/documents/NCF2005.pdf#page=55"
+        },
+        {
+          "label": "Merriam-Webster — language and word history",
+          "url": "https://www.merriam-webster.com/dictionary/language"
+        },
+        {
+          "label": "Cotton University library — Asomiya Sahityar Ruprekha",
+          "url": "https://opac.cottonuniversity.ac.in/cgi-bin/koha/opac-detail.pl?biblionumber=43486"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is linguistic creativity?",
+          [
+            "The ability to combine familiar language elements to understand or produce new messages."
+          ]
+        ],
+        [
+          1,
+          "What is displacement in language?",
+          [
+            "The ability to communicate about things beyond the immediate time and place, including past, future or imagined events."
+          ]
+        ],
+        [
+          1,
+          "What does describing language as 'perpetual' emphasise?",
+          [
+            "Its continuing use and renewal across generations; this does not mean every individual language survives without active transmission."
+          ]
+        ],
+        [
+          1,
+          "What is oral tradition?",
+          [
+            "Knowledge and cultural expression passed on through spoken or performed forms such as stories and songs."
+          ]
+        ],
+        [
+          1,
+          "What is communicative competence?",
+          [
+            "The ability to use language appropriately and effectively in a social context, as well as form grammatically possible messages."
+          ]
+        ],
+        [
+          1,
+          "Give one example of procedural knowledge.",
+          [
+            "Knowing how to ride a bicycle."
+          ]
+        ],
+        [
+          1,
+          "Give one example of propositional knowledge.",
+          [
+            "Knowing that a triangle has three sides."
+          ]
+        ],
+        [
+          1,
+          "What is a borrowed word?",
+          [
+            "A word adopted into one language from another language."
+          ]
+        ],
+        [
+          1,
+          "What is meant by a language variety?",
+          [
+            "A form of language associated with a region, community, situation or pattern of use."
+          ]
+        ],
+        [
+          1,
+          "Why is a natural sign language considered a language?",
+          [
+            "It has a structured vocabulary and grammar through which users can express and interpret a wide range of meanings."
+          ]
+        ],
+        [
+          2,
+          "Distinguish a word's form from its meaning.",
+          [
+            "Form is the spoken, signed or written expression used.",
+            "Meaning is the concept or message associated with that expression in a context; different forms can express a similar idea."
+          ]
+        ],
+        [
+          2,
+          "How does asking a question help a learner refine knowledge?",
+          [
+            "It makes uncertainty or a gap in understanding explicit.",
+            "The response and further discussion can help the learner compare explanations and revise an earlier idea."
+          ]
+        ],
+        [
+          2,
+          "Why does arbitrary language still require shared rules?",
+          [
+            "Arbitrariness concerns the conventional relationship between forms and meanings.",
+            "Shared grammatical and usage patterns allow people to combine and interpret those forms rather than create unrelated private codes."
+          ]
+        ],
+        [
+          2,
+          "How can one word acquire a new meaning over time?",
+          [
+            "People may extend an existing word to a new object or experience.",
+            "For example, mouse can refer to an animal or a computer device, with context indicating the intended meaning."
+          ]
+        ],
+        [
+          2,
+          "Distinguish preserving a language from freezing it.",
+          [
+            "Preserving a language supports its continued use, transmission and documentation.",
+            "Freezing it would reject ordinary changes and new uses, even though living languages develop with their speakers."
+          ]
+        ],
+        [
+          2,
+          "Why should a teacher avoid mocking a child's local expression?",
+          [
+            "Mockery can devalue the child's identity and discourage participation.",
+            "The teacher can explain an additional school expression while respecting the local form and its appropriate contexts."
+          ]
+        ],
+        [
+          2,
+          "How does a proverb connect language and community knowledge?",
+          [
+            "Its wording may preserve a shared observation or value in a memorable form.",
+            "Discussing its meaning and limits helps children understand cultural context rather than assume every proverb is universally true."
+          ]
+        ],
+        [
+          2,
+          "Why is translation more than replacing individual words?",
+          [
+            "Languages organise meaning differently through grammar, context and cultural expressions.",
+            "A useful translation conveys the intended message for its audience, sometimes requiring explanation rather than word-for-word substitution."
+          ]
+        ],
+        [
+          2,
+          "Give two ways language can express belonging.",
+          [
+            "People may use familiar greetings or community expressions to recognise shared relationships.",
+            "Stories, songs and names can connect speakers with family histories and cultural traditions."
+          ]
+        ],
+        [
+          2,
+          "Why should a child's disagreement be heard respectfully?",
+          [
+            "Explaining disagreement helps the child organise and communicate a viewpoint.",
+            "Respectful listening also makes it possible to examine reasons and negotiate meaning without treating difference as misconduct."
+          ]
+        ],
+        [
+          3,
+          "Use an example to explain how naming helps classification without replacing observation.",
+          [
+            "Words such as leaf, stem and root help children distinguish parts while examining a plant.",
+            "These labels make it easier to compare observations and discuss relationships with others.",
+            "The teacher should still invite looking, touching safely and questioning, because memorising names alone does not establish understanding of their functions."
+          ]
+        ],
+        [
+          3,
+          "How can a class explore language change without labelling older speakers incorrect?",
+          [
+            "Collect voluntary examples of words used by different generations for familiar objects or activities.",
+            "Discuss which meanings or situations have changed and how speakers still communicate effectively.",
+            "Treat variation as evidence of language history and social use, avoiding a competition over whose everyday language is superior."
+          ]
+        ],
+        [
+          3,
+          "Explain the relationship between language and thought without claiming they are identical.",
+          [
+            "Language helps organise, communicate and reflect on many kinds of thought.",
+            "Discussion and inner speech can support reasoning, planning and interpretation of experience.",
+            "However, people also think through images, actions and other forms of representation, so the absence of a spoken label does not mean the absence of understanding."
+          ]
+        ],
+        [
+          3,
+          "Why can the same sentence communicate different meanings in different situations?",
+          [
+            "Speakers' intentions, tone and shared knowledge influence interpretation.",
+            "For example, 'It is cold here' may be a simple observation or a request to close a window.",
+            "Teaching should therefore include meaningful contexts and discussion of purpose, not only isolated sentence forms."
+          ]
+        ],
+        [
+          3,
+          "Suggest a classroom activity showing linguistic creativity.",
+          [
+            "Invite children to invent an ending for a familiar story rather than recite its original ending.",
+            "Allow them to combine known words and expressions in new ways, with pictures or home-language support where needed.",
+            "Discuss whether the new message is understandable and meaningful, recognising creativity without demanding that every child produce a polished text."
+          ]
+        ],
+        [
+          3,
+          "How can a family story support identity while encouraging critical understanding?",
+          [
+            "Invite the child or family to share a story voluntarily and explain its context.",
+            "Discuss what it reveals about experiences, values or relationships while recognising that different families have different accounts.",
+            "Distinguish memory, imagination and verifiable claims respectfully, so valuing a story does not require accepting every detail as historical fact."
+          ]
+        ],
+        [
+          3,
+          "What should a teacher consider before recording a community song?",
+          [
+            "Seek informed permission from the person sharing it and respect any restrictions on recording or use.",
+            "Record the language, context and contributor accurately rather than present it as anonymous classroom material.",
+            "Explain unfamiliar meanings carefully and avoid altering sacred or culturally sensitive content merely for entertainment."
+          ]
+        ],
+        [
+          3,
+          "How can language be used to include or exclude people?",
+          [
+            "Accessible explanations, respectful names and opportunities to respond can invite participation.",
+            "Ridicule, stereotypes and unexplained specialist terms can prevent people from contributing even when they have useful knowledge.",
+            "Teachers should examine both their wording and whose voices are heard, making communication understandable without lowering intellectual expectations."
+          ]
+        ],
+        [
+          3,
+          "Distinguish social convention from individual creativity in communication.",
+          [
+            "Convention supplies shared words, signs and patterns that make messages interpretable.",
+            "Creativity uses these resources to express new experiences, arguments or imagined situations.",
+            "The two work together: an invented story can be original while relying on familiar language that its audience understands."
+          ]
+        ],
+        [
+          3,
+          "Why should school displays represent more than one cultural voice?",
+          [
+            "A single representation may imply that only one group's experiences belong in the classroom.",
+            "Diverse, accurately contextualised contributions can help children recognise themselves and learn about others.",
+            "Teachers should involve contributors respectfully and avoid token displays that reduce communities to a costume, food or festival."
+          ]
+        ],
+        [
+          4,
+          "A teacher says that a child without fluent speech cannot have complex ideas. Evaluate the statement.",
+          [
+            "Fluent speech is only one way of expressing understanding; children may communicate through sign, gesture, drawing, action or supported communication.",
+            "A language barrier or communication difficulty can limit a response without showing the full extent of the child's reasoning.",
+            "The teacher should provide accessible ways to demonstrate knowledge and observe the child across meaningful activities.",
+            "Language development remains important, but support should build expression and participation rather than equate one form of performance with intelligence."
+          ]
+        ],
+        [
+          4,
+          "Explain how a classroom discussion can turn personal experience into shared knowledge.",
+          [
+            "Begin with a concrete experience, such as children noticing puddles after rain, and invite their descriptions and questions.",
+            "Help learners compare observations and clarify words, making different ideas understandable to the group.",
+            "Encourage reasons and further investigation where accounts differ rather than deciding that the most confident speaker must be correct.",
+            "Summarise what the class can support with evidence and what remains uncertain, showing how language helps organise knowledge alongside observation."
+          ]
+        ],
+        [
+          4,
+          "How can a teacher teach a standard language variety without devaluing home varieties?",
+          [
+            "Explain that different situations may call for different forms and that the school variety offers access to particular texts and institutions.",
+            "Use comparisons with familiar expressions to make differences understandable, avoiding descriptions of home speech as broken or inferior.",
+            "Provide meaningful practice and feedback on the target form while continuing to welcome home-language contributions to discussion.",
+            "Assess the intended learning purpose fairly, distinguishing a task about a specific form from a task about subject understanding or personal expression."
+          ]
+        ],
+        [
+          4,
+          "Discuss the educational value and limits of learning through proverbs.",
+          [
+            "Proverbs offer memorable language, figurative expression and insight into community values or observations.",
+            "Comparing their meanings can develop vocabulary, interpretation and discussion across generations or languages.",
+            "Some proverbs also carry stereotypes or fit only particular circumstances, so they should be examined rather than memorised as universal truths.",
+            "Teachers can invite examples and counterexamples, respecting cultural origins while encouraging thoughtful judgement and inclusive values."
+          ]
+        ],
+        [
+          4,
+          "How would you help children distinguish an assertion from a supported explanation?",
+          [
+            "Present a simple claim such as 'This material floats' and ask what observation supports it.",
+            "Model language that connects a claim with evidence, using phrases such as 'We observed' and 'because' appropriately.",
+            "Invite children to test or compare cases and revise the wording when evidence does not support the original statement.",
+            "Value uncertainty and questions as part of learning, making clear that confident or complicated language alone does not make an explanation reliable."
+          ]
+        ],
+        [
+          5,
+          "Design a classroom project that explores local language heritage respectfully.",
+          [
+            "Agree on a manageable focus, such as everyday greetings or family stories, and explain that contributions are voluntary and that no child must disclose private or sensitive material.",
+            "Invite families or community members to share examples in their own languages, recording names, meanings and context accurately with permission.",
+            "Help children compare how expressions are used, asking about similarities and differences without ranking communities or assuming one person represents every speaker.",
+            "Create a class display, booklet or oral presentation that credits contributors and uses accessible explanations so everyone can understand the shared material.",
+            "Reflect on what the project reveals about identity, continuity and change, including what should remain private. Assess listening, inquiry and thoughtful communication rather than the social prestige of a language."
+          ]
+        ],
+        [
+          5,
+          "Explain how to develop children's personal expression through a picture-and-story activity.",
+          [
+            "Offer an open picture or a choice of familiar themes that children can interpret in different ways rather than provide a single story to copy.",
+            "Allow time to draw, think, discuss with a partner or use a familiar language before addressing the group, with accessible alternatives for children who need them.",
+            "Invite children to explain their chosen details and feelings, using open prompts that extend meaning without taking over the story.",
+            "Model attentive listening and respectful questions so classmates respond to the message rather than mock pronunciation or compare artistic skill.",
+            "Record or revisit selected contributions with permission and offer specific feedback on clarity and development of ideas. The activity should strengthen voice, confidence and communication while preserving the child's ownership of the expression."
+          ]
+        ],
+        [
+          5,
+          "Discuss how language can support both cultural continuity and cultural change.",
+          [
+            "Families and communities use language to transmit stories, names, practices and memories, helping younger generations connect with earlier experience.",
+            "Schools can support this continuity by welcoming local texts and oral traditions and by valuing children's existing language resources.",
+            "At the same time, speakers create new words, reinterpret inherited expressions and discuss changing social conditions, so cultural transmission is not exact repetition.",
+            "Contact between languages and communities can produce borrowing, translation and new forms of expression, provided exchange is respectful and does not silence less powerful groups.",
+            "Education should therefore combine opportunities to preserve and use heritage with critical dialogue about meaning, inclusion and change, recognising cultures as lived and developing rather than fixed collections of facts."
+          ]
+        ],
+        [
+          5,
+          "A child repeats an impressive definition but cannot explain an example. Describe a language-sensitive teaching response.",
+          [
+            "Recognise the effort involved in remembering the definition while checking understanding through a concrete example rather than assuming fluent recitation proves knowledge.",
+            "Invite the child to explain in familiar words, a home language, a drawing or an action, identifying whether the barrier is conceptual or mainly linguistic.",
+            "Use contrasting examples and simple questions to connect the new term with experiences the child can examine and discuss.",
+            "Model a clear explanation and let the child practise with a partner before returning to the formal wording, providing feedback on meaning as well as expression.",
+            "Assess again using a new example and plan further support if needed. Language teaching should help learners use knowledge flexibly rather than merely reproduce authoritative-sounding sentences."
+          ]
+        ],
+        [
+          5,
+          "Explain how a teacher can encourage respectful debate among young learners.",
+          [
+            "Choose a concrete, age-appropriate question with room for different views, such as how to organise a shared classroom space, rather than ask children to defend harmful stereotypes.",
+            "Establish simple expectations for listening, taking turns and responding to ideas, and model phrases for agreement, disagreement and asking for reasons.",
+            "Provide preparation through pictures, partner talk or familiar-language discussion so participation does not depend only on quick fluent speech.",
+            "During discussion, invite evidence and alternative perspectives, support quieter contributors and intervene when comments target people rather than arguments.",
+            "Conclude by identifying reasons the group considered and any decision or remaining disagreement. Assess listening and reasoned expression, showing that respectful language can support both individual voice and collective judgement."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-3-2021-1-a",
+          "question": "Give one scientific definition of language.",
+          "marks": 1,
+          "answer": [
+            "Language is a socially shared, rule-governed system of symbols used to communicate and construct meaning; it can be spoken, signed or represented in writing."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-2-a",
+          "question": "“Language is arbitrary” — Explain.",
+          "marks": 2,
+          "answer": [
+            "Most word–meaning relationships depend on social convention rather than a necessary natural connection.",
+            "For example, different languages use different words for the same object; speakers learn and share their community’s conventions. Arbitrariness does not mean language has no rules."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-3",
+          "question": "Explain the importance of language as carrier of heritage and culture.",
+          "marks": 3,
+          "answer": [
+            "Stories, songs, proverbs and oral histories pass cultural knowledge and memories between generations.",
+            "Language conveys ways of greeting, naming relationships and describing local life, helping people express belonging and identity.",
+            "Using and documenting diverse community languages sustains this heritage while allowing cultures to develop through dialogue rather than remain fixed or isolated."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "3(a)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-6",
+          "question": "“Language helps learners gathering over all knowledge” — Discuss.",
+          "marks": 4,
+          "answer": [
+            "Language gives learners words and structures for describing observations, asking questions and relating new ideas to earlier experience.",
+            "Listening and reading provide access to explanations, stories and information beyond immediate personal experience.",
+            "Discussion and writing help learners compare evidence, explain reasoning and revise understanding across subjects.",
+            "For example, a child can observe a plant directly and then discuss changes using words such as root and growth. Language supports knowledge, but the claim should not erase non-verbal learning through action, images and perception."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-1-d",
+          "question": "Who wrote the book, “Asomiya Sahityar Ruprekha”?",
+          "marks": 1,
+          "answer": [
+            "Maheswar Neog."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-2-b",
+          "question": "Mention two natures of language.",
+          "marks": 2,
+          "answer": [
+            "Language is dynamic: vocabulary and usage change across time and social contexts.",
+            "Language is creative: speakers can combine familiar elements to express new messages rather than only repeat memorised sentences."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-3-c",
+          "question": "“The need of language learning is important in acquiring other subjects’ knowledge” — Describe it.",
+          "marks": 3,
+          "answer": [
+            "Understanding subject vocabulary and instructions helps learners access tasks in mathematics, EVS and other subjects.",
+            "Discussion and reading allow them to compare ideas, ask for clarification and connect concepts with experience.",
+            "Explaining a solution or writing an observation makes reasoning visible, so teachers should support language alongside subject content rather than mistake unfamiliar wording for lack of ability."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "3(c)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-1-a",
+          "question": "Where does the word “language” derived from?",
+          "marks": 1,
+          "answer": [
+            "English “language” comes through Old French langage, ultimately from Latin lingua, meaning tongue or language."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-2-a",
+          "question": "Write how does language works as a tool for self-expression.",
+          "marks": 2,
+          "answer": [
+            "Language allows people to communicate feelings, needs, experiences and opinions in ways others can understand.",
+            "For example, a child can tell a personal story or explain disagreement, developing a voice and sense of identity through respectful opportunities to speak, sign or write."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-2-e",
+          "question": "Why language is called “dynamic”?",
+          "marks": 2,
+          "answer": [
+            "Language changes as people use it in new social, cultural and technological situations.",
+            "New words, meanings and patterns can enter use while others become less common; for example, digital communication has introduced new everyday vocabulary."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "2(e)",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "2(a)",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-3",
+          "question": "“Language plays an important role as carrier of culture and heritage” — Justify the statement.",
+          "marks": 4,
+          "answer": [
+            "Language preserves stories, songs, proverbs and oral histories that carry community memories.",
+            "Its words and expressions communicate local knowledge, social relationships and cultural practices between generations.",
+            "Using a community language can express identity and belonging, while translation and dialogue allow cultural exchange.",
+            "Schools can invite diverse stories and document them with permission, helping children appreciate heritage without presenting cultures as unchanging or ranking one language above another."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2025-7",
+          "question": "Describe the need of international transmission of language and culture.",
+          "marks": 4,
+          "answer": [
+            "International exchange allows people to understand experiences, literature and ideas from communities beyond their own country.",
+            "Translation and language learning support education, collaboration and communication while helping people recognise different perspectives.",
+            "Sharing stories, art and local knowledge can sustain cultural expression and challenge stereotypes when communities control how their heritage is represented.",
+            "Such exchange should be reciprocal and respectful, avoiding the assumption that one language or culture must replace another. It complements, rather than substitutes for, transmission within families and local communities."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "7",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-2-b",
+          "question": "State two ways in which language helps in acquiring knowledge.",
+          "marks": 2,
+          "answer": [
+            "Listening and reading give access to other people’s explanations and information.",
+            "Discussion and writing help learners organise ideas, ask questions and explain or revise their reasoning."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Understanding Language and Early Language Development",
+          "url": "/curriculum-2024.pdf#page=20"
+        },
+        {
+          "label": "National Education Policy 2020, foundational learning and multilingualism",
+          "url": "https://www.education.gov.in/sites/upload_files/mhrd/files/nep/NEP_Final_English.pdf"
+        },
+        {
+          "label": "Sarma and Sarma — Sounds of Assamese Language, vowel and consonant inventories",
+          "url": "https://www.researchgate.net/publication/278709379_Sounds_of_Assamese_Language"
+        },
+        {
+          "label": "IIT Guwahati — Vowel Acoustics of Assamese Spoken in Five Geographical Locations",
+          "url": "https://gyan.iitg.ac.in/items/230401a9-abc8-41b4-acd2-132f934bb80e"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is a grapheme?",
+          [
+            "A written letter or letter group used to represent a sound in a writing system."
+          ]
+        ],
+        [
+          1,
+          "What is phonemic awareness?",
+          [
+            "The ability to notice and work with individual phonemes in spoken words."
+          ]
+        ],
+        [
+          1,
+          "What is blending in early reading?",
+          [
+            "Combining identified sounds in sequence to read a word."
+          ]
+        ],
+        [
+          1,
+          "What is segmenting a spoken word?",
+          [
+            "Separating the word into its constituent sounds for a particular sound-awareness task."
+          ]
+        ],
+        [
+          1,
+          "What is a morpheme?",
+          [
+            "The smallest unit with lexical meaning or grammatical function in a language."
+          ]
+        ],
+        [
+          1,
+          "What is syntax?",
+          [
+            "The patterns and rules by which words are organised into phrases and sentences."
+          ]
+        ],
+        [
+          1,
+          "What is an allophone?",
+          [
+            "A pronunciation variant of a phoneme that does not itself create a different word meaning in the relevant language."
+          ]
+        ],
+        [
+          1,
+          "What is a minimal pair?",
+          [
+            "Two words differing in one sound in the same position and having different meanings, such as pat and bat."
+          ]
+        ],
+        [
+          1,
+          "What is emergent writing?",
+          [
+            "Early attempts to communicate through marks, drawings or developing written forms before conventional writing is fully established."
+          ]
+        ],
+        [
+          1,
+          "What is a print-rich environment?",
+          [
+            "An environment with accessible, meaningful written materials used for real purposes rather than decoration alone."
+          ]
+        ],
+        [
+          2,
+          "Distinguish phonics from phonemic awareness.",
+          [
+            "Phonics connects written forms with speech sounds for reading and spelling.",
+            "Phonemic awareness concerns individual sounds in spoken words and can be practised without written letters."
+          ]
+        ],
+        [
+          2,
+          "Why should decoding instruction be connected with understanding?",
+          [
+            "Accurately identifying words gives access to text but does not by itself ensure that the message is understood.",
+            "Conversation, vocabulary and meaningful reading help children connect decoded words with ideas."
+          ]
+        ],
+        [
+          2,
+          "Distinguish a free morpheme from a bound morpheme.",
+          [
+            "A free morpheme can stand independently, such as book.",
+            "A bound morpheme must attach to another form, such as the plural ending -s in books."
+          ]
+        ],
+        [
+          2,
+          "How many morphemes are in 'unhappy', and what do they contribute?",
+          [
+            "There are two morphemes: un- and happy.",
+            "Happy supplies the base meaning and un- changes it to the opposite meaning in this word."
+          ]
+        ],
+        [
+          2,
+          "Why can vowel letters and vowel sounds have different counts?",
+          [
+            "Writing systems preserve spelling conventions that do not always correspond one-to-one with pronunciation.",
+            "Several letters may represent a similar sound, or one letter may represent different sounds in different words."
+          ]
+        ],
+        [
+          2,
+          "How can a teacher respond when a child says 'goed'?",
+          [
+            "Acknowledge the intended message and model the conventional form, such as 'Yes, you went there yesterday.'",
+            "Recognise that the child is applying a pattern, using meaningful further examples rather than treating the response as proof of carelessness."
+          ]
+        ],
+        [
+          2,
+          "Why should pronunciation practice avoid shaming regional accents?",
+          [
+            "Accent variation is part of ordinary language diversity and does not by itself show poor understanding.",
+            "Teachers can support intelligibility and relevant sound distinctions through respectful modelling and practice."
+          ]
+        ],
+        [
+          2,
+          "What makes a read-aloud interactive?",
+          [
+            "Children have opportunities to predict, ask questions and discuss meanings rather than only listen silently.",
+            "The adult responds to their ideas and connects the story with their experiences and vocabulary."
+          ]
+        ],
+        [
+          2,
+          "Why is copying a sentence not sufficient evidence of writing ability?",
+          [
+            "A child may reproduce visible marks without understanding or independently composing the message.",
+            "Assessment should also consider meaningful choices, oral explanation and increasingly independent written expression."
+          ]
+        ],
+        [
+          2,
+          "How can a counting activity support language development?",
+          [
+            "Children use number words and expressions such as more, fewer and altogether in a meaningful context.",
+            "Explaining how they grouped or counted objects develops communication alongside mathematical understanding."
+          ]
+        ],
+        [
+          3,
+          "Explain how sound awareness can be developed without immediately introducing letters.",
+          [
+            "Begin with listening games, rhymes or syllable clapping using familiar spoken words.",
+            "Progress to noticing or comparing particular sounds with suitable modelling and manageable examples.",
+            "Observe responses and adjust difficulty; phonemic work should become more precise as children are ready rather than confuse general listening with identification of individual phonemes."
+          ]
+        ],
+        [
+          3,
+          "Describe a simple activity linking sounds and written forms.",
+          [
+            "Select a small set of previously introduced sound–letter correspondences and model reading a short suitable word by blending.",
+            "Let children arrange letter cards, say the sounds and blend them, then connect the word with its meaning.",
+            "Provide practice with new combinations from the taught set and support errors directly rather than encourage guessing solely from a picture."
+          ]
+        ],
+        [
+          3,
+          "How can a teacher support comprehension when reading an unfamiliar story?",
+          [
+            "Introduce essential meanings using accessible conversation or pictures without explaining away every possible discovery.",
+            "Pause at useful points for children to explain events, predict and ask questions.",
+            "Revisit the text to check ideas and summarise, distinguishing thoughtful inference from guesses unsupported by the story."
+          ]
+        ],
+        [
+          3,
+          "Explain why language acquisition should not be described as simple imitation.",
+          [
+            "Children can produce new sentences and overgeneralised forms that they have not directly copied.",
+            "They notice patterns through meaningful exposure and interaction while drawing on developing cognitive and social abilities.",
+            "Imitation can contribute, but a complete educational account must also consider active pattern learning, feedback, intention and opportunities to communicate."
+          ]
+        ],
+        [
+          3,
+          "How can a home-language story help introduce school-language vocabulary?",
+          [
+            "First establish the story's meaning through the familiar language and children's experiences.",
+            "Connect a few useful school-language words to characters, actions or objects using pictures and repeated meaningful use.",
+            "Invite retelling with support and gradually extend expression, keeping understanding central rather than replacing the familiar language abruptly."
+          ]
+        ],
+        [
+          3,
+          "Distinguish a speech sound, a phoneme and a written letter.",
+          [
+            "A speech sound is an actual produced sound, often called a phone in phonetic description.",
+            "A phoneme is a contrastive sound category in a particular language, such as the distinction between /p/ and /b/ in English.",
+            "A letter is a written symbol; its relationship with sounds depends on the writing system and the word."
+          ]
+        ],
+        [
+          3,
+          "How can morphology help children understand a new word?",
+          [
+            "Recognising a familiar base can provide part of the meaning, as help does in helpful.",
+            "Recognising an affix can show an added meaning or grammatical function, as -ful contributes to helpful.",
+            "The learner should check the whole word in context because not every apparent segment works predictably and some words have specialised meanings."
+          ]
+        ],
+        [
+          3,
+          "Explain how oral rehearsal can support early writing.",
+          [
+            "Talking through an idea helps the child decide what they want to communicate.",
+            "A partner or teacher can help clarify sequence and vocabulary before the additional demands of forming written text.",
+            "The child then writes with suitable support and rereads the message, preserving their own meaning rather than copying an adult's unrelated model."
+          ]
+        ],
+        [
+          3,
+          "How should a teacher respond when a learner understands a story but reads its words slowly?",
+          [
+            "Recognise comprehension and word-reading fluency as related but distinct aspects of literacy.",
+            "Check the learner's sound–symbol knowledge and provide appropriate decoding and supported rereading practice.",
+            "Continue meaningful discussion and accessible reading experiences so work on accuracy and fluency does not displace interest or understanding."
+          ]
+        ],
+        [
+          3,
+          "What is the difference between a language-learning error and evidence of a fixed inability?",
+          [
+            "An error may reflect a developing rule, limited exposure or difficulty with a particular task.",
+            "A fixed inability cannot be inferred from an isolated response, accent or unfamiliarity with the school language.",
+            "Teachers should examine patterns across contexts, provide support and review progress before seeking further specialist guidance where needed."
+          ]
+        ],
+        [
+          4,
+          "Design an activity that combines foundational reading with a practical classroom purpose.",
+          [
+            "Create a small set of useful labels using words and sound–letter correspondences appropriate to the learners, such as names of familiar classroom materials.",
+            "Model reading the words and discuss their meanings, showing how the labels help people find and return objects.",
+            "Invite children to read, place and use the labels with support, including accessible oral or visual explanations where needed.",
+            "Observe actual word reading and understanding separately from recognition of an object's location, then provide further practice rather than assume correct placement always proves decoding."
+          ]
+        ],
+        [
+          4,
+          "Explain how a teacher can build vocabulary through a shared experience.",
+          [
+            "Begin with an experience children can observe, such as preparing a safe planting activity, and identify a few useful words in context.",
+            "Model the words with objects, actions and clear explanations, connecting them to familiar-language meanings.",
+            "Invite children to use the words while describing, asking questions or retelling the experience, giving supportive feedback.",
+            "Revisit them in another context and check understanding, because hearing a word once or repeating it accurately does not establish flexible use."
+          ]
+        ],
+        [
+          4,
+          "A class memorises letter names but cannot blend words. Suggest a response.",
+          [
+            "Check which sound–letter relationships children know, since letter names alone do not supply the sounds needed for blending.",
+            "Model joining sounds smoothly in simple words drawn from taught correspondences, using clear pronunciation and manageable steps.",
+            "Provide guided practice, immediate support and opportunities to read connected meaningful text at an appropriate level.",
+            "Continue oral language and comprehension work, reviewing progress without treating memorisation or picture-based guessing as substitutes for learning to decode."
+          ]
+        ],
+        [
+          4,
+          "Explain the teaching value of comparing familiar word parts.",
+          [
+            "Start with meaningful examples such as play, plays and played, helping learners notice what stays the same and what changes.",
+            "Connect the endings to their grammatical functions in sentences rather than teach detached labels only.",
+            "Invite learners to apply the pattern to suitable new examples and discuss exceptions when encountered.",
+            "Use comparison to support vocabulary, reading and writing, while avoiding the assumption that a rule in one language transfers unchanged to another."
+          ]
+        ],
+        [
+          4,
+          "How can a teacher make an early-language assessment fair for a multilingual child?",
+          [
+            "Identify the intended skill and distinguish it from proficiency in an unfamiliar instructional language.",
+            "Use accessible instructions and allow relevant home-language or non-written responses when assessing concepts or oral meaning rather than a specific target-language form.",
+            "Observe across activities and record the language and support used, consulting family knowledge where useful.",
+            "Use the findings to plan both language and learning support, avoiding deficit labels based on comparison with children who have had different exposure."
+          ]
+        ],
+        [
+          5,
+          "Plan a sequence for introducing a new school-language expression through meaningful interaction.",
+          [
+            "Choose an expression with a real classroom purpose, such as requesting a material politely, and establish its meaning through a familiar situation.",
+            "Model the expression with an action, object or home-language connection, making it understandable without requiring an immediate public performance.",
+            "Provide supported pair or small-group practice in which children genuinely need to communicate, offering prompts and accepting developing attempts.",
+            "Use the expression again in ordinary routines and gradually reduce assistance, varying the context so children learn its purpose rather than only a fixed dialogue.",
+            "Observe understanding and independent use over time and give specific feedback. Retain respect for existing languages while expanding the child's communicative options in the school language."
+          ]
+        ],
+        [
+          5,
+          "Explain how to organise a balanced foundational-literacy lesson.",
+          [
+            "Begin with meaningful oral interaction or a short text that develops vocabulary and interest, connecting the experience with children's familiar knowledge.",
+            "Include explicit, manageable teaching of relevant sound–symbol relationships and blending or spelling skills according to learners' current needs.",
+            "Provide reading practice in suitable text, supporting accuracy while discussing meaning, sequence and simple inferences rather than treating reading as pronunciation alone.",
+            "Invite purposeful writing or early written expression, with oral rehearsal and accessible support so children can communicate an idea.",
+            "Use brief observations to plan the next lesson and provide additional help. Balance means connecting essential components coherently, not dividing time mechanically or expecting every learner to progress at an identical rate."
+          ]
+        ],
+        [
+          5,
+          "Describe how to use an error in word reading as evidence for teaching.",
+          [
+            "Listen carefully and identify what the learner actually did, distinguishing a sound–symbol difficulty, blending problem, unfamiliar word meaning or loss of attention.",
+            "Ask for a manageable demonstration or rereading without turning the moment into public embarrassment, and note any support required.",
+            "Model the relevant strategy directly, such as using a taught correspondence and blending through the word, then connect the result with meaning.",
+            "Offer a small number of suitable new examples to check whether the learner can apply the strategy rather than merely remember the corrected word.",
+            "Record useful patterns and plan follow-up alongside meaningful reading. One error should guide a teaching decision, not become a label for the child's overall ability or home-language background."
+          ]
+        ],
+        [
+          5,
+          "Explain how a multilingual classroom can support phonological learning without treating one accent as inferior.",
+          [
+            "Begin with the sounds and distinctions relevant to the language being taught, using clear examples that children understand and can hear or access appropriately.",
+            "Invite respectful noticing of similarities and differences between familiar pronunciations, making clear that languages and varieties organise sounds differently.",
+            "Use listening, speaking and sound–symbol activities to develop useful contrasts and intelligibility, avoiding ridicule or demands to erase community identity.",
+            "Observe whether a difference affects the intended reading, spelling or communication task, and provide targeted modelling rather than correct every accent feature indiscriminately.",
+            "Adapt for hearing, speech or other access needs and seek suitable support when necessary. The aim is wider linguistic access and understanding, not ranking children by resemblance to one speaker."
+          ]
+        ],
+        [
+          5,
+          "Describe a child-created book activity that connects oral language, reading and writing.",
+          [
+            "Invite children to share a familiar experience and discuss what they want their book to communicate, allowing home-language contributions and accessible ways to participate.",
+            "Help organise the ideas into a meaningful sequence, recording children's words or supporting their own early writing without replacing their ideas with an adult composition.",
+            "Combine text with children-created pictures and model how print represents the message, noticing relevant sound–letter relationships and useful words at an appropriate level.",
+            "Read the book together and invite retelling, questions and revisions, so reading involves meaning and authorship rather than memorising an isolated sentence.",
+            "Keep the book available for later reading and observe progress in expression, print understanding and word reading separately, providing individual next steps through further meaningful practice."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-3-2021-1-b",
+          "question": "What is the central vowel phone of Assamese language?",
+          "marks": 1,
+          "answer": [
+            "The open central vowel /a/, commonly represented by আ, in the conventional eight-vowel description of standard Assamese."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-1-e",
+          "question": "What is the full form of LAD?",
+          "marks": 1,
+          "answer": [
+            "Language Acquisition Device, a theoretical construct associated with Chomsky’s account of language acquisition."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-2-b",
+          "question": "Write two differences between phonetics and phonology?",
+          "marks": 2,
+          "answer": [
+            "Phonetics studies how speech sounds are produced, transmitted and perceived; phonology studies how sounds function and are patterned in a particular language.",
+            "Phonetics can describe physical differences between two pronunciations, while phonology asks whether those differences distinguish meaning or are predictable variants within that language."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-4",
+          "question": "Explain the importance of story telling for the development of speaking skill of children.",
+          "marks": 3,
+          "answer": [
+            "Listening to and retelling stories provides meaningful vocabulary and sentence patterns in context.",
+            "Children practise sequencing events, explaining characters’ actions and using voice or gesture for an audience.",
+            "Supportive pair retelling and open questions encourage participation and confidence; familiar languages and pictures help children contribute without memorising an identical script."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-7",
+          "question": "Prepare a table of the vowel phone of Assamese language according to the position and place of the tongue while pronouncing.",
+          "marks": 4,
+          "answer": [
+            "The table presents a conventional eight-oral-vowel analysis of standard Assamese, classified by tongue height and front–back position.",
+            "These are speech sounds, not a count of written vowel letters. Actual vowel qualities and inventories vary across Assamese varieties; IPA transcriptions can also differ between descriptions."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "7",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "Conventional Assamese oral-vowel classification",
+              "headers": [
+                "Tongue height",
+                "Front",
+                "Central",
+                "Back"
+              ],
+              "rows": [
+                [
+                  "Close / high",
+                  "/i/",
+                  "—",
+                  "/u/"
+                ],
+                [
+                  "Close-mid",
+                  "/e/",
+                  "—",
+                  "/o/"
+                ],
+                [
+                  "Open-mid",
+                  "/ɛ/",
+                  "—",
+                  "/ɔ/"
+                ],
+                [
+                  "Open / low",
+                  "—",
+                  "/a/",
+                  "/ɒ/"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-1-a",
+          "question": "Write any two primary elements of language.",
+          "marks": 1,
+          "answer": [
+            "Speech sounds and meaningful units such as words are two basic elements of language."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-1-b",
+          "question": "What is the trilled sound of Assamese language?",
+          "marks": 1,
+          "answer": [
+            "The rhotic /r/, represented by ৰ; its actual pronunciation may be a tap or trill depending on the speaker and context."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-2-c",
+          "question": "What is “aspirated sound”? What are the “aspirated sounds of Assamese Language”?",
+          "marks": 2,
+          "answer": [
+            "An aspirated stop has a noticeable release of breath; voiced counterparts are commonly described as breathy-voiced or voiced aspirated stops.",
+            "In the standard Assamese stop inventory, the six aspirated counterparts are খ /kʰ/, ঘ /ɡʱ/, থ /tʰ/, ধ /dʱ/, ফ /pʰ/ and ভ /bʱ/. This is a sound inventory, not a count of all traditional Sanskrit-derived letters."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-3-a",
+          "question": "“Language acquisition and language learning is complementary to each other” — explain the statement.",
+          "marks": 3,
+          "answer": [
+            "Acquisition refers to developing language through meaningful use and interaction, while deliberate learning involves focused attention to forms and strategies.",
+            "A classroom can combine conversation, stories and purposeful reading with useful explanations, feedback and practice.",
+            "For example, children may acquire expressions during role play and then discuss a recurring sentence pattern. These processes can support each other; they are not restricted respectively to first and additional languages."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "3(a)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-4",
+          "question": "What do you mean by home language and school language? What should be the role of a language teacher in transforming home language to school language?",
+          "marks": 4,
+          "answer": [
+            "Home language means the language or languages used in family and everyday home life; school language is used for instruction and school activities. They may overlap or differ.",
+            "Learn about children’s existing language resources and welcome them in conversation, stories and initial explanations.",
+            "Connect familiar meanings to school-language words using pictures, objects, bilingual support and purposeful peer interaction.",
+            "Provide gradual practice and supportive feedback while retaining respect for home languages. Transition means adding access to the school language, not replacing or devaluing the language of home."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-1-b",
+          "question": "Give a definition of speech sound.",
+          "marks": 1,
+          "answer": [
+            "A speech sound is a sound produced by the human vocal apparatus and used in spoken language."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-1-d",
+          "question": "What is unaspirated sound?",
+          "marks": 1,
+          "answer": [
+            "An unaspirated stop is released without the strong accompanying puff of breath characteristic of an aspirated stop."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-2-c",
+          "question": "How does a child’s home language influence in learning school language?",
+          "marks": 2,
+          "answer": [
+            "The home language provides concepts, experiences and communicative strategies that can support learning in another language.",
+            "Differences in vocabulary, sounds or grammar may require explicit connections and practice, but the teacher should build on this foundation rather than regard it as an obstacle to remove."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-5",
+          "question": "Design a suitable activity to assess the listening skill of students in the lower primary level.",
+          "marks": 4,
+          "answer": [
+            "Tell a short age-appropriate story in a familiar instructional language, checking that children can hear and that unfamiliar vocabulary does not dominate the task.",
+            "Ask children to arrange three or four picture cards in the order they heard, so the task does not depend mainly on reading or handwriting.",
+            "Invite a simple response about a character or event, accepting pointing or another accessible response where appropriate, and note understanding of sequence and detail.",
+            "Record the support provided and use the result to plan further listening opportunities. Repeat observations rather than make a broad judgement from one story."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 4,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2024-1-b",
+          "question": "How many vowels in Assamese language?",
+          "marks": 1,
+          "answer": [
+            "Standard Assamese is commonly described as having eight oral vowel phonemes: /i, e, ɛ, a, ɒ, ɔ, o, u/. Vowels are produced without a consonant-like obstruction of airflow. This counts speech sounds, not traditional written vowel letters."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "1(a)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2024-4",
+          "question": "Which skills of language are known as “active and productive skill” and why?",
+          "marks": 4,
+          "answer": [
+            "Speaking and writing are conventionally called productive language skills.",
+            "Speaking creates spoken messages for purposes such as explaining, requesting and discussing.",
+            "Writing creates written messages, requiring selection and organisation of ideas for readers.",
+            "They are called productive because the learner produces language. Listening and reading are termed receptive, but they also involve active interpretation; they are not mentally passive activities."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2024-5",
+          "question": "Write the role of a teacher in transition of home language to school language.",
+          "marks": 4,
+          "answer": [
+            "Find out which languages and varieties children already use and build a welcoming classroom where these are valued.",
+            "Connect familiar ideas and words with school-language expressions through objects, stories, pictures and bilingual explanations where available.",
+            "Provide gradual opportunities for conversation, shared reading and purposeful writing, using peer support and gentle feedback without shaming accents or early errors.",
+            "Observe understanding and participation, adapt support and involve families. The goal is an additive transition that expands language access rather than suppresses the home language."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2025-1-b",
+          "question": "What is the smallest unit of language?",
+          "marks": 1,
+          "answer": [
+            "For the sound system, a phoneme is the smallest contrastive unit. The smallest meaningful grammatical unit is a morpheme; the distinction matters because the question does not specify “sound” or “meaning”."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "1(b)",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2025-3",
+          "question": "How can foundational literacy and numeracy be acquired at the elementary level.",
+          "marks": 3,
+          "answer": [
+            "Develop oral language, sound awareness, sound–symbol knowledge and reading with understanding through systematic support alongside stories and meaningful texts.",
+            "Build number sense through counting, comparing, grouping and solving simple problems with concrete materials and everyday situations.",
+            "Use familiar languages, accessible activities and ongoing observation to provide timely support, connecting reading, writing and mathematical understanding rather than relying only on memorisation."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "3",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2025-4",
+          "question": "What is phonetics and phonology? Explain.",
+          "marks": 4,
+          "answer": [
+            "Phonetics studies the production, acoustic properties and perception of speech sounds.",
+            "For example, it describes how the lips and airflow produce /p/ or how voicing differs between sounds.",
+            "Phonology studies the organisation and meaningful contrasts of sounds within a language, including patterns of their combination.",
+            "For example, English /p/ and /b/ distinguish pat and bat, while some variations in the pronunciation of /p/ do not create a different word. Teachers use both perspectives to understand pronunciation without treating every accent difference as an error."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-1-f",
+          "question": "What are the structures of language?",
+          "marks": 1,
+          "answer": [
+            "Major structural levels include phonology (sound patterns), morphology (word structure) and syntax (sentence structure); semantics concerns meaning and pragmatics concerns use in context."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "1(f)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-2-c",
+          "question": "What is meant by home language?",
+          "marks": 2,
+          "answer": [
+            "Home language refers to the language or languages a child uses in family and everyday home interactions.",
+            "It carries familiar meanings and experiences that can support school learning; it may be different from the language or standard variety used for instruction."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-2-d",
+          "question": "What is Foundational Literacy and Numeracy (FLN)?",
+          "marks": 2,
+          "answer": [
+            "Foundational literacy is the ability to understand and use basic oral and written language, including reading with meaning.",
+            "Foundational numeracy is the ability to understand and use numbers and basic mathematical ideas in simple everyday problems; both support further learning."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-2-e",
+          "question": "What is phonology?",
+          "marks": 2,
+          "answer": [
+            "Phonology studies how speech sounds are organised and function within a language.",
+            "It examines meaningful sound contrasts and patterns, such as which sound combinations are possible, rather than only the physical production of individual sounds."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "2(e)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-2-g",
+          "question": "Write any two objectives of Foundational Literacy given by NEP 2020.",
+          "marks": 2,
+          "answer": [
+            "Develop the ability to read basic text with understanding, rather than merely pronounce words.",
+            "Develop basic writing and oral-language abilities that allow children to express ideas and participate in further learning."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "2(g)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-3-b",
+          "question": "Describe how children move from home language to school language.",
+          "marks": 3,
+          "answer": [
+            "Children begin with familiar meanings, experiences and communicative skills developed through home interactions.",
+            "Teachers connect these resources with school-language expressions through conversation, pictures, stories and bilingual or peer support where suitable.",
+            "With meaningful practice and feedback, children gradually participate in school-language reading, writing and discussion while continuing to value and use their home languages."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 2,
+              "questionNumber": "3(b)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Understanding Language and Early Language Development",
+          "url": "/curriculum-2024.pdf#page=21"
+        },
+        {
+          "label": "NCERT — National Curriculum Framework 2005, language education",
+          "url": "https://www.cbse.gov.in/cbsenew/documents/NCF2005.pdf#page=55"
+        },
+        {
+          "label": "National Education Policy 2020, foundational learning and multilingualism",
+          "url": "https://www.education.gov.in/sites/upload_files/mhrd/files/nep/NEP_Final_English.pdf"
+        },
+        {
+          "label": "Constitution of India — Articles 29, 30, 345 and 350A–350B",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15240/1/constitution_of_india.pdf"
+        },
+        {
+          "label": "Constitution (Ninety-second Amendment) Act, 2003 — Gazette and assent date",
+          "url": "https://www.legislative.gov.in/static/uploads/2025/07/2e3c0925d75850f85cafbf34aa72eb31.pdf"
+        },
+        {
+          "label": "Samagra Shiksha Axom — national RTE commencement and Assam implementation rules",
+          "url": "https://ssa.assam.gov.in/frontimpotentdata/the-right-to-education-rte-act"
+        },
+        {
+          "label": "Open University TESS-India — multilingualism in the classroom",
+          "url": "https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=64814&section=6"
+        },
+        {
+          "label": "Census of India — Language Paper 1 of 2018, language families",
+          "url": "https://censusindia.gov.in/nada/index.php/catalog/42458/download/46089/C-16_25062018.pdf"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is additive bilingualism?",
+          [
+            "Developing an additional language while continuing to support and value an existing language."
+          ]
+        ],
+        [
+          1,
+          "What is a linguistic minority?",
+          [
+            "A group whose language differs from that of the majority in the relevant state or context."
+          ]
+        ],
+        [
+          1,
+          "What is a multilingual word wall?",
+          [
+            "A classroom display connecting useful words or expressions in more than one language with their meanings."
+          ]
+        ],
+        [
+          1,
+          "What is a language profile of a class?",
+          [
+            "A description of the languages and varieties learners use, understand or are developing in different settings."
+          ]
+        ],
+        [
+          1,
+          "What is translanguaging in classroom practice?",
+          [
+            "Using learners' available linguistic resources flexibly to support meaning-making and participation."
+          ]
+        ],
+        [
+          1,
+          "What is a lingua franca?",
+          [
+            "A language used for communication between people who do not necessarily share the same first language."
+          ]
+        ],
+        [
+          1,
+          "Name one Tibeto-Burman language of Assam other than Bodo.",
+          [
+            "Mising."
+          ]
+        ],
+        [
+          1,
+          "Name one Indo-Aryan language spoken in Assam other than Assamese.",
+          [
+            "Bengali."
+          ]
+        ],
+        [
+          1,
+          "What is language prestige?",
+          [
+            "The social value or status attached to a language or variety in a particular community or institution."
+          ]
+        ],
+        [
+          1,
+          "Which constitutional article provides for a Special Officer for linguistic minorities?",
+          [
+            "Article 350B."
+          ]
+        ],
+        [
+          2,
+          "Distinguish an official language from a person's mother tongue.",
+          [
+            "An official language is designated for specified governmental purposes.",
+            "A mother tongue is associated with a person's early home or community language experience; the two may coincide or differ."
+          ]
+        ],
+        [
+          2,
+          "Why does inclusion in the Eighth Schedule not make a language India's national language?",
+          [
+            "The Schedule lists languages for specified constitutional purposes and does not designate them as national languages.",
+            "Official-language provisions are separate; the Constitution does not declare a single national language of India."
+          ]
+        ],
+        [
+          2,
+          "How can teachers learn about class languages without stereotyping children?",
+          [
+            "Ask children and families which languages they actually use and in what situations.",
+            "Avoid assigning a language solely from a child's name, appearance, religion or community label."
+          ]
+        ],
+        [
+          2,
+          "Why should peer language support rotate rather than depend on one child?",
+          [
+            "A permanent interpreter role can overburden a child and reduce their own learning time.",
+            "Rotating suitable support and providing adult resources distributes participation more fairly."
+          ]
+        ],
+        [
+          2,
+          "What is the risk of displaying unverified translations in a classroom?",
+          [
+            "Incorrect words or scripts may confuse learners and misrepresent a community's language.",
+            "Teachers should check meanings and forms with reliable speakers or resources before using them as learning models."
+          ]
+        ],
+        [
+          2,
+          "Why can bilingual ability differ across activities?",
+          [
+            "A learner may have more experience using one language at home and another for school reading or writing.",
+            "Proficiency therefore depends on exposure, purpose and support, not an expectation of identical skills in every language."
+          ]
+        ],
+        [
+          2,
+          "What educational protection does Article 30(1) give linguistic minorities?",
+          [
+            "It gives minorities based on language, as well as religion, the right to establish and administer educational institutions of their choice.",
+            "This protection concerns minority educational institutions and should not be confused with declaring a language official or nationally compulsory."
+          ]
+        ],
+        [
+          2,
+          "Why should additional-language teaching avoid replacing home-language use?",
+          [
+            "Home languages support relationships, identity and existing knowledge.",
+            "Building an additional language expands access more constructively when learners can retain these resources rather than feel they must abandon them."
+          ]
+        ],
+        [
+          2,
+          "How can pictures support multilingual discussion without replacing language?",
+          [
+            "Pictures provide a shared reference for identifying objects, actions or relationships.",
+            "Learners can then connect and compare expressions in different languages, with explanation where the image alone is ambiguous."
+          ]
+        ],
+        [
+          2,
+          "Why is equal permission to speak insufficient for equitable participation?",
+          [
+            "Some children need additional language, communication or confidence-building support to use that permission.",
+            "Teachers should adapt opportunities and resources so participation is practically accessible, not merely formally allowed."
+          ]
+        ],
+        [
+          3,
+          "Suggest three steps for creating a useful multilingual glossary.",
+          [
+            "Choose a small set of terms needed for a meaningful lesson rather than collect unrelated vocabulary.",
+            "Check equivalents and explanations with reliable sources or competent speakers, noting where exact word-for-word equivalence is unsuitable.",
+            "Use the glossary during discussion, reading and writing, and revise it when learners find unclear entries."
+          ]
+        ],
+        [
+          3,
+          "How can a teacher respond when classmates laugh at a child's pronunciation?",
+          [
+            "Stop the ridicule and restate the expectation that language differences are treated respectfully.",
+            "Acknowledge the child's meaning and provide any relevant model support without presenting the accent as shameful.",
+            "Use later activities to build understanding of language variation and observe whether the child can participate safely and confidently."
+          ]
+        ],
+        [
+          3,
+          "How can grouping support both home-language use and wider communication?",
+          [
+            "Allow familiar-language pairs where they help children develop ideas and understand a task.",
+            "Include mixed-language sharing with pictures, explanations or teacher support so ideas become accessible beyond the pair.",
+            "Review who participates and change groups purposefully rather than permanently separating children by language or perceived ability."
+          ]
+        ],
+        [
+          3,
+          "Explain why multilingualism does not require perfect fluency in every language.",
+          [
+            "People use different languages for different purposes, such as family conversation, work or reading.",
+            "Their abilities may vary across listening, speaking, reading and writing according to experience and opportunity.",
+            "Teachers should recognise this developing repertoire while setting useful learning goals rather than deny a child's multilingual identity because proficiency is uneven."
+          ]
+        ],
+        [
+          3,
+          "Describe a respectful way to compare words from different languages.",
+          [
+            "Choose familiar meanings and invite voluntary contributions, checking pronunciation and context carefully.",
+            "Discuss similarities and differences without assuming similar-looking words always have identical meanings.",
+            "Connect the comparison to a learning purpose and credit contributors, avoiding imitation used for humour at a community's expense."
+          ]
+        ],
+        [
+          3,
+          "What should a teacher do when no adult in the classroom knows a learner's home language?",
+          [
+            "Use clear routines, objects, gestures and visual support to establish shared meaning.",
+            "Seek appropriate family, community or school resources while respecting privacy and not relying on an unprepared child for sensitive interpretation.",
+            "Observe understanding through accessible tasks and build the school language gradually without forbidding the learner's existing language."
+          ]
+        ],
+        [
+          3,
+          "How can a school notice be made accessible to linguistically diverse families?",
+          [
+            "Identify which languages and communication formats families can actually use.",
+            "Provide concise, accurately checked translations or oral explanations of essential information.",
+            "Offer a way to ask questions and confirm understanding instead of assuming that sending a written notice guarantees access."
+          ]
+        ],
+        [
+          3,
+          "Why should language diversity in Assam be taught through examples rather than a single stereotype?",
+          [
+            "Assam includes multiple language families, regional varieties and multilingual everyday practices.",
+            "Examples from actual communities help learners see that language use cannot be inferred from one state label.",
+            "Teachers should update and contextualise examples respectfully, avoiding the claim that any short list describes every person or locality."
+          ]
+        ],
+        [
+          3,
+          "How can a multilingual story session avoid excluding children who do not know the story's language?",
+          [
+            "Provide a brief context and use pictures, actions or an accessible retelling to establish shared meaning.",
+            "Allow the original language to remain audible and valued rather than replace it entirely with translation.",
+            "Invite questions and compare selected expressions, checking understanding without requiring everyone to translate every sentence."
+          ]
+        ],
+        [
+          3,
+          "Distinguish recognition of language rights from practical classroom support.",
+          [
+            "Recognition establishes that languages and their speakers deserve protection and respect.",
+            "Practical support provides accessible materials, teaching approaches and communication opportunities that make participation possible.",
+            "Both matter: respectful policy wording alone does not help a child understand an unexplained lesson or access unavailable learning resources."
+          ]
+        ],
+        [
+          4,
+          "Design a short language-mapping activity for a class.",
+          [
+            "Invite children to describe languages they hear or use in different settings, with family input where helpful and no pressure to reveal private information.",
+            "Create a shared map or chart showing the range of linguistic resources, allowing multiple languages for each child rather than a single compulsory label.",
+            "Discuss how language choices vary by person and purpose without ranking languages or linking them to intelligence.",
+            "Use the map to plan books, peer support and family communication, revisiting it as children's experience changes rather than treating it as a permanent classification."
+          ]
+        ],
+        [
+          4,
+          "A teacher bans home languages to make children learn the school language faster. Evaluate this practice.",
+          [
+            "A ban can prevent children from using familiar concepts and expressions to understand and discuss new learning.",
+            "It may also communicate that family identity is unwelcome, discouraging participation and willingness to ask for help.",
+            "Teachers should provide substantial meaningful exposure and practice in the school language while allowing purposeful home-language support.",
+            "The effectiveness of the approach should be judged through understanding and progress, not the absence of home-language speech or the assumption that prohibition automatically accelerates learning."
+          ]
+        ],
+        [
+          4,
+          "How can an assessment distinguish subject knowledge from a language barrier?",
+          [
+            "Identify the concept or reasoning the task is intended to assess and the language demands it adds.",
+            "Clarify instructions with suitable visual or familiar-language support without giving away the answer.",
+            "Allow an appropriate explanation, demonstration or supported response when the target is conceptual understanding rather than a particular language form.",
+            "Record the support and assess school-language development separately, using the evidence to plan teaching rather than penalise an avoidable communication barrier as lack of knowledge."
+          ]
+        ],
+        [
+          4,
+          "Explain how to handle a disagreement over a word's translation.",
+          [
+            "Ask contributors to explain the context and variety in which they use the word, recognising that more than one equivalent may be appropriate.",
+            "Consult reliable language resources or competent speakers rather than decide by the social status of the person offering a translation.",
+            "Record useful alternatives and the contexts that distinguish them, making uncertainty explicit when it remains unresolved.",
+            "Use the discussion to show that meaning depends on use and that respectful inquiry is more productive than labelling another community's expression wrong."
+          ]
+        ],
+        [
+          4,
+          "How can a school promote multilingual learning without treating language communities as isolated groups?",
+          [
+            "Create shared activities where learners contribute different expressions or texts around a common purpose.",
+            "Provide explanations, translation support and accessible materials so contributions can be understood across groups.",
+            "Vary interaction patterns and responsibilities, avoiding permanent separation by language or assigning one child the role of community spokesperson.",
+            "Support learning of additional languages alongside existing ones, treating exchange and shared participation as goals rather than merely displaying separate cultural labels."
+          ]
+        ],
+        [
+          5,
+          "Plan a multilingual classroom activity around a familiar local object.",
+          [
+            "Choose an object familiar enough for children to observe directly, such as a leaf or household container, and clarify the lesson's purpose, for example describing properties or uses.",
+            "Invite names and descriptions in languages children know, recording contributions accurately and accepting that some children may prefer to point, draw or listen initially.",
+            "Use the object and checked explanations to establish shared meanings, discussing where expressions correspond and where a longer explanation is needed.",
+            "Introduce relevant school-language vocabulary and provide purposeful opportunities to use it in comparing, questioning or writing, without discarding home-language contributions.",
+            "Assess conceptual understanding and emerging language use separately, then reflect on whose contributions were heard and what support would improve participation next time."
+          ]
+        ],
+        [
+          5,
+          "Explain how a teacher can work with families to strengthen multilingual learning.",
+          [
+            "Begin by learning which languages families use and what forms of communication are accessible, rather than assuming all caregivers can read the school language.",
+            "Invite voluntary contributions such as stories, useful expressions or information about a child's interests, explaining how they will be used and respecting privacy.",
+            "Check translations and cultural context carefully and credit contributions, avoiding an expectation that families supply unpaid specialist teaching or expensive materials.",
+            "Share practical ways to support conversation and reading in familiar languages alongside school-language learning, making clear that home-language use is valued.",
+            "Maintain two-way communication about progress and barriers, adapting plans with family input while ensuring the school remains responsible for providing equitable teaching and resources."
+          ]
+        ],
+        [
+          5,
+          "Discuss how language status can affect a child's participation and how a teacher can respond.",
+          [
+            "A child may hesitate to speak when their language or accent is treated as less intelligent, less modern or inappropriate for school, even when they understand the topic.",
+            "Higher-status languages may dominate materials, peer groups and public praise, making some learners' knowledge less visible.",
+            "Teachers should challenge ridicule and stereotypes, model respectful references to languages and provide accessible opportunities for children to express ideas.",
+            "They should also teach the language forms needed for educational access through meaningful support, avoiding a false choice between valuing identity and developing additional proficiency.",
+            "Review participation and assessment evidence to see whether these changes reduce barriers. Inclusion requires changes in everyday practice and expectations, not only statements that all languages are equal."
+          ]
+        ],
+        [
+          5,
+          "Describe a practical approach to introducing a third language without undermining the first two.",
+          [
+            "Consider learners' existing language experience and the educational purpose of the additional language, using age-appropriate goals rather than expecting immediate equal proficiency in all three.",
+            "Begin with meaningful listening, interaction and familiar contexts, connecting new expressions to concepts children already understand.",
+            "Provide suitable materials and teacher support, and allow comparisons between languages where they clarify meaning rather than produce confusing literal translations.",
+            "Protect opportunities to continue developing existing languages, including reading and writing, so the additional language expands rather than replaces the repertoire.",
+            "Observe progress and workload, adapt support and communicate with families. The success of multilingual learning depends on quality opportunities and realistic progression, not simply adding another subject label to the timetable."
+          ]
+        ],
+        [
+          5,
+          "Explain how to prepare an inclusive multilingual school event.",
+          [
+            "Set a shared educational purpose and invite voluntary contributions from the languages actually used in the school community, avoiding assumptions based on names or appearances.",
+            "Plan accessible introductions, summaries or visual support so audiences can engage with contributions in unfamiliar languages without erasing their original expression.",
+            "Distribute roles fairly and provide preparation and communication support, ensuring fluency in a prestigious language is not the main route to visible participation.",
+            "Check meanings, permissions and cultural sensitivity, and avoid performances that caricature accents or reduce a community to a token costume or phrase.",
+            "Gather feedback about belonging and understanding after the event and use it to improve everyday classroom practice. A celebration is valuable when it supports sustained inclusion rather than substitutes for it."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-3-2021-1-c",
+          "question": "Name the only tribal language of Assam which is recognised by the constitution of India.",
+          "marks": 1,
+          "answer": [
+            "Bodo (Boro) is the intended answer in this Assam-focused question and is listed in the Eighth Schedule. The wording “only tribal language” should not be treated as a claim that no other tribal language has constitutional recognition: Santali is also scheduled."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-1-d",
+          "question": "Which core linguistic family does Assamese language belongs to?",
+          "marks": 1,
+          "answer": [
+            "Assamese belongs to the Indo-Aryan branch of the Indo-European language family."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-2-c",
+          "question": "Write two suggestions according to NCF-2005 about multilingualism.",
+          "marks": 2,
+          "answer": [
+            "Treat children’s existing languages as a resource for classroom learning rather than a problem to eliminate.",
+            "Use the home language as an important foundation and create opportunities to learn additional languages, supporting understanding and participation in a multilingual classroom."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-2-d",
+          "question": "Briefly explain about “Three language formula”.",
+          "marks": 2,
+          "answer": [
+            "The three-language formula is an educational approach to learning three languages so that regional or home-language development is accompanied by wider communication and multilingual understanding.",
+            "The traditional pattern includes Hindi, English and a modern Indian language in Hindi-speaking states, and the regional language, Hindi and English in non-Hindi-speaking states. NEP 2020 allows flexible choices, with at least two languages native to India and no imposed language."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-5",
+          "question": "Write the challenges in a multilingual classroom while using school language among the learners.",
+          "marks": 3,
+          "answer": [
+            "Children may understand concepts but struggle with unfamiliar vocabulary and instructions in the school language.",
+            "A teacher may not know every home language, and suitable multilingual materials or interpretation support may be limited.",
+            "Unequal status given to languages can discourage participation or produce ridicule; these are barriers in classroom provision and attitudes, not evidence that multilingual children are deficient."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-1-c",
+          "question": "Mention the name of a language of Sino-Tibetan language family found in Assam.",
+          "marks": 1,
+          "answer": [
+            "Bodo (Boro), a Tibeto-Burman language within the Sino-Tibetan family."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-2-e",
+          "question": "Write the provisions provided by Indian constitution about Language.",
+          "marks": 2,
+          "answer": [
+            "Article 29(1) protects the right of a section of citizens with a distinct language, script or culture to conserve it.",
+            "Article 350A directs states and local authorities to endeavour to provide adequate mother-tongue instruction facilities at the primary stage for children belonging to linguistic minorities."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 1,
+              "questionNumber": "2(e)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "2(c)",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "2(f)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-5",
+          "question": "What is multilingualism? Discuss the strategies to be undertaken by language teacher in using multilingualism as a resource in the language classroom.",
+          "marks": 5,
+          "answer": [
+            "Multilingualism is the use or development of more than one language within a person or community; competence can vary across purposes and languages.",
+            "Learn which languages children use, welcome their contributions and prevent ridicule so that linguistic knowledge becomes a resource for participation.",
+            "Use familiar stories, songs and carefully checked multilingual labels to connect new words with existing meanings, rather than require immediate understanding of an unfamiliar language.",
+            "Organise purposeful peer discussion and comparison of expressions, with shared explanations so no group is excluded and no child is made a permanent interpreter.",
+            "Link these experiences to supported reading, writing and school-language development, assessing understanding separately from avoidable language barriers and involving families where useful."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-1-e",
+          "question": "In which year, Bodo language was included in the eighth schedule of the constitution of India?",
+          "marks": 1,
+          "answer": [
+            "It was added by the Constitution (Ninety-second Amendment) Act, 2003, which received presidential assent on 7 January 2004. Thus 2003 is the amendment’s title year; 2004 is the year it became law."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-2-b",
+          "question": "Briefly mention the constitutional provisions for regional language of India.",
+          "marks": 2,
+          "answer": [
+            "Article 345 allows a state legislature to adopt one or more languages in use in the state, or Hindi, for its official purposes, subject to the Constitution.",
+            "Article 29(1) protects conservation of a distinct language, script or culture, supporting linguistic communities alongside arrangements for official use."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "2(b)",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-2-f",
+          "question": "Write briefly about the importance of Assamese language as a lingua franca of the North East.",
+          "marks": 2,
+          "answer": [
+            "Assamese has served as a contact language among different communities in Assam and parts of the wider region, supporting trade, public interaction and cultural exchange.",
+            "Its role varies by place and community; it should not be described as the sole common language of every northeastern state or used to diminish other languages."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "2(f)",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-4",
+          "question": "As a language teacher what are the strategies you will adopt to overcome the challenges faced in using learners mother tongue in a multilingual classroom.",
+          "marks": 4,
+          "answer": [
+            "Identify children’s home languages and agree that all languages deserve respect, intervening when ridicule or exclusion occurs.",
+            "Use pictures, objects, gestures and multilingual resources to make meanings shared even when the teacher does not speak every language.",
+            "Allow purposeful home-language discussion and peer support, then help children connect ideas with the school language so participation and new-language development both advance.",
+            "Invite appropriate family or community contributions and assess understanding through accessible responses, reviewing which children still lack support rather than assuming one strategy suits everyone."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2024-1-d",
+          "question": "What is Multilingualism?",
+          "marks": 1,
+          "answer": [
+            "Multilingualism is the use or development of more than one language by a person or within a community."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "1(d)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2024-7",
+          "question": "Discuss the role of a language teacher in a multilingual classroom.",
+          "marks": 3,
+          "answer": [
+            "Create an inclusive environment that recognises children’s languages and prevents ridicule or unequal participation.",
+            "Use multilingual materials, accessible explanations and purposeful peer interaction to connect existing knowledge with the school language.",
+            "Observe learning fairly, adapt support and involve families, treating linguistic diversity as a resource rather than a reason to lower expectations."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "7",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2025-1-e",
+          "question": "In which year did “Right to Education Act” came into force in Assam?",
+          "marks": 1,
+          "answer": [
+            "For Assam’s state implementation rules, the expected year is 2011. Distinguish this from the national RTE Act’s commencement on 1 April 2010; Assam approved and notified its implementing rules in July 2011."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "1(e)",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2025-8",
+          "question": "Explain the challenges faced by learners’ in using mother tongue in a multilingual classroom.",
+          "marks": 5,
+          "answer": [
+            "Children may speak different home languages, so a contribution understood by one group may not yet be accessible to others without explanation or support.",
+            "Teachers may lack proficiency in some languages, making it harder to follow children’s ideas and provide precise feedback; suitable materials and community support may also be limited.",
+            "School-language-only expectations or the higher status assigned to one language can make children reluctant to use their mother tongue, weakening participation and confidence.",
+            "Differences in vocabulary, script or grammatical patterns can require careful connections when learners move between home-language discussion and school-language texts.",
+            "Unequal peer grouping or ridicule can further exclude children. These challenges call for inclusive organisation, shared meaning and additional-language support, not the conclusion that mother-tongue use itself is harmful."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "8",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-3-c",
+          "question": "Explain the importance of multilingual classrooms.",
+          "marks": 3,
+          "answer": [
+            "Recognising children’s languages supports belonging and makes their existing knowledge available for learning.",
+            "Comparing and using languages can develop awareness of how language works and broaden communication across communities.",
+            "Inclusive multilingual practice helps children access new languages and subject content without requiring them to abandon home-language identity; benefits depend on supportive teaching, not diversity alone."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 2,
+              "questionNumber": "3(c)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-3-d",
+          "question": "Describe language diversity in the context of Assam.",
+          "marks": 3,
+          "answer": [
+            "Assam includes Indo-Aryan languages such as Assamese, Bengali and Nepali, and Tibeto-Burman languages such as Bodo, Mising and Karbi.",
+            "Other communities contribute languages such as Santali, and local varieties and contact practices add further diversity; language use varies across regions and families.",
+            "Schools should learn the actual language profile of their children and use it in inclusive teaching rather than assume everyone in Assam shares one mother tongue."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 2,
+              "questionNumber": "3(d)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-4",
+          "question": "Explain the Three Language Formula and its importance.",
+          "marks": 4,
+          "answer": [
+            "The formula promotes learning three languages to connect regional or home-language development with communication across wider communities.",
+            "The traditional arrangement combines the regional language, Hindi and English in non-Hindi-speaking states, and Hindi, English and a modern Indian language in Hindi-speaking states.",
+            "NEP 2020 retains a flexible formula: choices reflect states, regions and students, no language is imposed, and at least two chosen languages are native to India.",
+            "Its educational value lies in multilingual access, cultural understanding and national integration. Effective implementation requires suitable teachers, materials and respect for linguistic rights rather than rote learning of three separate subjects."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 2,
+              "questionNumber": "4",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-1-d-bengali-version",
+          "question": "To which language family does Bengali belong?",
+          "marks": 1,
+          "answer": [
+            "Bengali belongs to the Indo-Aryan branch of the Indo-European language family."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 2,
+              "questionNumber": "1(d) (Bengali version)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "sources": [
+        {
+          "label": "SCERT syllabus — Understanding Language and Early Language Development",
+          "url": "/curriculum-2024.pdf#page=21"
+        },
+        {
+          "label": "NCERT — National Curriculum Framework 2005, language education",
+          "url": "https://www.cbse.gov.in/cbsenew/documents/NCF2005.pdf#page=55"
+        },
+        {
+          "label": "Jim Cummins — BICS and CALP: Empirical and Theoretical Status of the Distinction",
+          "url": "https://doi.org/10.1007/978-0-387-30424-3_36"
+        }
+      ],
+      "practice": [
+        [
+          1,
+          "What is language across the curriculum?",
+          [
+            "An approach recognising that language supports learning in every subject and should be developed through subject teaching."
+          ]
+        ],
+        [
+          1,
+          "What is a subject-specific term?",
+          [
+            "A word or expression with a particular meaning in a discipline, such as denominator in mathematics."
+          ]
+        ],
+        [
+          1,
+          "What is an academic explanation?",
+          [
+            "An account that makes an idea or process clear using relevant reasons, evidence and subject language."
+          ]
+        ],
+        [
+          1,
+          "What is oral rehearsal before writing?",
+          [
+            "Talking through intended ideas to clarify and organise them before producing a written text."
+          ]
+        ],
+        [
+          1,
+          "What is a sentence starter used for in subject learning?",
+          [
+            "It offers temporary language support to help a learner begin expressing a relevant idea."
+          ]
+        ],
+        [
+          1,
+          "Give one example of language used to compare.",
+          [
+            "'The first container holds more water than the second.'"
+          ]
+        ],
+        [
+          1,
+          "What is a classroom discussion norm?",
+          [
+            "An agreed expectation for participation, such as listening to a speaker before responding."
+          ]
+        ],
+        [
+          1,
+          "What is a visual organiser?",
+          [
+            "A diagram or structured display used to arrange ideas and show their relationships."
+          ]
+        ],
+        [
+          1,
+          "What is a disciplinary register?",
+          [
+            "The characteristic vocabulary and ways of expressing meaning used in a subject or field."
+          ]
+        ],
+        [
+          1,
+          "What is an information-gap activity?",
+          [
+            "An activity in which learners must communicate because each has information another needs to complete the task."
+          ]
+        ],
+        [
+          2,
+          "Why should a mathematics teacher attend to vocabulary?",
+          [
+            "Words such as difference, equal and more than shape how learners understand tasks.",
+            "Clarifying them in concrete contexts helps distinguish mathematical difficulty from misunderstanding the wording."
+          ]
+        ],
+        [
+          2,
+          "How does an observation differ from an explanation in classroom language?",
+          [
+            "An observation describes what was noticed, such as 'The ice became water.'",
+            "An explanation accounts for why or how it happened, using relevant ideas and evidence."
+          ]
+        ],
+        [
+          2,
+          "Why does fluent playground conversation not guarantee success with a textbook?",
+          [
+            "Conversation often benefits from familiar situations and immediate interaction.",
+            "A textbook may require unfamiliar vocabulary, text structures and reasoning that need additional support."
+          ]
+        ],
+        [
+          2,
+          "How can a diagram support an academic explanation?",
+          [
+            "It provides a visible reference for parts, sequences or relationships.",
+            "Learners can connect those features with precise language while explaining, rather than relying on a diagram without interpreting it."
+          ]
+        ],
+        [
+          2,
+          "Why should sentence starters be gradually withdrawn?",
+          [
+            "They help learners begin a new kind of response when language demands are unfamiliar.",
+            "Reducing support as competence grows encourages independent expression instead of permanent dependence on a fixed formula."
+          ]
+        ],
+        [
+          2,
+          "How can a teacher check understanding of an instruction?",
+          [
+            "Ask a learner to explain or demonstrate the next step in an accessible way.",
+            "Use the response to clarify meaning rather than rely only on the class saying 'yes' when asked if they understand."
+          ]
+        ],
+        [
+          2,
+          "What is the value of wait time after a question?",
+          [
+            "It gives learners time to interpret the question and organise a response.",
+            "It can broaden participation beyond the quickest speakers, especially when language demands are unfamiliar."
+          ]
+        ],
+        [
+          2,
+          "How can pair discussion improve a later written answer?",
+          [
+            "Learners can test and clarify their ideas with another person.",
+            "They can rehearse useful vocabulary and sequence before managing the additional demands of writing."
+          ]
+        ],
+        [
+          2,
+          "Why should subject vocabulary be taught in context?",
+          [
+            "Context connects a term with the concept, examples and purposes it serves.",
+            "A memorised definition alone may not help learners interpret or use the term in a new task."
+          ]
+        ],
+        [
+          2,
+          "How can an exit response guide language support?",
+          [
+            "A short explanation or example can show which concepts or expressions remain unclear.",
+            "The teacher can use this evidence to plan targeted support rather than assign the same language exercise to everyone."
+          ]
+        ],
+        [
+          3,
+          "Explain how language demands differ between describing and arguing.",
+          [
+            "Describing identifies features or events, often using precise nouns and attributes.",
+            "Arguing advances a position and connects it with reasons or evidence, sometimes considering alternatives.",
+            "Teaching should model the relevant language and structure for the purpose rather than expect one generic answer format to serve both."
+          ]
+        ],
+        [
+          3,
+          "How can a science teacher help learners use the word 'because' meaningfully?",
+          [
+            "Begin with a phenomenon learners can observe or investigate and discuss possible explanations.",
+            "Model linking a claim with a relevant reason using because, checking whether the reason actually supports the claim.",
+            "Invite new examples and revise weak explanations, avoiding a mechanical exercise in adding the connector to unrelated statements."
+          ]
+        ],
+        [
+          3,
+          "Describe a simple information-gap activity for a subject lesson.",
+          [
+            "Give partners different parts of a picture or data set needed for a shared task, such as completing a class weather chart.",
+            "Ask them to request and explain information using suitable vocabulary and accessible prompts.",
+            "Review both the completed task and the clarity of communication, adapting support so the gap creates meaningful interaction rather than avoidable frustration."
+          ]
+        ],
+        [
+          3,
+          "Why should teachers distinguish difficult wording from difficult reasoning?",
+          [
+            "A learner may understand a relationship but fail to show it when the question uses unfamiliar language.",
+            "Conversely, repeating familiar terms may hide weak reasoning.",
+            "Use accessible restatement and concrete examples to identify the source of difficulty, then support language and concepts appropriately without automatically simplifying the intellectual task."
+          ]
+        ],
+        [
+          3,
+          "How can a class move from everyday words to more precise subject language?",
+          [
+            "Begin with children's own descriptions to establish their understanding and experiences.",
+            "Introduce the subject term where it clarifies a distinction, linking it explicitly to the familiar explanation.",
+            "Provide opportunities to use and revisit the term in meaningful tasks, accepting developing responses while modelling greater precision."
+          ]
+        ],
+        [
+          3,
+          "How can a graphic organiser help a learner compare two ideas?",
+          [
+            "It makes similarities and differences visible in an organised format.",
+            "The learner can first record key features using short phrases or images, reducing the demand to compose a full paragraph immediately.",
+            "Discussion then connects the notes into a coherent comparison, with support gradually reduced as the learner becomes independent."
+          ]
+        ],
+        [
+          3,
+          "Give three ways teachers can improve the quality of classroom questions.",
+          [
+            "Ask questions with a clear learning purpose and wording learners can access.",
+            "Include requests for reasons, examples or comparisons rather than only recall or guessing what the teacher wants.",
+            "Respond to answers with useful follow-up and time to think, so questions support dialogue instead of merely testing fast responses."
+          ]
+        ],
+        [
+          3,
+          "How can reading a timetable develop learning across subjects?",
+          [
+            "Learners interpret labels and organisation to obtain information from a functional text.",
+            "They apply mathematical understanding of time and sequence to answer meaningful questions.",
+            "Explaining a choice of route or activity connects reading, reasoning and spoken or written justification, with support for unfamiliar terms."
+          ]
+        ],
+        [
+          3,
+          "Why can copying definitions limit academic-language development?",
+          [
+            "Copying may produce an accurate-looking record without requiring interpretation or independent use.",
+            "Academic tasks require learners to connect terms with examples, relationships and explanations.",
+            "Teachers should therefore combine useful reference notes with discussion, application and purposeful writing rather than judge understanding from copied text alone."
+          ]
+        ],
+        [
+          3,
+          "How can a teacher recognise growth in academic language?",
+          [
+            "Observe increasingly precise vocabulary and clearer explanations in meaningful subject tasks.",
+            "Compare work across time, noting how independently learners organise ideas and connect claims with relevant evidence.",
+            "Consider context and support rather than use accent, verbosity or a fixed developmental timetable as the measure of progress."
+          ]
+        ],
+        [
+          4,
+          "Design a language objective to accompany a lesson on comparing lengths.",
+          [
+            "Keep the conceptual objective clear: learners compare lengths using appropriate objects or units.",
+            "Add a language objective such as explaining a comparison using longer than, shorter than or equal in length.",
+            "Model these expressions with visible examples and provide pair practice in which learners make and explain their own comparisons.",
+            "Assess both the comparison and the explanation, supporting unfamiliar wording without confusing language fluency with understanding of length."
+          ]
+        ],
+        [
+          4,
+          "Explain how to support a child who gives a correct one-word answer but struggles to explain reasoning.",
+          [
+            "Acknowledge the correct response and use a concrete example or the child's work as a shared reference.",
+            "Ask manageable follow-up questions about what they noticed or did, allowing gestures, familiar-language discussion or oral rehearsal.",
+            "Model a concise explanation or offer a temporary sentence starter, then invite the child to express the reasoning in their own way.",
+            "Revisit a similar task and reduce prompts as independence grows, checking understanding instead of requiring a memorised paragraph."
+          ]
+        ],
+        [
+          4,
+          "How can a teacher make a subject text accessible without removing its important ideas?",
+          [
+            "Identify the central concepts and the vocabulary or sentence structures likely to create barriers.",
+            "Introduce essential meanings through examples, visuals or familiar-language connections while retaining accurate subject relationships.",
+            "Guide reading in manageable sections with questions that require interpretation and evidence from the text.",
+            "Invite learners to explain the ideas and use the new language, revising support where necessary rather than replace the lesson with an oversimplified summary that loses its reasoning."
+          ]
+        ],
+        [
+          4,
+          "Discuss how feedback can improve both content and language in a written explanation.",
+          [
+            "First identify whether the main idea and reasoning are accurate, giving specific feedback on missing or unsupported relationships.",
+            "Select a manageable language focus that affects meaning, such as unclear reference or an inappropriate connector, instead of correcting every feature at once.",
+            "Model or discuss an improvement and give the learner time to revise their own explanation.",
+            "Review whether the revision communicates understanding more clearly, valuing conceptual growth and independence rather than only surface correctness."
+          ]
+        ],
+        [
+          4,
+          "Why is every subject teacher responsible for some language support?",
+          [
+            "Each subject uses language to present tasks, explain ideas and assess understanding.",
+            "Learners must develop its vocabulary and ways of reasoning, which are best understood in relation to actual subject content.",
+            "Subject teachers can model explanations, clarify terms and support discussion and writing without turning every lesson into a separate grammar class.",
+            "Coordination with language teachers helps, but it does not remove the subject teacher's responsibility to make learning and participation accessible."
+          ]
+        ],
+        [
+          5,
+          "Plan an EVS activity that develops conceptual understanding and academic explanation together.",
+          [
+            "Choose an observable question, such as which classroom materials absorb a small amount of water, and establish safe procedures and relevant prior ideas.",
+            "Introduce a few useful expressions for predicting, observing and comparing, connecting them with objects and familiar meanings rather than beginning with copied definitions.",
+            "Let learners investigate in small groups, record observations in an accessible form and discuss what the evidence supports.",
+            "Model how to explain a finding using precise terms and a relevant reason, then support children to produce their own spoken or written account.",
+            "Assess the quality of the investigation and explanation separately where needed, providing targeted language support without accepting confident wording as proof of accurate science."
+          ]
+        ],
+        [
+          5,
+          "Explain how to bridge everyday communication and academic language in a classroom.",
+          [
+            "Begin with a meaningful topic children can discuss from experience, listening to the ideas and expressions they already use rather than treating them as empty of knowledge.",
+            "Identify the additional language demands of the academic task, such as comparing evidence, describing a sequence or explaining a cause.",
+            "Model useful vocabulary and text structures with concrete examples, visuals and familiar-language connections so learners understand what the new expressions accomplish.",
+            "Provide supported discussion and writing, using temporary prompts and feedback while allowing learners to retain ownership of their ideas.",
+            "Gradually increase independence and review progress across tasks. The bridge concerns expanding communicative resources, not labelling everyday language as inferior or assuming conversational fluency eliminates the need for teaching."
+          ]
+        ],
+        [
+          5,
+          "Design a lesson using a local notice as a resource across language and social learning.",
+          [
+            "Select a suitable public notice with a clear purpose and no private personal information, ensuring that its language and visual presentation can be made accessible to the class.",
+            "Ask learners to identify who produced it, whom it addresses and what action or information it communicates, using evidence from the text.",
+            "Discuss important vocabulary, layout and any dates or quantities, linking reading with the practical context rather than treating the notice as isolated sentences.",
+            "Invite groups to create a clear notice for a real or imagined school purpose, considering audience, accuracy and accessibility in relevant languages.",
+            "Review whether another group can understand and act on the message, using the response to improve both language and awareness of responsible public communication."
+          ]
+        ],
+        [
+          5,
+          "Explain how to assess an academic explanation fairly in a multilingual classroom.",
+          [
+            "Define the subject understanding and reasoning required, alongside any specific language objective, so the assessment does not silently confuse the two.",
+            "Provide clear instructions and appropriate access supports, such as a diagram or familiar-language clarification, without supplying the reasoning being assessed.",
+            "Allow a suitable mode of response when the purpose permits, recording the support used and listening for relationships between claims, evidence and conclusions.",
+            "Give separate feedback on conceptual accuracy and language features that affect clarity, recognising that an accent or an early grammatical error need not invalidate sound reasoning.",
+            "Use the evidence to plan further teaching and opportunities for independent expression. Fair assessment should reveal learning and guide support, not reward only the learners already fluent in the dominant classroom language."
+          ]
+        ],
+        [
+          5,
+          "Describe how teachers from different subjects can collaborate on language development.",
+          [
+            "Identify common demands across current lessons, such as describing observations, comparing quantities or giving reasons, while noting the vocabulary specific to each subject.",
+            "Agree on clear models and a small set of useful supports, including accessible explanations and opportunities for oral rehearsal, rather than impose a single rigid answer template everywhere.",
+            "Plan tasks in which learners use language for genuine subject purposes, with connections that help them transfer strategies without losing disciplinary differences.",
+            "Review examples of learner work together to distinguish conceptual difficulties from language barriers and coordinate targeted feedback.",
+            "Evaluate whether participation and independent explanation improve, adjusting support accordingly. Collaboration should make subject learning more coherent and accessible rather than add disconnected worksheets or shift all responsibility to the language teacher."
+          ]
+        ]
+      ],
+      "pyqs": [
+        {
+          "id": "s1-3-2021-1-f",
+          "question": "Write one function of language.",
+          "marks": 1,
+          "answer": [
+            "Language can express personal needs, for example asking for drinking water."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "1(f)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-2-e",
+          "question": "What is “language learning and learning through language”?",
+          "marks": 2,
+          "answer": [
+            "Language learning develops the ability to understand and use a language, such as learning to tell a clear story.",
+            "Learning through language uses language to develop other knowledge, such as discussing why a seed needs water during an EVS activity."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "2(e)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2021-2-f",
+          "question": "As a language teacher design an activity to develop patriotism among the learners at the elementary level.",
+          "marks": 2,
+          "answer": [
+            "Organise a short storytelling circle about people from different Indian communities who helped others, using accessible languages and age-appropriate accounts.",
+            "Ask children to discuss shared values and create a class message about caring for their community, linking love of country with inclusion, respect and responsible action rather than hostility towards others."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2021,
+              "page": 1,
+              "questionNumber": "2(f)",
+              "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-3-b",
+          "question": "Discuss which aspects of learning can be developed through outside actions of a language classroom.",
+          "marks": 3,
+          "answer": [
+            "Interviews or conversations outside class develop listening, questioning and adapting speech to different people.",
+            "Observing signs, notices and local texts connects reading and vocabulary with real purposes and community knowledge.",
+            "Writing a brief account of a visit or experience develops organisation and reflection, bringing outside learning back into classroom discussion."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "3(b)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2022-3-d",
+          "question": "Describe the processes about language learning and learning through language.",
+          "marks": 3,
+          "answer": [
+            "Language learning develops listening, speaking, reading and writing through meaningful practice and appropriate attention to language forms.",
+            "Learning through language uses these abilities to explore content, such as reading a chart or explaining a science observation.",
+            "The processes interact: a class describing plant growth develops both conceptual understanding and language for sequence and change."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2022,
+              "page": 2,
+              "questionNumber": "3(d)",
+              "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
+              "verification": "visually-checked-original"
+            },
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "8",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-2-g",
+          "question": "Briefly write what aspects of learners linguistic development are possible through the activities inside the classroom.",
+          "marks": 2,
+          "answer": [
+            "Conversation, storytelling and discussion develop listening, vocabulary and spoken expression.",
+            "Shared reading and purposeful writing develop understanding of print, text organisation and expression, with feedback and accessible language support."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 3,
+              "questionNumber": "2(g)",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2023-6",
+          "question": "“Teaching through language refers to that teaching, where a language plays the role of a medium of instruction” — Justify the statement.",
+          "marks": 4,
+          "answer": [
+            "In teaching through language, language is used to explore and communicate the subject matter rather than being the only object of study.",
+            "For example, an EVS discussion about clean water uses questions, explanations and descriptions to build understanding of health and the environment.",
+            "Learners need access to both familiar meanings and relevant subject vocabulary, so teachers can use objects, pictures and home-language connections.",
+            "Effective teaching therefore develops content and the language needed to express it together; merely speaking at children in a language they do not understand does not ensure learning."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2023,
+              "page": 4,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2024-9",
+          "question": "Write about the importance of language in curriculum.",
+          "marks": 3,
+          "answer": [
+            "Language is a subject through which learners develop communication, literacy and appreciation of texts.",
+            "It is also used across subjects to understand instructions, discuss ideas, read information and explain reasoning.",
+            "Curriculum planning should therefore support relevant language in every subject, connecting home-language resources with academic expression so learners can participate meaningfully."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2024,
+              "page": 2,
+              "questionNumber": "9",
+              "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2025-2-d",
+          "question": "What is the full form of BICS and CALP.",
+          "marks": 2,
+          "answer": [
+            "BICS: Basic Interpersonal Communicative Skills.",
+            "CALP: Cognitive Academic Language Proficiency."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "2(d)",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2025-5",
+          "question": "Write any three functions of language outside the classroom.",
+          "marks": 3,
+          "answer": [
+            "It serves practical purposes such as asking directions or requesting help.",
+            "It builds social relationships through greetings, conversation and sharing experiences.",
+            "It carries community knowledge and creativity through stories, songs, notices and discussion of local events."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2025-6",
+          "question": "“Teaching through language refers to that teaching, where language plays the role of a medium of instruction” — Justify the statement.",
+          "marks": 3,
+          "answer": [
+            "Language provides the means for explaining, questioning and discussing subject content.",
+            "For example, learners use words for comparison and sequence when describing an experiment, developing knowledge through the discussion.",
+            "Teachers should make this language accessible through familiar meanings, examples and visual support; the goal is understanding the subject, not simply hearing unfamiliar terms."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2025,
+              "page": 2,
+              "questionNumber": "6",
+              "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-1-c",
+          "question": "What is the full form of BICS?",
+          "marks": 1,
+          "answer": [
+            "Basic Interpersonal Communicative Skills."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 1,
+              "questionNumber": "1(c)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-4-alternative",
+          "question": "Write about Cognitive Academic Language Proficiency (CALP)?",
+          "marks": 4,
+          "answer": [
+            "CALP refers to the language proficiency needed to understand and express ideas in academic tasks, such as explaining causes, comparing evidence and interpreting subject texts.",
+            "It includes relevant vocabulary, text organisation and ways of reasoning in school subjects, rather than simply knowing difficult words.",
+            "A learner may converse comfortably in everyday situations yet still need support for a written scientific explanation; conversational fluency alone does not establish readiness for every academic task.",
+            "Teachers can support academic language through models, diagrams, vocabulary in context and guided discussion and writing. Development varies with opportunities and support, so CALP should not become a fixed label for a child’s intelligence."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 2,
+              "questionNumber": "4 (alternative)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-5",
+          "question": "What is the place of language in the curriculum?",
+          "marks": 4,
+          "answer": [
+            "Language has a place as a subject, developing communication, literacy and engagement with literature and other texts.",
+            "It is also a medium for learning across mathematics, EVS, social studies and other areas.",
+            "Each subject uses particular vocabulary and forms of explanation, so its teacher shares responsibility for helping learners understand and use them.",
+            "Curriculum planning should connect home-language resources, oral interaction, reading and writing with meaningful content, making participation accessible rather than separating language from conceptual learning."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 2,
+              "questionNumber": "5",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        },
+        {
+          "id": "s1-3-2026-5-alternative",
+          "question": "State two functions of language inside and outside the classroom.",
+          "marks": 4,
+          "answer": [
+            "Inside the classroom, language supports inquiry: learners ask questions, explain observations and compare ideas.",
+            "It also organises participation through instructions, turn-taking and discussion of shared tasks.",
+            "Outside the classroom, language serves practical needs such as requesting help and exchanging information.",
+            "It also maintains social and cultural relationships through conversation, storytelling and community interaction. The same function can operate in both settings."
+          ],
+          "status": "verified",
+          "occurrences": [
+            {
+              "year": 2026,
+              "page": 2,
+              "questionNumber": "5 (alternative)",
+              "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
+              "verification": "visually-checked-original"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

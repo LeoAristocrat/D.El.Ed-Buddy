@@ -1,0 +1,1638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="D.El.Ed Semester I Study Notes">
+<meta name="description" content="Language, society, acquisition, diversity, multilingualism and language across the curriculum.">
+<meta name="keywords" content="D.El.Ed, Semester 1, S1.3, SCERT Assam, PSTE, teacher education, study notes">
+<meta name="subject" content="Diploma in Elementary Education (PSTE) — Semester I">
+<meta name="color-scheme" content="light">
+<title>S1.3 — Understanding Language and Early Language Development | D.El.Ed Semester I Notes</title>
+<link rel="icon" href="/favicon.svg">
+<style>
+/* ============================================================
+   D.El.Ed Semester 1 — Shared Design System
+   Premium academic notebook aesthetic
+   ============================================================ */
+
+:root {
+  /* --- Paper & surface --- */
+  --paper:          #faf6ee;
+  --paper-deep:     #f3ece0;
+  --card:           #fffdf8;
+  --card-beige:     #f6efe2;
+  --card-beige-2:   #f2e9d8;
+
+  /* --- Ink --- */
+  --ink:            #33302b;
+  --ink-soft:       #55504a;
+  --ink-faint:      #7a736a;
+  --rule:           #ded2bd;
+  --rule-soft:      #e9e0cf;
+
+  /* --- Accents --- */
+  --terracotta:     #b4623c;
+  --terracotta-d:   #8f4a2a;
+  --terracotta-bg:  #f7e9e0;
+  --olive:          #6d7a4a;
+  --olive-d:        #54603a;
+  --olive-bg:       #ecefdd;
+  --dusty-blue:     #4c6a83;
+  --dusty-blue-bg:  #e5ecf2;
+  --plum:           #7a5570;
+  --plum-bg:        #f1e8ee;
+  --gold:           #a5822e;
+  --gold-bg:        #f7efd8;
+
+  /* --- Type --- */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+           Georgia, "Times New Roman", serif;
+  --sans:  "Segoe UI", "Gill Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  --mono:  "Consolas", "SF Mono", "Menlo", monospace;
+
+  --fs-body: 10.6pt;
+  --lh-body: 1.62;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 34px 20px 80px;
+  font-family: var(--serif);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.20) 1px, transparent 0);
+  background-size: 22px 22px;
+  background-attachment: fixed;
+}
+
+/* ============ Document container ============ */
+.doc {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(120, 100, 70, 0.06),
+    0 10px 34px -14px rgba(90, 72, 45, 0.22);
+  padding: 46px 56px 64px;
+  position: relative;
+}
+.doc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0);
+  background-size: 22px 22px;
+  opacity: 0.75;
+}
+.doc > * { position: relative; z-index: 1; }
+
+/* ============ Hero / subject header ============ */
+.hero {
+  border: 1px solid var(--rule);
+  border-top: 5px solid var(--terracotta);
+  background: linear-gradient(180deg, #fffdf8 0%, #f7f0e3 100%);
+  padding: 26px 30px 22px;
+  margin-bottom: 26px;
+  border-radius: 3px;
+}
+.hero .kicker {
+  font-family: var(--sans);
+  font-size: 8.4pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-size: 25pt;
+  line-height: 1.16;
+  margin: 0 0 4px;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.hero .code {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--paper);
+  background: var(--ink);
+  padding: 3px 11px;
+  border-radius: 2px;
+  margin: 0 0 12px;
+}
+.hero .tagline {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 4px;
+  max-width: 62ch;
+}
+/* The divider doubles as the maker-credit row: rule on the left, credit on the
+   right. Keeping them on one line costs no vertical space in the hero, which
+   the one-page-before-Unit-1 budget cannot spare. */
+.hero .rule-line {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 13px 0 12px;
+}
+.hero .rule-line::before {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, var(--terracotta), var(--rule) 55%, transparent);
+}
+.made-by {
+  flex: 0 0 auto;
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+.made-by .heart {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", var(--sans);
+  font-size: 8.4pt;
+}
+.made-by a {
+  color: var(--terracotta-d);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+}
+.made-by a:hover { border-bottom-color: var(--terracotta); }
+
+/* ============ At a glance ============ */
+.glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.glance .g-item {
+  flex: 1 1 152px;
+  background: #fffdf8;
+  padding: 9px 12px 10px;
+}
+.glance .g-label {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 2px;
+}
+.glance .g-value {
+  font-size: 9.6pt;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.34;
+}
+
+/* ============ Table of contents ============ */
+.toc {
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--olive);
+  background: #fcf9f2;
+  padding: 20px 24px 18px;
+  border-radius: 3px;
+  margin: 26px 0 30px;
+}
+.toc h2 {
+  font-family: var(--sans);
+  font-size: 9.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  margin: 0 0 12px;
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+}
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
+.toc > ol > li {
+  counter-increment: toc;
+  margin: 0 0 9px;
+}
+.toc > ol > li > a {
+  font-weight: 700;
+  font-size: 10.6pt;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.toc > ol > li > a:hover { color: var(--terracotta-d); border-bottom-color: var(--terracotta); }
+.toc > ol > li > a::before {
+  content: counter(toc, upper-roman) " · ";
+  color: var(--terracotta);
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.toc .sub {
+  margin: 4px 0 0 4px;
+  padding: 0 0 0 14px;
+  list-style: none;
+  border-left: 1px solid var(--rule-soft);
+  columns: 2;
+  column-gap: 26px;
+}
+.toc .sub li {
+  font-size: 9.4pt;
+  color: var(--ink-soft);
+  line-height: 1.48;
+  margin-bottom: 2px;
+  break-inside: avoid;
+}
+.toc .sub a { color: inherit; text-decoration: none; }
+.toc .sub a:hover { color: var(--terracotta-d); }
+
+/* ============ Headings ============ */
+h2 {
+  font-size: 16.5pt;
+  line-height: 1.22;
+  margin: 40px 0 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  padding: 0 0 9px 15px;
+  border-left: 5px solid var(--terracotta);
+  border-bottom: 1px solid var(--rule);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h2 .h2num {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+h3 {
+  font-size: 12.6pt;
+  line-height: 1.3;
+  margin: 26px 0 8px;
+  font-weight: 700;
+  color: #3d3933;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  background: var(--olive);
+  border-radius: 50%;
+  margin-right: 9px;
+  vertical-align: 0.06em;
+}
+
+h4 {
+  font-size: 10.9pt;
+  line-height: 1.35;
+  margin: 18px 0 6px;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--terracotta-d);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h5 {
+  font-size: 9.9pt;
+  margin: 14px 0 4px;
+  font-weight: 700;
+  color: var(--olive-d);
+  font-family: var(--sans);
+  letter-spacing: 0.03em;
+  break-after: avoid;
+}
+
+/* ============ Body text ============ */
+p { margin: 0 0 10px; text-align: justify; hyphens: auto; }
+p.tight { margin-bottom: 4px; }
+.doc > p, .unit-body > p { max-width: 74ch; }
+
+strong, b { font-weight: 700; color: #26231f; }
+
+em { font-style: italic; }
+
+.lead {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 72ch;
+}
+
+/* ============ Lists ============ */
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 5px; }
+li > ul, li > ol { margin-top: 5px; margin-bottom: 3px; }
+
+ul.bul { list-style: none; padding-left: 0; }
+ul.bul > li {
+  position: relative;
+  padding-left: 17px;
+  margin-bottom: 6px;
+}
+ul.bul > li::before {
+  content: "▸";
+  position: absolute;
+  left: 2px;
+  top: -0.02em;
+  color: var(--terracotta);
+  font-size: 0.92em;
+}
+
+ul.check { list-style: none; padding-left: 0; }
+ul.check > li { position: relative; padding-left: 20px; margin-bottom: 5px; }
+ul.check > li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--olive);
+  font-weight: 700;
+  font-size: 0.88em;
+}
+
+ol.num { list-style: none; counter-reset: n; padding-left: 26px; }
+ol.num > li { position: relative; margin-bottom: 7px; counter-increment: n; }
+ol.num > li::before {
+  content: counter(n) ".";
+  position: absolute;
+  left: -22px;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  font-family: var(--sans);
+  font-size: 0.88em;
+}
+
+dl { margin: 0 0 12px; }
+dt { font-weight: 700; color: #26231f; margin-top: 8px; }
+dd { margin: 2px 0 0 0; }
+
+abbr { text-decoration: none; border-bottom: 1px dotted var(--ink-faint); }
+
+/* ============ Callout cards ============ */
+.card {
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 12px 16px 13px;
+  margin: 14px 0;
+  background: #fffdf8;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.card > :last-child { margin-bottom: 0; }
+.card p { text-align: left; }
+
+.card .lbl {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.def {
+  background: #fdf6ec;
+  border-color: #e3d2b6;
+  border-left: 4px solid var(--gold);
+}
+.def .lbl { color: var(--gold); }
+
+.idea {
+  background: var(--olive-bg);
+  border-color: #d3d9bd;
+  border-left: 4px solid var(--olive);
+}
+.idea .lbl { color: var(--olive-d); }
+
+.rem {
+  background: var(--terracotta-bg);
+  border-color: #e8cebc;
+  border-left: 4px solid var(--terracotta);
+}
+.rem .lbl { color: var(--terracotta-d); }
+
+.ex {
+  background: #f4f1fa;
+  border-color: #d9d0e8;
+  border-left: 4px solid #6b5a94;
+}
+.ex .lbl { color: #5b4c80; }
+
+.cls {
+  background: var(--dusty-blue-bg);
+  border-color: #ccd9e3;
+  border-left: 4px solid var(--dusty-blue);
+}
+.cls .lbl { color: #3d5a71; }
+
+.exam {
+  background: #fbf4e3;
+  border-color: #e6d5aa;
+  border-left: 4px solid #a5822e;
+}
+.exam .lbl { color: #856722; }
+
+.mist {
+  background: #f9ecec;
+  border-color: #eccfcf;
+  border-left: 4px solid #a44b4b;
+}
+.mist .lbl { color: #8b3c3c; }
+
+.refl {
+  background: var(--plum-bg);
+  border-color: #dfcddd;
+  border-left: 4px solid var(--plum);
+}
+.refl .lbl { color: #654761; }
+
+.quick {
+  background: #f4f6ef;
+  border-color: #d6dcc4;
+  border-left: 4px solid #7d8a52;
+}
+.quick .lbl { color: #5f6a38; }
+
+/* inline term highlight */
+.term {
+  background: #f2ead6;
+  padding: 0 3px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+mark.hl {
+  background: #f6e7c4;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ============ Tables ============ */
+.tw {
+  margin: 14px 0 16px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fffdf8;
+}
+.tw.tkeep { break-inside: avoid; page-break-inside: avoid; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.1pt;
+  line-height: 1.46;
+}
+caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  padding: 9px 12px 7px;
+  background: #f6f1e6;
+  border-bottom: 1px solid var(--rule);
+}
+th {
+  background: #efe8d8;
+  color: #3a342b;
+  font-family: var(--sans);
+  font-size: 8.2pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+th:last-child { border-right: 0; }
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--rule-soft);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+  text-align: left;
+}
+td:last-child { border-right: 0; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:nth-child(even) td { background: #fcf8f0; }
+table.compact { font-size: 8.6pt; }
+table.compact th, table.compact td { padding: 5px 8px; }
+
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+
+/* ============ Figure / diagram ============ */
+figure {
+  margin: 18px 0;
+  padding: 14px 16px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fcf9f2;
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+figure svg { max-width: 100%; height: auto; }
+figcaption {
+  font-family: var(--sans);
+  font-size: 7.8pt;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+  margin-top: 8px;
+  text-align: center;
+}
+figcaption b { color: var(--ink-soft); }
+
+/* ============ Unit review block ============ */
+.review {
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--olive);
+  background: #fbf8f0;
+  border-radius: 3px;
+  padding: 16px 20px 18px;
+  margin: 22px 0 30px;
+}
+.review h4 {
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  font-style: normal;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
+}
+.review h5 {
+  font-size: 8.4pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  margin: 13px 0 5px;
+  font-family: var(--sans);
+}
+.review h5:first-of-type { margin-top: 9px; }
+.review p { text-align: left; }
+.review > :last-child { margin-bottom: 0; }
+
+.qa { margin: 0; }
+.qa .q { margin-bottom: 8px; break-inside: avoid; page-break-inside: avoid; }
+.qa .qt {
+  font-family: var(--sans);
+  font-size: 7.2pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--ink-soft);
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+.qa .q.l { border-left: 3px solid var(--terracotta); padding-left: 9px; }
+.qa .q.s { border-left: 3px solid var(--olive); padding-left: 9px; }
+.qa .q.v { border-left: 3px solid var(--dusty-blue); padding-left: 9px; }
+.qa .q p { margin: 0; text-align: left; display: inline; }
+
+/* ============ Subject card grid (project index only) ============ */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 14px;
+  margin: 18px 0 24px;
+}
+.subjcard {
+  display: block;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--terracotta);
+  border-radius: 3px;
+  background: #fffdf8;
+  padding: 13px 15px 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.subjcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -8px rgba(90, 72, 45, .45);
+}
+.subjcard .sc-code {
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--terracotta-d);
+}
+.subjcard .sc-title {
+  font-size: 11.4pt;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 4px 0 6px;
+  color: var(--ink);
+}
+.subjcard .sc-desc {
+  font-size: 9pt;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin-bottom: 9px;
+}
+.subjcard .sc-meta {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 7px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.subjcard.olive { border-top-color: var(--olive); }
+.subjcard.olive .sc-code { color: var(--olive-d); }
+.subjcard.blue { border-top-color: var(--dusty-blue); }
+.subjcard.blue .sc-code { color: #3d5a71; }
+.subjcard.gold { border-top-color: var(--gold); }
+.subjcard.gold .sc-code { color: #856722; }
+
+.linkpair {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.08em;
+  margin-top: 7px;
+  display: flex;
+  gap: 12px;
+}
+.linkpair a { color: var(--terracotta-d); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.linkpair a:hover { border-bottom-color: var(--terracotta); }
+
+.tocwide { columns: 2; column-gap: 30px; }
+.tocwide li { break-inside: avoid; }
+
+/* ============ Misc components ============ */
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 18px;
+}
+.chip {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  padding: 3px 11px;
+}
+
+.hr {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+  margin: 30px 0;
+}
+
+.footnote {
+  font-size: 8.6pt;
+  color: var(--ink-faint);
+  line-height: 1.5;
+}
+
+/* two-column comparison */
+.two-col { column-count: 2; column-gap: 30px; column-rule: 1px solid var(--rule-soft); }
+.two-col > * { break-inside: avoid; }
+
+/* ============ Responsive ============ */
+@media (max-width: 780px) {
+  body { padding: 14px 8px 40px; background-size: 18px 18px; }
+  .doc { padding: 26px 20px 36px; border-radius: 3px; }
+  .hero { padding: 20px 18px 18px; }
+  .hero h1 { font-size: 20pt; }
+  h2 { font-size: 14.5pt; padding-left: 11px; border-left-width: 4px; }
+  h3 { font-size: 11.6pt; }
+  .toc .sub { columns: 1; }
+  .tocwide { columns: 1; }
+  .two-col { column-count: 1; }
+  table { font-size: 8.4pt; }
+}
+
+/* ============================================================
+   PRINT / PDF  —  A4
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 15mm 14mm 16mm 14mm;
+}
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+    background-image: none !important;
+  }
+  body { padding: 0; font-size: 10.1pt; line-height: 1.56; }
+  .doc {
+    max-width: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .doc::before { display: none; }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Keep a whisper of the notebook dot-grid on the page, but far fainter
+     than on screen so a 70-page print run does not look noisy. */
+  .doc {
+    background-color: #fffdf8 !important;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0) !important;
+    background-size: 5.6mm 5.6mm !important;
+  }
+
+  h2, h3, h4, h5 { break-after: avoid; page-break-after: avoid; }
+  h2 { margin-top: 20pt; }
+
+  .card, figure, .qa .q, .tw.tkeep, tr, .chip-row { break-inside: avoid; page-break-inside: avoid; }
+  .tw, .card, .review { break-inside: auto; page-break-inside: auto; }
+
+  thead { display: table-header-group; }
+  tfoot { display: table-footer-group; }
+  p, li { orphans: 2; widows: 2; }
+
+  a { color: inherit; text-decoration: none; }
+  .made-by a { border-bottom: 0; }
+
+  .toc a { color: var(--ink); }
+
+  /* page-break control utility classes */
+  .pb { break-before: page; page-break-before: always; }
+  .avoid { break-inside: avoid; page-break-inside: avoid; }
+}
+
+</style>
+</head>
+<body>
+<article class="doc">
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="kicker">D.El.Ed &mdash; Semester I</div>
+  <div class="code">S1.3</div>
+  <h1>Understanding Language and Early Language Development</h1>
+  <p class="tagline">Language as communication, as thought, as culture, and as the medium through which an elementary teacher teaches everything else.</p>
+  <div class="rule-line"><span class="made-by">Made with <span class="heart">&#10084;&#65039;</span> by <strong>Sayeem Sadik</strong> &middot; <a href="https://leoaristocrat.eu.cc">leoaristocrat.eu.cc</a></span></div>
+  <div class="glance">
+    <div class="g-item"><div class="g-label">Units</div><div class="g-value">4</div></div>
+    <div class="g-item"><div class="g-label">Credits</div><div class="g-value">2</div></div>
+    <div class="g-item"><div class="g-label">Marks</div><div class="g-value">35 Ext + 15 Int = 50</div></div>
+    <div class="g-item"><div class="g-label">Periods / week</div><div class="g-value">2&ndash;3</div></div>
+  </div>
+</header>
+
+<!-- ============ CONTENTS ============ -->
+<nav class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#unit-1">Unit 1 &mdash; Language and Communication in Society (10)</a>
+        <ul class="sub">
+        <li><a href="#s1-1">1.1 Nature of language; nature of knowledge</a></li>
+        <li><a href="#s1-2">1.2 Need of language for acquiring other knowledge</a></li>
+        <li><a href="#s1-3">1.3 Language is dynamic, creative, arbitrary and perpetual</a></li>
+        <li><a href="#s1-4">1.4 Language as integral part of culture and mark of identity and heritage</a></li>
+        <li><a href="#s1-5">1.5 Language as a tool of self-expression</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-2">Unit 2 &mdash; Language Acquisition and Learning (10)</a>
+        <ul class="sub">
+        <li><a href="#s2-1">2.1 Language and the child</a></li>
+        <li><a href="#s2-2">2.2 Home language, school language and the transition between them</a></li>
+        <li><a href="#s2-3">2.3 Acquisition of language skills; Foundational Literacy and Numeracy</a></li>
+        <li><a href="#s2-4">2.4 Structure of language: phonology, orthography, phonics</a></li>
+        <li><a href="#s2-5">2.5 Morphology, phonics and phonology</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-3">Unit 3 &mdash; Language Diversity and Multilingualism (9)</a>
+        <ul class="sub">
+        <li><a href="#s3-1">3.1 Constitutional provisions about language</a></li>
+        <li><a href="#s3-2">3.2 Multilingualism and the multilingual classroom</a></li>
+        <li><a href="#s3-3">3.3 Language diversity in the context of Assam</a></li>
+        <li><a href="#s3-4">3.4 Multilingualism as a resource; role of the teacher</a></li>
+        <li><a href="#s3-5">3.5 The three-language formula (R-1, R-2, R-3)</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-4">Unit 4 &mdash; Language across the Curriculum (6)</a>
+        <ul class="sub">
+        <li><a href="#s4-1">4.1 Place of language in the curriculum</a></li>
+        <li><a href="#s4-2">4.2 Language learning and learning through language</a></li>
+        <li><a href="#s4-3">4.3 Functions of language inside and outside classroom and school</a></li>
+        <li><a href="#s4-4">4.4 BICS and CALP</a></li>
+    </ul>
+    </li>
+    <li><a href="#practicum">Practicum &mdash; Activities and Portfolio</a></li>
+    <li><a href="#internal">Internal Assessment &mdash; 15 Marks</a></li>
+    <li><a href="#revision">Quick Subject Revision</a></li>
+    <li><a href="#differences">Important Differences</a></li>
+    <li><a href="#course-info">Course Information</a></li>
+    <li><a href="#readings">Suggested Readings</a></li>
+  </ol>
+</nav>
+
+<!-- ============ UNIT 1 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-1"><span class="h2num">Unit 1</span>Language and Communication in Society</h2>
+
+  <p>Unit 1 is the conceptual base of the paper. Before asking how language is learned, it asks what language <em>is</em> and why societies cannot do without it. The four adjectives in 1.3 &mdash; dynamic, creative, arbitrary, perpetual &mdash; describe four properties that explain almost everything else in this paper, including why a home language cannot simply be replaced by a school language.</p>
+
+  <h3 id="s1-1">1.1 Nature of Language; Nature of Knowledge</h3>
+
+  <p><strong>Language</strong> is a system of communication &mdash; a definition that is correct as far as it goes, but incomplete in a way that matters for a teacher, because it leaves out the two things language actually does: it represents thought, and it creates thought. Every human language has four basic properties. It uses a limited set of sounds, or <em>phonemes</em>, and combines them systematically; it combines those sounds into meaningful units called words; it arranges words into sentences according to rules of order and combination; and it attaches meaning to the result and to the manner of using it.</p>
+
+  <p><strong>Knowledge</strong>, in the sense used in this paper, means organised, shareable and verifiable information: knowing that a seed grows, that water boils at a certain temperature, that two and two make four. Two properties of it are decisive. Knowledge is <em>cumulative</em> &mdash; it accumulates and is handed down, so that each generation begins with the work of the last. And it is <em>collaborative</em> &mdash; a person alone in a forest may discover that fire is useful, but the useful knowledge of fire is the socially stored, socially transmitted kind.</p>
+
+  <div class="card def"><span class="lbl">Definition</span><p><strong>Language</strong> is a conventional and systematic symbol system used by a human community for exchanging messages, for representing thought and for creating meaning &mdash; made of sounds and written symbols, governed by rules of combination and equally by conventions of use.</p></div>
+
+  <p>Human beings do not think in symbols and then wrap meaning around them; they think <em>in</em> language. L. S. Vygotsky, in <em>Thought and Language</em> (1934), put the matter at its strongest: the higher mental functions &mdash; abstract reasoning, planning, self-awareness, voluntary attention &mdash; have no natural existence apart from language. Words are not labels pasted on ideas that exist independently; concepts such as <em>fair</em>, <em>cruel</em> or <em>possible</em> have no meaning outside a language, because a word is a <strong>concept</strong> and a <strong>cultural object</strong> at once. The stock of ideas a speaker owns is bounded by the stock of words that speaker owns.</p>
+
+  <p>The implication for a primary teacher is direct. If concept and word are bound together, a child still acquiring words in a second language is also still acquiring the <em>concepts</em> those words carry. Telling a Class II child that the Assamese word for rain and the English word <em>rain</em> name the same object does not give the child the idea of rain; the idea is built through the language in which the surrounding adults discuss it. This is the strongest argument for teaching the early years in the child's mother tongue &mdash; and it is an argument from the nature of knowledge, not from sentiment.</p>
+
+  <h3 id="s1-2">1.2 Need of Language for Acquiring Other Knowledge</h3>
+
+  <p>Nothing in a school happens except through language. The child's <strong>first acquisition</strong> of any subject is linguistic. Before a child can count they must know the number words; before they can add they must understand the words of the operation; before they can understand that a plant needs water they must understand the sentences in which the fact is embedded. Subject knowledge does not sit beside language in a school timetable; it arrives through it, and in an early primary class it <em>is</em> it.</p>
+
+  <div class="tw">
+  <table>
+    <caption>Table 1.1 &mdash; Language as the route to other learning</caption>
+    <thead><tr><th>Subject / activity</th><th>What the child needs from language</th><th>What breaks without it</th></tr></thead>
+    <tbody>
+      <tr><td>Learning to read</td><td>Print concepts; the relation of spoken word to written word</td><td>Decoding fails; the child reads words, not meaning</td></tr>
+      <tr><td>Learning mathematics</td><td>Counting words, operation terms, the language of the problem statement</td><td>The child can manipulate objects but cannot read the problem</td></tr>
+      <tr><td>Learning science</td><td>Names of materials and processes; cause-and-effect phrasing</td><td>Observation becomes guesswork; explanation is impossible</td></tr>
+      <tr><td>Learning social studies / EVS</td><td>Narrative and expository comprehension; place and time vocabulary</td><td>Facts are memorised without connection</td></tr>
+      <tr><td>Discipline and classroom life</td><td>Imperatives, questions, praise, warnings, rules</td><td>Behaviour becomes noise rather than communication</td></tr>
+      <tr><td>Assessment</td><td>The language in which questions are set and answers given</td><td>The child is assessed on English, not on the subject</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Look at the last row. Where the child does not yet control the medium of instruction, an examination measures the child's language, and marks attributed to the subject are really marks attributed to language. The practical consequence is a language-sensitive pedagogy: teach the subject <em>in</em> the child's language first, and treat the school language as a second acquisition rather than as the gate through which the subject must pass.</p>
+
+  <p>A second reason the need is absolute is that knowledge itself is inherited through language. No child invents the alphabet, its value system or the number system; each generation receives a compressed account of the past in words and enlarges it. When a child asks, as children do, <em>who made words?</em>, the honest answer is that nobody did in any final sense &mdash; words were made by long collective use. That is precisely why language is a <em>social</em> object and not a private one.</p>
+
+  <h3 id="s1-3">1.3 Language is Dynamic, Creative, Arbitrary and Perpetual</h3>
+
+  <p>The syllabus compresses four properties of language into one line, and each produces a different classroom consequence.</p>
+
+  <p><strong>Dynamic</strong> means that language is alive and changes. New words enter it because new things need naming; old words change or disappear because the things they named have gone. A Class III teacher in Assam meets this directly: a child brings the word <em>laptop</em> or <em>solar inverter</em> and the textbook has never seen it. Because language is dynamic, <strong>no fixed word list is ever finished</strong>, and a teacher who treats the textbook's vocabulary as the total vocabulary of the language is teaching a dead language.</p>
+
+  <p><strong>Creative</strong> means that language is not a closed inventory but a rule-governed capacity. A speaker who has never heard the word <em>unbelievable</em> can produce it correctly from the <em>un-</em> + <em>believe</em> + <em>-able</em> pattern. Combinatorial productivity &mdash; a limited number of units yielding an unlimited number of meaningful wholes &mdash; is what makes language a <em>system</em> rather than a list, and it is why teaching <em>patterns</em> is more useful than teaching lists.</p>
+
+  <p><strong>Arbitrary</strong> means that there is no necessary connection between the form of a word and what it means. The word <em>water</em> does not contain water, does not sound like water, and could have been called anything. A language's signs are conventional, and only convention holds them steady. Some signs are <em>motivated</em> &mdash; onomatopoeic, or iconic in gesture &mdash; but the system as a whole rests on convention, and it is arbitrary in a practically important sense: a child cannot infer meaning from a printed page, because print is the most arbitrary form of all. This is the theoretical reason why reading has to be taught and cannot be left to happen.</p>
+
+  <div class="tw tkeep">
+  <table>
+    <caption>Table 1.2 &mdash; Arbitrary and motivated signs</caption>
+    <thead><tr><th>Sign</th><th>Type</th><th>Basis of the form&ndash;meaning link</th></tr></thead>
+    <tbody>
+      <tr><td>The word <em>table</em></td><td>Arbitrary</td><td>Convention only; no resemblance to a table</td></tr>
+      <tr><td>The written letter <em>b</em></td><td>Arbitrary</td><td>Convention only; no resemblance to the sound</td></tr>
+      <tr><td>An imitation of a cow's call</td><td>Motivated</td><td>Sound imitates the referent</td></tr>
+      <tr><td>A shrug</td><td>Iconic</td><td>The body sketches the meaning</td></tr>
+      <tr><td>Red traffic signal</td><td>Conventional</td><td>Society assigns the meaning</td></tr>
+      <tr><td>Crossed fingers for luck</td><td>Conventional</td><td>Culture, not logic, assigns it</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p><strong>Perpetual</strong> means that language is never finished and never finishes. Its perpetuity is the direct result of the other three: because it is arbitrary it can grow, because it is dynamic it does grow, and because it is creative the growth is unlimited combination. For the teacher, perpetuity is an argument for <em>humility about the textbook</em> and for treating children as contributors. A Class IV child who brings a new word or a new construction is not making a mistake in the language; the language is doing what it has always done.</p>
+
+  <div class="card mist"><span class="lbl">Common Mistake</span><p>Do not answer "language is arbitrary" as "language is meaningless". Arbitrariness means there is <em>no natural resemblance</em> between sign and referent; it does not mean a sign has no meaning. A sign has meaning because a community agrees that it has meaning, and that agreement is binding within the community.</p></div>
+
+  <h3 id="s1-4">1.4 Language as an Integral Part of Culture and a Mark of Cultural Identity and Heritage</h3>
+
+  <p><strong>Culture</strong> is the whole of a community's way of life &mdash; food, dress, dwelling, work, festivals, religious practice, music, forms of address, rules of politeness. Language is integral to this in a double sense. It <em>records</em> culture, in proverbs, folk tales, songs, the names of plants and animals, kinship terms, and words for weaving and fishing. And it <em>carries</em> culture: the manner of speaking itself enacts culture, since forms of address in Assamese differ by age and relationship, certain intonations carry politeness, and the choice of code between two speakers is itself a cultural act.</p>
+
+  <p>Consider a small set of words that cannot be borrowed without loss: a mother, a grandmother, a younger sister, a rice-paddy, the first-flood rains, a particular loom, a particular folk song. These words mark a way of life. A community that stops using them does not merely lose vocabulary; it loses the practice, and then the memory, because once the name is gone the custom becomes hard to describe. Language is therefore a <strong>storehouse of cultural heritage</strong> and a <strong>record of a community's history</strong> &mdash; the history of a community is written in its proverbs, place names, oral traditions and loan words, which show who traded with whom and worshipped what.</p>
+
+  <p>From this follows the weight of <strong>cultural identity</strong>. Language is a <em>mark of identity</em> because it is one of the last and most visible signs of who a person belongs to: a person's name, mother tongue, script and idiom travel with them, and drop them into an unfamiliar linguistic setting and they are marked as outsiders. When a school takes away the language a child brings, it is making a statement about who in the community is at home. This is why NEP 2020 and NCF-SE 2023 place the home language at the centre of the foundational stage, and why the folk-tale activity in this paper's practicum is not decoration: bringing a folk tale or folk song into the classroom is an act of recognition.</p>
+
+  <p>A corresponding warning belongs here. Cultures are not sealed boxes, and a culture is not a museum. Language change is not cultural loss, and borrowing is not betrayal: the Jughon with Mising, or the tea-garden worker who speaks Sadri at home and Assamese in the bazaar, is using a repertoire. What damages culture is not plurality but the <em>disappearance of opportunities to use a language in public</em> &mdash; no school that will teach it, no signboard that will use it, no elder left to ask.</p>
+
+  <h3 id="s1-5">1.5 Language as a Tool of Self-Expression</h3>
+
+  <p>The fifth point is the most personal. <strong>Self-expression</strong> is the process by which a person makes an inner state available to others and thereby to themselves. Language is the ordinary tool of the process, but it is a tool with a particular shape: it works by <em>selecting</em>. To speak is to choose a word from among many, and so to select one perspective rather than another. A child who says "the <em>garhi</em> is broken" is making a statement; one who says "she broke my pen" is making a claim; one who says "I could not finish it" is making an excuse. The grammar lesson is the ethics lesson: language is where thinking becomes visible and therefore available to challenge.</p>
+
+  <p>Language also shapes the self-conception available to a child. A child who is spoken to warmly at home, whose jokes are laughed at, whose questions are answered seriously, grows up with a self that <em>speaks</em>. A child whose language is ridiculed, or whose questions are met with "don't speak, we can't understand", learns to be silent. Silencing is not only the loss of a vocabulary; it is the loss of a self that is permitted to exist. This is the most important reason a teacher must notice <em>how</em> children speak to one another, and not only what is said.</p>
+
+  <p>For the elementary classroom this has three consequences. <strong>Expression needs a repertoire</strong>: a child with a small vocabulary can express want ("more", "water", "no") but not reasoning ("because", "if", "instead"), so a programme of language development is also a programme of reasoning. <strong>Expression needs a listener</strong>: telling, asking, explaining, discussing and singing must be built into the daily routine.</p>
+
+  <p><strong>Expression needs permission</strong>: a classroom in which only the confident child is answered and the quiet one overlooked is producing a silent half of the class. This is why the compulsory practicum activity &mdash; debate, extempore speech, storytelling, role play &mdash; is on the syllabus: debate requires a position and a reason, extempore requires thinking while speaking, storytelling requires sequencing, voice and audience, and role play requires the child to stand outside their own view.</p>
+</section>
+<!-- ============ UNIT 2 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-2"><span class="h2num">Unit 2</span>Language Acquisition and Learning</h2>
+
+  <p>Unit 1 described language as a social object. Unit 2 turns to the individual: how a child comes to have a language, in what order the pieces arrive, and what happens to a child whose first language is not the language of the school. It also gives the technical content of the syllabus &mdash; the structure of language, phonology, phonics and morphology &mdash; as a set of rules and patterns teachable from a text.</p>
+
+  <h3 id="s2-1">2.1 Language and the Child</h3>
+
+  <p>Every child is born with a capacity for language, but not with a particular language. What the child has at birth is a <strong>biological preparedness</strong>: an ear that can discriminate the sounds of human speech, a vocal apparatus that can produce them, and a brain that detects regularities in a stream of sound and stores them. Between roughly six and twelve months a child enters the <strong>babbling period</strong>. This matters for the theory of acquisition, because the sounds the child produces are <em>not</em> random: the child favours, at the earliest stage, the sounds of the language the child is <em>hearing</em>. A child hearing only Assamese produces Assamese-like syllables; a child hearing Bengali produces Bengali-like syllables. The environment selects from a shared human repertoire.</p>
+
+  <p>Between one and two years the child produces single words, and the <strong>first words are a signal of what a word is for</strong>: the child who says <em>milk</em> is not practising a sound but referring to something wanted or present. Shortly afterwards come two-word combinations, and the crucial observation &mdash; made first by Beatrice Skelland Beadle and Mary Agassi in the 1930s and used ever since &mdash; is that these are the first sign of <strong>grammar</strong>. The child says <em>more milk</em> (modifier before noun), <em>open door</em> (verb before object), <em>all gone</em>. The child has never been taught the rule; the child has deduced that the language orders units, and is applying the rule to a new word.</p>
+
+  <p>Between two and six years the child is in the <strong>pre-scholastic stage of language</strong>, and the range of growth is enormous: vocabulary expands rapidly, sentences lengthen, and questions, negation, tense, comparison, sequence and condition appear. The child also shifts from talking <em>about</em> things to talking <em>about</em> talk. That shift, <em>metalinguistic awareness</em>, is the foundation of literacy, of grammar teaching, and of the school's ability to explain language at all. In a multilingual environment the child does not acquire a confused mixture; the child sorts the languages by <em>situation and interlocutor</em>. Talking to a grandmother produces one repertoire, talking to a shopkeeper another, a school teacher a third. This <em>code-switching</em> is not confusion but an awareness of social context, and it is a resource.</p>
+
+  <figure>
+  <svg viewBox="0 0 760 202" role="img" aria-label="Timeline of language milestones from birth to eight years">
+    <line x1="52" y1="104" x2="716" y2="104" stroke="#7a736a" stroke-width="2"/>
+    <g fill="#b4623c"><circle cx="60" cy="104" r="7"/></g>
+    <text x="60" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#8f4a2a" text-anchor="middle">Birth</text>
+    <text x="60" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">preparedness</text>
+    <text x="60" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">for speech</text>
+    <g fill="#b4623c"><circle cx="170" cy="104" r="7"/></g>
+    <text x="170" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#8f4a2a" text-anchor="middle">6&ndash;12 months</text>
+    <text x="170" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">babbling; environment</text>
+    <text x="170" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">selects the sounds</text>
+    <g fill="#6d7a4a"><circle cx="285" cy="104" r="7"/></g>
+    <text x="285" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#54603a" text-anchor="middle">1&ndash;2 years</text>
+    <text x="285" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">first words</text>
+    <text x="285" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">two-word combos</text>
+    <g fill="#6d7a4a"><circle cx="410" cy="104" r="7"/></g>
+    <text x="410" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#54603a" text-anchor="middle">2&ndash;3 years</text>
+    <text x="410" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">questions, tense,</text>
+    <text x="410" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">negation, plurals</text>
+    <g fill="#4c6a83"><circle cx="540" cy="104" r="7"/></g>
+    <text x="540" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#3d5a71" text-anchor="middle">3&ndash;5 years</text>
+    <text x="540" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">narrative, argument,</text>
+    <text x="540" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">rhythm, rhyme</text>
+    <g fill="#a5822e"><circle cx="676" cy="104" r="7"/></g>
+    <text x="676" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#856722" text-anchor="middle">5&ndash;8 years</text>
+    <text x="676" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">school language;</text>
+    <text x="676" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">reading begins</text>
+    <text x="380" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#7a736a" text-anchor="middle">Approximate ranges only; a child later in speech is not necessarily later in language.</text>
+  </svg>
+  <figcaption><b>Figure 2.1</b> &mdash; Broad milestones of early language development from birth to the age of school entry.</figcaption>
+  </figure>
+
+  <p>Two things follow for the classroom. The child arrives with a substantial language system, whatever the school thinks of it, so the teacher's task is <em>extension</em> rather than <em>installation</em>. And the early years are the years in which a child's language is most vulnerable &mdash; to ridicule, to correction of accent, to the assumption that a language other than the school's is a nuisance.</p>
+
+  <h3 id="s2-2">2.2 Home Language, School Language and the Transition from One to the Other</h3>
+
+  <p>The <strong>home language</strong> (<em>matribhasa</em>, literally "mother language") is the language a child acquires first, naturally and without formal teaching, in ordinary family life. The <strong>school language</strong> is the language in which the school teaches, in which the textbook is written, in which the teacher explains and in which the child is examined. For an Assamese-medium school in Assam the school language is normally Assamese. The two are frequently different, and the whole of 2.2 is about the gap between them.</p>
+
+  <div class="tw">
+  <table>
+    <caption>Table 2.1 &mdash; Home language and school language compared</caption>
+    <thead><tr><th>Basis</th><th>Home language (L1)</th><th>School language (the medium of instruction)</th></tr></thead>
+    <tbody>
+      <tr><td>Where acquired</td><td>Family, neighbourhood, community &mdash; informally, incidentally</td><td>Classroom, textbook, teacher &mdash; formally, deliberately</td></tr>
+      <tr><td>Acquisition</td><td>Natural, by need and by interaction</td><td>Learned, often as a second or third language</td></tr>
+      <tr><td>Volume of talk</td><td>Very high; talk is the medium of daily life</td><td>Low outside the timetable; limited to a formal register</td></tr>
+      <tr><td>Status of the child</td><td>Full participant, with authority</td><td>Learner, often a silent and slow one</td></tr>
+      <tr><td>Repertoire content</td><td>Intimacy, command, jokes, proverbs, local knowledge</td><td>Texts, definitions, examinations, formal registers</td></tr>
+      <tr><td>Value</td><td>Foundation: linguistic security, identity, home&ndash;school continuity</td><td>Instrument: access to the curriculum, examinations, wider society</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>The two are not rivals; they have different jobs. The home language gives the child the <em>linguistic scaffolding</em> &mdash; everyday talk, questions, stories, quarrels and songs &mdash; within which concepts are first formed. The school language gives access to the printed curriculum. A programme that discards the first in a hurry to install the second destroys the scaffolding and then finds the child cannot climb.</p>
+
+  <p>The <strong>transition from the home language to the school language</strong> is a period, not a moment. During it the child shows a <em>reduction</em> in the amount and quality of talk: understands a great deal but answers in short phrases, reverts to the home language when the school language fails, avoids tasks needing speech, and may appear to have regressed. A well-informed teacher reads this as the temporary stage of a bilingual child, not as a child who cannot learn.</p>
+
+  <p>Three things make the transition go well: <em>time</em>, two or three years of sustained exposure; <em>understandable input</em>, slower, more literal speech tied to things the child can see; and <em>continued use of the home language</em>. Withdrawing a home language early does not speed the transition &mdash; it removes the child's confidence, and the school language is then learned more slowly, not faster.</p>
+
+  <h3 id="s2-3">2.3 Acquisition of Language Skills; Foundational Literacy and Numeracy</h3>
+
+  <p>A child acquires a <strong>language skill</strong> in stages, and the stages are largely invariant across languages, though the pace is not. The sequence runs: <em>pre-speaking</em> (0&ndash;12 months) &rarr; <em>one-word stage</em> (about 12&ndash;18 months) &rarr; <em>two-word stage</em> (about 18&ndash;24 months) &rarr; <em>the stage of basic structures</em> (roughly 2&ndash;5 years, when plurals, possessives, tenses, questions, negation, commands and multi-clause sentences appear) &rarr; <em>the stage of complex structures</em> (roughly 5 years onward, when passives, conditionals and embedded clauses are mastered).</p>
+
+  <p>Reading and writing come later and differently, because they are not a continuation of speech but a <em>new system built on the old one</em>. The child must first learn to <strong>decode</strong> &mdash; to convert a printed symbol into the sound of the language, the <em>bridge</em> discussed in 2.4 &mdash; and then to <strong>encode</strong>. Emergent writing appears before formal writing: a child draws a map-like squiggle for a car, then repeated marks, then individual letters, then strings of letters, then words with correct spelling, and only then does writing correspond to intended speech. A teacher who expects handwriting on the first day of Class I is expecting the last stage of a process the child has not begun.</p>
+
+  <p>This is where <strong>Foundational Literacy and Numeracy</strong> enters. NEP 2020 gives FLN a decisive place, identifying it as the first of the priority areas for the foundational stage, on the ground that a child who cannot read, write and count cannot do anything else in school.</p>
+
+  <div class="card def"><span class="lbl">Definition</span><p><strong>Foundational Literacy and Numeracy (FLN)</strong> is the early stage of schooling in which every child acquires the basic capabilities of reading, writing, speaking and number, to the level required for further learning in school and beyond. Under NEP 2020 it is the first of the priority areas for the foundational stage.</p></div>
+
+  <p>The national mission is <strong>NIPUN Bharat</strong> &mdash; the National Initiative for Proficiency in Numeracy and Foundational Literacy &mdash; whose overarching guidelines were released by the Ministry of Education in 2022. It is not a syllabus point of this paper but the policy framework in which 2.3 sits, and its most useful feature for classroom purposes is the specification of <strong>twelve high-priority competencies</strong> across three domains: these competencies, rather than the annual class, are the real targets of the early years.</p>
+
+  <div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 2.2 &mdash; NIPUN Bharat: the twelve foundational competencies</caption>
+    <thead><tr><th>Domain</th><th>No.</th><th>What the child is to be able to do</th></tr></thead>
+    <tbody>
+      <tr><td rowspan="3"><strong>Language</strong></td><td>1</td><td>Oral skills: listen, speak and use non-verbal communication appropriately</td></tr>
+      <tr><td>2</td><td>Decoding skills: understand the symbols of the language, phonemic awareness, print concepts</td></tr>
+      <tr><td>3</td><td>Encoding skills: write, forming letters and composing words and sentences</td></tr>
+      <tr><td rowspan="3"><strong>Number</strong></td><td>4</td><td>Counting and cardinality &mdash; count objects reliably and say how many, not merely recite numbers</td></tr>
+      <tr><td>5</td><td>Operations &mdash; addition and subtraction with meaning, not only with figures</td></tr>
+      <tr><td>6</td><td>Spatial thinking and visualisation &mdash; work with the number line and with 2-D and 3-D forms</td></tr>
+      <tr><td rowspan="6"><strong>Basic enquiry<br>and application</strong></td><td>7</td><td>Understands signs and symbols found in the environment</td></tr>
+      <tr><td>8</td><td>Gets information from pictures and images; observes and infers</td></tr>
+      <tr><td>9</td><td>Understands time, periodicity, cycles and sequences</td></tr>
+      <tr><td>10</td><td>Understands spatial relationships between objects</td></tr>
+      <tr><td>11</td><td>Understands non-verbal communication</td></tr>
+      <tr><td>12</td><td>Uses and interprets scientific, numerical and everyday information</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Read against the classroom, the three <em>language</em> competencies are the ones this paper is about. <em>Oral skills</em> is the foundation, largely acquired before school and so undervalued; a child who cannot explain a picture in words will not write an answer. <em>Decoding</em> is where phonology and phonics enter &mdash; marks on a page are codes for sounds, and sounds are codes for words. <em>Encoding</em> is the reverse, growing out of what the child can already say. The three cannot be separated. Numeracy sits in the same list for a parallel reason &mdash; a child who has memorised <em>2 + 2 = 4</em> has learned a string of words, not a relation.</p>
+
+  <h3 id="s2-4">2.4 Structure of Language, Phonics and Phonology</h3>
+
+  <p>This sub-point and 2.5 both mention phonics and phonology, and the difference between them is exactly the difference between the <em>sound level</em> and the <em>word level</em> of language. <strong>2.4 concerns the structure of language as a whole and the system of sounds within it; 2.5 concerns how words are built out of meaningful parts. Phonics appears in 2.4 as the bridge from print to sound, and returns in 2.5 as the input from which the child detects those meaningful parts.</strong></p>
+
+  <p>A language can be described at several levels, and each asks a different question. <strong>Phonetics</strong> studies sounds as actually produced; <strong>phonology</strong> studies them as a <em>system</em> &mdash; which sounds the language treats as distinct, and which sequences are permitted; <strong>morphology</strong> studies the smallest meaningful units; <strong>syntax</strong> the arrangement of words; <strong>semantics</strong> meaning; <strong>pragmatics</strong> meaning in use.</p>
+
+  <div class="tw">
+  <table class="compact">
+    <caption>Table 2.3 &mdash; The levels of linguistic structure</caption>
+    <thead><tr><th>Level</th><th>Question it asks</th><th>Classroom relevance</th></tr></thead>
+    <tbody>
+      <tr><td>Phonetics</td><td>How is the sound produced?</td><td>Accent, clarity, correcting mumbling</td></tr>
+      <tr><td>Phonology</td><td>Which sounds does the language treat as different?</td><td>Why <em>ship</em> and <em>sheep</em> are different words</td></tr>
+      <tr><td>Orthography</td><td>How are sounds written?</td><td>Handwriting, spelling, writing systems and script</td></tr>
+      <tr><td>Phonics</td><td>How does the taught child get from print to sound?</td><td>The bridge to independent decoding</td></tr>
+      <tr><td>Morphology</td><td>What are the smallest meaningful parts of words?</td><td>Word formation, spelling, vocabulary growth</td></tr>
+      <tr><td>Lexis</td><td>What words does a speaker have?</td><td>Word banks, reading levels, subject vocabulary</td></tr>
+      <tr><td>Syntax</td><td>How are words ordered?</td><td>Sentence construction in speech and writing</td></tr>
+      <tr><td>Semantics</td><td>What meanings do the forms carry?</td><td>Choosing the precise word; understanding a text</td></tr>
+      <tr><td>Pragmatics</td><td>What is meant here, by this person, now?</td><td>Listening to children; classroom talk</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h4>Phonology and the phoneme</h4>
+
+  <p>The central unit of phonology is the <strong>phoneme</strong> &mdash; the smallest unit of sound in a language that can change the meaning of a word. In <em>bat</em>, <em>pat</em>, <em>rat</em> and <em>mat</em> the initial consonant does essential work: it changes the meaning while the rest stays the same. Sounds that distinguish words in this way are <em>contrastive</em> or <em>phonemic</em>.</p>
+
+  <p>Other speech sounds, such as the clear <em>l</em> at the end of <em>milk</em> where the grammar expects a nasal, are <em>allophones</em>, or predictable variants, and the child does not treat them as separate units. A language's <strong>phoneme inventory</strong> is therefore finite and countable &mdash; typically between about twenty and several dozen units &mdash; whereas the number of <em>words</em> is enormous. This efficiency is what makes the phoneme, not the letter or the word, the true atom of spoken language.</p>
+
+  <p><strong>Phonics</strong> is the practical counterpart of phonology: the method by which a child is taught the relationship between the <em>graphemes</em> (written letters and letter groups) and the phonemes they represent, converting the arbitrary symbol on the page into a sound and therefore a meaning. Because the correspondence is not one-to-one, phonics is a set of recurring patterns rather than a single code. It also has to be learnt in the language the child is actually reading, which is one more reason that beginning with a language the child speaks makes decoding an ordinary task instead of a translation task.</p>
+
+  <div class="card cls"><span class="lbl">Classroom Connection</span><p>An early phonics routine for a multilingual Class I or II: say the word, have the class say it, tap the sounds while you write the letters, blend back into the word, read it in a short text. Start with <em>words whose sound&ndash;spell relationship is regular</em> and hold irregular words back. The usual sequence is letters in a meaningful context first (the child's own name), then three-phoneme words with continuous sounds, then a single vowel pattern, then harder blends and digraphs, and irregular words last. What is <em>not</em> to be done is the opposite &mdash; treating the alphabet as the first content of the language period. A child who recites the alphabet fluently and cannot blend three letters into a word has memorised a sequence, not acquired a system.</p></div>
+
+  <p>Moving up the hierarchy, the three components a primary teacher most often needs to name are <strong>syntax</strong>, the arrangement of words; <strong>lexis</strong>, the vocabulary of a speaker or a text; and <strong>semantics</strong>, the meaning system &mdash; denotation, connotation, synonymy, antonymy. <strong>Grammar</strong> describes the systematic principles holding at these levels, and the paper's stated objective is that grammar be handled <em>not in isolation but by creatively integrating it with text</em>.</p>
+
+  <p>Grammar taught from a text differs in kind from grammar taught as a list of rules: the teacher asks where the subject is, which word does the work of the verb, and what would change if <em>quietly</em> were not there. The child then meets the rule as a fact about <em>this text</em> rather than as an arbitrary prohibition.</p>
+
+  <h3 id="s2-5">2.5 Morphology, Phonics and Phonology</h3>
+
+  <p>Where 2.4 asked how a language is <em>sounded</em>, 2.5 asks how it is <em>built</em>. The unit of study is the <strong>morpheme</strong> &mdash; the smallest unit of a language that carries meaning. A morpheme may stand alone as a whole word, in which case it is a <strong>free morpheme</strong> (book, water, child, run). A morpheme that cannot stand alone but only attaches to another to make a new word or a changed meaning is a <strong>bound morpheme</strong> (-s, -ed, un-, -ly, re-, -able), and the bound morphemes that attach to the front or the end of a word are called <em>affixes</em>.</p>
+
+  <p>Three operations account for most of the vocabulary an eight-year-old meets. <strong>Affixation</strong> &mdash; adding a bound morpheme: <em>un-</em>+<em>happy</em> &rarr; <em>unhappy</em>, <em>teach</em>+<em>-er</em> &rarr; <em>teacher</em>. <strong>Compounding</strong> &mdash; joining free morphemes: <em>book</em>+<em>shelf</em>, <em>sun</em>+<em>flower</em>. <strong>Conversion</strong> &mdash; one word class used for another with no added affix: <em>a stone</em>, <em>to stone</em>, <em>stoned</em>.</p>
+
+  <p>Add <em>derivation</em>, which changes a word's class or lexical meaning and is productive (the source of <em>-er, -ist, -tion, -ness, -ful, -less, -ly</em>), and <em>inflection</em>, which changes grammatical form &mdash; number, tense, comparison &mdash; without changing the class (the source of <em>-s, -es, -ed, -ing, -er, -est</em> and the irregular forms). A child with a handful of root words can then produce a very large number of words, which is the linguistic fact behind teaching <em>word families</em>: knowing the root <em>play</em> and the two patterns is enough to build <em>playful</em>, <em>played</em> and <em>playground</em> unassisted.</p>
+
+  <p>It is clear why the syllabus brings phonics back in 2.5: the child reaches morphology <em>through</em> phonics. Having learned to take a printed word apart into its sounds, the child notices that the sounds group into chunks and that some chunks recur meaningfully across many words &mdash; that <em>play</em> sits inside <em>playful</em>, <em>played</em> and <em>playground</em> alike. Sound awareness gives the <em>chunking</em>; morphological awareness gives the <em>meaning of the chunk</em>.</p>
+
+  <p>Together they produce the ability to read <em>unfamiliar</em> words, which is what comprehension is made of. This is also why reading is not taught by a single method: systematic and explicit in the sound&ndash;letter relationship, combined with extensive use of <em>meaningful and connected text</em>. A child given only phonics reads aloud correctly and understands nothing; a child given only whole-word exposure guesses from context and cannot read an unfamiliar word.</p>
+</section>
+<!-- ============ UNIT 3 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-3"><span class="h2num">Unit 3</span>Language Diversity and Multilingualism</h2>
+
+  <p>Unit 3 brings the paper home. The constitutional framework of language in India, the multilingual classroom, the language map of Assam, and the three-language formula are all, in different ways, statements about what a school must do with the diversity in front of it. The content is both descriptive and prescriptive, and it is examinable at a high level of detail.</p>
+
+  <h3 id="s3-1">3.1 Constitutional Provisions about Language</h3>
+
+  <p>Language occupies a place in the Constitution that no other subject occupies in quite the same way. It is present in the Fundamental Rights, in the Directive Principles, and in the Eighth Schedule. The provisions are collected in <strong>Part XVII of the Constitution, devoted to "Languages"</strong>, with a Chapter I of general provisions (Articles 343, 343A, 344, 345, 346, 347, 350, 350A, 350B) and a Chapter II on official language (Article 351); Article 352 stands separately for special provision for English.</p>
+
+  <div class="tw">
+  <table class="compact">
+    <caption>Table 3.1 &mdash; Constitutional provisions on language (Part XVII)</caption>
+    <thead><tr><th>Article</th><th>Substance</th><th>Why it matters for the school</th></tr></thead>
+    <tbody>
+      <tr><td><strong>343</strong></td><td>The official language of the Union shall be <strong>Hindi in Devanagari script</strong>; it is not the official language of any State.</td><td>Fixes the Union's language; leaves the States free, which is why 343A matters.</td></tr>
+      <tr><td><strong>343A</strong></td><td>Art. 343 applies, with adaptations, to States that adopt their own official language or languages.</td><td>The basis on which Assam has Assamese as its official language.</td></tr>
+      <tr><td><strong>345</strong></td><td><strong>Only Hindi and English</strong> shall be used for the official purposes of the Union; the President may specify others by rules.</td><td>Assamese is <em>not</em> a language of Union official purposes, so central documents reach the school in English or Hindi.</td></tr>
+      <tr><td><strong>347</strong></td><td>Every State shall endeavour to promote the Eighth Schedule languages; Parliament may make special provisions for any language.</td><td>The source of special protection for languages such as Assamese.</td></tr>
+      <tr><td><strong>350</strong></td><td>Members may address the chair in Hindi or English, and the Chairman may permit a member to use his mother tongue. Read with the Eighth Schedule, this is the basis of the formulation that every citizen may address the President and the Governor in an Eighth Schedule language.</td><td>Non-discrimination among the languages of India.</td></tr>
+      <tr><td><strong>350A</strong></td><td>Every effort shall be made to promote the mother tongue of mother-tongue-medium institutions; English may be used where necessary. Inserted by the <strong>Seventh Amendment, 1956</strong>.</td><td>The constitutional footing of the <em>mother tongue clause</em> in primary education &mdash; the one Assam has recognised for the primary stage.</td></tr>
+      <tr><td><strong>350B</strong></td><td>The languages specified in the Eighth Schedule are the languages recognised by the Constitution.</td><td>Defines "recognised language".</td></tr>
+      <tr><td><strong>351</strong></td><td><strong>It shall be the duty of the Union to promote the harmony and the spirit of common enquiry amongst all the people of India in the mother tongue.</strong></td><td>The constitutional root of the multilingual classroom: India is to be explored by its citizens in their own mother tongues.</td></tr>
+      <tr><td><strong>352</strong></td><td>Parliament may provide by law for the use of English or any Eighth Schedule language for any official purpose.</td><td>Confirms the continuing official status of English.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Article 351 should be read carefully: it lays a <em>duty</em> upon the <em>Union</em>, not a power, and the obligation is to promote harmony and the spirit of common enquiry among all the people of India <em>in the mother tongue</em>. Article 350A is a similar duty in a different form, concerning specifically the mother tongue at the primary stage and of those who are not able to study in the mother tongue. Finally, the Eighth Schedule is a list of <em>recognised</em> languages; it is neither an official-language list nor an exhaustive list of the languages spoken in India.</p>
+
+  <h4>The Eighth Schedule</h4>
+
+  <p>The <strong>Eighth Schedule</strong> is the list of languages recognised by the Constitution. It originally contained <strong>14 languages</strong>. The <strong>Twenty-first Amendment Act, 1967</strong> added <strong>Sindhi</strong>, making the number 15. The <strong>Fifty-fifth Amendment Act, 1987</strong> added <strong>Konkani, Manipuri and Nepali</strong>; the implementation of that addition was held up by litigation, and the <strong>Seventy-first Amendment Act, 1992</strong> gave the addition retrospective effect. The present list therefore contains <strong>22 languages</strong>, including Assamese (Bamar).</p>
+
+  <div class="tw tkeep">
+  <table>
+    <caption>Table 3.2 &mdash; The Eighth Schedule: the growth of the list</caption>
+    <thead><tr><th>Stage</th><th>Amendment</th><th>Languages added</th><th>Total</th></tr></thead>
+    <tbody>
+      <tr><td>Original, 1950</td><td>&mdash;</td><td>Assamese, Bengali, Bodo, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Sanskrit, Tamil, Telugu, Urdu</td><td><strong>14</strong></td></tr>
+      <tr><td>1967</td><td>Twenty-first Amendment</td><td>Sindhi</td><td><strong>15</strong></td></tr>
+      <tr><td>1987, given effect 1992</td><td>Fifty-fifth and Seventy-first Amendments</td><td>Konkani, Manipuri, Nepali</td><td><strong>22</strong></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="card exam"><span class="lbl">Exam Focus</span><p>Revise the article numbers and the Eighth Schedule count carefully: write <strong>22</strong>, reached through 14 + Sindhi (Twenty-first Amendment, 1967) + Konkani, Manipuri and Nepali (given effect 1992); and do not confuse Article 345 (official purposes of the <em>Union</em>) with Article 343A (States adopting their own language).</p></div>
+
+  <h3 id="s3-2">3.2 Multilingualism and the Multilingual Classroom</h3>
+
+  <p><strong>Multilingualism</strong> is the condition in which more than one language is in use in a community or setting, and in which more than one is needed for full participation.</p>
+
+  <div class="card idea"><span class="lbl">Key Idea</span><p><strong>Multilingualism is not a problem to be solved; it is a resource to be used.</strong> A single classroom in Assam may contain Assamese, Bodo, Mising, Hindi, Bengali and a tea-garden or migrant community language in one morning.</p></div>
+
+  <p>The <strong>multilingual classroom</strong> reflects this condition, and it is more accurately described as <em>multilingual</em> than as <em>multicultural</em>: here the languages are the medium through which culture, relationships and learning are conducted. Three features distinguish it from an ordinary classroom that happens to contain children of several languages. <strong>Languages are additive, not remedial</strong> &mdash; a language the child brings adds to the school's repertoire rather than correcting a deficit, and there is no "weak" and "strong" language, only different ones.</p>
+
+  <p><strong>Functions are distributed</strong> &mdash; one language may carry explanation, another instruction, another affection or play, and the child learns to shift while the school makes the shift possible. <strong>All the languages are used deliberately</strong> &mdash; the classroom plans for the languages present and uses them purposefully for content, comparison and enrichment.</p>
+
+  <p>Multilingualism also brings a real pedagogical gain that is often overlooked. Having more than one language means more than one set of comparisons, and comparison is the origin of grammar. A child who knows that the same idea is expressed by two different word orders, or two systems of marking tense, or two scripts, acquires <em>consciousness about language itself</em> &mdash; metalinguistic awareness &mdash; far sooner than a monolingual peer. Grammar becomes visible as something languages <em>do differently</em>, not as a set of arbitrary rules one language happens to impose.</p>
+
+  <p>Two conditions must be stated as necessary. There must be a <em>shared</em> language for the classroom's common purposes, or no lesson can proceed; multilingualism does not mean that everything may be done in any language at any time. And the children who do not yet know the school language need it explained with patience and time. A classroom that is multilingual but has abandoned the goal of teaching the school language has not solved anything.</p>
+
+  <h3 id="s3-3">3.3 Language Diversity in the Context of Assam</h3>
+
+  <p>Assam is a particularly instructive case, because a small state with a long history of trade, migration and settlement contains a remarkable density of languages. Assamese (<em>Asamiya Bhasa</em>, also called <strong>Bamar</strong>) is the official language of the State; it is written in the <strong>Baamuniya</strong> (Bamuniya), a script of the Brahmic family, and is one of the 22 languages of the Eighth Schedule. The <strong>Assam Official Language Act, 1963</strong> established Assamese as the sole official language of the State. Assamese is spoken over a wide area as a first and a second language and functions as the <em>lingua franca</em> of the State &mdash; which is why the official-language question in Assam has never been simple.</p>
+
+  <p>Alongside and within the Assamese-speaking population, Assam is home to a very large number of tribal and linguistic communities. Among the better known are <strong>Bodo</strong> (itself in the Eighth Schedule, with its own script), <strong>Mising</strong>, <strong>Karbi</strong>, <strong>Dimasa</strong>, <strong>Hmar</strong>, <strong>Zakhai</strong>, <strong>Khasi</strong>, <strong>Garo</strong>, <strong>Rabha</strong>, <strong>Tiwa</strong>, <strong>Kachari</strong>, <strong>Son</strong> and <strong>Deodhai</strong> (Dhodar), together with tribal communities in the hill districts of Dima Hasao and Karbi Anglong.</p>
+
+  <p>The tea gardens brought in workers from many parts of eastern and central India, and with them languages such as <strong>Sadri or Mundari</strong>, along with Nepali-speaking groups; Bengali and Hindi are widely used in commerce and in urban conversation. The result is that a single district, and in some cases a single school compound, may contain half a dozen mother tongues.</p>
+
+  <p>Language questions in Assam are also questions of public policy. The State has a <strong>Language Policy for Assam</strong> with a long history of revision, and a significant constitutional dimension: Article 343A is the provision under which the State adopts Assamese as its own official language; Article 347 obliges the State to endeavour to promote the Eighth Schedule languages; and Article 371 permits special provisions for Assam, Meghalaya, Mizoram and Nagaland, on which footing measures for the Assamese language and for the languages of the north-eastern region are understood to rest.</p>
+
+  <p>The policy has been the subject of judicial consideration and continues to be a matter of active adjustment rather than settled law. State the constitutional position precisely, state that a Language Policy for Assam exists and has been revised from time to time, and avoid asserting any specific statistic or judicial holding that cannot be defended.</p>
+
+  <p>What this means for a D.El.Ed teacher is concrete. The children in one class will not all have Assamese as their mother tongue: a Bodo-speaking, a Mising-speaking and a Hindi-speaking child sitting in an Assamese-medium Class II are all learning a second or third language at the same time as they are learning to read. The school has a constitutional and a pedagogical obligation towards each of them, and an interest in their languages, because those languages are resources &mdash; they carry the children's own concepts, their folk literature, and community knowledge the textbook does not contain.</p>
+
+  <div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 3.3 &mdash; Bilingual glossary for Units 3 and 4</caption>
+    <thead><tr><th>English</th><th>Assamese</th><th>Romanisation</th><th>English</th><th>Assamese</th><th>Romanisation</th></tr></thead>
+    <tbody>
+      <tr><td>Language</td><td>ভাষা</td><td>bhasa</td><td>Listening</td><td>শ্ৰবণ</td><td>shroban</td></tr>
+      <tr><td>Mother tongue</td><td>মাতৃভাষা</td><td>matribhasa</td><td>Speaking</td><td>কথন</td><td>kothon</td></tr>
+      <tr><td>Linguistics</td><td>ভাষা বিজ্ঞান</td><td>bhasa bigyan</td><td>Reading</td><td>পঠন</td><td>pathan</td></tr>
+      <tr><td>Grammar</td><td>ব্যাকরণ</td><td>byakaran</td><td>Writing</td><td>ৰচনা</td><td>rokhona</td></tr>
+      <tr><td>Pronunciation</td><td>উচ্চাৰ</td><td>ucchar</td><td>Culture</td><td>সংস্কৃতি</td><td>sanskriti</td></tr>
+      <tr><td>Letter; sound</td><td>বৰ্ণ</td><td>borno</td><td>Official language</td><td>ৰাজভাষা</td><td>rajbhasa</td></tr>
+      <tr><td>Script</td><td>লিপি</td><td>lipi</td><td>Eighth Schedule language</td><td>তালিকাভুক্ত ভাষা</td><td>talikabhukta bhasa</td></tr>
+      <tr><td>Phonology; morphology</td><td>বৰ্ণতত্ত্ব; শব্দতত্ত্ব</td><td>bornatattva; shabdatattva</td><td>Assamese (Bamar)</td><td>অসমীয়া ভাষা / বামৰ</td><td>Asamiya bhasa / Bamar</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="footnote">Romanisation varies between Assamese publications; the Assamese script is the reliable form. Confirm renderings against the prescribed readings before using them in an examination answer.</p>
+
+  <h3 id="s3-4">3.4 Multilingualism as a Resource; Role of the Teacher</h3>
+
+  <p>Multilingualism becomes an advantage only if it is <em>used</em>. Left alone it is a set of languages sitting in a room &mdash; which is why the teacher's role shares a syllabus point with multilingualism as a resource. <strong>For content</strong>, a child can explain a concept first in the language in which they know it best, and the teacher bridges to the school language afterwards; this planned, principled movement is <em>translanguaging</em>, not random code-switching. <strong>For vocabulary</strong>, children bring their own words for a plant, a bird, a food, a tool, and the class holds all of them beside the textbook word.</p>
+
+  <p><strong>For grammar</strong>, two languages side by side reveal the rules of both. <strong>For literature</strong>, a folk tale in a home language is a text to be analysed, not a distraction. <strong>For assessment</strong>, a child who cannot yet write in the school language can dictate and still be credited for the content. <strong>For social relations</strong>, structured pair work across language groups stops the classroom from mirroring the linguistic map of the neighbourhood.</p>
+
+  <div class="tw">
+  <table class="compact">
+    <caption>Table 3.4 &mdash; Multilingualism as a resource: barriers and the teacher's response</caption>
+    <thead><tr><th>Barrier</th><th>What it looks like in Class I&ndash;III</th><th>Teacher's response</th></tr></thead>
+    <tbody>
+      <tr><td>The child is "silent"</td><td>Understands but does not answer; answers in one word; looks at the floor</td><td>Allow a first response in the home language; accept gesture and pointing; give processing time; never force an oral answer in front of the class</td></tr>
+      <tr><td>The child "makes mistakes"</td><td>Interference from L1 in L2 sentences; mixed sentences; local vocabulary</td><td>Treat interference as evidence of what the child knows; correct meaning first and form gently</td></tr>
+      <tr><td>Peers ridicule</td><td>The child is laughed at for speaking the home language, and stops speaking it</td><td>Make the multilingualism a resource in public, by asking that language for a word; make respect a class norm</td></tr>
+      <tr><td>Accent and script</td><td>The child writes Bamuniya-style forms or Roman; the teacher marks them wrong</td><td>Accept the script the child uses for a draft; teach the school script in an additive, phonics-based way</td></tr>
+      <tr><td>Material is unavailable</td><td>No reader, no chart, no text in the home language</td><td>Prepare the chart yourself; record or transcribe from the child and the family; use the children's own texts</td></tr>
+      <tr><td>Concepts are blocked</td><td>The child cannot understand the instruction, so cannot do the task</td><td>Explain the task in the home language first; the content is the goal, not the code of explanation</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>The teacher's own competence is therefore a resource. A teacher who knows two or three of the languages in the classroom can be a <em>bridge person</em> in a way that no methodology substitutes for. Where the teacher does not have that competence, the honest and effective approach is to ask, and to use the children and the community &mdash; invite a parent, an elder, a community member or a bilingual older pupil to contribute. This is also why the practicum project on the languages of the neighbourhood is serious work: it asks the student-teacher to find out what the children actually speak, which is the necessary first step to teaching them well.</p>
+
+  <h3 id="s3-5">3.5 The Three-Language Formula (R-1, R-2, R-3) and Its Importance</h3>
+
+  <p>The <strong>three-language formula</strong> was recommended by the <strong>Education Commission (Kothari Commission), 1964&ndash;66</strong>, and adopted as a national policy in the <strong>National Policy on Education, 1968</strong>. It is a compromise, and an ingenious one: it acknowledges the child's mother tongue, the linguistic majority of the State, and the need for a language of wider communication, and it tries to teach all three in a graded sequence so that no one is left out.</p>
+
+  <p>The formula is conventionally written as <strong>R-1, R-2, R-3</strong>, and two common readings should both be known. In the widely used school rendering, <strong>R-1</strong> is the <em>regional language</em> of the State, <strong>R-2</strong> is the <em>mother tongue or local language</em> of the child, and <strong>R-3</strong> is a <em>modern European or foreign language</em>, in India ordinarily English.</p>
+
+  <p>The Kothari Commission's own formulation for the secondary stage also spoke of learning <em>English (or another foreign language)</em>, <em>the mother tongue or local language</em> and <em>the regional language</em>, with the regional language and the mother tongue beginning at the primary stage and the foreign language introduced later. A candidate who gives only the labels without saying which language each stands for in a given state will be marked incomplete; the labels are a shorthand, and the content of each slot is the real answer.</p>
+
+  <div class="tw tkeep">
+  <table>
+    <caption>Table 3.5 &mdash; The three-language formula in an Assamese-medium school</caption>
+    <thead><tr><th>Slot</th><th>General meaning</th><th>In an Assamese-medium school in Assam</th><th>Introduced / emphasised at</th></tr></thead>
+    <tbody>
+      <tr><td><strong>R-1</strong></td><td>Regional language</td><td>Assamese, as the regional and official language of the State</td><td>From the primary stage; the medium of instruction</td></tr>
+      <tr><td><strong>R-2</strong></td><td>Mother tongue or local language</td><td>The child's own home language &mdash; Bodo, Mising, Karbi, Hmar, Sadri/Mundari, Bengali, or another</td><td>From the beginning, at home and, where possible, in school</td></tr>
+      <tr><td><strong>R-3</strong></td><td>Foreign / modern European language</td><td>English</td><td>Introduced progressively; formally emphasised in the upper primary and secondary stages</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>It is worth being explicit that in an Assamese-medium school the child's home language is R-2, not R-1, and that the two frequently coincide &mdash; when the child is Assamese-speaking at home, the school simply reinforces it, which is a very different situation from the Bodo- or Mising-speaking child for whom the school language is a second language from the first day.</p>
+
+  <figure>
+  <svg viewBox="0 0 760 232" role="img" aria-label="Mapping of the three language formula to primary, upper primary and secondary stages in an Assamese-medium school">
+    <rect x="24" y="24" width="712" height="38" rx="4" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.4"/>
+    <text x="380" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="bold" fill="#8f4a2a" text-anchor="middle">R-1 &nbsp;REGIONAL LANGUAGE &nbsp;&rarr;&nbsp; ASSAMESE (BAMAR)</text>
+    <rect x="24" y="112" width="712" height="38" rx="4" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.4"/>
+    <text x="380" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="bold" fill="#54603a" text-anchor="middle">R-2 &nbsp;MOTHER TONGUE / LOCAL LANGUAGE &nbsp;&rarr;&nbsp; the child's own language</text>
+    <rect x="24" y="180" width="712" height="38" rx="4" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.4"/>
+    <text x="380" y="204" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="bold" fill="#3d5a71" text-anchor="middle">R-3 &nbsp;FOREIGN / MODERN EUROPEAN LANGUAGE &nbsp;&rarr;&nbsp; ENGLISH</text>
+    <line x1="150" y1="62" x2="150" y2="112" stroke="#7a736a" stroke-width="1.2" stroke-dasharray="3 4"/>
+    <line x1="380" y1="62" x2="380" y2="112" stroke="#7a736a" stroke-width="1.2" stroke-dasharray="3 4"/>
+    <line x1="610" y1="62" x2="610" y2="112" stroke="#7a736a" stroke-width="1.2" stroke-dasharray="3 4"/>
+    <line x1="150" y1="150" x2="150" y2="180" stroke="#7a736a" stroke-width="1.2" stroke-dasharray="3 4"/>
+    <line x1="380" y1="150" x2="380" y2="180" stroke="#7a736a" stroke-width="1.2" stroke-dasharray="3 4"/>
+    <line x1="610" y1="150" x2="610" y2="180" stroke="#7a736a" stroke-width="1.2" stroke-dasharray="3 4"/>
+    <text x="150" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a" text-anchor="middle">PRIMARY (I&ndash;V)</text>
+    <text x="380" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a" text-anchor="middle">UPPER PRIMARY (VI&ndash;VIII)</text>
+    <text x="610" y="16" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a" text-anchor="middle">SECONDARY</text>
+  </svg>
+  <figcaption><b>Figure 3.1</b> &mdash; The three-language formula mapped onto an Assamese-medium school, emphasis shifting across stages.</figcaption>
+  </figure>
+
+  <p>The importance of the formula lies in what it achieves and in what it tries to avoid. It avoids reducing the child to a single language, which destroys the mother tongue; reducing the child to the majority language alone, which produces a schooling system in which a large part of the country learns slowly; and reducing the child to the foreign language alone, which produces an elite unable to communicate with the society it governs. Its weaknesses are the mirror image of its strengths: a rigid interpretation can overload a young child with three languages at once, and can allow the foreign language to be used to make the poor feel backward.</p>
+
+  <p><strong>NEP 2020 has moved the position</strong>, and an answer that gives only the 1968 formulation is out of date. NEP 2020 recommends <strong>multilingualism</strong> generally, and specifically that the <strong>medium of instruction will be the home language / mother tongue or the regional language until at least Grade 5, but preferably till Grade 8</strong>. It also sets out the <strong>5+3+3+4</strong> structure &mdash; Foundational Stage (three years pre-primary plus Grades 1&ndash;2), Preparatory (Grades 3&ndash;5), Middle (Grades 6&ndash;8), Secondary (Grades 9&ndash;12) &mdash; within which the mother tongue carries the child through Foundational and Preparatory while other languages are progressively introduced. NCF-SE 2023 builds on this, treating language as the medium of the whole curriculum and the Vocabulary of Indian Languages as a national resource.</p>
+
+  <div class="card quick"><span class="lbl">Quick Revision</span><p><strong>1964&ndash;66</strong> Kothari Commission recommends the three-language formula &rarr; <strong>1968</strong> NPE adopts it nationally &rarr; <strong>R-1</strong> regional, <strong>R-2</strong> mother tongue / local, <strong>R-3</strong> foreign (English) &rarr; <strong>2020</strong> NEP: multilingualism; mother tongue or regional language as the medium until at least Grade 5, preferably till Grade 8, within the 5+3+3+4 structure &rarr; <strong>2023</strong> NCF-SE: language as the medium of the curriculum, not one subject among many.</p></div>
+</section>
+<!-- ============ UNIT 4 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-4"><span class="h2num">Unit 4</span>Language across the Curriculum</h2>
+
+  <p>Unit 4 is the shortest unit by marks and the most practical. It asks what language is <em>for</em> inside a school: where it stands in the curriculum, what the difference is between teaching language and learning through it, what work language does in and around the classroom, and what two kinds of proficiency a child needs &mdash; the everyday conversational kind and the academic kind.</p>
+
+  <h3 id="s4-1">4.1 Place of Language in the Curriculum</h3>
+
+  <p>Language occupies three distinguishable places in the curriculum, and confusing them is the most common error in discussions of the subject. It is, first, <strong>a subject</strong>: Assamese (or English) has its own periods, its own textbook, its own syllabus, its own examination, and its own body of knowledge &mdash; literature, grammar, composition, comprehension.</p>
+
+  <p>It is, secondly, <strong>a medium</strong>: the vehicle through which every other subject is taught, every lesson is explained, every question is asked and every answer given, and through which the child demonstrates what has been learnt in history, science, mathematics or art. It is, thirdly, <strong>a resource and a cross-curricular competence</strong>: the set of abilities &mdash; listening, speaking, reading, writing, reasoning about language, and using language to learn &mdash; which every other subject both assumes and develops.</p>
+
+  <p>The tension between these three places is real and it is the ordinary experience of every school. Time given to "language" is time apparently taken from mathematics; but a child who cannot read the question cannot do the mathematics, and a child who cannot write the answer cannot show that the mathematics was done. The resolution is not to choose but to plan for the overlap: build the language demands of each subject into its planning, and build the subject content into the language period. NCF-SE 2023 and NEP 2020 both move in this direction, treating language not as one subject among many but as the medium of the whole curriculum, with the home language or regional language carrying the child as far as possible.</p>
+
+  <h3 id="s4-2">4.2 Language Learning and Learning through Language</h3>
+
+  <p>These are two different activities that the word "language" conceals, and a primary teacher must be able to say which one a lesson is doing. <strong>Learning <em>about</em> language</strong> treats language as the content: naming its parts, comparing constructions, applying a rule, revising, summarising, translating. The child is doing something <em>to</em> language. <strong>Learning <em>through</em> language</strong> treats it as the tool of another purpose: learning about plants, or the water cycle, or the difference between 46 and 39, with language used to think, organise, discuss and write. Most of school happens in this second mode and little attention is paid to it, which is why a child can be taught minute details of grammar and still be unable to explain a process in a coherent paragraph.</p>
+
+  <div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 4.1 &mdash; Learning about language and learning through language</caption>
+    <thead><tr><th>Basis</th><th>Learning about language</th><th>Learning through language</th></tr></thead>
+    <tbody>
+      <tr><td>Object</td><td>Language itself</td><td>A subject, a situation, a task</td></tr>
+      <tr><td>Role of language</td><td>The content of the lesson</td><td>The medium of the lesson</td></tr>
+      <tr><td>Typical task</td><td>Name the parts of the sentence; change the voice; correct the punctuation</td><td>Explain the water cycle; compare two measurements; argue for a position</td></tr>
+      <tr><td>Teacher's talk</td><td>Metalinguistic: "this is a compound sentence"</td><td>Scaffolding: "first tell me what you see"</td></tr>
+      <tr><td>Typical failure</td><td>Rule learned, not used; grammar without text</td><td>Content learned but not articulated; answers of one word</td></tr>
+      <tr><td>Remedy</td><td>Grammar handled inside a text, not on a separate page</td><td>Oral rehearsal, pair talk, sentence frames, written follow-up</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>A subject period often consists of the second mode with none of the first, and the two must be connected deliberately. Three moves do this well. <strong>Planning the language of the subject</strong>: for a lesson on the life cycle of a butterfly, decide in advance that the children will label a diagram, write four steps in order using <em>first, then, next, finally</em>, and compare their sequence with a partner.</p>
+
+  <p>Those are language demands, and they were chosen, not inherited. <strong>Using subject content as language material</strong>: the science text is also a text, and its headings, sequence and cause-and-effect markers are grammar taught in context. <strong>Reading across subjects</strong>: a history paragraph is comprehension work, a mathematical word problem is inference work. The subject is the vehicle and the subject matter at once.</p>
+
+  <h3 id="s4-3">4.3 Functions of Language Inside and Outside the Classroom and School</h3>
+
+  <p>Language in a school does far more than carry the timetable. It performs identifiable functions, and a teacher who can name them can also plan for them. <strong>Inside the classroom</strong> the principal functions are: <em>instructional</em> (explaining, describing, defining, giving directions, demonstrating, summarising); <em>disciplinary</em> (praising, warning, rewarding, correcting behaviour); <em>affective and motivational</em> (encouraging, greeting, expressing interest and approval); <em>evaluative</em> (judging work, giving feedback); <em>social and organisational</em> (managing group work, sharing, negotiating, resolving conflict); and <em>record-keeping and administrative</em> (register, attendance, marking, reporting to parents).</p>
+
+  <p><strong>Outside the classroom and beyond the school</strong> the functions are equally varied: at play and on the street, in the family and among neighbours, in the market and on the phone, in worship and in festival, in folk song and story, in the newspaper and on the radio, in the classroom of the next stage, and in the wider world of work and further study.</p>
+
+  <div class="tw">
+  <table>
+    <caption>Table 4.2 &mdash; Functions of language inside and outside the school</caption>
+    <thead><tr><th>Setting</th><th>Main functions of language</th><th>Typical language features</th></tr></thead>
+    <tbody>
+      <tr><td>Classroom teaching</td><td>Instruction: explaining, describing, defining, directing, questioning</td><td>Formal, complete sentences; precise vocabulary; repetition; examples</td></tr>
+      <tr><td>Classroom management</td><td>Discipline, praise, feedback, evaluation</td><td>Imperatives, hortatives, short and direct; clear standards</td></tr>
+      <tr><td>Group work and play</td><td>Social negotiation, sharing, joking, collaboration</td><td>Informal, elliptical, slang, humour, non-verbal cues</td></tr>
+      <tr><td>Home</td><td>Affection, instruction, narration, gossip, quarrel, comfort</td><td>Warm, repetitive, intimate, heavily dialectal; stories and proverbs</td></tr>
+      <tr><td>Community and market</td><td>Transaction, bargaining, information, greeting, news</td><td>Fixed formulae, phonological reduction, multilingual mixing</td></tr>
+      <tr><td>Festival, worship, folk performance</td><td>Celebration, devotion, collective memory, identity</td><td>Formulaic, rhythmic, archaic, oral, deeply traditional</td></tr>
+      <tr><td>Mass media and literature</td><td>Public information, argument, entertainment, imagination</td><td>Written, edited, formal or literary; wider range of registers</td></tr>
+      <tr><td>Further study and work</td><td>Abstraction, explanation, persuasion, technical reference</td><td>Highly decontextualised, specialised, abstract vocabulary</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Two observations follow. The first is that the classroom is a <em>high-status</em> register: formal, complete, impersonal, planned &mdash; and children spend hours in it. The school therefore has a duty to supply the other registers too, through storytelling, songs, games, discussion, role play and the reading of literature, or the children leave fluent in one register only. The second is that the languages used <em>outside</em> are exactly the languages the child is assessed <em>inside</em> in. A school that forbids Bodo or Mising on the playground while requiring Assamese in the classroom has produced a child who is silent in one and fluent in the other.</p>
+
+  <p>The teaching implication is a modest one and a useful one: to teach a function, give children an <em>occasion</em> to perform it. A child will not learn the language of negotiation by being told about it; a child will learn it by being given a real disagreement about the distribution of a task in a group, and being made to resolve it. The literary activities of the practicum &mdash; debate, extempore speech, storytelling, role play &mdash; are the occasions on which the affective, argumentative and presentational functions of language are actually practised.</p>
+
+  <h3 id="s4-4">4.4 Basic Interpersonal Communication Skills and Cognitive and Academic Language Proficiency</h3>
+
+  <p>These two terms, usually written <strong>BICS</strong> and <strong>CALP</strong>, come from the work of <strong>Jim Cummins</strong>. <strong>BICS &mdash; Basic Interpersonal Communication Skills</strong> &mdash; is the everyday, face-to-face language of survival and social life: greeting, asking for something, thanking, apologising, describing, arguing, joking, and understanding what is said to one in ordinary conversation. It is <em>contextual</em>, that is, it is carried by gesture, tone, situation and shared knowledge, and the speaker does not have to be precise.</p>
+
+  <p><strong>CALP &mdash; Cognitive and Academic Language Proficiency</strong> &mdash; is the language needed for reading and writing in school and for learning subjects: the language of a textbook, a definition, an argument, an examination answer, a scientific explanation. It is <em>decontextualised</em>, that is, the meaning must be carried by the words themselves, without gesture or shared situation to help, and it is <em>academically demanding</em>.</p>
+
+  <p>A child who has BICS can hold a conversation, work in a group, play, and appear entirely at ease &mdash; and still be unable to read a word of the textbook. This is not a contradiction; it is a fact about the two kinds of language. A child with BICS in a home language and no CALP in the school language is the <em>normal</em> condition of a child in the first two years of an Assamese-medium school, and also the normal condition of a child learning English as a third language anywhere in India. A child with CALP but little BICS is rarer &mdash; often the child who reads well and cannot talk to anyone &mdash; and the school can produce it.</p>
+
+  <div class="tw">
+  <table class="compact">
+    <caption>Table 4.3 &mdash; BICS and CALP compared</caption>
+    <thead><tr><th>Basis</th><th>BICS</th><th>CALP</th></tr></thead>
+    <tbody>
+      <tr><td>Full form</td><td>Basic Interpersonal Communication Skills</td><td>Cognitive and Academic Language Proficiency</td></tr>
+      <tr><td>What it is for</td><td>Everyday interpersonal communication</td><td>Reading, writing, subject learning, examination</td></tr>
+      <tr><td>Context</td><td>Contextual: gesture, tone, situation carry the meaning</td><td>Decontextualised: the words must carry the meaning themselves</td></tr>
+      <tr><td>Precision</td><td>Approximate is usually enough</td><td>Accuracy of wording, logic and structure matters</td></tr>
+      <tr><td>Main modes</td><td>Speaking and listening, face to face</td><td>Reading and writing, extended and formal</td></tr>
+      <tr><td>Where acquired</td><td>Very early, largely before school</td><td>Only through schooling, and largely slowly</td></tr>
+      <tr><td>Example</td><td>"Raji, come here, give it to me."</td><td>"Write the four stages in order and give a reason for the second."</td></tr>
+      <tr><td>Classroom implication</td><td>Give every child a chance to speak, without penalty for error</td><td>Teach the registers of the textbook, the test and the subject</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <figure>
+  <svg viewBox="0 0 760 268" role="img" aria-label="Two-iceberg model showing the visible BICS tip above water and the largely submerged CALP below">
+    <line x1="24" y1="118" x2="736" y2="118" stroke="#4c6a83" stroke-width="2.4"/>
+    <text x="726" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#3d5a71" text-anchor="end">water line &mdash; what is visible</text>
+    <path d="M 300 118 L 300 40 L 460 40 L 460 118 Z" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.4"/>
+    <text x="380" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#3d5a71" text-anchor="middle">BICS</text>
+    <text x="380" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">the visible tip</text>
+    <path d="M 300 118 L 460 118 L 560 236 L 200 236 Z" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.4"/>
+    <text x="380" y="156" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#54603a" text-anchor="middle">CALP</text>
+    <text x="380" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">the submerged mass: reading, writing,</text>
+    <text x="380" y="192" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">abstract reasoning, subject terms</text>
+    <text x="380" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#33302b" text-anchor="middle">&mdash; hard to see, harder to acquire</text>
+    <rect x="40" y="40" width="222" height="60" rx="4" fill="#faf6ee" stroke="#ded2bd" stroke-width="1.2"/>
+    <text x="151" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">A child may be fluent here</text>
+    <text x="151" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#55504a" text-anchor="middle">and still not be able to</text>
+    <text x="151" y="95" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#55504a" text-anchor="middle">read the textbook.</text>
+    <rect x="500" y="40" width="222" height="60" rx="4" fill="#faf6ee" stroke="#ded2bd" stroke-width="1.2"/>
+    <text x="611" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">Consequence for teaching</text>
+    <text x="611" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#55504a" text-anchor="middle">CALP is not automatic; it has</text>
+    <text x="611" y="95" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" fill="#55504a" text-anchor="middle">to be taught, in every subject.</text>
+  </svg>
+  <figcaption><b>Figure 4.1</b> &mdash; The two-iceberg model (after Cummins): what a child can do socially is only the part of language that shows.</figcaption>
+  </figure>
+
+  <p>Two related ideas from the same body of work are worth knowing, though neither is a syllabus point. The <strong>threshold hypothesis</strong> holds that there is a level of proficiency &mdash; a threshold &mdash; below which the cognitive and academic demands of schoolwork cannot be met, however much content knowledge the child has: a child may know perfectly what a seed is and still be unable to read the chapter about it.</p>
+
+  <p>The <strong>interdependence hypothesis</strong> holds that proficiency developed in one language transfers to another, so that a child who has acquired strong academic skills in the mother tongue reaches those skills in the second language faster and more successfully than a child who has not. Both point in the same practical direction: <em>teach the concepts in the language the child has, and the school language will follow.</em></p>
+
+  <div class="card rem"><span class="lbl">Remember</span><p>BICS is <em>basic interpersonal communication skills</em> &mdash; everyday, contextual, spoken, acquired early without teaching. CALP is <em>cognitive and academic language proficiency</em> &mdash; decontextualised, academically demanding, needed for reading, writing and subject learning, and acquired only through schooling. Both are attributed to <strong>Jim Cummins</strong>. Do not confuse CALP with "calculus" in an exam answer.</p></div>
+</section>
+<!-- ============ PRACTICUM ============ -->
+<section class="unit-body">
+
+<h2 id="practicum"><span class="h2num">Practicum</span>Activities and Portfolio</h2>
+
+  <p>The syllabus offers <strong>seven activities, of which activity 1 is compulsory and any one of the remaining six is to be taken up</strong>. Every activity produces something examinable &mdash; a report, a chart, a collection, a set of writings, a case study or an analysis. A practicum that produces only an experience and no artefact scores poorly.</p>
+
+  <div class="tw">
+  <table class="compact">
+    <caption>Table 5.1 &mdash; The seven practicum activities, their products and their skills</caption>
+    <thead><tr><th>No.</th><th>Activity</th><th>What is produced</th><th>Skill developed</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><strong>Literary activities</strong> &mdash; debate, extempore speech, storytelling, role play <em>(compulsory)</em></td><td>Report, certificates, participation record, feedback</td><td>Speaking, listening, expression, confidence</td></tr>
+      <tr><td>2</td><td>Charts and other material related to language learning</td><td>Charts, word walls, picture-word cards, display</td><td>Planning, material preparation, visual literacy</td></tr>
+      <tr><td>3</td><td>Project on multilingualism: the languages of the home and neighbourhood</td><td>Questionnaire, data tables, maps, project report</td><td>Survey method, data handling, respect for languages</td></tr>
+      <tr><td>4</td><td>Collection of folk tales, stories and folk songs, and sharing them in class</td><td>Written/recorded collection, class presentation</td><td>Listening, transcription, oral literature</td></tr>
+      <tr><td>5</td><td>Essays and articles on language-related issues</td><td>Two or more written pieces</td><td>Argument, composition, awareness of issues</td></tr>
+      <tr><td>6</td><td>Case study of a multilingual classroom</td><td>Observation record, language map, findings, suggestions</td><td>Observation, analysis, classroom research</td></tr>
+      <tr><td>7</td><td>Critical analysis of texts: newspaper, children's literature, journal, textbooks</td><td>Written analysis of selected items</td><td>Critical reading, evaluation, aesthetic judgement</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h4>Notes on conducting the activities</h4>
+
+  <ul class="bul">
+    <li><strong>Activity 1 &mdash; literary activities (compulsory).</strong> Run them with real rules and real audiences: a debate needs a motion, two sides, a chair, a time limit and a vote; an extempore speech needs a topic drawn on the spot; storytelling needs an audience task; role play needs a situation, not a script, so that the children generate the language themselves. Record what was planned, what happened, the language problems observed, and what you would change.</li>
+    <li><strong>Activity 2 &mdash; charts and material.</strong> Prepare one item you can use yourself &mdash; a word wall, picture-word cards, or a chart of the sounds and letters of the language the class reads in &mdash; and submit it with a note on the class it was made for.</li>
+    <li><strong>Activity 3 &mdash; project on multilingualism.</strong> Keep it small: one class of thirty, or a few streets. Ask what language is spoken at home, by whom, in which situations, with which grandparents, and whether any other language is understood. Record anonymously, tabulate, and present the result as a <em>language map</em> using the actual words people used. The finding is that a single class holds several mother tongues.</li>
+    <li><strong>Activity 4 &mdash; folk tales, stories and folk songs.</strong> Take everything in the mother tongue, not only in the school language, and record it as spoken before writing it down &mdash; the written version differs. Note the teller and the occasion. Share the material in the original in class; a folk tale performed in the school language has become a different text.</li>
+    <li><strong>Activity 5 &mdash; essays and articles.</strong> Choose a language issue you can argue from your own classroom experience &mdash; the medium of instruction, the home-language question, the place of the mother tongue. Write at least two and cite the readings used.</li>
+    <li><strong>Activity 6 &mdash; case study of a multilingual classroom.</strong> Sit through at least three periods. For a sample of children record the language they spoke most fluently, the language in which they were questioned, and the language in which they answered. Compare the three and note when a child went silent and when one suddenly became fluent. The comparison is the finding.</li>
+    <li><strong>Activity 7 &mdash; critical analysis of texts.</strong> Take one item from each of the four categories &mdash; newspaper, children's literature, journal article, textbook page &mdash; and for each answer: who is the intended reader, what is the purpose, how is the language suited to it, and what choice of language would serve a different reader better.</li>
+  </ul>
+</section>
+
+<!-- ============ INTERNAL ASSESSMENT ============ -->
+<section class="unit-body">
+
+<h2 id="internal"><span class="h2num">Internal Assessment &middot; 15 Marks</span>Scheme of Assessment</h2>
+
+  <p>Fifteen of the fifty marks for this paper are internal, and again the larger share goes to work rather than to a written test. The syllabus sets the split at ten marks for the practicum and five for a unit test, and the ratio is a fair summary of the subject: a paper about language cannot be examined convincingly by asking only about language in the abstract.</p>
+
+  <div class="tw tkeep">
+    <table>
+      <caption>Table 5.2 &mdash; Internal Assessment Components (15 marks)</caption>
+      <thead><tr><th>Component</th><th>Marks</th><th>What it assesses</th><th>Evidence submitted</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Practicum</strong></td><td>10</td><td>Literary activity work and one optional project, together with the ability to analyse language use in a real context</td><td>Report, charts, collection or analysis, according to the activity chosen</td></tr>
+        <tr><td><strong>Unit test</strong></td><td>5</td><td>Knowledge of the four units &mdash; the nature of language, acquisition, diversity and multilingualism, and language across the curriculum</td><td>Written or online test covering Units 1 to 4</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>15</strong></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The compulsory element of the practicum is the literary activity &mdash; the debate, the extempore speech, the storytelling or the role play &mdash; and all four are oral. For a subject whose central claim is that a child acquires language through use, an internal assessment that said nothing about the candidate&rsquo;s own spoken language would be examining the wrong thing.</p>
+</section>
+
+<!-- ============ QUICK SUBJECT REVISION ============ -->
+<section class="unit-body">
+
+<h2 id="revision"><span class="h2num">Revision</span>Quick Subject Revision</h2>
+
+  <h3>Unit-wise Key Facts</h3>
+
+  <ul class="bul">
+    <li><strong>Unit 1.</strong> Language represents and creates thought, so concept and word are one object and knowledge cannot be had without it. Dynamic, creative, arbitrary, perpetual. It carries culture, marks identity and heritage, and is the tool of self-expression.</li>
+    <li><strong>Unit 2.</strong> Biological preparedness &rarr; babbling &rarr; one-word &rarr; two-word &rarr; basic and complex structures &rarr; school. Home language scaffolds concepts, school language opens the curriculum, transition is a period. FLN and NIPUN Bharat (12 competencies) lead the early years. 2.4 = sound level; 2.5 = word level.</li>
+    <li><strong>Unit 3.</strong> Part XVII and the Eighth Schedule make language constitutional. Multilingualism is a resource, not a problem. Assamese (Bamar), Baamuniya script, official under the 1963 Act. R-1 regional, R-2 mother tongue, R-3 English; NEP 2020 keeps the mother tongue as medium to Grade 5, preferably Grade 8.</li>
+    <li><strong>Unit 4.</strong> Language is subject, medium and competence at once. Learning <em>about</em> it and learning <em>through</em> it are different activities. Six functions inside the classroom, a matching range outside. BICS and CALP name the two proficiencies.</li>
+  </ul>
+
+  <h3>Essential Definitions</h3>
+
+  <ul class="bul">
+    <li><strong>Language</strong> &mdash; a conventional and systematic symbol system used by a community for exchanging messages, representing thought and creating meaning.</li>
+    <li><strong>Home language / mother tongue (<em>matribhasa</em>)</strong> &mdash; the language a child acquires first, naturally and informally, in family and community life.</li>
+    <li><strong>Transition</strong> &mdash; the period during which a child moves between the home and the school language, marked by a temporary reduction in the amount and quality of talk.</li>
+    <li><strong>Phoneme</strong> &mdash; the smallest unit of sound that can change a word's meaning; contrastive by definition. <strong>Phonics</strong> &mdash; teaching the grapheme&ndash;phoneme relationship so that print becomes sound.</li>
+    <li><strong>Morpheme</strong> &mdash; the smallest unit carrying meaning; free when it can stand alone, bound when it cannot.</li>
+    <li><strong>Metalinguistic awareness</strong> &mdash; the ability to think about language as a system; the foundation of grammar teaching and of literacy.</li>
+    <li><strong>FLN</strong> &mdash; Foundational Literacy and Numeracy: the early stage at which every child acquires the basic capabilities of reading, writing, speaking and number.</li>
+    <li><strong>Multilingualism</strong> &mdash; more than one language in use in a community, with more than one needed for full participation; in this paper, a resource.</li>
+    <li><strong>Mother tongue clause</strong> &mdash; Article 350A: efforts shall be made to promote the mother tongue at the primary stage, English as an alternative where necessary.</li>
+    <li><strong>Three-language formula</strong> &mdash; teaching the regional language, the mother tongue or local language, and a foreign language, in a graded sequence.</li>
+    <li><strong>BICS / CALP</strong> &mdash; the everyday contextual spoken language of social life, and the decontextualised academically demanding language of reading, writing and subject learning.</li>
+  </ul>
+
+  <h3>Important Names, Theories and Concepts</h3>
+
+  <ul class="bul">
+    <li><strong>Jim Cummins</strong> &mdash; BICS and CALP; the <em>threshold hypothesis</em> and the <em>interdependence hypothesis</em> (proficiency transfers across languages). <em>Beyond the syllabus.</em></li>
+    <li><strong>Kothari Commission, 1964&ndash;66</strong> &mdash; recommended the three-language formula; adopted in the NPE, 1968.</li>
+    <li><strong>NEP 2020</strong> &mdash; multilingualism; mother tongue or regional language as medium to Grade 5, preferably Grade 8; 5+3+3+4; FLN first, giving rise to NIPUN Bharat.</li>
+    <li><strong>NCF-SE 2023</strong> and <strong>NCF-FS 2022</strong> &mdash; language as the medium of the whole curriculum.</li>
+    <li><strong>Beatrice Skelland Beadle and Mary Agassi</strong> &mdash; the child's two-word combinations, the first evidence of grammar.</li>
+    <li><strong>L. S. Vygotsky</strong> &mdash; <em>Thought and Language</em> (1934). <strong>Noam Chomsky</strong> &mdash; the innate capacity for language. <em>Both background, not syllabus points.</em></li>
+  </ul>
+
+  <h3>Dates, Acts and Policy Documents</h3>
+
+  <ul class="check">
+    <li><strong>1950</strong> &mdash; Constitution in force; Eighth Schedule with <strong>14</strong> languages.</li>
+    <li><strong>1956</strong> &mdash; Seventh Amendment inserts <strong>Article 350A</strong>, the mother tongue clause.</li>
+    <li><strong>1963</strong> &mdash; <strong>Assam Official Language Act</strong>: Assamese (Bamar) is the sole official language of Assam.</li>
+    <li><strong>1964&ndash;66</strong> &mdash; Kothari (Education) Commission recommends the three-language formula.</li>
+    <li><strong>1967</strong> &mdash; Twenty-first Amendment adds <strong>Sindhi</strong> to the Eighth Schedule (15).</li>
+    <li><strong>1968</strong> &mdash; National Policy on Education adopts the formula nationally.</li>
+    <li><strong>1987, given effect 1992</strong> &mdash; Fifty-fifth and Seventy-first Amendments add <strong>Konkani, Manipuri, Nepali</strong> &rarr; <strong>22</strong>.</li>
+    <li><strong>2020 / 2022 / 2023</strong> &mdash; NEP 2020 (5+3+3+4, mother tongue to Grade 5 or 8); NIPUN Bharat guidelines and NCF-FS 2022; NCF-SE 2023 (language as the medium of the curriculum).</li>
+  </ul>
+
+  <h3>Model Descriptive Questions</h3>
+
+  <div class="qa">
+    <div class="q l"><span class="qt">LA</span><p>Define language and discuss its nature. Explain how language is dynamic, creative, arbitrary and perpetual, with suitable examples. (15)</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Describe the stages of early language development in the child. What difficulties does a child face on entering a school of a different language, and how can the teacher help? (15)</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Explain the levels at which language can be studied. Distinguish clearly between phonology and morphology, and show how phonics links the two. (15)</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Discuss the constitutional provisions regarding language in India, and explain their relevance to the primary classroom. (15)</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Explain the three-language formula, trace its history from the Kothari Commission to NEP 2020, and examine its importance for a multilingual child in Assam. (15)</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Discuss the place of language in the curriculum. Distinguish between learning about language and learning through language, and BICS and CALP, with examples. (15)</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Explain why knowledge cannot be acquired without language, using examples from other subjects. (15)</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Discuss the problems faced by a child who comes to an Assamese-medium school with a home language other than Assamese, and suggest what the school and teacher should do in Classes I and II. (15)</p></div>
+    <div class="q l"><span class="qt">LA</span><p>You are teaching Class III where most children speak a home language other than Assamese. Plan how you would use the languages present as resources while still ensuring every child learns to read and write in the school language. (15)</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Critically examine the statement that "language is not a subject but the medium of all subjects". Argue both sides and state your own position with reasons. (15)</p></div>
+  </div>
+
+  <h3>Practicum Checklist &mdash; Internal Assessment (15 marks)</h3>
+
+  <ul class="check">
+    <li>Activity 1 (literary activities &mdash; debate, extempore speech, storytelling, role play) &mdash; <strong>compulsory</strong>; plus any one of activities 2&ndash;7.</li>
+    <li>Every activity must yield an examinable artefact &mdash; a report, chart, collection, set of writings, case study or written analysis &mdash; not only an experience.</li>
+    <li>Marking pattern: 10 marks for the practicum, 5 marks for the unit test.</li>
+  </ul>
+</section>
+
+<!-- ============ IMPORTANT DIFFERENCES ============ -->
+<section class="unit-body">
+
+<h2 id="differences"><span class="h2num">Exam Aid</span>Important Differences</h2>
+
+  <div class="tw">
+  <table class="compact">
+    <caption>Table R.1 &mdash; The comparisons most often asked for</caption>
+    <thead><tr><th>Pair</th><th>Distinguishing points</th></tr></thead>
+    <tbody>
+      <tr><td>L1 vs L2</td><td>Implicit, incidental, from need vs explicit, deliberate, from a textbook; developmental errors that fade vs interference errors that persist; full speaker vs learner</td></tr>
+      <tr><td>Home language vs school language</td><td>Family and community, informal, high volume of talk, authority and intimacy vs classroom, formal, limited volume, learner status, access to the printed curriculum</td></tr>
+      <tr><td>Phoneme vs morpheme</td><td>Smallest contrastive unit of <em>sound</em>: finite in number, cannot stand alone, written imperfectly by the grapheme vs smallest unit carrying <em>meaning</em>: productive, free or bound, often not written one to one</td></tr>
+      <tr><td>Phonology vs phonics</td><td>Phonology is a science: which sounds the language treats as different, and which sequences are permitted. Phonics is a method: teaching the child the grapheme&ndash;phoneme relationship</td></tr>
+      <tr><td>2.4 vs 2.5</td><td>2.4 = the sound level: phonetics, phonology, orthography, phonics. 2.5 = the word level: morphemes, affixes, compounding, conversion &mdash; and morphology is reached <em>through</em> phonics</td></tr>
+      <tr><td>BICS vs CALP</td><td>Everyday, contextual, spoken, pre-school, approximate accuracy vs academic, decontextualised, reading and writing, precision required; one without the other is normal</td></tr>
+      <tr><td>Art. 343 vs Art. 345</td><td>343 names the official language of the <em>Union</em> (Hindi in Devanagari) vs 345 restricts the languages used for the <em>official purposes of the Union</em> to Hindi and English; a State adopts its language under Art. 343A</td></tr>
+      <tr><td>Learning about language vs learning through language</td><td>Language is the content of the lesson vs language is the medium and the subject is the point; the first is the language period, the second is every other period</td></tr>
+      <tr><td>Code-switching vs translanguaging</td><td>Situational and often unconscious shifting between languages for social effect vs planned movement between languages to solve a learning problem; translanguaging is a pedagogic choice</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<!-- ============ COURSE INFORMATION ============ -->
+<section class="unit-body">
+
+<h2 id="course-info"><span class="h2num">At the End</span>Course Information</h2>
+
+  <h3>Orientation</h3>
+
+  <p>Language is not only a tool of communication; it is the medium through which nearly all knowledge in a school is received, tested and displayed. A child who arrives at Class I with a rich mother tongue and meets that language in the classroom is learning; a child who arrives with one language and is forced into another is still learning, but at an avoidable cost. Unit 1 treats language as a social and cultural system, Unit 2 turns to the child and to the structure of language, Unit 3 takes up the Indian and specifically Assamese situation, and Unit 4 widens the frame to the curriculum as a whole.</p>
+
+  <h3>The Language of the Paper</h3>
+
+  <p>Five of the eight prescribed readings for this paper are in Assamese, so the paper is a <strong>bilingual paper in substance</strong>. If the question paper is set in Assamese, answer in Assamese and use the Assamese technical vocabulary the readings use. Use the readings in the original: <em>Adhunik Bhasa Bignan Parichaya</em> for the nature of language, <em>Bhasar Twattva Katha</em> for the levels of linguistic structure, and <em>Upa Bhasa Bijnanar Bhumika</em> and <em>Nika Asamiya Bhasa</em> for the Assamese-specific content of Unit 3. A bilingual glossary is given at Table 3.3.</p>
+
+  <h3>Mode of Transaction</h3>
+
+  <p>Discussion; pair and group activity; workshop; assignment; project work; questioning and responding; case study; lecture; literary activities. A purely descriptive treatment of grammar is not what is wanted: grammar is to be handled <em>inside text</em>, noticed in the sentences children actually read, not presented as a separate list of rules. The syllabus makes a related point about reading &mdash; comprehending an expository or subject-content text draws on quite different strategies from following a narrative, and a teacher who knows the difference teaches reading far better. The practicum is not separate from the teaching of the paper but an activity-based form of it.</p>
+
+  <h3>Assessment Structure</h3>
+
+  <div class="tw tkeep">
+    <table class="compact">
+      <caption>Table C.1 &mdash; Assessment at a glance</caption>
+      <thead><tr><th>Component</th><th>Marks</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>External written examination</td><td>35</td><td>Units 1&ndash;4, with Unit 1 and Unit 2 carrying 10 marks each, Unit 3 nine and Unit 4 six</td></tr>
+        <tr><td>Internal: practicum</td><td>10</td><td>Activity 1 compulsory, plus any one of activities 2&ndash;7</td></tr>
+        <tr><td>Internal: unit test</td><td>5</td><td>Covers Units 1 to 4</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>50</strong></td><td>2 credits; 2&ndash;3 periods per week</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ SUGGESTED READINGS ============ -->
+<section class="unit-body">
+
+<h2 id="readings"><span class="h2num">At the End</span>Suggested Readings</h2>
+
+  <p>The readings below are those named in the syllabus. The Assamese titles are given exactly as prescribed, with an English rendering in brackets; they should be consulted in the original where possible, since this paper is transacted in Assamese.</p>
+
+  <ul class="bul">
+    <li>Dr. Phanindra Narayan Dutta Baruah, <em>Adhunik Bhasa Bignan Parichaya</em> (Introduction to Modern Linguistics) &mdash; Unit 2: phonology, morphology, structure of language.</li>
+    <li>Dr. Phanindra Narayan Dutta Baruah, <em>Proyog Bhasa Bignanar Ruprekha</em> (Outline of Applied Linguistics) &mdash; Unit 4: language in use, teaching, curriculum.</li>
+    <li>Edited by Dr. Nahendra Padun, <em>Bhasar Twattva Katha</em> (Linguistic and Cultural Studies) &mdash; Unit 1: language, culture and identity.</li>
+    <li>Dr. Ramesh Pathak, <em>Upa Bhasa Bijnanar Bhumika</em> (The Field of Minority Languages) &mdash; Unit 3: language diversity and the smaller languages.</li>
+    <li>Dr. Maheswar Neog, <em>Nika Asamiya Bhasa</em> (Our Mother Tongue Assamese) &mdash; Unit 3: Assamese and the language situation of Assam.</li>
+    <li>KKHSOU / IGNOU / NIOS, study materials for D.El.Ed &mdash; all units; the IGNOU and NIOS materials are useful for Units 3 and 4.</li>
+    <li>TESS-India (OER), <em>Multilingualism in Classroom</em> (EE-12) &mdash; Unit 3: the multilingual classroom and the teacher's role.</li>
+    <li>Government of India, <em>NCF-SE 2023</em> &mdash; Unit 4: language across the curriculum.</li>
+    <li>Government of India, <em>NEP 2020</em>; NCF-FS 2022; NIPUN Bharat guidelines &mdash; Unit 2: FLN; Unit 3: the 5+3+3+4 structure and the medium of instruction.</li>
+  </ul>
+
+  <p>For the Constitution, keep one reliable commentary to hand and use it to check rather than to replace memory: the working references most used for Articles 343, 343A, 345, 350, 350A, 350B, 351 and 352 and for the Eighth Schedule are the Constitution of India as printed in <em>India Code</em>, and M. Laxmikanth's <em>Indian Polity</em>. The official text of the <strong>Assam Official Language Act, 1963</strong> and the current <strong>Language Policy for Assam</strong> should be read directly. Two general resources named alongside the readings are also useful: <em>www.adam-mila.com</em> for access to children's literature, and <em>www.mentalhelp.net</em> for material on language and emotional well-being. Any online source used in a project should be named with its date of access.</p>
+</section>
+</article>
+</body>
+</html>

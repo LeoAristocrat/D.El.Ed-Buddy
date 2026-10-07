@@ -1,0 +1,2130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="D.El.Ed Semester I Study Notes">
+<meta name="description" content="Growth, development, developmental hazards and child rights and protection.">
+<meta name="keywords" content="D.El.Ed, Semester 1, S1.1, SCERT Assam, PSTE, teacher education, study notes">
+<meta name="subject" content="Diploma in Elementary Education (PSTE) — Semester I">
+<meta name="color-scheme" content="light">
+<title>S1.1 — Childhood, Child Protection and the Development of Children | D.El.Ed Semester I Notes</title>
+<link rel="icon" href="/favicon.svg">
+<style>
+/* ============================================================
+   D.El.Ed Semester 1 — Shared Design System
+   Premium academic notebook aesthetic
+   ============================================================ */
+
+:root {
+  /* --- Paper & surface --- */
+  --paper:          #faf6ee;
+  --paper-deep:     #f3ece0;
+  --card:           #fffdf8;
+  --card-beige:     #f6efe2;
+  --card-beige-2:   #f2e9d8;
+
+  /* --- Ink --- */
+  --ink:            #33302b;
+  --ink-soft:       #55504a;
+  --ink-faint:      #7a736a;
+  --rule:           #ded2bd;
+  --rule-soft:      #e9e0cf;
+
+  /* --- Accents --- */
+  --terracotta:     #b4623c;
+  --terracotta-d:   #8f4a2a;
+  --terracotta-bg:  #f7e9e0;
+  --olive:          #6d7a4a;
+  --olive-d:        #54603a;
+  --olive-bg:       #ecefdd;
+  --dusty-blue:     #4c6a83;
+  --dusty-blue-bg:  #e5ecf2;
+  --plum:           #7a5570;
+  --plum-bg:        #f1e8ee;
+  --gold:           #a5822e;
+  --gold-bg:        #f7efd8;
+
+  /* --- Type --- */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+           Georgia, "Times New Roman", serif;
+  --sans:  "Segoe UI", "Gill Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  --mono:  "Consolas", "SF Mono", "Menlo", monospace;
+
+  --fs-body: 10.6pt;
+  --lh-body: 1.62;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 34px 20px 80px;
+  font-family: var(--serif);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.20) 1px, transparent 0);
+  background-size: 22px 22px;
+  background-attachment: fixed;
+}
+
+/* ============ Document container ============ */
+.doc {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(120, 100, 70, 0.06),
+    0 10px 34px -14px rgba(90, 72, 45, 0.22);
+  padding: 46px 56px 64px;
+  position: relative;
+}
+.doc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0);
+  background-size: 22px 22px;
+  opacity: 0.75;
+}
+.doc > * { position: relative; z-index: 1; }
+
+/* ============ Hero / subject header ============ */
+.hero {
+  border: 1px solid var(--rule);
+  border-top: 5px solid var(--terracotta);
+  background: linear-gradient(180deg, #fffdf8 0%, #f7f0e3 100%);
+  padding: 26px 30px 22px;
+  margin-bottom: 26px;
+  border-radius: 3px;
+}
+.hero .kicker {
+  font-family: var(--sans);
+  font-size: 8.4pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-size: 25pt;
+  line-height: 1.16;
+  margin: 0 0 4px;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.hero .code {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--paper);
+  background: var(--ink);
+  padding: 3px 11px;
+  border-radius: 2px;
+  margin: 0 0 12px;
+}
+.hero .tagline {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 4px;
+  max-width: 62ch;
+}
+/* The divider doubles as the maker-credit row: rule on the left, credit on the
+   right. Keeping them on one line costs no vertical space in the hero, which
+   the one-page-before-Unit-1 budget cannot spare. */
+.hero .rule-line {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 13px 0 12px;
+}
+.hero .rule-line::before {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, var(--terracotta), var(--rule) 55%, transparent);
+}
+.made-by {
+  flex: 0 0 auto;
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+.made-by .heart {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", var(--sans);
+  font-size: 8.4pt;
+}
+.made-by a {
+  color: var(--terracotta-d);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+}
+.made-by a:hover { border-bottom-color: var(--terracotta); }
+
+/* ============ At a glance ============ */
+.glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.glance .g-item {
+  flex: 1 1 152px;
+  background: #fffdf8;
+  padding: 9px 12px 10px;
+}
+.glance .g-label {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 2px;
+}
+.glance .g-value {
+  font-size: 9.6pt;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.34;
+}
+
+/* ============ Table of contents ============ */
+.toc {
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--olive);
+  background: #fcf9f2;
+  padding: 20px 24px 18px;
+  border-radius: 3px;
+  margin: 26px 0 30px;
+}
+.toc h2 {
+  font-family: var(--sans);
+  font-size: 9.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  margin: 0 0 12px;
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+}
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
+.toc > ol > li {
+  counter-increment: toc;
+  margin: 0 0 9px;
+}
+.toc > ol > li > a {
+  font-weight: 700;
+  font-size: 10.6pt;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.toc > ol > li > a:hover { color: var(--terracotta-d); border-bottom-color: var(--terracotta); }
+.toc > ol > li > a::before {
+  content: counter(toc, upper-roman) " · ";
+  color: var(--terracotta);
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.toc .sub {
+  margin: 4px 0 0 4px;
+  padding: 0 0 0 14px;
+  list-style: none;
+  border-left: 1px solid var(--rule-soft);
+  columns: 2;
+  column-gap: 26px;
+}
+.toc .sub li {
+  font-size: 9.4pt;
+  color: var(--ink-soft);
+  line-height: 1.48;
+  margin-bottom: 2px;
+  break-inside: avoid;
+}
+.toc .sub a { color: inherit; text-decoration: none; }
+.toc .sub a:hover { color: var(--terracotta-d); }
+
+/* ============ Headings ============ */
+h2 {
+  font-size: 16.5pt;
+  line-height: 1.22;
+  margin: 40px 0 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  padding: 0 0 9px 15px;
+  border-left: 5px solid var(--terracotta);
+  border-bottom: 1px solid var(--rule);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h2 .h2num {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+h3 {
+  font-size: 12.6pt;
+  line-height: 1.3;
+  margin: 26px 0 8px;
+  font-weight: 700;
+  color: #3d3933;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  background: var(--olive);
+  border-radius: 50%;
+  margin-right: 9px;
+  vertical-align: 0.06em;
+}
+
+h4 {
+  font-size: 10.9pt;
+  line-height: 1.35;
+  margin: 18px 0 6px;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--terracotta-d);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h5 {
+  font-size: 9.9pt;
+  margin: 14px 0 4px;
+  font-weight: 700;
+  color: var(--olive-d);
+  font-family: var(--sans);
+  letter-spacing: 0.03em;
+  break-after: avoid;
+}
+
+/* ============ Body text ============ */
+p { margin: 0 0 10px; text-align: justify; hyphens: auto; }
+p.tight { margin-bottom: 4px; }
+.doc > p, .unit-body > p { max-width: 74ch; }
+
+strong, b { font-weight: 700; color: #26231f; }
+
+em { font-style: italic; }
+
+.lead {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 72ch;
+}
+
+/* ============ Lists ============ */
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 5px; }
+li > ul, li > ol { margin-top: 5px; margin-bottom: 3px; }
+
+ul.bul { list-style: none; padding-left: 0; }
+ul.bul > li {
+  position: relative;
+  padding-left: 17px;
+  margin-bottom: 6px;
+}
+ul.bul > li::before {
+  content: "▸";
+  position: absolute;
+  left: 2px;
+  top: -0.02em;
+  color: var(--terracotta);
+  font-size: 0.92em;
+}
+
+ul.check { list-style: none; padding-left: 0; }
+ul.check > li { position: relative; padding-left: 20px; margin-bottom: 5px; }
+ul.check > li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--olive);
+  font-weight: 700;
+  font-size: 0.88em;
+}
+
+ol.num { list-style: none; counter-reset: n; padding-left: 26px; }
+ol.num > li { position: relative; margin-bottom: 7px; counter-increment: n; }
+ol.num > li::before {
+  content: counter(n) ".";
+  position: absolute;
+  left: -22px;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  font-family: var(--sans);
+  font-size: 0.88em;
+}
+
+dl { margin: 0 0 12px; }
+dt { font-weight: 700; color: #26231f; margin-top: 8px; }
+dd { margin: 2px 0 0 0; }
+
+abbr { text-decoration: none; border-bottom: 1px dotted var(--ink-faint); }
+
+/* ============ Callout cards ============ */
+.card {
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 12px 16px 13px;
+  margin: 14px 0;
+  background: #fffdf8;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.card > :last-child { margin-bottom: 0; }
+.card p { text-align: left; }
+
+.card .lbl {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.def {
+  background: #fdf6ec;
+  border-color: #e3d2b6;
+  border-left: 4px solid var(--gold);
+}
+.def .lbl { color: var(--gold); }
+
+.idea {
+  background: var(--olive-bg);
+  border-color: #d3d9bd;
+  border-left: 4px solid var(--olive);
+}
+.idea .lbl { color: var(--olive-d); }
+
+.rem {
+  background: var(--terracotta-bg);
+  border-color: #e8cebc;
+  border-left: 4px solid var(--terracotta);
+}
+.rem .lbl { color: var(--terracotta-d); }
+
+.ex {
+  background: #f4f1fa;
+  border-color: #d9d0e8;
+  border-left: 4px solid #6b5a94;
+}
+.ex .lbl { color: #5b4c80; }
+
+.cls {
+  background: var(--dusty-blue-bg);
+  border-color: #ccd9e3;
+  border-left: 4px solid var(--dusty-blue);
+}
+.cls .lbl { color: #3d5a71; }
+
+.exam {
+  background: #fbf4e3;
+  border-color: #e6d5aa;
+  border-left: 4px solid #a5822e;
+}
+.exam .lbl { color: #856722; }
+
+.mist {
+  background: #f9ecec;
+  border-color: #eccfcf;
+  border-left: 4px solid #a44b4b;
+}
+.mist .lbl { color: #8b3c3c; }
+
+.refl {
+  background: var(--plum-bg);
+  border-color: #dfcddd;
+  border-left: 4px solid var(--plum);
+}
+.refl .lbl { color: #654761; }
+
+.quick {
+  background: #f4f6ef;
+  border-color: #d6dcc4;
+  border-left: 4px solid #7d8a52;
+}
+.quick .lbl { color: #5f6a38; }
+
+/* inline term highlight */
+.term {
+  background: #f2ead6;
+  padding: 0 3px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+mark.hl {
+  background: #f6e7c4;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ============ Tables ============ */
+.tw {
+  margin: 14px 0 16px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fffdf8;
+}
+.tw.tkeep { break-inside: avoid; page-break-inside: avoid; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.1pt;
+  line-height: 1.46;
+}
+caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  padding: 9px 12px 7px;
+  background: #f6f1e6;
+  border-bottom: 1px solid var(--rule);
+}
+th {
+  background: #efe8d8;
+  color: #3a342b;
+  font-family: var(--sans);
+  font-size: 8.2pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+th:last-child { border-right: 0; }
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--rule-soft);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+  text-align: left;
+}
+td:last-child { border-right: 0; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:nth-child(even) td { background: #fcf8f0; }
+table.compact { font-size: 8.6pt; }
+table.compact th, table.compact td { padding: 5px 8px; }
+
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+
+/* ============ Figure / diagram ============ */
+figure {
+  margin: 18px 0;
+  padding: 14px 16px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fcf9f2;
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+figure svg { max-width: 100%; height: auto; }
+figcaption {
+  font-family: var(--sans);
+  font-size: 7.8pt;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+  margin-top: 8px;
+  text-align: center;
+}
+figcaption b { color: var(--ink-soft); }
+
+/* ============ Unit review block ============ */
+.review {
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--olive);
+  background: #fbf8f0;
+  border-radius: 3px;
+  padding: 16px 20px 18px;
+  margin: 22px 0 30px;
+}
+.review h4 {
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  font-style: normal;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
+}
+.review h5 {
+  font-size: 8.4pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  margin: 13px 0 5px;
+  font-family: var(--sans);
+}
+.review h5:first-of-type { margin-top: 9px; }
+.review p { text-align: left; }
+.review > :last-child { margin-bottom: 0; }
+
+.qa { margin: 0; }
+.qa .q { margin-bottom: 8px; break-inside: avoid; page-break-inside: avoid; }
+.qa .qt {
+  font-family: var(--sans);
+  font-size: 7.2pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--ink-soft);
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+.qa .q.l { border-left: 3px solid var(--terracotta); padding-left: 9px; }
+.qa .q.s { border-left: 3px solid var(--olive); padding-left: 9px; }
+.qa .q.v { border-left: 3px solid var(--dusty-blue); padding-left: 9px; }
+.qa .q p { margin: 0; text-align: left; display: inline; }
+
+/* ============ Subject card grid (project index only) ============ */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 14px;
+  margin: 18px 0 24px;
+}
+.subjcard {
+  display: block;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--terracotta);
+  border-radius: 3px;
+  background: #fffdf8;
+  padding: 13px 15px 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.subjcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -8px rgba(90, 72, 45, .45);
+}
+.subjcard .sc-code {
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--terracotta-d);
+}
+.subjcard .sc-title {
+  font-size: 11.4pt;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 4px 0 6px;
+  color: var(--ink);
+}
+.subjcard .sc-desc {
+  font-size: 9pt;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin-bottom: 9px;
+}
+.subjcard .sc-meta {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 7px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.subjcard.olive { border-top-color: var(--olive); }
+.subjcard.olive .sc-code { color: var(--olive-d); }
+.subjcard.blue { border-top-color: var(--dusty-blue); }
+.subjcard.blue .sc-code { color: #3d5a71; }
+.subjcard.gold { border-top-color: var(--gold); }
+.subjcard.gold .sc-code { color: #856722; }
+
+.linkpair {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.08em;
+  margin-top: 7px;
+  display: flex;
+  gap: 12px;
+}
+.linkpair a { color: var(--terracotta-d); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.linkpair a:hover { border-bottom-color: var(--terracotta); }
+
+.tocwide { columns: 2; column-gap: 30px; }
+.tocwide li { break-inside: avoid; }
+
+/* ============ Misc components ============ */
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 18px;
+}
+.chip {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  padding: 3px 11px;
+}
+
+.hr {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+  margin: 30px 0;
+}
+
+.footnote {
+  font-size: 8.6pt;
+  color: var(--ink-faint);
+  line-height: 1.5;
+}
+
+/* two-column comparison */
+.two-col { column-count: 2; column-gap: 30px; column-rule: 1px solid var(--rule-soft); }
+.two-col > * { break-inside: avoid; }
+
+/* ============ Responsive ============ */
+@media (max-width: 780px) {
+  body { padding: 14px 8px 40px; background-size: 18px 18px; }
+  .doc { padding: 26px 20px 36px; border-radius: 3px; }
+  .hero { padding: 20px 18px 18px; }
+  .hero h1 { font-size: 20pt; }
+  h2 { font-size: 14.5pt; padding-left: 11px; border-left-width: 4px; }
+  h3 { font-size: 11.6pt; }
+  .toc .sub { columns: 1; }
+  .tocwide { columns: 1; }
+  .two-col { column-count: 1; }
+  table { font-size: 8.4pt; }
+}
+
+/* ============================================================
+   PRINT / PDF  —  A4
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 15mm 14mm 16mm 14mm;
+}
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+    background-image: none !important;
+  }
+  body { padding: 0; font-size: 10.1pt; line-height: 1.56; }
+  .doc {
+    max-width: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .doc::before { display: none; }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Keep a whisper of the notebook dot-grid on the page, but far fainter
+     than on screen so a 70-page print run does not look noisy. */
+  .doc {
+    background-color: #fffdf8 !important;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0) !important;
+    background-size: 5.6mm 5.6mm !important;
+  }
+
+  h2, h3, h4, h5 { break-after: avoid; page-break-after: avoid; }
+  h2 { margin-top: 20pt; }
+
+  .card, figure, .qa .q, .tw.tkeep, tr, .chip-row { break-inside: avoid; page-break-inside: avoid; }
+  .tw, .card, .review { break-inside: auto; page-break-inside: auto; }
+
+  thead { display: table-header-group; }
+  tfoot { display: table-footer-group; }
+  p, li { orphans: 2; widows: 2; }
+
+  a { color: inherit; text-decoration: none; }
+  .made-by a { border-bottom: 0; }
+
+  .toc a { color: var(--ink); }
+
+  /* page-break control utility classes */
+  .pb { break-before: page; page-break-before: always; }
+  .avoid { break-inside: avoid; page-break-inside: avoid; }
+}
+
+</style>
+</head>
+<body>
+<article class="doc">
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="kicker">D.El.Ed &mdash; Semester I &middot; Paper S1.1</div>
+  <div class="code">S1.1</div>
+  <h1>Childhood, Child Protection and the Development of Children</h1>
+  <p class="tagline">Syllabus paper title: &ldquo;Growth, Development and Protection of Children&rdquo; &mdash; how children grow, what shapes that growth, what threatens it, and what an elementary teacher and a society owe them.</p>
+  <div class="rule-line"><span class="made-by">Made with <span class="heart">&#10084;&#65039;</span> by <strong>Sayeem Sadik</strong> &middot; <a href="https://leoaristocrat.eu.cc">leoaristocrat.eu.cc</a></span></div>
+  <div class="glance">
+    <div class="g-item"><div class="g-label">Marks</div><div class="g-value">70 Ext + 30 Int = 100</div></div>
+    <div class="g-item"><div class="g-label">Credits</div><div class="g-value">4 &middot; 4&ndash;5 periods / week</div></div>
+    <div class="g-item"><div class="g-label">Units</div><div class="g-value">6 (15&ndash;10&ndash;10&ndash;15&ndash;10&ndash;10)</div></div>
+    <div class="g-item"><div class="g-label">Field work</div><div class="g-value">4 practicum tasks &middot; SIP</div></div>
+  </div>
+</header>
+
+<!-- ============ CONTENTS ============ -->
+<nav class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#unit-1">Unit 1 &mdash; Perspectives in Child Development (15)</a>
+        <ul class="sub">
+        <li><a href="#s1-1">1.1 Growth and Development: Concept and Principles</a></li>
+        <li><a href="#s1-2">1.2 Stages, Characteristics and Milestones</a></li>
+        <li><a href="#s1-3">1.3 Factors Influencing Development</a></li>
+        <li><a href="#s1-4">1.4 Tools for Gathering Data about Development</a></li>
+        <li><a href="#s1-4-1">1.4.1 Naturalistic Observation</a></li>
+        <li><a href="#s1-4-2">1.4.2 Interviews</a></li>
+        <li><a href="#s1-4-3">1.4.3 Case Studies</a></li>
+        <li><a href="#s1-4-4">1.4.4 Anecdotal Records</a></li>
+        <li><a href="#s1-4-5">1.4.5 Reflective Journals</a></li>
+        <li><a href="#s1-4-6">1.4.6 Clinical Methods</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-2">Unit 2 &mdash; Physical-Motor Development (10)</a>
+        <ul class="sub">
+        <li><a href="#s2-1">2.1 Growth and Maturation</a></li>
+        <li><a href="#s2-2">2.2 Gross and Fine Motor Development</a></li>
+        <li><a href="#s2-3">2.3 Role of Parents and Teachers</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-3">Unit 3 &mdash; Cognitive Development (10)</a>
+        <ul class="sub">
+        <li><a href="#s3-1">3.1 Meaning and Concept</a></li>
+        <li><a href="#s3-2">3.2 Stages with Reference to Jean Piaget</a></li>
+        <li><a href="#s3-3">3.3 Factors Influencing Cognitive Development</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-4">Unit 4 &mdash; Social, Emotional and Language Development (15)</a>
+        <ul class="sub">
+        <li><a href="#s4-1">4.1 Social Development</a></li>
+        <li><a href="#s4-2">4.2 Emotional Development</a></li>
+        <li><a href="#s4-3">4.3 Language Development</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-5">Unit 5 &mdash; Developmental Hazards and Delays (10)</a>
+        <ul class="sub">
+        <li><a href="#s5-1">5.1 Developmental Hazards</a></li>
+        <li><a href="#s5-2">5.2 Developmental Delay</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-6">Unit 6 &mdash; Child Protection and Child Rights (10)</a>
+        <ul class="sub">
+        <li><a href="#s6-1">6.1 Child Protection and Child Rights</a></li>
+        <li><a href="#s6-2">6.2 Types of Child Abuse</a></li>
+        <li><a href="#s6-3">6.3 Acts and Schemes</a></li>
+    </ul>
+    </li>
+    <li><a href="#practicum">Practicum &mdash; the Four Field Tasks</a></li>
+    <li><a href="#sip">SIP &mdash; Case Study of Two Children</a>
+        <ul class="sub">
+        <li><a href="#sip-task">The Task &mdash; Two Children, Diverse Contexts</a></li>
+        <li><a href="#sip-method">How to Carry Out the Study</a></li>
+    </ul>
+    </li>
+    <li><a href="#internal">Internal Assessment &mdash; 30 Marks</a></li>
+    <li><a href="#revision">Quick Subject Revision</a></li>
+    <li><a href="#differences">Important Differences</a></li>
+    <li><a href="#courseinfo">Course Information</a></li>
+    <li><a href="#faculty">Faculty and Mentor Notes</a></li>
+    <li><a href="#readings">Suggested Readings</a></li>
+  </ol>
+</nav>
+
+<!-- ============ UNIT 1 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-1"><span class="h2num">Unit 1 &middot; 15 Marks</span>Perspectives in Child Development</h2>
+
+<h3 id="s1-1">1.1 Growth and Development: Concept and Principles</h3>
+
+<p><strong>Growth</strong> is measurable, quantitative change in the physical &mdash; height, weight, girth, or the number of vocabulary words &mdash; expressible in units. <strong>Development</strong> is qualitative and quantitative change in function, behaviour and personality, in the ways the child organises and uses what they have. The two are not synonyms but supply and use: growth supplies the raw material on which development builds. A child with healthy limbs may never learn to write because nobody taught them; a child with delayed growth may show normal intellectual development in a responsive environment.</p>
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Growth</strong> &mdash; measurable, quantitative increase in the size, proportion and number of the body&rsquo;s parts and of vocabulary, in objective units. <strong>Development</strong> &mdash; the progressive series of orderly, coherent changes, qualitative as well as quantitative, by which the child comes to function at progressively higher levels of physical, mental, social and emotional organisation.</p>
+</div>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 1.1 &mdash; Growth and Development Compared</caption>
+    <thead><tr><th>Basis</th><th>Growth</th><th>Development</th></tr></thead>
+    <tbody>
+      <tr><td>What it is</td><td>Quantitative, measurable increase in size and number</td><td>Qualitative and quantitative change in function and behaviour</td></tr>
+      <tr><td>Stops when</td><td>Physical growth ceases around the end of adolescence</td><td>Development continues well into adulthood</td></tr>
+      <tr><td>Measured by</td><td>Height, weight, girth, head circumference, vocabulary count, reaction time</td><td>Rating scales, observation, achievement tests, teacher judgement</td></tr>
+      <tr><td>Nature of change</td><td>Increase in quantity</td><td>Increase in organisation, integration and competence</td></tr>
+      <tr><td>Cause</td><td>Chiefly biological &mdash; heredity, nutrition, endocrine functioning</td><td>Biological <em>and</em> environmental &mdash; opportunity, practice, relationships, culture</td></tr>
+      <tr><td>Example</td><td>The child grows 11 cm in a year</td><td>The child learns to hold a pencil, ride a cycle, read a sentence and control anger</td></tr>
+      <tr><td>Key point</td><td colspan="2">Development cannot proceed normally without adequate growth; growth alone does not guarantee development.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The <strong>principles of development</strong>, most commonly attributed to <strong>Edgar Arnold Hurlock</strong>, are the working rules that let us predict what a normally developing child should be doing at a given age. Four are usually listed, and the first two are directions of development.</p>
+
+<ul class="bul">
+  <li><strong>Cephalocaudal &mdash; head to toe.</strong> Control appears first in the muscles of the head and neck, then trunk and shoulders, then arms, then legs and feet. An infant controls the head before the hands, and the hands before the feet.</li>
+  <li><strong>Proximodistal &mdash; centre outward.</strong> Control moves outwards from the central nervous system and trunk to the extremities: shoulders, then elbow, then wrist, then fingers &mdash; the reverse of a chain in which the whole arm moves and only later the individual digits.</li>
+  <li><strong>Development is a continuous process.</strong> There is no sudden jump from stage to stage; a skill acquired today rests on what was built yesterday. This is why gaps in the foundation cannot be repaired cheaply later.</li>
+  <li><strong>The rate of development is uneven.</strong> Physical growth is rapid in infancy, slows in early childhood and surges again at puberty; language is explosive between two and five; abstract reasoning is a late bloomer. Within one child, one domain may be ahead of another.</li>
+</ul>
+
+<p>Two further principles are widely used. <strong>Integration</strong>: development in one domain supports the others &mdash; secure language lets a child join in with peers, and accepted peers give the confidence to attempt harder cognitive tasks. <strong>Individual difference</strong>: the sequence of development is broadly common to all children, but the rate, the intensity and the final pattern vary. Development follows a general sequence, not a uniform timetable.</p>
+
+<h3 id="s1-2">1.2 Stages of Development, Characteristics and Developmental Milestones</h3>
+
+<p>Development is not a smooth ramp but a series of qualitatively distinct periods, each with its own characteristic rate, style and dominant task. The simplest arrangement for elementary teacher education divides the childhood years into four periods.</p>
+
+
+
+<div class="tw">
+  <table>
+    <caption>Table 1.2 &mdash; Four Periods of Development: Characteristics and Dominant Tasks</caption>
+    <thead><tr><th>Period</th><th>Approx. age</th><th>Characteristic pattern</th><th>Dominant task</th></tr></thead>
+    <tbody>
+      <tr><td>Infancy</td><td>Birth to 2 years</td><td>Rapid, almost uninterrupted physical growth; sensory and motor control advances; speech begins</td><td>Trust and secure attachment; first autonomy; language foundations</td></tr>
+      <tr><td>Early childhood</td><td>2 to 6 years</td><td>Slower physical growth; dramatic language, cognitive and imaginative growth; short attention span</td><td>Initiative and language; pre-operational thinking; learning through play</td></tr>
+      <tr><td>Late childhood</td><td>6 to 12 years</td><td>Steady slow growth; refinement of fine motor; logical, concrete reasoning; growing peer orientation</td><td>Industry and achievement; concrete operations; peer group and school as central</td></tr>
+      <tr><td>Adolescence</td><td>12 to 18 years</td><td>Pubertal growth spurt; heightened emotion; abstract reasoning emerges; identity crisis</td><td>Identity and self-definition; formal operational thinking</td></tr>
+
+    </tbody>
+  </table>
+</div>
+
+<p><strong>Developmental milestones</strong> are the observable, predictable behaviours and skills that mark attainment of a particular developmental achievement. They serve three purposes in a school: to describe what most children can do at a given age, to give a reference against which an individual child is observed, and to guide the planning of activities at the right level &mdash; neither so easy that they bore, nor so hard that they produce only failure. Three cautions follow. A milestone is a <em>norm</em>, not a <em>deadline</em>; several months either side of the median is normal, and diagnosis is for trained professionals. A milestone marks an <em>emerging</em> ability, not a mastered one. And milestones are not produced in isolation: sitting up needs trunk control, curiosity and enough floor time.</p>
+
+
+<div class="tw">
+  <table>
+    <caption>Table 1.3 &mdash; Indicative Developmental Milestones: Infant to Late Childhood</caption>
+    <thead><tr><th>Domain</th><th>By 12 months</th><th>By 2&ndash;3 years</th><th>By 4&ndash;5 years</th><th>By 8&ndash;10 years</th></tr></thead>
+    <tbody>
+      <tr><td>Physical &amp; motor</td><td>Sits with support; crawls; pulls to stand; pincer grasp</td><td>Runs; walks up steps; copies a line; feeds self with a spoon</td><td>Runs and jumps; hops on one foot; draws a recognisable person; threads a needle</td><td>Skips; rides a cycle; writes a sentence; uses scissors accurately</td></tr>
+      <tr><td>Language</td><td>Babbles; responds to name; a few meaningful words</td><td>Two- to three-word phrases; names objects; follows two-step commands</td><td>Speaks in sentences; narrates a simple story; knows many rhymes</td><td>Vocabulary of several thousand words; reads simple text; tells a connected story</td></tr>
+      <tr><td>Cognitive</td><td>Responds to a new object with all senses; searches for a hidden object</td><td>Symbolic play begins; sorts by colour and size</td><td>Counts to ten; one-to-one correspondence; asks &ldquo;why&rdquo; questions</td><td>Classifies, seriates, reverses numbers; conservation of quantity</td></tr>
+      <tr><td>Social &amp; emotional</td><td>Distinguishes familiar faces; social smile; anxiety to strangers</td><td>Parallel play; begins to assert independence</td><td>Cooperative play; shares and takes turns; shows empathy</td><td>Stable friendships; works in groups; understands several points of view</td></tr>
+
+
+    </tbody>
+  </table>
+</div>
+
+<p>Never read a late milestone as evidence of poor intelligence, and never treat a milestone list as a checklist for grading children. A child who sits late but is alert, responsive and eager to move has an opportunity problem; a child who sits late, is withdrawn and does not respond requires attention. The teacher&rsquo;s job is to notice, record and refer.</p>
+
+<h3 id="s1-3">1.3 Factors Influencing Development</h3>
+
+<p>Development is the outcome of two great influences, <strong>hereditary</strong> (endogenous) and <strong>environmental</strong> (exogenous), constantly interacting. Heredity supplies the potential, the timetable and the limits; environment supplies the stimulation that makes the most of it. Neither can be substituted for the other. Within heredity three factors matter most: <strong>genes</strong>, which set the pattern and timing of the growth curve; <strong>prenatal and birth factors</strong> &mdash; maternal nutrition and health, exposure to alcohol or tobacco, difficult delivery, prematurity, low birth weight &mdash; which can damage a developmental process before it has begun; and <strong>individual genetic endowment</strong>, which accounts for differences in the rate and pattern of maturation between children of the same age.</p>
+
+
+<div class="tw">
+  <table>
+    <caption>Table 1.4 &mdash; Hereditary and Environmental Factors in Development</caption>
+    <thead><tr><th>Category</th><th>Specific factors</th><th>Effect on development</th></tr></thead>
+    <tbody>
+      <tr><td rowspan="3"><strong>Hereditary</strong></td><td>Genes and genetic endowment</td><td>Set the growth curve and its timing, temperament, rate of maturation</td></tr>
+      <tr><td>Prenatal &amp; birth conditions</td><td>Maternal nutrition and health, illness in pregnancy, prematurity, birth weight, difficult delivery</td><td>May impair physical, cognitive or social development from the very start</td></tr>
+      <tr><td>Individual variation</td><td>Differences in the rate and pattern of maturation between children of equal age</td><td>Explains much normal variation within a class</td></tr>
+      <tr><td rowspan="6"><strong>Environmental</strong></td><td>Nutrition</td><td>Material basis of growth; deficiency at critical periods causes lasting loss</td></tr>
+      <tr><td>Family and parenting</td><td>Emotional security, language, discipline, expectations, habits</td></tr>
+      <tr><td>School and teacher</td><td>Opportunity, stimulation, order, peer acceptance, identification</td></tr>
+      <tr><td>Socio-economic status</td><td>Nutrition, housing, health care, access to books and technology, stability</td></tr>
+      <tr><td>Culture, language and media</td><td>Values, customs, mother tongue, the shape of play and work, models and aspiration</td></tr>
+      <tr><td>Peer group, hazards and shocks</td><td>Cooperation and conflict, social comparison; accidents, illness, loss, violence and natural events that interrupt or distort a sequence</td></tr>
+
+    </tbody>
+  </table>
+</div>
+
+<p>Of all these factors the two a teacher most directly controls are the school environment and the peer climate. In a rural Assamese-medium classroom, a teacher who notices that many children have never handled a pair of scissors or a skipping rope can convert a factor of deprivation into a factor of development simply by building those into the daily routine.</p>
+
+<h3 id="s1-4">1.4 Tools for Gathering Data about Development of Children</h3>
+
+<p>Everything asserted above was arrived at by systematically watching, asking, measuring and recording children. These six tools are the classical instruments of child study: each describes what a child does, except clinical methods, which diagnose.</p>
+
+
+<h3 id="s1-4-1">1.4.1 Naturalistic Observation</h3>
+
+<p>Systematic, unobtrusive watching of a child in a setting where the child behaves naturally &mdash; the playground, the classroom, the home, the Anganwadi centre. The observer does not organise the situation; it is allowed to occur and the observer records what happens. Every teacher does this informally, but it becomes a <em>tool</em> only when the watching is planned, focused on a stated behaviour, timed and written down.</p>
+<ul class="bul">
+  <li>Decide first what you are looking at and write it down &mdash; &ldquo;the number and kind of social interactions during free play in the first fifteen minutes&rdquo; &mdash; then choose the setting and time, get permission, and position yourself where you can see without being the centre of attention.</li>
+  <li>Keep columns for date, setting and observed behaviour, and keep interpretation strictly separate; mixing the two is the commonest way observation data becomes useless.</li>
+</ul>
+
+
+
+<h3 id="s1-4-2">1.4.2 Interviews</h3>
+
+<p>Conversations held with a purpose, in two main forms. The <em>parent interview</em> elicits history, habits, language used at home, feeding, discipline, health and developmental concerns &mdash; the indispensable source of information about a child&rsquo;s early years that the child cannot supply. The <em>child interview</em> elicits the child&rsquo;s own account of family, school, likes, fears and worries, and is the only way to hear the child&rsquo;s perspective on their own life.</p>
+<ul class="bul">
+  <li><strong>In use:</strong> questions should be short, simple, concrete and open &mdash; &ldquo;what do you like to play?&rdquo; rather than &ldquo;what are your recreational preferences?&rdquo;</li>
+  <li>Sit at the child&rsquo;s level, do not rush, do not correct, allow silence, and bring a concrete object to talk about.</li>
+  <li>For parents, prepare a schedule of open questions and ask about concrete recent events rather than general impressions.</li>
+</ul>
+
+
+
+<h3 id="s1-4-3">1.4.3 Case Studies</h3>
+
+<p>A detailed, comprehensive, longitudinal study of a single individual, family, group or community, combining many sources of data over time to understand the whole rather than one part. It is the opposite of the controlled experiment: where an experiment isolates one variable by controlling everything else, the case study deliberately gathers everything.</p>
+<ul class="bul">
+  <li><strong>In use:</strong> build the case from multiple sources &mdash; school records, observation, interviews with the child, parents and teacher, medical history, the child&rsquo;s own drawings and writing, and your reflective journal &mdash; and organise it chronologically.</li>
+  <li>Keep three strands visible: what happened, how the child responded, and what the child&rsquo;s own account was.</li>
+  <li>Because this is the tool the SIP requires, the essential discipline is not to report only the difficulties. Handle it as a professional confidential document, not gossip.</li>
+</ul>
+
+
+
+<h3 id="s1-4-4">1.4.4 Anecdotal Records</h3>
+
+<p>A brief written account of a single, significant incident involving a child, recorded while it is still fresh, in plain descriptive language. Where a case study is a book, an anecdotal record is a postcard.</p>
+<ul class="bul">
+  <li><strong>In use:</strong> keep a small notebook or index cards and write the record the same day, in five lines &mdash; date and time; the setting; what happened, described exactly, including what was said; the child&rsquo;s words where you can recall them; and a brief interpretation.</li>
+  <li>Write in the past tense of observation, not judgement: &ldquo;Ranju asked three times to go to the toilet in one period and did not ask again&rdquo; is data; &ldquo;Ranju was a nuisance&rdquo; is not.</li>
+  <li>Over a term, a well-kept record of this kind is the raw material from which patterns emerge, and it is the tool most likely to be used every day by a working teacher.</li>
+</ul>
+
+
+
+<h3 id="s1-4-5">1.4.5 Reflective Journals</h3>
+
+<p>A <strong>reflective journal</strong>, or diary, records not the child&rsquo;s behaviour but the observer&rsquo;s response to it. It asks: what did I see? What did I feel? What did I assume? What did I do? What happened next? What would I do differently? Its purpose is to make the observer&rsquo;s own thinking visible and therefore examinable, and to correct the most dangerous error in child study &mdash; believing that one has seen a child objectively when one has in fact seen a child through one&rsquo;s own expectations.</p>
+<ul class="bul">
+  <li><strong>In use:</strong> write regularly, at a fixed time, about a specific incident rather than general impressions.</li>
+  <li>Separate what you observed from what you concluded, physically, by two columns, and end with a commitment to a change in your own practice.</li>
+  <li>It is evidence about the teacher, not the child &mdash; invaluable to a reflective practitioner, useless as a diagnosis.</li>
+</ul>
+
+
+
+<h3 id="s1-4-6">1.4.6 Clinical Methods</h3>
+
+<p>Used in a clinical setting by trained professionals to examine an individual child in depth when there is a concern: detailed case history, physical and neurological examination, standardised psychological and educational tests, assessment of vision, hearing and speech, and observation during structured and unstructured tasks. Because they answer &ldquo;is this child developing normally, and if not, in what way?&rdquo;, <strong>clinical methods</strong> are the tools of <em>diagnosis</em>, as distinct from the other five, which are tools of <em>description</em>.</p>
+<ul class="bul">
+  <li><strong>In use:</strong> a teacher observes, records, refers and follows up; a clinical expert examines, measures and diagnoses. Never attempt to test, screen or diagnose.</li>
+  <li>A child who is not speaking by four, cannot hold a pencil properly at six, or seems not to hear must be referred to the appropriate health or rehabilitation professional.</li>
+</ul>
+
+
+</section>
+
+<!-- ============ UNIT 2 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-2"><span class="h2num">Unit 2 &middot; 10 Marks</span>Physical-Motor Development</h2>
+
+<h3 id="s2-1">2.1 Growth and Maturation</h3>
+
+<p><strong>Maturation</strong> is a different idea from growth and is constantly confused with it. The distinction matters because two children of the same chronological age may be of quite different maturity, and therefore different in what they can <em>do</em>. A teacher who organises activities strictly by age group will repeatedly disadvantage the youngest-maturing child in the class, and a common source of error is to read immaturity as carelessness or low ability.</p>
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Maturation</strong> is the genetically determined, largely self-unfolding process by which the physical and neurological systems of the body become capable of allowing new behaviours to appear, independent of and prior to training. Maturation sets the <em>ceiling</em> of what a child is ready to do; practice determines how much of that ceiling is reached.</p>
+</div>
+
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 2.1 &mdash; Growth and Maturation Compared</caption>
+    <thead><tr><th>Basis</th><th>Growth</th><th>Maturation</th></tr></thead>
+    <tbody>
+      <tr><td>Meaning</td><td>Quantitative increase in size, weight, length</td><td>Unfolding of inherited physical and neurological potential</td></tr>
+      <tr><td>Measured by</td><td>Height, weight, girth, head circumference</td><td>Age, bone age, developmental status, and the behaviours the child can now perform</td></tr>
+      <tr><td>Dependence on practice</td><td>Little direct dependence</td><td>Almost none &mdash; maturation is self-unfolding</td></tr>
+      <tr><td>Determined by</td><td>Genes plus nutrition, health, endocrinology</td><td>Principally genetic and biological programming</td></tr>
+      <tr><td>Result</td><td>A bigger body</td><td>A body capable of new performance</td></tr>
+      <tr><td>Classroom relevance</td><td>Desk and bench, uniform and load matter</td><td>Activity and grouping must be flexible by age and maturity, not by birth date</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Three features of the growth curve are worth holding in view. Growth is not linear but <strong>sporadic</strong>, with rapid and slow phases, and its most dramatic phase is prenatal and the first two years. It follows a roughly <strong>sigmoid</strong> pattern &mdash; slow at first, rapid in infancy, a pause in middle childhood, and a second surge at puberty. And growth in the first three years is so rapid that a child roughly <strong>doubles</strong> its birth weight in four to six months and roughly <strong>triples</strong> it by the end of the first year, which is why infant nutrition is a matter of urgency rather than refinement.</p>
+
+<h3 id="s2-2">2.2 Motor Development: Gross and Fine Motor Development</h3>
+
+<p>Motor development is the acquisition of the capacity to move the body and its parts with increasing control, strength, accuracy and coordination. It is the domain in which the environment has the clearest and most immediate effect, because movement must be practised to exist &mdash; the developmental argument against an infant kept constantly in an armchair, and against a school that removes play from the timetable on the grounds that it is &ldquo;not study&rdquo;.</p>
+
+
+<p><strong>Gross motor development</strong> involves the large muscles and the movement of trunk and limbs: sitting, crawling, standing, walking, running, jumping, skipping, hopping, climbing, throwing, catching, kicking, balancing and swimming. It is acquired earlier, practised spontaneously, and depends chiefly on adequate opportunity, space, safety and freedom. <strong>Fine motor development</strong> involves the smaller muscles of hands, wrists and fingers and the coordination of hand and eye: grasping, releasing, pincer grasp, threading beads, turning a page, holding a pencil, colouring within the lines, writing, cutting, buttoning, tying a knot. It is slower, more easily delayed by opportunity deprivation, and directly determines school readiness in writing and drawing.</p>
+
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 2.2 &mdash; Gross and Fine Motor Development Compared</caption>
+    <thead><tr><th>Basis</th><th>Gross motor</th><th>Fine motor</th></tr></thead>
+    <tbody>
+      <tr><td>Muscles involved</td><td>Large &mdash; trunk, shoulders, thighs, arms</td><td>Small &mdash; fingers, hands, wrists, facial</td></tr>
+      <tr><td>Typical skills</td><td>Walking, running, jumping, skipping, hopping, climbing, throwing, catching, swimming, balancing</td><td>Grasping, pincer grip, drawing, colouring, writing, cutting, threading, buttoning, tying, typing</td></tr>
+      <tr><td>Order of acquisition</td><td>Earlier; follows the cephalocaudal direction</td><td>Later; follows the proximodistal direction</td></tr>
+      <tr><td>Main influence</td><td>Opportunity, space, play, safety, health</td><td>Opportunity plus deliberate practice and material</td></tr>
+      <tr><td>Deprivation effect</td><td>Weakness, poor balance, obesity, low stamina</td><td>Delayed pencil grip, poor handwriting, difficulty with buttons and zips, slow writing</td></tr>
+      <tr><td>Classroom link</td><td>Play, PE, games, morning routine, freedom to move</td><td>Writing, drawing, craft, cutting, model building, board work</td></tr>
+      <tr><td>Assessment</td><td>Observe in free play, on the field, in the playground</td><td>Observe in the notebook, on the worksheet, in the craft corner</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Motor development proceeds in an orderly sequence, remarkably consistent across cultures: sitting before crawling before standing before walking; running before jumping before skipping before hopping; the whole arm before elbow before wrist before fingers. Fine motor is built on the gross motor foundation, and rushing a child to write before the shoulder, elbow and wrist are controlled produces weak, painful grip and a lifelong dislike of writing. Note too that <strong>motor coordination</strong>, the smooth, timed, balanced use of several muscle groups together as in catching a ball, differs from a <strong>motor skill</strong>, an isolated capacity such as kicking.</p>
+
+<h3 id="s2-3">2.3 Role of Parents and Teachers in Providing Opportunities for Physical-Motor Development</h3>
+
+<p>A child develops motorically only through practice, and practice requires opportunity, material, time and safety. Those four things are supplied, overwhelmingly, by two adults: the parent and the teacher. Neither changes the child&rsquo;s genes, and both can determine whether a large part of the child&rsquo;s motor potential is ever actually used.</p>
+
+<h4>Role of the parents</h4>
+
+<p>Parents supply the <strong>first and most frequent</strong> practice environment. The young child&rsquo;s entire motor world is the home: the floor, the stair, the courtyard, the road, the charpai, the siblings. Parents provide this by allowing movement rather than restricting it &mdash; floor time for infants instead of continuous carrying, letting a toddler walk rather than be carried up steps, simple outdoor play space, messy active play even in bad weather, and no battery-operated toy in place of running. Active parents model an active life; parents who consider sport unfashionable or unsafe for girls transmit that view silently and effectively.</p>
+
+<p>Parents also supply the nutrition and health care that are the material of growth, protection from injury &mdash; a hazardous staircase, an unguarded well, an open road, a stored pesticide &mdash; and the emotional security without which a child will not attempt a difficult movement. A child who expects to be shouted at for spilling will not try to hold a cup steadily.</p>
+
+
+
+<h4>Role of the teachers</h4>
+
+<p>The teacher enters later, but enters with advantages no parent has: regular time, a group, a space designed for many children, expertise, and the authority to change the timetable.</p>
+
+
+<ul class="bul">
+  <li><strong>Provide space, time and equipment.</strong> A safe indoor or covered space, a play period protected in the timetable, and simple equipment &mdash; balls, ropes, rings, hoops, skipping ropes, chalk, low benches, climbing frames.</li>
+  <li><strong>Design a developmental sequence.</strong> Order the skills from the one the class has to the next, give each adequate practice, let it be practised at the easier level, and only then raise the demand.</li>
+  <li><strong>Gross motor: organised games and free play.</strong> A balance beam of two bricks, a low wall to climb, a hoop to jump through, a ball to throw at a target. Free play is not a break from physical education; it is the main occasion on which most children get their gross motor practice.</li>
+  <li><strong>Fine motor: everyday classroom routines.</strong> Drawing, colouring, tracing, tearing and cutting paper, threading beads, gripping a brush, clay modelling, blocks, chalk on the slate &mdash; as tasks with real materials, not worksheets asking a child to trace shapes it does not yet control.</li>
+  <li><strong>Correct posture and prevent fatigue.</strong> Appropriate furniture (desk to elbow, chair to popliteal space) and a limit on continuous sitting are all motor provision. Chronic poor seating is a genuine cause of later postural and spinal problems.</li>
+  <li><strong>Include all children.</strong> Motor provision is frequently unequal: the large, clumsy child pushed to the back, the girl kept away from the climbing frame, the child with a disability seated apart. The teacher&rsquo;s grouping and instruction decide whether every child actually practises.</li>
+  <li><strong>Observe, record and coordinate with parents.</strong> The tools of Unit 1 &mdash; especially naturalistic observation and anecdotal records &mdash; detect a child whose motor development is behind the class and whose difficulty is not laziness; telling a parent in plain language what to provide at home extends the child&rsquo;s practice hours.</li>
+</ul>
+
+
+<div class="card idea">
+  <span class="lbl">Key Idea</span>
+  <p>Motor development is the clearest demonstration in the whole paper that development needs <em>opportunity</em>, not merely maturity. The teacher who supplies it needs only a plan, materials, time, and the conviction that a six-year-old should be moving all day.</p>
+</div>
+
+</section>
+
+<!-- ============ UNIT 3 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-3"><span class="h2num">Unit 3 &middot; 10 Marks</span>Cognitive Development</h2>
+
+<h3 id="s3-1">3.1 Meaning and Concept of Cognitive Development</h3>
+
+<p><strong>Cognitive development</strong> is the progressive change in the child&rsquo;s <em>thinking</em>. It is the intellectual engine of the whole developmental process, because the child approaches every other domain through it.</p>
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Cognitive development</strong> is the sequential and orderly change in the mental processes of a child &mdash; perception, attention, memory, thinking, reasoning, problem solving, understanding and symbolisation &mdash; by which the child acquires and organises knowledge and forms an increasingly accurate and complex picture of reality.</p>
+</div>
+
+<p>Three features are essential to hold together. It is <strong>both qualitative and quantitative</strong>: the child not only accumulates more information but reorganises the way information is held and used. It is <strong>constructive</strong>: the child is not a passive recipient but an active builder who selects, organises, tests and revises. And it is <strong>stage-like rather than smooth</strong> in the Piagetian account, the transition from one stage to the next being a change in the <em>structure</em> of thought, not merely an increase in its quantity. A child given more information is not necessarily thinking better: a Class IV child may recite a long list of capitals and be unable to say why they are capitals.</p>
+
+<h3 id="s3-2">3.2 Stages of Cognitive Development with Reference to Jean Piaget</h3>
+
+<p><strong>Jean Piaget</strong> (1896&ndash;1980), a Swiss psychologist, constructed the most influential theory of cognitive development of the twentieth century. He studied children&rsquo;s thinking as it actually was &mdash; notably in his own three children, over years &mdash; and asked how children think, what mistakes they make, and why the mistakes change with age.</p>
+<ul class="bul">
+  <li>Children pass through an <strong>invariable sequence</strong> of qualitatively distinct <strong>stages</strong>, each with its own structure of thought.</li>
+  <li>Knowledge is constructed by <strong>assimilation</strong> (fitting new experience into an existing scheme) and <strong>accommodation</strong> (changing the scheme to fit the experience); the child moves on when <strong>equilibration</strong> creates enough disequilibrium to reorganise.</li>
+  <li><strong>Two warnings for teachers:</strong> a child cannot be taught a stage of thought they have not reached, and a child cannot be held back in a stage &mdash; the sequence is invariable, and a ready child will advance whether or not the school is ready.</li>
+</ul>
+
+
+
+<figure>
+  <svg viewBox="0 0 760 300" role="img" aria-label="Piaget's four stages of cognitive development with approximate age ranges and key characteristics">
+    <rect x="0" y="0" width="760" height="300" fill="#fcf9f2"/>
+    <line x1="50" y1="248" x2="720" y2="248" stroke="#7a736a" stroke-width="1.4"/>
+    <text x="50" y="268" font-family="Georgia, serif" font-size="12" fill="#7a736a">Birth</text>
+    <text x="230" y="268" font-family="Georgia, serif" font-size="12" fill="#7a736a">2 yrs</text>
+    <text x="420" y="268" font-family="Georgia, serif" font-size="12" fill="#7a736a">7 yrs</text>
+    <text x="620" y="268" font-family="Georgia, serif" font-size="12" fill="#7a736a">11+ yrs</text>
+
+    <rect x="20" y="34" width="155" height="196" rx="6" fill="#f7e9e0" stroke="#b4623c"/>
+    <text x="97" y="58" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#8f4a2a">Sensorimotor</text>
+    <text x="97" y="76" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#8f4a2a">0 &#8211; 2 years</text>
+    <text x="97" y="104" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">Knows the world</text>
+    <text x="97" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">through senses and</text>
+    <text x="97" y="136" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">movement</text>
+    <text x="97" y="164" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">Object permanence;</text>
+    <text x="97" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">goal-directed</text>
+    <text x="97" y="196" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">action</text>
+    <text x="97" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a736a">Implication: learn</text>
+    <text x="97" y="234" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a736a">by doing</text>
+
+    <rect x="185" y="34" width="155" height="196" rx="6" fill="#ecefdd" stroke="#6d7a4a"/>
+    <text x="262" y="58" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#54603a">Pre-operational</text>
+    <text x="262" y="76" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#54603a">2 &#8211; 7 years</text>
+    <text x="262" y="104" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">Thinks in symbols</text>
+    <text x="262" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">and words rather</text>
+    <text x="262" y="136" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">than in actions</text>
+    <text x="262" y="164" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">Intuitive, not logical;</text>
+    <text x="262" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">egocentric;</text>
+    <text x="262" y="196" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">no conservation</text>
+    <text x="262" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a736a">Implication: learn</text>
+    <text x="262" y="234" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a736a">through play</text>
+
+    <rect x="350" y="34" width="155" height="196" rx="6" fill="#e5ecf2" stroke="#4c6a83"/>
+    <text x="427" y="58" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#3d5a71">Concrete operational</text>
+    <text x="427" y="76" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#3d5a71">7 &#8211; 11 years</text>
+    <text x="427" y="104" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">Logical thought on</text>
+    <text x="427" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">concrete things;</text>
+    <text x="427" y="136" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">conservation, reversal,</text>
+    <text x="427" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">classification,</text>
+    <text x="427" y="168" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">seriation</text>
+    <text x="427" y="192" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">Still egocentric</text>
+    <text x="427" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a736a">Implication: learn</text>
+    <text x="427" y="234" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a736a">by doing</text>
+
+    <rect x="515" y="34" width="155" height="196" rx="6" fill="#f7efd8" stroke="#a5822e"/>
+    <text x="592" y="58" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#856722">Formal operational</text>
+    <text x="592" y="76" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#856722">11 years onwards</text>
+    <text x="592" y="104" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">Abstract, deductive,</text>
+    <text x="592" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">hypothetical thinking;</text>
+    <text x="592" y="136" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">the whole system</text>
+    <text x="592" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">explored systematically</text>
+    <text x="592" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a736a">Implication: learn</text>
+    <text x="592" y="234" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a736a">by discussion and</text>
+    <text x="592" y="248" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a736a">self-direction</text>
+
+    <polyline points="60,244 260,236 420,222 600,192" fill="none" stroke="#7a5570" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="380" y="288" text-anchor="middle" font-family="Georgia, serif" font-size="12.5" fill="#7a5570">The sequence is invariable; the ages at which a child enters each stage vary.</text>
+  </svg>
+  <figcaption><b>Figure 3.1</b> &mdash; Piaget&rsquo;s four stages of cognitive development: approximate age ranges, the dominant mode of thinking, and the classroom implication of each.</figcaption>
+</figure>
+
+<h4>Stage 1 &mdash; Sensorimotor (0 to 2 years)</h4>
+
+<p>In the <strong>sensorimotor</strong> stage the infant knows the world through the senses and through movement. Knowledge begins with the mouth and the hands, and everything is learned by doing rather than by being told. Two achievements mark the approach to the end of the stage: <strong>object permanence</strong>, the understanding that a thing continues to exist when it is out of sight, which is why a child who drops a toy under a blanket will not look for it; and <strong>goal-directed action</strong>, in which the child coordinates several actions into a plan, such as pushing a chair to reach the shelf.</p>
+<p><strong>Classroom implications.</strong> The D.El.Ed classroom begins at age six, so these bear on the very young siblings and the Anganwadi stage: learning must be sensory and motor, objects must be allowed to disappear and reappear, language must be attached to the action the child is performing at that moment, and the adult must narrate rather than instruct.</p>
+
+
+<h4>Stage 2 &mdash; Pre-operational (2 to 7 years)</h4>
+
+<p>The pre-operational child has acquired <strong>symbolic function</strong>: they can use one thing to stand for another &mdash; a piece of wood is a doll, a folded paper is a boat &mdash; and this is the foundation of pretend play, of drawing, and eventually of language and all abstract thought. Five characteristics follow from the use of symbols.</p>
+
+<ul class="bul">
+  <li><strong>Egocentrism.</strong> The child cannot easily take another person&rsquo;s point of view and assumes others see the world as they do. This is a normal stage characteristic, not selfishness, and it is why the child who is &ldquo;wrong&rdquo; in an argument genuinely cannot see the other side.</li>
+  <li><strong>Intuition rather than logic.</strong> Reasoning rests on appearance and the child&rsquo;s own judgement &mdash; &ldquo;it must be heavier because it is bigger&rdquo; &mdash; without logical verification.</li>
+  <li><strong>No conservation.</strong> The child does not understand that quantity remains the same when its form changes. Pour the same water from a tall glass into a flat one and the child will insist there is more. Conservation is the classic test of the transition to the next stage.</li>
+  <li><strong>Centration.</strong> The child focuses on one aspect, usually length or height, and ignores the others.</li>
+  <li><strong>Irreversibility.</strong> The child cannot mentally undo an action, so the pre-operational child who has poured the water cannot mentally pour it back.</li>
+</ul>
+
+<p><strong>Classroom implications.</strong> The pre-operational period is the years a D.El.Ed teacher teaches in, and Piaget&rsquo;s conclusion &mdash; that the child of this age learns best through <em>activity, discovery and play</em> rather than verbal instruction &mdash; shaped twentieth-century early childhood education completely. In practice: use concrete materials rather than abstract rules; demonstrate the conservation experiment rather than explaining it; allow dramatic and pretend play as a legitimate learning mode; accept the child&rsquo;s point of view without ridiculing it when correcting reasoning.</p>
+
+<h4>Stage 3 &mdash; Concrete operational (7 to 11 years)</h4>
+
+<p>The child can now perform <strong>logical operations</strong>, but only on <em>concrete</em> material that is present and visible. Four operations characterise the stage: <strong>conservation</strong>, understanding that weight, volume, mass and number do not change when the form changes; <strong>reversibility</strong>, the ability to mentally undo an action, which makes work checkable, revisable and self-correcting; <strong>classification</strong>, grouping things by common properties and understanding that a thing belongs to several classes at once; and <strong>seriation</strong>, arranging objects in order along a quantitative dimension such as size or weight.</p>
+
+<p>The child is still substantially <strong>egocentric</strong>, which is why the peer group and rule-governed competitive games are so powerful at this age, but can now take another&rsquo;s view. This stage is the elementary school. <strong>Classroom implications:</strong> because operations work on the concrete, the elementary curriculum should be built on concrete material &mdash; objects, blocks, apparatus, models, pictures, the actual objects being counted, weighed and measured. A Class III child should <em>do</em> the conservation experiment and then be told about it; a Class V child should sort and arrange real objects before being asked to write the rule. Checking, reversing, classifying and ordering are the foundation of arithmetic, reading comprehension, science observation and organisation.</p>
+
+
+<h4>Stage 4 &mdash; Formal operational (11 years onwards)</h4>
+
+<p>From about eleven years, and inconsistently until the mid-teens, thinking becomes <strong>abstract and hypothetical</strong>. The adolescent can reason about possibilities rather than only facts, can formulate and systematically test hypotheses, can consider a system as a whole, can detect inconsistency in an argument, and can think about thinking itself. This is the stage in which mathematics, science, formal logic, literature and abstract moral argument become genuinely accessible.</p>
+<p><strong>Classroom implications.</strong> The secondary teacher&rsquo;s task shifts from giving information to creating situations in which hypotheses can be formed and tested &mdash; open-ended problems, projects, debates, investigations and ethical dilemmas suit this stage; recitation of rules and reproduction of formulae does not. Many children leave the elementary school still functioning concretely in at least some areas, so provide concrete scaffolding rather than assume the stage has arrived.</p>
+
+<h3 id="s3-3">3.3 Factors Influencing Cognitive Development</h3>
+
+<p>As in 1.3, the factors fall into hereditary and environmental groups, but the cognitive domain is particularly sensitive to one feature of the environment: the quality and quantity of language, and the stimulation the child receives.</p>
+
+
+<ol class="num">
+  <li><strong>Genetic and biological endowment.</strong> The genes determine the size and structure of the brain, its efficiency, the timing of neural development and the individual pattern of intelligence. Prenatal nutrition, maternal illness, birth complications and later health affect cognitive development directly, and damage in the prenatal period and first two years is hardest to compensate for.</li>
+  <li><strong>Language and communication environment.</strong> Cognitive development rides on language. The amount and quality of talk a child hears, whether adults ask questions and answer them, whether the child is read to, and whether conversation is in a language the child understands well all shape vocabulary, memory, reasoning and the ability to think in words. The gap in vocabulary at school entry is one of the best-known predictors of later attainment.</li>
+  <li><strong>Stimulation, experience and opportunity.</strong> Books and learning materials, guided rather than merely allowed play, interaction with adults and older children, exposure to varied situations, and encouragement to ask questions, guess, try, fail and try again.</li>
+  <li><strong>Family, school and socio-economic influences.</strong> Parental expectations, home stability, the parent&rsquo;s own education and attitude to schooling; the teacher&rsquo;s approach, class size, quality of instruction and the assessment system; and the material conditions reflected in nutrition, health, housing and a quiet place to study. The child&rsquo;s own characteristics &mdash; motivation, effort, self-concept, attention &mdash; form a fifth group and interact with all the others.</li>
+</ol>
+
+<p>Almost every factor here passes through a moment when an adult talks to a child. Asking an open question and waiting, reading aloud for fifteen minutes a day, putting a real object into a child&rsquo;s hands instead of only its name on the board, and accepting the child&rsquo;s attempt even when the reasoning is wrong &mdash; these are cognitive interventions that cost nothing.</p>
+
+
+</section>
+
+<!-- ============ UNIT 4 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-4"><span class="h2num">Unit 4 &middot; 15 Marks</span>Social, Emotional and Language Development</h2>
+
+<p>These three developments are usually taught separately but occur together and constantly influence each other. A child who cannot talk cannot make friends; a child rejected by friends learns helplessness; a child who feels anxious cannot concentrate, and a child who cannot concentrate falls behind and is rejected. Read the three sub-sections as one argument.</p>
+
+<h3 id="s4-1">4.1 Social Development</h3>
+
+<h4>4.1.1 Meaning and Nature of Social Development</h4>
+
+<p><strong>Social development</strong> is the process by which a child learns to become a member of a group, to understand the expectations of that group, to form relationships, to cooperate and compete, to resolve conflict, and to see the self as others see it. It moves the child, gradually and over some fifteen years, from a wholly self-contained organism to a person who can take a place in a family, a friendship, a classroom, a community and a nation.</p>
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Social development</strong> is the progressive process by which a child acquires the knowledge, skills, attitudes and values needed to interact effectively and happily with other people, beginning with the family and extending to the wider community, and through which the child forms a sense of self as a social being.</p>
+</div>
+
+<p>Social development has two interlocking aspects. The first is <strong>social performance</strong> &mdash; observable behaviour with others: sharing, helping, leading, following, negotiating, excluding, teasing, fighting. The second is <strong>social understanding</strong> &mdash; the growing capacity to understand other people&rsquo;s feelings, intentions and points of view, to predict what they will do, and to understand the rules governing their interaction. A child may be perfectly well behaved and understand nobody, which is why the two must be assessed separately. Three features deserve naming: it is <strong>learned</strong>, the first and largest lessons coming from the family; it is <strong>reciprocal</strong>, accomplished between people rather than done to the child; and it is <strong>inevitably mixed with emotion</strong>, since social experience is the main source of emotional learning.</p>
+
+<h4>4.1.2 Stages of Social Development</h4>
+
+<p>Social development is conventionally described in stages from birth to adolescence, following the well-known sequence of play forms and group behaviour.</p>
+
+
+<div class="tw">
+  <table>
+    <caption>Table 4.1 &mdash; Stages of Social Development, Birth to Adolescence</caption>
+    <thead><tr><th>Stage</th><th>Age</th><th>Play form and group behaviour</th><th>Social development feature</th></tr></thead>
+    <tbody>
+      <tr><td>Reflexive / solitary</td><td>0&ndash;2 years</td><td>Solitary play; no interest in other children; plays alongside without coordinating</td><td>Social smile; response to familiar faces; stranger anxiety; secure attachment</td></tr>
+      <tr><td>Parallel play</td><td>2&ndash;3 years</td><td>Children play beside one another with separate toys; little coordination</td><td>Awareness of others as separate people; beginnings of sharing and imitation</td></tr>
+      <tr><td>Associative play</td><td>3&ndash;4 years</td><td>Children play with similar toys in groups, exchanging materials, but playing their own game</td><td>Growth of cooperation, negotiation and turn-taking; sometimes with a leader</td></tr>
+      <tr><td>Cooperative play</td><td>4&ndash;6 years</td><td>Children organise a joint game with common goals, a shared plot and a division of roles</td><td>Group loyalty, team feeling, rule-making, the peer group&rsquo;s growing importance</td></tr>
+      <tr><td>Games and group activities</td><td>7&ndash;12 years</td><td>Formal games with rules, teams and competition</td><td>Dominance of the peer group, gender grouping, stable friendships, self-evaluation by comparison, cliques</td></tr>
+      <tr><td>Adolescence</td><td>12&ndash;18 years</td><td>Peer-group identification, small intense friendship groups, sub-culture</td><td>Concern with peers&rsquo; opinion, risk-taking, formation of sexual identity, movement toward adult relationships</td></tr>
+
+    </tbody>
+  </table>
+</div>
+
+<p>Two notes on this table. The transition from <em>parallel</em> to <em>cooperative</em> play is the single most important social development the early childhood period produces, and it is the one teachers can most help with, since structured group games in the classroom make the transition happen. And the school-age years show the decisive shift from adult to peer orientation &mdash; a teacher unaware of this will find that the standards the child cares about are not the standards the teacher has set.</p>
+
+<h4>4.1.3 Factors Influencing Social Development: Home, School, Peer and Community</h4>
+
+<ul class="bul">
+  <li><strong>Home.</strong> The first and most enduring social environment. It sets the child&rsquo;s basic attitude to other people &mdash; whether the world is a place to be trusted or one to be defended against &mdash; and supplies attachment, the model of communication, the treatment of feelings, and the earliest experience of conflict and its resolution. The child&rsquo;s <em>temperament</em> also matters: an infant who is difficult to soothe may be handled less patiently and so socialised less richly.</li>
+  <li><strong>School.</strong> The child&rsquo;s first large, structured, non-family social system, and two things at once &mdash; a <strong>source of social opportunity</strong> (the class group, games, teams, shared work, and above all the peer group that forms inside the class), and a <strong>source of social learning as a system</strong> (regularity, authority, rules, fairness, waiting, taking a turn, coping with boredom, and the fact that a person&rsquo;s standing does not depend only on their family). The teacher&rsquo;s own conduct is part of the social curriculum.</li>
+  <li><strong>Peer group.</strong> From about six, and certainly from about ten, the peer group becomes a powerful agent: the child&rsquo;s first <em>chosen</em> social group, where they are evaluated by people who have nothing to offer except friendship. Peer groups sort themselves into friendships, gender groups, cliques and outcasts, and membership confers status. A child&rsquo;s peer reputation may predict their school life better than their home circumstances, and a peer group can be a force for the good (cooperation, courage, generosity) or for the bad (exclusion, teasing, pressure, risk-taking).</li>
+  <li><strong>Community.</strong> The neighbourhood, the village, religious and social institutions, the Anganwadi and health centre, the market, the playfield and the media widen the child&rsquo;s social world beyond the school, supplying role models, a wider range of social norms, and contact with people of other ages, castes, religions, tribes, occupations and abilities. Community also carries a specific risk in the Assamese context: the custom, in some communities, of treating the child as a worker or a responsibility rather than as a social being with rights, which removes the child from play, from school and from ordinary peer life altogether.</li>
+</ul>
+
+
+
+<h3 id="s4-2">4.2 Emotional Development</h3>
+
+<h4>4.2.1 Meaning of Emotional Development</h4>
+
+<p>Emotion is the child&rsquo;s first language and the fastest means of communication: an infant who cannot speak communicates hunger, fear, anger, joy and distress entirely through the face, the body and the cry.</p>
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Emotional development</strong> is the progressive process by which a child acquires the capacity to experience, recognise, express and control emotions, to form an increasingly differentiated emotional repertoire, to become attached to people, and to share and understand the emotional states of others, so that a regulated, socially responsive and self-aware person is gradually formed.</p>
+</div>
+
+<h4>4.2.2 Functions of Emotion</h4>
+
+<p>Emotions are not nuisances to be suppressed. They serve at least seven identifiable functions in the life of a child.</p>
+
+<ol class="num">
+  <li><strong>Signal.</strong> Emotion signals to others what a child needs and how they are. The distress that brings a caregiver running is the child&rsquo;s first communication, and the whole system of attachment is built on it.</li>
+  <li><strong>Motivating.</strong> Emotion energises and directs behaviour. Interest and joy sustain attention; fear and anger produce avoidance or aggression.</li>
+  <li><strong>Communicating.</strong> Even before language, emotion is a message, and much of the emotional content of speech &mdash; tone, emphasis, expression &mdash; is read correctly by the listener before the words are.</li>
+  <li><strong>Adaptive and protective.</strong> Fear and anxiety have evolved to protect the child from danger. Removing the capacity for fear is not a developmental achievement.</li>
+  <li><strong>Social bonding.</strong> Shared emotion is the basis of attachment, sympathy, empathy and love. Children bond to caregivers, and friends are held together by common feeling rather than shared tasks.</li>
+  <li><strong>Evaluating and decision-making.</strong> Emotion is part of the basis on which a person judges a situation as good or bad, safe or threatening, fair or unjust. <em>Guilt</em> and <em>pride</em> are the emotional forms of moral self-assessment.</li>
+  <li><strong>Self-knowledge and stress.</strong> Emotion carries the child&rsquo;s sense of self-worth, and sustained emotional strain is expressed psychosomatically &mdash; in sleep disturbance, stomach aches, withdrawal, aggression or school refusal. The body of a distressed child often speaks before the child does.</li>
+</ol>
+
+
+<h4>4.2.3 Development of Emotion across Stages</h4>
+
+<p>Emotion develops along two lines at once: the <strong>repertoire</strong> grows, the child passing from a few basic emotions to a large and finely differentiated range; and <strong>control</strong> improves, the child passing from immediate, unmodulated, all-or-nothing expression to graded, delayed, socially managed expression.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 4.3 &mdash; Emotional Development across Stages</caption>
+    <thead><tr><th>Stage</th><th>Repertoire and expression</th><th>Control and social orientation</th></tr></thead>
+    <tbody>
+      <tr><td>Infancy<br>0&ndash;2</td><td>Interest, distress, disgust, anger, fear, pleasure; crying and gesture as the main language</td><td>Self-soothing appears and improves; attachment to the caregiver; stranger anxiety and separation anxiety, the first evidence of an internal sense of self</td></tr>
+      <tr><td>Early childhood<br>2&ndash;6</td><td>Fantasy, pride, shame, guilt, jealousy, embarrassment, and the wide range of feelings about rule-based play</td><td>Increasingly language-expressed; dramatic play as emotional working-out; self-control appears first in play and much later outside it; intense reactions, anxiety at the new school</td></tr>
+      <tr><td>Late childhood<br>6&ndash;12</td><td>A wide and well-differentiated repertoire: disappointment, relief, gratitude, resentment, loyalty, fear of failure</td><td>Good impulse control; the child can wait, postpone and manage feelings better; emotions increasingly regulated by self-talk; pride and shame depend on achievement and comparison</td></tr>
+      <tr><td>Adolescence<br>12&ndash;18</td><td>Intense and rapidly shifting; the full adult range of ambivalence, longing, resentment and idealism arrives</td><td>Control temporarily reduced by strong feeling and self-consciousness; mood swings, sensitivity to criticism &mdash; an ordinary stage, not defiance</td></tr>
+
+    </tbody>
+  </table>
+</div>
+
+<p>Two features matter most to a teacher. The first is <strong>emotionally intelligent adult behaviour</strong>: children read the adult&rsquo;s face and tone with an accuracy adults underestimate, and a volatile teacher models volatility to the whole class. The second is that <strong>self-control is learned, not inherited</strong>, and learned in small, repeated, ordinary situations &mdash; waiting for a turn, putting away a toy, finishing a task before starting another. A classroom that never frustrates the child in order to be pleasant produces an adult who cannot tolerate frustration.</p>
+
+<h4>4.2.4 Factors Influencing Emotional Development</h4>
+
+<ul class="bul">
+  <li><strong>Temperament</strong> &mdash; the easy, the difficult and the slow-to-warm, with which every infant is born, setting the initial intensity, regularity and adaptiveness of emotional response.</li>
+  <li><strong>Quality of the attachment relationship</strong> in infancy, which becomes the child&rsquo;s working model of all later close relationships.</li>
+  <li><strong>Parenting style</strong> &mdash; a warm, responsive and reasonably firm style supports healthy emotional development; an anxious or intrusive style produces inhibition; a harsh or rejecting style produces insecurity and, later, the aggressive or withdrawn patterns described in Unit 5.</li>
+  <li><strong>Family stability</strong> &mdash; separation, loss, violence and chronic conflict in the home are powerfully corrosive to a child&rsquo;s emotional life.</li>
+  <li><strong>Peer group and school</strong> &mdash; model for emotional expression, rules for managing feeling, and a source of success or of repeated failure.</li>
+  <li><strong>Self-concept and adult feedback</strong> &mdash; a child repeatedly told they are careless will become a child who is careless.</li>
+</ul>
+
+<h3 id="s4-3">4.3 Language Development</h3>
+
+<h4>4.3.1 Stages of Language Development</h4>
+
+<p>Language is the most important tool a human being has and the single most reliable index of development available to a teacher. The sequence below is remarkably consistent across languages and cultures.</p>
+
+
+<div class="tw">
+  <table>
+    <caption>Table 4.4 &mdash; Stages of Language Development</caption>
+    <thead><tr><th>Stage</th><th>Age</th><th>What the child does</th><th>Adult response</th></tr></thead>
+    <tbody>
+      <tr><td>1. Crying</td><td>0&ndash;6 weeks</td><td>Cries; the cry differentiates by about 2&ndash;3 weeks, so a mother can distinguish hunger, pain, tiredness and anger</td><td>Respond promptly and correctly; the child is learning that communication works</td></tr>
+      <tr><td>2. Cooing</td><td>6 weeks&ndash;6 months</td><td>Sounds of pleasure; turns towards a familiar voice by about 4 months</td><td>Talk back, sing, echo the sound; build the first conversational turn</td></tr>
+      <tr><td>3. Babbling</td><td>6&ndash;12 months</td><td>Consonant&ndash;vowel sequences, in the language of the household; first comprehension about 9&ndash;12 months</td><td>Narrate everything; read and sing; never dismiss babbling as noise</td></tr>
+      <tr><td>4. One-word / two-word</td><td>12&ndash;18 months</td><td>First word within a normal range of roughly 9&ndash;15 months; two-word combinations such as &ldquo;my cup&rdquo;</td><td>Expand the child&rsquo;s words into a phrase; wait; praise the effort, not the correctness</td></tr>
+      <tr><td>5. Sentences and grammar</td><td>2&ndash;5 years</td><td>Short sentences, plurals, prepositions, questions, past tense, simple narrative; vocabulary from roughly fifty words at two to well over a thousand by five</td><td>Accept grammar errors as signs of development; use questions, stories, rhymes and role-play</td></tr>
+      <tr><td>6. Refinement and expansion</td><td>5&ndash;8+ years</td><td>Special and technical vocabulary, the written word, language used for reasoning and planning</td><td>Teach vocabulary directly; use the mother tongue; read aloud daily</td></tr>
+
+
+    </tbody>
+  </table>
+</div>
+
+<p>Two cautions belong here. The sequence is common but the <em>timing</em> is not: a child who uses no meaningful words by about 18 months, has a very small vocabulary at two, or loses words previously had warrants careful attention and referral. And a child who speaks no standard language at home but communicates fully in the mother tongue is not delayed. Assessing the child in the language in which the child thinks is the first duty of a competent teacher.</p>
+
+<h4>4.3.2 Factors Influencing Language Development</h4>
+
+<ul class="bul">
+  <li><strong>Quantity and quality of talk in the home</strong> &mdash; the strongest predictor. Children who hear many words in varied and responsive conversation learn more words; the amount of adult talk directed <em>at</em> the child, rather than television, is what matters.</li>
+  <li><strong>Responsiveness</strong> &mdash; language develops through turn-taking. When an adult answers a child&rsquo;s sound or word, the child learns that language produces results; when it is ignored, or the child is spoken over, the incentive to speak is weakened.</li>
+  <li><strong>Reading aloud and story-telling</strong> &mdash; the most economical intervention available to a teacher and among the most powerful, giving vocabulary, knowledge of narrative structure, knowledge that print carries meaning, and shared pleasure.</li>
+  <li><strong>Mother tongue and the language of the classroom</strong> &mdash; a child learns concepts in the language they think in. Where the school language differs from the home language, as in many Assamese schools where a child may speak Bodo, Mising, Karbi, Tiwa or Assamese at home and be taught in Assamese or English, there must be a deliberate bridging strategy.</li>
+  <li><strong>Physical and health factors</strong> &mdash; hearing is the foundation of spoken language; a child with an unrecognised hearing loss is diagnosed as &ldquo;late in talking&rdquo; or as stupid. Nutrition and general health matter too.</li>
+  <li><strong>Stimulation and print exposure</strong> &mdash; books in the home, printed matter, the child&rsquo;s own drawing and early scribbling, and a classroom that displays and honours children&rsquo;s own attempts at writing.</li>
+  <li><strong>Peer and cultural factors</strong> &mdash; the language of play with peers, songs and games, and the cultural valuing of talk versus silence. A teacher who reads shy silence as a deficit is reading the culture, not the child.</li>
+  <li><strong>School and teacher</strong> &mdash; the teacher&rsquo;s own language, the time given for talk, whether a child is ever answered, and the decision to teach in a language the child understands. The most damaging practice is the public correction of every error, which teaches a child that speaking is dangerous.</li>
+</ul>
+
+
+<div class="card mist">
+  <span class="lbl">Common Mistake</span>
+  <p>Concluding that a child who is quiet in class has limited language. A child who speaks freely in the mother tongue with peers may be reticent in a second language and be quite fluent in the first. The correct question is not &ldquo;does this child speak?&rdquo; but &ldquo;in what language, to whom, about what, and how much?&rdquo;</p>
+</div>
+
+</section>
+
+<!-- ============ UNIT 5 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-5"><span class="h2num">Unit 5 &middot; 10 Marks</span>Developmental Hazards and Developmental Delays</h2>
+
+<p>Units 1 to 4 described what normally happens. This unit describes what can go wrong, along two lines: <strong>developmental hazards</strong>, conditions and events that threaten to damage development at each stage; and <strong>developmental delay</strong>, the condition in which a child fails to acquire a skill most children acquire within a given period. An elementary teacher is not a diagnostician but is frequently the first person to see either, and must know what to do.</p>
+
+<h3 id="s5-1">5.1 Developmental Hazards: Meaning</h3>
+
+<p>A <strong>developmental hazard</strong> is any factor, condition, exposure or event with the potential to disturb, delay or distort the normal course of a child&rsquo;s physical, mental, social, emotional or language development. The word <em>hazard</em> is used deliberately in preference to <em>trauma</em>, because a hazard need not actually have damaged the child: it is a risk present in the environment, and it becomes damage only when it operates. It operates through three broad routes.</p>
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Developmental hazard</strong> is any condition, exposure, event or circumstance, whether physical, biological, psychological or social, which lies in the path of a child&rsquo;s normal development and has the potential to cause delay, distortion or damage in one or more of the developmental domains.</p>
+</div>
+
+<ul class="bul">
+  <li><strong>Direct injury or damage</strong> to the developing brain or body: trauma, poisoning, infection, severe malnutrition, untreated illness, exposure to heat, cold, fire or flood.</li>
+  <li><strong>Deprivation</strong> of what development requires: nutrition, medical care, stimulation, language, emotional care, education, safety, shelter.</li>
+  <li><strong>Psychological and social disruption</strong> of the child&rsquo;s attachments, sense of safety and pattern of daily life: separation, loss, violence in the home, displacement, abuse, neglect, war, removal from a familiar language and place.</li>
+</ul>
+
+<p>The concept of <strong>critical and sensitive periods</strong> is central. Some windows are <em>critical</em>, in which damage occurring at that time is severe and difficult to reverse; others are merely <em>sensitive</em>, in which the effect is real but can be compensated later. This is why prenatal care and the first two years attract so much attention: they are the periods in which the cost of damage is highest.</p>
+
+<h4>5.1.1 Hazards Across the Developmental Stages</h4>
+
+<p>The syllabus asks for hazards at four stages. They differ not only in nature but in <em>who controls them</em>, and the teacher&rsquo;s role is very different at each.</p>
+
+
+<div class="tw">
+  <table>
+    <caption>Table 5.1 &mdash; Developmental Hazards across the Four Stages</caption>
+    <thead><tr><th>Stage</th><th>Principal hazards</th><th>Possible consequences</th><th>Teacher&rsquo;s role</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Prenatal</strong><br>(conception to birth)</td>
+        <td>Maternal malnutrition and anaemia; maternal illness; alcohol, tobacco or drug use; lack of antenatal care; untreated infections; harmful drugs; physical and emotional stress; domestic violence; early and closely spaced pregnancies; environmental pollution; hazardous work; early marriage and resulting early pregnancy</td>
+        <td>Low birth weight; prematurity; congenital conditions; impaired brain development; later cognitive, learning and behaviour difficulties; the child born already disadvantaged</td>
+        <td>Almost none directly. Community awareness: encouraging antenatal check-up, discouraging early marriage, and knowing which children in school were born very small</td>
+
+      </tr>
+      <tr>
+        <td><strong>Infancy</strong><br>(birth to 2 years)</td>
+        <td>Prematurity and low birth weight; failure to breastfeed; malnutrition and infection; untreated diarrhoea, pneumonia and measles; unsafe water and sanitation; accidents &mdash; falls, burns, poisoning, drowning; lack of immunisation; sudden separation from the mother; absence of responsive care, conversation and touch; neglect; parental mental illness; domestic violence</td>
+        <td>Failure to thrive; delayed motor, language and cognitive development; attachment problems; injury and disability; sensory impairment; in extreme cases death. Infancy is the single most vulnerable period</td>
+        <td>Recognising poor weight gain, poor eye contact, absence of babbling and absence of response to sound; referring; supporting the Anganwadi worker and the mother; insisting on early immunisation</td>
+      </tr>
+      <tr>
+        <td><strong>Early childhood</strong><br>(2 to 6 years)</td>
+        <td>Child marriage and early pregnancy; child labour; malnutrition; no play space; accidents, particularly road traffic and drowning, burns and poisoning; abuse &mdash; physical, sexual and emotional; neglect; domestic violence witnessed at home; exposure to substance use in the family; unsafe housing; no access to preschool or Anganwadi; heavy domestic and sibling care load; family migration or displacement</td>
+        <td>Delayed language and cognition; poor school readiness; injury; psychological trauma; withdrawn or aggressive behaviour; disturbed attachment; the child denied play, which damages every other domain at once</td>
+        <td>Observation, anecdotal records, early detection; cooperation with parents and with child protection functionaries; ensuring the Anganwadi and school are safe places; supporting the child who returns from work tired</td>
+
+      </tr>
+      <tr>
+        <td><strong>Late childhood</strong><br>(6 to 12 years)</td>
+        <td>Child labour in its persistent forms &mdash; agriculture, tea gardens, brick kilns, domestic work, rag picking, roadside work; child marriage in some communities; continuing abuse and neglect; exposure to violence and substance use; sexual exploitation; street and road danger; disability neglected; school violence and bullying; family crisis, illness or death</td>
+        <td>Loss of schooling and of the years in which foundations are laid; cognitive and language delay very hard to make up; physical harm; trauma, anxiety, depression, withdrawal and self-harm; learnt helplessness; permanent loss of confidence</td>
+        <td>Careful registration and monitoring of attendance; early and sensitive enquiry; records that can be used; referral to the child protection functionary; never assuming a working child simply prefers to work</td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Two things are within a teacher&rsquo;s immediate power at all four stages. The first is <strong>register and notice</strong>: a teacher who knows which children are working, which are frequently absent, which are never collected by a parent, and which have changed suddenly, has already done the hardest part, because a hazard that is not noticed cannot be reported. The second is <strong>the school as a safe harbour</strong>: a warm, predictable, non-violent classroom, a meal, a place to sit, a teacher who notices distress &mdash; for a child in distress this may be the only reliable intervention available.</p>
+
+<h3 id="s5-2">5.2 Developmental Delay: Meaning, Causes, Symptoms and Types</h3>
+
+<h4>5.2.1 Meaning and Concept</h4>
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Developmental delay</strong> is the persistent failure of a child to attain, within the expected period, a developmental milestone that the majority of children reach by that age, in one or more of the areas of physical-motor, cognitive, language, social, emotional or adaptive development.</p>
+</div>
+
+<p>It is a descriptive term and not a diagnosis. The delay may be general, affecting most domains, or specific, affecting one or two. The term <em>delay</em> is used rather than <em>retardation</em> or any older term, which is both more accurate and required by current professional usage. A child can therefore be growing normally and still be developmentally delayed &mdash; the two are not the same test.</p>
+
+<h4>5.2.2 Causes of Developmental Delay</h4>
+
+<p>Causes are conventionally grouped as <strong>pre-natal, natal and post-natal</strong> (before birth, during birth, after birth) or as <strong>biogenic, psychogenic and sociogenic</strong>. The two classifications overlap, and both should be known.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 5.2 &mdash; Causes of Developmental Delay</caption>
+    <thead><tr><th>Category</th><th>Meaning</th><th>Examples</th></tr></thead>
+    <tbody>
+      <tr><td rowspan="3"><strong>Pre-natal / biogenic</strong><br>(before and during birth)</td><td>Inherited and genetic</td><td>Chromosomal and genetic conditions; familial intellectual disability; inherited metabolic disorders</td></tr>
+      <tr><td>Maternal factors</td><td>Malnutrition and anaemia; maternal illness; alcohol, tobacco and drug use; untreated infection; advanced maternal age; closely spaced pregnancies</td></tr>
+      <tr><td>Birth and neonatal factors</td><td>Prematurity; very low birth weight; difficult or asphyxial delivery; prolonged labour; neonatal jaundice; neonatal infection; birth injury</td></tr>
+      <tr><td rowspan="3"><strong>Post-natal</strong></td><td>Physical and sensory</td><td>Untreated illness and infection; malnutrition; untreated congenital conditions; severe accidents; chronic illness; deafness; blindness</td></tr>
+      <tr><td>Psychogenic and environmental</td><td>Absence of stimulation and language; extreme neglect; emotional deprivation; harsh or inconsistent parenting; repeated traumatic change of caregiver; domestic violence; institutional upbringing</td></tr>
+      <tr><td>Sociogenic</td><td>Poverty; illiteracy; no access to health care, Anganwadi or school; parental unemployment and migration; caste, community or language exclusion; long absence from school; child labour</td></tr>
+
+    </tbody>
+  </table>
+</div>
+
+<h4>5.2.3 Symptoms of Developmental Delay</h4>
+
+<p>The teacher is not qualified to diagnose but is often the first to observe. Read the symptoms as <em>signals that justify enquiry and referral</em>, not as proof.</p>
+
+<ul class="bul">
+  <li><strong>Physical and motor.</strong> Does not attain head control, sitting, standing or walking within the usual period; is markedly flaccid or markedly stiff; uses the two sides of the body asymmetrically; fails to develop a pencil grip; is very short for age or grows very slowly.</li>
+  <li><strong>Cognitive and language.</strong> No babble by about twelve months; no meaningful words by about eighteen months; a very small vocabulary at three; no two-word combinations by two years; does not respond to a name; does not point to show what they want; does not imitate; <strong>loss of skills already acquired at any age</strong> &mdash; a serious and often overlooked sign.</li>
+  <li><strong>Social and emotional.</strong> Does not smile; shows no preference for familiar faces; is markedly passive or markedly active without purpose; shows no interest in other children; does not separate easily from the primary caregiver; is persistently distressed, withdrawn, or aggressive without cause.</li>
+  <li><strong>Sensory.</strong> Does not turn towards a sound; does not look at the teacher&rsquo;s face; does not respond to being named; covers one ear repeatedly; unusual flapping, head-banging or hand-wringing; intense fixation on spinning things.</li>
+  <li><strong>Functional and self-care.</strong> At an age when most children can be fed, dressed and toileted with help, the child requires assistance in all three; cannot indicate hunger, thirst, pain or the need for the toilet; frequently has unexplained stomach aches and headaches.</li>
+</ul>
+
+
+<div class="card mist">
+  <span class="lbl">Common Mistake</span>
+  <p><strong>Loss of previously acquired skills is a medical matter and needs immediate referral.</strong> A child who could speak and has stopped speaking, or who could walk and has stopped walking, has not &ldquo;become shy&rdquo;. Equally, a child who is quiet but alert, responsive and playful, and who simply speaks a different language at home, is not delayed.</p>
+</div>
+
+<h4>5.2.4 Types of Developmental Delay</h4>
+
+<p>Delay is classified along two axes &mdash; whether it is general or specific, and which domain or domains it affects.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 5.3 &mdash; Types of Developmental Delay</caption>
+    <thead><tr><th>Type</th><th>What it affects</th><th>Typical features</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Global / general delay</strong></td><td>All or most domains &mdash; motor, language, cognitive, social, adaptive</td><td>Uniform slow development; late milestones across the board; usually evident before three; requires medical assessment</td></tr>
+      <tr><td><strong>Speech and language delay</strong></td><td>Language, and often the understanding of language</td><td>Late babbling; few or no words at eighteen months; no two-word combinations; late grammar; understands and responds at home but not in class</td></tr>
+      <tr><td><strong>Motor development delay</strong></td><td>Gross or fine motor, or both</td><td>Late sitting, standing, walking; late grasping and pencil grip; poor coordination, balance and strength</td></tr>
+      <tr><td><strong>Learning difficulty / specific learning disability</strong></td><td>Academic skills &mdash; reading, writing, arithmetic &mdash; despite otherwise normal development</td><td>Intelligence normal; the specific skill lags markedly; persistent difficulty despite instruction; often co-occurs with restlessness and low self-esteem</td></tr>
+      <tr><td><strong>Intellectual disability</strong></td><td>General cognitive functioning together with adaptive behaviour</td><td>Significant limitation in intellectual functioning and adaptive skills from early development; needs specialist assessment and a legal entitlement to education</td></tr>
+      <tr><td><strong>Autistic spectrum disorder</strong></td><td>Social communication and behaviour, with restricted or repetitive interests</td><td>Very limited or no eye contact; absence of joint attention; preference for routine; distress at change; unusual sensory responses; often a late talker; abilities uneven</td></tr>
+      <tr><td><strong>Social-emotional / attachment delay</strong></td><td>Emotional regulation and relationships</td><td>Very difficult or withdrawn; indiscriminate friendliness; inability to separate; often arising from early deprivation or repeated caregiver change</td></tr>
+      <tr><td><strong>Sensory impairment affecting development</strong></td><td>Hearing, vision, and the development that depends on them</td><td>No response to sound or name; unrecognised deafness mistaken for dullness; visual difficulty mistaken for clumsiness</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Two distinctions carry marks. <strong>Delay vs disability:</strong> delay means the child is behind the expected period and may yet catch up, while disability means a lasting limitation of function. <strong>Delay vs disorder:</strong> delay describes a gap in time, a disorder is the condition causing it. In any long answer, state plainly that <em>the teacher observes, records and refers, and does not diagnose</em>.</p>
+
+
+
+</section>
+
+<!-- ============ UNIT 6 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-6"><span class="h2num">Unit 6 &middot; 10 Marks</span>Child Protection and Child Rights</h2>
+
+<h3 id="s6-1">6.1 Child Protection and Child Rights: Meaning and Concept</h3>
+
+<h4>Meaning of child protection</h4>
+
+<p><strong>Child protection</strong> refers to the set of activities, laws, services and institutions &mdash; governmental and non-governmental &mdash; that ensure the survival, development, protection and well-being of every child, especially the most vulnerable, so that no child is subjected to violence, abuse, neglect, exploitation, discrimination, hazardous work or any form of denial of rights. Protection is a deliberate, preventive and remedial activity, and it is the responsibility of the State, of the community, and of every adult who works with children.</p>
+
+<p>The concept rests on three ideas. Protection is <strong>universal but targeted</strong>: every child has a right to protection, but the State must direct its resources to those at greatest risk. It is <strong>preventive as well as remedial</strong>: it is better to prevent a child from being trafficked than to rescue one afterwards, and both are required. And it is <strong>a continuum of care</strong>, from early support in the community through family-based care and, for children who have no family, institutional or alternative care.</p>
+
+
+<h4>Meaning and concept of child rights</h4>
+
+<p>A <strong>right</strong> is not a privilege or a favour granted by an adult; it is an entitlement that belongs to the child simply in being a child. Children were historically treated as the property of the family and as objects of adult charity, with no standing in law. The twentieth century recognised that children have needs and vulnerabilities of their own requiring positive State action, not merely freedom from interference &mdash; the difference between a <em>liberty</em> and a <em>welfare</em> approach. These entitlements were then codified in the United Nations Convention on the Rights of the Child.</p>
+
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Child rights</strong> are the guarantees of protection, care, development, participation, equality and freedom that international law and national law recognise as belonging to every child, irrespective of gender, caste, religion, race, disability, social or economic status, place of birth or any other circumstance.</p>
+</div>
+
+<div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 6.1 &mdash; Key Facts about the UNCRC</caption>
+    <thead><tr><th>Item</th><th>Fact</th></tr></thead>
+    <tbody>
+      <tr><td>Full name</td><td>United Nations Convention on the Rights of the Child</td></tr>
+      <tr><td>Adopted by</td><td>The United Nations General Assembly, on <strong>20 November 1989</strong></td></tr>
+      <tr><td>Nature</td><td>An international legally binding human rights treaty</td></tr>
+      <tr><td>Structure</td><td>A preamble, 54 substantive articles, and the final provisions</td></tr>
+      <tr><td>India&rsquo;s status</td><td>India <strong>acceded to the UNCRC on 11 December 1992</strong>, by which it became legally binding on India</td></tr>
+      <tr><td>Optional Protocols</td><td>India has <strong>not ratified</strong> the two Optional Protocols (armed conflict; sale of children and exploitation in prostitution and pornography)</td></tr>
+      <tr><td>Core principles</td><td>Non-discrimination; best interests of the child (Art. 3); right to life, survival and development (Art. 6); respect for the views of the child (Art. 12); protection from abuse and exploitation (Arts. 19, 23, 32)</td></tr>
+
+      <tr><td>Monitoring body</td><td>The Committee on the Rights of the Child, composed of independent experts</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Child rights in India rest on three pillars: the Constitution, the international conventions, and the special Acts and schemes.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 6.2 &mdash; Child Rights in the Constitution of India</caption>
+    <thead><tr><th>Article</th><th>Provision</th><th>Significance for the child</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Art. 21A</strong><br>(inserted by the 86th Amendment Act, 2002)</td><td>The State shall provide free and compulsory education to all children of the age of six to fourteen years in such manner as the State may by law determine</td><td>Made education a fundamental right for the 6&ndash;14 age group and a duty of the State; the basis of the RTE Act 2009</td></tr>
+      <tr><td><strong>Art. 45</strong></td><td>Early education and care for children below six years, and free and compulsory education up to fourteen, to be provided by the State</td><td>The commitment to early childhood care and education; now read with Art. 21A and the RTE Act&rsquo;s provisions for pre-primary and Anganwadi</td></tr>
+      <tr><td><strong>Art. 51A(k)</strong></td><td>The State shall endeavour to secure that the tender age of childhood is not abused and that children are given opportunities to develop in conditions of freedom and dignity</td><td>A fundamental duty of the State, and a clear statement that children need special protection</td></tr>
+      <tr><td><strong>Art. 15(3)</strong></td><td>The State may make special provisions for women and children</td><td>Legal basis for positive discrimination in favour of children</td></tr>
+      <tr><td><strong>Art. 29(2)</strong></td><td>No child under fourteen years shall be employed to work in any factory or mine or any other hazardous employment</td><td>The earliest constitutional prohibition of child labour</td></tr>
+      <tr><td><strong>Art. 39(e)</strong> and <strong>39(f)</strong></td><td>That the State secures a living standard guaranteeing dignity of life, and shall endeavour to secure that children are not abandoned and are given opportunities for healthy development and freedom of expression</td><td>Directive principles requiring the State to act positively for children</td></tr>
+
+      <tr><td><strong>Art. 23(3)</strong></td><td>No person shall be subjected to trafficking or be exploited for economic purposes</td><td>Constitutional basis for action against trafficking and exploitation</td></tr>
+      <tr><td><strong>Art. 21</strong></td><td>No person shall be deprived of life or liberty except according to procedure established by law</td><td>Read expansively with Arts. 21A, 39(e) and 39(f), supports the right to health, care, dignity and development</td></tr>
+
+    </tbody>
+  </table>
+</div>
+
+<p>Children&rsquo;s rights are commonly grouped into three generations. <strong>First generation</strong> (negative, civil-political): life, liberty, freedom of expression, freedom of religion, freedom from torture and forced labour &mdash; the State&rsquo;s duty is simply not to interfere. <strong>Second generation</strong> (economic, social and cultural): education, health, food, housing, work, social security, participation in cultural life &mdash; the State must actively provide. <strong>Third generation</strong> (collective or solidarity): development, a clean environment, peace, benefit from the community&rsquo;s resources.</p>
+
+
+
+
+<h3 id="s6-2">6.2 Types of Child Abuse</h3>
+
+<p><strong>Child abuse</strong> is any act, or any failure to act, by a parent, caregiver, relative, institution or stranger that causes, or is likely to cause, harm to a child &mdash; physically, sexually, emotionally or psychologically &mdash; or that places the child at risk of harm, whether the harm is actual or potential. Two features of that definition matter:</p>
+<ul class="bul">
+  <li>It includes <em>failure to act</em>, so <strong>neglect</strong> &mdash; not providing food, care, medical attention, education or protection &mdash; is abuse.</li>
+  <li>It includes harm that is <em>only likely</em>, so a threat, a sexual proposition to a child, or a situation of evident risk counts even when nothing has yet happened.</li>
+</ul>
+<p>Protectionists commonly use the acronym <strong>ASI</strong>, for <strong>child abuse and sexual exploitation</strong>. It is a classification of abuse, not a word, and must never be read as one.</p>
+
+
+<div class="tw">
+  <table>
+    <caption>Table 6.3 &mdash; The Nine Forms of Child Abuse, with Special Reference to Assam</caption>
+    <thead><tr><th>Form of abuse</th><th>What it is</th><th>Special reference to Assam</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Child marriage</strong></td>
+        <td>The marriage of a child below eighteen, and in law below eighteen for a girl and twenty-one for a boy under the 2006 Act. It is abuse because the child is denied childhood, education, health and free consent, and is exposed to early pregnancy, childbirth complications, domestic violence and lifelong economic dependence</td>
+        <td>Continues in some rural, hilly and riverine communities, often linked to other forms of exploitation. The teacher&rsquo;s role is awareness among parents and adolescents, and referral where a girl leaves school</td>
+      </tr>
+      <tr>
+        <td><strong>2. Child labour</strong></td>
+        <td>The employment of a child below fourteen in any work, and below eighteen in hazardous occupations, that interferes with schooling, denies play and education, or is harmful to health, safety or development</td>
+        <td>Reported forms include work in <strong>tea gardens</strong>, <strong>brick kilns</strong>, <strong>domestic service</strong>, <strong>rag picking</strong>, roadside and agricultural work, <strong>sand mining</strong>, and small workshops. Children from poor, riverine, marginalised, Scheduled Caste and Scheduled Tribe households are over-represented, frequently as &ldquo;brought&rdquo; children</td>
+      </tr>
+      <tr>
+        <td><strong>3. Child trafficking</strong></td>
+        <td>The recruitment, transportation, harbouring, transfer or receipt of a child by any means for exploitation &mdash; sexual exploitation, forced labour, criminal activity, organ removal, forced marriage, or use in armed conflict. The recruitment itself is an abuse even if the child is not moved</td>
+        <td>Assam is a source, transit and destination state in the regional circuit linking the plains to the neighbouring North-Eastern states and beyond, for sexual exploitation, domestic and bonded labour, and early marriage of girls. Floods and seasonal displacement increase vulnerability; riverine and border geography makes tracing difficult</td>
+
+      </tr>
+      <tr>
+        <td><strong>4. Corporal punishment</strong></td>
+        <td>The use of physical force &mdash; beating, spanking, hitting, slapping, pinching, pulling hair &mdash; to discipline a child, in the home or the school. It is abuse, and is prohibited in educational institutions under section 17 of the RTE Act 2009</td>
+        <td>Common in both homes and schools, where many adults grew up experiencing it and accept it as ordinary discipline. This must be stated to parents and fellow teachers without shaming anyone: positive discipline is a better technique, not permissiveness</td>
+      </tr>
+      <tr>
+        <td><strong>5. Sexual abuse</strong></td>
+        <td>Any sexual act involving a child, any sexual contact, or the sexual exploitation of a child, including rape, attempted rape, molestation, incest, inappropriate touching, and use of a child in pornography. A child cannot give free and informed consent. The governing law is the POCSO Act 2012</td>
+        <td>Found in every setting &mdash; family, school, neighbourhood, workplace, and online. Girls and boys are both victims, and the abuse is not confined to any one economic class. The child in a domestic-servant or bonded-servant arrangement is at particular risk, as is the child in institutional care</td>
+      </tr>
+      <tr>
+        <td><strong>6. Emotional abuse</strong></td>
+        <td>Persistent psychological harm done through words, silences and the withdrawal of affection: rejection, humiliation, constant comparison, ridicule, isolation, threats, and the deliberate denial of love. Often the most hidden form, because it leaves no mark. <em>Neglect</em> and <em>bullying</em> belong here too</td>
+        <td>A child taunted for a dialect, a caste, a tribal identity, a disability or a family&rsquo;s poverty; a child blamed for a household failure; a child told they are unwanted. These occur in homes and in schools, and are rarely reported because no one can point to a wound</td>
+      </tr>
+      <tr>
+        <td><strong>7. Physical abuse</strong></td>
+        <td>Deliberate injury to the body &mdash; beating, burning, twisting limbs, boxing the ears, throwing, poisoning, withholding food, forcing the child into painful positions, or the use of sticks and belts. Usually disguised as discipline or as the consequence of a supposed misdeed</td>
+        <td>Sticks, stones, hot oil or chilli applied for a fault; a child made to stand in the sun or kneel on gravel. Seen mainly in the home, but it must be reported wherever it occurs, and a teacher&rsquo;s own use of force is the clearest contradiction of everything in this unit</td>
+
+      </tr>
+      <tr>
+        <td><strong>8. Substance abuse</strong></td>
+        <td>The use by a child of alcohol, tobacco, inhalants, solvents or drugs &mdash; and, in the wider sense, a child&rsquo;s exposure to the substance use of adults around him. Both the use and the exposure are harmful, and the exposure is far more common</td>
+        <td>Assam has faced this in several forms, including <strong>gutka</strong> and <strong>kharra</strong> containing tobacco and areca nut, sold openly near schools. Inhalant and petrol sniffing among street and working children is a recognised problem. Children of parents who use alcohol are exposed from the earliest years</td>
+      </tr>
+      <tr>
+        <td><strong>9. Stress, and the risk of suicide</strong></td>
+        <td>Psychological stress arising from abuse, neglect, family breakdown, violence, poverty, harassment, failure, pressure, loss or displacement, and its most extreme expression in the child who thinks about or attempts self-harm. Stress is the pathway through which most other forms of abuse do their damage</td>
+        <td>Risk is linked to poverty, parental substance use, domestic violence, displacement caused by floods and erosion, school bullying, and pressure on children already struggling. The response is one known adult to talk to, and rapid access to counselling &mdash; never punishment for a disclosure</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<h4>Indicators of Abuse and the Role of the Teacher</h4>
+
+<p>A teacher is not an investigator and cannot prove anything. What the teacher can do is <strong>notice, record, consult the designated child protection functionary, and report</strong>. The indicators below are observation prompts, not a diagnostic checklist; no single one means anything on its own, and it is the pattern, the persistence and the mismatch between the injury and the explanation that matter.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 6.4 &mdash; Indicators of Abuse, by Category</caption>
+    <thead><tr><th>Category</th><th>Possible indicators</th></tr></thead>
+    <tbody>
+      <tr><td>Physical</td><td>Unexplained bruises, burns, scars or sores; injuries at different stages of healing; marks on wrists or ankles; fear of physical contact; persistent tiredness</td></tr>
+      <tr><td>Sexual</td><td>Sexualised behaviour beyond the developmental stage; difficulty in walking or sitting; genital or anal injury; reluctance to be alone with a particular person; unusual anxiety about one adult&rsquo;s attention</td></tr>
+      <tr><td>Emotional</td><td>Marked change in behaviour; withdrawal or aggression out of context; sudden loss of previously acquired skills; constant apology; expressions of worthlessness</td></tr>
+      <tr><td>Neglect</td><td>Chronic undernutrition; poor hygiene; untreated illness; consistently late or absent; no caregiver at meetings; inadequate clothing; school materials always missing</td></tr>
+      <tr><td>Work or exploitation</td><td>Regular absence on particular days; coming with physical work marks; exhaustion; a child who asks to leave the room and does not return; small change or an employer&rsquo;s possessions</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Four rules govern a teacher&rsquo;s response, and they are what an examination answer is usually looking for.</p>
+
+<ul class="check">
+  <li><strong>Notice and record.</strong> Write down the date, what was seen, and the child&rsquo;s own words, in neutral language &mdash; the same day.</li>
+  <li><strong>Refer, without delay.</strong> Report to the school&rsquo;s child protection functionary, to the Child Welfare Committee, or to the <strong>child helpline 1098</strong>, which anyone may call. Under POCSO the offence is reportable by whoever knows of it.</li>
+  <li><strong>Never investigate, never promise secrecy, never doubt the child.</strong> Questioning a child turns a disclosure into an interrogation, and a promise of secrecy silences the next one.</li>
+  <li><strong>Never return the child to the risk.</strong> Keep the child in school while the process runs. Sending a child back to the person responsible for the harm is the one outcome that must be avoided.</li>
+</ul>
+
+<h3 id="s6-3">6.3 Acts and Schemes</h3>
+
+<p>India has built a substantial statutory and programmatic framework for child protection. The four Acts named in the syllabus, and the four schemes that follow from them, are set out below with their substance and their year.</p>
+
+<h4>6.3.1 The Legal Framework</h4>
+
+<div class="tw">
+  <table>
+    <caption>Table 6.5 &mdash; The Four Principal Acts of Child Protection</caption>
+    <thead><tr><th>Act</th><th>Year</th><th>What it does</th><th>Why it matters to a teacher</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Juvenile Justice (Care and Protection of Children) Act</strong> &mdash; the JJ Act</td>
+        <td>2000, amended 2015</td>
+        <td>Governs the care, protection, rehabilitation and justice of all children below eighteen, and of women and children above eighteen where the case so requires. The 2015 amendment aligned the Act with the UNCRC, strengthened the best-interests-of-the-child principle, and reoriented the system towards children in need of care and protection</td>
+        <td>Defines who a &ldquo;child&rdquo; is in law, and establishes the <strong>Child Welfare Committee</strong> &mdash; the statutory body to which a teacher reports a neglected, abused or at-risk child</td>
+      </tr>
+      <tr>
+        <td><strong>Prohibition of Child Marriage Act</strong></td>
+        <td>2006</td>
+        <td>Prohibits the marriage of a girl below eighteen and a boy below twenty-one, makes the offence cognizable with stringent punishment, and provides for the involvement of the District Magistrate and the Child Protection Committee</td>
+        <td>Fixes the two numbers a teacher and a whole community must know: <strong>18 for the girl, 21 for the boy</strong></td>
+      </tr>
+      <tr>
+        <td><strong>POCSO Act</strong> &mdash; Protection of Children from Sexual Offences</td>
+        <td>2012</td>
+        <td>Deals specifically with offences against children; is gender-neutral in its protection; prescribes stringent punishment, including where the offender is a police officer, a public servant or a person in a position of trust; provides for a Special Court and a Special Public Prosecutor, for the rescue of the child, and for protection of the child&rsquo;s identity. It defines a child here as one below eighteen</td>
+        <td>The single most important Act for a teacher&rsquo;s duty: on receiving a disclosure of sexual abuse, do not delay, do not investigate, and report</td>
+      </tr>
+      <tr>
+        <td><strong>Child Labour (Prohibition and Regulation) Act</strong></td>
+        <td>1986, amended 2016</td>
+        <td>Prohibits the employment of children below fourteen in any occupation or process and below eighteen in hazardous occupations and processes; regulates the employment of adolescents; and provides for National and State Advisory Councils on child labour. The 2016 amendment ratified ILO Conventions 138 and 182</td>
+        <td>Two ages to remember: <strong>14 as the general minimum, 18 for hazardous work</strong>. A child found working is to be rescued, educated and rehabilitated &mdash; not merely told to stop</td>
+      </tr>
+
+
+    </tbody>
+  </table>
+</div>
+
+<h4>6.3.2 The Schemes</h4>
+
+
+<p>Four schemes are named in the syllabus. Each reaches the child at a different point and by a different route, and between them they cover the whole sequence of <em>prevention, protection, response and rehabilitation</em>.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 6.6 &mdash; The Four Schemes of Child Protection and Development</caption>
+    <thead><tr><th>Scheme</th><th>Full name, year and purpose</th><th>Who it serves and what it provides</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>ICPS</strong></td>
+        <td><strong>Integrated Child Protection Services</strong>. A Centrally Sponsored Scheme launched in the framework of the JJ Act, integrating and strengthening child protection services</td>
+        <td>Children in need of care and protection, children in conflict with the law, and children affected by violence, disaster, illness or disability &mdash; including orphans, street children, children in institutions, and children of migrant or displaced families. Supports the <strong>Child Welfare Committee</strong>, the Juvenile Justice Board and the District Child Protection Unit, and provides community-based care, foster care and sponsorship. Through the CWC it is the channel through which a school&rsquo;s report reaches a statutory body</td>
+      </tr>
+      <tr>
+        <td><strong>BBBP</strong></td>
+        <td><strong>Beti Bachao Beti Padhao</strong>. A Central Government programme launched in 2015 to prevent gender-biased sex selection, to ensure the survival, protection, education and empowerment of the girl child, and to prevent child marriage</td>
+        <td>The girl child from conception to eighteen and beyond, particularly girls in families at risk of sex selection, and adolescents. Involves community mobilisation, convergence with the health and education departments, and a support structure for the girl child. The principal countermeasure to child marriage</td>
+      </tr>
+      <tr>
+        <td><strong>ICDS</strong></td>
+        <td><strong>Integrated Child Development Services</strong>. One of the earliest and largest Central Government programmes, delivering a package of services addressing the nutritional needs of children, mothers and other family members through Anganwadi centres</td>
+        <td>Children below six, pregnant and lactating mothers, and adolescent girls. Provides supplementary nutrition, health check-ups, immunisation, nutrition and health education, and pre-school play and care for children aged three to six. It reaches the child before the school does, and is the first contact point for identifying developmental delay in the first two years</td>
+      </tr>
+      <tr>
+        <td><strong>Mission Vatsalya</strong></td>
+        <td>The national scheme for the protection, care and rehabilitation of children in need of care and protection, adopted in 2021; consolidates the child protection framework across existing institutional and non-institutional schemes, on a continuum of care</td>
+        <td>Children in need of care and protection up to eighteen, including children in institutional care, in foster and adoptive care, and affected by violence or in difficult circumstances. Emphasises family-based and community-based care, restoration and rehabilitation, and keeping children out of institutions wherever possible</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<p>Read the table as a sequence. <strong>ICDS</strong> reaches the child earliest, before birth and before school. <strong>BBBP</strong> addresses the girl child, and is the countermeasure to child marriage and sex selection. <strong>ICPS</strong> is the statutory response when a child is actually in need of care and protection, through the Child Welfare Committee. <strong>Mission Vatsalya</strong> is the rehabilitation pathway, for children brought out of risk or out of institutions.</p>
+
+<h5>Bodies and authorities a teacher must know by name</h5>
+
+<ul class="bul">
+  <li><strong>NCPCR</strong> &mdash; the <em>national</em> Commission for Protection of Child Rights, under the Commissions for Protection of Child Rights Act 2005; inquires into violations of children&rsquo;s rights and makes recommendations to the Central Government. <strong>SCPCR</strong> &mdash; the corresponding State body; Assam has one. The initials differ by one letter, and mixing them loses marks.</li>
+  <li><strong>Child Welfare Committee (CWC)</strong> &mdash; the district statutory body under the JJ Act for children in need of care and protection; the body to which a child at risk is reported.</li>
+  <li><strong>Child helpline 1098</strong> &mdash; a telephone helpline for children in distress, available to anyone, including a teacher.</li>
+  <li><strong>Special Court and Special Public Prosecutor</strong> &mdash; created under POCSO for the trial of offences against children.</li>
+  <li><strong>The school child protection functionary</strong> &mdash; the person in the school who receives a child&rsquo;s disclosure and takes it forward; the point of contact with the CWC.</li>
+</ul>
+
+
+
+</section>
+
+<!-- ============ PRACTICUM ============ -->
+<h2 id="practicum"><span class="h2num">Practicum &middot; Field Tasks</span>The Four Practicum Tasks</h2>
+
+<p>Four field tasks, moving from the printed word, to the screen, to the home, to the school &mdash; together they build the observational habit that the rest of this paper describes.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table P.1 &mdash; The Four Practicum Tasks: What to Do, and What to Submit</caption>
+    <thead><tr><th>Task</th><th>What to do</th><th>What to submit</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Newspaper articles</strong> on parenting and childhood</td>
+        <td>Over at least a month, collect ten clippings or saved news items from at least three sources, on themes such as discipline and corporal punishment, screen time, nutrition, adolescent behaviour, examination pressure, child labour, child marriage, attendance, immunisation, or public response to a child-protection issue</td>
+        <td>The ten in chronological order, each with headline, date and source, a three-sentence summary and a two-sentence note on the developmental or child-rights principle it illustrates &mdash; then a <strong>one-page synthesis</strong>. The synthesis is where the marks are; ten unconnected summaries score poorly</td>
+      </tr>
+      <tr>
+        <td><strong>2. Film watching and reflection</strong></td>
+        <td>Watch a feature film on childhood. The syllabus names <em>Salaam Bombay!</em> (1988) and <em>Taare Zameen Par</em> (2007); any other film on childhood, disability, child labour or schooling may be taken with the institution&rsquo;s permission. Watch without stopping for notes; write up afterwards</td>
+        <td>Four reflections: the child&rsquo;s developmental context (which domains advance, which are blocked, and by what); the role of the adults &mdash; who acts as parent, teacher, employer; <strong>the invisible child</strong> the film does not show, and what that silence reveals; and your own response &mdash; where you felt something, and what it tells you about the children you will teach. The fourth is valued most and most often skipped</td>
+      </tr>
+      <tr>
+        <td><strong>3. Interviewing four or five parents</strong> on child-rearing</td>
+        <td>Interview four to five parents face to face, in the parent&rsquo;s own language, at a convenient time and place, with the school&rsquo;s permission, using a structured schedule of open questions. Cover: mother tongue at home; who cares for the child and who decides; what the child is expected and not expected to do; feeding and sleeping; what is done when the child cries, misbehaves or does badly in school; whether physical punishment is used and how the parent feels about it; what the parent hopes for and worries about; whether the child is helped with homework; how much the parent talks to the child; and what the parent would change</td>
+        <td>Tabulated answers, compared on discipline, talk, expectations, reading and the child&rsquo;s responsibilities at home; then the two or three practices that recur most, one supporting development and one working against it, and what a school could reasonably do about each</td>
+      </tr>
+      <tr>
+        <td><strong>4. Height&ndash;weight growth data</strong> from an elementary school</td>
+        <td>With permission, measure one elementary class &mdash; ideally Classes I to III &mdash; with a stadiometer or measuring wall and a standard weighing scale. Measure barefoot, in light clothing, in the morning. Record age to the nearest year, class, sex, height in cm and weight in kg</td>
+        <td>A simple register with class-wise averages and a plot, answering: are heights and weights broadly appropriate for the ages; is any child markedly below the class average; is any child&rsquo;s weight markedly low <em>for their height</em>; is there a pattern by class, sex or section to follow up</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ul class="bul">
+  <li><strong>All four tasks.</strong> Handle every record confidentially, and use real names only with permission.</li>
+  <li><strong>Task 3.</strong> Do not turn the interview into an interrogation about faults, or write in a tone of moral superiority. The most damaging error is to record parents&rsquo; answers in a form that makes them look foolish for practices entirely understandable given their circumstances.</li>
+  <li><strong>Task 4.</strong> <span class="term">Height-for-age</span> indicates <strong>stunting</strong> (chronic undernutrition or repeated illness); <span class="term">weight-for-height</span> indicates <strong>wasting</strong> (acute recent undernutrition). A child can be short but well proportioned, or of normal height and dangerously thin &mdash; you need both. Teacher-taken measurements are <em>screening data, not a clinical assessment</em>: they trigger a conversation, a home visit or a referral to the Anganwadi worker or health centre, and nothing more.</li>
+</ul>
+
+
+
+<!-- ============ SIP ============ -->
+<h2 id="sip"><span class="h2num">SIP &middot; 10 Marks</span>School Internship Programme &mdash; Case Study of Two Children</h2>
+
+<h3 id="sip-task">The Task &mdash; Two Children from Diverse Contexts</h3>
+
+<p>The SIP component of this paper requires a <strong>school internship</strong> case study of <strong>two children from diverse contexts</strong>. The syllabus indicates the kinds of diversity expected: children from different socio-economic backgrounds, differently abled children, and street and slum children. The two must be genuinely different, because the purpose is comparison &mdash; the same developmental lens applied to two lives shaped in opposite ways. Any pair is acceptable provided the difference is real, ethically obtained, and not sensational.</p>
+
+
+<h3 id="sip-method">How to Carry Out the Study</h3>
+
+<ol class="num">
+  <li><strong>Permission and consent.</strong> Obtain the school&rsquo;s written permission and the parent&rsquo;s informed consent for each child, and explain what you will do with the information. A case study of a real child is a confidential professional document, not a presentation piece.</li>
+  <li><strong>Multi-source data.</strong> Use at least four of the six tools of section 1.4 &mdash; naturalistic observation, interviews with parent and child, a case study of each child, anecdotal records, and your reflective journal.</li>
+  <li><strong>Cover all domains.</strong> For each child record something on physical and motor development, cognitive development, language, social development, emotional development, and any developmental hazard or protection concern. This common structure is what makes the two studies comparable.</li>
+  <li><strong>Confront the difference honestly.</strong> Write the comparative section as a question, not a conclusion: why did these two children, of almost the same age, arrive in this classroom in such different states? The answer will not be a single factor, and saying so is better scholarship than a single-cause explanation.</li>
+  <li><strong>End with a plan, not a verdict.</strong> Three or four concrete actions you would take as a teacher, addressed to the two children and to the class, plus one change you would make to the school&rsquo;s own practice. A case study that ends only in sadness has not been used.</li>
+</ol>
+
+<p>The hardest and most valuable lesson in the SIP is usually this: the two children are far more alike than their circumstances suggest, and far more different than their test scores suggest. Neither fact cancels the other.</p>
+
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table S.1 &mdash; A Suggested Frame for the Two-Child Case Study</caption>
+    <thead><tr><th>Section</th><th>Content</th></tr></thead>
+    <tbody>
+      <tr><td>Introduction</td><td>Where and when the study was done, how the two children were chosen, and the ethical safeguards observed</td></tr>
+      <tr><td>Each child &mdash; background</td><td>Family, socio-economic context, health history, early experiences, mother tongue</td></tr>
+      <tr><td>Each child &mdash; development</td><td>Physical-motor, cognitive, language, social, emotional, and any hazard or protection concern, with the data sources used &mdash; same structure for both, so that the two are comparable</td></tr>
+      <tr><td>Comparative analysis</td><td>What is common, what differs, and what explains the difference &mdash; heredity, opportunity, language, nutrition, protection, and the child&rsquo;s own effort</td></tr>
+      <tr><td>Reflections</td><td>Your own assumptions before and after the study; what surprised you; what you found difficult to hear</td></tr>
+      <tr><td>Action plan and appendix</td><td>Three or four specific steps for the two children and for the class, one change to the school&rsquo;s practice; then observation sheets, interview schedules, measurement tables, dates and the journal entries on which the study rests</td></tr>
+    </tbody>
+  </table>
+</div>
+
+
+<!-- ============ INTERNAL ASSESSMENT ============ -->
+<h2 id="internal"><span class="h2num">Internal &middot; 30 Marks</span>Internal Assessment</h2>
+
+<p>Only ten of the thirty internal marks come from a written test. The other twenty are earned by arguing in a group, by writing up what you did in the field, and by working with children during the School Internship.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table I.1 &mdash; Internal Assessment Components (30 marks)</caption>
+    <thead><tr><th>Component</th><th>Marks</th><th>What it assesses</th><th>Evidence submitted</th></tr></thead>
+    <tbody>
+      <tr><td>Unit test</td><td>10</td><td>Knowledge of the six units &mdash; factual recall, definitions, principles, stages, and the names of Acts and schemes</td><td>Written or online test covering Units 1 to 6</td></tr>
+      <tr><td>Participation in group discussion</td><td>5</td><td>Oral participation, listening, reasoned argument, and the ability to build on or respectfully contest a point</td><td>The mentor&rsquo;s dated record of contribution across the term</td></tr>
+      <tr><td>Written report on the practicum</td><td>5</td><td>Clarity, organisation, accuracy and honest documentation of one of the four field tasks</td><td>The report, with data sheets or interview transcripts attached</td></tr>
+      <tr><td>SIP activity</td><td>10</td><td>Field engagement &mdash; the case study of two children from diverse contexts &mdash; with reflective evidence of learning</td><td>Permission, the two case studies, and the report</td></tr>
+      <tr><td><strong>Total</strong></td><td><strong>30</strong></td><td colspan="2">External paper: 70 marks. Total: 100 marks.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The component most often underestimated is the group discussion. Five marks is a seventh of the internal assessment, and it is awarded for <em>how</em> a candidate argues rather than for how much it knows. The four components measure four different things &mdash; recall, oral reasoning, written documentation and field work &mdash; which is why none can be substituted for by another.</p>
+
+<!-- ============ QUICK SUBJECT REVISION ============ -->
+<h2 id="revision"><span class="h2num">Memory Sheet</span>Quick Subject Revision</h2>
+
+<h3>Essential definitions</h3>
+
+<dl>
+  <dt>Growth</dt><dd>measurable quantitative increase in the size and number of the body&rsquo;s parts.</dd>
+  <dt>Development</dt><dd>progressive qualitative and quantitative change in function and behaviour.</dd>
+  <dt>Maturation</dt><dd>the genetically determined unfolding of potential that makes a new behaviour possible without practice.</dd>
+  <dt>Milestone</dt><dd>an observable and predictable behaviour marking attainment of a developmental achievement.</dd>
+  <dt>Naturalistic observation</dt><dd>watching and recording a child&rsquo;s behaviour in a natural setting without controlling it.</dd>
+  <dt>Case study</dt><dd>a comprehensive, multi-source, longitudinal study of an individual or group.</dd>
+  <dt>Reflective journal</dt><dd>a record of the observer&rsquo;s own thoughts and feelings about what was observed.</dd>
+  <dt>Cognitive development</dt><dd>the orderly change in perception, memory, reasoning, understanding and symbolisation.</dd>
+  <dt>Developmental hazard</dt><dd>any condition or event with the potential to disturb normal development.</dd>
+  <dt>Developmental delay</dt><dd>persistent failure to attain a milestone within the expected period.</dd>
+  <dt>Child protection</dt><dd>the totality of laws, services and activities that ensure the survival, development and protection of every child.</dd>
+  <dt>Child rights</dt><dd>the entitlements every child holds by virtue of being human.</dd>
+  <dt>Child abuse</dt><dd>any act, <strong>or failure to act</strong>, that causes or is likely to cause harm to a child.</dd>
+</dl>
+
+
+<h3>Names, theories and key facts</h3>
+
+<ul class="bul">
+  <li><strong>Hurlock</strong> &mdash; four principles of development: cephalocaudal, proximodistal, continuity, uneven rate.</li>
+  <li><strong>Piaget</strong> &mdash; four qualitatively distinct stages; assimilation, accommodation, equilibration. Sensorimotor 0&ndash;2, pre-operational 2&ndash;7, concrete operational 7&ndash;11, formal operational 11+. Object permanence ends stage 1; conservation begins in stage 3.</li>
+  <li><strong>UNCRC</strong> &mdash; child rights as legal entitlements; best interests of the child; participation.</li>
+  <li>Six tools, in order: naturalistic observation, interviews, case studies, anecdotal records, reflective journals, clinical methods. <strong>Only clinical methods are diagnostic</strong> &mdash; the teacher observes, records and refers.</li>
+  <li>Play: solitary, parallel, associative, cooperative, then rule-governed games.</li>
+  <li>Emotion: signals, motivates, communicates, adapts, bonds, evaluates, and carries self-knowledge.</li>
+  <li>Language: crying, cooing, babbling, one-word, two-word, sentences, refinement.</li>
+  <li>Stunting = low height-for-age (chronic). Wasting = low weight-for-height (acute).</li>
+  <li>Loss of previously acquired skills means refer, immediately.</li>
+  <li>Teacher&rsquo;s duty: notice, record, refer, never investigate, never promise secrecy, never return the child to the risk.</li>
+</ul>
+
+
+<h3>Dates, Acts and schemes</h3>
+
+<ul class="bul">
+  <li>UNCRC adopted <strong>20 November 1989</strong>; India acceded <strong>11 December 1992</strong>; Optional Protocols not ratified.</li>
+  <li>Art. 21A &mdash; 86th Amendment 2002 &mdash; free and compulsory education, ages 6&ndash;14. RTE Act 2009, in force 1 April 2010; section 17 prohibits corporal punishment.</li>
+  <li>Child marriage: girl <strong>18</strong>, boy <strong>21</strong>. Child labour: <strong>14</strong> general minimum, <strong>18</strong> for hazardous work. POCSO: child = below <strong>18</strong>.</li>
+  <li>JJ Act <strong>2000</strong> (amended 2015) &middot; Prohibition of Child Marriage Act <strong>2006</strong> &middot; POCSO Act <strong>2012</strong> &middot; Child Labour (Prohibition and Regulation) Act <strong>1986</strong> (amended 2016) &middot; Commissions for Protection of Child Rights Act <strong>2005</strong>.</li>
+  <li>Schemes: <strong>ICDS</strong> (earliest reach) &middot; <strong>BBBP</strong>, launched 2015 (the girl child) &middot; <strong>ICPS</strong> (protection response) &middot; <strong>Mission Vatsalya</strong>, adopted 2021 (rehabilitation).</li>
+  <li>NCPCR is national; SCPCR is State &mdash; Assam has one. Do not confuse them. Child helpline: <strong>1098</strong>.</li>
+</ul>
+
+<h3>What the practicum and SIP require</h3>
+
+<ul class="bul">
+  <li><strong>Task 1:</strong> ten news items from three sources over a month, plus a one-page synthesis.</li>
+  <li><strong>Task 2:</strong> a film on childhood, reflected on in four ways &mdash; context, adults, the invisible child, your own response.</li>
+  <li><strong>Task 3:</strong> four or five structured parent interviews, tabulated and compared, with what the school should do about it.</li>
+  <li><strong>Task 4:</strong> height and weight of one elementary class, analysed as height-for-age and weight-for-height; screening data, not diagnosis.</li>
+
+  <li><strong>SIP:</strong> two children from diverse contexts, four or more tools, all domains covered, ending in an action plan. 10 marks.</li>
+</ul>
+
+<!-- ============ IMPORTANT DIFFERENCES ============ -->
+<h2 id="differences"><span class="h2num">Examination Aid</span>Important Differences</h2>
+
+<div class="tw">
+  <table>
+    <caption>Table 9.1 &mdash; The Differences Most Often Asked</caption>
+    <thead><tr><th>Pair</th><th>The distinction</th></tr></thead>
+    <tbody>
+      <tr><td>Growth / Development</td><td>Quantitative and measurable, the body / qualitative and quantitative, the function</td></tr>
+      <tr><td>Growth / Maturation</td><td>Increase in size / the unfolding of capacity that makes a new behaviour possible</td></tr>
+      <tr><td>Gross / Fine motor</td><td>Large muscles, earlier / small muscles, later, and the basis of writing</td></tr>
+      <tr><td>Observation / Interview</td><td>Data shown / data reported; behavioural / self-report</td></tr>
+      <tr><td>Case study / Anecdotal record</td><td>Comprehensive, multi-source, longitudinal / a single incident in a few lines</td></tr>
+      <tr><td>Anecdotal record / Reflective journal</td><td>About the child / about the observer&rsquo;s own thinking</td></tr>
+      <tr><td>Parallel / Cooperative play</td><td>Playing beside, without coordination / playing together with a shared goal and shared roles</td></tr>
+      <tr><td>Egocentrism / Selfishness</td><td>A stage limitation in taking another&rsquo;s view / a moral fault. Only the first belongs to the child&rsquo;s development</td></tr>
+      <tr><td>Delay / Disability</td><td>Behind the expected period, and may be overcome / a lasting limitation of function</td></tr>
+      <tr><td>Abuse / Neglect</td><td>An act that harms / a failure to act. Both are abuse</td></tr>
+      <tr><td>NCPCR / SCPCR</td><td>National Commission / State Commission for Protection of Child Rights</td></tr>
+      <tr><td>Regulation / Discipline</td><td>Corporal punishment as a method / the professional management of behaviour by appropriate means</td></tr>
+
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ COURSE INFORMATION ============ -->
+<h2 id="courseinfo"><span class="h2num">Back Matter</span>Course Information</h2>
+
+<h3>Course objectives</h3>
+
+<p>On completion of this course a candidate should be able to:</p>
+
+<ol class="num">
+  <li>review the general conception of the child and of childhood;</li>
+  <li>understand physical, mental, social and emotional development;</li>
+  <li>understand the developmental processes of children with diverse abilities in a socio-cultural context;</li>
+  <li>have hands-on experience of interacting with children; and</li>
+  <li>understand child rights and protection.</li>
+</ol>
+
+<p>Note the movement from knowledge (i, ii, v) to skill and sensitivity (iii, iv). Objective (iv) is why the practicum is compulsory.</p>
+
+<h3>Mode of transaction</h3>
+
+<p>At four to five periods a week, this 4-credit paper is transacted through discussion, demonstration, field visit and self-study, supported by the readings at the end of these notes. In practice: lecture&ndash;discussion for the conceptual units; worked demonstrations of the developmental milestones in Unit 1; guided practice with observation instruments and interview schedules; and field-based tasks for the practicum components.</p>
+
+
+<h3>Assessment structure</h3>
+
+<p>Seventy marks external and thirty marks internal, as set out in the Internal Assessment section above: a unit test (10), participation in a group discussion (5), the written practicum report (5), and the SIP activity (10).</p>
+
+<!-- ============ FACULTY / MENTOR NOTES ============ -->
+<h2 id="faculty"><span class="h2num">For the Mentor</span>Faculty and Mentor Notes</h2>
+
+<p>The syllabus does not treat this paper as one that can be carried by exposition alone. It asks of those teaching it:</p>
+
+
+<ul class="bul">
+  <li><strong>Advance planning.</strong> The major content areas &mdash; childhood, child protection and child development &mdash; are to be planned in advance, not taken up term by term as they are reached.</li>
+  <li><strong>Classroom discussion among the student-teachers</strong> for conceptual understanding, rather than presentation to them. This is what makes the group-discussion component of the internal assessment possible at all.</li>
+  <li><strong>Directed reading</strong> of news items, articles, e-books, research papers, journals and e-journals on child development.</li>
+  <li><strong>PowerPoint presentations</strong> prepared on issues and concerns relating to child development and child protection.</li>
+  <li><strong>An awareness meet on child protection,</strong> with resource persons drawn from SCPCR, UNICEF, ICPS, the police department and Childline.</li>
+</ul>
+
+<!-- ============ SUGGESTED READINGS ============ -->
+<h2 id="readings"><span class="h2num">Back Matter</span>Suggested Readings</h2>
+
+<h5>Indian frameworks and official documents</h5>
+<ul class="bul">
+  <li>Ministry of Education, Government of India. <em>National Curriculum Framework for Teacher Education (NCFTE) 2016.</em> New Delhi, 2016.</li>
+  <li>Ministry of Education, Government of India. <em>National Education Policy 2020.</em> New Delhi, 2020.</li>
+  <li>Ministry of Education, Government of India. <em>National Curriculum Framework for Foundational Stage 2022.</em> New Delhi, 2022.</li>
+  <li>NCERT. <em>Child Development and Pedagogy.</em> New Delhi: NCERT. &middot; NCERT. <em>Education for All.</em> New Delhi: NCERT.</li>
+  <li>SCERT Assam. <em>Diploma in Elementary Education (D.El.Ed.) (PSTE) &mdash; Revised Curriculum-Syllabus 2024.</em> Guwahati: SCERT Assam.</li>
+  <li>UNICEF. <em>The State of the World&rsquo;s Children.</em> New York: United Nations Children&rsquo;s Fund.</li>
+</ul>
+
+<h5>Core texts on child development</h5>
+<ul class="bul">
+  <li>Hurlock, Elizabeth B. <em>Child Development.</em> New York: McGraw-Hill.</li>
+  <li>Papalia, Diane E. and Martorell, Gabriela. <em>Child Development.</em> New York: McGraw-Hill.</li>
+  <li>Santrock, Linda G. <em>Child Development.</em> New York: McGraw-Hill.</li>
+  <li>Piaget, Jean. <em>The Psychology of Intelligence.</em> London: Routledge.</li>
+  <li>National Institute of Open Schooling. <em>Development and Management of Children.</em> New Delhi: NIOS.</li>
+</ul>
+
+
+<h5>Child protection, rights and the Indian legal framework</h5>
+<ul class="bul">
+  <li>United Nations. <em>Convention on the Rights of the Child.</em> New York: United Nations, 1989.</li>
+  <li>Government of India. <em>Juvenile Justice (Care and Protection of Children) Act, 2000</em>, as amended in 2015.</li>
+  <li>Government of India. <em>Prohibition of Child Marriage Act, 2006.</em></li>
+  <li>Government of India. <em>Protection of Children from Sexual Offences (POCSO) Act, 2012.</em></li>
+  <li>Government of India. <em>Child Labour (Prohibition and Regulation) Act, 1986</em>, as amended in 2016.</li>
+  <li>Government of India. <em>Right of Children to Free and Compulsory Education Act, 2009</em> (in force 1 April 2010).</li>
+  <li>Government of India. <em>Commissions for Protection of Child Rights Act, 2005.</em></li>
+  <li>NCPCR. <em>Child Protection: Training Manual and Resource Material.</em> New Delhi: National Commission for Protection of Child Rights.</li>
+  <li>Ministry of Women and Child Development. Scheme guidelines: <em>Integrated Child Protection Services</em> &middot; <em>Mission Vatsalya</em> &middot; <em>Beti Bachao Beti Padhao</em> &middot; <em>Integrated Child Development Services.</em> New Delhi.</li>
+</ul>
+</article>
+</body>
+</html>

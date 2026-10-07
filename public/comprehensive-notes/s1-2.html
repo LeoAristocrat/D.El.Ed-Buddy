@@ -1,0 +1,2006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="D.El.Ed Semester I Study Notes">
+<meta name="description" content="The foundation stage: meaning, pedagogy, planning, assessment and quality standards of ECCE.">
+<meta name="keywords" content="D.El.Ed, Semester 1, S1.2, SCERT Assam, PSTE, teacher education, study notes">
+<meta name="subject" content="Diploma in Elementary Education (PSTE) — Semester I">
+<meta name="color-scheme" content="light">
+<title>S1.2 — Early Childhood Care and Education (ECCE) | D.El.Ed Semester I Notes</title>
+<link rel="icon" href="/favicon.svg">
+<style>
+/* ============================================================
+   D.El.Ed Semester 1 — Shared Design System
+   Premium academic notebook aesthetic
+   ============================================================ */
+
+:root {
+  /* --- Paper & surface --- */
+  --paper:          #faf6ee;
+  --paper-deep:     #f3ece0;
+  --card:           #fffdf8;
+  --card-beige:     #f6efe2;
+  --card-beige-2:   #f2e9d8;
+
+  /* --- Ink --- */
+  --ink:            #33302b;
+  --ink-soft:       #55504a;
+  --ink-faint:      #7a736a;
+  --rule:           #ded2bd;
+  --rule-soft:      #e9e0cf;
+
+  /* --- Accents --- */
+  --terracotta:     #b4623c;
+  --terracotta-d:   #8f4a2a;
+  --terracotta-bg:  #f7e9e0;
+  --olive:          #6d7a4a;
+  --olive-d:        #54603a;
+  --olive-bg:       #ecefdd;
+  --dusty-blue:     #4c6a83;
+  --dusty-blue-bg:  #e5ecf2;
+  --plum:           #7a5570;
+  --plum-bg:        #f1e8ee;
+  --gold:           #a5822e;
+  --gold-bg:        #f7efd8;
+
+  /* --- Type --- */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+           Georgia, "Times New Roman", serif;
+  --sans:  "Segoe UI", "Gill Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  --mono:  "Consolas", "SF Mono", "Menlo", monospace;
+
+  --fs-body: 10.6pt;
+  --lh-body: 1.62;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 34px 20px 80px;
+  font-family: var(--serif);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.20) 1px, transparent 0);
+  background-size: 22px 22px;
+  background-attachment: fixed;
+}
+
+/* ============ Document container ============ */
+.doc {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(120, 100, 70, 0.06),
+    0 10px 34px -14px rgba(90, 72, 45, 0.22);
+  padding: 46px 56px 64px;
+  position: relative;
+}
+.doc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0);
+  background-size: 22px 22px;
+  opacity: 0.75;
+}
+.doc > * { position: relative; z-index: 1; }
+
+/* ============ Hero / subject header ============ */
+.hero {
+  border: 1px solid var(--rule);
+  border-top: 5px solid var(--terracotta);
+  background: linear-gradient(180deg, #fffdf8 0%, #f7f0e3 100%);
+  padding: 26px 30px 22px;
+  margin-bottom: 26px;
+  border-radius: 3px;
+}
+.hero .kicker {
+  font-family: var(--sans);
+  font-size: 8.4pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-size: 25pt;
+  line-height: 1.16;
+  margin: 0 0 4px;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.hero .code {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--paper);
+  background: var(--ink);
+  padding: 3px 11px;
+  border-radius: 2px;
+  margin: 0 0 12px;
+}
+.hero .tagline {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 4px;
+  max-width: 62ch;
+}
+/* The divider doubles as the maker-credit row: rule on the left, credit on the
+   right. Keeping them on one line costs no vertical space in the hero, which
+   the one-page-before-Unit-1 budget cannot spare. */
+.hero .rule-line {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 13px 0 12px;
+}
+.hero .rule-line::before {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, var(--terracotta), var(--rule) 55%, transparent);
+}
+.made-by {
+  flex: 0 0 auto;
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+.made-by .heart {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", var(--sans);
+  font-size: 8.4pt;
+}
+.made-by a {
+  color: var(--terracotta-d);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+}
+.made-by a:hover { border-bottom-color: var(--terracotta); }
+
+/* ============ At a glance ============ */
+.glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.glance .g-item {
+  flex: 1 1 152px;
+  background: #fffdf8;
+  padding: 9px 12px 10px;
+}
+.glance .g-label {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 2px;
+}
+.glance .g-value {
+  font-size: 9.6pt;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.34;
+}
+
+/* ============ Table of contents ============ */
+.toc {
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--olive);
+  background: #fcf9f2;
+  padding: 20px 24px 18px;
+  border-radius: 3px;
+  margin: 26px 0 30px;
+}
+.toc h2 {
+  font-family: var(--sans);
+  font-size: 9.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  margin: 0 0 12px;
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+}
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
+.toc > ol > li {
+  counter-increment: toc;
+  margin: 0 0 9px;
+}
+.toc > ol > li > a {
+  font-weight: 700;
+  font-size: 10.6pt;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.toc > ol > li > a:hover { color: var(--terracotta-d); border-bottom-color: var(--terracotta); }
+.toc > ol > li > a::before {
+  content: counter(toc, upper-roman) " · ";
+  color: var(--terracotta);
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.toc .sub {
+  margin: 4px 0 0 4px;
+  padding: 0 0 0 14px;
+  list-style: none;
+  border-left: 1px solid var(--rule-soft);
+  columns: 2;
+  column-gap: 26px;
+}
+.toc .sub li {
+  font-size: 9.4pt;
+  color: var(--ink-soft);
+  line-height: 1.48;
+  margin-bottom: 2px;
+  break-inside: avoid;
+}
+.toc .sub a { color: inherit; text-decoration: none; }
+.toc .sub a:hover { color: var(--terracotta-d); }
+
+/* ============ Headings ============ */
+h2 {
+  font-size: 16.5pt;
+  line-height: 1.22;
+  margin: 40px 0 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  padding: 0 0 9px 15px;
+  border-left: 5px solid var(--terracotta);
+  border-bottom: 1px solid var(--rule);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h2 .h2num {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+h3 {
+  font-size: 12.6pt;
+  line-height: 1.3;
+  margin: 26px 0 8px;
+  font-weight: 700;
+  color: #3d3933;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  background: var(--olive);
+  border-radius: 50%;
+  margin-right: 9px;
+  vertical-align: 0.06em;
+}
+
+h4 {
+  font-size: 10.9pt;
+  line-height: 1.35;
+  margin: 18px 0 6px;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--terracotta-d);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h5 {
+  font-size: 9.9pt;
+  margin: 14px 0 4px;
+  font-weight: 700;
+  color: var(--olive-d);
+  font-family: var(--sans);
+  letter-spacing: 0.03em;
+  break-after: avoid;
+}
+
+/* ============ Body text ============ */
+p { margin: 0 0 10px; text-align: justify; hyphens: auto; }
+p.tight { margin-bottom: 4px; }
+.doc > p, .unit-body > p { max-width: 74ch; }
+
+strong, b { font-weight: 700; color: #26231f; }
+
+em { font-style: italic; }
+
+.lead {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 72ch;
+}
+
+/* ============ Lists ============ */
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 5px; }
+li > ul, li > ol { margin-top: 5px; margin-bottom: 3px; }
+
+ul.bul { list-style: none; padding-left: 0; }
+ul.bul > li {
+  position: relative;
+  padding-left: 17px;
+  margin-bottom: 6px;
+}
+ul.bul > li::before {
+  content: "▸";
+  position: absolute;
+  left: 2px;
+  top: -0.02em;
+  color: var(--terracotta);
+  font-size: 0.92em;
+}
+
+ul.check { list-style: none; padding-left: 0; }
+ul.check > li { position: relative; padding-left: 20px; margin-bottom: 5px; }
+ul.check > li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--olive);
+  font-weight: 700;
+  font-size: 0.88em;
+}
+
+ol.num { list-style: none; counter-reset: n; padding-left: 26px; }
+ol.num > li { position: relative; margin-bottom: 7px; counter-increment: n; }
+ol.num > li::before {
+  content: counter(n) ".";
+  position: absolute;
+  left: -22px;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  font-family: var(--sans);
+  font-size: 0.88em;
+}
+
+dl { margin: 0 0 12px; }
+dt { font-weight: 700; color: #26231f; margin-top: 8px; }
+dd { margin: 2px 0 0 0; }
+
+abbr { text-decoration: none; border-bottom: 1px dotted var(--ink-faint); }
+
+/* ============ Callout cards ============ */
+.card {
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 12px 16px 13px;
+  margin: 14px 0;
+  background: #fffdf8;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.card > :last-child { margin-bottom: 0; }
+.card p { text-align: left; }
+
+.card .lbl {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.def {
+  background: #fdf6ec;
+  border-color: #e3d2b6;
+  border-left: 4px solid var(--gold);
+}
+.def .lbl { color: var(--gold); }
+
+.idea {
+  background: var(--olive-bg);
+  border-color: #d3d9bd;
+  border-left: 4px solid var(--olive);
+}
+.idea .lbl { color: var(--olive-d); }
+
+.rem {
+  background: var(--terracotta-bg);
+  border-color: #e8cebc;
+  border-left: 4px solid var(--terracotta);
+}
+.rem .lbl { color: var(--terracotta-d); }
+
+.ex {
+  background: #f4f1fa;
+  border-color: #d9d0e8;
+  border-left: 4px solid #6b5a94;
+}
+.ex .lbl { color: #5b4c80; }
+
+.cls {
+  background: var(--dusty-blue-bg);
+  border-color: #ccd9e3;
+  border-left: 4px solid var(--dusty-blue);
+}
+.cls .lbl { color: #3d5a71; }
+
+.exam {
+  background: #fbf4e3;
+  border-color: #e6d5aa;
+  border-left: 4px solid #a5822e;
+}
+.exam .lbl { color: #856722; }
+
+.mist {
+  background: #f9ecec;
+  border-color: #eccfcf;
+  border-left: 4px solid #a44b4b;
+}
+.mist .lbl { color: #8b3c3c; }
+
+.refl {
+  background: var(--plum-bg);
+  border-color: #dfcddd;
+  border-left: 4px solid var(--plum);
+}
+.refl .lbl { color: #654761; }
+
+.quick {
+  background: #f4f6ef;
+  border-color: #d6dcc4;
+  border-left: 4px solid #7d8a52;
+}
+.quick .lbl { color: #5f6a38; }
+
+/* inline term highlight */
+.term {
+  background: #f2ead6;
+  padding: 0 3px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+mark.hl {
+  background: #f6e7c4;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ============ Tables ============ */
+.tw {
+  margin: 14px 0 16px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fffdf8;
+}
+.tw.tkeep { break-inside: avoid; page-break-inside: avoid; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.1pt;
+  line-height: 1.46;
+}
+caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  padding: 9px 12px 7px;
+  background: #f6f1e6;
+  border-bottom: 1px solid var(--rule);
+}
+th {
+  background: #efe8d8;
+  color: #3a342b;
+  font-family: var(--sans);
+  font-size: 8.2pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+th:last-child { border-right: 0; }
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--rule-soft);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+  text-align: left;
+}
+td:last-child { border-right: 0; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:nth-child(even) td { background: #fcf8f0; }
+table.compact { font-size: 8.6pt; }
+table.compact th, table.compact td { padding: 5px 8px; }
+
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+
+/* ============ Figure / diagram ============ */
+figure {
+  margin: 18px 0;
+  padding: 14px 16px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fcf9f2;
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+figure svg { max-width: 100%; height: auto; }
+figcaption {
+  font-family: var(--sans);
+  font-size: 7.8pt;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+  margin-top: 8px;
+  text-align: center;
+}
+figcaption b { color: var(--ink-soft); }
+
+/* ============ Unit review block ============ */
+.review {
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--olive);
+  background: #fbf8f0;
+  border-radius: 3px;
+  padding: 16px 20px 18px;
+  margin: 22px 0 30px;
+}
+.review h4 {
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  font-style: normal;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
+}
+.review h5 {
+  font-size: 8.4pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  margin: 13px 0 5px;
+  font-family: var(--sans);
+}
+.review h5:first-of-type { margin-top: 9px; }
+.review p { text-align: left; }
+.review > :last-child { margin-bottom: 0; }
+
+.qa { margin: 0; }
+.qa .q { margin-bottom: 8px; break-inside: avoid; page-break-inside: avoid; }
+.qa .qt {
+  font-family: var(--sans);
+  font-size: 7.2pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--ink-soft);
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+.qa .q.l { border-left: 3px solid var(--terracotta); padding-left: 9px; }
+.qa .q.s { border-left: 3px solid var(--olive); padding-left: 9px; }
+.qa .q.v { border-left: 3px solid var(--dusty-blue); padding-left: 9px; }
+.qa .q p { margin: 0; text-align: left; display: inline; }
+
+/* ============ Subject card grid (project index only) ============ */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 14px;
+  margin: 18px 0 24px;
+}
+.subjcard {
+  display: block;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--terracotta);
+  border-radius: 3px;
+  background: #fffdf8;
+  padding: 13px 15px 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.subjcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -8px rgba(90, 72, 45, .45);
+}
+.subjcard .sc-code {
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--terracotta-d);
+}
+.subjcard .sc-title {
+  font-size: 11.4pt;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 4px 0 6px;
+  color: var(--ink);
+}
+.subjcard .sc-desc {
+  font-size: 9pt;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin-bottom: 9px;
+}
+.subjcard .sc-meta {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 7px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.subjcard.olive { border-top-color: var(--olive); }
+.subjcard.olive .sc-code { color: var(--olive-d); }
+.subjcard.blue { border-top-color: var(--dusty-blue); }
+.subjcard.blue .sc-code { color: #3d5a71; }
+.subjcard.gold { border-top-color: var(--gold); }
+.subjcard.gold .sc-code { color: #856722; }
+
+.linkpair {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.08em;
+  margin-top: 7px;
+  display: flex;
+  gap: 12px;
+}
+.linkpair a { color: var(--terracotta-d); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.linkpair a:hover { border-bottom-color: var(--terracotta); }
+
+.tocwide { columns: 2; column-gap: 30px; }
+.tocwide li { break-inside: avoid; }
+
+/* ============ Misc components ============ */
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 18px;
+}
+.chip {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  padding: 3px 11px;
+}
+
+.hr {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+  margin: 30px 0;
+}
+
+.footnote {
+  font-size: 8.6pt;
+  color: var(--ink-faint);
+  line-height: 1.5;
+}
+
+/* two-column comparison */
+.two-col { column-count: 2; column-gap: 30px; column-rule: 1px solid var(--rule-soft); }
+.two-col > * { break-inside: avoid; }
+
+/* ============ Responsive ============ */
+@media (max-width: 780px) {
+  body { padding: 14px 8px 40px; background-size: 18px 18px; }
+  .doc { padding: 26px 20px 36px; border-radius: 3px; }
+  .hero { padding: 20px 18px 18px; }
+  .hero h1 { font-size: 20pt; }
+  h2 { font-size: 14.5pt; padding-left: 11px; border-left-width: 4px; }
+  h3 { font-size: 11.6pt; }
+  .toc .sub { columns: 1; }
+  .tocwide { columns: 1; }
+  .two-col { column-count: 1; }
+  table { font-size: 8.4pt; }
+}
+
+/* ============================================================
+   PRINT / PDF  —  A4
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 15mm 14mm 16mm 14mm;
+}
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+    background-image: none !important;
+  }
+  body { padding: 0; font-size: 10.1pt; line-height: 1.56; }
+  .doc {
+    max-width: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .doc::before { display: none; }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Keep a whisper of the notebook dot-grid on the page, but far fainter
+     than on screen so a 70-page print run does not look noisy. */
+  .doc {
+    background-color: #fffdf8 !important;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0) !important;
+    background-size: 5.6mm 5.6mm !important;
+  }
+
+  h2, h3, h4, h5 { break-after: avoid; page-break-after: avoid; }
+  h2 { margin-top: 20pt; }
+
+  .card, figure, .qa .q, .tw.tkeep, tr, .chip-row { break-inside: avoid; page-break-inside: avoid; }
+  .tw, .card, .review { break-inside: auto; page-break-inside: auto; }
+
+  thead { display: table-header-group; }
+  tfoot { display: table-footer-group; }
+  p, li { orphans: 2; widows: 2; }
+
+  a { color: inherit; text-decoration: none; }
+  .made-by a { border-bottom: 0; }
+
+  .toc a { color: var(--ink); }
+
+  /* page-break control utility classes */
+  .pb { break-before: page; page-break-before: always; }
+  .avoid { break-inside: avoid; page-break-inside: avoid; }
+}
+
+</style>
+</head>
+<body>
+<article class="doc">
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="kicker">D.El.Ed &mdash; Semester I</div>
+  <div class="code">S1.2</div>
+  <h1>Early Childhood Care and Education (ECCE)</h1>
+  <p class="tagline">What the foundation stage is, how young children learn through play and activity, how an ECCE programme is planned and managed, and how progress is recorded without tests.</p>
+  <div class="rule-line"><span class="made-by">Made with <span class="heart">&#10084;&#65039;</span> by <strong>Sayeem Sadik</strong> &middot; <a href="https://leoaristocrat.eu.cc">leoaristocrat.eu.cc</a></span></div>
+  <div class="glance">
+    <div class="g-item"><div class="g-label">Units</div><div class="g-value">4</div></div>
+    <div class="g-item"><div class="g-label">Credits</div><div class="g-value">2</div></div>
+    <div class="g-item"><div class="g-label">Marks</div><div class="g-value">35 Ext + 15 Int = 50</div></div>
+    <div class="g-item"><div class="g-label">Periods / week</div><div class="g-value">2&ndash;3</div></div>
+  </div>
+</header>
+
+<nav class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#unit-1">Unit 1 &mdash; Definition, Nature and Significance of ECCE</a>
+        <ul class="sub">
+        <li><a href="#s1-1">1.1 Meaning and Concept of ECCE</a></li>
+        <li><a href="#s1-2">1.2 Significance of ECCE</a></li>
+        <li><a href="#s1-3">1.3 Domains of Development in ECCE</a></li>
+        <li><a href="#s1-4">1.4 Factors Influencing Holistic Development: Home, Community, School</a></li>
+        <li><a href="#s1-6">1.6 Agencies Involved in ECCE</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-2">Unit 2 &mdash; Pedagogical Approaches to ECCE</a>
+        <ul class="sub">
+        <li><a href="#s2-1">2.1 Play- and Activity-Based Learning: Free, Guided, Structured Play</a></li>
+        <li><a href="#s2-1-1">2.1.1 Toy-Based Learning</a></li>
+        <li><a href="#s2-1-2">2.1.2 Inquiry-Based Learning</a></li>
+        <li><a href="#s2-1-3">2.1.3 Learning through Songs, Rhymes, Art and Craft</a></li>
+        <li><a href="#s2-2">2.2 Curricular Issues and Concerns</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-3">Unit 3 &mdash; Planning and Management of the ECCE Classroom</a>
+        <ul class="sub">
+        <li><a href="#s3-1">3.1 Principles of Planning a Balanced, Contextualised Programme</a></li>
+        <li><a href="#s3-2">3.2 Classroom Management: Inside and Outside the Classroom</a></li>
+        <li><a href="#s3-3">3.3 Planning and Design of Theme-Based Activities</a></li>
+        <li><a href="#s3-4">3.4 Parental and Community Involvement</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-4">Unit 4 &mdash; Assessment in ECCE</a>
+        <ul class="sub">
+        <li><a href="#s4-1">4.1 Principles of Assessment and Reporting</a></li>
+        <li><a href="#s4-2">4.2 Holistic Progress Card, Records and Registers</a></li>
+        <li><a href="#s4-3">4.3 Reporting Children&rsquo;s Progress</a></li>
+        <li><a href="#s4-4">4.4 Eight Key Standards for Quality ECCE</a></li>
+    </ul>
+    </li>
+    <li><a href="#practicum">Practicum Tasks</a>
+        <ul class="sub">
+        <li><a href="#pr-1">Task 1 &mdash; Theme-Based Activities and Materials on the Five Domains</a></li>
+        <li><a href="#pr-2">Task 2 &mdash; A Programme Schedule for All-Round Development</a></li>
+        <li><a href="#pr-3">Task 3 &mdash; Developing and Using Age-Appropriate Learning Materials</a></li>
+    </ul>
+    </li>
+    <li><a href="#sip">SIP Activities</a></li>
+    <li><a href="#internal">Internal Assessment &mdash; 15 Marks</a></li>
+    <li><a href="#revision">Quick Subject Revision</a></li>
+    <li><a href="#differences">Important Differences</a></li>
+    <li><a href="#courseinfo">Course Information</a>
+        <ul class="sub">
+        <li><a href="#ci-objectives">Course Objectives</a></li>
+        <li><a href="#ci-transaction">Mode of Transaction</a></li>
+        <li><a href="#ci-assessment">Assessment Structure</a></li>
+    </ul>
+    </li>
+    <li><a href="#faculty">Notes for Faculty and Mentors</a></li>
+    <li><a href="#readings">Suggested Readings</a></li>
+  </ol>
+</nav>
+
+<!-- ============ UNIT 1 ============ -->
+<section class="unit-body">
+  <h2 id="unit-1"><span class="h2num">Unit 1</span> Definition, Nature and Significance of ECCE</h2>
+
+  <h3 id="s1-1">1.1 Meaning and Concept of ECCE</h3>
+
+  <p><strong>Early Childhood Care and Education (ECCE)</strong> is the collective term for all the care, protection, health, nutrition and learning a child receives from birth to the end of the early childhood years. Two official Indian documents define the span differently, and both are examinable. The <strong>National Early Childhood Care and Education (NECC) Policy 2013</strong>, issued by the Ministry of Women and Child Development, covers the period <strong>from before birth (the antenatal phase) to six years of age</strong>. The <strong>National Curriculum for the Foundational Stage 2022 (NCF-FS 2022)</strong> widens the practical school-going span to <strong>ages 3&ndash;8</strong>, because the NEP 2020 Foundational Stage links three years of Anganwadi or pre-primary with Grades 1 and 2.</p>
+
+  <p><em>Care</em> and <em>education</em> in the acronym are doing equal work. <strong>Care</strong> is everything that protects the child&rsquo;s body and mind &mdash; nutrition, health check-ups, immunisation, safe drinking water, a sanitary toilet, shelter, affection, freedom from abuse and neglect. <strong>Education</strong> here does not mean schooling; it means the everyday experiences through which a child learns to listen, speak, move, think, feel, imagine, work with others and make sense of the world. A programme that provides only care is a creche; one that provides instruction with no meals and no safety is education without care. Neither half works alone.</p>
+
+  <div class="card def"><span class="lbl">Definition</span>
+    <p><strong>ECCE</strong> is the integrated provision of <em>care</em> (health, nutrition, protection, safety, affection) and <em>education</em> (play, language, social and emotional learning, exploration, creativity) to children from birth to six years of age, in a setting that is safe, stimulating and inclusive, and planned jointly with the family and the community.</p>
+  </div>
+
+  <p>The <strong>concept</strong> rests on five beliefs, and it is these beliefs &mdash; not the lessons &mdash; that distinguish an early childhood programme from a small school. Development is <em>whole</em>: a child who can count to twenty but cannot sit with a group has not developed wholly. Learning at this age is <em>through experience</em>, not explanation &mdash; a three-year-old learns the word <em>cold</em> by touching cold water. The child is an <em>active agent</em> who does things to the world and receives things back. Learning must be <em>developmentally appropriate</em>, matched to what children of that age can physically and mentally do. And the family is the first school, so care and education are inseparable and the parent is a partner, not a visitor.</p>
+
+  <p>Two terms must be kept apart. <strong>Early Childhood Development (ECD)</strong> is the wider process of physical, cognitive, socio-emotional and language growth from conception to about eight years; it is a developmental term, not a programme. <strong>Foundational Stage</strong> is a policy term: under NEP 2020 it is five years and ages three to eight, whereas under the earlier <strong>NCF 2005</strong> it meant only Grades 1&ndash;2, ages six to eight, with early childhood sitting outside the school system under the welfare sector. The shift of ECCE <em>into</em> the school system is one of the most significant changes in Indian education policy in the last decade, and it is why an ECCE subject now sits inside a teacher-education syllabus.</p>
+
+  <figure>
+    <svg viewBox="0 0 760 300" role="img" aria-label="Structure of the Foundational Stage under NEP 2020 and NCF-FS 2022, showing three years of Anganwadi or pre-primary for ages three to six and Grades one and two for ages five to eight">
+      <rect x="40" y="96" width="680" height="86" rx="6" fill="#faf6ee" stroke="#ded2bd" stroke-width="1.2"/>
+      <rect x="40" y="96" width="306" height="86" rx="6" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.2"/>
+      <rect x="346" y="96" width="374" height="86" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.2"/>
+      <rect x="112" y="108" width="132" height="62" rx="4" fill="#fffdf8" stroke="#b4623c" stroke-width="1"/>
+      <rect x="256" y="108" width="80" height="62" rx="4" fill="#fffdf8" stroke="#b4623c" stroke-width="1"/>
+      <text x="40" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="700" fill="#b4623c">FOUNDATIONAL STAGE &mdash; 5 years, ages 3&ndash;8 (NEP 2020)</text>
+      <text x="380" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a">NCF for the Foundational Stage 2022 &mdash; two bands</text>
+      <text x="112" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#33302b">Bal Vatika</text>
+      <text x="112" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a">Anganwadi /</text>
+      <text x="112" y="165" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a">pre-primary</text>
+      <text x="296" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">3&ndash;4 yrs</text>
+      <text x="296" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#b4623c" text-anchor="middle">+ 4&ndash;5 yrs</text>
+      <text x="450" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#33302b">Grade 1 &amp; Grade 2</text>
+      <text x="450" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a">Foundational literacy &amp; numeracy</text>
+      <text x="450" y="165" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a">5&ndash;8 years</text>
+      <text x="40" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b">Under <tspan font-weight="700">NCF 2005</tspan> the term &ldquo;Foundational Stage&rdquo; meant <tspan font-style="italic">only</tspan> Grades 1&ndash;2, ages 6&ndash;8.</text>
+      <text x="40" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b">ECCE (0&ndash;6, NECC Policy 2013) now sits <tspan font-weight="700">inside</tspan> the school system, not outside it.</text>
+      <text x="40" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a">RTE Act 2009: classes I&ndash;VIII, entry at 6 years &mdash; children below 6 are not covered by RTE.</text>
+      <line x1="40" y1="80" x2="720" y2="80" stroke="#a5822e" stroke-width="2"/>
+    </svg>
+    <figcaption><b>Figure 1.1</b> &mdash; The Foundational Stage as defined by NEP 2020 and detailed in NCF-FS 2022, with the earlier NCF 2005 position for comparison.</figcaption>
+  </figure>
+
+  <div class="tw">
+    <table>
+      <caption>Table 1.1 &mdash; Key terms used in Early Childhood Care and Education</caption>
+      <thead><tr><th>Term</th><th>Meaning in the ECCE context</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Care</strong></td><td>Everything that keeps a child alive, healthy, nourished, protected and emotionally held: food, health check-up, immunisation, safe water, sanitation, shelter, affection, freedom from abuse.</td></tr>
+        <tr><td><strong>Education (early)</strong></td><td>Learning through direct experience &mdash; play, talk, song, story, exploration and making &mdash; not textbooks, worksheets, memorised text or examinations.</td></tr>
+        <tr><td><strong>ECD</strong></td><td>Early Childhood Development: total physical, cognitive, socio-emotional, language and aesthetic development from conception to about eight years.</td></tr>
+        <tr><td><strong>ECCE</strong></td><td>The programme response to ECD: care plus education, delivered by family, community, Anganwadi, pre-primary centre and school working together.</td></tr>
+        <tr><td><strong>Foundational Stage</strong></td><td>A NEP 2020 term for the five years and ages three to eight: three years of Anganwadi or pre-primary plus Grades 1 and 2.</td></tr>
+        <tr><td><strong>Developmentally appropriate practice</strong></td><td>Matching activity, language, timing and expectations to what children of a given age can actually do, in the here and now, without hurrying them.</td></tr>
+        <tr><td><strong>School readiness</strong></td><td>The physical, social, emotional, linguistic and self-care abilities a child needs to enter Grade 1 comfortably &mdash; not the ability to read and write already.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>One test keeps the two strands together. A meal served at the Anganwadi is care; a song about that meal&rsquo;s ingredients is education. A child washing hands before the meal is a health outcome; the same child being asked &ldquo;where do we wash our hands?&rdquo; and then shown is the educational half of the same act. Programmes that keep the strands apart end up either feeding children or teaching them, but never both.</p>
+
+  <div class="card idea"><span class="lbl">Key Idea</span>
+    <p>ECCE is not &ldquo;primary school in miniature&rdquo;. Its product is not a set of acquired information but a set of <strong>dispositions</strong> &mdash; curiosity, attention, self-confidence, the ability to wait and to try again, the habit of speaking to others, the willingness to share. Those dispositions are built, not taught, and they are what make the eight years of schooling that follow survivable.</p>
+  </div>
+
+  <h3 id="s1-2">1.2 Significance of ECCE</h3>
+
+  <p>The significance of ECCE is best understood as a set of claims, each of which can be defended with an argument, and each of which has a consequence for what a teacher actually does.</p>
+
+  <ul class="bul">
+    <li><strong>Cumulative.</strong> Later learning stands on what was built earlier. A child who can hold a book, follow a two-step instruction, wait for a turn and express a need in words faces a very different classroom from a child who cannot.</li>
+    <li><strong>Critical period.</strong> Language, responsive caregiving, nutrition and safe stimulation in the early years have disproportionate later effects, and deprivation in this window is harder to make up for than later.</li>
+    <li><strong>Equality of outcome.</strong> A well-run pre-primary class gives a poor child language exposure, nutrition, a safe place, adult attention and peer experience that the same child would not otherwise get. It is one of the most effective levers for closing the gap between children of different economic and social backgrounds.</li>
+    <li><strong>Retention.</strong> Children who have had a good pre-primary experience enter school better prepared and are less likely to repeat a class or drop out.</li>
+    <li><strong>Health.</strong> An ECCE centre is among the few points of contact an Indian child has outside the home before school, which is why it is used for growth monitoring, immunisation, nutrition supplementation and early identification of disability.</li>
+    <li><strong>Social-emotional and long-term economic return.</strong> A community that runs a reliable Anganwadi frees mothers to work and holds up the school system; a first-generation learner in such a family has a very different trajectory from one whose older sisters had nowhere to go.</li>
+  </ul>
+
+  <p>For the classroom teacher the practical significance is the whole point: <strong>the child who has been well cared for and has been played with is teachable</strong>, and the child who has not will cost the primary teacher several times the effort for the same outcome.</p>
+
+  <div class="card ex"><span class="lbl">Example</span>
+    <p>Consider two children entering Grade 1 in the same Assamese-medium school. One has attended an Anganwadi for two years: he can remove his own sandals, wash his hands, wait in a line without pushing, join a game with two other children, tell the teacher that his head hurts, and hold a book the right way up. The other has spent those years at home. None of the first child&rsquo;s skills came from a lesson; all came from meals, routines, songs, games and being trusted with small tasks.</p>
+  </div>
+
+  <h3 id="s1-3">1.3 Domains of Development in ECCE</h3>
+
+  <p>This syllabus works with <strong>five domains of development</strong> that recur throughout all four units: <strong>Language</strong>, <strong>Physical</strong>, <strong>Cognitive</strong>, <strong>Socio-Emotional</strong>, and <strong>Aesthetic-Appreciation and Creativity</strong>. Every activity you plan in Unit 2, every theme in Unit 3, every column of the Holistic Progress Card in Unit 4 and every practicum task in this paper must be traceable to at least one of them. The domains are not five subjects or five separate children; they are five windows onto the same child, and one good activity usually lights up several at once. Sorting blocks of different sizes and colours is physical (handling), cognitive (seriation, matching), socio-emotional (turns, winning and losing), language (naming colours and &ldquo;bigger&rdquo;) and aesthetic (appreciating colour and form) &mdash; all at once.</p>
+
+  <figure>
+    <svg viewBox="0 0 760 380" role="img" aria-label="A central circle labelled holistic development surrounded by five domain boxes: language, physical, cognitive, socio-emotional, and aesthetic appreciation and creativity">
+      <circle cx="380" cy="190" r="76" fill="#f7efd8" stroke="#a5822e" stroke-width="1.5"/>
+      <text x="380" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="700" fill="#33302b" text-anchor="middle">HOLISTIC</text>
+      <text x="380" y="201" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="700" fill="#33302b" text-anchor="middle">DEVELOPMENT</text>
+      <text x="380" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a" text-anchor="middle">of the child, 0&ndash;6 years</text>
+      <line x1="334" y1="132" x2="278" y2="106" stroke="#ded2bd" stroke-width="1.4"/>
+      <line x1="426" y1="132" x2="482" y2="106" stroke="#ded2bd" stroke-width="1.4"/>
+      <line x1="308" y1="190" x2="236" y2="190" stroke="#ded2bd" stroke-width="1.4"/>
+      <line x1="452" y1="190" x2="524" y2="190" stroke="#ded2bd" stroke-width="1.4"/>
+      <line x1="334" y1="248" x2="278" y2="274" stroke="#ded2bd" stroke-width="1.4"/>
+      <line x1="426" y1="248" x2="482" y2="274" stroke="#ded2bd" stroke-width="1.4"/>
+      <rect x="128" y="70" width="164" height="60" rx="5" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.2"/>
+      <text x="210" y="94" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="700" fill="#33302b" text-anchor="middle">1. Language</text>
+      <text x="210" y="114" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a" text-anchor="middle">listening, speaking, story, print</text>
+      <rect x="468" y="70" width="164" height="60" rx="5" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.2"/>
+      <text x="550" y="94" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="700" fill="#33302b" text-anchor="middle">2. Physical</text>
+      <text x="550" y="114" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a" text-anchor="middle">gross &amp; fine motor, health</text>
+      <rect x="24" y="160" width="204" height="60" rx="5" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.2"/>
+      <text x="126" y="184" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="700" fill="#33302b" text-anchor="middle">3. Cognitive</text>
+      <text x="126" y="204" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a" text-anchor="middle">thinking, concepts, memory</text>
+      <rect x="532" y="160" width="204" height="60" rx="5" fill="#f1e8ee" stroke="#7a5570" stroke-width="1.2"/>
+      <text x="634" y="184" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="700" fill="#33302b" text-anchor="middle">4. Socio-Emotional</text>
+      <text x="634" y="204" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a" text-anchor="middle">self, peers, feelings</text>
+      <rect x="128" y="250" width="164" height="60" rx="5" fill="#fcf8f0" stroke="#8f4a2a" stroke-width="1.2"/>
+      <text x="210" y="274" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#33302b" text-anchor="middle">5. Aesthetic &amp;</text>
+      <text x="210" y="292" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#33302b" text-anchor="middle">Creativity</text>
+      <rect x="468" y="250" width="164" height="60" rx="5" fill="#f4f1fa" stroke="#6b5a94" stroke-width="1.2"/>
+      <text x="550" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#33302b" text-anchor="middle">Overlap, not</text>
+      <text x="550" y="289" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#33302b" text-anchor="middle">compartments</text>
+      <rect x="24" y="330" width="712" height="38" rx="5" fill="#faf6ee" stroke="#ded2bd" stroke-width="1"/>
+      <text x="380" y="347" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#33302b" text-anchor="middle">Practical test for planning: if a proposed activity does not move the child in at least three domains, redesign it.</text>
+      <text x="380" y="363" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#33302b" text-anchor="middle">In the Holistic Progress Card these become the five columns; in a theme plan they become the five rows.</text>
+    </svg>
+    <figcaption><b>Figure 1.2</b> &mdash; The five domains of development used throughout this paper, shown as overlapping windows onto one child.</figcaption>
+  </figure>
+
+  <div class="tw">
+    <table>
+      <caption>Table 1.2 &mdash; The five domains: what the child does, and what the teacher provides</caption>
+      <thead><tr><th>Domain</th><th>What the child does (indicators)</th><th>What the teacher provides</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Language</strong></td>
+          <td>Listens to a story to the end; joins in a rhyme; names objects; asks &ldquo;why&rdquo;; uses sentences of growing length; talks to a peer, not only to the adult</td>
+          <td>Daily story and rhyme time; naming and describing aloud during every routine; songs in the home language; conversation, not interrogation; print shown as pictures before letters</td>
+        </tr>
+        <tr>
+          <td><strong>Physical</strong></td>
+          <td>Runs and jumps with growing coordination; holds a pencil or block in a working grip; threads beads; washes hands; eats with a spoon; manages own toilet needs</td>
+          <td>Daily outdoor and gross-motor time; open-ended apparatus and fine-motor corners; self-care routines built into the schedule; safe, uncluttered floor space</td>
+        </tr>
+        <tr>
+          <td><strong>Cognitive</strong></td>
+          <td>Matches and sorts; arranges by size; groups by colour; counts objects he can touch; understands &ldquo;more&rdquo; and &ldquo;less&rdquo;; works out cause and effect; asks &ldquo;what if&rdquo;</td>
+          <td>Real objects rather than pictures first; open-ended material; problems set in the here-and-now; questions answered patiently; no worksheets</td>
+        </tr>
+        <tr>
+          <td><strong>Socio-Emotional</strong></td>
+          <td>Separates from parent; waits for a turn; shares or negotiates; shows pride in a finished product; seeks an adult when upset</td>
+          <td>A predictable routine; small-group and whole-group circle; adults who notice each child; gentle, non-punitive handling of conflict; predictable goodbyes at drop-off</td>
+        </tr>
+        <tr>
+          <td><strong>Aesthetic-Appreciation and Creativity</strong></td>
+          <td>Hums while working; arranges leaves by colour; moves to a rhythm; makes a clay object; tells a make-believe story</td>
+          <td>Open-ended art and craft materials; music and movement daily; time to finish things without adult correction; children&rsquo;s work displayed at child height; no models to copy</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Two cautions. First, <strong>domain labels are a planning and recording device, not a theory of separate intelligences</strong>; the syllabus&rsquo;s own labels are the ones to use in answers. Second, <strong>development in one domain supports the others</strong>. A child given a rich language environment and whose stories are listened to will ask more questions; a child praised for the picture he made will persist at a puzzle; a child allowed to move freely will listen better afterwards. That mutual support is the practical meaning of the word <em>holistic</em>.</p>
+
+  <div class="card cls"><span class="lbl">Classroom Connection</span>
+    <p>Use the five domains as a checklist the moment you enter a pre-primary room. Ask: where are the books and are they being handled? Where is the fine-motor material? Has the outdoor space been used this morning? Is there anything on the walls that a child made? Is art material out, or is everything tidy and put away &mdash; which for a four-year-old means nothing to do? The answers tell you which domains the programme is really serving, whatever its lesson plan claims.</p>
+  </div>
+
+  <h3 id="s1-4">1.4 Factors Influencing Holistic Development: Home, Community, School</h3>
+
+  <p>The syllabus names three settings as the factors that influence holistic development: <strong>home</strong>, <strong>community</strong> and <strong>school</strong>. The word &ldquo;factor&rdquo; is misleading if read as something external acting on the child, because the child also acts on all three. Read them instead as the three environments in which development happens, and ask in each case the same three questions: what opportunities does it offer, what models does it provide, what pressure does it place on the child?</p>
+
+  <p><strong>The home</strong> is the first and most influential environment. It provides the earliest language &mdash; how many words the child hears, the quality of the talk, whether he is spoken <em>to</em> or <em>about</em>, how many languages in the air at once. It provides emotional security through responsive caregiving, the earliest self-care habits, and the first relationships with other people. It also transmits <em>values</em>: the importance placed on girls&rsquo; schooling, on cleanliness, on earning, and on what a child is allowed to do and say. Home inputs are unequal, and good ECCE practice therefore begins by <em>enriching</em> the home &mdash; which is why 3.4 places parental and community involvement among the teacher&rsquo;s planning responsibilities.</p>
+
+  <p><strong>The community</strong> supplies the wider world: the peer group, the neighbourhood children, the play space, the Anganwadi, the health centre and the vaccination camp; and also language, religion, food habits, festival rituals, crafts and occupations. Community life gives the child its first real opportunities for social comparison and its first experience of a world not arranged around its preferences. In rural and semi-urban Assam, community also includes the village council, the panchayat, local artisans, folk songs and the neighbourhood play area. Community brings risks too: it can exclude by caste, clan, gender or disability, and it can pull children into work or sibling care at the expense of play. A programme that ignores the community is working with a fraction of the population.</p>
+
+  <p><strong>The school</strong> &mdash; read broadly to include the Anganwadi centre, the pre-primary section, the creche and the primary school &mdash; is the third environment and the only one fully under professional control. School influences development through <em>what is taught and how</em> (play and conversation, or sitting and copying), through the <em>adult&ndash;child relationship</em> (warm and individual, or impersonal and controlling), through the <em>peer group</em>, through the <em>physical environment</em> (space, shade, light, furniture scaled to the child), and through the <em>daily schedule</em> (a rhythm of varied activity, or four unbroken hours of a worksheet). </p>
+
+  <p>It is also the setting where the other two can be brought in &mdash; where a mother learns about nutrition, or a pond, a field, a bakery or a craftsperson&rsquo;s workshop is used as a classroom. That is the case for 3.4.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table 1.3 &mdash; The three environments compared: opportunities, models and pressures</caption>
+      <thead><tr><th>Aspect</th><th>Home</th><th>Community</th><th>School (Anganwadi / pre-primary / primary)</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Earliest influence</strong></td><td>Language, attachment, self-care habits, values</td><td>Peers, festivals, occupations, public space</td><td>Systematic learning, school culture, peer structure</td></tr>
+        <tr><td><strong>Main opportunities</strong></td><td>Talk and story; affection; home play; cultural and religious practice</td><td>Free play with same-age peers; belonging; local knowledge; services</td><td>Planned, sequenced experience; materials; trained adult attention</td></tr>
+        <tr><td><strong>Main models</strong></td><td>Parents, grandparents, siblings, television and phone</td><td>Neighbours, workers, religious and political life, media</td><td>Teacher&rsquo;s manner, other children, the routine of the day</td></tr>
+        <tr><td><strong>Pressures and risks</strong></td><td>Child labour, neglect, domestic violence, early sibling care, over-protection, no play space, harsh correction</td><td>Exclusion by caste, gender, disability or language; child work; unsafe play areas</td><td>Formal instruction pushed down; corporal punishment; harsh discipline; overcrowding; no materials</td></tr>
+        <tr><td><strong>What a teacher can do</strong></td><td>Home visits; parent meetings; lending books; explaining what children are learning and why</td><td>Enrol community; use local people and places as resources; open-door policy</td><td>Plan developmentally; manage kindly; provide materials; record and follow up</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Development is a <strong>product of the interaction</strong> of the child with these three settings, not a sum of independent contributions. A shy child in a talk-rich home with no peers to practise on may still be socially slow; a confident child in a large family with no adult time may be emotionally unsupported. The teacher&rsquo;s task is not to compensate for the home alone, but to offer inside the programme what the home and community have not offered &mdash; and to go back to them to build what must be built there.</p>
+
+  <h3 id="s1-6">1.6 Agencies Involved in ECCE</h3>
+
+  <p>ECCE is delivered by a <strong>network of agencies</strong>, not by a single system. The most important structural fact in the Indian situation is that <strong>early childhood has historically been the responsibility of the welfare sector</strong> &mdash; the Ministry of Women and Child Development &mdash; while <strong>school education has been the responsibility of the education departments</strong>. NEP 2020 deliberately changes this by bringing the 3&ndash;8 Foundational Stage into the school education system, so that the two streams meet. Any answer on agencies should show that meeting.</p>
+
+  <p><strong>The family</strong> is the first agency, with the largest share of the child&rsquo;s waking hours: primary care, nutrition, immunisation, language, values and affection, and &mdash; since NEP 2020 &mdash; participation in pre-primary planning and in the transition to school. <strong>Anganwadi centres and ICDS</strong> are the public delivery system: the <strong>Integrated Child Development Services (ICDS)</strong> scheme, launched in <strong>1975&ndash;76</strong> and administered by the Ministry of Women and Child Development, works through a network of Anganwadi centres delivering supplementary nutrition, health and nutrition check-ups, pre-school education for children of about three to six, immunisation, health education, referral services and care for the under-three. In recent years the Ministry has consolidated several supplementary nutrition and feeding programmes, including the Mid-Day Meal in Anganwadi, under the <strong>Poshan 2.0</strong> umbrella.</p>
+
+   <div class="tw">
+    <table>
+      <caption>Table 1.4 &mdash; Agencies involved in ECCE and their contributions</caption>
+      <thead><tr><th>Agency / level</th><th>Level</th><th>Contribution to ECCE</th></tr></thead>
+      <tbody>
+        <tr><td>Family / caregivers</td><td>Home</td><td>First and continuous care, nutrition, immunisation, language, values, affection; increasingly a planned partner in pre-primary</td></tr>
+        <tr><td>Anganwadi centres (ICDS, MWCD)</td><td>Village / ward</td><td>Pre-school education for 3&ndash;6, supplementary nutrition, health &amp; nutrition check-up, immunisation, health education, referral, care for the under-three</td></tr>
+        <tr><td>Poshan 2.0 (MWCD)</td><td>National / state</td><td>Consolidated supplementary nutrition and feeding across centres, including the Anganwadi platform; growth monitoring</td></tr>
+        <tr><td>Pre-primary section of a primary school</td><td>School</td><td>Bal Vatika / pre-primary classes; continuity into Grade 1; school infrastructure and teachers</td></tr>
+        <tr><td>Private, aided, unaided and trust-run centres</td><td>Local / city</td><td>A large share of urban pre-primary seats; wide variation in quality and fee</td></tr>
+        <tr><td>Creches and day-care centres</td><td>Workplace / city</td><td>Care of the under-three child of working parents; Maternity Benefit (Amendment) Act, 2017 provides for creches in larger establishments</td></tr>
+        <tr><td>NIPCCD, Ministry of Women and Child Development</td><td>National</td><td>Coordination, policy and training support for the Anganwadi system and its functionaries</td></tr>
+        <tr><td>NCERT</td><td>National</td><td>NCF-FS 2022, <em>Exemplar Guidelines for Implementation of the ECCE Curriculum</em>, teacher support material</td></tr>
+        <tr><td>SCERT / DIET / D.El.Ed institutions</td><td>State / district</td><td>State curriculum translation, training of teachers and functionaries, the pre-service preparation you are undergoing</td></tr>
+        <tr><td>Health department / National Health Mission</td><td>State / district</td><td>Immunisation, growth monitoring, screening and referral of disability and illness</td></tr>
+        <tr><td>NGOs, foundations, community groups</td><td>Local / national</td><td>Programme support, material development, community mobilisation, action on disability and inclusion</td></tr>
+        <tr><td>District administration / local body</td><td>District / village council</td><td>Buildings, registers, supervision, convergence meeting, link to Panchayati Raj institutions</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card mist"><span class="lbl">Common Mistake</span>
+    <p>Do not say that ICDS <em>is</em> ECCE, or that ECCE is run by the Ministry of Education. ICDS is a <strong>delivery platform</strong> for nutrition, health and pre-school education, now operating under the Poshan 2.0 consolidation, and Anganwadi-based services belong to the <strong>Ministry of Women and Child Development</strong>; the NECC Policy 2013 is that Ministry&rsquo;s document, with a <strong>0&ndash;6</strong> span. ECCE is wider than ICDS: it also includes home-based care for the under-three, school-based pre-primary, private and community centres, and the family&rsquo;s own care. Equally, do not treat &ldquo;ECCE&rdquo; and &ldquo;foundational stage&rdquo; as synonyms.</p>
+  </div>
+</section>
+
+<div class="review">
+  <h4>Unit 1 Quick Review</h4>
+  <h5>Key Points</h5>
+  <ul class="bul">
+    <li>ECCE = care + education, inseparably. NECC Policy 2013 (MWCD) spans 0&ndash;6; NEP 2020 Foundational Stage spans five years, ages 3&ndash;8.</li>
+    <li>NCF 2005: foundational stage = Grades 1&ndash;2 only. NCF-FS 2022: Bal Vatika + Grades 1&ndash;2.</li>
+    <li>Five domains: Language, Physical, Cognitive, Socio-Emotional, Aesthetic-Appreciation and Creativity &mdash; overlapping, not separate subjects.</li>
+    <li>Significance rests on cumulative development, the critical-period claim, equality, retention, health and social-emotional foundations.</li>
+    <li>Home, community and school: ask of each what opportunities it gives, what models it provides, what pressure it exerts.</li>
+    <li>ICDS launched 1975&ndash;76 under the MWCD; nutrition programmes consolidated under Poshan 2.0. RTE Act 2009 covers classes I&ndash;VIII from age six.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p>ECCE &middot; ECD &middot; NECC Policy 2013 &middot; Foundational Stage &middot; Bal Vatika &middot; developmentally appropriate practice &middot; holistic development &middot; ICDS &middot; Poshan 2.0 &middot; NIPCCD &middot; school readiness</p>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>Define ECCE and state the age range of the NECC Policy 2013 and of the NEP 2020 Foundational Stage.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain any four agencies involved in the delivery of ECCE in India.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Compare and contrast the position of early childhood care and education under NCF 2005 and under NEP 2020 / NCF-FS 2022.</p></div>
+  </div>
+</div>
+<!-- ============ UNIT 2 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-2"><span class="h2num">Unit 2</span> Pedagogical Approaches to ECCE</h2>
+
+  <p>Unit 2 is the heart of the paper, and everything in it reduces to one conviction: a child between three and six does not learn about the world from being told about it, but from doing something with it and then talking about what happened. The syllabus therefore opens with <strong>play- and activity-based learning</strong>, subdivides it into <strong>toy-based</strong>, <strong>inquiry-based</strong> and <strong>song, rhyme, art and craft</strong> approaches, and then turns in 2.2 to the <strong>curricular issues</strong> that any honest ECCE curriculum in India must confront.</p>
+
+  <h3 id="s2-1">2.1 Play- and Activity-Based Learning: Free, Guided and Structured Play</h3>
+
+  <p><strong>Play</strong> is what young children do when they are given the chance, the space and the time. That sounds tautological, and it is worth stating because children are <em>not</em> given the chance: play is chopped up in many rooms into a fixed twenty minutes of &ldquo;play&rdquo; in the timetable and forty-five minutes of worksheet. Real play has three conditions: it is <strong>self-chosen</strong> (the child decides what to do), <strong>self-directed</strong> (the child decides how and with whom), and <strong>purposeless in the child&rsquo;s own estimate</strong> (he is not producing a required output). Strip away self-choice and you get drills; strip away self-direction and you get obedience; strip away both and you have removed play while keeping the children sitting still &mdash; which is exactly the failure mode that early formal instruction represents.</p>
+
+  <p>No competent early childhood teacher plans a whole day of unsupervised chaos, which is why the syllabus asks for three kinds of play. They differ in one respect only &mdash; <strong>who controls the direction of the activity</strong> &mdash; and the teacher moves along that continuum as the purpose, the group and the hour require. A well-planned day contains all three, and the movement between them is a teaching decision rather than an accident.</p>
+
+  <figure>
+    <svg viewBox="0 0 760 250" role="img" aria-label="A continuum of three types of play from free play to guided play to structured play, showing the shift of control from the child to the teacher">
+      <rect x="30" y="96" width="700" height="42" rx="5" fill="#faf6ee" stroke="#ded2bd" stroke-width="1"/>
+      <rect x="30" y="96" width="230" height="42" rx="5" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1"/>
+      <rect x="260" y="96" width="240" height="42" fill="#f7efd8" stroke="#a5822e" stroke-width="1"/>
+      <rect x="500" y="96" width="230" height="42" rx="5" fill="#f7e9e0" stroke="#b4623c" stroke-width="1"/>
+      <line x1="30" y1="196" x2="730" y2="196" stroke="#7a736a" stroke-width="1.2"/>
+      <polygon points="730,196 720,192 720,200" fill="#7a736a"/>
+      <text x="30" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#33302b">Child chooses and directs</text>
+      <text x="730" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#33302b" text-anchor="end">Teacher chooses and directs</text>
+      <circle cx="145" cy="117" r="34" fill="#fffdf8" stroke="#6d7a4a" stroke-width="1.4"/>
+      <text x="145" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#33302b" text-anchor="middle">FREE</text>
+      <circle cx="380" cy="117" r="34" fill="#fffdf8" stroke="#a5822e" stroke-width="1.4"/>
+      <text x="380" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#33302b" text-anchor="middle">GUIDED</text>
+      <circle cx="615" cy="117" r="34" fill="#fffdf8" stroke="#b4623c" stroke-width="1.4"/>
+      <text x="615" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#33302b" text-anchor="middle">STRUCTURED</text>
+      <text x="145" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="700" fill="#33302b" text-anchor="middle">1. Free Play</text>
+      <text x="145" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a" text-anchor="middle">25&ndash;30 min daily</text>
+      <text x="380" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="700" fill="#33302b" text-anchor="middle">2. Guided Play</text>
+      <text x="380" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a" text-anchor="middle">The workhorse of the day</text>
+      <text x="615" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="700" fill="#33302b" text-anchor="middle">3. Structured Play</text>
+      <text x="615" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a" text-anchor="middle">Story, rhyme, circle, games</text>
+      <text x="145" y="240" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a" text-anchor="middle">Open material, minimal preparation</text>
+      <text x="380" y="240" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a" text-anchor="middle">Teacher sets purpose, child chooses route</text>
+      <text x="615" y="240" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#55504a" text-anchor="middle">Rules, goal and time set by teacher</text>
+    </svg>
+    <figcaption><b>Figure 2.1</b> &mdash; The play continuum: the same activity type varies only in who controls its direction.</figcaption>
+  </figure>
+
+  <div class="tw">
+    <table>
+      <caption>Table 2.1 &mdash; Free, Guided and Structured Play compared</caption>
+      <thead><tr><th>Basis</th><th>Free Play</th><th>Guided Play</th><th>Structured Play</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Who controls the direction</strong></td><td>The child, entirely</td><td>The teacher sets the purpose; the child chooses the route and the pace</td><td>The teacher sets rules, goal and time</td></tr>
+        <tr><td><strong>Teacher&rsquo;s role</strong></td><td>Observer and resource provider; arranges the environment</td><td>Provocateur &mdash; introduces a problem, a question or a new material, then withdraws</td><td>Leader &mdash; models, directs, keeps time, closes the activity</td></tr>
+        <tr><td><strong>Typical activity</strong></td><td>A child builds a house from blocks alone or with a friend; a water-and-sand corner</td><td>Sorting leaves into groups by size, then being asked which group has the smallest</td><td>Circle song, rhyme with actions, story narration, a simple floor game with rules</td></tr>
+        <tr><td><strong>Language demand</strong></td><td>Low; children talk among themselves</td><td>High; new vocabulary is introduced and used</td><td>High; shared text, choral repetition</td></tr>
+        <tr><td><strong>Materials</strong></td><td>Open-ended, abundant, stored at child height, mixed rather than sorted into labelled shelves</td><td>Open-ended but pre-selected for the intended concept</td><td>Purpose-made or teacher-held: picture cards, puppets, instruments, board</td></tr>
+        <tr><td><strong>Duration in a good day</strong></td><td>At least 25&ndash;30 minutes uninterrupted, outdoors if possible</td><td>The largest single block &mdash; two or three episodes</td><td>Short, frequent, whole-group &mdash; songs, story, games</td></tr>
+        <tr><td><strong>Risk if overused</strong></td><td>Skills remain incidental; some children never enter it; the teacher loses the room</td><td>Can slip into disguised worksheet work if the child&rsquo;s choice is illusory</td><td>Becomes formal instruction with a play label; children stop initiating</td></tr>
+        <tr><td><strong>Domains mainly served</strong></td><td>Physical, socio-emotional, aesthetic-creativity</td><td>Cognitive, physical, language &mdash; often all five at once</td><td>Language, socio-emotional, cognitive (recall and rules)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The three types interlock. A morning might open with twenty-five minutes of free play in which two children build a bridge with blocks and a third watches; the teacher joins the bridge-builder and asks, <em>&ldquo;how will it not fall down?&rdquo;</em>, producing a guided episode; the day then closes with a structured circle song in which every child&rsquo;s name is used in a rhyme. In those thirty minutes all five domains have been served. Nothing was taught, and a great deal was learned &mdash; which is precisely the claim of 2.1.</p>
+
+  <div class="card def"><span class="lbl">Definition</span>
+    <p><strong>Play-based learning</strong> is the use of play &mdash; free, guided or structured &mdash; as the primary medium through which young children acquire knowledge, skills, attitudes and values, on the principle that play is not a break from learning but the natural form of learning at this age.</p>
+  </div>
+
+  <div class="card ex"><span class="lbl">Example</span>
+    <p>Guided play in an Assamese pre-primary class, with a heap of fallen leaves. The teacher brings them in, sorts none of them, and asks only, <em>&ldquo;Put them however you like.&rdquo;</em> Children sort by colour, size, texture, or simply pile them. The teacher then narrows: <em>&ldquo;Can you make three piles from biggest to smallest?&rdquo;</em> One child succeeds, another asks for help, a third says the smallest pile has &ldquo;lots&rdquo;. The teacher writes nothing down, but has seen who can seriate, who confuses size with number, and who persists with a hard task. That observation is the raw material of the Holistic Progress Card in 4.2.</p>
+  </div>
+
+  <h3 id="s2-1-1">2.1.1 Toy-Based Learning</h3>
+
+  <p>For a four-year-old a <strong>toy is a tool of thinking</strong>. Toy-based learning has three purposes: to give the child <strong>concrete, manipulable material</strong> for concepts that cannot yet be handled in the abstract; to give the hand a range of <strong>motor experience</strong> on which writing later depends; and to give the child something to <strong>do with another child</strong>, which is the raw material of language and social learning. Select toys for what they <em>make possible</em>, not for how brightly they are coloured.</p>
+
+  <p>The selection principles follow directly. Choose <strong>open-ended over closed</strong>: plain blocks and a bucket of sand outlast a battery toy that repeats four sounds, because open-ended material serves a hundred purposes and twenty children. Choose <strong>real objects over models</strong> &mdash; leaves, stones, spoons, caps, bangles, wooden blocks, seeds, cloth, a broken watch; the ordinary material of the household and the market, culturally familiar and free. Choose <strong>large, open, safe and few</strong>: a room with thirty kinds of toy is a distracted room, because choosing becomes the hardest problem. Choose <strong>durable and cleanable</strong>. Choose <strong>matched to a developmental target</strong>: stringing beads for a five-year-old who cannot hold a crayon is a fine-motor intervention; the same beads for a three-year-old is a frustration.</p>
+
+  <p>Storage matters as much as selection. Materials belong on <strong>low shelves the children can reach</strong>, arranged so that the shape of the material shows where it goes, and rotated to sustain interest. Present them in <strong>trays or baskets, mixed where mixing is the point</strong> &mdash; a tray of shells, stones, buttons and caps is a sorting problem; four separate sorted trays are a shelf. One rule surprises student-teachers most: <strong>do not collect or tidy away too often</strong>. A construction the child made yesterday must still be there today, or he learns that making is not worth the effort. In many low-quality rooms the most damaging rule is the end-of-day clean-up in which the adult collects everything while the children watch.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table 2.2 &mdash; Toy-based learning: categories of material and what each develops</caption>
+      <thead><tr><th>Category</th><th>Examples (locally available)</th><th>Domain mainly served</th><th>Observation focus</th></tr></thead>
+      <tbody>
+        <tr><td>Construction and building</td><td>Wooden or stone blocks, empty cartons, bricks, bottle caps</td><td>Cognitive (spatial, planning), Physical (fine motor, grip)</td><td>Whether the child plans and revises, or builds to impress rather than to use</td></tr>
+        <tr><td>Manipulative and sorting</td><td>Beads, buttons, shells, stones, nuts, seeds, bottle caps</td><td>Cognitive (matching, sorting, classification), Physical (pincer grip)</td><td>Whether he sorts by one attribute and can then change the rule</td></tr>
+        <tr><td>Fine-motor and pre-writing</td><td>Large chalks, thick crayons, clay, dough, paper, pegs, lacing cards, threading</td><td>Physical (hand strength, coordination), Aesthetic-Creativity</td><td>Grip, pressure control, direction of movement, willingness to try again</td></tr>
+        <tr><td>Water, sand and mud</td><td>Water tray, sand pit, clay, small vessels, funnels</td><td>Physical, Cognitive (volume, pour, float&ndash;sink), Aesthetic-Creativity</td><td>Concentration, persistence, willingness to get dirty</td></tr>
+        <tr><td>Role-play and make-believe</td><td>Aprons, bangles, empty cartons, combs, cloth, caps, toy utensils, a mirror</td><td>Socio-Emotional, Language, Cognitive (symbolic thought)</td><td>Whether roles are negotiated or imposed; whose voice is left out</td></tr>
+        <tr><td>Puzzles, matching, board games</td><td>Simple picture puzzles, dominoes, colour-board, ludo for older pre-primary children</td><td>Cognitive, Socio-Emotional (rules, turn-taking)</td><td>How the child handles losing and waiting</td></tr>
+        <tr><td>Musical and movement</td><td>Manjira, dhol, khol, ghungroo, drums, scarves</td><td>Aesthetic-Appreciation and Creativity, Physical</td><td>Rhythm, willingness to lead, use of space and body</td></tr>
+        <tr><td>Books and print</td><td>Big books, picture books, flip charts, home-language story books, name cards</td><td>Language, Aesthetic-Appreciation</td><td>Whether the child treats a book as something to read or only to carry</td></tr>
+        <tr><td>Nature and real materials</td><td>Leaves, flowers, stones, feathers, twigs, clay from the pond bank, grain</td><td>All five domains at once</td><td>Does he compare, name, sort, wonder and reuse?</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card cls"><span class="lbl">Classroom Connection</span>
+    <p>In a rural Assamese pre-primary centre with a very small budget, build the toy shelf from what the compound already contains: stones graded by size, a plank of wood with nails for a balance, five flat wooden discs cut from a branch for sorting, bangles and caps for sorting by size, a length of cloth for a boat, an old <em>gamusa</em> for tents, tin cans with both ends removed for threading, dried leaves and feathers, a shallow tray of water. The test of a material is not its price but how many things a child can do with it and how many children can use it at once.</p>
+  </div>
+
+  <h3 id="s2-1-2">2.1.2 Inquiry-Based Learning</h3>
+
+  <p><strong>Inquiry-based learning</strong> is learning organised around questions children ask, or around questions a teacher deliberately provokes, and answered by <strong>looking, handling, comparing, testing and telling</strong> rather than by being told. The syllabus names four elements: <strong>questioning</strong>, <strong>observation</strong>, <strong>exploration</strong> and <strong>experiences</strong>. All four begin with the child&rsquo;s own action; the teacher supplies the material, the time, the vocabulary and the follow-up question.</p>
+
+  <p><strong>Questioning</strong> at this age is not questioning in a lesson. A four-year-old&rsquo;s questions are about <em>relations</em> &mdash; <em>why is it wet</em>, <em>where did the water go</em>, <em>is this heavier</em>. The teacher&rsquo;s habits matter enormously: give the child <strong>time</strong> to finish the question; do not answer a question he can answer by doing; <strong>rephrase</strong> what he said so the whole group hears it; <strong>extend</strong> it with &ldquo;what do you think would happen if&hellip;&rdquo;; <strong>invite</strong> the group in with &ldquo;has anyone else seen this?&rdquo;; and <strong>accept and build on wrong answers</strong>, because a wrong answer spoken aloud and examined teaches more than a right one merely stated. The worst response to a child&rsquo;s question is an impatient question in return.</p>
+
+  <p><strong>Observation</strong> is both a learning process and a method: as a process it is the child&rsquo;s concentrated looking &mdash; noticing that a stone is heavy and a leaf is not, that one flower has five petals and another four; as a method it is the teacher&rsquo;s systematic watching, which is the foundation of assessment in Unit 4. <strong>Exploration</strong> is the extended, often messy, self-directed activity that observation feeds &mdash; digging, pouring, breaking and mending, moving things to see what happens. <strong>Experiences</strong> are the concrete first-hand encounters through which concepts are built; a field of the four <em>Rs</em> is not an experience, but a leaf that was picked, smelled, crushed between the fingers, compared with another leaf and stuck in a book is. Field trips and visits belong here.</p>
+
+  <div class="tw tkeep">
+    <table>
+      <caption>Table 2.3 &mdash; The four elements of inquiry-based learning and the teacher&rsquo;s move in each</caption>
+      <thead><tr><th>Element</th><th>What the child does</th><th>Teacher&rsquo;s move</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Questioning</strong></td><td>Asks, wonders, proposes, challenges</td><td>Wait; rephrase; extend; invite the group; never shame an error</td></tr>
+        <tr><td><strong>Observation</strong></td><td>Looks closely, compares, notices difference, describes</td><td>Supply the material and the words; look alongside and record</td></tr>
+        <tr><td><strong>Exploration</strong></td><td>Investigates, manipulates, tests, repeats, varies</td><td>Allow time and mess; ask &ldquo;what would happen if&hellip;&rdquo;; keep the question open</td></tr>
+        <tr><td><strong>Experience</strong></td><td>Handles the real thing; visits; does; sees with the senses</td><td>Arrange the real experience; let the child act on it, not just watch</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The inquiry sequence a good pre-primary teacher runs almost unconsciously is: <strong>notice &rarr; name &rarr; question &rarr; handle &rarr; compare &rarr; sort &rarr; find a rule &rarr; tell someone</strong>. The last step matters as much as any other, because saying what he found out to another adult or peer is how language, pride and conceptual clarity are built together. A programme that ends at step five has produced a discovery nobody knows about.</p>
+
+  <h3 id="s2-1-3">2.1.3 Learning through Songs, Rhymes, Art and Craft</h3>
+
+  <p>Songs, rhymes, art and craft are not entertainment between the serious parts of the day. They are the most efficient tools a pre-primary teacher has, because they carry <strong>language, memory, rhythm, movement and cultural identity simultaneously</strong>, and because a four-year-old will learn from a rhyme what he will not learn from an explanation. The <strong>oral tradition</strong> of Assam &mdash; its folk songs, <em>khona bhat</em> and <em>putuna naat</em>, its cradle songs, counting rhymes and seasonal songs &mdash; is a ready-made curriculum needing no textbook and no budget, and using it is one of the clearest ways to make an early childhood programme locally rooted.</p>
+
+  <p>Rhymes and songs do four specific jobs. They <strong>build vocabulary in context</strong>, so a new word is heard in a sentence where it is useful, not on a flashcard. They <strong>fix sequences and concepts in memory</strong> &mdash; days of the week, counting to twenty, the order of a story, the pattern of <em>ba</em>&ndash;<em>ba</em>&ndash;<em>aa</em>. They <strong>move the body</strong>, which is a prerequisite for attention. And they <strong>build belonging</strong>, because a child who knows the same songs as the rest of the group is part of the group. The teacher&rsquo;s craft is in the last line: any rhyme should end with something the children <em>do</em> &mdash; a clap, a stamp, a stretch, a finger to touch, a face to make.</p>
+
+  <p><strong>Art and craft</strong> serve a different but equally serious purpose. Drawing, painting, clay, tearing, folding, threading, block-building and model-making give the child a <strong>symbol</strong> &mdash; the ability to represent an idea that is not present &mdash; which is one of the most advanced things a small child can do. They are also the child&rsquo;s first safe avenue for <em>expression of feeling</em>, which is why a child who is upset at home will often pour a great deal into a painting and be perfectly calm afterwards. </p>
+
+  <p>Two rules govern art in early childhood: <strong>the process, not the product, is the point</strong> (so never draw for the children, never correct their drawing, never say &ldquo;that does not look like a flower&rdquo;), and <strong>materials must be open-ended</strong> (so no colouring books with pre-drawn outlines to stay inside, no &ldquo;copy this&rdquo; display on the wall). Display the work at <strong>children&rsquo;s eye level</strong>, not adult height.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table 2.4 &mdash; Songs, rhymes, art and craft: purpose, materials and cautions</caption>
+      <thead><tr><th>Medium</th><th>What it develops</th><th>Simple materials</th><th>Cautions</th></tr></thead>
+      <tbody>
+        <tr><td>Songs</td><td>Language, rhythm, memory, group bonding, movement</td><td>Voice; <em>manjira</em>, <em>khong</em>, drum, clappers; local folk songs</td><td>Sing in the home language first; do not use songs only to settle children; vary the pace</td></tr>
+        <tr><td>Rhymes and chants</td><td>Phonological awareness, counting, sequencing, vocabulary, self-regulation</td><td>None beyond voice and body</td><td>Not a substitute for real talk; keep them short and change them often</td></tr>
+        <tr><td>Story and narration</td><td>Listening, vocabulary, sequencing, imagination, emotional literacy</td><td>Big books, picture cards, puppets, a story bag</td><td>Re-tell the same story for days &mdash; repetition is the point; let the child retell it</td></tr>
+        <tr><td>Drawing and painting</td><td>Symbolic representation, fine motor, self-expression</td><td>Chalks, thick crayons, washable colour, paper on the floor, brushes, jars</td><td>Never draw for the child; never correct; display at child height</td></tr>
+        <tr><td>Craft and construction</td><td>Planning, problem solving, fine motor, spatial sense, persistence</td><td>Clay, dough, cardboard, paper, tape, string, recycled cartons</td><td>Give an open-ended brief (&ldquo;make something to sit on&rdquo;), not a model to copy</td></tr>
+        <tr><td>Movement and dance</td><td>Gross motor, body confidence, expression, cooperation</td><td>Scarves, ribbons, open floor, drum</td><td>Let non-dancers participate in their own way; never compare</td></tr>
+        <tr><td>Dramatic play</td><td>Language, socio-emotional, symbolic thought, negotiation</td><td>Cloth, hats, empty cartons, toy utensils, mirror</td><td>Supply diverse roles; watch for who is always cast as the villain</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="s2-2">2.2 Curricular Issues and Concerns</h3>
+
+  <p>An ECCE curriculum is a set of decisions about what children should encounter. The syllabus names six issues on which every such curriculum takes a position: <strong>Multilingualism</strong>, <strong>Inclusion</strong>, <strong>Gender</strong>, <strong>Equality</strong>, the <strong>adverse effects of early formal instruction</strong>, and <strong>school readiness</strong>. In India these are not abstractions. A child in a rural Assamese-medium school may arrive speaking only Bodo or Assamese and nothing else; a child with a disability may be excluded not by law but by a parent&rsquo;s belief; a girl may be withdrawn from pre-primary to help at home; a private pre-school may teach letters and numbers in the first term precisely because parents believe that is what &ldquo;school&rdquo; means. Every teacher of a four-year-old meets all six within a single week.</p>
+
+  <h4>2.2.1 Multilingualism</h4>
+
+  <p>India has no single home language, and most children grow up with <strong>more than one language in the air</strong> &mdash; a mother tongue, a father&rsquo;s language, a community language, and now English or Hindi through television and phone.</p>
+
+  <p>The curricular question is not &ldquo;which language shall we use&rdquo; but <strong>&ldquo;how do we use what the child already has&rdquo;</strong>. A child talked to in a familiar language <em>understands</em> a new one; a child forced to receive all instruction in an unfamiliar language <em>switches off</em>, because comprehension is the condition of everything else. The position reflected in the national curriculum documents is that the <strong>home language / mother tongue is the medium of the Bal Vatika and pre-primary years</strong>, that the regional language is brought in alongside it, and that English is introduced as a <em>subject to be heard and enjoyed</em> rather than as the language of the classroom.</p>
+
+  <p>Concrete practice follows: greet the child in his own language first; allow him to answer in any language he has; learn and pronounce children&rsquo;s names correctly; draw attention to words in the song that are the same in both languages; never ridicule a child&rsquo;s accent; keep rhymes, stories and counting games in the language the child speaks best, and use the second language for the fun parts &mdash; songs, games, animal names. A very common early error is to stop a child mid-sentence to correct his grammar: a child whose sentences are constantly interrupted stops talking, and a child who talks is a child who learns language.</p>
+
+  <h4>2.2.2 Inclusion</h4>
+
+  <p><strong>Inclusion</strong> means that the child with a disability, the child who speaks a different language, the child who is slower or faster than the rest, the child from a poorer home, and the child of a different caste, clan, religion or gender is <em>present and participating</em> in the ordinary room, in the ordinary activity, with the ordinary children &mdash; and that the room is designed so this happens by default rather than by special arrangement. The principle is not charity; it is that a group of young children who differ from one another is a <em>resource</em> for everyone.</p>
+
+  <p>Practically, inclusion requires <strong>universal design before special help</strong>: shelves and taps a child can reach from a chair, materials usable with one hand, activity at both floor and table level, activities that do not require perfect hearing or the ability to see the board, and oral instructions always accompanied by a demonstration. Where a child needs support &mdash; a hearing aid, spectacles, a helper for positioning, sign language, a special material &mdash; the resource is brought to the child rather than the child brought to a &ldquo;special&rdquo; room. And the last, hardest piece is adult attitude: nothing separates children in a pre-primary room more reliably than the belief of the adults in it.</p>
+
+  <h4>2.2.3 Gender</h4>
+
+  <p>Children arrive with a gender, but <strong>without gender knowledge</strong>, and they acquire it fast &mdash; usually between three and six, and mostly from the adults and media around them. Early gender formation is therefore largely an <em>adult</em> responsibility.</p>
+
+  <ol class="num">
+    <li><strong>Do not gender the material.</strong> dolls and kitchen sets for girls only, cars and ball games for boys only, books in which the girl is passive and the boy is clever. Mixed and neutral material, mixed groups, and the same expectation of every child &mdash; blocks for everybody, dolls for everybody, the same floor space &mdash; do more for gender equity than any lesson on the subject.</li>
+    <li><strong>Notice and name the sorting as it happens</strong>, gently and without accusation: <em>&ldquo;Mohini wants to drive the bus. Bishnu is playing with the doll. Shall we ask him, or will you make one too?&rdquo;</em> The teacher&rsquo;s question is an invitation, not a rebuke.</li>
+    <li><strong>Intervene when adults sort children for them.</strong> This happens most often in the family, and most often as a girl being asked to help with younger siblings instead of attending, or a boy being sent to fetch and carry.</li>
+  </ol>
+
+  <p>Push-down schooling is itself a form of gendering, because it is largely girls who are withdrawn in favour of academic drilling, held back for domestic care, or denied playtime in favour of home lessons. Where local culture loads specific duties onto a specific child &mdash; fetching water, minding a sibling, helping in the fields &mdash; the classroom must at least be a place where that child gets something for herself.</p>
+
+  <h4>2.2.4 Equality</h4>
+
+  <p><strong>Equal treatment</strong> means the same opportunity, respect, dignity, invitation to speak and attention for every child, regardless of who they are, where they come from, what they wear or eat, what language they speak or what they can already do. <strong>Equity</strong> means recognising that identical treatment can be unfair, and giving additional support where it is needed: an extra pair of hands, an extra language, an extra month, a different material, a chair at the table for a child who cannot sit on the floor, a second helping of food for a very thin child. Equality is the floor; equity is the ceiling. A centre that gives every child the same thin blanket in January has equality and not equity.</p>
+
+  <p>Equality is also the <strong>content</strong> of the programme, not only its administration. Books and stories that show girls as leaders, that show a dalit child and a tribal child as friends of the main characters, that show a child with a disability playing and being liked, and that show old people, small children and people of different occupations as worthy of respect, make the ordinary curriculum inclusive without a single moral being preached.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table 2.5 &mdash; The six curricular issues and the position an ECCE curriculum should take</caption>
+      <thead><tr><th>Issue</th><th>The problem in practice</th><th>The curricular position to hold</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Multilingualism</strong></td><td>Child understands no instruction, or is shamed for his accent</td><td>Home language as the medium of pre-primary; regional language alongside; English heard and enjoyed, not demanded</td></tr>
+        <tr><td><strong>Inclusion</strong></td><td>Child with disability, slower learner or different language kept at the margin</td><td>Universal design, mixed groups, support brought to the child, adults&rsquo; attitude addressed first</td></tr>
+        <tr><td><strong>Gender</strong></td><td>Materials and play sorted by gender; girls withdrawn for domestic work</td><td>Neutral and mixed material; the same expectation of every child; name the sorting gently when it occurs</td></tr>
+        <tr><td><strong>Equality</strong></td><td>Same treatment for children whose needs differ; unequal content and adult attention</td><td>Equal dignity and opportunity for all; additional support where need requires it</td></tr>
+        <tr><td><strong>Early formal instruction</strong></td><td>Desks, worksheets, letters and numbers taught at four</td><td>Play-based provision; no formal textbook in Bal Vatika; no tests, ranking or homework</td></tr>
+        <tr><td><strong>School readiness</strong></td><td>Readiness equated with early reading and writing</td><td>Readiness = physical, social-emotional, language-cognitive and approach-to-learning; a continuum, not a gate</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>2.2.5 Adverse Effects of Early Formal Instruction</h4>
+
+  <p><strong>Early formal instruction</strong> means teaching children aged three to six by the methods of the primary school &mdash; a fixed timetable of lessons, rows of desks, a textbook or worksheet, letters and numbers taught as subjects, recitation and memorisation, copying from the board, unit tests, ranking, rewards and punishments, and a teacher who is a questioner rather than a play-facilitator. It is sometimes defended as &ldquo;preparation for Grade 1&rdquo;, and in some middle-class settings it is what parents actively demand. The <strong>NCF for the Foundational Stage 2022</strong> makes it explicit that the Bal Vatika and pre-primary years are play-based, that Bal Vatika has no formal textbook, and that formal instruction has no place before the age of six.</p>
+
+  <p>The adverse effects group naturally into four kinds.</p>
+
+  <ul class="bul">
+    <li><strong>Physical.</strong> Long hours seated on benches sized for adults produce poor posture, weak core strength, eye strain and tiredness, and remove the movement the brain uses to stay alert.</li>
+    <li><strong>Cognitive and motivational.</strong> The play that develops reasoning, imagination and problem-solving is displaced by recitation; the child learns that the right answer exists and that the teacher finds it, weakening curiosity and persistence; and a formal curriculum pitched above her makes her conclude that she is stupid.</li>
+    <li><strong>Social-emotional.</strong> Stress shows up as bed-wetting, withdrawal, aggression, shyness, stomach aches and refusal to attend &mdash; the classic school-refusal pattern.</li>
+    <li><strong>Long-term.</strong> It produces a child &ldquo;school-ready&rdquo; in the narrowest sense and otherwise unprepared: able to copy but not to choose, to obey but not to cooperate, to recite but not to talk.</li>
+  </ul>
+
+  <p>Two further arguments are frequently asked for. Formal instruction teaches the wrong thing badly: a child taught letters before six often reads by memorising shapes rather than by understanding sounds, and can look fluent without knowing how to decode. And it is <strong>unfair</strong>: children from homes where adults sit and talk with them progress even under it, while children from homes that do not are labelled slow, so a method meant to give every child a head start sorts children by family income instead.</p>
+
+  <div class="card mist"><span class="lbl">Common Mistake</span>
+    <p>Do not write that formal instruction &ldquo;damages the brain&rdquo; or &ldquo;reduces IQ&rdquo; &mdash; those claims are not supportable. Write instead: formal instruction at this age substitutes sitting, recitation and copying for movement, exploration and talk, and those are the activities through which early language, reasoning, motivation and self-regulation are built. The defensible claim is that early formal instruction is <em>unnecessary, developmentally misplaced and on balance harmful</em> &mdash; not that a child who has had it can never learn.</p>
+  </div>
+
+  <h4>2.2.6 School Readiness</h4>
+
+  <p><strong>School readiness</strong> is the ability to benefit from school, not the ability to reproduce what school will teach. The narrow, wrong definition &mdash; &ldquo;can the child read simple words and write his name&rdquo; &mdash; is a direct consequence of early formal instruction: the child is declared ready when he can do in advance what the class will teach him. The right definition is a set of broad competencies in four groups.</p>
+
+  <div class="tw tkeep">
+    <table>
+      <caption>Table 2.6 &mdash; The Four Groups of School-Readiness Competencies</caption>
+      <thead><tr><th style="width:22%">Group</th><th>What the child can do</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Physical</strong></td><td>Walk and run without frequent falling; hold a crayon or pencil in a workable grip; have bowel and bladder control; eat, dress and manage toilet needs; sit and listen for the length of a short story</td></tr>
+        <tr><td><strong>Social and emotional</strong></td><td>Separate from the parent without distress; relate to and play with peers; follow two-step instructions; wait and take turns; tolerate being apart; be gently redirected</td></tr>
+        <tr><td><strong>Language and cognition</strong></td><td>Understand and speak a familiar language; listen to a story; tell an adult something that happened; match, sort and count a few objects; hold a book properly</td></tr>
+        <tr><td><strong>Approaches to learning</strong></td><td>Try; persist a little; be given an unfamiliar material without giving up immediately; be willing to have another go</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>It is a broad list, and not one of its items is reading or writing. That is the point: a child is judged ready to begin learning, not ready to be told.</p>
+
+  <p>It follows that <strong>school readiness is a continuum, not a line</strong>: a child may be ready for some things and not others. It also follows that a child does not become ready by being taught school subjects early, and that a child who is not ready is a child the school has failed to reach, not a child to be ranked. What a good pre-primary programme does is remove the obstacles to readiness: makes the child feel safe, gives him a large stock of spoken language, lets him handle real materials, lets him mix with children of his own age, and lets him be away from his parent for a long day without distress.</p>
+</section>
+
+<div class="review">
+  <h4>Unit 2 Quick Review</h4>
+  <h5>Key Points</h5>
+  <ul class="bul">
+    <li>Free / guided / structured play differ only in <em>who directs</em> &mdash; child, shared purpose, teacher. A good day contains all three.</li>
+    <li>Open-ended toy &gt; closed toy; real object &gt; plastic model; few, mixed, reachable materials; never tidy away a child&rsquo;s construction.</li>
+    <li>Inquiry-based learning has four elements: questioning, observation, exploration and experiences.</li>
+    <li>In art and craft the <strong>process</strong> is the point, not the product; never draw or correct for the child.</li>
+    <li>The home language is the medium of the Bal Vatika and pre-primary years; English is heard and enjoyed, not demanded.</li>
+    <li>School readiness is a continuum of physical, social-emotional, language-cognitive and approach-to-learning competencies &mdash; not early reading and writing.</li>
+    <li>Equality is the floor; equity is the ceiling.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p>Free / guided / structured play &middot; open-ended material &middot; inquiry-based learning &middot; process not product &middot; multilingualism &middot; inclusion &middot; universal design &middot; early formal instruction &middot; school readiness &middot; mother tongue as medium</p>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>Name the four elements of inquiry-based learning, and distinguish free play from guided play in one sentence each.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>How does early formal instruction affect children aged three to six? Give at least four adverse effects.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Examine the curricular issues an ECCE programme in Assam must address, with special reference to language, gender and the effects of formal instruction.</p></div>
+  </div>
+</div>
+
+<!-- ============ UNIT 3 ============ -->
+<section class="unit-body">
+  <h2 id="unit-3"><span class="h2num">Unit 3</span> Planning and Management of the ECCE Classroom</h2>
+
+  <h3 id="s3-1">3.1 Principles of Planning a Balanced and Contextualised ECCE Programme</h3>
+
+  <p>Planning an ECCE programme is not the same work as planning a primary programme. Nothing here is taught to a standard, nothing runs to a fixed period, and nothing is completed. A plan for three- to six-year-olds has to describe a <em>range of experience</em> and a <em>rhythm</em>, not a sequence of lessons with learning outcomes attached.</p>
+
+  <p>Six principles do most of the work. They are worth stating precisely, because an examiner is looking for exactly this list.</p>
+
+  <ol class="num">
+    <li><strong>Developmentally appropriate.</strong> The activity must be one a child of that age can actually do, with the materials actually available, without adult help at every step. Writing before a child can hold a crayon well, or cutting before the two hands work together, is not enrichment &mdash; it is practice at failure.</li>
+    <li><strong>Holistic.</strong> Every area of development is represented, and preferably in the same activity rather than in separate periods. A child watering a plant is simultaneously physical (grip, balance, walking), cognitive (the plant needs water; this one is dry), language (naming, describing, asking), socio-emotional (caring for something that depends on you) and aesthetic (arranging, noticing colour).</li>
+    <li><strong>Contextualised.</strong> The plan must grow out of what the children in <em>this</em> centre have &mdash; their language, the crops and plants of the season, the work of their parents, the festivals on the local calendar, the water and sanitation conditions of the village. A plan imported from a textbook is a plan that will not run.</li>
+    <li><strong>Play- and activity-based.</strong> Children learn at this age by doing, talking and making. The plan is written as activities and experiences, and the timetable protects time for them. A programme that is 80&nbsp;per cent teacher-led is a primary programme in a small room.</li>
+    <li><strong>Child-centred and inclusive.</strong> Children participate in choosing and in evaluating. Nothing in the plan assumes a single home language, a single family structure, a physically average body or a particular level of adult help at home.</li>
+    <li><strong>Flexible and cyclical.</strong> A plan is a hypothesis. The teacher observes, notes what the children actually did, and adjusts the next week&rsquo;s plan. Planning and assessment are the same loop viewed from two ends.</li>
+  </ol>
+
+  <div class="tw">
+    <table>
+      <caption>Table 3.1 &mdash; Planning Principles and the Practical Test for Each</caption>
+      <thead><tr><th style="width:22%">Principle</th><th>What it means in planning</th><th>The test you can actually apply</th></tr></thead>
+      <tbody>
+        <tr><td>Developmentally appropriate</td><td>Tasks matched to what this age can do unaided</td><td>Can a child do it without an adult&rsquo;s hand on it?</td></tr>
+        <tr><td>Holistic</td><td>All five domains represented, preferably in one activity</td><td>Point to the physical, cognitive, language, socio-emotional and aesthetic strand of this activity</td></tr>
+        <tr><td>Contextualised</td><td>Built from local language, work, crops, festivals, resources</td><td>Name three things in this plan a child here already knows</td></tr>
+        <tr><td>Play- and activity-based</td><td>Written as experiences, not as lessons</td><td>Could this run if the board and the textbook disappeared?</td></tr>
+        <tr><td>Child-centred and inclusive</td><td>Children choose, and no assumption is made about a child&rsquo;s home</td><td>Who decided this? Would it work for a child who speaks only Mising, or a child who cannot walk?</td></tr>
+        <tr><td>Flexible and cyclical</td><td>Observation feeds the next plan</td><td>Where in the plan is the point at which you will change it?</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card cls"><span class="lbl">Classroom Connection</span>
+  <p>Take any activity in your centre&rsquo;s plan and run the &ldquo;name three things a child here already knows&rdquo; test on it. An activity built on a <em>dhaki</em> or a <em>hu</em> or on the paddy-seed count the parents bring home will pass. One built on a shape-sorting set from a catalogue will not, and the children will tell you so within ten minutes.</p>
+  </div>
+
+  <h3 id="s3-2">3.2 Classroom Management: Inside and Outside the Classroom</h3>
+
+  <p>Management at this age is not discipline in the ordinary sense. A three-year-old cannot be reasoned with, cannot be made to sit still because the lesson demands it, and does not understand a punishment. What has to be managed is not children&rsquo; behaviour but the <strong>conditions</strong> under which the behaviour changes &mdash; the room, the routine, the materials, the flow of the day, and the number of adults.</p>
+
+  <h4>Inside the classroom</h4>
+
+  <ul class="bul">
+    <li><strong>Arrange the room so that movement is the default.</strong> Low shelves, open and reachable material, floor space, small mats, a corner for books, a corner for water and sand, a rough-and-tumble corner, a display at child height. Furniture that children can move is furniture that stops being an obstacle.</li>
+    <li><strong>Keep materials few, mixed and open-ended.</strong> A dozen mixed objects beat forty categorised, expensive ones, because they permit more combinations. Nothing that is out of reach, nothing locked away during the session.</li>
+    <li><strong>Plan the flow of the day, not just its content.</strong> Children at this age need to know what happens next. A predictable rhythm &mdash; arrival and free play, circle time, snack, outdoor activity, rest, group activity, story, departure &mdash; lowers the noise and the friction more effectively than any rule.</li>
+    <li><strong>Small groups, frequent change.</strong> Whole-class instruction is inappropriate below six. Work with groups of four to six, and rotate them, so that no child waits for long and no child is permanently the leader or the outsider.</li>
+    <li><strong>Say what you want, plainly, once.</strong> &ldquo;Walk&rdquo; is not an instruction to a two-year-old. &ldquo;Walk, please &mdash; put the block down and walk&rdquo; is. Most misbehaviour at this age is simply a child who has not understood what was wanted.</li>
+    <li><strong>Redirect rather than punish.</strong> Move a child towards an activity, not away from people. &ldquo;Let us move the water to the table&rdquo; works where &ldquo;stop it&rdquo; does not.</li>
+  </ul>
+
+  <h4>Outside the classroom</h4>
+
+  <p>Outdoor space is not the leftover. It is where large-muscle movement, risk-taking, weather, mud, insects and the widest range of play happen, and a child who is given no outdoor time in a week is a child whose body is under-stimulated. Managing it means:</p>
+
+  <ul class="bul">
+    <li><strong>Zoning.</strong> Separate areas for active play, for quiet play, for sand and water, for a climbing or swinging structure, and for a garden bed. Mark the boundaries with plants, edges or low fencing rather than with instructions.</li>
+    <li><strong>Safe, not sterile.</strong> Safe means the fence is sound, the pond has a railing, the well is covered, the first-aid box is stocked and the emergency number is known. It does not mean a concrete yard. A fall from a low branch is part of development, and children who have never fallen are children who have never learned how to get up.</li>
+    <li><strong>Supervision without hovering.</strong> Position adults where they can see the whole space. A group of children concentrated in one corner, away from the adult&rsquo;s line of sight, is where every accident happens.</li>
+    <li><strong>Enough adults for the number of children.</strong> The recognised ratio is one adult to about ten children; anything less turns the session into crowd control. Where the centre cannot staff to that ratio, the number of children present on any day must be reduced instead.</li>
+  </ul>
+
+  <div class="card rem"><span class="lbl">Remember</span>
+  <p>You manage the conditions, not the children. Change the room, the routine, the grouping, the material and the number of adults before you change the child. This is the single idea that separates ECCE practice from primary-school practice, and it is worth a sentence in any answer on classroom management.</p>
+  </div>
+
+  <h3 id="s3-3">3.3 Planning and Design of Theme-Based Activities</h3>
+
+  <p>A <strong>theme</strong> is a subject broad enough for children to explore from several directions and a narrow enough one to hold their attention. The syllabus is explicit that activities be planned on a theme and cover all domains, and that the essence of the approach is <em>integrated learning</em> and <em>learning by doing</em>. The official themes given are flowers, vegetables, birds, water, family, transport, community helpers and animals.</p>
+
+  <p>Planning a theme is a five-step job.</p>
+
+  <ol class="num">
+    <li><strong>Find the thread.</strong> Start from the child&rsquo;s world, not the textbook. Ask what the children have noticed recently &mdash; the rain, the buffaloes, the new shop, the illness in the street. Choose the theme they are already asking about.</li>
+    <li><strong>Set the concepts.</strong> List the three or four big ideas the theme can carry. For <em>flowers</em>: living things need water and light; plants can be sorted and grouped; the same word can be a name, a colour and a shape; living things are cared for. Concepts, not activities.</li>
+    <li><strong>Plan the concrete experiences first.</strong> Before writing anything down, list the things children will actually <em>do, see, handle and say</em> &mdash; the real flower brought in, the seed soaked in a plate, the leaf rubbed and pressed, the rhyme sung, the story told, the visit to a garden. Concrete experience is the foundation; everything else is built on it.</li>
+    <li><strong>Spread the activities across the five domains.</strong> The official example for the theme <em>flower</em>: exploring flowers by size, colour and smell; singing rhymes and songs about flowers; listening to and narrating stories about flowers; a visit to a flower garden; and activities for concept formation, classification, seriation, matching, colouring and painting.</li>
+    <li><strong>Sequence, and decide what you will record.</strong> Order the experiences so that each one prepares the next &mdash; seeing before naming, naming before comparing, comparing before classifying. And decide, as you plan, what you will note and keep, because that record is what Unit 4 will later turn into a progress report.</li>
+  </ol>
+
+  <div class="tw">
+    <table>
+      <caption>Table 3.2 &mdash; One Theme, Five Domains: Worked Example on <em>Water</em></caption>
+      <thead><tr><th style="width:16%">Domain</th><th>Activity</th><th style="width:30%">What the child is actually doing</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Language</strong></td><td>Collect words for water in the home language; tell the story of the thirsty crow; name the parts of a tap and a matka</td><td>Building vocabulary in the language the child actually speaks; sequencing a narrative</td></tr>
+        <tr><td><strong>Physical</strong></td><td>Carrying two buckets of water from the tank; a relay with water pots</td><td>Balance, bilateral coordination, grip, endurance, the gross-motor pattern of daily work</td></tr>
+        <tr><td><strong>Cognitive</strong></td><td>Which container holds more? Arranging the containers by size; floating and sinking; finding where the leak is</td><td>Conservation, seriation, classification, prediction and checking &mdash; all through real objects</td></tr>
+        <tr><td><strong>Socio-emotional</strong></td><td>Discuss why the queue at the tap is long; taking turns to fill the school&rsquo;s pots; caring for the plants in the shade corner</td><td>Perspective-taking, waiting, shared responsibility, care for a dependent thing</td></tr>
+        <tr><td><strong>Aesthetic and creativity</strong></td><td>Painting the reflection of the water surface; block-printing a ripple pattern; a collage of river and pond materials</td><td>Perception of colour and pattern, design, and the pleasure of making something that works</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card idea"><span class="lbl">Key Idea</span>
+  <p>The test of a theme plan is that a child who joined on the second day, in the middle of a week, would still get something to do. A theme that only makes sense to the planner is an activity, not a theme.</p>
+  </div>
+
+  <h3 id="s3-4">3.4 Parental and Community Involvement</h3>
+
+  <p>At this age the parents are the first educators, and a programme that treats them as visitors has misunderstood the stage. The syllabus makes involvement a separate topic because it is not a formality &mdash; it changes what the programme can do.</p>
+
+  <h4>Why it matters</h4>
+
+  <ul class="bul">
+    <li><strong>Continuity.</strong> What is learned at the centre has to survive at home, and what happens at home has to be understood at the centre.</li>
+    <li><strong>Language.</strong> Parents are the source of the home language. An early-years programme that does not know what language a child speaks at home cannot plan for transition.</li>
+    <li><strong>Health and nutrition.</strong> Attendance, immunisation, sleep and feeding are school problems before they are health problems.</li>
+    <li><strong>Trust.</strong> A parent who has seen the room and spoken to the teacher will believe the teacher; one who has only received a diary will not.</li>
+  </ul>
+
+  <h4>What involvement actually looks like</h4>
+
+  <div class="tw">
+    <table>
+      <caption>Table 3.3 &mdash; Forms of Parental and Community Involvement in ECCE</caption>
+      <thead><tr><th style="width:22%">Form</th><th>What it is</th><th style="width:30%">What it gives the programme</th></tr></thead>
+      <tbody>
+        <tr><td>Home visits</td><td>Visiting the family at home, ideally with an interpreter when the home language is not the school&rsquo;s</td><td>The real picture of the child&rsquo;s language, care, nutrition and interests</td></tr>
+        <tr><td>Open day and visiting hours</td><td>Parents come into the room and watch the ordinary day, not a performance</td><td>Trust, and the correction of parents&rsquo; misconceptions about what early years education is</td></tr>
+        <tr><td>Parent meetings and the parent council</td><td>Regular meetings on health, growth and development; a council that advises the centre</td><td>Shared decisions, and a group that can carry messages back to families who do not attend</td></tr>
+        <tr><td>Homework done together</td><td>Talking about the day, reading any book, visiting a market, doing a small household task together</td><td>Family time as the vehicle, which costs nothing and reaches the poorest household</td></tr>
+        <tr><td>Take-home materials</td><td>Simple, low-cost activities in the home language, with no materials the family must buy</td><td>Continuity of the learning, and the child&rsquo;s status as the family&rsquo;s teacher</td></tr>
+        <tr><td>Community resources</td><td>Local artisans, farmers, the anganwadi, the panchayat, the health centre, the library</td><td>Enrichment no budget can buy: a potter&rsquo;s hands, a field, a folk song</td></tr>
+        <tr><td>Volunteers and local workers as guests</td><td>A cobbler, a cook, a boatman, a weaver, a grandmother, a mason, in the room</td><td>The world&rsquo;s work, seen by children who have only read about it</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Two cautions. First, involve parents as <strong>partners with knowledge</strong>, not as unpaid helpers to be assigned cleaning duties &mdash; the moment a parent is treated as labour, the relationship is over. Second, the <strong>home language</strong> is a resource: when a parent speaks a language the teacher does not, that is a reason to bring the parent in, not a reason for the parent to be excluded from what the child hears.</p>
+
+  <div class="card cls"><span class="lbl">Classroom Connection</span>
+  <p>One reliable method in an Assamese rural setting: a <em>din&rsquo;s diary</em> translated into the home language of each family, with no written part at all &mdash; a picture of what the child made, the Assamese sentence the child spoke, and a single question the parent answers. It is short enough to be filled, and it gets read.</p>
+  </div>
+</section>
+
+<div class="review">
+  <h4>Unit 3 Quick Review</h4>
+  <h5>Key Points</h5>
+  <ul class="bul">
+    <li>Six planning principles: developmentally appropriate, holistic, contextualised, play- and activity-based, child-centred and inclusive, flexible and cyclical.</li>
+    <li>Holistic planning means all five domains in the <em>same</em> activity, not in five separate periods.</li>
+    <li>Management means managing conditions &mdash; room, routine, materials, grouping, adult ratio &mdash; not managing children.</li>
+    <li>Whole-class instruction does not belong below six. Groups of four to six, rotated.</li>
+    <li>Outdoor space is zoned, supervised from a position of full visibility, and kept risky enough to be interesting.</li>
+    <li>Theme planning: find the thread, set the concepts, plan concrete experiences first, spread across five domains, sequence and decide what to record.</li>
+    <li>Concrete experience first &mdash; a leaf picked, smelled, compared and stuck in a book is an experience; a worksheet about a leaf is not.</li>
+    <li>Involve parents as partners with knowledge, never as unpaid help; the home language is a resource.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p>Contextualised programme &middot; holistic planning &middot; open-ended material &middot; zoning &middot; adult&ndash;child ratio &middot; theme &middot; integrated learning &middot; learning by doing &middot; parent council &middot; home language as resource</p>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>State any four principles of planning a balanced and contextualised ECCE programme.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>What is meant by managing the conditions rather than the children? Give four conditions inside the classroom and three outside it.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Prepare a theme-based plan on any one of the official themes, showing how the activities cover all five domains. Explain how you would sequence them and what you would record.</p></div>
+  </div>
+</div>
+
+<!-- ============ UNIT 4 ============ -->
+<section class="unit-body">
+  <h2 id="unit-4"><span class="h2num">Unit 4</span> Assessment in ECCE</h2>
+
+  <h3 id="s4-1">4.1 Principles of Assessment and Reporting</h3>
+
+  <p>Assessment at this stage has one job: to describe what a child can now do, so that the programme can be changed and the parent can be told something true. It is not testing, ranking or selection. Nothing in this unit is about a score.</p>
+
+  <p>Seven principles follow from that job.</p>
+
+  <ol class="num">
+    <li><strong>Assessment is continuous and part of the programme, not an event.</strong> It happens while the children are playing, and it costs nothing extra. A test week in an ECCE centre is a lost week.</li>
+    <li><strong>Assessment is based on observation, and only on observation.</strong> The evidence is what a child does with a real material, over real time, with real people around. It is never what a child says he can do.</li>
+    <li><strong>Play-based, embedded, and not separated from the children.</strong> The activity that is assessed is the activity the children think they are playing in.</li>
+    <li><strong>Holistic &mdash; all five domains, no single label.</strong> A child is five things at once. A report that says &ldquo;average&rdquo; without saying in what is worse than no report.</li>
+    <li><strong>Developmentally appropriate, and against the child&rsquo;s own previous level.</strong> The question is not how this child compares with thirty others, but whether he has moved since the last observation. At this age the gain over time is the finding.</li>
+    <li><strong>Qualitative and descriptive, not quantitative and competitive.</strong> Words, examples and a description of behaviour &mdash; not a number out of ten, and never a ranking on a wall.</li>
+    <li><strong>Used for support and programme improvement, never for selection or labelling.</strong> Records inform the teacher and the parent. They must not be used to keep a child out, and must never travel outside the centre with the child as a verdict on them.</li>
+  </ol>
+
+  <div class="card rem"><span class="lbl">Remember</span>
+  <p>Assessment in ECCE answers one question: <strong>what can this child do now that they could not do before?</strong> Every principle in this section is a consequence of that question.</p>
+  </div>
+
+  <h3 id="s4-2">4.2 Holistic Progress Card, Records and Registers</h3>
+
+  <p>The <strong>Holistic Progress Card (HPC)</strong> is the official instrument named in the syllabus. It is a card, maintained for every child, that records progress across all five domains &mdash; language, physical, cognitive, socio-emotional, and aesthetic-appreciation and creativity &mdash; and it is the spine of the centre&rsquo;s documentation.</p>
+
+  <h4>What a Holistic Progress Card contains</h4>
+
+  <ul class="bul">
+    <li><strong>Child identification</strong> &mdash; name, date of birth, date of admission, parent or guardian&rsquo;s name and contact, home address, and the centre&rsquo;s own enrolment number.</li>
+    <li><strong>A date column for each domain</strong>, with a brief dated note of something the child actually did. Not a grade: a sentence or a short phrase with a concrete behaviour in it.</li>
+    <li><strong>Physical &mdash;</strong> gross-motor skills, fine-motor control, self-care and independence, and participation in physical activity.</li>
+    <li><strong>Language &mdash;</strong; vocabulary, sentence length, the ability to tell an event in sequence, to listen to a story, and to use the home language freely.</li>
+    <li><strong>Cognitive &mdash;</strong; attention and memory, matching, sorting, classification, seriation, problem-solving, and curiosity &mdash; whether the child asks and keeps trying.</li>
+    <li><strong>Socio-emotional &mdash;</strong; self-confidence, cooperation, the ability to separate from the parent, the ability to manage frustration and to resolve a quarrel.</li>
+    <li><strong>Aesthetic and creativity &mdash;</strong; expression through art, music, movement and craft; the willingness to try and the care taken.</li>
+    <li><strong>Attendance, health and nutrition notes</strong>, and the teacher&rsquo;s overall remark at the end of a term.</li>
+  </ul>
+
+  <div class="tw tkeep">
+    <table>
+      <caption>Table 4.1 &mdash; What to Write in a Holistic Progress Card</caption>
+      <thead><tr><th style="width:24%">Domain</th><th>Look for</th><th style="width:34%">A usable entry</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Language</strong></td><td>Vocabulary; sentence length; sequencing a story; listening</td><td>4 March &mdash; told the class the whole sequence of what happened at the pond, without prompting</td></tr>
+        <tr><td><strong>Physical</strong></td><td>Gross motor; fine motor; self-care; participation</td><td>4 March &mdash; pedals the tricycle up the slope unaided; buttons her own coat</td></tr>
+        <tr><td><strong>Cognitive</strong></td><td>Attention; matching; sorting; seriation; persistence</td><td>4 March &mdash; sorted ten bottle caps by size unaided; tried the pulley four times before asking</td></tr>
+        <tr><td><strong>Socio-emotional</strong></td><td>Confidence; cooperation; separation; frustration tolerance</td><td>4 March &mdash; joined the group game after ten minutes and stayed to the end; coped with losing the race</td></tr>
+        <tr><td><strong>Aesthetic and creativity</strong></td><td>Expression; design; willingness to try; care taken</td><td>4 March &mdash; chose colours deliberately; stayed with the block-printing to the end of the session</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Notice what makes an entry useful. It carries a <strong>date</strong>, it describes a <strong>behaviour</strong> rather than a quality, and it is <strong>observable by someone else</strong>. &ldquo;Good&rdquo; and &ldquo;average&rdquo; and &ldquo;needs improvement&rdquo; are not entries &mdash; they cannot be acted on and they tell the parent nothing.</p>
+
+  <h4>Records and registers</h4>
+
+  <p>The syllabus pairs the card with <strong>records and registers</strong>, and the three are not the same thing. The card is about the child; the register is about the programme.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table 4.2 &mdash; The Three Registers of an ECCE Centre</caption>
+      <thead><tr><th style="width:20%">Register</th><th>What it records</th><th style="width:34%">Why it is kept</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Admission and enrolment register</strong></td><td>Every child, with date of birth, date of admission, parent&rsquo;s name and address, and date of leaving</td><td>Proves who is enrolled, supports the central and state records, and makes it possible to trace a family&rsquo;s later history</td></tr>
+        <tr><td><strong>Attendance register</strong></td><td>Daily presence, absence, cause of absence, and the follow-up made</td><td>Attendance at this age is a health and nutrition indicator as much as an administrative one; a pattern of absence is a warning</td></tr>
+        <tr><td><strong>Stock and materials register</strong></td><td>Play materials, learning aids, craft and art supplies, received and issued</td><td>Stops the quiet disappearance of the centre&rsquo;s materials, and lets the next plan be built from what is actually available</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>All three are official records. They are kept in the centre, they are available to inspection, and a mark in them is a mark of a real child&rsquo;s presence, absence or right. Keeping them is not a formality: a register that is filled in retrospectively from memory is worse than one that is filled in badly on the day.</p>
+
+  <h3 id="s4-3">4.3 Reporting Children&rsquo;s Progress</h3>
+
+  <p>Reporting is the step that turns records into something a parent can use. A record kept in a register helps the teacher; a report reaches the family and the community and changes what they do.</p>
+
+  <h4>Principles of good reporting</h4>
+
+  <ul class="bul">
+    <li><strong>Report what the child can do, not what the child lacks.</strong> Begin with a strength. A parent who has been told only what her child cannot do will look for a remedy everywhere except where the remedy is.</li>
+    <li><strong>Use the child&rsquo;s own behaviour, in concrete terms.</strong> &ldquo;He has started sharing&rdquo; is a report. &ldquo;He has improved in sharing&rdquo; is a judgment, and is unanswerable.</li>
+    <li><strong>Report all five domains, not only the one the centre is good at.</strong></li>
+    <li><strong>Report in the parent&rsquo;s language.</strong> A report in a language the parent does not read is not a report.</li>
+    <li><strong>Report the child, never compare the child.</strong> No comparison with the class, no ranking, no reference to how other children are doing. The comparison belongs in the teacher&rsquo;s head, never on paper a family will keep.</li>
+    <li><strong>Include a suggestion the family can carry out.</strong> A report without an action is a message. &ldquo;Please keep talking with her in Mising at home about the stories we are reading&rdquo; is an action.</li>
+  </ul>
+
+  <div class="tw tkeep">
+    <table>
+      <caption>Table 4.3 &mdash; Reporting: Weak and Strong Wordings</caption>
+      <thead><tr><th style="width:50%">Weak &mdash; a label, unanswerable</th><th>Strong &mdash; a behaviour, actionable</th></tr></thead>
+      <tbody>
+        <tr><td>Slow in language</td><td>Uses three- and four-word sentences now; in September she used only single words</td></tr>
+        <tr><td>Does not concentrate</td><td>Sustained attention on one activity for about ten minutes on 4 March, after starting with two</td></tr>
+        <tr><td>Very shy</td><td>Answered a question aloud in the group on 4 March; has not yet answered in front of the whole circle</td></tr>
+        <tr><td>Needs to improve her hand</td><td>Holds the crayon in a tripod grip; has begun to copy a horizontal line</td></tr>
+        <tr><td>Average in all areas</td><td>Leading in classification and sorting; the area to watch is separation from the parent at drop-off</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Reporting takes three forms in an ordinary programme: the <strong>written report or progress card</strong> sent home periodically, usually twice a year; the <strong>parent&ndash;teacher conference</strong> held at those same times, where the card is discussed and the parent&rsquo;s own observations are heard; and the <strong>open day</strong>, where progress is shown rather than described. Oral contact happens continuously, and it is worth more than the written record.</p>
+
+  <div class="card def"><span class="lbl">Definition</span>
+  <p><strong>Holistic Progress Card</strong> &mdash; the official document maintained for each child in an ECCE programme, recording dated evidence of progress across all five developmental domains &mdash; language, physical, cognitive, socio-emotional, and aesthetic-appreciation and creativity &mdash; used to inform the programme and to report to the parent. It carries descriptions of what the child did, not scores.</p>
+  </div>
+
+  <h3 id="s4-4">4.4 Eight Key Standards for Quality ECCE</h3>
+
+  <p>The syllabus asks for a set of <strong>eight key standards</strong> to ensure quality ECCE. They are the criteria against which a programme is judged, and the criteria against which you should judge your own plan. They concern the physical environment, the process, and the people.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table 4.4 &mdash; The Eight Key Standards for Quality ECCE</caption>
+      <thead><tr><th style="width:6%">No.</th><th style="width:26%">Standard</th><th>What quality looks like in practice</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><strong>Safe and secure environment</strong></td><td>The building, furniture and material are safe; the fence, the well and any water point are secured; staff know emergency procedure and the centre&rsquo;s address is on record with the nearest health facility.</td></tr>
+        <tr><td>2</td><td><strong>Health and nutrition</strong></td><td>Children are checked on admission; growth is monitored monthly; drinking water, sanitation and a midday meal are provided; absence is followed up and referred.</td></tr>
+        <tr><td>3</td><td><strong>Developmentally appropriate curriculum</strong></td><td>Activities match the age; the five domains are covered; nothing is taught formally or ahead of the child&rsquo;s capacity; play and activity carry the programme.</td></tr>
+        <tr><td>4</td><td><strong>Learning through play and activity</strong></td><td>Children have long periods of free and guided play, with materials they reach themselves; the teacher intervenes to extend rather than to instruct.</td></tr>
+        <tr><td>5</td><td><strong>Trained and adequate staff</strong></td><td>Every teacher is trained in early childhood care and education, is present in the room and is not distracted by other duties; adult&ndash;child ratio is maintained.</td></tr>
+        <tr><td>6</td><td><strong>Family and community partnership</strong></td><td>Parents are known, visited, and welcomed; their knowledge of the child is recorded; the community is used as a resource.</td></tr>
+        <tr><td>7</td><td><strong>Inclusive programme</strong></td><td>Every child is welcome regardless of disability, gender, language, caste, religion or income; the physical space and the material allow for every child to participate.</td></tr>
+        <tr><td>8</td><td><strong>Continuous assessment and improvement</strong></td><td>Progress is observed, recorded on the card, and used to change the programme; records and registers are complete and available; the centre reviews its own practice and acts on what it finds.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Read together, the eight standards are a description of one thing: <strong>a programme that keeps the child safe, keeps the child fed, keeps the child playing, and pays attention to what the child can now do.</strong> A centre that satisfies standard 8 while failing standard 5 is documenting bad practice; one that satisfies 1&ndash;5 without 6 has not yet involved the community it draws on.</p>
+</section>
+
+<div class="review">
+  <h4>Unit 4 Quick Review</h4>
+  <h5>Key Points</h5>
+  <ul class="bul">
+    <li>Assessment in ECCE is continuous, observation-based, play-based, holistic, qualitative and developmental &mdash; never testing, ranking or selection.</li>
+    <li>The question is what the child can do now that he could not do before.</li>
+    <li>The <strong>Holistic Progress Card</strong> records dated evidence across all five domains; entries describe behaviour, not grades.</li>
+    <li>Registers: admission and enrolment, attendance, and stock and materials.</li>
+    <li>Reporting: begin with a strength, use concrete behaviour, cover all five domains, use the parent&rsquo;s language, never compare children, always include an action for the family.</li>
+    <li>The <strong>eight key standards</strong>: safe environment; health and nutrition; developmentally appropriate curriculum; learning through play; trained staff; family and community partnership; inclusion; continuous assessment and improvement.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p>Observation &middot; Holistic Progress Card &middot; admission register &middot; attendance register &middot; stock register &middot; progress report &middot; parent&ndash;teacher conference &middot; open day &middot; eight key standards &middot; quality ECCE</p>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>What is a Holistic Progress Card? Name four things it records.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Distinguish a record from a report, and a register from a progress card. What is the purpose of each?</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Explain the eight key standards for quality ECCE. For any three of them, describe what quality would actually look like in a rural centre in Assam.</p></div>
+  </div>
+</div>
+
+<!-- ============ PRACTICUM ============ -->
+<section class="unit-body">
+  <h2 id="practicum"><span class="h2num">Practicum &mdash; 10 Marks</span>Practicum Tasks</h2>
+
+  <h3 id="pr-1">Task 1 &mdash; Theme-Based Activities and Materials on the Five Domains</h3>
+
+  <p><strong>What the task is.</strong> Choose one of the official themes &mdash; flowers, vegetables, birds, water, family, transport, community helpers or animals &mdash; and prepare a set of activities, with the materials to go with them, that between them cover all five domains for all-round development.</p>
+
+  <div class="tw tkeep">
+    <table>
+      <thead><tr><th style="width:20%">Step</th><th>What to do</th></tr></thead>
+      <tbody>
+        <tr><td>Choose the theme</td><td>One theme only, taken from the official list, and chosen for what the children around you already know</td></tr>
+        <tr><td>Set the concepts</td><td>Three or four ideas the theme can carry, stated as concepts and not as activities</td></tr>
+        <tr><td>Plan the activities</td><td>At least one activity in each of the five domains: language, physical, cognitive, socio-emotional, aesthetic-appreciation and creativity</td></tr>
+        <tr><td>List the materials</td><td>Every item, with quantity, and a note of anything you must make yourself &mdash; low-cost, locally available, no imported items</td></tr>
+        <tr><td>Sequence</td><td>The order the activities will run in, and how long each will take</td></tr>
+        <tr><td>Record</td><td>What you will write down while the activity runs, in which domain &mdash; this is the raw material of the progress card</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p><strong>What to submit.</strong> A theme folder containing: the theme and its concepts; the activity plan across five domains, in a table; the material list; a diagram or photograph of the prepared materials; and a note of the record-keeping you will do.</p>
+
+  <p><strong>Precautions.</strong> Materials must be safe, non-toxic and appropriate for the age &mdash; no beads small enough to swallow, no sharp edges, no water without an adult present. Every activity must be possible with what a rural centre can actually obtain.</p>
+
+  <h3 id="pr-2">Task 2 &mdash; A Programme Schedule for All-Round Development</h3>
+
+  <p><strong>What the task is.</strong> Prepare a programme schedule &mdash; a daily and weekly timetable &mdash; for a class of three- to six-year-old children, showing how all five domains are developed across the day, the week and the year.</p>
+
+  <div class="tw tkeep">
+    <table>
+      <thead><tr><th style="width:20%">Step</th><th>What to do</th></tr></thead>
+      <tbody>
+        <tr><td>Fix the daily rhythm</td><td>Arrival and free play &rarr; circle time &rarr; snack &rarr; outdoor activity &rarr; rest &rarr; group activity &rarr; story and song &rarr; departure</td></tr>
+        <tr><td>Allocate the domains</td><td>Show, hour by hour, where each of the five domains is being developed &mdash; usually embedded in the same activity rather than in a separate period</td></tr>
+        <tr><td>Build the week</td><td>Vary the material across the days so that the same activity is not repeated; build in outdoor time, rest and a wet-weather plan</td></tr>
+        <tr><td>Build the year</td><td>Term-wise plan, with the local season, the local festivals, the agricultural calendar and the child&rsquo;s age group as the frame</td></tr>
+        <tr><td>State the staffing</td><td>The number of adults, the adult&ndash;child ratio, and who does what</td></tr>
+        <tr><td>State the assessment point</td><td>Where observation happens in the day and who records it</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p><strong>What to submit.</strong> A timetable sheet for a normal week, a term plan on one page, and a short note on how the schedule serves all-round development &mdash; the last is what earns the marks, because a timetable alone shows only organisation.</p>
+
+  <p><strong>Precautions.</strong> Keep at least one long uninterrupted free-play period in the day. Do not schedule formal instruction. Check the schedule against the six planning principles in 3.1 and against the eight standards in 4.4 before you submit it.</p>
+
+  <h3 id="pr-3">Task 3 &mdash; Developing and Using Age-Appropriate Learning Materials</h3>
+
+  <p><strong>What the task is.</strong> Make, or adapt, low-cost learning materials for the theme you chose in Task 1, and use them with children. This is the material-development task the syllabus links to the internship period.</p>
+
+  <div class="tw tkeep">
+    <table>
+      <thead><tr><th style="width:20%">Step</th><th>What to do</th></tr></thead>
+      <tbody>
+        <tr><td>Identify the need</td><td>Which domain and which concept the material serves; what is currently missing</td></tr>
+        <tr><td>Make or adapt it</td><td>From local, low-cost materials &mdash; cardboard, bottle caps, stones, cloth, seeds, an empty container, the <em>din</em>&rsquo;s discarded newspaper</td></tr>
+        <tr><td>Try it out</td><td>Use it with a real group of children; note what they did with it, including what they did that you had not planned</td></tr>
+        <tr><td>Modify it</td><td>Change it on the evidence of that use, and record what you changed and why</td></tr>
+        <tr><td>Photograph and document</td><td>One photograph of the material in use with children; a short note on the learning it produced</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p><strong>Precautions.</strong> Nothing small enough to swallow, nothing sharp, nothing toxic, nothing that needs a supply the centre cannot keep. The material must be strong enough to survive being handled by four-year-olds.</p>
+</section>
+
+<!-- ============ SIP ============ -->
+<section class="unit-body">
+  <h2 id="sip"><span class="h2num">School Internship</span>SIP Activities</h2>
+
+  <p>The syllabus sets out two SIP activities for this subject, and states the essence of the approach in two phrases: <strong>integrated learning</strong> and <strong>learning by doing</strong>. It also states the purpose plainly &mdash; through the theme-based project the child gathers concrete experiences of the environment, and the activities must give the child scope to nurture curiosity, creativity and the joy of learning.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table S.1 &mdash; SIP Activities and What Each Requires</caption>
+      <thead><tr><th style="width:24%">Activity</th><th>What the intern does</th><th style="width:28%">What is recorded or submitted</th></tr></thead>
+      <tbody>
+        <tr><td><strong>1. Theme-based project</strong><br>Choose from flowers, vegetables, birds, water, family, transport, community helpers, animals</td><td>Select <strong>one</strong> theme. Prepare activities on that theme covering <strong>all domains</strong>. Plan the sequence and the materials. Run the activities with the children during the internship.</td><td>The theme plan; the list of materials; the dated record of what the children did on each activity; a report of what they learned and what you would change</td></tr>
+        <tr><td><strong>2. Age-appropriate learning materials</strong></td><td>Develop or adapt materials suitable for the children&rsquo;s age, and use the <em>same</em> materials in the internship period &mdash; not a demonstration set kept for the institute.</td><td>The material itself; a photograph of it in use; a note on the learning it produced and on how it was modified after use</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>The official example, worked through &mdash; the theme <em>Flower</em></h4>
+
+  <p>The syllabus illustrates the approach with the theme <em>flower</em>. Activities that a teacher may plan, on the basis of concrete experience:</p>
+
+  <ul class="bul">
+    <li>exploring the flower on the basis of its size, colour and smell;</li>
+    <li>singing rhymes and songs about the flower;</li>
+    <li>listening to, and narrating, stories about flowers;</li>
+    <li>organising a visit to a flower garden;</li>
+    <li>activities for concept formation, classification, seriation and matching;</li>
+    <li>colouring and painting.</li>
+  </ul>
+
+  <p>Note what the list does. Every item is an <strong>experience</strong>, not an explanation. &ldquo;Explore the flower by size, colour and smell&rdquo; is a sequence of actions a child performs; &ldquo;learn the parts of a flower&rdquo; is a lesson, and it belongs to a later stage. Copying the shape of the list onto your own theme gives you the method; the content has to come from the children in front of you.</p>
+
+  <p>The syllabus also makes two points that are worth remembering as instructions rather than as advice. The activities are <em>meant to acquaint the student-teacher with the school process</em>, so the internship is a training opportunity and not only a service to the school. And the activities are conducted <strong>internally by the faculty</strong> during the course, before the internship proper.</p>
+</section>
+
+<!-- ============ INTERNAL ASSESSMENT ============ -->
+<section class="unit-body">
+  <h2 id="internal"><span class="h2num">Internal Assessment &mdash; 15 Marks</span>Internal Assessment</h2>
+
+  <div class="tw tkeep">
+    <table>
+      <caption>Table I.1 &mdash; Internal Assessment</caption>
+      <thead><tr><th>Component</th><th>Marks</th><th>Basis</th></tr></thead>
+      <tbody>
+        <tr><td>Practicum</td><td><strong>10</strong></td><td>Task 1, Task 2 and Task 3 above, submitted as a portfolio</td></tr>
+        <tr><td>Unit test</td><td><strong>5</strong></td><td>Written test on the four units</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>15</strong></td><td>&mdash;</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Three of the thirty-five external marks of this paper are practical, and the internal component is fifteen of the fifty. Practicum work is assessed on the plan, the materials, the use made of them with children, and the record kept &mdash; not on how the finished product looks.</p>
+</section>
+
+<!-- ============ QUICK SUBJECT REVISION ============ -->
+<section class="unit-body">
+  <h2 id="revision"><span class="h2num">Revision</span>Quick Subject Revision</h2>
+
+  <h3>Unit-wise Key Facts</h3>
+
+  <ul class="bul">
+    <li><strong>Unit 1.</strong> ECCE is care plus education for the three-to-six group, before and into Grade 1. The foundation stage under NEP 2020 is three to eight years: Bal Vatika (3&ndash;4) plus Grades 1&ndash;2 (5&ndash;8). Five domains: language, physical, cognitive, socio-emotional, and aesthetic-appreciation and creativity. Holistic development means all five, and the family is the first school. Agencies: Anganwadi (ICDS), pre-primary and primary schools, cr&egrave;ches, play schools, and the family.</li>
+    <li><strong>Unit 2.</strong> Free play (child directs), guided play (shared purpose), structured play (teacher directs) &mdash; the difference is who directs; a good day has all three. Open-ended toy over closed toy. Inquiry-based learning has four elements: questioning, observation, exploration, experience. Songs, rhymes, art and craft: the process is the point. Curricular issues: multilingualism, inclusion, gender, equality, the adverse effects of early formal instruction, school readiness.</li>
+    <li><strong>Unit 3.</strong> Planning principles: developmentally appropriate, holistic, contextualised, play- and activity-based, child-centred and inclusive, flexible and cyclical. Management means managing conditions, not children. Groups of four to six; whole-class instruction does not belong below six. Theme planning: thread, concepts, concrete experiences first, five domains, then sequence. Parents are partners with knowledge.</li>
+    <li><strong>Unit 4.</strong> Assessment is continuous, observation-based, play-based, holistic, qualitative and developmental &mdash; never testing or ranking. Holistic Progress Card: dated evidence across all five domains, behaviour not grade. Registers: admission, attendance, stock. Reporting begins with a strength, never compares children, always ends in an action for the family. Eight standards: safe environment; health and nutrition; appropriate curriculum; learning through play; trained staff; family and community partnership; inclusion; continuous assessment and improvement.</li>
+  </ul>
+
+  <h3>Essential Definitions</h3>
+
+  <ul class="bul">
+    <li><strong>ECCE</strong> &mdash; an integrated programme of care, education and development for children from birth to six years, delivered through play, activity and interaction rather than formal instruction.</li>
+    <li><strong>Foundational stage</strong> &mdash; the five-year stage from three to eight years defined by NEP 2020, comprising three years of anganwadi or pre-primary followed by Grades 1 and 2.</li>
+    <li><strong>Free play</strong> &mdash; play in which the child alone chooses the goal, the materials and the duration.</li>
+    <li><strong>Guided play</strong> &mdash; play in which an adult and the child share the purpose, the adult intervening to extend the play without directing it.</li>
+    <li><strong>Structured play</strong> &mdash; play directed by the adult, who sets the goal and the rules.</li>
+    <li><strong>School readiness</strong> &mdash; the physical, social, emotional, language-cognitive and approach-to-learning competencies needed to benefit from school; a continuum, not early reading and writing.</li>
+    <li><strong>Holistic Progress Card</strong> &mdash; the official child-level record of dated progress across all five domains, used to inform the programme and report to the parent.</li>
+    <li><strong>Theme</strong> &mdash; a subject broad enough to be explored from several directions and narrow enough to hold attention, planned across all five domains.</li>
+  </ul>
+
+  <h3>Important Names, Terms and Facts</h3>
+
+  <ul class="bul">
+    <li><strong>Five domains:</strong> language &middot; physical &middot; cognitive &middot; socio-emotional &middot; aesthetic-appreciation and creativity.</li>
+    <li><strong>Four elements of inquiry-based learning:</strong> questioning &middot; observation &middot; exploration &middot; experience.</li>
+    <li><strong>Three registers:</strong> admission and enrolment &middot; attendance &middot; stock and materials.</li>
+    <li><strong>Official SIP themes:</strong> flowers, vegetables, birds, water, family, transport, community helpers, animals.</li>
+    <li><strong>Adult&ndash;child ratio</strong> in a supervised outdoor session: about one adult to ten children.</li>
+    <li><strong>Equality is the floor; equity is the ceiling.</strong></li>
+    <li><strong>Internal assessment:</strong> practicum 10 + unit test 5 = 15.</li>
+  </ul>
+
+  <h3>Official Themes and Practicum Essentials</h3>
+
+  <ul class="bul">
+    <li>Every theme plan must cover all five domains, and every activity must begin with a <strong>concrete experience</strong>.</li>
+    <li>Practicum Task 1 &mdash; theme-based activities and materials on the five domains. Task 2 &mdash; programme schedule for all-round development. Task 3 &mdash; develop and use age-appropriate learning materials.</li>
+    <li>SIP Activity 1 &mdash; theme-based project covering all domains. Activity 2 &mdash; develop age-appropriate learning materials and use the same in the internship period.</li>
+    <li>The essence of both: <strong>integrated learning</strong> and <strong>learning by doing</strong>.</li>
+  </ul>
+</section>
+
+<!-- ============ IMPORTANT DIFFERENCES ============ -->
+<section class="unit-body">
+  <h2 id="differences"><span class="h2num">Exam Aid</span>Important Differences</h2>
+
+  <div class="tw">
+    <table>
+      <caption>Table D.1 &mdash; Comparisons Examiners Ask For</caption>
+      <thead><tr><th style="width:26%">Term</th><th>Distinguished from</th><th style="width:36%">The distinction</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Care</strong></td><td>Education</td><td>Care meets the body&rsquo;s needs &mdash; nutrition, health, safety, care of the body. Education meets the mind&rsquo;s &mdash; language, numbers, enquiry, the world. ECCE is the only stage where they are deliberately inseparable.</td></tr>
+        <tr><td><strong>Free play</strong></td><td>Guided play</td><td>Who sets the goal. The child in free play; a shared purpose with an adult in guided play.</td></tr>
+        <tr><td><strong>Guided play</strong></td><td>Structured play</td><td>Who holds the control. Guided play is extended by an adult from the child&rsquo;s own aim; structured play has an adult&rsquo;s aim, rules and expected outcome from the start.</td></tr>
+        <tr><td><strong>Open-ended toy</strong></td><td>Closed toy</td><td>How many uses it permits. An open-ended material can be used in many ways and admits a child&rsquo;s own idea; a closed toy has one or two intended uses and a right result.</td></tr>
+        <tr><td><strong>Play</strong></td><td>Work</td><td>Not the presence of effort but who sets the goal, and whether the result is the point. A child building a tower of blocks for an hour is working.</td></tr>
+        <tr><td><strong>Inclusive</strong></td><td>Selective / segregated</td><td>Inclusion designs the space, the material and the activity so that every child participates. A special class in a separate building is not inclusion, however well run.</td></tr>
+        <tr><td><strong>Inclusion</strong></td><td>Integration</td><td>Integration asks an existing child to adapt to the setting. Inclusion asks the setting to adapt to the child.</td></tr>
+        <tr><td><strong>Equality</strong></td><td>Equity</td><td>Equality gives everyone the same. Equity gives each what each needs in order to reach the same. Equality is the floor; equity is the ceiling.</td></tr>
+        <tr><td><strong>School readiness</strong></td><td>Early formal instruction</td><td>Readiness is a set of broad competencies a child brings to school. Formal instruction is teaching school subjects early. Confusing the two produces the first and wrongly declares the second to be the aim.</td></tr>
+        <tr><td><strong>Assessment</strong></td><td>Testing</td><td>Testing measures against a standard, in a designed situation, and produces a number. Assessment observes what a child can already do, in ordinary activity, and produces a description.</td></tr>
+        <tr><td><strong>Record</strong></td><td>Report</td><td>A record is kept by the centre for the centre. A report reaches the family and the community and is written to change what they do.</td></tr>
+        <tr><td><strong>Record</strong></td><td>Register</td><td>A record describes a child&rsquo;s development. A register is a list &mdash; of children, of attendance, of stock &mdash; kept for administration and inspection.</td></tr>
+        <tr><td><strong>Progress card entry</strong></td><td>Grade</td><td>An entry carries a date and a behaviour. A grade carries neither, and tells nobody what to do on Monday.</td></tr>
+        <tr><td><strong>Theme</strong></td><td>Activity</td><td>A theme holds many activities and spans all five domains. An activity is one event inside it.</td></tr>
+        <tr><td><strong>ECCE</strong></td><td>Primary education</td><td>Play and activity carry the programme, assessment is descriptive, and no subject is taught formally. In primary education, attainment is taught, assessed and reported.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ COURSE INFORMATION ============ -->
+<section class="unit-body">
+  <h2 id="courseinfo"><span class="h2num">Back Matter</span>Course Information</h2>
+
+  <p>This section carries the administrative detail that a student needs for the award and for the internship, and that the official curriculum-syllabus states in full. It is placed at the end so that it never stands between the reader and Unit 1.</p>
+
+  <h3 id="ci-objectives">Course Objectives</h3>
+
+  <p>On completing this course the student-teacher should be able to:</p>
+
+  <ul class="bul">
+    <li>explain the meaning, concept, significance and nature of early childhood care and education, and the agencies involved in it;</li>
+    <li>describe the domains of child development and the factors &mdash; home, community and school &mdash; that influence holistic development;</li>
+    <li>use play- and activity-based methods, including toy-based, inquiry-based, and learning through songs, rhymes, art and craft, to plan for the five domains;</li>
+    <li>address the curricular issues in ECCE &mdash; multilingualism, inclusion, gender, equality, the adverse effects of early formal instruction, and school readiness;</li>
+    <li>plan and manage an ECCE classroom, and design theme-based activities on a holistic approach;</li>
+    <li>plan parental and community involvement in the programme;</li>
+    <li>apply the principles of assessment and reporting, maintain records and registers including the Holistic Progress Card, and set the eight standards for quality ECCE;</li>
+    <li>prepare theme-based activities, a programme schedule and age-appropriate learning materials, and carry out the SIP activities.</li>
+  </ul>
+
+  <h3 id="ci-transaction">Mode of Transaction</h3>
+
+  <p>Three to four periods a week, delivered by the following methods, as instructed in the curriculum:</p>
+
+  <div class="tw tkeep">
+    <table>
+      <thead><tr><th style="width:34%">Method</th><th>What it looks like for this paper</th></tr></thead>
+      <tbody>
+        <tr><td>Discussion and debate</td><td>On curricular issues: formal instruction, school readiness, inclusion, the language of the classroom</td></tr>
+        <tr><td>Seminar and workshop</td><td>On a theme, with materials prepared and used &mdash; the core of the practicum</td></tr>
+        <tr><td>Field trip</td><td>To an anganwadi, a creche, a play school or a primary school, to see a programme actually running</td></tr>
+        <tr><td>Case study</td><td>Of one child over time, or of one centre &mdash; the observation record used in assessment</td></tr>
+        <tr><td>Preparation and demonstration of learning materials</td><td>Materials made by the student-teachers and then demonstrated in use</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="ci-assessment">Assessment Structure</h3>
+
+  <div class="tw tkeep">
+    <table>
+      <thead><tr><th>Component</th><th>Marks</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>Theory examination</td><td>35</td><td>Four units, as set out in this note</td></tr>
+        <tr><td>Practicum</td><td>10</td><td>Three tasks; assessed on plan, materials, use and record</td></tr>
+        <tr><td>Unit test</td><td>5</td><td>Internal</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>50</strong></td><td>2 credits</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ FACULTY / MENTOR NOTES ============ -->
+<section class="unit-body">
+  <h2 id="faculty"><span class="h2num">Back Matter</span>Notes for Faculty and Mentors</h2>
+
+  <p>The curriculum carries the following instructions for those conducting the course. They are reproduced here because they govern how the practicum and the SIP activities are actually run.</p>
+
+  <ul class="bul">
+    <li>Topic transaction will include <strong>discussion and debate; seminar or workshop; field trip; case study; and preparation and demonstration of learning materials</strong>.</li>
+    <li>The faculty will <strong>conduct the SIP theme-based activities internally</strong>, before the internship period.</li>
+    <li>Student-teachers select one theme-based project and prepare activities on it covering all domains, working by <strong>integrated learning</strong> and <strong>learning by doing</strong>.</li>
+    <li>Student-teachers prepare <strong>age-appropriate learning materials</strong> and use the same materials in the internship period.</li>
+    <li>The activities must give children scope to <strong>nurture curiosity, creativity and the joy of learning</strong>, and must secure concrete experiences of their environment.</li>
+    <li>The activities are also meant to acquaint the student-teacher with the <strong>school process</strong>.</li>
+  </ul>
+</section>
+
+<!-- ============ SUGGESTED READINGS ============ -->
+<section class="unit-body">
+  <h2 id="readings"><span class="h2num">Back Matter</span>Suggested Readings</h2>
+
+  <ul class="bul">
+    <li>The National ECCE Curriculum Framework (NECCECF), Ministry of Women and Child Development, Government of India.</li>
+    <li><em>National Early Childhood Care and Education Policy</em>, 2013, Ministry of Women and Child Development.</li>
+    <li><em>Early Childhood Care and Education &mdash; A Way Forward</em>, NCERT.</li>
+    <li><em>Exemplar Guidelines for Implementation of Early Childhood Care and Education (ECCE) Curriculum</em>, NCERT.</li>
+    <li><em>Early Childhood Education Programme</em>, NCERT.</li>
+    <li>Yash Pal, <em>Learning without Borders</em>.</li>
+    <li>NCF for the Elementary Stage, and NEP 2020, for the foundation-stage framework.</li>
+    <li>UNICEF and the UN Convention on the Rights of the Child, for the rights basis of the stage &mdash; <span class="sc-code">childrensrights.ie/childrens-rights-ireland/un-convention-rights-child</span>.</li>
+    <li>SCERT Assam, <em>D.El.Ed. (PSTE) Revised Curriculum-Syllabus 2024</em>, for the official unit structure and marks.</li>
+  </ul>
+</section>
+</article>
+</body>
+</html>

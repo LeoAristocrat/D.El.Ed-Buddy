@@ -4,15 +4,7 @@ import courses from '../data/courses.json';
 import CourseCard from '../components/CourseCard.astro';
 import StudyFolio from '../components/StudyFolio.astro';
 import Icon from '../components/Icon.astro';
-import {resourceTypes} from '../data/site';
-const formats = [
-  {icon:'book',description:'A focused read, without the overwhelm.'},
-  {icon:'layers',description:'The full picture, topic by topic.'},
-  {icon:'image',description:'A whole unit. One visual.'},
-  {icon:'list',description:'Check what has actually clicked.'},
-  {icon:'questions',description:'Work through the questions that matter.'},
-  {icon:'paper',description:'Get familiar with the paper.'},
-];
+import {studyFormats} from '../data/site';
 ---
 <Layout>
 <div class="home-intro">
@@ -37,7 +29,7 @@ const formats = [
 </section>
 <section class="wrap section" data-reveal>
   <div class="section-heading"><div><span class="eyebrow">02 / MAKE IT YOUR STUDY SESSION</span><h2>Your pace. Your way<span class="accent-dot">.</span></h2></div><a href="/materials/" class="text-link">Browse materials <Icon name="arrow-up-right" size={17}/></a></div>
-  <div class="format-grid home-formats">{resourceTypes.map((type,i)=><a href={`/materials/?type=${encodeURIComponent(type)}`}><span class="format-icon"><Icon name={formats[i].icon} size={25}/></span><span class="format-copy"><strong>{type}</strong><small>{formats[i].description}</small></span><Icon name="arrow-up-right" size={18}/></a>)}</div>
+  <div class="format-grid home-formats">{studyFormats.map(({type,icon,description})=><a href={`/materials/?type=${encodeURIComponent(type)}`}><span class="format-icon"><Icon name={icon} size={25}/></span><span class="format-copy"><strong>{type}</strong><small>{description}</small></span><Icon name="arrow-up-right" size={18}/></a>)}</div>
 </section>
 <section class="wrap section" data-reveal><div class="official-strip"><div><span class="eyebrow">STRAIGHT FROM THE SOURCE</span><h3>SCERT Assam · Official curriculum</h3><p>The source behind every course outline here.</p></div><a class="text-link" href="/resources/">Official resources <Icon name="arrow-up-right" size={18}/></a></div></section>
 <section class="wrap section" aria-labelledby="home-support-title" data-reveal><div class="home-support"><span class="support-mark" aria-hidden="true"><Icon name="coffee" size={40}/></span><div><span class="eyebrow">A STUDENT-BUILT PROJECT</span><h2 id="home-support-title">Finding this useful?</h2><p>Help with the costs of keeping D.El.Ed Buddy running. No pressure.</p></div><a class="button secondary" href="/about/#support">Support the project <Icon name="arrow-up-right" size={18}/></a></div></section>

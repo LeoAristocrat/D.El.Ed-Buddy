@@ -1,0 +1,4201 @@
+{
+  "sourceSha256": "8715c2bb605177ce2d74ecf0e0281667e6028a6fd4fa09c32cfb49530cd88e8e",
+  "applied": [
+    {
+      "targetId": "s1-1-2026-1-a",
+      "sourceId": "S1.1_m12-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2026-1-b",
+      "sourceId": "S1.1_m12-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2026-1-c",
+      "sourceId": "S1.1_m12-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2026-1-d",
+      "sourceId": "S1.1_m12-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2026-1-e",
+      "sourceId": "S1.1_m12-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-1-i",
+      "sourceId": "S1.1_m12-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-021",
+        "S1.1_m12-027",
+        "S1.1_m12-029",
+        "S1.1_m12-040"
+      ]
+    },
+    {
+      "targetId": "s1-1-2023-1-b",
+      "sourceId": "S1.1_m12-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-023"
+      ]
+    },
+    {
+      "targetId": "s1-1-2025-1-a",
+      "sourceId": "S1.1_m12-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-1-b",
+      "sourceId": "S1.1_m12-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-1-c",
+      "sourceId": "S1.1_m12-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-1-d",
+      "sourceId": "S1.1_m12-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-1-e",
+      "sourceId": "S1.1_m12-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-1-f",
+      "sourceId": "S1.1_m12-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-1-g",
+      "sourceId": "S1.1_m12-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2024-1-a",
+      "sourceId": "S1.1_m12-015",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2024-1-b",
+      "sourceId": "S1.1_m12-016",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-1-h",
+      "sourceId": "S1.1_m12-017",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-039"
+      ]
+    },
+    {
+      "targetId": "s1-1-2024-1-d",
+      "sourceId": "S1.1_m12-018",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2024-1-e",
+      "sourceId": "S1.1_m12-019",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-1-f",
+      "sourceId": "S1.1_m12-020",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-037"
+      ]
+    },
+    {
+      "targetId": "s1-1-2023-1-a",
+      "sourceId": "S1.1_m12-022",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-1-c",
+      "sourceId": "S1.1_m12-024",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-1-d",
+      "sourceId": "S1.1_m12-025",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-1-e",
+      "sourceId": "S1.1_m12-026",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2022-1-a",
+      "sourceId": "S1.1_m12-028",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2022-1-c",
+      "sourceId": "S1.1_m12-030",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2022-1-d",
+      "sourceId": "S1.1_m12-031",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-1-a",
+      "sourceId": "S1.1_m12-032",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-1-b",
+      "sourceId": "S1.1_m12-033",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-1-c",
+      "sourceId": "S1.1_m12-034",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-1-d",
+      "sourceId": "S1.1_m12-035",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-1-e",
+      "sourceId": "S1.1_m12-036",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-1-g",
+      "sourceId": "S1.1_m12-038",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-1-j",
+      "sourceId": "S1.1_m12-041",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-2-b",
+      "sourceId": "S1.1_m12-042",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-067"
+      ]
+    },
+    {
+      "targetId": "s1-1-2026-2-b",
+      "sourceId": "S1.1_m12-043",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-2-a",
+      "sourceId": "S1.1_m12-044",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-061"
+      ]
+    },
+    {
+      "targetId": "s1-1-2021-2-c",
+      "sourceId": "S1.1_m12-045",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-068"
+      ]
+    },
+    {
+      "targetId": "s1-1-2023-2-d",
+      "sourceId": "S1.1_m12-046",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-064"
+      ]
+    },
+    {
+      "targetId": "s1-1-2021-3-c",
+      "sourceId": "S1.1_m12-047",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-070"
+      ]
+    },
+    {
+      "targetId": "s1-1-2021-3-d",
+      "sourceId": "S1.1_m12-048",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-054",
+        "S1.1_m12-070"
+      ]
+    },
+    {
+      "targetId": "s1-1-2026-3-c",
+      "sourceId": "S1.1_m12-049",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-3-b",
+      "sourceId": "S1.1_m12-050",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-070"
+      ]
+    },
+    {
+      "targetId": "s1-1-2025-2-a",
+      "sourceId": "S1.1_m12-052",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-2-b",
+      "sourceId": "S1.1_m12-053",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-2-d",
+      "sourceId": "S1.1_m12-055",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-2-e",
+      "sourceId": "S1.1_m12-056",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m12-051"
+      ]
+    },
+    {
+      "targetId": "s1-1-2024-2-a",
+      "sourceId": "S1.1_m12-057",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2024-2-b",
+      "sourceId": "S1.1_m12-058",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2024-2-c",
+      "sourceId": "S1.1_m12-059",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2024-2-d",
+      "sourceId": "S1.1_m12-060",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-2-b",
+      "sourceId": "S1.1_m12-062",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-2-c",
+      "sourceId": "S1.1_m12-063",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-2-e",
+      "sourceId": "S1.1_m12-065",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-2-a",
+      "sourceId": "S1.1_m12-066",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-2-d",
+      "sourceId": "S1.1_m12-069",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-3-c",
+      "sourceId": "S1.1_m3-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m41-008"
+      ]
+    },
+    {
+      "targetId": "s1-1-2025-4",
+      "sourceId": "S1.1_m3-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m3-003"
+      ]
+    },
+    {
+      "targetId": "s1-1-2025-5",
+      "sourceId": "S1.1_m3-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-3-a",
+      "sourceId": "S1.1_m3-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.1_m3-005"
+      ]
+    },
+    {
+      "targetId": "s1-1-2023-3-b",
+      "sourceId": "S1.1_m3-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-3-c",
+      "sourceId": "S1.1_m3-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-3-d",
+      "sourceId": "S1.1_m3-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-3-e",
+      "sourceId": "S1.1_m3-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2022-2",
+      "sourceId": "S1.1_m3-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2022-5",
+      "sourceId": "S1.1_m3-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2022-9",
+      "sourceId": "S1.1_m3-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2022-10",
+      "sourceId": "S1.1_m3-015",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-4-a",
+      "sourceId": "S1.1_m3-017",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-4-b",
+      "sourceId": "S1.1_m3-018",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-4-c",
+      "sourceId": "S1.1_m3-019",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2026-12",
+      "sourceId": "S1.1_m41-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-10",
+      "sourceId": "S1.1_m41-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2024-12",
+      "sourceId": "S1.1_m41-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2026-7",
+      "sourceId": "S1.1_m41-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2026-8",
+      "sourceId": "S1.1_m41-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2026-9",
+      "sourceId": "S1.1_m41-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2026-11",
+      "sourceId": "S1.1_m41-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-6",
+      "sourceId": "S1.1_m41-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2023-5",
+      "sourceId": "S1.1_m41-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-8",
+      "sourceId": "S1.1_m41-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-9",
+      "sourceId": "S1.1_m41-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-10",
+      "sourceId": "S1.1_m41-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-1-a",
+      "sourceId": "S1.2_m12-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.2_m12-018",
+        "S1.2_m12-024"
+      ]
+    },
+    {
+      "targetId": "s1-2-2024-1-c",
+      "sourceId": "S1.2_m12-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.2_m12-013"
+      ]
+    },
+    {
+      "targetId": "s1-2-2026-1-c",
+      "sourceId": "S1.2_m12-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2024-1-d",
+      "sourceId": "S1.2_m12-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.2_m12-014"
+      ]
+    },
+    {
+      "targetId": "s1-2-2026-1-e",
+      "sourceId": "S1.2_m12-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-1-a",
+      "sourceId": "S1.2_m12-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-1-b",
+      "sourceId": "S1.2_m12-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-1-c",
+      "sourceId": "S1.2_m12-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-1-d",
+      "sourceId": "S1.2_m12-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-1-e",
+      "sourceId": "S1.2_m12-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2024-1-b",
+      "sourceId": "S1.2_m12-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-1-a",
+      "sourceId": "S1.2_m12-015",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-1-b",
+      "sourceId": "S1.2_m12-016",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-1-c",
+      "sourceId": "S1.2_m12-017",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2022-1-a",
+      "sourceId": "S1.2_m12-019",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2022-1-b",
+      "sourceId": "S1.2_m12-020",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2022-1-c",
+      "sourceId": "S1.2_m12-021",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2022-1-d",
+      "sourceId": "S1.2_m12-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.2_m12-022"
+      ]
+    },
+    {
+      "targetId": "s1-2-2022-1-e",
+      "sourceId": "S1.2_m12-023",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-1-b",
+      "sourceId": "S1.2_m12-025",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-1-c",
+      "sourceId": "S1.2_m12-026",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-1-d",
+      "sourceId": "S1.2_m12-027",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2026-2-a",
+      "sourceId": "S1.2_m12-028",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2026-2-b",
+      "sourceId": "S1.2_m12-029",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2024-7-b",
+      "sourceId": "S1.2_m12-030",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.2_m12-035"
+      ]
+    },
+    {
+      "targetId": "s1-2-2026-2-d",
+      "sourceId": "S1.2_m12-031",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2026-2-e",
+      "sourceId": "S1.2_m12-032",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-2",
+      "sourceId": "S1.2_m12-033",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2022-3-a",
+      "sourceId": "S1.2_m12-037",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2022-3-b",
+      "sourceId": "S1.2_m12-038",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-2",
+      "sourceId": "S1.2_m12-039",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-3",
+      "sourceId": "S1.2_m3-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-4",
+      "sourceId": "S1.2_m3-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2024-8",
+      "sourceId": "S1.2_m4-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.2_m3-003"
+      ]
+    },
+    {
+      "targetId": "s1-2-2025-6",
+      "sourceId": "S1.2_m3-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2024-3",
+      "sourceId": "S1.2_m3-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2022-5",
+      "sourceId": "S1.2_m4-019",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.2_m3-006"
+      ]
+    },
+    {
+      "targetId": "s1-2-2023-4",
+      "sourceId": "S1.2_m3-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-5",
+      "sourceId": "S1.2_m3-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-7",
+      "sourceId": "S1.2_m3-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-8",
+      "sourceId": "S1.2_m3-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-4",
+      "sourceId": "S1.2_m3-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-5",
+      "sourceId": "S1.2_m3-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-6",
+      "sourceId": "S1.2_m3-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2026-3",
+      "sourceId": "S1.2_m4-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2026-4",
+      "sourceId": "S1.2_m4-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2024-2",
+      "sourceId": "S1.2_m4-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.2_m4-009"
+      ]
+    },
+    {
+      "targetId": "s1-2-2026-6",
+      "sourceId": "S1.2_m4-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2026-7",
+      "sourceId": "S1.2_m4-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-7",
+      "sourceId": "S1.2_m4-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-8",
+      "sourceId": "S1.2_m4-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-9",
+      "sourceId": "S1.2_m4-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2024-4",
+      "sourceId": "S1.2_m4-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-9",
+      "sourceId": "S1.2_m4-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.2_m4-023"
+      ]
+    },
+    {
+      "targetId": "s1-2-2024-6",
+      "sourceId": "S1.2_m4-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-2",
+      "sourceId": "S1.2_m4-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-6",
+      "sourceId": "S1.2_m4-015",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-9",
+      "sourceId": "S1.2_m4-016",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2022-2",
+      "sourceId": "S1.2_m4-017",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2022-4",
+      "sourceId": "S1.2_m4-018",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2022-6",
+      "sourceId": "S1.2_m4-020",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2022-7",
+      "sourceId": "S1.2_m4-021",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-8",
+      "sourceId": "S1.2_m4-022",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-10",
+      "sourceId": "S1.2_m4-024",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-1-a",
+      "sourceId": "S1.3_m12-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-005",
+        "S1.3_m12-012",
+        "S1.3_m12-026"
+      ]
+    },
+    {
+      "targetId": "s1-3-2026-1-c",
+      "sourceId": "S1.3_m12-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2024-1-d",
+      "sourceId": "S1.3_m12-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-010",
+        "S1.3_m12-015"
+      ]
+    },
+    {
+      "targetId": "s1-3-2026-1-f",
+      "sourceId": "S1.3_m12-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2025-1-b",
+      "sourceId": "S1.3_m12-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2023-1-a",
+      "sourceId": "S1.3_m12-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-017"
+      ]
+    },
+    {
+      "targetId": "s1-3-2025-1-e",
+      "sourceId": "S1.3_m12-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2024-1-b",
+      "sourceId": "S1.3_m12-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2023-1-b",
+      "sourceId": "S1.3_m12-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-018"
+      ]
+    },
+    {
+      "targetId": "s1-3-2021-1-c",
+      "sourceId": "S1.3_m12-016",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-028"
+      ]
+    },
+    {
+      "targetId": "s1-3-2023-1-d",
+      "sourceId": "S1.3_m12-020",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2023-1-e",
+      "sourceId": "S1.3_m12-021",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2022-1-a",
+      "sourceId": "S1.3_m12-022",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2022-1-b",
+      "sourceId": "S1.3_m12-023",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2022-1-c",
+      "sourceId": "S1.3_m12-024",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2022-1-d",
+      "sourceId": "S1.3_m12-025",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-1-b",
+      "sourceId": "S1.3_m12-027",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-1-d",
+      "sourceId": "S1.3_m12-029",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-1-e",
+      "sourceId": "S1.3_m12-030",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-1-f",
+      "sourceId": "S1.3_m12-031",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2026-2-b",
+      "sourceId": "S1.3_m12-033",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2026-2-c",
+      "sourceId": "S1.3_m12-034",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2026-2-d",
+      "sourceId": "S1.3_m12-035",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2026-2-e",
+      "sourceId": "S1.3_m12-036",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2023-2-b",
+      "sourceId": "S1.3_m12-047",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-037"
+      ]
+    },
+    {
+      "targetId": "s1-3-2026-2-g",
+      "sourceId": "S1.3_m12-038",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2023-2-e",
+      "sourceId": "S1.3_m12-039",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-050"
+      ]
+    },
+    {
+      "targetId": "s1-3-2022-2-c",
+      "sourceId": "S1.3_m12-040",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-055"
+      ]
+    },
+    {
+      "targetId": "s1-3-2022-2-e",
+      "sourceId": "S1.3_m12-041",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-045",
+        "S1.3_m12-057"
+      ]
+    },
+    {
+      "targetId": "s1-3-2025-2-d",
+      "sourceId": "S1.3_m12-042",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-2-a",
+      "sourceId": "S1.3_m12-043",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-053",
+        "S1.3_m12-058"
+      ]
+    },
+    {
+      "targetId": "s1-3-2021-2-d",
+      "sourceId": "S1.3_m12-044",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-056",
+        "S1.3_m12-061"
+      ]
+    },
+    {
+      "targetId": "s1-3-2023-2-a",
+      "sourceId": "S1.3_m12-046",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2023-2-c",
+      "sourceId": "S1.3_m12-048",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-2-b",
+      "sourceId": "S1.3_m12-049",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m12-059"
+      ]
+    },
+    {
+      "targetId": "s1-3-2023-2-f",
+      "sourceId": "S1.3_m12-051",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2023-2-g",
+      "sourceId": "S1.3_m12-052",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2022-2-b",
+      "sourceId": "S1.3_m12-054",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-2-c",
+      "sourceId": "S1.3_m12-060",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-2-e",
+      "sourceId": "S1.3_m12-062",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-2-f",
+      "sourceId": "S1.3_m12-063",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2026-3-b",
+      "sourceId": "S1.3_m3-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2026-3-c",
+      "sourceId": "S1.3_m3-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2026-3-d",
+      "sourceId": "S1.3_m3-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2025-3",
+      "sourceId": "S1.3_m3-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2025-5",
+      "sourceId": "S1.3_m3-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2025-6",
+      "sourceId": "S1.3_m3-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2022-3-c",
+      "sourceId": "S1.3_m3-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.3_m3-014"
+      ]
+    },
+    {
+      "targetId": "s1-3-2024-7",
+      "sourceId": "S1.3_m3-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2024-9",
+      "sourceId": "S1.3_m3-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2022-3-a",
+      "sourceId": "S1.3_m3-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2022-3-b",
+      "sourceId": "S1.3_m3-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2022-3-d",
+      "sourceId": "S1.3_m3-015",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-3",
+      "sourceId": "S1.3_m3-016",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-4",
+      "sourceId": "S1.3_m3-017",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-5",
+      "sourceId": "S1.3_m3-018",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2025-4",
+      "sourceId": "S1.3_m4-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2025-7",
+      "sourceId": "S1.3_m4-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2025-8",
+      "sourceId": "S1.3_m4-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2024-4",
+      "sourceId": "S1.3_m4-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2024-5",
+      "sourceId": "S1.3_m4-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2023-3",
+      "sourceId": "S1.3_m4-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2023-4",
+      "sourceId": "S1.3_m4-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2023-5",
+      "sourceId": "S1.3_m4-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2023-6",
+      "sourceId": "S1.3_m4-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2022-4",
+      "sourceId": "S1.3_m4-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2022-5",
+      "sourceId": "S1.3_m4-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-6",
+      "sourceId": "S1.3_m4-015",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-3-2021-7",
+      "sourceId": "S1.3_m4-016",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-1-a",
+      "sourceId": "S1.5_m12-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-1-b",
+      "sourceId": "S1.5_m12-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-1-c",
+      "sourceId": "S1.5_m12-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-1-d",
+      "sourceId": "S1.5_m12-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-1-a",
+      "sourceId": "S1.5_m12-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.5_m12-015",
+        "S1.5_m12-031"
+      ]
+    },
+    {
+      "targetId": "s1-5-2025-1-f",
+      "sourceId": "S1.5_m12-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-1-g",
+      "sourceId": "S1.5_m12-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-1-h",
+      "sourceId": "S1.5_m12-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-1-i",
+      "sourceId": "S1.5_m12-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-1-j",
+      "sourceId": "S1.5_m12-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-1-b",
+      "sourceId": "S1.5_m12-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.5_m12-025",
+        "S1.5_m12-032"
+      ]
+    },
+    {
+      "targetId": "s1-5-2021-1-d",
+      "sourceId": "S1.5_m12-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.5_m12-034"
+      ]
+    },
+    {
+      "targetId": "s1-5-2024-1-c",
+      "sourceId": "S1.5_m12-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-1-e",
+      "sourceId": "S1.5_m12-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.5_m12-035"
+      ]
+    },
+    {
+      "targetId": "s1-5-2024-1-f",
+      "sourceId": "S1.5_m12-016",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2024-1-g",
+      "sourceId": "S1.5_m12-017",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2024-1-h",
+      "sourceId": "S1.5_m12-018",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2024-1-i",
+      "sourceId": "S1.5_m12-019",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-8-c",
+      "sourceId": "S1.5_m12-020",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-8-d",
+      "sourceId": "S1.5_m12-021",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-8-e",
+      "sourceId": "S1.5_m12-022",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-8-f",
+      "sourceId": "S1.5_m12-023",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-8-g",
+      "sourceId": "S1.5_m12-024",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-1-c",
+      "sourceId": "S1.5_m12-026",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.5_m12-033"
+      ]
+    },
+    {
+      "targetId": "s1-5-2022-1-c",
+      "sourceId": "S1.5_m12-027",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2022-1-d",
+      "sourceId": "S1.5_m12-028",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2022-1-e",
+      "sourceId": "S1.5_m12-029",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2022-1-f",
+      "sourceId": "S1.5_m12-030",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-1-f",
+      "sourceId": "S1.5_m12-036",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-1-g",
+      "sourceId": "S1.5_m12-037",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-1-h",
+      "sourceId": "S1.5_m12-038",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-1-i",
+      "sourceId": "S1.5_m12-039",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-2-a",
+      "sourceId": "S1.5_m12-040",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-2-b",
+      "sourceId": "S1.5_m12-041",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2022-2-c",
+      "sourceId": "S1.5_m12-042",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.5_m12-045",
+        "S1.5_m12-057"
+      ]
+    },
+    {
+      "targetId": "s1-5-2025-2-d",
+      "sourceId": "S1.5_m12-043",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-2-e",
+      "sourceId": "S1.5_m12-044",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2024-2-c",
+      "sourceId": "S1.5_m12-047",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2024-2-d",
+      "sourceId": "S1.5_m12-048",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-2-a",
+      "sourceId": "S1.5_m12-049",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.5_m12-059",
+        "S1.5_m12-054",
+        "S1.5_m12-061"
+      ]
+    },
+    {
+      "targetId": "s1-5-2024-2-f",
+      "sourceId": "S1.5_m12-050",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2024-2-g",
+      "sourceId": "S1.5_m12-051",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-8-a",
+      "sourceId": "S1.5_m12-052",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-8-b",
+      "sourceId": "S1.5_m12-053",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2022-2-a",
+      "sourceId": "S1.5_m12-055",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2022-2-b",
+      "sourceId": "S1.5_m12-056",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-4",
+      "sourceId": "S1.5_m12-058",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.5_m12-063"
+      ]
+    },
+    {
+      "targetId": "s1-5-2021-3",
+      "sourceId": "S1.5_m12-062",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-5",
+      "sourceId": "S1.5_m12-064",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-6",
+      "sourceId": "S1.5_m12-065",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-7",
+      "sourceId": "S1.5_m12-066",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2024-4",
+      "sourceId": "S1.5_m3-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2024-5",
+      "sourceId": "S1.5_m3-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2024-6",
+      "sourceId": "S1.5_m3-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-3",
+      "sourceId": "S1.5_m3-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-4",
+      "sourceId": "S1.5_m3-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-5",
+      "sourceId": "S1.5_m3-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-6",
+      "sourceId": "S1.5_m3-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2022-3",
+      "sourceId": "S1.5_m3-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2022-6",
+      "sourceId": "S1.5_m3-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2022-7",
+      "sourceId": "S1.5_m3-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-8",
+      "sourceId": "S1.5_m3-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-9",
+      "sourceId": "S1.5_m3-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-4",
+      "sourceId": "S1.5_m4-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-5",
+      "sourceId": "S1.5_m4-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2025-6",
+      "sourceId": "S1.5_m4-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-1",
+      "sourceId": "S1.5_m4-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-2",
+      "sourceId": "S1.5_m4-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2022-5",
+      "sourceId": "S1.5_m4-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-10-alternative",
+      "sourceId": "S1.5_m4-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.5_m4-008"
+      ]
+    },
+    {
+      "targetId": "s1-6-2025-1-a",
+      "sourceId": "S1.6_m12-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-1-b",
+      "sourceId": "S1.6_m12-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-1-c",
+      "sourceId": "S1.6_m12-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-1-d",
+      "sourceId": "S1.6_m12-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-1-e",
+      "sourceId": "S1.6_m12-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-1-a",
+      "sourceId": "S1.6_m12-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-1-b",
+      "sourceId": "S1.6_m12-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-1-c",
+      "sourceId": "S1.6_m12-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-1-d",
+      "sourceId": "S1.6_m12-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-1-e",
+      "sourceId": "S1.6_m12-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-1-a",
+      "sourceId": "S1.6_m12-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-1-b",
+      "sourceId": "S1.6_m12-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-1-c",
+      "sourceId": "S1.6_m12-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-1-a",
+      "sourceId": "S1.6_m12-015",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.6_m12-016"
+      ]
+    },
+    {
+      "targetId": "s1-6-2022-1-b",
+      "sourceId": "S1.6_m12-017",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-1-c",
+      "sourceId": "S1.6_m12-018",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-1-d",
+      "sourceId": "S1.6_m12-019",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-1-a",
+      "sourceId": "S1.6_m12-020",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-1-b",
+      "sourceId": "S1.6_m12-021",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-1-c",
+      "sourceId": "S1.6_m12-022",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-1-d",
+      "sourceId": "S1.6_m12-023",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-1-e",
+      "sourceId": "S1.6_m12-024",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-1-f",
+      "sourceId": "S1.6_m12-025",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-1-g",
+      "sourceId": "S1.6_m12-026",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-1-h",
+      "sourceId": "S1.6_m12-027",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-1-i",
+      "sourceId": "S1.6_m12-028",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-1-j",
+      "sourceId": "S1.6_m12-029",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-2-a",
+      "sourceId": "S1.6_m12-030",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-2-b",
+      "sourceId": "S1.6_m12-031",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-2-c",
+      "sourceId": "S1.6_m12-032",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-2-d",
+      "sourceId": "S1.6_m12-033",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-2-e",
+      "sourceId": "S1.6_m12-034",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-2-f",
+      "sourceId": "S1.6_m12-035",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-2-a",
+      "sourceId": "S1.6_m12-036",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-2-b",
+      "sourceId": "S1.6_m12-037",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-2-d",
+      "sourceId": "S1.6_m12-039",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-2-e",
+      "sourceId": "S1.6_m12-040",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-2-a",
+      "sourceId": "S1.6_m12-041",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-2-b",
+      "sourceId": "S1.6_m12-042",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-2-d",
+      "sourceId": "S1.6_m12-044",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-2-e",
+      "sourceId": "S1.6_m12-045",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-2",
+      "sourceId": "S1.6_m12-046",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-3",
+      "sourceId": "S1.6_m12-047",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-4",
+      "sourceId": "S1.6_m12-048",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-2-a",
+      "sourceId": "S1.6_m12-051",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-2-b",
+      "sourceId": "S1.6_m12-052",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-2-c",
+      "sourceId": "S1.6_m12-053",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-2-d",
+      "sourceId": "S1.6_m12-054",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-2-e",
+      "sourceId": "S1.6_m12-055",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-3-a",
+      "sourceId": "S1.6_m3-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-6-alternative",
+      "sourceId": "S1.6_m4-004",
+      "selection": "excerpt",
+      "start": "Second alternative -",
+      "otherCandidateSourceIds": [
+        "S1.6_m4-007",
+        "S1.6_m3-003"
+      ]
+    },
+    {
+      "targetId": "s1-6-2024-3-a",
+      "sourceId": "S1.6_m3-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-10",
+      "sourceId": "S1.6_m3-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.6_m3-013"
+      ]
+    },
+    {
+      "targetId": "s1-6-2023-3-a",
+      "sourceId": "S1.6_m3-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-3-b",
+      "sourceId": "S1.6_m3-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-3-c",
+      "sourceId": "S1.6_m3-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-7",
+      "sourceId": "S1.6_m3-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-8",
+      "sourceId": "S1.6_m3-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-3-a",
+      "sourceId": "S1.6_m3-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-3-b",
+      "sourceId": "S1.6_m3-015",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-3-c",
+      "sourceId": "S1.6_m3-016",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-4",
+      "sourceId": "S1.6_m4-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2025-5",
+      "sourceId": "S1.6_m4-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-4",
+      "sourceId": "S1.6_m4-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-9",
+      "sourceId": "S1.6_m4-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-12",
+      "sourceId": "S1.6_m4-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2025-1-a",
+      "sourceId": "S1.7_m12-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2025-1-b",
+      "sourceId": "S1.7_m12-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2025-1-c",
+      "sourceId": "S1.7_m12-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2025-1-d",
+      "sourceId": "S1.7_m12-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2024-1-a",
+      "sourceId": "S1.7_m12-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2024-1-b",
+      "sourceId": "S1.7_m12-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2024-1-c",
+      "sourceId": "S1.7_m12-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2024-1-d",
+      "sourceId": "S1.7_m12-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2023-1",
+      "sourceId": "S1.7_m12-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2023-2",
+      "sourceId": "S1.7_m12-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2023-3",
+      "sourceId": "S1.7_m12-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2022-1-a",
+      "sourceId": "S1.7_m12-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2022-1-b",
+      "sourceId": "S1.7_m12-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2022-1-c",
+      "sourceId": "S1.7_m12-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2025-2",
+      "sourceId": "S1.7_m12-017",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2025-3",
+      "sourceId": "S1.7_m12-018",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2025-4",
+      "sourceId": "S1.7_m12-019",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2022-1-d",
+      "sourceId": "S1.7_m12-020",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.7_m12-023"
+      ]
+    },
+    {
+      "targetId": "s1-7-2023-4",
+      "sourceId": "S1.7_m12-021",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2023-5",
+      "sourceId": "S1.7_m12-022",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2022-5",
+      "sourceId": "S1.7_m12-024",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2025-5",
+      "sourceId": "S1.7_m3-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2025-6",
+      "sourceId": "S1.7_m3-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2024-3",
+      "sourceId": "S1.7_m3-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2022-2",
+      "sourceId": "S1.7_m3-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2021-4",
+      "sourceId": "S1.7_m3-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2021-5",
+      "sourceId": "S1.7_m3-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2025-7",
+      "sourceId": "S1.7_m4-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2023-7",
+      "sourceId": "S1.7_m4-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2023-8",
+      "sourceId": "S1.7_m4-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2022-3",
+      "sourceId": "S1.7_m4-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2021-2",
+      "sourceId": "S1.7_m4-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2021-3",
+      "sourceId": "S1.7_m4-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2021-6",
+      "sourceId": "S1.7_m4-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2025-1-a",
+      "sourceId": "S1.8_m12-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2025-1-b",
+      "sourceId": "S1.8_m12-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2025-1-c",
+      "sourceId": "S1.8_m12-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2025-1-d",
+      "sourceId": "S1.8_m12-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2025-1-e",
+      "sourceId": "S1.8_m12-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2025-1-f",
+      "sourceId": "S1.8_m12-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2024-1-a",
+      "sourceId": "S1.8_m12-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2021-1-a",
+      "sourceId": "S1.8_m12-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.8_m12-019",
+        "S1.8_m12-017"
+      ]
+    },
+    {
+      "targetId": "s1-8-2023-7-a",
+      "sourceId": "S1.8_m12-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.8_m12-012"
+      ]
+    },
+    {
+      "targetId": "s1-8-2022-2",
+      "sourceId": "S1.8_m12-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.8_m12-018",
+        "S1.8_m12-012"
+      ]
+    },
+    {
+      "targetId": "s1-8-2022-2-alternative",
+      "sourceId": "S1.8_m12-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.8_m12-018"
+      ]
+    },
+    {
+      "targetId": "s1-8-2022-1-a",
+      "sourceId": "S1.8_m12-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2022-1-b",
+      "sourceId": "S1.8_m12-014",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2022-1-c",
+      "sourceId": "S1.8_m12-015",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2022-1-d",
+      "sourceId": "S1.8_m12-016",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2021-1-b",
+      "sourceId": "S1.8_m12-020",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2021-1-c",
+      "sourceId": "S1.8_m12-021",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2025-2-a",
+      "sourceId": "S1.8_m12-022",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2025-2-b",
+      "sourceId": "S1.8_m12-023",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2025-2-c",
+      "sourceId": "S1.8_m12-024",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2025-2-d",
+      "sourceId": "S1.8_m12-025",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2024-2-a",
+      "sourceId": "S1.8_m12-026",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2023-2",
+      "sourceId": "S1.8_m12-027",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.8_m12-030"
+      ]
+    },
+    {
+      "targetId": "s1-8-2024-2-c",
+      "sourceId": "S1.8_m12-028",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2024-2-d",
+      "sourceId": "S1.8_m12-029",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2023-4",
+      "sourceId": "S1.8_m12-031",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2021-5",
+      "sourceId": "S1.8_m12-034",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2021-1-a",
+      "sourceId": "S1.9_m12-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.9_m12-005",
+        "S1.9_m12-008",
+        "S1.9_m12-016"
+      ]
+    },
+    {
+      "targetId": "s1-9-2025-1-b",
+      "sourceId": "S1.9_m12-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2021-1-b",
+      "sourceId": "S1.9_m12-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.9_m12-017"
+      ]
+    },
+    {
+      "targetId": "s1-9-2021-1-d",
+      "sourceId": "S1.9_m12-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.9_m12-019"
+      ]
+    },
+    {
+      "targetId": "s1-9-2022-1-c",
+      "sourceId": "S1.9_m12-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.9_m12-014"
+      ]
+    },
+    {
+      "targetId": "s1-9-2021-1-c",
+      "sourceId": "S1.9_m12-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.9_m12-018"
+      ]
+    },
+    {
+      "targetId": "s1-9-2023-1-b",
+      "sourceId": "S1.9_m12-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2023-1-c",
+      "sourceId": "S1.9_m12-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2023-1-d",
+      "sourceId": "S1.9_m12-011",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2022-1-a",
+      "sourceId": "S1.9_m12-012",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2022-1-b",
+      "sourceId": "S1.9_m12-013",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2022-1-d",
+      "sourceId": "S1.9_m12-015",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2025-3",
+      "sourceId": "S1.9_m12-020",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2025-6",
+      "sourceId": "S1.9_m12-021",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2024-2",
+      "sourceId": "S1.9_m12-023",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2024-5-a",
+      "sourceId": "S1.9_m12-024",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2024-7",
+      "sourceId": "S1.9_m12-025",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2023-3",
+      "sourceId": "S1.9_m12-026",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2022-2",
+      "sourceId": "S1.9_m12-027",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2021-2",
+      "sourceId": "S1.9_m12-029",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2025-2",
+      "sourceId": "S1.9_m3-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2025-5",
+      "sourceId": "S1.9_m3-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2024-6",
+      "sourceId": "S1.9_m3-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2023-5",
+      "sourceId": "S1.9_m3-005",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2022-3",
+      "sourceId": "S1.9_m3-007",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2022-5",
+      "sourceId": "S1.9_m3-008",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2021-3",
+      "sourceId": "S1.9_m3-009",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2021-4",
+      "sourceId": "S1.9_m3-010",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2022-4",
+      "sourceId": "S1.9_m4-001",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": [
+        "S1.9_m4-005"
+      ]
+    },
+    {
+      "targetId": "s1-9-2024-4",
+      "sourceId": "S1.9_m4-002",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2023-2",
+      "sourceId": "S1.9_m4-003",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2023-4",
+      "sourceId": "S1.9_m4-004",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2021-5",
+      "sourceId": "S1.9_m4-006",
+      "selection": "full-answer",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2026-13-a",
+      "sourceId": "S1.1_m12-051",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2026-13-b",
+      "sourceId": "S1.1_m12-051",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2021-3-a",
+      "sourceId": "S1.1_m12-070",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2024-3-b",
+      "sourceId": "S1.1_m3-005",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2024-3-c",
+      "sourceId": "S1.1_m3-005",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2022-15-iv",
+      "sourceId": "S1.1_m3-006",
+      "selection": "label:a",
+      "otherCandidateSourceIds": [
+        "S1.1_m3-016"
+      ]
+    },
+    {
+      "targetId": "s1-1-2024-13-b",
+      "sourceId": "S1.1_m3-006",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2024-13-c",
+      "sourceId": "S1.1_m3-006",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2022-15-i",
+      "sourceId": "S1.1_m3-016",
+      "selection": "label:i",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2022-15-ii",
+      "sourceId": "S1.1_m3-016",
+      "selection": "label:ii",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2022-15-iii",
+      "sourceId": "S1.1_m3-016",
+      "selection": "label:iii",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-3-a",
+      "sourceId": "S1.1_m41-008",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-1-2025-3-d",
+      "sourceId": "S1.1_m41-008",
+      "selection": "label:d",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-10-a",
+      "sourceId": "S1.2_m12-034",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2025-10-b",
+      "sourceId": "S1.2_m12-034",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2024-7-a",
+      "sourceId": "S1.2_m12-035",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2024-7-c",
+      "sourceId": "S1.2_m12-035",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-10-a",
+      "sourceId": "S1.2_m12-036",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-10-b",
+      "sourceId": "S1.2_m12-036",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2023-10-c",
+      "sourceId": "S1.2_m12-036",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-3-i",
+      "sourceId": "S1.2_m3-011",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-2-2021-3-b",
+      "sourceId": "S1.2_m3-011",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-7-c",
+      "sourceId": "S1.5_m12-054",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-7-d",
+      "sourceId": "S1.5_m12-054",
+      "selection": "label:d",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2023-7-e",
+      "sourceId": "S1.5_m12-054",
+      "selection": "label:e",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-2-b",
+      "sourceId": "S1.5_m12-061",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-2-c",
+      "sourceId": "S1.5_m12-061",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-2-f",
+      "sourceId": "S1.6_m12-056",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-2-f-alternative",
+      "sourceId": "S1.6_m12-056",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-4-a",
+      "sourceId": "S1.6_m12-057",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-4-b",
+      "sourceId": "S1.6_m12-057",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2021-4-c",
+      "sourceId": "S1.6_m12-057",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-5-a",
+      "sourceId": "S1.6_m4-006",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-5-b",
+      "sourceId": "S1.6_m4-006",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-5-c",
+      "sourceId": "S1.6_m4-006",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2023-7-c",
+      "sourceId": "S1.8_m12-012",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2023-7-d",
+      "sourceId": "S1.8_m12-012",
+      "selection": "label:d",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2021-6-a",
+      "sourceId": "S1.8_m12-035",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2021-6-b",
+      "sourceId": "S1.8_m12-035",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2021-6-c",
+      "sourceId": "S1.8_m12-035",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2025-7-a",
+      "sourceId": "S1.9_m12-022",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2025-7-b",
+      "sourceId": "S1.9_m12-022",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2025-7-c",
+      "sourceId": "S1.9_m12-022",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2022-6-a",
+      "sourceId": "S1.9_m12-028",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2022-6-b",
+      "sourceId": "S1.9_m12-028",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2022-6-c",
+      "sourceId": "S1.9_m12-028",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2021-6-a",
+      "sourceId": "S1.9_m12-030",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2021-6-b",
+      "sourceId": "S1.9_m12-030",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2021-6-c",
+      "sourceId": "S1.9_m12-030",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2025-4",
+      "sourceId": "S1.9_m3-002",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2025-4-alternative",
+      "sourceId": "S1.9_m3-002",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2023-6-a",
+      "sourceId": "S1.9_m3-006",
+      "selection": "label:a",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2023-6-b",
+      "sourceId": "S1.9_m3-006",
+      "selection": "label:b",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-9-2023-6-c",
+      "sourceId": "S1.9_m3-006",
+      "selection": "label:c",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-5-2021-10",
+      "sourceId": "S1.5_m4-008",
+      "selection": "excerpt",
+      "start": "Part A —",
+      "end": "Part B —",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-3-d",
+      "sourceId": "S1.6_m3-007",
+      "selection": "excerpt",
+      "start": "First, explaining",
+      "end": "Second, the trapezium.",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-3-d-alternative",
+      "sourceId": "S1.6_m3-007",
+      "selection": "excerpt",
+      "start": "Second, the trapezium.",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2024-5",
+      "sourceId": "S1.6_m4-004",
+      "selection": "excerpt",
+      "start": "First alternative -",
+      "end": "Second alternative -",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2023-6",
+      "sourceId": "S1.6_m4-007",
+      "selection": "excerpt",
+      "start": "First alternative -",
+      "end": "Second alternative -",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-11",
+      "sourceId": "S1.6_m4-009",
+      "selection": "excerpt",
+      "start": "First alternative -",
+      "end": "Second alternative -",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-6-2022-11-alternative",
+      "sourceId": "S1.6_m4-009",
+      "selection": "excerpt",
+      "start": "Second alternative -",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2023-6",
+      "sourceId": "S1.7_m4-003",
+      "selection": "excerpt",
+      "start": "**Part 1",
+      "end": "**Part 2",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2023-6-alternative",
+      "sourceId": "S1.7_m4-003",
+      "selection": "excerpt",
+      "start": "**Part 2",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2022-4",
+      "sourceId": "S1.7_m4-007",
+      "selection": "excerpt",
+      "start": "**Part A",
+      "end": "**Part B",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-7-2022-4-alternative",
+      "sourceId": "S1.7_m4-007",
+      "selection": "excerpt",
+      "start": "**Part B",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2022-1-e-alternative",
+      "sourceId": "S1.8_m12-017",
+      "selection": "excerpt",
+      "start": "Difference between stress",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2022-4",
+      "sourceId": "S1.8_m12-032",
+      "selection": "excerpt",
+      "start": "Effects on",
+      "end": "Concentration is",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2022-4-alternative",
+      "sourceId": "S1.8_m12-032",
+      "selection": "excerpt",
+      "start": "Concentration is",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2022-5",
+      "sourceId": "S1.8_m12-033",
+      "selection": "excerpt",
+      "start": "Circulatory system",
+      "end": "Digestive system",
+      "otherCandidateSourceIds": []
+    },
+    {
+      "targetId": "s1-8-2022-5-alternative",
+      "sourceId": "S1.8_m12-033",
+      "selection": "excerpt",
+      "start": "Digestive system",
+      "otherCandidateSourceIds": []
+    }
+  ],
+  "unmatchedSourceEntries": [
+    {
+      "id": "S1.1_m12-071",
+      "paper_code": "S1.1",
+      "year": "2021",
+      "marks": 2,
+      "marks_band": "2",
+      "expected_length": "50–90 words",
+      "word_count": 228,
+      "question": "Write short notes (any two, 2 marks each): (a) Parenting, (b) Fear for stranger, (c) Child trafficking.",
+      "answer": "(a) Parenting\n\nParenting is the whole set of care a parent gives a child — feeding, clothing, health, protection, affection, discipline, conversation, and the transmission of values. It is the first and largest influence on every domain of development. What matters is not money but responsiveness: a warm, reasonably firm style supports healthy development, while harsh, rejecting or anxious styles produce insecurity and, later, the aggressive or withdrawn patterns we see in schools.\n\n(b) Fear of strangers\n\nAlso called stranger anxiety, it is the distress an infant shows when approached by an unfamiliar adult. It commonly appears around six to eight months and is a normal stage, not a sign of fearfulness. It shows the child now holds a mental picture of the familiar person and can compare the two — so it is one of our earliest pieces of evidence of memory and of an emerging internal sense of self.\n\n(c) Child trafficking\n\nIt is the recruitment, transportation, harbouring, transfer or receipt of a child by any means for exploitation — sexual exploitation, forced labour, criminal activity, organ removal, forced marriage or use in armed conflict. The recruitment itself is an abuse, even if the child is never moved. Assam is a source, a transit and a destination in the regional circuit, and floods and seasonal displacement make tracing harder. The teacher must notice, record and refer, and never investigate."
+    },
+    {
+      "id": "S1.2_m3-015",
+      "paper_code": "S1.2",
+      "year": "2021",
+      "marks": 3,
+      "marks_band": "3",
+      "expected_length": "110–170 words",
+      "word_count": 209,
+      "question": "Give your opinion with justification about the importance of ECCE.",
+      "answer": "My position is that ECCE is not a useful addition to primary education but the foundation on which the whole of the eight years stands — and the highest-return investment a state can make in its own future. Three arguments carry it.\n\nThe first is the critical period. Language, responsive caregiving, nutrition and safe stimulation in the early years have disproportionate later effects, and deprivation in this window is much harder to make up for. A child arriving at Grade 1 after two years at an Anganwadi can remove his own sandals, wash his hands, wait in a line without pushing, join a game with two other children, and hold a book the right way up. None of that came from a lesson; all of it came from meals, routines, songs and being trusted with small tasks.\n\nThe second is equality of outcome, and this convinces me most. A well-run pre-primary class gives a poor child language exposure, nutrition, a safe place, adult attention and peer experience that the same child would otherwise never have, because it reaches the child before school has sorted them by family income.\n\nThe third is that the product is the right thing: dispositions such as curiosity, attention and self-confidence, which are built, not taught."
+    },
+    {
+      "id": "S1.3_m12-001",
+      "paper_code": "S1.3",
+      "year": "2026",
+      "marks": 1,
+      "marks_band": "1",
+      "expected_length": "20–40 words",
+      "word_count": 36,
+      "question": "What are the vowel sounds of the Assamese language according to the mode of pronunciation?",
+      "answer": "Classified by the mode of pronunciation, Assamese has eleven vowels: অ (a), আ (ā), ই (i), ঈ (ī), উ (u), ঊ (ū), এ (e), ঐ (oi), ও (o), ঔ (ou) and ঋ (ri). They are grouped as short, long, nasalised and diphthongal, the last with a glide element such as ঔ."
+    },
+    {
+      "id": "S1.3_m12-007",
+      "paper_code": "S1.3",
+      "year": "2025",
+      "marks": 1,
+      "marks_band": "1",
+      "expected_length": "20–40 words",
+      "word_count": 34,
+      "question": "What is voiceless sound?",
+      "answer": "A voiceless sound is one produced without vibration of the vocal cords. In Assamese, ক, ট and ত are voiceless unaspirated stops, while the voiceless aspirates খ and ছ are produced with a puff of breath after the release."
+    },
+    {
+      "id": "S1.3_m12-019",
+      "paper_code": "S1.3",
+      "year": "2023",
+      "marks": 1,
+      "marks_band": "1",
+      "expected_length": "20–40 words",
+      "word_count": 38,
+      "question": "Mention any two secondary components of language.",
+      "answer": "Two secondary components are syntax, the rules by which words are arranged into sentences, and semantics, the system of meaning carried by those sentences. Pragmatics, which deals with meaning in actual use, is usually named as the third."
+    },
+    {
+      "id": "S1.3_m12-032",
+      "paper_code": "S1.3",
+      "year": "2026",
+      "marks": 2,
+      "marks_band": "2",
+      "expected_length": "50–90 words",
+      "word_count": 74,
+      "question": "Briefly explain the nature of language.",
+      "answer": "Language is a conventional and systematic symbol system, and it has four basic natures. It is dynamic, since new words enter it and old ones change or die as the things they name change. It is creative, because a speaker who has never heard unbelievable can still build it from un- + believe + -able. It is arbitrary, since the word water does not sound like water. And it is perpetual, so it is never finished."
+    },
+    {
+      "id": "S1.3_m3-001",
+      "paper_code": "S1.3",
+      "year": "2026",
+      "marks": 3,
+      "marks_band": "3",
+      "expected_length": "110–170 words",
+      "word_count": 175,
+      "question": "Explain language as an important part of culture and identity.",
+      "answer": "Culture is the whole way of life of a community — its food, dress, work, festivals, forms of address and rules of politeness — and language is integral to it in a double sense. It records culture in proverbs, folk tales, songs and the names of plants, animals and kinship; and it carries culture, because the manner of speaking is itself a cultural act. In Assamese, forms of address differ by age and relationship, and the choice of code between two speakers carries respect or closeness.\n\nFrom this comes identity. A person's name, mother tongue, script and idiom travel with them, and in an unfamiliar setting they are marked as outsiders. This is why NEP 2020 and NCF-SE 2023 place the home language at the centre of the foundational stage — and why a school that takes away the language a child brings is making a statement about who is at home.\n\nPlurality, though, is not betrayal. The tea-garden worker who speaks Sadri at home and Assamese in the bazaar is using a repertoire, not losing a culture."
+    },
+    {
+      "id": "S1.3_m3-010",
+      "paper_code": "S1.3",
+      "year": "2024",
+      "marks": 3,
+      "marks_band": "3",
+      "expected_length": "110–170 words",
+      "word_count": 175,
+      "question": "What is the meaning of learning language and learning through language.",
+      "answer": "The word “language” hides two different activities, and a primary teacher must be able to say which one a lesson is doing.\n\nLearning about language treats language as the content. The child names the parts of a sentence, compares constructions, applies a rule, revises, summarises and translates. The child is doing something to language, and the teacher's talk is metalinguistic — “this is a compound sentence”. Its usual failure is that the rule is learned but not used: grammar without text.\n\nLearning through language treats it as the tool of another purpose. The child is learning about plants, or the water cycle, or the difference between 46 and 39, with language used to think, organise, discuss and write. The teacher's talk here is scaffolding — “first tell me what you see”. Its failure is the reverse: content learned but not articulated, answers of one word.\n\nMost of school happens in the second mode with little attention paid to it, which is how a child can know the grammar and still not explain a process in a paragraph."
+    },
+    {
+      "id": "S1.3_m4-001",
+      "paper_code": "S1.3",
+      "year": "2026",
+      "marks": 4,
+      "marks_band": "4+",
+      "expected_length": "200–300 words",
+      "word_count": 391,
+      "question": "Explain the Three Language Formula and its importance. [4 Marks] OR Write about Cognitive Academic Language Proficiency (CALP)? [4 Marks]",
+      "answer": "The three-language formula was recommended by the Kothari (Education) Commission, 1964-66, and adopted as national policy in the National Policy on Education, 1968. It says that a child should learn three languages in a graded sequence — the regional language (R-1), the mother tongue or local language (R-2), and a foreign or modern European language (R-3), in India ordinarily English.\n\nIn an Assamese-medium school in Assam the three slots are filled like this.\n\n- R-1, the regional language, is Assamese, the official language of the State and the medium of instruction from the primary stage itself.\n- R-2, the mother tongue or local language, is the child’s own home language — Bodo, Mising, Karbi, Hmar, Sadri, Bengali or another — used from the beginning and, where possible, in school too.\n- R-3, the foreign language, is English, introduced progressively and formally emphasised in the upper primary and secondary stages.\n\nIts importance lies in what it protects. It avoids reducing the child to the mother tongue alone, which cuts the child off from the wider State; to the majority language alone, which makes a large part of the country learn slowly; and to the foreign language alone, which produces an educated elite that cannot talk to the society it is to serve. Because the three come in sequence, no child carries the whole load at once. In Assam the formula is not equally easy for everyone: where the home language is Assamese the school simply reinforces R-1, but a Bodo- or Mising-speaking child is learning R-1 and R-2 as two separate languages while R-3 waits ahead. The position has also moved — NEP 2020 asks that the medium be the home or regional language at least up to Grade 5 and preferably till Grade 8, and NCF-SE 2023 treats language as the medium of the whole curriculum.\n\nIf CALP is chosen instead: Cognitive and Academic Language Proficiency, as Jim Cummins named it, is the language of the textbook, the definition, the argument and the examination answer. It is decontextualised — the words must carry the meaning without gesture or shared situation to help — and academically demanding in precision and structure. It does not arrive by itself; it has to be taught, in every subject, which is why teaching the concepts in the language the child already has is the surest road to CALP in the second one."
+    },
+    {
+      "id": "S1.3_m4-002",
+      "paper_code": "S1.3",
+      "year": "2026",
+      "marks": 4,
+      "marks_band": "4+",
+      "expected_length": "200–300 words",
+      "word_count": 305,
+      "question": "What is the place of language in the curriculum? [4 Marks] OR State two functions of language inside and outside the classroom. [4 Marks]",
+      "answer": "Language occupies three distinguishable places in the curriculum, and running them together is the commonest error in discussions of the subject.\n\nAs a subject, language has its own periods, textbook, syllabus, examination and body of knowledge — literature, grammar, composition and comprehension. Without that period, grammar is never taught systematically.\n\nAs a medium, it is the vehicle through which every other subject is taught, every question asked and every answer given. A Class III child learns the life cycle of a butterfly in language and shows what was learnt in language.\n\nAs a resource and cross-curricular competence, it is the set of abilities — listening, speaking, reading, writing, reasoning about language and using language to learn — which every subject both assumes and develops.\n\nThe tension between these is the daily experience of every school. Time given to the language period looks like time taken from mathematics, yet a child who cannot read the question cannot do the mathematics, and a child who cannot write the answer cannot show that it was done. The resolution is not to choose but to plan for the overlap.\n\nTwo functions inside the classroom. Instructionally — explaining, describing, defining, directing, questioning and summarising, as when a teacher asks the class to write four stages in order using first, then, next and finally. Discip­linarily and socially — praising, warning, correcting and evaluating, as in sit down, or a word of approval that keeps a hesitant child trying.\n\nTwo functions outside. In the family and among neighbours, language carries affection, instruction, narration, comfort and quarrel, together with proverbs and stories; it is warm and heavily dialectal. In the market and the community it carries transactions, bargaining, greetings and news, often with several languages mixed together.\n\nThe two lists are linked: the languages used outside school are exactly the languages the child is assessed inside it."
+    },
+    {
+      "id": "S1.3_m4-008",
+      "paper_code": "S1.3",
+      "year": "2024",
+      "marks": 4,
+      "marks_band": "4+",
+      "expected_length": "200–300 words",
+      "word_count": 284,
+      "question": "\"Culture transfers from generation to generation through language\"- Discuss. [4 Marks]",
+      "answer": "The statement is true, and it is truer of some things than of others. Culture — food, dress, dwelling, work, festivals, religious practice, music, forms of address and rules of politeness — is carried to the next generation almost entirely by words.\n\nConsider what travels. Proverbs carry a community’s moral judgements; the Assamese saying that a river is judged by its course tells a child something about conduct that no rule book states. Folk tales and songs carry the older generation’s fears, jokes and local knowledge in a rhythm the child remembers without being taught. Kinship terms — mother, grandmother, younger sister, elder brother — carry the shape of the family. The names of plants, animals, tools, looms and fishing gear carry the ecology and the work. Forms of address carry politeness itself, because in Assamese the word used for another person changes with age and relationship, and so does the intonation that goes with it.\n\nNotice what happens when the word goes. Words like a rice-paddy, a particular loom or a particular folk song cannot be borrowed without loss, because they mark a way of life. A community that stops using them does not merely lose vocabulary; it loses the practice, and then the memory, because once the name is gone the custom becomes hard even to describe. Language is an archive that outlives the century in which the events happened.\n\nTwo qualifications keep this honest. Transmission is never pure copying; each generation selects, alters and adds, and that is how culture stays alive. And culture is not a sealed box — language change is not cultural loss, and borrowing is not betrayal. What damages a culture is the disappearance of opportunities to use its language in public."
+    },
+    {
+      "id": "S1.5_m12-046",
+      "paper_code": "S1.5",
+      "year": "2024",
+      "marks": 2,
+      "marks_band": "2",
+      "expected_length": "50–90 words",
+      "word_count": 84,
+      "question": "Distinguish between scanning and skimming.",
+      "answer": "Skimming is reading fast to get the general idea of a text without stopping at unfamiliar words. The eyes move in a zig-zag, taking in the first line of each paragraph, the headings and the last line; the reader leaves with the topic, the organisation and the main point. Scanning is searching for one specific item — a date, a name, a price, a number. The eyes move in a straight line down a column and the search stops the moment the item is found."
+    },
+    {
+      "id": "S1.5_m12-060",
+      "paper_code": "S1.5",
+      "year": "2022",
+      "marks": 2,
+      "marks_band": "2",
+      "expected_length": "50–90 words",
+      "word_count": 96,
+      "question": "Describe strategies to teach different categories of vocabulary OR Discuss the role of the teacher to enhance active vocabulary of the students.",
+      "answer": "I teach the three categories in three different ways. Lexical vocabulary is extended through roots, affixes and topic banks: a word family tree from one root, and a picture bank on 'clothes' or 'farming' for the topic words. Phrasal vocabulary is taught through situation, picture and story, so that under the weather arrives attached to a picture of a pale child rather than as a definition. Clausal vocabulary is taught through example sentences and contrast within the family — turn down the radio against turn it down — and every new chunk is rehearsed until it is automatic."
+    },
+    {
+      "id": "S1.5_m3-001",
+      "paper_code": "S1.5",
+      "year": "2025",
+      "marks": 3,
+      "marks_band": "3",
+      "expected_length": "110–170 words",
+      "word_count": 183,
+      "question": "Explain the process of critical reading.",
+      "answer": "Critical reading is not a flash of insight at the end of a text; it is a staged process, and the staging is what makes it teachable. It moves through three stages.\n\n- Before reading: build a frame. What kind of text is this, who wrote it, for whom, when and why? What do I already believe about the topic, and what am I reading for? The purpose — gist, argument, fact or pleasure — decides the strategy. The product is a prediction and a list of questions.\n- While reading: read actively, marking up and monitoring. Underline the claims, box the examples, put a question mark beside what is not understood, and pause at each paragraph end to ask what has just happened and why it was placed there.\n- After reading: reconstruct, evaluate and respond. Put the book down and write the argument in your own words, then test its concepts, the soundness of the argument, its assumptions and the tradition it belongs to, and finish by saying what you think.\n\nThat last move is the one that proves the reading was critical."
+    },
+    {
+      "id": "S1.5_m3-002",
+      "paper_code": "S1.5",
+      "year": "2024",
+      "marks": 3,
+      "marks_band": "3",
+      "expected_length": "110–170 words",
+      "word_count": 185,
+      "question": "Describe the process of critical reading.",
+      "answer": "Reading critically means holding a text at a distance and asking questions of it that a reader does not normally ask. The process has three stages, and each produces something on paper.\n\n1. Before reading — set a purpose and activate prior knowledge. Skim the title, the headings and the first paragraph, and form a frame: this text is probably about water, because the heading says so and I know water freezes at zero.\n2. While reading — read actively. Mark up the text, monitor your comprehension paragraph by paragraph, and keep a running question list. Notice which words are doing the work of persuasion and what has been left out.\n3. After reading — reconstruct, evaluate, respond. Write the argument in your own words and check it against the text. Then apply the four lenses: the concepts taken for granted, the soundness of the argument, the assumptions, and the tradition the text belongs to.\n\nTake a chapter on saving water. It argues that small habits will help, but it attaches no figure to a leaking tap, so the claim cannot be checked. That record is critical reading."
+    },
+    {
+      "id": "S1.6_m12-006",
+      "paper_code": "S1.6",
+      "year": "2025",
+      "marks": 1,
+      "marks_band": "1",
+      "expected_length": "20–40 words",
+      "word_count": 41,
+      "question": "What is the importance of FLN in the life of a child?",
+      "answer": "It is the gate to the rest of the curriculum — a child who cannot read a word problem cannot do the mathematics in it — and it is everyday protection, letting the child check a shopkeeper's arithmetic or read a bus timetable."
+    },
+    {
+      "id": "S1.6_m12-038",
+      "paper_code": "S1.6",
+      "year": "2024",
+      "marks": 2,
+      "marks_band": "2",
+      "expected_length": "50–90 words",
+      "word_count": 78,
+      "question": "'Mathematics is an integral part of our life' - Explain the fact by citing two examples.",
+      "answer": "Two everyday examples.\n- At the village shop we add up the cost of two things, count the notes and coins given, and check the change that comes back — addition and subtraction in daily life.\n- In the vegetable market we compare the price of tomato in two stalls, decide which is cheaper and plan how much to buy within the money we have — that is comparison and estimation.\n\nNeither activity is taught as 'mathematics'; both are mathematics."
+    },
+    {
+      "id": "S1.6_m12-043",
+      "paper_code": "S1.6",
+      "year": "2023",
+      "marks": 2,
+      "marks_band": "2",
+      "expected_length": "50–90 words",
+      "word_count": 82,
+      "question": "What are the practical values of mathematics?",
+      "answer": "Two practical values.\n- It is needed for everyday transactions — counting, comparing prices, working out change and sharing things equally. In a rural or low-income household this is exactly what numeracy competence means.\n- It is the base of measurement and planning. To measure out a ration, decide the sowing area of a plot, or build a wall and estimate the material needed, numbers and measurement cannot be bypassed. This is why mathematics is not a school subject but an everyday tool."
+    },
+    {
+      "id": "S1.6_m12-049",
+      "paper_code": "S1.6",
+      "year": "2022",
+      "marks": 2,
+      "marks_band": "2",
+      "expected_length": "50–90 words",
+      "word_count": 59,
+      "question": "Pictorially represent 7/6 with the help of a hexagon.",
+      "answer": "Draw a hexagon, join its centre to the six vertices, and shade all six equal triangles — that shows 6/6, or one whole. Then draw a second hexagon, shade one of its triangles only.\n\nTogether the picture shows 6/6 + 1/6 = 7/6, that is, one whole hexagon and one-sixth of another hexagon, which equals 1 1/6."
+    },
+    {
+      "id": "S1.6_m12-050",
+      "paper_code": "S1.6",
+      "year": "2022",
+      "marks": 2,
+      "marks_band": "2",
+      "expected_length": "50–90 words",
+      "word_count": 82,
+      "question": "What does the number pattern mean? Give example.",
+      "answer": "A number pattern is a sequence of numbers that follows a fixed rule, so that the next term can be predicted. Example: 2, 4, 6, 8, ... — the rule is 'add 2 each time', so the next term is 10; and 9, 8, 7, 6, ... follows the rule 'subtract 1'.\n\nTo continue a pattern a child must detect the rule, to complete one she must apply it, and to create one she must state it. That is early algebra without a single letter."
+    },
+    {
+      "id": "S1.6_m3-002",
+      "paper_code": "S1.6",
+      "year": "2025",
+      "marks": 3,
+      "marks_band": "3",
+      "expected_length": "110–170 words",
+      "word_count": 187,
+      "question": "Consider any concept of Mathematics of foundational stage and explain how that concept can be developed among the students using 4 Block Approach. OR Give an example of error committed by the Class-II students in Mathematics and explain how that error can be mitigated by the teacher.",
+      "answer": "I take the concept of place value (the idea that in 17 the 1 is worth ten and the 7 is worth seven), which a Class I or Class II child meets for the first time.\n\n- Block 1, Concrete Experience: Give each pair ten sticks bound together by a rubber band and three loose sticks. Ask them to show one more group of ten. The bundle is ten; the loose sticks are ones.\n\n- Block 2, Pictorial Representation: Each child draws the bundle and the loose sticks, then makes a ten-frame on the slate with ten squares.\n\n- Block 3, Abstract/Symbolic: Now write 17 on the board. Ask the class what happens if we write the 1 without the 7 behind it - it becomes 7, and if we write 71 it becomes seventy-one. The place decides the value.\n\n- Block 4, Problem Solving: \"There are 1 bundle and 7 loose sticks. How many altogether?\" The child answers 17 and must say why.\n\nThe abstract block is deliberately the shortest, because a symbol written before the bundle has been held has no meaning behind it."
+    },
+    {
+      "id": "S1.6_m3-005",
+      "paper_code": "S1.6",
+      "year": "2024",
+      "marks": 3,
+      "marks_band": "3",
+      "expected_length": "110–170 words",
+      "word_count": 195,
+      "question": "What is the necessity of Activity Based Method in developing Mathematical concept? How can this method be implemented in the classroom transaction? Explain with example. OR For which class/classes, Play-way method of teaching mathematics is applicable, write with example.",
+      "answer": "First, the necessity of the Activity Based Method.\n\nChildren at the foundational stage are pre-operational; they learn by doing and seeing, not by listening. An activity makes the child handle the quantity, so the concept exists before it has a name, and it prevents the misconceptions that come from a symbol taught empty. It also fits Bruner: enaction, then iconic, then symbolic.\n\nHow to implement it, with an example. Teaching subtraction (5 - 2) to Class I:\n\n- Set a sorting corner with five sticks and a kula of seeds. Ask the child to lay out five sticks, count them aloud with one touch per number word, and take two away.\n\n- Ask what the child did, in the home language first, and accept \"taken away\", \"removed\", \"gave\" before standardising on subtraction and on the word fewer.\n\n- Ask the child to draw the five sticks, cross two, and point to the three left.\n\n- Only then write 5 - 2 = 3 on the board and let the children copy it, saying what the minus sign means.\n\nFinally, move to a problem: five mangoes in a basket, two fall down, how many are still there?"
+    },
+    {
+      "id": "S1.6_m4-005",
+      "paper_code": "S1.6",
+      "year": "2023",
+      "marks": 4,
+      "marks_band": "4+",
+      "expected_length": "200–300 words",
+      "word_count": 321,
+      "question": "What is the difference between inductive and deductive method of teaching mathematics? As a mathematics teacher, which method will you prefer? Give reasons. [4 Marks] OR What do you understand by activity based method of teaching mathematics? Why this methods is given more importance at elementary level? [4 Marks]",
+      "answer": "First alternative - inductive and deductive methods.\n\nThe difference is one of direction. In the inductive method we move from particular examples to a general rule. The teacher collects a set of instances, lets the children look for what is common among them, and the rule is discovered by the class. Adding 3+2 and 3+4 and 3+6 and 3+8, the children see that the first number never changes; only after they have handled, drawn and discussed these do they arrive at \"add the second number to the first.\" In the deductive method we move from the general rule to particular cases: the rule is stated first and then applied to examples and problems, which is how Euclid's Elements proceeds - a small number of postulates and axioms, and everything else proved from them by reasoning.\n\nAs a mathematics teacher I would prefer the inductive method at the elementary level, and I would not use it exclusively. The reasons are developmental and practical. Piaget tells us that a child at this age is in the pre-operational stage, and the concrete operational stage begins only around seven: both build mathematics out of what they can handle and see, not out of statements. The inductive method also fits ELPS perfectly, since the concrete examples are the Experience step and the rule the children state is the Language step, with the drawing and the symbol following naturally. It produces reasoning rather than compliance, and children who have discovered a rule remember it and dare to explain it. The honest cost is that discovery takes time and does not always reach full generality in one lesson, which is why I pair it with the deductive step - once the class has built the rule from examples, I state it formally, symbolise it, and then let them apply it in problems, which is precisely the deductive movement once the material has been earned."
+    },
+    {
+      "id": "S1.7_m12-015",
+      "paper_code": "S1.7",
+      "year": "2021",
+      "marks": 1,
+      "marks_band": "1",
+      "expected_length": "20–40 words",
+      "word_count": 22,
+      "question": "Mention the name of a renowned Artist of Assam. (1/2 Mark)",
+      "answer": "Rupkonwar (Bhaben Barua), the celebrated Assamese poet-painter, who is counted among the foremost artistic figures of the Assamese language and of Assam."
+    },
+    {
+      "id": "S1.7_m12-016",
+      "paper_code": "S1.7",
+      "year": "2021",
+      "marks": 1,
+      "marks_band": "1",
+      "expected_length": "20–40 words",
+      "word_count": 32,
+      "question": "Name one \"State Award\" given in the field of Art. (1/2 Mark)",
+      "answer": "One example is the Kalidas Award, given by the Government of Madhya Pradesh for outstanding contribution to painting and sculpture. Assam gives its own state awards to artists in the same spirit."
+    },
+    {
+      "id": "S1.7_m3-004",
+      "paper_code": "S1.7",
+      "year": "2024",
+      "marks": 3,
+      "marks_band": "3",
+      "expected_length": "110–170 words",
+      "word_count": 371,
+      "question": "Prepare a script on any one of the following topics: (a) Education as a Human Right, (b) Drug abuse and its impact on society.",
+      "answer": "A script of this kind follows the syllabus format: title, cast with number of performers, a short statement of the situation, dialogue with stage directions in brackets, and a note on props. Both topics are scripted below.\n\n**(a) Education as a Human Right**\n*Cast: 4 performers — a teacher, two children, a Narrator.*\n*Situation: A school gate, morning. One child arrives with books; one is stopped by being sent to work.*\n*Props: two school bags, one basket, a slate.*\n\nNarrator: One child walks in with a bag. The other walks past the gate with a basket.\n\nChild 1 [stopping]: Where are you going, Rina?\n\nChild 2: The field. Ma says the crop won't wait.\n\nChild 1: But the teacher said there is a test on Thursday.\n\nChild 2 [shrugging, half a smile]: Then I shall fail Thursday.\n\nNarrator: Every child in this play was born with the right to be taught. That right does not need to be won. It is given.\n\nChild 1: Then go home and tell your ma I will bring you the notes.\n\nChild 2 [taking the bag]: And bring me a pencil.\n\n*Note: the play argues by contrast rather than by speech — the bag and the basket carry the whole message, which is the fix the syllabus asks for when it says cut every line the audience can already see.*\n\n**(b) Drug Abuse and its Impact on Society**\n*Cast: 5 performers — Rahul, a Friend, a Mother, a Teacher, a Narrator.*\n*Situation: A young man's room, then a school corridor, then the same room at night.*\n*Props: a small packet, a torn bag, a school uniform.*\n\nFriend [quietly]: Once was enough for me. Once.\n\nRahul: Once is what everyone says.\n\nMother [finding the packet]: What is this? Rahul, what is this?\n\nRahul [turning away]: It is nothing, Ma. It is nothing that costs money.\n\nNarrator: The family loses the wage. The village loses a hand that worked. The school loses a student who will not return.\n\nTeacher: Every family touched by it pays twice — once in money, once in silence.\n\nNarrator: Society pays in a third way too: in the young who never reach their work, and in the many who never learn it was not worth it."
+    },
+    {
+      "id": "S1.7_m4-002",
+      "paper_code": "S1.7",
+      "year": "2024",
+      "marks": 4,
+      "marks_band": "4+",
+      "expected_length": "200–300 words",
+      "word_count": 336,
+      "question": "Draw a painting on any one of the following topics: (a) Fishing Man, (b) Shepherd with Cows, (c) Bird seeking food. [4 Marks]",
+      "answer": "I take (b) Shepherd with Cows. All three options contain a living figure and something that moves; the drawing is mostly about how a large rounded mass and an upright figure sit against each other.\n\nMy procedure:\n\n1. Sit low, near the animals, so the cows read as large and the shepherd as upright against the sky. Note the light before anything else — say the sun is behind and to the right, the usual morning condition in a village field.\n\n2. Viewfinder first. A herd of ten cows, a boy, a tree and a hill would be too much. Take three cows and one boy, with the third cow partly cut by the edge of the frame. Cutting something at the edge is what stops a picture feeling like a list.\n\n3. Thumbnail, three minutes. The whole arrangement is three ovals on a light field with one vertical holding a stick. If the thumbnail fails I change the viewpoint, not the picture.\n\n4. Block in. The cows are the big light masses with dark backs and legs; the tree mass behind is the darkest note; the sky is toned, not white. Draw each animal's cast shadow on the grass BEFORE the animal, because anything standing on a surface throws one — sharp at the hoof, softer as it runs away.\n\n5. Work up. The field in sap green with raw sienna mixed in, the cows in ochre and deep brown with one black-and-white for contrast, and the shepherd's wrap in a single warm red, my one accent and the focal point. Firm edges at the animals' backs, lost edges where the grass merges into the field. Correct, and caption with date, place and time.\n\nFor (a) Fishing Man, the bent-over figure turns the composition into a strong diagonal against horizontal water, and the wet sand carries a reflection. For (c) Bird seeking Food, it becomes a close observation of one small form — outline first, then mass as an egg-shape, then the surface — with a cast shadow beneath."
+    }
+  ],
+  "unchangedExistingQuestions": [
+    {
+      "id": "s1-1-2021-6",
+      "question": "Explain how nature and nurture influence child development.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2021-7",
+      "question": "Mention two tools for collecting child-development data. Explain with an example how such data help a teacher.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2022-13",
+      "question": "How does maintaining a reflective journal help a teacher?",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2024-7",
+      "question": "Discuss the stages of child development.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2024-9",
+      "question": "Discuss the use of a reflective journal concerning children.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2025-11",
+      "question": "Discuss different developmental milestones.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2021-5",
+      "question": "Design an activity to develop fine motor skills in Class I.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2022-6",
+      "question": "What is motor development? Explain how gross and fine motor skills develop during childhood.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2022-8",
+      "question": "Explain how play helps motor development.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2021-8",
+      "question": "State characteristics of social development and explain the role of parents in it.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2021-9",
+      "question": "Discuss the negative impact of digital media on children’s social development.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2021-10",
+      "question": "What is language development? Identify its influencing factors and discuss any one.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2021-11",
+      "question": "Analyse the roles of family and peer group in a child’s socialisation.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2022-4",
+      "question": "What is socialisation? Explain its relationship with education.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2022-7",
+      "question": "Explain five factors influencing social development.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2022-11",
+      "question": "Discuss the influence of economic and cultural differences on socialisation.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2022-12",
+      "question": "As a primary teacher, what steps would you take to develop children’s social abilities?",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2023-6",
+      "question": "Explain emotional development at different stages of childhood.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2023-7",
+      "question": "What measures can a teacher take to support language development?",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2023-8",
+      "question": "Explain the role of family in socialisation.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2023-11",
+      "question": "How does today’s competitive environment influence children’s social development?",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2023-12",
+      "question": "Discuss social and cultural differences influencing socialisation.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2024-4",
+      "question": "Discuss factors influencing language development.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2024-8",
+      "question": "Discuss the impact of digital media on children’s social development.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2024-10",
+      "question": "Explain how economic and cultural differences influence socialisation.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2024-11",
+      "question": "Discuss the roles of family and peer group in socialisation.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2025-12",
+      "question": "What is social development? Suggest school measures to support it.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2025-13",
+      "question": "Discuss developmental hazards at different stages of childhood.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2022-14",
+      "question": "Describe the main characteristics of the Right of Children to Free and Compulsory Education Act, 2009.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-1-2023-9",
+      "question": "Explain how school and family can protect child rights.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-2-2021-7",
+      "question": "Give your opinion with justification about the importance of ECCE.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-3-2026-4",
+      "question": "Explain the Three Language Formula and its importance.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-3-2021-1-d-bengali-version",
+      "question": "To which language family does Bengali belong?",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-3-2026-4-alternative",
+      "question": "Write about Cognitive Academic Language Proficiency (CALP)?",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-3-2026-5",
+      "question": "What is the place of language in the curriculum?",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-3-2026-5-alternative",
+      "question": "State two functions of language inside and outside the classroom.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-5-2024-3",
+      "question": "Describe the process of critical reading.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-5-2022-4",
+      "question": "Describe strategies to teach different categories of vocabulary.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-5-2022-4-alternative",
+      "question": "Discuss the role of the teacher to enrich active vocabulary of the students.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-6-2023-2-c",
+      "question": "What are the practical values of mathematics? Explain how mathematics is part of daily life with examples.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-6-2025-1-f",
+      "question": "What is the importance of FN in the life of a child?",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-6-2023-4",
+      "question": "Distinguish inductive and deductive methods of teaching mathematics. Which would you prefer as a mathematics teacher? Give reasons.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-6-2023-4-alternative",
+      "question": "What is the activity-based method of teaching mathematics? Why is it important at elementary level?",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-6-2024-3-b",
+      "question": "Why is the activity-based method needed for developing mathematical concepts? Explain classroom implementation with an example.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-6-2024-3-b-alternative",
+      "question": "For which classes is the play-way method of teaching mathematics applicable? Explain with an example.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-6-2025-3-b",
+      "question": "Choose a foundational mathematics concept and explain its development using the Four Block Approach.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-6-2025-3-b-alternative",
+      "question": "Give an example of an error committed by Class II students in mathematics and explain how a teacher can mitigate it.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-6-2025-3-c",
+      "question": "Whose birthday is celebrated as National Mathematics Day in India? Write briefly about his mathematical contributions.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2021-3",
+      "question": "Write any three objectives of Yoga.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2022-3",
+      "question": "Explain the importance of Yoga.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2023-3",
+      "question": "Write in brief about Yoga Vasistha.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2024-3-alternative",
+      "question": "What is Yoga Vasistha? Discuss its impact on your life.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2025-5",
+      "question": "“Yoga is an important part of School Education.” Elaborate the statement.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2022-6",
+      "question": "Describe the eight limbs of Yoga.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2022-6-alternative",
+      "question": "Describe the Tantra Yoga tradition.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2024-3",
+      "question": "Mention and briefly describe the eight limbs of Yoga. How do they influence your life?",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2025-4",
+      "question": "Write down the meaning of Hatha Yoga. List its limbs.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2022-7",
+      "question": "Analyse the impact of Pranayama on the physical development of children.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2022-7-alternative",
+      "question": "Explain the advantages of Bhujangasana and Naukasana.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2023-3-alternative",
+      "question": "What is the difference between Japa and Ajapa? Write down the benefit of doing Japa.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2023-5",
+      "question": "Elaborate the steps of performing Bhujangasana.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2023-5-alternative",
+      "question": "Elaborate the steps of performing Matsyasana.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2024-4",
+      "question": "What is Pranayama? Describe the steps and benefits of performing Anulom-vilom or Bhastrika.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2025-3",
+      "question": "What is Kriya? Mention its types.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2025-3-alternative",
+      "question": "What is Tadasana? What are the benefits of Tadasana?",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2021-2",
+      "question": "Discuss the effects of Yoga on the respiratory system.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2021-4",
+      "question": "“Regular practice of Yoga can reduce mental disorder.” Explain the statement.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    },
+    {
+      "id": "s1-8-2023-6",
+      "question": "Write down the effects of Yoga on the blood circulatory system.",
+      "reason": "No safely selected replacement; existing answer retained pending review."
+    }
+  ],
+  "partialSourceEntries": [
+    {
+      "sourceId": "S1.1_m12-051",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.1_m12-070",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c",
+        "label:d"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.1_m3-005",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.1_m3-006",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.1_m3-016",
+      "usedSections": [
+        "label:i",
+        "label:ii",
+        "label:iii",
+        "label:iv"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.1_m41-008",
+      "usedSections": [
+        "label:a",
+        "label:c",
+        "label:d"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.2_m12-034",
+      "usedSections": [
+        "label:a",
+        "label:b"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.2_m12-035",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.2_m12-036",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.2_m3-011",
+      "usedSections": [
+        "label:a",
+        "label:b"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.5_m12-054",
+      "usedSections": [
+        "label:a",
+        "label:c",
+        "label:d",
+        "label:e"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.5_m12-061",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.6_m12-056",
+      "usedSections": [
+        "label:a",
+        "label:b"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.6_m12-057",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.6_m4-006",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.8_m12-012",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c",
+        "label:d"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.8_m12-035",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.9_m12-022",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.9_m12-028",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.9_m12-030",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.9_m3-002",
+      "usedSections": [
+        "label:a",
+        "label:b"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.9_m3-006",
+      "usedSections": [
+        "label:a",
+        "label:b",
+        "label:c"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.5_m4-008",
+      "usedSections": [
+        "excerpt",
+        "excerpt"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.6_m3-007",
+      "usedSections": [
+        "excerpt",
+        "excerpt"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.6_m4-004",
+      "usedSections": [
+        "excerpt",
+        "excerpt"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.6_m4-007",
+      "usedSections": [
+        "excerpt",
+        "excerpt"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.6_m4-009",
+      "usedSections": [
+        "excerpt",
+        "excerpt"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.7_m4-003",
+      "usedSections": [
+        "excerpt",
+        "excerpt"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.7_m4-007",
+      "usedSections": [
+        "excerpt",
+        "excerpt"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.8_m12-017",
+      "usedSections": [
+        "excerpt",
+        "excerpt"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.8_m12-018",
+      "usedSections": [
+        "excerpt",
+        "excerpt"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.8_m12-032",
+      "usedSections": [
+        "excerpt",
+        "excerpt"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    },
+    {
+      "sourceId": "S1.8_m12-033",
+      "usedSections": [
+        "excerpt",
+        "excerpt"
+      ],
+      "reason": "Only labelled sections with established question matches used; other sections retained in supplied-answers.json."
+    }
+  ]
+}

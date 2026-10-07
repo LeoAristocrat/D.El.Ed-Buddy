@@ -1,0 +1,1895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="D.El.Ed Semester I Study Notes">
+<meta name="description" content="Foundational numeracy, approaches to teaching mathematics, components, assessment and mathematicians.">
+<meta name="keywords" content="D.El.Ed, Semester 1, S1.6, SCERT Assam, PSTE, teacher education, study notes">
+<meta name="subject" content="Diploma in Elementary Education (PSTE) — Semester I">
+<meta name="color-scheme" content="light">
+<title>S1.6 — Pedagogy of Mathematics – I | D.El.Ed Semester I Notes</title>
+<link rel="icon" href="/favicon.svg">
+<style>
+/* ============================================================
+   D.El.Ed Semester 1 — Shared Design System
+   Premium academic notebook aesthetic
+   ============================================================ */
+
+:root {
+  /* --- Paper & surface --- */
+  --paper:          #faf6ee;
+  --paper-deep:     #f3ece0;
+  --card:           #fffdf8;
+  --card-beige:     #f6efe2;
+  --card-beige-2:   #f2e9d8;
+
+  /* --- Ink --- */
+  --ink:            #33302b;
+  --ink-soft:       #55504a;
+  --ink-faint:      #7a736a;
+  --rule:           #ded2bd;
+  --rule-soft:      #e9e0cf;
+
+  /* --- Accents --- */
+  --terracotta:     #b4623c;
+  --terracotta-d:   #8f4a2a;
+  --terracotta-bg:  #f7e9e0;
+  --olive:          #6d7a4a;
+  --olive-d:        #54603a;
+  --olive-bg:       #ecefdd;
+  --dusty-blue:     #4c6a83;
+  --dusty-blue-bg:  #e5ecf2;
+  --plum:           #7a5570;
+  --plum-bg:        #f1e8ee;
+  --gold:           #a5822e;
+  --gold-bg:        #f7efd8;
+
+  /* --- Type --- */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+           Georgia, "Times New Roman", serif;
+  --sans:  "Segoe UI", "Gill Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  --mono:  "Consolas", "SF Mono", "Menlo", monospace;
+
+  --fs-body: 10.6pt;
+  --lh-body: 1.62;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 34px 20px 80px;
+  font-family: var(--serif);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.20) 1px, transparent 0);
+  background-size: 22px 22px;
+  background-attachment: fixed;
+}
+
+/* ============ Document container ============ */
+.doc {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(120, 100, 70, 0.06),
+    0 10px 34px -14px rgba(90, 72, 45, 0.22);
+  padding: 46px 56px 64px;
+  position: relative;
+}
+.doc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0);
+  background-size: 22px 22px;
+  opacity: 0.75;
+}
+.doc > * { position: relative; z-index: 1; }
+
+/* ============ Hero / subject header ============ */
+.hero {
+  border: 1px solid var(--rule);
+  border-top: 5px solid var(--terracotta);
+  background: linear-gradient(180deg, #fffdf8 0%, #f7f0e3 100%);
+  padding: 26px 30px 22px;
+  margin-bottom: 26px;
+  border-radius: 3px;
+}
+.hero .kicker {
+  font-family: var(--sans);
+  font-size: 8.4pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-size: 25pt;
+  line-height: 1.16;
+  margin: 0 0 4px;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.hero .code {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--paper);
+  background: var(--ink);
+  padding: 3px 11px;
+  border-radius: 2px;
+  margin: 0 0 12px;
+}
+.hero .tagline {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 4px;
+  max-width: 62ch;
+}
+/* The divider doubles as the maker-credit row: rule on the left, credit on the
+   right. Keeping them on one line costs no vertical space in the hero, which
+   the one-page-before-Unit-1 budget cannot spare. */
+.hero .rule-line {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 13px 0 12px;
+}
+.hero .rule-line::before {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, var(--terracotta), var(--rule) 55%, transparent);
+}
+.made-by {
+  flex: 0 0 auto;
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+.made-by .heart {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", var(--sans);
+  font-size: 8.4pt;
+}
+.made-by a {
+  color: var(--terracotta-d);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+}
+.made-by a:hover { border-bottom-color: var(--terracotta); }
+
+/* ============ At a glance ============ */
+.glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.glance .g-item {
+  flex: 1 1 152px;
+  background: #fffdf8;
+  padding: 9px 12px 10px;
+}
+.glance .g-label {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 2px;
+}
+.glance .g-value {
+  font-size: 9.6pt;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.34;
+}
+
+/* ============ Table of contents ============ */
+.toc {
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--olive);
+  background: #fcf9f2;
+  padding: 20px 24px 18px;
+  border-radius: 3px;
+  margin: 26px 0 30px;
+}
+.toc h2 {
+  font-family: var(--sans);
+  font-size: 9.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  margin: 0 0 12px;
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+}
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
+.toc > ol > li {
+  counter-increment: toc;
+  margin: 0 0 9px;
+}
+.toc > ol > li > a {
+  font-weight: 700;
+  font-size: 10.6pt;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.toc > ol > li > a:hover { color: var(--terracotta-d); border-bottom-color: var(--terracotta); }
+.toc > ol > li > a::before {
+  content: counter(toc, upper-roman) " · ";
+  color: var(--terracotta);
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.toc .sub {
+  margin: 4px 0 0 4px;
+  padding: 0 0 0 14px;
+  list-style: none;
+  border-left: 1px solid var(--rule-soft);
+  columns: 2;
+  column-gap: 26px;
+}
+.toc .sub li {
+  font-size: 9.4pt;
+  color: var(--ink-soft);
+  line-height: 1.48;
+  margin-bottom: 2px;
+  break-inside: avoid;
+}
+.toc .sub a { color: inherit; text-decoration: none; }
+.toc .sub a:hover { color: var(--terracotta-d); }
+
+/* ============ Headings ============ */
+h2 {
+  font-size: 16.5pt;
+  line-height: 1.22;
+  margin: 40px 0 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  padding: 0 0 9px 15px;
+  border-left: 5px solid var(--terracotta);
+  border-bottom: 1px solid var(--rule);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h2 .h2num {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+h3 {
+  font-size: 12.6pt;
+  line-height: 1.3;
+  margin: 26px 0 8px;
+  font-weight: 700;
+  color: #3d3933;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  background: var(--olive);
+  border-radius: 50%;
+  margin-right: 9px;
+  vertical-align: 0.06em;
+}
+
+h4 {
+  font-size: 10.9pt;
+  line-height: 1.35;
+  margin: 18px 0 6px;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--terracotta-d);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h5 {
+  font-size: 9.9pt;
+  margin: 14px 0 4px;
+  font-weight: 700;
+  color: var(--olive-d);
+  font-family: var(--sans);
+  letter-spacing: 0.03em;
+  break-after: avoid;
+}
+
+/* ============ Body text ============ */
+p { margin: 0 0 10px; text-align: justify; hyphens: auto; }
+p.tight { margin-bottom: 4px; }
+.doc > p, .unit-body > p { max-width: 74ch; }
+
+strong, b { font-weight: 700; color: #26231f; }
+
+em { font-style: italic; }
+
+.lead {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 72ch;
+}
+
+/* ============ Lists ============ */
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 5px; }
+li > ul, li > ol { margin-top: 5px; margin-bottom: 3px; }
+
+ul.bul { list-style: none; padding-left: 0; }
+ul.bul > li {
+  position: relative;
+  padding-left: 17px;
+  margin-bottom: 6px;
+}
+ul.bul > li::before {
+  content: "▸";
+  position: absolute;
+  left: 2px;
+  top: -0.02em;
+  color: var(--terracotta);
+  font-size: 0.92em;
+}
+
+ul.check { list-style: none; padding-left: 0; }
+ul.check > li { position: relative; padding-left: 20px; margin-bottom: 5px; }
+ul.check > li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--olive);
+  font-weight: 700;
+  font-size: 0.88em;
+}
+
+ol.num { list-style: none; counter-reset: n; padding-left: 26px; }
+ol.num > li { position: relative; margin-bottom: 7px; counter-increment: n; }
+ol.num > li::before {
+  content: counter(n) ".";
+  position: absolute;
+  left: -22px;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  font-family: var(--sans);
+  font-size: 0.88em;
+}
+
+dl { margin: 0 0 12px; }
+dt { font-weight: 700; color: #26231f; margin-top: 8px; }
+dd { margin: 2px 0 0 0; }
+
+abbr { text-decoration: none; border-bottom: 1px dotted var(--ink-faint); }
+
+/* ============ Callout cards ============ */
+.card {
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 12px 16px 13px;
+  margin: 14px 0;
+  background: #fffdf8;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.card > :last-child { margin-bottom: 0; }
+.card p { text-align: left; }
+
+.card .lbl {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.def {
+  background: #fdf6ec;
+  border-color: #e3d2b6;
+  border-left: 4px solid var(--gold);
+}
+.def .lbl { color: var(--gold); }
+
+.idea {
+  background: var(--olive-bg);
+  border-color: #d3d9bd;
+  border-left: 4px solid var(--olive);
+}
+.idea .lbl { color: var(--olive-d); }
+
+.rem {
+  background: var(--terracotta-bg);
+  border-color: #e8cebc;
+  border-left: 4px solid var(--terracotta);
+}
+.rem .lbl { color: var(--terracotta-d); }
+
+.ex {
+  background: #f4f1fa;
+  border-color: #d9d0e8;
+  border-left: 4px solid #6b5a94;
+}
+.ex .lbl { color: #5b4c80; }
+
+.cls {
+  background: var(--dusty-blue-bg);
+  border-color: #ccd9e3;
+  border-left: 4px solid var(--dusty-blue);
+}
+.cls .lbl { color: #3d5a71; }
+
+.exam {
+  background: #fbf4e3;
+  border-color: #e6d5aa;
+  border-left: 4px solid #a5822e;
+}
+.exam .lbl { color: #856722; }
+
+.mist {
+  background: #f9ecec;
+  border-color: #eccfcf;
+  border-left: 4px solid #a44b4b;
+}
+.mist .lbl { color: #8b3c3c; }
+
+.refl {
+  background: var(--plum-bg);
+  border-color: #dfcddd;
+  border-left: 4px solid var(--plum);
+}
+.refl .lbl { color: #654761; }
+
+.quick {
+  background: #f4f6ef;
+  border-color: #d6dcc4;
+  border-left: 4px solid #7d8a52;
+}
+.quick .lbl { color: #5f6a38; }
+
+/* inline term highlight */
+.term {
+  background: #f2ead6;
+  padding: 0 3px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+mark.hl {
+  background: #f6e7c4;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ============ Tables ============ */
+.tw {
+  margin: 14px 0 16px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fffdf8;
+}
+.tw.tkeep { break-inside: avoid; page-break-inside: avoid; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.1pt;
+  line-height: 1.46;
+}
+caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  padding: 9px 12px 7px;
+  background: #f6f1e6;
+  border-bottom: 1px solid var(--rule);
+}
+th {
+  background: #efe8d8;
+  color: #3a342b;
+  font-family: var(--sans);
+  font-size: 8.2pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+th:last-child { border-right: 0; }
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--rule-soft);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+  text-align: left;
+}
+td:last-child { border-right: 0; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:nth-child(even) td { background: #fcf8f0; }
+table.compact { font-size: 8.6pt; }
+table.compact th, table.compact td { padding: 5px 8px; }
+
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+
+/* ============ Figure / diagram ============ */
+figure {
+  margin: 18px 0;
+  padding: 14px 16px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fcf9f2;
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+figure svg { max-width: 100%; height: auto; }
+figcaption {
+  font-family: var(--sans);
+  font-size: 7.8pt;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+  margin-top: 8px;
+  text-align: center;
+}
+figcaption b { color: var(--ink-soft); }
+
+/* ============ Unit review block ============ */
+.review {
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--olive);
+  background: #fbf8f0;
+  border-radius: 3px;
+  padding: 16px 20px 18px;
+  margin: 22px 0 30px;
+}
+.review h4 {
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  font-style: normal;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
+}
+.review h5 {
+  font-size: 8.4pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  margin: 13px 0 5px;
+  font-family: var(--sans);
+}
+.review h5:first-of-type { margin-top: 9px; }
+.review p { text-align: left; }
+.review > :last-child { margin-bottom: 0; }
+
+.qa { margin: 0; }
+.qa .q { margin-bottom: 8px; break-inside: avoid; page-break-inside: avoid; }
+.qa .qt {
+  font-family: var(--sans);
+  font-size: 7.2pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--ink-soft);
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+.qa .q.l { border-left: 3px solid var(--terracotta); padding-left: 9px; }
+.qa .q.s { border-left: 3px solid var(--olive); padding-left: 9px; }
+.qa .q.v { border-left: 3px solid var(--dusty-blue); padding-left: 9px; }
+.qa .q p { margin: 0; text-align: left; display: inline; }
+
+/* ============ Subject card grid (project index only) ============ */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 14px;
+  margin: 18px 0 24px;
+}
+.subjcard {
+  display: block;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--terracotta);
+  border-radius: 3px;
+  background: #fffdf8;
+  padding: 13px 15px 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.subjcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -8px rgba(90, 72, 45, .45);
+}
+.subjcard .sc-code {
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--terracotta-d);
+}
+.subjcard .sc-title {
+  font-size: 11.4pt;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 4px 0 6px;
+  color: var(--ink);
+}
+.subjcard .sc-desc {
+  font-size: 9pt;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin-bottom: 9px;
+}
+.subjcard .sc-meta {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 7px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.subjcard.olive { border-top-color: var(--olive); }
+.subjcard.olive .sc-code { color: var(--olive-d); }
+.subjcard.blue { border-top-color: var(--dusty-blue); }
+.subjcard.blue .sc-code { color: #3d5a71; }
+.subjcard.gold { border-top-color: var(--gold); }
+.subjcard.gold .sc-code { color: #856722; }
+
+.linkpair {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.08em;
+  margin-top: 7px;
+  display: flex;
+  gap: 12px;
+}
+.linkpair a { color: var(--terracotta-d); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.linkpair a:hover { border-bottom-color: var(--terracotta); }
+
+.tocwide { columns: 2; column-gap: 30px; }
+.tocwide li { break-inside: avoid; }
+
+/* ============ Misc components ============ */
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 18px;
+}
+.chip {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  padding: 3px 11px;
+}
+
+.hr {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+  margin: 30px 0;
+}
+
+.footnote {
+  font-size: 8.6pt;
+  color: var(--ink-faint);
+  line-height: 1.5;
+}
+
+/* two-column comparison */
+.two-col { column-count: 2; column-gap: 30px; column-rule: 1px solid var(--rule-soft); }
+.two-col > * { break-inside: avoid; }
+
+/* ============ Responsive ============ */
+@media (max-width: 780px) {
+  body { padding: 14px 8px 40px; background-size: 18px 18px; }
+  .doc { padding: 26px 20px 36px; border-radius: 3px; }
+  .hero { padding: 20px 18px 18px; }
+  .hero h1 { font-size: 20pt; }
+  h2 { font-size: 14.5pt; padding-left: 11px; border-left-width: 4px; }
+  h3 { font-size: 11.6pt; }
+  .toc .sub { columns: 1; }
+  .tocwide { columns: 1; }
+  .two-col { column-count: 1; }
+  table { font-size: 8.4pt; }
+}
+
+/* ============================================================
+   PRINT / PDF  —  A4
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 15mm 14mm 16mm 14mm;
+}
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+    background-image: none !important;
+  }
+  body { padding: 0; font-size: 10.1pt; line-height: 1.56; }
+  .doc {
+    max-width: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .doc::before { display: none; }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Keep a whisper of the notebook dot-grid on the page, but far fainter
+     than on screen so a 70-page print run does not look noisy. */
+  .doc {
+    background-color: #fffdf8 !important;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0) !important;
+    background-size: 5.6mm 5.6mm !important;
+  }
+
+  h2, h3, h4, h5 { break-after: avoid; page-break-after: avoid; }
+  h2 { margin-top: 20pt; }
+
+  .card, figure, .qa .q, .tw.tkeep, tr, .chip-row { break-inside: avoid; page-break-inside: avoid; }
+  .tw, .card, .review { break-inside: auto; page-break-inside: auto; }
+
+  thead { display: table-header-group; }
+  tfoot { display: table-footer-group; }
+  p, li { orphans: 2; widows: 2; }
+
+  a { color: inherit; text-decoration: none; }
+  .made-by a { border-bottom: 0; }
+
+  .toc a { color: var(--ink); }
+
+  /* page-break control utility classes */
+  .pb { break-before: page; page-break-before: always; }
+  .avoid { break-inside: avoid; page-break-inside: avoid; }
+}
+
+</style>
+</head>
+<body>
+<article class="doc">
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="kicker">D.El.Ed &mdash; Semester I &middot; Paper S1.6</div>
+  <div class="code">S1.6</div>
+  <h1>Pedagogy of Mathematics &ndash; I</h1>
+  <p class="tagline">What early mathematics is, how children actually learn it, the approaches that carry it, the components it comprises, how it is assessed, and the mathematicians who built it.</p>
+  <div class="rule-line"><span class="made-by">Made with <span class="heart">&#10084;&#65039;</span> by <strong>Sayeem Sadik</strong> &middot; <a href="https://leoaristocrat.eu.cc">leoaristocrat.eu.cc</a></span></div>
+  <div class="glance">
+    <div class="g-item"><div class="g-label">Units</div><div class="g-value">5 &mdash; U1 (7), U2 (8), U3 (10), U4 (5), U5 (5)</div></div>
+    <div class="g-item"><div class="g-label">Marks</div><div class="g-value">35 External + 15 Internal = 50</div></div>
+    <div class="g-item"><div class="g-label">Credits</div><div class="g-value">2 &middot; 2&ndash;3 periods / week</div></div>
+    <div class="g-item"><div class="g-label">Scope</div><div class="g-value">Preparational &amp; Foundational Stage (ages 3&ndash;8)</div></div>
+  </div>
+</header>
+
+<!-- ============ CONTENTS ============ -->
+<nav class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#unit-1">Unit 1 &mdash; Introduction to Preparational and Foundational Mathematics</a>
+        <ul class="sub">
+        <li><a href="#s1-1">1.1 Foundational Literacy and Numeracy (FLN)</a></li>
+        <li><a href="#s1-2">1.2 Importance of FLN</a></li>
+        <li><a href="#s1-3">1.3 Meaning of Foundational Numeracy (FN)</a></li>
+        <li><a href="#s1-4">1.4 Importance of FN</a></li>
+        <li><a href="#s1-5">1.5 Major aspects of early mathematics</a></li>
+        <li><a href="#s1-6">1.6 Learning outcome and its importance</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-2">Unit 2 &mdash; Principles and Approaches for Teaching Mathematics at the Foundational Stage</a>
+        <ul class="sub">
+        <li><a href="#s2-1">2.1 Understanding the individual learner</a></li>
+        <li><a href="#s2-2">2.2 Piaget&rsquo;s theory of mathematics learning</a></li>
+        <li><a href="#s2-3">2.3 Importance of learning and teaching errors of mathematics</a></li>
+        <li><a href="#s2-4">2.4 Approaches to teaching mathematics at the foundational stage</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-3">Unit 3 &mdash; Components of Mathematics Learning at the Foundational Stage</a>
+        <ul class="sub">
+        <li><a href="#s3-1">3.1 Pre-number concepts</a></li>
+        <li><a href="#s3-2">3.2 Numbers and operations on numbers</a></li>
+        <li><a href="#s3-3">3.3 Shapes and spatial understanding</a></li>
+        <li><a href="#s3-4">3.4 Measurement</a></li>
+        <li><a href="#s3-5">3.5 Patterns</a></li>
+        <li><a href="#s3-6">3.6 Data handling</a></li>
+        <li><a href="#s3-7">3.7 Mathematical communication</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-4">Unit 4 &mdash; Assessment in the Foundational Stage</a>
+        <ul class="sub">
+        <li><a href="#s4-1">4.1 Criteria for assessment</a></li>
+        <li><a href="#s4-2">4.2 360&deg; assessment and PARAKH</a></li>
+        <li><a href="#s4-3">4.3 The holistic report card</a></li>
+    </ul>
+    </li>
+    <li><a href="#unit-5">Unit 5 &mdash; Life and Contribution of Mathematicians</a>
+        <ul class="sub">
+        <li><a href="#s5-1">5.1 Aryabhata</a></li>
+        <li><a href="#s5-2">5.2 Brahmagupta</a></li>
+        <li><a href="#s5-3">5.3 Ramanujan</a></li>
+        <li><a href="#s5-4">5.4 Euclid</a></li>
+        <li><a href="#s5-5">5.5 Pythagoras</a></li>
+    </ul>
+    </li>
+    <li><a href="#practicum">Practicum &mdash; Project, Assignments and Compulsory Activity</a>
+        <ul class="sub">
+        <li><a href="#pr-projects">Suggested Projects</a></li>
+        <li><a href="#pr-assign">Any Two Assignments</a></li>
+        <li><a href="#pr-comp">The Compulsory Activity</a></li>
+    </ul>
+    </li>
+    <li><a href="#internal">Internal Assessment (15 marks)</a>
+    </li>
+    <li><a href="#revision">Quick Subject Revision</a>
+    </li>
+    <li><a href="#differences">Important Differences</a>
+    </li>
+    <li><a href="#courseinfo">Course Information &mdash; Objectives, Mode of Transaction, Assessment Structure</a>
+    </li>
+    <li><a href="#readings">Suggested Readings and Resources</a>
+        <ul class="sub">
+        <li><a href="#rd-a">Textbooks and Books</a></li>
+        <li><a href="#rd-b">TESS-India Open Educational Resources</a></li>
+        <li><a href="#rd-c">Training Modules, Portals and Policy Documents</a></li>
+    </ul>
+    </li>
+  </ol>
+</nav>
+
+<!-- ============ UNIT 1 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-1"><span class="h2num">Unit 1</span>Introduction to Preparational and Foundational Mathematics</h2>
+
+<h3 id="s1-1">1.1 Foundational Literacy and Numeracy (FLN)</h3>
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Foundational Literacy and Numeracy (FLN)</strong> is the combined capability of reading, writing, speaking, listening and working with numbers that every child needs in order to move on to any further learning. It is the standard term in all foundational-stage documentation in India.</p>
+</div>
+<p>Numeracy is only one half of FLN: a child who can count but cannot read a simple instruction is not yet foundationally literate, and a child who can read but cannot handle a quantity is not yet foundationally numerate.</p>
+<p>The <strong>Foundational Stage</strong> of <strong>NEP 2020</strong> lasts <strong>five years</strong> and covers ages <strong>three to eight</strong> &mdash; three years of Anganwadi or pre-primary, then Grades 1 and 2 &mdash; designed as a single continuous stage rather than a soft preparatory year followed by a &ldquo;real&rdquo; school. <strong>NCF-FS 2022</strong> divides it into <strong>Bal Vatika</strong> (3&ndash;4 years) and <strong>Grades 1&ndash;2</strong> (5&ndash;8 years).</p>
+
+<figure>
+  <svg viewBox="0 0 760 250" role="img" aria-label="The five-year Foundational Stage from age three to age eight, with Bal Vatika and Grades 1 to 2 marked">
+    <rect x="0" y="0" width="760" height="250" fill="#fcf9f2"/>
+    <text x="30" y="26" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#33302b">NEP 2020: FOUNDATIONAL STAGE &mdash; 5 YEARS, AGES 3&ndash;8</text>
+    <line x1="30" y1="48" x2="730" y2="48" stroke="#7a736a" stroke-width="1.6"/>
+    <text x="30" y="40" font-family="Georgia, serif" font-size="12" fill="#7a736a">age 3</text>
+    <text x="730" y="40" text-anchor="end" font-family="Georgia, serif" font-size="12" fill="#7a736a">age 8</text>
+    <g font-family="Georgia, serif" font-size="12" fill="#33302b">
+      <rect x="30" y="70" width="128" height="62" rx="4" fill="#e5ecf2" stroke="#4c6a83"/>
+      <text x="94" y="96" text-anchor="middle" font-weight="bold">Anganwadi /</text>
+      <text x="94" y="114" text-anchor="middle" fill="#4c6a83">3&ndash;4 years</text>
+      <rect x="173" y="70" width="128" height="62" rx="4" fill="#e5ecf2" stroke="#4c6a83"/>
+      <text x="237" y="96" text-anchor="middle" font-weight="bold">Pre-primary</text>
+      <text x="237" y="114" text-anchor="middle" fill="#4c6a83">4&ndash;6 years</text>
+      <rect x="316" y="70" width="128" height="62" rx="4" fill="#e5ecf2" stroke="#4c6a83"/>
+      <text x="380" y="96" text-anchor="middle" font-weight="bold">Pre-primary III</text>
+      <text x="380" y="114" text-anchor="middle" fill="#4c6a83">5&ndash;6 years</text>
+      <rect x="459" y="70" width="128" height="62" rx="4" fill="#ecefdd" stroke="#6d7a4a"/>
+      <text x="523" y="96" text-anchor="middle" font-weight="bold">Grade 1</text>
+      <text x="523" y="114" text-anchor="middle" fill="#54603a">6&ndash;7 years</text>
+      <rect x="602" y="70" width="128" height="62" rx="4" fill="#ecefdd" stroke="#6d7a4a"/>
+      <text x="666" y="96" text-anchor="middle" font-weight="bold">Grade 2</text>
+      <text x="666" y="114" text-anchor="middle" fill="#54603a">7&ndash;8 years</text>
+    </g>
+    <path d="M30,158 h184 v-14 h512 v14" fill="none" stroke="#a5822e" stroke-width="1.6"/>
+    <text x="122" y="176" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#856722">NCF-FS 2022: Bal Vatika (3&ndash;4 yrs)</text>
+    <path d="M316,206 h414 v-14 h-414 z" fill="none" stroke="#b4623c" stroke-width="1.6"/>
+    <text x="523" y="224" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#8f4a2a">NCF-FS 2022: Grades 1&ndash;2 (5&ndash;8 yrs)</text>
+  </svg>
+  <figcaption><b>Figure 1.1</b> &mdash; The five-year Foundational Stage (ages 3&ndash;8) of NEP 2020, with the two-part Bal Vatika / Grades 1&ndash;2 structure of NCF-FS 2022 marked beneath it.</figcaption>
+</figure>
+
+<h3 id="s1-2">1.2 Importance of FLN</h3>
+<p>FLN matters for four reasons, and an answer that gives only one will be thin.</p>
+<ul class="bul">
+  <li><strong>It is the gate to the rest of the curriculum.</strong> A child who cannot read a word problem cannot do the mathematics in it. This is why NEP 2020 treats the foundational stage as a stage in its own right.</li>
+  <li><strong>It is preventable failure.</strong> Foundational literacy and numeracy is among the strongest predictors of later educational attainment, and a deficit acquired at age six is very difficult to recover from.</li>
+  <li><strong>It is everyday protection.</strong> In rural and low-income households, numeracy competence is what allows a child to check a shopkeeper&rsquo;s arithmetic, read a bus timetable, compare two recharge offers, or measure out a ration.</li>
+  <li><strong>It marks where the teacher becomes the decisive variable.</strong> A secondary-stage teacher can rely on existing fluency; a foundational-stage teacher has to <em>create</em> it, and needs a pedagogy of concrete experience, language and play rather than exposition and practice.</li>
+</ul>
+
+<h3 id="s1-3">1.3 Meaning of Foundational Numeracy (FN)</h3>
+<p><strong>Foundational Numeracy (FN)</strong> is the early formation of number capability &mdash; the stage at which a child moves from responding to quantity with senses and actions, to naming quantities, to connecting quantity with number, to using number and its operations in ordinary life. It is not the same as &ldquo;doing sums&rdquo;: a four-year-old who knows she has one more biscuit than her brother has foundational numeracy, while a seven-year-old who can recite the addition sequence but cannot tell which of two groups has more has not yet acquired it.</p>
+<p>The working policy definition comes from <strong>NIPUN Bharat</strong> &mdash; the <em>National Improvement Programme for Universalisation of Numeracy Capability in Bharat</em> &mdash; released in <strong>February 2022</strong>, with particular attention to Grades 1 and 2, where the &ldquo;learning cliff&rdquo; occurs. Its framework lists <strong>twelve high-priority competencies grouped into three domains</strong>.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 1.1 &mdash; The Twelve High-Priority Competencies of NIPUN Bharat in Three Domains</caption>
+    <thead><tr><th>Domain</th><th>No.</th><th>Competency</th></tr></thead>
+    <tbody>
+      <tr><td rowspan="3"><strong>Language</strong> (3)</td><td>1</td><td>Oral language and vocabulary &mdash; speaking in sentences, listening, using the words of mathematics in speech</td></tr>
+      <tr><td>2</td><td>Decoding &mdash; relating spoken words to written forms</td></tr>
+      <tr><td>3</td><td>Encoding &mdash; writing what is spoken, forming letters and spelling short words correctly</td></tr>
+      <tr><td rowspan="3"><strong>Number</strong> (3)</td><td>4</td><td>Comparison &mdash; comparing quantities, sizes, lengths, weights, and using <em>more, fewer, larger, longer, heavier</em></td></tr>
+      <tr><td>5</td><td>Counting and place value &mdash; one-to-one counting, counting on, counting in groups, the idea of tens and ones</td></tr>
+      <tr><td>6</td><td>Addition and subtraction &mdash; combining and separating quantities, the operation before the symbol</td></tr>
+      <tr><td rowspan="6"><strong>Basic enquiry and application</strong> (6)</td><td>7</td><td>Identification of the problem &mdash; recognising that a situation contains a mathematical question</td></tr>
+      <tr><td>8</td><td>Structuring / organising the information &mdash; representing the situation in a form that can be operated on</td></tr>
+      <tr><td>9</td><td>Formulating a plan &mdash; choosing a strategy to solve it</td></tr>
+      <tr><td>10</td><td>Execution of the plan &mdash; carrying out the chosen strategy</td></tr>
+      <tr><td>11</td><td>Monitoring and checking &mdash; judging whether the answer is reasonable and verifying it</td></tr>
+      <tr><td>12</td><td>Reasoning &mdash; justifying, explaining why the answer is right, generalising and concluding</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="footnote">The arithmetic of the framework is 3 + 3 + 6 = 12. When a question asks for &ldquo;the three domains&rdquo;, the answer is Language, Number, and Basic enquiry &amp; application, in that order, with the counts 3, 3 and 6.</p>
+<p>Two of these domains explain why numeracy is a foundation rather than a subject. The <strong>Language</strong> domain shows that a child cannot do mathematics in a language they do not have, so in a multilingual Assamese classroom mathematics must begin in the child&rsquo;s home language. The <strong>Basic enquiry and application</strong> domain is the problem-solving chain of the Mode of Transaction, and is why the syllabus insists on rich mathematical tasks and on justification.</p>
+
+<h3 id="s1-4">1.4 Importance of FN</h3>
+<ul class="bul">
+  <li><strong>It is the gateway to all later mathematics.</strong> Place value and the four operations cannot be understood later if they were not understood at all in the foundational years. A gap at number is a gap in every later topic, not only in arithmetic.</li>
+  <li><strong>It is most cheaply learned and most expensively lost.</strong> Number sense forms in the pre-teaching years; remedial work undertaken years later is slower, less successful and more discouraging.</li>
+  <li><strong>It supports literacy and science.</strong> Reading comprehension at Grade 3 is substantially weaker when word length and quantifiers have not formed; and measurement, the base of physics, begins here.</li>
+  <li><strong>It is functional literacy in daily life.</strong> The numeracy a child needs in a market, on a bus, or while sharing a ration packet is precisely foundational numeracy, not examination arithmetic.</li>
+</ul>
+
+<h3 id="s1-5">1.5 Major aspects of early mathematics</h3>
+<p>Early mathematics has two halves that are often confused: <strong>aspects</strong>, the big strands of content a child meets, and <strong>processes</strong>, what the child actually does mathematically. A child does both at once, and a good lesson touches both. The seven aspects below are the whole content of Unit 3; they are not in a teaching order, and what changes with development is the <em>depth</em> of each and the child&rsquo;s independence in handling it.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 1.2 &mdash; Major Aspects of Early Mathematics</caption>
+    <thead><tr><th>Aspect</th><th>What the child is doing</th><th>Typical foundational activity</th></tr></thead>
+    <tbody>
+      <tr><td>Pre-number concepts</td><td>Sorting, matching, pairing, ordering, classifying, comparing, one-to-one correspondence &mdash; without counting</td><td>Grouping leaves by size; ordering pencils shortest to longest</td></tr>
+      <tr><td>Numbers and numeracy</td><td>Counting, reading and writing numerals, comparing numbers, place value, addition and subtraction</td><td>Counting bottle tops; sharing 5 mangoes between 2 plates</td></tr>
+      <tr><td>Shapes and space</td><td>Recognising, naming, sorting and building 2-D and 3-D shapes; position, direction, orientation; visualising solids</td><td>Finding circles in the classroom; building a tower with cubes</td></tr>
+      <tr><td>Measurement</td><td>Comparing lengths, weights, capacities and time; non-standard then standard units and simple instruments</td><td>Comparing two books; weighing two mangoes on a balance</td></tr>
+      <tr><td>Patterns</td><td>Continuing, completing and creating patterns; noticing regularity in surroundings</td><td>Continuing a red&ndash;blue border; the rangoli drawn on <em>puja</em></td></tr>
+      <tr><td>Data handling</td><td>Collecting, sorting, representing and talking about simple data</td><td>Recording which fruit the class most often brings</td></tr>
+      <tr><td>Mathematical communication and reasoning</td><td>Using the language of mathematics, symbols and signs; explaining, justifying and estimating</td><td>&ldquo;There are 3 more, because&hellip;&rdquo;; using &minus; for &ldquo;take away&rdquo;</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Alongside the aspects, four <strong>processes</strong> run through all of them: <strong>perceiving</strong> (noticing the mathematics in the world), <strong>representing</strong> (holding it as objects, pictures or symbols), <strong>reasoning</strong> (drawing conclusions and justifying them) and <strong>problem solving</strong> (applying it to a situation). ELPS is a sequence for the representing process; REACT is a sequence for reasoning and problem solving.</p>
+
+<h3 id="s1-6">1.6 Learning outcome and its importance</h3>
+<p>A <strong>learning outcome</strong> is a statement of what a learner will be able to <em>do</em>, demonstrate or perform, in observable and measurable terms, as a result of learning. Because it must be observable, it forces the teacher to decide in advance what evidence will show that learning has occurred: if you cannot say what you will see the child do, you cannot teach for it, and you cannot assess it.</p>
+<p>An <em>aim</em> is broad and often unmeasurable (&ldquo;to develop interest in mathematics&rdquo;); an <em>objective</em> is narrower (&ldquo;to understand the concept of addition&rdquo;); a <em>learning outcome</em> states the performance with a <strong>condition</strong> and a <strong>criterion</strong> &mdash; <em>who</em> will do what, <em>under what conditions</em>, and <em>to what standard</em>.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 1.3 &mdash; The Parts of a Well-formed Learning Outcome</caption>
+    <thead><tr><th>Part</th><th>Question it answers</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td>Learner and action</td><td>Who will do what?</td><td>&ldquo;The child will&hellip;&rdquo; &mdash; count, add, compare, name, draw</td></tr>
+      <tr><td>Content / object</td><td>On what?</td><td>&ldquo;given 6 mangoes and 3 apples&hellip;&rdquo;</td></tr>
+      <tr><td>Condition</td><td>Under what circumstances?</td><td>&ldquo;using concrete objects&hellip;&rdquo; &ldquo;in a real-life situation&hellip;&rdquo;</td></tr>
+      <tr><td>Criterion</td><td>To what standard?</td><td>&ldquo;in 4 out of 5 trials, without counting on fingers&hellip;&rdquo;</td></tr>
+      <tr><td>Justification</td><td>Why is this worth learning?</td><td>&ldquo;because it is needed to compare quantities&hellip;&rdquo;</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Outcomes matter in Unit 4 because assessment criteria must be written <em>from</em> outcomes &mdash; you cannot assess an outcome that was never stated &mdash; and in the practicum, where the compulsory activity requires a lesson to be analysed <em>in terms of learning outcome</em>: what outcome the lesson actually taught, as distinct from the activity it happened to contain.</p>
+
+<div class="card mist">
+  <span class="lbl">Common Mistake</span>
+  <p>Writing &ldquo;The child will understand addition&rdquo; is <em>not</em> a learning outcome. &ldquo;Understand&rdquo; is not observable; nobody can look at a child and certify that understanding has occurred. Replace it with an observable action &mdash; joining, separating, matching, counting on, stating, drawing, comparing, measuring, justifying. A complete outcome for a foundational lesson reads: &ldquo;<em>Given 6 mangoes, the child will add 3 more by joining the two groups and stating the total, in 4 out of 5 trials.</em>&rdquo;</p>
+</div>
+</section>
+
+<div class="review">
+  <h4>Unit 1 Review</h4>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li>NEP 2020 Foundational Stage = 5 years = 3 years Anganwadi/pre-primary + Grades 1&ndash;2 = ages 3 to 8.</li>
+    <li>NCF-FS 2022: Bal Vatika (3&ndash;4 years) and Grades 1&ndash;2 (5&ndash;8 years).</li>
+    <li>NIPUN Bharat released <strong>February 2022</strong>; 12 competencies in 3 domains &mdash; Language (3), Number (3), Basic enquiry and application (6).</li>
+    <li>FLN contains FN; FN is not a synonym for FLN. Seven aspects: pre-number, number, shape and space, measurement, pattern, data, communication. Four processes: perceive, represent, reason, problem solve.</li>
+    <li>A learning outcome needs an observable action, a condition and a criterion.</li>
+  </ul>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>Define Foundational Literacy and Numeracy. State the age range of the Foundational Stage under NEP 2020.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Name the three domains of the NIPUN Bharat framework, with the number of competencies in each.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain any three reasons for the importance of Foundational Numeracy in the foundational stage.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>List the seven major aspects of early mathematics with one activity for each, and name the four processes.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>&ldquo;Foundational literacy and numeracy is the gate to all subsequent learning.&rdquo; Discuss this with reference to the structure of the Foundational Stage and the NIPUN Bharat framework.</p></div>
+  </div>
+</div>
+
+<!-- ============ UNIT 2 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-2"><span class="h2num">Unit 2</span>Principles and Approaches for Teaching Mathematics at the Foundational Stage</h2>
+
+<h3 id="s2-1">2.1 Understanding the individual learner</h3>
+<p>Understanding the individual learner is a principle, not a technique, because it changes <em>what</em> you decide to do, not merely how. Every child brings a different amount of mathematical experience, a different home language and a different rate of development, and the foundational years are those in which these differences widen fastest. A teacher who teaches one lesson to thirty-five children in a single voice is teaching to an average child who does not exist. In practice it means answering four questions before planning a lesson:</p>
+<ul class="bul">
+  <li><strong>What can this child already do?</strong> &mdash; prior knowledge and pre-number concepts.</li>
+  <li><strong>What will this child misread or do wrongly?</strong> &mdash; common misconceptions.</li>
+  <li><strong>What language does this child think in?</strong> &mdash; multilingualism; mathematical words are often learned in English before they are learned in the home language.</li>
+  <li><strong>What does this child need in order to try?</strong> &mdash; scaffolding, patience, and a relationship in which a wrong answer is safe.</li>
+</ul>
+<p>Three habits follow. <strong>Diagnose before teaching</strong>, with a two-minute hands-on task rather than a written test. <strong>Differentiate by support, not by expectation</strong> &mdash; the same outcome, more scaffolding for those who need it. <strong>Use the classroom as a data source</strong>: children&rsquo;s errors are the fastest evidence of what they have understood, which is why 2.3 follows.</p>
+
+<h3 id="s2-2">2.2 Piaget&rsquo;s theory of mathematics learning</h3>
+<p>Jean Piaget&rsquo;s genetic epistemology holds that children do not receive mathematics from adults; they <em>construct</em> it, and they construct it in a recognisable order, because a child can only think in the ways the current state of their development allows. In the foundational years the mathematics that matters is quantity, number, classification, seriation and spatial form. His stages are stage-like rather than clock-like: an age range is an average, and a child may sit in one stage longer or move unevenly.</p>
+
+<figure>
+  <svg viewBox="0 0 760 300" role="img" aria-label="Piaget's four stages of cognitive development with the mathematical understanding characteristic of each stage">
+    <rect x="0" y="0" width="760" height="300" fill="#fcf9f2"/>
+    <text x="380" y="24" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#33302b">PIAGET&rsquo;S FOUR STAGES AND THEIR MATHEMATICS</text>
+    <g font-family="Georgia, serif" font-size="12" fill="#33302b">
+      <rect x="24" y="40" width="172" height="112" rx="4" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.5"/>
+      <text x="110" y="62" text-anchor="middle" font-weight="bold" fill="#8f4a2a">Sensorimotor</text>
+      <text x="110" y="80" text-anchor="middle">Birth &ndash; 2 years</text>
+      <text x="110" y="102" text-anchor="middle">Learning through the senses</text>
+      <text x="110" y="119" text-anchor="middle">and through action</text>
+      <text x="110" y="140" text-anchor="middle" fill="#8f4a2a">Object permanence;</text>
+      <text x="110" y="156" text-anchor="middle" fill="#8f4a2a">the counting rhyme</text>
+
+      <rect x="204" y="40" width="172" height="112" rx="4" fill="#f7efd8" stroke="#a5822e" stroke-width="1.5"/>
+      <text x="290" y="62" text-anchor="middle" font-weight="bold" fill="#856722">Pre-operational</text>
+      <text x="290" y="80" text-anchor="middle">2 &ndash; 7 years</text>
+      <text x="290" y="102" text-anchor="middle">Symbolic thought, but</text>
+      <text x="290" y="119" text-anchor="middle">egocentric and intuitive</text>
+      <text x="290" y="140" text-anchor="middle" fill="#856722">No conservation;</text>
+      <text x="290" y="156" text-anchor="middle" fill="#856722">reasoning from looks</text>
+
+      <rect x="384" y="40" width="172" height="112" rx="4" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.5"/>
+      <text x="470" y="62" text-anchor="middle" font-weight="bold" fill="#54603a">Concrete operational</text>
+      <text x="470" y="80" text-anchor="middle">7 &ndash; 11 years</text>
+      <text x="470" y="102" text-anchor="middle">Logical operations on</text>
+      <text x="470" y="119" text-anchor="middle">on concrete material</text>
+      <text x="470" y="140" text-anchor="middle" fill="#54603a">Conservation, seriation,</text>
+      <text x="470" y="156" text-anchor="middle" fill="#54603a">one-to-one, cardinality</text>
+
+      <rect x="564" y="40" width="172" height="112" rx="4" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.5"/>
+      <text x="650" y="62" text-anchor="middle" font-weight="bold" fill="#3d5a71">Formal operational</text>
+      <text x="650" y="80" text-anchor="middle">11 years and above</text>
+      <text x="650" y="102" text-anchor="middle">Abstract and</text>
+      <text x="650" y="119" text-anchor="middle">hypothetical reasoning</text>
+      <text x="650" y="140" text-anchor="middle" fill="#3d5a71">Generalising a rule;</text>
+      <text x="650" y="156" text-anchor="middle" fill="#3d5a71">symbolic systems</text>
+    </g>
+    <rect x="24" y="170" width="712" height="66" rx="4" fill="#fffdf8" stroke="#ded2bd"/>
+    <text x="380" y="192" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#54603a">FOUR TEACHING RULES THAT FOLLOW</text>
+    <g font-family="Georgia, serif" font-size="12" fill="#33302b">
+      <text x="44" y="212">1. Match, sort, pair, order, pattern and one-to-one correspondence come first, with concrete objects.</text>
+      <text x="44" y="229">2. Never teach a symbol before the experience that gives it meaning &mdash; this is what ELPS guarantees.</text>
+      <text x="392" y="212">3. Watch for misconceptions: rote recitation, one-to-one failure, the conservation error.</text>
+      <text x="392" y="229">4. Expect development, not &ldquo;maturity&rdquo;: give more concrete years, not more explanation.</text>
+    </g>
+    <text x="380" y="262" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a736a">The Foundational Stage (ages 3&ndash;8) lies almost entirely within the pre-operational stage,</text>
+    <text x="380" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a736a">with the later years of Grade 1 entering concrete operational thinking.</text>
+  </svg>
+  <figcaption><b>Figure 2.1</b> &mdash; Piaget&rsquo;s four stages of cognitive development, the mathematical understanding characteristic of each, and the teaching rules the syllabus draws from them.</figcaption>
+</figure>
+
+<div class="tw">
+  <table>
+    <caption>Table 2.1 &mdash; Piaget&rsquo;s Stages and Mathematical Milestones</caption>
+    <thead><tr><th>Stage &amp; age</th><th>Hallmarks</th><th>Mathematical attainment</th><th>Teaching consequence</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Sensorimotor</strong><br />birth&ndash;2</td><td>Learning through senses and movement; object permanence</td><td>The counting rhyme, the &ldquo;one duck, two ducks&rdquo; chant; quantity grasped through action; numerical primacy of perception</td><td>Provide real objects and repeated spoken number words; do not expect quantity to be verbalised</td></tr>
+      <tr><td><strong>Pre-operational</strong><br />2&ndash;7</td><td>Symbolic thought; egocentricity; centration; no conservation</td><td>Sorting, matching, pairing, ordering, simple classification; the counting rhyme without cardinality; appearance reasoning</td><td>Everything through concrete activity; expect the conservation error; never accuse the child of careless counting</td></tr>
+      <tr><td><strong>Concrete operational</strong><br />7&ndash;11</td><td>Logical operations on concrete material</td><td>Conservation, reversibility, classification, seriation, one-to-one correspondence, cardinality, early addition and subtraction</td><td>Use manipulatives and pictures freely; move towards symbols only after conservation is secure</td></tr>
+      <tr><td><strong>Formal operational</strong><br />11+</td><td>Abstract and hypothetical reasoning</td><td>Generalisation, rules, symbolic systems, algebra</td><td>Beyond the Foundational Stage; introduce gradually as a later bridge, not as a foundation</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Three points in that table repay emphasis. <strong>Egocentricity</strong> &mdash; the pre-operational child cannot readily take another person&rsquo;s point of view, which is why a child asked &ldquo;how many sweets have <em>you</em>?&rdquo; may answer as it pertains to the child. <strong>Absence of conservation</strong> &mdash; pour sweets from a short wide glass into a tall thin one and the child says there are <em>more</em> in the tall glass, because it is taller, and means it. <strong>Reversibility and cardinality</strong> &mdash; reversibility is what makes addition and subtraction operations, since adding 3 and then subtracting 3 returns the original quantity; cardinality, the idea that the <em>last</em> number said tells how many, is the bridge between the counting rhyme and number as a quantity.</p>
+
+<div class="card idea">
+  <span class="lbl">Key Idea</span>
+  <p>The tall-glass error shows in one example why children must <em>do</em> mathematics before they are told it. Conservation cannot be talked into a pre-operational child; it has to be <strong>constructed</strong> &mdash; poured, counted, matched and poured back &mdash; until the child discovers that the number did not change. That is the whole argument for the concrete block of the four-block approach.</p>
+</div>
+
+<h4>Vygotsky and Bruner as supporting perspectives</h4>
+<p>Two further perspectives complete the theoretical base of this unit.</p>
+<p><strong>Vygotsky</strong> contributed two ideas used every day. The <strong>Zone of Proximal Development (ZPD)</strong> is the gap between what a child can do alone and what that child can do with guidance from a more knowledgeable other; learning directed at the ZPD produces more development than learning pitched at what the child can already do. And because language and thought develop together, mathematical talk is not a way of <em>reporting</em> understanding but a <em>means</em> of producing it: a child who says &ldquo;I took two away, so three are left&rdquo; is thinking, not merely recording.</p>
+<p><strong>Bruner</strong> offered a three-fold representation of knowledge &mdash; <strong>enactive</strong> (through action), <strong>iconic</strong> (through images) and <strong>symbolic</strong> (through words, numbers and signs). Enactive corresponds to ELPS Experience, iconic to Pictures, symbolic to Symbols. His claim that any subject can be taught honestly to any child at any stage in some form is a mandate for the foundational mathematics teacher, not an excuse to teach abstraction to a five-year-old.</p>
+
+<h3 id="s2-3">2.3 Importance of learning and teaching errors of mathematics</h3>
+<p>The phrasing of 2.3 is worth unpacking: it is not only the child&rsquo;s errors that are to be learned from, but also the <strong>errors of mathematics teaching</strong> &mdash; the mistakes teachers and textbooks make. Both are evidence about what children understand, and both are to be studied rather than merely corrected.</p>
+<p>On the child&rsquo;s side, an error is a visible record of the child&rsquo;s current hypothesis. A child who says &ldquo;8 minus 3 is 5&rdquo; is not being careless; the child is applying a rule &mdash; perhaps subtracting the smaller from the larger, perhaps treating &ldquo;minus&rdquo; as &ldquo;jump forward&rdquo;. Because the error is regular it is informative: it points to a rule the child has adopted, and rules can be addressed. The diagnostic question &ldquo;what rule would produce this answer?&rdquo; turns a mark of failure into a map of the child&rsquo;s thinking.</p>
+<p>On the teaching side, the common errors are well known: introducing symbols before experience; drilling the counting chant until it is fluent while cardinality stays absent; asking questions with a single right answer, so that children stop thinking and start guessing what the teacher wants; re-explaining in the same words after an explanation has already failed; and using public humiliation to manage a subject children find difficult.</p>
+<p>Four principles follow &mdash; the examinable core of 2.3.</p>
+<ul class="num">
+  <li><strong>Errors are inevitable</strong>, because understanding is built by testing hypotheses and some hypotheses will be wrong.</li>
+  <li><strong>Errors are informative</strong>, provided the teacher listens to what rule produced them.</li>
+  <li><strong>Errors must be handled non-punitively</strong>, because shame produces silence, and a silent child cannot be diagnosed.</li>
+  <li><strong>Error and misconception must be distinguished from carelessness</strong>, since a careless child needs correction while a child whose misconception has become clear needs re-teaching.</li>
+</ul>
+
+<div class="tw">
+  <table>
+    <caption>Table 2.2 &mdash; The Four Misconceptions That Come from Piaget&rsquo;s Account, and the Teacher&rsquo;s Response</caption>
+    <thead><tr><th>Misconception</th><th>What the child does</th><th>Why it happens</th><th>Teacher&rsquo;s response</th></tr></thead>
+    <tbody>
+      <tr><td>Rote counting without meaning</td><td>Recites &ldquo;one, two, three&hellip;ten&rdquo; fluently but cannot count a heap of 6 mangoes</td><td>Number names were memorised as a chant in the sensorimotor stage without being tied to quantity</td><td>Recount the chant while touching each object; insist on one touch for one number word; ask &ldquo;how many altogether?&rdquo; at the end</td></tr>
+      <tr><td>Failure of one-to-one pointing</td><td>Touches one object repeatedly while reciting, or skips an object and doubles another</td><td>One-to-one correspondence is not yet an operation; counting is a recitation attached to the material</td><td>Move a single object for each number word, slowly, with a gap between objects; later match a card to each object</td></tr>
+      <tr><td>&ldquo;The answer is 7&rdquo; without knowing which seven</td><td>Gives the right numeral but cannot point to the objects it counts, or counts a different set on request</td><td>The numeral has been learned as a symbol without cardinality &mdash; the last-number principle is missing</td><td>Always ask the child to touch the last object said; require &ldquo;the last one tells how many&rdquo;</td></tr>
+      <tr><td>Conservation error</td><td>Says a tall thin glass holds more than a short wide one with the same sweets</td><td>Pre-operational centration: appearance is taken for quantity</td><td>Let the child pour it back and count both times; make the reversal itself the lesson</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="s2-4">2.4 Approaches to Teaching Mathematics at the Foundational Stage</h3>
+<p>Eight approaches are named in the syllabus. Four are formal, named sequences that can be defined precisely &mdash; <strong>ELPS</strong>, <strong>REACT</strong>, the <strong>Four-Block approach</strong> and <strong>Gradual Release of Responsibility</strong> &mdash; and three are more general pedagogical styles: <strong>project-based</strong>, <strong>story-based</strong> and <strong>art and sports integrated</strong>. The first four are treated at length below; the last three are taken together afterwards.</p>
+
+<h4>ELPS &mdash; Experience, Language, Pictures, Symbols</h4>
+<p><strong>ELPS</strong> is the four-step sequence in which every mathematical concept is taught: the child <strong>E</strong>xperiences it, names it in <strong>L</strong>anguage, represents it in <strong>P</strong>ictures, and finally records it in <strong>S</strong>ymbols. It is the concrete-to-symbolic ladder, and its purpose is to guarantee that no symbol is introduced empty. At the foundational stage it is not a technique used occasionally; it is the default method for the whole subject.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 2.3 &mdash; The Four Steps of ELPS and What Each One Does</caption>
+    <thead><tr><th>Step</th><th>What the child does</th><th>What the step accomplishes</th></tr></thead>
+    <tbody>
+      <tr><td><strong>E</strong> &mdash; Experience</td><td>Handles, moves, joins, separates, fills, pours, weighs, arranges real objects</td><td>Builds a physical and sensory memory of the action. The concept exists before it has a name.</td></tr>
+      <tr><td><strong>L</strong> &mdash; Language</td><td>Says what is happening, in the home language first</td><td>Gives the concept a name and attaches it to the household vocabulary the child already owns.</td></tr>
+      <tr><td><strong>P</strong> &mdash; Pictures</td><td>Draws the situation; matches objects to pictures</td><td>Creates an external representation that can be held in mind without the objects being present &mdash; the bridge to the abstract.</td></tr>
+      <tr><td><strong>S</strong> &mdash; Symbols</td><td>Writes the numeral or the sign, and uses it to record the quantity</td><td>Converts the represented quantity into the compact written form that makes rapid calculation possible.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card ex">
+  <span class="lbl">Example</span>
+  <p><strong>ELPS worked through &mdash; adding 3 and 2.</strong> <em>E:</em> Give each pair 3 bottle tops and 2 seeds; ask them to put all of them in one circle and count. <em>L:</em> Ask what they did &mdash; they &ldquo;added&rdquo;, &ldquo;joined&rdquo;, &ldquo;put together&rdquo;. Accept all the words, then standardise on &ldquo;addition&rdquo; and on <em>more</em>. <em>P:</em> Ask each child to draw the circle with the 5 tops in it and to match the drawing to a printed card. <em>S:</em> Only now write <strong>3 + 2 = 5</strong> and let the children copy it, saying what each symbol means. A lesson that begins at the fourth step has skipped the only three steps in which meaning is created.</p>
+</div>
+
+<h4>REACT &mdash; Read, Explain, Analyse, Create, Think</h4>
+<p><strong>REACT</strong> is a five-step problem-solving sequence. The child <strong>R</strong>eads the problem, <strong>E</strong>xplains the problem or the concept involved, <strong>A</strong>nalyses it, <strong>C</strong>reates a strategy, and finally <strong>T</strong>hinks and evaluates the answer. It is the operational form of the Mode of Transaction&rsquo;s demand for rich mathematical tasks, and the approach to use whenever the aim is problem solving rather than concept acquisition. The two are complementary: ELPS builds the concept, REACT is what you do with it once it exists.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 2.4 &mdash; The Five Steps of REACT</caption>
+    <thead><tr><th>Step</th><th>Question the child asks</th><th>What happens in the classroom</th></tr></thead>
+    <tbody>
+      <tr><td><strong>R</strong> &mdash; Read</td><td>&ldquo;What does this problem say?&rdquo;</td><td>The problem is read aloud, twice; unfamiliar words are clarified; nothing is solved yet.</td></tr>
+      <tr><td><strong>E</strong> &mdash; Explain</td><td>&ldquo;What is it really asking me to find?&rdquo;</td><td>The child restates the problem in their own words and identifies the mathematical concept involved.</td></tr>
+      <tr><td><strong>A</strong> &mdash; Analyse</td><td>&ldquo;What information do I have, and what must I find?&rdquo;</td><td>Data are separated from the question; the child sees the structure, for example that there are two groups to be joined.</td></tr>
+      <tr><td><strong>C</strong> &mdash; Create</td><td>&ldquo;How will I do it? What is my plan?&rdquo;</td><td>A strategy is chosen &mdash; draw it, act it out with objects, count on, or write an equation &mdash; and the plan is stated before it is carried out.</td></tr>
+      <tr><td><strong>T</strong> &mdash; Think</td><td>&ldquo;Is my answer right, and how do I know?&rdquo;</td><td>The solution is checked, estimated against, reasoned about and justified; a different strategy is compared.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="footnote"><strong>REACT with a &ldquo;more&rdquo; problem.</strong> &ldquo;There are 5 children sitting in the shade and 2 more come and sit down. How many are sitting now?&rdquo; &mdash; <em>R</em>: read twice, &ldquo;come and sit&rdquo; explained. <em>E</em>: two groups are being brought together, so this is addition. <em>A</em>: given 5 and 2, total required. <em>C</em>: two plans offered &mdash; draw two circles of children and join them, or count on from 5. <em>T</em>: both give 7; the children count the drawn children to check and state why 7 must be right (adding 2 to 5 can only make it bigger, and 7 exceeds 5 by only 2).</p>
+
+<h4>The Four-Block approach</h4>
+<p>The <strong>Four-Block approach</strong> teaches a concept in four blocks that together form a cycle: the child handles the material, sees a picture of it, gives it symbolic meaning, then applies it to a real problem. At the foundational stage the first block is not merely the first step but the largest part of the lesson, because a concept taught only symbolically has no foundation to return to.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 2.5 &mdash; The Four Blocks of the Four-Block Approach</caption>
+    <thead><tr><th>Block</th><th>What happens</th><th>Materials and talk</th><th>Example &mdash; teaching &ldquo;5 &minus; 2&rdquo;</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1. Concrete Experience</strong></td><td>The child does the thing with real material</td><td>Sticks, bottle tops, seeds, a balance, a chalk line on the floor</td><td>Five sticks are laid out; the child takes two away and is left holding three</td></tr>
+      <tr><td><strong>2. Pictorial Representation</strong></td><td>The child draws or finds a picture of what happened</td><td>Paper and pencil, picture cards, a ten-frame drawn on the board</td><td>The child draws five sticks, crosses out two, and points to the three left</td></tr>
+      <tr><td><strong>3. Abstract / Symbolic</strong></td><td>Meaning is given to the number and the operation</td><td>Numerals, + &minus; = signs, the number line</td><td>The teacher writes <strong>5 &minus; 2 = 3</strong> and establishes that the sign means &ldquo;take away&rdquo;</td></tr>
+      <tr><td><strong>4. Problem Solving</strong></td><td>The concept is applied to a real situation</td><td>Story problems, classroom problems, TLM puzzles, the learning corner</td><td>&ldquo;There were 5 mangoes in the basket and 2 fell down. How many are still in the basket?&rdquo;</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>Concrete, pictorial and abstract are not rivals; they are successive strengths. Concrete builds meaning and prevents misconceptions, but is slow and easily lost once put away. Pictorial holds the quantity in mind and organises it, but can become a decorative step done without thinking. Abstract gives speed, precision and generality, but is arbitrary if taught too early. The cycle also returns: a problem solved in block 4 raises new concrete questions for block 1.</p>
+
+<h4>Gradual Release of Responsibility</h4>
+<p><strong>Gradual Release of Responsibility</strong> (Pearson and Hall) hands the work steadily to the class: <strong>I do, We do, You do together, You do alone</strong>. The syllabus describes it for <em>both the teacher and the student</em>, and the same sequence reads in two directions. Read forwards it is a <strong>teacher&rsquo;s planning sequence</strong> &mdash; the teacher models, then leads, then co-works, then withdraws. Read from the learner&rsquo;s side it is a <strong>student&rsquo;s learning sequence</strong> &mdash; the child watches, works within the group, works with a partner, then works alone. Teacher responsibility falls as learner responsibility rises, on one curve read from opposite ends. The common failure is to stop at &ldquo;We do&rdquo; and never release.</p>
+
+<figure>
+  <svg viewBox="0 0 760 250" role="img" aria-label="Gradual Release of Responsibility shown as four ascending steps from I do to You do alone, with teacher support fading as learner responsibility grows">
+    <defs><marker id="grA" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#6d7a4a"/></marker></defs>
+    <rect x="0" y="0" width="760" height="250" fill="#fcf9f2"/>
+    <text x="380" y="24" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#54603a">GRADUAL RELEASE OF RESPONSIBILITY (PEARSON AND HALL)</text>
+    <g font-family="Georgia, serif" font-size="12" fill="#33302b">
+      <rect x="30" y="140" width="160" height="86" rx="4" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.5"/>
+      <text x="110" y="164" text-anchor="middle" font-weight="bold" fill="#8f4a2a">I do</text>
+      <text x="110" y="186" text-anchor="middle">The teacher models;</text>
+      <text x="110" y="204" text-anchor="middle">the class watches</text>
+      <text x="110" y="220" text-anchor="middle" fill="#7a736a">teacher holds all</text>
+
+      <rect x="204" y="116" width="160" height="110" rx="4" fill="#f7efd8" stroke="#a5822e" stroke-width="1.5"/>
+      <text x="284" y="140" text-anchor="middle" font-weight="bold" fill="#856722">We do</text>
+      <text x="284" y="162" text-anchor="middle">The teacher leads the</text>
+      <text x="284" y="180" text-anchor="middle">whole class together;</text>
+      <text x="284" y="198" text-anchor="middle">shared thinking aloud</text>
+      <text x="284" y="220" text-anchor="middle" fill="#7a736a">responsibility: shared</text>
+
+      <rect x="378" y="92" width="160" height="134" rx="4" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.5"/>
+      <text x="458" y="116" text-anchor="middle" font-weight="bold" fill="#54603a">You do together</text>
+      <text x="458" y="138" text-anchor="middle">Pairs and small groups</text>
+      <text x="458" y="156" text-anchor="middle">work; the teacher moves</text>
+      <text x="458" y="174" text-anchor="middle">between them helping</text>
+      <text x="458" y="198" text-anchor="middle" fill="#7a736a">scaffolding still</text>
+      <text x="458" y="216" text-anchor="middle" fill="#7a736a">present</text>
+
+      <rect x="552" y="66" width="178" height="160" rx="4" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.5"/>
+      <text x="641" y="90" text-anchor="middle" font-weight="bold" fill="#3d5a71">You do alone</text>
+      <text x="641" y="112" text-anchor="middle">Independent work; the</text>
+      <text x="641" y="130" text-anchor="middle">teacher only observes</text>
+      <text x="641" y="148" text-anchor="middle">and records</text>
+      <text x="641" y="176" text-anchor="middle" fill="#3d5a71">responsibility: the</text>
+      <text x="641" y="194" text-anchor="middle" fill="#3d5a71">learner&rsquo;s alone</text>
+      <text x="641" y="216" text-anchor="middle" fill="#3d5a71">scaffolding withdrawn</text>
+    </g>
+    <line x1="192" y1="180" x2="202" y2="180" stroke="#6d7a4a" stroke-width="1.8" marker-end="url(#grA)"/>
+    <line x1="366" y1="156" x2="376" y2="156" stroke="#6d7a4a" stroke-width="1.8" marker-end="url(#grA)"/>
+    <line x1="540" y1="132" x2="550" y2="132" stroke="#6d7a4a" stroke-width="1.8" marker-end="url(#grA)"/>
+    <text x="380" y="242" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#33302b">Teacher support and prompts decrease steadily while learner responsibility increases &mdash; one curve read from opposite ends.</text>
+  </svg>
+  <figcaption><b>Figure 2.2</b> &mdash; Gradual Release of Responsibility: I do &rarr; We do &rarr; You do together &rarr; You do alone, read as the teacher&rsquo;s planning sequence and as the learner&rsquo;s learning sequence.</figcaption>
+</figure>
+
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>Scaffolding</strong>, in Vygotsky&rsquo;s sense, is the temporary support &mdash; a demonstration, a prompt, a model, a partly-completed step, a word, a gesture &mdash; that an adult or a more capable peer gives to a learner working inside the <strong>Zone of Proximal Development</strong>, and that is withdrawn as the learner&rsquo;s independent competence grows. It is not the same as help: help given and never removed produces dependence, whereas scaffolding is help designed to be taken away. The four steps of Gradual Release are, in effect, a scaffolding plan with a timetable.</p>
+</div>
+
+<h4>Project-based, story-based and art-and-sports integrated approaches</h4>
+<p>The remaining three approaches are not sequences but <strong>styles of organising learning</strong>, and each is a vehicle for the same ELPS and four-block work.</p>
+<p>The <strong>project-based approach</strong> places the child at the centre of a task with a real product and purpose, worked over an extended period; the four essential features are that it is child-centred, sustained, product-oriented and integrated across areas. Each of the syllabus&rsquo;s own projects &mdash; surveying households whose house numbers are multiples of 3, comparing vegetable prices across five markets, drawing a child at each of Piaget&rsquo;s stages &mdash; requires the child to count, sort, record, represent and justify. Each <em>is</em> foundational mathematics disguised as a real task. Without a stated mathematical focus, a project degenerates into craftwork.</p>
+<p>The <strong>story-based approach</strong> uses narrative to carry mathematical structure. Stories from the child&rsquo;s own world &mdash; the market, the river, the garden, the family&rsquo;s puja, a flood, a football match &mdash; give the mathematics a reason to exist and the vocabulary a home. The teacher&rsquo;s skill is to keep the mathematics visible: count the objects in the picture, find the repeated shape in the border, work out how much rice the family needs, predict what happens next from the pattern. Retelling a story in sequence is itself an act of mathematical ordering.</p>
+<p>The <strong>art and sports integrated approach</strong> treats drawing, music, movement and games as mathematical media rather than as periods traded against mathematics. Two of the syllabus&rsquo;s own assignment tasks are art-integrated in exactly this way: drawing a house or an animal entirely from the regular shapes of foundational geometry, and drawing a rangoli using mathematical facts. In sport the mathematics is usually counting and pattern &mdash; the number of players, the symmetry of a formation, the repeating sequence of a drill.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 2.6 &mdash; The Seven Approaches Compared</caption>
+    <thead><tr><th>Approach</th><th>Full form / structure</th><th>Principal strength</th><th>Main caution</th></tr></thead>
+    <tbody>
+      <tr><td><strong>ELPS</strong></td><td>Experience &rarr; Language &rarr; Pictures &rarr; Symbols</td><td>Guarantees that a symbol always has meaning behind it</td><td>Must not be shortened by writing first; the L step is often skipped</td></tr>
+      <tr><td><strong>REACT</strong></td><td>Read &rarr; Explain &rarr; Analyse &rarr; Create &rarr; Think</td><td>Makes problem solving explicit and assessable</td><td>Needs a rich problem; a trivial problem makes the five steps pointless</td></tr>
+      <tr><td><strong>Four-Block</strong></td><td>Concrete &rarr; Pictorial &rarr; Abstract/Symbolic &rarr; Problem Solving</td><td>Organises a whole concept lesson into a balanced shape</td><td>At the foundational stage the abstract block will always be the shortest</td></tr>
+      <tr><td><strong>Gradual Release of Responsibility</strong></td><td>I do &rarr; We do &rarr; You do together &rarr; You do alone</td><td>Converts a demonstration into independent competence</td><td>Easy to stop at &ldquo;We do&rdquo; and never release</td></tr>
+      <tr><td><strong>Project-based</strong></td><td>Extended, child-centred, product-oriented</td><td>Mathematics acquires a real purpose and a real audience</td><td>Can drift into craftwork without a stated mathematical focus</td></tr>
+      <tr><td><strong>Story-based</strong></td><td>Narrative carrying mathematical structure</td><td>Connects mathematics to the child&rsquo;s world and its language</td><td>The story can overshadow the mathematics if not watched</td></tr>
+      <tr><td><strong>Art and sports integrated</strong></td><td>Drawing, movement and games as mathematical media</td><td>Makes mathematics desirable, creative and physical</td><td>Works only if the mathematical property is named and assessed</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card exam">
+  <span class="lbl">Exam Focus</span>
+  <p>Four names must be spelt out correctly and in order: <strong>ELPS</strong> = Experience, Language, Pictures, Symbols; <strong>REACT</strong> = Read, Explain, Analyse, Create, Think; the <strong>four blocks</strong> = Concrete Experience, Pictorial Representation, Abstract/Symbolic, Problem Solving; <strong>Gradual Release of Responsibility</strong> (Pearson and Hall) = I do, We do, You do together, You do alone. ELPS is never &ldquo;Engage, Learn, Play, Solve&rdquo;.</p>
+</div>
+</section>
+
+<div class="review">
+  <h4>Unit 2 Review</h4>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li>Diagnose before teaching; differentiate by support, not by expectation; use the classroom as a data source.</li>
+    <li>Piaget&rsquo;s four stages: sensorimotor 0&ndash;2, pre-operational 2&ndash;7, concrete operational 7&ndash;11, formal operational 11+.</li>
+    <li>Cardinality is the idea that the <em>last</em> number said tells how many. Four principles on errors: inevitable, informative, non-punitive, and distinct from carelessness.</li>
+    <li>Vygotsky: ZPD and scaffolding. Bruner: enactive, iconic, symbolic. At the foundational stage the four-block approach is weighted heavily towards concrete and pictorial.</li>
+  </ul>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>Expand the acronym ELPS and state the order of its steps.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Expand REACT, and write the four stages of Gradual Release of Responsibility with its authors.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain ELPS with a worked example for the number 2 using two flowers.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain Gradual Release of Responsibility for both the teacher and the learner, with an example lesson.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>What is the importance of learning and teaching errors of mathematics? State four principles that follow, and show how Piaget&rsquo;s stages account for the conservation error.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Give a detailed account of the approaches named in the syllabus for teaching mathematics at the foundational stage, with an example of each.</p></div>
+  </div>
+</div>
+
+<!-- ============ UNIT 3 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-3"><span class="h2num">Unit 3</span>Components of Mathematics Learning at the Foundational Stage</h2>
+<p>Unit 3 carries 10 marks, the largest single allocation in the paper, and it is the unit in which the syllabus states the <em>content</em> of foundational mathematics: seven components. The syllabus adds one important instruction to this unit &mdash; these areas are to be transacted <strong>along with the pedagogical approaches</strong>. Each component is to be taught through ELPS, through the four blocks, through mathematical talk and through problem solving, in the manner set out in Unit 2 and the Mode of Transaction. Content and method are not taught as two separate lists.</p>
+
+<h3 id="s3-1">3.1 Pre-number concepts</h3>
+<p><strong>Pre-number concepts</strong> are the mathematical ideas a child acquires <em>before</em> counting, and on which counting later depends. They are the syllabus&rsquo;s answer to a deceptively simple problem: many children who fail in arithmetic never failed at arithmetic at all &mdash; they arrived at Class I without one-to-one correspondence, without seriation and without the ability to classify, and then could not make counting mean anything. Teaching pre-number concepts is therefore not a soft introduction to numbers; it is the construction of the floor on which numbers stand.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 3.1 &mdash; The Pre-number Concepts and How Each Is Taught</caption>
+    <thead><tr><th>Pre-number concept</th><th>Meaning</th><th>TLM activity in a real situation</th><th>Mathematical words used</th></tr></thead>
+    <tbody>
+      <tr><td><strong>One-to-one correspondence</strong></td><td>One object for one name; the first condition of counting</td><td>Give each child one pencil from a box of thirty, one at a time</td><td>each, one, first, next, last</td></tr>
+      <tr><td><strong>Matching</strong></td><td>Pairing two things that belong together</td><td>Match each shoe to its mate; match each lock to its key</td><td>match, pair, same, different</td></tr>
+      <tr><td><strong>Sorting</strong></td><td>Placing objects in groups by one chosen property</td><td>Sort a heap of <em>juli</em> leaves by size, then by colour, then by shape</td><td>sort, group, big, small, round, long</td></tr>
+      <tr><td><strong>Classification</strong></td><td>Grouping by a shared rule and naming the rule</td><td>Group a mixed set of seeds into two groups and say the rule out loud</td><td>all, some, none, group, belong</td></tr>
+      <tr><td><strong>Seriation / ordering</strong></td><td>Arranging in a sequence from smallest to largest</td><td>Order five sticks shortest to longest; order the children&rsquo;s heights</td><td>first, second, last, in between, more than, less than</td></tr>
+      <tr><td><strong>Comparison</strong></td><td>Judging which is more, bigger, heavier, longer</td><td>Compare two books; hold two mangoes, one in each hand</td><td>more, fewer, bigger, smaller, heavier, lighter, longer, shorter</td></tr>
+      <tr><td><strong>Position and direction</strong></td><td>Locating an object in space and describing where it is</td><td>Place a block &ldquo;behind&rdquo;, &ldquo;beside&rdquo;, &ldquo;above&rdquo;, &ldquo;between&rdquo;</td><td>near, far, above, below, beside, between, in front, behind</td></tr>
+      <tr><td><strong>Pattern</strong></td><td>Noticing regularity and continuing it</td><td>Continue a red&ndash;blue&ndash;red&ndash;blue border; clap a rhythm and repeat it</td><td>same, again, next, change, repeat</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Two points about teaching these deserve emphasis. The first is that the property is chosen by the child, not imposed: ask &ldquo;how could we sort these leaves another way?&rdquo; rather than sorting them yourself. The second is that these concepts must be assessed by <em>watching</em>, not by questioning &mdash; a child can name &ldquo;big&rdquo; while pairing two objects that are not big at all, and only observation reveals it. Each of them grows into something later: one-to-one correspondence becomes counting, classification becomes number families and place value, and seriation becomes ordering.</p>
+
+<div class="card cls">
+  <span class="lbl">Classroom Connection</span>
+  <p>In a rural Assamese-medium Class I, before any symbol 3 appears on the blackboard, you can do the whole of 3.1 with a basket of <em>juli</em> leaves, a handful of buttons, a strip of palm leaf, three pencils and two erasers. Ask the children to sort the leaves by size, pair each button with one of equal size, order the pencils shortest to longest, and match each eraser to a pencil. The vocabulary is real, the mathematics is real, and no child has yet been asked to read a number.</p>
+</div>
+
+<h3 id="s3-2">3.2 Numbers and operations on numbers</h3>
+<p>Numbers and operations is the best-known component and the one in which teachers are most tempted to accelerate. At the foundational stage it includes: recognising and naming numerals; writing them; counting objects one-to-one, counting on and counting back; comparing numbers; understanding the sequence of the counting numbers; understanding <strong>place value</strong> in tens and ones; and the two operations, <strong>addition</strong> as joining and <strong>subtraction</strong> as separating or taking away.</p>
+<p>Two ideas need defending. The first is <strong>cardinality</strong>: after counting a set of objects the child must know <em>how many</em> there were without counting again, and the technical means of this is the last-number principle. The second is <strong>place value</strong>, which is not the memorisation of digits but the understanding that the position of a digit changes its value, so that in 17 the 1 is worth ten and the 7 is worth seven. Place value is best built from concrete tens-bundles &mdash; ten sticks bound together, ten bottle tops in a ten-frame &mdash; and not from the printed digits of a two-digit number.</p>
+<p>Addition and subtraction are not &ldquo;the plus and minus tables&rdquo; at this level. They are two meanings given to two physical actions: addition is <strong>joining</strong> two groups into one, and subtraction is <strong>separating</strong> one group into two. A child who has only ever joined cannot understand a subtraction described as &ldquo;finding the difference&rdquo;, and a child who has only ever taken away cannot understand an &ldquo;addition&rdquo; framed as finding a missing part. Teach all three stories of each operation &mdash; joining, separating and the missing part &mdash; before expecting the symbol.</p>
+<p>The order the syllabus implies, and the order in which these should be taught, is: pre-number concepts &rarr; counting with cardinality &rarr; comparing numbers &rarr; number sequence &rarr; place value &rarr; addition and subtraction with meaning &rarr; the symbols. A teacher who inverts any two of these steps produces the child who can write &ldquo;7&rdquo; but cannot say which seven.</p>
+
+<h3 id="s3-3">3.3 Shapes and spatial understanding</h3>
+<p>This component has two halves. <strong>Shapes</strong> is the recognition, naming, sorting, comparing and construction of two-dimensional and three-dimensional forms. <strong>Spatial understanding</strong> is the sense of where things are, how they are arranged, and how they look from another point of view &mdash; position, direction, and the ability to imagine a solid from a picture and a picture from a solid.</p>
+<p>At the foundational stage the child works with a small, deliberately chosen set of forms: <strong>two-dimensional</strong> &mdash; circle, square, triangle, rectangle, oval; and <strong>three-dimensional</strong> &mdash; cube, cuboid, sphere, cylinder, cone. The teacher&rsquo;s aim is not to make children draw a neat square but to make them notice that shapes occur everywhere &mdash; the classroom door is a rectangle, the clock a circle, the edge of the desk a cuboid &mdash; and that shapes can be sorted by curved and straight sides, by corners, by size and by orientation. Working with solid forms matters particularly because a child can handle a cube and rotate it long before they can draw it, and the gap between handling and drawing is exactly the gap that pictorial representation has to bridge.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 3.2 &mdash; Foundational Shapes and What Each Teaches</caption>
+    <thead><tr><th>Shape</th><th>Property a child can be asked to notice</th><th>Real object to bring in</th></tr></thead>
+    <tbody>
+      <tr><td>Circle</td><td>No corners; all points the same distance from the centre; rolls</td><td>A coin, a plate, the rim of a bangles set</td></tr>
+      <tr><td>Square</td><td>Four equal sides, four right angles</td><td>A <em>gamusa</em> folded, a chess board square, a window pane</td></tr>
+      <tr><td>Triangle</td><td>Three sides, three corners; the first polygon</td><td>A slice of a <em>samosa</em>, a roof, a road sign</td></tr>
+      <tr><td>Rectangle</td><td>Four sides, four right angles, opposite sides equal</td><td>The classroom door, a book, a duster</td></tr>
+      <tr><td>Cube</td><td>Six equal square faces; all corners the same</td><td>A dice, a sugar cube, a <em>klapper</em> box</td></tr>
+      <tr><td>Cuboid</td><td>Six rectangular faces; opposite faces equal</td><td>A matchbox, an eraser, a brick</td></tr>
+      <tr><td>Cylinder</td><td>Two equal circular faces and a curved surface; rolls one way</td><td>A tea glass, a <em>masi</em>, a battery</td></tr>
+      <tr><td>Sphere</td><td>A perfectly round solid; rolls in every direction</td><td>A rubber ball, a <em>moo</em> seed</td></tr>
+      <tr><td>Cone</td><td>A circular face and a point; tapers to a point</td><td>A party hat, an ice-cream cone, a <em>bhel</em> pile</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Spatial work should also include <strong>symmetry</strong> in the simplest sense (folding a shape to find line symmetry), <strong>orientation</strong> (the same shape turned round looks different but is the same), and <strong>mental cutting and folding</strong>. The syllabus&rsquo;s own assignment &mdash; drawing a house or an animal using only the regular shapes of foundational geometry &mdash; is an excellent test of whether a child can decompose a real object into mathematical form, and it is one of the required assignments for this paper.</p>
+
+<h3 id="s3-4">3.4 Measurement</h3>
+<p><strong>Measurement</strong> at the foundational stage is <strong>comparison</strong> before it is <strong>number</strong>. The child first learns that a pencil can be longer than another pencil, that a bag can be heavier than a box, that one glass holds more than another &mdash; using the words longer, shorter, heavier, lighter, bigger, taller, fuller. Only then does the child meet the idea that these comparisons can be made precise by a standard unit, and only then the standard units themselves.</p>
+<p>Three principles govern the teaching. The first is to <strong>use non-standard units first</strong>: the child measures the desk with handspans, with a <em>kula</em> or a strand of <em>rekha</em> grass, with a leaf, with a piece of string. Non-standard units make the idea of repeated identical units visible, which is the whole point. The second is that <strong>the instrument and the unit must be introduced together</strong> &mdash; a ruler with a marked scale, a balance pan, a measuring jar, a clock face &mdash; because a unit without an instrument is only a word. The third is that measurement must be <strong>done, not described</strong>: children should hold the balance, pour into the jar, and lay the ruler along the object.</p>
+<p>The quantities the foundational child meets are <strong>length, mass, capacity and time</strong>, with money an important everyday addition in an Indian classroom. A deliberate caution: at this level children should not be expected to become fluent in reading a numerical scale, and a teacher who insists on reading a ruler in centimetres before the child has understood why a good measurement repeats the same unit has inverted the order.</p>
+
+<h3 id="s3-5">3.5 Patterns</h3>
+<p><strong>Pattern</strong> is a foundational component in its own right and one of the most neglected. A pattern is a regularity in a sequence or an arrangement; the mathematical content of pattern is <strong>rule</strong>. To continue a pattern a child must detect the rule; to complete one she must apply it; to create one she must state it. These three acts are the whole of early algebraic thinking, and they begin in the pre-primary years without a single letter being written.</p>
+<p>Four kinds of pattern matter at this stage, and they should be taught in this order: <strong>growing</strong> patterns, which change in amount each time and link directly to number; <strong>repeating</strong> patterns, which repeat a unit and carry the idea of a fixed rule; <strong>increasing and decreasing</strong> patterns, which vary by a fixed amount up or down; and <strong>number patterns</strong>, the sequences children later recognise as counting numbers and simple number families. Beyond these, two-dimensional and three-dimensional spatial patterns prepare the child for geometry and for symmetry.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 3.3 &mdash; Types of Pattern at the Foundational Stage</caption>
+    <thead><tr><th>Type</th><th>Example</th><th>Mathematical idea</th><th>Links forward to</th></tr></thead>
+    <tbody>
+      <tr><td>Repeating</td><td>red, blue, red, blue; clap&ndash;clap&ndash;stomp&ndash;clap</td><td>A unit that repeats; a fixed rule</td><td>Multiplication as repeated addition</td></tr>
+      <tr><td>Growing</td><td>1, 2, 3, 4; one leaf, then two, then three</td><td>Quantity increasing by one</td><td>Counting numbers; addition of 1</td></tr>
+      <tr><td>Increasing / decreasing</td><td>2, 4, 6, 8; 9, 8, 7, 6</td><td>Change by a fixed amount</td><td>Number families; counting on and back</td></tr>
+      <tr><td>Number pattern</td><td>1, 3, 5, 7; 10, 9, 8, 7, 6</td><td>Odds and evens; counting down</td><td>Skip counting; simple sequences</td></tr>
+      <tr><td>Spatial (2-D)</td><td>A tiled floor; a rangoli; a cloth border</td><td>Repetition in two directions; symmetry</td><td>Tiling, tessellation, symmetry</td></tr>
+      <tr><td>Spatial (3-D)</td><td>A stack of cubes; a brick wall</td><td>Repetition in three dimensions</td><td>Volume; constructions</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Pattern connects to the culture around the child more directly than any other component. The syllabus itself requires a <strong>rangoli</strong> drawn on paper using mathematical facts, and a rangoli is a pattern; so is the border of a <em>sampradaya</em> cloth, the rows of a woven <em>gamosa</em>, the design on a clay <em>kalash</em>, and the arrangement of <em>laddoos</em> on a plate. A mathematics corner that displays a child&rsquo;s own rangoli is doing two things at once: it is teaching algebra, and it is telling the child that mathematics belongs inside the life they already have.</p>
+
+<h3 id="s3-6">3.6 Data handling</h3>
+<p><strong>Data handling</strong> is the smallest of the seven components and the one most often omitted in practice, but it is the component that turns mathematics into something a child does about the world. A full cycle has four steps: <strong>collecting</strong> (deciding what to count and making a fair, consistent way of counting it), <strong>organising or representing</strong> (in a table, a list, a tally, a picture or a block diagram), <strong>displaying</strong> (in a form others can read) and <strong>interpreting</strong> (saying what the display shows and what it does not show).</p>
+<p>At the foundational stage data handling is oral and pictorial before it is numerical. Children vote by raising hands and the results are marked on a simple bar with bottle tops; the class records how many children brought a <em>banana</em>, a <em>guava</em>, an <em>orange</em>; a picture graph of the results is built and read. A tally is an excellent foundational device because it makes the number ten visible as a bundle. And the interpretation step is the one that must not be forgotten: the teacher&rsquo;s question &ldquo;what does this <em>not</em> tell us?&rdquo; is what keeps data handling honest.</p>
+<p>The practicum project on vegetable prices is data handling in a real setting: fifteen vegetables, five markets, two fixed days a week, a consistent data format, and a diagram chosen so that it is valid for the data &mdash; a bar chart or a pictograph for comparing prices, not a pie chart, and never a scale truncated so as to exaggerate a difference. The syllabus states that requirement because choosing an honest display is itself a mathematical competence.</p>
+
+<h3 id="s3-7">3.7 Mathematical communication</h3>
+<p><strong>Mathematical communication</strong> is the component that gives the other six their meaning, because the Mode of Transaction states plainly that mathematics has <strong>its own language, vocabulary, symbols and sign systems</strong>. In the foundational classroom this means three things: the <strong>words</strong> (one, two, more, fewer, first, last, big, small, long, short, heavy, light, same, different, add, take away, together, equal); the <strong>signs</strong> &mdash; addition and subtraction with their conventional signs <strong>+</strong> and <strong>&minus;</strong>, and the equals sign; and the <strong>symbols</strong>, above all the numerals, with <strong>&times;</strong> and <strong>&divide;</strong> left until later.</p>
+<p>The equals sign is the one that most needs teaching and most often misused. It means <strong>&ldquo;is the same as&rdquo;</strong> and the two sides are equal, so a child who writes <strong>5 + 3 = 8 &minus; 2</strong> has asserted a falsehood, and a child who writes &ldquo;4 &rarr; 4 + 2&rdquo; treats the equal sign as an arrow and has lost the meaning of equality altogether. The equal sign is best taught with the balance &mdash; two pans, the same weight in each &mdash; and with the sentence &ldquo;these two sides balance&rdquo;.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 3.4 &mdash; The Sign System of Foundational Mathematics</caption>
+    <thead><tr><th>Sign</th><th>Name</th><th>The everyday words behind it</th><th>Misuse to watch for</th></tr></thead>
+    <tbody>
+      <tr><td><strong>+</strong></td><td>Addition</td><td>join, put together, combine, total, more</td><td>Used for the answer rather than the action; the child&rsquo;s word is never heard</td></tr>
+      <tr><td><strong>&minus;</strong></td><td>Subtraction</td><td>take away, separate, find the difference, fewer</td><td>One story only; &ldquo;how many are left&rdquo; taught without &ldquo;how many fewer&rdquo;</td></tr>
+      <tr><td><strong>=</strong></td><td>Equality</td><td>&ldquo;is the same as&rdquo;; the two sides balance</td><td>Treated as an arrow: &ldquo;4 &rarr; 4 + 2&rdquo;</td></tr>
+      <tr><td>0&ndash;9 numerals</td><td>Number symbols</td><td>the written name of a quantity</td><td>Written before the quantity and the word are secure</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>Mathematical talk is the means, not the reporting. A child who says &ldquo;I took away two, so three are left&rdquo; is thinking. Insist on the mathematical word, in the home language first, then standardise it, and only then move to the sign &mdash; the whole ELPS sequence again, at the level of language.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 3.5 &mdash; The Seven Components, Their Skills and Their TLM</caption>
+    <thead><tr><th>Component</th><th>Core skills</th><th>Typical TLM</th></tr></thead>
+    <tbody>
+      <tr><td>3.1 Pre-number concepts</td><td>Match, sort, pair, order, classify, pattern, one-to-one correspondence</td><td>Leaves, buttons, seeds, sticks, cards, string</td></tr>
+      <tr><td>3.2 Numbers and operations</td><td>Counting with cardinality, comparing, number sequence, place value, addition, subtraction</td><td>Sticks and bundles, bottle tops, ten-frame, number line, abacus</td></tr>
+      <tr><td>3.3 Shapes and space</td><td>Recognise, name, sort, build; position, direction, symmetry</td><td>Shape boxes, blocks, solid objects, clay, paper folding</td></tr>
+      <tr><td>3.4 Measurement</td><td>Compare length, mass, capacity, time; non-standard then standard units</td><td>Balance, measuring jar, rulers, handspans, a clock face, coins</td></tr>
+      <tr><td>3.5 Patterns</td><td>Continue, complete, create, and state the rule</td><td>Beads, cards, rangoli paper, textile borders, tiles</td></tr>
+      <tr><td>3.6 Data handling</td><td>Collect, tally, tabulate, display, interpret</td><td>Tally sheets, bottle-top bars, picture graphs</td></tr>
+      <tr><td>3.7 Communication</td><td>Use the words, the signs and the symbols; argue and justify</td><td>Numeral cards, sign cards, number line poster, word wall</td></tr>
+    </tbody>
+  </table>
+</div>
+</section>
+
+<div class="review">
+  <h4>Unit 3 Review</h4>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li>Seven components: pre-number, numbers and operations, shapes and space, measurement, patterns, data handling, mathematical communication. Transacted <em>along with</em> the pedagogical approaches.</li>
+    <li>Cardinality: the last number said tells how many.</li>
+    <li>Addition is joining; subtraction is separating; the missing-part story belongs to both.</li>
+    <li>Place value is built from tens-bundles, not from printed digits.</li>
+    <li>Measurement is comparison before it is number, and non-standard units come before standard ones.</li>
+    <li>The equals sign means &ldquo;is the same as&rdquo; &mdash; the two sides balance.</li>
+    <li>Data handling is a four-step cycle: collect, represent, display, interpret.</li>
+    <li>A rangoli is a mathematical pattern as well as a cultural object.</li>
+  </ul>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>List the seven components of mathematics learning at the foundational stage.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Define one-to-one correspondence and give a TLM activity for it.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>What does the equals sign mean?</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Describe pre-number concepts with one classroom activity and one TLM for each.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain why non-standard units are used before standard units in foundational measurement.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Describe the four steps of data handling with a suitable example for a Class II child.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Give a detailed account of the components of mathematics learning at the foundational stage, with activities and TLM for each.</p></div>
+  </div>
+</div>
+<!-- ============ UNIT 4 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-4"><span class="h2num">Unit 4</span>Assessment in the Foundational Stage</h2>
+<p>Unit 4 carries 5 marks and completes the pedagogical circle: the stage and the mathematics are identified in Unit 1, the method in Unit 2, the content in Unit 3, and now the question of how we know whether any of it has happened. Assessment at the foundational stage is distinctive because the thing being assessed cannot be a written test &mdash; a six-year-old cannot be asked to write, and the mathematics that matters is largely in the hands, the speech and the movement. The assessment has to be observational, continuous and multi-sourced, which is what 4.1 to 4.3 describe.</p>
+
+<h3 id="s4-1">4.1 Criteria for assessment</h3>
+<p>Criteria for assessment are the standards against which evidence is judged. Without them, assessment becomes a matter of the teacher&rsquo;s impression, and impressions at the foundational stage are dominated by what is easiest to see &mdash; generally neatness, obedience and speed of recall rather than mathematical understanding.</p>
+<p>Criteria for foundational mathematics should be drawn from three sources: the <strong>learning outcomes</strong> themselves, which is why 1.6 exists, since an outcome stated with a condition and a criterion is already an assessment standard; the <strong>content strands</strong>, that is the seven components of Unit 3, since a child should be seen to progress in each; and the set of <strong>process and disposition criteria</strong> that the Mode of Transaction insists on &mdash; mathematical talk, reasoning and justification, problem-solving behaviour, attitude and willingness to try, and participation.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 4.1 &mdash; Criteria for Assessment in Foundational Mathematics</caption>
+    <thead><tr><th>Domain of criteria</th><th>What is judged</th><th>Evidence a teacher can actually use</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Pre-number skills</strong></td><td>One-to-one counting, matching, sorting, seriation, classification</td><td>Watching the child handle a heap of objects for three minutes</td></tr>
+      <tr><td><strong>Number and operations</strong></td><td>Counting with cardinality, comparison, place value, addition and subtraction with meaning</td><td>Oral questions with objects on the table; drawing the answer</td></tr>
+      <tr><td><strong>Shape and space</strong></td><td>Recognition, naming, sorting, construction, position, direction</td><td>Sorting a mixed shape box; building a tower on instruction</td></tr>
+      <tr><td><strong>Measurement</strong></td><td>Comparison, use of non-standard units, use of an instrument</td><td>Watching the child measure the desk with handspans</td></tr>
+      <tr><td><strong>Patterns</strong></td><td>Continuing, completing and creating a pattern; stating the rule</td><td>&ldquo;Tell me the rule of your pattern&rdquo;</td></tr>
+      <tr><td><strong>Data handling</strong></td><td>Collecting consistently, tallying, reading a display, interpreting</td><td>The class display of how many fruit each child brought</td></tr>
+      <tr><td><strong>Communication</strong></td><td>Using the mathematical word, the sign and the symbol; explaining</td><td>Listening to the child&rsquo;s explanation of an answer</td></tr>
+      <tr><td><strong>Process and disposition</strong></td><td>Reasoning, justification, persistence, attitude, participation, mathematical talk</td><td>Running commentary during group work; the teacher&rsquo;s observation record</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>Three practical criteria for the criteria themselves are worth stating. They should be <strong>observable</strong>, because an unobservable criterion cannot be assessed honestly. They should be <strong>developmental</strong>, because a six-year-old is not held to a seven-year-old&rsquo;s standard. And they should be used to <em>plan the next step</em>, not merely to record a grade &mdash; the purpose of a foundational assessment is to decide what to teach next, which is why it is conducted so frequently and so lightly. Criteria are also not marks: criteria are the standards used to judge evidence, and marks are the arithmetic applied afterwards.</p>
+
+<h3 id="s4-2">4.2 360&deg; assessment and PARAKH</h3>
+<p><strong>360&deg; assessment</strong> is assessment that gathers feedback from multiple sources across multiple dimensions in order to build a complete picture of a child, rather than a single measurement taken at a single moment by a single judge. In practice the sources are the child&rsquo;s <strong>self</strong>, <strong>peers</strong>, the <strong>teacher</strong> and the <strong>parent</strong>, together with health and wellness information from <strong>PARAKH</strong> and, where relevant, specialist or support staff. The dimensions include the academic strands as well as physical fitness, life skills, emotional well-being, social behaviour, creativity and self-discipline.</p>
+<p>The contrast with traditional assessment is worth making precisely, because the syllabus asks for it. Traditional assessment is <em>single-point</em>: one test, one observer, one occasion, one subject &mdash; mathematics &mdash; reduced to a mark. A 360&deg; approach is <em>multi-point</em>: many observers, many occasions, many subjects. A child who does badly in a written test on one morning may be nervous, unwell or misunderstood by the question; asking the parents, the peers, the child and the teacher, and asking repeatedly, produces a far more trustworthy judgement. It also solves a problem the single test cannot: some of what matters most at this stage &mdash; attitude, persistence, willingness to try, cooperation &mdash; is not visible in a written answer at all.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 4.2 &mdash; 360&deg; Assessment Against Traditional Assessment</caption>
+    <thead><tr><th>Basis</th><th>Traditional single-point assessment</th><th>360&deg; assessment</th></tr></thead>
+    <tbody>
+      <tr><td>Sources</td><td>One &mdash; the teacher, or an examiner</td><td>Several &mdash; self, peer, teacher, parent, PARAKH, specialist</td></tr>
+      <tr><td>Dimensions</td><td>One &mdash; the subject tested</td><td>Many &mdash; academic, life skills, fitness, well-being, social, creativity</td></tr>
+      <tr><td>Occasions</td><td>One &mdash; a fixed test day</td><td>Many &mdash; continuous and cumulative</td></tr>
+      <tr><td>Format</td><td>Written paper, mostly</td><td>Observation, oral work, activity, self-report, parent report</td></tr>
+      <tr><td>Reliability</td><td>Distorted by a bad day, illness or a misunderstood question</td><td>Corroborated across sources and occasions</td></tr>
+      <tr><td>What it misses</td><td>Attitude, persistence, cooperation, effort &mdash; the things that matter most early</td><td>Time-consuming; requires skill in observation and recording</td></tr>
+      <tr><td>Used for</td><td>Grading and selection</td><td>Planning the next step of teaching and reporting to parents</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>PARAKH</h4>
+<div class="card def">
+  <span class="lbl">Definition</span>
+  <p><strong>PARAKH</strong> &mdash; <em>Pa</em>shm <em>A</em>rogya <em>R</em>aksha <em>K</em>arya <em>K</em>ran &mdash; is the national school <strong>health and wellness programme launched in 2021</strong> under the Ayushman Bharat umbrella, with the Ministry of Health and Family Welfare. It has three principal strands: <strong>health screening</strong> of children, so that conditions affecting learning &mdash; poor vision, hearing impairment, anaemia, dental problems, undiagnosed developmental delay &mdash; are detected early; <strong>health education</strong>, covering healthy habits, nutrition, hygiene, mental health and physical activity; and the <strong>capacity building of schoolteachers</strong>, so that teachers can conduct basic checks and refer children appropriately.</p>
+</div>
+<p>PARAKH is a health and wellness programme, <em>not</em> a mathematics assessment instrument, and it should be described no more strongly than that. Its relevance here is indirect but real: it supplies health-related information about the child &mdash; fitness, vision, hearing, and the physical or emotional conditions that may be limiting the child&rsquo;s participation in mathematics &mdash; and this information legitimately forms part of the holistic picture that 360&deg; assessment and the holistic report card aim to present.</p>
+<p>The practical implication for a mathematics teacher is worth stating plainly, because it is a real and often overlooked diagnostic. A child who cannot see the board cannot do mathematics; a child who cannot hear the question cannot learn the operation; a child who is under-nourished or anaemic will not concentrate. When a child&rsquo;s mathematics suddenly deteriorates, PARAKH-style screening and a conversation with the parent are part of a proper diagnosis, and not an alternative to teaching.</p>
+
+<h3 id="s4-3">4.3 The holistic report card</h3>
+<p>A <strong>holistic report card</strong> is the record in which a child&rsquo;s total development &mdash; not only academic achievement &mdash; is reported to the family, with the multiple sources of 360&deg; assessment brought together and descriptive reporting in place of a bare grade or a rank. It is where the criteria of 4.1, the multiple sources of 4.2 and the information from PARAKH are actually combined into a single document that a parent will read.</p>
+<p>A holistic report card at the foundational stage reports on <strong>areas of development</strong> rather than on subjects alone; it describes <strong>what the child can do</strong> rather than ranking the child against others; it gives <strong>teacher commentary</strong> that is specific and constructive; it records <strong>attendance, participation and health</strong>; and it carries a <strong>plan or suggestion</strong> for what the family and the school will do next. It is a document for the child and the family as much as for the school.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 4.3 &mdash; Areas Typically Reported in a Holistic Report Card</caption>
+    <thead><tr><th>Area</th><th>What is reported</th><th>Where the evidence comes from</th></tr></thead>
+    <tbody>
+      <tr><td>Foundational numeracy</td><td>Pre-number skills, counting, comparison, shape, measurement, pattern</td><td>Teacher observation, activity records, corner work</td></tr>
+      <tr><td>Foundational literacy and communication</td><td>Speaking, listening, reading readiness, expression, mathematical talk</td><td>Teacher observation, oral work</td></tr>
+      <tr><td>Physical development and fitness</td><td>Body growth, coordination, participation in activity, energy</td><td>Teacher observation, PARAKH screening</td></tr>
+      <tr><td>Social development</td><td>Cooperation, sharing, turn-taking, behaviour in group work</td><td>Peer and teacher observation</td></tr>
+      <tr><td>Emotional development</td><td>Confidence, willingness to try, expression of feeling, resilience</td><td>Teacher, self and parent report</td></tr>
+      <tr><td>Life skills and self-discipline</td><td>Independence in routine, care of belongings, following instructions, neatness of work</td><td>Teacher and parent report</td></tr>
+      <tr><td>Creativity and interest</td><td>Curiosity, participation in art and the mathematics corner, initiative</td><td>Teacher observation, portfolio</td></tr>
+      <tr><td>Health and attendance</td><td>Vision, hearing, general health, attendance record</td><td>PARAKH and the school record</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>A realistic foundational report card in an Assamese primary school is a one-page sheet, largely descriptive, with a few short rating symbols, a column for the teacher&rsquo;s comment on what the child does well and one thing to work on, and a space for the parent&rsquo;s signature. What makes it <em>holistic</em> is not its length but the fact that mathematics is one report among several &mdash; and that a child who is weak in mathematics but strong, cooperative and curious is described as a whole person, which a single test result can never do. The holistic report card goes to the family and describes the child; the cumulative record is the school&rsquo;s own internal file, and the two should not be confused.</p>
+</section>
+
+<div class="review">
+  <h4>Unit 4 Review</h4>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li>Criteria are drawn from the learning outcomes, the seven content components, and the process and disposition criteria.</li>
+    <li>Criteria must be observable, developmental and forward-looking. Criteria are not marks.</li>
+    <li>360&deg; assessment = multiple sources <em>and</em> multiple dimensions.</li>
+    <li>PARAKH = Pashm Arogya Raksha Karyakran, launched 2021 under Ayushman Bharat; three strands &mdash; health screening, health education, capacity building of schoolteachers.</li>
+    <li>PARAKH is a health programme contributing data; it does not assess mathematics.</li>
+    <li>The holistic report card reports areas of development descriptively, not only grades or ranks.</li>
+  </ul>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>What is 360&deg; assessment? Name four sources of feedback.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Expand the acronym PARAKH and state the year of its launch.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Name the three principal strands of PARAKH.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Compare 360&deg; assessment with traditional assessment on five bases.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Describe the relevance of PARAKH to holistic assessment, without overstating what it does.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Describe the system of assessment in the foundational stage, and why a written test is inadequate at this level.</p></div>
+  </div>
+</div>
+
+<!-- ============ UNIT 5 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-5"><span class="h2num">Unit 5</span>Life and Contribution of Mathematicians</h2>
+<p>Unit 5 carries 5 marks and covers five mathematicians: <strong>Aryabhata</strong>, <strong>Brahmagupta</strong>, <strong>Ramanujan</strong>, <strong>Euclid</strong> and <strong>Pythagoras</strong>. Three of the five are Indian, and the sequence spans some twenty-six centuries. The pedagogical purpose is stated in the Mode of Transaction as well: a child who knows that these names belong to real people who were curious, who argued, who were wrong sometimes and right sometimes, learns that mathematics is a human activity and not a list of rules.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 5.1 &mdash; The Five Mathematicians at a Glance</caption>
+    <thead><tr><th>Name</th><th>Dates</th><th>Known for</th><th>Key work</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Pythagoras</strong></td><td>c. 570&ndash;495 BCE</td><td>The theorem relating the sides of a right-angled triangle; the tetractys; belief that the irrational &mdash; the un-sayable, such as &radic;2 &mdash; lay at the root of things</td><td>The Pythagorean school and its mathematical-religious practice</td></tr>
+      <tr><td><strong>Euclid</strong></td><td>c. 300 BCE</td><td>The axiomatic method: begin with stated postulates and axioms, and deduce everything else</td><td><em>Elements</em>, c. 300 BCE, in 13 books</td></tr>
+      <tr><td><strong>Aryabhata</strong></td><td>476&ndash;550 CE</td><td>Explanation of planetary motion and of the Earth&rsquo;s rotation on its axis; an early value of &pi;; place-value notation with zero; solutions of algebraic equations; astronomical calculation with a sine table</td><td><em>Aryabhatiya</em>, 499 CE, in 118 verses across four chapters</td></tr>
+      <tr><td><strong>Brahmagupta</strong></td><td>Born 598 CE</td><td>Rules of arithmetic with negative numbers and the first stated rules for arithmetic with zero; the formula for the area of a cyclic quadrilateral; a method of solving an indeterminate quadratic</td><td><em>Brahmasphutasiddhanta</em>, 628 CE</td></tr>
+      <tr><td><strong>Ramanujan</strong></td><td>1887&ndash;1920</td><td>Remarkable and unproved formulae in analysis, number theory and infinite series; the Hardy&ndash;Ramanujan collaboration; a conjecture on doubly exponential growth</td><td>Three published papers and some 3,500 formulae in notebooks</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="s5-1">5.1 Aryabhata (476&ndash;550 CE)</h3>
+<p><strong>Aryabhata</strong> was born in 476 CE, in the region of present-day Bihar, and worked at the court of the Gupta ruler at Pataliputra. His principal work, the <em>Aryabhatiya</em>, was composed in <strong>499 CE</strong> and runs to <strong>118 verses</strong> organised into <strong>four chapters</strong>: <em>Gitikapada</em> on the verses, <em>Ganikapada</em> on time and calendric calculation, <em>Samyakhapada</em> on mathematics including place value and algebra, and <em>Jyotikapada</em> on astronomy.</p>
+
+  <p>He gave an early value of <strong>&pi; as 3.1416</strong>, stated it as the sine of an angle and gave a method of calculating it. He explained the daily <strong>rotation of the Earth on its axis</strong>, and treated the <strong>motion of the planets</strong> without requiring the heavens to make a full circuit every day. He used <strong>place-value notation with a zero</strong>, gave solutions of <strong>algebraic equations</strong>, and supplied astronomical calculations including a <strong>sine table</strong>.</p>
+<p class="footnote"><strong>For the classroom.</strong> Place value is the concept a Class I child meets first in this unit and meets again in Class III. Aryabhata is a good name to attach to it: ask the class what would happen if we wrote seventeen as <em>one</em> followed by <em>seven</em> with no place names, and let them discover why the position of the 1 has to change its value.</p>
+
+<h3 id="s5-2">5.2 Brahmagupta (born 598 CE)</h3>
+<p><strong>Brahmagupta</strong>, born in <strong>598 CE</strong>, wrote the <em>Brahmasphutasiddhanta</em> &mdash; &ldquo;The Treatise of the Correct Understanding of Brahman&rsquo;s Mathematics&rdquo; &mdash; in <strong>628 CE</strong>. Three contributions are studied here.</p>
+<p>The first is <strong>rules of arithmetic with negative numbers</strong>. Brahmagupta set out the rules for the combinations of positive with positive and positive with negative numbers, and gave the rule that <strong>zero times a negative is zero</strong>. This was achieved twelve centuries before negative numbers were accepted in Europe, and it was arrived at through a device: he represented numbers as <em>positive</em> and <em>negative</em> and used a system of <strong>shankha</strong>, or wavy-line, notation to mark which was which.</p>
+<p>The second is the <strong>first stated rules for arithmetic operations with zero</strong>. He wrote rules for adding zero, subtracting zero, multiplying by zero and dividing by zero &mdash; the last leading him to a statement that division by zero is undefined, which is essentially the position taken today. A historical nicety worth knowing if it is raised: <strong>Bhaskara I</strong>, in the 7th century, had already given a rule for multiplication by zero independently and earlier, so while the credit for the first <em>system</em> of rules for zero belongs to Brahmagupta, an earlier zero rule exists in Indian mathematics. Do not swap the two names.</p>
+<p>The third is geometry and algebra: <strong>Brahmagupta&rsquo;s identity</strong> and his <strong>formula for the area of a cyclic quadrilateral</strong> &mdash; a figure whose four vertices lie on a circle &mdash; together with a method of solving an <strong>indeterminate quadratic equation</strong>, and rules for extracting square roots.</p>
+<p class="footnote"><strong>For the classroom.</strong> Zero is the hardest idea a foundational-stage child meets, and the deepest one. A single <em>bindi</em> in one of the <em>ganita</em> drawings, or a ring drawn on the floor and then removed, is worth a great deal: ask what happens when you take nothing away from your mangoes, and when you take nothing away from nothing.</p>
+
+<h3 id="s5-3">5.3 Ramanujan (1887&ndash;1920)</h3>
+<p><strong>Srinivasa Ramanujan</strong> (1887&ndash;1920) was a self-taught Indian mathematician whose collaboration with the British mathematician G. H. Hardy began in <strong>1913</strong> and became one of the most famous partnerships in the history of mathematics. Although he published only a small number of papers, his notebooks contain about <strong>3,500 formulae</strong> &mdash; results of a kind that Hardy described as natural and inevitable once known but utterly impossible to have anticipated. Roger Penrose later wrote about the notebooks and the &ldquo;sleeping&rdquo; sums in them, formulae that lay dormant until mathematics had advanced enough to make them visible.</p>
+<p>His contributions span analysis, number theory and infinite series. Among the specific results associated with him are <strong>Ramanujan&rsquo;s sum</strong>, an arithmetical function used in number theory; the <strong>Ramanujan&ndash;Nagell equation</strong>, whose integer solutions were later determined by Nagell; and the famously nearly integer-valued number <strong>e<sup>&pi;&radic;163</sup> &asymp; 262537412640768743.99999999999925</strong>, the <strong>Ramanujan constant</strong>. The number is almost, but not quite, a whole number &mdash; and that near-integrality is what led Ramanujan to his conjecture that the series beginning <strong>1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, &hellip;</strong> would show doubly exponential growth.</p>
+<p>Ramanujan was the <strong>first Asian to be awarded a Fellowship of the Royal Society</strong> in <strong>1916</strong>. He lectured at the <strong>Indian Science Congress in 1928</strong>. India has honoured him repeatedly: his name has been used in national commemorations including in <strong>1999</strong>; India Post issued a commemorative stamp in his honour in <strong>2016</strong>; the <strong>Ramanujan Prize</strong> for young mathematicians carries his name; and the mathematical institute at the <strong>ISI Bhawan in Kolkata</strong> is named for him.</p>
+<p class="footnote"><strong>For the classroom.</strong> The sequence 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 is the most useful piece of mathematics in this unit for a classroom. Children who know the nursery rhyme &ldquo;one, one, two, three, five, eight&hellip;&rdquo; are already reciting mathematics without knowing it. Ask them to work out how each number is made from the two before it.</p>
+
+<h3 id="s5-4">5.4 Euclid (c. 300 BCE)</h3>
+<p><strong>Euclid</strong>, who lived at Alexandria around <strong>300 BCE</strong>, wrote the <em>Elements</em> in <strong>13 books</strong>, a work that shaped the teaching of geometry for two thousand years and did more than any other single book to make mathematics a deductive science. Its method is the point: Euclid begins with a small number of <strong>postulates</strong> and <strong>axioms</strong> &mdash; the best known being that <strong>a straight line may be drawn from any point to any point</strong>, and the fifth, the <strong>parallel postulate</strong> &mdash; and then proves every other result by reasoning from them alone. Every proposition after the first few is labelled with a proof, and the proofs depend on nothing outside the stated assumptions.</p>
+<p>Several notable facts attach to Euclid. He gave what is now called <strong>Euclid&rsquo;s algorithm</strong> for finding the greatest common divisor of two numbers, still taught today. <strong>Book IX</strong> of the <em>Elements</em> contains the <strong>orchard-planting problem</strong>, in which the number of varieties of square plots is calculated from the number of rows and lines. A result published in <em>The Mathematical Gazette</em> in <strong>1974</strong> showed that the centres of the circles inscribed in the same triangle, together with the centres of the excircles opposite the same side, lie on a single circle &mdash; the <strong>Conway circle</strong>. In 1974, the year of the Moon landing, the <em>Elements</em> was republished as part of the celebrations, a reminder that the book is still read.</p>
+<p>Indian mathematics did not simply accept Euclid. The <strong>Bhaskara school</strong> raised objections to his postulates &mdash; Sridharacharya, in his <em>Patnanjali</em>, a commentary on the <em>Sulbasutra</em>, and Bhaskara II in the <em>Khandakhadyaka</em>, set out Indian criticisms of the postulates, and in particular of the parallel postulate, holding that the results Euclid obtained did not depend on the assumptions he used to obtain them.</p>
+<p class="footnote"><strong>For the classroom.</strong> Euclid&rsquo;s method is the method of &ldquo;if this is true and this is true, then this must be true&rdquo;, and children can meet it young. Give a child three shapes and ask what can be <em>worked out</em> about them without measuring or weighing; then ask what had to be assumed to work it out. That someone must have agreed the rules first is Euclid&rsquo;s whole contribution in one step.</p>
+
+<h3 id="s5-5">5.5 Pythagoras (c. 570&ndash;495 BCE)</h3>
+<p><strong>Pythagoras</strong> (c. <strong>570&ndash;495 BCE</strong>) founded a school at Croton in southern Italy whose members were known as the Pythagoreans and who believed that the world was built on number and on a harmony of ratios. What survives of his own writing is almost nothing; what survives is what his pupils, especially Archippus, Hippasus and Philolaus, attributed to him, together with the later tradition.</p>
+<p>He is known for several things. The first and greatest is the <strong>Pythagorean theorem</strong> &mdash; that in a right-angled triangle the square on the hypotenuse equals the sum of the squares on the other two sides, which the Pythagoreans expressed as the <strong>hypotenuse rule</strong>. The theorem is known in every culture independently, and it is worth telling children that it was not found once but many times. In India it appears in the <strong><em>Baudhayana Sulba Sutra</em></strong>, an ancient Indian text on the geometry of the sacrificial altar, which gives the theorem in its <em>general</em> form for a right-angled triangle, though with a condition attached that restricts it to a special case of Pythagoras&rsquo; theorem.</p>
+
+  <p>The second is the discovery that &radic;2 cannot be expressed as a ratio of whole numbers &mdash; the <strong>irrational</strong> &mdash; a result so troubling to the school, which held that all things were ratios of whole numbers, that the story of its suppression and of Hippasus&rsquo;s fate grew around it. The third is the <strong>tetractys</strong>, a figure of ten points arranged in a triangle, symbolising the school&rsquo;s belief that ten was the perfect number.</p>
+
+  <p>In Plato&rsquo;s <em>Republic</em> a &ldquo;Pythagorean contest&rdquo; is described, in which Glaucon and others seek a demonstration of the theorem and fail. Finally, the Pythagoreans observed a strict rule about eating <strong>beans</strong>, and Pythagoras died at <strong>Metapontum</strong>; later accounts say that he was killed in a political disturbance, possibly by a member of the crowd.</p>
+<p class="footnote"><strong>For the classroom.</strong> Take a child outside with chalk. Draw a 3&ndash;4&ndash;5 right-angled triangle on the ground, measure its three sides, count the steps, and let the child work out that 9 + 16 = 25 from the measuring, not from the formula. That is concrete first, then picture, then symbol &mdash; the whole paper in one activity.</p>
+</section>
+
+<div class="review">
+  <h4>Unit 5 Review</h4>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li><strong>Aryabhata:</strong> <em>Aryabhatiya</em>, 499 CE, 118 verses, 4 chapters; &pi; = 3.1416; place value with zero; Earth&rsquo;s rotation.</li>
+    <li><strong>Brahmagupta:</strong> <em>Brahmasphutasiddhanta</em>, 628 CE; the first stated rules for zero; the area of a cyclic quadrilateral. (The earlier single zero rule is Bhaskara I&rsquo;s.)</li>
+    <li><strong>Ramanujan:</strong> 1887&ndash;1920; Hardy from 1913; Royal Society Fellow 1916; about 3,500 formulae; the Ramanujan&ndash;Nagell equation.</li>
+    <li><strong>Euclid:</strong> <em>Elements</em>, c. 300 BCE, 13 books; postulates and axioms; the algorithm for the greatest common divisor.</li>
+    <li><strong>Pythagoras:</strong> the theorem; the <em>Baudhayana Sulba Sutra</em> has the Indian general form; &radic;2 irrational; the tetractys; death at Metapontum.</li>
+  </ul>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>Write the name of the work of Aryabhata and the year of its composition.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Who is credited with the first stated rules for arithmetic with zero?</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Name the Indian text that gives the general form of the Pythagorean theorem.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Describe the life and contribution of Brahmagupta with reference to zero and negative numbers.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain Euclid&rsquo;s method of deduction as described in the <em>Elements</em>.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Compare the contributions of Aryabhata and Brahmagupta to Indian mathematics, and state how each discovery could be taught to a foundational-stage child.</p></div>
+  </div>
+</div>
+<!-- ============ PRACTICUM ============ -->
+<section class="unit-body">
+
+<h2 id="practicum"><span class="h2num">Practicum</span>Project, Assignments and the Compulsory Activity</h2>
+<p>The practicum carries <strong>9 of the 15 internal marks</strong> and consists of <strong>one project (3 marks)</strong>, <strong>any two assignments (3 marks together)</strong> and a <strong>compulsory activity (3 marks)</strong>. All three are field or hands-on tasks: nothing in this part can be completed from a textbook alone. A candidate who gathers real data and formats it honestly will do better than one who reproduces a model answer.</p>
+
+<h3 id="pr-projects">Suggested Projects</h3>
+<p>Three projects are suggested; one is to be attempted.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table P.1 &mdash; The Three Suggested Projects</caption>
+    <thead><tr><th>Project</th><th>Mathematical competencies involved</th><th>How to carry it out</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1. Survey of households whose house numbers are multiples of 3</strong>, together with the educational status of those families, in a village</td><td>Multiples of 3; number patterns; counting and recording; classification; data handling; interpretation</td><td>Take the house-number list from the village record or the panchayat; identify the multiples of 3; visit each household; record the number of members, the ages of children, whether the children attend school, and the highest level of education of the adults; tabulate and interpret.</td></tr>
+      <tr><td><strong>2. Comparison of vegetable prices across five small markets open on two fixed days a week</strong>, choosing fifteen vegetables, using a data format and a statistically valid diagram</td><td>Measurement; data collection with a consistent format; classification; average and comparison; selection of an appropriate display</td><td>Choose fifteen vegetables available in all five markets; visit on the same two fixed days each week; record the price per kilogram in the same unit and at the same time of day; tabulate; display as a bar chart or pictograph with a correctly scaled, labelled axis; state what the display shows and what it does not.</td></tr>
+      <tr><td><strong>3. Drawing a child showing the age groups</strong> and listing the mathematical knowledge a child acquires at each stage, according to Piaget</td><td>Classification by age band; Piaget&rsquo;s stages; mathematical attainment as a classification criterion; illustration and labelling</td><td>Draw four figures &mdash; infant, pre-operational (2&ndash;7), concrete operational (7&ndash;11), adolescent &mdash; labelled with the age range; beside each, list in a table the mathematical knowledge typical of that stage, drawing on Unit 2 of this paper.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>Two points of method apply to all three. First, the <strong>data format must be decided before the data are collected</strong>, and it must be the same for every observation &mdash; that consistency is itself the mathematics. Second, the <strong>diagram must be valid for the data</strong>: a bar chart or a pictograph for comparing quantities such as prices, never a pie chart, and never a truncated scale that exaggerates a difference. Address this requirement explicitly in the write-up.</p>
+
+<h3 id="pr-assign">Any Two Assignments</h3>
+<p>Five assignments are listed; any two are to be attempted, carrying 3 marks between them. Each is the kind of task a teacher performs when preparing a lesson.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table P.2 &mdash; The Five Assignments</caption>
+    <thead><tr><th>Assignment</th><th>What is required</th><th>Competencies tested</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1. Chart</strong></td><td>Prepare a chart on numbers, shapes or pattern, stating its purpose and its uses.</td><td>Selection and display of mathematical content; clarity of presentation; understanding of purpose</td></tr>
+      <tr><td><strong>2. TLM</strong></td><td>List the TLM required, and prepare or collect the TLM for a given textbook concept.</td><td>Understanding of concrete&ndash;pictorial&ndash;abstract; materials knowledge; economy and classroom suitability</td></tr>
+      <tr><td><strong>3. Symmetry of letters and digits</strong></td><td>List the English capital letters and the symbols 0&ndash;9 that can be divided into two exactly equal parts; show the line of division; state the number of ways in which each such letter or symbol can be divided.</td><td>Line and point symmetry; enumeration and classification; careful observation; working in the home alphabet</td></tr>
+      <tr><td><strong>4. Shape drawing</strong></td><td>Draw an object &mdash; a house or an animal &mdash; using the regular shapes of foundational geometry.</td><td>Decomposition of a real object into mathematical forms; 2-D shape knowledge; creativity within a constraint</td></tr>
+      <tr><td><strong>5. Rangoli</strong></td><td>Draw a rangoli on paper using mathematical facts.</td><td>Pattern; symmetry; repeated units; the mathematics of the cultural object</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="footnote"><strong>Assignment 3 worked in principle.</strong> The capital letters that divide into two exactly equal parts along a <em>vertical</em> line of symmetry are A, H, I, M, O, T, U, V, W, X and Y. Along a <em>horizontal</em> line: B, C, D, E, H, I, K, O, X. The digits that divide vertically into two equal parts are 0 and 8; none of the digits 0&ndash;9 divides into two exactly equal parts along a horizontal line. The work is not finished until the number of ways in which <em>each</em> symbol can be divided is stated, which is what turns a list into mathematics. Note the judgement required: the answer depends on the typeface, and a careful candidate says so.</p>
+
+<h3 id="pr-comp">The Compulsory Activity</h3>
+<p>The compulsory activity is a study of a real lesson, and it is the single most important piece of work in the internal assessment because it cannot be written without standing in front of a class. The candidate must <strong>analyse any lesson of foundational level, from Classes I to III</strong>, in terms of <strong>(i) the learning outcome</strong> of the lesson and <strong>(ii) the activity</strong> carried out in it, and then <strong>(iii) design an innovative activity</strong> for handling that same lesson in a real classroom.</p>
+<ol class="num">
+  <li><strong>Select a lesson and state its context.</strong> Give the class, the subject, the concept, the period, the number of children, and the TLM and time available.</li>
+  <li><strong>Write the learning outcome in proper form</strong> &mdash; observable action, content, condition and criterion &mdash; following 1.6. A lesson of &ldquo;fun with numbers&rdquo; has no learning outcome; a lesson that finishes with &ldquo;the child will show, using 5 bottle tops, that adding 2 gives 7, in 4 out of 5 trials&rdquo; has one.</li>
+  <li><strong>Describe the activity as it was actually done</strong>: what the children did, with what material, in what sequence, for how long, and how the teacher moved among them. Then judge it: did the activity actually produce the stated outcome, or a different and lower one?</li>
+  <li><strong>Identify the mathematical content</strong> precisely &mdash; which of the seven components of Unit 3 it belongs to &mdash; and which of the approaches of Unit 2 it used or should have used.</li>
+  <li><strong>Design the innovative activity</strong> for the same concept: a genuinely different route to the same outcome, with the ELPS sequence made explicit, the TLM specified, the mathematical talk scripted, and a check built into the task so that the teacher can assess during the activity rather than after it.</li>
+  <li><strong>Evaluate your own design honestly</strong> &mdash; what might not work, what it costs, how long it takes, and what you would do differently.</li>
+</ol>
+<div class="card refl">
+  <span class="lbl">Reflection</span>
+  <p>Before you design the alternative, watch the original lesson and count the minutes spent on children&rsquo;s thinking rather than on the teacher&rsquo;s presentation. That proportion is the most reliable single indicator of the quality of a foundational mathematics lesson &mdash; and it is the indicator most often got wrong.</p>
+
+  <p>A strong innovative activity for a Class II lesson on addition might be a &ldquo;Mango Market&rdquo;: each pair of children is given 3 mango tokens and 2 apple tokens, must decide what to sell to a &ldquo;customer&rdquo; played by another child, must draw their shop on a slate, and must state the total to the customer in words before showing any symbol. The mathematics is identical to the textbook lesson, but the talk, the drawing, the audience and the checking are all built into the task.</p>
+</div>
+</section>
+
+<!-- ============ INTERNAL ASSESSMENT ============ -->
+<h2 id="internal"><span class="h2num">Internal Assessment</span>Scheme of 15 Marks</h2>
+<p>The internal assessment of this paper carries <strong>15 marks</strong> and is made up of four components, which between them assess four different things &mdash; analysis and design, field work, product making, and knowledge. None can be substituted for another: a candidate who writes a beautiful report but cannot state what ELPS stands for will lose marks on the unit test, and a candidate who memorises the unit but submits nothing from the field will lose the other nine.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table I.1 &mdash; Internal Assessment Components (15 marks)</caption>
+    <thead><tr><th>Component</th><th>Marks</th><th>What it assesses</th><th>Evidence submitted</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Compulsory activity</strong></td><td>3</td><td>Ability to analyse a real lesson and to design a new activity for it</td><td>Written report with the outcome, the activity analysis and the innovative design</td></tr>
+      <tr><td><strong>Project work</strong></td><td>3</td><td>Field collection, data format, and honest display and interpretation</td><td>Data sheets, the tabulated format, the diagram and the interpretation</td></tr>
+      <tr><td><strong>Assignment</strong></td><td>3</td><td>Practical skill in preparing a chart, TLM, drawing or pattern</td><td>Two assignments as per choice, with the required explanation</td></tr>
+      <tr><td><strong>Unit test</strong></td><td>6</td><td>Knowledge and understanding of all five units</td><td>Written or online test, syllabus as per Unit 1 to Unit 5</td></tr>
+      <tr><td><strong>Total</strong></td><td><strong>15</strong></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</div>
+<p>The unit test at 6 marks is double any single other component, so the theory of this paper carries real internal weight as well as its 35 external marks. The remaining 9 marks are earned by doing the work, and the village survey or the market price survey should be begun early in the semester, because both depend on a fixed weekly schedule &mdash; five markets open on two fixed days a week cannot be surveyed at convenience.</p>
+
+<h2 id="revision"><span class="h2num">Quick Subject Revision</span>Memory Sheet &mdash; S1.6</h2>
+<div class="review">
+
+  <h5>Unit-wise Key Facts</h5>
+  <ul class="check">
+    <li><strong>U1 (7):</strong> FLN and FN; the five-year Foundational Stage, ages 3&ndash;8; Bal Vatika and Grades 1&ndash;2; NIPUN Bharat, February 2022, 12 competencies in 3 domains; seven major aspects; the learning outcome.</li>
+    <li><strong>U2 (8):</strong> the individual learner; Piaget&rsquo;s four stages; errors as information; the approaches &mdash; ELPS, REACT, Four-Block, Gradual Release of Responsibility, project-based, story-based, art and sports integrated; Vygotsky&rsquo;s ZPD and Bruner&rsquo;s enactive&ndash;iconic&ndash;symbolic.</li>
+    <li><strong>U3 (10):</strong> the seven components, to be transacted along with the pedagogical approaches.</li>
+    <li><strong>U4 (5):</strong> criteria for assessment; 360&deg; assessment with PARAKH; the holistic report card.</li>
+    <li><strong>U5 (5):</strong> Aryabhata, Brahmagupta, Ramanujan, Euclid, Pythagoras.</li>
+  </ul>
+
+  <h5>Essential Definitions</h5>
+  <p><strong>FLN</strong> &mdash; Foundational Literacy and Numeracy, the combined literacy and numeracy capability of the Foundational Stage. <strong>FN</strong> &mdash; Foundational Numeracy, the numerical half of FLN. <strong>Foundational Stage</strong> &mdash; five years, ages 3 to 8: three years of Anganwadi or pre-primary plus Grades 1 and 2. <strong>Bal Vatika</strong> &mdash; the 3&ndash;4-year readiness stage of NCF-FS 2022. <strong>Learning outcome</strong> &mdash; a statement of observable performance with a condition and a criterion. <strong>One-to-one correspondence</strong> &mdash; one object for one name; the first condition of counting. <strong>Cardinality</strong> &mdash; the principle that the last number said in a count tells how many.</p>
+
+  <p><strong>ELPS</strong> &mdash; Experience, Language, Pictures, Symbols. <strong>REACT</strong> &mdash; Read, Explain, Analyse, Create, Think. <strong>Four-Block approach</strong> &mdash; concrete experience, pictorial representation, abstract or symbolic, problem solving. <strong>Gradual Release of Responsibility</strong> &mdash; I do, We do, You do together, You do alone (Pearson and Hall). <strong>Scaffolding</strong> &mdash; temporary support inside the Zone of Proximal Development, withdrawn as independence grows (Vygotsky). <strong>360&deg; assessment</strong> &mdash; assessment gathering feedback from multiple sources across multiple dimensions. <strong>PARAKH</strong> &mdash; Pashm Arogya Raksha Karyakran, the school health and wellness programme launched in 2021 under Ayushman Bharat.</p>
+
+  <h5>Important Names and Theories</h5>
+  <p><strong>Piaget</strong> &mdash; four stages (sensorimotor 0&ndash;2, pre-operational 2&ndash;7, concrete operational 7&ndash;11, formal operational 11+); object permanence, the counting rhyme, numerical primacy, egocentricity, absence of conservation, reversibility, classification, seriation, one-to-one correspondence, cardinality. <strong>Vygotsky</strong> &mdash; Zone of Proximal Development, scaffolding, language as a tool of thought. <strong>Bruner</strong> &mdash; enactive, iconic, symbolic. <strong>Pearson and Hall</strong> &mdash; Gradual Release of Responsibility. <strong>Bhaskara I</strong> &mdash; the earlier rule for multiplication by zero. <strong>Bhaskara school</strong> &mdash; Indian criticism of Euclid&rsquo;s postulates, especially the parallel postulate.</p>
+
+  <h5>Dates, Acts and Schemes</h5>
+  <ul class="check">
+    <li><strong>NEP 2020</strong> &mdash; the five-year Foundational Stage, ages 3&ndash;8. <strong>NCF-FS 2022</strong> &mdash; Bal Vatika (3&ndash;4 yrs) and Grades 1&ndash;2 (5&ndash;8 yrs). <strong>NCF-SE 2023</strong> &mdash; the 5+3+3+4 structure.</li>
+    <li><strong>NIPUN Bharat</strong> &mdash; guidelines 2021, released <strong>February 2022</strong>; 12 high-priority competencies in 3 domains (Language 3, Number 3, Basic enquiry and application 6).</li>
+    <li><strong>PARAKH</strong> &mdash; launched <strong>2021</strong>, Ayushman Bharat; health screening, health education, capacity building of schoolteachers.</li>
+    <li><strong>Aryabhata</strong> 476&ndash;550 CE, <em>Aryabhatiya</em> 499 CE, 118 verses in 4 chapters, &pi; as 3.1416.</li>
+    <li><strong>Brahmagupta</strong> born 598 CE, <em>Brahmasphutasiddhanta</em> 628 CE.</li>
+    <li><strong>Euclid</strong> &mdash; <em>Elements</em> c. 300 BCE, 13 books; republished 1974.</li>
+    <li><strong>Pythagoras</strong> c. 570&ndash;495 BCE. <strong>Ramanujan</strong> 1887&ndash;1920; Hardy from 1913; Royal Society Fellow 1916; commemorated 1999, stamp 2016.</li>
+  </ul>
+
+  <h5>Essential Practical Requirements</h5>
+  <ul class="check">
+    <li>Practicum 9 of the 15 internal marks: 1 project (3), 2 assignments (3), compulsory activity (3).</li>
+    <li>Decide the data format <em>before</em> collecting; use a diagram valid for the data; state what the display does not show.</li>
+    <li>Compulsory activity: analyse a Classes I&ndash;III lesson for its learning outcome and activity, then design an innovative alternative.</li>
+    <li>Unit test carries 6 of the 15 internal marks.</li>
+  </ul>
+</div>
+
+<!-- ============ IMPORTANT DIFFERENCES ============ -->
+<h2 id="differences"><span class="h2num">Revision Aid</span>Important Differences</h2>
+
+<div class="tw">
+  <table>
+    <caption>Table D.1 &mdash; Comparisons Examiners Most Often Ask For</caption>
+    <thead><tr><th>Basis</th><th>First term</th><th>Second term</th></tr></thead>
+    <tbody>
+      <tr><td>Scope</td><td><strong>FLN</strong> &mdash; reading, writing, speaking, listening <em>and</em> number, together</td><td><strong>FN</strong> &mdash; number and related mathematical capability alone; the numerical half of FLN</td></tr>
+      <tr><td>Policy source</td><td><strong>NEP 2020</strong> &mdash; the five-year, 3&ndash;8-year structure of the stage</td><td><strong>NCF-FS 2022</strong> &mdash; the Bal Vatika / Grades 1&ndash;2 detail within it</td></tr>
+      <tr><td>Question answered</td><td><strong>ELPS</strong> &mdash; how do I get from a thing to its symbol?</td><td><strong>Four-Block approach</strong> &mdash; how do I structure a whole concept lesson?</td></tr>
+      <tr><td>Lesson focus</td><td><strong>ELPS</strong> &mdash; acquisition of a concept</td><td><strong>REACT</strong> &mdash; solution of a problem</td></tr>
+      <tr><td>Representation</td><td><strong>Concrete</strong> &mdash; doing with real objects; builds meaning, prevents misconceptions</td><td><strong>Pictorial</strong> &mdash; drawing; holds the quantity in mind &middot; <strong>Abstract</strong> &mdash; writing; speed and generality, empty if taught too early</td></tr>
+      <tr><td>Support</td><td><strong>Scaffolding</strong> &mdash; temporary, and designed to be withdrawn</td><td><strong>Help</strong> &mdash; given and retained, which produces dependence</td></tr>
+      <tr><td>Thinking</td><td><strong>Piaget</strong> &mdash; developmental stages the child passes through</td><td><strong>Vygotsky</strong> &mdash; what a more knowledgeable other adds within the ZPD</td></tr>
+      <tr><td>Learning result</td><td><strong>Error / misconception</strong> &mdash; a rule the child has adopted; diagnosable and re-teachable</td><td><strong>Mistake</strong> &mdash; a slip; correct it and move on</td></tr>
+      <tr><td>Assessment</td><td><strong>360&deg;</strong> &mdash; multiple sources and multiple dimensions, continuous</td><td><strong>Traditional</strong> &mdash; one test, one observer, one occasion</td></tr>
+      <tr><td>Indian mathematics</td><td><strong>Aryabhata</strong> &mdash; place value with zero, &pi;, astronomy, Earth&rsquo;s rotation</td><td><strong>Brahmagupta</strong> &mdash; the first stated rules for zero, negative arithmetic, the cyclic quadrilateral</td></tr>
+      <tr><td>Zero</td><td><strong>Brahmagupta</strong> &mdash; the first stated <em>system</em> of rules for zero</td><td><strong>Bhaskara I</strong> &mdash; an earlier, independent rule for multiplication by zero</td></tr>
+      <tr><td>The right-angled triangle</td><td><strong>Pythagoras</strong> &mdash; the hypotenuse rule, as attributed to him and his school</td><td><strong><em>Baudhayana Sulba Sutra</em></strong> &mdash; the Indian statement of the general form, with a condition restricting it to a special case</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ COURSE INFORMATION ============ -->
+<h2 id="courseinfo"><span class="h2num">Course Information</span>Objectives, Mode of Transaction and Assessment Structure</h2>
+
+<h3 id="ci-objectives">Course Objectives</h3>
+<p>Eight objectives are stated for the paper, each mapped to the units that serve it. A candidate who can trace an objective to the unit that delivers it writes a much better descriptive answer than one who merely lists objectives.</p>
+<div class="tw tkeep">
+  <table>
+    <caption>Table C.1 &mdash; Course Objectives Mapped to Units</caption>
+    <thead><tr><th>No.</th><th>Objective</th><th>Serviced by</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Develop an understanding of Foundational Literacy and Numeracy (FLN) and explain its importance in the Foundational Stage.</td><td>Unit 1 (1.1, 1.2)</td></tr>
+      <tr><td>2</td><td>Explain the meaning and importance of Foundational Numeracy (FN) and identify the major aspects of early mathematics.</td><td>Unit 1 (1.3&ndash;1.5)</td></tr>
+      <tr><td>3</td><td>Understand the individual learner and Piaget&rsquo;s theory of mathematics learning, and apply it to planning foundational mathematics teaching.</td><td>Unit 2 (2.1, 2.2)</td></tr>
+      <tr><td>4</td><td>Understand the importance of learning and teaching errors of mathematics and respond to them constructively.</td><td>Unit 2 (2.3)</td></tr>
+      <tr><td>5</td><td>Apply appropriate approaches &mdash; ELPS, REACT, Four-Block, Gradual Release of Responsibility, project-based, story-based and art-and-sports integrated &mdash; to foundational mathematics.</td><td>Unit 2 (2.4)</td></tr>
+      <tr><td>6</td><td>Understand the seven components of mathematics learning: pre-number concepts, numbers and operations, shapes and spatial understanding, measurement, patterns, data handling and mathematical communication.</td><td>Unit 3 (3.1&ndash;3.7)</td></tr>
+      <tr><td>7</td><td>Understand the criteria, tools and records of assessment at the foundational stage, including 360&deg; assessment, PARAKH and the holistic report card.</td><td>Unit 4 (4.1&ndash;4.3)</td></tr>
+      <tr><td>8</td><td>Acquire knowledge of the life and contribution of Aryabhata, Brahmagupta, Ramanujan, Euclid and Pythagoras, and develop a positive attitude towards mathematics.</td><td>Unit 5 (5.1&ndash;5.5)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="ci-mode">Mode of Transaction</h3>
+<p>The Mode of Transaction of this paper is the most detailed in the D.El.Ed first-semester set, and it is not an administrative note &mdash; it is the pedagogy of the subject. A candidate who can quote it accurately can answer a large descriptive question almost on its own. It sets out what mathematics teaching at the foundational stage must actually <em>do</em>, in eight commitments, and everything in Units 2 and 3 is an elaboration of it.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table C.2 &mdash; Mode of Transaction: the Eight Commitments and the Classroom Action Each Demands</caption>
+    <thead><tr><th>Syllabus commitment</th><th>What it means in practice</th><th>A concrete action you can take</th></tr></thead>
+    <tbody>
+      <tr><td>Begin with mathematical vocabulary in the initial years</td><td>Matching, sorting, pairing, ordering, pattern, classification and one-to-one correspondence come first &mdash; with concrete objects (TLM) and in real-life situations</td><td>A 15-minute sorting corner before any number is written</td></tr>
+      <tr><td>Move gradually to higher skills through concrete experience</td><td>Numbers, shapes, space and measurement follow, through the ELPS sequence</td><td>Never let a child write 2 before handling 2</td></tr>
+      <tr><td>Connect mathematics with children&rsquo;s real life and prior knowledge</td><td>Start from what the child already knows and does, not from the textbook sequence</td><td>Ask &ldquo;what do you count at home?&rdquo; before teaching</td></tr>
+      <tr><td>Mathematics as a problem-solving tool</td><td>Rich mathematical tasks: understand the problem, devise strategies, solve, check, and justify why the answer is right</td><td>Replace &ldquo;add 4 and 3&rdquo; with a story the child argues about</td></tr>
+      <tr><td>Mathematical talk, communication and reasoning</td><td>Mathematics has its own language, vocabulary, symbols and sign systems &mdash; the operations of addition and subtraction, the signs +, &minus; and =</td><td>Say &ldquo;I subtracted&rdquo; and write &minus; for it</td></tr>
+      <tr><td>A positive attitude, so that children learn to enjoy mathematics</td><td>Enthusiasm is a professional responsibility, not a sentiment; a child who enjoys mathematics persists longer and risks wrong answers more readily</td><td>Praise strategy, never only the right answer</td></tr>
+      <tr><td>The four-block approach</td><td>Concrete, pictorial, abstract/symbolic and problem solving, planned as a cycle</td><td>Plan all four blocks for every concept taught</td></tr>
+      <tr><td>Vibrant learning corners in the classroom</td><td>Defined, reachable, inviting corners where children may work on material without asking permission</td><td>Number line and weighing set on a low shelf</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="ci-assessment">Assessment Structure</h3>
+<p>Internal assessment carries 15 marks in four components &mdash; compulsory activity 3, project 3, assignment 3, unit test 6 &mdash; as set out in Table I.1 above. The practicum therefore accounts for 9 of the 15 internal marks, and the remaining 6 come from a unit test on Units 1 to 5. The external examination carries 35 marks, for a total of 50. The subject is weighted at 2 credits and is allotted only two to three periods a week, which places a hard constraint on the teaching of the paper itself: much of the subject must be learnt through reading and through the practicum tasks rather than through classroom hours.</p>
+
+  <p>That is why the practicum carries two-thirds of the internal weight, and why the compulsory activity &mdash; the analysis of a real foundational-stage lesson &mdash; is the single most important piece of work in the internal assessment scheme. The five units are not of equal size: Unit 3, on the components of mathematics learning, is the largest at 10 marks and the unit most directly examinable, since a descriptive question can ask about any of the seven components.</p>
+
+<!-- ============ SUGGESTED READINGS ============ -->
+<h2 id="readings"><span class="h2num">Resources</span>Suggested Readings and Reference Materials</h2>
+<p>The reading list for this paper contains online open educational resources by name and code, which is a strong indication of the direction the subject is being taken in. Treat the following as part of the syllabus rather than as optional background.</p>
+
+<h3 id="rd-a">Textbooks and Books</h3>
+<ul class="bul">
+  <li><strong>Mathematics textbooks for Classes I to V</strong> &mdash; SCERT, Assam. These are the books in which the practical assignments must be set: choose a concept, and prepare the TLM for it.</li>
+  <li><strong>Teaching of Mathematics</strong> &mdash; M. Kocchar. The standard Indian teacher-education text on the subject.</li>
+  <li><strong>Ganit Shikshan</strong> (Teaching of Mathematics) &mdash; H. K. Sharma. An Indian perspective on mathematics education, particularly for the foundational stage.</li>
+  <li><strong>Resource materials for D.El.Ed</strong> &mdash; SCERT, Assam, unit-wise, aligned with this curriculum.</li>
+  <li><strong>Self-learning materials (SLMs)</strong> &mdash; K. K. Hindi Sanmaya University (KKHSOU) and IGNOU, for the corresponding D.El.Ed units.</li>
+</ul>
+
+<h3 id="rd-b">TESS-India Open Educational Resources</h3>
+<ul class="bul">
+  <li><strong>EM-01 &mdash; &ldquo;Using number games: developing number sense&rdquo;.</strong> Number games are the natural home of pre-number concepts, of one-to-one counting, and of the attitude commitment of the Mode of Transaction.</li>
+  <li><strong>EM-04 &mdash; &ldquo;Mathematical stories: word problems&rdquo;.</strong> The direct resource for the story-based approach and for REACT, since every story problem is a problem to be read, explained, analysed, planned and checked.</li>
+  <li><strong>EM-05 &mdash; &ldquo;Asking questions that challenge thinking&rdquo;.</strong> The resource for the problem-solving and justification demands of the Mode of Transaction, and for the skill of asking rich mathematical tasks rather than closed questions.</li>
+  <li><strong>EM-06 &mdash; &ldquo;Making children believe they CAN do mathematics: Operation and Fraction&rdquo;.</strong> The resource for the affective objective &mdash; a positive attitude so that children learn to enjoy mathematics &mdash; and a caution that attitude work is a methodological commitment, not a slogan.</li>
+  <li><strong>TESS-India primary mathematics OERs</strong> more generally, which support activity-based foundational mathematics teaching.</li>
+</ul>
+
+<h3 id="rd-c">Training Modules, Web Portals and Policy Documents</h3>
+<ul class="bul">
+  <li><strong>Lower Primary and Upper Primary training modules on Mathematics</strong> &mdash; SCERT, Assam.</li>
+  <li><strong>NCF-FS 2022</strong> &mdash; fixes Bal Vatika at 3&ndash;4 years and Grades 1&ndash;2 at 5&ndash;8 years, and specifies the high-priority competencies for the stage.</li>
+  <li><strong>NCF-SE 2023</strong> &mdash; places the Foundational Stage within the 5+3+3+4 structure.</li>
+  <li><strong>NIPUN Bharat guidelines (2021)</strong>, released in <strong>February 2022</strong> &mdash; the 12 high-priority competencies in 3 domains that define the numeracy expectation of Grades 1 and 2.</li>
+  <li><strong>nctm.org</strong> &mdash; the National Council of Teachers of Mathematics, with its Principles and Standards for School Mathematics.</li>
+  <li><strong>math.osu.edu</strong> and <strong>tc.columbia.edu</strong> &mdash; university mathematics education resources carrying the research base on problem solving, representation and formative assessment.</li>
+</ul>
+</article>
+</body>
+</html>

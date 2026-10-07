@@ -16,3 +16,6 @@
 /* Readable supporting copy on the homepage, including small screens. */
 .hero .hero-eyebrow { font-size: 14px; line-height: 1.6; letter-spacing: .06em; }
 .folio-cover .folio-bottom > span:first-child { font-size: 15px; line-height: 1.5; letter-spacing: .01em; }
+
+/* Keep study-format descriptions readable on narrow screens. */
+@media(max-width:600px){.format-grid,.reader-layout .format-grid{grid-template-columns:minmax(0,1fr)}.format-grid a>.ui-icon,.format-icon{flex-shrink:0}}

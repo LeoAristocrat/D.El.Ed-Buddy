@@ -32,7 +32,7 @@ ELPS is a way to move from a concrete experience to a written mathematical symbo
 
 This is an adapted example, not an additional official task. Put two flowers in front of the child. Let the child count them, describe the quantity, draw two flowers and then connect the drawing to the numeral 2. Ask the child to explain the connection instead of only copying the numeral.
 
-## Short notes
+## ELPS at a glance
 
 | Part | What it involves |
 | --- | --- |
@@ -81,4 +81,4 @@ Label the four steps with the official expansion: Experience → Language → Pi
 - Review the question and explanation for ambiguity.
 - Edit into the author’s own voice.
 - Add the reviewer’s name and review date before publication.
-- Split this pack into separate Notes, Short Notes, Revision, Important Questions and MCQs resources when ready.
+- Split this pack into separate Notes, Revision, Important Questions and MCQs resources when ready.

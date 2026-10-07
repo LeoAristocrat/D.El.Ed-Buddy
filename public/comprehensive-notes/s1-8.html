@@ -1,0 +1,2284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="D.El.Ed Semester I Study Notes">
+<meta name="description" content="History and forms of yoga, asanas, pranayama, mudras, bandhas, kriyas and therapeutic benefits.">
+<meta name="keywords" content="D.El.Ed, Semester 1, S1.8, SCERT Assam, PSTE, teacher education, study notes">
+<meta name="subject" content="Diploma in Elementary Education (PSTE) — Semester I">
+<meta name="color-scheme" content="light">
+<title>S1.8 — Yoga Education | D.El.Ed Semester I Notes</title>
+<link rel="icon" href="/favicon.svg">
+<style>
+/* ============================================================
+   D.El.Ed Semester 1 — Shared Design System
+   Premium academic notebook aesthetic
+   ============================================================ */
+
+:root {
+  /* --- Paper & surface --- */
+  --paper:          #faf6ee;
+  --paper-deep:     #f3ece0;
+  --card:           #fffdf8;
+  --card-beige:     #f6efe2;
+  --card-beige-2:   #f2e9d8;
+
+  /* --- Ink --- */
+  --ink:            #33302b;
+  --ink-soft:       #55504a;
+  --ink-faint:      #7a736a;
+  --rule:           #ded2bd;
+  --rule-soft:      #e9e0cf;
+
+  /* --- Accents --- */
+  --terracotta:     #b4623c;
+  --terracotta-d:   #8f4a2a;
+  --terracotta-bg:  #f7e9e0;
+  --olive:          #6d7a4a;
+  --olive-d:        #54603a;
+  --olive-bg:       #ecefdd;
+  --dusty-blue:     #4c6a83;
+  --dusty-blue-bg:  #e5ecf2;
+  --plum:           #7a5570;
+  --plum-bg:        #f1e8ee;
+  --gold:           #a5822e;
+  --gold-bg:        #f7efd8;
+
+  /* --- Type --- */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+           Georgia, "Times New Roman", serif;
+  --sans:  "Segoe UI", "Gill Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  --mono:  "Consolas", "SF Mono", "Menlo", monospace;
+
+  --fs-body: 10.6pt;
+  --lh-body: 1.62;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 34px 20px 80px;
+  font-family: var(--serif);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.20) 1px, transparent 0);
+  background-size: 22px 22px;
+  background-attachment: fixed;
+}
+
+/* ============ Document container ============ */
+.doc {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(120, 100, 70, 0.06),
+    0 10px 34px -14px rgba(90, 72, 45, 0.22);
+  padding: 46px 56px 64px;
+  position: relative;
+}
+.doc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0);
+  background-size: 22px 22px;
+  opacity: 0.75;
+}
+.doc > * { position: relative; z-index: 1; }
+
+/* ============ Hero / subject header ============ */
+.hero {
+  border: 1px solid var(--rule);
+  border-top: 5px solid var(--terracotta);
+  background: linear-gradient(180deg, #fffdf8 0%, #f7f0e3 100%);
+  padding: 26px 30px 22px;
+  margin-bottom: 26px;
+  border-radius: 3px;
+}
+.hero .kicker {
+  font-family: var(--sans);
+  font-size: 8.4pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-size: 25pt;
+  line-height: 1.16;
+  margin: 0 0 4px;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.hero .code {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--paper);
+  background: var(--ink);
+  padding: 3px 11px;
+  border-radius: 2px;
+  margin: 0 0 12px;
+}
+.hero .tagline {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 4px;
+  max-width: 62ch;
+}
+/* The divider doubles as the maker-credit row: rule on the left, credit on the
+   right. Keeping them on one line costs no vertical space in the hero, which
+   the one-page-before-Unit-1 budget cannot spare. */
+.hero .rule-line {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 13px 0 12px;
+}
+.hero .rule-line::before {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, var(--terracotta), var(--rule) 55%, transparent);
+}
+.made-by {
+  flex: 0 0 auto;
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+.made-by .heart {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", var(--sans);
+  font-size: 8.4pt;
+}
+.made-by a {
+  color: var(--terracotta-d);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+}
+.made-by a:hover { border-bottom-color: var(--terracotta); }
+
+/* ============ At a glance ============ */
+.glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.glance .g-item {
+  flex: 1 1 152px;
+  background: #fffdf8;
+  padding: 9px 12px 10px;
+}
+.glance .g-label {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 2px;
+}
+.glance .g-value {
+  font-size: 9.6pt;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.34;
+}
+
+/* ============ Table of contents ============ */
+.toc {
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--olive);
+  background: #fcf9f2;
+  padding: 20px 24px 18px;
+  border-radius: 3px;
+  margin: 26px 0 30px;
+}
+.toc h2 {
+  font-family: var(--sans);
+  font-size: 9.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  margin: 0 0 12px;
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+}
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
+.toc > ol > li {
+  counter-increment: toc;
+  margin: 0 0 9px;
+}
+.toc > ol > li > a {
+  font-weight: 700;
+  font-size: 10.6pt;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.toc > ol > li > a:hover { color: var(--terracotta-d); border-bottom-color: var(--terracotta); }
+.toc > ol > li > a::before {
+  content: counter(toc, upper-roman) " · ";
+  color: var(--terracotta);
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.toc .sub {
+  margin: 4px 0 0 4px;
+  padding: 0 0 0 14px;
+  list-style: none;
+  border-left: 1px solid var(--rule-soft);
+  columns: 2;
+  column-gap: 26px;
+}
+.toc .sub li {
+  font-size: 9.4pt;
+  color: var(--ink-soft);
+  line-height: 1.48;
+  margin-bottom: 2px;
+  break-inside: avoid;
+}
+.toc .sub a { color: inherit; text-decoration: none; }
+.toc .sub a:hover { color: var(--terracotta-d); }
+
+/* ============ Headings ============ */
+h2 {
+  font-size: 16.5pt;
+  line-height: 1.22;
+  margin: 40px 0 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  padding: 0 0 9px 15px;
+  border-left: 5px solid var(--terracotta);
+  border-bottom: 1px solid var(--rule);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h2 .h2num {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+h3 {
+  font-size: 12.6pt;
+  line-height: 1.3;
+  margin: 26px 0 8px;
+  font-weight: 700;
+  color: #3d3933;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  background: var(--olive);
+  border-radius: 50%;
+  margin-right: 9px;
+  vertical-align: 0.06em;
+}
+
+h4 {
+  font-size: 10.9pt;
+  line-height: 1.35;
+  margin: 18px 0 6px;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--terracotta-d);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h5 {
+  font-size: 9.9pt;
+  margin: 14px 0 4px;
+  font-weight: 700;
+  color: var(--olive-d);
+  font-family: var(--sans);
+  letter-spacing: 0.03em;
+  break-after: avoid;
+}
+
+/* ============ Body text ============ */
+p { margin: 0 0 10px; text-align: justify; hyphens: auto; }
+p.tight { margin-bottom: 4px; }
+.doc > p, .unit-body > p { max-width: 74ch; }
+
+strong, b { font-weight: 700; color: #26231f; }
+
+em { font-style: italic; }
+
+.lead {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 72ch;
+}
+
+/* ============ Lists ============ */
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 5px; }
+li > ul, li > ol { margin-top: 5px; margin-bottom: 3px; }
+
+ul.bul { list-style: none; padding-left: 0; }
+ul.bul > li {
+  position: relative;
+  padding-left: 17px;
+  margin-bottom: 6px;
+}
+ul.bul > li::before {
+  content: "▸";
+  position: absolute;
+  left: 2px;
+  top: -0.02em;
+  color: var(--terracotta);
+  font-size: 0.92em;
+}
+
+ul.check { list-style: none; padding-left: 0; }
+ul.check > li { position: relative; padding-left: 20px; margin-bottom: 5px; }
+ul.check > li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--olive);
+  font-weight: 700;
+  font-size: 0.88em;
+}
+
+ol.num { list-style: none; counter-reset: n; padding-left: 26px; }
+ol.num > li { position: relative; margin-bottom: 7px; counter-increment: n; }
+ol.num > li::before {
+  content: counter(n) ".";
+  position: absolute;
+  left: -22px;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  font-family: var(--sans);
+  font-size: 0.88em;
+}
+
+dl { margin: 0 0 12px; }
+dt { font-weight: 700; color: #26231f; margin-top: 8px; }
+dd { margin: 2px 0 0 0; }
+
+abbr { text-decoration: none; border-bottom: 1px dotted var(--ink-faint); }
+
+/* ============ Callout cards ============ */
+.card {
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 12px 16px 13px;
+  margin: 14px 0;
+  background: #fffdf8;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.card > :last-child { margin-bottom: 0; }
+.card p { text-align: left; }
+
+.card .lbl {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.def {
+  background: #fdf6ec;
+  border-color: #e3d2b6;
+  border-left: 4px solid var(--gold);
+}
+.def .lbl { color: var(--gold); }
+
+.idea {
+  background: var(--olive-bg);
+  border-color: #d3d9bd;
+  border-left: 4px solid var(--olive);
+}
+.idea .lbl { color: var(--olive-d); }
+
+.rem {
+  background: var(--terracotta-bg);
+  border-color: #e8cebc;
+  border-left: 4px solid var(--terracotta);
+}
+.rem .lbl { color: var(--terracotta-d); }
+
+.ex {
+  background: #f4f1fa;
+  border-color: #d9d0e8;
+  border-left: 4px solid #6b5a94;
+}
+.ex .lbl { color: #5b4c80; }
+
+.cls {
+  background: var(--dusty-blue-bg);
+  border-color: #ccd9e3;
+  border-left: 4px solid var(--dusty-blue);
+}
+.cls .lbl { color: #3d5a71; }
+
+.exam {
+  background: #fbf4e3;
+  border-color: #e6d5aa;
+  border-left: 4px solid #a5822e;
+}
+.exam .lbl { color: #856722; }
+
+.mist {
+  background: #f9ecec;
+  border-color: #eccfcf;
+  border-left: 4px solid #a44b4b;
+}
+.mist .lbl { color: #8b3c3c; }
+
+.refl {
+  background: var(--plum-bg);
+  border-color: #dfcddd;
+  border-left: 4px solid var(--plum);
+}
+.refl .lbl { color: #654761; }
+
+.quick {
+  background: #f4f6ef;
+  border-color: #d6dcc4;
+  border-left: 4px solid #7d8a52;
+}
+.quick .lbl { color: #5f6a38; }
+
+/* inline term highlight */
+.term {
+  background: #f2ead6;
+  padding: 0 3px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+mark.hl {
+  background: #f6e7c4;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ============ Tables ============ */
+.tw {
+  margin: 14px 0 16px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fffdf8;
+}
+.tw.tkeep { break-inside: avoid; page-break-inside: avoid; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.1pt;
+  line-height: 1.46;
+}
+caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  padding: 9px 12px 7px;
+  background: #f6f1e6;
+  border-bottom: 1px solid var(--rule);
+}
+th {
+  background: #efe8d8;
+  color: #3a342b;
+  font-family: var(--sans);
+  font-size: 8.2pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+th:last-child { border-right: 0; }
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--rule-soft);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+  text-align: left;
+}
+td:last-child { border-right: 0; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:nth-child(even) td { background: #fcf8f0; }
+table.compact { font-size: 8.6pt; }
+table.compact th, table.compact td { padding: 5px 8px; }
+
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+
+/* ============ Figure / diagram ============ */
+figure {
+  margin: 18px 0;
+  padding: 14px 16px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fcf9f2;
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+figure svg { max-width: 100%; height: auto; }
+figcaption {
+  font-family: var(--sans);
+  font-size: 7.8pt;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+  margin-top: 8px;
+  text-align: center;
+}
+figcaption b { color: var(--ink-soft); }
+
+/* ============ Unit review block ============ */
+.review {
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--olive);
+  background: #fbf8f0;
+  border-radius: 3px;
+  padding: 16px 20px 18px;
+  margin: 22px 0 30px;
+}
+.review h4 {
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  font-style: normal;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
+}
+.review h5 {
+  font-size: 8.4pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  margin: 13px 0 5px;
+  font-family: var(--sans);
+}
+.review h5:first-of-type { margin-top: 9px; }
+.review p { text-align: left; }
+.review > :last-child { margin-bottom: 0; }
+
+.qa { margin: 0; }
+.qa .q { margin-bottom: 8px; break-inside: avoid; page-break-inside: avoid; }
+.qa .qt {
+  font-family: var(--sans);
+  font-size: 7.2pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--ink-soft);
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+.qa .q.l { border-left: 3px solid var(--terracotta); padding-left: 9px; }
+.qa .q.s { border-left: 3px solid var(--olive); padding-left: 9px; }
+.qa .q.v { border-left: 3px solid var(--dusty-blue); padding-left: 9px; }
+.qa .q p { margin: 0; text-align: left; display: inline; }
+
+/* ============ Subject card grid (project index only) ============ */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 14px;
+  margin: 18px 0 24px;
+}
+.subjcard {
+  display: block;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--terracotta);
+  border-radius: 3px;
+  background: #fffdf8;
+  padding: 13px 15px 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.subjcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -8px rgba(90, 72, 45, .45);
+}
+.subjcard .sc-code {
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--terracotta-d);
+}
+.subjcard .sc-title {
+  font-size: 11.4pt;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 4px 0 6px;
+  color: var(--ink);
+}
+.subjcard .sc-desc {
+  font-size: 9pt;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin-bottom: 9px;
+}
+.subjcard .sc-meta {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 7px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.subjcard.olive { border-top-color: var(--olive); }
+.subjcard.olive .sc-code { color: var(--olive-d); }
+.subjcard.blue { border-top-color: var(--dusty-blue); }
+.subjcard.blue .sc-code { color: #3d5a71; }
+.subjcard.gold { border-top-color: var(--gold); }
+.subjcard.gold .sc-code { color: #856722; }
+
+.linkpair {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.08em;
+  margin-top: 7px;
+  display: flex;
+  gap: 12px;
+}
+.linkpair a { color: var(--terracotta-d); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.linkpair a:hover { border-bottom-color: var(--terracotta); }
+
+.tocwide { columns: 2; column-gap: 30px; }
+.tocwide li { break-inside: avoid; }
+
+/* ============ Misc components ============ */
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 18px;
+}
+.chip {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  padding: 3px 11px;
+}
+
+.hr {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+  margin: 30px 0;
+}
+
+.footnote {
+  font-size: 8.6pt;
+  color: var(--ink-faint);
+  line-height: 1.5;
+}
+
+/* two-column comparison */
+.two-col { column-count: 2; column-gap: 30px; column-rule: 1px solid var(--rule-soft); }
+.two-col > * { break-inside: avoid; }
+
+/* ============ Responsive ============ */
+@media (max-width: 780px) {
+  body { padding: 14px 8px 40px; background-size: 18px 18px; }
+  .doc { padding: 26px 20px 36px; border-radius: 3px; }
+  .hero { padding: 20px 18px 18px; }
+  .hero h1 { font-size: 20pt; }
+  h2 { font-size: 14.5pt; padding-left: 11px; border-left-width: 4px; }
+  h3 { font-size: 11.6pt; }
+  .toc .sub { columns: 1; }
+  .tocwide { columns: 1; }
+  .two-col { column-count: 1; }
+  table { font-size: 8.4pt; }
+}
+
+/* ============================================================
+   PRINT / PDF  —  A4
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 15mm 14mm 16mm 14mm;
+}
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+    background-image: none !important;
+  }
+  body { padding: 0; font-size: 10.1pt; line-height: 1.56; }
+  .doc {
+    max-width: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .doc::before { display: none; }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Keep a whisper of the notebook dot-grid on the page, but far fainter
+     than on screen so a 70-page print run does not look noisy. */
+  .doc {
+    background-color: #fffdf8 !important;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0) !important;
+    background-size: 5.6mm 5.6mm !important;
+  }
+
+  h2, h3, h4, h5 { break-after: avoid; page-break-after: avoid; }
+  h2 { margin-top: 20pt; }
+
+  .card, figure, .qa .q, .tw.tkeep, tr, .chip-row { break-inside: avoid; page-break-inside: avoid; }
+  .tw, .card, .review { break-inside: auto; page-break-inside: auto; }
+
+  thead { display: table-header-group; }
+  tfoot { display: table-footer-group; }
+  p, li { orphans: 2; widows: 2; }
+
+  a { color: inherit; text-decoration: none; }
+  .made-by a { border-bottom: 0; }
+
+  .toc a { color: var(--ink); }
+
+  /* page-break control utility classes */
+  .pb { break-before: page; page-break-before: always; }
+  .avoid { break-inside: avoid; page-break-inside: avoid; }
+}
+
+</style>
+</head>
+<body>
+<article class="doc">
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="kicker">D.El.Ed &mdash; Semester I &middot; Paper S1.8</div>
+  <div class="code">S1.8</div>
+  <h1>Yoga Education</h1>
+  <p class="tagline">&ldquo;Prevention is better than Cure&rdquo; &mdash; the meaning and history of yoga, its forms, the asanas, pranayamas, mudras, bandhas and kriyas you can teach, and the general and therapeutic benefits of practising them.</p>
+  <div class="rule-line"><span class="made-by">Made with <span class="heart">&#10084;&#65039;</span> by <strong>Sayeem Sadik</strong> &middot; <a href="https://leoaristocrat.eu.cc">leoaristocrat.eu.cc</a></span></div>
+  <div class="glance">
+    <div class="g-item"><div class="g-label">Units</div><div class="g-value">4 &times; 5 = 20 marks external</div></div>
+    <div class="g-item"><div class="g-label">Internal</div><div class="g-value">30 marks</div></div>
+    <div class="g-item"><div class="g-label">Credits</div><div class="g-value">2 &middot; 2&ndash;3 periods / week</div></div>
+    <div class="g-item"><div class="g-label">Paper type</div><div class="g-value">Theory + Practical (15)</div></div>
+  </div>
+</header>
+
+<!-- ============ CONTENTS ============ -->
+<nav class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#unit-1">Unit 1 &mdash; Introduction to Yoga and History</a>
+      <ul class="sub">
+        <li><a href="#s1-1">1.1 Meaning, Definitions and Brief History</a></li>
+        <li><a href="#s1-2">1.2 Aim and Objectives</a></li>
+        <li><a href="#s1-3">1.3 Scope</a></li>
+        <li><a href="#s1-4">1.4 Misconceptions</a></li>
+        <li><a href="#s1-5">1.5 Importance in School Education</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-2">Unit 2 &mdash; Introduction to Various Forms of Yoga</a>
+      <ul class="sub">
+        <li><a href="#s2-1">2.1 Raja Yoga and the Eight Limbs of Ashtanga Yoga</a></li>
+        <li><a href="#s2-2">2.2 Hatha Yoga, Its Limbs, and Hatha with Raja</a></li>
+        <li><a href="#s2-3">2.3 Karma, Jnana, Tantra and Bhakti Yoga</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-3">Unit 3 &mdash; Asanas, Pranayama, Mudra, Bandha and Kriya</a>
+      <ul class="sub">
+        <li><a href="#s3-1">3.1 The Meaning of Each Term</a></li>
+        <li><a href="#s3-2">3.2 Asanas by Posture, and Surya Namaskar</a></li>
+        <li><a href="#s3-3">3.3 Pranayama</a></li>
+        <li><a href="#s3-4">3.4 Mudra</a></li>
+        <li><a href="#s3-5">3.5 Bandha</a></li>
+        <li><a href="#s3-6">3.6 Kriyas and the Six Shatkarmas</a></li>
+        <li><a href="#s3-7">3.7 Japa and Ajapa</a></li>
+        <li><a href="#safety">Safety and Precautions</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-4">Unit 4 &mdash; General and Therapeutic Benefits of Yoga</a>
+      <ul class="sub">
+        <li><a href="#s4-1">4.1 Supplemental, Compensatory, Regenerative and Power Yoga</a></li>
+        <li><a href="#s4-2">4.2 Therapeutic Benefits in Lifestyle Diseases</a></li>
+        <li><a href="#s4-3">4.3 Yoga and Self-Actualisation</a></li>
+        <li><a href="#s4-4">4.4 Effects on the Six Systems of the Body</a></li>
+      </ul>
+    </li>
+    <li><a href="#practicum">Practicum &mdash; Field Tasks and Practical Work</a>
+      <ul class="sub">
+        <li><a href="#prac-a">Field Visit, Report or Interview (5)</a></li>
+        <li><a href="#iyd">International Yoga Day &mdash; 21 June</a></li>
+        <li><a href="#prac-b">The Daily and Weekly Practical Programme (10)</a></li>
+      </ul>
+    </li>
+    <li><a href="#assessment">Internal Assessment (30 marks)</a></li>
+    <li><a href="#revision">Quick Subject Revision</a></li>
+    <li><a href="#differences">Important Differences</a></li>
+    <li><a href="#course-info">Course Information</a></li>
+    <li><a href="#mentor">Instruction to Faculty and Mentor</a></li>
+    <li><a href="#readings">Suggested Readings</a></li>
+  </ol>
+</nav>
+
+<!-- ============ UNIT 1 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-1"><span class="h2num">Unit 1</span>Introduction to Yoga and History of Yoga</h2>
+
+  <h3 id="s1-1">1.1 Meaning, Definitions and Brief History of Yoga</h3>
+  <p><strong>Yoga</strong> is a Sanskrit word. It comes from the root <strong><em>yuj</em></strong>, &ldquo;to yoke, to join&rdquo;; with the suffix <em>-a</em> the root yields <em>yoga</em> &mdash; that which yokes or joins. A practitioner is a <em>yogi</em> or <em>yogini</em>. The imagery is mechanical and agricultural at once: a yoke joins two oxen so that they pull together, and so does yoga join two things that cannot move usefully apart. Which two things is what the definitions debate.</p>
+
+  <div class="card def">
+    <span class="lbl">Definition</span>
+    <p><strong>Patanjali (<em>Yoga Sutras</em>):</strong> yoga is <em>citta-vrtti-nirodha</em> &mdash; the stilling of the fluctuations of the mind. <em>Citta</em> is the mind and its disturbances, <em>vrtti</em> is fluctuation, <em>nirodha</em> is arrest. This is the classical definition and carries the greatest authority. The widely used phrase &ldquo;the union of body, mind and soul&rdquo; is a popular paraphrase, not a translation: <em>yoga</em> means <em>yoking</em>, and Patanjali describes the result as stilling rather than fusion. Quote Patanjali first in an examination answer, then give the paraphrase as a commonly used description. The <em>Mahabharata</em> gives the uniting of the senses and the self, and the <em>Bhagavad Gita</em> (6.4) the stilling of the senses with the mind resting in the Self &mdash; both again describe a <em>condition of the mind</em>.</p>
+  </div>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 1.1 &mdash; The Major Definitions of Yoga Compared</caption>
+      <thead><tr><th>Source</th><th>Definition</th><th>What it emphasises</th></tr></thead>
+      <tbody>
+        <tr><td>Patanjali, <em>Yoga Sutras</em></td><td><em>Citta-vrtti-nirodha</em> &mdash; the stilling of the fluctuations of the mind</td><td>Mental stillness; the classical standard</td></tr>
+        <tr><td><em>Mahabharata</em></td><td>The uniting of the senses and the self</td><td>Integration of the person</td></tr>
+        <tr><td><em>Bhagavad Gita</em> (6.4, 6.17)</td><td>The senses stilled, the mind resting in the Self</td><td>Meditation; the royal path</td></tr>
+        <tr><td>Popular modern usage</td><td>&ldquo;The union of body, mind and soul&rdquo;</td><td>Holistic integration &mdash; a paraphrase, not a translation</td></tr>
+        <tr><td>Etymology</td><td>From <em>yuj</em>, &ldquo;to yoke or join&rdquo; &rarr; <em>yoga</em></td><td>The image of harnessing two things to pull together</td></tr>
+        <tr><td>This syllabus</td><td>A system of health and mind-culture, rooted in Indian tradition and usable in schools</td><td>Application and teaching</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>Brief history</h4>
+  <p>The word <em>yoga</em> appears in the <strong>Rigveda</strong>, among the oldest of the Vedas, in its literal sense of the <em>yoking</em> of a chariot or a team of oxen, with no philosophical content; it appears again in the <strong>Atharvaveda</strong>. In the <strong>Upanishads</strong>, and especially in the later yoga-oriented ones, it acquires its philosophical meaning: the <em>Yoga Shikha Upanishad</em> offers an early classification, the <em>Yoga Yajnavalkya</em>, <em>Shandilya</em> and <em>Darshana</em> Upanishads discuss meditative technique, and the <em>Darshana Upanishad</em> in particular gives a systematic treatment of concentration. The <strong>Bhagavad Gita</strong>, dated by different scholars between the second century BCE and the second century CE, devotes chapters 5, 6, 8 and 12 to the paths of yoga.</p>
+
+  <p>The decisive text is the <strong>Yoga Sutras of Patanjali</strong>, which gathered the scattered practices into a systematic eight-limbed discipline. Patanjali is conventionally dated to roughly <strong>200 BCE to 200 CE</strong>, but the dating is genuinely disputed &mdash; give the range and say so. <em>Ashtanga Yoga</em> in the sense of &ldquo;the eight-limbed yoga&rdquo; comes from this text and its later commentaries.</p>
+
+  <p>After Patanjali come the classical <em>Hatha</em> works &mdash; the <em>Hatha Yoga Pradipika</em> of <strong>Svatmarama</strong> (fifteenth century), the <em>Gheranda Samhita</em> and the <em>Shiva Samhita</em> &mdash; which concentrate on asana, pranayama, mudra, bandha and kriya. In the nineteenth and twentieth centuries yoga was revived and spread worldwide: Sri Aurobindo wrote on <em>Raja Yoga</em>, and Dhirananda Saraswati, B. K. S. Iyengar and T. Krishnamacharya brought asana into Indian schools and then to the West. In 2015 the United Nations General Assembly fixed <strong>21 June</strong> as the International Day of Yoga.</p>
+
+  <figure>
+    <svg viewBox="0 0 760 268" role="img" aria-label="Timeline of the history of yoga from the Vedic period to International Yoga Day" preserveAspectRatio="xMidYMid meet">
+      <line x1="30" y1="134" x2="730" y2="134" stroke="#ded2bd" stroke-width="3"/>
+      <line x1="30" y1="134" x2="730" y2="134" stroke="#7a736a" stroke-width="1" stroke-dasharray="2 5"/>
+      <g font-family="Georgia, 'Times New Roman', serif">
+        <line x1="52" y1="130" x2="52" y2="112" stroke="#b4623c" stroke-width="1.5"/>
+        <circle cx="52" cy="134" r="7" fill="#b4623c"/>
+        <text x="52" y="102" font-size="12.5" font-weight="bold" fill="#33302b" text-anchor="start">Vedic period</text>
+        <text x="52" y="85" font-size="11" fill="#7a736a" text-anchor="start">c. 1500&ndash;1000 BCE</text>
+        <text x="52" y="70" font-size="11" fill="#7a736a" text-anchor="start">Rigveda, Atharvaveda</text>
+        <text x="52" y="55" font-size="11" fill="#7a736a" text-anchor="start">mantra, breath, discipline</text>
+        <line x1="190" y1="138" x2="190" y2="160" stroke="#6d7a4a" stroke-width="1.5"/>
+        <circle cx="190" cy="134" r="7" fill="#6d7a4a"/>
+        <text x="190" y="176" font-size="12.5" font-weight="bold" fill="#33302b" text-anchor="middle">Upanishadic period</text>
+        <text x="190" y="192" font-size="11" fill="#7a736a" text-anchor="middle">c. 800&ndash;200 BCE</text>
+        <text x="190" y="207" font-size="11" fill="#7a736a" text-anchor="middle">Yoga Shikha, Yoga</text>
+        <text x="190" y="222" font-size="11" fill="#7a736a" text-anchor="middle">Yajnavalkya Upanishad</text>
+        <text x="190" y="237" font-size="11" fill="#7a736a" text-anchor="middle">meditation on the Self</text>
+        <line x1="318" y1="130" x2="318" y2="112" stroke="#a5822e" stroke-width="1.5"/>
+        <circle cx="318" cy="134" r="7" fill="#a5822e"/>
+        <text x="318" y="102" font-size="12.5" font-weight="bold" fill="#33302b" text-anchor="middle">Bhagavad Gita</text>
+        <text x="318" y="85" font-size="11" fill="#7a736a" text-anchor="middle">2nd c. BCE &ndash; 2nd c. CE</text>
+        <text x="318" y="70" font-size="11" fill="#7a736a" text-anchor="middle">chs. 5, 6, 8, 12</text>
+        <text x="318" y="55" font-size="11" fill="#7a736a" text-anchor="middle">paths of devotion &amp; action</text>
+        <line x1="446" y1="138" x2="446" y2="160" stroke="#4c6a83" stroke-width="1.5"/>
+        <circle cx="446" cy="134" r="7" fill="#4c6a83"/>
+        <text x="446" y="176" font-size="12.5" font-weight="bold" fill="#33302b" text-anchor="middle">Yoga Sutras of Patanjali</text>
+        <text x="446" y="192" font-size="11" fill="#7a736a" text-anchor="middle">c. 200 BCE &ndash; 200 CE (disputed)</text>
+        <text x="446" y="207" font-size="11" fill="#7a736a" text-anchor="middle">Ashtanga Yoga, 8 limbs</text>
+        <text x="446" y="222" font-size="11" fill="#7a736a" text-anchor="middle">Samadhi as the goal</text>
+        <text x="446" y="237" font-size="11" fill="#7a736a" text-anchor="middle">Hatha Pradipika, 15th c.</text>
+        <line x1="584" y1="130" x2="584" y2="112" stroke="#7a5570" stroke-width="1.5"/>
+        <circle cx="584" cy="134" r="7" fill="#7a5570"/>
+        <text x="584" y="102" font-size="12.5" font-weight="bold" fill="#33302b" text-anchor="middle">19th&ndash;20th century</text>
+        <text x="584" y="85" font-size="11" fill="#7a736a" text-anchor="middle">revival and reform</text>
+        <text x="584" y="70" font-size="11" fill="#7a736a" text-anchor="middle">Aurobindo, Iyengar,</text>
+        <text x="584" y="55" font-size="11" fill="#7a736a" text-anchor="middle">Krishnamacharya and</text>
+        <text x="584" y="40" font-size="11" fill="#7a736a" text-anchor="middle">the schools of asana</text>
+        <line x1="700" y1="138" x2="700" y2="160" stroke="#6d7a4a" stroke-width="1.5"/>
+        <circle cx="700" cy="134" r="7" fill="#6d7a4a"/>
+        <text x="700" y="176" font-size="12.5" font-weight="bold" fill="#33302b" text-anchor="end">21 June 2015</text>
+        <text x="700" y="192" font-size="11" fill="#7a736a" text-anchor="end">first International</text>
+        <text x="700" y="207" font-size="11" fill="#7a736a" text-anchor="end">Yoga Day, UNGA</text>
+        <text x="700" y="222" font-size="11" fill="#7a736a" text-anchor="end">resolution 2014,</text>
+        <text x="700" y="237" font-size="11" fill="#7a736a" text-anchor="end">observed since</text>
+      </g>
+    </svg>
+    <figcaption><b>Figure 1.1</b> &mdash; A rough timeline of yoga&rsquo;s development. The Vedic and Upanishadic dates are broad scholarly ranges, and the dating of Patanjali is disputed.</figcaption>
+  </figure>
+
+  <h3 id="s1-2">1.2 Aim and Objectives of Yoga</h3>
+  <p>The <em>aim</em> of yoga is one sentence long: <strong>the stilling of the mind, so that the person may act with clarity and steadiness</strong>. Everything else &mdash; the asana, the breath, the diet, the discipline &mdash; exists in order to reach it. Yoga is never a means to some further end such as beauty, strength or marks; strength and health are by-products, and the end is a settled mind.</p>
+
+  <p>The <em>objectives</em> are usually stated at four levels, and in the school context those four translate into things a teacher can actually observe in a child.</p>
+  <ol class="num">
+    <li><strong>Physical.</strong> To make the body healthy, strong, flexible and steady; to improve posture and the working of the internal organs; to keep the body free of disease. This is the level at which the asanas do their visible work.</li>
+    <li><strong>Mental.</strong> To concentrate well, to think clearly, to remember, to solve problems, to resist the pulls of distraction. This is the level at which <em>dharana</em>, <em>dhyana</em> and disciplined breathing act, and it matters most for a pupil, because learning is a mental activity before it is anything else.</li>
+    <li><strong>Emotional.</strong> To control anger, fear, greed and attachment; to develop patience, tolerance, self-reliance and an even temperament.</li>
+    <li><strong>Spiritual or moral.</strong> To know the Self, to live in harmony with self, society and nature, and to serve. In a secular school this is expressed as self-knowledge and ethical living &mdash; the five <em>yamas</em> and five <em>niyamas</em> &mdash; without any doctrine being taught.</li>
+  </ol>
+
+  <p>A fifth, more practical objective belongs in a teacher-education syllabus: <strong>yoga is objective knowledge that the body can be kept healthy and the mind trained without medicine, machines or money.</strong> Where a health centre may be twenty kilometres away, a ten-minute morning practice that costs nothing and needs no equipment is one of the few health interventions a teacher can guarantee to a whole school.</p>
+
+  <h3 id="s1-3">1.3 Scope of Yoga</h3>
+  <p><strong>Scope</strong> means the range of activity the word &ldquo;yoga&rdquo; legitimately covers. In this paper the scope is wide in two directions at once: the <em>horizontal</em>, which is the many forms of yoga, and the <em>vertical</em>, which is the depth of each form.</p>
+  <ul class="bul">
+    <li><strong>Horizontally</strong>, yoga covers everything from the single standing posture of <em>Tadasana</em> to the concentrated meditation of <em>samadhi</em>. The syllabus names six main forms &mdash; Raja, Hatha, Karma, Jnana, Tantra and Bhakti &mdash; treated in Unit 2 &mdash; and four modern categories describing what a practice set does for a particular body (supplemental, compensatory, regenerative, power), treated in Unit 4.</li>
+    <li><strong>Vertically</strong>, the scope runs from the body to the mind and from the mind to conduct. Patanjali&rsquo;s eight limbs are the clearest map of it: two limbs govern conduct, one the body, one the breath, one the senses, and three the mind. The five families of practice in Unit 3 &mdash; asana, pranayama, mudra, bandha and kriya &mdash; with japa and ajapa, all lie within this scope.</li>
+  </ul>
+
+  <p>Two boundaries should be stated plainly. <strong>First, yoga is not medicine.</strong> It does not replace diagnosis, medication or surgery, and a teacher has no business telling a parent to stop a child&rsquo;s prescribed treatment. <strong>Second, yoga is not religion</strong>, although it has deep roots in Vedic and Vedantic tradition. The school is a secular institution under the Constitution, and yoga is taught as a system of physical and mental health with cultural roots &mdash; open to every child regardless of faith, and to children with none.</p>
+
+  <h3 id="s1-4">1.4 Misconceptions About Yoga</h3>
+  <p>Yoga is surrounded in everyday talk by beliefs that are half-true, wholly false, or &mdash; in one case that matters a great deal &mdash; dangerous. Learn the following as two columns, because an examiner asking &ldquo;What are the misconceptions about yoga?&rdquo; wants the misconception <em>and</em> the correction together.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 1.2 &mdash; Common Misconceptions About Yoga, and the Correct Position</caption>
+      <thead><tr><th>Misconception</th><th>Correction</th></tr></thead>
+      <tbody>
+        <tr><td>Yoga is only physical exercise, like gym or running.</td><td>Exercise is a part of it. Yoga also trains breath, attention and conduct; without the mental limbs it is only asana.</td></tr>
+        <tr><td>Yoga is a religion and should not be taught in a school.</td><td>Yoga has deep religious roots, but as practised in Indian schools it is a <em>secular</em>, universal system of health and mind-culture. The Constitution guarantees religious freedom <em>and</em> secular education; every child may practise it.</td></tr>
+        <tr><td>Yoga suits only one kind of body, and I am not that body.</td><td>The right yoga is the one suited to <em>your</em> body, age, health and circumstances. A short, stiff, elderly or injured person does modified versions; that is not failure.</td></tr>
+        <tr><td>Yoga must be learnt from a guru and cannot be self-taught.</td><td>A qualified teacher is essential for safety. But a sincere beginner can learn a safe basic practice from a trained teacher or a book; the postures in this syllabus are taught in every teacher-education college in India.</td></tr>
+        <tr><td>Yoga is only for the young and the fit.</td><td>Gentle, adapted yoga is used with older people, with joint disorders and in rehabilitation. Modification, not exclusion, is the answer.</td></tr>
+        <tr><td>Yoga must be done in a temple, at sunrise, or in a forest.</td><td>Any clean, ventilated, safe place will do. A classroom mat is a perfectly good yoga room. Timing helps; it is not a condition.</td></tr>
+        <tr><td>Yoga is only a way to lose weight.</td><td>Weight is affected by diet, activity and constitution. Yoga tones the body and calms the mind, which <em>helps</em> weight management, but that is a minor part of what it is for.</td></tr>
+        <tr><td>One must become vegetarian to practise yoga.</td><td>Some classical texts recommend a vegetarian diet, but diet is not a condition of entry into yoga, and no school should tell a child what to eat.</td></tr>
+        <tr><td><strong>Yoga can replace medical treatment; a teacher can treat a sick child by giving yoga.</strong></td><td><strong>Yoga is complementary to medical care, never a substitute for it.</strong> A person with a medical condition must be under a doctor&rsquo;s care, and nobody may advise anyone to stop prescribed medication. This is the one misconception with real danger in it.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="s1-5">1.5 Importance of Yoga in School Education</h3>
+  <p>A school is the one institution that reaches <em>every</em> child of a district, for <em>every</em> year, at the stage when habits are still forming. If a practice costs nothing, needs no equipment, works on an empty classroom floor, improves attention, posture, sleep and mood &mdash; and if the school is the only place the child will certainly encounter it &mdash; then the school is the only place it belongs. The syllabus gives a <strong>graded age guidance</strong>, and this is one of the most commonly examined statements in the paper.</p>
+
+  <div class="tw tkeep">
+    <table>
+      <caption>Table 1.3 &mdash; Age Guidance Given in the Syllabus</caption>
+      <thead><tr><th>Age</th><th>What the syllabus prescribes</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Before 5 years</strong></td><td>Light stretching exercises, light yogic exercise, and balancing activities</td><td>Attention spans are short and the body is still forming; the aim is movement, rhythm and balance, not postures or breath control</td></tr>
+        <tr><td><strong>From 5 years</strong></td><td>Asana and Meditation</td><td>The child can now hold a steady posture and still the mind briefly</td></tr>
+        <tr><td><strong>From 8 years</strong></td><td>Pranayama and other activities</td><td>The lungs, the attention and the capacity for self-regulation have developed enough for deliberate breath control</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Beyond the age guidance, the importance of yoga in a school rests on six claims a future teacher should be able to argue for:</p>
+  <ul class="bul">
+    <li><strong>Health is the condition of education.</strong> A child with a stiff neck, poor posture, shallow breathing and low stamina cannot sit through a lesson.</li>
+    <li><strong>Attention and self-regulation.</strong> A ten-minute assembly practice of breath and stillness rehearses exactly the skill a child needs in order to listen, wait and persist, and it does so without a word of instruction.</li>
+    <li><strong>Emotional balance.</strong> The school day is full of triggers. Regular practice builds a baseline of steadiness that reduces impulsive reaction.</li>
+    <li><strong>A secular, culturally rooted, cost-free curricular resource.</strong> No laboratory, no laboratory fee, no laboratory permission; the mat can be a rug.</li>
+    <li><strong>Inclusivity.</strong> Adapted yoga can be offered to children with varied physical capacities, which most competitive school games cannot do.</li>
+    <li><strong>Prevention.</strong> &ldquo;Prevention is better than Cure.&rdquo; Back pain, postural deformity, obesity and stress-related strain are all cheaper to prevent than to treat.</li>
+  </ul>
+</section>
+
+<div class="review">
+  <h4>Unit 1 Review</h4>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li>Etymology: <em>yuj</em> + <em>-a</em> &rarr; <em>yoga</em>, &ldquo;that which yokes or joins&rdquo;.</li>
+    <li>Patanjali: <em>citta-vrtti-nirodha</em>, the stilling of the mind. &ldquo;Union of body, mind and soul&rdquo; is a paraphrase, not a translation.</li>
+    <li>Textual order: Rigveda &rarr; Atharvaveda &rarr; Upanishads &rarr; Bhagavad Gita (chs. 5, 6, 8) &rarr; Patanjali&rsquo;s <em>Yoga Sutras</em> &rarr; Hatha classics (15th c.) &rarr; modern revival.</li>
+    <li>Patanjali&rsquo;s date is disputed: roughly 200 BCE &ndash; 200 CE. Give the range.</li>
+    <li>Age guidance: <strong>before 5</strong> light stretching, light yogic exercise, balancing; <strong>from 5</strong> asana and meditation; <strong>from 8</strong> pranayama and other activities.</li>
+    <li>Scope is horizontal (six forms) and vertical (body &rarr; mind &rarr; conduct). Yoga is neither medicine nor religion in the school context.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p><span class="term">yuj</span> &middot; <span class="term">citta-vrtti-nirodha</span> &middot; <span class="term">Ashtanga Yoga</span> &middot; <span class="term">samadhi</span> &middot; <span class="term">scope</span> &middot; <span class="term">complementary care</span> &middot; <span class="term">age guidance</span></p>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>From which Sanskrit root is &ldquo;yoga&rdquo; derived, and what does it mean?</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>State Patanjali&rsquo;s definition of yoga and the popular paraphrase.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Write the age guidance of the syllabus for before five, from five, and from eight years.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Define yoga. Give a brief history from the Vedic period to the present and state the aim and objectives.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Write the misconceptions about yoga with their corrections in any five pairs.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>&ldquo;While the role of education on health has been widely acknowledged, the impact of health on education is often not recognised adequately.&rdquo; Discuss this statement with reference to the aims, scope and importance of yoga in school education.</p></div>
+  </div>
+</div>
+<!-- ============ UNIT 2 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-2"><span class="h2num">Unit 2</span>Introduction to Various Forms of Yoga</h2>
+
+  <p>No single practice is &ldquo;the&rdquo; yoga. The word covers a family of systems, and the most useful thing a teacher can do &mdash; for the examination and for the classroom &mdash; is to name them, say in one line what each is for, and know how they relate. This unit takes up <strong>Raja Yoga</strong> and its eight limbs, then <strong>Hatha Yoga</strong> and its relation to Raja, then the paths of <strong>Karma, Jnana, Tantra and Bhakti Yoga</strong>.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 2.1 &mdash; The Six Main Forms of Yoga Compared</caption>
+      <thead><tr><th>Form</th><th>Sanskrit meaning</th><th>Centre of gravity</th><th>Chief means</th><th>Relation to the others</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Raja Yoga</strong></td><td><em>Raja</em> = king</td><td>The mind; mastery of thought and consciousness</td><td>Eight limbs, ending in meditation and absorption</td><td>The highest or &ldquo;royal&rdquo; path; the others lead towards it</td></tr>
+        <tr><td><strong>Hatha Yoga</strong></td><td><em>Hatha</em> = force, determination; also sun and moon, the two poles</td><td>The body as the groundwork of mind-work</td><td>Purification (shatkarmas), asana, pranayama, bandha, mudra</td><td>Prepares the body and steadies the mind for Raja Yoga</td></tr>
+        <tr><td><strong>Karma Yoga</strong></td><td><em>Karma</em> = action, work</td><td>Action performed without attachment to its fruits</td><td>Selfless service and disciplined work</td><td>One of the four paths of the Gita; equal in value, different in temperament</td></tr>
+        <tr><td><strong>Jnana Yoga</strong></td><td><em>Jnana</em> = knowledge</td><td>Discrimination between the real Self and the changing world</td><td>Study, reasoning, the insight &ldquo;I am not this body or this mind&rdquo;</td><td>One of the four paths of the Gita; the reflective temperament</td></tr>
+        <tr><td><strong>Bhakti Yoga</strong></td><td><em>Bhakti</em> = devotion, loving surrender</td><td>The whole heart given to the Supreme</td><td>Chanting, prayer, remembrance, surrender</td><td>One of the four paths of the Gita; the loving temperament</td></tr>
+        <tr><td><strong>Tantra Yoga</strong></td><td><em>Tantra</em> = system, loom, method</td><td>Subtle energy in the body (chakras, <em>kundalini</em>)</td><td>Mantra, yantra, symbol, sound, ritual and energy-work</td><td>Later and esoteric; overlaps with Kriya and Mantra Yoga</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="s2-1">2.1 Raja Yoga, Ashtanga Yoga and the Eight Limbs</h3>
+  <p><strong>Raja Yoga</strong> is the yoga of the king &mdash; so called not because kings practise it but because it is the sovereign discipline, the one that commands the others. Its content comes from the <em>Yoga Sutras of Patanjali</em>, and its method is called <strong>Ashtanga Yoga</strong>: <em>ashta</em> = eight, <em>anga</em> = limb. Patanjali divides the whole discipline into eight limbs, arranged as a ladder climbed in order.</p>
+
+  <div class="card idea">
+    <span class="lbl">Key Idea</span>
+    <p>Of the eight limbs, the first five are <em>external</em> &mdash; <em>bahiranga</em>: they concern life with other people and with one&rsquo;s own body. The last three, <em>dharana</em>, <em>dhyana</em> and <em>samadhi</em>, are <em>internal</em> &mdash; <em>antaranga</em>: they concern the mind alone. Patanjali says that when the internal limbs are practised perfectly the external ones are no longer needed. One sentence carries the whole scheme.</p>
+  </div>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 2.2 &mdash; The Eight Limbs of Ashtanga Yoga (Patanjali, <em>Yoga Sutras</em>)</caption>
+      <thead><tr><th>No.</th><th>Limb</th><th>Plain meaning</th><th>What it involves</th><th>Everyday example</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><strong>Yama</strong></td><td>Restraint, social discipline &mdash; duties towards others</td><td>Five restraints: ahimsa, satya, asteya, brahmacharya, aparigraha</td><td>Not hitting a classmate; not cheating in a test; not taking what is not yours</td></tr>
+        <tr><td>2</td><td><strong>Niyama</strong></td><td>Observance, personal discipline &mdash; duties towards oneself</td><td>Five observances: shaucha, santosha, tapas, svadhyaya, ishvarapranidhana</td><td>Keeping the body clean; being content; studying honestly every day</td></tr>
+        <tr><td>3</td><td><strong>Asana</strong></td><td>A steady, comfortable seat or posture</td><td>Postures that steady the body so that the mind need not manage the body</td><td>Tadasana, Vajrasana, Padmasana, Bhujangasana</td></tr>
+        <tr><td>4</td><td><strong>Pranayama</strong></td><td>Regulation, extension and control of breath</td><td>Purifying, prolonging and regulating the breath; the bridge between body and mind</td><td>Anulom-Vilom, Kapalbhati, Bhastrika</td></tr>
+        <tr><td>5</td><td><strong>Pratyahara</strong></td><td>Withdrawal of the senses</td><td>Turning the senses inward, away from objects, so that they rest on their own source</td><td>Closing the eyes and letting the sounds of the street fade out of attention</td></tr>
+        <tr><td>6</td><td><strong>Dharana</strong></td><td>Concentration, holding</td><td>Fixing attention on a single point inside or outside the body</td><td>Holding the mind on the breath for ten counts, again and again</td></tr>
+        <tr><td>7</td><td><strong>Dhyana</strong></td><td>Meditation, sustained thinking</td><td>Continuous, effortless flow of attention on the chosen object</td><td>The ten minutes of quiet sitting in morning assembly</td></tr>
+        <tr><td>8</td><td><strong>Samadhi</strong></td><td>Absorption</td><td>The state in which the meditator, the act of meditation and the object of meditation become one</td><td>Not practised deliberately; the natural result of perfect dhyana</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The first two limbs subdivide into fives, and these two lists of ten are among the most frequently asked items in the paper.</p>
+
+  <div class="tw tkeep">
+    <table class="compact">
+      <caption>Table 2.3 &mdash; The Five Yamas and the Five Niyamas</caption>
+      <thead><tr><th>No.</th><th>Yama &mdash; restraint towards others</th><th>Niyama &mdash; observance for oneself</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><em>Ahimsa</em> &mdash; non-violence in body, speech and mind</td><td><em>Shaucha</em> &mdash; cleanliness and purity of body and mind</td></tr>
+        <tr><td>2</td><td><em>Satya</em> &mdash; truthfulness</td><td><em>Santosha</em> &mdash; contentment with what one has</td></tr>
+        <tr><td>3</td><td><em>Asteya</em> &mdash; not stealing, not appropriating</td><td><em>Tapas</em> &mdash; steady disciplined effort; austerity</td></tr>
+        <tr><td>4</td><td><em>Brahmacharya</em> &mdash; control of the senses and of vital energy</td><td><em>Svadhyaya</em> &mdash; honest self-study and learning</td></tr>
+        <tr><td>5</td><td><em>Aparigraha</em> &mdash; non-hoarding, simple living</td><td><em>Ishvarapranidhana</em> &mdash; humility, self-surrender in effort</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>In a secular school, <em>brahmacharya</em> is understood as self-control, and <em>ishvarapranidhana</em> as the discipline of humility and of doing one&rsquo;s duty without self-importance. Neither requires a doctrine to be taught.</p>
+
+  <figure>
+    <svg viewBox="0 0 760 392" role="img" aria-label="The eight limbs of Ashtanga Yoga shown as an ascending staircase from Yama to Samadhi" preserveAspectRatio="xMidYMid meet">
+      <g font-family="Georgia, 'Times New Roman', serif">
+        <line x1="16" y1="330" x2="744" y2="330" stroke="#7a736a" stroke-width="1.5"/>
+        <rect x="20"  y="278" width="86" height="52"  fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.2"/>
+        <rect x="110" y="256" width="86" height="74"  fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.2"/>
+        <rect x="200" y="234" width="86" height="96"  fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.2"/>
+        <rect x="290" y="212" width="86" height="118" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.2"/>
+        <rect x="380" y="190" width="86" height="140" fill="#f7efd8" stroke="#a5822e" stroke-width="1.2"/>
+        <rect x="470" y="168" width="86" height="162" fill="#f7efd8" stroke="#a5822e" stroke-width="1.2"/>
+        <rect x="560" y="146" width="86" height="184" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.2"/>
+        <rect x="650" y="124" width="86" height="206" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.2"/>
+        <text x="63"  y="298" font-size="11" fill="#4c6a83" text-anchor="middle">1</text>
+        <text x="63"  y="314" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">Yama</text>
+        <text x="153" y="276" font-size="11" fill="#4c6a83" text-anchor="middle">2</text>
+        <text x="153" y="292" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">Niyama</text>
+        <text x="243" y="254" font-size="11" fill="#6d7a4a" text-anchor="middle">3</text>
+        <text x="243" y="270" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">Asana</text>
+        <text x="333" y="232" font-size="11" fill="#6d7a4a" text-anchor="middle">4</text>
+        <text x="333" y="248" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">Pranayama</text>
+        <text x="423" y="210" font-size="11" fill="#a5822e" text-anchor="middle">5</text>
+        <text x="423" y="226" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">Pratyahara</text>
+        <text x="513" y="188" font-size="11" fill="#a5822e" text-anchor="middle">6</text>
+        <text x="513" y="204" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">Dharana</text>
+        <text x="603" y="166" font-size="11" fill="#b4623c" text-anchor="middle">7</text>
+        <text x="603" y="182" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">Dhyana</text>
+        <text x="693" y="144" font-size="11" fill="#b4623c" text-anchor="middle">8</text>
+        <text x="693" y="160" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">Samadhi</text>
+        <text x="20" y="270" font-size="10.5" font-style="italic" fill="#7a736a">social restraints</text>
+        <text x="110" y="248" font-size="10.5" font-style="italic" fill="#7a736a">personal observances</text>
+        <text x="200" y="226" font-size="10.5" font-style="italic" fill="#7a736a">steady posture</text>
+        <text x="290" y="204" font-size="10.5" font-style="italic" fill="#7a736a">regulated breath</text>
+        <text x="380" y="182" font-size="10.5" font-style="italic" fill="#7a736a">withdrawal of senses</text>
+        <text x="470" y="160" font-size="10.5" font-style="italic" fill="#7a736a">concentration</text>
+        <text x="560" y="138" font-size="10.5" font-style="italic" fill="#7a736a">meditation</text>
+        <text x="650" y="116" font-size="10.5" font-style="italic" fill="#7a736a">absorption</text>
+        <line x1="24" y1="322" x2="24" y2="86" stroke="#b4623c" stroke-width="2"/>
+        <path d="M24 74 l-6 12 l12 0 z" fill="#b4623c"/>
+        <line x1="18" y1="346" x2="196" y2="346" stroke="#4c6a83" stroke-width="2"/>
+        <line x1="18" y1="342" x2="18" y2="350" stroke="#4c6a83" stroke-width="2"/>
+        <line x1="196" y1="342" x2="196" y2="350" stroke="#4c6a83" stroke-width="2"/>
+        <text x="107" y="364" font-size="11" fill="#3d5a71" text-anchor="middle">external limbs (bahiranga): life and body</text>
+        <line x1="378" y1="346" x2="738" y2="346" stroke="#b4623c" stroke-width="2"/>
+        <line x1="378" y1="342" x2="378" y2="350" stroke="#b4623c" stroke-width="2"/>
+        <line x1="738" y1="342" x2="738" y2="350" stroke="#b4623c" stroke-width="2"/>
+        <text x="558" y="364" font-size="11" fill="#8f4a2a" text-anchor="middle">internal limbs (antaranga): mind</text>
+        <text x="200" y="378" font-size="11" font-style="italic" fill="#7a736a">asana and pranayama form the bridge &mdash; the only limbs a school child meets by name</text>
+      </g>
+    </svg>
+    <figcaption><b>Figure 2.1</b> &mdash; The eight limbs as an ascending ladder. In school the third and fourth limbs are the ones actually taught.</figcaption>
+  </figure>
+
+  <h3 id="s2-2">2.2 Hatha Yoga, Its Limbs, and Its Relation to Raja Yoga</h3>
+  <p><strong>Hatha Yoga</strong> is the practical, body-oriented system. The word <em>hatha</em> is usually derived from <em>ha</em> (sun) and <em>tha</em> (moon), carrying the sense of the union of the two great currents of the body; in the older usage it also simply means <em>force, firmness, determination</em>. Unlike Raja Yoga, which begins by regulating the mind, Hatha Yoga begins by regulating the body: it purifies it, steadies it, and makes it comfortable enough to sit still long enough to meditate. Its classic texts are the <strong>Hatha Yoga Pradipika</strong> of <strong>Svatmarama</strong> (fifteenth century), the <strong>Gheranda Samhita</strong> and the <strong>Shiva Samhita</strong>.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 2.4 &mdash; The Six Limbs of Hatha Yoga</caption>
+      <thead><tr><th>No.</th><th>Limb</th><th>Plain meaning</th><th>Content</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><strong>Shatkarma</strong></td><td>Six acts, or six purifications</td><td><em>Neti, Dhauti, Basti, Nauli, Bhastrika, Kapalabhati</em> &mdash; internal cleansing of the nose, throat, stomach, intestines and lungs</td></tr>
+        <tr><td>2</td><td><strong>Asana</strong></td><td>Steady posture</td><td>The postures; the Hatha texts describe far more than the twenty-three named in this syllabus</td></tr>
+        <tr><td>3</td><td><strong>Pranayama</strong></td><td>Regulation of breath</td><td>Stopping, retaining and regulating the breath according to measure</td></tr>
+        <tr><td>4</td><td><strong>Pratyahara</strong></td><td>Withdrawal of the senses</td><td>Turning the senses inward; the beginning of the mental work</td></tr>
+        <tr><td>5</td><td><strong>Dhyana</strong></td><td>Meditation</td><td>Sustained concentration on an object of meditation</td></tr>
+        <tr><td>6</td><td><strong>Samadhi</strong></td><td>Absorption</td><td>The state of complete concentration, as in Patanjali</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>Hatha Yoga and Raja Yoga: the relationship</h4>
+  <p>The standard traditional understanding is that <strong>Hatha Yoga is the preparatory, body-oriented discipline and Raja Yoga the psychic and meditative discipline for which it prepares</strong>. Hatha purifies the body through the shatkarmas, steadies it through asana, regulates the breath through pranayama and holds the energy with bandha and mudra; the effect is a body that is clean, alert and comfortable, and a mind brought to one point. Only then is Raja Yoga &mdash; Dharana, Dhyana, Samadhi &mdash; possible. The traditional image is that Hatha is the ladder and Raja Yoga the summit.</p>
+
+  <p>Two qualifications keep this honest. The relationship is a <em>traditional</em> understanding, not a scientific finding; nothing in the classical texts proves Raja Yoga impossible without Hatha. And in modern practice the two are not rivals but overlapping &mdash; most contemporary teachers of asana and pranayama are teaching Raja Yoga to a body they first prepared through Hatha. In a school: <em>Hatha Yoga is the preparation, Raja Yoga is the aim, and a child who does ten minutes of asana and pranayama every morning is doing, in miniature, the whole path.</em></p>
+
+  <div class="tw tkeep">
+    <table class="compact">
+      <caption>Table 2.5 &mdash; Hatha Yoga and Raja Yoga Compared</caption>
+      <thead><tr><th>Basis</th><th>Hatha Yoga</th><th>Raja Yoga</th></tr></thead>
+      <tbody>
+        <tr><td>Principal aim</td><td>Purify and steady the body so that the mind may be worked upon</td><td>Stilling of the mind; samadhi</td></tr>
+        <tr><td>Starting point</td><td>The body and the breath</td><td>The mind and its fluctuations</td></tr>
+        <tr><td>Main content</td><td>Shatkarma, asana, pranayama, bandha, mudra</td><td>Yama, niyama, asana, pranayama, pratyahara, dharana, dhyana, samadhi</td></tr>
+        <tr><td>Position</td><td>Preparatory; six limbs</td><td>Culminating; the eight-limbed path</td></tr>
+        <tr><td>Chief texts</td><td>Hatha Yoga Pradipika, Gheranda Samhita, Shiva Samhita</td><td>Yoga Sutras of Patanjali; Bhagavad Gita</td></tr>
+        <tr><td>Place in a school</td><td>The part a school child actually practises daily</td><td>The destination that daily practice is directed towards</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="s2-3">2.3 Karma Yoga, Jnana Yoga, Tantra Yoga and Bhakti Yoga</h3>
+  <p>Alongside the systems organised by limbs there is a second division, older and equally important: by <strong>temperament</strong> &mdash; by the kind of person in whom the search finds its natural shape. The <em>Bhagavad Gita</em> is the chief source: Krishna does not prescribe one path for everybody but says the wise follow whichever suits their own nature. The four classically named paths are <strong>Karma Yoga</strong>, <strong>Jnana Yoga</strong>, <strong>Bhakti Yoga</strong> and <strong>Raja Yoga</strong> proper. The syllabus adds <strong>Tantra Yoga</strong>, a later and more esoteric system. <strong>Swami Vivekananda</strong> made the standard four-fold division: these are not ranks but dispositions, and the wise person follows the one that matches their nature rather than the fashionable one.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 2.6 &mdash; The Four Paths in Detail</caption>
+      <thead><tr><th>Path</th><th>Central teaching and chief scripture</th><th>Its practice</th><th>Its characteristic danger</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Karma Yoga</strong><br><em>the yoga of selfless action</em></td><td>The <em>Bhagavad Gita</em>, ch. 3, teaches <em>nishkama karma</em> &mdash; work performed without attachment to its fruits. The value of an act lies in the doing of it, not in the credit for it.</td><td>Work as worship. Perform one&rsquo;s duty to the best of one&rsquo;s ability and let go of the result.</td><td>Doctrinaire pride in one&rsquo;s own usefulness; performing action in order to be seen</td></tr>
+        <tr><td><strong>Jnana Yoga</strong><br><em>the yoga of knowledge</em></td><td>The <em>Bhagavad Gita</em>, ch. 2, and the Advaita tradition. Through <em>viveka</em> &mdash; discrimination &mdash; one distinguishes the permanent Self from the changing appearance.</td><td>Study, listening, questioning and sustained enquiry into one&rsquo;s own nature.</td><td>Intellectual pride; mistaking cleverness for wisdom, and analysis for realisation</td></tr>
+        <tr><td><strong>Bhakti Yoga</strong><br><em>the yoga of devotion</em></td><td>The <em>Bhagavad Gita</em>, ch. 12, is the major scriptural source. The whole self &mdash; not merely the intellect &mdash; is surrendered, and that surrender is itself the means of release.</td><td>Chanting, prayer, remembrance, pilgrimage, kirtan; turning every action into an offering.</td><td>Exclusivity; a passivity that mistakes surrender for the avoidance of one&rsquo;s duties</td></tr>
+        <tr><td><strong>Raja Yoga</strong><br><em>the royal yoga</em></td><td>Patanjali&rsquo;s <em>Yoga Sutras</em> and <em>Bhagavad Gita</em>, ch. 6 &mdash; the discipline of the mind itself through the eight limbs, culminating in samadhi.</td><td>Concentration, meditation and absorption, with yama and niyama as the moral groundwork.</td><td>Refinement without compassion; meditation used as self-observation that becomes self-indulgence</td></tr>
+        <tr><td><strong>Tantra Yoga</strong><br><em>the esoteric system</em></td><td>A system of subtle <em>energy</em> rather than muscle: <em>chakras</em> (energy centres along the spine), <em>kundalini</em>, <em>mantra</em> (sound) and <em>yantra</em> (diagram and symbol).</td><td>Breath, posture, sound and visualisation used together to raise and balance the subtle energy.</td><td>Exoticism and misrepresentation. Describe it academically and neutrally &mdash; claiming to practise it is unsafe</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="review">
+  <h4>Unit 2 Review</h4>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li>Eight limbs in order: <strong>Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana, Samadhi</strong>. First five external, last three internal.</li>
+    <li>Five yamas: ahimsa, satya, asteya, brahmacharya, aparigraha. Five niyamas: shaucha, santosha, tapas, svadhyaya, ishvarapranidhana.</li>
+    <li>Six Hatha limbs: <strong>Shatkarma, Asana, Pranayama, Pratyahara, Dhyana, Samadhi</strong>. Six shatkarmas: neti, dhauti, basti, nauli, bhastrika, kapalabhati.</li>
+    <li>Four paths of the Gita: Karma, Jnana, Bhakti, Raja Yoga proper &mdash; a division by temperament, not by rank. Tantra is the later esoteric system.</li>
+    <li>Hatha = preparation for the body; Raja = aim for the mind. Raja is <em>not</em> &ldquo;physical&rdquo; and Hatha is <em>not</em> &ldquo;mental&rdquo; &mdash; it is the other way round.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p><span class="term">Raja Yoga</span> &middot; <span class="term">Ashtanga</span> &middot; <span class="term">Yama</span> &middot; <span class="term">Niyama</span> &middot; <span class="term">Pratyahara</span> &middot; <span class="term">Dharana</span> &middot; <span class="term">Dhyana</span> &middot; <span class="term">Samadhi</span> &middot; <span class="term">Hatha Yoga</span> &middot; <span class="term">Shatkarma</span> &middot; <span class="term">Nishkama karma</span> &middot; <span class="term">Viveka</span> &middot; <span class="term">Kundalini</span></p>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>Name the eight limbs of Ashtanga Yoga in order, and the six limbs of Hatha Yoga.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Name the five yamas and five niyamas of Patanjali.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>What is nishkama karma? Name the four paths of the Gita.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain Raja Yoga and the eight limbs, with the plain meaning of each limb.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain Hatha Yoga and its six limbs, and the relationship between Hatha and Raja Yoga.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Compare Hatha Yoga and Raja Yoga in aim, content, texts and position, and describe Karma Yoga, Jnana Yoga, Bhakti Yoga and Tantra Yoga with their scriptures.</p></div>
+  </div>
+</div>
+<!-- ============ UNIT 3 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-3"><span class="h2num">Unit 3</span>Concept of Asanas, Pranayama, Mudra, Bandha and Kriya</h2>
+
+  <p>This is the practical heart of the paper and the largest unit, and it is examined twice over: as definitions in the theory paper, and as performance in the practical examination, where your mentor watches you and writes down what she sees. Five families of practice plus one related pair &mdash; and every term in the unit is Sanskrit that breaks into ordinary English. <em>Asana</em> is the seat you sit on; <em>prana</em> is breath and life; <em>mudra</em> is a seal; <em>bandha</em> is a lock; <em>kriya</em> is an action. Learn the names through their meanings and they will never again feel like a foreign list.</p>
+
+  <h3 id="s3-1">3.1 The Meaning of Each Term</h3>
+  <p>Five terms carry most of the meaning in this unit, and almost every examination question on Unit 3 begins with &ldquo;What do you mean by&hellip;?&rdquo; Fix them in plain words first.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 3.1 &mdash; The Five Families of Practice, with Japa and Ajapa</caption>
+      <thead><tr><th>Term</th><th>Sanskrit roots</th><th>Plain-English meaning</th><th>What it involves</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Asana</strong><br><span class="footnote">pl. <em>asanas</em></span></td><td><em>asana</em> = seat, posture</td><td>A steady, comfortable position of the body</td><td>Training the body to be comfortable in a position, so that the mind need not keep reminding the body where it is</td></tr>
+        <tr><td><strong>Pranayama</strong></td><td><em>prana</em> = breath, life-force; <em>ayama</em> = extension, regulation</td><td>Extension, regulation and control of breath</td><td>Purifying, lengthening and balancing the breath &mdash; the direct bridge between body and mind</td></tr>
+        <tr><td><strong>Mudra</strong><br><span class="footnote">pl. <em>mudras</em></span></td><td><em>mudra</em> = seal, sign, stamp, gesture</td><td>A seal, or a deliberate arrangement of the hands and fingers</td><td>A gesture of the hands that directs attention and is said to seal or retain energy in the body</td></tr>
+        <tr><td><strong>Bandha</strong><br><span class="footnote">pl. <em>bandhas</em></span></td><td><em>bandha</em> = lock, tie; <em>bandhana</em> = the act of binding</td><td>A lock &mdash; a deliberate tightening of three muscle groups</td><td>Engaging a specific muscle group to close and direct a flow of energy; there are three, at the throat, abdomen and base of the pelvis</td></tr>
+        <tr><td><strong>Kriya</strong><br><span class="footnote">pl. <em>kriyas</em></span></td><td><em>kriya</em> = action, deed, doing</td><td>A purposeful action &mdash; in this paper, a cleansing practice</td><td>The classical purification practices, the six <em>shatkarmas</em>, which clean the digestive and respiratory passages</td></tr>
+        <tr><td><strong>Japa</strong></td><td><em>japa</em> = muttering, repetition</td><td>Repetition of a mantra with concentration</td><td>Saying or repeating a chosen sound steadily while the mind is held on it</td></tr>
+        <tr><td><strong>Ajapa</strong></td><td><em>a</em> = without; <em>japa</em> = repetition</td><td>Repetition without speech &mdash; automatic repetition</td><td>The same repetition carried on silently and without effort, so that the breath itself becomes the mantra</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card def">
+    <span class="lbl">Definition</span>
+    <p><strong>Asana</strong>, in the <em>Yoga Sutras</em>, is a state in which the body is steady, comfortable and free from effort &mdash; Patanjali&rsquo;s famous instruction is that asana is the <em>cessation of effort</em>. This is stricter than the school usage, where asana simply means a named posture, and it is worth knowing because it stops a student-teacher from straining. If you are working in an asana you are doing it wrongly; the moment strain appears, you have gone too far.</p>
+  </div>
+
+  <p>The order in which the five families operate is the logic of the whole unit. <strong>Asana</strong> deals with the body. <strong>Pranayama</strong> deals with the breath, which links body to mind. <strong>Mudra</strong> and <strong>bandha</strong> deal with sealing and directing energy. <strong>Kriya</strong> deals with cleansing the inside. In a session you would <em>clean</em> (kriya), <em>posture</em> (asana), <em>breathe</em> (pranayama), <em>lock and seal</em> (bandha, mudra), and then sit still.</p>
+
+  <h3 id="s3-2">3.2 Asanas by Posture, and Surya Namaskar</h3>
+  <p>The syllabus groups the asanas by the position the body occupies: <strong>prone</strong> (lying face down), <strong>supine</strong> (lying face up), <strong>standing</strong> and <strong>sitting</strong>, naming twenty-three postures, plus <strong>Surya Namaskar</strong>. Each is set out below with the meaning of its name, a plain description, its main benefits and one caution. One general instruction covers every posture in this unit: <strong>never force an asana.</strong> The correct response to discomfort is to come out of the posture, not to push deeper into it.</p>
+
+  <h4>3.2 (a) Prone asanas &mdash; lying face down (6)</h4>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 3.2 &mdash; Prone Asanas: The Six Postures of Lying Face Down</caption>
+      <thead><tr><th>Asana and the meaning of the name</th><th>Position</th><th>Benefit, and what to watch</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Makarasana</strong><br><em>makara</em> = crocodile</td>
+          <td>Lie face down, elbows bent, palms interlaced under the chest; press the elbows down and lift head and chest</td>
+          <td>Opens the upper back and shoulders and relieves spinal stiffness; a good first pose for a stiff beginner. Do not lift high; release at once at any sharp neck or back pain</td>
+        </tr>
+        <tr>
+          <td><strong>Bhujangasana</strong><br><em>bhujanga</em> = cobra</td>
+          <td>Lie face down, palms flat beside the ribs, elbows close to the body; press down and lift head, shoulders and chest</td>
+          <td>Strengthens the spinal muscles, opens the chest and rib cage, draws the shoulders back. Keep the elbows slightly bent; avoid with wrist or lower-back injury</td>
+        </tr>
+        <tr>
+          <td><strong>Shalabhasana</strong><br><em>shalabha</em> = locust</td>
+          <td>Lie face down, arms along the body, palms up; lift head, chest and both legs using the back muscles, not the hands</td>
+          <td>Very strong for spine, buttocks and the back of the legs; corrects a stooped posture. Not with acute lower-back pain, sciatica or hernia; stop when the muscles shake</td>
+        </tr>
+        <tr>
+          <td><strong>Ardha Shalabhasana</strong><br><em>ardha</em> = half</td>
+          <td>Lie face down and lift only the <em>one</em> leg from the hip, the other leg and the head and chest staying down; change sides</td>
+          <td>Strengthens each side of the back separately and corrects an imbalance between them. Never force one leg higher; avoid with back injury</td>
+        </tr>
+        <tr>
+          <td><strong>Sarpasana</strong><br><em>sarpa</em> = serpent</td>
+          <td>Lie face down and raise the trunk on the forearms, hands clasped, elbows on the floor; the forearms draw the shoulders back</td>
+          <td>Expands the chest, deepens the breath and opens the shoulders &mdash; an antidote to rounded shoulders. Keep the chin level; do not turn the head to one side</td>
+        </tr>
+        <tr>
+          <td><strong>Dhanurasana</strong><br><em>dhanu</em> = bow</td>
+          <td>Lie face down, bend the knees, grasp the ankles, then lift chest and thighs, pressing the soles into the hands</td>
+          <td>The classic strengthening posture for the whole back of the body. Do not pull hard on the feet; avoid in pregnancy and menstruation, and with hernia, back injury or blood pressure</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>3.2 (b) Supine asanas &mdash; lying face up (8)</h4>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 3.3 &mdash; Supine Asanas: The Eight Postures of Lying Face Up</caption>
+      <thead><tr><th>Asana and the meaning of the name</th><th>Position</th><th>Benefit, and what to watch</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Savasana</strong><br><em>shava</em> = a dead body, a corpse</td>
+          <td>Lie flat on the back, legs a little apart, arms a little away from the body, palms up, eyes closed; breathe normally</td>
+          <td>The great resting posture and the climax of a practice; relaxes every muscle and calms the nervous system. Bend or cushion the knees if the lower back lifts; nobody is asked to hold it</td>
+        </tr>
+        <tr>
+          <td><strong>Uttanapadasana</strong><br><em>uttana</em> = raised; <em>pada</em> = foot</td>
+          <td>Lie on the back, knees bent, feet flat; press down through the arms and lift the hips, carrying the legs up over straight knees</td>
+          <td>Strengthens abdominal and back muscles, relieves abdominal constriction, prepares for shoulder stand. Keep the neck flat and the throat soft; avoid with neck injury, hernia, glaucoma or uncontrolled blood pressure</td>
+        </tr>
+        <tr>
+          <td><strong>Setubandhasana</strong><br><em>setu</em> = bridge; <em>bandha</em> = lock</td>
+          <td>Lie on the back, knees bent, feet flat and close to the buttocks; press the feet down and lift the hips, then tuck the chin</td>
+          <td>Strengthens back and buttocks and opens the chest; a common preparation for shoulder stand. Keep the knees parallel; with neck trouble, omit the chin lock and simply lift the hips</td>
+        </tr>
+        <tr>
+          <td><strong>Sarvangasana</strong><br><em>sarva</em> = all; <em>anga</em> = limb &mdash; the shoulder stand</td>
+          <td>Fold the legs over the head, hands on the back above the shoulder blades, and lift the hips so the body rests on the shoulders; come out slowly and roll to one side</td>
+          <td>Traditionally the queen of asanas; said to calm the nervous system and turn a restful pose into a restorative one. <strong>The most caution of any posture here</strong> &mdash; never with neck injury, thyroid disorder, glaucoma, uncontrolled blood pressure, pregnancy or menstruation, and never bounce out</td>
+        </tr>
+        <tr>
+          <td><strong>Halasana</strong><br><em>hala</em> = plough</td>
+          <td>From Sarvangasana, lower the straight legs to the floor behind the head, hips lifted and the back supported by the hands; easier version at 90&deg;</td>
+          <td>Deeply calming; relieves backache, lengthens the spine and holds the body still for meditation. Never put weight onto the neck; avoid in pregnancy and with neck, back or thyroid trouble</td>
+        </tr>
+        <tr>
+          <td><strong>Ardha Halasana</strong><br><em>ardha</em> = half</td>
+          <td>From Sarvangasana, lower the straight legs to about 90&deg; to the floor, hips still lifted and the back supported</td>
+          <td>Relieves abdominal constriction, calms the nerves and bridges safely to full Halasana. The same contraindications as Sarvangasana; the hips must not drop</td>
+        </tr>
+        <tr>
+          <td><strong>Chakrasana</strong><br><em>chakra</em> = wheel</td>
+          <td>Lie on the back, knees bent, soles flat beside the head as near the ears as is comfortable; press hands and feet down and lift into a deep arch</td>
+          <td>Opens the whole front of the body, stretches chest, abdomen and thighs, strengthens arms and legs. Keep the knees together and the weight in the limbs, not the neck; avoid with injured wrists, shoulders or back</td>
+        </tr>
+        <tr>
+          <td><strong>Pawanmuktasana</strong><br><em>pawan</em> or <em>vayu</em> = wind, gas; <em>mukta</em> = released</td>
+          <td>Lie on the back; draw the right knee to the chest and hold, then the left, then both, rocking gently side to side</td>
+          <td>Releases wind and bloating, relieves constipation and back pain; a gentle first posture for a stiff or elderly body. Draw the knee in only as far as is comfortable</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>3.2 (c) Standing asanas (4)</h4>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 3.4 &mdash; Standing Asanas: The Four Postures on the Feet</caption>
+      <thead><tr><th>Asana and the meaning of the name</th><th>Position</th><th>Benefit, and what to watch</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Tadasana</strong><br><em>tada</em> = still, immovable &mdash; the mountain</td>
+          <td>Stand with feet together and flat, weight even on heels and balls, arms down, shoulders back and down, chest lifted, chin level</td>
+          <td>Corrects posture, strengthens the legs, improves balance, teaches the correct standing position and settles the mind. Do not lock the knees; if the shoulders lift towards the ears the posture is wrong</td>
+        </tr>
+        <tr>
+          <td><strong>Ardha Chakrasana</strong><br><em>ardha</em> = half; <em>chakra</em> = wheel</td>
+          <td>Lie on the back, knees bent, feet flat and close to the buttocks, arms along the body; press down through the feet and lift the hips, head and shoulders staying on the floor</td>
+          <td>Strengthens spine, buttocks and the backs of the legs, and teaches the lifting action for the full wheel. Keep the knees together and parallel; do not turn the head aside</td>
+        </tr>
+        <tr>
+          <td><strong>Padahastasana</strong><br><span class="footnote">syllabus spelling &ldquo;Pada Hastasana&rdquo;</span><br><em>pada</em> = foot; <em>hasta</em> = hand</td>
+          <td>From Tadasana bend forward from the hips, legs straight, head hanging; slide the palms under the soles, fingers pointing back, until the forehead rests on the knees</td>
+          <td>Stretches the whole back of the body and the hamstrings, releases neck tension; a deep beginner&rsquo;s relaxation asana. Bend from the hips and never bounce; with back injury, glaucoma or high blood pressure, bend the knees or omit it</td>
+        </tr>
+        <tr>
+          <td><strong>Vrikshasana</strong><br><em>vriksha</em> = tree</td>
+          <td>From Tadasana shift the weight onto the right leg, lift the left foot and place the sole against the inner thigh or calf; join the palms above the head, gaze on a still point; change sides</td>
+          <td>Develops balance, concentration and poise; strengthens the standing leg and opens the hip. The foot must never rest on the knee joint; practise near a wall until the balance is secure</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>3.2 (d) Sitting asanas (5)</h4>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 3.5 &mdash; Sitting Asanas: The Five Seats</caption>
+      <thead><tr><th>Asana and the meaning of the name</th><th>Position</th><th>Benefit, and what to watch</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Sukhasana</strong><br><em>sukha</em> = ease, comfort, happiness</td>
+          <td>Legs crossed loosely, one shin in front of the other, knees relaxed towards the floor, hands on the knees palms up; cushion under the hips if needed</td>
+          <td>The most accessible seat for a beginner and the posture in which most meditation is done; steadies the trunk and lengthens the spine. Looseness is the aim; if the knees lift well off the floor, sit on a folded blanket</td>
+        </tr>
+        <tr>
+          <td><strong>Padmasana</strong><br><em>padma</em> = lotus</td>
+          <td>Right foot on the left thigh with the heel near the hip, then the left foot up onto the right thigh; hands on the knees, chin tucked, spine upright</td>
+          <td>The classical posture of meditation, said in the texts to shape the body for pranayama and dhyana; also opens the hips and straightens the back. Never force the feet up; with a knee or hip injury use Sukhasana or Vajrasana &mdash; a substitution, not a failure</td>
+        </tr>
+        <tr>
+          <td><strong>Ardha Padmasana</strong><br><em>ardha</em> = half lotus</td>
+          <td>Cross the legs as in Sukhasana, then place only the right foot on the left thigh, the left foot staying on the floor; practise both sides</td>
+          <td>The practical way for most adults and most children to learn the full lotus without straining the knees. Never force the knee; if it lifts away from the floor, stay in Sukhasana</td>
+        </tr>
+        <tr>
+          <td><strong>Vajrasana</strong><br><em>vajra</em> = diamond, thunderbolt; the syllabus also lists <em>Bajrasana</em></td>
+          <td>Kneel with knees together, buttocks on the heels, tops of the feet flat, spine straight, hands on the thighs; in <em>Bajrasana</em> sit back on the heels raised on the ankles</td>
+          <td>Easy to hold, so excellent for long sitting and for the elderly, the injured and beginners; stretches feet and ankles and is used before meditation. Cushion the heels, or change to Sukhasana</td>
+        </tr>
+        <tr>
+          <td><strong>Dandasana</strong><br><span class="footnote">the draft&rsquo;s spelling &ldquo;Dundasana&rdquo; is the same pose</span><br><em>danda</em> = staff, stick</td>
+          <td>Legs straight out in front, feet together or hip-width apart, hands pressing down on the thighs, spine erect, shoulders relaxed, chin level</td>
+          <td>Strengthens back and abdominal muscles, teaches correct upright sitting and prepares for Vajrasana, Padmasana and any straight-leg forward bend. If the back must be rounded to achieve it, bend the knees</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>3.2 (e) Surya Namaskar &mdash; the Sun Salutation</h4>
+  <p><strong>Surya Namaskar</strong> is not a single asana but a flowing sequence performed as one continuous movement with the breath. <em>Surya</em> is the sun, <em>namaskar</em> the salutation. It warms the whole body systematically from neck to heels, and it is the one item in the syllabus a school child can be taught safely and enjoyably, which is why it belongs at the heart of a class demonstration.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 3.6 &mdash; The Twelve Steps of Surya Namaskar, with the Breath</caption>
+      <thead><tr><th>Step</th><th>Position</th><th>Breath</th><th>What it does</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><strong>Dandasana</strong> &mdash; staff pose, standing at the front of the mat</td><td>Inhale</td><td>Sets the posture and the breathing rhythm of the sequence</td></tr>
+        <tr><td>2</td><td><strong>Hasta Uttanasana</strong> &mdash; arms overhead, palms together, look up</td><td>Inhale</td><td>Stretches the front of the body; widens the chest</td></tr>
+        <tr><td>3</td><td><strong>Uttanasana</strong> &mdash; bend forward, hands beside the feet, head down</td><td>Exhale</td><td>Lengthens spine and hamstrings</td></tr>
+        <tr><td>4</td><td><strong>Ashwa Uttanasana</strong> &mdash; knees bent, hands to the big toes, forehead to knees</td><td>Inhale</td><td>Warms the abdomen; the preparatory bend</td></tr>
+        <tr><td>5</td><td><strong>Ashwa Prasarita Eka Padasana</strong> &mdash; lift one leg straight back, hands on the toes</td><td>Exhale</td><td>Stretches the leg, opens the hip, strengthens the standing leg</td></tr>
+        <tr><td>6</td><td><strong>Dandasana, legs apart</strong> &mdash; step back with the other foot, both hands on the floor</td><td>Inhale</td><td>Rebalances the pose; the transition</td></tr>
+        <tr><td>7</td><td><strong>Ashta Chandrasana</strong> &mdash; raise the front knee, look forward, one foot forward</td><td>Exhale</td><td>Opens the hip flexors; a mild backbend</td></tr>
+        <tr><td>8</td><td><strong>Ashtavakrasana</strong> &mdash; hands on the floor, raise the back leg, straighten the arms, look back</td><td>Inhale</td><td>Strengthens arms and wrists; opens shoulders and chest</td></tr>
+        <tr><td>9</td><td><strong>Paschimottanasana</strong> &mdash; step forward into a straight-leg forward bend</td><td>Exhale</td><td>Stretches the whole back of the body</td></tr>
+        <tr><td>10</td><td><strong>Ashwa Uttanasana</strong> &mdash; knees bent, hands to the toes, forehead to knees</td><td>Inhale</td><td>Releases the spine; the second, gentler fold</td></tr>
+        <tr><td>11</td><td><strong>Uttanasana</strong> &mdash; straighten the legs, head hanging</td><td>Exhale</td><td>Full lengthening of the back of the legs</td></tr>
+        <tr><td>12</td><td><strong>Hasta Uttanasana &rarr; Dandasana</strong> &mdash; arms overhead, then lowered to standing</td><td>Inhale, then exhale</td><td>Closes the cycle</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Three practical points. <strong>Move with the breath</strong> &mdash; every inhalation is an opening movement and every exhalation a closing one; breathing faster than the body is the common beginner&rsquo;s error. <strong>Build up slowly</strong>: three rounds, then five, then ten, over weeks. And it is <strong>contraindicated</strong> in the same conditions as the postures it contains, because it has forward bends, a backbend and a lunge in it &mdash; not to be practised with a back or neck injury, uncontrolled blood pressure, glaucoma or during pregnancy.</p>
+
+  <figure>
+    <svg viewBox="0 0 760 384" role="img" aria-label="Line drawings of ten main yoga postures with labels" preserveAspectRatio="xMidYMid meet">
+      <g font-family="Georgia, 'Times New Roman', serif" fill="none" stroke="#33302b" stroke-width="2" stroke-linecap="round">
+        <g transform="translate(6,10)">
+          <line x1="30" y1="126" x2="110" y2="126" stroke="#ded2bd" stroke-width="2.5"/>
+          <circle cx="70" cy="26" r="8" fill="#f7efd8"/>
+          <path d="M70 34 L70 72"/>
+          <path d="M70 40 L46 76 M70 40 L94 76"/>
+          <path d="M70 72 L58 124 M70 72 L82 124"/>
+        </g>
+        <g transform="translate(158,10)">
+          <line x1="30" y1="126" x2="110" y2="126" stroke="#ded2bd" stroke-width="2.5"/>
+          <circle cx="66" cy="28" r="8" fill="#f7efd8"/>
+          <path d="M66 36 L66 72"/>
+          <path d="M66 72 L66 124"/>
+          <path d="M66 72 L92 84 L72 96" stroke="#6d7a4a"/>
+          <path d="M66 40 L44 16 M66 40 L88 16 M56 12 L66 8 L76 12" stroke="#6d7a4a"/>
+        </g>
+        <g transform="translate(310,10)">
+          <line x1="30" y1="126" x2="110" y2="126" stroke="#ded2bd" stroke-width="2.5"/>
+          <path d="M60 124 L62 30 M80 124 L78 30" stroke="#b4623c"/>
+          <path d="M62 32 Q70 22 78 32" stroke="#b4623c"/>
+          <circle cx="70" cy="56" r="7.5" fill="#f7efd8"/>
+          <path d="M67 62 L58 120 M73 62 L84 120" stroke="#b4623c"/>
+        </g>
+        <g transform="translate(462,10)">
+          <line x1="18" y1="126" x2="130" y2="126" stroke="#ded2bd" stroke-width="2.5"/>
+          <path d="M26 120 L86 120" stroke="#4c6a83"/>
+          <path d="M60 120 Q78 100 88 110" stroke="#4c6a83"/>
+          <path d="M86 120 L92 112"/>
+          <circle cx="101" cy="107" r="7.5" fill="#e5ecf2"/>
+          <path d="M84 118 L76 86 L88 80" stroke="#4c6a83"/>
+        </g>
+        <g transform="translate(614,10)">
+          <line x1="10" y1="126" x2="132" y2="126" stroke="#ded2bd" stroke-width="2.5"/>
+          <path d="M26 124 Q72 46 118 124" stroke="#7a5570"/>
+          <path d="M26 124 L22 122"/>
+          <circle cx="20" cy="117" r="7" fill="#f1e8ee"/>
+          <path d="M56 60 L28 122 M88 60 L116 122" stroke="#7a5570"/>
+        </g>
+        <g transform="translate(6,206)">
+          <line x1="50" y1="126" x2="132" y2="126" stroke="#ded2bd" stroke-width="2.5"/>
+          <circle cx="110" cy="117" r="7.5" fill="#ecefdd"/>
+          <path d="M102 121 L62 121" stroke="#6d7a4a"/>
+          <path d="M62 121 C40 112 28 72 36 44" stroke="#6d7a4a"/>
+          <path d="M36 44 L24 48 M36 44 L30 36" stroke="#6d7a4a"/>
+          <path d="M102 121 L130 119" stroke="#6d7a4a"/>
+        </g>
+        <g transform="translate(158,206)">
+          <line x1="12" y1="126" x2="96" y2="126" stroke="#ded2bd" stroke-width="2.5"/>
+          <circle cx="28" cy="118" r="7.5" fill="#ecefdd"/>
+          <path d="M36 121 L70 121" stroke="#6d7a4a"/>
+          <path d="M70 121 L64 16 M78 121 L78 16" stroke="#6d7a4a"/>
+          <path d="M38 119 L56 72 L52 44" stroke="#a5822e"/>
+        </g>
+        <g transform="translate(310,206)">
+          <rect x="42" y="88" width="58" height="9" fill="#f7efd8" stroke="#ded2bd"/>
+          <circle cx="70" cy="40" r="8" fill="#f7efd8"/>
+          <path d="M70 48 L70 86" stroke="#b4623c"/>
+          <path d="M70 87 L44 73 L70 60 M70 87 L96 73 L70 60" stroke="#b4623c"/>
+          <path d="M70 54 L48 72 M70 54 L92 72" stroke="#b4623c"/>
+        </g>
+        <g transform="translate(462,206)">
+          <rect x="42" y="88" width="58" height="9" fill="#f7efd8" stroke="#ded2bd"/>
+          <circle cx="70" cy="40" r="8" fill="#f7efd8"/>
+          <path d="M70 48 L70 84" stroke="#4c6a83"/>
+          <path d="M46 78 Q70 62 94 78" stroke="#4c6a83"/>
+          <path d="M58 70 L82 70" stroke="#4c6a83"/>
+          <path d="M70 54 L50 76 M70 54 L90 76" stroke="#4c6a83"/>
+        </g>
+        <g transform="translate(614,206)">
+          <line x1="34" y1="126" x2="110" y2="126" stroke="#ded2bd" stroke-width="2.5"/>
+          <path d="M46 124 L96 124" stroke="#a5822e"/>
+          <path d="M46 124 L70 84 M96 124 L70 84" stroke="#a5822e"/>
+          <path d="M70 84 L70 50" stroke="#a5822e"/>
+          <circle cx="70" cy="40" r="8" fill="#f7efd8"/>
+          <path d="M70 56 L56 80 M70 56 L84 80" stroke="#a5822e"/>
+        </g>
+      </g>
+      <g font-family="Georgia, 'Times New Roman', serif" fill="#33302b">
+        <text x="76" y="156" font-size="11.5" font-weight="bold" text-anchor="middle">Tadasana</text>
+        <text x="76" y="169" font-size="9.5" font-style="italic" fill="#7a736a" text-anchor="middle">mountain &#183; standing</text>
+        <text x="228" y="156" font-size="11.5" font-weight="bold" text-anchor="middle">Vrikshasana</text>
+        <text x="228" y="169" font-size="9.5" font-style="italic" fill="#7a736a" text-anchor="middle">tree &#183; balance</text>
+        <text x="380" y="156" font-size="11.5" font-weight="bold" text-anchor="middle">Padahastasana</text>
+        <text x="380" y="169" font-size="9.5" font-style="italic" fill="#7a736a" text-anchor="middle">hand under foot</text>
+        <text x="532" y="156" font-size="11.5" font-weight="bold" text-anchor="middle">Bhujangasana</text>
+        <text x="532" y="169" font-size="9.5" font-style="italic" fill="#7a736a" text-anchor="middle">cobra &#183; prone</text>
+        <text x="684" y="156" font-size="11.5" font-weight="bold" text-anchor="middle">Dhanurasana</text>
+        <text x="684" y="169" font-size="9.5" font-style="italic" fill="#7a736a" text-anchor="middle">bow &#183; prone</text>
+        <text x="76" y="352" font-size="11.5" font-weight="bold" text-anchor="middle">Halasana</text>
+        <text x="76" y="365" font-size="9.5" font-style="italic" fill="#7a736a" text-anchor="middle">plough &#183; supine</text>
+        <text x="228" y="352" font-size="11.5" font-weight="bold" text-anchor="middle">Sarvangasana</text>
+        <text x="228" y="365" font-size="9.5" font-style="italic" fill="#7a736a" text-anchor="middle">all limbs &#183; shoulder stand</text>
+        <text x="380" y="352" font-size="11.5" font-weight="bold" text-anchor="middle">Padmasana</text>
+        <text x="380" y="365" font-size="9.5" font-style="italic" fill="#7a736a" text-anchor="middle">lotus &#183; seated</text>
+        <text x="532" y="352" font-size="11.5" font-weight="bold" text-anchor="middle">Sukhasana</text>
+        <text x="532" y="365" font-size="9.5" font-style="italic" fill="#7a736a" text-anchor="middle">easy seat</text>
+        <text x="684" y="352" font-size="11.5" font-weight="bold" text-anchor="middle">Vajrasana</text>
+        <text x="684" y="365" font-size="9.5" font-style="italic" fill="#7a736a" text-anchor="middle">diamond &#183; kneeling</text>
+      </g>
+    </svg>
+    <figcaption><b>Figure 3.1</b> &mdash; Schematic teaching diagrams of ten of the main postures, in the four groups of the syllabus. These are not instructions &mdash; take every posture from a trained teacher.</figcaption>
+  </figure>
+  <h3 id="s3-3">3.3 Pranayama</h3>
+  <p><strong>Pranayama</strong> is the fourth limb of Ashtanga Yoga and the third of Hatha, and it is the direct bridge between body and mind. <em>Prana</em> is the breath and life-force, <em>aya</em> extension or lengthening, <em>yama</em> regulation. Pranayama is therefore <em>the regulation of the breath-force</em> &mdash; not merely breathing exercises, but the deliberate purification, lengthening, retention and balancing of the breath.</p>
+
+  <p>Every classical pranayama has three stages, and every answer should name them: <strong>puraka</strong>, the drawing-in of the breath; <strong>kumbhaka</strong>, the holding, either after inhalation or after exhalation; and <strong>rekika</strong>, the release. Most of the poses named below are <em>nishala</em> &mdash; without retention, without holding &mdash; which is exactly what makes them safe for children, for beginners and for anyone with a blood-pressure condition.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 3.7 &mdash; The Three Pranayamas of the Syllabus</caption>
+      <thead><tr><th>Name and meaning</th><th>How to do it</th><th>Duration and rhythm</th><th>Benefits</th><th>Caution</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Anulom-Vilom</strong><br><span class="footnote">also <em>Anuloma-Viloma</em></span><br><em>anulom</em> = drawing in with the current; <em>vilom</em> = against the current &mdash; breath in one nostril, then the other</td>
+          <td>Sit in Sukhasana, Padmasana or Vajrasana with the spine straight. Close the right nostril with the right thumb and breathe in through the left. Close both and hold. Release the right nostril and breathe out through the right. Then close the left, breathe in through the right, hold, and breathe out through the left. Continue, changing the nostrils each time.</td>
+          <td>About 5&ndash;10 minutes. One breath takes roughly four counts: in 4, hold 2 (or none), out 4, hold 2. Begin at 4 and never hold longer than is comfortable.</td>
+          <td>The single most useful pranayama for a school: balances the two sides of the nose, calms the nervous system, improves concentration and sleep, reduces anxiety, and prepares for meditation. The one to teach a nervous child</td>
+          <td>Do not force the closed nostril shut. Stop at the first sign of dizziness, breathlessness, headache or tingling. Not with acute fever, severe cold, or uncontrolled blood pressure without medical advice</td>
+        </tr>
+        <tr>
+          <td><strong>Kapalabhati</strong><br><span class="footnote">syllabus also spells it Kapalbhati</span><br><em>kapala</em> = skull; <em>bhati</em> = shining &mdash; the &ldquo;skull-shining&rdquo; breath</td>
+          <td>Sit upright. Take a deep breath in. Then, with the abdomen slightly drawn in, contract it sharply and push the breath out through the nostrils in short sharp bursts from the throat, leaving the inhalation passive and automatic. A <em>purification</em> practice: the exhale is active, the inhale is not.</td>
+          <td>Begin with 10&ndash;20 bursts only, then rest and breathe normally; build over weeks to 50&ndash;100 bursts in a round. Never strain.</td>
+          <td>Clears the nasal passages, energises the body, strengthens the diaphragm and abdominal muscles, clears the mind; a traditional preparation for meditation and for the other kriyas</td>
+          <td><strong>Never during or soon after a meal, in pregnancy or menstruation, or with a hernia, ulcer, high or low blood pressure, a heart condition, glaucoma or a spinal injury.</strong> Not to be attempted by a child unsupervised &mdash; rapid bursts without rest are the commonest cause of a student feeling giddy in a demonstration</td>
+        </tr>
+        <tr>
+          <td><strong>Bhastrika</strong><br><em>bhas</em> = blow, puff, bellows</td>
+          <td>Sit upright. Breathe in deeply through the nose, filling chest and abdomen. Breathe out forcefully, emptying completely. Repeat rapidly without pause or retention, then stop abruptly, holding the breath out for a moment before breathing in deeply.</td>
+          <td>About 10&ndash;20 breaths in one round, then a rest. Two or three rounds with normal breathing between them.</td>
+          <td>Warms the body, expands the chest, stimulates the respiratory system, improves digestion and cleanses the respiratory tract. Lively and energising; usually done just before asana or meditation</td>
+          <td>The same contraindications as Kapalabhati, and especially not to be practised with a heart or blood-pressure condition without a doctor&rsquo;s clearance. Stop the moment the head feels light</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card cls">
+    <span class="lbl">Classroom Connection</span>
+    <p>A ten-minute routine that meets the syllabus practical requirement, in order: <strong>Sukhasana</strong> or Dandasana to settle the body (1 min); <strong>Bhastrika</strong>, 10&ndash;20 breaths (1 min); <strong>Kapalabhati</strong>, 10&ndash;20 bursts (1 min); <strong>Anulom-Vilom</strong> on a 4&ndash;2&ndash;4&ndash;2 count (5 min); and <strong>meditation</strong> watching the breath (2 min). That is exactly the sequence the practicum asks for, and it takes ten minutes. Practise it yourself every morning until the semester ends &mdash; the practical marks depend on it.</p>
+  </div>
+
+  <h3 id="s3-4">3.4 Mudra</h3>
+  <p>A <strong>mudra</strong> is literally a <em>seal</em> &mdash; the seal on a document, or a sign made with the hand. In yoga it is a deliberate arrangement of the hands and fingers, usually with the rest of the body steady in an asana, which concentrates attention and is said to seal or retain the energy of the practice. The hands are used because they are the most immediate instruments of the mind. The syllabus names five, used in three settings &mdash; meditation, prayer and concentration.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 3.8 &mdash; The Five Mudras of the Syllabus</caption>
+      <thead><tr><th>Mudra</th><th>Meaning of the name</th><th>Position of the hands</th><th>Used for</th><th>Caution</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Gyan Mudra</strong></td>
+          <td><em>Gyan</em> = knowledge &mdash; the gesture of wisdom, the mudra of the teacher</td>
+          <td>Tip of the thumb joined to the tip of the index finger so that a ring is formed; the remaining three fingers extended and slightly apart. Hands rest on the knees, palms up.</td>
+          <td>Meditation, teaching, listening to music. Keeps the arms from straining during long meditation, and the position a teacher can demonstrate to a class</td>
+          <td>Keep the shoulders dropped. Do not grip; the touch of thumb and forefinger is light</td>
+        </tr>
+        <tr>
+          <td><strong>Dhyan Mudra</strong></td>
+          <td><em>Dhyana</em> = meditation &mdash; the traditional hand position of meditation</td>
+          <td>Right hand in the lap on top of the left, palms upwards, the two thumbs lightly touching, the other fingers loosely extended.</td>
+          <td>The classical hand position during meditation and Savasana; said to complete the circuit between hands and feet, closing the circuit of attention</td>
+          <td>Rest the hands on a cushion if the shoulders rise. Never let the arms hang unsupported</td>
+        </tr>
+        <tr>
+          <td><strong>Chin Mudra</strong></td>
+          <td>From <em>chit</em> or <em>chin</em>, consciousness or the inner self; the &ldquo;seal of the self&rdquo;</td>
+          <td>Palms together at the centre of the chest, fingertips together, elbows held out to the sides in the shape of a lotus bud. Close to Anjali, but with the elbows noticeably away from the body.</td>
+          <td>Salutation, prayer, respect and concentration of the heart; the gesture with which teaching and prayer traditionally begin and end</td>
+          <td>Keep the shoulders down. Do not force the palms together if it strains the wrist</td>
+        </tr>
+        <tr>
+          <td><strong>Anjali Mudra</strong></td>
+          <td><em>Anjali</em> = salutation, greeting, the folded hands &mdash; the everyday &ldquo;namaste&rdquo; gesture</td>
+          <td>Palms joined firmly, fingers pointing upwards, held at the heart or sternum, elbows relaxed at the sides. At the forehead, as in a bow, is the higher variant.</td>
+          <td>Greeting, respect, prayer and concentration; the correct way to begin and end a yoga session in school</td>
+          <td>Keep the hands at the chest, not the throat, and the chin slightly tucked</td>
+        </tr>
+        <tr>
+          <td><strong>Buddhi Mudra</strong></td>
+          <td><em>Buddhi</em> = intellect, understanding &mdash; the mudra of mental development</td>
+          <td>Thumb and index finger of one hand joined to form a ring, the other three fingers extended; the hand held at the forehead or between the eyebrows, or the joined hands rested in the lap. In a fuller form the hands are folded with the ring at the base of the sternum.</td>
+          <td>Concentration, meditation, study and examinations; the classical gesture for sharpening the mind and, in some traditions, for memory and speech</td>
+          <td>Do not press the fingertips hard. If held at the forehead, support the elbows or lower the arms</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="s3-5">3.5 Bandha</h3>
+  <p>A <strong>bandha</strong> is a <em>lock</em> &mdash; a deliberate, sustained tightening of a specific muscle group, which is said to close a passage and to direct and retain the flow of energy (<em>prana</em>) along the <em>nadis</em>, the subtle channels said to run through the body. The classical bandhas are three, and they are named for their <em>position</em> rather than for what they do. All three are practised with a mudra and a pranayama, and all three appear in the postures already described: Jalandhara Bandha in Sarvangasana, Ardha Halasana and Setubandhasana; Uddiyana Bandha in the lifting of the abdomen in Dhanurasana and Chakrasana; Mula Bandha in the pelvic floor in Sarvangasana and at the close of a round of asana.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 3.9 &mdash; The Three Bandhas of the Syllabus</caption>
+      <thead><tr><th>Bandha</th><th>Meaning of the name</th><th>Where and how it is made</th><th>Practice note</th><th>Caution</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Jalandhara Bandha</strong></td>
+          <td><em>Jalandhara</em> = of the throat, of the net &mdash; the throat lock</td>
+          <td>Chin tucked towards the chest and pressed into the hollow at the base of the throat at the notch of the collar-bones. Engaged automatically in Sarvangasana, Ardha Halasana and Setubandhasana, and applied consciously before them.</td>
+          <td>Draw the chin back and down as if saying a long &ldquo;ooh&rdquo; with the lips closed. It is said to prevent energy escaping upwards, and it protects the cervical spine in the inverted postures</td>
+          <td>Never tuck so hard that the neck muscles burn. With neck injury, cervical spondylosis or thyroid disorder, do not use the inverted postures in which it is engaged</td>
+        </tr>
+        <tr>
+          <td><strong>Uddiyana Bandha</strong></td>
+          <td><em>Uddiyana</em> = upward, lifted &mdash; the upward abdominal lock</td>
+          <td>Exhale, draw the abdominal wall inwards and upwards so the belly hollows and becomes concave, and lift the diaphragm. Practise lying, sitting or standing; the wall moves up and in, not in and down.</td>
+          <td>One of the first exercises recommended in the Hatha texts. Strengthens the abdominal muscles, improves digestion, prepares the body for bandha-syndhara postures, and acts as a deep abdominal massage</td>
+          <td>Not with a hernia, pregnancy, a healing abdominal operation, an ulcer, or any condition involving the abdominal organs. Do not hold a strong contraction long</td>
+        </tr>
+        <tr>
+          <td><strong>Mula Bandha</strong></td>
+          <td><em>Mula</em> = root, base &mdash; the lock at the base of the pelvis</td>
+          <td>Contract the pelvic floor muscles, as if holding back the passage of stool or urine, drawing the perineum upwards and inwards. Practised with Mula Bandha Shatkarma, in which the muscles are alternately contracted and released.</td>
+          <td>The foundation of the three bandhas, and the point from which the whole subtle body is said to be sustained. Practised in Sarvangasana, in Padmasana, and at the close of an asana sequence</td>
+          <td>Never strain or bear down; this is a lifting contraction, not a squeezing one. With a prolapse, or after a recent childbirth, take medical advice first</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The memory rule is simple: <strong>Jalandhara is at the top, Uddiyana in the middle, Mula at the bottom.</strong> The mudras are the hands; the bandhas are the locks. Together the texts describe them as the means of sealing the energy in the body, and they are never practised as a substitute for asana and pranayama.</p>
+
+  <h3 id="s3-6">3.6 Kriyas and the Six Shatkarmas</h3>
+  <p>A <strong>kriya</strong> is a purposeful action. In this paper the kriyas are the <em>cleansing</em> practices &mdash; the six that the Hatha texts call the <strong>shatkarmas</strong>, literally the &ldquo;six actions&rdquo;, and also the first limb of Hatha Yoga. They clean the internal passages &mdash; nose and throat, stomach, intestines, lungs &mdash; so that the later practices of asana and pranayama work on a clean system. The classical texts give them first, before asana and pranayama, for exactly this reason.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 3.10 &mdash; The Six Kriyas of the Syllabus, and Their Shatkarma Equivalents</caption>
+      <thead><tr><th>No. and kriya</th><th>What it does</th><th>Equivalent shatkarma</th><th>Benefits</th><th>Present-day status and caution</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>1. Kapalabhati</strong></td>
+          <td>Sharp, active exhalations in bursts from the throat with a passive inhalation between them (&ldquo;skull-shining&rdquo;); given in full under pranayama above</td>
+         ><td>Shatkarma 6</td>
+          <td>Clears the nasal passage, energises, strengthens the diaphragm, prepares for pranayama and meditation</td>
+          <td>Contraindicated in pregnancy, menstruation, hernia, ulcer, and any heart or blood-pressure condition. The only kriya here a student-teacher may teach children unsupervised, and then only in a small gentle form</td>
+        </tr>
+        <tr>
+          <td><strong>2. Neti</strong></td>
+          <td>Purification of the nose. Traditional: a short soft cotton thread passed through one nostril and out the other and drawn back and forth. Modern: a neti pot of warm salted water, tilted, to irrigate one nostril with the head sideways</td>
+          <td>Shatkarma 1</td>
+          <td>Relieves congestion, sinusitis and hay fever, reduces snoring, improves the sense of smell, and prepares the nose for Anulom-Vilom</td>
+          <td>The neti pot is safe, simple and commonly taught. The thread method should be demonstrated only by a trained teacher. Never use force; stop at any pain or bleeding</td>
+        </tr>
+        <tr>
+          <td><strong>3. Trataka</strong></td>
+          <td>Fixed gazing (<em>tra</em> = to stare). Sit steadily and hold the gaze on a small object, the tip of the nose, or the point between the eyebrows, without blinking as much as possible; when the eyes water, close them, breathe and begin again</td>
+          <td><strong>None &mdash; not a shatkarma</strong></td>
+          <td>Strengthens the muscles of the eyes, improves concentration and the power of the gaze, relieves eye strain from reading, calms the mind. A superb classroom attention exercise for children</td>
+          <td>Do not strain the eyes; close them at once if they burn. With glaucoma, detached retina, severe myopia or a recent eye operation, consult an eye specialist first</td>
+        </tr>
+        <tr>
+          <td><strong>4. Nauli</strong></td>
+          <td>From <em>naula</em>, a rope. Stand with knees slightly bent, lean forward, hands braced on the thighs. Exhale completely, draw the abdominal wall in, then roll the abdominal muscles from side to side within the drawn-in abdomen</td>
+          <td>Shatkarma 4</td>
+          <td>Strengthens the abdominal and back muscles, tones the intestines, helps with constipation, improves digestion and posture, and is a foundation of the bandha practices</td>
+          <td>Not for pregnancy, menstruation, hernia, abdominal surgery or spinal injury. A student-teacher should describe Nauli, not demonstrate it</td>
+        </tr>
+        <tr>
+          <td><strong>5. Dhouti</strong><br><span class="footnote">the Hatha texts spell it Dhauti</span></td>
+          <td>From <em>dhavana</em>, cleansing. The classical form swallows a long strip of soft cloth and draws it back out through the mouth, scouring the upper gut. The <em>dhauti karan</em> variants work the abdominal muscles instead: <em>laghu</em> (up and down), <em>vriddhi</em> (up and to the right), <em>chitrini</em> (side to side)</td>
+          <td>Shatkarma 2</td>
+          <td>Stated in the classical texts to purge the stomach and upper gut, relieve constipation and dyspepsia, and prepare the body for the other kriyas and for asana</td>
+          <td>Given here traditionally and neutrally, as the syllabus names it. The cloth method is an internal technique for a qualified teacher only, and is not appropriate for a school classroom at all. Only the abdominal variants may be demonstrated, and gently</td>
+        </tr>
+        <tr>
+          <td><strong>6. Vasti</strong></td>
+          <td>Injection, enema: a herbal decoction is introduced into the rectum and retained so that it acts on the large intestine</td>
+          <td>Shatkarma 3</td>
+          <td>Classically described as the most powerful of the six for clearing the lower gut; in modern medical practice the enema is recognised for its own clinical uses under professional supervision</td>
+          <td><strong>A supervised clinical procedure.</strong> Named here for examination purposes because the syllabus names it; it is <strong>not</strong> to be taught, demonstrated or attempted in a school</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Two naming points are worth marks. <strong>Kapalabhati and Bhastrika appear twice</strong> &mdash; as pranayamas in 3.3 and as kriyas in 3.6 &mdash; because a cleansing of the lungs is at the same time a regulation of the breath. And <strong>five of the syllabus&rsquo;s six kriyas are shatkarmas under another name</strong>: Dhouti is Dhauti, Vasti is Basti, and <strong>Trataka is the one name in the list that is not a shatkarma at all</strong>, being a practice of concentration rather than of cleansing. Present both lists side by side and mark the overlap.</p>
+
+  <h3 id="s3-7">3.7 Japa and Ajapa</h3>
+  <p><strong>Japa</strong> is repetition of a mantra, said or sung, with the mind deliberately held upon it. A <strong>mantra</strong> is a sound, word or syllable chosen as the object of meditation; the one most commonly used in yoga is <em>Om</em> (also spelled AUM), a sacred sound rather than a word with a meaning. Practising japa is the simplest form of meditation available: you repeat one sound, and every time the mind wanders you bring it back. That act of bringing the mind back is in fact the training.</p>
+
+  <p><strong>Ajapa</strong> is the same repetition carried on silently and without apparent effort. The prefix <em>a-</em> means &ldquo;without&rdquo;, so <em>ajapa</em> is repetition without speech &mdash; repetition that has become automatic, so that the breath itself takes on the shape of the mantra. Japa is spoken and attended to; ajapa arises from it as the mind grows quiet, and in the highest stage the repetition subsides into silence altogether.</p>
+
+  <div class="tw tkeep">
+    <table class="compact">
+      <caption>Table 3.11 &mdash; Japa and Ajapa Compared</caption>
+      <thead><tr><th>Basis</th><th>Japa</th><th>Ajapa</th></tr></thead>
+      <tbody>
+        <tr><td>Meaning</td><td>Recitation, muttering aloud or with the lips moving</td><td>Repetition without speech &mdash; silent and automatic</td></tr>
+        <tr><td>Effort</td><td>Requires deliberate effort; the mind keeps returning to the sound</td><td>Effortless; the repetition continues of its own accord</td></tr>
+        <tr><td>Position</td><td>Seated in any of the five sitting asanas, spine straight</td><td>The same seat, usually the same asana</td></tr>
+        <tr><td>Duration</td><td>A fixed count &mdash; 108, 1008, or a round of ten minutes</td><td>No fixed count; follows from prolonged japa</td></tr>
+        <tr><td>In school</td><td>Used as a breathing-and-concentration exercise: children count the breath silently, and no belief or doctrine is taught</td><td>Not separately taught; understood as what happens when a child&rsquo;s counting becomes effortless</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card cls">
+    <span class="lbl">Classroom Connection</span>
+    <p>Because the school is secular, japa should be taught as a <strong>breathing-and-concentration exercise</strong> and never as a religious rite. The safe and effective school version is silent breath-counting: sit in Sukhasana, close the eyes, count from one to twenty on the out-breath only; when the counting is lost, notice where the mind went and begin again at one. The Sanskrit term is used so that the student-teacher understands the tradition he stands inside; the child is asked only to breathe and to count. That satisfies the syllabus, develops real concentration, and respects every family in the class.</p>
+  </div>
+
+  <h3 id="safety">Safety, Contraindications and Precautions</h3>
+  <p>A <strong>contraindication</strong> is a condition in which a particular practice should <em>not</em> be performed, because it would aggravate the condition or cause harm. A teacher who cannot name contraindications is not yet qualified to lead a session. The most common serious error in school yoga is not doing an asana wrongly; it is <strong>making a student do a posture the student&rsquo;s body cannot do.</strong> The syllabus is explicit that a mentor must <em>not</em> compel student-teachers with reasonable physical problems to do asanas: such a student must be allowed a modified practice, a different asana, or simply to watch and breathe, without loss of marks and without any comment from the class. <em>Modification is not failure, and no one may be shamed for sitting out.</em></p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 3.12 &mdash; Conditions Requiring Caution, Modification or Medical Clearance</caption>
+      <thead><tr><th>Condition</th><th>Practices to avoid or modify</th><th>What to do instead</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Pregnancy</strong></td><td>Dhanurasana, Bhujangasana, Chakrasana, Sarvangasana, Halasana, Ardha Halasana, Mula and Uddiyana Bandha, Nauli, Kapalabhati, Bhastrika, sudden forward bends</td><td>Side-lying Savasana, gentle sitting, Anulom-Vilom, light stretching. In the second and third trimesters, no bandha and no forceful breath</td></tr>
+        <tr><td><strong>Menstruation</strong></td><td>The inversions (Sarvangasana, Halasana, Ardha Halasana), Dhanurasana, Bhujangasana, Uddiyana and Mula Bandha, Kapalabhati, Bhastrika, Nauli</td><td>Restorative sitting, Savasana, gentle Anulom-Vilom, light movement</td></tr>
+        <tr><td><strong>Hernia</strong></td><td>Uddiyana Bandha, Bhujangasana, Dhanurasana, Kapalbhati, Bhastrika, Nauli, vigorous Pawanmuktasana</td><td>Restorative poses only, and medical clearance first</td></tr>
+        <tr><td><strong>Recent surgery or injury</strong></td><td>Every asana involving the operated part, every bandha, Kapalabhati and Bhastrika</td><td>Only the advice of the operating surgeon, then graded rehabilitation under a physiotherapist</td></tr>
+        <tr><td><strong>Back injury, sciatica, disc prolapse</strong></td><td>Padahastasana, Chakrasana, Sarvangasana, Halasana, Dhanurasana, forward bends, and any lifting of the hips above the shoulders</td><td>Savasana, Pawanmuktasana, gentle Bhujangasana if pain-free, isometric abdominal work</td></tr>
+        <tr><td><strong>Neck injury, cervical spondylosis</strong></td><td>Sarvangasana, Halasana, Setubandhasana, Jalandhara Bandha, and all inversions</td><td>Savasana, seated postures, gentle prone backbends, relaxation</td></tr>
+        <tr><td><strong>High or low blood pressure</strong></td><td>Inversions (Sarvangasana, Halasana, Ardha Halasana, Chakrasana), Kapalabhati, Bhastrika, and any quick movement out of a posture</td><td>Anulom-Vilom without retention, gentle seated postures, Savasana. Medical clearance first</td></tr>
+        <tr><td><strong>Glaucoma</strong></td><td>Inversions (they raise intraocular pressure), Trataka, Kapalabhati, head-down postures</td><td>Seated practice and Savasana only, on medical advice</td></tr>
+        <tr><td><strong>Joint disorders, arthritis</strong></td><td>Padmasana, Vajrasana on a hard floor, Chakrasana, lotus variants, any posture taken to the limit of pain</td><td>Sukhasana on a cushion, Savasana, gentle non-weight-bearing asanas</td></tr>
+        <tr><td><strong>Heart disease</strong></td><td>Bhastrika, Kapalabhati, Nauli, and any vigorous or repeated-effort practice</td><td>Relaxation practice only, and only with the doctor&rsquo;s clearance</td></tr>
+        <tr><td><strong>Fever, acute infection, contagious illness</strong></td><td>All practice except complete rest</td><td>Rest. Yoga is not a substitute for sleep and recovery</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>The rules of safe practice</h4>
+  <ol class="num">
+    <li><strong>Practise on a clean, dry, non-slip surface</strong> &mdash; a mat is ideal, a carpet acceptable, a mud floor is not.</li>
+    <li><strong>Wear comfortable clothing.</strong> The syllabus is explicit that students should be advised to wear comfortable clothes for asana: loose, light, non-restrictive, nothing tied tightly at the waist, neck or joints. Remove all jewellery, watches, bangles, hairpins and spectacles.</li>
+    <li><strong>Practise on an empty stomach</strong> &mdash; wait at least two hours after a full meal and thirty minutes after a light one. A full stomach is the commonest cause of discomfort in a class demonstration.</li>
+    <li><strong>Warm up and cool down.</strong> Begin with gentle self-massage of the joints, rotation of shoulders, ankles and wrists, and a few rounds of Anulom-Vilom; end with Savasana. Never go straight into a deep posture.</li>
+    <li><strong>Never force an asana.</strong> A posture is a position, not a competition. The rule Patanjali gives is that the practice should be without effort; if there is strain, shake or burning, come out of it and try again more gently.</li>
+    <li><strong>Never hold a breath beyond capacity.</strong> A beginner should practise <em>nishala</em> pranayama &mdash; no retention at all.</li>
+    <li><strong>Never practise while unwell or injured</strong> &mdash; fever, a bad cold, a stomach upset, a headache, poor sleep or severe fatigue are all reasons to rest.</li>
+    <li><strong>Take the help of a trained teacher, and modify freely.</strong> A posture cannot be correctly learned from a written description alone. Props &mdash; a folded blanket, a chair, a wall, a strap &mdash; are legitimate parts of yoga, and a person who needs one is doing the posture properly. Never teach a child a posture you have not been taught yourself.</li>
+    <li><strong>Never give medical advice, and never advise anyone to stop a prescribed medicine.</strong> Yoga is complementary to medical care. If a pupil mentions a health condition, the correct action is to inform the parent and the medical practitioner, not to prescribe.</li>
+  </ol>
+</section>
+
+<div class="review">
+  <h4>Unit 3 Review</h4>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li><strong>Prone (6):</strong> Makarasana, Bhujangasana, Shalabhasana, Ardha Shalabhasana, Sarpasana, Dhanurasana.</li>
+    <li><strong>Supine (8):</strong> Savasana, Uttanapadasana, Setubandhasana, Sarvangasana, Halasana, Ardha Halasana, Chakrasana, Pawanmuktasana.</li>
+    <li><strong>Standing (4):</strong> Tadasana, Ardha Chakrasana, Padahastasana, Vrikshasana.</li>
+    <li><strong>Sitting (5):</strong> Sukhasana, Padmasana, Ardha Padmasana, Vajrasana, Dandasana. Plus <strong>Surya Namaskar</strong>, twelve steps.</li>
+    <li><strong>Pranayama (3):</strong> Anulom-Vilom, Kapalabhati, Bhastrika. Three stages: puraka, kumbhaka, rekika.</li>
+    <li><strong>Mudra (5):</strong> Gyan, Dhyan, Chin, Anjali, Buddhi. <strong>Bandha (3):</strong> Jalandhara (throat), Uddiyana (abdomen), Mula (pelvic floor) &mdash; top, middle, bottom.</li>
+    <li><strong>Kriya (6):</strong> Kapalabhati, Neti, Trataka, Nauli, Dhouti, Vasti. <strong>Shatkarma (6):</strong> Neti, Dhauti, Basti, Nauli, Bhastrika, Kapalabhati &mdash; only <strong>Trataka</strong> has no equivalent.</li>
+    <li><strong>Japa</strong> = spoken repetition; <strong>Ajapa</strong> = silent, automatic repetition.</li>
+    <li>Never force an asana; never hold a breath beyond capacity; never compel anyone with a physical problem; never replace medical care.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p><span class="term">Asana</span> &middot; <span class="term">Pranayama</span> &middot; <span class="term">Mudra</span> &middot; <span class="term">Bandha</span> &middot; <span class="term">Kriya</span> &middot; <span class="term">Shatkarma</span> &middot; <span class="term">Puraka</span> &middot; <span class="term">Kumbhaka</span> &middot; <span class="term">Rekika</span> &middot; <span class="term">Nishala</span> &middot; <span class="term">Japa</span> &middot; <span class="term">Ajapa</span> &middot; <span class="term">contraindication</span></p>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>Define asana, pranayama, mudra, bandha and kriya.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Name the six prone and the eight supine asanas of the syllabus.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Name the three pranayamas, the five mudras, the three bandhas and the six kriyas.</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Name the six shatkarmas and state which kriya has no shatkarma equivalent.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Describe Anulom-Vilom, Kapalabhati and Bhastrika with their benefits and precautions.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Describe any five asanas, giving the meaning of the name, the position, the benefits and the precaution of each.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain the three bandhas, the five mudras, and the six kriyas with their shatkarma equivalents.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Describe the twenty-three asanas of the syllabus, classified as prone, supine, standing and sitting, with the meaning of each name and one precaution for each.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>State and explain the precautions and contraindications a student-teacher must observe while teaching asana and pranayama.</p></div>
+  </div>
+</div>
+<!-- ============ UNIT 4 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-4"><span class="h2num">Unit 4</span>General and Therapeutic Benefits of Yoga</h2>
+
+  <p>Every claim in this unit has to be made carefully, because a syllabus that uses the word <em>therapeutic</em> is not claiming that yoga <em>cures</em>. The general benefits &mdash; steadier breathing, better posture, less tension, better sleep, a calmer mind &mdash; are well established. The therapeutic benefits are real but narrower, and they are <strong>complementary</strong>: yoga is something a person does <em>alongside</em> the care given by a doctor, not instead of it.</p>
+
+  <h3 id="s4-1">4.1 Supplemental, Compensatory, Regenerative Yoga and Power Yoga</h3>
+  <p>Health and physical-education syllabi sometimes classify a set of practices not by what it is, but by <strong>what it is doing for a particular body</strong>. The four categories named in the syllabus belong to this family, and they are the vocabulary a teacher uses when writing a training plan for a particular child or athlete.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 4.1 &mdash; The Four Special Categories of Yoga Practice</caption>
+      <thead><tr><th>Category</th><th>Meaning</th><th>What it is for</th><th>Typical practices</th><th>Used for</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Supplemental Yoga</strong></td>
+          <td>Yoga <em>added to</em> a person&rsquo;s main activity, to supply what that activity lacks</td>
+          <td>Adding flexibility, breathing, relaxation and concentration to a sport, a dance, a job of standing all day, or a long period of study</td>
+          <td>Sun salutation, standing forward bends, a standing asana sequence, Anulom-Vilom, Savasana</td>
+          <td>The athlete, the dancer, the student revising for four hours</td>
+        </tr>
+        <tr>
+          <td><strong>Compensatory Yoga</strong></td>
+          <td>Yoga that <em>balances out</em> a known strain the main activity puts on one particular part of the body</td>
+          <td>Undoing the specific damage a repeated movement or posture has caused</td>
+          <td>Backward bends and shoulder-opening postures for those who sit hunched; leg and hip openers for cyclists; wrist and shoulder care for keyboard users</td>
+          <td>The typist with a stiff neck, the cyclist with a short hamstring, the child with a rounded back</td>
+        </tr>
+        <tr>
+          <td><strong>Regenerative Yoga</strong></td>
+          <td>Yoga that <em>restores</em> strength, energy and health after illness, injury, exhaustion or overwork</td>
+          <td>Rebuilding the body&rsquo;s reserve after it has been depleted; the slow, supported, restful end of the practice</td>
+          <td>Restorative postures supported by blankets, chairs and bolsters; gentle seated and supine asanas; Savasana; slow Anulom-Vilom; deep relaxation</td>
+          <td>Post-operative recovery on medical advice, chronic fatigue, convalescence, the exhausted teacher, the elderly</td>
+        </tr>
+        <tr>
+          <td><strong>Power Yoga</strong></td>
+          <td>A modern, athletic and vigorous form of asana, itself derived from Hatha Yoga</td>
+          <td>Strength, stamina, flexibility and heat-building; breath, attention and body trained together</td>
+          <td>Flowing sequences held for several breaths, the Sun Salutation as a cardiovascular warm-up, core-strengthening postures, arm-balance preparations</td>
+          <td>Fitness training for older adolescents and adults; <strong>not</strong> an appropriate practice for primary children without a trained teacher</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p><strong>Power Yoga</strong> is a modern, vigorous, largely secular fitness form, and not a classical limb or a separate school of yoga in the way Raja and Hatha are. It should not be confused with <em>Raja Yoga</em>, from which it shares only a letter, and it is not what a Class III child should be asked to do. For the young, gentle asana and <em>Anulom-Vilom</em> are the right practice.</p>
+
+  <h3 id="s4-2">4.2 Therapeutic Benefits in Lifestyle Diseases</h3>
+  <p>The syllabus names five conditions: <strong>anxiety, depression, obesity, hypertension and diabetes</strong>. Together these are called <em>lifestyle diseases</em>, because they are largely products of how a person lives &mdash; stress, sedentary habit, poor diet, insufficient activity &mdash; and that is precisely where yoga is relevant. A lifestyle disease is the one kind of illness for which a daily ten-minute habit can genuinely help, because the cause and the treatment overlap.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 4.2 &mdash; The Five Lifestyle Diseases of the Syllabus, and the Honest Position on Yoga</caption>
+      <thead><tr><th>Condition</th><th>What practice can reasonably be expected to help with</th><th>Where the evidence is still developing</th><th>What a teacher must say</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Anxiety</strong></td>
+          <td>Slow breathing with a longer out-breath (Anulom-Vilom) calms the nervous system; mindfulness and meditation reduce rumination; asana releases muscular tension held during stress</td>
+          <td>Comparative effects against other established relaxation methods</td>
+          <td>&ldquo;Yoga helps you manage the physical symptoms of anxiety. It is not a replacement for the counselling or the medicine your doctor has prescribed.&rdquo;</td>
+        </tr>
+        <tr>
+          <td><strong>Depression</strong></td>
+          <td>Improves sleep and appetite, lifts mood, reduces withdrawal and self-neglect, restores energy, and strengthens the social contact that group practice itself provides</td>
+          <td><strong>Yoga is not a treatment for depression.</strong> Studies support it as an <em>add-on</em> to professional care in mild and moderate cases</td>
+          <td>&ldquo;Yoga can support you alongside the care your doctor gives you. Depression is a medical condition and must be treated by a qualified practitioner.&rdquo;</td>
+        </tr>
+        <tr>
+          <td><strong>Obesity</strong></td>
+          <td>Improves body awareness and eating habits, reduces stress-eating, tones and lengthens the muscles, improves digestion, and makes moderate exercise easier to sustain</td>
+          <td>Yoga on its own produces <strong>less</strong> weight loss than diet change and aerobic exercise. It is a support, not a solution</td>
+          <td>&ldquo;Yoga will help you feel better in and about your body, and it makes other healthy habits easier. It is not a weight-loss programme by itself.&rdquo;</td>
+        </tr>
+        <tr>
+          <td><strong>Hypertension</strong></td>
+          <td>Slow regular breathing with relaxation is well established in helping to <em>lower</em> blood pressure; meditation and asana reduce the stress response and the resting heart rate</td>
+          <td>Breath practices and meditation are among the <strong>better-evidenced</strong> non-drug approaches to lowering blood pressure</td>
+          <td>&ldquo;Regular relaxation and breathing practice will help your blood pressure. Keep taking every medicine your doctor has given you.&rdquo;</td>
+        </tr>
+        <tr>
+          <td><strong>Diabetes</strong></td>
+          <td>Regular asana and pranayama have been associated with better control of blood sugar, improved sensitivity to insulin, healthier body weight and lower blood pressure in Type 2 diabetes</td>
+          <td><strong>Yoga does not cure diabetes and is not a substitute for insulin or diabetic diet.</strong> Some poses need adapting in long-standing diabetes because of neuropathy</td>
+          <td>&ldquo;Yoga supports your health and your blood sugar, but your medicine and your diet are what keep you safe. Never change or stop your diabetes treatment because of yoga.&rdquo;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>For a five-mark answer on this point the structure that scores is: (i) name the condition; (ii) name the specific practices that help and say <em>how</em>; (iii) state the honest limit &mdash; yoga is complementary, not curative; (iv) state that prescribed medication and medical advice continue unchanged. All four elements earn full marks, and the fourth is the one most often forgotten.</p>
+
+  <h3 id="s4-3">4.3 Yoga and Self-Actualisation</h3>
+  <p><strong>Self-actualisation</strong> means a person living in accordance with the best of their own nature &mdash; aware of what they truly are, choosing it freely and expressing it in action, rather than living according to fear, comparison and habit. In Indian thought the corresponding idea is <em>attaining the Self</em>: Patanjali&rsquo;s yoga exists so that a person may be free from the restless waves of the mind and see clearly what is real.</p>
+
+  <p>The connection runs through the four limbs that concern the mind: <strong>pratyahara</strong> turns the senses inward, away from the constant demand of the outside world; <strong>dharana</strong> holds the mind on a single point, the first act of self-direction; <strong>dhyana</strong> sustains that holding, so that the person acts from a centred place rather than a scattered one; and <strong>samadhi</strong> is the state in which the person knows, rather than merely believes, who they are. Behind all of it stand the ten ethical disciplines of <em>yama</em> and <em>niyama</em>, without which the inner work becomes self-serving.</p>
+
+  <div class="tw tkeep">
+    <table class="compact">
+      <caption>Table 4.3 &mdash; How Each Practice Bears on Self-Actualisation</caption>
+      <thead><tr><th>Practice</th><th>What it removes</th><th>What it builds</th><th>In school, this looks like</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Yama and Niyama</strong></td><td>Greed, dishonesty, anger, competitiveness, laziness</td><td>Character; the ability to keep a promise to oneself</td><td>A child who does not cheat or grab, tells the truth when it costs her, and finishes what she starts</td></tr>
+        <tr><td><strong>Asana</strong></td><td>Physical restlessness, slouch, chronic fatigue</td><td>Alertness, self-discipline, a settled physical presence</td><td>Children who sit up to listen, because their bodies are not hurting them</td></tr>
+        <tr><td><strong>Pranayama</strong></td><td>Panic, shallow breathing, the physiological signs of fear</td><td>Emotional control; the ability to remain calm under pressure</td><td>A child who can sit down and breathe before an examination, instead of losing her hands</td></tr>
+        <tr><td><strong>Pratyahara</strong></td><td>Compulsion to react to every sight, sound and notice</td><td>The capacity to choose what to attend to</td><td>Children who can play, work and study without being pulled away by everything</td></tr>
+        <tr><td><strong>Dharana and Dhyana</strong></td><td>Scattered attention, the inability to stay with one thing</td><td>Concentration, insight, self-knowledge</td><td>The Class III child who can hold attention to a story or a sum for ten minutes</td></tr>
+        <tr><td><strong>Samadhi</strong></td><td>The sense of being made of nothing but thought and its objects</td><td>The realisation of a stable, witnessing Self</td><td>Not a classroom objective; the distant horizon of the practice</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="s4-4">4.4 Effects of Yoga on the Six Systems of the Human Body</h3>
+  <p>Yoga is described as <em>holistic</em> because it acts on the body as a whole rather than on one organ. To demonstrate that claim in an examination it must be shown system by system. The syllabus names six: the <strong>circulatory</strong>, <strong>musculoskeletal</strong>, <strong>digestive</strong>, <strong>nervous</strong>, <strong>respiratory</strong> and <strong>excretory</strong> systems. For each, give (i) what the system does, (ii) which practices act on it, (iii) the effect, and (iv) one observable sign in the classroom.</p>
+
+  <div class="tw">
+    <table class="compact">
+      <caption>Table 4.4 &mdash; Effects of Yoga on the Six Systems of the Human Body</caption>
+      <thead><tr><th>System</th><th>What it does</th><th>Practices that act on it</th><th>Effects of regular practice</th><th>Observable in class</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Circulatory</strong><br><span class="footnote">heart, blood, vessels</span></td>
+          <td>Pumps blood round the body, carrying oxygen and nutrients and removing waste</td>
+          <td>Pranayama, especially Anulom-Vilom; Savasana; Uddiyana Bandha; regular asana</td>
+          <td>Strengthens the heart muscle; steadies and moderates the heartbeat; supports healthy blood pressure; improves circulation to the extremities; reduces the resting heart rate</td>
+          <td>Children who are less breathless running up the school stairs and recover faster after play</td>
+        </tr>
+        <tr>
+          <td><strong>Musculoskeletal</strong><br><span class="footnote">bones, joints, muscles, spine</span></td>
+          <td>Gives the body its structure, support and movement</td>
+          <td>All asanas; Surya Namaskar; Padahastasana; Bhujangasana; Dhanurasana; Vrikshasana</td>
+          <td>Increases flexibility of spine, hips and hamstrings; builds strength and endurance in back, abdomen and legs; improves balance; corrects forward-head and rounded-shoulder posture; relieves ordinary backache</td>
+          <td>Children who sit up straight to answer a question</td>
+        </tr>
+        <tr>
+          <td><strong>Digestive</strong></td>
+          <td>Breaks food down, absorbs it, and removes the waste</td>
+          <td>Uddiyana Bandha; Bhastrika; Nauli; Pawanmuktasana; Surya Namaskar; the shatkarmas generally</td>
+          <td>Improves appetite and digestion; regulates the bowel; relieves bloating, wind and constipation; tones the abdominal muscles</td>
+          <td>Fewer tummy aches before lunch, and fewer children sent home ill</td>
+        </tr>
+        <tr>
+          <td><strong>Nervous</strong></td>
+          <td>Receives information, interprets it, and directs the body&rsquo;s response</td>
+          <td>Dhyana; Pratyahara; Anulom-Vilom; Savasana; the slower restorative asanas</td>
+          <td>Calms the nervous system; reduces restlessness, anxiety and irritability; improves sleep quality and the ability to concentrate; sharpens alertness rather than dulling it</td>
+          <td>A noticeably quieter classroom, and children who can hold still when told to</td>
+        </tr>
+        <tr>
+          <td><strong>Respiratory</strong></td>
+          <td>Brings in oxygen and removes carbon dioxide</td>
+          <td>Kapalabhati; Bhastrika; Anulom-Vilom; Makarasana; Bhujangasana; Sarpasana</td>
+          <td>Increases the depth and capacity of breathing; strengthens the diaphragm and the muscles between the ribs; improves the cough; cleanses the nasal passages and the lungs</td>
+          <td>Children who can read aloud at the back of the room without straining</td>
+        </tr>
+        <tr>
+          <td><strong>Excretory</strong></td>
+          <td>Removes the waste products of metabolism from the body</td>
+          <td>Asanas generally &mdash; trunk movement, twisting and bending postures; Uddiyana and Mula Bandha; Pawanmuktasana</td>
+          <td>Improves bowel movement; assists the kidneys in eliminating fluid; helps in the regular emptying of the bladder; traditionally credited with the reduction of piles</td>
+          <td>Fewer requests to leave the classroom mid-lesson</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="review">
+  <h4>Unit 4 Review</h4>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li><strong>Supplemental</strong> adds what an activity lacks; <strong>compensatory</strong> balances a specific strain; <strong>regenerative</strong> restores after depletion; <strong>power</strong> builds strength and stamina.</li>
+    <li>Power Yoga is a modern vigorous fitness form, not a classical school, and not to be confused with Raja Yoga.</li>
+    <li>Five conditions: <strong>anxiety, depression, obesity, hypertension, diabetes</strong> &mdash; in all of them yoga is <em>complementary and supportive</em>, not curative, and never a replacement for medication.</li>
+    <li>Self-actualisation runs through <em>pratyahara &rarr; dharana &rarr; dhyana &rarr; samadhi</em>, on the ethical base of <em>yama</em> and <em>niyama</em>.</li>
+    <li>Six systems: <strong>circulatory, musculoskeletal, digestive, nervous, respiratory, excretory</strong>.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p><span class="term">Supplemental</span> &middot; <span class="term">Compensatory</span> &middot; <span class="term">Regenerative</span> &middot; <span class="term">Power Yoga</span> &middot; <span class="term">lifestyle disease</span> &middot; <span class="term">complementary</span> &middot; <span class="term">self-actualisation</span> &middot; <span class="term">holistic</span></p>
+  <h5>Practice Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>What are supplemental, compensatory and regenerative yoga? What is Power Yoga?</p></div>
+    <div class="q v"><span class="qt">VSA</span><p>Name the five lifestyle diseases and the six systems of the body.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Describe the therapeutic benefits of yoga in anxiety and in hypertension, and state the limit of these claims.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain the relationship between yoga and self-actualisation.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Discuss the therapeutic value of yoga in the five lifestyle diseases, showing that it is complementary to and not a substitute for medical care, and describe its effects on the six systems of the body.</p></div>
+  </div>
+</div>
+<!-- ============ PRACTICUM ============ -->
+
+<h2 id="practicum"><span class="h2num">Practicum</span>Field Tasks and Practical Work</h2>
+
+<p>Because internal assessment carries thirty of the fifty marks, the practicum is not an appendix to this paper &mdash; it is most of the paper. The syllabus divides it into two parts: <strong>Practicum (a), five marks</strong>, for a field visit, report or interview, of which <strong>any one</strong> is to be attempted; and <strong>Practicum (b), ten marks</strong>, for a daily and weekly programme of actual practice. Both are documented, and the mentor is required to keep a record of your performance in the practical sessions.</p>
+
+<h3 id="prac-a">Practicum (a) &mdash; Field Visit, Reporting or Interview: Any One (5 marks)</h3>
+
+<p>Four options are offered and <strong>any one</strong> is to be attempted. Choose the option the college can actually arrange, and choose early &mdash; a field visit has to be fixed with a yoga centre weeks in advance, and an interview has to be arranged with a person willing to be questioned.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table P.1 &mdash; The Four Options of Practicum (a), Any One to Be Attempted (5 marks)</caption>
+    <thead><tr><th>Option</th><th>What you must do</th><th>What your report must contain</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1. Field visit</strong><br>Visit a yoga centre and write a report</td><td>Visit a yoga centre, gymnasium, school yoga room or ashram that teaches asana. Arrange it through your mentor, in advance.</td><td>Name, address and nature of the centre; date and time; the postures and practices you watched; the teaching style and qualifications of the teacher; the space and equipment; five points of what you learned; and a paragraph on the difference between what you saw and what you had expected</td></tr>
+      <tr><td><strong>2. Interview</strong><br>Interview a yoga practitioner and report on the benefits</td><td>Interview a practitioner, local or visiting. Prepare ten to twelve open questions in advance, get permission to record, and take notes.</td><td>Name, age, training, years of practice and present occupation; the specific benefits reported, with an example for each; any limitation mentioned; and your own honest assessment of how far each reported benefit is convincing to you</td></tr>
+      <tr><td><strong>3. Demonstration</strong><br>Demonstrate any five asanas before the peer group and write a report</td><td>Choose five asanas from the syllabus, demonstrate each to your classmates, and submit a written report.</td><td>The five asanas with the meaning of each name; the order of demonstration; the duration; the benefits and precaution of each; the response of the group; your own mistakes and how you corrected them; and how you would simplify the same five for a Class III child</td></tr>
+      <tr><td><strong>4. Report on International Yoga Day</strong><br>Write about the day observed on 21 June in the district</td><td>Find out what was done in your district, block or school on 21 June, and write about it.</td><td>Date, venue, organiser and programme; the number and age range of participants; which activities were performed; the cultural programme; newspaper or notice-board evidence; and your own suggestions for next year</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="iyd">International Yoga Day &mdash; 21 June</h3>
+<p><strong>The International Day of Yoga</strong> is observed on <strong>21 June</strong> every year, the first official United Nations observance having been held in <strong>2015</strong>. In September 2014, at the 69th session of the <strong>United Nations General Assembly</strong>, India proposed an international day for yoga; the draft resolution was adopted unanimously and the Assembly declared 21 June the International Day of Yoga. The date was chosen because it is the day of <em>dakshinayana</em> in the Indian solar calendar &mdash; the turning of the sun into the northern hemisphere, the longest day of the year, and the day in the classical tradition best suited to practice.</p>
+
+<p>Since then, 21 June has been marked in India by mass programmes of asana and pranayama in schools, colleges, universities, public offices, army cantonments, villages and colonies, and by International Yoga Seminars. In Assam the day is commonly observed in schools, colleges and community halls, and the district administration and the health department often organise public sessions. If you are asked to conduct one yourself: a mat per participant, a safe open space, a ten-minute sequence, and a clear instruction that anyone with a physical problem may simply sit and breathe.</p>
+
+<div class="card ex">
+  <span class="lbl">Example</span>
+  <p>The shape of a report you could actually submit: <em>&ldquo;Report on the International Day of Yoga, 21 June, observed at ______, in the district of ______. The programme began at 8.30 a.m. with a short address by the headmaster, followed by a ten-minute session of Anulom-Vilom, Bhastrika and Surya Namaskar led by the physical-education teacher. A total of ______ students of Classes I&ndash;VIII and ______ teachers took part. Pupils with asthma, back pain or recent injury were advised to sit and perform only Anulom-Vilom. The session concluded with five minutes of quiet sitting in Savasana. Photographs and the notice-board entry are annexed.&rdquo;</em></p>
+</div>
+
+<h3 id="prac-b">Practicum (b) &mdash; The Daily and Weekly Practical Programme (10 marks)</h3>
+<p>The syllabus sets three concrete requirements. They are not optional, and the mentor is required to note down your performance during the practical sessions. Write them into your daily timetable now, in the same place you write your other study hours.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table P.2 &mdash; The Three Practical Requirements of the Syllabus</caption>
+    <thead><tr><th>Requirement</th><th>Frequency and duration</th><th>Content</th><th>Evidence to submit</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Morning assembly</strong></td>
+        <td>Every day, in the morning assembly, for <strong>at least 10 minutes</strong></td>
+        <td><strong>Pranayama &mdash; Anulom-Vilom, Kapalabhati, Bhastrika &mdash; and Meditation</strong>, in the order given by the syllabus</td>
+        <td>A daily register signed by the mentor, and your own dated practice diary</td>
+      </tr>
+      <tr>
+        <td><strong>2. Asana session</strong></td>
+        <td><strong>At least 5 asanas</strong> in the morning or evening session, <strong>every week</strong>, as per the timetable</td>
+        <td>Any five asanas from the syllabus, preceded by a warm-up and followed by Savasana. Rotate the five so that by the end of the semester you have practised all twenty-three</td>
+        <td>Weekly timetable followed, weekly list of the five asanas practised, mentor&rsquo;s performance notes</td>
+      </tr>
+      <tr>
+        <td><strong>3. Demonstration in the TEI</strong></td>
+        <td>At least <strong>half a day</strong> during Semester 1</td>
+        <td>A demonstration of yogasana with a warm-up, a main set, a breathing sequence, a cool-down and a closing meditation &mdash; and an explicit safety briefing at the start</td>
+        <td>A programme schedule, the list of participants, a written report and, if permitted, photographs</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Running the half-day demonstration is not difficult if you plan it in this order. <strong>First 15 minutes:</strong> welcome, the safety briefing, the statement that anyone with a physical problem may sit out any posture, and the warm-up. <strong>Next 20 minutes:</strong> standing asanas &mdash; Tadasana, Vrikshasana, Ardha Chakrasana, Padahastasana. <strong>Next 20 minutes:</strong> prone and supine &mdash; Bhujangasana, Dhanurasana, Makarasana, Setubandhasana, and Sarvangasana or Ardha Halasana, offering the seated version for anyone who cannot invert. <strong>Next 20 minutes:</strong> sitting &mdash; Sukhasana, Ardha Padmasana, Padmasana, Vajrasana, Dandasana. <strong>Next 20 minutes:</strong> breathing &mdash; Anulom-Vilom, then a gentle Bhastrika, with Kapalabhati offered only to those who want it. <strong>Final 15 minutes:</strong> Surya Namaskar at a slow pace, then Savasana in silence, then closing. Keep a mat spacing of at least one arm-length between participants.</p>
+
+<!-- ============ INTERNAL ASSESSMENT ============ -->
+
+<h2 id="assessment"><span class="h2num">Assessment</span>Internal Assessment &mdash; 30 Marks</h2>
+
+<p>Thirty of the fifty marks in this paper are earned during the semester, and the scheme is set out in the syllabus. Two of the four components are entirely practical: you cannot produce them by revising.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table A.1 &mdash; Internal Assessment Components (30 marks)</caption>
+    <thead><tr><th>Component</th><th>Marks</th><th>What it assesses</th><th>How to secure it</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Assignments</strong></td><td>5</td><td>Class assignments given by the faculty &mdash; written work, descriptions of postures, short essays, question sets on the units</td><td>Attempt every assignment. Neat handwriting, correct terminology, no copying, and submission on the due date</td></tr>
+      <tr><td><strong>Practicum and Interview</strong></td><td>5</td><td>Any one of the four practicum (a) tasks &mdash; field visit, interview, demonstration report or International Yoga Day report &mdash; with a written report and, where relevant, a viva</td><td>Collect real data in the field; attach evidence; write a report that shows observation as distinct from opinion</td></tr>
+      <tr><td><strong>Unit Tests</strong></td><td>10</td><td>Knowledge of the four units &mdash; definitions, the eight limbs, the six Hatha limbs, the asanas, pranayamas, mudras, bandhas, kriyas, benefits and precautions</td><td>Learn the lists. Most of the paper is naming and meaning, and the lists in Units 2 and 3 are the examination spine of the subject</td></tr>
+      <tr><td><strong>SIP Activity</strong></td><td>10</td><td>Organisation of yoga during the School Internship Project, including the community survey of persons treated by yoga therapy</td><td>Take the SIP seriously: the asana sessions, the records, the data collection and the final report are all examinable</td></tr>
+      <tr><td><strong>Total</strong></td><td><strong>30</strong></td><td colspan="2">Of a total of 50 marks; the external theory paper carries the remaining 20</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ QUICK SUBJECT REVISION ============ -->
+<h2 id="revision"><span class="h2num">Revision</span>Quick Subject Revision</h2>
+
+<p><strong>20 external marks over four units of five, plus 30 internal marks earned by doing.</strong> The whole paper is governed by one idea: yoga is a secular, accessible, Indian-rooted system of health and mind-culture that a teacher must be able to practise safely before being able to teach it, and that is complementary to medical care and never a substitute for it.</p>
+
+<h3>Unit-wise key facts</h3>
+<ul class="bul">
+  <li><strong>Unit 1</strong> &mdash; <em>yuj</em> + <em>-a</em> &rarr; &ldquo;that which yokes&rdquo;. Patanjali: <em>citta-vrtti-nirodha</em>, the stilling of the mind. Goal: samadhi. Textual order: Rigveda &rarr; Atharvaveda &rarr; Upanishads &rarr; Bhagavad Gita (chs. 5, 6, 8) &rarr; Patanjali&rsquo;s <em>Yoga Sutras</em> &rarr; Hatha classics (15th c.) &rarr; modern revival. Patanjali c. 200 BCE&ndash;200 CE, disputed. Scope: horizontal (six forms) and vertical (body &rarr; mind &rarr; conduct). Age: <strong>before 5</strong> light stretching, light yogic exercise, balancing; <strong>from 5</strong> asana and meditation; <strong>from 8</strong> pranayama and other activities.</li>
+  <li><strong>Unit 2</strong> &mdash; Eight limbs: <strong>Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana, Samadhi</strong> (first five external, last three internal). Six Hatha limbs: <strong>Shatkarma, Asana, Pranayama, Pratyahara, Dhyana, Samadhi</strong>. Six shatkarmas: neti, dhauti, basti, nauli, bhastrika, kapalabhati. Four paths of the Gita: Karma, Jnana, Bhakti, Raja Yoga proper &mdash; a division by temperament, not by rank. Hatha is the preparation, Raja the aim.</li>
+  <li><strong>Unit 3</strong> &mdash; Prone: <strong>Makarasana, Bhujangasana, Shalabhasana, Ardha Shalabhasana, Sarpasana, Dhanurasana</strong>. Supine: <strong>Savasana, Uttanapadasana, Setubandhasana, Sarvangasana, Halasana, Ardha Halasana, Chakrasana, Pawanmuktasana</strong>. Standing: <strong>Tadasana, Ardha Chakrasana, Padahastasana, Vrikshasana</strong>. Sitting: <strong>Sukhasana, Padmasana, Ardha Padmasana, Vajrasana, Dandasana</strong>. Plus Surya Namaskar, twelve steps. Pranayama 3: <strong>Anulom-Vilom, Kapalabhati, Bhastrika</strong>. Mudra 5: <strong>Gyan, Dhyan, Chin, Anjali, Buddhi</strong>. Bandha 3: <strong>Jalandhara, Uddiyana, Mula</strong> (top, middle, bottom). Kriya 6: <strong>Kapalabhati, Neti, Trataka, Nauli, Dhouti, Vasti</strong>. Japa = spoken repetition, ajapa = silent automatic repetition.</li>
+  <li><strong>Unit 4</strong> &mdash; Supplemental adds, compensatory balances a strain, regenerative restores, power builds strength. Five lifestyle diseases: <strong>anxiety, depression, obesity, hypertension, diabetes</strong> &mdash; all complementary. Self-actualisation runs through <em>pratyahara &rarr; dharana &rarr; dhyana &rarr; samadhi</em>. Six systems: <strong>circulatory, musculoskeletal, digestive, nervous, respiratory, excretory</strong>.</li>
+</ul>
+
+<h3>Essential definitions</h3>
+<p><span class="term">Yoga (Patanjali)</span> &mdash; the stilling of the fluctuations of the mind, <em>citta-vrtti-nirodha</em>. &middot; <span class="term">Asana</span> &mdash; a steady, comfortable posture held without effort. &middot; <span class="term">Pranayama</span> &mdash; the extension, regulation and control of breath. &middot; <span class="term">Mudra</span> &mdash; a seal; a deliberate arrangement of the hands and fingers. &middot; <span class="term">Bandha</span> &mdash; a lock; a deliberate muscular engagement. &middot; <span class="term">Kriya</span> &mdash; a purposeful action; here, a cleansing practice. &middot; <span class="term">Shatkarma</span> &mdash; one of the six acts of purification. &middot; <span class="term">Samadhi</span> &mdash; absorption, in which meditator, act and object have merged. &middot; <span class="term">Japa / Ajapa</span> &mdash; spoken / silent automatic repetition. &middot; <span class="term">Contraindication</span> &mdash; a condition in which a practice should not be performed. &middot; <span class="term">Complementary care</span> &mdash; practice that supports, and does not replace, medical treatment.</p>
+
+<h3>Important names, texts and dates</h3>
+<ul class="bul">
+  <li><strong>Patanjali</strong> &mdash; <em>Yoga Sutras</em>, c. 200 BCE&ndash;200 CE (disputed); the eight limbs; yoga as stilling of the mind; the goal of samadhi.</li>
+  <li><strong>The Vedas</strong> &mdash; <em>Rigveda</em> and <em>Atharvaveda</em>, where <em>yoga</em> appears in its literal sense of yoking.</li>
+  <li><strong>The Upanishads</strong> &mdash; especially the <em>Yoga Shikha</em>, <em>Yoga Yajnavalkya</em>, <em>Shandilya</em> and <em>Darshana</em> Upanishads.</li>
+  <li><strong>The Bhagavad Gita</strong> &mdash; chapters 5, 6, 8 and 12; the source of the paths of Karma, Jnana, Bhakti and Raja Yoga.</li>
+  <li><strong>Svatmarama</strong> &mdash; <em>Hatha Yoga Pradipika</em>, fifteenth century; source of the six Hatha limbs. With it, the <em>Gheranda Samhita</em> and the <em>Shiva Samhita</em>.</li>
+  <li><strong>Swami Vivekananda</strong> &mdash; his classification of Raja Yoga into Jnana, Karma, Bhakti and Yoga proper.</li>
+  <li><strong>B. K. S. Iyengar</strong> and <strong>T. Krishnamacharya</strong> &mdash; the twentieth-century revival of asana in Indian schools and abroad. With them, Sri Aurobindo, Dhirananda Saraswati, Swami Satyananda Saraswati and I. K. Taimani.</li>
+  <li><strong>United Nations General Assembly, 2014&ndash;15</strong> &mdash; the resolution establishing the International Day of Yoga on 21 June, first observed in 2015.</li>
+</ul>
+
+<h3>Essential practical requirements</h3>
+<ul class="bul">
+  <li><strong>Practicum (a), 5 marks</strong> &mdash; any one of: field visit with report, interview with report, demonstration of five asanas with report, or a report on International Yoga Day.</li>
+  <li><strong>Practicum (b), 10 marks</strong> &mdash; daily assembly practice of Anulom-Vilom, Kapalabhati, Bhastrika and meditation for at least ten minutes; at least five asanas every week; a demonstration of yogasana in the TEI for at least half a day in Semester 1. The mentor records your performance.</li>
+  <li><strong>Internal 30</strong> &mdash; assignments 5, practicum and interview 5, unit tests 10, SIP 10.</li>
+  <li><strong>Four rules</strong> &mdash; never force an asana; never hold a breath beyond capacity; never compel anyone with a physical problem; never replace medical care.</li>
+</ul>
+<!-- ============ IMPORTANT DIFFERENCES ============ -->
+
+<h2 id="differences"><span class="h2num">Reference</span>Important Differences</h2>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table D.1 &mdash; The Comparisons Examiners Ask For</caption>
+    <thead><tr><th>Basis</th><th>A</th><th>B</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Raja Yoga vs Hatha Yoga</strong></td><td>Raja is the discipline of the <em>mind</em>, the eight-limbed path, aiming at samadhi</td><td>Hatha is the discipline of the <em>body</em>, the six-limbed path with purification first &mdash; the preparation for Raja</td></tr>
+      <tr><td><strong>Eight limbs vs six limbs</strong></td><td>Ashtanga (Raja): Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana, Samadhi</td><td>Hatha: Shatkarma, Asana, Pranayama, Pratyahara, Dhyana, Samadhi. The extra limb is purification, placed first</td></tr>
+      <tr><td><strong>Japa vs Ajapa</strong></td><td>Spoken, effortful repetition with the mind held on the sound</td><td>Silent, automatic repetition that continues of its own accord</td></tr>
+      <tr><td><strong>Shatkarma list vs syllabus kriya list</strong></td><td>Neti, Dhauti, Basti, Nauli, Bhastrika, Kapalabhati</td><td>Kapalabhati, Neti, Trataka, Nauli, Dhouti, Vasti. Dhouti = Dhauti, Vasti = Basti, and <strong>Trataka is the only name with no shatkarma equivalent</strong></td></tr>
+      <tr><td><strong>Supplemental vs compensatory vs regenerative</strong></td><td>Supplemental supplies what a main activity lacks; compensatory balances a specific strain it has caused</td><td>Regenerative restores strength and energy after depletion. All three are practices <em>added</em> to something; they differ in purpose, not in kind</td></tr>
+      <tr><td><strong>Power Yoga vs Raja Yoga</strong></td><td>Power Yoga is a modern vigorous fitness form derived from Hatha, for adolescents and adults</td><td>Raja Yoga is a classical mental discipline of the eight limbs. They share only a letter</td></tr>
+      <tr><td><strong>Yoking vs union</strong></td><td><em>Yoga</em> literally means &ldquo;that which yokes or joins&rdquo;, from the root <em>yuj</em></td><td>&ldquo;Union of body, mind and soul&rdquo; is a popular paraphrase, not a translation</td></tr>
+      <tr><td><strong>Asana vs exercise</strong></td><td>An asana is defined by Patanjali as a position of <em>effortless</em> steadiness</td><td>Exercise is defined by exertion. A posture is not a competition and is not measured by how hard it hurts</td></tr>
+      <tr><td><strong>Yoga vs medicine</strong></td><td>Yoga is a practice of health and mind-culture within one&rsquo;s own daily life</td><td>Medicine is diagnosis and treatment by a qualified practitioner. Yoga is complementary and never a substitute</td></tr>
+      <tr><td><strong>Yoga vs religion in the school</strong></td><td>Yoga has deep roots in Vedic and Vedantic tradition</td><td>What the school teaches is the secular health-and-wellbeing system built on those roots; no child is required to profess any belief in order to practise</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ COURSE INFORMATION ============ -->
+
+<h2 id="course-info"><span class="h2num">Course</span>Course Information</h2>
+
+<h3 id="objectives">Course Objectives</h3>
+<p>On completion of this course a candidate should be able to:</p>
+<ol class="num">
+  <li><strong>Explain yoga in its historical setting</strong> &mdash; its meaning, the classical definitions, its aims and objectives, its scope, the misconceptions attached to it, its importance within school education, and a brief history from the Vedic period to the present.</li>
+  <li><strong>Describe the various forms of yoga</strong> &mdash; Raja Yoga and the eight limbs of Ashtanga Yoga, Hatha Yoga and its limbs, the relationship between Hatha and Raja, and the paths of Karma, Jnana, Tantra and Bhakti Yoga.</li>
+  <li><strong>Demonstrate the practical content of yoga</strong> &mdash; the concept and correct performance of asanas, pranayamas, mudras, bandhas and kriyas, together with japa and ajapa, applying the principles and precautions of yoga safely to oneself and to children.</li>
+  <li><strong>Appreciate the general and therapeutic benefits of yoga</strong> &mdash; the supplemental, compensatory, regenerative and power forms of practice, the therapeutic value of yoga as a complementary practice, the relation of yoga to self-actualisation, and its effects on the six major systems of the human body.</li>
+</ol>
+
+<h3>Mode of Transaction</h3>
+<ul class="bul">
+  <li>Two to three periods a week, combining theory, demonstration and supervised practice.</li>
+  <li>Practice in the TEI in a group, with the mentor observing and recording performance.</li>
+  <li>Field visit, interview or demonstration for Practicum (a); daily assembly practice, a weekly asana session and a half-day demonstration for Practicum (b).</li>
+  <li>Yoga is taught as a <strong>secular</strong> system of health and mind-culture. No doctrine is taught and no child is required to profess a belief in order to practise.</li>
+</ul>
+
+<h3>Assessment Structure</h3>
+<ul class="bul">
+  <li>External theory examination: <strong>20 marks</strong>, four units of five marks each.</li>
+  <li>Internal assessment: <strong>30 marks</strong> &mdash; assignments 5, practicum and interview 5, unit tests 10, SIP activity 10.</li>
+  <li>Practical programme: <strong>15 marks</strong> across Practicum (a) and (b), documented by the mentor&rsquo;s performance notes.</li>
+  <li>Total: <strong>50 marks</strong> for 2 credits at 2&ndash;3 periods per week.</li>
+</ul>
+
+<h3>About This Paper</h3>
+<p>This paper sits inside <strong>Health and Physical Education</strong>, and its place there is not accidental. The syllabus puts it plainly: while the role of education on health has been widely acknowledged, the impact of <em>health on education</em> is often not recognised adequately. We readily accept that a well-taught child learns better; we do not readily accept that a child who sleeps badly, eats poorly, breathes shallowly or sits for six hours a day cannot be taught well at all. The paper also notes that a holistic understanding of yoga education, together with the therapeutic value of yoga practices, helps physiological and mental development.</p>
+<p>Yoga therefore arrives in the D.El.Ed not as an imported fitness craze but as a living Indian tradition with textual authority in the <em>Rigveda</em>, the <em>Upanishads</em>, the <em>Bhagavad Gita</em> and the <em>Yoga Sutras of Patanjali</em>. At the same time the school context is secular: the Constitution of India guarantees freedom of religion, and the school must teach yoga as a secular system of health and mind-culture with Indian roots, not as a religious rite.</p>
+
+  <p>Students of any faith, and students with none, practise the same asanas. The evidence supports describing yoga as supportive and worth practising; it does not support describing it as a cure, and these notes do not do that. The guiding motto is <strong>&ldquo;Prevention is better than Cure&rdquo;</strong> &mdash; what a child learns to do every morning for ten minutes is cheaper, kinder and more durable than what a doctor must do for him every month.</p>
+
+<!-- ============ MENTOR NOTES ============ -->
+
+<h2 id="mentor"><span class="h2num">Guidance</span>Instruction to Faculty and Mentor</h2>
+
+<p>The syllabus sets out explicit instructions to the faculty and mentor of this course. They matter as much to the student-teacher as to the teacher, because they define what good teaching of this subject means and because they tell you exactly what your mentor is watching for. They are reproduced here in substance.</p>
+
+<ol class="num">
+  <li><strong>Define the aims and objectives, and the benefits of continuous practice</strong> of the pranayamas and asanas. A pupil told to do an exercise without being told why will not do it; one sentence changes the quality of a year of practice.</li>
+  <li><strong>Discuss the principle of yoga and the precautions</strong> to be observed &mdash; the body&ndash;mind relationship, and the safety rules in Unit 3. Both belong in the first period of the course, not at the end of it.</li>
+  <li><strong>Advise student-teachers to wear comfortable clothes</strong> for asana. Clothing that restricts the waist, neck or knees makes a posture unsafe, and a student-teacher who has not worn suitable clothing cannot teach children what to wear.</li>
+  <li><strong>Not to compel student-teachers with reasonable physical problems to do asanas.</strong> This is the most important sentence in the list. Such a student must be allowed a modified practice, to sit and breathe, or to observe &mdash; without loss of marks and without comment from the class.</li>
+  <li><strong>Note down the performance during the practical sessions</strong> for assessment. Attendance is not performance; correct posture of the asana, correct breathing in the pranayama, steady attention in the meditation and safe handling of a modification are what is written down.</li>
+  <li><strong>Give class assignments</strong> &mdash; five of the thirty internal marks, and the only component a candidate controls entirely without a third party.</li>
+</ol>
+
+<!-- ============ READINGS ============ -->
+
+<h2 id="readings"><span class="h2num">Reference</span>Suggested Readings</h2>
+
+<p>The following readings are listed in the syllabus. The first group are the books the examination expects you to have used; the second are the national curriculum documents that frame the subject.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table R.1 &mdash; Books and Journals Named in the Syllabus</caption>
+    <thead><tr><th>Sl.</th><th>Reading</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><strong>Sound Health Through Yoga</strong> &mdash; Dr K. Chandrasekaran (1999)</td><td>Yoga as a means of health; the general benefits in Unit 4</td></tr>
+      <tr><td>2</td><td><strong>Asanas</strong> &mdash; Dr P. Mariayyah (1998)</td><td>A systematic asana text; the standard reference for Unit 3</td></tr>
+      <tr><td>3</td><td><strong>Patanjali Yoga Sutra</strong> &mdash; H. R. Nagendra and T. Mohan</td><td>Translation and commentary; the source of the eight limbs</td></tr>
+      <tr><td>4</td><td><strong>The Science of Yoga</strong> &mdash; I. K. Taimani (2001)</td><td>A physiological and psychological presentation; useful for 4.2 and 4.4</td></tr>
+      <tr><td>5</td><td><strong>The Art of Yoga</strong> &mdash; B. K. S. Iyengar (1985)</td><td>The best-known exposition of asana and pranayama practice</td></tr>
+      <tr><td>6</td><td><strong>An Introduction to Indian Philosophy</strong> &mdash; University of Calcutta</td><td>The philosophical background of the forms of yoga in Unit 2</td></tr>
+      <tr><td>7</td><td><strong>&ldquo;Asanas: Why and How&rdquo;</strong> &mdash; Sri O. P. Tiwari</td><td>A short practical article; good preparation for the demonstration</td></tr>
+      <tr><td>8</td><td><strong>The Complete Book of Yoga, Harmony of Body</strong> &mdash; Yog Vigyan Bharatiya Yog Sansthan</td><td>The classical systematic course; covers asana, pranayama, kriya, diet and lifestyle</td></tr>
+      <tr><td>9</td><td><strong>Yogic Therapy</strong> &mdash; Swami Kuvalayananda and Dr S. L. Vinekar (1963)</td><td>Yoga as a supportive therapeutic practice; read with the caution in 4.2</td></tr>
+      <tr><td>10</td><td><strong>Techniques of Yoga and Kriya</strong> &mdash; Swami Satyananda Saraswati</td><td>The principal modern book on the shatkarmas and kriyas</td></tr>
+      <tr><td>11</td><td><strong>All About Hinduism</strong> &mdash; Swami Sivananda</td><td>The cultural and religious background of the tradition</td></tr>
+      <tr><td>12</td><td><strong>The Yoga of Patanjali</strong> &mdash; Bhandarkar, Yardi M. R. (1979)</td><td>An older study of Patanjali and his system</td></tr>
+      <tr><td>13</td><td><strong>Yoga Mimamsa Journal</strong></td><td>The journal of the <em>Yogacharya Vidyodaya</em>; the place to look for current research</td></tr>
+      <tr><td>14</td><td><strong>Yoga Asanas: A Teacher&rsquo;s Guide</strong> &mdash; NCERT (1983)</td><td>Written for teachers; read this one first if you read only one</td></tr>
+      <tr><td>15</td><td><strong>Yog Jyoti</strong></td><td>In Assamese; part of the regional-language provision in the syllabus</td></tr>
+      <tr><td>16</td><td><strong>Yoga: An Instruction Booklet</strong> &mdash; Vivekananda Prakasan Trust, Chennai</td><td>A short, cheap, practical booklet</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tw tkeep">
+  <table class="compact">
+    <caption>Table R.2 &mdash; National Curriculum Documents Named in the Syllabus</caption>
+    <thead><tr><th>Document</th><th>What it contributes to this paper</th></tr></thead>
+    <tbody>
+      <tr><td><strong>NEP 2020</strong><br><span class="footnote">National Education Policy</span></td><td>Places physical education and sports on the <em>Foundational Stage</em> and makes the development of physical fitness, endurance, coordination and the ability to perform everyday tasks a curricular goal. It also brings Indian knowledge into the curriculum, which is precisely what yoga is</td></tr>
+      <tr><td><strong>NCF-FS 2022</strong><br><span class="footnote">National Curriculum Framework for the Foundational Stage</span></td><td>Covers roughly ages 3&ndash;8 &mdash; exactly the range in which the syllabus&rsquo;s age guidance operates. It emphasises physical activity, play and the formation of healthy habits in the first five years</td></tr>
+      <tr><td><strong>NCF-SE 2023</strong><br><span class="footnote">National Curriculum Framework for School Education</span></td><td>For the school stage; sets out the aim of physical education and of well-being, in which this paper sits</td></tr>
+    </tbody>
+  </table>
+</div>
+</article>
+</body>
+</html>

@@ -364,7 +364,7 @@
           "question": "Write one objective of ECCE.",
           "marks": 1,
           "answer": [
-            "To support the child’s holistic development through safe, caring and age-appropriate learning experiences."
+            "One objective of ECCE is to promote holistic development — physical, cognitive, language, socio-emotional and aesthetic-creativity — by providing care and education together in a safe, inclusive setting where children learn through play and activity rather than formal instruction."
           ],
           "status": "verified",
           "occurrences": [
@@ -389,14 +389,20 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2021-1-b",
           "question": "What is nurture?",
           "marks": 1,
           "answer": [
-            "Nurture refers to the environmental influences on development, including care, relationships, learning opportunities and living conditions."
+            "Nurture is the care, warmth, food, responsive attention and stimulation a child receives from the adults and surroundings around him after conception. It is the environmental half of the nature–nurture equation."
           ],
           "status": "verified",
           "occurrences": [
@@ -407,14 +413,20 @@
               "paper": "/downloads/pyqs/2021/s1-2-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-025",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2021-1-c",
           "question": "What is development milestone?",
           "marks": 1,
           "answer": [
-            "A developmental milestone is an observable skill or behaviour commonly emerging within an age range, such as walking or using early words; children vary in timing."
+            "A development milestone is a marker of typical development that most children reach by a given age — walking, first words, holding a crayon in a working grip. Milestones are used to watch a child's progress, never to label or rank him."
           ],
           "status": "verified",
           "occurrences": [
@@ -425,15 +437,20 @@
               "paper": "/downloads/pyqs/2021/s1-2-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-026",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2021-2",
           "question": "Mention two challenges of ECCE.",
           "marks": 2,
           "answer": [
-            "Unequal access to safe, well-resourced centres can exclude children from quality early learning.",
-            "Inadequate preparation and support for educators can lead to rote instruction instead of responsive, age-appropriate experiences."
+            "- Staffing and training. Most centres run on one or two functionaries for a large group, and many have had no training in early childhood care and education at all. The recognised ratio is one adult to about ten children; below that the session becomes crowd control, so the number of children must be reduced instead.\n- Formal instruction pushed down. Parents often ask for letters and numbers in the first term because they believe that is what school means, and then a small room starts running like a primary class."
           ],
           "status": "verified",
           "occurrences": [
@@ -444,7 +461,13 @@
               "paper": "/downloads/pyqs/2021/s1-2-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-039",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2021-7",
@@ -472,7 +495,7 @@
           "question": "What is the general objective of a holistic ECCE curriculum?",
           "marks": 1,
           "answer": [
-            "To promote integrated physical, cognitive, language, socio-emotional and creative development, rather than only early academic performance."
+            "The general objective is all-round development — physical, cognitive, linguistic, socio-emotional and aesthetic — through integrated learning and learning by doing, meeting the child where he is instead of pushing him towards a fixed standard."
           ],
           "status": "verified",
           "occurrences": [
@@ -483,14 +506,20 @@
               "paper": "/downloads/pyqs/2022/s1-2-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-019",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2022-1-d",
           "question": "Write two major agencies associated with ECCE.",
           "marks": 1,
           "answer": [
-            "National Council of Educational Research and Training (NCERT) and United Nations Children’s Fund (UNICEF)."
+            "- Integrated Child Development Services (ICDS), delivered through a network of Anganwadi centres.\n- National Institute of Child Development and Nutrition (NIPCCD), which coordinates and trains for that system.\nBoth work under the Ministry of Women and Child Development."
           ],
           "status": "verified",
           "occurrences": [
@@ -508,18 +537,27 @@
               "paper": "/downloads/pyqs/2024/s1-2-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2022-2",
           "question": "What are the early learning challenges? Discuss briefly four strategies to overcome these challenges.",
           "marks": 6,
           "answer": [
-            "Early learning challenges are barriers that limit a child’s access, participation or development, such as poor health or nutrition, an unfamiliar classroom language, inaccessible materials, limited opportunities for play or inappropriate academic pressure. They should not be treated simply as defects in the child.",
-            "Responsive teaching: observe interests and current abilities, then offer age-appropriate play, manageable challenges and individual support instead of uniform worksheets.",
-            "Accessible communication: use familiar languages, pictures, gestures and appropriate adaptations so children can understand and express ideas.",
-            "Supportive care: coordinate with families and relevant health or support services when needs are identified, while maintaining safe, predictable and caring classroom routines.",
-            "Home–centre partnership: exchange observations with caregivers, suggest feasible play and conversation at home, and address attendance or access barriers without blaming families. Review whether each strategy improves participation."
+            "Early learning challenges are the obstacles that stand between a child of three to six and the learning that age is capable of. Let me name the main ones, then give four strategies, each tied to a particular challenge.",
+            "The challenges\n- Early formal instruction: worksheets, rows, letters and numbers as subjects, recitation and unit tests, pushed down into years when the child should be playing.\n- Untrained teachers and scarce materials, which turn the room verbal and leave the child copying instead of doing.\n- Language mismatch: the child speaks a home language the teacher does not use, so comprehension — the condition of everything else — is missing.\n- Poverty, malnutrition, absence, sibling care and child work, which make the child physically unavailable for learning.\n- The absence of play space, either because the home is crowded and work-bound, or because the school yard is treated as a leftover.\n- Assessment done as testing — a test week, ranking, prizes — which teaches children that learning is a performance to be judged rather than something to be explored.",
+            "Four strategies",
+            "1. Protect play, and make it developmental rather than decorative. Give every day at least 25 to 30 minutes of uninterrupted free play and two or three guided-play episodes, with open-ended materials the children reach themselves — stones, sand, bangles, blocks, clay, a tray of water. Nothing goes on the shelf a four-year-old cannot open. This answers both formal instruction and material scarcity, because a tray of mixed bottle caps serves twenty children as well as an expensive catalogue set serves one.",
+            "2. Use the child's language, and treat the home as the first school. Greet each child in his own language, allow him to answer in any language he has, learn to pronounce his name correctly, keep rhymes, stories and counting games in the language he speaks best, and bring in the second language for the fun parts. Never interrupt a child's sentence to correct his grammar; a child whose sentences are constantly interrupted simply stops talking. This answers the language challenge and opens the channel home.",
+            "3. Work with families and the community, deliberately. Home visits with an interpreter where needed, an open day, a parent council, take-home activities in the family's language, and local people — a farmer, a potter, a grandmother — as guests in the room. Attendance, immunisation, sleep and feeding are followed up from the centre, because attendance at this age is a health indicator before it is an administrative one. This is where poverty and absence are actually met.",
+            "4. Train the teacher and redesign the room. An untrained teacher carries primary-school habits into a pre-primary room. So: orientation in the five domains and in play-based methods, one adult to about ten children in supervised activity, whole-class instruction abandoned below six in favour of groups of four to six, low shelves, clear floor space and zoned outdoor space supervised from a point of full visibility. And assessment by observation entered on the Holistic Progress Card, never by test or prize — which removes the last pressure that pushes formal instruction back in.",
+            "The four work together. Play without language support stays shallow; language support without family contact stops at the gate; and a trained teacher with no material has nothing to be trained for."
           ],
           "status": "verified",
           "occurrences": [
@@ -530,14 +568,20 @@
               "paper": "/downloads/pyqs/2022/s1-2-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-017",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-1-a",
           "question": "What is holistic development of a child?",
           "marks": 1,
           "answer": [
-            "Holistic development is the interconnected growth of physical, cognitive, language, socio-emotional and creative capacities, considering the child as a whole."
+            "Holistic development is growth in all five domains together — language, physical, cognitive, socio-emotional and aesthetic-appreciation and creativity. The domains overlap, so a child who can count to twenty but cannot sit with a group has not developed wholly."
           ],
           "status": "verified",
           "occurrences": [
@@ -548,14 +592,20 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-015",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-1-b",
           "question": "Write the full forms: ICDS, UNICEF.",
           "marks": 1,
           "answer": [
-            "ICDS: Integrated Child Development Services. UNICEF: United Nations Children’s Fund; its original name was United Nations International Children’s Emergency Fund, from which the acronym is retained."
+            "ICDS — Integrated Child Development Services, launched in 1975–76 under the Ministry of Women and Child Development.\nUNICEF — United Nations Children's Fund."
           ],
           "status": "verified",
           "occurrences": [
@@ -566,17 +616,25 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-016",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-2",
           "question": "“Early childhood is a significant period for lifelong learning and development” — justify the statement.",
           "marks": 4,
           "answer": [
-            "Early relationships and experiences help establish foundations for language, movement, thinking and emotional security.",
-            "Play and exploration develop curiosity and approaches to solving problems that support later learning.",
-            "Care, safety and appropriate nutrition help children participate, while supportive adults encourage confidence and cooperation.",
-            "Quality ECCE therefore has lasting importance, but development continues beyond childhood: early disadvantage is not a fixed destiny, and later support remains valuable."
+            "The claim has four supports, and each has a consequence for what we do on Monday morning.",
+            "First, development is cumulative. Later learning stands on what was built earlier. A child who can hold a book the right way up, follow a two-step instruction, wait for a turn and say 'my head hurts' walks into a very different Grade 1 classroom from a child who cannot. None of those skills came from a lesson; all came from meals, routines, songs, games and being trusted with small tasks.",
+            "Second, this is the critical period. Language, responsive caregiving, nutrition and safe stimulation in the early years have disproportionate later effects, and deprivation in this window is harder to make up for than deprivation at ten. A language not acquired conversationally at six rarely becomes fluent later; a child who has spent years without being talked to does not catch up by being taught to read. What is not built early is expensive to build later, if it can be built at all.",
+            "Third, equality of outcome. A well-run pre-primary class gives a poor child language exposure, nutrition, a safe place to spend the day, adult attention and peer experience that the same child would not otherwise get. It does not ask poor children to become richer; it gives them the same starting room everyone else has.",
+            "Fourth, retention and health. Children who have had a good pre-primary experience enter school better prepared and are less likely to repeat a class or drop out; and an ECCE centre is among the few points of contact an Indian child has outside the home before school, which is why it is used for growth monitoring, immunisation and early identification of disability.",
+            "So the statement is not saying that children are born knowing more, but that this is when the foundations are poured. And it is why the dispositions of the stage — curiosity, attention, self-confidence, the ability to wait and try again — matter more than any alphabet."
           ],
           "status": "verified",
           "occurrences": [
@@ -587,17 +645,22 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-6",
           "question": "Mention four challenges of early learning.",
           "marks": 4,
           "answer": [
-            "Unequal access to safe centres and suitable learning materials.",
-            "Health, nutrition or care needs that interfere with regular participation.",
-            "Unfamiliar instructional language or inaccessible activities that exclude some children.",
-            "Rigid academic pressure and insufficiently supported educators, which limit play, exploration and responsive interaction."
+            "The four challenges I would put first are these.",
+            "1. Early formal instruction pushed down into the pre-primary years — desks in rows, worksheets, letters and numbers taught as subjects, recitation, copying and unit tests — often because parents believe that is what school means, and private pre-schools respond to that belief. The child learns to sit still and copy, and loses the play through which reasoning, language and motivation are actually built.\n2. Shortage of trained teachers and of materials. Most teachers of the three-to-six group have not been trained in ECCE; they arrive from the primary system with its habits of timetable, instruction and discipline. Where materials are scarce the room becomes verbal — a teacher talking — and talk without objects or movement cannot hold a four-year-old's attention.\n3. Language mismatch and weak home–school continuity. Many children in rural Assam come speaking a home language the teacher does not use. If all instruction comes in an unfamiliar language the child switches off, because comprehension is the condition of everything else. Add to it a home where no one sits and talks with the child, and school becomes the only place formal language is heard — which is the wrong place for it.\n4. Poverty, nutrition and attendance. A child who is undernourished, who has no safe play space at home, who is pulled in to sibling care or work, or who is simply absent for a quarter of the term cannot be reached by any curriculum. At this age attendance is a health indicator before it is an administrative one.",
+            "These four reinforce one another, which is why solving any one alone changes very little. But all four are workable, which is what the next question is about."
           ],
           "status": "verified",
           "occurrences": [
@@ -608,14 +671,20 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-015",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2024-1-c",
           "question": "According to the new academic structure as per NEP 2020, ECCE falls under which stage?",
           "marks": 1,
           "answer": [
-            "The Foundational Stage: three preschool years and Grades 1–2, broadly covering ages 3–8."
+            "The Foundational Stage. Under NEP 2020 it runs for five years, ages 3 to 8: three years of anganwadi or pre-primary (Bal Vatika, 3–5 years) followed by Grades 1 and 2 (5–8 years) for foundational literacy and numeracy."
           ],
           "status": "verified",
           "occurrences": [
@@ -633,16 +702,23 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-002",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2024-3",
           "question": "Discuss the impact of family, community and school in a child’s holistic development.",
           "marks": 3,
           "answer": [
-            "Family provides daily care, emotional relationships, language experiences and routines that shape confidence and learning.",
-            "Community influences development through safety, cultural practices, play spaces and access to supportive services and relationships.",
-            "School or the ECCE centre offers inclusive play, peer interaction and guided experiences; coordination among these settings helps children receive consistent support."
+            "The syllabus names three settings as the factors influencing holistic development. In each case we ask the same questions: what opportunities does it offer, what models does it provide, what pressure does it place on the child.",
+            "The home is the first and most influential. It gives the earliest language — how many words the child hears and in how many languages — plus emotional security, the earliest self-care habits and the first relationships with other people. It transmits values too: the importance of a girl's schooling, of cleanliness, of earning. Home inputs are unequal, which is why good practice begins by enriching the home.",
+            "The community supplies the wider world — peers, the play area, the Anganwadi, the health centre, and the festivals, crafts and occupations of village life. It brings risks too: exclusion by caste, gender or disability, and children drawn into work or sibling care at the expense of play.",
+            "The school, read broadly to include the Anganwadi, the pre-primary section and the primary school, is the only environment fully under professional control. It acts through what is taught and how, through the adult–child relationship, the peer group, the environment and the daily schedule. It is also where the other two can be brought in — where a pond, a field or a baker's workshop becomes the classroom."
           ],
           "status": "verified",
           "occurrences": [
@@ -653,18 +729,26 @@
               "paper": "/downloads/pyqs/2024/s1-2-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2024-4",
           "question": "Discuss in detail the appropriate practices to ensure holistic growth and development of various domains in a child.",
           "marks": 5,
           "answer": [
-            "Physical and motor: provide safe movement, balancing, ball play and handling of suitable materials, alongside care and rest routines.",
-            "Language: use conversation, stories, rhymes and picture books in familiar languages, encouraging children to express ideas in accessible ways.",
-            "Cognitive: offer sorting, matching, puzzles and simple investigations, asking children to notice, compare and explain.",
-            "Socio-emotional: build warm relationships, model naming feelings and support cooperative play and conflict resolution without humiliation.",
-            "Aesthetic and creative: allow open-ended drawing, music, movement and pretend play. Integrate these domains and adjust activities to individual needs instead of expecting uniform products or identical progress."
+            "Holistic development means all five domains moving forward together — language, physical, cognitive, socio-emotional, and aesthetic-appreciation and creativity. The domains are overlapping windows onto one child, so the practices below are not five separate periods. A child watering a plant is exercising her grip and balance, working out that a dry plant needs water, naming and describing, caring for a living thing, and arranging the pot where it looks good.",
+            "Language. Provide daily story and rhyme time, big books handled by the children, and naming aloud during every routine — the matka is round and heavy, the fish is silver. Talk with the child rather than at him; questions that invite an answer beat questions that catch a mistake. Let him retell the same story for days, because repetition is where sequence is built. Print appears as pictures before it appears as letters.",
+            "Physical. Give a real outdoor period every day and treat it as non-negotiable. Zoning matters: active play, quiet play, sand and water, a climbing structure, a garden bed. Provide open-ended apparatus and a fine-motor corner — beads, pegs, large chalks, clay, dough — because the hand that writes is made long before the pencil arrives. Build self-care into the timetable as a real routine: washing hands, removing sandals, eating with a spoon. Keep floor space clear and furniture small enough for a child to move.",
+            "Cognitive. Work with real objects before pictures. Put out enough open-ended material that the child must decide, because deciding is the cognitive work. Give him time to sort, arrange by size and count what he can touch; ask what do you think will happen if we pour it out; allow a wrong attempt to be examined rather than stopped. Whole-class instruction does not belong below six — work in groups of four to six and rotate them.",
+            "Socio-emotional. Build a predictable rhythm, because a child who knows what happens next is not anxious. Use the circle daily to give every child a turn and a name in a song. Redirect rather than punish. Take a special interest in separation at drop-off, and say good-bye predictably even on the days you are tired. Watch who is always the leader, who is always the outsider, and who is always cast as the villain in pretend play.",
+            "Aesthetic and creativity. Put out open-ended art material daily and hold one firm rule: the process is the point, not the product. Never draw for the child, never correct the drawing, never say that does not look like a flower. Display the work at children's eye level.",
+            "One test keeps this honest. If a proposed activity does not move the child in at least three domains, redesign it."
           ],
           "status": "verified",
           "occurrences": [
@@ -675,15 +759,21 @@
               "paper": "/downloads/pyqs/2024/s1-2-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2024-7-b",
           "question": "Write a short note on: Influence of nature and nurture on development of a child.",
           "marks": 2,
           "answer": [
-            "Nature includes inherited biological characteristics and maturation; nurture includes care, relationships, language and other environmental experiences.",
-            "Development arises through their interaction: children’s capacities develop within particular opportunities and conditions, so neither heredity nor environment alone determines every outcome."
+            "Nature is heredity — the genes, the build of the body, the temperament, the natural timing of walking, talking and reasoning. It sets the range of possibility, but it does not decide what is achieved inside that range.",
+            "Nurture is the environment — food, warmth, responsive caregiving, the language spoken at home, play, affection and opportunity. The two act together: heredity fixes the potential and its timing, and experience decides how far that potential is realised."
           ],
           "status": "verified",
           "occurrences": [
@@ -701,14 +791,20 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-030",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-1-a",
           "question": "Write one significance of ECCE.",
           "marks": 1,
           "answer": [
-            "Quality ECCE develops foundations for later learning through responsive care, play and meaningful early experiences."
+            "Development in the early years is cumulative. What is built between three and six stands under every lesson that follows, which is why a child who has been well cared for and played with is simply easier to teach for the whole of school."
           ],
           "status": "verified",
           "occurrences": [
@@ -719,16 +815,22 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-3",
           "question": "What are different domains of holistic development in children? Explain.",
           "marks": 3,
           "answer": [
-            "Physical and motor development involves movement, coordination and self-care. Cognitive development involves noticing, remembering, comparing and solving problems.",
-            "Language development involves understanding and expressing meaning and emerging literacy. Socio-emotional development involves relationships, feelings and growing self-regulation.",
-            "Aesthetic and creative development involves imagination and expression through art, music and movement. These domains interact rather than develop in isolation."
+            "Holistic development means the child grows as a whole person, and this syllabus works with five domains that overlap rather than compete.",
+            "- Language — listening to a story to the end, joining a rhyme, naming objects, asking why. Daily story and rhyme time, and conversation rather than interrogation.\n- Physical — running and jumping, a working grip on a block or crayon, threading beads, washing hands. Daily outdoor time, fine-motor corners, self-care routines.\n- Cognitive — matching, sorting, arranging by size, counting real objects, cause and effect. Real objects before pictures, open-ended material, no worksheets.\n- Socio-Emotional — separating from the parent, waiting for a turn, sharing, pride in a finished product. A predictable routine and gentle handling of conflict.\n- Aesthetic-Appreciation and Creativity — arranging leaves by colour, making a clay object, telling a make-believe story. Open-ended art material, displayed at child height.",
+            "A child sorting bottle caps is handling them, matching, taking turns and naming colour all at once. That gives us a test: an activity that does not move the child in at least three domains should be redesigned."
           ],
           "status": "verified",
           "occurrences": [
@@ -739,17 +841,23 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-9",
           "question": "Write a note about the importance of school as an influencing factor for children’s holistic development.",
           "marks": 4,
           "answer": [
-            "A safe and caring school environment helps children feel secure enough to explore and participate.",
-            "Varied play, materials and guided experiences support language, thinking, physical coordination and creativity.",
-            "Peer interaction and respectful adult modelling support cooperation, expression of feelings and growing independence.",
-            "Inclusive practice, observation and partnership with families help identify and respond to different needs; a school’s influence depends on the quality of its relationships and experiences, not merely its facilities."
+            "The syllabus names three settings that influence holistic development — home, community and school. Home is the earliest and the deepest, and community supplies the wider world. But school, read broadly to include the Anganwadi, the pre-primary section and the primary school, is the only one of the three completely under professional control. That makes it both the most powerful and the most responsible.",
+            "School influences development in five ways.\n- Through what is taught and how. Play, conversation and exploration on one side; sitting in rows and copying from the board on the other. The method decides whether a child learns to think or only to obey.\n- Through the adult–child relationship. A warm adult who notices each child by name produces a child who risks things; an impersonal and controlling adult produces a child who hides.\n- Through the peer group. In a mixed room a four-year-old learns to wait, to share, to lose and to be liked — none of which can be taught at home.\n- Through the physical environment. Space to move, shade, light, low shelves, furniture scaled to a child's body. A room with no floor space produces stiff bodies and bored minds.\n- Through the daily schedule. A rhythm of varied activity, or four unbroken hours of a worksheet. The timetable is a curriculum in disguise.",
+            "School also has a second importance: it is the setting in which the other two can be brought in. A mother learns about nutrition because the Anganwadi told her. A pond, a paddy field or a potter's workshop becomes a classroom when the teacher walks out of the door.",
+            "The honest difficulty is that school can also do harm — formal instruction pushed down on children who cannot yet sit through it, harsh correction, overcrowding, no materials. So the importance cuts both ways, which is precisely why teacher education comes before a person stands in front of a three-year-old. The child who has been well cared for and well played with is teachable; the child who has not will cost the primary teacher several times the effort for the same outcome."
           ],
           "status": "verified",
           "occurrences": [
@@ -760,15 +868,21 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2026-2-a",
           "question": "Write two major agencies associated with ECCE. What are the functions of ICDS?",
           "marks": 2,
           "answer": [
-            "Two agencies are the National Council of Educational Research and Training (NCERT) and United Nations Children’s Fund (UNICEF).",
-            "The ICDS / Anganwadi service package includes supplementary nutrition, preschool non-formal education, nutrition and health education, immunisation, health check-ups and referral services; the health services are delivered in coordination with the health system."
+            "Two major agencies: (i) Anganwadi centres delivering the Integrated Child Development Services (ICDS) under the Ministry of Women and Child Development, and (ii) the pre-primary and Bal Vatika sections of schools, supported by NCERT and the SCERTs.",
+            "Functions of ICDS, delivered through Anganwadi centres: pre-school education for children of about three to six, supplementary nutrition and a midday meal, health and nutrition check-ups, immunisation, health education, referral services and care of the under-three."
           ],
           "status": "verified",
           "occurrences": [
@@ -779,15 +893,21 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-028",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2026-2-b",
           "question": "Discuss the impact of family in a child’s holistic development.",
           "marks": 2,
           "answer": [
-            "Warm relationships, responsive conversation and play support emotional security, language and thinking.",
-            "Daily care, nutrition, routines and opportunities for movement and self-help support physical development and independence; families’ circumstances influence what support is available."
+            "The family shapes development before any programme does. It gives the earliest language — how many words a child hears and in what quality of talk — together with attachment, the first self-care habits, and the values attached to girls' schooling, cleanliness and earning.",
+            "But the home also exerts pressure: child labour, early sibling care, harsh correction or over-protection crowd out play. So as a teacher I treat the family as a partner through home visits and parent meetings, knowing what the home offers can never be replaced by the centre."
           ],
           "status": "verified",
           "occurrences": [
@@ -798,7 +918,13 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-029",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -1165,9 +1291,8 @@
           "question": "Write a short note on: Adverse effect of early formal instruction.",
           "marks": 3,
           "answer": [
-            "Rigid copying, memorisation and prolonged sitting before children are ready can cause frustration and reduce interest in learning.",
-            "Such routines may displace movement, play, conversation and exploration needed for broad development.",
-            "Use meaningful early literacy and numeracy through stories, objects and games; the concern is inappropriate pressure, not a ban on all teaching or early learning."
+            "Adverse effects of early formal instruction",
+            "Early formal instruction means teaching children aged three to six by the methods of the primary school — a fixed timetable, rows of desks, a worksheet, letters and numbers as subjects, recitation and copying, unit tests and ranking. NCF-FS 2022 makes it explicit that Bal Vatika and the pre-primary years are play-based, that Bal Vatika has no formal textbook, and that formal instruction has no place before six. The effects group into four kinds:\n- Physical — long hours on benches sized for adults give poor posture, weak core strength and eye strain, and remove the movement the brain uses to stay alert.\n- Cognitive and motivational — exploration is displaced by recitation; the child learns that a right answer exists and the teacher finds it, weakening curiosity and persistence.\n- Social-emotional — stress appears as bed-wetting, withdrawal, aggression, shyness and refusal to attend.\n- Long-term — the child becomes school-ready in the narrowest sense and otherwise unprepared: able to copy but not to choose, to obey but not to cooperate. We should not claim it damages the brain; the defensible claim is that it is unnecessary, developmentally misplaced and on balance harmful."
           ],
           "status": "verified",
           "occurrences": [
@@ -1178,16 +1303,22 @@
               "paper": "/downloads/pyqs/2021/s1-2-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-011",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-2-2021-3-b",
           "question": "Write a short note on: Multilingualism.",
           "marks": 3,
           "answer": [
-            "Multilingualism involves using or developing more than one language; many children bring a varied language repertoire to an ECCE centre.",
-            "Welcoming home languages supports understanding, participation and a sense of belonging while additional languages develop.",
-            "Teachers can use family songs, bilingual picture labels and multilingual storytelling, with gestures and explanation so every child can join."
+            "Multilingualism",
+            "India has no single home language, and most children grow up with several in the air — a mother tongue, a father's language, a community language, and now English or Hindi through television and phone. The curricular question is not which language we shall use, but how we use what the child already has. A child talked to in a familiar language understands a new one; a child forced to receive all instruction in an unfamiliar language switches off, because comprehension is the condition of everything else. The national position is that the home language is the medium of the Bal Vatika and pre-primary years, the regional language is brought in alongside, and English is introduced to be heard and enjoyed rather than used as the language of the classroom.",
+            "So: greet the child in his own language first, let him answer in any language he has, learn his name correctly, never ridicule an accent, and use the second language for the fun parts."
           ],
           "status": "verified",
           "occurrences": [
@@ -1198,16 +1329,24 @@
               "paper": "/downloads/pyqs/2021/s1-2-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-011",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-2-2021-4",
           "question": "Discuss the importance of play in ECCE.",
           "marks": 3,
           "answer": [
-            "Play gives children concrete opportunities to explore, compare and solve problems, such as balancing blocks in a tower.",
-            "Movement and handling materials develop gross and fine motor coordination.",
-            "Pretend and cooperative play promote conversation, imagination, turn-taking and expression of feelings, linking several domains in an enjoyable activity."
+            "Play is not a break from learning; at this age it is the natural form of learning, and the syllabus makes it the primary medium through which children acquire knowledge, skills, attitudes and values.",
+            "First, play is how the five domains are actually developed. Nothing else touches all of them in the same hour. A heap of leaves on the floor gives physical handling, cognitive matching and seriation, socio-emotional turns and coping with losing, language for size and colour, and aesthetic pleasure in arrangement. The planning test is that an activity which does not move the child in at least three domains should be redesigned.",
+            "Second, play is the structure of the day, not an event inside it. A good day holds all three types — 25–30 minutes of uninterrupted free play, guided play as the largest block where the teacher provokes and extends, and short structured episodes of song, story and circle.",
+            "Third, the material matters. Open-ended material — plain blocks, a bucket of sand, a tray of mixed shells and buttons — serves a hundred purposes and twenty children; a battery toy with four sounds serves none.",
+            "Fourth, what play produces is not information but disposition: curiosity, attention, self-confidence, the ability to wait and try again. Those are built, not taught."
           ],
           "status": "verified",
           "occurrences": [
@@ -1218,16 +1357,22 @@
               "paper": "/downloads/pyqs/2021/s1-2-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2021-5",
           "question": "“There is a close relationship between primary education and ECCE” — justify the statement.",
           "marks": 3,
           "answer": [
-            "ECCE develops foundations for later learning, including language, curiosity, early number concepts, self-help and participation with others.",
-            "Primary classrooms can build on these experiences through familiar stories, materials and play-based activities rather than an abrupt shift to rote work.",
-            "A smooth transition requires communication among preschool staff, primary teachers and families; readiness is also the school’s responsibility, not an entrance test for children."
+            "The statement is true, and since NEP 2020 it is true in a stronger sense than before. NEP 2020 defines the Foundational Stage as five years and ages three to eight — three years of Anganwadi or pre-primary plus Grades 1 and 2 — and NCF-FS 2022 details it as Bal Vatika (3–4 and 4–5) followed by foundational literacy and numeracy. Under NCF 2005 the foundational stage meant only Grades 1–2, with early childhood outside the school system under the welfare sector. Bringing ECCE into the school system is one of the most significant changes in Indian education policy in the last decade.",
+            "The relationship is justified on four grounds.",
+            "- Cumulative. Later learning stands on what was built earlier. A child who can hold a book, follow a two-step instruction, wait for a turn and express a need in words faces a very different classroom from a child who cannot.\n- Continuity of method and teacher. The difference between ECCE and primary is one of method, not subject — play carries the programme, assessment is descriptive rather than a score, and the child meets the same adult in Grade 1.\n- School readiness, the physical, socio-emotional, language-cognitive and approach-to-learning competencies needed to benefit from school — a continuum, not a gate.\n- Practical returns. Children with a good pre-primary experience are less likely to repeat a class or drop out, and that matters most for the poorest children."
           ],
           "status": "verified",
           "occurrences": [
@@ -1238,14 +1383,20 @@
               "paper": "/downloads/pyqs/2021/s1-2-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2022-1-b",
           "question": "What is emergent literacy?",
           "marks": 1,
           "answer": [
-            "Emergent literacy is the developing knowledge, skills and attitudes about reading and writing that arise through early experiences before conventional literacy is mastered."
+            "Emergent literacy is the reading, writing and print-awareness a young child picks up before he can read and write in the accepted way — through story and rhyme, big books, print around him and his own scribbling with chalk and crayons."
           ],
           "status": "verified",
           "occurrences": [
@@ -1256,14 +1407,20 @@
               "paper": "/downloads/pyqs/2022/s1-2-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-020",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2022-1-e",
           "question": "What is school readiness?",
           "marks": 1,
           "answer": [
-            "School readiness is the preparation and support that enable children to participate in school learning, involving children’s development, supportive families and schools ready to meet their needs."
+            "School readiness is the physical, social-emotional, language-cognitive and approach-to-learning competencies a child needs in order to benefit from school. It is a continuum, not a gate — and not the ability to read and write already."
           ],
           "status": "verified",
           "occurrences": [
@@ -1274,18 +1431,24 @@
               "paper": "/downloads/pyqs/2022/s1-2-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-023",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2022-4",
           "question": "Discuss with example the role of play and active learning for holistic development of a child.",
           "marks": 5,
           "answer": [
-            "Play and active learning allow children to learn by doing, making choices and interacting rather than only hearing explanations. A pretend vegetable shop can integrate several domains.",
-            "Cognitive: children sort produce, compare quantities and solve a problem such as how to arrange the stall.",
-            "Language: they name items, ask questions and negotiate roles, using familiar languages and supported new expressions.",
-            "Physical and creative: handling safe large objects, arranging baskets and making signs develop coordination and imagination.",
-            "Socio-emotional: taking turns and responding to others develop cooperation and self-regulation. The teacher observes, prompts and adapts the task, preserving enjoyment while extending learning."
+            "Play is what young children do when they are given the chance, the space and the time — and that sounds obvious only because children are rarely given it. In many rooms play is chopped into a fixed twenty minutes in the timetable and forty-five minutes of worksheet. Real play has three conditions: it is self-chosen, self-directed, and purposeless in the child's own estimate. Strip away self-choice and you get drills; strip away self-direction and you get obedience; strip away both and you have removed the play while keeping the children sitting still.",
+            "That is why the syllabus insists on three kinds, which differ only in who controls the direction: free play, where the child decides everything; guided play, where the teacher sets the purpose and the child chooses the route; and structured play, where the teacher sets the goal, rules and time. A good day contains all three, and moving between them is a teaching decision, not an accident.",
+            "Take one ordinary morning. Twenty-five minutes of free play: two children build a bridge with blocks and a third watches. The teacher joins the bridge-builder and asks only, how will it not fall down? — and a guided episode begins. The day closes with a structured circle song in which every child's name goes into a rhyme. In those thirty minutes, language (names, questions, talk between the builders), physical (the grip and balance of building), cognitive (spatial relations, planning, revising when it falls), socio-emotional (negotiating, waiting, coping with failure) and aesthetic (colour, form, the pleasure of a thing that works) have all been served. Nothing was taught, and a great deal was learned.",
+            "Active learning is the same idea taken more seriously: the child does the doing. Carry two buckets of water from the tank and physical development — balance, grip, endurance — comes free, along with the cognitive idea of how much the pot holds and the social habit of queueing at the tap. A leaf that was picked, smelled, crushed between the fingers, compared with another leaf and stuck in a book is an experience; a worksheet about a leaf is not.",
+            "My position is straightforward. Play is not a break from learning or a reward for finishing the work; it is the form learning takes at this age, and every skill we want later — attention, persistence, the ability to negotiate — is built in it."
           ],
           "status": "verified",
           "occurrences": [
@@ -1296,14 +1459,20 @@
               "paper": "/downloads/pyqs/2022/s1-2-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-018",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-1-c",
           "question": "Write one difference between ECCE and formal education.",
           "marks": 1,
           "answer": [
-            "ECCE centres on integrated care and development through age-appropriate play and routines, whereas conventional formal schooling is more often organised around prescribed subjects and lessons; formal schools can also use play-based methods."
+            "In ECCE, play and activity carry the programme, no subject is taught formally, and progress is described from observation rather than scored. In formal education, attainment is taught to a fixed standard, tested and reported as a grade."
           ],
           "status": "verified",
           "occurrences": [
@@ -1314,16 +1483,22 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-017",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-4",
           "question": "“Play and active learning is very essential in early childhood” — illustrate with reason.",
           "marks": 3,
           "answer": [
-            "Young children understand ideas through meaningful action: sorting large blocks lets them experience differences in shape and size.",
-            "Active play combines domains, as children move, describe plans, negotiate with partners and solve practical problems.",
-            "It sustains curiosity and gives teachers opportunities to observe and extend learning; it should involve children’s choices and suitable support rather than only teacher demonstration."
+            "I agree, and the strongest reason is structural rather than sentimental. Real play has three conditions: it is self-chosen, self-directed and purposeless in the child's own estimate. Strip away self-choice and you get drills. Strip away self-direction and you get obedience. Strip away both and you have removed the play while keeping the children sitting still — exactly the failure mode that early formal instruction represents.",
+            "Beyond that, movement is a prerequisite for attention, so a child who has run outside for forty minutes can sit and listen afterwards. Exploration of real material builds reasoning in a way no explanation can at this age — a three-year-old learns the word cold by touching cold water. Language, too, is built in play, because it is the only place a child must negotiate a turn. And the dispositions that matter most later — curiosity, self-confidence, the ability to try again — are built, not taught.",
+            "An illustration. A teacher brings a heap of fallen leaves into an Assamese pre-primary class and sorts none of them, saying only, put them however you like. She then narrows the task: can you make three piles from biggest to smallest? One succeeds, one asks for help, one says the smallest pile has lots. Nothing was taught and a great deal was learned."
           ],
           "status": "verified",
           "occurrences": [
@@ -1334,14 +1509,22 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-8",
           "question": "What activities would you design for language development in early childhood stage? Prepare a table.",
           "marks": 3,
           "answer": [
-            "Use familiar languages and adapt participation with pictures, gestures or other communication supports as needed."
+            "Language runs through everything else, so these are not a separate language period — most are embedded in the daily routine. The principle in all of them is that a new word must be heard in a sentence where it is useful, never on a flashcard, and the home language is the medium.",
+            "| Activity | What the child does | What it builds |\n|---|---|---|\n| Story and rhyme time, daily | Listens to a story to the end, joins the refrain, retells it his own way | Listening, vocabulary, sequencing |\n| Naming in everyday routines | Names the parts of a tap, a matka, a leaf; describes the sky at circle time | Vocabulary in context, descriptive speech |\n| Conversation, not interrogation | Asks why, where did the water go; the teacher waits and extends with what would happen if | Curiosity, sentence length, turn-taking |\n| Songs and counting rhymes | Sings in the home language, counts to twenty, sequences the days of the week, claps to a beat | Phonological awareness, memory, self-regulation |\n| Role-play and make-believe | Plays the shopkeeper, the driver, the mother at the well, with a friend | Narrative language, negotiation, symbolic thought |\n| Print as picture before letters | Handles big books and picture cards, turns pages, matches name cards | Print awareness, early reading behaviour |\n| Peer talk while sorting and building | Talks to another child rather than only to the adult | The language most four-year-olds actually do |",
+            "Two rules I hold to: any rhyme must end with something the children do, and I never stop a child mid-sentence to correct his grammar."
           ],
           "status": "verified",
           "occurrences": [
@@ -1353,41 +1536,20 @@
               "verification": "visually-checked-original"
             }
           ],
-          "tables": [
-            {
-              "caption": "Language-development activities",
-              "headers": [
-                "Activity",
-                "How it is conducted",
-                "Language opportunity"
-              ],
-              "rows": [
-                [
-                  "Picture-story conversation",
-                  "Read a short story and invite children to predict or describe a picture.",
-                  "Listening, vocabulary and narrative meaning"
-                ],
-                [
-                  "Puppet exchange",
-                  "Pairs give a puppet a greeting, request or simple reply.",
-                  "Turn-taking and purposeful speaking"
-                ],
-                [
-                  "Action rhyme",
-                  "Sing a familiar rhyme with actions and invite a new line.",
-                  "Sound awareness, rhythm and expression"
-                ]
-              ]
-            }
-          ]
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-10-a",
           "question": "Write a short note on: Emergent literacy.",
           "marks": 2,
           "answer": [
-            "Emergent literacy includes early awareness and behaviours related to reading and writing, such as enjoying books, noticing print, retelling stories and making meaningful marks.",
-            "Adults support it through conversation, shared reading and playful opportunities to use print, without requiring every young child to complete formal copying drills."
+            "Emergent literacy",
+            "It is the reading, writing and print-awareness a child develops before he can read and write in the accepted way. It grows from listening to stories and rhymes, handling big books and picture cards, noticing print on packets and signboards, and scribbling with chalk, crayons and clay. That is why we show print as pictures before letters, and why a child's own name written on his cup or mat matters to him. Emergent literacy is the ground on which later decoding is built — and if it is ignored, children learn to copy letter shapes instead of learning sounds."
           ],
           "status": "verified",
           "occurrences": [
@@ -1398,15 +1560,21 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-036",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-2-2023-10-c",
           "question": "Write a short note on: Project method.",
           "marks": 2,
           "answer": [
-            "The project method engages children in an extended, age-appropriate investigation of a meaningful question, such as what plants need to grow.",
-            "Children observe, discuss, try activities and share findings with adult guidance; the process integrates learning rather than merely produces a decorative final object."
+            "Project method",
+            "This organises learning around a purposeful piece of work that a group of children plans, carries out and completes, the curriculum emerging from the work itself. The steps are: a need or question is felt, the children plan, they collect materials, they make, and they present and discuss what they have made. In ECCE it fits well, because it is play with a purpose and an end product. Its caution: it suits older pre-primary children, and a child who joins late finds nothing to do unless the teacher keeps the material within reach."
           ],
           "status": "verified",
           "occurrences": [
@@ -1417,14 +1585,20 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-036",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-2-2024-1-b",
           "question": "Write the principle of 3 ‘R’ in ECCE.",
           "marks": 1,
           "answer": [
-            "The traditional “3 Rs” refer to reading, writing and arithmetic. In ECCE their foundations are developed through meaningful play and experiences, rather than premature formal drills."
+            "The three R's of early education are Reading, wRiting and ARITHmetik. In ECCE these are not drilled as subjects; they grow out of picture books and stories, scribbling with big chalks and crayons, and counting real objects a child can touch."
           ],
           "status": "verified",
           "occurrences": [
@@ -1435,15 +1609,21 @@
               "paper": "/downloads/pyqs/2024/s1-2-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2024-7-a",
           "question": "Write a short note on: Age-appropriate learning opportunities to foster holistic development of a child as per National Policy on Early Childhood Care and Education (ECCE), 2013.",
           "marks": 2,
           "answer": [
-            "Learning experiences should match children’s developmental needs and abilities while addressing physical, cognitive, language, social, emotional and creative development together.",
-            "Responsive interaction, play, stories, movement and exploration should accompany care and nutrition; the policy does not support pushing a uniform formal academic syllabus down into preschool."
+            "Age-appropriate learning opportunities under the National Policy on ECCE 2013",
+            "The NECC Policy 2013 covers the child from before birth to six years, and it asks that every opportunity given be matched to what children of that age can actually do on their own with the materials available. For holistic development those opportunities must reach all five domains, preferably inside the same activity — carrying two buckets of water, sorting seeds, singing a rhyme. No child below six is to be taught letters, numbers or any subject formally; learning runs through play, activity and conversation in a setting planned with the family and the community."
           ],
           "status": "verified",
           "occurrences": [
@@ -1454,15 +1634,21 @@
               "paper": "/downloads/pyqs/2024/s1-2-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-035",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-2-2024-7-c",
           "question": "Write a short note on: Adverse effect of early formal education.",
           "marks": 2,
           "answer": [
-            "Premature pressure through prolonged sitting, copying and rote tests can cause frustration and displace play, movement and social interaction.",
-            "Use developmentally appropriate early literacy and numeracy experiences instead; the problem is unsuitable formal demands, not all intentional teaching."
+            "Adverse effects of early formal instruction",
+            "Early formal instruction means teaching three- to six-year-olds by primary-school methods — fixed timetables, rows of desks, worksheets, recitation, copying and unit tests.\n- Physical: long hours on adult-sized benches give poor posture, eye strain and tiredness, and remove the movement the brain needs to stay alert.\n- Cognitive and motivational: reasoning through play is displaced by recitation, so curiosity and persistence weaken and the child concludes that only the teacher has the right answer.\n- Social-emotional: stress appears as bed-wetting, withdrawal, aggression, shyness and refusal to attend.\n- Long-term: the child can copy but not choose, obey but not cooperate, recite but not talk."
           ],
           "status": "verified",
           "occurrences": [
@@ -1473,14 +1659,20 @@
               "paper": "/downloads/pyqs/2024/s1-2-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-035",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-2-2025-1-b",
           "question": "Mention one advantage of learning through art and craft in ECCE.",
           "marks": 1,
           "answer": [
-            "Art and craft give children opportunities to express ideas and imagination through materials and images."
+            "Art and craft give the child a symbol — the ability to represent an idea that is not actually present — and that is one of the most advanced things a small child can do. It is also the first safe avenue for expressing feeling."
           ],
           "status": "verified",
           "occurrences": [
@@ -1491,16 +1683,21 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-4",
           "question": "What are the different types of play? Write with suitable examples.",
           "marks": 3,
           "answer": [
-            "Free play: children choose and direct the activity, such as inventing a block structure.",
-            "Guided play: adults provide a learning setting and responsive prompts while children retain agency, such as exploring which blocks make a stable bridge.",
-            "Structured play: agreed rules organise the activity, such as a simple turn-taking matching game. The teacher balances these forms according to children’s needs."
+            "The syllabus names three types of play. They differ in one respect only — who controls the direction — and a good day contains all three.",
+            "1. Free Play — the child chooses the goal, the material and the duration; the teacher observes. Example: two children building a bridge with blocks while a third watches. Give at least 25–30 uninterrupted minutes daily. Overused, skills stay incidental and some children never enter it.\n2. Guided Play — the teacher sets the purpose, the child chooses route and pace. Example: a heap of fallen leaves is brought in and the teacher sorts none of them, saying only, put them however you like. Children sort by colour or size, and she narrows the task — can you make three piles from biggest to smallest? This is the largest block of the day.\n3. Structured Play — the teacher sets the rules, the goal and the time and leads. Example: a circle song with every child's name in the rhyme, a story narration, a simple floor game. Short and frequent. Overused, it becomes formal instruction with a play label."
           ],
           "status": "verified",
           "occurrences": [
@@ -1511,17 +1708,23 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-002",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-7",
           "question": "What is inquiry-based learning? Discuss how the different methods of inquiry help in Early Childhood Education.",
           "marks": 4,
           "answer": [
-            "Inquiry-based learning develops understanding through children’s questions, observation, exploration and discussion, with responsive adult guidance.",
-            "Questioning encourages curiosity and prediction, for example asking which objects may float.",
-            "Observation and hands-on exploration let children compare what happens, test ideas safely and notice evidence rather than simply memorise an adult’s answer.",
-            "Conversation, drawing and revisiting the experience help children communicate and revise ideas; the teacher provides accessible materials and prompts without requiring formal scientific procedures."
+            "Inquiry-based learning is learning organised around questions children ask, or around questions a teacher deliberately provokes, and answered by looking, handling, comparing and testing rather than by being told. The syllabus names four elements: questioning, observation, exploration and experience. All four begin with the child's own action; the teacher supplies the material, the time, the vocabulary and the follow-up question.",
+            "How it helps a young child:\n- It turns a passive listener into an active thinker. A child who has poured water from a wide bowl into a narrow one has conservation in his hands, not in his memory.\n- It builds language, because a child who has seen something must find words for it.\n- It develops curiosity and persistence. Children allowed to pursue a question to the end come to school expecting the day to contain something interesting.\n- It makes assessment free. Observation in ordinary activity costs nothing extra, and it is the only reliable evidence we have of what a child can do.\n- It makes the child's errors useful. A wrong answer spoken aloud and examined teaches more than a right one merely stated, because the thinking behind it has been made visible.",
+            "The sequence a good pre-primary teacher runs almost unconsciously is: notice, name, question, handle, compare, sort, find a rule, tell someone. The last step matters as much as any other, because saying what he found out is how language, pride and conceptual clarity are built together. A programme that stops at finding the rule has produced a discovery nobody knows about.",
+            "And it works only if the teacher's habits support it: wait for the child to finish his question, extend it with 'what do you think would happen if', invite the others in, and never shame an error. The worst response to a child's question is an impatient question in return."
           ],
           "status": "verified",
           "occurrences": [
@@ -1532,15 +1735,21 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-10-b",
           "question": "Write a short note on: Difference between inclusion and equality.",
           "marks": 2,
           "answer": [
-            "Equality affirms equal dignity, rights and opportunities, without discrimination.",
-            "Inclusion actively removes barriers so every child can participate and belong; it may require different supports, such as accessible materials or communication aids, rather than identical treatment for everyone."
+            "Difference between Inclusion and Equality",
+            "Inclusion is about who is in the room. The child with a disability, the child who speaks another language, the slower or faster child, the child from a poorer or a different caste or clan home is present and participating in the ordinary activity, with the space and material designed so that this happens by default. Equality is about how each child is treated — the same opportunity, respect, dignity and attention for everybody. Equality is the floor; equity goes further by giving extra support where a child needs it."
           ],
           "status": "verified",
           "occurrences": [
@@ -1551,15 +1760,21 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-034",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-2-2026-2-e",
           "question": "Discuss the role of songs and rhymes in language and socio-emotional development.",
           "marks": 2,
           "answer": [
-            "Repeated words, sound patterns and actions encourage listening, vocabulary and oral expression in meaningful, enjoyable contexts.",
-            "Singing together supports belonging, shared attention and turn-taking; familiar home-language songs also value children’s identities."
+            "For language, a rhyme builds vocabulary in context, so a new word is heard inside a sentence where it is useful rather than on a flashcard, and it fixes sequences in memory — the days of the week, counting to twenty, the order of a story.",
+            "For socio-emotional development, song moves the body, which is a prerequisite for attention, and builds belonging: a child who knows the same songs as the rest of the group is part of the group. In Assam the folk songs, khona bhat and putuna naat give us all this free of cost."
           ],
           "status": "verified",
           "occurrences": [
@@ -1570,17 +1785,22 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-032",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2026-3",
           "question": "How does toy-based teaching benefit the learners of ECCE?",
           "marks": 4,
           "answer": [
-            "Handling suitable toys supports coordination and exploration, for example stacking large blocks.",
-            "Puzzles, sorting materials and construction toys encourage comparison, problem-solving and early mathematical ideas.",
-            "Dolls, puppets and pretend-play objects stimulate imagination, conversation and social interaction.",
-            "Toys can support choice and joyful participation when safe, accessible and suited to children’s needs; teacher observation and prompts extend learning without making expensive toys necessary."
+            "For a four-year-old a toy is a tool of thinking, not a pastime. Toy-based teaching earns its place in ECCE for four reasons.",
+            "- It gives concrete material for ideas that cannot yet be handled in words. You cannot explain conservation to a four-year-old, but you can let her pour water from a wide bowl into a narrow one and watch the amount stay the same. Sorting bottle caps by size, threading beads in order — each is seriation and classification performed rather than recited.\n- It prepares the hand for writing. Every crayon grip, every peg pushed into a card, every piece of clay pressed flat works the small muscles a pencil will later need. Stringing beads is a fine-motor intervention for a five-year-old who cannot hold a crayon; the same beads frustrate a three-year-old, which is why toys must be matched to a developmental target.\n- It gives children something to do with each other. Two children building one bridge negotiate, take turns and fail together. That is where language stops being words addressed to an adult and becomes talk with a peer.\n- It builds persistence, because a child can see the evidence of his own effort. The tower he built is a fact; a teacher telling him that he did well is only an opinion.",
+            "Two cautions go with this. Choose open-ended material over closed toys — blocks, sand and stones serve twenty children a hundred ways, while a battery toy repeating four sounds serves one child four ways. And never tidy away a construction the child made yesterday; if it is swept into a box every evening, he quietly learns that making is not worth the trouble."
           ],
           "status": "verified",
           "occurrences": [
@@ -1591,17 +1811,23 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2026-4",
           "question": "What are the benefits and challenges of promoting multilingualism in early childhood care and education?",
           "marks": 4,
           "answer": [
-            "Benefit: recognising home languages improves access to meaning and helps children participate confidently.",
-            "Benefit: sharing languages, stories and songs supports identity, respect and opportunities to develop a wider communicative repertoire.",
-            "Challenge: a teacher may not know every home language, making responsive communication and fair assessment harder.",
-            "Challenge: suitable materials and family–centre communication may be limited. Pictures, caregiver contributions and multilingual resources can help; the languages themselves should not be treated as defects."
+            "India has no single home language, and most children grow up with more than one in the air — a mother tongue, a father's language, a community language, and now English through a phone screen. Multilingualism is therefore not an enrichment we add; it is the condition the child already lives in.",
+            "Benefits\n- Transfer of learning. A child who grasps that a dhaki is heavy in Mising has the concept already, and carries it into Assamese almost free.\n- Bigger vocabulary and more flexible thinking: more than one language means more words for the same thing.\n- Identity and belonging. The language of home carries food, work and festivals; speaking it at the centre tells the child that what he came from is valued here.\n- A bridge home and school. The home language is how the teacher reaches the family at all.",
+            "Challenges\n- The teacher's own competence; many centres are staffed in one language while the children speak three.\n- Materials. Story books and rhymes exist mainly in Assamese and English; in Bodo, Mising or Dimasa they are simply unavailable.\n- Curriculum pressure. The upper stages want English, so somebody decides English must start at four — formal instruction disguised as language policy.\n- Parents, who often treat the second language as a rung on a ladder and make the child who talks only in the mother tongue feel behind.",
+            "The position to hold is the one the national curriculum documents take: the home language is the medium of the Bal Vatika and pre-primary years, the regional language comes in alongside it, and English is heard and enjoyed rather than demanded. So greet each child in his own language, let him answer in any language he has, keep rhymes and stories in the language he speaks best, and never correct a child's grammar mid-sentence. A child whose sentences are constantly interrupted stops talking, and a child who stops talking stops learning language."
           ],
           "status": "verified",
           "occurrences": [
@@ -1612,7 +1838,13 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-002",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -1985,7 +2217,7 @@
           "question": "What is balanced curriculum?",
           "marks": 1,
           "answer": [
-            "A balanced curriculum provides varied experiences across developmental domains, combining active and quiet, indoor and outdoor, individual and group activities."
+            "A balanced curriculum is one in which all five developmental domains are represented — language, physical, cognitive, socio-emotional and aesthetic-creativity — preferably within the same activity, with nothing taught formally or ahead of what the child can do."
           ],
           "status": "verified",
           "occurrences": [
@@ -1996,16 +2228,23 @@
               "paper": "/downloads/pyqs/2021/s1-2-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-027",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2021-6",
           "question": "Write three principles in planning ECCE programme.",
           "marks": 3,
           "answer": [
-            "Developmental appropriateness: select experiences matched to children’s abilities, interests and individual needs.",
-            "Balance and integration: address all domains through a mix of active/quiet, indoor/outdoor and individual/group experiences.",
-            "Context and flexibility: use familiar languages and local materials, adapting the plan from children’s responses and observations."
+            "Any three of the six planning principles will carry the answer. These are the ones I would write.",
+            "1. Developmentally appropriate. The activity must be one a child of that age can actually do, with the materials the centre really has, without an adult helping at every step. The test: can a child do it without an adult's hand on it?",
+            "2. Play- and activity-based. The plan is written as experiences and activities, not as lessons with outcomes attached, and the timetable actively protects time for them. A programme that is 80 per cent teacher-led is a primary programme in a small room, and the useful question is whether the plan would still run if the board and the textbook disappeared.",
+            "3. Child-centred and inclusive. Children take part in choosing and in evaluating, and nothing assumes a single home language, a single family structure, a physically average body or a particular amount of adult help at home. Would the activity work for a child who speaks only Mising, or for a child who cannot walk?"
           ],
           "status": "verified",
           "occurrences": [
@@ -2030,16 +2269,29 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2021-10",
           "question": "What is theme-based activity? Prepare a weekly plan by taking a single theme for holistic development of a child of early childhood.",
           "marks": 5,
           "answer": [
-            "A theme-based activity connects different learning experiences around a familiar topic so that domains develop together.",
-            "Illustrative theme: “Plants around us”, adapted for preschool children. Retain daily free play, rest, meals and hygiene routines alongside these activities.",
-            "Use safe local materials, welcome home-language contributions and adapt handling or movement tasks so all children can participate. Observe participation, vocabulary, sorting and cooperation throughout the week."
+            "A theme-based activity is one built around a broad subject — flowers, vegetables, birds, water, family, transport, community helpers or animals — that children explore from several directions across all five domains. A theme holds many activities and spans the whole week; an activity is one event inside it. The essence of the approach is integrated learning and learning by doing: the child meets the same idea through the hand, the eye, the ear and the mouth, and the concept forms out of the experience rather than out of an explanation.",
+            "Weekly plan — Theme: Water (class: 3–6 years, 25 children, one teacher with one helper)",
+            "Concepts carried by the theme: water comes in many forms; the same amount fits in different shapes; living things need water; water is shared, so we take turns.",
+            "Monday — Bringing water in. Real matkas, bottles, a bucket and a mug are placed out and the children simply play. Later the teacher asks, which one holds more? We watch who pours and who only watches. Domains: cognitive, physical, language. Materials: household containers, a bucket.",
+            "Tuesday — Carrying and building. Two children carry a bucket each from the tank to the plants; a relay with water pots; a block bridge over a water tray. Domains: physical (balance, bilateral coordination, endurance), cognitive (spatial planning), socio-emotional (turns, shared task). Materials: buckets, pots, blocks.",
+            "Wednesday — Words and story. Collect words for water in the home language; name the parts of a tap and a matka; the story of the thirsty crow, retold over two days; a rhyme with actions. Domains: language, socio-emotional. Materials: none beyond voice, and a few picture cards.",
+            "Thursday — Making and noticing. Floating and sinking with a stick, a leaf and a stone; finding where the tray leaks and mending it with cloth; painting the reflection on the surface; block-printing a ripple pattern. Domains: cognitive, aesthetic and creativity, physical. Materials: clay, cloth, washable colour, blocks.",
+            "Friday — Care and sharing. Why is the queue at the tap long? Taking turns to fill the school's pots; watering the shade corner; a circle song using every child's name. Domains: socio-emotional, language, aesthetic. Materials: song, plants.",
+            "Throughout the week, a wet-weather plan: the same water play indoors in trays, since in Assam rain cannot be scheduled out of a plan.",
+            "What we record while it runs: dated notes of who sorts, who persists, who waits, who speaks — the raw material of the Holistic Progress Card. And the test of the plan is simple: a child who joined on Thursday must still find something here to do."
           ],
           "status": "verified",
           "occurrences": [
@@ -2051,51 +2303,19 @@
               "verification": "visually-checked-original"
             }
           ],
-          "tables": [
-            {
-              "caption": "Illustrative weekly plan",
-              "headers": [
-                "Day",
-                "Connected activities",
-                "Domains emphasised"
-              ],
-              "rows": [
-                [
-                  "Monday",
-                  "Observe safe leaves; describe colours and textures; collect fallen examples with supervision.",
-                  "Language, cognitive, physical"
-                ],
-                [
-                  "Tuesday",
-                  "Sort leaves by one feature; make a large-paper leaf collage.",
-                  "Cognitive, fine motor, aesthetic"
-                ],
-                [
-                  "Wednesday",
-                  "Hear and retell a plant story; sing an action rhyme about growing.",
-                  "Language, creative, physical"
-                ],
-                [
-                  "Thursday",
-                  "Plant a large seed with adult help; take turns watering and explain care.",
-                  "Cognitive, socio-emotional, motor"
-                ],
-                [
-                  "Friday",
-                  "Share observations and drawings; make a group plant display and agree how to care for it.",
-                  "Language, aesthetic, cooperation"
-                ]
-              ]
-            }
-          ]
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-024",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2022-3-a",
           "question": "Write differences between project method of learning and theme-based method of learning.",
           "marks": 2,
           "answer": [
-            "A project develops a sustained investigation of a question or problem, such as how to make a small garden, with children helping plan and review the work.",
-            "A theme organises varied activities around a common topic, such as plants. A project may sit within a theme, so the two approaches can overlap rather than being mutually exclusive."
+            "- Organisation. In the project method one group works on a single self-chosen piece of work with an end product. In the theme-based method the teacher fixes a broad theme and many children explore it in different ways; there is no single end product.\n- Who decides. The project is chosen by the children themselves; the theme is chosen by the teacher from what the children are already asking about.\n- Outcome. A project ends in something made and presented; a theme ends in concrete experiences, new concepts and records across all five domains."
           ],
           "status": "verified",
           "occurrences": [
@@ -2106,20 +2326,27 @@
               "paper": "/downloads/pyqs/2022/s1-2-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-037",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2022-5",
           "question": "What is curriculum? Mention the principles of constructing a balanced and contextualized curriculum for ECCE. Write a note on any one of them.",
           "marks": 7,
           "answer": [
-            "Curriculum is the organised set of goals, experiences, materials, interactions and assessment processes through which learning and development are supported.",
-            "Developmental appropriateness: activities should suit age-related possibilities and each child’s current abilities and needs.",
-            "Holistic balance: include all domains and vary active/quiet, indoor/outdoor, individual/group and child-led/guided experiences.",
-            "Context, inclusion and flexibility: connect learning with local languages and experiences, remove participation barriers and revise plans using observations.",
-            "Note on contextualisation: begin from experiences children recognise, such as the local market, seasonal rain or familiar plants, rather than assume all children share the textbook’s context.",
-            "Invite families to contribute words, stories and knowledge, checking that examples include different communities and do not reinforce stereotypes. Use affordable, safe local materials.",
-            "For example, a market theme can combine sorting vegetables, role-play, counting small quantities and drawing signs. The developmental goals remain clear even when materials and languages differ from one locality to another."
+            "Curriculum is the whole range of experiences a child is offered — what is planned, what the environment offers, what the adults say and do, what the children bring from home and community, and what the materials invite them to do. It is not the syllabus and not the textbook. In ECCE the textbook is usually absent by design, because nothing at this age is taught to a standard, nothing runs to a fixed period and nothing is completed.",
+            "The principles for constructing a balanced and contextualised ECCE curriculum are the six planning principles, and each is a corrective to a familiar failure.",
+            "1. Developmentally appropriate. The activity must be one a child of that age can actually do, with the materials actually available, without an adult hand on it. Writing before a child can hold a crayon well is not enrichment; it is practice at failure.\n2. Holistic. Every area of development is represented, and preferably in the same activity rather than in separate periods. A child watering a plant is at once physical, cognitive, language, socio-emotional and aesthetic.\n3. Contextualised. The curriculum grows out of what these children have — their language, the crops of the season, the work of their parents, the festivals on the local calendar, the water and sanitation conditions of the village.\n4. Play- and activity-based. Written as experiences, not as lessons, with the timetable protecting time for them.\n5. Child-centred and inclusive. Children participate in choosing and in evaluating; nothing assumes a single home language, a single family structure, an average body or a particular amount of adult help at home.\n6. Flexible and cyclical. The plan is a hypothesis. The teacher observes, notes what the children actually did, and adjusts the next week — planning and assessment are the same loop seen from two ends.",
+            "Balance also carries a second meaning that examiners expect: balance across the six curricular issues the syllabus names — multilingualism, inclusion, gender, equality, the adverse effects of early formal instruction, and school readiness. A curriculum can cover all five domains beautifully and still be unbalanced in the sense that matters, if it runs entirely in one language, sorts materials by gender, or leaves the child who cannot walk standing at the edge.",
+            "A note on one principle in detail: contextualisation.",
+            "Take a rural Assamese pre-primary centre and the theme water. Contextualisation means concept and material both come from the children's own world. They carry buckets from the school tank, because that is the work they watch at home; the word for the container is the word their mother uses, not the word in the textbook; the story is about a queue at a tap, which is a queue they have stood in. Concept formation then happens without a lesson: which vessel holds more, why is one pot heavier than another of the same size, where is the leak, what will happen if we cover it. The concepts are conserved volume, capacity and cause and effect — genuine cognitive structures — but they were arrived at through material the children own.",
+            "The practical test takes one minute. Name three things in this activity a child here already knows. An activity built on a dhaki, a hu, or the paddy-seed count the parents bring home at harvest will pass. One built on a shape-sorting set from a catalogue will not, and the children will say so within ten minutes.",
+            "So I would put it this way. The curriculum of the early years is not what we decide children must learn, but the environment, the material, the conversation and the day we build around them — and it must be their own, or it will not take."
           ],
           "status": "verified",
           "occurrences": [
@@ -2130,17 +2357,22 @@
               "paper": "/downloads/pyqs/2022/s1-2-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-019",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2022-7",
           "question": "Mention a few programmes that can be undertaken in school for establishing healthy home–school linkage.",
           "marks": 4,
           "answer": [
-            "Hold welcoming orientation meetings that explain play-based learning and invite families’ information about their children.",
-            "Arrange regular individual conversations around observations and work samples, agreeing practical next steps together.",
-            "Invite family members to share local stories, songs or skills, with suitable supervision and respect for diverse backgrounds.",
-            "Offer flexible workshops or take-home play ideas using ordinary materials, and provide accessible two-way communication for caregivers who cannot attend at fixed times."
+            "A linkage programme is a set of regular, scheduled activities, not an occasional meeting. The forms below are the ones the syllabus names, and they are worth running in this order, because each makes the next easier.",
+            "- Home visits, with an interpreter when the home language is not the school's. This is the only activity that gives the true picture of the child's language, care, nutrition and interests, and it brings back information the school badly needs.\n- Open days and visiting hours. Parents come into the room and watch the ordinary day, not a performance arranged for them. This corrects the widespread belief that a good pre-primary class teaches letters and numbers, and it is where the teacher's own practice gets corrected too.\n- Parent meetings and a parent council. Regular meetings on health, growth, nutrition and what the children are actually learning. The council advises the centre and, more usefully, carries messages back to families who never attend meetings.\n- Take-home materials in the home language: a story to retell, a game to play with stones, a song. This keeps the learning going at home and quietly makes the child the family's teacher.\n- Homework done together — talking about the day, reading any book that exists at home, visiting a market, doing a small household task side by side. Family time is the vehicle, and it is the form that reaches the poorest household, because it costs nothing.\n- A weekly or fortnightly din's diary in the family's own language, with no written part: a picture of what the child made, the sentence the child spoke, and one question the parent answers. Short enough to be filled, which is why it is read.\n- Using the community as a resource — the Anganwadi, the panchayat, the health centre, the library, local artisans and folk singers as guests in the room, and convergence meetings that put the Anganwadi and the pre-primary section in the same conversation.",
+            "One caution closes this: never enlist parents as unpaid helpers for cleaning duties. The moment a parent is treated as labour, the relationship is over."
           ],
           "status": "verified",
           "occurrences": [
@@ -2151,16 +2383,22 @@
               "paper": "/downloads/pyqs/2022/s1-2-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-021",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-5",
           "question": "Briefly write about the need of theme-based activities in ECCE.",
           "marks": 3,
           "answer": [
-            "A familiar theme connects language, thinking, movement and creativity so children experience learning as a meaningful whole.",
-            "It links new ideas with everyday experience and allows repeated exploration through different materials and activities.",
-            "It helps the teacher plan coherent opportunities while adapting to interests; a theme should guide flexible experiences, not force every activity into an artificial topic."
+            "A theme is a subject broad enough for children to explore from several directions and narrow enough to hold their attention. The syllabus is explicit that activities in ECCE be planned on a theme, cover all five domains, and use integrated learning and learning by doing. The official themes are flowers, vegetables, birds, water, family, transport, community helpers and animals.",
+            "The need is threefold.",
+            "- It gives the day a spine. A four-year-old cannot be given forty unrelated things, and a teacher who plans isolated activities ends up with nothing running. A theme holds them together, so a child joining on the second day still gets something to do. A theme that makes sense only to the planner is an activity, not a theme.\n- It integrates the domains. On the theme water, one child carries two buckets from the tank (physical), asks which container holds more (cognitive), waits his turn at the tap (socio-emotional), names the parts of a matka (language), and block-prints a ripple pattern (aesthetic-creativity) — in the same hour, not five periods.\n- It begins with concrete experience, which is what learning by doing means."
           ],
           "status": "verified",
           "occurrences": [
@@ -2171,17 +2409,23 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-9",
           "question": "Why is home–school linkage necessary in ECCE? For effective home–school linkage, what different activities would you carry out? Discuss.",
           "marks": 4,
           "answer": [
-            "Home–school linkage creates continuity of care and learning by combining the family’s knowledge of the child with the teacher’s observations.",
-            "Hold regular private discussions using examples of the child’s work, agreeing one feasible next step rather than issuing only instructions.",
-            "Invite caregivers or community members to share stories, songs and safe skills that connect the programme with children’s lives.",
-            "Provide flexible two-way communication and simple shared play activities for home, ensuring that work schedules, language or limited resources do not exclude families."
+            "At this age the parents are the first educators, and a programme that treats them as visitors has misunderstood the stage. Four reasons make the linkage necessary.",
+            "- Continuity. What is learned at the centre has to survive at home, and what happens at home has to be understood at the centre. Neither half can do it alone.\n- Language. Parents are the source of the child's home language, and a programme that does not know what language a child speaks at home cannot plan for the transition to school.\n- Health and nutrition. Attendance, immunisation, sleep and feeding are school problems before they are health problems. The Anganwadi can weigh a child; only the family can change what she eats.\n- Trust. A parent who has seen the room and spoken to the teacher will believe the teacher.",
+            "The activities that make it real:\n- Home visits, with an interpreter or community worker where the home language is not the school's. Nothing else gives the true picture of the child's language, care, nutrition and interests.\n- An open day and visiting hours, where parents watch the ordinary day rather than a performance. This also corrects the common belief that a good pre-primary class teaches letters.\n- Parent meetings and a parent council — regular meetings on health, growth and development, and a council that can carry messages back to families who never attend.\n- Take-home materials: simple, low-cost activities in the home language, requiring nothing the family must buy.\n- Homework done together — talking about the day, reading any book at all, visiting a market, doing a small household task side by side. This reaches the poorest home, because it costs nothing.\n- Local people as guests: a potter, a boatman, a weaver, a grandmother, sitting in the room talking about the work.",
+            "One caution: involve parents as partners with knowledge, never as unpaid helpers assigned cleaning duties. The moment a parent is treated as labour, the relationship is over."
           ],
           "status": "verified",
           "occurrences": [
@@ -2192,14 +2436,20 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-016",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2024-1-d",
           "question": "Write any two principles of a balanced curriculum on ECCE.",
           "marks": 1,
           "answer": [
-            "Developmental appropriateness and balanced opportunities across all developmental domains."
+            "- Developmentally appropriate: the activity is one a child of that age can actually do, with the materials actually available, without an adult's hand on it at every step.\n- Holistic: every domain is represented, and preferably inside the same activity rather than in separate periods."
           ],
           "status": "verified",
           "occurrences": [
@@ -2217,18 +2467,23 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2024-6",
           "question": "What is meant by long-term and short-term programme planning in regard to ECCE? Explain with appropriate examples.",
           "marks": 5,
           "answer": [
-            "Long-term planning outlines broad developmental goals and a balanced range of experiences over a term or year, taking account of context, resources and children’s needs.",
-            "Short-term planning translates those goals into weekly or daily activities, materials, groupings and opportunities for observation.",
-            "The two are connected but flexible: observations and children’s interests may require adjustments rather than rigidly completing a schedule.",
-            "Long-term example: plan a term of experiences developing conversation, cooperation, movement and early number concepts through familiar themes and free play.",
-            "Short-term example: within a plants theme, arrange a supervised leaf walk, sorting, a story and collage during one week, noting each child’s participation and adapting the next activities."
+            "At this stage nothing is completed, so planning describes a range of experience and a rhythm rather than a sequence of lessons with outcomes attached. Planning happens at two horizons, and the two must agree with each other.",
+            "Long-term planning is the wider frame: the annual or term-wise programme, built around the children's age group, the local season, the agricultural calendar and the festivals on the local calendar. It answers the question, what should this group of children have experienced by the end of the year? An annual plan for a pre-primary section in an Assamese village might put the monsoon and paddy in September, the harvest and the post-harvest folk songs in November and December, Bihu and the seasonal foods in January, the new seedlings in March, with a block on water, sanitation and hygiene running through all of it. It also allocates the practical things: the term's themes, the visits, the parent meetings, the growth-monitoring schedule and the material budget.",
+            "Short-term planning is the daily and weekly working plan — what we will actually do in this room tomorrow. A weekly plan on the theme of water might spread across five days: Monday bringing real water containers and asking which holds more; Tuesday carrying two buckets from the tank; Wednesday the story of the thirsty crow and words for water in the home language; Thursday painting the reflection and block-printing a ripple; Friday talking about why the queue at the tap is long. Each day also fixes the daily rhythm: arrival and free play, circle time, snack, outdoor activity, rest, group activity, story and song, departure.",
+            "The two are joined by the principle of flexible and cyclical planning. A plan is a hypothesis, not a promise. If the children spent four days chasing a scooter in the yard, the week is re-sequenced around outdoor games. If the group sorts bottle caps by size without being asked, the next plan pushes seriation further. The long-term plan sets the direction, the short-term plan sets the road, and what the teacher observes while driving changes both. A term plan that observation cannot alter is not a plan; it is a schedule that has been mistaken for one."
           ],
           "status": "verified",
           "occurrences": [
@@ -2239,17 +2494,22 @@
               "paper": "/downloads/pyqs/2024/s1-2-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2024-8",
           "question": "Write the principles of preparing a balanced and contextualized programme of Early Childhood Care and Education (ECCE).",
           "marks": 4,
           "answer": [
-            "Plan from children’s developmental levels, interests and individual needs, allowing adaptation.",
-            "Integrate all domains and balance active/quiet, indoor/outdoor, individual/group and child-initiated/guided experiences.",
-            "Use familiar languages, local materials and meaningful themes while representing diverse families and avoiding stereotypes.",
-            "Build in responsive care, safety, observation and family feedback, using evidence to revise the programme rather than follow it mechanically."
+            "Planning an ECCE programme is not the same work as planning a primary programme, and six principles do most of the job. This is the list an examiner is looking for.",
+            "1. Developmentally appropriate. The activity must be one a child of that age can actually do, with the materials actually available, without an adult hand on it. Writing before a child can hold a crayon well is not enrichment; it is practice at failure.\n2. Holistic. Every area of development is represented, preferably in the same activity rather than in separate periods. The test: point to the physical, cognitive, language, socio-emotional and aesthetic strand of this one activity.\n3. Contextualised. The plan grows out of what the children in this centre have — their language, the crops of the season, the work of their parents, the festivals on the local calendar, the water and sanitation conditions of the village. The test: name three things in this plan a child here already knows. An activity built on a dhaki or a hu will pass; one built on a shape-sorting set from a catalogue will not, and the children will say so within ten minutes.\n4. Play- and activity-based. The plan is written as experiences, not as lessons, and the timetable protects time for them. The test: could this run if the board and the textbook disappeared?\n5. Child-centred and inclusive. Children participate in choosing and in evaluating; nothing assumes a single home language, a single family structure, an average body or a particular amount of adult help at home.\n6. Flexible and cyclical. The teacher observes, notes what the children actually did, and adjusts the next week's plan. Planning and assessment are the same loop seen from two ends.",
+            "Balanced and contextualised, then, are not two separate virtues. A balanced programme covers all five domains; contextualised means the balance is drawn from the children in front of you, not from a textbook written three thousand kilometres away."
           ],
           "status": "verified",
           "occurrences": [
@@ -2260,14 +2520,20 @@
               "paper": "/downloads/pyqs/2024/s1-2-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-1-e",
           "question": "Mention one theme-based activity for ensuring holistic development during ECCE.",
           "marks": 1,
           "answer": [
-            "A pretend vegetable market combines naming, sorting, handling safe objects, role-play and turn-taking around one familiar theme."
+            "Under the theme Water: carrying two buckets from the tank to the garden. Physical (balance, grip, endurance), cognitive (which container holds more), language (naming the parts of a matka), socio-emotional (taking turns at the tap) and aesthetic (arranging the vessels by size)."
           ],
           "status": "verified",
           "occurrences": [
@@ -2278,16 +2544,22 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-6",
           "question": "Discuss why proper management of classrooms, both inside and outside, is an important factor in ECCE.",
           "marks": 3,
           "answer": [
-            "Safe layouts, maintained equipment and effective supervision reduce avoidable hazards and allow confident exploration.",
-            "Accessible materials, clear activity areas and predictable routines support independence and reduce unnecessary waiting or conflict.",
-            "A balance of indoor and outdoor experiences enables varied movement, quiet play and social learning, with adjustments so every child can participate."
+            "At this age management is not discipline in the ordinary sense. A three-year-old cannot be reasoned with, cannot be made to sit still because a lesson demands it, and does not understand punishment. What we manage is not the child's behaviour but the conditions under which it changes.",
+            "Inside, arrange the room so that movement is the default: low shelves, reachable material, floor space, a book corner, a sand-and-water corner, display at child height. Keep materials few, mixed and open-ended. The flow of the day matters more than its content — arrival, free play, circle, snack, outdoor time, rest, group activity, story, departure — because a predictable rhythm lowers friction better than any rule. Work in groups of four to six and rotate them; whole-class instruction does not belong below six.",
+            "Outside, zone the space for active play, quiet play, sand and water, climbing and a garden bed, and keep it safe but not sterile. Adults stand where they can see the whole space, and the ratio is about one adult to ten children. Change the conditions before you change the child."
           ],
           "status": "verified",
           "occurrences": [
@@ -2298,15 +2570,21 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-10-a",
           "question": "Write a short note on: Importance of parental and community involvement in ECCE.",
           "marks": 2,
           "answer": [
-            "Families share knowledge of children’s interests, languages and needs, helping teachers maintain continuity between home and centre.",
-            "Community stories, skills and practical support can enrich learning and strengthen inclusion, provided participation is respectful, safe and does not disadvantage families with fewer resources."
+            "Importance of parental and community involvement in ECCE",
+            "It decides what the programme can actually do. What is learned at the centre has to survive at home, and parents are the source of the child's home language, so without knowing the family we cannot even plan the transition to school. Attendance, immunisation, sleep and feeding are school problems before they are health problems. And trust matters: a parent who has seen the room and spoken to the teacher will believe the teacher, where one handed only a diary will not. The community adds what no budget can buy — the potter's hands, a field, a folk song, the health centre."
           ],
           "status": "verified",
           "occurrences": [
@@ -2317,14 +2595,20 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-034",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-2-2026-1-c",
           "question": "Mention one characteristic of theme-based activities.",
           "marks": 1,
           "answer": [
-            "They connect experiences across developmental domains through a common, meaningful topic."
+            "A theme is never a single lesson. One broad theme is explored through many activities that together reach all five domains — language, physical, cognitive, socio-emotional and aesthetic-creativity — each beginning with a concrete experience."
           ],
           "status": "verified",
           "occurrences": [
@@ -2335,14 +2619,20 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2026-1-e",
           "question": "Why is parental involvement important in ECCE?",
           "marks": 1,
           "answer": [
-            "It helps families and teachers share knowledge of the child and provide consistent, responsive support across home and centre."
+            "Because the family is the child's first school. Parents give the earliest language, the food, the affection and the habits of self-care, and whatever is learned at the centre has to survive at home — so parents must be partners, not visitors."
           ],
           "status": "verified",
           "occurrences": [
@@ -2353,15 +2643,21 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2026-2-d",
           "question": "Write two strategies for outside management of ECCE classroom.",
           "marks": 2,
           "answer": [
-            "Inspect and maintain the outdoor area and equipment, removing hazards and ensuring appropriate boundaries and supervision.",
-            "Organise accessible activity zones with clear routines for transitions and use of materials, adapting activities for weather and children’s different needs."
+            "Outdoor space is not the leftover, so I would manage it on two lines.",
+            "- Zoning. Mark out separate areas for active play, quiet play, sand and water, a climbing or swinging structure and a garden bed, using plants, edges or low fencing rather than instructions to the children.\n- Supervision without hovering. Position adults so that the whole space is visible, keep about one adult to ten children, and let the ground stay slightly risky — safe means a sound fence and a covered well, not a sterile concrete yard."
           ],
           "status": "verified",
           "occurrences": [
@@ -2372,17 +2668,22 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-031",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2026-7",
           "question": "Write about the necessities for planning and design of theme-based activities for ECCE.",
           "marks": 4,
           "answer": [
-            "Choose a familiar, meaningful theme connected with children’s interests and local context so new ideas have a concrete basis.",
-            "Set developmental goals and connect varied activities across language, cognition, movement, relationships and creativity rather than repeat one worksheet format.",
-            "Prepare safe, accessible materials and flexible groupings, allowing choice, exploration and contributions in familiar languages.",
-            "Plan observation and reflection so the teacher can adjust activities from children’s responses, while maintaining daily care routines and a balanced programme."
+            "A theme is a subject broad enough for children to explore from several directions and narrow enough to hold their attention. Planning a theme is a five-step job, and the order matters.",
+            "1. Find the thread. Start from the children, not from the textbook. Ask what they have noticed recently — the rain, the buffaloes in the field, the new shop on the road — and choose the theme they are already asking about. A theme imported from a book is a theme that will not run.\n2. Set the concepts. List the three or four big ideas the theme can carry, stated as concepts and not as activities. For flowers: living things need water and light; plants can be sorted and grouped; the same word can be a name, a colour and a shape. Concepts, not tasks.\n3. Plan the concrete experiences first, before writing anything down. What will children actually do, see, handle and say? A seed soaked in a plate, a leaf rubbed and pressed, a rhyme sung, a story told, a visit to a garden. Concrete experience is the foundation; everything else is built on it.\n4. Spread the activities across all five domains — language, physical, cognitive, socio-emotional and aesthetic-creativity — preferably in the same activity rather than in five separate periods.\n5. Sequence, and decide in advance what you will record. Seeing comes before naming, naming before comparing, comparing before classifying. That record is what the Holistic Progress Card will later be made of.",
+            "Materials go with this: low-cost, locally available, safe, non-toxic and age-appropriate — nothing small enough to swallow, nothing sharp, no water without an adult present."
           ],
           "status": "verified",
           "occurrences": [
@@ -2393,7 +2694,13 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-005",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -2766,10 +3073,10 @@
           "question": "Define assessment. How is ECCE assessment different from other learning levels? Explain with example.",
           "marks": 4,
           "answer": [
-            "Assessment is the systematic collection and interpretation of evidence about learning and development to guide support.",
-            "In ECCE, evidence is gathered mainly during familiar play, routines and interaction rather than formal written examinations.",
-            "It covers multiple developmental domains and individual progress, using descriptions instead of ranking children by examination scores; older levels may also use observation but can employ more formal subject tasks.",
-            "For example, while children sort blocks, the teacher records how one child groups shapes, explains a choice and shares materials, then plans the next challenge."
+            "Assessment means judging the extent to which learning has taken place. That definition is too thin for the early years, and the difference matters.",
+            "Testing measures a child against a standard, in a situation someone designed, and produces a number. Assessment observes what a child can already do, in ordinary activity, and produces a description. At every level the distinction exists, but below six it becomes a matter of principle, because a test administered to a four-year-old measures the examiner more than the child: a strange adult, a strange room, questions with no material in the hands, and a demand to produce an answer on demand rather than in play.",
+            "So ECCE assessment differs in these ways.\n- It is continuous, not periodic. It happens while children are playing and costs nothing extra. A test week in an ECCE centre is a lost week.\n- It is based only on observation. The evidence is what the child does with a real material, over real time, with real people around.\n- It is embedded in play, so the activity assessed is the activity the children believe they are playing in.\n- It covers all five domains and gives no single label.\n- It is measured against the child's own previous level, not against the class.\n- It is qualitative, not competitive. No marks out of ten, no ranking on a wall.\n- It is never used for selection, labelling or admission.",
+            "An example. In a Grade 3 classroom the teacher gives a unit test, marks it out of twenty, and finds that twenty-eight children can subtract within a hundred. In a pre-primary class the teacher watches four children fit ten bottle caps from largest to smallest, and sees that three manage it unaided and can then re-sort by colour, while the fourth still confuses size with number. That observation is worth more than any test: it is dated, repeatable, names the actual difficulty, and tells the teacher exactly what to do next — more guided play with the same material, not a worksheet."
           ],
           "status": "verified",
           "occurrences": [
@@ -2780,15 +3087,28 @@
               "paper": "/downloads/pyqs/2021/s1-2-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-022",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2021-9",
           "question": "Prepare a progress report proforma for pre-school children.",
           "marks": 4,
           "answer": [
-            "The following is a model format, not an official prescribed form. Enter observations from more than one occasion and record the support provided.",
-            "Describe strengths and next steps, include family information, and keep the record confidential rather than rank children."
+            "The progress report turns a teacher's records into something a family can use. A record kept in the register helps the teacher; a report reaches the home and changes what the family does. A good proforma therefore leaves a place for the parent's own comment as well as the teacher's.",
+            "Sample proforma — Pre-school Progress Report",
+            "Part A. Identification\nName of child ____ ; date of birth ____ ; admission date ____ ; class/age ____ ; parent or guardian ____ ; address and contact ____ ; attendance this term ____.",
+            "Part B. Observation summary (dated behaviour, not grades)\n- Language — ____\n- Physical — ____\n- Cognitive — ____\n- Socio-emotional — ____\n- Aesthetic and creativity — ____\n- Health and nutrition — ____",
+            "Part C. Present level in my words — What your child can now do: ____ (begin here, with a strength)",
+            "Part D. Change since last report — What she could not do in September and can do now: ____",
+            "Part E. One activity for home — ____ (something the family can do this week, in the home language)",
+            "Part F. Teacher's signature and date ____ ; Parent's comment and signature ____",
+            "Three rules govern the filling of it. Report what the child can do, not what she lacks, because a parent told only about failure will look for a remedy everywhere except where the remedy is. Use the child's own behaviour in concrete terms — she has started sharing is a report; she has improved in sharing is a judgment nobody can act on. And never compare one child with another, because that comparison belongs in the teacher's head, not on paper a family keeps for years."
           ],
           "status": "verified",
           "occurrences": [
@@ -2807,65 +3127,19 @@
               "verification": "visually-checked-original"
             }
           ],
-          "tables": [
-            {
-              "caption": "Illustrative preschool progress-report proforma",
-              "headers": [
-                "Field / domain",
-                "Dated evidence or observation",
-                "Next support"
-              ],
-              "rows": [
-                [
-                  "Child name / age / reporting period",
-                  "________",
-                  "Teacher / caregiver: ________"
-                ],
-                [
-                  "Physical and motor",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Language and literacy",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Cognitive",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Socio-emotional",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Aesthetic and creative",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Family observations / child voice",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Review date / teacher and caregiver acknowledgement",
-                  "________",
-                  "________"
-                ]
-              ]
-            }
-          ]
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2022-1-c",
           "question": "Mention one principle of assessment.",
           "marks": 1,
           "answer": [
-            "Assessment should be continuous and based on observations of the child in familiar, meaningful activities."
+            "Assessment is based on observation, and only on observation. The evidence is what a child does with a real material, over real time, with real people around — never what he merely says he can do."
           ],
           "status": "verified",
           "occurrences": [
@@ -2876,15 +3150,20 @@
               "paper": "/downloads/pyqs/2022/s1-2-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-021",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2022-3-b",
           "question": "Write differences between authentic assessment and developmental assessment.",
           "marks": 2,
           "answer": [
-            "Authentic assessment examines what a child does in meaningful, everyday tasks, such as sharing materials during play.",
-            "Developmental assessment examines progress across developmental domains and patterns over time. One observation can serve both purposes; they are not opposites or interchangeable with formal testing."
+            "- What is watched. Authentic assessment watches the child doing real things in real activity — the leaf he sorts, the bridge he builds with blocks. Developmental assessment asks what the child can do now compared with what he could do earlier.\n- The benchmark. Authentic assessment sets no standard beyond the ordinary demands of the activity. Developmental assessment uses the child's own previous level as the yardstick, never the class average.\n- Together they answer the only question that matters here: what can this child do now that he could not do before?"
           ],
           "status": "verified",
           "occurrences": [
@@ -2895,15 +3174,30 @@
               "paper": "/downloads/pyqs/2022/s1-2-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-038",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2022-6",
           "question": "Prepare a sample progress report for a pre-school child.",
           "marks": 4,
           "answer": [
-            "Illustrative child: Riya, age 4 years 6 months; reporting period: September; observations below are fictional examples, not developmental deadlines.",
-            "A useful report records what the child did, the context and an achievable next support. Discuss it privately with caregivers and review progress over time."
+            "Here is a filled-in sample, so that the difference between a record and a judgement is visible.",
+            "Sample Progress Report\nChild: Manju Das. Age: 4 years 4 months. Class: pre-primary. Period: September to December. Attendance: present 78 of 86 days; absent 8, of which 5 were with fever and followed up.",
+            "Language — Manju now uses four- and five-word sentences where in September she used single words. On 4 December she narrated the whole sequence of what happened at the pond without prompting. She answers in Mising at home and Assamese in class, and is beginning to join the Assamese rhyme for bathua-bhat.",
+            "Physical — She pedals the tricycle up the slope unaided and holds her crayon in a tripod grip. She buttons her own coat now. She was shy about the rough-and-tumble corner in September; on 14 November she was last to leave it.",
+            "Cognitive — She sorted ten bottle caps by size unaided and can then re-sort by colour when the rule changes. Attention has lengthened from about two minutes to about ten. She tried the pulley four times before asking for help, and then succeeded.",
+            "Socio-emotional — She joined the group game after ten minutes and stayed to the end, and coped with losing the race without crying. Separation at drop-off is still difficult on Mondays; on other days she walks in and greets the group.",
+            "Aesthetic and creativity — She chose colours deliberately and stayed with the block-printing to the end of the session. Her clay pot from the theme water was displayed at child height.",
+            "Health and nutrition — Weight 13.1 kg against 12.4 kg in September; height 100 cm. No referral needed.",
+            "One thing you can do at home: please keep talking with her in Mising at home about the stories we are reading here. She retells them to her grandmother in Mising, and that retelling is where the words are settling.",
+            "Teacher: (signature)  Parent: (signature)",
+            "Note what makes this a report and not a score. Every entry carries a date and a behaviour somebody else could also see, it begins with a strength, and it ends in an action the family can carry out. There is no comparison with the class anywhere in it."
           ],
           "status": "verified",
           "occurrences": [
@@ -2915,57 +3209,21 @@
               "verification": "visually-checked-original"
             }
           ],
-          "tables": [
-            {
-              "caption": "Illustrative completed progress report",
-              "headers": [
-                "Domain",
-                "Observed strength / developing skill",
-                "Next support"
-              ],
-              "rows": [
-                [
-                  "Physical and motor",
-                  "Threads large beads independently; needs help with some fastenings.",
-                  "Provide dressing frames and patient practice."
-                ],
-                [
-                  "Language",
-                  "Retells a familiar story in her home language with picture prompts.",
-                  "Offer small-group retelling and new words in context."
-                ],
-                [
-                  "Cognitive",
-                  "Sorts blocks by colour; explores a second sorting rule with help.",
-                  "Invite sorting by shape and discuss choices."
-                ],
-                [
-                  "Socio-emotional",
-                  "Joins a familiar partner; sometimes needs a reminder to wait.",
-                  "Model turn-taking in a short cooperative game."
-                ],
-                [
-                  "Aesthetic and creative",
-                  "Chooses colours and explains her drawing.",
-                  "Offer varied safe materials and invite descriptions."
-                ],
-                [
-                  "Family / review",
-                  "Family reports enjoyment of songs at home.",
-                  "Share a rhyme and review observations next month."
-                ]
-              ]
-            }
-          ]
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-020",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-7",
           "question": "Explain why it is necessary to maintain progress records of children.",
           "marks": 3,
           "answer": [
-            "Dated records show change over time and prevent a single event from becoming a permanent judgement about the child.",
-            "They help teachers identify strengths and emerging needs, plan suitable support and check whether it works.",
-            "They provide concrete evidence for confidential discussions with families and continuity when another educator supports the child."
+            "Assessment in ECCE answers one question: what can this child do now that he could not do before? The record is the only place where that answer is written down, and without it the teacher is left with memory and impression.",
+            "The reasons records are necessary are these.",
+            "- They are the evidence assessment rests on. Assessment here is continuous, observation-based and play-based, and the evidence is what a child does with real material over real time. A useful entry carries a date and a behaviour — sorted ten bottle caps by size unaided. Words like good and average are not entries, because nobody can act on them.\n- They change the programme. The Holistic Progress Card carries five dated columns, one for each domain, and the next plan is built on what the card shows is missing.\n- They are the meeting point with the family. A register entry helps the teacher; a report reaches the home and changes what the family does. So reporting begins with a strength, describes behaviour rather than quality, covers all five domains, uses the parent's language, and never compares the child with others.\n- They give continuity and protection. The admission, attendance and stock registers are official records, and attendance at this age is a health and nutrition indicator, not merely administration. They must never be used for selection or ranking."
           ],
           "status": "verified",
           "occurrences": [
@@ -2976,15 +3234,21 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m3-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2023-10-b",
           "question": "Write a short note on: Observation and evaluation in ECCE.",
           "marks": 2,
           "answer": [
-            "Observation records what a child actually does and says during play and routines, including the context and help received.",
-            "Evaluation interprets evidence from several occasions to understand progress and plan support; it should avoid labels, comparisons or conclusions based on one brief event."
+            "Observation and evaluation in ECCE",
+            "Observation is deliberate watching during ordinary play: does she hold the crayon in a working grip, does he wait for his turn, can the group sort ten caps by size. The teacher records what the child actually did, with a date, and describes the behaviour rather than labelling the quality. Evaluation is the next step: what has moved since the last observation, which domain is still weak, and what the plan must therefore change. Planning and assessment are the same loop seen from two ends."
           ],
           "status": "verified",
           "occurrences": [
@@ -2995,21 +3259,22 @@
               "paper": "/downloads/pyqs/2023/s1-2-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-036",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-2-2024-2",
           "question": "Discuss 8 key standards to ensure quality Early Childhood Care and Education (ECCE).",
           "marks": 4,
           "answer": [
-            "Interaction: respectful, responsive relationships among adults, children and families.",
-            "Health, nutrition, personal care and routine: appropriate care, hygiene and access to health support.",
-            "Protective care and safety: supervision, emotional security and protection from harm.",
-            "Infrastructure / physical environment: accessible, safe indoor and outdoor space and facilities.",
-            "Organisation and management: suitable staffing, programme planning, records and family participation.",
-            "Children’s experiences and learning opportunities: varied, inclusive, developmentally appropriate play and exploration.",
-            "Assessment and outcome measures: meaningful observation and reporting used to improve support.",
-            "Managing to support the quality system: professional development, mentoring and administrative support that sustain quality."
+            "The syllabus names eight standards against which an ECCE programme is judged — and against which we should judge our own plan. They concern the environment, the process and the people.",
+            "1. Safe and secure environment. Sound fencing, a covered well, secured water points, safe furniture and material, a known emergency procedure, and the centre's address on record with the nearest health facility.\n2. Health and nutrition. Check-up on admission, monthly growth monitoring, drinking water, sanitation, a midday meal, and absence followed up and referred.\n3. Developmentally appropriate curriculum. Activities matched to the age; all five domains covered; nothing taught formally or ahead of the child's capacity.\n4. Learning through play and activity. Long periods of free and guided play with materials the children reach themselves; the teacher extends the play rather than instructing.\n5. Trained and adequate staff. Trained in ECCE, present in the room, not pulled away to other duties, with the adult–child ratio held at about one adult to ten children.\n6. Family and community partnership. Parents known, visited and welcomed, their knowledge of the child recorded, and the community used as a resource.\n7. Inclusive programme. Every child welcome regardless of disability, gender, language, caste, religion or income, with a space and material designed so that every child can actually take part.\n8. Continuous assessment and improvement. Progress observed, entered on the Holistic Progress Card and used to change the programme, with the admission, attendance and stock registers complete.",
+            "Read together, the eight describe one thing: a programme that keeps the child safe, keeps the child fed, keeps the child playing, and pays attention to what the child can now do. A centre that satisfies standard 8 while failing standard 5 is only documenting bad practice."
           ],
           "status": "verified",
           "occurrences": [
@@ -3027,14 +3292,20 @@
               "paper": "/downloads/pyqs/2026/s1-2-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-1-c",
           "question": "What is Holistic Progress Card (HPC)?",
           "marks": 1,
           "answer": [
-            "A Holistic Progress Card is a record of a child’s progress across developmental areas, using descriptive evidence of strengths and further support needs rather than only marks."
+            "The Holistic Progress Card is the official card maintained for every child in an ECCE programme. It carries dated notes of what the child actually did across all five developmental domains, and it describes behaviour rather than grades."
           ],
           "status": "verified",
           "occurrences": [
@@ -3045,14 +3316,20 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-1-d",
           "question": "Mention one key standard for ensuring quality ECCE.",
           "marks": 1,
           "answer": [
-            "Respectful and responsive interaction between adults and children."
+            "A safe and secure environment: the building, furniture and material are safe, the fence, the well and any water point are secured, staff know the emergency procedure, and the centre's address is on record with the nearest health facility."
           ],
           "status": "verified",
           "occurrences": [
@@ -3063,15 +3340,20 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-2",
           "question": "Mention any two tools of assessment in ECCE.",
           "marks": 2,
           "answer": [
-            "Anecdotal records: dated descriptions of meaningful events observed during everyday activity.",
-            "Portfolios: selected work samples and observations collected over time to show progress."
+            "- Observation. The teacher watches systematically during ordinary play — does she hold the crayon in a working grip, does he wait for his turn — and records what the child actually did. It costs nothing extra, because it happens while the children are playing.\n- The Holistic Progress Card. The official child-level record, carrying dated notes of behaviour across all five domains. It tells the teacher what to change in the programme and the parent what to do at home."
           ],
           "status": "verified",
           "occurrences": [
@@ -3082,17 +3364,22 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m12-033",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2025-8",
           "question": "Discuss the key principles of assessment in ECCE.",
           "marks": 4,
           "answer": [
-            "Use ongoing observations during familiar play and routines; explicit tests and examinations are inappropriate for the Foundational Stage.",
-            "Gather evidence across domains and occasions, noting context and assistance instead of judging from a single performance.",
-            "Respect individual, linguistic and cultural differences, avoiding ranking, humiliation or fixed labels.",
-            "Use records to plan support and discuss progress confidentially with families; assessment should improve experiences rather than interrupt children’s learning unnecessarily."
+            "Assessment at this stage has one job: to describe what a child can now do, so that the programme can be changed and the parent can be told something true. Seven principles follow from that job.",
+            "1. Continuous and part of the programme, not an event. It happens while the children are playing and costs nothing extra. A test week in an ECCE centre is a lost week.\n2. Based on observation, and only on observation. The evidence is what a child does with a real material, over real time, with real people around — never what he says he can do.\n3. Play-based and embedded, not separated from the children. The activity that is assessed is the activity they believe they are playing in.\n4. Holistic. All five domains, no single label. A child is five things at once, and a report that says average without saying average in what is worse than no report.\n5. Developmentally appropriate, and measured against the child's own previous level. At this age the gain over time is the finding.\n6. Qualitative and descriptive, not quantitative and competitive. Words, examples and a description of behaviour — not a number out of ten, and never a ranking on a wall.\n7. Used for support and programme improvement, never for selection or labelling. Records must never travel outside the centre as a verdict on a child.",
+            "Every one of these is a consequence of a single question: what can this child do now that he could not do before? If our answer to a child's progress is a mark out of twenty, we have stopped asking that question and started asking a different one, whose answer helps nobody."
           ],
           "status": "verified",
           "occurrences": [
@@ -3103,15 +3390,23 @@
               "paper": "/downloads/pyqs/2025/s1-2-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-2-2026-6",
           "question": "What is Holistic Progress Card (HPC)? Prepare a sample holistic progress report proforma for pre-school children.",
           "marks": 4,
           "answer": [
-            "A Holistic Progress Card documents progress across developmental domains through descriptive evidence, drawing on teacher observation and relevant family and child perspectives.",
-            "The following illustrative proforma records strengths, support and review plans; it is not an official prescribed template. Use observations across occasions and discuss the record privately with caregivers."
+            "The Holistic Progress Card is the official child-level document of an ECCE programme. It is a card maintained for every child, recording dated evidence of progress across all five developmental domains — language, physical, cognitive, socio-emotional, and aesthetic-appreciation and creativity. It informs the programme and reports to the parent. It carries descriptions of what the child did, never scores. A child who cannot do anything on the day you test him is not a child who knows nothing; he is a child you did not watch.",
+            "Sample proforma:",
+            "1. Child identification — Name; date of birth; date of admission; centre enrolment number; parent/guardian name, address and contact.\n2. Period covered — From ____ to ____ (Term I / Term II); class/age group ____.\n3. Attendance during the period — Present ____ days; absent ____ days; reason and follow-up.\n4. Domain-wise dated observation sheet:\n- Language — vocabulary, sentence length, sequencing a story, listening to the end.\n- Physical — gross motor, fine-motor grip, self-care and independence, participation in outdoor activity.\n- Cognitive — attention span, matching, sorting, seriation, persistence.\n- Socio-emotional — confidence, cooperation, separation from parent, tolerance of frustration.\n- Aesthetic and creativity — expression, design, willingness to try, care taken with the work.\n5. Health and nutrition note — growth measured, any referral made.\n6. Teacher's overall remark for the term, beginning with a strength and ending with one action the family can carry out.",
+            "An entry is useful only if it carries a date and describes a behaviour somebody else could also see: '4 March — sorted ten bottle caps by size unaided; tried the pulley four times before asking for help.' Words like good, average and needs improvement are not entries; they cannot be acted on, and they tell the parent nothing she can do on Monday."
           ],
           "status": "verified",
           "occurrences": [
@@ -3123,58 +3418,12 @@
               "verification": "visually-checked-original"
             }
           ],
-          "tables": [
-            {
-              "caption": "Illustrative preschool progress-report proforma",
-              "headers": [
-                "Field / domain",
-                "Dated evidence or observation",
-                "Next support"
-              ],
-              "rows": [
-                [
-                  "Child name / age / reporting period",
-                  "________",
-                  "Teacher / caregiver: ________"
-                ],
-                [
-                  "Physical and motor",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Language and literacy",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Cognitive",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Socio-emotional",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Aesthetic and creative",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Family observations / child voice",
-                  "________",
-                  "________"
-                ],
-                [
-                  "Review date / teacher and caregiver acknowledgement",
-                  "________",
-                  "________"
-                ]
-              ]
-            }
-          ]
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.2_m4-004",
+            "selection": "full-answer"
+          }
         }
       ]
     }

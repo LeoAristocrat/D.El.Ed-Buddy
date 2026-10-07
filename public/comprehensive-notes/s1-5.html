@@ -1,0 +1,2136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="D.El.Ed Semester I Study Notes">
+<meta name="description" content="Status of English, listening and speaking, critical reading, and vocabulary in context.">
+<meta name="keywords" content="D.El.Ed, Semester 1, S1.5, SCERT Assam, PSTE, teacher education, study notes">
+<meta name="subject" content="Diploma in Elementary Education (PSTE) — Semester I">
+<meta name="color-scheme" content="light">
+<title>S1.5 — Proficiency in English – I | D.El.Ed Semester I Notes</title>
+<link rel="icon" href="/favicon.svg">
+<style>
+/* ============================================================
+   D.El.Ed Semester 1 — Shared Design System
+   Premium academic notebook aesthetic
+   ============================================================ */
+
+:root {
+  /* --- Paper & surface --- */
+  --paper:          #faf6ee;
+  --paper-deep:     #f3ece0;
+  --card:           #fffdf8;
+  --card-beige:     #f6efe2;
+  --card-beige-2:   #f2e9d8;
+
+  /* --- Ink --- */
+  --ink:            #33302b;
+  --ink-soft:       #55504a;
+  --ink-faint:      #7a736a;
+  --rule:           #ded2bd;
+  --rule-soft:      #e9e0cf;
+
+  /* --- Accents --- */
+  --terracotta:     #b4623c;
+  --terracotta-d:   #8f4a2a;
+  --terracotta-bg:  #f7e9e0;
+  --olive:          #6d7a4a;
+  --olive-d:        #54603a;
+  --olive-bg:       #ecefdd;
+  --dusty-blue:     #4c6a83;
+  --dusty-blue-bg:  #e5ecf2;
+  --plum:           #7a5570;
+  --plum-bg:        #f1e8ee;
+  --gold:           #a5822e;
+  --gold-bg:        #f7efd8;
+
+  /* --- Type --- */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+           Georgia, "Times New Roman", serif;
+  --sans:  "Segoe UI", "Gill Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  --mono:  "Consolas", "SF Mono", "Menlo", monospace;
+
+  --fs-body: 10.6pt;
+  --lh-body: 1.62;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 34px 20px 80px;
+  font-family: var(--serif);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.20) 1px, transparent 0);
+  background-size: 22px 22px;
+  background-attachment: fixed;
+}
+
+/* ============ Document container ============ */
+.doc {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(120, 100, 70, 0.06),
+    0 10px 34px -14px rgba(90, 72, 45, 0.22);
+  padding: 46px 56px 64px;
+  position: relative;
+}
+.doc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0);
+  background-size: 22px 22px;
+  opacity: 0.75;
+}
+.doc > * { position: relative; z-index: 1; }
+
+/* ============ Hero / subject header ============ */
+.hero {
+  border: 1px solid var(--rule);
+  border-top: 5px solid var(--terracotta);
+  background: linear-gradient(180deg, #fffdf8 0%, #f7f0e3 100%);
+  padding: 26px 30px 22px;
+  margin-bottom: 26px;
+  border-radius: 3px;
+}
+.hero .kicker {
+  font-family: var(--sans);
+  font-size: 8.4pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-size: 25pt;
+  line-height: 1.16;
+  margin: 0 0 4px;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.hero .code {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--paper);
+  background: var(--ink);
+  padding: 3px 11px;
+  border-radius: 2px;
+  margin: 0 0 12px;
+}
+.hero .tagline {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 4px;
+  max-width: 62ch;
+}
+/* The divider doubles as the maker-credit row: rule on the left, credit on the
+   right. Keeping them on one line costs no vertical space in the hero, which
+   the one-page-before-Unit-1 budget cannot spare. */
+.hero .rule-line {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 13px 0 12px;
+}
+.hero .rule-line::before {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, var(--terracotta), var(--rule) 55%, transparent);
+}
+.made-by {
+  flex: 0 0 auto;
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+.made-by .heart {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", var(--sans);
+  font-size: 8.4pt;
+}
+.made-by a {
+  color: var(--terracotta-d);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+}
+.made-by a:hover { border-bottom-color: var(--terracotta); }
+
+/* ============ At a glance ============ */
+.glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.glance .g-item {
+  flex: 1 1 152px;
+  background: #fffdf8;
+  padding: 9px 12px 10px;
+}
+.glance .g-label {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 2px;
+}
+.glance .g-value {
+  font-size: 9.6pt;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.34;
+}
+
+/* ============ Table of contents ============ */
+.toc {
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--olive);
+  background: #fcf9f2;
+  padding: 20px 24px 18px;
+  border-radius: 3px;
+  margin: 26px 0 30px;
+}
+.toc h2 {
+  font-family: var(--sans);
+  font-size: 9.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  margin: 0 0 12px;
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+}
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
+.toc > ol > li {
+  counter-increment: toc;
+  margin: 0 0 9px;
+}
+.toc > ol > li > a {
+  font-weight: 700;
+  font-size: 10.6pt;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.toc > ol > li > a:hover { color: var(--terracotta-d); border-bottom-color: var(--terracotta); }
+.toc > ol > li > a::before {
+  content: counter(toc, upper-roman) " · ";
+  color: var(--terracotta);
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.toc .sub {
+  margin: 4px 0 0 4px;
+  padding: 0 0 0 14px;
+  list-style: none;
+  border-left: 1px solid var(--rule-soft);
+  columns: 2;
+  column-gap: 26px;
+}
+.toc .sub li {
+  font-size: 9.4pt;
+  color: var(--ink-soft);
+  line-height: 1.48;
+  margin-bottom: 2px;
+  break-inside: avoid;
+}
+.toc .sub a { color: inherit; text-decoration: none; }
+.toc .sub a:hover { color: var(--terracotta-d); }
+
+/* ============ Headings ============ */
+h2 {
+  font-size: 16.5pt;
+  line-height: 1.22;
+  margin: 40px 0 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  padding: 0 0 9px 15px;
+  border-left: 5px solid var(--terracotta);
+  border-bottom: 1px solid var(--rule);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h2 .h2num {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+h3 {
+  font-size: 12.6pt;
+  line-height: 1.3;
+  margin: 26px 0 8px;
+  font-weight: 700;
+  color: #3d3933;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  background: var(--olive);
+  border-radius: 50%;
+  margin-right: 9px;
+  vertical-align: 0.06em;
+}
+
+h4 {
+  font-size: 10.9pt;
+  line-height: 1.35;
+  margin: 18px 0 6px;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--terracotta-d);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h5 {
+  font-size: 9.9pt;
+  margin: 14px 0 4px;
+  font-weight: 700;
+  color: var(--olive-d);
+  font-family: var(--sans);
+  letter-spacing: 0.03em;
+  break-after: avoid;
+}
+
+/* ============ Body text ============ */
+p { margin: 0 0 10px; text-align: justify; hyphens: auto; }
+p.tight { margin-bottom: 4px; }
+.doc > p, .unit-body > p { max-width: 74ch; }
+
+strong, b { font-weight: 700; color: #26231f; }
+
+em { font-style: italic; }
+
+.lead {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 72ch;
+}
+
+/* ============ Lists ============ */
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 5px; }
+li > ul, li > ol { margin-top: 5px; margin-bottom: 3px; }
+
+ul.bul { list-style: none; padding-left: 0; }
+ul.bul > li {
+  position: relative;
+  padding-left: 17px;
+  margin-bottom: 6px;
+}
+ul.bul > li::before {
+  content: "▸";
+  position: absolute;
+  left: 2px;
+  top: -0.02em;
+  color: var(--terracotta);
+  font-size: 0.92em;
+}
+
+ul.check { list-style: none; padding-left: 0; }
+ul.check > li { position: relative; padding-left: 20px; margin-bottom: 5px; }
+ul.check > li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--olive);
+  font-weight: 700;
+  font-size: 0.88em;
+}
+
+ol.num { list-style: none; counter-reset: n; padding-left: 26px; }
+ol.num > li { position: relative; margin-bottom: 7px; counter-increment: n; }
+ol.num > li::before {
+  content: counter(n) ".";
+  position: absolute;
+  left: -22px;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  font-family: var(--sans);
+  font-size: 0.88em;
+}
+
+dl { margin: 0 0 12px; }
+dt { font-weight: 700; color: #26231f; margin-top: 8px; }
+dd { margin: 2px 0 0 0; }
+
+abbr { text-decoration: none; border-bottom: 1px dotted var(--ink-faint); }
+
+/* ============ Callout cards ============ */
+.card {
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 12px 16px 13px;
+  margin: 14px 0;
+  background: #fffdf8;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.card > :last-child { margin-bottom: 0; }
+.card p { text-align: left; }
+
+.card .lbl {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.def {
+  background: #fdf6ec;
+  border-color: #e3d2b6;
+  border-left: 4px solid var(--gold);
+}
+.def .lbl { color: var(--gold); }
+
+.idea {
+  background: var(--olive-bg);
+  border-color: #d3d9bd;
+  border-left: 4px solid var(--olive);
+}
+.idea .lbl { color: var(--olive-d); }
+
+.rem {
+  background: var(--terracotta-bg);
+  border-color: #e8cebc;
+  border-left: 4px solid var(--terracotta);
+}
+.rem .lbl { color: var(--terracotta-d); }
+
+.ex {
+  background: #f4f1fa;
+  border-color: #d9d0e8;
+  border-left: 4px solid #6b5a94;
+}
+.ex .lbl { color: #5b4c80; }
+
+.cls {
+  background: var(--dusty-blue-bg);
+  border-color: #ccd9e3;
+  border-left: 4px solid var(--dusty-blue);
+}
+.cls .lbl { color: #3d5a71; }
+
+.exam {
+  background: #fbf4e3;
+  border-color: #e6d5aa;
+  border-left: 4px solid #a5822e;
+}
+.exam .lbl { color: #856722; }
+
+.mist {
+  background: #f9ecec;
+  border-color: #eccfcf;
+  border-left: 4px solid #a44b4b;
+}
+.mist .lbl { color: #8b3c3c; }
+
+.refl {
+  background: var(--plum-bg);
+  border-color: #dfcddd;
+  border-left: 4px solid var(--plum);
+}
+.refl .lbl { color: #654761; }
+
+.quick {
+  background: #f4f6ef;
+  border-color: #d6dcc4;
+  border-left: 4px solid #7d8a52;
+}
+.quick .lbl { color: #5f6a38; }
+
+/* inline term highlight */
+.term {
+  background: #f2ead6;
+  padding: 0 3px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+mark.hl {
+  background: #f6e7c4;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ============ Tables ============ */
+.tw {
+  margin: 14px 0 16px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fffdf8;
+}
+.tw.tkeep { break-inside: avoid; page-break-inside: avoid; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.1pt;
+  line-height: 1.46;
+}
+caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  padding: 9px 12px 7px;
+  background: #f6f1e6;
+  border-bottom: 1px solid var(--rule);
+}
+th {
+  background: #efe8d8;
+  color: #3a342b;
+  font-family: var(--sans);
+  font-size: 8.2pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+th:last-child { border-right: 0; }
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--rule-soft);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+  text-align: left;
+}
+td:last-child { border-right: 0; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:nth-child(even) td { background: #fcf8f0; }
+table.compact { font-size: 8.6pt; }
+table.compact th, table.compact td { padding: 5px 8px; }
+
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+
+/* ============ Figure / diagram ============ */
+figure {
+  margin: 18px 0;
+  padding: 14px 16px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fcf9f2;
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+figure svg { max-width: 100%; height: auto; }
+figcaption {
+  font-family: var(--sans);
+  font-size: 7.8pt;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+  margin-top: 8px;
+  text-align: center;
+}
+figcaption b { color: var(--ink-soft); }
+
+/* ============ Unit review block ============ */
+.review {
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--olive);
+  background: #fbf8f0;
+  border-radius: 3px;
+  padding: 16px 20px 18px;
+  margin: 22px 0 30px;
+}
+.review h4 {
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  font-style: normal;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
+}
+.review h5 {
+  font-size: 8.4pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  margin: 13px 0 5px;
+  font-family: var(--sans);
+}
+.review h5:first-of-type { margin-top: 9px; }
+.review p { text-align: left; }
+.review > :last-child { margin-bottom: 0; }
+
+.qa { margin: 0; }
+.qa .q { margin-bottom: 8px; break-inside: avoid; page-break-inside: avoid; }
+.qa .qt {
+  font-family: var(--sans);
+  font-size: 7.2pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--ink-soft);
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+.qa .q.l { border-left: 3px solid var(--terracotta); padding-left: 9px; }
+.qa .q.s { border-left: 3px solid var(--olive); padding-left: 9px; }
+.qa .q.v { border-left: 3px solid var(--dusty-blue); padding-left: 9px; }
+.qa .q p { margin: 0; text-align: left; display: inline; }
+
+/* ============ Subject card grid (project index only) ============ */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 14px;
+  margin: 18px 0 24px;
+}
+.subjcard {
+  display: block;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--terracotta);
+  border-radius: 3px;
+  background: #fffdf8;
+  padding: 13px 15px 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.subjcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -8px rgba(90, 72, 45, .45);
+}
+.subjcard .sc-code {
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--terracotta-d);
+}
+.subjcard .sc-title {
+  font-size: 11.4pt;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 4px 0 6px;
+  color: var(--ink);
+}
+.subjcard .sc-desc {
+  font-size: 9pt;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin-bottom: 9px;
+}
+.subjcard .sc-meta {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 7px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.subjcard.olive { border-top-color: var(--olive); }
+.subjcard.olive .sc-code { color: var(--olive-d); }
+.subjcard.blue { border-top-color: var(--dusty-blue); }
+.subjcard.blue .sc-code { color: #3d5a71; }
+.subjcard.gold { border-top-color: var(--gold); }
+.subjcard.gold .sc-code { color: #856722; }
+
+.linkpair {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.08em;
+  margin-top: 7px;
+  display: flex;
+  gap: 12px;
+}
+.linkpair a { color: var(--terracotta-d); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.linkpair a:hover { border-bottom-color: var(--terracotta); }
+
+.tocwide { columns: 2; column-gap: 30px; }
+.tocwide li { break-inside: avoid; }
+
+/* ============ Misc components ============ */
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 18px;
+}
+.chip {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  padding: 3px 11px;
+}
+
+.hr {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+  margin: 30px 0;
+}
+
+.footnote {
+  font-size: 8.6pt;
+  color: var(--ink-faint);
+  line-height: 1.5;
+}
+
+/* two-column comparison */
+.two-col { column-count: 2; column-gap: 30px; column-rule: 1px solid var(--rule-soft); }
+.two-col > * { break-inside: avoid; }
+
+/* ============ Responsive ============ */
+@media (max-width: 780px) {
+  body { padding: 14px 8px 40px; background-size: 18px 18px; }
+  .doc { padding: 26px 20px 36px; border-radius: 3px; }
+  .hero { padding: 20px 18px 18px; }
+  .hero h1 { font-size: 20pt; }
+  h2 { font-size: 14.5pt; padding-left: 11px; border-left-width: 4px; }
+  h3 { font-size: 11.6pt; }
+  .toc .sub { columns: 1; }
+  .tocwide { columns: 1; }
+  .two-col { column-count: 1; }
+  table { font-size: 8.4pt; }
+}
+
+/* ============================================================
+   PRINT / PDF  —  A4
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 15mm 14mm 16mm 14mm;
+}
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+    background-image: none !important;
+  }
+  body { padding: 0; font-size: 10.1pt; line-height: 1.56; }
+  .doc {
+    max-width: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .doc::before { display: none; }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Keep a whisper of the notebook dot-grid on the page, but far fainter
+     than on screen so a 70-page print run does not look noisy. */
+  .doc {
+    background-color: #fffdf8 !important;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0) !important;
+    background-size: 5.6mm 5.6mm !important;
+  }
+
+  h2, h3, h4, h5 { break-after: avoid; page-break-after: avoid; }
+  h2 { margin-top: 20pt; }
+
+  .card, figure, .qa .q, .tw.tkeep, tr, .chip-row { break-inside: avoid; page-break-inside: avoid; }
+  .tw, .card, .review { break-inside: auto; page-break-inside: auto; }
+
+  thead { display: table-header-group; }
+  tfoot { display: table-footer-group; }
+  p, li { orphans: 2; widows: 2; }
+
+  a { color: inherit; text-decoration: none; }
+  .made-by a { border-bottom: 0; }
+
+  .toc a { color: var(--ink); }
+
+  /* page-break control utility classes */
+  .pb { break-before: page; page-break-before: always; }
+  .avoid { break-inside: avoid; page-break-inside: avoid; }
+}
+
+</style>
+</head>
+<body>
+<article class="doc">
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="kicker">D.El.Ed &mdash; Semester I</div>
+  <div class="code">S1.5</div>
+  <h1>Proficiency in English &ndash; I</h1>
+  <p class="tagline">The status of English in India, the sound and rhythm of spoken English, critical reading of real texts, and the working vocabulary a primary teacher must have at their fingertips.</p>
+  <div class="rule-line"><span class="made-by">Made with <span class="heart">&#10084;&#65039;</span> by <strong>Sayeem Sadik</strong> &middot; <a href="https://leoaristocrat.eu.cc">leoaristocrat.eu.cc</a></span></div>
+  <div class="glance">
+    <div class="g-item"><div class="g-label">Credits</div><div class="g-value">2</div></div>
+    <div class="g-item"><div class="g-label">Marks</div><div class="g-value">35 Ext + 15 Int = 50</div></div>
+    <div class="g-item"><div class="g-label">Periods / week</div><div class="g-value">2&ndash;3</div></div>
+    <div class="g-item"><div class="g-label">Unit weights</div><div class="g-value">5 / 10 / 10 / 10</div></div>
+  </div>
+</header>
+
+<nav class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#unit-1">Unit 1 &mdash; Status of English</a>
+        <ul class="sub">
+        <li><a href="#s1-1">1.1 Historical perspective of English in India</a>
+        </li>
+        <li><a href="#s1-2">1.2 English around us; English as a global language</a>
+        </li>
+        <li><a href="#s1-3">1.3 Place of English in the school curriculum: NCF and NEP</a>
+        </li>
+        <li><a href="#s1-4">1.4 Constitutional provision; Associate Official language; three-language formula</a>
+        </li>
+        <li><a href="#s1-5">1.5 L1, L2 and foreign language in the context of English</a>
+        </li>
+        <li><a href="#s1-6">Activities for Unit 1</a>
+        </li>
+    </ul>
+    </li>
+    <li><a href="#unit-2">Unit 2 &mdash; Understanding Language: Listening to and Producing Oral Discourses</a>
+        <ul class="sub">
+        <li><a href="#s2-1">2.1 Language as communication and thinking; the language-rich classroom</a>
+        </li>
+        <li><a href="#s2-2">2.2.1 Listening with comprehension</a>
+        </li>
+        <li><a href="#s2-3">2.2.2 Segmental features: the sound system of English (IPA)</a>
+        </li>
+        <li><a href="#s2-4">2.2.3 Suprasegmental features: stress, rhythm, intonation</a>
+        </li>
+        <li><a href="#s2-5">2.3 Oral presentation and oral discourses</a>
+        </li>
+        <li><a href="#s2-6">2.4 Opportunities to use language in context</a>
+        </li>
+        <li><a href="#s2-7">2.5 Introduction to spoken English</a>
+        </li>
+        <li><a href="#s2-8">Activities for Unit 2</a>
+        </li>
+    </ul>
+    </li>
+    <li><a href="#unit-3">Unit 3 &mdash; Critical Reading</a>
+        <ul class="sub">
+        <li><a href="#s3-1">3.1 Reading skills and strategies</a>
+        </li>
+        <li><a href="#s3-2">3.2 Text types and their features</a>
+        </li>
+        <li><a href="#s3-3">3.3 Global and local comprehension</a>
+        </li>
+        <li><a href="#s3-4">3.4 The theoretical postulates of critical theory</a>
+        </li>
+        <li><a href="#s3-5">3.5 The process of critical reading</a>
+        </li>
+        <li><a href="#s3-6">3.6 Miscue analysis: errors as learning</a>
+        </li>
+        <li><a href="#s3-7">Activities for Unit 3</a>
+        </li>
+    </ul>
+    </li>
+    <li><a href="#unit-4">Unit 4 &mdash; Vocabulary in Context</a>
+        <ul class="sub">
+        <li><a href="#s4-1">4.1 Understanding vocabulary and its extension</a>
+        </li>
+        <li><a href="#s4-2">4.2 Classification of words: closed and open classes</a>
+        </li>
+        <li><a href="#s4-3">4.3 Categories of vocabulary: lexical, phrasal, clausal</a>
+        </li>
+        <li><a href="#s4-4">4.4 Word formation: prefix, suffix, compounding, modifiers</a>
+        </li>
+        <li><a href="#s4-5">4.5 Word types: synonyms to idioms</a>
+        </li>
+        <li><a href="#s4-6">Activities for Unit 4</a>
+        </li>
+    </ul>
+    </li>
+    <li><a href="#practicum">Practicum &mdash; Portfolio, Workshop, Reflective Journal</a>
+    </li>
+    <li><a href="#internal">Internal Assessment</a>
+    </li>
+    <li><a href="#revision">Quick Subject Revision</a>
+    </li>
+    <li><a href="#differences">Important Differences</a>
+    </li>
+    <li><a href="#course-info">Course Information</a>
+    </li>
+    <li><a href="#faculty">Faculty / Mentor Notes</a>
+    </li>
+    <li><a href="#readings">Suggested Readings</a>
+    </li>
+  </ol>
+</nav>
+
+<!-- ============ UNIT 1 ============ -->
+<section class="unit-body">
+  <h2 id="unit-1"><span class="h2num">Unit 1 &middot; 5 Marks</span>Status of English</h2>
+
+  <h3 id="s1-1">1.1 Historical Perspective of English in India</h3>
+  <p>English reached India with ships, not with missionaries. The East India Company set up its first factory at Surat in 1613 and traded out of Madras, Bombay and Calcutta through the seventeenth century. It needed people who could read contracts, correspond with London, keep accounts and negotiate with Indian rulers and merchants &mdash; it did not think of education at all, it thought of clerks. English teaching grew out of that commercial and administrative need, and for a century it was job-oriented instruction for a small administrative elite, not a national education system.</p>
+
+  <p>Two documents mark the formalisation of English-medium education: Lord <strong>Macaulay's Minute</strong> of <strong>1835</strong>, which visualised English as the language of teaching and of the higher courts, and <strong>Lord Wood's Despatch of 1854</strong>, sometimes called the <em>Magna Carta of English education in India</em>.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table 1.1 &mdash; The landmark documents and policy instruments governing English in India</caption>
+      <thead><tr><th>Document</th><th>Year</th><th>What it says about English</th></tr></thead>
+      <tbody>
+        <tr><td>Committee of Public Instruction, report</td><td>1832</td><td>English for the higher branches of learning; vernaculars pushed aside where English teaching was unavailable. Marked the formal beginning of the English-vs-vernacular debate</td></tr>
+        <tr><td>Macaulay's Minute</td><td>1835</td><td>English as the medium of administration, courts and higher learning; one uniform type of education. Gave the political justification for an English-educated administrative class</td></tr>
+        <tr><td>Wood's Despatch</td><td>1854</td><td>English the medium of instruction for higher education; education departments in the provinces, an inspectorate, and government colleges. The institutional structure of English education in India &mdash; its "Magna Carta"</td></tr>
+        <tr><td>Constitution, Part XVII</td><td>1950</td><td>Hindi (Devanagari) is the language of the Union; English may be used for official purposes alongside it, and is named the <em>Associate Official language</em></td></tr>
+        <tr><td>Eighth Schedule</td><td>1950, amended</td><td>Recognises 22 languages; English is not one of them</td></tr>
+        <tr><td>Official Languages Act</td><td>1963</td><td>Gives English continuing official status; provides for a Commission of Official Languages</td></tr>
+        <tr><td>National Policy on Education</td><td>1968</td><td>Institutes the three-language formula in schools; English as a subject and a link language rather than a universal medium</td></tr>
+        <tr><td>National Curriculum Framework</td><td>2005</td><td>Mother tongue / regional language as the medium; English as subject and link language</td></tr>
+        <tr><td>National Education Policy</td><td>2020</td><td>English (or an Indian language) may be the medium from the foundational stage; MT / regional as the medium till at least Grade 5</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Wood's Despatch of 1854 did three things at once: it made English the medium of instruction at the higher stage, it required each province to have a Department of Public Instruction, and it established an inspectorate. Almost every English-medium institution in India descends from that administrative design.</p>
+
+  <p>After Independence the arrangement was never dismantled. English continued as the medium of higher education and the working language of the courts, the civil services, science and technology, and as the bridge between Indian languages. <strong>NPE 1968</strong> gave the three-language formula its canonical form and <strong>NPE 1985</strong> reiterated it. <strong>NCF 2005</strong> shifted the balance: the medium in government schools should be the mother tongue or the local/regional language, English-medium schools were to be converted gradually, and English would remain a subject and a link language. <strong>NEP 2020</strong> took this further, allowing English (or an Indian language) as the medium from the <em>foundational stage</em> wherever possible and keeping the mother tongue or local/regional language as the medium at least till Grade 5.</p>
+
+  <h3 id="s1-2">1.2 English Around Us; English as a Global Language</h3>
+  <p>Take a day in the life of an ordinary family in Guwahati. English appears without announcing itself. The child reads the instructions on a medicine bottle, recognises a brand name on a television channel, listens to a safety announcement at a railway station, checks a weather forecast, types a password, sends a message to a cousin in Dubai. Almost none of this is "English lesson" material, but all of it is English. This is what "English around us" means: English has become a <em>utility</em> of daily life through print, signage and screens, and the child acquires it incidentally long before anyone teaches it formally.</p>
+
+  <p>Globally, English is the most widely learned second language in history &mdash; the working language of international organisations, science publishing, aviation, the internet and entertainment. It is the only language with a genuinely global presence, because it grew as the language of a colonial power in several continents and was then adopted by speakers who had no colonial stake in it. For an Indian teacher this matters: English is not simply the "language of the former ruler", but also the language African, South-East Asian and South American speakers chose for their own reasons.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table 1.2 &mdash; Domains in which English is encountered, and what the encounter teaches</caption>
+      <thead><tr><th>Domain</th><th>Example the child meets</th><th>What is acquired incidentally</th></tr></thead>
+      <tbody>
+        <tr><td>Signage and public information</td><td>Road signs, railway announcements, bank counters, hospital boards</td><td>Fixed chunks and formulaic language ("Would you like to proceed?", "Kindly wait")</td></tr>
+        <tr><td>Print</td><td>Newspaper headlines, medicine labels, food packets, exam question papers</td><td>Letter-sound awareness, word order, register differences</td></tr>
+        <tr><td>Broadcast and digital media</td><td>English news channels, dubbed programmes with English subtitles, social media, search engines, chat, games</td><td>Listening fluency, connected speech, stress and intonation; informal register, texting abbreviations, global peer norms</td></tr>
+        <tr><td>Work, aspiration and family</td><td>Job notices requiring "good English", coaching advertisements, community notices, wedding invitations</td><td>The economic motivation that keeps English a high-demand subject; polite forms and respect registers</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="s1-3">1.3 Place of English in the School Curriculum: NCF and NEP</h3>
+  <p>For most of the twentieth century a child in India who wanted to reach university had to study through the medium of English. <strong>NCF 2005</strong> and <strong>NEP 2020</strong> articulate the new consensus. The direction is not anti-English; it is <em>against English displacing the language of the child's life</em> at the stage where the child is still learning to read and to think.</p>
+
+  <p><strong>NEP 2020</strong> extends the NCF logic with a <em>foundational stage</em> covering ages 3 to 8, in which an English-medium or an Indian-language-medium environment may be provided wherever possible, with the mother tongue or local/regional language as the medium at least until Grade 5 and preferably till Grade 8. The <em>National Curriculum for Foundational Stage for School Education (NCF-FS), 2022</em> operationalises this with goals in three language areas: <strong>W</strong> (native / local language / mother tongue), <strong>L1</strong> (a familiar language such as a tribal language) and <strong>L2</strong> (a further language, often but not necessarily English). English appears early as a subject alongside the medium of instruction, not as a replacement for it.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table 1.3 &mdash; English in the curriculum: the earlier position and the present position</caption>
+      <thead><tr><th>Question</th><th>Earlier dominant position</th><th>NCF 2005 / NEP 2020 position</th></tr></thead>
+      <tbody>
+        <tr><td>Medium at the elementary stage</td><td>English, especially in private and aided schools</td><td>Mother tongue / local / regional language; English-medium schools to be converted gradually</td></tr>
+        <tr><td>Status of English</td><td>The gate to higher education and employment</td><td>A subject, a link language and a bridge language; still valued, but not the sole gateway</td></tr>
+        <tr><td>When does English begin?</td><td>Class I, often before the child has schooled a first language</td><td>At the foundational stage, as L2 / bridge, with the mother tongue as the medium</td></tr>
+        <tr><td>Up to which stage in the vernacular?</td><td>Often none &mdash; English throughout</td><td>At least till Grade 5, preferably till Grade 8</td></tr>
+        <tr><td>Teacher's role</td><td>Transmission of English forms</td><td>Multilingual classroom; English taught through the medium the child understands</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>A Class III group in which some children speak Assamese, some a tribal language, and two only English at home. A workable arrangement under NEP 2020: teach concepts, stories and instructions in the majority home language while narrating key English words and phrases; display every new English word with a picture; let children answer in whichever language they have, and require English only for the target words. Rejecting a correct answer in Assamese teaches a child that the language in which he thinks is worthless.</p>
+
+  <h3 id="s1-4">1.4 Constitutional Provision; Associate Official Language; the Three-Language Formula</h3>
+  <p>Under <strong>Part XVII</strong> of the Constitution of India, dealing with Languages, the <strong>language of the Union is Hindi</strong> in Devanagari script; the official purposes of the Union may, however, be carried on in English as well. The Constitution does not name English an "official language" in the same way Hindi is named &mdash; it names it the <em>Associate Official language</em>. The <strong>Eighth Schedule</strong> lists 22 languages recognised by the Constitution and gives them special status, though English is not one of them; the <strong>Official Languages Act, 1963</strong> provides the working rules and created the <strong>Commission of Official Languages</strong>.</p>
+
+  <div class="card mist"><span class="lbl">Common Mistake</span><p>English is <strong>not</strong> the national language of India. India has no national language. Hindi is the official language of the Union; English is an <em>Associate Official language</em> for official purposes.</p></div>
+
+  <p>The <strong>three-language formula</strong> belongs to the education system rather than to the Constitution, but it has been policy since 1968. In its earliest NCERT version every child was to learn the mother tongue (or regional language), a language from the "other" regional group, and English. In the NEP 2020 formulation the three languages are: the <em>mother tongue or home/local language</em>; the <em>local/regional language or another Indian language</em>; and a <em>foreign or additional language</em> &mdash; with English occupying the third slot, or being introduced early as a bridge, depending on the state.</p>
+
+  <h3 id="s1-5">1.5 L1, L2 and Foreign Language in the Context of English</h3>
+  <p>L1, L2 and foreign language are useful as <em>descriptions of a particular child's linguistic situation at a particular moment</em>, not as three permanently separate boxes. The <strong>first language (L1)</strong> is the language a child understands and speaks best, normally acquired at home before school; it is the language in which the child thinks and counts. The <strong>second language (L2)</strong> is learnt after the first and used for wider purposes &mdash; school, marketplace, media. The <strong>foreign language</strong> is not used in the immediate community and has no colonial or administrative history in the country.</p>
+
+  <p>Now place English in that scheme. In an <strong>English-medium school in Assam</strong>, a child who arrives speaking Assamese is learning English as an L2 &mdash; second in order of acquisition, and the one the school uses. In an <strong>Assamese-medium school</strong>, a child meets English as a foreign language in the everyday sense, though because English comes with books, examinations and administrative work it behaves more like an L2. French or German in either school is a foreign language in the strict sense: no home use, no community use, no administrative use.</p>
+
+  <div class="tw tkeep">
+    <table>
+      <caption>Table 1.5 &mdash; L1, L2 and foreign language compared, in an Assamese classroom</caption>
+      <thead><tr><th>Basis</th><th>First language (L1)</th><th>Second language (L2)</th><th>Foreign language</th></tr></thead>
+      <tbody>
+        <tr><td>Typical example</td><td>Assamese; a tribal or regional language (Mising, Bodo, Karbi)</td><td>English in an English-medium school; a neighbouring Indian language</td><td>French, German, Japanese</td></tr>
+        <tr><td>Where acquired</td><td>Home, family, neighbourhood, before school</td><td>Classroom, books, media, peers</td><td>Classroom, textbook, occasional media</td></tr>
+        <tr><td>Domain of use</td><td>Home, worship, market, conversation with relatives, inner speech</td><td>School, shop, office, letters, news, further study</td><td>Very little outside the textbook</td></tr>
+        <tr><td>Learner's attitude</td><td>Automatic, unselfconscious</td><td>Effortful, but useful and worth acquiring</td><td>Effortful, remote, easily deferred</td></tr>
+        <tr><td>Teacher's stance</td><td>Respect and use; never punished</td><td>Bridge; taught with support in L1</td><td>Introduced gradually, with cultural context</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The home language is an <em>asset</em>, not a deficiency. <strong>Additive multilingualism</strong> means a new language is added to what the child already has, so that she ends up with more languages, not fewer; <strong>subtractive bilingualism</strong> means a new language replaces the first, which for a child still acquiring concepts is a loss. NEP 2020 and NCF 2005 both stand on the additive side.</p>
+
+  <h3 id="s1-6">Activities for Unit 1</h3>
+  <ol class="num">
+    <li><strong>Listing out familiar English words used in day-to-day life.</strong> Make a list of English words met outside school in one day &mdash; from shop signboards, medicine labels, television, mobile screens, bus tickets, road signs, bank slips, messages. A useful extension is to classify them: loanwords that have entered Assamese usage, purely English words, and brand names.</li>
+    <li><strong>Classroom discussion on the use of English in day-to-day life and in classroom situations.</strong> Run it with four questions: Where do I meet English outside school? In what situations is English <em>necessary</em>, and in what situations is another language better? When did I last speak English? What stops children from speaking English in the playground?</li>
+  </ol>
+</section>
+
+<div class="review">
+  <h4>Unit 1 Quick Review &mdash; Status of English</h4>
+  <h5>Key Terms</h5>
+  <p><span class="term">Associate Official language</span> &middot; <span class="term">Eighth Schedule</span> &middot; <span class="term">Official Languages Act, 1963</span> &middot; <span class="term">three-language formula</span> &middot; <span class="term">link language</span> &middot; <span class="term">bridge language</span> &middot; <span class="term">additive multilingualism</span></p>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li>Macaulay's Minute &ndash; <strong>1835</strong>; Committee of Public Instruction's report &ndash; 1832; Wood's Despatch &ndash; <strong>1854</strong>, which created the departments of education, the inspectorate and the government colleges.</li>
+    <li>English is an <strong>Associate Official language</strong>, not the national language. The Eighth Schedule lists 22 languages and English is not among them.</li>
+    <li>NCF 2005: mother tongue / regional language as the medium; English as a subject and a link language. NEP 2020: MT / regional as the medium at least till Grade 5, preferably till Grade 8; NCF-FS 2022 gives the goals W, L1 and L2.</li>
+    <li>In an English-medium school in Assam, English functions as the child's <strong>L2</strong>.</li>
+  </ul>
+  <h5>Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>What is the constitutional status of English in India? Why is it wrong to call it the national language?</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain the three-language formula and show how it has been adapted under NEP 2020.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>"The history of English education in India is the history of administrative convenience." Critically examine this with reference to 1835, 1854 and the post-Independence period. (10)</p></div>
+  </div>
+</div>
+<!-- ============ UNIT 2 ============ -->
+<section class="unit-body">
+  <h2 id="unit-2"><span class="h2num">Unit 2 &middot; 10 Marks</span>Understanding Language: Listening to and Producing Oral Discourses</h2>
+  <h3 id="s2-1">2.1 Language as Communication and Thinking; the Language-Rich Classroom</h3>
+  <p>Language does two jobs at once. As a <strong>means of communication</strong>, it lets one person share an idea or a feeling with another. As a <strong>means of thinking</strong>, it lets a person work inside an idea at all: a child who has no word for "compare" cannot easily hold two objects side by side and judge between them. Education is limited by the conceptual apparatus of the language in which it is done, which is why the medium of instruction is a policy question and not only an administrative one.</p>
+
+  <p>Language richness is not the amount of English spoken by the teacher. It is the <em>density of meaningful language that children hear, use and have to think in</em>, across the day and across the subjects.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table 2.1 &mdash; Features of a language-rich classroom and how to organise them</caption>
+      <thead><tr><th>Feature</th><th>What it looks like</th><th>How a teacher organises it</th></tr></thead>
+      <tbody>
+        <tr><td>Print in the environment</td><td>Words, sentences, charts and stories on walls, corners and desks</td><td>An "English word wall" of 20 high-frequency words with pictures; labelled classroom objects; a display of children's own writing</td></tr>
+        <tr><td>Talk in every subject</td><td>Children talk about history, science and maths, not only in English periods</td><td>Require an explanation in words before a child may hold up an object; use think-pair-share before every written answer</td></tr>
+        <tr><td>Dialogue, not recitation</td><td>Children ask and answer questions of each other</td><td>Assign roles; run a "question box"; teach four question stems as sentence frames</td></tr>
+        <tr><td>Response to real purposes</td><td>Language used to get something done</td><td>Class newspaper, a school announcement, a request letter to the head teacher, a survey of the vegetable market</td></tr>
+        <tr><td>Explicit vocabulary work</td><td>New words met before they are needed</td><td>Pre-teach five words with pictures and gesture before a story; use the word three times within the same day</td></tr>
+        <tr><td>Multiple languages honoured</td><td>Home languages used for thinking and drafting</td><td>Let children explain first in L1 and then in English; label displays in two languages</td></tr>
+        </tbody>
+    </table>
+  </div>
+
+  <div class="tw tkeep">
+    <table>
+      <caption>Table 2.2 &mdash; Receptive and productive skills: what each demands of the learner</caption>
+      <thead><tr><th>Aspect</th><th>Receptive skills (listening, reading)</th><th>Productive skills (speaking, writing)</th></tr></thead>
+      <tbody>
+        <tr><td>Direction of language</td><td>Incoming &mdash; the learner receives</td><td>Outgoing &mdash; the learner produces</td></tr>
+        <tr><td>Time available</td><td>Fixed and unpausable; the text moves on</td><td>The producer controls pace and revision</td></tr>
+        <tr><td>Main difficulty</td><td>Holding information in short-term memory</td><td>Retrieving the right word under pressure</td></tr>
+        <tr><td>Main resource</td><td>Context and prediction</td><td>Repertoire of chunks and sentence frames</td></tr>
+        <tr><td>Best classroom model</td><td>Read-aloud, storytelling, announcements, songs, peer talk</td><td>Role play, dialogue, retelling, discussion, debate, presentation</td></tr>
+        <tr><td>Typical error</td><td>Missing the point because one unknown word blocks the clause</td><td>Freezing &mdash; the child says nothing rather than risk a mistake</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="s2-2">2.2.1 Listening with Comprehension</h3>
+  <p>Listening is the most neglected skill in the primary classroom, and the most important. It is also the hardest, because a listener has no time to look a word up: by the time the meaning of a sentence clicks, three more clauses have passed. What makes listening possible is <em>prediction</em> &mdash; the listener uses context, situation, topic and grammatical expectation to anticipate what is coming, and so is never really lost.</p>
+
+  <p>For a primary teacher, listening with comprehension means building graded tasks. <strong>Global listening</strong> asks what the whole talk is about &mdash; "Is the speaker complaining or apologising?" <strong>Selective listening</strong> asks for specific items &mdash; "How many people are mentioned? What time is the train?" <strong>Detailed listening</strong> requires the fine grain &mdash; "Why was the bag left on the chair?" A child who can only do global listening is not ready for a story, but is ready for an announcement.</p>
+
+  <p>Three habits make a teacher a better listener-model, and children copy the habits. <strong>Signal the structure first</strong>: "Listen. I am going to tell you three things." <strong>Signal the boundaries</strong>: pause at the end of each part. <strong>Signal the key word</strong>: stress it and write it on the board as you speak. Above all, teach the class the phrase "Could you say that again, please?" as a legitimate, confident move rather than a failure.</p>
+
+  <h3 id="s2-3">2.2.2 Segmental Features: the Sound System of English (IPA)</h3>
+  <p>Every stretch of spoken English is built out of a small, fixed inventory of sounds. A <strong>segment</strong> is the smallest unit of a language that can make a difference of meaning; in phonetics the segments of speech are the <strong>phonemes</strong>. English has <strong>44 phonemes</strong>: <strong>24 consonants</strong> (17 obstruents + 3 nasals + 4 approximants) and <strong>20 vowels</strong> (12 monophthongs and 8 diphthongs).</p>
+
+  <p>The phoneme is defined not by its sound alone but by the <em>contrast</em> it makes: two phones count as different phonemes only if substituting one for the other can change the meaning of a word. That is why English sound is analysed <strong>phonemically</strong>, and why it is taught with the <strong>International Phonetic Alphabet (IPA)</strong> &mdash; a single agreed set of symbols that removes the ambiguities of ordinary spelling.</p>
+
+  <div class="card def"><span class="lbl">Definition</span><p><strong>Phoneme:</strong> the smallest unit of sound that can change the meaning of a word. <strong>Phone:</strong> the actual sound produced, which varies with accent and context. <strong>Minimal pair:</strong> two words differing in exactly one phoneme but in meaning (<em>ship</em> /&#643;&#618;p/ &ndash; <em>sheep</em> /&#643;i&#720;p/). <strong>Allophone:</strong> a predictable variant of a phoneme, not a separate one (the clear l of <em>light</em> and the dark l of <em>milk</em> are both /l/). <strong>Segmental features</strong> are carried by individual phonemes &mdash; <em>manner</em> (plosive, fricative, affricate, nasal, approximant) and <em>place</em> (labial, dental, alveolar, postalveolar, palatal, velar, glottal), with voicing, aspiration and length. <strong>Suprasegmental features</strong> (2.2.3) operate over stretches longer than one phoneme.</p></div>
+
+  <figure>
+    <svg viewBox="0 0 760 330" role="img" aria-label="IPA consonant chart of English showing 24 consonant phonemes by manner and place of articulation">
+    <rect x="72" y="14" width="678" height="266" rx="5" fill="#fffdf8" stroke="#ded2bd"/>
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#7a736a" text-anchor="middle">
+      <text x="120" y="30">Labial</text>
+      <text x="217" y="30">Dental</text>
+      <text x="314" y="30">Alveolar</text>
+      <text x="411" y="30">Postalveolar</text>
+      <text x="508" y="30">Palatal</text>
+      <text x="605" y="30">Velar</text>
+      <text x="700" y="30">Glottal</text>
+    </g>
+    <g stroke="#e9e0cf" stroke-width="1">
+      <line x1="72" y1="36" x2="750" y2="36"/>
+      <line x1="72" y1="84" x2="750" y2="84"/>
+      <line x1="72" y1="132" x2="750" y2="132"/>
+      <line x1="72" y1="180" x2="750" y2="180"/>
+      <line x1="72" y1="228" x2="750" y2="228"/>
+      <line x1="169" y1="14" x2="169" y2="280"/>
+      <line x1="266" y1="14" x2="266" y2="280"/>
+      <line x1="363" y1="14" x2="363" y2="280"/>
+      <line x1="460" y1="14" x2="460" y2="280"/>
+      <line x1="557" y1="14" x2="557" y2="280"/>
+      <line x1="654" y1="14" x2="654" y2="280"/>
+    </g>
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#8f4a2a" text-anchor="end">
+      <text x="64" y="64">Plosives</text>
+      <text x="64" y="112">Fricatives</text>
+      <text x="64" y="160">Affricates</text>
+      <text x="64" y="208">Nasals</text>
+      <text x="64" y="256">Approximants</text>
+    </g>
+    <g font-family="'Segoe UI', 'DejaVu Sans', 'Lucida Sans Unicode', 'Times New Roman', serif" font-size="17" fill="#33302b" text-anchor="middle">
+      <text x="120" y="70">p  b</text>
+      <text x="217" y="70">t  d</text>
+      <text x="605" y="70">k  g</text>
+      <text x="700" y="70">h</text>
+      <text x="120" y="118">f  v</text>
+      <text x="217" y="118">&#952;  &#240;</text>
+      <text x="314" y="118">s  z</text>
+      <text x="411" y="118">&#643;  &#658;</text>
+      <text x="508" y="166">t&#643;  d&#658;</text>
+      <text x="120" y="214">m</text>
+      <text x="217" y="214">n</text>
+      <text x="605" y="214">&#331;</text>
+      <text x="314" y="262">l</text>
+      <text x="411" y="262">r</text>
+      <text x="508" y="262">j</text>
+      <text x="605" y="262">w</text>
+    </g>
+    <text x="380" y="302" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" fill="#7a736a">17 obstruents + 3 nasals = 20 consonants, plus 4 approximants = 24 consonant phonemes. /w/ is labio-velar; /l/ and /r/ are approximants, not fricatives.</text>
+  </svg>
+  <figcaption><b>Figure 2.1</b> &mdash; The consonant phonemes of English in IPA, arranged by manner of articulation (rows) and place of articulation (columns). A phoneme is <em>voiced</em> if the vocal cords vibrate (/b/ in <em>bed</em>) and <em>voiceless</em> if they do not (/p/ in <em>ped</em>).</figcaption>
+  </figure>
+
+  <p>English vowels are taught as twelve pure vowels (<strong>monophthongs</strong>) and eight gliding vowels (<strong>diphthongs</strong>). The monophthongs are plotted in a quadrilateral by <em>height</em> (close to open) and <em>backness</em> (front to back). The symbols /&#230;/ ("ash") and /&#593;/ (open o) are peculiar to English.</p>
+
+  <figure>
+    <svg viewBox="0 0 760 470" role="img" aria-label="IPA vowel chart of English showing twelve monophthongs and eight diphthongs">
+    <rect x="150" y="18" width="450" height="200" rx="5" fill="#fffdf8" stroke="#ded2bd"/>
+    <g stroke="#e9e0cf" stroke-width="1">
+      <line x1="150" y1="63" x2="600" y2="63"/>
+      <line x1="150" y1="88" x2="600" y2="88"/>
+      <line x1="150" y1="138" x2="600" y2="138"/>
+      <line x1="150" y1="188" x2="600" y2="188"/>
+      <line x1="375" y1="18" x2="375" y2="218"/>
+    </g>
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="10.5" fill="#7a736a">
+      <text x="142" y="46" text-anchor="end">close</text>
+      <text x="142" y="96" text-anchor="end">close-mid</text>
+      <text x="142" y="150" text-anchor="end">open-mid</text>
+      <text x="142" y="206" text-anchor="end">open</text>
+      <text x="300" y="234" text-anchor="middle">front</text>
+      <text x="460" y="234" text-anchor="middle">central</text>
+      <text x="580" y="234" text-anchor="middle">back</text>
+      <text x="375" y="10" text-anchor="middle" font-weight="bold" fill="#6d7a4a">12 MONOPHTHONGS</text>
+    </g>
+    <g fill="#b4623c">
+      <circle cx="185" cy="63" r="5"/><circle cx="185" cy="88" r="5"/><circle cx="185" cy="138" r="5"/><circle cx="185" cy="188" r="5"/>
+      <circle cx="355" cy="188" r="5"/><circle cx="400" cy="188" r="5"/><circle cx="375" cy="138" r="5"/>
+      <circle cx="560" cy="63" r="5"/><circle cx="560" cy="88" r="5"/><circle cx="560" cy="138" r="5"/><circle cx="560" cy="188" r="5"/><circle cx="560" cy="212" r="5"/>
+    </g>
+    <g font-family="'Segoe UI', 'DejaVu Sans', 'Lucida Sans Unicode', 'Times New Roman', serif" font-size="15" fill="#33302b">
+      <text x="185" y="49" text-anchor="middle">i&#720;</text>
+      <text x="185" y="106" text-anchor="middle">&#618;</text>
+      <text x="185" y="156" text-anchor="middle">e</text>
+      <text x="185" y="206" text-anchor="middle">&#230;</text>
+      <text x="375" y="156" text-anchor="middle">&#601;</text>
+      <text x="340" y="208" text-anchor="middle">&#604;&#720;</text>
+      <text x="410" y="208" text-anchor="middle">&#652;</text>
+      <text x="560" y="49" text-anchor="middle">u&#720;</text>
+      <text x="560" y="106" text-anchor="middle">&#650;</text>
+      <text x="560" y="156" text-anchor="middle">&#596;&#720;</text>
+      <text x="588" y="188" text-anchor="middle">&#594;</text>
+      <text x="588" y="212" text-anchor="middle">&#593;&#720;</text>
+    </g>
+
+    <text x="30" y="262" font-family="Georgia, serif" font-size="10.5" font-weight="bold" fill="#4c6a83">8 DIPHTHONGS &#8212; a glide from one vowel quality to another</text>
+    <g>
+      <g transform="translate(14,282)">
+        <rect width="172" height="82" rx="4" fill="#e5ecf2" stroke="#ccd9e3"/>
+        <circle cx="40" cy="46" r="4" fill="#4c6a83"/><circle cx="132" cy="22" r="4" fill="#4c6a83"/>
+        <line x1="44" y1="44" x2="126" y2="24" stroke="#4c6a83" stroke-width="1.6" marker-end="url(#arr2)"/>
+        <text x="86" y="66" text-anchor="middle" font-family="'Segoe UI','DejaVu Sans',serif" font-size="15" fill="#33302b">e&#618;</text>
+        <text x="86" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" fill="#7a736a">face, wait</text>
+      </g>
+      <g transform="translate(196,282)">
+        <rect width="172" height="82" rx="4" fill="#e5ecf2" stroke="#ccd9e3"/>
+        <circle cx="40" cy="46" r="4" fill="#4c6a83"/><circle cx="132" cy="22" r="4" fill="#4c6a83"/>
+        <line x1="44" y1="44" x2="126" y2="24" stroke="#4c6a83" stroke-width="1.6" marker-end="url(#arr2)"/>
+        <text x="86" y="66" text-anchor="middle" font-family="'Segoe UI','DejaVu Sans',serif" font-size="15" fill="#33302b">a&#618;</text>
+        <text x="86" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" fill="#7a736a">time, my</text>
+      </g>
+      <g transform="translate(378,282)">
+        <rect width="172" height="82" rx="4" fill="#e5ecf2" stroke="#ccd9e3"/>
+        <circle cx="40" cy="22" r="4" fill="#4c6a83"/><circle cx="132" cy="44" r="4" fill="#4c6a83"/>
+        <line x1="44" y1="24" x2="126" y2="42" stroke="#4c6a83" stroke-width="1.6" marker-end="url(#arr2)"/>
+        <text x="86" y="66" text-anchor="middle" font-family="'Segoe UI','DejaVu Sans',serif" font-size="15" fill="#33302b">&#596;&#618;</text>
+        <text x="86" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" fill="#7a736a">boy, oil</text>
+      </g>
+      <g transform="translate(560,282)">
+        <rect width="172" height="82" rx="4" fill="#e5ecf2" stroke="#ccd9e3"/>
+        <circle cx="40" cy="46" r="4" fill="#4c6a83"/><circle cx="132" cy="22" r="4" fill="#4c6a83"/>
+        <line x1="44" y1="44" x2="126" y2="24" stroke="#4c6a83" stroke-width="1.6" marker-end="url(#arr2)"/>
+        <text x="86" y="66" text-anchor="middle" font-family="'Segoe UI','DejaVu Sans',serif" font-size="15" fill="#33302b">a&#650;</text>
+        <text x="86" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" fill="#7a736a">house, cow</text>
+      </g>
+      <g transform="translate(14,374)">
+        <rect width="172" height="82" rx="4" fill="#ecefdd" stroke="#d3d9bd"/>
+        <circle cx="40" cy="30" r="4" fill="#6d7a4a"/><circle cx="132" cy="40" r="4" fill="#6d7a4a"/>
+        <line x1="44" y1="31" x2="126" y2="38" stroke="#6d7a4a" stroke-width="1.6" marker-end="url(#arr2)"/>
+        <text x="86" y="66" text-anchor="middle" font-family="'Segoe UI','DejaVu Sans',serif" font-size="15" fill="#33302b">&#601;&#650;</text>
+        <text x="86" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" fill="#7a736a">go, no</text>
+      </g>
+      <g transform="translate(196,374)">
+        <rect width="172" height="82" rx="4" fill="#ecefdd" stroke="#d3d9bd"/>
+        <circle cx="40" cy="22" r="4" fill="#6d7a4a"/><circle cx="132" cy="48" r="4" fill="#6d7a4a"/>
+        <line x1="44" y1="24" x2="126" y2="46" stroke="#6d7a4a" stroke-width="1.6" marker-end="url(#arr2)"/>
+        <text x="86" y="66" text-anchor="middle" font-family="'Segoe UI','DejaVu Sans',serif" font-size="15" fill="#33302b">&#618;&#601;</text>
+        <text x="86" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" fill="#7a736a">here, near</text>
+      </g>
+      <g transform="translate(378,374)">
+        <rect width="172" height="82" rx="4" fill="#ecefdd" stroke="#d3d9bd"/>
+        <circle cx="40" cy="22" r="4" fill="#6d7a4a"/><circle cx="132" cy="48" r="4" fill="#6d7a4a"/>
+        <line x1="44" y1="24" x2="126" y2="46" stroke="#6d7a4a" stroke-width="1.6" marker-end="url(#arr2)"/>
+        <text x="86" y="66" text-anchor="middle" font-family="'Segoe UI','DejaVu Sans',serif" font-size="15" fill="#33302b">e&#601;</text>
+        <text x="86" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" fill="#7a736a">hair, where</text>
+      </g>
+      <g transform="translate(560,374)">
+        <rect width="172" height="82" rx="4" fill="#ecefdd" stroke="#d3d9bd"/>
+        <circle cx="40" cy="22" r="4" fill="#6d7a4a"/><circle cx="132" cy="48" r="4" fill="#6d7a4a"/>
+        <line x1="44" y1="24" x2="126" y2="46" stroke="#6d7a4a" stroke-width="1.6" marker-end="url(#arr2)"/>
+        <text x="86" y="66" text-anchor="middle" font-family="'Segoe UI','DejaVu Sans',serif" font-size="15" fill="#33302b">&#650;&#601;</text>
+        <text x="86" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" fill="#7a736a">tour, poor</text>
+      </g>
+    </g>
+    <defs>
+      <marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+        <path d="M0 0 L8 4 L0 8 z" fill="#7a736a"/>
+      </marker>
+    </defs>
+  </svg>
+  <figcaption><b>Figure 2.2</b> &mdash; The vowel phonemes of English: a quadrilateral chart of the twelve monophthongs, and the eight diphthongs shown as glides from an onglide to an offglide.</figcaption>
+  </figure>
+
+  <p>English uses the same sound resources to build differences in <em>voicing</em> (/p/&ndash;/b/), <em>place</em> (/m/&ndash;/n/), <em>manner</em> (/s/&ndash;/&#643;/), <em>length</em> (/&#618;/&ndash;/i&#720;/) and <em>lip-rounding</em> (/&#594;/&ndash;/&#596;&#720;/) at the core of its sound system. Each pair below differs in exactly one phoneme; if the two words of a pair are not distinguished, the listener hears a word, not a meaning.</p>
+
+  <div class="tw">
+    <table class="compact">
+    <caption>Table 2.3 &mdash; Contrastive minimal pairs, grouped by the type of contrast</caption>
+    <thead><tr><th>Contrast</th><th>Minimal pair (IPA)</th><th>Contrast</th><th>Minimal pair (IPA)</th></tr></thead>
+    <tbody>
+      <tr><td>Voicing, plosive</td><td>pen /pen/ &ndash; Ben /ben/</td><td>Voicing, plosive</td><td>ten /ten/ &ndash; den /den/</td></tr>
+      <tr><td>Voicing, plosive</td><td>cot /k&#594;t/ &ndash; got /g&#594;t/</td><td>Voicing, fricative</td><td>fan /f&#230;n/ &ndash; van /v&#230;n/</td></tr>
+      <tr><td>Voicing, fricative</td><td>think /&#952;&#618;ŋk/ &ndash; this /&#240;&#618;s/</td><td>Voicing, fricative</td><td>sip /s&#618;p/ &ndash; zip /z&#618;p/</td></tr>
+      <tr><td>Place, fricative</td><td>measure /&#712;&#601;&#609;&#601;/ &ndash; mansion /&#712;&#230;n&#643;&#601;n/</td><td>Length, vowel</td><td>ship /&#643;&#618;p/ &ndash; sheep /&#643;i&#720;p/</td></tr>
+      <tr><td>Frontness, vowel</td><td>bed /bed/ &ndash; bad /b&#230;d/</td><td>Backness, vowel</td><td>cup /k&#652;p/ &ndash; carp /k&#593;&#720;p/</td></tr>
+          </tbody>
+  </table>
+  </div>
+
+  <p>Two points about the symbols are worth remembering. <strong>/&#658;/ is marginal in English</strong>: it appears in a handful of loanwords &mdash; <em>measure, vision, garage, usual, genre, television</em> &mdash; and in a few compounds such as <em>sh</em>ow and <em>rou</em>teau, but it is not a productive phoneme of native English. And <em>/t&#643;/</em> and <em>/d&#658;/</em> are single affricate phonemes, while <em>/tr/</em> and <em>/dr/</em> are consonant clusters, not single phonemes.</p>
+
+  <div class="card idea"><span class="lbl">Key Idea &mdash; an Assamese asset</span><p>Assamese already distinguishes an <strong>aspirated series /p&#720;/, /t&#720;/, /k&#720;/</strong> alongside unaspirated and voiced stops &mdash; a three-way contrast English does not have. Point to the Assamese contrast and say simply that English uses only the unaspirated member. Assamese also has <strong>retroflex consonants</strong> (/&#648;/, /&#594;/, /&#627;/) that English lacks, so warn against substituting retroflexion for English /t/, /d/, /n/, /&#643;/. The standard difficulties run the other way: Assamese has no /v/, /z/, /&#643;/ or /&#658;/, so <em>very</em>, <em>zoo</em>, <em>ship</em> and <em>measure</em> are the classic substitution targets.</p></div>
+  <h3 id="s2-4">2.2.3 Suprasegmental Features: Stress, Rhythm, Intonation</h3>
+  <p>Two utterances can be built from exactly the same phonemes and still mean different things. <em>"I said the <strong>sheep</strong> is fine"</em> uses the same phonemes as <em>"I said the <strong>ship</strong> is fine"</em>; the difference is a fall of pitch on one stressed syllable. Features that work this way &mdash; over stretches of speech rather than over single sounds &mdash; are called <strong>suprasegmental features</strong>, and they carry as much meaning as the consonants and vowels do. In fact they usually carry more: a child's errors here make the listener stumble far more often than errors in individual phonemes.</p>
+
+  <div class="tw tkeep">
+    <table>
+    <caption>Table 2.4 &mdash; The suprasegmental features and the meanings they create</caption>
+    <thead><tr><th>Feature</th><th>What it is</th><th>Minimal example</th></tr></thead>
+    <tbody>
+      <tr><td>Word stress</td><td>Relative prominence of a syllable inside a word</td><td>PHO&#183;to vs pho&#183;TOgraph; REcord (n.) vs re&#183;CORD (v.)</td></tr>
+      <tr><td>Sentence stress</td><td>Which word carries the message focus</td><td>"I SAW the cat" (emphatic) vs "I saw the CAT" (answer to "What?")</td></tr>
+      <tr><td>Rhythm</td><td>The pattern of stressed beats across a stretch</td><td>"I want to GO and SEE her" &mdash; beats on GO and SEE; other syllables squeezed</td></tr>
+      <tr><td>Intonation</td><td>The melody of pitch movement over a phrase</td><td>"You are coming." (fall, certain) vs "You are coming?" (rise, checking)</td></tr>
+      <tr><td>Juncture (pausing)</td><td>Where the speaker breaks the stream of speech</td><td>"The boy, the girl, saw the dog." vs "The boy the girl saw the dog."</td></tr>
+      <tr><td>Linking</td><td>Sounds joined across word boundaries in connected speech</td><td>"pick it up" runs together; "an hour" loses the /h/</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h4>Stress</h4>
+  <p><strong>Word stress</strong> tells the listener which syllable carries the identity of a word: normally the first in a two-syllable noun (<em>PHO&#183;to</em>, <em>TA&#183;ble</em>), the second in a two-syllable verb (<em>be&#183;GIN</em>). In compounds the primary stress is on the first element and the second is reduced: <em>BLACKboard</em>, <em>book&#183;SELLER</em>. <strong>Sentence stress</strong> decides which word is the point of it. <em>"I saw the cat"</em> is a flat statement until one word is promoted: <em>the CAT</em> answers "What did you see?", <em>I SAW it</em> answers "Did you see it?" The unstressed words become the grammatical scaffolding &mdash; particles, pronouns, auxiliaries &mdash; which is why native speakers can drop them and learners, who do not hear the difference, cannot.</p>
+
+  <h4>Rhythm</h4>
+  <p>English is a <strong>stress-timed</strong> language: its timing is built on stressed syllables, and the unstressed syllables between them are compressed to make room. Ask someone to say "I want to go to the shop today" and you will get four or five strong beats &mdash; <em>I want to</em> GO <em>to the</em> SHOP <em>to</em>DAY &mdash; with the small words rushed. Assamese and Hindi, like most Indian languages, are <strong>syllable-timed</strong>: every syllable gets roughly equal time. This is one of the most audible differences between an Assamese L1 speaker's English and a native speaker's, and it is a matter of timing, not of accent.</p>
+
+  <div class="card cls"><span class="lbl">Classroom Connection</span><p>Rhythm is best taught with clapping. Say "I want to go to the shop today" while the class claps on GO, SHOP and DAY only, then again with a clap on every syllable; the contrast lands immediately. Song and poetry carry the same work &mdash; a familiar English rhyme, or a jhumur or borgeet line given in English, teaches stress and rhythm together without a rule in sight.</p></div>
+
+  <h4>Intonation</h4>
+  <p><strong>Intonation</strong> is the movement of pitch over a stretch of speech, and it does three jobs: it marks a boundary, it marks the grammatical role of the unit (question versus statement), and it signals the speaker's attitude. Four patterns cover the great majority of classroom speech.</p>
+  <ul class="bul">
+    <li><strong>Fall</strong> &mdash; high to low. The unit is complete and the speaker is not asking for anything. <em>"Close the window." "The shop opens at nine."</em></li>
+    <li><strong>Rise</strong> &mdash; low to high. A yes/no question, an offer, or a request for confirmation. <em>"Are you ready?" "Shall we begin?"</em></li>
+    <li><strong>Fall&ndash;rise</strong> &mdash; fall then a late rise. Sharing information, surprise, checking a shared understanding. <em>"But we finished it already!"</em></li>
+    <li><strong>Rise&ndash;fall</strong> &mdash; rise then a sharp fall. Warning, insistence, or a question that carries "I mean what I say". <em>"Don't touch that."</em></li>
+  </ul>
+
+  <div class="tw tkeep">
+    <table>
+    <caption>Table 2.5 &mdash; One sentence, four meanings: the effect of intonation and stress</caption>
+    <thead><tr><th>Utterance</th><th>Suprasegmental marking</th><th>Meaning conveyed</th></tr></thead>
+    <tbody>
+      <tr><td><em>What?</em> (falling)</td><td>short, level, final tone</td><td>Flat, unfriendly: "Is that all you have to say?"</td></tr>
+      <tr><td><em>What?</em> (rising)</td><td>stretched, rising tone</td><td>Surprise, or a genuine request to repeat</td></tr>
+      <tr><td><em>I said the <strong>ship</strong> is fine.</em></td><td>stress + fall on <em>ship</em></td><td>"Not the sheep"</td></tr>
+      <tr><td><em>I said the <strong>sheep</strong> is fine.</em></td><td>stress + fall on <em>sheep</em></td><td>"Not the ship"</td></tr>
+      <tr><td><em>I never said she stole my money.</em></td><td>stress on <em>never</em></td><td>Nobody said she did</td></tr>
+      <tr><td><em>I <strong>never</strong> said she stole my money.</em></td><td>stress on <em>never</em>, others reduced</td><td>She may well have taken it</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3 id="s2-5">2.3 Oral Presentation and Oral Discourses</h3>
+  <p>An <strong>oral discourse</strong> is a piece of spoken language with a purpose, an audience and a shape &mdash; a speech at an assembly, a telephone announcement, a news bulletin, a job interview, a shop advertisement, a debate turn. Unlike a casual conversation it is planned, and unlike writing it must work on two channels at once: the words and the delivery. For a student-teacher, constructing oral discourses is doubly useful, because the same text, delivered to a class, teaches children how to organise and deliver speech themselves.</p>
+
+  <div class="tw">
+    <table>
+    <caption>Table 2.6 &mdash; Common oral discourses, their conventional shape, and classroom use</caption>
+    <thead><tr><th>Discourse</th><th>Conventional structure</th><th>Classroom use</th></tr></thead>
+      <tbody>
+        <tr><td>Speech / address</td><td>Greeting, purpose, main points in order, illustration, closing appeal, thanks</td><td>Assembly topic; "Why we should plant trees"</td></tr>
+        <tr><td>Announcement</td><td>Attention signal, message, repetition, closing ("Thank you for listening")</td><td>School notice over the intercom; railway-style announcement</td></tr>
+        <tr><td>News report</td><td>Headline, lead with the most important fact, who-what-when-where, closing detail</td><td>School news bulletin; comparing with a real bulletin</td></tr>
+        <tr><td>Interview</td><td>Greeting, opening question, follow-up probes, active listening, thanking, closing</td><td>Practising with the head teacher; a book review as an interview with the author</td></tr>
+        <tr><td>Discussion / debate</td><td>Opening, points, counter-points, a concluding statement, keeping to time</td><td>"Should homework be banned?" with a chair and a timekeeper</td></tr>
+        <tr><td>Advertisement</td><td>Attention, the product's benefit, credibility, a memorable slogan, a call to action</td><td>Write and record an advert for the school's annual sports day</td></tr>
+        <tr><td>Dialogue / role play</td><td>Situation, roles, natural talk, a small conflict or request, resolution</td><td>At the shop, at the doctor, a quarrel between two friends</td></tr>
+        </tbody>
+    </table>
+  </div>
+
+  <p>Two things distinguish a good oral presentation from a recited paragraph. The first is <strong>signposting</strong> &mdash; the speaker tells the audience where the talk is going: "First I shall explain&hellip; next&hellip; and finally&hellip;", carried on three cards or a chart with three boxes. The second is <strong>support</strong>: a claim is much stronger with an example, a number, a quotation or a short narrative attached to it. In a two-minute talk, one point, one illustration and a closing line is a complete performance.</p>
+
+  <h3 id="s2-6">2.4 Opportunities to Use Language in Context</h3>
+  <p>Language is acquired in use, and children will use English in a primary classroom if and only if using English is the easy way to get something done. Two design principles follow. The first is <strong>embeddedness</strong>: the English must be part of something the children want to do &mdash; a game, a task, a role, a decision &mdash; not an exercise standing on its own. The second is <strong>repetition with variation</strong>: the same language frame is met again and again in slightly different situations, which is how a chunk becomes automatic.</p>
+
+  <p>The richest source of context in a school is its own daily life: ordering tea at the canteen, asking the caretaker for a broom, welcoming a guest, announcing a lost-and-found item, telephoning the head teacher about a forgotten book, interviewing a shopkeeper about the price of vegetables. Every one of these uses a small, fixed set of chunks, and every one can be rehearsed until it is secure.</p>
+
+  <div class="tw">
+    <table>
+    <caption>Table 2.7 &mdash; Creating context in the classroom: from the daily routine to the project</caption>
+    <thead><tr><th>Context</th><th>Language children need</th><th>How it is organised</th></tr></thead>
+    <tbody>
+      <tr><td>Classroom management</td><td>"Please stop.", "Look at me.", "Your turn.", "Well done."</td><td>Taught once as a phrase, then used consistently by everyone all day</td></tr>
+      <tr><td>Group work</td><td>"What do you think?", "I agree, but&hellip;", "Can you explain?"</td><td>Sentence frames displayed on the table; every child must speak once before any may stop</td></tr>
+      <tr><td>Story time</td><td>Narrative language: "Once upon a time", "Suddenly", "At last"</td><td>Teacher models the story, class retells it in pairs, then performs it</td></tr>
+      <tr><td>Play and games</td><td>Turn-taking language: "My turn", "Your go", "That's not fair"</td><td>Games that cannot be played without speech</td></tr>
+      <tr><td>Celebrations and assembly</td><td>Formal chunks: "I request to present&hellip;", "It gives me great pleasure&hellip;"</td><td>Rehearsed formally by a small group; a script is fine</td></tr>
+      <tr><td>Project and survey</td><td>Question forms, reporting verbs: "We found that&hellip;", "Most children said&hellip;"</td><td>Real visit, real data, real report to the school</td></tr>
+      
+    </tbody>
+  </table>
+  </div>
+
+  <h3 id="s2-7">2.5 Introduction to Spoken English</h3>
+  <p><strong>Spoken English</strong> is the everyday spoken variety of the language, as distinct from the formal, standard or literary English found in textbooks and examinations. A child in Class III uses it for one specific purpose: to be understood by a listener. In the earliest stages almost all of a beginner's English is <em>formulaic</em> &mdash; fixed phrases rather than constructed sentences &mdash; because formulas are stored whole in memory and can be recalled under pressure. Grammar and lexis come later, built on top of them.</p>
+
+  <p>This is why "grammar-translation" fails at this level. A child who has only met the pattern "I <em>am</em> happy" cannot produce "I want to be happy here"; but a child who has the chunk "What's your name?" and "My name is&hellip;" can begin a conversation with a stranger immediately. The practical sequence is therefore: <em>chunks first, sentences later, grammar last, never separately from meaning.</em></p>
+
+  <div class="tw tkeep">
+    <table>
+    <caption>Table 2.8 &mdash; From formula to sentence to expansion: a three-step approach to beginner speaking</caption>
+    <thead><tr><th>Stage</th><th>What the child produces</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td>1. Formula</td><td>A fixed, memorised expression used as one unit</td><td>"How are you?" &#8212; answered with "I'm fine, thank you."</td></tr>
+      <tr><td>2. Substitution</td><td>The formula with one slot filled in</td><td>"How are <em>you</em>?" / "How are <em>your parents</em>?"</td></tr>
+      <tr><td>3. Expansion</td><td>The frame opens up into a question, then an answer with a reason</td><td>"How are you?" &#8212; "I'm fine, thank you. <em>My tooth hurt yesterday.</em>"</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Three further features of beginner spoken English are normal and should not be corrected away too early.</p>
+  <ul class="bul">
+    <li><strong>Non-standard forms</strong> (<em>He has gone</em> for <em>He has gone away</em>) &mdash; the child reaching for meaning with the resources he has.</li>
+    <li><strong>Code-switching</strong> &mdash; a word from the home language dropped into an English sentence; a bilingual strategy working, not a failure.</li>
+    <li><strong>Over-generalised grammar</strong> ("I <em>am</em> going" for "I <em>go</em>") &mdash; a rule correctly generalised from data that has not yet reached the exceptions.</li>
+  </ul>
+  <p>Each is a stage in development, and the teacher's job is to supply the missing item, not to correct the whole sentence.</p>
+
+  <h3 id="s2-8">Activities for Unit 2</h3>
+  <ol class="num">
+    <li><strong>Theme-based oral interaction and situational conversation.</strong> Choose a theme (a visit to a hospital, buying vegetables, a lost button) and, in pairs, build and perform a conversation in which the language actually does the work of the situation. A phone recording followed by self-transcription is the strongest evidence of improvement.</li>
+    <li><strong>Listening to and producing oral discourses.</strong> Work through speeches, panel discussions, songs, news reports, interviews, announcements and advertisements. Listen first for gist, then detail, then segmental and suprasegmental features. Produce one of each yourself.</li>
+    <li><strong>Classroom theatre: role play and drama.</strong> Stage a short scripted episode with props and an audience. This forces every student to speak, to listen, and to adapt in real time.</li>
+    <li><strong>Giving and eliciting feedback on segmental and suprasegmental features.</strong> Use a simple protocol: a listener names <em>one thing that worked</em> and <em>one thing to try next time</em>, referring to a specific feature (stress, a particular sound, pausing, intonation) rather than saying "your English is bad".</li>
+    <li><strong>Storytelling and re-telling.</strong> Retell a story from memory to a partner without the book; the partner notes what was omitted and what was added. Retelling is where the loss of a second language shows most clearly.</li>
+    <li><strong>Telephonic conversation.</strong> Sit back to back with a partition. Ask for information, leave a message, make an enquiry, apologise for a late reply.</li>
+    <li><strong>Announcements.</strong> Compose and deliver a 30-second school announcement following the broadcast formula, and check that every message is heard by the class at the back.</li>
+  </ol>
+</section>
+
+<div class="review">
+  <h4>Unit 2 Quick Review &mdash; Listening to and Producing Oral Discourses</h4>
+  <h5>Key Terms</h5>
+  <p><span class="term">phoneme</span> &middot; <span class="term">allophone</span> &middot; <span class="term">minimal pair</span> &middot; <span class="term">IPA</span> &middot; <span class="term">segmental feature</span> &middot; <span class="term">suprasegmental feature</span> &middot; <span class="term">monophthong</span> &middot; <span class="term">diphthong</span> &middot; <span class="term">stress-timed</span> &middot; <span class="term">syllable-timed</span> &middot; <span class="term">intonation</span> &middot; <span class="term">juncture</span> &middot; <span class="term">linking</span> &middot; <span class="term">oral discourse</span> &middot; <span class="term">formula / chunk</span> &middot; <span class="term">code-switching</span></p>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li>English has <strong>44 phonemes</strong>: <strong>24 consonants</strong> (17 obstruents + 3 nasals + 4 approximants) and <strong>20 vowels</strong> (12 monophthongs + 8 diphthongs).</li>
+    <li>Consonants: p b t d k g f v &#952; &#240; s z &#643; &#658; h t&#643; d&#658; m n &#331; l r j w. Monophthongs: i&#720; &#618; e &#230; &#593;&#720; &#594; &#596;&#720; &#650; u&#720; &#652; &#601;&#720; &#604;&#720; &#601;. Diphthongs: e&#618; a&#618; &#596;&#618; a&#650; &#601;&#650; &#618;&#601; e&#601; &#650;&#601;.</li>
+    <li><strong>/&#658;/ is marginal</strong> &ndash; loanwords only. <strong>English is stress-timed; Assamese and Hindi are syllable-timed.</strong></li>
+    <li>Four intonation patterns: <strong>fall, rise, fall&ndash;rise, rise&ndash;fall</strong>. Three levels of listening: global, selective, detailed.</li>
+  </ul>
+  <h5>Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>What is the difference between a segmental and a suprasegmental feature? Name the four intonation patterns.</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Transcribe the following in IPA and identify the segmental contrasts: <em>ship, sheep, sip, zip, think, this, bench, Ben</em>.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>"Listening is the most important language skill and the least taught." Discuss with reference to the three levels of listening comprehension and to the activities prescribed in this unit. (10)</p></div>
+  </div>
+</div>
+<!-- ============ UNIT 3 ============ -->
+<section class="unit-body">
+  <h2 id="unit-3"><span class="h2num">Unit 3 &middot; 10 Marks</span>Critical Reading</h2>
+  <h3 id="s3-1">3.1 Reading Skills and Strategies</h3>
+  <p>A <strong>reading strategy</strong> is a planned way of approaching a text, chosen because it fits the reader's purpose. The purpose decides the strategy, and the strategy decides the speed, the detail, the re-reading and the amount of guessing. The strategies below are not better and worse than each other; each is the right answer to a different question.</p>
+
+  <h4>Reading aloud and silent reading</h4>
+  <p><strong>Reading aloud</strong> is reading with voice, so that the eyes, the ear and the mouth work together on the same text. Its value is not that it is louder: it forces the reader to <em>pronounce</em> rather than to guess, it puts punctuation and phrasing under the reader's control, and it makes the text public so that the class hears and discusses it together. It is, however, a <em>receptive-public</em> skill and does not by itself build silent comprehension.</p>
+
+  <p>The weakness of traditional "round-and-round reading" is that the whole class waits, the fluent reader carries the laggards, and the laggards stop looking at the words and start watching the mouth. Three corrections make it work: read a short paragraph and stop for a real purpose ("Why did he do that?"); give every child a turn in a pair so nobody is a passenger; and follow the read-aloud with a silent, independent task on the same text.</p>
+
+  <p><strong>Silent reading</strong> is reading for oneself, without voice. It is faster, it frees the reader to re-read and to skip, and it is the mode in which real comprehension happens because nothing has to be performed. But silent reading is invisible, so it must be given a purpose and a product: a question to answer, a summary of three sentences, something to find, a number of minutes.</p>
+
+  <h4>Intensive and extensive reading</h4>
+  <p><strong>Intensive reading</strong> is close, slow, careful reading of a short text to extract every bit of the meaning &mdash; vocabulary, structures, argument, tone, the writer's attitude. <strong>Extensive reading</strong> is wide, rapid, largely uninterrupted reading of many easy texts, undertaken for fluency, vocabulary growth and the sheer habit of reading. A class that reads four or five short, easy texts a week is doing extensive reading, and its reading rate, comprehension and writing will improve faster for it.</p>
+
+  <div class="tw tkeep">
+    <table>
+      <caption>Table 3.1 &mdash; Intensive and extensive reading compared</caption>
+      <thead><tr><th>Basis</th><th>Intensive reading</th><th>Extensive reading</th></tr></thead>
+      <tbody>
+        <tr><td>Purpose</td><td>Accuracy, depth of understanding, analysis of language</td><td>Fluency, speed, volume, habit, pleasure</td></tr>
+        <tr><td>Text</td><td>Short, difficult, carefully chosen</td><td>Many, easy, self-selected where possible</td></tr>
+        <tr><td>Speed</td><td>Slow; frequent re-reading and dictionary use</td><td>Fast; little re-reading, few interruptions</td></tr>
+        <tr><td>Outcome measured by</td><td>Depth of response, close analysis, a written product</td><td>Amount read, reading rate, willingness to continue</td></tr>
+        <tr><td>Typical classroom use</td><td>One poem a week, analysed line by line</td><td>A reading corner, graded readers, a class library</td></tr>
+        </tbody>
+    </table>
+  </div>
+
+  <h4>Skimming and scanning</h4>
+  <p><strong>Skimming</strong> is reading fast to get the general idea of a text, without stopping for unfamiliar words. The eyes move in a zig-zag: the first line of each paragraph, the headings and the last line get attention, the rest is caught in a single sweep. The reader leaves with the topic, the overall organisation and the main point. Skimming suits a chapter before a test, and the first ten seconds of looking at any unfamiliar text.</p>
+
+  <p><strong>Scanning</strong> is searching a text for one specific item &mdash; a date, a name, a number, a price, a definition. The eyes move in a straight line or down a column, the rest of the page is ignored, and the search stops the moment the item is found. Scanning suits a timetable, a price list, an index, a dictionary, a noticeboard or a list of marks.</p>
+
+  <p>Both are teachable in one lesson: put an unfamiliar paragraph on the board with a heading, a date, a place, a number and a name hidden in it; give the class five minutes to skim for the main idea, then two minutes to scan for the items. Children discover that the two tasks use the eyes in completely different ways.</p>
+
+  <h4>Scaffolding</h4>
+  <p>A <strong>scaffold</strong> is a temporary support supplied to a learner so that the task becomes possible, and withdrawn as the learner becomes able to do it alone. In reading, the classic scaffold is <em>supported reading</em>: a text the children cannot yet read is made readable by the teacher, not by simplifying out all of its content but by supporting it.</p>
+  <ul class="bul">
+    <li><strong>Pre-teaching the vocabulary</strong> with pictures, gesture, objects and a first hearing, before the text is opened.</li>
+    <li><strong>Modelling</strong> &mdash; the teacher thinks aloud while reading, showing how a reader works out an unknown word and predicts what comes next.</li>
+    <li><strong>Shared reading</strong> &mdash; the whole class reads a big book or a board-mounted text together, with pointers and repeated chorusing.</li>
+    <li><strong>Questioning at intervals</strong> to stop and check comprehension before the difficulty arrives.</li>
+    <li><strong>Story-mapping</strong> &mdash; drawing the sequence, or arranging picture cards, before and during the reading.</li>
+    <li><strong>Re-reading</strong> after the first hearing, when the text is no longer unfamiliar; and <strong>differing roles in pairs</strong> &mdash; one child reads, the other tracks the text; then they swap.</li>
+  </ul>
+  <p>The word <em>temporary</em> matters. A scaffold that is never withdrawn produces dependence: the child waits to be told and stops trying. A good scaffold is faded deliberately, one support at a time, and the child is told that this is happening and why.</p>
+
+  <h4>Inference and extrapolation</h4>
+  <p><strong>Inference</strong> is the reader's construction of information that is not stated. A text says "The boy put down the bag, took out a book, and began to read"; the reader infers that he is on a journey, that he is waiting for someone. Inference is a <em>backward</em> movement: the evidence is on the page and the conclusion is drawn from it, and it must be <em>available</em> but <em>unsaid</em>.</p>
+
+  <p><strong>Extrapolation</strong> is a <em>forward</em> movement: the reader goes beyond the text to fill in what has not been written. A story stops at "And the old woman opened the door"; the reader supplies the rest. Extrapolation is legitimate in literature, where the point is to see how meaning is completed; it is not legitimate in a factual or scientific text, where the correct response is "the text does not say".</p>
+
+  <div class="tw tkeep">
+    <table>
+      <caption>Table 3.2 &mdash; Inference and extrapolation, and the questions that test them</caption>
+      <thead><tr><th>Feature</th><th>Inference</th><th>Extrapolation</th></tr></thead>
+      <tbody>
+        <tr><td>Direction</td><td>From evidence in the text to an unstated conclusion</td><td>From the text to what the text does not cover</td></tr>
+        <tr><td>Clue</td><td>Present but unstated</td><td>Absent; the reader supplies it</td></tr>
+        <tr><td>Kind of text</td><td>Any text</td><td>Narrative, literary, argumentative</td></tr>
+        <tr><td>Typical question</td><td>"What can you tell from the fact that&hellip;?"</td><td>"What do you think will happen next?"</td></tr>
+        <tr><td>Example</td><td>"His shoes were wet." &rarr; he has walked through water</td><td>"She closed the letter and looked out of the window." &rarr; what she read changed her mood</td></tr>
+        <tr><td>Risk</td><td>Over-inference: assuming more than the evidence supports</td><td>Under-reading: stopping at what is literally written</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h4>Coherence and cohesion</h4>
+  <div class="card def"><span class="lbl">Definition</span><p><strong>Coherence</strong>: the overall semantic and logical meaningfulness of a text &mdash; the fit between the ideas, whether or not any signals are used. <strong>Cohesion</strong>: the network of explicit linguistic devices &mdash; reference, substitution, ellipsis, conjunction, lexical repetition, parallelism, deictic reference &mdash; that marks how the parts of a text relate.</p></div>
+  <p>Coherence is a property of the <em>text as a whole</em>; cohesion is the set of <em>devices</em> that signal those relations. A text can be perfectly cohesive and still incoherent (well-connected sentences about unrelated topics), and it can be coherent with almost no cohesive devices (a picture book with few words).</p>
+
+  <div class="tw">
+    <table>
+      <caption>Table 3.3 &mdash; The main cohesive devices, with a worked example of each</caption>
+      <thead><tr><th>Device</th><th>What it does</th><th>Worked example</th></tr></thead>
+      <tbody>
+        <tr><td>Pronominal reference</td><td>A pronoun stands for a noun already mentioned</td><td><em>Ram gave Ravi a book. <strong>He</strong> was grateful.</em> &rarr; <em>He</em> = Ram</td></tr>
+        <tr><td>Definite and deictic reference</td><td><em>The</em> picks up a known referent; <em>that</em> and <em>it</em> point in space or time</td><td><em>Look at <strong>that</strong> cloud. <strong>It</strong> is coming this way.</em></td></tr>
+        <tr><td>Lexical repetition / synonym</td><td>The same content word returns, or a new expression names the same thing</td><td><em>Rain fell. <strong>Water</strong> covered the field.</em></td></tr>
+        <tr><td>Conjunctions</td><td>Signal sequence, contrast, cause and result</td><td><em>First we dug, <strong>then</strong> we planted. He was tired, <strong>but</strong> he continued. It rained heavily, <strong>so</strong> the river rose.</em></td></tr>
+        <tr><td>Ellipsis</td><td>Words are left out because they are recoverable</td><td><em>Some children came by bus, others <strong>(came) on foot</strong>.</em></td></tr>
+        
+        <tr><td>Parallel structure</td><td>Matching forms mark matching relations</td><td><em>He came in, took off his coat, and sat down.</em></td></tr>
+        <tr><td>Connectives / adverbials</td><td>Adverbial phrases order discourse</td><td><em><strong>However</strong>, the plan failed. <strong>As a result</strong>, they changed it.</em></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<h3 id="s3-2">3.2 Text Types and Their Features</h3>
+<p>Texts fall into four broad <strong>rhetorical types</strong> according to what their writer is doing: describing something, telling about something, explaining something, or persuading about something. Once a reader can name the type, the type tells the reader what to expect &mdash; and expectation is most of reading speed. A reader who knows a text is a <em>notice</em> knows not to look for a story in it; a reader who knows it is an <em>argument</em> knows to look for a claim and a reason. Alongside these run three rhetorical appeals: <em>ethos</em>, the appeal to the speaker's credibility; <em>pathos</em>, to the audience's feelings; and <em>logos</em>, to logic. An advertisement relies almost entirely on ethos and pathos, a science textbook almost entirely on logos.</p>
+
+<div class="tw">
+  <table>
+  <caption>Table 3.4 &mdash; Characteristic features of the four rhetorical types</caption>
+  <thead><tr><th>Feature</th><th>Descriptive</th><th>Narrative</th><th>Informative / expository</th><th>Persuasive / argumentative</th></tr></thead>
+  <tbody>
+    <tr><td>Writer's purpose</td><td>To give a clear picture of something</td><td>To tell what happened</td><td>To explain or inform</td><td>To convince or change a reader's view</td></tr>
+    <tr><td>Dominant tense</td><td>Present</td><td>Past</td><td>Present</td><td>Present, with modals</td></tr>
+    <tr><td>Structure</td><td>Spatial order (near to far, top to bottom)</td><td>Beginning, middle, end; cause-effect sequence</td><td>General to specific; definition, classification, cause-effect</td><td>Claim, evidence, warrant, counter-argument, conclusion</td></tr>
+    
+    <tr><td>Typical lexis and person</td><td>Adjectives of colour, size, texture; third person</td><td>Time markers, dialogue, sequence adverbs; first or third person</td><td>Technical terms, numbers, formal connectives; impersonal third, passive frequent</td><td>Evaluative adjectives, abstract nouns, modals; first and second person, direct address</td></tr>
+    <tr><td>Person</td><td>Third</td><td>First or third</td><td>Third, impersonal</td><td>First ("I", "we") and second ("you")</td></tr>
+    
+    <tr><td>Present in</td><td>Descriptions, place-writing, picture captions</td><td>Stories, fables, news reports, biographies</td><td>Textbooks, encyclopaedias, manuals, notices, letters of enquiry</td><td>Editorials, advertisements, letters to the editor, speeches</td></tr>
+    <tr><td>Key test question</td><td>What does it look like?</td><td>What happened, to whom?</td><td>How does it work? Why?</td><td>What should we do, and why?</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h4>Worked signals of each type</h4>
+<ul class="bul">
+  <li><strong>Descriptive</strong> &mdash; <em>"Behind the kitchen the ground sloped down to a brick wall, and the slope was full of ferns&hellip; the bricks were the colour of tea."</em> Present tense throughout; no plot; adjectives of colour and texture; spatial order; linking rather than action verbs.</li>
+  <li><strong>Narrative</strong> &mdash; <em>"Bhim had never seen the sea. On the morning the family left Dhubri he woke before light&hellip; when the water touched his feet he stopped, quite suddenly, and began to cry."</em> Characters and setting; a plot with a turn; simple past with time markers (<em>on the morning, when, then</em>); a change in the protagonist.</li>
+  <li><strong>Informative / expository</strong> &mdash; <em>"A seed germinates when three conditions are satisfied: it needs water, air and a suitable temperature&hellip; each stage depends on the one before it."</em> A clear topic sentence; general-to-specific ordering; explicit enumeration; impersonal third person; no opinion.</li>
+  <li><strong>Persuasive / argumentative</strong> &mdash; <em>"Water in our villages is not scarce because there is none. It is scarce because most of what falls is lost before it is used&hellip; Let us begin with the schools: one tank, one tap, one habit."</em> A claim stated in the first sentence and defended; a concession followed by a rebuttal; direct address; all three appeals at once.</li>
+</ul>
+
+<h4>The everyday text types</h4>
+<p>Beyond the four rhetorical types, the syllabus names a set of everyday text types that a primary child meets. They differ not in kind but in <em>convention</em> &mdash; the expectations a reader brings to each.</p>
+<ul class="bul">
+  <li><strong>News report</strong> &mdash; the inverted pyramid: the most important fact first, then supporting detail, then background. Headline, dateline, lead paragraph, body, quotation. Neutral register, past tense, attribution.</li>
+  <li><strong>Article</strong> &mdash; a newspaper or magazine feature with a title, a standfirst, sub-heads and illustrations; may be descriptive, informative or argumentative.</li>
+  <li><strong>Letter</strong> &mdash; a fixed layout: place and date at the top right, address inside, greeting, body, closing, "Yours faithfully" (unnamed) or "Yours sincerely" (named), signature. The most easily assessed of all the text types.</li>
+  <li><strong>Notice</strong> &mdash; the shortest and most functional: a title in capitals, the essential information in short lines, a date and a signature. No explanation, no argument.</li>
+  <li><strong>Advertisement</strong> &mdash; informative and persuasive together, with the persuasive element dominant: slogan, brand name, benefit stated as a promise, a visual carrying much of the message.</li>
+  <li><strong>Biography and autobiography</strong> &mdash; narrative; a biography is third-person and written by another, an autobiography first-person and self-written. Both are shaped by selection.</li>
+  <li><strong>Jokes and riddles</strong> &mdash; short texts that depend on a violation of expectation: the punchline inverts a premise, a riddle gives a definition with more than one solution.</li>
+  <li><strong>Stories</strong> &mdash; narrative, usually with a clear beginning, middle and end, often with a moral. A strong source for retelling and sequencing work.</li>
+</ul>
+
+<h3 id="s3-3">3.3 Global and Local Comprehension</h3>
+<p>Comprehension operates at two levels, and a competent reader switches between them without noticing. <strong>Local comprehension</strong> is work at the level of the word, the phrase and the sentence: the literal meaning, the reference of a pronoun, the connection between a subject and a verb, the connotation of a word, the meaning of an idiom. <strong>Global comprehension</strong> is work at the level of the whole text: the purpose, the structure, the main idea, the tone, the genre, the author's implied attitude, and what the text is doing rather than what it says.</p>
+
+<p>The distinction matters because the two levels demand different questions. A child can read every sentence correctly and still miss the point of a paragraph, and that is a global failure, not a local one. It is also the failure examinations reward, since almost every comprehension question is really a global question wearing a local disguise.</p>
+
+<div class="tw tkeep">
+  <table>
+  <caption>Table 3.5 &mdash; Question stems for the two levels of comprehension</caption>
+  <thead><tr><th>Level</th><th>Unit of work</th><th>Question stems</th></tr></thead>
+  <tbody>
+    <tr><td>Local</td><td>Word, phrase, sentence</td><td>"What does the word&hellip; mean here?" &middot; "What does the pronoun <em>it</em> stand for?" &middot; "Which two ideas are joined by <em>however</em>?" &middot; "What is the effect of the word <em>invisible</em>?"</td></tr>
+    <tr><td>Global</td><td>The whole text, its structure and its purpose</td><td>"What is the main point of this paragraph?" &middot; "Why has the writer placed this example here?" &middot; "What would the writer like the reader to think?" &middot; "Which of these headings would the writer accept?"</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3 id="s3-4">3.4 The Theoretical Postulates of Critical Theory</h3>
+<p>Reading a text critically means holding it at a distance and asking questions about it that a reader normally does not ask. Four families of question are prescribed by the syllabus, and they are best taught as a set of lenses through which any text &mdash; a textbook chapter, a newspaper editorial, an advertisement, a poem &mdash; can be examined.</p>
+
+<h4>3.4.1 The concepts used in a text</h4>
+<p>Every text rests on a set of concepts &mdash; the ideas it takes for granted rather than argues for. <em>Development</em>, <em>progress</em>, <em>discipline</em>, <em>merit</em>, <em>normal</em> and <em>civilisation</em> do most of the hidden work in educational writing. A critical reader's first task is to <strong>identify the key concepts</strong> and ask: is this concept defined? Is the definition acceptable? Whose definition is it? A chapter on "Good behaviour" that never defines <em>good</em> is not being careless; it is relying on a shared assumption.</p>
+
+<h4>3.4.2 The soundness of the argument</h4>
+<p>An argument consists of a <strong>claim</strong> (what is being asserted), the <strong>evidence</strong> offered in support, and the <strong>warrant</strong> &mdash; the assumption that makes the evidence relevant to the claim.</p>
+
+<div class="tw tkeep">
+  <table>
+  <caption>Table 3.6 &mdash; Testing the soundness of an argument</caption>
+  <thead><tr><th>Question</th><th>What it tests</th><th>Failure looks like</th></tr></thead>
+  <tbody>
+    <tr><td>What exactly is being claimed?</td><td>Clarity of the claim</td><td>A claim that changes as the paragraph proceeds</td></tr>
+    <tr><td>What evidence is offered?</td><td>Support</td><td>Opinion repeated as though it were evidence</td></tr>
+    <tr><td>Is the evidence relevant?</td><td>The link between evidence and claim</td><td>Statistics about one district used for a claim about a whole country</td></tr>
+    <tr><td>Is the evidence accurate?</td><td>Truth and verifiability</td><td>A number quoted with no source</td></tr>
+    <tr><td>What is the warrant?</td><td>The assumption connecting the two</td><td>"Crackers are cheap, therefore the poor are well fed"</td></tr>
+    
+    <tr><td>Is the counter-argument addressed?</td><td>Fairness</td><td>A "balanced" article that never states the other side</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h4>3.4.3 The value and relevance of the assumptions</h4>
+<p>Every argument rests on assumptions taken for granted rather than argued for. A critical reader asks about these: are they <em>worth holding</em>? Do they <em>still apply</em> today? And whose interests do they serve? An argument built on "hard work is rewarded" may be a fine starting point and a poor conclusion, because it assumes that everyone begins with the same resources. An argument built on "children need discipline" is doing something quite different when it is written by a head teacher, a parent and a textbook author, and the critical reader is expected to notice the difference.</p>
+
+<p>Critical reading is not the same as criticism, disagreement or showing off. A student who writes "I disagree because my grandmother says so" has not made an assumption, has tested anything, and has learned nothing. Critical reading means the text is <em>seriously</em> taken as an argument before it is judged &mdash; "critical" here means careful and exacting, not fault-finding.</p>
+
+<h4>3.4.4 The tradition on which the text is based</h4>
+<p>No text is written from nothing. Every text stands in a <strong>tradition</strong> &mdash; of a discipline, a period, a culture, a language, a genre, or a school of thought &mdash; and a reader who knows the tradition reads differently. An extract from an Assamese oral tradition, a Victorian moral tale for children, a science textbook, a front-page news report, a WhatsApp forward and a government notice all make different claims about authority: the learned, the child moralist, the expert, the journalist, the crowd, the state. Naming the tradition explains much about the conventions of the text, including the ones a modern reader may find strange.</p>
+
+<div class="tw tkeep">
+  <table>
+  <caption>Table 3.7 &mdash; The four critical lenses, with the question behind each</caption>
+  <thead><tr><th>Lens</th><th>The question behind it</th><th>A classroom move</th></tr></thead>
+  <tbody>
+    <tr><td>Concepts</td><td>Which ideas is the text taking for granted?</td><td>List the key terms of a lesson; circle any that are never actually explained</td></tr>
+    <tr><td>Soundness of argument</td><td>Does the evidence support the claim, and is the claim worth supporting?</td><td>Separate a paragraph into claim, evidence and warrant using three colours</td></tr>
+    <tr><td>Assumptions</td><td>What must be true for this argument to work, and is it still true?</td><td>Ask "what must everyone here already believe for this to make sense?"</td></tr>
+    <tr><td>Tradition</td><td>What kind of text is this, and who is it speaking for?</td><td>Compare a news report, a notice and a WhatsApp message on the same event</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Critical reading is well within reach of a primary classroom if it is kept concrete. Give a Class VI group a short letter to the editor from your own district and ask three questions: What is the writer claiming? What evidence is offered? What is taken for granted? Then give a different letter on the same topic and ask them to say which one argues better, and why.</p>
+
+<h3 id="s3-5">3.5 The Process of Critical Reading</h3>
+<p>Critical reading is not a single act of insight at the end of a text; it is a staged process, and the staging is what makes it teachable. A student who skips the first stage has usually already lost the text before it begins.</p>
+
+<div class="tw">
+  <table>
+  <caption>Table 3.8 &mdash; The three stages of critical reading</caption>
+  <thead><tr><th>Stage</th><th>What the reader does</th><th>Key questions</th><th>Product</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Before reading</strong></td><td>Builds a frame: what do I know, what do I expect, what is my purpose?</td><td>What is this text? Who wrote it, for whom, when, and why? What do I already believe about the topic? What am I reading <em>for</em>?</td><td>A prediction and a set of questions to test</td></tr>
+    <tr><td><strong>While reading</strong></td><td>Reads actively, marks up, and monitors: comprehension, structure, language, argument</td><td>Where am I losing the thread? What is the writer claiming here, and on what grounds? Which words are doing the work of persuasion? What is left out?</td><td>Annotated text, margin notes, a running question list</td></tr>
+    <tr><td><strong>After reading</strong></td><td>Reconstructs, evaluates, responds, and places the text</td><td>What is the argument? How sound is it? What assumptions does it rest on? What tradition does it belong to? What have I changed my mind about?</td><td>A summary in one's own words, a reasoned response, a review or a debate</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p><strong>Before</strong>, settle the <em>purpose</em> &mdash; skim for gist, read closely for argument, look for a fact, read for enjoyment &mdash; because the purpose determines everything that follows; activate prior knowledge; and predict from the title, the headings and the first paragraph. A useful classroom routine is a two-minute "before" routine in which every child writes one sentence: <em>This text is probably about&hellip;, because&hellip;</em></p>
+
+<p><strong>While</strong>, active reading means holding the text, the questions and the marks in view at once. The habits are few and repeatable: <strong>mark up</strong> (underline a claim, box an example, put a "?" beside something not understood, write a one-word reaction at each paragraph break), <strong>monitor</strong> (pause at each paragraph end and ask "what has just happened, and why has the writer put it here?"), and <strong>read between the lines</strong>.</p>
+
+<p><strong>After</strong>, a reading becomes understanding in three moves. <strong>Reconstruct</strong>: put the book down and write what the text said in your own words, then check. <strong>Evaluate</strong>: the four lenses of 3.4 applied to this text. <strong>Respond</strong>: say or write what you think, in a form suited to the text &mdash; a summary, a review, a letter, a debate, a diagram, a rewritten ending. A student who can do this third move has read critically, whatever the text was.</p>
+
+<div class="card ex"><span class="lbl">Example</span><p>Before: "This is a chapter on water. I already know water freezes at zero. My question: does it tell me anything I don't know?" While: mark the four claims; notice that no claim has a number attached. After: "The chapter argues that everyone can save water by small habits, but it gives no figure for how much a tap leaks, so I cannot check the claim. Its assumption is that people will change their habits if told." That three-part record is a piece of critical reading, and it takes fifteen minutes.</p></div>
+
+<h3 id="s3-6">3.6 Miscue Analysis: Errors as Learning</h3>
+<div class="card def"><span class="lbl">Definition</span><p>A <strong>miscue</strong> is an error made while reading; in the sense that matters here it is not a random mistake but the visible result of a strategy the reader is using. If a child reads <em>house</em> as "hose", he has picked the wrong item from a visual field in which the two words look almost identical &mdash; the error shows he is decoding by shape rather than by sound. <strong>Miscue analysis</strong> is therefore diagnostic: collect the miscue, identify the underlying reading strategy, decide whether it is productive or non-productive, and intervene. It asks not "how many mistakes did the child make?" but <strong>"what is the child doing, and is it working?"</strong></p></div>
+
+<div class="tw">
+  <table class="compact">
+  <caption>Table 3.9 &mdash; Common types of miscue, the strategy behind each, and the intervention</caption>
+  <thead><tr><th>Type of miscue</th><th>Example</th><th>Strategy behind it</th><th>Productive?</th><th>Intervention</th></tr></thead>
+  <tbody>
+    <tr><td>Visual substitution</td><td>house &rarr; "hose"; come &rarr; "some"</td><td>Guessing from the shape of the letters</td><td>No</td><td>Cover the word and read from the sound; say it, then look at it</td></tr>
+    <tr><td>Contextual over-guessing</td><td>"The boy was <em>tired</em>" read as "happy" because the next line said he smiled</td><td>Over-reliance on context instead of the print</td><td>No</td><td>Ask "which word did you actually see? Read it with your finger first"</td></tr>
+    <tr><td>Letter-name reading</td><td>cat &rarr; "see-ay-tea"</td><td>Alphabet rather than phonemic decoding</td><td>No</td><td>Re-teach sound-letter correspondence for those letters only</td></tr>
+    <tr><td>Skipping a line or a clause</td><td>Reads only the first word of each line</td><td>Preserving reading rate, or avoiding difficulty</td><td>No</td><td>Silent tracking; ask what was on the lines "in between"</td></tr>
+    <tr><td>Syllable chopping</td><td>"beautiful" &rarr; "beau-ti-ful" with an inserted vowel</td><td>Attempting to blend from left to right only</td><td><strong>Yes</strong></td><td>Praise it; this is the reader on the way. Add blending practice</td></tr>
+    <tr><td>Phoneme substitution</td><td>"ship" for "sheep"</td><td>The first language's vowel system is operating</td><td><strong>Yes</strong></td><td>Minimal-pair drill, keeping the word in a real sentence</td></tr>
+      </tbody>
+</table>
+</div>
+
+<p>The goal of miscue analysis is <strong>self-correction</strong>. The reader who notices "that isn't a word, let me look again" is a reader who will manage any text; the reader who is corrected silently until the page is clean has learned only to avoid being caught.</p>
+
+<h3 id="s3-7">Activities for Unit 3</h3>
+<ol class="num">
+  <li><strong>Read different texts for discourse analysis.</strong> Collect one example of each of the four rhetorical types and of the everyday types &mdash; news report, article, letter, notice, advertisement, story, joke, riddle &mdash; and mark the features that make each recognizable: the headline, the greeting, the signpost words, the punchline.</li>
+  <li><strong>Interpret pictures, tables, graphs and diagrams.</strong> These are texts too. Ask what question a photograph with a caption, a bar chart, a map legend or a flow diagram answers, and what a careless reader would get wrong.</li>
+  <li><strong>Scaffolding activity: Show and Tell.</strong> Describe an object or photograph in three sentences so that a partner can draw it. The describer chooses features deliberately, the drawer asks for clarification &mdash; and both practise supportive listening and precise vocabulary.</li>
+  <li><strong>Review any book, article or text.</strong> Use a fixed review format developed beforehand in workshop mode: title and author, the type of text, the main idea in one sentence, the parts you liked, the parts you found difficult, one question for the author, and who you would recommend it to.</li>
+  <li><strong>Use reading as a reference skill.</strong> Practise the four reference tools: the <strong>dictionary</strong> (headword, part of speech, numbered senses); the <strong>encyclopaedia</strong> (read the whole entry, not the first line); the <strong>thesaurus</strong> (find a similar meaning, then choose from context); and the <strong>internet</strong> (who wrote it, what is the evidence, is it a copy of something better).</li>
+  <li><strong>Collect different types of texts and write model text items.</strong> Build a class collection &mdash; a notice, a letter to the head teacher, a lost-and-found announcement, a birthday invitation, a complaint about a broken tap, a school news item, a book review &mdash; and keep a model of each.</li>
+</ol>
+</section>
+
+<div class="review">
+  <h4>Unit 3 Quick Review &mdash; Critical Reading</h4>
+  <h5>Key Terms</h5>
+  <p><span class="term">reading strategy</span> &middot; <span class="term">intensive / extensive reading</span> &middot; <span class="term">skimming</span> &middot; <span class="term">scanning</span> &middot; <span class="term">scaffolding</span> &middot; <span class="term">inference</span> &middot; <span class="term">extrapolation</span> &middot; <span class="term">coherence</span> &middot; <span class="term">cohesion</span> &middot; <span class="term">rhetorical type</span> &middot; <span class="term">global / local comprehension</span> &middot; <span class="term">claim / evidence / warrant</span> &middot; <span class="term">tradition</span> &middot; <span class="term">miscue analysis</span> &middot; <span class="term">self-correction</span></p>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li>Coherence = meaningfulness of the whole; cohesion = the <em>signals</em> that tie the parts together.</li>
+    <li>Inference is backward (evidence &rarr; conclusion); extrapolation is forward (text &rarr; beyond the text).</li>
+    <li>Four rhetorical types: descriptive, narrative, informative/expository, persuasive/argumentative.</li>
+    <li>Global comprehension asks "what is this text doing?"; local comprehension asks "what does this word or sentence mean?"</li>
+    <li>Critical reading has three stages &mdash; <strong>before, during, after</strong> &mdash; and four lenses: <strong>concepts, soundness of argument, assumptions, tradition</strong>.</li>
+    <li>A miscue is a strategy made visible. Collect, identify, judge, intervene. Syllable chopping and phoneme substitution are productive, not failures.</li>
+  </ul>
+  <h5>Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>Define coherence and cohesion, giving one difference between them. What is a miscue?</p></div>
+    <div class="q s"><span class="qt">SA</span><p>Explain the four lenses of critical theory and the question behind each. Distinguish inference from extrapolation.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Take a short passage from a primary textbook. Analyse it for (a) its rhetorical type and features, (b) global and local comprehension, (c) its cohesive devices, and (d) the assumptions it rests on. (15)</p></div>
+  </div>
+</div>
+<!-- ============ UNIT 4 ============ -->
+<section class="unit-body">
+  <h2 id="unit-4"><span class="h2num">Unit 4 &middot; 10 Marks</span>Vocabulary in Context</h2>
+  <p><strong>Vocabulary</strong> is the whole stock of words a person commands, together with the knowledge of how those words fit together. A vocabulary is not a list but a network: knowing a word means knowing what it means, how it sounds, what part of speech it is, what it collocates with, and what it suggests as well as what it states. A primary teacher's vocabulary is the most valuable resource she can put into a classroom, because the words she uses are the words her pupils will meet.</p>
+
+  <h3 id="s4-1">4.1 Understanding Vocabulary and Its Extension</h3>
+  <p>Two facts about vocabulary should be held together. The first is that vocabulary is <strong>the largest single component of language ability</strong>: in any continuous piece of English, roughly three to five words in every hundred carry the bulk of the meaning, and the rest are grammatical filler a reader can guess. The second is that vocabulary does not grow by being taught item by item. It grows by <strong>exposure</strong>, by <strong>rooting</strong> in a context, and by <strong>being used</strong>.</p>
+
+  <p><em>Conscientious</em> is not learned from a list; it is learned when a child meets it in a description of a character, sees its parts (<em>con-</em> with, <em>scire</em> know, <em>-ous</em> full of), and meets it again two days later in a different sentence. Three encounters with a word in real contexts beat thirty encounters in a word list, because the list supplies the word without the <em>net</em> around it.</p>
+
+  <div class="tw tkeep">
+    <table>
+    <caption>Table 4.1 &mdash; Four ways a teacher's vocabulary extends</caption>
+    <thead><tr><th>Mode</th><th>What it means</th><th>Classroom move</th></tr></thead>
+    <tbody>
+      <tr><td>Extension through <em>rooting</em></td><td>Learning roots and affixes so that one root yields many words</td><td>Make a family tree from one root: <em>port</em> &rarr; import, export, transport, portable, porter</td></tr>
+      <tr><td>Extension through <em>collocation</em></td><td>Learning which words habitually keep company</td><td>Teach "make" not alone but with <em>a decision, an effort, a mistake, friends</em></td></tr>
+      <tr><td>Extension through <em>topic</em></td><td>Learning the words of a subject or a situation in one block</td><td>A "clothes" or "farming" or "my body" word bank with pictures</td></tr>
+      
+    </tbody>
+  </table>
+  </div>
+
+  <p>Two further terms belong here. <strong>Lexis</strong> is vocabulary considered as a system rather than as a list; <strong>lexical competence</strong> is the ability to use that system appropriately. A teacher who knows a word but cannot use it in a sentence has a fact, not a lexeme. And <strong>receptive</strong> vocabulary (words you recognise when you meet them) is much larger than <strong>productive</strong> vocabulary (words you can use yourself). A child who recognises <em>obstinate</em> but has never used it has a receptive word; a child who uses <em>stubborn</em> correctly has a productive one. The two grow at different rates, and it is normal for a learner to be years behind on the productive side.</p>
+
+  <h3 id="s4-2">4.2 Classification of Words: Closed and Open Word Classes</h3>
+  <p>English words divide into two large classes on a single principle: <strong>how readily new members can be added</strong>. The <strong>closed</strong> (or <strong>function</strong>) classes are closed because the number of items in them is small, fixed, and cannot be increased by borrowing or coinage. The <strong>open</strong> (or <strong>lexical</strong> or <strong>content</strong>) classes are open because they are indefinitely large and new members are added every day &mdash; by borrowing, by compounding, by derivation, and by invention.</p>
+
+  <div class="card def"><span class="lbl">Definition</span><p><strong>Closed word class:</strong> a set of grammatical items that is finite and relatively fixed. <strong>Open word class:</strong> a set of lexical items with no known limit. <strong>Function word:</strong> a grammatical word expressing a relationship between other words rather than content of its own. <strong>Content word:</strong> a lexical word carrying lexical meaning, able to stand alone as the head of a phrase.</p></div>
+
+  <div class="tw">
+    <table>
+    <caption>Table 4.2 &mdash; The word classes of English compared</caption>
+    <thead><tr><th>Basis</th><th>Closed (function) classes</th><th>Open (lexical/content) classes</th></tr></thead>
+    <tbody>
+      <tr><td>Members</td><td>About 100&ndash;150 items in total across all the classes</td><td>No known limit; hundreds of thousands and growing daily</td></tr>
+      <tr><td>Can new words be added?</td><td>Essentially no &mdash; this is what "closed" means</td><td>Yes, continuously, by derivation, compounding, borrowing and coinage</td></tr>
+      <tr><td>Function</td><td>Express grammatical relationships: time, number, negation, cause, contrast</td><td>Express lexical meaning: the content of the message</td></tr>
+      <tr><td>Classes</td><td>Pronouns, articles, determiners, prepositions, conjunctions, auxiliaries, modals, particles</td><td>Nouns, verbs, adjectives, adverbs</td></tr>
+      <tr><td>Frequency and stress</td><td>Extremely high &mdash; 50&ndash;60 per cent of all tokens, and normally unstressed</td><td>Fewer, but each carries more information and normally carries the stress</td></tr>
+      <tr><td>Learning burden</td><td>Learned by absorption; not sensibly memorised item by item</td><td>The main work of vocabulary teaching; extended by roots and context</td></tr>
+          </tbody>
+  </table>
+  </div>
+
+  <p>Because the closed classes number only about 100 to 150 items, they cannot sensibly be taught exhaustively as a list. They are picked up <em>by absorption</em>, in the course of using sentences, and they are best taught as <em>meaning within a structure</em> &mdash; "over there", "have put", "did come" &mdash; rather than as isolated words. This is why a child who has never been taught the word "however" can nevertheless use it correctly, and why a child given a long list of conjunctions may still not connect two ideas with one.</p>
+
+  <div class="tw">
+    <table>
+    <caption>Table 4.3 &mdash; The closed classes in detail, with their functions</caption>
+    <thead><tr><th>Class</th><th>Members</th><th>Function in the sentence</th></tr></thead>
+    <tbody>
+      <tr><td>Personal pronouns</td><td>I, you, he, she, it, we, they</td><td>Refer to participants; the <em>it</em> and <em>they</em> forms are also used for objects and things</td></tr>
+      <tr><td>Articles</td><td>a, an, the</td><td><em>a/an</em> = one of many, not yet identified; <em>the</em> = already identified, known to both parties</td></tr>
+      <tr><td>Determiners</td><td>this, that, these, those, my, your, his, her, its, our, their, some, any, each, every, all, no, much, many, few, several</td><td>Fix the reference or the quantity of a noun; <em>some/any</em> carry a distinction of expectation</td></tr>
+      <tr><td>Prepositions</td><td>in, on, at, to, for, with, from, by, about, under, over, between, among, during, without, across, through</td><td>Relate a noun to place, time, direction, manner or cause</td></tr>
+      <tr><td>Conjunctions</td><td>and, but, or, nor, so, yet, because, although, while, if, unless, since, whereas, whether</td><td>Join clauses; <em>coordinating</em> join equal units, <em>subordinating</em> make one dependent</td></tr>
+      <tr><td>Auxiliaries</td><td>be, have, do (in their auxiliary uses)</td><td>Carry tense, aspect, voice, mood and question formation</td></tr>
+      <tr><td>Modals</td><td>can, could, may, might, shall, should, will, would, must, ought, need, dare</td><td>Express ability, permission, obligation, probability, conjecture</td></tr>
+      <tr><td>Negative particles</td><td>not, n't, never, no, none, nor</td><td>Make the whole clause negative</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3 id="s4-3">4.3 Categories of Vocabulary: Lexical, Phrasal and Clausal</h3>
+  <p>Not all vocabulary consists of single words. A large part of everyday English is made of units of two, three, five or eight words, and these units are stored in the mind whole &mdash; as chunks &mdash; because their meanings are not predictable from the parts. <em>Spill the beans</em> has nothing to do with beans. Understanding such units is not a bonus; it is a large part of understanding ordinary English at all.</p>
+
+  <div class="card def"><span class="lbl">Definition</span><p><strong>Lexical vocabulary</strong> consists of single content words &mdash; nouns, verbs, adjectives, adverbs &mdash; and of <em>compounds</em> made of two content words written together (<em>bookshelf</em>, <em>rainfall</em>). <strong>Phrasal vocabulary</strong> consists of fixed multi-word expressions whose idiomatic meaning is <em>not</em> predictable from the parts, and which have no subject&ndash;predicate structure of their own (<em>once in a blue moon</em>, <em>break the ice</em>). <strong>Clausal vocabulary</strong> consists of multi-word units that do form a clause with a subject and a predicate, and whose meaning is idiomatic (<em>take care</em>, <em>give up</em>, <em>look after</em>).</p></div>
+
+  <p>The distinction between <strong>phrasal</strong> and <strong>clausal</strong> vocabulary is often blurred. A phrasal expression such as <em>a bull in a china shop</em> is a fixed phrase: you cannot insert other words into it, and you cannot say <em>the bull was in a china shop</em> and get the same meaning. A clausal verb such as <em>look after</em> takes a subject and an object like any other verb, and its meaning is established by use rather than by composition. Both are learned whole, but a learner who knows <em>look after</em> knows a verb; a learner who knows <em>under the weather</em> knows a phrase.</p>
+
+  <div class="tw tkeep">
+    <table>
+    <caption>Table 4.4 &mdash; Lexical, phrasal and clausal vocabulary compared</caption>
+    <thead><tr><th>Basis</th><th>Lexical</th><th>Phrasal</th><th>Clausal</th></tr></thead>
+    <tbody>
+      <tr><td>Unit</td><td>One word, or a compound written together</td><td>A fixed multi-word phrase</td><td>A verb plus a particle, sometimes with an adverbial</td></tr>
+      <tr><td>Structure</td><td>Noun, verb, adjective, adverb</td><td>No internal structure; cannot be varied</td><td>Has a subject and a predicate</td></tr>
+      <tr><td>Predictability of meaning</td><td>High for compounds: <em>rainfall</em> = rain that falls</td><td>None: the meaning is conventional</td><td>None: the meaning is conventional</td></tr>
+      <tr><td>Position in the sentence</td><td>Wherever its part of speech allows</td><td>Fixed idiomatic slots</td><td>Anywhere a verb can stand, with the idiomatic particle</td></tr>
+      <tr><td>Examples</td><td>kindergarten, classroom, quickly</td><td>piece of cake, under the weather, spill the beans</td><td>take after, put off, give up, look forward to</td></tr>
+      <tr><td>How it is taught</td><td>By roots, compounds and context</td><td>By situation, picture and story, with the meaning made explicit</td><td>By example sentences and contrast within the family</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="tw tkeep">
+    <table class="compact">
+    <caption>Table 4.5 &mdash; Phrasal verbs with meaning and a model sentence</caption>
+    <thead><tr><th>Phrasal verb</th><th>Meaning</th><th>Model sentence</th></tr></thead>
+    <tbody>
+      <tr><td>look after</td><td>to take care of</td><td>She looks after her younger brother every evening.</td></tr>
+      <tr><td>look into</td><td>to investigate</td><td>The teacher looked into the problem of absent children.</td></tr>
+      <tr><td>look up</td><td>to search for information in a dictionary</td><td>Look up the word <em>conscientious</em> in the dictionary.</td></tr>
+      <tr><td>look forward to</td><td>to await with pleasure</td><td>I look forward to meeting your brother.</td></tr>
+      <tr><td>put off</td><td>to postpone</td><td>They put off the meeting until next week.</td></tr>
+      <tr><td>put up with</td><td>to tolerate</td><td>I cannot put up with this noise any longer.</td></tr>
+      <tr><td>take after</td><td>to resemble a parent</td><td>He takes after his father in every way.</td></tr>
+      <tr><td>turn down</td><td>to reduce the volume; also, to refuse</td><td>Please turn down the radio a little.</td></tr>
+      <tr><td>give up</td><td>to stop trying</td><td>Do not give up if you fail the first time.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p><strong>Particle shift</strong> is the reason one verb-particle combination must be learned as a family rather than item by item. <em>Turn down the radio</em> (reduce the volume), but <em>turn the radio down</em>; <em>put the book on the shelf</em>, but <em>put on the shelf</em>. With a noun object the particle may move; with a pronoun it must: "turn <strong>it</strong> down" but "turn down <strong>the radio</strong>". This is why a phrasal verb list without example sentences is not usable in a classroom.</p>
+
+  <h3 id="s4-4">4.4 Word Formation: Prefix, Suffix, Compounding and Modifiers</h3>
+  <p>English makes new words in four regular ways, and because the ways are regular a child who knows one root and one ending can produce a word he has never met &mdash; which is what makes a dictionary unnecessary for a large part of reading.</p>
+
+  <div class="tw">
+    <table>
+    <caption>Table 4.6 &mdash; Prefixes, their meanings, and the kind of change they make</caption>
+    <thead><tr><th>Prefix</th><th>Meaning</th><th>Examples</th><th>Effect on meaning</th></tr></thead>
+    <tbody>
+      <tr><td>un-</td><td>not, opposite of</td><td>unhappy, untie, unlock, unfair</td><td>Reverses; the most productive prefix in English</td></tr>
+      <tr><td>dis-</td><td>not, reverse of</td><td>disagree, disappear, dislike, disarm</td><td>Reverses or negates a verb or adjective</td></tr>
+      <tr><td>re-</td><td>again, back</td><td>rewrite, rebuild, return, repay</td><td>Marks repetition, often with a result</td></tr>
+      <tr><td>pre-</td><td>before</td><td>preview, prepaid, pre-war, predict</td><td>Places an action before another</td></tr>
+      <tr><td>mis-</td><td>wrongly</td><td>misread, misspell, misunderstand, mislead</td><td>Marks an action done wrongly &mdash; a very useful set for a reading teacher</td></tr>
+      <tr><td>anti-</td><td>against</td><td>antibiotic, antisocial, anti-inflammatory</td><td>Opposition to something</td></tr>
+      <tr><td>trans-</td><td>across, beyond</td><td>transport, translate, transparent, transmit</td><td>Movement across or through</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>A <strong>suffix</strong> is added at the end of a word and usually determines its <strong>part of speech</strong> &mdash; what kind of word it now is. Learning suffixes is therefore a shortcut to grammar as well as to vocabulary. A <strong>prefix</strong> is added to the beginning of a word and usually modifies its meaning; it never changes its part of speech.</p>
+
+  <div class="tw tkeep">
+    <table>
+    <caption>Table 4.7 &mdash; Suffixes by the part of speech they create</caption>
+    <thead><tr><th>Part of speech produced</th><th>Suffixes</th><th>Examples</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Noun</strong></td><td>-ness, -ment, -tion, -ity, -ship, -hood, -ism, -age, -ance/-ence</td><td>kindness, agreement, action, honesty, friendship, childhood, Hinduism, mileage, appearance</td></tr>
+      <tr><td><strong>Adjective</strong></td><td>-ful, -less, -able/-ible, -ive, -ous, -al, -ic, -y, -ish</td><td>careful, careless, comfortable, active, dangerous, musical, historic, rainy, childish</td></tr>
+      <tr><td><strong>Verb</strong></td><td>-ise/-ize, -ify, -en, -ate</td><td>realise, notify, strengthen, operate</td></tr>
+      <tr><td><strong>Adverb</strong></td><td>-ly, -wards, -wise</td><td>quickly, downwards, clockwise</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="card ex"><span class="lbl">Example &mdash; worked derivations</span><p>
+  <strong>unhappiness</strong> = un- (prefix: not) + happy (root) + -ness (noun suffix) &rarr; "the state of not being happy". &middot; <strong>unhappily</strong> = un- + happy + -ly &rarr; "in an unhappy manner"; three operations packed into one short word. &middot; <strong>re-usable</strong> = re- (again) + use (root) + -able &rarr; "able to be used again"; a child who knows this pattern can guess <em>re-readable</em> and <em>re-washable</em> without ever being taught them. &middot; <strong>child-centred</strong> = child (root) + -centred (adjective) &rarr; "organised around the child's needs and interests".</p></div>
+
+  <p><strong>Compounding</strong> joins two or more base words to make a new single word whose meaning is usually predictable, though often narrower than the parts suggest. It occurs in three shapes: <em>closed</em> (<em>bookshelf, rainfall, toothpaste</em>), <em>hyphenated</em> (<em>mother-in-law, twenty-five</em>) and <em>open</em> (<em>railway engine, tea garden</em>). Some compounds have become so fixed that the parts are no longer analysed at all &mdash; <em>inability, eggplant, cupboard</em>. Compounding is the most immediately useful of the four processes for a primary teacher, because the child who can split a word into two parts can attempt an unfamiliar word instead of giving up on it.</p>
+
+  <p>A <strong>modifier</strong> is a word that adds information to another word without changing its part of speech. The normal position in English is <strong>before</strong> the noun, and a modifier placed there is a <strong>premodifier</strong>: <em>a little girl, the blue pen, three ripe mangoes</em>. A modifier placed <strong>after</strong> the noun is a <strong>postmodifier</strong>: <em>the girl little with red dress, the mangoes ripe and sweet, a river flowing past the village</em>. Postmodifiers are rare in ordinary speech and occur mainly in literary and older English and in formal writing.</p>
+
+  <p>Their practical use is <em>emphasis and afterthought</em>: a premodifier front-loads the information, whereas a postmodifier adds it at the moment of telling. Taking a simple sentence and moving the adjective from the front to the back, then asking what changes in the emphasis, teaches more about word order in twenty minutes than a rule can.</p>
+
+  <div class="tw tkeep">
+    <table>
+    <caption>Table 4.8 &mdash; Premodifiers and postmodifiers compared</caption>
+    <thead><tr><th>Basis</th><th>Premodifier</th><th>Postmodifier</th></tr></thead>
+    <tbody>
+      <tr><td>Position</td><td>Before the noun</td><td>After the noun</td></tr>
+      <tr><td>Frequency</td><td>Very common &mdash; the normal English pattern</td><td>Rare &mdash; literary, formal, or deliberately emphatic</td></tr>
+      <tr><td>Effect</td><td>Front-loads the information; gives the noun a narrower reference</td><td>Adds information as an afterthought; puts a slight emphasis on it</td></tr>
+      <tr><td>Example</td><td><em>the little old lady <strong>with</strong> the stick</em></td><td><em>the old lady <strong>little</strong> with the stick</em></td></tr>
+      <tr><td>Part of speech</td><td>Adjective, determiner, numeral, noun used attributively</td><td>Adjective, prepositional phrase, relative clause, participle</td></tr>
+          </tbody>
+  </table>
+  </div>
+
+  <h3 id="s4-5">4.5 Word Types: Synonyms, Antonyms, Homophones, Homographs, Homonyms, Phrasal Verbs and Idioms</h3>
+  <p>These relations between words are named for the sake of precision, and a teacher who cannot name them cannot teach the differences to children. Two of them in particular &mdash; <strong>homograph</strong> and <strong>homonym</strong> &mdash; are constantly confused.</p>
+
+  <div class="tw">
+    <table>
+    <caption>Table 4.9 &mdash; Word types compared: the relations of similarity and difference</caption>
+    <thead><tr><th>Relation</th><th>What is the same</th><th>What differs</th><th>Examples</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Synonym</strong></td><td>Meaning (approximately)</td><td>Word form and usually connotation</td><td>big / large; happy / glad; begin / start; child / kid</td></tr>
+      <tr><td><strong>Antonym</strong></td><td>Word form and part of speech</td><td>Meaning &mdash; usually oppositional</td><td>hot / cold; tall / short; full / empty; honest / dishonest</td></tr>
+      <tr><td><strong>Homophone</strong></td><td>Pronunciation</td><td>Meaning <em>and</em> spelling</td><td>bear / bare; pair / pear; two / too; write / right; sale / sail</td></tr>
+      <tr><td><strong>Homograph</strong></td><td>Spelling</td><td>Pronunciation, and usually meaning</td><td>tear /t&#618;&#601;/ ~ /t&#233;&#601;/; lead /li&#720;d/ ~ /l&#650;d/; bow /ba&#650;/ ~ /b&#601;&#650;/; desert; record; minute; sake</td></tr>
+      <tr><td><strong>Homonym</strong></td><td>Both the form (spelling and sound) and the general area of meaning</td><td>The specific sense</td><td>bark (of a tree) / bark (of a dog); school (institution) / school (of fish); match (stick) / match (contest); bat</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="card mist"><span class="lbl">Common Mistake</span><p><strong>Homograph vs homonym.</strong> Many textbooks use the two words interchangeably, and in an answer script that is a weakness. A <strong>homograph</strong> is a relation of <em>form</em> &mdash; the same spelling, usually a different pronunciation, usually a different meaning (<em>tear, lead, bow, desert, record, minute</em>). A <strong>homonym</strong> is a relation of <em>meaning</em> &mdash; the same spelling, the <em>same pronunciation</em>, and a shared general sense area, with different specific senses (<em>bark, school, match, bat</em>). A test that works: if you can predict the pronunciation from the meaning, it is a homonym; if the meaning is needed in order to know the pronunciation, it is a homograph.</p></div>
+
+  <div class="tw tkeep">
+    <table>
+    <caption>Table 4.10 &mdash; Synonyms and antonyms, and the limits of both</caption>
+    <thead><tr><th>Type</th><th>Example</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td>Exact synonyms</td><td>big / large</td><td>Rarely exact; always slightly different in register or connotation</td></tr>
+      <tr><td>Near synonyms</td><td>thin / skinny; begin / commence; refuse / decline</td><td>The useful kind &mdash; choosing between them <em>is</em> the skill of writing</td></tr>
+      <tr><td>Graded antonyms</td><td>good / bad</td><td>On a scale, not opposite in every respect</td></tr>
+      <tr><td>Complementary antonyms</td><td>single / married; alive / dead</td><td>Strictly opposite; no middle ground</td></tr>
+      <tr><td>Conversive antonyms</td><td>buy / sell; lend / borrow</td><td>Reverse the relation, not the property</td></tr>
+      <tr><td>Relational antonyms</td><td>teacher / pupil; employer / employee</td><td>Two sides of one relation</td></tr>
+      
+    </tbody>
+  </table>
+  </div>
+
+  <h4>Idioms</h4>
+  <p>An <strong>idiom</strong> is a fixed expression whose meaning is conventional and not predictable from the meanings of its parts. Idioms are among the most confusing features of English for a second-language learner, since the learner knows every word in the idiom and still cannot guess the meaning.</p>
+
+  <div class="tw tkeep">
+    <table class="compact">
+    <caption>Table 4.11 &mdash; Common idioms, grouped by the image they use</caption>
+    <thead><tr><th>Image</th><th>Idioms</th><th>Meaning</th></tr></thead>
+    <tbody>
+      <tr><td>Food and eating</td><td>piece of cake; a pain in the neck; bite the bullet; food for thought</td><td>very easy; an annoying person; endure something unpleasant; something worth thinking about</td></tr>
+      <tr><td>Animals</td><td>a bull in a china shop; the lion's share; let the cat out of the bag</td><td>needless carelessness; the largest part; reveal a secret</td></tr>
+      <tr><td>Weather and body</td><td>under the weather; a bolt from the blue; raining cats and dogs</td><td>unwell; a sudden shock; raining very heavily</td></tr>
+      <tr><td>Building and objects</td><td>break the ice; build a castle in the air; burn the midnight oil</td><td>relieve awkwardness; an impractical plan; work late into the night</td></tr>
+      <tr><td>Time and money</td><td>once in a blue moon; cost an arm and a leg; in the nick of time</td><td>very rarely; very expensive; at the last possible moment</td></tr>
+      <tr><td>Action and speech</td><td>spill the beans; get cold feet; keep one's fingers crossed</td><td>reveal a secret; become nervous; hope for a good outcome</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Idioms are best taught through <em>situation</em>, not through meaning. Draw a picture of a person who is clearly ill and ask a Class IV child what the class is doing: "He is under the weather." The idiom arrives attached to the situation, which is where a child will look for it. A second-hand explanation &mdash; "an expression meaning ill" &mdash; leaves the child with two disconnected items.</p>
+
+  <h3 id="s4-6">Activities for Unit 4</h3>
+  <ol class="num">
+    <li><strong>Analyse the distribution of linguistic elements.</strong> Take a passage of 200 words and count what is in it: how many function words, how many content words, and how many nouns, verbs, adjectives, adverbs. A class is usually astonished to find that roughly half the tokens are function words &mdash; which is precisely why function words cannot be taught exhaustively and content words must be taught deliberately.</li>
+    <li><strong>Make generalisations on syntactic and morphological properties.</strong> From your analysis, write down what you have found as a rule: "adjectives in this passage come before nouns"; "the -ly adverbs are all manner adverbs"; "the -ness nouns are all abstract".</li>
+    <li><strong>Check the generalisations against a new passage.</strong> Open a text you have not analysed and test each rule. Some will hold, some will not. A generalisation that survives several texts is a rule; one that fails on the second was a coincidence. This movement &mdash; observe, generalise, verify &mdash; is what the syllabus means by "generalisation".</li>
+  </ol>
+</section>
+
+<div class="review">
+  <h4>Unit 4 Quick Review &mdash; Vocabulary in Context</h4>
+  <h5>Key Terms</h5>
+  <p><span class="term">lexis</span> &middot; <span class="term">receptive / productive vocabulary</span> &middot; <span class="term">closed word class</span> &middot; <span class="term">open word class</span> &middot; <span class="term">function / content word</span> &middot; <span class="term">lexical / phrasal / clausal vocabulary</span> &middot; <span class="term">phrasal verb</span> &middot; <span class="term">idiom</span> &middot; <span class="term">prefix</span> &middot; <span class="term">suffix</span> &middot; <span class="term">compounding</span> &middot; <span class="term">pre- / postmodifier</span> &middot; <span class="term">synonym</span> &middot; <span class="term">antonym</span> &middot; <span class="term">homophone</span> &middot; <span class="term">homograph</span> &middot; <span class="term">homonym</span> &middot; <span class="term">collocation</span></p>
+  <h5>Remember</h5>
+  <ul class="bul">
+    <li>Closed classes: <strong>pronouns, articles, determiners, prepositions, conjunctions, auxiliaries, modals</strong> &mdash; about 100&ndash;150 items; learned by absorption. Open classes: <strong>nouns, verbs, adjectives, adverbs</strong> &mdash; content words, indefinitely large.</li>
+    <li>Prefixes never change the part of speech; <strong>suffixes usually do</strong>.</li>
+    <li>Phrasal vocabulary = fixed phrase, no clause. Clausal vocabulary = verb + particle, has a subject and predicate.</li>
+    <li><strong>Homophone</strong> = same sound (bear/bare). <strong>Homograph</strong> = same spelling, different sound (tear, lead, bow, desert, record, minute). <strong>Homonym</strong> = same form, related meaning (bark, school, match, bat).</li>
+    <li>Postmodifiers are rare; they add information as an afterthought and give emphasis.</li>
+  </ul>
+  <h5>Questions</h5>
+  <div class="qa">
+    <div class="q v"><span class="qt">VSA</span><p>Distinguish between a homophone, a homograph and a homonym, giving two examples of each. What is a premodifier and a postmodifier?</p></div>
+    <div class="q s"><span class="qt">SA</span><p>How do prefixes and suffixes differ in their effect on a word? Illustrate with five words each.</p></div>
+    <div class="q l"><span class="qt">LA</span><p>Taking the root <em>port</em>, write out as many English words as you can formed with prefixes and suffixes from it, classify each by part of speech, and write a sentence using three of them. (10)</p></div>
+  </div>
+</div>
+<hr class="hr">
+
+<!-- ============ PRACTICUM ============ -->
+<section class="unit-body">
+  <h2 id="practicum"><span class="h2num">Practicum</span>Portfolio, Workshop, Working with Words and Reflective Journal</h2>
+  <p>The practicum carries <strong>10 of the 15 internal marks</strong> and is assessed on the evidence produced, not on the intention. All four requirements below begin in Semester I and run through the course.</p>
+
+  <div class="tw">
+    <table>
+    <caption>Table 4.12 &mdash; The practicum requirements and what each produces</caption>
+    <thead><tr><th>Requirement</th><th>What it is</th><th>What must be in it</th><th>When</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Profile and portfolio</strong></td><td>A record of the individual work done in the paper, and of the progress made</td><td>Every activity, artefact, worksheet, recording, photograph of a display, feedback received and reflection written</td><td>Started now; maintained through all <strong>four semesters</strong></td></tr>
+      <tr><td><strong>Workshop</strong></td><td>Designing and preparing materials and tools to develop listening, speaking and reading skills</td><td>The materials themselves, the design rationale, the lesson or session in which they were tried, and the outcome</td><td>At least one full workshop, per the unit plan</td></tr>
+      <tr><td><strong>Working with words</strong></td><td>Vocabulary work drawn from Unit 4</td><td>Word families, phrasal-verb charts, idiom picture cards, classification and analysis tables</td><td>Ongoing</td></tr>
+      <tr><td><strong>Collecting and analysing reading materials</strong></td><td>Collecting different types of text and analysing them for theme, grammar and inherent information</td><td>The collection itself, classified; the analysis of each item; a synthesis across the collection</td><td>Ongoing</td></tr>
+      <tr><td><strong>Reflective journal</strong></td><td>A day-to-day record of activities in the institute, with reflection on them</td><td>Entries dated, brief, honest; what was done, what was felt, what was learnt, what will change</td><td>Maintained throughout the <strong>entire course</strong></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>The <strong>portfolio</strong> is the spine of the assessment, and the discipline it imposes is the point. A trainee who keeps no record cannot show what was done; a trainee who keeps a poor record cannot be assessed fairly. The minimum for a unit is: the activity as planned, the material produced, the evidence of the activity happening, and a paragraph of reflection connecting it to what she learned about her own English. A photograph of a chart on a classroom wall is evidence; a sentence saying she made a chart is not.</p>
+
+  <div class="card refl"><span class="lbl">Reflection &mdash; prompts for the journal</span><p>What did I find difficult in this activity, and was the difficulty in the language, in the confidence, or in the task itself? What did I say in the discussion that I would not have been able to say in the first week? Which word did I have to look up today that I did not need to look up last month?</p></div>
+</section>
+
+<!-- ============ INTERNAL ASSESSMENT ============ -->
+<section class="unit-body">
+  <h2 id="internal"><span class="h2num">Internal Assessment</span>Scheme of 15 Marks</h2>
+  <p>Fifteen of the fifty marks for this paper are internal, divided between the practicum and the unit tests in a ratio of two to one. The balance is deliberate in a subject that asks a candidate to read critically and to produce spoken English, because neither of those can be examined on paper alone.</p>
+  <div class="tw tkeep">
+    <table>
+    <caption>Table 4.13 &mdash; Internal assessment structure</caption>
+    <thead><tr><th>Component</th><th>Marks</th><th>Evidence required</th></tr></thead>
+    <tbody>
+      <tr><td>Practicum</td><td>10</td><td>Portfolio, workshop materials and report, reflective journal</td></tr>
+      <tr><td>Unit tests</td><td>5</td><td>One test per unit, or an equivalent consolidated test, on the unit content</td></tr>
+      <tr><td><strong>Total</strong></td><td><strong>15</strong></td><td>Internal component of the 50 marks for the paper</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<!-- ============ QUICK SUBJECT REVISION ============ -->
+<section class="unit-body">
+<h2 id="revision"><span class="h2num">Revision</span>Quick Subject Revision</h2>
+<div class="review">
+  <h4>S1.5 Proficiency in English &ndash; I &mdash; Memory Sheet</h4>
+
+  <h5>Essential Definitions</h5>
+  <ul class="bul">
+    <li><strong>Phoneme</strong> &mdash; the smallest unit of sound that can change the meaning of a word. <strong>Phone</strong> &mdash; the actual sound produced. <strong>Minimal pair</strong> &mdash; two words differing in exactly one phoneme. <strong>Allophone</strong> &mdash; a predictable variant of a phoneme.</li>
+    <li><strong>Segmental feature</strong> &mdash; a feature of a single phoneme: manner, place, voicing, aspiration, length. <strong>Suprasegmental feature</strong> &mdash; a feature operating over a stretch longer than one phoneme: stress, rhythm, intonation, juncture, linking.</li>
+    <li><strong>Reading strategy</strong> &mdash; a planned way of approaching a text, chosen to fit the reader's purpose. <strong>Scaffold</strong> &mdash; a temporary support supplied to make a task possible, and then withdrawn.</li>
+    <li><strong>Coherence</strong> &mdash; the meaningfulness and logical progression of a text as a whole. <strong>Cohesion</strong> &mdash; the devices that signal relations between its parts.</li>
+    <li><strong>Inference</strong> &mdash; a conclusion drawn from evidence present but unstated. <strong>Extrapolation</strong> &mdash; the reader's supply of what lies beyond the text.</li>
+    <li><strong>Claim / evidence / warrant</strong> &mdash; what is asserted, what supports it, and the assumption that makes the support relevant.</li>
+    <li><strong>Miscue</strong> &mdash; a reading error that reveals the strategy the reader is using. Miscue analysis: collect, identify, judge, intervene.</li>
+    <li><strong>Closed word class</strong> &mdash; a finite, fixed set of grammatical items. <strong>Open word class</strong> &mdash; an indefinitely large set of lexical items. <strong>Function word / content word</strong> &mdash; expresses a relation between words / carries lexical meaning.</li>
+    <li><strong>Phrasal vocabulary</strong> &mdash; a fixed multi-word expression, no clause structure. <strong>Clausal vocabulary</strong> &mdash; a multi-word unit forming a clause with subject and predicate.</li>
+    <li><strong>Lexeme, lexis, lexical competence</strong> &mdash; a word as a dictionary item; vocabulary as a system; the ability to use that system appropriately.</li>
+  </ul>
+
+  <h5>Numbers, Names and Dates</h5>
+  <ul class="check">
+    <li><strong>44 phonemes</strong> &mdash; 24 consonants (17 obstruents + 3 nasals + 4 approximants) and 20 vowels (12 monophthongs + 8 diphthongs). /&#658;/ is marginal.</li>
+    <li>English is <strong>stress-timed</strong>; Assamese and Hindi are <strong>syllable-timed</strong>. Four intonation patterns: fall, rise, fall&ndash;rise, rise&ndash;fall. Three levels of listening: global, selective, detailed.</li>
+    <li>Committee of Public Instruction's report <strong>1832</strong>; <strong>Macaulay's Minute 1835</strong>; <strong>Wood's Despatch 1854</strong> &mdash; "Magna Carta of English education in India".</li>
+    <li>Constitution <strong>1950</strong> (Part XVII; Eighth Schedule, 22 languages); Official Languages Act <strong>1963</strong>; NPE <strong>1968</strong> (three-language formula); NPE <strong>1985</strong>; NCF <strong>2005</strong>; NEP <strong>2020</strong>; NCF-FS <strong>2022</strong> (goals W, L1, L2).</li>
+    <li>Ethos, pathos, logos &mdash; credibility, feeling, logic. Closed classes number roughly 100&ndash;150 items and are learned by absorption.</li>
+  </ul>
+
+  <h5>Frameworks to Name</h5>
+  <ul class="bul">
+    <li>Receptive skills (listening, reading) vs productive skills (speaking, writing); receptive vs productive vocabulary; additive vs subtractive multilingualism.</li>
+    <li>The three-language formula; L1 / L2 / foreign language.</li>
+    <li>Four rhetorical types of text: descriptive, narrative, informative/expository, persuasive/argumentative.</li>
+    <li>Four critical lenses &mdash; concepts, soundness of argument, assumptions, tradition; three stages of critical reading &mdash; before, during, after.</li>
+    <li>Word formation: prefix (never changes part of speech), suffix (usually does), compounding, premodifier and postmodifier.</li>
+    <li>Four word relations: synonym, antonym, homophone (same sound), homograph (same spelling, different sound), homonym (same form, related meaning).</li>
+  </ul>
+
+  <h5>Practical Requirements</h5>
+  <ul class="bul">
+    <li>Portfolio and profile, workshop, working with words, collection and analysis of reading materials, reflective journal &mdash; carried through all four semesters.</li>
+    <li>Internal assessment: practicum <strong>10</strong>, unit tests <strong>5</strong> (total internal 15 of 50).</li>
+  </ul>
+</div>
+</section>
+
+<!-- ============ IMPORTANT DIFFERENCES ============ -->
+<section class="unit-body">
+  <h2 id="differences"><span class="h2num">Important Differences</span>The Distinctions Most Frequently Examined</h2>
+  <div class="tw">
+    <table class="compact">
+    <caption>Table D.1 &mdash; Confusable pairs and the test that separates them</caption>
+    <thead><tr><th>Pair</th><th>The distinction</th></tr></thead>
+    <tbody>
+      <tr><td>Phoneme / phone</td><td>The abstract contrastive unit / the actual sound a speaker produces</td></tr>
+      <tr><td>Segmental / suprasegmental</td><td>Carried by a single phoneme / carried by a stretch longer than one phoneme</td></tr>
+      <tr><td>Word stress / sentence stress</td><td>Prominence of a syllable within a word / which word carries the message focus</td></tr>
+      <tr><td>Stress / intonation</td><td>Prominence / the melody of pitch movement</td></tr>
+      <tr><td>Receptive / productive skill</td><td>Incoming, fixed and unpausable (listening, reading) / outgoing, producer-paced (speaking, writing)</td></tr>
+      <tr><td>Receptive / productive vocabulary</td><td>Words you recognise when you meet them / words you can use yourself</td></tr>
+      <tr><td>Idiom / compound</td><td>Meaning not predictable from the parts (<em>piece of cake</em>) / meaning predictable (<em>classroom</em>)</td></tr>
+      <tr><td>Critical reading / criticism</td><td>Careful and exacting about an argument / fault-finding</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<!-- ============ COURSE INFORMATION ============ -->
+<section class="unit-body">
+  <h2 id="course-info"><span class="h2num">Course Information</span>Objectives, Mode of Transaction and Assessment</h2>
+
+  <h3>About This Subject</h3>
+  <p>The paper is first about the student-teacher's own proficiency, and only then about how that proficiency becomes pedagogy. A teacher unsure of a word, of a sentence stress or of what a paragraph is arguing falls back on translation and rote chorus-reading; a teacher who reads fluently, listens carefully and argues clearly gives her class a model of the language in use. The units move back and forth between the two strands &mdash; proficiency in usage (sound system, stress, reading strategies, how words combine) and proficiency in classroom teaching (planning oral discourse, analysing texts of different types, doing vocabulary work that is not a list of disconnected definitions). Because this is a proficiency paper, exposure alone is not enough: the trainee must produce, be heard, be corrected and try again.</p>
+
+  <h3>Course Objectives</h3>
+  <ul class="bul">
+    <li>strengthen her own English proficiency, receptively and productively;</li>
+    <li>explain the status of English in India &mdash; historical, constitutional and curricular &mdash; with accuracy;</li>
+    <li>distinguish L1, L2 and foreign language as they operate in an Assamese classroom, and plan without treating the home language as a defect;</li>
+    <li>develop the four basic language skills and the strategies that support them;</li>
+    <li>describe the segmental and suprasegmental features of English and use IPA to transcribe classroom speech accurately;</li>
+    <li>construct oral discourses &mdash; a speech, an announcement, an interview, a discussion &mdash; appropriate to a purpose and audience;</li>
+    <li>read different types of texts with comprehension, identifying the features that make each type distinctive;</li>
+    <li>evaluate a text critically: its concepts, the soundness of its argument, the value of its assumptions and the tradition it rests on;</li>
+    <li>use miscue analysis as a window into a reader's strategies rather than as a hunt for mistakes;</li>
+    <li>maintain a portfolio and a reflective journal documenting her work across the four semesters.</li>
+  </ul>
+
+  <h3>Mode of Transaction</h3>
+  <p>The syllabus prescribes three strands, and all three are needed.</p>
+  <ul class="bul">
+    <li><strong>Participating in tasks and activities</strong> that improve proficiency in the receptive and productive skills &mdash; the student-teacher does, not just studies.</li>
+    <li><strong>Text analysis of school textbooks</strong> to build critical literacy: the same book a child reads is put on the table and examined for its grammar of argument, its assumptions and its gaps.</li>
+    <li><strong>Reflection on one's own learning</strong>, so that the trainee can connect what she struggles with as a reader and speaker to what her pupils will struggle with.</li>
+  </ul>
+  <p>In practice the units are worked through classroom discussion, pair and group work, role play and dramatisation, recorded listening tasks, workshop-based material construction, close reading, book and article review in a fixed format, and entries in a reflective journal.</p>
+
+  <h3>Assessment Structure</h3>
+  <div class="tw tkeep">
+    <table>
+    <caption>Table C.1 &mdash; How the paper is assessed</caption>
+    <thead><tr><th>Component</th><th>Marks</th><th>Assessment</th></tr></thead>
+    <tbody>
+      <tr><td>Theory (external)</td><td>35</td><td>Written examination at the end of the semester</td></tr>
+      <tr><td>Practicum (internal)</td><td>10</td><td>Portfolio, workshop materials and report, reflective journal</td></tr>
+      <tr><td>Unit tests (internal)</td><td>5</td><td>One test per unit, or an equivalent consolidated test</td></tr>
+      <tr><td><strong>Total</strong></td><td><strong>50</strong></td><td></td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<!-- ============ FACULTY / MENTOR NOTES ============ -->
+<section class="unit-body">
+  <h2 id="faculty"><span class="h2num">For Faculty and Mentors</span>Notes from the Syllabus</h2>
+  <ul class="bul">
+    <li><strong>Discuss the content of each unit using different methods, techniques and approaches, and with varied materials.</strong> No single method carries a proficiency paper: the sound system needs choral drill, dictation and analysis; critical reading needs silent study, argument and discussion; vocabulary needs sorting, matching and use.</li>
+    <li><strong>Carry out the activities listed after each unit, and document and record them properly.</strong> A report on the activity must be prepared and kept for reference and for internal assessment. An activity that is done and not recorded counts as not done.</li>
+    <li><strong>Carry out the practicum strictly.</strong> It is the assessed part of the paper and cannot be substituted by a written assignment.</li>
+    <li><strong>Develop the formats for reviewing books, articles and texts, and for workshop activities, beforehand, in workshop mode, with the student-teachers.</strong> Designing a review proforma is itself a piece of critical literacy, and a group that designs it will use it far better than one handed it.</li>
+    <li><strong>Class assignment:</strong> prepare an individual profile, maintain the profile, and keep a reflective journal.</li>
+  </ul>
+</section>
+
+<!-- ============ SUGGESTED READINGS ============ -->
+<section class="unit-body">
+  <h2 id="readings"><span class="h2num">Suggested Readings</span>Policies, SLMs and Reference</h2>
+  <ol class="num">
+    <li><strong>NCF 2005</strong> &mdash; National Curriculum Framework for School Education, NCERT, New Delhi. For Unit 1.</li>
+    <li><strong>NCFTE 2016</strong> &mdash; National Curriculum Framework for Teacher Education, NCERT, New Delhi. For the proficiency and reflective orientation expected of a teacher.</li>
+    <li><strong>NCTE / SCERT Guidelines for the D.El.Ed course</strong> &mdash; national and state-level guidance on the structure and transaction of this paper.</li>
+    <li><strong>Resource Materials for the D.El.Ed course</strong> &mdash; SCERT, Assam. State context, including the multilingual classroom in Assam.</li>
+    <li><strong>SLMs for the D.El.Ed course</strong> &mdash; self-learning materials published by IGNOU, KKHSOU, NIOS and similar institutions.</li>
+    <li><strong>OERs and TDUs of TESS-India</strong> &mdash; open educational resources at <em>www.tess-india.edu.in</em>; particularly useful for listening materials.</li>
+    <li><strong>Books on spoken and oral English</strong> &mdash; including those published by SEBA and other Indian publishers. Unit 2 depends heavily on these.</li>
+    <li><strong>Books on methods and techniques of teaching English</strong> &mdash; the bridge between proficiency and pedagogy in this paper.</li>
+    <li><strong>www.britishcouncil.org</strong> &mdash; freely available teaching and learnEnglish resources, including audio for listening practice.</li>
+    <li><strong>Policy documents online</strong> &mdash; NEP 2020, NCF-FS 2022 and NCF-SE 2023, for the policy content of Unit 1.</li>
+  </ol>
+  <p class="footnote">Note on sources: the phonemic description of English (44 phonemes, 24 consonants, 20 vowels) follows the standard Received Pronunciation analysis used in Indian teacher-education materials. Descriptions of Assamese phonology in Unit 2 are stated at the level of the major contrasts relevant to teaching English, not as a full phonemic analysis.</p>
+</section>
+</article>
+</body>
+</html>

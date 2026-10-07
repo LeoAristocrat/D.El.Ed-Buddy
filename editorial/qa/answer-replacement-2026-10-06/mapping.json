@@ -1,0 +1,3030 @@
+[
+  {
+    "sourceId": "S1.1_m12-001",
+    "targetId": "s1-1-2026-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-002",
+    "targetId": "s1-1-2026-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-003",
+    "targetId": "s1-1-2026-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-004",
+    "targetId": "s1-1-2026-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-005",
+    "targetId": "s1-1-2026-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-006",
+    "targetId": "s1-1-2021-1-i",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-007",
+    "targetId": "s1-1-2023-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-008",
+    "targetId": "s1-1-2025-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-009",
+    "targetId": "s1-1-2025-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-010",
+    "targetId": "s1-1-2025-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-011",
+    "targetId": "s1-1-2025-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-012",
+    "targetId": "s1-1-2025-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-013",
+    "targetId": "s1-1-2025-1-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-014",
+    "targetId": "s1-1-2025-1-g",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-015",
+    "targetId": "s1-1-2024-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-016",
+    "targetId": "s1-1-2024-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-017",
+    "targetId": "s1-1-2021-1-h",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-018",
+    "targetId": "s1-1-2024-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-019",
+    "targetId": "s1-1-2024-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-020",
+    "targetId": "s1-1-2021-1-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-021",
+    "targetId": "s1-1-2021-1-i",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-022",
+    "targetId": "s1-1-2023-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-023",
+    "targetId": "s1-1-2023-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-024",
+    "targetId": "s1-1-2023-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-025",
+    "targetId": "s1-1-2023-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-026",
+    "targetId": "s1-1-2023-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-027",
+    "targetId": "s1-1-2021-1-i",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-028",
+    "targetId": "s1-1-2022-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-029",
+    "targetId": "s1-1-2021-1-i",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-030",
+    "targetId": "s1-1-2022-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-031",
+    "targetId": "s1-1-2022-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-032",
+    "targetId": "s1-1-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-033",
+    "targetId": "s1-1-2021-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-034",
+    "targetId": "s1-1-2021-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-035",
+    "targetId": "s1-1-2021-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-036",
+    "targetId": "s1-1-2021-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-037",
+    "targetId": "s1-1-2021-1-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-038",
+    "targetId": "s1-1-2021-1-g",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-039",
+    "targetId": "s1-1-2021-1-h",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-040",
+    "targetId": "s1-1-2021-1-i",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-041",
+    "targetId": "s1-1-2021-1-j",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-042",
+    "targetId": "s1-1-2021-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-043",
+    "targetId": "s1-1-2026-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-044",
+    "targetId": "s1-1-2023-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-045",
+    "targetId": "s1-1-2021-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-046",
+    "targetId": "s1-1-2023-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-047",
+    "targetId": "s1-1-2021-3-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-048",
+    "targetId": "s1-1-2021-3-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-049",
+    "targetId": "s1-1-2026-3-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-050",
+    "targetId": "s1-1-2021-3-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-052",
+    "targetId": "s1-1-2025-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-053",
+    "targetId": "s1-1-2025-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-054",
+    "targetId": "s1-1-2021-3-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-055",
+    "targetId": "s1-1-2025-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-056",
+    "targetId": "s1-1-2025-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-057",
+    "targetId": "s1-1-2024-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-058",
+    "targetId": "s1-1-2024-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-059",
+    "targetId": "s1-1-2024-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-060",
+    "targetId": "s1-1-2024-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-061",
+    "targetId": "s1-1-2023-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-062",
+    "targetId": "s1-1-2023-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-063",
+    "targetId": "s1-1-2023-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-064",
+    "targetId": "s1-1-2023-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-065",
+    "targetId": "s1-1-2023-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-066",
+    "targetId": "s1-1-2021-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-067",
+    "targetId": "s1-1-2021-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-068",
+    "targetId": "s1-1-2021-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-069",
+    "targetId": "s1-1-2021-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-001",
+    "targetId": "s1-1-2025-3-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-002",
+    "targetId": "s1-1-2025-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-003",
+    "targetId": "s1-1-2025-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-004",
+    "targetId": "s1-1-2025-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-007",
+    "targetId": "s1-1-2023-3-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-008",
+    "targetId": "s1-1-2023-3-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-009",
+    "targetId": "s1-1-2023-3-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-010",
+    "targetId": "s1-1-2023-3-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-011",
+    "targetId": "s1-1-2023-3-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-012",
+    "targetId": "s1-1-2022-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-013",
+    "targetId": "s1-1-2022-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-014",
+    "targetId": "s1-1-2022-9",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-015",
+    "targetId": "s1-1-2022-10",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-017",
+    "targetId": "s1-1-2021-4-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-018",
+    "targetId": "s1-1-2021-4-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m3-019",
+    "targetId": "s1-1-2021-4-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-001",
+    "targetId": "s1-1-2026-12",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-002",
+    "targetId": "s1-1-2023-10",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-003",
+    "targetId": "s1-1-2024-12",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-004",
+    "targetId": "s1-1-2026-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-005",
+    "targetId": "s1-1-2026-8",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-006",
+    "targetId": "s1-1-2026-9",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-007",
+    "targetId": "s1-1-2026-11",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-009",
+    "targetId": "s1-1-2025-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-010",
+    "targetId": "s1-1-2023-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-011",
+    "targetId": "s1-1-2025-8",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-012",
+    "targetId": "s1-1-2025-9",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m41-013",
+    "targetId": "s1-1-2025-10",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-001",
+    "targetId": "s1-2-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-002",
+    "targetId": "s1-2-2024-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-003",
+    "targetId": "s1-2-2026-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-004",
+    "targetId": "s1-2-2024-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-005",
+    "targetId": "s1-2-2026-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-006",
+    "targetId": "s1-2-2025-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-007",
+    "targetId": "s1-2-2025-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-008",
+    "targetId": "s1-2-2025-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-009",
+    "targetId": "s1-2-2025-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-010",
+    "targetId": "s1-2-2025-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-012",
+    "targetId": "s1-2-2024-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-013",
+    "targetId": "s1-2-2024-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-014",
+    "targetId": "s1-2-2024-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-015",
+    "targetId": "s1-2-2023-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-016",
+    "targetId": "s1-2-2023-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-017",
+    "targetId": "s1-2-2023-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-018",
+    "targetId": "s1-2-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-019",
+    "targetId": "s1-2-2022-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-020",
+    "targetId": "s1-2-2022-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-021",
+    "targetId": "s1-2-2022-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-022",
+    "targetId": "s1-2-2022-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-023",
+    "targetId": "s1-2-2022-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-024",
+    "targetId": "s1-2-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-025",
+    "targetId": "s1-2-2021-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-026",
+    "targetId": "s1-2-2021-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-027",
+    "targetId": "s1-2-2021-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-028",
+    "targetId": "s1-2-2026-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-029",
+    "targetId": "s1-2-2026-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-030",
+    "targetId": "s1-2-2024-7-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-031",
+    "targetId": "s1-2-2026-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-032",
+    "targetId": "s1-2-2026-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-033",
+    "targetId": "s1-2-2025-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-037",
+    "targetId": "s1-2-2022-3-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-038",
+    "targetId": "s1-2-2022-3-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m12-039",
+    "targetId": "s1-2-2021-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-001",
+    "targetId": "s1-2-2025-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-002",
+    "targetId": "s1-2-2025-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-003",
+    "targetId": "s1-2-2024-8",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-004",
+    "targetId": "s1-2-2025-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-005",
+    "targetId": "s1-2-2024-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-006",
+    "targetId": "s1-2-2022-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-007",
+    "targetId": "s1-2-2023-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-008",
+    "targetId": "s1-2-2023-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-009",
+    "targetId": "s1-2-2023-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-010",
+    "targetId": "s1-2-2023-8",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-012",
+    "targetId": "s1-2-2021-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-013",
+    "targetId": "s1-2-2021-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m3-014",
+    "targetId": "s1-2-2021-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-001",
+    "targetId": "s1-2-2026-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-002",
+    "targetId": "s1-2-2026-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-003",
+    "targetId": "s1-2-2024-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-004",
+    "targetId": "s1-2-2026-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-005",
+    "targetId": "s1-2-2026-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-006",
+    "targetId": "s1-2-2025-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-007",
+    "targetId": "s1-2-2025-8",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-008",
+    "targetId": "s1-2-2025-9",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-009",
+    "targetId": "s1-2-2024-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-010",
+    "targetId": "s1-2-2024-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-011",
+    "targetId": "s1-2-2021-9",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-012",
+    "targetId": "s1-2-2024-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-013",
+    "targetId": "s1-2-2024-8",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-014",
+    "targetId": "s1-2-2023-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-015",
+    "targetId": "s1-2-2023-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-016",
+    "targetId": "s1-2-2023-9",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-017",
+    "targetId": "s1-2-2022-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-018",
+    "targetId": "s1-2-2022-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-019",
+    "targetId": "s1-2-2022-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-020",
+    "targetId": "s1-2-2022-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-021",
+    "targetId": "s1-2-2022-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-022",
+    "targetId": "s1-2-2021-8",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-023",
+    "targetId": "s1-2-2021-9",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.2_m4-024",
+    "targetId": "s1-2-2021-10",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-002",
+    "targetId": "s1-3-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-003",
+    "targetId": "s1-3-2026-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-004",
+    "targetId": "s1-3-2024-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-005",
+    "targetId": "s1-3-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-006",
+    "targetId": "s1-3-2026-1-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-008",
+    "targetId": "s1-3-2025-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-009",
+    "targetId": "s1-3-2023-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-010",
+    "targetId": "s1-3-2024-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-011",
+    "targetId": "s1-3-2025-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-012",
+    "targetId": "s1-3-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-013",
+    "targetId": "s1-3-2024-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-014",
+    "targetId": "s1-3-2023-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-015",
+    "targetId": "s1-3-2024-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-016",
+    "targetId": "s1-3-2021-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-017",
+    "targetId": "s1-3-2023-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-018",
+    "targetId": "s1-3-2023-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-020",
+    "targetId": "s1-3-2023-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-021",
+    "targetId": "s1-3-2023-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-022",
+    "targetId": "s1-3-2022-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-023",
+    "targetId": "s1-3-2022-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-024",
+    "targetId": "s1-3-2022-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-025",
+    "targetId": "s1-3-2022-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-026",
+    "targetId": "s1-3-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-027",
+    "targetId": "s1-3-2021-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-028",
+    "targetId": "s1-3-2021-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-029",
+    "targetId": "s1-3-2021-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-030",
+    "targetId": "s1-3-2021-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-031",
+    "targetId": "s1-3-2021-1-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-033",
+    "targetId": "s1-3-2026-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-034",
+    "targetId": "s1-3-2026-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-035",
+    "targetId": "s1-3-2026-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-036",
+    "targetId": "s1-3-2026-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-037",
+    "targetId": "s1-3-2023-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-038",
+    "targetId": "s1-3-2026-2-g",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-039",
+    "targetId": "s1-3-2023-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-040",
+    "targetId": "s1-3-2022-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-041",
+    "targetId": "s1-3-2022-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-042",
+    "targetId": "s1-3-2025-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-043",
+    "targetId": "s1-3-2021-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-044",
+    "targetId": "s1-3-2021-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-045",
+    "targetId": "s1-3-2022-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-046",
+    "targetId": "s1-3-2023-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-047",
+    "targetId": "s1-3-2023-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-048",
+    "targetId": "s1-3-2023-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-049",
+    "targetId": "s1-3-2021-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-050",
+    "targetId": "s1-3-2023-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-051",
+    "targetId": "s1-3-2023-2-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-052",
+    "targetId": "s1-3-2023-2-g",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-053",
+    "targetId": "s1-3-2021-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-054",
+    "targetId": "s1-3-2022-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-055",
+    "targetId": "s1-3-2022-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-056",
+    "targetId": "s1-3-2021-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-057",
+    "targetId": "s1-3-2022-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-058",
+    "targetId": "s1-3-2021-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-059",
+    "targetId": "s1-3-2021-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-060",
+    "targetId": "s1-3-2021-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-061",
+    "targetId": "s1-3-2021-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-062",
+    "targetId": "s1-3-2021-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m12-063",
+    "targetId": "s1-3-2021-2-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-002",
+    "targetId": "s1-3-2026-3-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-003",
+    "targetId": "s1-3-2026-3-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-004",
+    "targetId": "s1-3-2026-3-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-005",
+    "targetId": "s1-3-2025-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-006",
+    "targetId": "s1-3-2025-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-007",
+    "targetId": "s1-3-2025-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-008",
+    "targetId": "s1-3-2022-3-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-009",
+    "targetId": "s1-3-2024-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-011",
+    "targetId": "s1-3-2024-9",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-012",
+    "targetId": "s1-3-2022-3-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-013",
+    "targetId": "s1-3-2022-3-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-014",
+    "targetId": "s1-3-2022-3-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-015",
+    "targetId": "s1-3-2022-3-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-016",
+    "targetId": "s1-3-2021-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-017",
+    "targetId": "s1-3-2021-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m3-018",
+    "targetId": "s1-3-2021-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-003",
+    "targetId": "s1-3-2025-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-004",
+    "targetId": "s1-3-2025-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-005",
+    "targetId": "s1-3-2025-8",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-006",
+    "targetId": "s1-3-2024-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-007",
+    "targetId": "s1-3-2024-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-009",
+    "targetId": "s1-3-2023-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-010",
+    "targetId": "s1-3-2023-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-011",
+    "targetId": "s1-3-2023-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-012",
+    "targetId": "s1-3-2023-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-013",
+    "targetId": "s1-3-2022-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-014",
+    "targetId": "s1-3-2022-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-015",
+    "targetId": "s1-3-2021-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.3_m4-016",
+    "targetId": "s1-3-2021-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-001",
+    "targetId": "s1-5-2025-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-002",
+    "targetId": "s1-5-2025-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-003",
+    "targetId": "s1-5-2025-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-004",
+    "targetId": "s1-5-2025-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-005",
+    "targetId": "s1-5-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-006",
+    "targetId": "s1-5-2025-1-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-007",
+    "targetId": "s1-5-2025-1-g",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-008",
+    "targetId": "s1-5-2025-1-h",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-009",
+    "targetId": "s1-5-2025-1-i",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-010",
+    "targetId": "s1-5-2025-1-j",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-011",
+    "targetId": "s1-5-2021-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-012",
+    "targetId": "s1-5-2021-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-013",
+    "targetId": "s1-5-2024-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-014",
+    "targetId": "s1-5-2021-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-015",
+    "targetId": "s1-5-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-016",
+    "targetId": "s1-5-2024-1-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-017",
+    "targetId": "s1-5-2024-1-g",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-018",
+    "targetId": "s1-5-2024-1-h",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-019",
+    "targetId": "s1-5-2024-1-i",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-020",
+    "targetId": "s1-5-2023-8-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-021",
+    "targetId": "s1-5-2023-8-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-022",
+    "targetId": "s1-5-2023-8-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-023",
+    "targetId": "s1-5-2023-8-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-024",
+    "targetId": "s1-5-2023-8-g",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-025",
+    "targetId": "s1-5-2021-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-026",
+    "targetId": "s1-5-2021-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-027",
+    "targetId": "s1-5-2022-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-028",
+    "targetId": "s1-5-2022-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-029",
+    "targetId": "s1-5-2022-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-030",
+    "targetId": "s1-5-2022-1-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-031",
+    "targetId": "s1-5-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-032",
+    "targetId": "s1-5-2021-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-033",
+    "targetId": "s1-5-2021-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-034",
+    "targetId": "s1-5-2021-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-035",
+    "targetId": "s1-5-2021-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-036",
+    "targetId": "s1-5-2021-1-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-037",
+    "targetId": "s1-5-2021-1-g",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-038",
+    "targetId": "s1-5-2021-1-h",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-039",
+    "targetId": "s1-5-2021-1-i",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-040",
+    "targetId": "s1-5-2025-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-041",
+    "targetId": "s1-5-2025-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-042",
+    "targetId": "s1-5-2022-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-043",
+    "targetId": "s1-5-2025-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-044",
+    "targetId": "s1-5-2025-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-045",
+    "targetId": "s1-5-2022-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-047",
+    "targetId": "s1-5-2024-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-048",
+    "targetId": "s1-5-2024-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-049",
+    "targetId": "s1-5-2021-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-050",
+    "targetId": "s1-5-2024-2-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-051",
+    "targetId": "s1-5-2024-2-g",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-052",
+    "targetId": "s1-5-2023-8-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-053",
+    "targetId": "s1-5-2023-8-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-055",
+    "targetId": "s1-5-2022-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-056",
+    "targetId": "s1-5-2022-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-057",
+    "targetId": "s1-5-2022-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-058",
+    "targetId": "s1-5-2021-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-059",
+    "targetId": "s1-5-2021-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-062",
+    "targetId": "s1-5-2021-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-063",
+    "targetId": "s1-5-2021-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-064",
+    "targetId": "s1-5-2021-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-065",
+    "targetId": "s1-5-2021-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m12-066",
+    "targetId": "s1-5-2021-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-003",
+    "targetId": "s1-5-2024-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-004",
+    "targetId": "s1-5-2024-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-005",
+    "targetId": "s1-5-2024-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-006",
+    "targetId": "s1-5-2023-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-007",
+    "targetId": "s1-5-2023-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-008",
+    "targetId": "s1-5-2023-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-009",
+    "targetId": "s1-5-2023-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-010",
+    "targetId": "s1-5-2022-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-011",
+    "targetId": "s1-5-2022-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-012",
+    "targetId": "s1-5-2022-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-013",
+    "targetId": "s1-5-2021-8",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m3-014",
+    "targetId": "s1-5-2021-9",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m4-001",
+    "targetId": "s1-5-2025-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m4-002",
+    "targetId": "s1-5-2025-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m4-003",
+    "targetId": "s1-5-2025-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m4-004",
+    "targetId": "s1-5-2023-1",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m4-005",
+    "targetId": "s1-5-2023-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m4-006",
+    "targetId": "s1-5-2022-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m4-007",
+    "targetId": "s1-5-2021-10-alternative",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-001",
+    "targetId": "s1-6-2025-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-002",
+    "targetId": "s1-6-2025-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-003",
+    "targetId": "s1-6-2025-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-004",
+    "targetId": "s1-6-2025-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-005",
+    "targetId": "s1-6-2025-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-007",
+    "targetId": "s1-6-2024-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-008",
+    "targetId": "s1-6-2024-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-009",
+    "targetId": "s1-6-2024-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-010",
+    "targetId": "s1-6-2024-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-011",
+    "targetId": "s1-6-2024-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-012",
+    "targetId": "s1-6-2023-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-013",
+    "targetId": "s1-6-2023-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-014",
+    "targetId": "s1-6-2023-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-015",
+    "targetId": "s1-6-2022-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-016",
+    "targetId": "s1-6-2022-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-017",
+    "targetId": "s1-6-2022-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-018",
+    "targetId": "s1-6-2022-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-019",
+    "targetId": "s1-6-2022-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-020",
+    "targetId": "s1-6-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-021",
+    "targetId": "s1-6-2021-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-022",
+    "targetId": "s1-6-2021-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-023",
+    "targetId": "s1-6-2021-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-024",
+    "targetId": "s1-6-2021-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-025",
+    "targetId": "s1-6-2021-1-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-026",
+    "targetId": "s1-6-2021-1-g",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-027",
+    "targetId": "s1-6-2021-1-h",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-028",
+    "targetId": "s1-6-2021-1-i",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-029",
+    "targetId": "s1-6-2021-1-j",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-030",
+    "targetId": "s1-6-2025-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-031",
+    "targetId": "s1-6-2025-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-032",
+    "targetId": "s1-6-2025-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-033",
+    "targetId": "s1-6-2025-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-034",
+    "targetId": "s1-6-2025-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-035",
+    "targetId": "s1-6-2025-2-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-036",
+    "targetId": "s1-6-2024-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-037",
+    "targetId": "s1-6-2024-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-039",
+    "targetId": "s1-6-2024-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-040",
+    "targetId": "s1-6-2024-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-041",
+    "targetId": "s1-6-2023-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-042",
+    "targetId": "s1-6-2023-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-044",
+    "targetId": "s1-6-2023-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-045",
+    "targetId": "s1-6-2023-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-046",
+    "targetId": "s1-6-2022-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-047",
+    "targetId": "s1-6-2022-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-048",
+    "targetId": "s1-6-2022-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-051",
+    "targetId": "s1-6-2021-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-052",
+    "targetId": "s1-6-2021-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-053",
+    "targetId": "s1-6-2021-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-054",
+    "targetId": "s1-6-2021-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m12-055",
+    "targetId": "s1-6-2021-2-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-001",
+    "targetId": "s1-6-2025-3-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-003",
+    "targetId": "s1-6-2023-6-alternative",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-004",
+    "targetId": "s1-6-2024-3-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-006",
+    "targetId": "s1-6-2022-10",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-008",
+    "targetId": "s1-6-2023-3-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-009",
+    "targetId": "s1-6-2023-3-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-010",
+    "targetId": "s1-6-2023-3-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-011",
+    "targetId": "s1-6-2022-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-012",
+    "targetId": "s1-6-2022-8",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-013",
+    "targetId": "s1-6-2022-10",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-014",
+    "targetId": "s1-6-2021-3-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-015",
+    "targetId": "s1-6-2021-3-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m3-016",
+    "targetId": "s1-6-2021-3-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m4-001",
+    "targetId": "s1-6-2025-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m4-002",
+    "targetId": "s1-6-2025-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m4-003",
+    "targetId": "s1-6-2024-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m4-008",
+    "targetId": "s1-6-2022-9",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.6_m4-010",
+    "targetId": "s1-6-2022-12",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-001",
+    "targetId": "s1-7-2025-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-002",
+    "targetId": "s1-7-2025-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-003",
+    "targetId": "s1-7-2025-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-004",
+    "targetId": "s1-7-2025-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-005",
+    "targetId": "s1-7-2024-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-006",
+    "targetId": "s1-7-2024-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-007",
+    "targetId": "s1-7-2024-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-008",
+    "targetId": "s1-7-2024-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-009",
+    "targetId": "s1-7-2023-1",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-010",
+    "targetId": "s1-7-2023-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-011",
+    "targetId": "s1-7-2023-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-012",
+    "targetId": "s1-7-2022-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-013",
+    "targetId": "s1-7-2022-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-014",
+    "targetId": "s1-7-2022-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-017",
+    "targetId": "s1-7-2025-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-018",
+    "targetId": "s1-7-2025-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-019",
+    "targetId": "s1-7-2025-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-020",
+    "targetId": "s1-7-2022-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-021",
+    "targetId": "s1-7-2023-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-022",
+    "targetId": "s1-7-2023-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-023",
+    "targetId": "s1-7-2022-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m12-024",
+    "targetId": "s1-7-2022-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m3-001",
+    "targetId": "s1-7-2025-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m3-002",
+    "targetId": "s1-7-2025-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m3-003",
+    "targetId": "s1-7-2024-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m3-005",
+    "targetId": "s1-7-2022-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m3-006",
+    "targetId": "s1-7-2021-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m3-007",
+    "targetId": "s1-7-2021-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m4-001",
+    "targetId": "s1-7-2025-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m4-004",
+    "targetId": "s1-7-2023-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m4-005",
+    "targetId": "s1-7-2023-8",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m4-006",
+    "targetId": "s1-7-2022-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m4-008",
+    "targetId": "s1-7-2021-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m4-009",
+    "targetId": "s1-7-2021-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.7_m4-010",
+    "targetId": "s1-7-2021-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-001",
+    "targetId": "s1-8-2025-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-002",
+    "targetId": "s1-8-2025-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-003",
+    "targetId": "s1-8-2025-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-004",
+    "targetId": "s1-8-2025-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-005",
+    "targetId": "s1-8-2025-1-e",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-006",
+    "targetId": "s1-8-2025-1-f",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-007",
+    "targetId": "s1-8-2024-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-008",
+    "targetId": "s1-8-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-009",
+    "targetId": "s1-8-2023-7-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-010",
+    "targetId": "s1-8-2022-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-011",
+    "targetId": "s1-8-2022-2-alternative",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-013",
+    "targetId": "s1-8-2022-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-014",
+    "targetId": "s1-8-2022-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-015",
+    "targetId": "s1-8-2022-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-016",
+    "targetId": "s1-8-2022-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-019",
+    "targetId": "s1-8-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-020",
+    "targetId": "s1-8-2021-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-021",
+    "targetId": "s1-8-2021-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-022",
+    "targetId": "s1-8-2025-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-023",
+    "targetId": "s1-8-2025-2-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-024",
+    "targetId": "s1-8-2025-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-025",
+    "targetId": "s1-8-2025-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-026",
+    "targetId": "s1-8-2024-2-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-027",
+    "targetId": "s1-8-2023-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-028",
+    "targetId": "s1-8-2024-2-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-029",
+    "targetId": "s1-8-2024-2-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-030",
+    "targetId": "s1-8-2023-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-031",
+    "targetId": "s1-8-2023-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.8_m12-034",
+    "targetId": "s1-8-2021-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-001",
+    "targetId": "s1-9-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-002",
+    "targetId": "s1-9-2025-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-003",
+    "targetId": "s1-9-2021-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-004",
+    "targetId": "s1-9-2021-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-005",
+    "targetId": "s1-9-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-006",
+    "targetId": "s1-9-2022-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-007",
+    "targetId": "s1-9-2021-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-008",
+    "targetId": "s1-9-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-009",
+    "targetId": "s1-9-2023-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-010",
+    "targetId": "s1-9-2023-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-011",
+    "targetId": "s1-9-2023-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-012",
+    "targetId": "s1-9-2022-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-013",
+    "targetId": "s1-9-2022-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-014",
+    "targetId": "s1-9-2022-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-015",
+    "targetId": "s1-9-2022-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-016",
+    "targetId": "s1-9-2021-1-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-017",
+    "targetId": "s1-9-2021-1-b",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-018",
+    "targetId": "s1-9-2021-1-c",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-019",
+    "targetId": "s1-9-2021-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-020",
+    "targetId": "s1-9-2025-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-021",
+    "targetId": "s1-9-2025-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-023",
+    "targetId": "s1-9-2024-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-024",
+    "targetId": "s1-9-2024-5-a",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-025",
+    "targetId": "s1-9-2024-7",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-026",
+    "targetId": "s1-9-2023-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-027",
+    "targetId": "s1-9-2022-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m12-029",
+    "targetId": "s1-9-2021-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m3-001",
+    "targetId": "s1-9-2025-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m3-003",
+    "targetId": "s1-9-2025-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m3-004",
+    "targetId": "s1-9-2024-6",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m3-005",
+    "targetId": "s1-9-2023-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m3-007",
+    "targetId": "s1-9-2022-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m3-008",
+    "targetId": "s1-9-2022-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m3-009",
+    "targetId": "s1-9-2021-3",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m3-010",
+    "targetId": "s1-9-2021-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m4-001",
+    "targetId": "s1-9-2022-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m4-002",
+    "targetId": "s1-9-2024-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m4-003",
+    "targetId": "s1-9-2023-2",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m4-004",
+    "targetId": "s1-9-2023-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m4-005",
+    "targetId": "s1-9-2022-4",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.9_m4-006",
+    "targetId": "s1-9-2021-5",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.1_m12-051",
+    "targetId": "s1-1-2026-13-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.1_m12-051",
+    "targetId": "s1-1-2026-13-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.1_m12-051",
+    "targetId": "s1-1-2025-2-e",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.1_m12-070",
+    "targetId": "s1-1-2021-3-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.1_m12-070",
+    "targetId": "s1-1-2021-3-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.1_m12-070",
+    "targetId": "s1-1-2021-3-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.1_m12-070",
+    "targetId": "s1-1-2021-3-d",
+    "selection": "label:d"
+  },
+  {
+    "sourceId": "S1.1_m3-005",
+    "targetId": "s1-1-2023-3-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.1_m3-005",
+    "targetId": "s1-1-2024-3-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.1_m3-005",
+    "targetId": "s1-1-2024-3-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.1_m3-006",
+    "targetId": "s1-1-2022-15-iv",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.1_m3-006",
+    "targetId": "s1-1-2024-13-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.1_m3-006",
+    "targetId": "s1-1-2024-13-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.1_m3-016",
+    "targetId": "s1-1-2022-15-i",
+    "selection": "label:i"
+  },
+  {
+    "sourceId": "S1.1_m3-016",
+    "targetId": "s1-1-2022-15-ii",
+    "selection": "label:ii"
+  },
+  {
+    "sourceId": "S1.1_m3-016",
+    "targetId": "s1-1-2022-15-iii",
+    "selection": "label:iii"
+  },
+  {
+    "sourceId": "S1.1_m3-016",
+    "targetId": "s1-1-2022-15-iv",
+    "selection": "label:iv"
+  },
+  {
+    "sourceId": "S1.1_m41-008",
+    "targetId": "s1-1-2025-3-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.1_m41-008",
+    "targetId": "s1-1-2025-3-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.1_m41-008",
+    "targetId": "s1-1-2025-3-d",
+    "selection": "label:d"
+  },
+  {
+    "sourceId": "S1.2_m12-034",
+    "targetId": "s1-2-2025-10-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.2_m12-034",
+    "targetId": "s1-2-2025-10-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.2_m12-035",
+    "targetId": "s1-2-2024-7-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.2_m12-035",
+    "targetId": "s1-2-2024-7-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.2_m12-035",
+    "targetId": "s1-2-2024-7-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.2_m12-036",
+    "targetId": "s1-2-2023-10-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.2_m12-036",
+    "targetId": "s1-2-2023-10-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.2_m12-036",
+    "targetId": "s1-2-2023-10-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.2_m3-011",
+    "targetId": "s1-2-2021-3-i",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.2_m3-011",
+    "targetId": "s1-2-2021-3-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.5_m12-054",
+    "targetId": "s1-5-2021-2-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.5_m12-054",
+    "targetId": "s1-5-2023-7-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.5_m12-054",
+    "targetId": "s1-5-2023-7-d",
+    "selection": "label:d"
+  },
+  {
+    "sourceId": "S1.5_m12-054",
+    "targetId": "s1-5-2023-7-e",
+    "selection": "label:e"
+  },
+  {
+    "sourceId": "S1.5_m12-061",
+    "targetId": "s1-5-2021-2-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.5_m12-061",
+    "targetId": "s1-5-2021-2-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.5_m12-061",
+    "targetId": "s1-5-2021-2-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.6_m12-056",
+    "targetId": "s1-6-2021-2-f",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.6_m12-056",
+    "targetId": "s1-6-2021-2-f-alternative",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.6_m12-057",
+    "targetId": "s1-6-2021-4-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.6_m12-057",
+    "targetId": "s1-6-2021-4-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.6_m12-057",
+    "targetId": "s1-6-2021-4-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.6_m4-006",
+    "targetId": "s1-6-2023-5-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.6_m4-006",
+    "targetId": "s1-6-2023-5-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.6_m4-006",
+    "targetId": "s1-6-2023-5-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.8_m12-012",
+    "targetId": "s1-8-2023-7-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.8_m12-012",
+    "targetId": "s1-8-2022-2",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.8_m12-012",
+    "targetId": "s1-8-2023-7-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.8_m12-012",
+    "targetId": "s1-8-2023-7-d",
+    "selection": "label:d"
+  },
+  {
+    "sourceId": "S1.8_m12-035",
+    "targetId": "s1-8-2021-6-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.8_m12-035",
+    "targetId": "s1-8-2021-6-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.8_m12-035",
+    "targetId": "s1-8-2021-6-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.9_m12-022",
+    "targetId": "s1-9-2025-7-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.9_m12-022",
+    "targetId": "s1-9-2025-7-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.9_m12-022",
+    "targetId": "s1-9-2025-7-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.9_m12-028",
+    "targetId": "s1-9-2022-6-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.9_m12-028",
+    "targetId": "s1-9-2022-6-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.9_m12-028",
+    "targetId": "s1-9-2022-6-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.9_m12-030",
+    "targetId": "s1-9-2021-6-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.9_m12-030",
+    "targetId": "s1-9-2021-6-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.9_m12-030",
+    "targetId": "s1-9-2021-6-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.9_m3-002",
+    "targetId": "s1-9-2025-4",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.9_m3-002",
+    "targetId": "s1-9-2025-4-alternative",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.9_m3-006",
+    "targetId": "s1-9-2023-6-a",
+    "selection": "label:a"
+  },
+  {
+    "sourceId": "S1.9_m3-006",
+    "targetId": "s1-9-2023-6-b",
+    "selection": "label:b"
+  },
+  {
+    "sourceId": "S1.9_m3-006",
+    "targetId": "s1-9-2023-6-c",
+    "selection": "label:c"
+  },
+  {
+    "sourceId": "S1.2_m12-011",
+    "targetId": "s1-2-2022-1-d",
+    "selection": "full-answer"
+  },
+  {
+    "sourceId": "S1.5_m4-008",
+    "targetId": "s1-5-2021-10",
+    "selection": "excerpt",
+    "start": "Part A —",
+    "end": "Part B —"
+  },
+  {
+    "sourceId": "S1.5_m4-008",
+    "targetId": "s1-5-2021-10-alternative",
+    "selection": "excerpt",
+    "start": "Part B —"
+  },
+  {
+    "sourceId": "S1.6_m3-007",
+    "targetId": "s1-6-2024-3-d",
+    "selection": "excerpt",
+    "start": "First, explaining",
+    "end": "Second, the trapezium."
+  },
+  {
+    "sourceId": "S1.6_m3-007",
+    "targetId": "s1-6-2024-3-d-alternative",
+    "selection": "excerpt",
+    "start": "Second, the trapezium."
+  },
+  {
+    "sourceId": "S1.6_m4-004",
+    "targetId": "s1-6-2024-5",
+    "selection": "excerpt",
+    "start": "First alternative -",
+    "end": "Second alternative -"
+  },
+  {
+    "sourceId": "S1.6_m4-004",
+    "targetId": "s1-6-2023-6-alternative",
+    "selection": "excerpt",
+    "start": "Second alternative -"
+  },
+  {
+    "sourceId": "S1.6_m4-007",
+    "targetId": "s1-6-2023-6",
+    "selection": "excerpt",
+    "start": "First alternative -",
+    "end": "Second alternative -"
+  },
+  {
+    "sourceId": "S1.6_m4-007",
+    "targetId": "s1-6-2023-6-alternative",
+    "selection": "excerpt",
+    "start": "Second alternative -"
+  },
+  {
+    "sourceId": "S1.6_m4-009",
+    "targetId": "s1-6-2022-11",
+    "selection": "excerpt",
+    "start": "First alternative -",
+    "end": "Second alternative -"
+  },
+  {
+    "sourceId": "S1.6_m4-009",
+    "targetId": "s1-6-2022-11-alternative",
+    "selection": "excerpt",
+    "start": "Second alternative -"
+  },
+  {
+    "sourceId": "S1.7_m4-003",
+    "targetId": "s1-7-2023-6",
+    "selection": "excerpt",
+    "start": "**Part 1",
+    "end": "**Part 2"
+  },
+  {
+    "sourceId": "S1.7_m4-003",
+    "targetId": "s1-7-2023-6-alternative",
+    "selection": "excerpt",
+    "start": "**Part 2"
+  },
+  {
+    "sourceId": "S1.7_m4-007",
+    "targetId": "s1-7-2022-4",
+    "selection": "excerpt",
+    "start": "**Part A",
+    "end": "**Part B"
+  },
+  {
+    "sourceId": "S1.7_m4-007",
+    "targetId": "s1-7-2022-4-alternative",
+    "selection": "excerpt",
+    "start": "**Part B"
+  },
+  {
+    "sourceId": "S1.8_m12-017",
+    "targetId": "s1-8-2021-1-a",
+    "selection": "excerpt",
+    "start": "Self-actualisation:",
+    "end": "Difference between stress"
+  },
+  {
+    "sourceId": "S1.8_m12-017",
+    "targetId": "s1-8-2022-1-e-alternative",
+    "selection": "excerpt",
+    "start": "Difference between stress"
+  },
+  {
+    "sourceId": "S1.8_m12-018",
+    "targetId": "s1-8-2022-2",
+    "selection": "excerpt",
+    "start": "Aim of Yoga:",
+    "end": "Definition:"
+  },
+  {
+    "sourceId": "S1.8_m12-018",
+    "targetId": "s1-8-2022-2-alternative",
+    "selection": "excerpt",
+    "start": "Definition:"
+  },
+  {
+    "sourceId": "S1.8_m12-032",
+    "targetId": "s1-8-2022-4",
+    "selection": "excerpt",
+    "start": "Effects on",
+    "end": "Concentration is"
+  },
+  {
+    "sourceId": "S1.8_m12-032",
+    "targetId": "s1-8-2022-4-alternative",
+    "selection": "excerpt",
+    "start": "Concentration is"
+  },
+  {
+    "sourceId": "S1.8_m12-033",
+    "targetId": "s1-8-2022-5",
+    "selection": "excerpt",
+    "start": "Circulatory system",
+    "end": "Digestive system"
+  },
+  {
+    "sourceId": "S1.8_m12-033",
+    "targetId": "s1-8-2022-5-alternative",
+    "selection": "excerpt",
+    "start": "Digestive system"
+  }
+]

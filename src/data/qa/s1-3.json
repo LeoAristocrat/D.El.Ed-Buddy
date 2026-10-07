@@ -374,7 +374,7 @@
           "question": "Give one scientific definition of language.",
           "marks": 1,
           "answer": [
-            "Language is a socially shared, rule-governed system of symbols used to communicate and construct meaning; it can be spoken, signed or represented in writing."
+            "Language is a conventional and systematic symbol system used by a human community for exchanging messages, for representing thought and for creating meaning, made of sounds and written symbols and governed equally by rules of combination and conventions of use."
           ],
           "status": "verified",
           "occurrences": [
@@ -406,15 +406,20 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-002",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-2-a",
           "question": "“Language is arbitrary” — Explain.",
           "marks": 2,
           "answer": [
-            "Most word–meaning relationships depend on social convention rather than a necessary natural connection.",
-            "For example, different languages use different words for the same object; speakers learn and share their community’s conventions. Arbitrariness does not mean language has no rules."
+            "Arbitrary means there is no necessary connection between the form of a word and what it means. The word water does not contain water and does not sound like water, and it could have been called anything at all; only the agreement of the community holds the connection steady. A few signs are motivated, such as an imitation of a cow's call or a shrug, but print is the most arbitrary form of all, which is why reading has to be taught and cannot simply happen."
           ],
           "status": "verified",
           "occurrences": [
@@ -439,16 +444,22 @@
               "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-043",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-3",
           "question": "Explain the importance of language as carrier of heritage and culture.",
           "marks": 3,
           "answer": [
-            "Stories, songs, proverbs and oral histories pass cultural knowledge and memories between generations.",
-            "Language conveys ways of greeting, naming relationships and describing local life, helping people express belonging and identity.",
-            "Using and documenting diverse community languages sustains this heritage while allowing cultures to develop through dialogue rather than remain fixed or isolated."
+            "Language is the storehouse in which a community's heritage is kept and the carrier by which it is handed on.",
+            "It records heritage in fixed forms — proverbs, folk tales, folk songs, place names, oral traditions and the loan words a community carries, which show who traded with whom and worshipped what. It also carries everyday heritage in the vocabulary of a way of life: a mother, a grandmother, a rice-paddy, the first-flood rains, a particular loom, a particular folk song. These cannot be borrowed without loss. A community that stops using them loses the practice, and then the memory, because once the name is gone the custom becomes hard to describe.",
+            "The school has a footing here. Article 350A obliges every effort to promote the mother tongue in mother-tongue-medium institutions, and NEP 2020 places the home language at the centre of the foundational stage. What endangers heritage is not borrowing, but the loss of occasions to use a language in public."
           ],
           "status": "verified",
           "occurrences": [
@@ -466,17 +477,23 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-016",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-6",
           "question": "“Language helps learners gathering over all knowledge” — Discuss.",
           "marks": 4,
           "answer": [
-            "Language gives learners words and structures for describing observations, asking questions and relating new ideas to earlier experience.",
-            "Listening and reading provide access to explanations, stories and information beyond immediate personal experience.",
-            "Discussion and writing help learners compare evidence, explain reasoning and revise understanding across subjects.",
-            "For example, a child can observe a plant directly and then discuss changes using words such as root and growth. Language supports knowledge, but the claim should not erase non-verbal learning through action, images and perception."
+            "The claim is not that language is one source of knowledge among others. It is stronger: in a school, language is the route by which every other kind of knowledge arrives. The child’s first acquisition of any subject is linguistic. Before a child can count they must know the number words; before they can add they must understand the words of the operation; before they can understand that a plant needs water they must understand the sentences in which the fact is embedded. Subject knowledge does not sit beside language in the timetable — it comes through it, and in an early primary class it is it.",
+            "Look subject by subject. To learn to read, a child needs print concepts and the relation of spoken to written word; without them decoding fails and the child reads words aloud without meaning. To learn mathematics the child needs counting words, operation terms and the language of the problem statement; without them the child can handle objects correctly and still cannot read the problem. To learn science the child needs the names of materials and the language of cause and effect. And classroom discipline needs language — imperatives, questions, praise, warnings, rules — or behaviour becomes noise rather than communication.",
+            "Look at that last case, because it decides how a child is examined. Where the child does not yet control the medium of instruction, the examination measures the child’s language, and marks attributed to the subject are really marks attributed to language.",
+            "There is a second reason. Knowledge is cumulative and collaborative: each generation begins with the work of the last, and no child invents the alphabet, its value system or the number system. This is why a word and a concept are bound together, and why a child still learning words in a second language is also still learning the concepts those words carry."
           ],
           "status": "verified",
           "occurrences": [
@@ -487,14 +504,20 @@
               "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-015",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-1-d",
           "question": "Who wrote the book, “Asomiya Sahityar Ruprekha”?",
           "marks": 1,
           "answer": [
-            "Maheswar Neog."
+            "Dr. Maheswar Neog wrote 'Asomiya Sahityar Ruprekha', the standard survey of Assamese literature. He is also known for his study of the Assamese language itself, 'Nika Asamiya Bhasa'."
           ],
           "status": "verified",
           "occurrences": [
@@ -505,15 +528,20 @@
               "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-025",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-2-b",
           "question": "Mention two natures of language.",
           "marks": 2,
           "answer": [
-            "Language is dynamic: vocabulary and usage change across time and social contexts.",
-            "Language is creative: speakers can combine familiar elements to express new messages rather than only repeat memorised sentences."
+            "Language is creative and it is arbitrary. Creative means it is not a closed list but a rule-governed capacity, so a speaker who has never heard unbelievable can still produce it from the un- + believe + -able pattern. Arbitrary means there is no necessary connection between the form of a word and its meaning; the word water could have been called anything, and only convention keeps it steady."
           ],
           "status": "verified",
           "occurrences": [
@@ -531,16 +559,22 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-054",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-3-c",
           "question": "“The need of language learning is important in acquiring other subjects’ knowledge” — Describe it.",
           "marks": 3,
           "answer": [
-            "Understanding subject vocabulary and instructions helps learners access tasks in mathematics, EVS and other subjects.",
-            "Discussion and reading allow them to compare ideas, ask for clarification and connect concepts with experience.",
-            "Explaining a solution or writing an observation makes reasoning visible, so teachers should support language alongside subject content rather than mistake unfamiliar wording for lack of ability."
+            "Nothing in a school happens except through language, and the child's first acquisition of any subject is linguistic. The needs are concrete and subject-specific.",
+            "For reading, the child needs print concepts and the relation of the spoken word to the written word; without them decoding fails and the child reads out words instead of meaning. For mathematics, the child needs counting words, the terms of the operation and the language of the problem statement; otherwise the child can manipulate objects but cannot read the problem. For science, the child needs the names of materials and processes and the phrasing of cause and effect; without it observation becomes guesswork. For social studies, narrative and expository comprehension and place and time vocabulary, or facts are memorised without connection. For classroom life itself, imperatives, questions and warnings — otherwise behaviour becomes noise.",
+            "The need cuts both ways: knowledge itself is inherited through language. No child invents the alphabet or the number system."
           ],
           "status": "verified",
           "occurrences": [
@@ -558,14 +592,20 @@
               "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-1-a",
           "question": "Where does the word “language” derived from?",
           "marks": 1,
           "answer": [
-            "English “language” comes through Old French langage, ultimately from Latin lingua, meaning tongue or language."
+            "The word comes from the Latin lingua, meaning tongue, because speech was long held to come from the tongue. It passed through Old French langage and entered English in that form during the Middle English period."
           ],
           "status": "verified",
           "occurrences": [
@@ -583,15 +623,20 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-2-a",
           "question": "Write how does language works as a tool for self-expression.",
           "marks": 2,
           "answer": [
-            "Language allows people to communicate feelings, needs, experiences and opinions in ways others can understand.",
-            "For example, a child can tell a personal story or explain disagreement, developing a voice and sense of identity through respectful opportunities to speak, sign or write."
+            "Language works as a tool of self-expression by selecting among words, and each choice sets one perspective against another. To say the garhi is broken is to make a statement; to say she broke my pen is to make a claim; to say I could not finish it is to make an excuse. That is why a small vocabulary is also a small reasoning power, and why words such as because, if and instead have to be taught deliberately."
           ],
           "status": "verified",
           "occurrences": [
@@ -602,15 +647,20 @@
               "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-046",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-2-e",
           "question": "Why language is called “dynamic”?",
           "marks": 2,
           "answer": [
-            "Language changes as people use it in new social, cultural and technological situations.",
-            "New words, meanings and patterns can enter use while others become less common; for example, digital communication has introduced new everyday vocabulary."
+            "Language is dynamic because it is alive and keeps changing with the life it is used to describe. New things have to be named, so new words enter it, such as laptop or solar inverter, and old words narrow their sense or disappear when what they named is gone. The practical consequence for us as teachers is that no word list is ever complete, and the vocabulary of a Class III textbook is only a fraction of the language its children already speak."
           ],
           "status": "verified",
           "occurrences": [
@@ -628,17 +678,24 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-039",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-3",
           "question": "“Language plays an important role as carrier of culture and heritage” — Justify the statement.",
           "marks": 4,
           "answer": [
-            "Language preserves stories, songs, proverbs and oral histories that carry community memories.",
-            "Its words and expressions communicate local knowledge, social relationships and cultural practices between generations.",
-            "Using a community language can express identity and belonging, while translation and dialogue allow cultural exchange.",
-            "Schools can invite diverse stories and document them with permission, helping children appreciate heritage without presenting cultures as unchanging or ranking one language above another."
+            "The statement can be justified on two grounds that the syllabus separates deliberately: language records culture, and language carries culture.",
+            "As a record, language preserves a culture in its vocabulary and its sentences. Proverb by proverb the moral code of a community is written down. Folk tales, folk songs, the names of plants and animals, the kinship terms and the words for weaving and fishing hold the whole material life of a people. Language is an archive: place names tell of settlement, loan words tell of trade and contact, and old ritual formulae tell of what was once worshipped.",
+            "As a carrier, it does something an archive cannot. It enacts culture every time it is used. The manner of speaking is itself cultural — forms of address in Assamese differ by age and relationship, certain intonations carry politeness, and the choice of code between two speakers is a cultural act. A child learns what counts as respectful simply by being addressed respectfully for three years.",
+            "The justification sharpens if we ask what is lost when a language is lost. Words such as a mother, a grandmother, a younger sister, a rice-paddy, the first-flood rains, a particular loom or a particular folk song cannot be borrowed without loss, because they mark a way of life. Lose them and you lose the practice, and then the memory.",
+            "This is also why language is a mark of cultural identity. When a school takes away the language a child brings, it is making a statement about who in the community is at home — which is why NEP 2020 and NCF-SE 2023 place the home language at the centre of the foundational stage, and why bringing a folk tale into the classroom is an act of recognition rather than decoration."
           ],
           "status": "verified",
           "occurrences": [
@@ -656,17 +713,25 @@
               "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2025-7",
           "question": "Describe the need of international transmission of language and culture.",
           "marks": 4,
           "answer": [
-            "International exchange allows people to understand experiences, literature and ideas from communities beyond their own country.",
-            "Translation and language learning support education, collaboration and communication while helping people recognise different perspectives.",
-            "Sharing stories, art and local knowledge can sustain cultural expression and challenge stereotypes when communities control how their heritage is represented.",
-            "Such exchange should be reciprocal and respectful, avoiding the assumption that one language or culture must replace another. It complements, rather than substitutes for, transmission within families and local communities."
+            "International transmission of language and culture means the movement of words, meanings, stories and ways of living across national borders, and it is needed for four reasons.",
+            "First, language carries culture, so what travels in the language travels with the culture attached. A proverb brings a whole world with it, a kinship term brings a family structure, a folk song brings a festival. A reader who has only the translated word has the object but not the world, which is why translation always loses something.",
+            "Second, language is a mark of cultural identity, and shared language is what lets a person from another country be met as a person rather than treated as an outsider. Our own Constitution accepts this logic: Article 351 lays a duty on the Union to promote harmony and common enquiry among all the people of India in the mother tongue, and Article 350 allows a member to address the President in an Eighth Schedule language.",
+            "Third, science, medicine, law and commerce have outgrown any single language. A research paper or a treaty has to travel, and it travels best in a language a wide community already reads. This is the practical need for English as R-3 in our own three-language formula, and nobody objects to that on cultural grounds.",
+            "Fourth, for a child in a primary class a second language is a window. A child who meets a story first in Assamese and then in English learns that the world is larger than one classroom, and picks up comparison by the way.",
+            "The caution is real: transmission is not replacement. A Jughon speaker mixing Mising and Assamese, or a tea-garden worker who speaks Sadri at home and Assamese in the bazaar, is using a repertoire, not making a choice. What harms a language is not the foreign language beside it but the disappearance of opportunities to use its own."
           ],
           "status": "verified",
           "occurrences": [
@@ -677,15 +742,20 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-2-b",
           "question": "State two ways in which language helps in acquiring knowledge.",
           "marks": 2,
           "answer": [
-            "Listening and reading give access to other people’s explanations and information.",
-            "Discussion and writing help learners organise ideas, ask questions and explain or revise their reasoning."
+            "First, subject knowledge cannot be had apart from language. Before a child can count he must know the number words, and before he can do a sum he must understand the words in which the problem is written. Second, knowledge is cumulative and social: it is stored in language and handed down in compressed words, so that nobody has to discover afresh that water boils or that a seed grows."
           ],
           "status": "verified",
           "occurrences": [
@@ -696,7 +766,13 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-033",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -1073,7 +1149,7 @@
           "question": "What is the central vowel phone of Assamese language?",
           "marks": 1,
           "answer": [
-            "The open central vowel /a/, commonly represented by আ, in the conventional eight-vowel description of standard Assamese."
+            "The central vowel phoneme of Assamese is /a/, written অ. It is realised with a rather open, central quality, and unlike many Indian languages it can occur in any syllable position, not only in the first."
           ],
           "status": "verified",
           "occurrences": [
@@ -1084,14 +1160,20 @@
               "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-027",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-1-e",
           "question": "What is the full form of LAD?",
           "marks": 1,
           "answer": [
-            "Language Acquisition Device, a theoretical construct associated with Chomsky’s account of language acquisition."
+            "LAD stands for Language Acquisition Device, the term used by Chomsky for the inborn mental structure that makes every normal child able to acquire any human language, given enough exposure to it."
           ],
           "status": "verified",
           "occurrences": [
@@ -1102,15 +1184,20 @@
               "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-030",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-2-b",
           "question": "Write two differences between phonetics and phonology?",
           "marks": 2,
           "answer": [
-            "Phonetics studies how speech sounds are produced, transmitted and perceived; phonology studies how sounds function and are patterned in a particular language.",
-            "Phonetics can describe physical differences between two pronunciations, while phonology asks whether those differences distinguish meaning or are predictable variants within that language."
+            "Phonetics studies speech sounds as they are actually produced, describing how the vocal organs work and dealing with accent, clarity and mumbling; it is concerned with production. Phonology studies the same sounds as a system, asking which sounds the language treats as different and which sequences it permits. So phonetics describes how bat is actually pronounced, while phonology explains why bat, pat and rat are three different words."
           ],
           "status": "verified",
           "occurrences": [
@@ -1128,16 +1215,22 @@
               "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-049",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-4",
           "question": "Explain the importance of story telling for the development of speaking skill of children.",
           "marks": 3,
           "answer": [
-            "Listening to and retelling stories provides meaningful vocabulary and sentence patterns in context.",
-            "Children practise sequencing events, explaining characters’ actions and using voice or gesture for an audience.",
-            "Supportive pair retelling and open questions encourage participation and confidence; familiar languages and pictures help children contribute without memorising an identical script."
+            "Storytelling is one of the cheapest and most powerful ways to develop children's speaking skill, and it is on the syllabus as part of the compulsory literary activity.",
+            "It builds vocabulary in context. A child hearing a story meets words such as “hesitated” or “succeeded” attached to a person and a happening, and later uses them the same way. It builds sentence length and structure, because a story cannot be told in single words — the child must join an action to a reason with “because” and “so”. It builds sequencing, which is the same skill as organising a paragraph.",
+            "It also develops voice and audience. A teller must be heard, must pause at the right moment and must change tone for a comic character. And it builds confidence, because a story gives the child something to stand behind; the child is not speaking about themselves, and that freedom is exactly what the silent child needs. So I record stories in the mother tongue as well, and give every teller a real audience task."
           ],
           "status": "verified",
           "occurrences": [
@@ -1148,15 +1241,23 @@
               "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-017",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-7",
           "question": "Prepare a table of the vowel phone of Assamese language according to the position and place of the tongue while pronouncing.",
           "marks": 4,
           "answer": [
-            "The table presents a conventional eight-oral-vowel analysis of standard Assamese, classified by tongue height and front–back position.",
-            "These are speech sounds, not a count of written vowel letters. Actual vowel qualities and inventories vary across Assamese varieties; IPA transcriptions can also differ between descriptions."
+            "A vowel phoneme is judged by two things: the place of the tongue in the mouth, and the degree of its opening or height. Where the tongue stands decides front, central or back; how high or low it stands decides close, close-mid, open-mid or open. Rounding separates the back vowels from the front ones in an otherwise parallel pair.",
+            "| Vowel phoneme | Usual Assamese spellings | Position of the tongue | Height of the tongue | Rounding |\n|---|---|---|---|---|\n| /i/ | ি, ঈ | front | close | none |\n| /e/ | ে, এ | front | close-mid | none |\n| /ɛ/ | short e, chiefly in borrowed words | front | open-mid | none |\n| /a/ | অ, আ, া | central | open | none |\n| /ɔ/ | short o, chiefly in borrowed words | back | open-mid | rounded |\n| /o/ | ো, ও | back | close-mid | rounded |\n| /u/ | ু, ঊ | back | close | rounded |\n| /əi/ (diphthong) | ঐ, ৈ | front, closing towards the centre | moves from /e/ to /i/ | none |\n| /ɔi/ (diphthong) | in borrowed words | back, closing towards the centre | moves from /o/ to /i/ | rounding at the start |\n| /ɛ̃/, /õ/ (nasalised) | a vowel with ঁ or ং attached | as the base vowel, but air escapes through the nose | as the base vowel | as the base vowel |",
+            "Two points belong with the table. First, the exact inventory is given a little differently in different linguistic descriptions, particularly over the short e and short o of borrowed words. What is not in dispute — and what an answer should make clear — is the shape of the system: a front unrounded series at three heights, a central open a, and a back rounded series at three heights, with diphthongs closing towards i.",
+            "Second, phonemes are not letters. Assamese is written in the Baamuniya script, where a written vowel sign need not correspond one-to-one with a phoneme. That gap is precisely what phonics has to bridge in Class I, and the table is what the child must learn to hear before the mapping to print is attempted."
           ],
           "status": "verified",
           "occurrences": [
@@ -1168,50 +1269,19 @@
               "verification": "visually-checked-original"
             }
           ],
-          "tables": [
-            {
-              "caption": "Conventional Assamese oral-vowel classification",
-              "headers": [
-                "Tongue height",
-                "Front",
-                "Central",
-                "Back"
-              ],
-              "rows": [
-                [
-                  "Close / high",
-                  "/i/",
-                  "—",
-                  "/u/"
-                ],
-                [
-                  "Close-mid",
-                  "/e/",
-                  "—",
-                  "/o/"
-                ],
-                [
-                  "Open-mid",
-                  "/ɛ/",
-                  "—",
-                  "/ɔ/"
-                ],
-                [
-                  "Open / low",
-                  "—",
-                  "/a/",
-                  "/ɒ/"
-                ]
-              ]
-            }
-          ]
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-016",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-1-a",
           "question": "Write any two primary elements of language.",
           "marks": 1,
           "answer": [
-            "Speech sounds and meaningful units such as words are two basic elements of language."
+            "The two primary elements are speech sounds, organised into the phonemes that distinguish one word from another, and words, the smallest units that carry meaning on their own. Words in turn combine under grammatical rules to make sentences."
           ],
           "status": "verified",
           "occurrences": [
@@ -1222,14 +1292,20 @@
               "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-022",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-1-b",
           "question": "What is the trilled sound of Assamese language?",
           "marks": 1,
           "answer": [
-            "The rhotic /r/, represented by ৰ; its actual pronunciation may be a tap or trill depending on the speaker and context."
+            "The trilled sound of Assamese is র, the letter r. It is a clear trill at the beginning of a word and after certain consonants such as ড় and ঢ়, but in other positions it is realised as a soft flap, a quick tap of the tongue."
           ],
           "status": "verified",
           "occurrences": [
@@ -1240,15 +1316,20 @@
               "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-023",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-2-c",
           "question": "What is “aspirated sound”? What are the “aspirated sounds of Assamese Language”?",
           "marks": 2,
           "answer": [
-            "An aspirated stop has a noticeable release of breath; voiced counterparts are commonly described as breathy-voiced or voiced aspirated stops.",
-            "In the standard Assamese stop inventory, the six aspirated counterparts are খ /kʰ/, ঘ /ɡʱ/, থ /tʰ/, ধ /dʱ/, ফ /pʰ/ and ভ /bʱ/. This is a sound inventory, not a count of all traditional Sanskrit-derived letters."
+            "An aspirated sound is produced with a puff of breath immediately after the stop is released, so the air is heard as a small hiss. Assamese has five aspirated sounds: খ (kh), গ (gh), ছ (chh), ঢ় and জ (jh). Assamese is unusual in keeping voiced aspirates, which Bengali and Hindi have lost, and this is one reason Assamese has a slightly larger consonant inventory than its close relatives."
           ],
           "status": "verified",
           "occurrences": [
@@ -1266,16 +1347,22 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-040",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-3-a",
           "question": "“Language acquisition and language learning is complementary to each other” — explain the statement.",
           "marks": 3,
           "answer": [
-            "Acquisition refers to developing language through meaningful use and interaction, while deliberate learning involves focused attention to forms and strategies.",
-            "A classroom can combine conversation, stories and purposeful reading with useful explanations, feedback and practice.",
-            "For example, children may acquire expressions during role play and then discuss a recurring sentence pattern. These processes can support each other; they are not restricted respectively to first and additional languages."
+            "Acquisition and learning are not rivals; each does what the other cannot.",
+            "Acquisition is how the first language arrives. It is natural, implicit and incidental — the child picks it up in ordinary family life, from need and interaction, with no textbook and no correction. The child is a full speaker with authority, and the volume of talk around it is enormous. Learning, by contrast, is explicit and deliberate: the school language is taught from a textbook, with rules, exercises and reward, and the child is a learner, often a slow and silent one.",
+            "They are complementary for three reasons. First, acquisition builds the scaffolding — the home language is where everyday talk, questions and stories happen, and within that scaffolding concepts are first formed; discard it in a hurry and the child cannot climb. Second, Cummins' interdependence hypothesis holds that proficiency developed in one language transfers to another. Third, the stages themselves are common to both — one-word, two-word, basic structures, complex structures. Only the pace differs."
           ],
           "status": "verified",
           "occurrences": [
@@ -1286,17 +1373,23 @@
               "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-4",
           "question": "What do you mean by home language and school language? What should be the role of a language teacher in transforming home language to school language?",
           "marks": 4,
           "answer": [
-            "Home language means the language or languages used in family and everyday home life; school language is used for instruction and school activities. They may overlap or differ.",
-            "Learn about children’s existing language resources and welcome them in conversation, stories and initial explanations.",
-            "Connect familiar meanings to school-language words using pictures, objects, bilingual support and purposeful peer interaction.",
-            "Provide gradual practice and supportive feedback while retaining respect for home languages. Transition means adding access to the school language, not replacing or devaluing the language of home."
+            "The home language, or mother tongue (matribhasa), is the language a child acquires first, naturally and without formal teaching, in ordinary family life. The school language is the language in which the school teaches, in which the textbook is written, in which the teacher explains and in which the child is examined. For an Assamese-medium school in Assam the school language is normally Assamese, and the two are frequently different.",
+            "The difference shows in almost every respect. The home language is picked up in the family and community, incidentally, by need and interaction; the school language is learned in a classroom, from a textbook, deliberately and by examination. The child is a full speaker with authority at home and a silent, slow learner in school. Their values differ too: the home language is the foundation, giving linguistic security, identity and continuity; the school language is the instrument, giving access to the curriculum and the examination.",
+            "The two are colleagues with different jobs, not rivals. The home language gives the scaffolding — everyday talk, questions, stories and songs — inside which concepts are first formed. The school language opens the printed curriculum. A programme that discards the first in a hurry to install the second removes the scaffolding and then finds the child cannot climb.",
+            "My role as a language teacher is fourfold. I begin from what the child has, using the home language to explain and letting the child bring words and stories from it. I bridge deliberately by translanguaging: explain in the home language, give the school-language term, ask the child to use it in a sentence of his own. I give time and comprehensible input — slower, literal speech tied to visible things, and two or three years of exposure before expecting fluency. And I accept the temporary silence, reading a child who reverts to the home language as a bilingual child in a normal stage. What I will not do is withdraw the home language early in the hope of speeding the transfer. It does the opposite."
           ],
           "status": "verified",
           "occurrences": [
@@ -1307,14 +1400,20 @@
               "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-1-b",
           "question": "Give a definition of speech sound.",
           "marks": 1,
           "answer": [
-            "A speech sound is a sound produced by the human vocal apparatus and used in spoken language."
+            "In language, a sound is the smallest element produced by the vocal apparatus and perceived by the ear. Sounds are the raw material of speech, which a language organises into phonemes, words and sentences, so that speech is built out of them."
           ],
           "status": "verified",
           "occurrences": [
@@ -1332,14 +1431,20 @@
               "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-1-d",
           "question": "What is unaspirated sound?",
           "marks": 1,
           "answer": [
-            "An unaspirated stop is released without the strong accompanying puff of breath characteristic of an aspirated stop."
+            "An unaspirated sound is produced with a clean stoppage of the airflow and no puff of breath after the release of the stop. In Assamese, ক, ট and ত are unaspirated, in contrast with খ and ছ, which carry a breath."
           ],
           "status": "verified",
           "occurrences": [
@@ -1350,15 +1455,20 @@
               "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-020",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-2-c",
           "question": "How does a child’s home language influence in learning school language?",
           "marks": 2,
           "answer": [
-            "The home language provides concepts, experiences and communicative strategies that can support learning in another language.",
-            "Differences in vocabulary, sounds or grammar may require explicit connections and practice, but the teacher should build on this foundation rather than regard it as an obstacle to remove."
+            "The home language gives the child the scaffolding in which concepts first form, through everyday talk, questions, stories and songs, so a new subject arrives as an addition to what is already understood. It also gives confidence, since a child who is answered in his own language is willing to risk a wrong answer. This is why withdrawing the home language early does not speed the transition; it removes the security, and the school language is then learnt more slowly, not faster."
           ],
           "status": "verified",
           "occurrences": [
@@ -1369,17 +1479,25 @@
               "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-048",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-5",
           "question": "Design a suitable activity to assess the listening skill of students in the lower primary level.",
           "marks": 4,
           "answer": [
-            "Tell a short age-appropriate story in a familiar instructional language, checking that children can hear and that unfamiliar vocabulary does not dominate the task.",
-            "Ask children to arrange three or four picture cards in the order they heard, so the task does not depend mainly on reading or handwriting.",
-            "Invite a simple response about a character or event, accepting pointing or another accessible response where appropriate, and note understanding of sequence and detail.",
-            "Record the support provided and use the result to plan further listening opportunities. Repeat observations rather than make a broad judgement from one story."
+            "Here is an activity I would actually run in a Class II classroom. It is called the Listening Corner, and it takes about twenty-five minutes.",
+            "Aim. To find out whether the children can attend to an oral message, hold it in mind and act on it — which is what listening actually is in a classroom.",
+            "Material. A card with a simple picture on it, kept from the class; three or four objects or pictures on the table; an assessment chart with three columns.",
+            "Procedure. In the warm-up, the teacher says a familiar line from the folk song the class has been learning, and the children clap when they hear it; three minutes, and everyone’s ears are on. In the main task the teacher speaks for one minute without interruption. It is connected talk, not a list: how to fold a paper boat, what a shopkeeper said, or a short account of the first-flood rains in the village. Then the children do three things in order, so the memory load stays small: they point to or draw what was described, they answer three oral questions, and they carry out two instructions from it — for instance, placing three pictures in the order given. Finally the talk is heard a second time and each child adds one thing missed, which shows whether the earlier failure was of attention or of comprehension.",
+            "What is assessed. I record three things per child: how many of the three questions were answered, how many of the two instructions were carried out correctly, and whether the second hearing was needed. That record separates attention, vocabulary and memory, which are three problems with three different remedies.",
+            "Why it suits the lower primary level. Listening needs no script and no reading ability, so no child is excluded for what he cannot yet do on paper, and the response is physical as well as verbal, so a shy child can succeed by pointing."
           ],
           "status": "verified",
           "occurrences": [
@@ -1390,14 +1508,20 @@
               "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2024-1-b",
           "question": "How many vowels in Assamese language?",
           "marks": 1,
           "answer": [
-            "Standard Assamese is commonly described as having eight oral vowel phonemes: /i, e, ɛ, a, ɒ, ɔ, o, u/. Vowels are produced without a consonant-like obstruction of airflow. This counts speech sounds, not traditional written vowel letters."
+            "Assamese has eleven vowel sounds: অ, আ, ই, ঈ, উ, ঊ, এ, ঐ, ও, ঔ and ঋ. If the nasalised vowels য় and ৰ are counted as separate, many grammars give the number as twelve."
           ],
           "status": "verified",
           "occurrences": [
@@ -1415,17 +1539,23 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2024-4",
           "question": "Which skills of language are known as “active and productive skill” and why?",
           "marks": 4,
           "answer": [
-            "Speaking and writing are conventionally called productive language skills.",
-            "Speaking creates spoken messages for purposes such as explaining, requesting and discussing.",
-            "Writing creates written messages, requiring selection and organisation of ideas for readers.",
-            "They are called productive because the learner produces language. Listening and reading are termed receptive, but they also involve active interpretation; they are not mentally passive activities."
+            "The four basic skills of language divide into two pairs, and the division turns on what the learner does with the language. Speaking and writing are the active or productive skills, because the learner produces language. Listening and reading are the receptive or passive skills, because the learner receives and interprets language that somebody else has produced.",
+            "Speaking is productive because the speaker generates the sounds, arranges them into words and sentences and puts meaning into them for somebody else. Nothing is given to the speaker; the utterance is built from nothing in the moment of speaking. It is the hardest of the four for a second-language learner, because planning and execution happen together — the child must choose the word, remember the rule, pronounce it and hear the effect all at once.",
+            "Writing is productive in the same way, with the difference that execution can be slowed down and revised. The writer produces a visible record that nobody else will correct unless the writer does, which is where grammar, organisation and precision are genuinely tested.",
+            "Why the naming matters. These terms are not a ranking; an active skill is not better than a receptive one, only a different relation to language. But the classroom implication is serious, because productive skills can only be learned by using them. A child cannot learn to speak a language by being told about speaking. Every function must be given an occasion: to teach the language of negotiation, give children a real disagreement about who does which task and make them resolve it; to teach narrative, give them a sequence to order; to teach description, give them an object to describe to a partner who cannot see it. That is why the compulsory practicum activity is a debate, an extempore speech, a storytelling and a role play — in all four the speaker must hold a position, give a reason, answer a challenge and read an audience."
           ],
           "status": "verified",
           "occurrences": [
@@ -1436,17 +1566,26 @@
               "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2024-5",
           "question": "Write the role of a teacher in transition of home language to school language.",
           "marks": 4,
           "answer": [
-            "Find out which languages and varieties children already use and build a welcoming classroom where these are valued.",
-            "Connect familiar ideas and words with school-language expressions through objects, stories, pictures and bilingual explanations where available.",
-            "Provide gradual opportunities for conversation, shared reading and purposeful writing, using peer support and gentle feedback without shaming accents or early errors.",
-            "Observe understanding and participation, adapt support and involve families. The goal is an additive transition that expands language access rather than suppresses the home language."
+            "The transition from home language to school language is a period and not a moment, and the teacher’s work is to walk the child across it without destroying the scaffolding on the other side.",
+            "First, diagnose and respect the home language. Find out what each child speaks and with whom. A child who speaks Bodo with a grandmother, Assamese in the shop and Mising with a friend is not confused; the child is sorting languages by situation, and that awareness is an asset the teacher should name openly.",
+            "Second, expect the dip and read it correctly. During the transition the child understands a great deal but answers in short phrases, reverts to the home language when the school language fails, and avoids tasks that need speech. This is the normal stage of a bilingual child, not a child who cannot learn.",
+            "Third, give comprehensible input — slower than usual, literal, in short sentences, with every new word tied to something the child can see or hold.",
+            "Fourth, bridge rather than replace. Explain the task first in the language the child has, then move to the school language for the key terms. This planned movement is translanguaging; the content is the goal, not the code of explanation.",
+            "Fifth, give time and keep the home language alive. Two or three years of sustained exposure are needed, and withdrawing the home language early does not speed the crossing — it removes confidence, so the school language is then learned more slowly.",
+            "Two habits do more than the rest: allow a first response in the home language, accept pointing and gesture, and never put a silent child on the spot; and correct meaning first and form gently, reading interference as evidence of what the child knows."
           ],
           "status": "verified",
           "occurrences": [
@@ -1457,14 +1596,20 @@
               "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2025-1-b",
           "question": "What is the smallest unit of language?",
           "marks": 1,
           "answer": [
-            "For the sound system, a phoneme is the smallest contrastive unit. The smallest meaningful grammatical unit is a morpheme; the distinction matters because the question does not specify “sound” or “meaning”."
+            "The phoneme is the smallest unit of sound in a language that can change the meaning of a word. In mat, pat and rat only the initial consonant changes, and the meaning changes with it, so that consonant is a phoneme."
           ],
           "status": "verified",
           "occurrences": [
@@ -1475,16 +1620,22 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2025-3",
           "question": "How can foundational literacy and numeracy be acquired at the elementary level.",
           "marks": 3,
           "answer": [
-            "Develop oral language, sound awareness, sound–symbol knowledge and reading with understanding through systematic support alongside stories and meaningful texts.",
-            "Build number sense through counting, comparing, grouping and solving simple problems with concrete materials and everyday situations.",
-            "Use familiar languages, accessible activities and ongoing observation to provide timely support, connecting reading, writing and mathematical understanding rather than relying only on memorisation."
+            "Foundational Literacy and Numeracy (FLN) is the early stage in which every child acquires the basic capabilities of reading, writing, speaking and number to the level required for further learning. Under NEP 2020 it is the first priority area of the foundational stage, because a child who cannot read, write and count cannot do anything else in school. The national mission is NIPUN Bharat, whose guidelines came in 2022.",
+            "I would build the period around the twelve competencies NIPUN Bharat lists: oral skills, decoding (print concepts, phonemic awareness) and encoding (forming letters and composing words); counting and cardinality, and operations done with meaning using real objects.",
+            "So reading begins with phonics taught in the language the child already speaks, starting with letters in a meaningful context such as the child's own name, then regular three-phoneme words, holding irregular words back. Emergent writing is respected — squiggles and repeated marks come before joined letters. And counting is done with seeds and stones, with the child saying the story behind the answer."
           ],
           "status": "verified",
           "occurrences": [
@@ -1495,17 +1646,24 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2025-4",
           "question": "What is phonetics and phonology? Explain.",
           "marks": 4,
           "answer": [
-            "Phonetics studies the production, acoustic properties and perception of speech sounds.",
-            "For example, it describes how the lips and airflow produce /p/ or how voicing differs between sounds.",
-            "Phonology studies the organisation and meaningful contrasts of sounds within a language, including patterns of their combination.",
-            "For example, English /p/ and /b/ distinguish pat and bat, while some variations in the pronunciation of /p/ do not create a different word. Teachers use both perspectives to understand pronunciation without treating every accent difference as an error."
+            "Both terms belong to the sound level of language. The difference between them is the difference between a sound as a physical event and a sound as a unit of a system.",
+            "Phonetics studies speech sounds as they are actually produced by the vocal organs. It asks how a sound is made — where the tongue, lips and velum sit, whether the vocal cords vibrate, how the air is released. The p of pat and the b of bat differ because the cords do not vibrate in the first and do in the second. Phonetics is description and measurement, and it is what a teacher reaches for when clearing a child’s mumbling.",
+            "Phonology studies the same sounds as a system. It asks not how a sound is made but which sounds the language treats as different, and which sequences are permitted. Its central unit is the phoneme — the smallest unit of sound that can change the meaning of a word. In bat, pat, rat and mat the initial consonant does exactly that work: change it and the meaning changes while the rest stands still. Such sounds are contrastive or phonemic.",
+            "Other sounds do no such work. The clear l at the end of milk, where the grammar expects a nasal, is a predictable variant; both are allophones of one phoneme, and the child treats them as one. A language’s phoneme inventory is therefore finite and countable — commonly between twenty and several dozen — while its word list runs into thousands. That efficiency is what makes the phoneme the true atom of spoken language.",
+            "The classroom consequence is direct. Phonics teaches the grapheme–phoneme relationship, turning the arbitrary mark on the page into a sound and so into a meaning; and because the correspondence is not one-to-one, it is a set of recurring patterns that must be learnt in the language the child is actually reading."
           ],
           "status": "verified",
           "occurrences": [
@@ -1516,14 +1674,20 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-1-f",
           "question": "What are the structures of language?",
           "marks": 1,
           "answer": [
-            "Major structural levels include phonology (sound patterns), morphology (word structure) and syntax (sentence structure); semantics concerns meaning and pragmatics concerns use in context."
+            "Language has a chain structure of levels: phonetics and phonology at the sound level, orthography and phonics at the written level, morphology for meaningful word parts, lexis for vocabulary, syntax for the arrangement of words, and semantics and pragmatics for meaning and meaning in use."
           ],
           "status": "verified",
           "occurrences": [
@@ -1534,15 +1698,20 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-2-c",
           "question": "What is meant by home language?",
           "marks": 2,
           "answer": [
-            "Home language refers to the language or languages a child uses in family and everyday home interactions.",
-            "It carries familiar meanings and experiences that can support school learning; it may be different from the language or standard variety used for instruction."
+            "The home language, or mother tongue (matribhasa), is the language a child acquires first, naturally and without formal teaching, in ordinary family and community life. It is learnt by need, interaction and sheer volume of talk rather than from a textbook, and it gives the child linguistic security, authority and identity. In an Assamese-medium school the home language and the school language are often two different languages, and the gap between them is the real difficulty."
           ],
           "status": "verified",
           "occurrences": [
@@ -1553,15 +1722,20 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-034",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-2-d",
           "question": "What is Foundational Literacy and Numeracy (FLN)?",
           "marks": 2,
           "answer": [
-            "Foundational literacy is the ability to understand and use basic oral and written language, including reading with meaning.",
-            "Foundational numeracy is the ability to understand and use numbers and basic mathematical ideas in simple everyday problems; both support further learning."
+            "Foundational Literacy and Numeracy is the early stage of schooling in which every child acquires the basic capabilities of reading, writing, speaking and number, to the level needed for further learning. NEP 2020 makes it the first priority area for the foundational stage, on the ground that a child who cannot read, write and count cannot do anything else in school. The national mission for it is NIPUN Bharat, whose guidelines came out in 2022."
           ],
           "status": "verified",
           "occurrences": [
@@ -1572,15 +1746,20 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-035",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-2-e",
           "question": "What is phonology?",
           "marks": 2,
           "answer": [
-            "Phonology studies how speech sounds are organised and function within a language.",
-            "It examines meaningful sound contrasts and patterns, such as which sound combinations are possible, rather than only the physical production of individual sounds."
+            "Phonology is the study of language as a system of sounds. Instead of asking how a sound is produced, it asks which sounds the language treats as different and which sequences of them it permits. Its central unit is the phoneme, the smallest unit of sound that can change the meaning of a word, as in mat, pat and rat. Phonetics studies actual production; phonology studies the pattern."
           ],
           "status": "verified",
           "occurrences": [
@@ -1591,15 +1770,20 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-036",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-2-g",
           "question": "Write any two objectives of Foundational Literacy given by NEP 2020.",
           "marks": 2,
           "answer": [
-            "Develop the ability to read basic text with understanding, rather than merely pronounce words.",
-            "Develop basic writing and oral-language abilities that allow children to express ideas and participate in further learning."
+            "NEP 2020 states two linked objectives. The first is universal foundational literacy and numeracy, so that every child learns to read and write with actual fluency by Grade 3 rather than merely reciting the alphabet, and becomes numerically capable by Grade 5. The second is reducing learning gaps: a Foundational Literacy and Numeracy cell in every district is to work with a national mission, so that the child who is worst served gets the most attention."
           ],
           "status": "verified",
           "occurrences": [
@@ -1610,16 +1794,21 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-038",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-3-b",
           "question": "Describe how children move from home language to school language.",
           "marks": 3,
           "answer": [
-            "Children begin with familiar meanings, experiences and communicative skills developed through home interactions.",
-            "Teachers connect these resources with school-language expressions through conversation, pictures, stories and bilingual or peer support where suitable.",
-            "With meaningful practice and feedback, children gradually participate in school-language reading, writing and discussion while continuing to value and use their home languages."
+            "The home language (matribhasa) is what a child acquires first, naturally and informally, in family life. The school language is the one in which the textbook is written and the child examined — normally Assamese in an Assamese-medium school. They have different jobs: the home language gives the linguistic scaffolding within which concepts are first formed, while the school language opens the printed curriculum.",
+            "The transition from one to the other is a period, not a moment. During it the child understands a great deal but answers in short phrases, reverts to the home language when the school language fails, and avoids tasks needing speech. A well-informed teacher reads this as the normal stage of a bilingual child, not as a child who cannot learn. Three things make it go well — time, two or three years of sustained exposure; understandable input, slower and tied to things the child can see; and continued use of the home language. Withdrawing the home language early does not speed the transition, it removes the child's confidence."
           ],
           "status": "verified",
           "occurrences": [
@@ -1630,7 +1819,13 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-002",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -2023,7 +2218,7 @@
           "question": "Name the only tribal language of Assam which is recognised by the constitution of India.",
           "marks": 1,
           "answer": [
-            "Bodo (Boro) is the intended answer in this Assam-focused question and is listed in the Eighth Schedule. The wording “only tribal language” should not be treated as a claim that no other tribal language has constitutional recognition: Santali is also scheduled."
+            "Bodo. It was placed in the original Eighth Schedule of the Constitution in 1950 and is the only tribal language so recognised, though Assamese, spoken by many tribal people, is classed under the Indo-Aryan branch."
           ],
           "status": "verified",
           "occurrences": [
@@ -2041,14 +2236,20 @@
               "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-016",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-1-d",
           "question": "Which core linguistic family does Assamese language belongs to?",
           "marks": 1,
           "answer": [
-            "Assamese belongs to the Indo-Aryan branch of the Indo-European language family."
+            "Assamese belongs to the Indo-Aryan branch of the Indo-European family of languages, historically descended from Sanskrit through Prakrit and Apabhramsha, which is why it is classed with Bengali and Hindi."
           ],
           "status": "verified",
           "occurrences": [
@@ -2059,15 +2260,20 @@
               "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-029",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-2-c",
           "question": "Write two suggestions according to NCF-2005 about multilingualism.",
           "marks": 2,
           "answer": [
-            "Treat children’s existing languages as a resource for classroom learning rather than a problem to eliminate.",
-            "Use the home language as an important foundation and create opportunities to learn additional languages, supporting understanding and participation in a multilingual classroom."
+            "NCF 2005 makes two recommendations. First, the home language or mother tongue should be the medium of instruction at least until the early elementary stage, and certainly in the foundational years, so that the child learns concepts in a language already under command. Second, schools should build a multilingual environment in which children learn several languages, use each for its own purpose, and respect the languages the community speaks, rather than treating the home language as a handicap to be corrected."
           ],
           "status": "verified",
           "occurrences": [
@@ -2078,15 +2284,20 @@
               "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-060",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-2-d",
           "question": "Briefly explain about “Three language formula”.",
           "marks": 2,
           "answer": [
-            "The three-language formula is an educational approach to learning three languages so that regional or home-language development is accompanied by wider communication and multilingual understanding.",
-            "The traditional pattern includes Hindi, English and a modern Indian language in Hindi-speaking states, and the regional language, Hindi and English in non-Hindi-speaking states. NEP 2020 allows flexible choices, with at least two languages native to India and no imposed language."
+            "R-1 is the regional language of the State, R-2 is the mother tongue or local language of the child, and R-3 is a modern European or foreign language, in India ordinarily English. The formula was recommended by the Kothari Commission, 1964-66, and adopted nationally in the National Policy on Education, 1968. In Assam, R-1 is Assamese, R-2 is the child's own language such as Bodo or Mising, and R-3 is English."
           ],
           "status": "verified",
           "occurrences": [
@@ -2111,16 +2322,24 @@
               "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-044",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-5",
           "question": "Write the challenges in a multilingual classroom while using school language among the learners.",
           "marks": 3,
           "answer": [
-            "Children may understand concepts but struggle with unfamiliar vocabulary and instructions in the school language.",
-            "A teacher may not know every home language, and suitable multilingual materials or interpretation support may be limited.",
-            "Unequal status given to languages can discourage participation or produce ridicule; these are barriers in classroom provision and attitudes, not evidence that multilingual children are deficient."
+            "When the school language is used with children who do not yet have it, six difficulties recur, and each has a practical answer.",
+            "The silent child, who understands but does not answer, replies in one word and looks at the floor. Allow a first response in the home language, accept gesture and pointing, give processing time, and never force an oral answer before the class.",
+            "The child who “makes mistakes” — interference from L1 and mixed sentences are normal here. Treat them as evidence of what the child knows, and correct meaning first and form gently.",
+            "Ridicule by peers, which silences a child for good. Make the multilingualism useful in public by asking that language for a word, and make respect a class norm.",
+            "Accent and script, where Bamuniya-style or Roman forms are marked wrong. Accept the child's script for a draft and teach the school script through phonics. And blocked concepts: explain the task in the home language first, because the content is the goal, not the code."
           ],
           "status": "verified",
           "occurrences": [
@@ -2131,14 +2350,20 @@
               "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-018",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-1-c",
           "question": "Mention the name of a language of Sino-Tibetan language family found in Assam.",
           "marks": 1,
           "answer": [
-            "Bodo (Boro), a Tibeto-Burman language within the Sino-Tibetan family."
+            "Bodo. It belongs to the Sino-Tibetan, or Tibeto-Burman, family and is spoken mainly in Bodoland and northern Assam, with Mising, Karbi and the languages of the hill districts belonging to the same family."
           ],
           "status": "verified",
           "occurrences": [
@@ -2149,15 +2374,20 @@
               "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-024",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-2-e",
           "question": "Write the provisions provided by Indian constitution about Language.",
           "marks": 2,
           "answer": [
-            "Article 29(1) protects the right of a section of citizens with a distinct language, script or culture to conserve it.",
-            "Article 350A directs states and local authorities to endeavour to provide adequate mother-tongue instruction facilities at the primary stage for children belonging to linguistic minorities."
+            "Article 345 provides that only Hindi and English shall be used for the official purposes of the Union, with the President free to specify others by rules; that is why central documents reach an Assamese school in English or Hindi. Article 350B declares that the languages specified in the Eighth Schedule are the languages recognised by the Constitution, and the Eighth Schedule now lists 22 languages, Assamese among them."
           ],
           "status": "verified",
           "occurrences": [
@@ -2189,18 +2419,24 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-041",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-5",
           "question": "What is multilingualism? Discuss the strategies to be undertaken by language teacher in using multilingualism as a resource in the language classroom.",
           "marks": 5,
           "answer": [
-            "Multilingualism is the use or development of more than one language within a person or community; competence can vary across purposes and languages.",
-            "Learn which languages children use, welcome their contributions and prevent ridicule so that linguistic knowledge becomes a resource for participation.",
-            "Use familiar stories, songs and carefully checked multilingual labels to connect new words with existing meanings, rather than require immediate understanding of an unfamiliar language.",
-            "Organise purposeful peer discussion and comparison of expressions, with shared explanations so no group is excluded and no child is made a permanent interpreter.",
-            "Link these experiences to supported reading, writing and school-language development, assessing understanding separately from avoidable language barriers and involving families where useful."
+            "Multilingualism is the condition in which more than one language is in use in a community or a setting, and in which more than one is needed for full participation. A multilingual classroom is one in which those languages are the medium through which culture, relationship and learning go on; it is better described as multilingual than as multicultural. A class in Assam may hold Assamese, Bodo, Mising, Hindi, Bengali and a tea-garden language in a morning.",
+            "Three things distinguish a genuinely multilingual classroom from an ordinary class that happens to contain children of several languages. The languages are additive and not remedial — a language the child brings enlarges the school’s repertoire instead of correcting a deficit, and there is no weak language and strong language, only different ones. Their functions are distributed, so one language may carry explanation and another affection or play. And all of them are used deliberately, for content, comparison and enrichment.",
+            "The strategies I would take up as a language teacher are these.",
+            "- For content, let the child explain a concept first in the language in which the child knows it best, and then bridge to the school language. This planned movement is translanguaging, not random code-switching.\n- For vocabulary, hold the children’s own words beside the textbook word. Ask each child to bring the name in their home language of a plant, a bird, a food or a tool, and put them all on the word wall.\n- For grammar, put two languages side by side and let the children find where they differ in word order, in how tense is marked, or in which script is used. More than one language means more than one set of comparisons, and comparison is the origin of grammar, so grammar becomes visible as something languages do differently rather than as an arbitrary list of rules.\n- For literature, treat a folk tale told in a home language as a text to be analysed, not as a distraction.\n- For assessment, allow a child who cannot yet write in the school language to dictate and credit the content, or the examination measures the child’s English instead of the child’s history.\n- For social relations, use structured pair work across language groups, so every child has to use the school language for a real purpose.\n- For materials, make them yourself. Where no reader or chart exists in a home language, transcribe from the child and the family.",
+            "Two conditions must be stated, or the idea becomes an excuse. There must be a shared language for the classroom’s common purposes, or no lesson can proceed; and the children who do not yet know the school language must be taught it patiently. A classroom that is multilingual but has abandoned the goal of teaching the school language has solved nothing."
           ],
           "status": "verified",
           "occurrences": [
@@ -2211,14 +2447,20 @@
               "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-1-e",
           "question": "In which year, Bodo language was included in the eighth schedule of the constitution of India?",
           "marks": 1,
           "answer": [
-            "It was added by the Constitution (Ninety-second Amendment) Act, 2003, which received presidential assent on 7 January 2004. Thus 2003 is the amendment’s title year; 2004 is the year it became law."
+            "Bodo was in the original Eighth Schedule of the Constitution of India, 1950, one of the fourteen languages listed from the very beginning. It was never added later, unlike Sindhi, Konkani, Manipuri and Nepali."
           ],
           "status": "verified",
           "occurrences": [
@@ -2229,15 +2471,20 @@
               "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-021",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-2-b",
           "question": "Briefly mention the constitutional provisions for regional language of India.",
           "marks": 2,
           "answer": [
-            "Article 345 allows a state legislature to adopt one or more languages in use in the state, or Hindi, for its official purposes, subject to the Constitution.",
-            "Article 29(1) protects conservation of a distinct language, script or culture, supporting linguistic communities alongside arrangements for official use."
+            "Article 345 allows only Hindi and English for the official purposes of the Union, the President naming others by rules, so the regional language of Assam does not travel with central documents. Article 347 obliges every State to endeavour to promote the Eighth Schedule languages and allows Parliament to make special provisions for any language. Article 350 lets a member address the chair in the mother tongue with the Chairman's permission, which is the constitutional basis for treating a regional language as equal."
           ],
           "status": "verified",
           "occurrences": [
@@ -2248,15 +2495,20 @@
               "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-047",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-2-f",
           "question": "Write briefly about the importance of Assamese language as a lingua franca of the North East.",
           "marks": 2,
           "answer": [
-            "Assamese has served as a contact language among different communities in Assam and parts of the wider region, supporting trade, public interaction and cultural exchange.",
-            "Its role varies by place and community; it should not be described as the sole common language of every northeastern state or used to diminish other languages."
+            "Assamese matters as the lingua franca of the North-East because it is spoken over the widest area as both a first and a second language, in the plains and in the tribal districts, and it is the official language of Assam under the 1963 Act. It is the language of the market, the school, the courts and the radio, so it is the language in which speakers of Mising, Karbi, Bodo or Sadri usually meet a stranger. It carries the folk song and folk tale of many communities, so it belongs to everyone who uses it."
           ],
           "status": "verified",
           "occurrences": [
@@ -2267,17 +2519,27 @@
               "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-051",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-4",
           "question": "As a language teacher what are the strategies you will adopt to overcome the challenges faced in using learners mother tongue in a multilingual classroom.",
           "marks": 4,
           "answer": [
-            "Identify children’s home languages and agree that all languages deserve respect, intervening when ridicule or exclusion occurs.",
-            "Use pictures, objects, gestures and multilingual resources to make meanings shared even when the teacher does not speak every language.",
-            "Allow purposeful home-language discussion and peer support, then help children connect ideas with the school language so participation and new-language development both advance.",
-            "Invite appropriate family or community contributions and assess understanding through accessible responses, reviewing which children still lack support rather than assuming one strategy suits everyone."
+            "I treat the languages the children bring as the raw material of the lesson, not as an obstacle to it. Six strategies follow.",
+            "First, find out before teaching. I want to know what each child speaks at home, with whom, and what else the child understands, because what a teacher assumes about a class is usually wrong.",
+            "Second, never punish the mother tongue. I permit a first response in the home language, accept pointing and gesture as answers, give a child time to think before I take the class’s response, and never put a silent child on the spot in front of thirty people. Ridicule from peers stops a child speaking its language at all, and then the scaffold is gone.",
+            "Third, make the plurality public and valued. I ask, deliberately and often, for a word from another language in the room — the name of a plant, a bird, a food, a festival, a tool — and put it beside the textbook word on the word wall. What is asked for is honoured, not tolerated.",
+            "Fourth, bridge deliberately. A child may explain a concept first in the language in which the child knows it best, and I then move to the school language for the key terms and the written work. This planned movement is translanguaging, and it is different from random code-switching.",
+            "Fifth, teach the school script additively. I accept Bamuniya-style or Roman forms in a first draft and move on to the school script by phonics, beginning with the child’s own name.",
+            "Sixth, use my own competence and ask when I lack it. Where I do not speak the child’s language, I invite a parent, an elder or a bilingual older pupil to come and tell a story or teach a greeting.",
+            "For assessment I insist on one thing: a child who cannot yet write in the school language may dictate and must be credited for the content."
           ],
           "status": "verified",
           "occurrences": [
@@ -2288,14 +2550,20 @@
               "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2024-1-d",
           "question": "What is Multilingualism?",
           "marks": 1,
           "answer": [
-            "Multilingualism is the use or development of more than one language by a person or within a community."
+            "Multilingualism is the condition in which more than one language is in use in a community or a setting, and more than one of them is needed for full participation in it. This paper treats it as a resource to be used, not a problem to be solved."
           ],
           "status": "verified",
           "occurrences": [
@@ -2320,16 +2588,23 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2024-7",
           "question": "Discuss the role of a language teacher in a multilingual classroom.",
           "marks": 3,
           "answer": [
-            "Create an inclusive environment that recognises children’s languages and prevents ridicule or unequal participation.",
-            "Use multilingual materials, accessible explanations and purposeful peer interaction to connect existing knowledge with the school language.",
-            "Observe learning fairly, adapt support and involve families, treating linguistic diversity as a resource rather than a reason to lower expectations."
+            "In a multilingual classroom the language teacher is not only a teacher of grammar but a planner and a bridge person.",
+            "As a planner, the teacher first maps the languages actually present — the step the practicum project on the languages of the neighbourhood trains us to do — and then plans for them. A child explains a concept in the language in which they know it best, and the teacher moves it afterwards into the school language. This planned movement is translanguaging, not random code-switching. Children bring their own words for a plant or a tool, and the class holds all of them beside the textbook word.",
+            "As a bridge, the teacher's own competence in two or three of the classroom's languages is a resource no methodology replaces. Where the teacher lacks it, the honest move is to ask — invite a parent, an elder or an older pupil to contribute.",
+            "As a setter of tone, the teacher decides what happens to interference and ridicule: L1 interference is treated as evidence of what the child knows, meaning first and form gently."
           ],
           "status": "verified",
           "occurrences": [
@@ -2340,14 +2615,20 @@
               "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2025-1-e",
           "question": "In which year did “Right to Education Act” came into force in Assam?",
           "marks": 1,
           "answer": [
-            "For Assam’s state implementation rules, the expected year is 2011. Distinguish this from the national RTE Act’s commencement on 1 April 2010; Assam approved and notified its implementing rules in July 2011."
+            "The Right of Children to Free and Compulsory Education Act, 2009 came into force on 1 April 2010, and it applies in Assam as it does everywhere else, making elementary education free and compulsory for children of six to fourteen years."
           ],
           "status": "verified",
           "occurrences": [
@@ -2358,18 +2639,23 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2025-8",
           "question": "Explain the challenges faced by learners’ in using mother tongue in a multilingual classroom.",
           "marks": 5,
           "answer": [
-            "Children may speak different home languages, so a contribution understood by one group may not yet be accessible to others without explanation or support.",
-            "Teachers may lack proficiency in some languages, making it harder to follow children’s ideas and provide precise feedback; suitable materials and community support may also be limited.",
-            "School-language-only expectations or the higher status assigned to one language can make children reluctant to use their mother tongue, weakening participation and confidence.",
-            "Differences in vocabulary, script or grammatical patterns can require careful connections when learners move between home-language discussion and school-language texts.",
-            "Unequal peer grouping or ridicule can further exclude children. These challenges call for inclusive organisation, shared meaning and additional-language support, not the conclusion that mother-tongue use itself is harmful."
+            "A single Assamese-medium class can hold Assamese, Bodo, Mising, Hindi, Bengali and a tea-garden language in one morning, and every one of those children is outnumbered in the language of the school. The challenges they face are of six kinds, and none is the child’s fault.",
+            "- The silent child. The commonest difficulty. The child understands the instruction perfectly but does not answer, or answers in one word, or looks at the floor. This is not stupidity; it is a child with no ready words in the school language who will not risk being laughed at for the few that come.\n- Interference from the first language. Sentences come out mixed, word order follows L1 rather than L2, and local vocabulary appears where the textbook word was expected. Unlike a developmental error in the mother tongue, an interference error persists, because the first system is still fully active.\n- Ridicule from peers. If other children laugh at the home language, the child stops using it, and the school has removed the very scaffolding the child needed.\n- Accent and script. The child writes Bamuniya-style forms or Roman script, is marked wrong for them, and concludes that what it knows is worthless in this room.\n- No material. There may be no reader, no chart, no wall card and no text in the home language, so nothing can be read in it at all.\n- Concepts blocked behind the instruction. The child cannot do the task because the task cannot be understood, and both the subject content and the child’s ability are then marked as absent.",
+            "Two further difficulties sit at the teacher’s level. The transition from home language to school language is a period and not a moment, and during it the amount and quality of the child’s talk falls — it reverts to the home language when the school language fails, avoids tasks needing speech, and can appear to have gone backwards. And the teacher is often the only adult in the room who cannot bridge, because the languages present are not the ones the teacher studied.",
+            "The last of these matters most. A child whose language meets a blank face learns not only that it cannot use the language but that it is not the kind of person who has one. Silencing is not the loss of a vocabulary; it is the loss of a self permitted to exist."
           ],
           "status": "verified",
           "occurrences": [
@@ -2380,16 +2666,22 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-3-c",
           "question": "Explain the importance of multilingual classrooms.",
           "marks": 3,
           "answer": [
-            "Recognising children’s languages supports belonging and makes their existing knowledge available for learning.",
-            "Comparing and using languages can develop awareness of how language works and broaden communication across communities.",
-            "Inclusive multilingual practice helps children access new languages and subject content without requiring them to abandon home-language identity; benefits depend on supportive teaching, not diversity alone."
+            "Multilingualism means more than one language is in use in a setting and more than one is needed for full participation. In an Assamese classroom a single morning may contain Assamese, Bodo, Mising, Hindi, Bengali and a tea-garden community language. Three things follow.",
+            "First, the languages are additive, not remedial. A language the child brings adds to the school's repertoire rather than correcting a deficit; there is no weak language and strong language, only different ones. Second, more than one language means more than one set of comparisons, and comparison is the origin of grammar — the child sees two word orders, two ways of marking tense and two scripts, and so develops metalinguistic awareness far sooner than a monolingual peer. Third, functions are distributed: one language carries explanation, another affection or play, and the child learns to shift.",
+            "Two conditions must hold: a shared language for common purposes, and patient time for those who do not yet know the school language."
           ],
           "status": "verified",
           "occurrences": [
@@ -2400,16 +2692,22 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-3-d",
           "question": "Describe language diversity in the context of Assam.",
           "marks": 3,
           "answer": [
-            "Assam includes Indo-Aryan languages such as Assamese, Bengali and Nepali, and Tibeto-Burman languages such as Bodo, Mising and Karbi.",
-            "Other communities contribute languages such as Santali, and local varieties and contact practices add further diversity; language use varies across regions and families.",
-            "Schools should learn the actual language profile of their children and use it in inclusive teaching rather than assume everyone in Assam shares one mother tongue."
+            "Assam is a small state with a long history of trade, migration and settlement, and it holds a remarkable density of languages. Assamese (Asamiya Bhasa, also called Bamar) is the official language of the State under the Assam Official Language Act, 1963; it is written in the Baamuniya script, of the Brahmic family, and is one of the 22 languages of the Eighth Schedule. It serves as the lingua franca of the State.",
+            "Alongside and within it are many tribal and linguistic communities — Bodo, also in the Eighth Schedule with its own script, Mising, Karbi, Dimasa, Hmar, Zakhai, Khasi, Garo, Rabha, Tiwa, and the hill communities of Dima Hasao and Karbi Anglong. The tea gardens brought workers from eastern and central India, and with them Sadri or Mundari and Nepali; Bengali and Hindi are widely used in commerce.",
+            "So one district, sometimes one school compound, holds half a dozen mother tongues. For us this is concrete: a Bodo-speaking and a Hindi-speaking child in an Assamese-medium Class II are learning a second language while learning to read."
           ],
           "status": "verified",
           "occurrences": [
@@ -2420,7 +2718,13 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-4",
@@ -2832,7 +3136,7 @@
           "question": "Write one function of language.",
           "marks": 1,
           "answer": [
-            "Language can express personal needs, for example asking for drinking water."
+            "One function of language is communication: it enables a speaker to convey a message to a hearer and so to share knowledge, feelings and intentions. Another, running close to it, is the expression of thought."
           ],
           "status": "verified",
           "occurrences": [
@@ -2843,15 +3147,20 @@
               "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-031",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-2-e",
           "question": "What is “language learning and learning through language”?",
           "marks": 2,
           "answer": [
-            "Language learning develops the ability to understand and use a language, such as learning to tell a clear story.",
-            "Learning through language uses language to develop other knowledge, such as discussing why a seed needs water during an EVS activity."
+            "Learning about language treats language itself as the content of the lesson, so the child names its parts, compares constructions, applies a rule and corrects punctuation. Learning through language uses language as the tool of some other purpose, such as learning about plants, the water cycle or the difference between 46 and 39. The first belongs to the language period and the second to every other period, and most of school happens in the second, which is why a child can know the rules of grammar and still answer in one word."
           ],
           "status": "verified",
           "occurrences": [
@@ -2862,15 +3171,20 @@
               "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-062",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2021-2-f",
           "question": "As a language teacher design an activity to develop patriotism among the learners at the elementary level.",
           "marks": 2,
           "answer": [
-            "Organise a short storytelling circle about people from different Indian communities who helped others, using accessible languages and age-appropriate accounts.",
-            "Ask children to discuss shared values and create a class message about caring for their community, linking love of country with inclusion, respect and responsible action rather than hostility towards others."
+            "I would run a three-day activity called My Language, My State, My India. Each group takes one Assamese poem or folk song praising the State or the country and one folk song from a home language in the class, and every child writes four lines about it, in Assamese and in the home language, with a small drawing. We display the writings on one class chart, so that every language in the room is honoured, and then each child answers one question about a State other than Assam. The patriotism comes from the children doing the work, not from being told about it."
           ],
           "status": "verified",
           "occurrences": [
@@ -2881,16 +3195,24 @@
               "paper": "/downloads/pyqs/2021/s1-3-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-063",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-3-b",
           "question": "Discuss which aspects of learning can be developed through outside actions of a language classroom.",
           "marks": 3,
           "answer": [
-            "Interviews or conversations outside class develop listening, questioning and adapting speech to different people.",
-            "Observing signs, notices and local texts connects reading and vocabulary with real purposes and community knowledge.",
-            "Writing a brief account of a visit or experience develops organisation and reflection, bringing outside learning back into classroom discussion."
+            "Much of language learning happens outside the four walls, and a good part of what is credited to the classroom is really learnt on the playground, in the market and at home. Four aspects stand out.",
+            "Oral fluency and listening. Conversation, teasing, quarrels and group games produce far more talk than a language period does, in an informal register — incomplete sentences, slang, humour, non-verbal cues. A child who can argue about a football match has the interactional fluency the classroom rarely calls for.",
+            "Vocabulary and world knowledge. Children pick up names of plants, birds, foods and tools from the field and the bazaar, words no textbook lists.",
+            "Social learning. Sharing, negotiating and resolving conflict among peers is where the language of cooperation is practised; a child will not learn to negotiate by being told about it.",
+            "Identity. Folk songs, festival talk and the home language give the child a voice; a child whose language is ridiculed learns to be silent, and that is the loss not of a vocabulary but of a self."
           ],
           "status": "verified",
           "occurrences": [
@@ -2901,16 +3223,22 @@
               "paper": "/downloads/pyqs/2022/s1-3-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2022-3-d",
           "question": "Describe the processes about language learning and learning through language.",
           "marks": 3,
           "answer": [
-            "Language learning develops listening, speaking, reading and writing through meaningful practice and appropriate attention to language forms.",
-            "Learning through language uses these abilities to explore content, such as reading a chart or explaining a science observation.",
-            "The processes interact: a class describing plant growth develops both conceptual understanding and language for sequence and change."
+            "The two processes are different, and each needs its own moves.",
+            "For learning about language, the process runs through noticing and handling the language itself: listening to the text, reading it aloud, identifying what each part does, comparing two constructions, working out what changes if a word is removed, then applying a rule and revising one's own sentence. Grammar is handled inside a text rather than on a separate list, so the child meets the rule as a fact about this sentence.",
+            "For learning through language, the process runs through the subject, with language as the tool of thinking: listening to the explanation, organising what was seen, discussing with a partner, sequencing with first, then, next, finally, and writing or dictating the outcome. Three moves make this deliberate — plan the language demands in advance, use the subject text itself as language material, and read across subjects. A subject period is mostly the second process with none of the first, and that gap explains the child who knows the grammar but cannot explain a paragraph."
           ],
           "status": "verified",
           "occurrences": [
@@ -2928,15 +3256,20 @@
               "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-015",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-2-g",
           "question": "Briefly write what aspects of learners linguistic development are possible through the activities inside the classroom.",
           "marks": 2,
           "answer": [
-            "Conversation, storytelling and discussion develop listening, vocabulary and spoken expression.",
-            "Shared reading and purposeful writing develop understanding of print, text organisation and expression, with feedback and accessible language support."
+            "Classroom activity can develop three aspects of a learner's linguistic growth. Oral language comes first, since storytelling, role play, debate and group discussion give every child an occasion to speak and to be listened to. Vocabulary and word formation follow, when children handle word walls, picture cards and word families. Metalinguistic awareness comes last, when sentences in the texts they read are named, compared and corrected. All three need the home languages of the class to be welcome rather than suppressed."
           ],
           "status": "verified",
           "occurrences": [
@@ -2947,17 +3280,23 @@
               "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-052",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2023-6",
           "question": "“Teaching through language refers to that teaching, where a language plays the role of a medium of instruction” — Justify the statement.",
           "marks": 4,
           "answer": [
-            "In teaching through language, language is used to explore and communicate the subject matter rather than being the only object of study.",
-            "For example, an EVS discussion about clean water uses questions, explanations and descriptions to build understanding of health and the environment.",
-            "Learners need access to both familiar meanings and relevant subject vocabulary, so teachers can use objects, pictures and home-language connections.",
-            "Effective teaching therefore develops content and the language needed to express it together; merely speaking at children in a language they do not understand does not ensure learning."
+            "The statement is correct, and it rests on a distinction a primary teacher must be able to make: teaching through language, as against teaching about language.",
+            "Teaching through language is the activity in which language is the tool and the subject is the point. The lesson is about plants, or the water cycle, or the difference between 46 and 39, and language is what the child thinks with, organises with, discusses with and writes with. Almost all school happens this way and very little attention is paid to it, which is exactly why a child can be taught minute details of grammar and still be unable to explain a process in a coherent paragraph. Teaching about language is the other activity, where the language itself is the content: the child names the parts of a sentence, changes the voice, corrects punctuation or translates. That is the language period.",
+            "The justification is that in teaching through language the medium is not neutral. A child cannot do science without the names of materials and the language of cause and effect; cannot do mathematics without counting words and the language of the problem; cannot read a history paragraph without narrative comprehension. And because the teacher’s talk carries meaning, it teaches language whether planned or not: a teacher who says only tell me what you see gets descriptions, one who says tell me what you see, then what changed, then why gets reasoning.",
+            "So the two must be connected deliberately. Plan the language of the subject in advance — for the butterfly lesson, decide that the children will write four stages in order using first, then, next, finally. Use the subject text as language material, since its headings and cause-and-effect markers are grammar taught in context. And read across subjects: a history paragraph is comprehension work, a word problem is inference work."
           ],
           "status": "verified",
           "occurrences": [
@@ -2968,16 +3307,22 @@
               "paper": "/downloads/pyqs/2023/s1-3-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m4-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2024-9",
           "question": "Write about the importance of language in curriculum.",
           "marks": 3,
           "answer": [
-            "Language is a subject through which learners develop communication, literacy and appreciation of texts.",
-            "It is also used across subjects to understand instructions, discuss ideas, read information and explain reasoning.",
-            "Curriculum planning should therefore support relevant language in every subject, connecting home-language resources with academic expression so learners can participate meaningfully."
+            "Language occupies three distinguishable places in the curriculum, and confusing them is the commonest error in discussion of the subject.",
+            "It is first a subject. Assamese or English has its own periods, textbook, syllabus, examination and body of knowledge — literature, grammar, composition, comprehension. It is secondly a medium: the vehicle through which every other subject is taught, every lesson explained and every answer given, and through which the child shows what has been learnt in science or mathematics. It is thirdly a resource and cross-curricular competence — listening, speaking, reading, writing, reasoning about language and using language to learn — which every other subject both assumes and develops.",
+            "The tension is real: time given to “language” looks like time taken from mathematics, yet a child who cannot read the question cannot do the mathematics. The answer is not to choose but to plan for the overlap. NCF-SE 2023 and NEP 2020 both move this way, treating language as the medium of the whole curriculum."
           ],
           "status": "verified",
           "occurrences": [
@@ -2988,15 +3333,20 @@
               "paper": "/downloads/pyqs/2024/s1-3-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2025-2-d",
           "question": "What is the full form of BICS and CALP.",
           "marks": 2,
           "answer": [
-            "BICS: Basic Interpersonal Communicative Skills.",
-            "CALP: Cognitive Academic Language Proficiency."
+            "BICS is Basic Interpersonal Communication Skills, the everyday contextual spoken language of social life, acquired very early and mostly before school. CALP is Cognitive and Academic Language Proficiency, the decontextualised language of reading, writing, textbook and examination answers, which has to be taught and is learnt slowly. Both terms come from Jim Cummins. A child may be fluent in BICS and still be unable to read a line of the textbook."
           ],
           "status": "verified",
           "occurrences": [
@@ -3007,16 +3357,23 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-042",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2025-5",
           "question": "Write any three functions of language outside the classroom.",
           "marks": 3,
           "answer": [
-            "It serves practical purposes such as asking directions or requesting help.",
-            "It builds social relationships through greetings, conversation and sharing experiences.",
-            "It carries community knowledge and creativity through stories, songs, notices and discussion of local events."
+            "Outside the classroom and beyond the school, language performs at least three functions.",
+            "First, the affective and social function. In the family and among neighbours, language carries affection, instruction, narration, comfort, gossip and quarrel. It is warm, repetitive, intimate and heavily dialectal — the register in which a child first learns to argue, to apologise and to be comforted.",
+            "Second, the transactional and informative function. In the market and on the phone, language carries bargaining, enquiry, news and greeting. The register is fixed and formulaic, speech is reduced, and the market is usually multilingual, so the child practises switching codes without noticing.",
+            "Third, the cultural and commemorative function. In folk song, festival and worship, language carries collective memory, devotion and identity. It is rhythmic, formulaic, archaic and oral, and many of these forms survive nowhere else. A fourth function is the public and imaginative one of newspaper, radio and literature. Note that these are exactly the languages children are examined in inside school."
           ],
           "status": "verified",
           "occurrences": [
@@ -3027,16 +3384,23 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2025-6",
           "question": "“Teaching through language refers to that teaching, where language plays the role of a medium of instruction” — Justify the statement.",
           "marks": 3,
           "answer": [
-            "Language provides the means for explaining, questioning and discussing subject content.",
-            "For example, learners use words for comparison and sequence when describing an experiment, developing knowledge through the discussion.",
-            "Teachers should make this language accessible through familiar meanings, examples and visual support; the goal is understanding the subject, not simply hearing unfamiliar terms."
+            "The statement is correct, and it can be justified from three directions.",
+            "First, language is the vehicle of thought, not a label stuck on it. Vygotsky held that the higher mental functions — abstract reasoning, planning, self-awareness — have no natural existence apart from language, and concepts such as fair or possible have no meaning outside a language. A child still acquiring words in a second language is still acquiring the concepts those words carry.",
+            "Second, subject knowledge arrives through language. Before a child can count they must know the number words; before they can add they must understand the words of the operation; before they can understand that a plant needs water they must understand the sentence holding the fact.",
+            "Third, where the child does not yet control the medium of instruction, the examination measures the child's language, and marks attributed to the subject are really marks attributed to language. Hence a language-sensitive pedagogy: teach the subject in the child's own language first."
           ],
           "status": "verified",
           "occurrences": [
@@ -3047,14 +3411,20 @@
               "paper": "/downloads/pyqs/2025/s1-3-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m3-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-1-c",
           "question": "What is the full form of BICS?",
           "marks": 1,
           "answer": [
-            "Basic Interpersonal Communicative Skills."
+            "BICS stands for Basic Interpersonal Communication Skills. It is the everyday face-to-face language of greeting, asking, thanking, apologising, arguing and joking, and it is contextual, meaning carried by gesture, tone and shared situation."
           ],
           "status": "verified",
           "occurrences": [
@@ -3065,7 +3435,13 @@
               "paper": "/downloads/pyqs/2026/s1-3-2026.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.3_m12-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-3-2026-4-alternative",

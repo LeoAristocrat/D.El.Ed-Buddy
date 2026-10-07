@@ -1,0 +1,1890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="D.El.Ed Semester I Study Notes">
+<meta name="description" content="Writing tasks, workshops, seminars and life skills for personal and professional growth.">
+<meta name="keywords" content="D.El.Ed, Semester 1, S1.4, SCERT Assam, PSTE, teacher education, study notes">
+<meta name="subject" content="Diploma in Elementary Education (PSTE) — Semester I">
+<meta name="color-scheme" content="light">
+<title>S1.4 — Towards Self-Understanding | D.El.Ed Semester I Notes</title>
+<link rel="icon" href="/favicon.svg">
+<style>
+/* ============================================================
+   D.El.Ed Semester 1 — Shared Design System
+   Premium academic notebook aesthetic
+   ============================================================ */
+
+:root {
+  /* --- Paper & surface --- */
+  --paper:          #faf6ee;
+  --paper-deep:     #f3ece0;
+  --card:           #fffdf8;
+  --card-beige:     #f6efe2;
+  --card-beige-2:   #f2e9d8;
+
+  /* --- Ink --- */
+  --ink:            #33302b;
+  --ink-soft:       #55504a;
+  --ink-faint:      #7a736a;
+  --rule:           #ded2bd;
+  --rule-soft:      #e9e0cf;
+
+  /* --- Accents --- */
+  --terracotta:     #b4623c;
+  --terracotta-d:   #8f4a2a;
+  --terracotta-bg:  #f7e9e0;
+  --olive:          #6d7a4a;
+  --olive-d:        #54603a;
+  --olive-bg:       #ecefdd;
+  --dusty-blue:     #4c6a83;
+  --dusty-blue-bg:  #e5ecf2;
+  --plum:           #7a5570;
+  --plum-bg:        #f1e8ee;
+  --gold:           #a5822e;
+  --gold-bg:        #f7efd8;
+
+  /* --- Type --- */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+           Georgia, "Times New Roman", serif;
+  --sans:  "Segoe UI", "Gill Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  --mono:  "Consolas", "SF Mono", "Menlo", monospace;
+
+  --fs-body: 10.6pt;
+  --lh-body: 1.62;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 34px 20px 80px;
+  font-family: var(--serif);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.20) 1px, transparent 0);
+  background-size: 22px 22px;
+  background-attachment: fixed;
+}
+
+/* ============ Document container ============ */
+.doc {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(120, 100, 70, 0.06),
+    0 10px 34px -14px rgba(90, 72, 45, 0.22);
+  padding: 46px 56px 64px;
+  position: relative;
+}
+.doc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0);
+  background-size: 22px 22px;
+  opacity: 0.75;
+}
+.doc > * { position: relative; z-index: 1; }
+
+/* ============ Hero / subject header ============ */
+.hero {
+  border: 1px solid var(--rule);
+  border-top: 5px solid var(--terracotta);
+  background: linear-gradient(180deg, #fffdf8 0%, #f7f0e3 100%);
+  padding: 26px 30px 22px;
+  margin-bottom: 26px;
+  border-radius: 3px;
+}
+.hero .kicker {
+  font-family: var(--sans);
+  font-size: 8.4pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-size: 25pt;
+  line-height: 1.16;
+  margin: 0 0 4px;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.hero .code {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--paper);
+  background: var(--ink);
+  padding: 3px 11px;
+  border-radius: 2px;
+  margin: 0 0 12px;
+}
+.hero .tagline {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 4px;
+  max-width: 62ch;
+}
+/* The divider doubles as the maker-credit row: rule on the left, credit on the
+   right. Keeping them on one line costs no vertical space in the hero, which
+   the one-page-before-Unit-1 budget cannot spare. */
+.hero .rule-line {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 13px 0 12px;
+}
+.hero .rule-line::before {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, var(--terracotta), var(--rule) 55%, transparent);
+}
+.made-by {
+  flex: 0 0 auto;
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+.made-by .heart {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", var(--sans);
+  font-size: 8.4pt;
+}
+.made-by a {
+  color: var(--terracotta-d);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+}
+.made-by a:hover { border-bottom-color: var(--terracotta); }
+
+/* ============ At a glance ============ */
+.glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.glance .g-item {
+  flex: 1 1 152px;
+  background: #fffdf8;
+  padding: 9px 12px 10px;
+}
+.glance .g-label {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 2px;
+}
+.glance .g-value {
+  font-size: 9.6pt;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.34;
+}
+
+/* ============ Table of contents ============ */
+.toc {
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--olive);
+  background: #fcf9f2;
+  padding: 20px 24px 18px;
+  border-radius: 3px;
+  margin: 26px 0 30px;
+}
+.toc h2 {
+  font-family: var(--sans);
+  font-size: 9.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  margin: 0 0 12px;
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+}
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
+.toc > ol > li {
+  counter-increment: toc;
+  margin: 0 0 9px;
+}
+.toc > ol > li > a {
+  font-weight: 700;
+  font-size: 10.6pt;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.toc > ol > li > a:hover { color: var(--terracotta-d); border-bottom-color: var(--terracotta); }
+.toc > ol > li > a::before {
+  content: counter(toc, upper-roman) " · ";
+  color: var(--terracotta);
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.toc .sub {
+  margin: 4px 0 0 4px;
+  padding: 0 0 0 14px;
+  list-style: none;
+  border-left: 1px solid var(--rule-soft);
+  columns: 2;
+  column-gap: 26px;
+}
+.toc .sub li {
+  font-size: 9.4pt;
+  color: var(--ink-soft);
+  line-height: 1.48;
+  margin-bottom: 2px;
+  break-inside: avoid;
+}
+.toc .sub a { color: inherit; text-decoration: none; }
+.toc .sub a:hover { color: var(--terracotta-d); }
+
+/* ============ Headings ============ */
+h2 {
+  font-size: 16.5pt;
+  line-height: 1.22;
+  margin: 40px 0 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  padding: 0 0 9px 15px;
+  border-left: 5px solid var(--terracotta);
+  border-bottom: 1px solid var(--rule);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h2 .h2num {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+h3 {
+  font-size: 12.6pt;
+  line-height: 1.3;
+  margin: 26px 0 8px;
+  font-weight: 700;
+  color: #3d3933;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  background: var(--olive);
+  border-radius: 50%;
+  margin-right: 9px;
+  vertical-align: 0.06em;
+}
+
+h4 {
+  font-size: 10.9pt;
+  line-height: 1.35;
+  margin: 18px 0 6px;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--terracotta-d);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h5 {
+  font-size: 9.9pt;
+  margin: 14px 0 4px;
+  font-weight: 700;
+  color: var(--olive-d);
+  font-family: var(--sans);
+  letter-spacing: 0.03em;
+  break-after: avoid;
+}
+
+/* ============ Body text ============ */
+p { margin: 0 0 10px; text-align: justify; hyphens: auto; }
+p.tight { margin-bottom: 4px; }
+.doc > p, .unit-body > p { max-width: 74ch; }
+
+strong, b { font-weight: 700; color: #26231f; }
+
+em { font-style: italic; }
+
+.lead {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 72ch;
+}
+
+/* ============ Lists ============ */
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 5px; }
+li > ul, li > ol { margin-top: 5px; margin-bottom: 3px; }
+
+ul.bul { list-style: none; padding-left: 0; }
+ul.bul > li {
+  position: relative;
+  padding-left: 17px;
+  margin-bottom: 6px;
+}
+ul.bul > li::before {
+  content: "▸";
+  position: absolute;
+  left: 2px;
+  top: -0.02em;
+  color: var(--terracotta);
+  font-size: 0.92em;
+}
+
+ul.check { list-style: none; padding-left: 0; }
+ul.check > li { position: relative; padding-left: 20px; margin-bottom: 5px; }
+ul.check > li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--olive);
+  font-weight: 700;
+  font-size: 0.88em;
+}
+
+ol.num { list-style: none; counter-reset: n; padding-left: 26px; }
+ol.num > li { position: relative; margin-bottom: 7px; counter-increment: n; }
+ol.num > li::before {
+  content: counter(n) ".";
+  position: absolute;
+  left: -22px;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  font-family: var(--sans);
+  font-size: 0.88em;
+}
+
+dl { margin: 0 0 12px; }
+dt { font-weight: 700; color: #26231f; margin-top: 8px; }
+dd { margin: 2px 0 0 0; }
+
+abbr { text-decoration: none; border-bottom: 1px dotted var(--ink-faint); }
+
+/* ============ Callout cards ============ */
+.card {
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 12px 16px 13px;
+  margin: 14px 0;
+  background: #fffdf8;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.card > :last-child { margin-bottom: 0; }
+.card p { text-align: left; }
+
+.card .lbl {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.def {
+  background: #fdf6ec;
+  border-color: #e3d2b6;
+  border-left: 4px solid var(--gold);
+}
+.def .lbl { color: var(--gold); }
+
+.idea {
+  background: var(--olive-bg);
+  border-color: #d3d9bd;
+  border-left: 4px solid var(--olive);
+}
+.idea .lbl { color: var(--olive-d); }
+
+.rem {
+  background: var(--terracotta-bg);
+  border-color: #e8cebc;
+  border-left: 4px solid var(--terracotta);
+}
+.rem .lbl { color: var(--terracotta-d); }
+
+.ex {
+  background: #f4f1fa;
+  border-color: #d9d0e8;
+  border-left: 4px solid #6b5a94;
+}
+.ex .lbl { color: #5b4c80; }
+
+.cls {
+  background: var(--dusty-blue-bg);
+  border-color: #ccd9e3;
+  border-left: 4px solid var(--dusty-blue);
+}
+.cls .lbl { color: #3d5a71; }
+
+.exam {
+  background: #fbf4e3;
+  border-color: #e6d5aa;
+  border-left: 4px solid #a5822e;
+}
+.exam .lbl { color: #856722; }
+
+.mist {
+  background: #f9ecec;
+  border-color: #eccfcf;
+  border-left: 4px solid #a44b4b;
+}
+.mist .lbl { color: #8b3c3c; }
+
+.refl {
+  background: var(--plum-bg);
+  border-color: #dfcddd;
+  border-left: 4px solid var(--plum);
+}
+.refl .lbl { color: #654761; }
+
+.quick {
+  background: #f4f6ef;
+  border-color: #d6dcc4;
+  border-left: 4px solid #7d8a52;
+}
+.quick .lbl { color: #5f6a38; }
+
+/* inline term highlight */
+.term {
+  background: #f2ead6;
+  padding: 0 3px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+mark.hl {
+  background: #f6e7c4;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ============ Tables ============ */
+.tw {
+  margin: 14px 0 16px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fffdf8;
+}
+.tw.tkeep { break-inside: avoid; page-break-inside: avoid; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.1pt;
+  line-height: 1.46;
+}
+caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  padding: 9px 12px 7px;
+  background: #f6f1e6;
+  border-bottom: 1px solid var(--rule);
+}
+th {
+  background: #efe8d8;
+  color: #3a342b;
+  font-family: var(--sans);
+  font-size: 8.2pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+th:last-child { border-right: 0; }
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--rule-soft);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+  text-align: left;
+}
+td:last-child { border-right: 0; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:nth-child(even) td { background: #fcf8f0; }
+table.compact { font-size: 8.6pt; }
+table.compact th, table.compact td { padding: 5px 8px; }
+
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+
+/* ============ Figure / diagram ============ */
+figure {
+  margin: 18px 0;
+  padding: 14px 16px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fcf9f2;
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+figure svg { max-width: 100%; height: auto; }
+figcaption {
+  font-family: var(--sans);
+  font-size: 7.8pt;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+  margin-top: 8px;
+  text-align: center;
+}
+figcaption b { color: var(--ink-soft); }
+
+/* ============ Unit review block ============ */
+.review {
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--olive);
+  background: #fbf8f0;
+  border-radius: 3px;
+  padding: 16px 20px 18px;
+  margin: 22px 0 30px;
+}
+.review h4 {
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  font-style: normal;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
+}
+.review h5 {
+  font-size: 8.4pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  margin: 13px 0 5px;
+  font-family: var(--sans);
+}
+.review h5:first-of-type { margin-top: 9px; }
+.review p { text-align: left; }
+.review > :last-child { margin-bottom: 0; }
+
+.qa { margin: 0; }
+.qa .q { margin-bottom: 8px; break-inside: avoid; page-break-inside: avoid; }
+.qa .qt {
+  font-family: var(--sans);
+  font-size: 7.2pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--ink-soft);
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+.qa .q.l { border-left: 3px solid var(--terracotta); padding-left: 9px; }
+.qa .q.s { border-left: 3px solid var(--olive); padding-left: 9px; }
+.qa .q.v { border-left: 3px solid var(--dusty-blue); padding-left: 9px; }
+.qa .q p { margin: 0; text-align: left; display: inline; }
+
+/* ============ Subject card grid (project index only) ============ */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 14px;
+  margin: 18px 0 24px;
+}
+.subjcard {
+  display: block;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--terracotta);
+  border-radius: 3px;
+  background: #fffdf8;
+  padding: 13px 15px 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.subjcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -8px rgba(90, 72, 45, .45);
+}
+.subjcard .sc-code {
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--terracotta-d);
+}
+.subjcard .sc-title {
+  font-size: 11.4pt;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 4px 0 6px;
+  color: var(--ink);
+}
+.subjcard .sc-desc {
+  font-size: 9pt;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin-bottom: 9px;
+}
+.subjcard .sc-meta {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 7px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.subjcard.olive { border-top-color: var(--olive); }
+.subjcard.olive .sc-code { color: var(--olive-d); }
+.subjcard.blue { border-top-color: var(--dusty-blue); }
+.subjcard.blue .sc-code { color: #3d5a71; }
+.subjcard.gold { border-top-color: var(--gold); }
+.subjcard.gold .sc-code { color: #856722; }
+
+.linkpair {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.08em;
+  margin-top: 7px;
+  display: flex;
+  gap: 12px;
+}
+.linkpair a { color: var(--terracotta-d); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.linkpair a:hover { border-bottom-color: var(--terracotta); }
+
+.tocwide { columns: 2; column-gap: 30px; }
+.tocwide li { break-inside: avoid; }
+
+/* ============ Misc components ============ */
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 18px;
+}
+.chip {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  padding: 3px 11px;
+}
+
+.hr {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+  margin: 30px 0;
+}
+
+.footnote {
+  font-size: 8.6pt;
+  color: var(--ink-faint);
+  line-height: 1.5;
+}
+
+/* two-column comparison */
+.two-col { column-count: 2; column-gap: 30px; column-rule: 1px solid var(--rule-soft); }
+.two-col > * { break-inside: avoid; }
+
+/* ============ Responsive ============ */
+@media (max-width: 780px) {
+  body { padding: 14px 8px 40px; background-size: 18px 18px; }
+  .doc { padding: 26px 20px 36px; border-radius: 3px; }
+  .hero { padding: 20px 18px 18px; }
+  .hero h1 { font-size: 20pt; }
+  h2 { font-size: 14.5pt; padding-left: 11px; border-left-width: 4px; }
+  h3 { font-size: 11.6pt; }
+  .toc .sub { columns: 1; }
+  .tocwide { columns: 1; }
+  .two-col { column-count: 1; }
+  table { font-size: 8.4pt; }
+}
+
+/* ============================================================
+   PRINT / PDF  —  A4
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 15mm 14mm 16mm 14mm;
+}
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+    background-image: none !important;
+  }
+  body { padding: 0; font-size: 10.1pt; line-height: 1.56; }
+  .doc {
+    max-width: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .doc::before { display: none; }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Keep a whisper of the notebook dot-grid on the page, but far fainter
+     than on screen so a 70-page print run does not look noisy. */
+  .doc {
+    background-color: #fffdf8 !important;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0) !important;
+    background-size: 5.6mm 5.6mm !important;
+  }
+
+  h2, h3, h4, h5 { break-after: avoid; page-break-after: avoid; }
+  h2 { margin-top: 20pt; }
+
+  .card, figure, .qa .q, .tw.tkeep, tr, .chip-row { break-inside: avoid; page-break-inside: avoid; }
+  .tw, .card, .review { break-inside: auto; page-break-inside: auto; }
+
+  thead { display: table-header-group; }
+  tfoot { display: table-footer-group; }
+  p, li { orphans: 2; widows: 2; }
+
+  a { color: inherit; text-decoration: none; }
+  .made-by a { border-bottom: 0; }
+
+  .toc a { color: var(--ink); }
+
+  /* page-break control utility classes */
+  .pb { break-before: page; page-break-before: always; }
+  .avoid { break-inside: avoid; page-break-inside: avoid; }
+}
+
+</style>
+</head>
+<body>
+<article class="doc">
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="kicker">D.El.Ed &mdash; Semester I &middot; SCERT Assam (PSTE)</div>
+  <div class="code">S1.4</div>
+  <h1>Towards Self-Understanding</h1>
+  <p class="tagline">A practical paper with no written examination. You are assessed on what you write, on the workshops you attend, on the seminars you argue in, and on the life-skills sessions you run with children.</p>
+  <div class="rule-line"><span class="made-by">Made with <span class="heart">&#10084;&#65039;</span> by <strong>Sayeem Sadik</strong> &middot; <a href="https://leoaristocrat.eu.cc">leoaristocrat.eu.cc</a></span></div>
+  <div class="glance">
+    <div class="g-item"><div class="g-label">Assessment</div><div class="g-value">Internal only &mdash; 50 marks</div></div>
+    <div class="g-item"><div class="g-label">Written paper</div><div class="g-value">None</div></div>
+    <div class="g-item"><div class="g-label">Credits</div><div class="g-value">2</div></div>
+    <div class="g-item"><div class="g-label">Periods / week</div><div class="g-value">2 consecutive</div></div>
+  </div>
+</header>
+
+<!-- ============ CONTENTS ============ -->
+<nav class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#unit-1">Unit 1 &mdash; Writing Tasks (any five &times; 3 = 15)</a>
+      <ul class="sub">
+        <li><a href="#w1">1.1 Monthly creative writing</a></li>
+        <li><a href="#w2">1.2 Script on personal and social values</a></li>
+        <li><a href="#w3">1.3 Article on self-understanding</a></li>
+        <li><a href="#w4">1.4 Article on peace and stress management</a></li>
+        <li><a href="#w5">1.5 Case study on personal and professional growth</a></li>
+        <li><a href="#w6">1.6 Article on appreciation from others</a></li>
+        <li><a href="#w7">1.7 Introspective report on a life event</a></li>
+        <li><a href="#w8">1.8 &ldquo;Understanding oneself is power&rdquo;</a></li>
+        <li><a href="#w9">1.9 Life history of leaders and reformers</a></li>
+        <li><a href="#w10">1.10 Qualities of a teacher and leadership style</a></li>
+        <li><a href="#assam">1.11 Assamese figures for Task 9</a></li>
+        <li><a href="#portfolio">1.12 Journal and report templates</a></li>
+        <li><a href="#w-rubric">1.13 How the writing is assessed</a></li>
+        <li><a href="#u1-review">Unit 1 Quick Review</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-2">Unit 2 &mdash; Workshop (first compulsory + any two &times; 5 = 15)</a>
+      <ul class="sub">
+        <li><a href="#s2-1">2.1 The six constructs of self</a></li>
+        <li><a href="#wsp1">2.2 Workshop 1 &mdash; Understanding Self and SWOT (compulsory)</a></li>
+        <li><a href="#wsp2">2.3 Workshop 2 &mdash; Life Skill Education</a></li>
+        <li><a href="#wsp3">2.4 Workshop 3 &mdash; Communication barriers</a></li>
+        <li><a href="#wsp4">2.5 Workshop 4 &mdash; Professional ethics and accountability</a></li>
+        <li><a href="#wsp5">2.6 Workshop 5 &mdash; Meaning of self, factors, Johari Window</a></li>
+        <li><a href="#wsp6">2.7 Workshop 6 &mdash; Mindfulness and meditation</a></li>
+        <li><a href="#conduct">2.8 How workshops and seminars are conducted</a></li>
+        <li><a href="#u2-review">Unit 2 Quick Review</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-3">Unit 3 &mdash; Seminar (any two &times; 5 = 10)</a>
+      <ul class="sub">
+        <li><a href="#sm1">3.1 Nurturing humane qualities</a></li>
+        <li><a href="#sm2">3.2 Managing emotion</a></li>
+        <li><a href="#sm3">3.3 Soft skills and social grace</a></li>
+        <li><a href="#sm4">3.4 Self-criticism and self-validation</a></li>
+        <li><a href="#sm-matrix">3.5 Seminar preparation matrix</a></li>
+        <li><a href="#u3-review">Unit 3 Quick Review</a></li>
+      </ul>
+    </li>
+    <li><a href="#sip">School Internship (SIP) &mdash; Life-Skills Activities</a></li>
+    <li><a href="#internal">Internal Assessment &mdash; 50 Marks</a></li>
+    <li><a href="#revision">Quick Subject Revision</a></li>
+    <li><a href="#differences">Important Differences</a></li>
+    <li><a href="#course">Course Information</a></li>
+    <li><a href="#readings">Suggested Readings</a></li>
+  </ol>
+</nav>
+
+<!-- ============ UNIT 1 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-1"><span class="h2num">Unit 1</span> Writing Tasks &mdash; Any Five (5 &times; 3 = 15)</h2>
+
+<p>The syllabus lists <strong>ten</strong> writing tasks. The mentor or the team of faculties distributes five of them to the student-teachers, keeping all ten in view, and gives outline or theoretical knowledge on the tasks before assigning them. Marks are awarded on the basis of the decision taken by the team of faculties. All ten are set out here, because the five you receive are chosen for you.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 1.1 &mdash; The Ten Writing Tasks, Their Form and Their Marking</caption>
+    <thead><tr><th>#</th><th>Syllabus task</th><th>What you submit</th><th>What the marker looks for</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Monthly creative writing on classroom experience, observation of a life situation, ideas and issues</td><td>Diary-type entry, under 300 words, once a month</td><td>A selected moment with names, words and sequence &mdash; not a generalisation about the month</td></tr>
+      <tr><td>2</td><td>Script on personal and social values (honesty, courage, co-operation, respect) for performance as role-play</td><td>Stage script: 4&ndash;6 minutes, 2&ndash;4 actors, stage directions, no-cost setting</td><td>The value <em>shown</em> under pressure, with a cost to pay; a discussion question, not a moral</td></tr>
+      <tr><td>3</td><td>Article on self-understanding as the ability to understand one&rsquo;s own thoughts and actions</td><td>Article, 500&ndash;700 words</td><td>A defensible definition; the gap between thought and action; consequence in a classroom</td></tr>
+      <tr><td>4</td><td>Article on peace and stress management for harmonious development of the self</td><td>Article plus a personal stress-management plan</td><td>Workable techniques rather than slogans; an honest account of your own stressors</td></tr>
+      <tr><td>5</td><td>Case study on personal and professional growth, as an example of understanding self</td><td>Case study: background, problem, evidence, intervention, outcome, learning</td><td>Problem stated as a behaviour; at least one change that did <em>not</em> work</td></tr>
+      <tr><td>6</td><td>Article on appreciation from others for enhancing self-understanding</td><td>Article built on 2&ndash;3 concrete instances</td><td>How one specific remark changed one specific behaviour; the others treated with dignity</td></tr>
+      <tr><td>7</td><td>A significant experience or event of life (good or bad) and its outcome &mdash; introspective report</td><td>Structured first-person report, 600&ndash;800 words</td><td>Candour about your own part; the event written before its meaning</td></tr>
+      <tr><td>8</td><td>&ldquo;Understanding oneself is power&rdquo; &mdash; explained with real-life examples</td><td>Article with at least three worked examples</td><td>Range of examples; a defensible close on the limits of the claim</td></tr>
+      <tr><td>9</td><td>Life history of spiritual leaders / educational reformers, special reference to Assam</td><td>Sourced biographical sketch, 800 words, using the five-part frame</td><td>Accuracy of fact and of works; the self-discipline the work demanded</td></tr>
+      <tr><td>10</td><td>Qualities of a teacher leading to school and leadership style, with examples</td><td>Analytical essay with classroom examples</td><td>Each quality tied to observable behaviour and to a leadership consequence</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card idea"><span class="lbl">Key Idea</span>
+<p>The ten tasks are not ten of the same thing. Tasks 1 and 7 are creative and reflective, judged on honesty and on the selection of a significant moment. Task 2 is a performance text, judged on whether the value appears under pressure. Tasks 3, 4, 6 and 8 are articles, judged on argument and example. Task 5 is a case study, judged on analysis. Task 9 is a documented life history, judged on accuracy. Task 10 is analytical, judged on whether qualities are tied to behaviour. Writing to the wrong standard is the commonest way to lose the three marks available on a task.</p>
+</div>
+
+<h3 id="w1">1.1 Writing Task 1 &mdash; Monthly Creative Writing on Classroom Experience and Life Situations</h3>
+<p>Write every month on your classroom experience, on an observed life situation, and on the ideas and issues arising from them, to develop capacity for reflection. This is the spine of the paper; the other nine tasks are amplifications of it. A month of teaching is two hundred small experiences, and the skill being built is <strong>selection</strong> &mdash; noticing which forty seconds carried the meaning.</p>
+
+  <p>A good entry opens with a time, a place and a person, then moves from what happened to what it meant. Situations outside school count: a queue at a ration shop, a neighbour&rsquo;s illness, a festival watched from a balcony. Keep entries under 300 words, write on the day if you can, and end with one line beginning &ldquo;I did not notice that&hellip;&rdquo; &mdash; the omitted observation is usually the more useful half.</p>
+
+<h3 id="w2">1.2 Writing Task 2 &mdash; Script on Personal and Social Values, for Performance as Role-Play</h3>
+<p>Write a script on personal and social values &mdash; honesty, courage, co-operation and respect among them &mdash; that <em>may be performed</em> as a role-play. The operative word is <em>may</em>: a script read aloud and never staged has failed the task. A play about honesty is worthless if honesty is merely announced. Put the honest character something to lose, give the dishonest character a reason the audience will half-believe, and let the cost of the dishonest choice fall on someone else in the scene. Keep the language of the classroom; in a multilingual Assamese-medium school a script that moves between languages is realistic. End with a discussion question, not a moral.</p>
+
+<div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 1.2 &mdash; Four Values and Four Dramatizable Dilemmas</caption>
+    <thead><tr><th>Value</th><th>A situation with a real cost</th><th>What the role-play teaches</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Honesty</strong></td><td>A child finds a lost purse near the school ground; the teacher&rsquo;s own relative is suspected of having taken it</td><td>Whose trust is harder to keep &mdash; the group&rsquo;s or the individual&rsquo;s</td></tr>
+      <tr><td><strong>Courage</strong></td><td>A student-teacher must report a rule-breaking by a senior colleague, in front of the head teacher</td><td>Reporting without aggression or humiliation</td></tr>
+      <tr><td><strong>Co-operation</strong></td><td>A group presentation collapses because one member does no work; the deadline is fixed</td><td>Complaining, confronting, negotiating &mdash; three strategies, three outcomes</td></tr>
+      <tr><td><strong>Respect</strong></td><td>A child with a speech difficulty is asked to read aloud in front of the class</td><td>Respect for the person against respect for the rule of turn-taking</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="w3">1.3 Writing Task 3 &mdash; Article on Self-Understanding as Understanding One&rsquo;s Own Thoughts and Actions</h3>
+<p>The syllabus supplies the definition to build on: self-understanding is <em>the ability to understand one&rsquo;s own thoughts and actions</em>. The phrase does two pieces of work. <strong>Thoughts</strong> covers the internal half &mdash; beliefs, assumptions, expectations, the stories one tells oneself about people. <strong>Actions</strong> covers the external half &mdash; what one says and does, including what one does without noticing. An article of this kind should move from definition to mechanism to consequence.</p>
+
+  <p>In most adults thought and action come apart, and the gap is where difficulty lies: a person sincerely holds a value and acts against it under pressure. What closes the gap is noticing, made regular by journal writing, honest feedback and the Johari Window. Then give consequences in both directions &mdash; without self-understanding a teacher mistakes a child&rsquo;s withdrawal for indifference and escalates; with it, the same teacher asks a second question. Close on a defensible claim: self-understanding is necessary but not sufficient, because insight without technique stays private.</p>
+
+<div class="card mist"><span class="lbl">Common Mistake</span>
+<p>Do not define self-understanding as loving yourself, or as feeling good about yourself. That is a mood; understanding is a capacity. Define it as <em>accurate knowledge of one&rsquo;s own thoughts, feelings, motives and patterns of action, together with the ability to report them honestly</em>, and the rest of the article follows from the definition.</p>
+</div>
+
+<h3 id="w4">1.4 Writing Task 4 &mdash; Article on Peace and Stress Management</h3>
+<p>The syllabus holds two ideas together deliberately: <strong>peace</strong> and <strong>stress management</strong>, both directed at the harmonious development of the self. Inner peace is not the absence of stress; it is the capacity to remain functional, fair and kind while under stress. Structure the article around three questions. <em>What is stress?</em> The body&rsquo;s and mind&rsquo;s response to a demand perceived as exceeding current resources &mdash; and the perception is the operative part, since the same deadline energises one student-teacher and crushes another.</p>
+
+  <p><em>What are the sources?</em> For a D.El.Ed. student-teacher: performance anxiety in a demonstration lesson, comparison with peers, uncertainty about placement and examinations, workload, family expectation, financial strain, and difficulty speaking one&rsquo;s home language in the institution. Being specific about your own stressors is half the article. <em>What can be done?</em> Techniques, not slogans.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 1.3 &mdash; Stress Management Techniques a Student-Teacher Can Practise</caption>
+    <thead><tr><th>Family</th><th>Technique</th><th>How to do it</th></tr></thead>
+    <tbody>
+      <tr><td>Body</td><td>Slower breathing</td><td>Six breaths per minute for two minutes before a class, longer exhale than inhale</td></tr>
+      <tr><td>Body</td><td>Release after load</td><td>A brief walk or stretch between periods, and a real lunch break away from the classroom</td></tr>
+      <tr><td>Mind</td><td>Naming the thought</td><td>Label it as a prediction (&ldquo;they will think I am unprepared&rdquo;) rather than as a fact</td></tr>
+      <tr><td>Mind</td><td>Reframing</td><td>Ask what the anxiety is protecting; fear of a poor evaluation often improves preparation</td></tr>
+      <tr><td>Time</td><td>Listing and prioritising</td><td>All deadlines in one place, ranked by consequence, not by how loudly they complain</td></tr>
+      <tr><td>Social</td><td>Asking for help</td><td>Name the specific help required to a specific person</td></tr>
+      <tr><td>Social</td><td>Peer debriefing</td><td>Ten minutes with a peer after a difficult session, structured by three questions</td></tr>
+      <tr><td>Meaning</td><td>Reconnection to purpose</td><td>Recall one child who was helped because of what was being done</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="w5">1.5 Writing Task 5 &mdash; Case Study on Personal and Professional Growth</h3>
+<p>The case is not the point; the case is the evidence. You are showing that you can study one stretch of your own conduct closely enough to see the pattern inside it, and that a change in behaviour followed. Use the standard sequence. <strong>Background</strong> &mdash; the situation, with the context that makes it intelligible. <strong>Problem</strong> &mdash; stated as a behaviour, not a feeling: &ldquo;I answered the child before he had finished&rdquo;, not &ldquo;I was impatient&rdquo;. <strong>Evidence</strong> &mdash; what happened, and what others observed.</p>
+
+  <p><strong>Intervention</strong> &mdash; what you actually changed, step by step. <strong>Outcome</strong> &mdash; with evidence, honestly stated if the evidence is thin. <strong>Learning</strong> &mdash; the generalisable insight, stated as a class of situations and not one incident. Include at least one instance where the intervention <em>did not</em> work: a case in which everything improved on the first attempt reads as reconstruction rather than research, and self-understanding includes knowing the limits of one&rsquo;s own successes.</p>
+
+<h3 id="w6">1.6 Writing Task 6 &mdash; Article on Appreciation from Others</h3>
+<p>This task inverts the usual direction of attention: you write about the ways other people have noticed something about you, and how that appreciation feeds self-understanding. A remark from another person is often the only mirror that shows a part of oneself that one&rsquo;s own looking-glass cannot display &mdash; precisely the blind spot of the Johari Window. Treat three things. <em>How appreciation works</em>: it is not flattery, which is indiscriminate; it is specific, based on observation, and costs the speaker something.</p>
+
+  <p>&ldquo;When you corrected Rahim in front of the class he stopped coming, so now I tell him privately and he comes back&rdquo; carries information; &ldquo;you are a good teacher&rdquo; carries almost none. <em>How it can be received badly</em> &mdash; a compliment that seems to carry an expectation, praise a person feels is misplaced, feedback mistaken for criticism. <em>How to seek it usefully</em> &mdash; ask a specific, answerable question (&ldquo;what should I stop doing in class?&rdquo;) rather than an open invitation. Ground the article in two or three named sources, and write about the others with care.</p>
+
+<h3 id="w7">1.7 Writing Task 7 &mdash; Introspective Report on a Significant Life Event</h3>
+<p>Take a significant experience or event of your life &mdash; the syllabus says explicitly <em>good or bad</em> &mdash; note its outcome, and write an introspective report. The difference between an anecdote and an introspective report is the whole task: an anecdote narrates, an introspective report examines your own part in what happened &mdash; what you thought, felt, wanted, did, would do differently, and now believe. The event need not be dramatic; the requirement is significance <em>to you</em>. Write the event first, as it happened, without evaluating it, and only then write what it meant &mdash; students who reverse this order produce justification instead of reflection.</p>
+
+<div class="card refl"><span class="lbl">Reflection</span>
+<p>If the event was bad, do not spend the report on blame. Blame is externalised self-knowledge and teaches nothing. Name your own decisions, your own part and your own omission, accurately and without theatre, then state what you now do differently. If the event was good, be equally careful: the growth lies in identifying which of your own actions contributed to it, because only those can be repeated.</p>
+</div>
+
+<h3 id="w8">1.8 Writing Task 8 &mdash; &ldquo;Understanding Oneself is Power&rdquo;, with Examples</h3>
+<p>Take the claim seriously rather than asserting it. Begin by being precise about <strong>power</strong>: not authority over others, but <em>capacitance</em> &mdash; the ability to choose one&rsquo;s response, to act from intention rather than impulse, and to influence a situation because one understands the forces in it. Then argue in three movements. <em>Power over oneself</em>: the gap between stimulus and response. A child is disrespectful; there is a choice in what happens next, and its size is a function of self-understanding.</p>
+
+  <p><em>Power in relationships</em>: self-understanding makes accurate listening possible, because you can hear what a child says without the interference of your own unfinished business, and it makes a person coachable. <em>Power in decision and leadership</em>: a person who has examined their motives can be trusted, and trust is the currency of every group. Close honestly: insight not followed by practice remains insight, and real power shows up in what is done for others.</p>
+
+<div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 1.4 &mdash; Where Self-Understanding Shows Up as Power</caption>
+    <thead><tr><th>Domain</th><th>What it makes possible</th><th>Shape of the example</th></tr></thead>
+    <tbody>
+      <tr><td>Self-management</td><td>A usable pause between stimulus and response</td><td>Not shouting at the child who has just overturned the inkpot, when shouting was the response three weeks ago</td></tr>
+      <tr><td>Relationship</td><td>Accurate listening without self-projection</td><td>Hearing that &ldquo;I didn&rsquo;t understand&rdquo; is a statement about the explanation, not about the child</td></tr>
+      <tr><td>Teaching</td><td>Adjusting to the child rather than insisting on the plan</td><td>Abandoning a prepared demonstration lesson when the class will not engage</td></tr>
+      <tr><td>Ethics</td><td>Seeing one&rsquo;s own motive where it is being denied</td><td>Noticing that &ldquo;honest feedback&rdquo; to a colleague was partly rivalry</td></tr>
+      <tr><td>Leadership</td><td>Distinguishing conviction from defensiveness</td><td>Holding a position while remaining genuinely open to evidence against it</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="w9">1.9 Writing Task 9 &mdash; Life History of Spiritual Leaders and Educational Reformers, with Special Reference to Assam</h3>
+<p>Write the life history of a spiritual leader or educational reformer, with special reference to Assam, <em>as a real-life example of understanding self</em>. The closing clause tells you what the life history is for: you are not writing a biography, you are writing a biography about the inner discipline &mdash; what the person had to master within themselves before they could do what they did outside themselves.</p>
+
+  <p>Use the five-part frame in Table 1.5, and be careful with sources: use reliable secondary accounts and standard reference works for dates and events. Do not attribute a specific quotation to any of these figures unless you can locate it in a reliable printed source &mdash; a fabricated quotation is the commonest error in this task. Where you are unsure of a detail, write generally.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 1.5 &mdash; The Five-Part Frame for a Life History</caption>
+    <thead><tr><th>Section</th><th>What to include</th><th>Warning</th></tr></thead>
+    <tbody>
+      <tr><td>Context</td><td>Period, region, social and political conditions, the educational system then existing</td><td>Do not project today&rsquo;s schools or laws backwards</td></tr>
+      <tr><td>The person</td><td>Family background, early education, influences, language and tradition</td><td>Keep to what is documented; generalise rather than invent</td></tr>
+      <tr><td>Turning point</td><td>One event or decision that changed the direction of the life</td><td>Do not manufacture a dramatic moment if none is recorded</td></tr>
+      <tr><td>Public work</td><td>What was written, taught, composed or reformed; where and for whom</td><td>Be specific about works and their titles</td></tr>
+      <tr><td>Self-discipline</td><td>The inner capacity the work required, and the cost sustained</td><td>This is the analytical section; do not let it collapse into praise</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="assam">1.10 Assamese Spiritual Leaders and Educational Reformers &mdash; a Working Reference for Task 9</h3>
+<p>The entries below are deliberately short and general: starting points for your own reading, not finished essays. Each is set against one question only &mdash; <em>what did this person have to understand about the self in order to do what they did?</em> Where a date is given, it is one generally agreed upon; where detail is disputed or obscure, the entry says only what can be said safely. Three sketches &mdash; one from the devotional tradition, two from the educational-reform tradition &mdash; usually earn more than a dozen figures done in a hurry.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 1.6 &mdash; Assamese Figures for the Life-History Task</caption>
+    <thead><tr><th>Figure</th><th>Period and what is documented</th><th>The self-discipline the work implies</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Srimanta Sankardeva</strong></td><td>1445&ndash;1568. Central figure of the Vaishnavite tradition in Assam, established through repeated political upheaval; <em>Giti Giti</em> is among the earliest surviving Assamese works, and the <em>Borgeet</em> devotional song tradition is associated with him</td><td>Disciplined repetition &mdash; set times, sustained practice, one&rsquo;s own mood submitted to a larger order &mdash; kept over decades and not for applause</td></tr>
+      <tr><td><strong>Madhavdeva</strong></td><td>1484&ndash;1564. Carried the tradition forward and gave it its most widely influential verse; the <em>Borgeet</em> attributed to him is still sung in Assamese households, its subject matter the moral life told through the crow, the crane, the deer and the farmer</td><td>Humility &mdash; seeing the human in the nearest creature, which is close to what a teacher is asked to practise</td></tr>
+      <tr><td><strong>Madhav Kandali</strong></td><td>Fourteenth century, generally placed in the first half. The earliest major Assamese translator, credited with an Assamese <em>Ramayana</em> in prose and verse that became the base text of the Assamese Ramayana tradition</td><td>Precision and patience &mdash; knowing a text in one language well enough to say it in another</td></tr>
+      <tr><td><strong>Chandraprabha Saonian</strong></td><td>Early seventeenth century. A major Vaishnavite saint-poet of the later phase, known for the <em>Kirtan Ghosa</em> collection</td><td>Renewing an earlier discipline after a period of decline, through sustained writing and travel</td></tr>
+      <tr><td><strong>Srimanta Chaitanya Deva</strong></td><td>Sixteenth century. The Vaishnavite saint after whom the set of six traditional associates, or <em>kantas</em>, are named</td><td>Companionship in practice &mdash; the ideal was a group bound by common discipline, not a solitary individual</td></tr>
+      <tr><td><strong>Hemchandra Goswami; Gauri Shankar Heera; Krishnaram Bhattacharya</strong></td><td>Three saint-poets and scholars of the sixteenth to eighteenth centuries, associated with early Assamese devotional writing, the preservation of devotional song in the later tradition, and Assamese renderings and retellings of the <em>Ramayana</em> respectively</td><td>Keep the treatment general and let the self-discipline section carry the analysis &mdash; that is where the marks are, and it can be written accurately without entering disputed detail</td></tr>
+      <tr><td><strong>G. Sankara Kurup</strong></td><td>1861&ndash;1941. In 1883 established at Nagaon the first Assamese-medium school; the administrative discouragement and the years of persistence before the system took root are unusually well documented</td><td>That a small thing kept is larger than a large thing abandoned, and that the judgement of powerful people is not the outcome of a project</td></tr>
+      <tr><td><strong>Hafiz Alam</strong></td><td>The administrator associated with the resistance to the Nagaon school, remembered as the official who tried to obstruct it</td><td>Worth writing about because it asks what an official believed they were doing, and how a well-intentioned person can be sincerely mistaken about merit</td></tr>
+      <tr><td><strong>Radhakishore Agarwala</strong></td><td>Early twentieth-century Assamese essayist, teacher and public intellectual, closely associated with the movement for the cultivation and recognition of the Assamese language and with the Assam Sahitya Sabha</td><td>The discipline of a campaigner who must persuade people whose interests the status quo served, and so must understand motives that are not their own</td></tr>
+      <tr><td><strong>Raghunath Chaudhuri</strong></td><td>A Bengali intellectual who came to Assam and worked there for many years; investigated and wrote about the psychology of memory, and became associated with the practical teaching of memory and learning in Assamese-medium schools</td><td>Joining a rigorous interest in how memory and learning actually work with the conviction that it belongs in ordinary schools, not a laboratory</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="w10">1.11 Writing Task 10 &mdash; Qualities of a Teacher and Leadership Style</h3>
+<p>Two distinctions keep this essay on track. The first is between a <em>quality</em> and a <em>behaviour</em>: &ldquo;is compassionate&rdquo; is a quality, &ldquo;answers a child&rsquo;s question before the child loses interest&rdquo; is a behaviour, and only the second can be taught, observed or improved. The second is between a <em>teacher</em> and a <em>leader</em>: a teacher is judged largely by what happens in the classroom, a leader by what happens to the institution and the people in it. A teacher can be excellent and still not be a leader. Subject knowledge is necessary and not sufficient; the qualities that discriminate here are humility before evidence, emotional steadiness, procedural fairness, capacity for delegation, collegiality and accountability.</p>
+
+<div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 1.7 &mdash; From Quality to Behaviour to Leadership Consequence</caption>
+    <thead><tr><th>Quality</th><th>Observable behaviour</th><th>Leadership consequence</th></tr></thead>
+    <tbody>
+      <tr><td>Humility before evidence</td><td>Revises a lesson plan when the class shows it did not work, and records why</td><td>Creates a culture in which staff and children may report problems without fear</td></tr>
+      <tr><td>Emotional steadiness</td><td>Does not take a child&rsquo;s misbehaviour personally; lowers own voice rather than raising it</td><td>Reduces escalation; the staff room does not polarise</td></tr>
+      <tr><td>Procedural fairness</td><td>Same consequence for the same act, whichever child committed it</td><td>Establishes trust; reduces favouritism allegations and improves attendance</td></tr>
+      <tr><td>Delegation</td><td>Entrusts a task with the authority to complete it, and does not take it back</td><td>Builds capable colleagues; reduces single-point dependency</td></tr>
+      <tr><td>Collegiality</td><td>Observes a colleague&rsquo;s class, discusses, and adapts rather than copies</td><td>Turns individual skill into institutional capacity</td></tr>
+      <tr><td>Accountability</td><td>Reports an incident to the head teacher the same day, including one&rsquo;s own part</td><td>Makes the institution learnable from error</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="portfolio">1.12 Journal and Report Templates</h3>
+<p>Between them the ten tasks form a <strong>portfolio</strong>, and its value lies in the pattern that becomes visible across entries, which no single task can show. Use one sheet per month, and keep the file so that you can read January next to April.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 1.8 &mdash; Monthly Reflection Sheet (one per month)</caption>
+    <thead><tr><th>Field</th><th>What to write</th></tr></thead>
+    <tbody>
+      <tr><td>1. Date and context</td><td>Where, when, with whom, what the situation was (one line)</td></tr>
+      <tr><td>2. The observed moment</td><td>One concrete incident in 100&ndash;200 words &mdash; words, actions, sequence, no interpretation yet</td></tr>
+      <tr><td>3. What I felt</td><td>Name the emotion specifically and rate it 1&ndash;5</td></tr>
+      <tr><td>4. What I did next</td><td>Your actual response, as a sequence of actions</td></tr>
+      <tr><td>5. What I did not notice at the time</td><td>Information that was available to you and that you used late or not at all</td></tr>
+      <tr><td>6. Pattern check</td><td>Is this the third or fourth time this month? Name the habit, not the instance</td></tr>
+      <tr><td>7. What helped</td><td>A person, a habit, a phrase, a rule you had set for yourself</td></tr>
+      <tr><td>8. One change to try</td><td>A single, specific, observable behavioural change for next month</td></tr>
+      <tr><td>9. The value at stake, and the feedback pending</td><td>Which of honesty, courage, co-operation, respect was in play; and the exact question you will put to the mentor, a peer or the head teacher</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>Introspective report template &mdash; for Writing Task 7</h4>
+<ol class="num">
+  <li><strong>Title</strong> and a one-sentence statement of the event in neutral terms.</li>
+  <li><strong>The event</strong>, in time order, 300&ndash;500 words, as if reporting to someone who was not present. No interpretation in this section.</li>
+  <li><strong>The outcome</strong>, including any consequences that were delayed or permanent.</li>
+  <li><strong>My part</strong> &mdash; my decisions, my omissions, my motives. First person, without softening and without blame.</li>
+  <li><strong>What I felt at the time</strong> and <strong>what I feel now</strong>, separately, with the difference explained.</li>
+  <li><strong>What I would do differently</strong> &mdash; specific, behavioural, at least three items.</li>
+  <li><strong>The general lesson</strong>, stated so that it applies to a class of situations.</li>
+  <li><strong>What remains unresolved</strong> &mdash; an honest statement of what you still do not know.</li>
+</ol>
+
+<h4>Workshop and seminar reflection log</h4>
+<p>For every workshop and seminar, record four lines: the objective of the session; the one idea you took from it; the point at which you disagreed, and with whom; and the one action arising from it. The fourth line is the one a faculty panel cares about at the viva, and the one students forget.</p>
+
+<h3 id="w-rubric">1.13 How the Writing Portfolio Is Assessed</h3>
+<p>Marks are awarded by the team of faculties on the basis of their decision, guided by the ten tasks. The rubric below is a working model of what the three marks per task can reasonably distinguish between. It is a study aid, not an official marking scheme.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 1.9 &mdash; Working Rubric for a Writing Task (3 marks)</caption>
+    <thead><tr><th>Criterion</th><th>A strong response</th><th>Weak indicator</th></tr></thead>
+    <tbody>
+      <tr><td>Observation / evidence</td><td>Concrete detail &mdash; names, words spoken, actions, numbers where possible</td><td>Generalisation: &ldquo;the children were active&rdquo;</td></tr>
+      <tr><td>Self-honesty</td><td>Owns its own part, including after a bad outcome</td><td>Blame located entirely in circumstances or others</td></tr>
+      <tr><td>Structure</td><td>A discernible shape: position, evidence, development, conclusion</td><td>An account with no line of argument</td></tr>
+      <tr><td>Reflection</td><td>Extracts a generalisable insight and states what will now be done</td><td>Insight stays at &ldquo;I learnt a lot&rdquo;</td></tr>
+      <tr><td>Language and presentation</td><td>Clear, economical, few grammatical slips</td><td>Repetition, imprecision, unpunctuated long sentences</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 1.10 &mdash; Marks Structure of Unit 1</caption>
+    <thead><tr><th>Component</th><th>Number attempted</th><th>Marks each</th><th>Total</th></tr></thead>
+    <tbody>
+      <tr><td>Writing tasks from the list of ten</td><td>5 (assigned by the mentor)</td><td>3</td><td>15</td></tr>
+      <tr><td>Monthly journal / reflection entries</td><td>Continuous across the semester</td><td>Raw material for the assigned tasks</td><td>&mdash;</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="review">
+  <h4 id="u1-review">Unit 1 Quick Review</h4>
+  <h5>Key Points</h5>
+  <ul class="bul">
+    <li>Ten tasks are listed; the mentor distributes five; each carries 3 marks; the unit totals 15. The mentor gives outline or theoretical input <em>before</em> assignment, and awards the marks.</li>
+    <li>Tasks 1 and 7 are judged on honesty and on the selection of a significant moment; 3, 4, 6 and 8 on argument and example; 2 on whether the value appears under pressure; 5 on analysis; 9 on accuracy and self-discipline; 10 on qualities tied to behaviour.</li>
+    <li>Task 9 requires special reference to Assam; Task 7 explicitly accepts a bad event, and the interesting material is usually the bad one.</li>
+    <li>Write events before meanings, and never attribute a quotation to a historical figure unless you can locate it in a reliable printed source.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p><strong>Creative writing</strong> &middot; <strong>Introspective report</strong> &middot; <strong>Case study</strong> &middot; <strong>Script / role-play</strong> &middot; <strong>Value</strong> (a principle that guides conduct and can be tested against a choice) &middot; <strong>Self-understanding</strong> (the ability to understand one&rsquo;s own thoughts and actions) &middot; <strong>Leadership style</strong> &middot; <strong>Portfolio</strong> &middot; <strong>Vaishnavite tradition of Assam</strong> &middot; <strong>Borgeet</strong> &middot; <strong>Giti Giti</strong></p>
+</div>
+
+</section>
+<!-- ============ UNIT 2 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-2"><span class="h2num">Unit 2</span> Workshop &mdash; First Compulsory, Plus Any Two (3 &times; 5 = 15)</h2>
+
+<p>Six workshops are listed. The first &mdash; Understanding Self and SWOT Analysis &mdash; is compulsory; the student-teacher chooses two more. Each carries 5 marks. The mentor or team of faculties gives detailed instructions on the topics and selects them; the workshop is followed by meaningful discussion and interaction with the intention of eliciting better experiential learning; and marks are awarded on the basis of reports in which the student-teacher reflects on their own critical thinking. A workshop report is therefore not a record of what was said. It is a record of what you concluded and what you intend to do differently.</p>
+
+<h3 id="s2-1">2.1 The Six Constructs of Self</h3>
+
+<p>The course objectives name four constructs &mdash; self-awareness, self-acceptance, self-confidence and self-motivation &mdash; and the workshops add self-esteem and self-efficacy. They are used loosely and they are not the same thing. They are also a sequence, not a list: awareness without acceptance produces insight and misery; acceptance without confidence produces comfort and passivity; confidence without motivation produces a start and no continuation; motivation without esteem produces effort without resilience, because the person reads every setback as a verdict on their worth. Efficacy is the machinery underneath all five &mdash; the belief that this particular action can be carried out in this particular situation.</p>
+
+  <p>Two deserve a word each. <strong>Self-confidence</strong> is a judgment of capability in a specific domain, held before the performance and based on evidence; its commonest loss is not failure but the belief that one has failed, which is why it grows most reliably out of <em>repaired</em> failures. <strong>Self-acceptance</strong> has two halves and people manage only one: acceptance of the given (body, history, aptitudes, temperament) and acceptance of the actual (one&rsquo;s uncomfortable thoughts and impulses, not edited out of awareness). The second is harder and more useful, because an impulse never acknowledged cannot be managed &mdash; it simply appears as behaviour.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 2.1 &mdash; The Six Constructs Compared</caption>
+    <thead><tr><th>Construct</th><th>Core question it answers</th><th>Scope</th><th>Develops mainly through</th><th>Key caution</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Self-awareness</strong></td><td>What am I actually experiencing right now?</td><td>Present moment</td><td>Attention, journal writing, honest feedback</td><td>Confusing noticing with judging</td></tr>
+      <tr><td><strong>Self-acceptance</strong></td><td>What in me can I stop fighting?</td><td>The whole person</td><td>Confronting reality without self-punishment</td><td>Acceptance mistaken for resignation</td></tr>
+      <tr><td><strong>Self-confidence</strong></td><td>Can I do <em>this</em>?</td><td>A specific domain</td><td>Preparation, repaired failure, seeing peers succeed</td><td>Assuming it transfers to every domain</td></tr>
+      <tr><td><strong>Self-motivation</strong></td><td>Why would I keep going when nobody is watching?</td><td>Effort over time</td><td>Competence, autonomy, a stated purpose</td><td>Expecting motivation without any of the three</td></tr>
+      <tr><td><strong>Self-esteem</strong></td><td>Am I a person of worth?</td><td>Global</td><td>Mastery, dignity, non-shaming feedback, values</td><td>Building it on others&rsquo; approval alone</td></tr>
+      <tr><td><strong>Self-efficacy</strong></td><td>Can I carry out <em>this action</em> in <em>this situation</em>?</td><td>Task-specific</td><td>Mastery experiences, role models, credible persuasion, bodily state</td><td>Relying on praise rather than on success</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="wsp1">2.2 Workshop 1 (COMPULSORY) &mdash; Understanding Self and SWOT Analysis</h3>
+
+<p>This workshop has two parts. The first, <strong>Understanding Self</strong>, is what Section 2.1 prepares you for. The second, <strong>SWOT Analysis</strong>, may be applied personally, institutionally or organisationally, or to any other activity with reference to the functioning of the school &mdash; in practice you will do a personal SWOT and one organisational SWOT, most often of the school you are attached to or of a function in it such as the management of mid-day meals or the running of the science period.</p>
+
+  <p>SWOT is a general framework for examining any situation. Its logic is a two-by-two. The first axis separates what is <strong>internal</strong> to the unit being examined from what is <strong>external</strong> to it; the second separates what is <strong>helpful</strong> to a stated goal from what is <strong>harmful</strong> to it.</p>
+
+<figure>
+<svg viewBox="0 0 760 350" role="img" aria-label="A two-by-two SWOT matrix with helpful and harmful rows and internal and external columns" preserveAspectRatio="xMidYMid meet">
+  <rect x="30" y="34" width="110" height="32" rx="2" fill="#f6f1e6" stroke="#ded2bd"/>
+  <text x="85" y="55" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#7a736a" text-anchor="middle">OBJECT</text>
+  <rect x="148" y="34" width="252" height="32" rx="2" fill="#f6f1e6" stroke="#ded2bd"/>
+  <text x="274" y="55" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">INTERNAL (inside it)</text>
+  <rect x="406" y="34" width="306" height="32" rx="2" fill="#f6f1e6" stroke="#ded2bd"/>
+  <text x="559" y="55" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#33302b" text-anchor="middle">EXTERNAL (outside it)</text>
+
+  <rect x="30" y="72" width="110" height="126" rx="2" fill="#f6f1e6" stroke="#ded2bd"/>
+  <text x="85" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#6d7a4a" text-anchor="middle">HELPS</text>
+  <text x="85" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#6d7a4a" text-anchor="middle">the goal</text>
+
+  <rect x="148" y="72" width="252" height="126" rx="2" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.5"/>
+  <text x="274" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#54603a" text-anchor="middle">STRENGTHS</text>
+  <text x="274" y="134" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">Habits, skills, resources</text>
+  <text x="274" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">and attributes that</text>
+  <text x="274" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">already serve it.</text>
+
+  <rect x="406" y="72" width="306" height="126" rx="2" fill="#f7efd8" stroke="#a5822e" stroke-width="1.5"/>
+  <text x="559" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#856722" text-anchor="middle">OPPORTUNITIES</text>
+  <text x="559" y="134" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">Openings arising outside,</text>
+  <text x="559" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">that the unit could use</text>
+  <text x="559" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle"><tspan font-style="italic">if it were ready.</tspan></text>
+
+  <rect x="30" y="204" width="110" height="126" rx="2" fill="#f6f1e6" stroke="#ded2bd"/>
+  <text x="85" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#b4623c" text-anchor="middle">HARMS</text>
+  <text x="85" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#b4623c" text-anchor="middle">the goal</text>
+
+  <rect x="148" y="204" width="252" height="126" rx="2" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.5"/>
+  <text x="274" y="238" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#8f4a2a" text-anchor="middle">WEAKNESSES</text>
+  <text x="274" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">Internal gaps that can</text>
+  <text x="274" y="284" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle"><tspan font-style="italic">be changed by the unit itself.</tspan></text>
+
+  <rect x="406" y="204" width="306" height="126" rx="2" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.5"/>
+  <text x="559" y="238" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#3d5a71" text-anchor="middle">THREATS</text>
+  <text x="559" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">Pressures from outside</text>
+  <text x="559" y="284" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">that cannot be removed &mdash;</text>
+  <text x="559" y="302" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">only prepared for.</text>
+  <text x="380" y="345" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a" text-anchor="middle">First decide the goal. Then place every item &mdash; if it cannot be argued over, it does not belong in the box.</text>
+</svg>
+<figcaption><b>Figure 2.1</b> &mdash; The SWOT matrix. Internal items are within reach; external items are not.</figcaption>
+</figure>
+
+<p>Two rules make a SWOT worth doing. First, <strong>name the goal before you start</strong>, because the four boxes are empty without one. &ldquo;My strengths&rdquo; is not a SWOT; &ldquo;for the goal of taking a mixed-ability class of forty through a unit of mathematics without relying on the textbook exercise&rdquo; is. Second, <strong>only internal things go in Strengths and Weaknesses</strong>. A trait, a resource, a behaviour and a skill are internal. A policy, an examination board, a change in the neighbourhood, a parent&rsquo;s attitude is external. Students routinely put &ldquo;good teachers are available&rdquo; in Opportunities; it belongs in Strengths if it is a feature of the institution, and is more likely a Threat if the teachers are leaving.</p>
+
+  <p>Applied to a person, the internal axis covers temperament, habits, knowledge, skills, health, time, emotional state, reputation, and the people and materials at one&rsquo;s disposal. Applied to a school, it covers the head teacher and staff, the building, the enrolled strength and the profile of the children, the materials and routines, and the internal culture; the external axis covers the Block resource persons, the state and central schemes and their timelines, the examination requirements, the community&rsquo;s expectations, connectivity, and the demographic situation.</p>
+
+<div class="card rem"><span class="lbl">Remember</span>
+<p>A SWOT that stops at four lists is a diagnosis, not a plan. Convert it to <strong>TOWS</strong> by matching the internal factors against the external ones: <strong>SO</strong> deploy a strength to seize an opening; <strong>ST</strong> use a strength to reduce a threat; <strong>WO</strong> close a weakness so an opportunity can be used; <strong>WT</strong> remove a weakness or limit the exposure. A personal SWOT must be written for a <em>stated goal</em>, never for &ldquo;my life&rdquo; or &ldquo;my career&rdquo; &mdash; the narrower the goal, the more possible it is afterwards to say whether the analysis was correct.</p>
+</div>
+
+<h3 id="wsp2">2.3 Workshop 2 &mdash; Life Skill Education: Meaning, Importance and Mode of Transaction</h3>
+
+<div class="card def"><span class="lbl">Definition</span>
+<p><strong>Life Skill Education</strong> is the planned and purposeful teaching of those abilities that enable a person to understand and manage the self, to make informed decisions, to communicate effectively, to work with others, to cope with stress and conflict, and to respond constructively to the situations of everyday life. It is not the teaching of a subject, but of the abilities the subject syllabus alone does not build.</p>
+</div>
+
+<p>The syllabus also states that conceptual understanding of LSE must be initiated <em>before</em> student-teachers go to the schools for the internship, that they must then practise life-skills activities involving children, and that they must submit reports. The <em>21st Century Skills Handbook</em> published through the Manodarpan portal of the Ministry of Education and the <em>Assam Life Skills Education Framework</em> are the reference points the syllabus names.</p>
+
+  <p>A primary school teaches a child how many sentences there are in a paragraph, and is right to do so. It is equally the school&rsquo;s responsibility to teach that child what to do when two friends quarrel, how to say no to being given something to carry, how to recognise a lie in an advertisement, what to do with rage, and how to ask a teacher for help. Those are learnable abilities, they are not taught by accident, and no subject teacher will teach them in the ordinary course.</p>
+
+<p>The fifteen skills below are the ones most commonly listed in Indian school-level life-skills frameworks. The syllabus does not prescribe a closed list, so treat this as the working repertoire from which you select according to the need you have identified in a class.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 2.2 &mdash; Core Life Skills and the Sign That a Class Needs Them</caption>
+    <thead><tr><th>Life skill</th><th>What it means</th><th>What it looks like when a child lacks it</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Self-awareness</strong></td><td>Knowing one&rsquo;s own feelings, thoughts, strengths and effect on others</td><td>&ldquo;It is not my fault&rdquo; as the reflex answer</td></tr>
+      <tr><td><strong>Self-motivation</strong></td><td>Willingness to begin, continue and finish a task without external pushing</td><td>Completes only what is watched; stops when the teacher turns away</td></tr>
+      <tr><td><strong>Assertiveness</strong></td><td>Expressing a need, an opinion or a refusal clearly, without aggression and without submitting</td><td>Silent compliance, or pushing others when a want is refused</td></tr>
+      <tr><td><strong>Empathy</strong></td><td>Reading and responding to the feelings of another person</td><td>A row continues because nobody sees that a joke landed as cruelty</td></tr>
+      <tr><td><strong>Coping with emotion</strong></td><td>Recognising strong feeling and responding without harm to self or others</td><td>Hits, throws objects, refuses to speak, or shuts down</td></tr>
+      <tr><td><strong>Stress management</strong></td><td>Coping with pressure, frustration and difficulty</td><td>Distress before an ordinary task; does not return after a scolding</td></tr>
+      <tr><td><strong>Decision-making</strong></td><td>Choosing among alternatives and accepting the consequence</td><td>Defers every choice to another child</td></tr>
+      <tr><td><strong>Problem-solving</strong></td><td>Finding a workable way through a situation not seen before</td><td>Waits for an answer to a question not asked</td></tr>
+      <tr><td><strong>Critical thinking</strong></td><td>Examining a claim before accepting it &mdash; an advertisement, a rumour, a teacher&rsquo;s own word</td><td>Repeats whatever is heard, from anyone</td></tr>
+      <tr><td><strong>Creative thinking</strong></td><td>Producing more than one way of doing or seeing a thing</td><td>One method is copied, errors with it</td></tr>
+      <tr><td><strong>Communication</strong></td><td>Expressing meaning clearly, and listening so as to receive it</td><td>Speaks loudly instead of clearly; does not attend</td></tr>
+      <tr><td><strong>Cooperation</strong></td><td>Working towards a shared result, sharing the work and the credit</td><td>Groups form but nothing is shared</td></tr>
+      <tr><td><strong>Resilience</strong></td><td>Recovering after a setback and returning to the attempt</td><td>One error produces withdrawal for the lesson</td></tr>
+      <tr><td><strong>Leadership</strong></td><td>Taking responsibility for a small group&rsquo;s process, with or without a title</td><td>Uncontested willingness to lead; nobody else offers</td></tr>
+      <tr><td><strong>Time management</strong></td><td>Organising effort within available time and prioritising</td><td>Everything is attempted and nothing is finished</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 2.3 &mdash; The Two Broad Categories of Life Skills</caption>
+    <thead><tr><th>Category</th><th>Concerned with</th><th>Typical skills</th><th>School signature</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Psychological / emotional</strong> <span class="footnote">(inner or personal skills)</span></td><td>Managing the self &mdash; one&rsquo;s thinking, feeling and behaviour</td><td>Self-awareness, self-motivation, assertiveness, empathy, coping with emotion, stress management, decision-making, problem-solving, critical and creative thinking, time management</td><td>The child who can recognise and regulate feeling, who tries again, who says no without shutting down</td></tr>
+      <tr><td><strong>Social</strong> <span class="footnote">(interpersonal skills)</span></td><td>Managing relationships &mdash; the self in company with others</td><td>Communication, cooperation and collaboration, negotiation, social awareness, networking, leadership</td><td>The child who negotiates, waits, takes a turn, includes the weakest member, and is trusted with a responsibility</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Nearly every life skill is in one of two conditions: a child is managing the <em>self</em>, or the child is managing the self in company with others. Once you see that you can diagnose a class quickly. A class in which the recurring problem is escalation &mdash; hitting, shouting, refusing &mdash; is usually short of <strong>emotional</strong> skills: coping, empathy, assertiveness. A class in which the recurring problem is paralysis &mdash; nobody begins, nobody shares, nothing is finished &mdash; is usually short of <strong>social</strong> skills: cooperation, communication, time management. The remedy differs, and choosing the wrong one wastes a term.</p>
+
+  <p>Four reasons make LSE matter: it is <strong>preventive</strong>, since most of what schools later manage as indiscipline or anxiety has roots in skills never taught; it is the <strong>transferable part of learning</strong>, since a child who can lose a game and keep going can also be told that a piece of writing is not good enough yet; it is <strong>central to the Indian curriculum language</strong>, with NEP 2020, NCF-SE 2023 and the <em>21st Century Skills Handbook</em> all naming social-emotional and cognitive skills among the priority competencies; and it is the <strong>teacher&rsquo;s own preparation</strong>, since a teacher who has not practised managing their own emotion cannot teach a child to manage it.</p>
+
+<h4>Mode of transaction</h4>
+<p>The distinctive feature of LSE is its <strong>mode</strong>. These are not abilities transmitted by explanation; they are acquired by doing, watching, attempting, failing and talking about what happened. Each of the modes below has a place in a 40-minute session. A life-skills session is emphatically not a lecture on being good, and not a punishment register; both are common in Indian classrooms and both are the opposite of what this course builds.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 2.4 &mdash; Modes of Transaction in Life Skill Education</caption>
+    <thead><tr><th>Mode</th><th>How it works and when to use it</th><th>Watch for</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Discussion</strong></td><td>Open talk around a question &mdash; &ldquo;what could Rina have done?&rdquo; &mdash; surfacing the range of responses before the class narrows them</td><td>Three children answering; use pair talk first</td></tr>
+      <tr><td><strong>Role-play</strong></td><td>Children act out a short situation containing a dilemma; the class comments</td><td>Performers become &ldquo;the bad one&rdquo;. Rotate, and never let the label stick</td></tr>
+      <tr><td><strong>Storytelling</strong></td><td>A story carrying one skill &mdash; a problem, a choice, a consequence</td><td>Ending with a moral the children must spot; ask questions instead</td></tr>
+      <tr><td><strong>Simulation / games</strong></td><td>A structured game in which the skill is needed to play well</td><td>A game whose point is to win destroys the point</td></tr>
+      <tr><td><strong>Group activity</strong></td><td>Small groups producing something together, skill built into the task</td><td>The strongest child does all of it; build the role in</td></tr>
+      <tr><td><strong>Field visit / observation</strong></td><td>Seeing the skill in the world &mdash; a queue, a market, a water point</td><td>A visit with no question to answer; give the class a task</td></tr>
+      <tr><td><strong>Peer mentoring</strong></td><td>A more capable child supports a less capable one for a defined task</td><td>It becoming unpaid teaching; the mentor needs a task too</td></tr>
+      <tr><td><strong>Reflective journal</strong></td><td>A short entry: what happened, what I did, what I would change</td><td>A punishment record; it must be private and ungraded</td></tr>
+      <tr><td><strong>Demonstration / modelling</strong></td><td>The teacher or a child shows the behaviour; the class describes it</td><td>Only the teacher demonstrating; the class must produce examples</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<figure>
+<svg viewBox="0 0 760 330" role="img" aria-label="A six-stage cycle for running a life-skills session: warm-up, model, practice, reflect, transfer, assess" preserveAspectRatio="xMidYMid meet">
+  <circle cx="380" cy="162" r="108" fill="none" stroke="#ded2bd" stroke-width="1.4" stroke-dasharray="5 5"/>
+  <polygon points="0,-5 10,0 0,5" fill="#b4623c" transform="translate(434,68.5) rotate(30)"/>
+  <polygon points="0,-5 10,0 0,5" fill="#b4623c" transform="translate(488,162) rotate(90)"/>
+  <polygon points="0,-5 10,0 0,5" fill="#b4623c" transform="translate(434,255.5) rotate(150)"/>
+  <polygon points="0,-5 10,0 0,5" fill="#b4623c" transform="translate(326,255.5) rotate(210)"/>
+  <polygon points="0,-5 10,0 0,5" fill="#b4623c" transform="translate(272,162) rotate(270)"/>
+  <polygon points="0,-5 10,0 0,5" fill="#b4623c" transform="translate(326,68.5) rotate(330)"/>
+
+  <rect x="300" y="31" width="160" height="42" rx="3" fill="#f7efd8" stroke="#a5822e" stroke-width="1.5"/>
+  <text x="380" y="50" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#856722" text-anchor="middle">1 Warm-up</text>
+  <text x="380" y="66" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#7a736a" text-anchor="middle">settle, connect</text>
+
+  <rect x="393" y="85" width="160" height="42" rx="3" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.5"/>
+  <text x="473" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#8f4a2a" text-anchor="middle">2 Model</text>
+  <text x="473" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#7a736a" text-anchor="middle">show the skill</text>
+
+  <rect x="393" y="193" width="160" height="42" rx="3" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.5"/>
+  <text x="473" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#54603a" text-anchor="middle">3 Practice</text>
+  <text x="473" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#7a736a" text-anchor="middle">they do it</text>
+
+  <rect x="300" y="251" width="160" height="42" rx="3" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.5"/>
+  <text x="380" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#3d5a71" text-anchor="middle">4 Reflect</text>
+  <text x="380" y="286" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#7a736a" text-anchor="middle">name it, in words</text>
+
+  <rect x="206" y="193" width="160" height="42" rx="3" fill="#f1e8ee" stroke="#7a5570" stroke-width="1.5"/>
+  <text x="286" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#654761" text-anchor="middle">5 Transfer</text>
+  <text x="286" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#7a736a" text-anchor="middle">use it elsewhere</text>
+
+  <rect x="206" y="85" width="160" height="42" rx="3" fill="#f6f1e6" stroke="#7a736a" stroke-width="1.5"/>
+  <text x="286" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#55504a" text-anchor="middle">6 Assess</text>
+  <text x="286" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#7a736a" text-anchor="middle">what changed?</text>
+
+  <text x="380" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a" text-anchor="middle">40 minutes</text>
+  <text x="380" y="322" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a" text-anchor="middle">Stages 1&ndash;2 belong to the teacher. Stages 3&ndash;4 belong to the children. Skipping 4 is the commonest failure.</text>
+</svg>
+<figcaption><b>Figure 2.2</b> &mdash; The shape of a life-skills session. The reflective stage is where the learning consolidates.</figcaption>
+</figure>
+
+<div class="card ex"><span class="lbl">Example</span>
+<p><strong>A Class IV session on managing anger, 40 minutes.</strong> 0&ndash;4 min: word-association in pairs &mdash; one child names a feeling, the partner names what the body does; collect four on the board without comment. 4&ndash;10 min: a local story of two siblings, one refused something and hits the other; stop before the resolution and ask for three alternatives. 10&ndash;14 min: model one technique only &mdash; the pause of counting to five and putting the hand down, once badly and once well. 14&ndash;24 min: role-play in threes with cards carrying different anger situations, roles rotated every round, the class naming which technique was used.</p>
+
+  <p>24&ndash;33 min: the class agrees three things a Class IV child can do when angry and scribes them onto a chart displayed for the year &mdash; the teacher writes their words, not four of her own. 33&ndash;38 min: where else anger shows up &mdash; the playground, the tap queue, the bus, home. 38&ndash;40 min: everyone writes one private sentence, &ldquo;When I am angry I will&hellip;&rdquo;; collect nothing and read none aloud, because reading them out destroys the safety that made them honest. Run it twice, a week apart, changing exactly one thing; the second run is where you discover whether the class has moved.</p>
+</div>
+
+<h3 id="wsp3">2.4 Workshop 3 &mdash; Communication Barriers That Hinder Effective Communication</h3>
+
+<p>The word <em>effective</em> does the important work: communication has occurred when meaning has been transferred, not when words have been sent. A teacher can be fluent, loud, clear and grammatically correct and still fail entirely to communicate, and a shy teacher with poor technique can succeed. The classic transmission account &mdash; sender, encoding, channel, decoding, receiver, noise &mdash; comes from the Shannon and Weaver tradition.</p>
+
+  <p>Its weakness is worth naming: it treats meaning as something packaged and delivered like a parcel. It is not. Meaning is <strong>reconstructed</strong> by the receiver out of that receiver&rsquo;s own experience, and the remedy is the <strong>field of experience</strong> &mdash; the overlap between what sender and receiver know and understand. The more that field overlaps, the more meaning is shared; the less, the more the receiver simply hears words.</p>
+
+<div class="card def"><span class="lbl">Definition</span>
+<p>A <strong>communication barrier</strong> is any factor &mdash; physical, physiological, psychological, semantic, cultural, organisational or linguistic &mdash; that distorts a message, reduces the receiver&rsquo;s attention to it, or causes the receiver to interpret it differently from the sender&rsquo;s intention. It is a property of the situation, not of the speaker, which is why the same explanation can be clear to one person and unintelligible to another in the same room.</p>
+</div>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 2.5 &mdash; Communication Barriers, with Example and Remedy</caption>
+    <thead><tr><th>Barrier type</th><th>What it is, and an example</th><th>What a teacher can do</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Physical / environmental</strong></td><td>Distance, noise, poor light, heat, overcrowding, an echoing room &mdash; a forty-child Class IV lesson in a room built for twenty; the children at the back are seen to be misbehaving when they simply cannot hear</td><td>Move to a verandah or open space; group in a circle rather than rows; use a whistle instead of the voice; check that every child can see the demonstration</td></tr>
+      <tr><td><strong>Physiological</strong></td><td>Impairment of hearing, sight or speech; sound and fatigue effects on the receiver &mdash; a child with a mild hearing difficulty asked to follow an oral instruction</td><td>Seat the child where the sound is direct; reduce ambient noise; give visual support; allow repetition without embarrassment</td></tr>
+      <tr><td><strong>Psychological</strong></td><td>Emotion, stress, fatigue, fear, distrust, or a pre-existing opinion about the speaker &mdash; a child asked a question in front of forty peers after being laughed at yesterday stops answering; the barrier is the memory, not the question</td><td>Ask private questions privately; let the child answer by writing or to a partner first; name the fear before asking again</td></tr>
+      <tr><td><strong>Semantic</strong></td><td>Faults in the message: ambiguity, double meanings, jargon, unfamiliar figures of speech, tone contradicting the words &mdash; &ldquo;complete the test&rdquo; heard as &ldquo;finish the whole test&rdquo;</td><td>Say it twice in two different ways; use the child&rsquo;s own words back; replace a label about a person with a statement about a task</td></tr>
+      <tr><td><strong>Organisational / cultural</strong></td><td>Rules, hierarchy, custom and group norms determining what may be said, to whom and how &mdash; a child who will not contradict an elder; a parent who cannot speak to the head teacher directly</td><td>Learn the local conventions first; create a channel that does not require a person to overstep rank; raise concerns through a group</td></tr>
+      <tr><td><strong>Language</strong></td><td>Difference between the language of instruction, the home language and the peer group&rsquo;s language &mdash; a child who understands EVS fully in the home language but not the glossary in the school language</td><td>Permit the home language for discussion; teach the school-language terms as terms; have the child teach one concept to a peer in the home language first</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>Active listening and the 3H technique</h4>
+<p>Almost every barrier above is reduced by one thing: the willingness and capacity to <strong>listen</strong> before responding. <strong>Active listening</strong> is not agreement and not silence; it is the deliberate effort to reconstruct the speaker&rsquo;s meaning, check that reconstruction, and only then respond. Its observable components are facing the speaker, allowing silence, asking open questions, reflecting back, paraphrasing and summarising. A widely used teaching device in Indian teacher-training material is the <strong>3H technique</strong> &mdash; <em>Head, Heart, Hand</em>.</p>
+
+  <p>A message may be head-received (understood: I know what was said), heart-received (felt: I take it seriously, and I understand the feeling behind it), and hand-received (acted upon: something is actually done). A message can stop at any of the three, and each stopping point is a different failure. &ldquo;Your drawing is untidy&rdquo; is head-received and nowhere else, and usually stops the drawing; agreement without change is the commonest outcome with school administrators. Indian teacher-training resources use several closely related listening frameworks with different acronym expansions; the 3H sequence is used here because it is simple, teachable, and maps directly onto the three failure modes.</p>
+
+<p>Worked case. A Class III child&rsquo;s father tells the teacher at the gate that the child is being beaten at home, and asks that nothing be said to the mother. The barrier is organisational and cultural &mdash; the relationship between family and school, and the convention that family matters are not the school&rsquo;s business. The head-received failure is registering the words but not the fear. The heart-received response is asking what the child says at home, and asking again what the father wants to happen now. The hand-received response is deciding what action follows, including referral to the child protection mechanisms and the school-based child protection committee studied in S1.1. The first part is a communication task, the second a professional and ethical one, and they cannot be separated.</p>
+
+<h3 id="wsp4">2.5 Workshop 4 &mdash; Professional Ethics and Accountability of Teachers</h3>
+
+<p>These two are taught together because in teaching the second is what gives the first teeth. A teacher with strong ethical commitments who is never answerable to anyone is ethical in intention only; a teacher who is closely supervised but has never reflected on what is right is compliant, not professional. A <strong>profession</strong> is a group holding specialised knowledge, bound to a code of conduct, accountable to a community of practice rather than to one employer, and accepting a duty to keep competence current &mdash; all four are present in teaching.</p>
+
+  <p>A <strong>professional teacher</strong> is one who meets that standard in practice, and note the word <em>effect</em>: a teacher can be technically correct, punctual and even liked and still cause harm through shaming, through ridicule of a child&rsquo;s home language, through public comparison of children, or through silence about a child in distress.</p>
+
+<div class="card def"><span class="lbl">Definition</span>
+<p><strong>Professional ethics</strong> is the set of principles governing professional conduct &mdash; the standards of behaviour a person is expected to meet <em>because of</em> the role they hold, not merely because of law or convenience. <strong>Professional accountability</strong> is the fact of being answerable, to identified parties, for the discharge of that role, which implies their right to know, to question and to require correction.</p>
+</div>
+
+<p>In India the reference point is the <strong>Teacher Professional Code of Ethics</strong> issued by the <strong>National Council for Teacher Education (NCTE)</strong>, the statutory body established under the <strong>NCTE Act, 1993</strong>. NCTE also notifies a <strong>Professional Ethics Committee</strong>, the body through which matters of professional ethics are considered. The Code is organised around the dignity of the profession, then around the teacher&rsquo;s dealings with learners, the school, parents and guardians, colleagues and staff, and the community.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 2.6 &mdash; The Scope of the Teacher Professional Code of Ethics</caption>
+    <thead><tr><th>Area</th><th>What is expected of the teacher, and why it is in a code</th></tr></thead>
+    <tbody>
+      <tr><td>Dignity of the profession</td><td>Conduct that sustains the standing of teaching &mdash; because the school&rsquo;s reputation is the sum of thousands of individual acts of conduct, most of them never observed</td></tr>
+      <tr><td>Professional competence</td><td>Keeping knowledge and skill current, and meeting the demands of the role &mdash; because children cannot evaluate the quality of what is taught into them</td></tr>
+      <tr><td>Dealing with learners</td><td>Dignity, non-discrimination, absence of physical and mental harm, safeguarding &mdash; because children cannot leave, cannot complain, and depend entirely on the adult</td></tr>
+      <tr><td>Dealing with the school</td><td>Meeting obligations, following the decisions of the institution, protecting its reputation &mdash; because institutional trust makes collective work possible</td></tr>
+      <tr><td>Dealing with parents</td><td>Respectful, honest and confidential communication &mdash; because the school holds a great deal of information about a family</td></tr>
+      <tr><td>Dealing with colleagues</td><td>Professional courtesy; no belittling; support rather than competition &mdash; because children model themselves on every relationship they see in the school</td></tr>
+      <tr><td>Dealing with the community</td><td>Conduct that reflects well on the school &mdash; because the school is a public institution in a small community</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>Ethical dilemmas in the classroom</h4>
+<p>A dilemma arises when two obligations are genuinely in conflict, so that whichever course is taken one value is partly violated. Nine recur often enough to be worth rehearsing in advance, because rehearsing them is the purpose of this workshop.</p>
+<ol class="num">
+  <li><strong>Favouritism.</strong> Extra attention to a child whose family is helpful to the school, at the cost of the others. The pull is social and practical; the obligation is procedural fairness.</li>
+  <li><strong>Reporting a colleague.</strong> A senior colleague has been persistently harsh to a class. Reporting protects the children and damages a relationship &mdash; and a school in which no one reports anything protects no one.</li>
+  <li><strong>Confidentiality.</strong> A child discloses something painful. The teacher is bound to act, and the child assumed the conversation was private. The conflict cannot be dissolved, only handled honestly, with the child&rsquo;s knowledge wherever possible.</li>
+  <li><strong>Discipline and punishment.</strong> Corporal punishment is prohibited, and the genuine problem of a class that will not attend to instruction is not solved by removing the one available instrument. The answer is a system of consequence, consistency and restoration.</li>
+  <li><strong>The teacher&rsquo;s own child.</strong> A relative is in the class. Full neutrality towards one&rsquo;s own family is difficult; the workable answer is usually to disclose the relationship and agree in advance who handles difficult moments.</li>
+  <li><strong>Language and identity.</strong> A child is corrected harshly for using the home language in a class where almost everyone uses it. Efficiency and the child&rsquo;s dignity are in conflict.</li>
+  <li><strong>Gifts and favour.</strong> A small gift is ordinary courtesy in some communities; in a code, accepting anything that could be read as influencing assessment is a risk. What is required is a declared, consistent, transparent rule.</li>
+  <li><strong>Use of children for personal errands.</strong> Routine and almost universal in many schools, and a clear use of institutional resources for private purposes.</li>
+  <li><strong>Photography and sharing of children&rsquo;s images.</strong> A photograph posted without consent is a disclosure, and children cannot withdraw from it. This is now also a matter of law in India, and in any case a matter of dignity.</li>
+</ol>
+
+<p>Accountability runs in six directions, and only the first is obvious. A teacher is accountable to <strong>learners</strong> for their learning, safety, dignity and fair treatment; to <strong>the school</strong> for preparation, record-keeping, the timetable and the institution&rsquo;s reputation; to <strong>parents</strong> for honest information and family confidentiality; to <strong>the community</strong> for being a credible public institution; to <strong>oneself</strong> for honesty about one&rsquo;s own competence, including admitting error and asking for help before a child is failed; and to <strong>the profession</strong> for not lowering its standards by one&rsquo;s own practice.</p>
+
+  <p>The honest difficulty in each case is worth naming: compliance with the institution can itself become unethical if the institution is wrong; community expectation can be contradictory and can press the teacher against a child&rsquo;s interest; and accountability to oneself is the one nobody else will check, so it is the one that decays first.</p>
+
+<div class="card exam"><span class="lbl">Exam Focus</span>
+<p>A viva question on this workshop is likely to be a scenario question rather than a definition. Prepare an answer in three parts for each of the nine dilemmas: what the obligations are, which is stronger and why, and what I would actually do on Monday morning. The third part is the one that is assessed.</p>
+</div>
+
+<h3 id="wsp5">2.6 Workshop 5 &mdash; Meaning of Self, Factors Impacting Self-Development, and the Johari Window</h3>
+
+<h4>Meaning of self</h4>
+<p>Three different things get called &ldquo;the self&rdquo; in ordinary speech. <strong>The self as identity</strong> &mdash; &ldquo;who I am&rdquo;: a relatively stable collection of beliefs and self-descriptions through which a person interprets experience; it can be examined, because it consists in part of assigned meanings, and meanings can be revised. <strong>The self as self-concept</strong> &mdash; &ldquo;how I see myself&rdquo;: not a fact but a judgement, held in head and body, formed from experience and constantly updated; a hypothesis about oneself, not a report of oneself.</p>
+
+  <p><strong>The self as self-image</strong> &mdash; &ldquo;how I appear to others&rdquo;: inseparable in practice from the first two, because a person is not always aware of the gap between how they are and how they come across, and much of the ordinary distress of teaching arises from that gap. Because the self is a set of meanings rather than a fixed thing, it can be developed: self-development is not the accumulation of credentials, but the deliberate revision of the meanings one holds about oneself and the deliberate widening of the evidence one allows to enter them.</p>
+
+<h4>Factors that impact self-development</h4>
+<ol class="num">
+  <li><strong>Internal.</strong> Age and stage; temperament; the quality of early attachment; physical health and disability; mental habits such as perfectionism, rumination and avoidance; the accuracy of self-perception; and how success and failure are attributed &mdash; to circumstances, to others, or to one&rsquo;s own controllable action.</li>
+  <li><strong>Family and social.</strong> The family&rsquo;s style of expressing approval or criticism; comparison with others; the emotional climate of the home; the influence of the wider kin group; and the presence or absence of at least one adult who took the person seriously.</li>
+  <li><strong>Peer and school.</strong> Whether the school rewarded effort or only performance; ranking and public comparison; the teacher&rsquo;s attitude to mistakes; sport, art and group activity; and the school&rsquo;s overall climate of dignity or of shame.</li>
+  <li><strong>Cultural and social context.</strong> Family expectation, community reputation and the multiple demands on a woman&rsquo;s and a man&rsquo;s time alike; the multilingual classroom; and the economic situation of the family, which shapes both opportunity and self-expectation.</li>
+  <li><strong>Professional.</strong> The school&rsquo;s culture; the head teacher&rsquo;s style; the availability of mentoring; the possibility of practice-teaching with feedback; the demands of the internship; and institutional pressure to conform.</li>
+  <li><strong>Situational and life.</strong> Health, bereavement, relationship change, financial strain, examination seasons, and the particular stage of the D.El.Ed. year in which a self-assessment is done.</li>
+</ol>
+
+<figure>
+<svg viewBox="0 0 760 390" role="img" aria-label="The Johari Window shown as a two-by-two grid of open, blind, hidden and unknown areas with axes for what is known to self and to others" preserveAspectRatio="xMidYMid meet">
+  <rect x="128" y="46" width="280" height="140" fill="#f7efd8" stroke="#a5822e" stroke-width="1.6"/>
+  <text x="268" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#856722" text-anchor="middle">BLIND SPOT</text>
+  <text x="268" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">What others see in me</text>
+  <text x="268" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">that I cannot see for myself</text>
+  <text x="268" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#7a736a" text-anchor="middle">reduced by asking for feedback</text>
+
+  <rect x="408" y="46" width="280" height="140" fill="#ecefdd" stroke="#6d7a4a" stroke-width="2"/>
+  <text x="548" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#54603a" text-anchor="middle">OPEN / FREE AREA</text>
+  <text x="548" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">Known to me and to others</text>
+  <text x="548" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">Honest, reciprocal relationship</text>
+  <text x="548" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">Where trust and real</text>
+  <text x="548" y="156" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">communication happen</text>
+
+  <rect x="128" y="186" width="280" height="140" fill="#f6f1e6" stroke="#7a736a" stroke-width="1.4"/>
+  <text x="268" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#55504a" text-anchor="middle">UNKNOWN AREA</text>
+  <text x="268" y="246" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">Neither known to me nor</text>
+  <text x="268" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">to others</text>
+  <text x="268" y="288" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#7a736a" text-anchor="middle">capacities not yet found</text>
+
+  <rect x="408" y="186" width="280" height="140" fill="#f1e8ee" stroke="#7a5570" stroke-width="1.6"/>
+  <text x="548" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#654761" text-anchor="middle">HIDDEN AREA</text>
+  <text x="548" y="246" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">Known to me, not to others</text>
+  <text x="548" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">Unexpressed fear, shame,</text>
+  <text x="548" y="282" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">doubt, or unclaimed strength</text>
+  <text x="548" y="304" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#7a736a" text-anchor="middle">reduced by disclosure</text>
+
+  <line x1="112" y1="326" x2="112" y2="40" stroke="#7a736a" stroke-width="1.3"/>
+  <polygon points="106,44 112,34 118,44" fill="#7a736a"/>
+  <text x="102" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a" text-anchor="end" transform="rotate(-90 102 106)">KNOWN TO OTHERS</text>
+  <text x="102" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a" text-anchor="end" transform="rotate(-90 102 270)">NOT KNOWN TO OTHERS</text>
+
+  <line x1="128" y1="342" x2="700" y2="342" stroke="#7a736a" stroke-width="1.3"/>
+  <polygon points="696,336 706,342 696,348" fill="#7a736a"/>
+  <text x="268" y="360" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a" text-anchor="middle">NOT KNOWN TO SELF</text>
+  <text x="548" y="360" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#7a736a" text-anchor="middle">KNOWN TO SELF</text>
+
+  <text x="380" y="382" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#33302b" text-anchor="middle">Self-development means shrinking the blind and hidden areas, and exploring the unknown, in order to enlarge the open area.</text>
+</svg>
+<figcaption><b>Figure 2.3</b> &mdash; The Johari Window. The open area is not a fixed trait; it changes with every conversation.</figcaption>
+</figure>
+
+<p>The <strong>Johari Window</strong> (from Joseph Luft and Harrington Ingold) is the most usable instrument in this paper, because it converts the vague instruction &ldquo;know yourself&rdquo; into two specific and quite different jobs: <em>learning what others see</em>, and <em>deciding what to show</em>. The <strong>open area</strong> is known to oneself and to others &mdash; the region of accurate mutual understanding where trust and real communication are possible, and where a teaching relationship feels effortless because little has to be explained or defended. The <strong>blind spot</strong> is known to others and unknown to oneself: the effect one has on a room that one cannot see.</p>
+
+  <p>It shrinks only by asking other people, and by believing what they say &mdash; which is exactly where Writing Task 6 operates. The <strong>hidden area</strong> is known to oneself and unknown to others &mdash; the fear before the demonstration lesson, the shame after a poor result, and also capacities one has never claimed; it shrinks by disclosure, to the right person, in an appropriate setting. The <strong>unknown area</strong> is known to neither oneself nor others &mdash; potential not yet discovered by anyone; it shrinks through experience, new situations and honest exposure to one&rsquo;s limits.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 2.7 &mdash; A Johari Window Reflection, Completed for Yourself</caption>
+    <thead><tr><th>Pane</th><th>Write three specific entries</th><th>How it shrinks</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Open</strong></td><td>Three things colleagues and children would agree describe you</td><td>Maintained by honesty and by not performing</td></tr>
+      <tr><td><strong>Blind</strong></td><td>Three things others have told you that you did not know &mdash; from a mentor, a peer, a child, a parent</td><td>By asking specific questions: &ldquo;what should I stop doing?&rdquo; &ldquo;when have I lost you?&rdquo;</td></tr>
+      <tr><td><strong>Hidden</strong></td><td>Three things you feel and have never told anyone in this programme</td><td>By disclosure to one trusted person, and by refusing to use them as explanations in a situation</td></tr>
+      <tr><td><strong>Unknown</strong></td><td>Three things you have never tried and do not know whether you can do</td><td>By trying one, in a small and recoverable way, and recording the result honestly</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Worked example. A student-teacher who has never received specific feedback records the blind pane as: &ldquo;I did not know I interrupt; I only knew that some children stopped talking.&rdquo; Two colleagues are asked one question &mdash; &ldquo;when I am explaining something, what do I do that is unhelpful?&rdquo; &mdash; and both answer the same thing independently. That single convergence converts a guess into knowledge, and the open area grows.</p>
+
+  <p>A teacher working on the hidden pane might record &ldquo;I am afraid in front of the head teacher, and I have arranged to avoid the demonstration class&rdquo;; the growth comes from doing the demonstration anyway, with a colleague in the room. The model transfers to children directly: apply the window to a child who has stopped speaking in class, ask what each pane would contain, and give the one action that would most enlarge that child&rsquo;s open area.</p>
+
+<h3 id="wsp6">2.7 Workshop 6 &mdash; Practising Mindfulness and Meditation for Harmonious Relations</h3>
+
+<p>Note the verb: <em>practice</em>, not study. This workshop cannot be run as a talk; it has to be done in the room, and the doing is the assessment.</p>
+
+<div class="card def"><span class="lbl">Definition</span>
+<p><strong>Mindfulness</strong> is the quality of attention in which a person is present with what is happening now, without rushing to judge, approve or reject it &mdash; a <em>quality of attention</em>, cultivable inside or outside any formal practice. <strong>Meditation</strong> is a <em>family of structured practices</em> for training that attention, such as attending repeatedly to the breath, to bodily sensation or to sound, and noticing when attention has wandered and returning it. Mindfulness is what meditation is for.</p>
+</div>
+
+<p>Mindfulness and meditation have deep origins in several religious and contemplative traditions, and it is important to be accurate about that rather than either denying it or collapsing the traditions into a technique. In this course they are used in the <strong>secular, academic</strong> sense: as attention-training practices that can be taught in a public school without belonging to any religion. <strong>Religious practice</strong> is undertaken within a tradition, on its own terms, for the ends that the tradition defines; its value cannot be reduced to its technique, and it should neither be required of a child nor dismissed.</p>
+
+  <p><strong>Secular mindfulness</strong> is used as a <em>psychological skill</em>, the way physical education uses running: the running is not religious, the benefit is real, and the person teaching it is not claiming to be a religious authority. In your classroom, teach the practice; do not teach the doctrine; and never require a child to take part in a practice belonging to a tradition their family does not belong to.</p>
+
+<div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 2.8 &mdash; Four Things Easily Confused with Mindfulness</caption>
+    <thead><tr><th>Practice</th><th>What it is</th><th>How it differs from mindfulness</th><th>What it is good for</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Mindfulness</strong></td><td>Present, non-judging attention</td><td>It is the quality itself</td><td>Noticing before reacting; listening; coping</td></tr>
+      <tr><td><strong>Meditation</strong></td><td>Structured practice for training attention</td><td>One method of cultivating the quality</td><td>Regularity; settling a busy or anxious mind</td></tr>
+      <tr><td><strong>Religious practice</strong></td><td>Acts of devotion or discipline within a tradition</td><td>Has a theological content that secular use neither claims nor replaces</td><td>Meaning, belonging, a life of faith</td></tr>
+      <tr><td><strong>Relaxation exercise</strong></td><td>Techniques deliberately producing physical calm</td><td>Aims to reduce arousal; mindfulness also involves noticing what is present, including what is uncomfortable</td><td>Sleep, physical tension, acute anxiety before an event</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>Simple secular practices, to teach and to practise</h4>
+<ul class="bul">
+  <li><strong>The three-minute breathing space.</strong> Sitting, attending to the breath and the body, noticing when attention has gone elsewhere and bringing it back. The return of attention is the practice, not the staying.</li>
+  <li><strong>STOP.</strong> A four-step sequence for the moment of pressure: <strong>S</strong>&ndash;top, pause; <strong>T</strong>&ndash;ake a slow breath; <strong>O</strong>&ndash;bserve what is happening inside and outside; <strong>P</strong>&ndash;roceed with a chosen action rather than a reactive one. The most teachable form, because it takes four seconds and applies in a corridor.</li>
+  <li><strong>Mindful listening, three minutes.</strong> The teacher reads a short passage; children listen with eyes closed and raise a hand when they notice their own mind wandering. Discovering how often attention leaves is itself the lesson.</li>
+  <li><strong>The body scan for children.</strong> Attention moved slowly from the crown of the head to the feet, noticing hands, shoulders, tummy &mdash; places where a class holds its tension. Four or five minutes, in silence.</li>
+  <li><strong>Mindful movement.</strong> Walking slowly across the room, feeling the foot lift, move and land. Useful with older primary children, and a good bridge to the yoga component of S1.8.</li>
+  <li><strong>Noticing three things.</strong> At the end of the day or session, naming three things that went well and one difficulty met and handled &mdash; a deliberate corrective to the habit of noticing only what went wrong.</li>
+</ul>
+
+<p>The strongest argument for these practices in an elementary school is not relaxation. A class taught by a person managing their own attention is a class in which children are taught how to manage theirs, and most of what is called &ldquo;restlessness&rdquo; in a primary class is a difficulty of attention rather than a moral defect. Two cautions: do not present these practices as cures. They are associated with improved attention, better emotional regulation and less reactivity, and those associations are what you may honestly describe; they are not treatment for illness, they do not promise examination results, and they do not substitute for referral, for a proper rest break, or for a conversation with a colleague about a workload that is genuinely beyond a person.</p>
+
+<h3 id="conduct">2.8 How Workshops and Seminars Are Conducted</h3>
+<p>The syllabus sets out the points to be highlighted while seminars and workshops are conducted. They govern the format of every session, so a student-teacher who has seen them applied knows exactly what is expected in a presentation.</p>
+
+<div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 2.9 &mdash; The Points to be Highlighted in Conducting a Seminar or Workshop</caption>
+    <thead><tr><th>Point</th><th>What it means in practice</th><th>What a student-teacher should do in response</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Objective formulation</strong></td><td>The session begins from a stated objective &mdash; what participants are expected to be able to do or think at the end, not what the speaker intends to cover</td><td>Read the objective before the session; at the end, test yourself against it rather than against how much was said</td></tr>
+      <tr><td><strong>Display of a film or CD, or reading of a text</strong></td><td>An audio-visual or written stimulus opens the session, so that discussion begins from a shared experience rather than from opinion alone</td><td>Watch or read it beforehand; come with two observations, not one</td></tr>
+      <tr><td><strong>Small-group discussion</strong></td><td>The work is done in small groups, so that every voice is used and the larger group is not carried by three speakers</td><td>Take a role in the group; the person who writes should also be the person who reports back</td></tr>
+      <tr><td><strong>Debate and discussion</strong></td><td>A position is argued against another, and the disagreement is productive rather than personal</td><td>State your position in one sentence early; concede a valid point aloud</td></tr>
+      <tr><td><strong>Extempore speech</strong></td><td>Speaking without preparation, on the spot, on a theme drawn from the session</td><td>Take a turn even if unprepared; structure it as position, example, conclusion</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="review">
+  <h4 id="u2-review">Unit 2 Quick Review</h4>
+  <h5>Key Points</h5>
+  <ul class="bul">
+    <li>The first workshop is compulsory; two more are chosen; each carries 5 marks; the unit totals 15. Marks come from reports reflecting critical thinking, not from attendance.</li>
+    <li>Six constructs &mdash; awareness, acceptance, confidence, motivation, esteem, efficacy &mdash; are a sequence, not a list.</li>
+    <li>A SWOT needs a stated goal. Strengths and Weaknesses are internal; Opportunities and Threats external. TOWS turns the diagnosis into a plan.</li>
+    <li>Life skills divide into psychological/emotional (managing the self) and social (managing the self in company with others).</li>
+    <li>Conceptual understanding of LSE must be built <em>before</em> the internship; the internship is where it is practised with children.</li>
+    <li>Words are not meaning. Meaning is reconstructed inside the field of experience shared by sender and receiver.</li>
+    <li>Six barrier types: physical/environmental, physiological, psychological, semantic, organisational/cultural, language.</li>
+    <li>Johari Window: open area, blind spot, hidden area, unknown area. Shrink three to grow one.</li>
+    <li>Mindfulness is a quality of attention; meditation trains it. Teach the practice, never the doctrine, and never require a child to participate.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p><strong>Self-awareness</strong> &middot; <strong>Self-acceptance</strong> &middot; <strong>Self-confidence</strong> &middot; <strong>Self-motivation</strong> &middot; <strong>Self-esteem</strong> &middot; <strong>Self-efficacy</strong> &middot; <strong>SWOT</strong> &middot; <strong>TOWS</strong> &middot; <strong>Life Skill Education</strong> &middot; <strong>Mode of transaction</strong> &middot; <strong>Field of experience</strong> &middot; <strong>Noise</strong> &middot; <strong>Semantic barrier</strong> &middot; <strong>Active listening</strong> &middot; <strong>3H technique</strong> &middot; <strong>Professional ethics</strong> &middot; <strong>Professional accountability</strong> &middot; <strong>NCTE Teacher Professional Code of Ethics</strong> &middot; <strong>Johari Window</strong> &middot; <strong>Mindfulness</strong> &middot; <strong>Meditation</strong></p>
+</div>
+
+</section>
+<!-- ============ UNIT 3 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-3"><span class="h2num">Unit 3</span> Seminar &mdash; Any Two (2 &times; 5 = 10)</h2>
+
+<p>Four seminar themes are listed and two are chosen. Each carries 5 marks, awarded on the basis of the report in which the student-teacher reflects on their own critical thinking. A seminar is assessed as a piece of thinking, not as attendance, and a seminar report that summarises a discussion scores nothing. What each theme asks is the same question asked from a different direction: <em>what in my own practice stands between me and this?</em></p>
+
+<h3 id="sm1">3.1 Seminar 1 &mdash; Nurturing Humane Qualities</h3>
+<p>Humane qualities are dispositions, not skills: compassion, empathy, respect, kindness, humility, honesty, patience and a concern for the dignity of other people. They are dispositions because they cannot be acquired by instruction; they are built by the situations one is repeatedly placed in and by what those situations reward. What makes this a seminar rather than a topic is that the group has to locate the moments in ordinary teaching where these qualities are actually tested &mdash; and the honest answer is uncomfortable. It is the moment a child repeats a mistake for the fourth time; the moment a colleague is unfair to a weaker teacher in a staff meeting; the moment a parent&rsquo;s complaint is defensible and cannot be met.</p>
+<ul class="bul">
+  <li><strong>Empathy versus sympathy.</strong> Empathy is understanding another person&rsquo;s experience as that person experiences it; sympathy is feeling sorry from one&rsquo;s own position. Sympathy can become distance; empathy is the basis of good response.</li>
+  <li><strong>The dignity clause.</strong> Being treated as a person is a condition for learning, not a reward for good behaviour. A child who is shamed stops learning before the content is reached.</li>
+  <li><strong>Humility is functional.</strong> It is what makes a teacher able to be corrected, and therefore able to improve.</li>
+  <li><strong>Integrity under low supervision.</strong> What a teacher does when no register is marked and no inspector is present is the useful test of humane qualities &mdash; not the practice the test expects, but the practice that is convenient.</li>
+</ul>
+<p>Seminar method: case vignettes read aloud, discussed in small groups, then each group asked what the quality in question would actually <em>cost</em> the teacher. If the answer is &ldquo;nothing&rdquo;, the group has chosen the wrong vignette.</p>
+
+<h3 id="sm2">3.2 Seminar 2 &mdash; Managing Emotion</h3>
+<p>Emotion is not the problem. Unmanaged emotion is. This seminar treats managing emotion as a sequence: <strong>notice</strong> it in the body before it becomes a judgement, <strong>name</strong> it precisely, <strong>understand</strong> what it is about, <strong>choose</strong> a response rather than reacting, and only then <strong>act</strong>. Almost every failure at the last two steps is a failure at the first. The teacher who does not notice the rising heat cannot choose, and can only react.</p>
+<ul class="bul">
+  <li><strong>Triggers are personal and often predictable.</strong> A colleague&rsquo;s public correction, a child&rsquo;s defiance in front of others, a long untended queue. Knowing one&rsquo;s own list is the first practical outcome of this seminar.</li>
+  <li><strong>The narrow window.</strong> Under rising arousal, the range of responses a person can choose from narrows. The function of a pause is not to be calm but to widen that range back before answering.</li>
+  <li><strong>Rumination is not processing.</strong> Processing ends in a decision or a release; rumination is a circular loop of blame with no exit, and it looks like serious thought while producing none.</li>
+  <li><strong>Other people&rsquo;s emotion is data.</strong> Emotion in a class is information about the situation and about the person, not an obstacle to instruction &mdash; and suppressing the display of it without addressing the cause simply relocates the problem.</li>
+  <li><strong>Sequences worth building:</strong> STOP from Workshop 6; the pause and the naming; the technique of writing the emotion out in one unedited paragraph before replying to anything difficult.</li>
+</ul>
+<p>Seminar method: participants describe one real incident of lost control; the group analyses what the emotion was, what preceded it, and what a different first move could have been. Plenary closes with each participant naming one private trigger and one agreed response for it.</p>
+
+<h3 id="sm3">3.3 Seminar 3 &mdash; Inculcating Soft Skills and Social Grace</h3>
+<p>Soft skills are the learnable abilities through which a person works with others and manages their own working life &mdash; listening, speaking, cooperation, self-management, problem-solving, decision-making and, increasingly, the digital skills covered in the internship. <strong>Social grace</strong> is the courteous and workable form these take in company: greeting, waiting one&rsquo;s turn, not interrupting, saying no without shaming, thanking, apologising, entering and leaving a shared space without collision. Its basis is <strong>respect for the other&rsquo;s dignity and autonomy</strong>. Grace that enforces one group&rsquo;s habits on another, or that punishes a child for what the home language calls polite, is not grace.</p>
+<ul class="bul">
+  <li><strong>Soft skills are teachable; virtues are not.</strong> &ldquo;Wait your turn&rdquo; can be modelled, rehearsed and rewarded. &ldquo;Be kind&rdquo; can only be exemplified.</li>
+  <li><strong>Grace cuts across language.</strong> A child who greets a teacher with folded hands, a child who greets with <em>namaskar</em>, a child who simply looks up and nods &mdash; all are acknowledging. Insisting on one form penalises a home language and the families who use it.</li>
+  <li><strong>Grace among equals.</strong> What is taught must extend to the weakest child, to the mute child, to the newest child and to the cleaning staff of the school. Grace that is selective is status, not grace.</li>
+  <li><strong>Digital conduct.</strong> Sharing photographs, forwarding messages and group membership are now part of a child&rsquo;s social life, and the school&rsquo;s rules about them should be discussed with children, not merely imposed on them.</li>
+</ul>
+<p>Seminar method: the group lists the ten courtesies a Class I child actually needs, then asks which of them the current class routine practises and which it quietly punishes. The usual finding is that a noisy, active class is praised for speed and punished for grace, and that reversing that is cheap.</p>
+
+<h3 id="sm4">3.4 Seminar 4 &mdash; Negotiating Self-Criticism and Self-Validation for Self-Esteem</h3>
+<p>This seminar handles the two voices everyone has. One is the <strong>inner critic</strong>, which evaluates by comparison and by character &mdash; &ldquo;you are not a good teacher,&rdquo; &ldquo;you are not that sort of person&rdquo; &mdash; and which produces shame. The other is the <strong>inner coach</strong>, which evaluates by action &mdash; &ldquo;that lesson moved too fast for the back three rows; tomorrow try the demonstration before the explanation&rdquo; &mdash; and which produces improvement. Shame makes a person avoid the evidence; a coach makes a person go and look at it. That single difference is why self-criticism, which sounds like a virtue, can hold a person at a fixed level of performance.</p>
+<div class="tw">
+  <table class="compact">
+    <caption>Table 3.1 &mdash; Negotiation Table for the Self-Criticism Seminar</caption>
+    <thead><tr><th>Self-critical statement</th><th>Coach&rsquo;s re-statement</th><th>What the re-statement makes possible</th></tr></thead>
+    <tbody>
+      <tr><td>&ldquo;I am a failure as a teacher.&rdquo;</td><td>&ldquo;That lesson did not reach the back three rows. Here is what I will change on Monday.&rdquo;</td><td>A specific change, a test of it, and a repeat</td></tr>
+      <tr><td>&ldquo;They all think I am incompetent.&rdquo;</td><td>&ldquo;Two of them asked me to repeat it; the rest said nothing, which tells me less than I assume.&rdquo;</td><td>Checking a belief instead of obeying it</td></tr>
+      <tr><td>&ldquo;I should be able to do this without thinking.&rdquo;</td><td>&ldquo;Expert teaching uses routines built by deliberate practice, not by absence of thought.&rdquo;</td><td>Planning as competence rather than as failure</td></tr>
+      <tr><td>&ldquo;I failed the class, so I failed myself.&rdquo;</td><td>&ldquo;Twenty-two of forty reached the objective; three need a second attempt on Thursday.&rdquo;</td><td>Partial data, and a plan that follows from it</td></tr>
+      <tr><td>&ldquo;If they criticise me I am nothing.&rdquo;</td><td>&ldquo;One person&rsquo;s judgement is information about their frame, and possibly about my work &mdash; both are worth checking.&rdquo;</td><td>Taking feedback without being consumed by it</td></tr>
+    </tbody>
+  </table>
+</div>
+<p><strong>Self-validation</strong> is the deliberate provision of evidence to oneself, so that self-esteem does not depend entirely on who else happens to be present. Its sources are <strong>realistic</strong> rather than inflated: the record of work actually done, progress actually made, promises actually kept, feedback actually received and acted on. Low self-esteem and high self-esteem share the same defect from opposite ends &mdash; both are unstable under ordinary contact with evidence, because both depend on something outside the person. Validation is the internalisation of that evidence.</p>
+
+<h3 id="sm-matrix">3.5 Seminar Selection and Reporting</h3>
+<div class="tw">
+  <table class="compact">
+    <caption>Table 3.2 &mdash; Choosing Between Two Seminars</caption>
+    <thead><tr><th>Seminar</th><th>Choose it if your recent difficulty is&hellip;</th><th>Its one-line test at the end</th></tr></thead>
+    <tbody>
+      <tr><td>Humane qualities</td><td>Reacting to children or colleagues in a way you cannot afterwards defend</td><td>Can you name the moment the quality would have cost you something, and what you did?</td></tr>
+      <tr><td>Managing emotion</td><td>Losing control under pressure, or carrying a feeling that will not settle</td><td>Can you name your three triggers and the agreed response for each?</td></tr>
+      <tr><td>Soft skills and social grace</td><td>A class where courtesy is treated as decoration and conflict is treated as noise</td><td>Which courtesies does your actual class routine practise, and which does it punish?</td></tr>
+      <tr><td>Self-criticism and self-validation</td><td>Unable to take criticism, or unable to stop criticising yourself</td><td>Can you say what is true, what is your story, and what you will do on Monday?</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>A seminar report runs to three parts and no more: what the theme made me notice that I had not noticed; what I would have to give up to act on it; and the one small change I am making this month, with the date by which I will know whether it worked. Write the middle part honestly. A report that claims to have resolved a difficulty the writer still has is the commonest failure in this unit, and it is also the easiest to detect.</p>
+
+<div class="review">
+  <h4 id="u3-review">Unit 3 Quick Review</h4>
+  <h5>Key Points</h5>
+  <ul class="bul">
+    <li>Four seminar themes; two chosen; 5 marks each; the unit totals 10. Marks come from the reflective report, not from attendance.</li>
+    <li>Humane qualities are dispositions built by what a situation rewards &mdash; test them by their cost.</li>
+    <li>Managing emotion is notice &rarr; name &rarr; understand &rarr; choose &rarr; act. Failure at choosing is usually failure at noticing.</li>
+    <li>Rumination is not processing: it is circular blame without an exit.</li>
+    <li>Social grace rests on respect for the other&rsquo;s dignity, and must not enforce one language group&rsquo;s habits on another.</li>
+    <li>The inner critic evaluates by character and produces shame; the inner coach evaluates by action and produces improvement.</li>
+    <li>Self-validation means supplying oneself with realistic evidence, so that esteem does not depend on who else is present.</li>
+  </ul>
+  <h5>Key Terms</h5>
+  <p><strong>Humane qualities</strong> &middot; <strong>Empathy</strong> &middot; <strong>Sympathy</strong> &middot; <strong>Dignity</strong> &middot; <strong>Integrity</strong> &middot; <strong>Trigger</strong> &middot; <strong>Window of tolerance</strong> &middot; <strong>Rumination</strong> &middot; <strong>Soft skills</strong> &middot; <strong>Social grace</strong> &middot; <strong>Inner critic</strong> &middot; <strong>Inner coach</strong> &middot; <strong>Shame vs guilt</strong> &middot; <strong>Self-validation</strong> &middot; <strong>Realistic self-esteem</strong></p>
+</div>
+
+</section>
+
+<!-- ============ SIP ============ -->
+<section class="unit-body">
+
+<h2 id="sip"><span class="h2num">School Internship Programme</span> Life-Skills Activities with School Children</h2>
+
+<p>The SIP component of this paper requires the student-teacher, during the school internship, to conduct life-skills activities with school children and to submit a report on them. It is the point at which the whole paper stops being a report about oneself and becomes a report about what happened in a classroom. Nothing new is taught here: the six constructs, the fifteen life skills, the nine modes of transaction and the six-stage shape of a session have all been prepared in the preceding pages.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 4.1 &mdash; The SIP Task, Step by Step</caption>
+    <thead><tr><th>Step</th><th>What to do</th><th>What to record</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1. Diagnose</strong></td><td>Sit in on two or three ordinary periods of a class you will work with. Note one recurring difficulty, not a dramatic one &mdash; escalation, silence, non-finishing, turn-taking</td><td>Class, date, period, the difficulty in one sentence, and one quotation of what actually happened</td></tr>
+      <tr><td><strong>2. Select</strong></td><td>Choose the <em>one</em> life skill that addresses that difficulty. More than one skill in a forty-minute session with children who have never done this before guarantees that none of it lands</td><td>The skill, and the reasoning from observed behaviour to selected skill in three or four sentences</td></tr>
+      <tr><td><strong>3. Plan</strong></td><td>Write the six stages &mdash; warm-up, model, practice, reflect, transfer, assess &mdash; with minutes against each, and the mode of transaction for each stage. Decide what you will change if only one thing survives</td><td>The plan, and the fallback if the class will not participate</td></tr>
+      <tr><td><strong>4. Prepare</strong></td><td>Arrange materials, a space that is not rows-and-desks, and permission. Tell the class teacher what you are doing and why; tell the children only that something different is going to happen</td><td>Materials list, time and place agreed</td></tr>
+      <tr><td><strong>5. Conduct</strong></td><td>Run the session. Keep to the plan for the first two stages; after that, follow the class. Expect to be wrong about the time</td><td>Actual minutes at each stage against planned; two things that did not go as intended</td></tr>
+      <tr><td><strong>6. Repeat</strong></td><td>Run a second session with one change only. A single session proves nothing about the class; the comparison is the evidence</td><td>What you changed and the difference you observed</td></tr>
+      <tr><td><strong>7. Report</strong></td><td>Write the report below. Evidence and reflection; not a lesson plan and not a summary of the syllabus</td><td>The report, with dates and the class teacher&rsquo;s remark if obtainable</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card refl"><span class="lbl">Reflection</span>
+<p>The report is at its best when it is uncomfortable. &ldquo;The children enjoyed it&rdquo; and &ldquo;the activity was successful&rdquo; carry no information. The lines that earn marks are the observational ones &mdash; by the third round the argument had stopped; a child who had not spoken in a week spoke once and then withdrew again; I had underestimated how long permission to speak takes &mdash; followed by the decision those observations forced. Write what you saw, then what you will do differently, then why you will do it.</p>
+</div>
+
+<p><strong>Precautions.</strong> Do not conduct a life-skills session as a substitute for the subject periods you are attached to, and do not make a child&rsquo;s participation in it a condition of anything. Never use the session to discipline, to name children publicly, or to correct academic errors &mdash; the moment a session is used as punishment it teaches the opposite of what it is for. Do not record individual children by name or photograph them without permission. Keep the activity short: two sessions, not ten, and the second one matters more than the first.</p>
+
+</section>
+
+<!-- ============ INTERNAL ASSESSMENT ============ -->
+<section class="unit-body">
+
+<h2 id="internal"><span class="h2num">Internal Assessment</span> Assessment Pattern &mdash; 50 Marks, Entirely Internal</h2>
+
+<p>There is no external examination paper in this subject. All 50 marks are awarded internally, across the three units and the internship component described above.</p>
+
+<div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 5.1 &mdash; Internal Assessment Structure</caption>
+    <thead><tr><th>Component</th><th>Requirement</th><th>Marks</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Unit 1 &mdash; Writing Tasks</strong></td><td>Any five of the ten tasks; the mentor distributes the topics; a report or an article is submitted for each</td><td>15</td></tr>
+      <tr><td><strong>Unit 2 &mdash; Workshop</strong></td><td>The first workshop compulsory, plus any two; a report in which the student-teacher reflects on their own critical thinking</td><td>15</td></tr>
+      <tr><td><strong>Unit 3 &mdash; Seminar</strong></td><td>Any two of the four themes; a reflective report on each</td><td>10</td></tr>
+      <tr><td><strong>SIP</strong></td><td>Life-skills activities conducted with school children during the internship, plus a report on them</td><td>10</td></tr>
+      <tr><td colspan="2"><strong>Total</strong></td><td><strong>50 &mdash; all internal</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card mist"><span class="lbl">Common Mistake</span>
+<p>The total of the three units is 40 (15 + 15 + 10), not 50. The syllabus specifies 50 internal marks for the paper but does not name the remaining 10 as a separate component; the SIP component &mdash; life-skills activities with school children and a report on them, listed in this subject&rsquo;s syllabus and also carried in SI-I &mdash; accounts for exactly 10, which is why it is shown in the table above. This reading is inferred, not stated: if your institution&rsquo;s notification or the mentor&rsquo;s instruction allocates those 10 marks differently, follow the institution. What must not be done is to present a 40-mark structure as the full scheme, or to add a component the syllabus never mentions.</p>
+</div>
+
+<p>Because assessment is internal, the standard applied is the standard of the report, not of the examination hall. Unit 1 is marked on what was written and on whether it shows the writer&rsquo;s own thinking; Unit 2 on the reflection on critical thinking the workshop was designed to elicit; Unit 3 on the same basis. Nothing in this subject rewards a student for describing what self-understanding is in general, and everything in it rewards a student for describing what it looks like in one specific classroom, on one specific day, with evidence.</p>
+
+</section>
+<!-- ============ QUICK SUBJECT REVISION ============ -->
+<section class="unit-body">
+
+<h2 id="revision"><span class="h2num">Quick Revision</span> Quick Subject Revision &mdash; A Memory Sheet</h2>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 6.1 &mdash; The Whole Paper on One Page</caption>
+    <thead><tr><th>Component</th><th>Requirement</th><th>Marks</th><th>What is assessed</th></tr></thead>
+    <tbody>
+      <tr><td>Unit 1 &mdash; Writing Tasks</td><td>Any 5 of 10; mentor distributes</td><td>15</td><td>Content, evidence, and whether it shows your own thinking</td></tr>
+      <tr><td>Unit 2 &mdash; Workshop</td><td>Workshop 1 compulsory + any 2 of 6</td><td>15</td><td>Reflection on your own critical thinking</td></tr>
+      <tr><td>Unit 3 &mdash; Seminar</td><td>Any 2 of 4</td><td>10</td><td>Reflection on your own critical thinking</td></tr>
+      <tr><td>SIP</td><td>Life-skills activities with school children + report</td><td>10</td><td>Observation and the decision it forced</td></tr>
+      <tr><td><strong>Total</strong></td><td>Entirely internal &mdash; no written paper</td><td><strong>50</strong></td><td>&mdash;</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 6.2 &mdash; Unit 2 at a Glance: Nine Items You Must Be Able to Reproduce</caption>
+    <thead><tr><th>Item</th><th>Count</th><th>The items themselves</th></tr></thead>
+    <tbody>
+      <tr><td>Six constructs</td><td>6</td><td>Self-awareness &middot; self-acceptance &middot; self-confidence &middot; self-motivation &middot; self-esteem &middot; self-efficacy</td></tr>
+      <tr><td>SWOT &rarr; TOWS matches</td><td>4</td><td>SO (strength + opportunity) &middot; ST (strength + threat) &middot; WO (weakness + opportunity) &middot; WT (weakness + threat)</td></tr>
+      <tr><td>Life skills</td><td>15</td><td>Psychological/emotional (10): self-awareness, self-motivation, assertiveness, empathy, coping with emotion, stress management, decision-making, problem-solving, critical thinking, creative thinking, time management &mdash; social (5): communication, cooperation, negotiation, social awareness, networking, leadership</td></tr>
+      <tr><td>Modes of transaction</td><td>9</td><td>Discussion &middot; role-play &middot; storytelling &middot; simulation/games &middot; group activity &middot; field visit/observation &middot; peer mentoring &middot; reflective journal &middot; demonstration/modelling</td></tr>
+      <tr><td>Communication barriers</td><td>6</td><td>Physical/environmental &middot; physiological &middot; psychological &middot; semantic &middot; organisational/cultural &middot; language</td></tr>
+      <tr><td>Accountability is owed to</td><td>6</td><td>Learners &middot; the school &middot; parents &middot; the community &middot; oneself &middot; the profession</td></tr>
+      <tr><td>Ethical dilemmas</td><td>9</td><td>Favouritism &middot; reporting a colleague &middot; confidentiality &middot; discipline and punishment &middot; one&rsquo;s own child &middot; language and identity &middot; gifts and favour &middot; children used for errands &middot; photographing children</td></tr>
+      <tr><td>Johari Window panes</td><td>4</td><td>Open area &middot; blind spot &middot; hidden area &middot; unknown area</td></tr>
+      <tr><td>Session stages</td><td>6</td><td>Warm-up &middot; model &middot; practice &middot; reflect &middot; transfer &middot; assess</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 6.3 &mdash; Names, Dates and Documents</caption>
+    <thead><tr><th>Name or item</th><th>Date</th><th>Why it is here</th></tr></thead>
+    <tbody>
+      <tr><td>Srimanta Sankardeva</td><td>1445&ndash;1568</td><td>Central figure of the Assamese Vaishnavite tradition; <em>Giti Giti</em>; <em>Borgeet</em></td></tr>
+      <tr><td>Madhav Kandali</td><td>14th century, first half</td><td>Earliest major Assamese translator; Assamese <em>Ramayana</em></td></tr>
+      <tr><td>Madhavdeva</td><td>1484&ndash;1564</td><td>Most influential verse; <em>Borgeet</em> still sung</td></tr>
+      <tr><td>Srimanta Chaitanya Deva</td><td>16th century</td><td>The six <em>kantas</em></td></tr>
+      <tr><td>Chandraprabha Saonian</td><td>Early 17th century</td><td><em>Kirtan Ghosa</em></td></tr>
+      <tr><td>G. Sankara Kurup</td><td>1861&ndash;1941; Nagaon school 1883</td><td>First Assamese-medium school; persistence against obstruction</td></tr>
+      <tr><td><strong>NCTE</strong> and the <strong>NCTE Act, 1993</strong></td><td>1993</td><td>Statutory body; issues the <strong>Teacher Professional Code of Ethics</strong> and notifies the <strong>Professional Ethics Committee</strong></td></tr>
+      <tr><td>Luft and Ingold</td><td>&mdash;</td><td>Johari Window</td></tr>
+      <tr><td>Shannon and Weaver</td><td>&mdash;</td><td>The transmission model of communication, and its field of experience</td></tr>
+      <tr><td>NEP 2020 &middot; NCF-SE 2023</td><td>2020 &middot; 2023</td><td>Social-emotional and cognitive skills named among priority competencies</td></tr>
+      <tr><td><em>21st Century Skills Handbook</em>; Manodarpan, Ministry of Education</td><td>&mdash;</td><td>LSE reference point named by the syllabus</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</section>
+
+<!-- ============ IMPORTANT DIFFERENCES ============ -->
+<section class="unit-body">
+
+<h2 id="differences"><span class="h2num">Revision Aid</span> Important Differences</h2>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 7.1 &mdash; The Comparisons Students Most Often Confuse</caption>
+    <thead><tr><th>A</th><th>B</th><th>The distinction</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Self-awareness</strong></td><td><strong>Self-acceptance</strong></td><td>Awareness is knowing what is happening; acceptance is deciding not to fight it. Awareness can lead to misery, acceptance to action</td></tr>
+      <tr><td><strong>Self-confidence</strong></td><td><strong>Self-esteem</strong></td><td>Confidence is a judgment of capability in a domain, held before performance; esteem is a global sense of being worth something. Confidence can be high in one subject and absent in the next</td></tr>
+      <tr><td><strong>Self-esteem</strong></td><td><strong>Self-efficacy</strong></td><td>Efficacy is task-specific (&ldquo;can I do this?&rdquo;); esteem is global (&ldquo;am I worth something?&rdquo;). Efficacy builds mastery; esteem builds dignity</td></tr>
+      <tr><td><strong>SWOT</strong></td><td><strong>TOWS</strong></td><td>SWOT diagnoses by placing items in four boxes; TOWS acts, by matching internal factors against external ones into strategies (SO, ST, WO, WT)</td></tr>
+      <tr><td><strong>Psychological / emotional skills</strong></td><td><strong>Social skills</strong></td><td>The first manage the self; the second manage the self in company with others. Escalation points to the first, paralysis to the second</td></tr>
+      <tr><td><strong>Transmission model</strong></td><td><strong>Field of experience</strong></td><td>The model explains how a message travels; the field of experience explains whether meaning arrives. Overlap of experience, not volume of voice, decides success</td></tr>
+      <tr><td><strong>Professional ethics</strong></td><td><strong>Professional accountability</strong></td><td>Ethics is what is right; accountability is being answerable to identified parties for doing it. Ethics without accountability is intention only</td></tr>
+      <tr><td><strong>Self-concept</strong></td><td><strong>Self-image</strong></td><td>Concept is how I see myself; image is how I appear to others. Most teaching distress comes from the gap between the two</td></tr>
+      <tr><td><strong>Shame</strong></td><td><strong>Guilt</strong></td><td>Guilt is about an action and can be repaired; shame is about the person and makes a person avoid the evidence. Shame is what stops a teacher looking at the evidence</td></tr>
+      <tr><td><strong>Inner critic</strong></td><td><strong>Inner coach</strong></td><td>The critic evaluates character and produces shame; the coach evaluates action and produces improvement</td></tr>
+      <tr><td><strong>Empathy</strong></td><td><strong>Sympathy</strong></td><td>Empathy enters the other&rsquo;s experience; sympathy remains in one&rsquo;s own and can become distance</td></tr>
+      <tr><td><strong>Mindfulness</strong></td><td><strong>Meditation</strong></td><td>Mindfulness is the quality of present, non-judging attention; meditation is one family of practices for training it</td></tr>
+      <tr><td><strong>Workshop</strong></td><td><strong>Seminar</strong></td><td>A workshop is constructed around a task done; a seminar around a theme discussed. Both are assessed on the reflective report</td></tr>
+      <tr><td><strong>Soft skill</strong></td><td><strong>Social grace</strong></td><td>A soft skill is the ability; social grace is the courteous form it takes between people, resting on respect for the other&rsquo;s dignity</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</section>
+
+<!-- ============ COURSE INFORMATION ============ -->
+<section class="unit-body">
+
+<h2 id="course"><span class="h2num">Back Matter</span> Course Information</h2>
+
+<h3 id="objectives">Course Objectives</h3>
+<p>The syllabus states six objectives. Every writing task, workshop and seminar in the three units is a way of serving one of them.</p>
+
+<div class="tw">
+  <table class="compact">
+    <caption>Table 8.1 &mdash; The Six Course Objectives and Where They Are Practised</caption>
+    <thead><tr><th>Objective</th><th>Where it is practised</th></tr></thead>
+    <tbody>
+      <tr><td>Develop communication skills and ways to establish peace and harmony within oneself and with society</td><td>Writing Tasks 2 and 4; Workshop 3 and 6; Seminar 2</td></tr>
+      <tr><td>Facilitate personal growth and social skills amongst student-teachers</td><td>All three units; SIP life-skills sessions</td></tr>
+      <tr><td>Enhance self-awareness, self-acceptance, self-confidence and self-motivation for personal development as well as professional growth</td><td>Section 2.1; Writing Tasks 1&ndash;8; Workshop 1 and 5</td></tr>
+      <tr><td>Help student-teachers inculcate values to enhance their personalities</td><td>Writing Task 2 (scripts for role-play); Seminar 1</td></tr>
+      <tr><td>Motivate student-teachers towards quality teaching-learning processes</td><td>Writing Task 10; Seminar 1 and 4; Workshop 1 (institutional SWOT)</td></tr>
+      <tr><td>Develop capacity to apply a professional attitude and deliberation skill</td><td>Workshop 4; Seminar 3; review of every writing task</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="mode">Mode of Transaction</h3>
+<p>The syllabus states that the nature of the course is practical, in the form of writing, workshop and seminar, and that it is to be exclusively monitored and evaluated at the respective Teacher Education Institute. It is designed so that student-teachers assimilate and internalise the situations they are placed in rather than memorising descriptions of them. Concretely, the course is transacted through:</p>
+<ul class="bul">
+  <li><strong>Workshops and seminars</strong> conducted with contextualised material and formats, prepared by the mentor and the faculty team.</li>
+  <li><strong>Various types of writing tasks</strong> &mdash; creative writing, article writing, script writing, case study and introspective report &mdash; submitted across the semester.</li>
+  <li><strong>Monthly journal writing</strong>, which is a continuous reflective practice rather than a single submission.</li>
+  <li><strong>Group discussion, sharing and interaction</strong> with experts, faculties and mentors.</li>
+  <li><strong>Audio-visual devices</strong> &mdash; film, CD, documentary, or the reading of a text &mdash; used to open a seminar or workshop before discussion begins.</li>
+  <li><strong>Interactive sessions</strong>, group discussion, role play and presentation inside the workshop and seminar format.</li>
+  <li><strong>School internship and visits</strong>, including a visit to a meditation centre or spiritual development centre in the local area, which the syllabus notes may provide an additional opportunity for understanding the self.</li>
+</ul>
+
+<h3 id="assessment-structure">Assessment Structure</h3>
+<p>50 marks, all internal: Unit 1 (15) + Unit 2 (15) + Unit 3 (10) + SIP (10). There is no written end-semester paper. The full pattern is set out in Table 5.1, and the honest note about the derivation of the 10 SIP marks is in the Internal Assessment section.</p>
+
+</section>
+
+<!-- ============ SUGGESTED READINGS ============ -->
+<section class="unit-body">
+
+<h2 id="readings"><span class="h2num">Back Matter</span> Suggested Readings</h2>
+
+<div class="tw tkeep">
+  <table class="compact">
+    <caption>Table 9.1 &mdash; Suggested Readings</caption>
+    <thead><tr><th>Reference</th><th>Use it for</th></tr></thead>
+    <tbody>
+      <tr><td>SCERT Assam, <em>D.El.Ed. (PSTE) Revised Curriculum-Syllabus 2024</em>, the S1.4 paper</td><td>The tasks, workshops, seminars, SIP requirement and assessment pattern, exactly as specified</td></tr>
+      <tr><td>Ministry of Education, <em>21st Century Skills Handbook</em> (available through the Manodarpan portal)</td><td>Life-skill content for Unit 2 and the SIP session</td></tr>
+      <tr><td><em>Assam Life Skills Education Framework</em>, SCERT Assam</td><td>The local framing of life-skills work in the school</td></tr>
+      <tr><td>NCTE, <em>Teacher Professional Code of Ethics</em>; <em>NCTE Act, 1993</em></td><td>Workshop 4 &mdash; professional ethics and accountability</td></tr>
+      <tr><td>Luft, J. and Ingold, H., <em>Managing Human Relations</em></td><td>The Johari Window in Workshop 5</td></tr>
+      <tr><td>Shannon, C. E. and Weaver, W., <em>A Mathematical Theory of Communication</em></td><td>The transmission model and the field of experience in Workshop 3</td></tr>
+      <tr><td>NEP 2020; <em>NCF for School Education 2023</em></td><td>Social-emotional and cognitive skills as curriculum priorities</td></tr>
+      <tr><td>Any one standard textbook on Educational Psychology</td><td>The constructs of self, attribution, and self-concept behind Units 1&ndash;2</td></tr>
+      <tr><td>Any one standard textbook on Educational Philosophy</td><td>The values and humane-qualities material in Seminars 1 and 3</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p><span class="footnote">End of S1.4, Towards Self-Understanding. All units of this paper are assessed internally; there is no written end-semester examination.</span></p>
+
+</section>
+</article>
+</body>
+</html>

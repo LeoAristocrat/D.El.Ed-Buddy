@@ -1,0 +1,12 @@
+---
+interface Props { paragraphs: string[] }
+const { paragraphs } = Astro.props;
+// Render supplied text through Astro escaping; never execute embedded HTML.
+const inline = (text: string) => text.split(/(\*\*[^*]+\*\*|\*[^*\n]+\*)/g);
+---
+<div class="supplied-answer">
+  {paragraphs.map(text => <p>{inline(text).map(part => part.startsWith('**') && part.endsWith('**') ? <strong>{part.slice(2,-2)}</strong> : part.startsWith('*') && part.endsWith('*') ? <em>{part.slice(1,-1)}</em> : part)}</p>)}
+</div>
+<style>
+  .supplied-answer p{white-space:pre-wrap;overflow-wrap:anywhere;margin:0 0 1rem;line-height:1.75}
+</style>

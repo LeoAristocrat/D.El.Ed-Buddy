@@ -1,0 +1,1870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="D.El.Ed Semester I Study Notes">
+<meta name="description" content="Work education and vocational education, behavioural change, curricular integration and social responsibility.">
+<meta name="keywords" content="D.El.Ed, Semester 1, S1.9, SCERT Assam, PSTE, teacher education, study notes">
+<meta name="subject" content="Diploma in Elementary Education (PSTE) — Semester I">
+<meta name="color-scheme" content="light">
+<title>S1.9 — Work and Education | D.El.Ed Semester I Notes</title>
+<link rel="icon" href="/favicon.svg">
+<style>
+/* ============================================================
+   D.El.Ed Semester 1 — Shared Design System
+   Premium academic notebook aesthetic
+   ============================================================ */
+
+:root {
+  /* --- Paper & surface --- */
+  --paper:          #faf6ee;
+  --paper-deep:     #f3ece0;
+  --card:           #fffdf8;
+  --card-beige:     #f6efe2;
+  --card-beige-2:   #f2e9d8;
+
+  /* --- Ink --- */
+  --ink:            #33302b;
+  --ink-soft:       #55504a;
+  --ink-faint:      #7a736a;
+  --rule:           #ded2bd;
+  --rule-soft:      #e9e0cf;
+
+  /* --- Accents --- */
+  --terracotta:     #b4623c;
+  --terracotta-d:   #8f4a2a;
+  --terracotta-bg:  #f7e9e0;
+  --olive:          #6d7a4a;
+  --olive-d:        #54603a;
+  --olive-bg:       #ecefdd;
+  --dusty-blue:     #4c6a83;
+  --dusty-blue-bg:  #e5ecf2;
+  --plum:           #7a5570;
+  --plum-bg:        #f1e8ee;
+  --gold:           #a5822e;
+  --gold-bg:        #f7efd8;
+
+  /* --- Type --- */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+           Georgia, "Times New Roman", serif;
+  --sans:  "Segoe UI", "Gill Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+  --mono:  "Consolas", "SF Mono", "Menlo", monospace;
+
+  --fs-body: 10.6pt;
+  --lh-body: 1.62;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 34px 20px 80px;
+  font-family: var(--serif);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.20) 1px, transparent 0);
+  background-size: 22px 22px;
+  background-attachment: fixed;
+}
+
+/* ============ Document container ============ */
+.doc {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(120, 100, 70, 0.06),
+    0 10px 34px -14px rgba(90, 72, 45, 0.22);
+  padding: 46px 56px 64px;
+  position: relative;
+}
+.doc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0);
+  background-size: 22px 22px;
+  opacity: 0.75;
+}
+.doc > * { position: relative; z-index: 1; }
+
+/* ============ Hero / subject header ============ */
+.hero {
+  border: 1px solid var(--rule);
+  border-top: 5px solid var(--terracotta);
+  background: linear-gradient(180deg, #fffdf8 0%, #f7f0e3 100%);
+  padding: 26px 30px 22px;
+  margin-bottom: 26px;
+  border-radius: 3px;
+}
+.hero .kicker {
+  font-family: var(--sans);
+  font-size: 8.4pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-size: 25pt;
+  line-height: 1.16;
+  margin: 0 0 4px;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.hero .code {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--paper);
+  background: var(--ink);
+  padding: 3px 11px;
+  border-radius: 2px;
+  margin: 0 0 12px;
+}
+.hero .tagline {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 4px;
+  max-width: 62ch;
+}
+/* The divider doubles as the maker-credit row: rule on the left, credit on the
+   right. Keeping them on one line costs no vertical space in the hero, which
+   the one-page-before-Unit-1 budget cannot spare. */
+.hero .rule-line {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 13px 0 12px;
+}
+.hero .rule-line::before {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, var(--terracotta), var(--rule) 55%, transparent);
+}
+.made-by {
+  flex: 0 0 auto;
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+.made-by .heart {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", var(--sans);
+  font-size: 8.4pt;
+}
+.made-by a {
+  color: var(--terracotta-d);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+}
+.made-by a:hover { border-bottom-color: var(--terracotta); }
+
+/* ============ At a glance ============ */
+.glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.glance .g-item {
+  flex: 1 1 152px;
+  background: #fffdf8;
+  padding: 9px 12px 10px;
+}
+.glance .g-label {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 2px;
+}
+.glance .g-value {
+  font-size: 9.6pt;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.34;
+}
+
+/* ============ Table of contents ============ */
+.toc {
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--olive);
+  background: #fcf9f2;
+  padding: 20px 24px 18px;
+  border-radius: 3px;
+  margin: 26px 0 30px;
+}
+.toc h2 {
+  font-family: var(--sans);
+  font-size: 9.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  margin: 0 0 12px;
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+}
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
+.toc > ol > li {
+  counter-increment: toc;
+  margin: 0 0 9px;
+}
+.toc > ol > li > a {
+  font-weight: 700;
+  font-size: 10.6pt;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.toc > ol > li > a:hover { color: var(--terracotta-d); border-bottom-color: var(--terracotta); }
+.toc > ol > li > a::before {
+  content: counter(toc, upper-roman) " · ";
+  color: var(--terracotta);
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.toc .sub {
+  margin: 4px 0 0 4px;
+  padding: 0 0 0 14px;
+  list-style: none;
+  border-left: 1px solid var(--rule-soft);
+  columns: 2;
+  column-gap: 26px;
+}
+.toc .sub li {
+  font-size: 9.4pt;
+  color: var(--ink-soft);
+  line-height: 1.48;
+  margin-bottom: 2px;
+  break-inside: avoid;
+}
+.toc .sub a { color: inherit; text-decoration: none; }
+.toc .sub a:hover { color: var(--terracotta-d); }
+
+/* ============ Headings ============ */
+h2 {
+  font-size: 16.5pt;
+  line-height: 1.22;
+  margin: 40px 0 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  padding: 0 0 9px 15px;
+  border-left: 5px solid var(--terracotta);
+  border-bottom: 1px solid var(--rule);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h2 .h2num {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+h3 {
+  font-size: 12.6pt;
+  line-height: 1.3;
+  margin: 26px 0 8px;
+  font-weight: 700;
+  color: #3d3933;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  background: var(--olive);
+  border-radius: 50%;
+  margin-right: 9px;
+  vertical-align: 0.06em;
+}
+
+h4 {
+  font-size: 10.9pt;
+  line-height: 1.35;
+  margin: 18px 0 6px;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--terracotta-d);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h5 {
+  font-size: 9.9pt;
+  margin: 14px 0 4px;
+  font-weight: 700;
+  color: var(--olive-d);
+  font-family: var(--sans);
+  letter-spacing: 0.03em;
+  break-after: avoid;
+}
+
+/* ============ Body text ============ */
+p { margin: 0 0 10px; text-align: justify; hyphens: auto; }
+p.tight { margin-bottom: 4px; }
+.doc > p, .unit-body > p { max-width: 74ch; }
+
+strong, b { font-weight: 700; color: #26231f; }
+
+em { font-style: italic; }
+
+.lead {
+  font-size: 11.2pt;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 72ch;
+}
+
+/* ============ Lists ============ */
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 5px; }
+li > ul, li > ol { margin-top: 5px; margin-bottom: 3px; }
+
+ul.bul { list-style: none; padding-left: 0; }
+ul.bul > li {
+  position: relative;
+  padding-left: 17px;
+  margin-bottom: 6px;
+}
+ul.bul > li::before {
+  content: "▸";
+  position: absolute;
+  left: 2px;
+  top: -0.02em;
+  color: var(--terracotta);
+  font-size: 0.92em;
+}
+
+ul.check { list-style: none; padding-left: 0; }
+ul.check > li { position: relative; padding-left: 20px; margin-bottom: 5px; }
+ul.check > li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--olive);
+  font-weight: 700;
+  font-size: 0.88em;
+}
+
+ol.num { list-style: none; counter-reset: n; padding-left: 26px; }
+ol.num > li { position: relative; margin-bottom: 7px; counter-increment: n; }
+ol.num > li::before {
+  content: counter(n) ".";
+  position: absolute;
+  left: -22px;
+  color: var(--terracotta-d);
+  font-weight: 700;
+  font-family: var(--sans);
+  font-size: 0.88em;
+}
+
+dl { margin: 0 0 12px; }
+dt { font-weight: 700; color: #26231f; margin-top: 8px; }
+dd { margin: 2px 0 0 0; }
+
+abbr { text-decoration: none; border-bottom: 1px dotted var(--ink-faint); }
+
+/* ============ Callout cards ============ */
+.card {
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 12px 16px 13px;
+  margin: 14px 0;
+  background: #fffdf8;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.card > :last-child { margin-bottom: 0; }
+.card p { text-align: left; }
+
+.card .lbl {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.def {
+  background: #fdf6ec;
+  border-color: #e3d2b6;
+  border-left: 4px solid var(--gold);
+}
+.def .lbl { color: var(--gold); }
+
+.idea {
+  background: var(--olive-bg);
+  border-color: #d3d9bd;
+  border-left: 4px solid var(--olive);
+}
+.idea .lbl { color: var(--olive-d); }
+
+.rem {
+  background: var(--terracotta-bg);
+  border-color: #e8cebc;
+  border-left: 4px solid var(--terracotta);
+}
+.rem .lbl { color: var(--terracotta-d); }
+
+.ex {
+  background: #f4f1fa;
+  border-color: #d9d0e8;
+  border-left: 4px solid #6b5a94;
+}
+.ex .lbl { color: #5b4c80; }
+
+.cls {
+  background: var(--dusty-blue-bg);
+  border-color: #ccd9e3;
+  border-left: 4px solid var(--dusty-blue);
+}
+.cls .lbl { color: #3d5a71; }
+
+.exam {
+  background: #fbf4e3;
+  border-color: #e6d5aa;
+  border-left: 4px solid #a5822e;
+}
+.exam .lbl { color: #856722; }
+
+.mist {
+  background: #f9ecec;
+  border-color: #eccfcf;
+  border-left: 4px solid #a44b4b;
+}
+.mist .lbl { color: #8b3c3c; }
+
+.refl {
+  background: var(--plum-bg);
+  border-color: #dfcddd;
+  border-left: 4px solid var(--plum);
+}
+.refl .lbl { color: #654761; }
+
+.quick {
+  background: #f4f6ef;
+  border-color: #d6dcc4;
+  border-left: 4px solid #7d8a52;
+}
+.quick .lbl { color: #5f6a38; }
+
+/* inline term highlight */
+.term {
+  background: #f2ead6;
+  padding: 0 3px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+mark.hl {
+  background: #f6e7c4;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ============ Tables ============ */
+.tw {
+  margin: 14px 0 16px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fffdf8;
+}
+.tw.tkeep { break-inside: avoid; page-break-inside: avoid; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.1pt;
+  line-height: 1.46;
+}
+caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  padding: 9px 12px 7px;
+  background: #f6f1e6;
+  border-bottom: 1px solid var(--rule);
+}
+th {
+  background: #efe8d8;
+  color: #3a342b;
+  font-family: var(--sans);
+  font-size: 8.2pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+th:last-child { border-right: 0; }
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--rule-soft);
+  border-right: 1px solid var(--rule-soft);
+  vertical-align: top;
+  text-align: left;
+}
+td:last-child { border-right: 0; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:nth-child(even) td { background: #fcf8f0; }
+table.compact { font-size: 8.6pt; }
+table.compact th, table.compact td { padding: 5px 8px; }
+
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+
+/* ============ Figure / diagram ============ */
+figure {
+  margin: 18px 0;
+  padding: 14px 16px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fcf9f2;
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+figure svg { max-width: 100%; height: auto; }
+figcaption {
+  font-family: var(--sans);
+  font-size: 7.8pt;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+  margin-top: 8px;
+  text-align: center;
+}
+figcaption b { color: var(--ink-soft); }
+
+/* ============ Unit review block ============ */
+.review {
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--olive);
+  background: #fbf8f0;
+  border-radius: 3px;
+  padding: 16px 20px 18px;
+  margin: 22px 0 30px;
+}
+.review h4 {
+  font-family: var(--sans);
+  font-size: 8.6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--olive-d);
+  font-style: normal;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
+}
+.review h5 {
+  font-size: 8.4pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--terracotta-d);
+  margin: 13px 0 5px;
+  font-family: var(--sans);
+}
+.review h5:first-of-type { margin-top: 9px; }
+.review p { text-align: left; }
+.review > :last-child { margin-bottom: 0; }
+
+.qa { margin: 0; }
+.qa .q { margin-bottom: 8px; break-inside: avoid; page-break-inside: avoid; }
+.qa .qt {
+  font-family: var(--sans);
+  font-size: 7.2pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--ink-soft);
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+.qa .q.l { border-left: 3px solid var(--terracotta); padding-left: 9px; }
+.qa .q.s { border-left: 3px solid var(--olive); padding-left: 9px; }
+.qa .q.v { border-left: 3px solid var(--dusty-blue); padding-left: 9px; }
+.qa .q p { margin: 0; text-align: left; display: inline; }
+
+/* ============ Subject card grid (project index only) ============ */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 14px;
+  margin: 18px 0 24px;
+}
+.subjcard {
+  display: block;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--terracotta);
+  border-radius: 3px;
+  background: #fffdf8;
+  padding: 13px 15px 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.subjcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -8px rgba(90, 72, 45, .45);
+}
+.subjcard .sc-code {
+  font-family: var(--sans);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--terracotta-d);
+}
+.subjcard .sc-title {
+  font-size: 11.4pt;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 4px 0 6px;
+  color: var(--ink);
+}
+.subjcard .sc-desc {
+  font-size: 9pt;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin-bottom: 9px;
+}
+.subjcard .sc-meta {
+  font-family: var(--sans);
+  font-size: 7.4pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 7px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.subjcard.olive { border-top-color: var(--olive); }
+.subjcard.olive .sc-code { color: var(--olive-d); }
+.subjcard.blue { border-top-color: var(--dusty-blue); }
+.subjcard.blue .sc-code { color: #3d5a71; }
+.subjcard.gold { border-top-color: var(--gold); }
+.subjcard.gold .sc-code { color: #856722; }
+
+.linkpair {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  letter-spacing: 0.08em;
+  margin-top: 7px;
+  display: flex;
+  gap: 12px;
+}
+.linkpair a { color: var(--terracotta-d); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.linkpair a:hover { border-bottom-color: var(--terracotta); }
+
+.tocwide { columns: 2; column-gap: 30px; }
+.tocwide li { break-inside: avoid; }
+
+/* ============ Misc components ============ */
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 18px;
+}
+.chip {
+  font-family: var(--sans);
+  font-size: 7.6pt;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  padding: 3px 11px;
+}
+
+.hr {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+  margin: 30px 0;
+}
+
+.footnote {
+  font-size: 8.6pt;
+  color: var(--ink-faint);
+  line-height: 1.5;
+}
+
+/* two-column comparison */
+.two-col { column-count: 2; column-gap: 30px; column-rule: 1px solid var(--rule-soft); }
+.two-col > * { break-inside: avoid; }
+
+/* ============ Responsive ============ */
+@media (max-width: 780px) {
+  body { padding: 14px 8px 40px; background-size: 18px 18px; }
+  .doc { padding: 26px 20px 36px; border-radius: 3px; }
+  .hero { padding: 20px 18px 18px; }
+  .hero h1 { font-size: 20pt; }
+  h2 { font-size: 14.5pt; padding-left: 11px; border-left-width: 4px; }
+  h3 { font-size: 11.6pt; }
+  .toc .sub { columns: 1; }
+  .tocwide { columns: 1; }
+  .two-col { column-count: 1; }
+  table { font-size: 8.4pt; }
+}
+
+/* ============================================================
+   PRINT / PDF  —  A4
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 15mm 14mm 16mm 14mm;
+}
+
+@media print {
+  html, body {
+    background: #ffffff !important;
+    background-image: none !important;
+  }
+  body { padding: 0; font-size: 10.1pt; line-height: 1.56; }
+  .doc {
+    max-width: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .doc::before { display: none; }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Keep a whisper of the notebook dot-grid on the page, but far fainter
+     than on screen so a 70-page print run does not look noisy. */
+  .doc {
+    background-color: #fffdf8 !important;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(150, 130, 100, 0.13) 1px, transparent 0) !important;
+    background-size: 5.6mm 5.6mm !important;
+  }
+
+  h2, h3, h4, h5 { break-after: avoid; page-break-after: avoid; }
+  h2 { margin-top: 20pt; }
+
+  .card, figure, .qa .q, .tw.tkeep, tr, .chip-row { break-inside: avoid; page-break-inside: avoid; }
+  .tw, .card, .review { break-inside: auto; page-break-inside: auto; }
+
+  thead { display: table-header-group; }
+  tfoot { display: table-footer-group; }
+  p, li { orphans: 2; widows: 2; }
+
+  a { color: inherit; text-decoration: none; }
+  .made-by a { border-bottom: 0; }
+
+  .toc a { color: var(--ink); }
+
+  /* page-break control utility classes */
+  .pb { break-before: page; page-break-before: always; }
+  .avoid { break-inside: avoid; page-break-inside: avoid; }
+}
+
+</style>
+</head>
+<body>
+<article class="doc">
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="kicker">D.El.Ed &mdash; Semester I &middot; SCERT Assam (PSTE)</div>
+  <div class="code">S1.9</div>
+  <h1>Work and Education</h1>
+  <p class="tagline">The syllabus&rsquo;s position is blunt &mdash; <em>where there is no work there is no education</em> &mdash; and this paper is where you learn to argue it, plan it, do it and assess it.</p>
+  <div class="rule-line"><span class="made-by">Made with <span class="heart">&#10084;&#65039;</span> by <strong>Sayeem Sadik</strong> &middot; <a href="https://leoaristocrat.eu.cc">leoaristocrat.eu.cc</a></span></div>
+  <div class="glance">
+    <div class="g-item"><div class="g-label">Marks</div><div class="g-value">20 External + 30 Internal = 50</div></div>
+    <div class="g-item"><div class="g-label">Credits</div><div class="g-value">2</div></div>
+    <div class="g-item"><div class="g-label">Periods / week</div><div class="g-value">2&ndash;3</div></div>
+    <div class="g-item"><div class="g-label">Practicum</div><div class="g-value">Daily works &middot; 5 of 15 workshops &middot; 1 exposure visit</div></div>
+  </div>
+</header>
+
+<nav class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#unit-1">Unit 1 &mdash; Understanding Work Education and Vocational Education</a>
+      <ul class="sub">
+        <li><a href="#s1-1">1.1 The meaning of work and its place in education</a></li>
+        <li><a href="#s1-2">1.2 Objectives of work education in school</a></li>
+        <li><a href="#s1-3">1.3 Vocational education, and how it differs from work education</a></li>
+        <li><a href="#s1-4">1.4 Work education integrates all four pillars of education</a></li>
+        <li><a href="#s1-5">1.5 Views of Mahatma Gandhi and Rousseau</a></li>
+        <li><a href="#s1-6">1.6 The Kothari Commission (1964&ndash;66) and work experience</a></li>
+        <li><a href="#s1-7">1.7 NCF-SE 2023 and its implications</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-2">Unit 2 &mdash; Behavioural Changes in Learners</a>
+      <ul class="sub">
+        <li><a href="#s2-1">2.1 Behavioural changes expected from work and vocational education</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-3">Unit 3 &mdash; Curricular Integration and Assessment</a>
+      <ul class="sub">
+        <li><a href="#s3-1">3.1 Integration of work education with other curricular subjects</a></li>
+        <li><a href="#s3-2">3.2 Selection of subject-based works and local specific works</a></li>
+        <li><a href="#s3-3">3.3 The headmaster, teachers and parents in solving school-based problems</a></li>
+        <li><a href="#s3-4">3.4 Identification and utilisation of community resources</a></li>
+        <li><a href="#s3-5">3.5 Shortcomings of the present system of assessment</a></li>
+        <li><a href="#s3-6">3.6 Assessment tools: advantages and disadvantages</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-4">Unit 4 &mdash; Responsibility Towards Family and Society</a>
+      <ul class="sub">
+        <li><a href="#s4-1">4.1 Sharing household responsibilities</a></li>
+        <li><a href="#s4-2">4.2 Domestic budgeting and planning</a></li>
+        <li><a href="#s4-3">4.3 Care for children, parents, sick and old-age people</a></li>
+        <li><a href="#s4-4">4.4 Saving water, electricity and fuel</a></li>
+        <li><a href="#s4-5">4.5 House safety, security and its maintenance</a></li>
+      </ul>
+    </li>
+    <li><a href="#practicum">Practicum &mdash; Daily Works, Workshop Activities and Exposure Visit</a>
+      <ul class="sub">
+        <li><a href="#s5-1">5.1 Daily works (compulsory)</a></li>
+        <li><a href="#s5-2">5.2 Workshop mode: the fifteen activities</a></li>
+        <li><a href="#s5-3">5.3 Exposure visit and survey / study</a></li>
+      </ul>
+    </li>
+    <li><a href="#internal">Internal Assessment &mdash; 30 Marks</a></li>
+    <li><a href="#revision">Quick Subject Revision</a></li>
+    <li><a href="#differences">Important Differences</a></li>
+    <li><a href="#course">Course Information</a></li>
+    <li><a href="#mentor">Faculty / Mentor Notes</a></li>
+    <li><a href="#readings">Suggested Readings</a></li>
+  </ol>
+</nav>
+
+<!-- ============ UNIT 1 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-1"><span class="h2num">Unit 1</span> Understanding Work Education and Vocational Education</h2>
+
+<h3 id="s1-1">1.1 The Meaning of Work and Its Place in Education</h3>
+
+<div class="card def"><span class="lbl">Definition</span>
+<p><strong>Work</strong>, in the sense used in this syllabus, means planned activities carried out to produce, maintain, improve, innovate or transform materials, facilities, living conditions or services, with the specific purpose of meeting needs of conservation or extension, <em>in socially approved ways</em>.</p>
+</div>
+
+<p>Four conditions are packed into that sentence, and each one excludes something:</p>
+
+<ul class="bul">
+  <li><strong>Planned</strong> &mdash; a purpose, a sequence and a timetable set in advance. Excludes aimless busyness.</li>
+  <li><strong>Productive or transformative</strong> &mdash; something is produced, maintained, improved, innovated or transformed. Excludes pure consumption.</li>
+  <li><strong>A specific purpose</strong> &mdash; a named need that is met. Excludes activity that exists only to keep a child occupied.</li>
+  <li><strong>Socially approved</strong> &mdash; work the family and community would recognise as proper and useful. Excludes copying slogans for others to copy.</li>
+</ul>
+
+<p>From this the syllabus draws the place of work in education. Work <em>results in production</em>, and that production should be <strong>socially useful and valuable</strong> &mdash; the test of a piece of school work is not its prettiness but whether somebody uses it. A hand-made duster that is never used because the teacher bought a plastic one has failed, however neatly it was made.</p>
+
+<p>Work also provides <strong>both knowledge and skills</strong>, through <em>well-structured and graded</em> programmes, so that learners enter the world of work with a <strong>positive attitude and values</strong>. &ldquo;Well-structured&rdquo; means a sequence and a plan; &ldquo;graded&rdquo; means the complexity rises with the learner &mdash; a Class III child sorts seeds, a Class VI child plans and runs a bed, a Class VIII child budgets it. From all this the syllabus draws its thesis: <strong>where there is no work there is no education</strong>, and work is therefore strictly adhered to education.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 1.1 &mdash; Activity or Work? Classroom Tests</caption>
+    <thead><tr><th style="width:44%">The situation</th><th style="width:16%">Activity or work?</th><th>The reason</th></tr></thead>
+    <tbody>
+      <tr><td>A child writes a letter to a friend during free period</td><td>Activity</td><td>No agreed product, purpose or standard; useful only to the writer</td></tr>
+      <tr><td>Children sweep the classroom on a fixed roster with a checklist</td><td>Work, if organised</td><td>A clean room is maintained for a stated purpose. As a punishment for unfinished sums it is mere activity &mdash; no purpose, no product, no approval</td></tr>
+      <tr><td>Class V grows tomatoes in the school garden and sells them for the school fund</td><td>Work</td><td>Planned, produces food, meets a real need, socially approved</td></tr>
+      <tr><td>Children make 80 paper file covers and file last year&rsquo;s records in them</td><td>Work</td><td>A specified product with a user and a standard</td></tr>
+      <tr><td>Reading a chapter of the textbook silently</td><td>Activity</td><td>Valuable, but no product, purpose or standard is specified</td></tr>
+      <tr><td>Children repair the broken leg of a classroom bench</td><td>Work</td><td>Maintains a facility; the need is obvious and the result is used</td></tr>
+      <tr><td>Copying the attendance register into a fair register</td><td>Work</td><td>Planned, produces a record, meets an administrative need</td></tr>
+      <tr><td>Children make a wall map of Assam from old newspaper</td><td>Work</td><td>Planned, produced, socially useful and reusable in teaching</td></tr>
+      <tr><td>Playing football / children herd goats in the school ground in free time</td><td>Activity</td><td>Unless it is a coached, graded programme with a trained referee and a record of results, it has no product and no standard</td></tr>
+      <tr><td>Children write slogans on the wall for the Swachh Bharat display</td><td>Activity, and a poor one</td><td>Copied and untested, and not consumed by anybody &mdash; unless the slogans are explained, discussed and acted on</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Read critically, the thesis can be defended and also qualified. A child who has never made, repaired, cooked, planted, measured or budgeted has met education only in its verbal half; but a heavy work programme can become a punishment, crowd out play, or reproduce the very divisions of the labour market it claims to dignify. &ldquo;Adhering work to education&rdquo; therefore means a graded, purposeful, socially approved programme &mdash; not a list of chores assigned to the weakest children.</p>
+
+<h3 id="s1-2">1.2 Objectives of Work Education in School</h3>
+
+<p>If work is an aim of education rather than an addition to it, the school programme built on it has identifiable objectives. These are the ones an elementary school work programme can reasonably be held to.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 1.2 &mdash; Objectives of Work Education, and the Evidence of Achievement</caption>
+    <thead><tr><th style="width:26%">Objective</th><th>What it looks like, and how you would know it has been achieved</th></tr></thead>
+    <tbody>
+      <tr><td>Develop the dignity of labour</td><td>The teacher treats the sweeper, cook, gardener and watchman as members of the school and names their work aloud. Children work without embarrassment and use the names of occupations respectfully</td></tr>
+      <tr><td>Acquire knowledge through activity</td><td>Measurement is learned by measuring a room, letters by labelling shelves, classification by sorting seeds. The child applies the concept in a new situation, not only recites it</td></tr>
+      <tr><td>Acquire usable skills</td><td>A graded sequence &mdash; tearing paper, then folding file covers, then binding a register. At the end of the grade the child completes a specified task to a stated standard, unaided</td></tr>
+      <tr><td>Develop self-reliance and self-confidence</td><td>Children are given real jobs &mdash; the school bank, the class garden, the tool store &mdash; with real responsibility, and perform at a level above what they believed possible</td></tr>
+      <tr><td>Cultivate a problem-solving, resource-using attitude</td><td>Materials are short, so the class must decide what to do with what is available, and can say why the choice uses resources well</td></tr>
+      <tr><td>Learn to work with others</td><td>Group production with divided roles, shared tools and a common standard. Each member can describe the whole, not only his or her part</td></tr>
+      <tr><td>Develop responsibility and accountability</td><td>Rosters, tool registers, duty charts, accounts and a term report. Work is completed to the deadline and the group can account for its material and time</td></tr>
+      <tr><td>Foster social, civic and environmental responsibility</td><td>Cleaning, planting, saving water and electricity, caring for the school&rsquo;s property. Classroom damage falls and the compound is better at the year&rsquo;s end than at its start</td></tr>
+      <tr><td>Prepare for the world of work with a positive attitude</td><td>Exposure to real workers &mdash; farmers, weavers, artisans, technicians. Children can name occupations they admire and say what skill each requires</td></tr>
+      <tr><td>Integrate the curriculum</td><td>One activity, several subjects, so that no separate &ldquo;work period&rdquo; is needed &mdash; a class&rsquo;s work shows mathematical, linguistic, scientific and artistic learning in one product</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Two features of this list matter. Everything except the first two rows is about something other than knowledge &mdash; skills, attitudes, cooperation. That is why the syllabus says work gives &ldquo;knowledge <em>and</em> skills&rdquo;, and it is the half a written examination is worst at measuring. And the last objective is integrative: work education taught as a separate period, by a separate teacher, with a separate syllabus, has already failed one of its own objectives, because it has reintroduced the division between bookish and manual education that the whole tradition criticised.</p>
+
+<h3 id="s1-3">1.3 Vocational Education &mdash; Meaning, Objectives, and the Difference from Work Education</h3>
+
+<p><strong>Vocational education</strong> is education <em>for</em> a vocation &mdash; a specific occupation or trade. It equips a learner with the knowledge, skills and attitudes needed to enter and perform a particular kind of paid work, to a standard an employer will recognise, normally leading to a certificate or recognised qualification.</p>
+
+<p>In India it has historically been organised as a stream at the secondary stage, under the <strong>10 per cent reservation</strong> recommended by the Kothari Commission, in which a learner who had taken the general education route was diverted at Class VIII or the equivalent stage into a trade stream &mdash; weaving, typing, stenography, electronics, agriculture, nursing, teaching. That older model is the one most people have in mind when they hear &ldquo;vocationalisation&rdquo;, and it is precisely the model NEP 2020 attempts to change (see 1.7).</p>
+
+<p><strong>Work education</strong>, by contrast, is education <em>through</em> work. It is not aimed at producing a worker of a particular kind in the shortest possible time. It is integrated across the whole curriculum, it is intended for <em>every</em> child, and its outcomes are broader: the dignity of labour, self-reliance, a problem-solving attitude, care, cooperation and responsibility. A child being taught to make a file board in Class IV is receiving work education whether or not file-binding is a trade; a child being taught to type a letter to a standard in a one-year typing course is receiving vocational education.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 1.3 &mdash; Work Education and Vocational Education Compared</caption>
+    <thead><tr><th style="width:20%">Basis</th><th>Work education</th><th>Vocational education</th></tr></thead>
+    <tbody>
+      <tr><td>Definition</td><td>Education <em>through</em> work, integrated with the whole curriculum</td><td>Education <em>for</em> a specific vocation or trade</td></tr>
+      <tr><td>Purpose</td><td>Dignity of labour, self-reliance, problem-solving attitude, responsibility, integration of learning</td><td>Employable, occupation-specific competence recognised by employers</td></tr>
+      <tr><td>Target group</td><td>All learners, in all classes, without selection</td><td>A selected subset, generally from the secondary stage onwards</td></tr>
+      <tr><td>Breadth</td><td>Broad &mdash; many competencies, none necessarily occupational</td><td>Narrow and deep &mdash; one occupation, mastered</td></tr>
+      <tr><td>Curriculum organisation</td><td>Woven into language, mathematics, science, art and social studies; no separate syllabus</td><td>A separate syllabus, and often a separate institution, timetable and teacher</td></tr>
+      <tr><td>Assessment and certification</td><td>Observation, checklist, work samples, portfolio, attitude, self-assessment &mdash; largely internal; normally no certificate</td><td>Practical examination against a trade standard, plus a certificate or recognised qualification</td></tr>
+      <tr><td>Link with industry</td><td>Indirect &mdash; through field visits, resource persons and local work</td><td>Direct &mdash; employers help design the syllabus and take the trainees</td></tr>
+      <tr><td>Outcome promised</td><td>No placement promise; a more capable, self-reliant person</td><td>Placement and wage-earning in the trained occupation</td></tr>
+      <tr><td>Principal risk</td><td>Being reduced to punishment chores assigned to the least popular children</td><td>Being reduced to a low-status track for children the system has written off &mdash; &ldquo;vocationalisation by attrition&rdquo;</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card mist"><span class="lbl">Common Mistake</span>
+<p>Do not write that the two &ldquo;are the same, differing only in the grade at which they begin&rdquo; &mdash; they differ in <em>purpose</em>, not only in timing. And do not write that work education is for weaker children or that vocational education is &ldquo;only for those who cannot continue academically&rdquo;. The second claim describes discrimination, not education, and it is the vocationalisation by attrition that NEP 2020 expressly sets out to correct.</p>
+</div>
+
+<h3 id="s1-4">1.4 Work Education Integrates All Four Pillars of Education</h3>
+
+<p>The four pillars &mdash; <strong>learning to know</strong>, <strong>learning to do</strong>, <strong>learning to live together</strong> and <strong>learning to be</strong> &mdash; are <em>not</em> an Indian formulation. They are UNESCO&rsquo;s, set out among the Four Fundamental Principles of Education in the <strong>Delhi Declaration of 1969</strong> and developed in UNESCO&rsquo;s <strong>Faure Report, <em>Learning to Be</em> (1972)</strong>, which settled on &ldquo;learning to be&rdquo; as its central motto. The pillars are used in this paper as a framework, and a framework can be borrowed without being misattributed.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 1.4 &mdash; The Four Pillars and How a Work Activity Serves Each</caption>
+    <thead><tr><th style="width:22%">Pillar</th><th>Its concern</th><th>How a work activity serves it</th></tr></thead>
+    <tbody>
+      <tr><td>Learning to know</td><td>Acquiring knowledge, grasping concepts, building language and the ability to reason</td><td>Measuring a plot to make a seed bed turns fractions, area and units into a problem the child must actually solve; writing a shopping list teaches vocabulary functionally</td></tr>
+      <tr><td>Learning to do</td><td>Acting on the world, mastering practice, becoming competent and productive</td><td>The pillar work education addresses most directly &mdash; cooking, stitching, repairing, propagating, drawing, building, budgeting</td></tr>
+      <tr><td>Learning to live together</td><td>Cooperating, sharing, resolving conflict, respecting difference, contributing to a common life</td><td>Group production forces division of labour, negotiation over scarce tools and acceptance of a common standard; a shared garden creates an interest across castes, sexes and abilities</td></tr>
+      <tr><td>Learning to be</td><td>Autonomy, responsibility, judgement and an honest self-image</td><td>Choosing a material, planning a sequence, accepting responsibility for a finished product and judging one&rsquo;s own work builds a self-image as a capable person</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<figure>
+  <svg viewBox="0 0 760 300" role="img" aria-label="A single class activity reaching all four pillars of education at once">
+    <g font-family="Georgia, 'Times New Roman', serif">
+      <rect x="250" y="108" width="260" height="84" rx="4" fill="#fffdf8" stroke="#7a5570" stroke-width="2"/>
+      <text x="380" y="136" text-anchor="middle" font-size="13" font-weight="bold" fill="#654761">ONE ACTIVITY IN THE SAME</text>
+      <text x="380" y="155" text-anchor="middle" font-size="13" font-weight="bold" fill="#654761">TWO PERIODS</text>
+      <text x="380" y="176" text-anchor="middle" font-size="12" fill="#33302b">A group cooking project, Class IV</text>
+
+      <rect x="18" y="18" width="200" height="72" rx="4" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.5"/>
+      <text x="118" y="40" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#3d5a71">LEARNING TO KNOW</text>
+      <text x="118" y="58" text-anchor="middle" font-size="12" fill="#33302b">Read the recipe, weigh the</text>
+      <text x="118" y="75" text-anchor="middle" font-size="12" fill="#33302b">ingredients, learn why salt</text>
+
+      <rect x="242" y="18" width="200" height="72" rx="4" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.5"/>
+      <text x="342" y="40" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#54603a">LEARNING TO DO</text>
+      <text x="342" y="58" text-anchor="middle" font-size="12" fill="#33302b">Chop, mix, cook, set and</text>
+      <text x="342" y="75" text-anchor="middle" font-size="12" fill="#33302b">clean, unaided</text>
+
+      <rect x="466" y="18" width="200" height="72" rx="4" fill="#f7efd8" stroke="#a5822e" stroke-width="1.5"/>
+      <text x="566" y="40" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#856722">LEARNING TO LIVE TOGETHER</text>
+      <text x="566" y="58" text-anchor="middle" font-size="12" fill="#33302b">Divide the tasks, share one</text>
+      <text x="566" y="75" text-anchor="middle" font-size="12" fill="#33302b">knife, settle who washes up</text>
+
+      <rect x="18" y="212" width="200" height="72" rx="4" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.5"/>
+      <text x="118" y="234" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#8f4a2a">LEARNING TO BE</text>
+      <text x="118" y="252" text-anchor="middle" font-size="12" fill="#33302b">Taste it, judge it honestly,</text>
+      <text x="118" y="269" text-anchor="middle" font-size="12" fill="#33302b">decide what to change</text>
+
+      <rect x="242" y="212" width="200" height="72" rx="4" fill="#fcf9f2" stroke="#ded2bd" stroke-width="1.5"/>
+      <text x="342" y="234" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#7a736a">WHAT THE TEACHER GAINS</text>
+      <text x="342" y="252" text-anchor="middle" font-size="12" fill="#33302b">One period serves language,</text>
+      <text x="342" y="269" text-anchor="middle" font-size="12" fill="#33302b">mathematics, science and health</text>
+
+      <rect x="466" y="212" width="200" height="72" rx="4" fill="#fcf9f2" stroke="#ded2bd" stroke-width="1.5"/>
+      <text x="566" y="234" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#7a736a">AND WHAT IT IS NOT</text>
+      <text x="566" y="252" text-anchor="middle" font-size="12" fill="#33302b">It does not replace language</text>
+      <text x="566" y="269" text-anchor="middle" font-size="12" fill="#33302b">or mathematics teaching</text>
+
+      <line x1="330" y1="90" x2="330" y2="104" stroke="#ded2bd" stroke-width="1.5"/>
+      <line x1="380" y1="90" x2="380" y2="104" stroke="#ded2bd" stroke-width="1.5"/>
+      <line x1="430" y1="90" x2="430" y2="104" stroke="#ded2bd" stroke-width="1.5"/>
+      <line x1="330" y1="196" x2="330" y2="208" stroke="#ded2bd" stroke-width="1.5"/>
+      <line x1="430" y1="196" x2="430" y2="208" stroke="#ded2bd" stroke-width="1.5"/>
+    </g>
+  </svg>
+  <figcaption><b>Figure 1.1</b> &mdash; One activity, four pillars. A single piece of work reaches all four at once, which is the argument for integrating work education rather than giving it a separate period.</figcaption>
+</figure>
+
+<p>Note also what &ldquo;integrates&rdquo; does <em>not</em> mean: it does not mean the work activity replaces language or mathematics teaching. It means the same activity carries more than one learning objective, and is therefore efficient. The four-pillar argument is an argument for efficiency, not for cutting subjects.</p>
+
+<h3 id="s1-5">1.5 Views of Mahatma Gandhi and Rousseau</h3>
+
+<p>The two thinkers the syllabus pairs here are not contemporaries and are not making the same argument. Rousseau is a philosopher writing about the natural development of the individual child; Gandhi is a political thinker writing about a nation he wanted to build. What connects them is that both refused the separation of learning from doing, and both insisted the child must be formed by work rather than only instructed.</p>
+
+<h4>Jean-Jacques Rousseau (1712&ndash;1778)</h4>
+
+<p>Rousseau&rsquo;s educational thought is set out most fully in <strong><em>Emile, or On Education</em> (1762)</strong>. His central claim is that the child is <em>natural</em> &mdash; good and capable before society has educated him out of his goodness &mdash; and that education should work <em>with</em> that nature. He criticised sharply the practice of his own century, in which children learned from books they could not understand and began Latin before they had properly learned their mother tongue. Against this he set three principles: let the child develop naturally in the earliest years; let things speak rather than the adult, so that the child learns through direct experience; and keep the child away from any task beyond his present development, so that work is a discovery and never a strain.</p>
+
+<p>He also wrote the <strong><em>Discourse on the Arts and Trades</em></strong>, arguing that idleness, and the division of society between those who work and those who merely think, are among the causes of inequality. That is the link to the dignity of labour: a child who has never been allowed to touch a tool grows up believing such work is for other people.</p>
+
+<p>In the classroom, do not begin &ldquo;a seed needs water&rdquo; with a diagram &mdash; put three soaked gram seeds, three dry ones and a cup of water in front of the children, ask them what to do over three days, and let them record what they see. Read him for the principle, not as a classroom method: <em>Emile</em> is a thought experiment about an ideal child raised away from ordinary social life, and the whole discipline of the method lies in choosing the right experience at the right stage.</p>
+
+<h4>Mahatma Gandhi (1869&ndash;1948)</h4>
+
+<p>Gandhi&rsquo;s educational thought grew out of his political argument. In <strong><em>Hind Swaraj</em> (1909)</strong> &mdash; the title means &ldquo;India of self-rule&rdquo; &mdash; he argued that the village and the <em>charkha</em>, the spinning wheel, were the soul of India, and that independence could not be built by a small elite but had to begin among the millions who work with their hands. He was sharply critical of the division between &ldquo;bookish&rdquo; and &ldquo;manual&rdquo; education, in which the child who was going to learn was separated from the child who was going to work.</p>
+
+<p>From this came <strong>basic education, or <em>Nai Talim</em></strong> (usually dated 1918&ndash;19, developed around the Non-Cooperation movement), in which the whole of education, from the earliest stage upward, was centred on productive manual craft with the charkha at its heart. Two convictions run through it. <strong>All work is dignified</strong> &mdash; the worth of an activity is not measured by the social rank of the person who does it, and a child who sweeps must not be made to feel inferior to a child who reads. And <strong>education should be self-supporting</strong> &mdash; the products should be useful enough that the process pays for itself. In a small rural Assamese school running a kitchen garden or a paper and stationery unit, this is a standing example, not an impractical idea.</p>
+
+<p><strong>Vinoba Bhave</strong> and the <strong>Shramdan</strong> (gift of labour) movement carried the scheme into institutional practice, and both ran into the difficulty that it is expensive in supervision and demands a quality and regularity of craft training few schools can provide. What survives in current policy is the principle: dignity of labour, productive learning, and education connected to the means of living.</p>
+
+<p>What Gandhi adds to Rousseau is the <em>social</em>. Rousseau is concerned with how a child becomes a person; Gandhi is concerned with what kind of society that person will live in, and the child&rsquo;s education is where the social order is either reproduced or broken. Do not present the two as saying the same thing: they converge on &ldquo;learning by doing&rdquo; and part company on almost everything else. Equally, do not attribute the four pillars to Gandhi, or <em>Nai Talim</em> to Rousseau.</p>
+
+<h3 id="s1-6">1.6 The Kothari Commission (1964&ndash;66) and Work Experience</h3>
+
+<p>The Commission the syllabus names is formally the <strong>National Commission on Education</strong>, usually called the <strong>Education Commission</strong> or the <strong>Kothari Commission</strong> after its chairman, <strong>Dr. D. S. Kothari</strong>. It was set up by the Government of India in <strong>1964</strong> and submitted its report on <strong>29 June 1966</strong>. Its recommendations on work experience shaped the way Indian schools have talked about &ldquo;work education&rdquo; ever since.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 1.5 &mdash; Key Kothari Commission Recommendations Bearing on Work Education</caption>
+    <thead><tr><th style="width:24%">Recommendation</th><th>What the Commission proposed</th><th>Relevance here</th></tr></thead>
+    <tbody>
+      <tr><td>Structure of general education</td><td>Ten years of general education for every child, as <strong>7 + 3 + 2</strong> or <strong>7 + 2 + 3</strong> &mdash; seven years of free and compulsory general education, then three or two years of higher secondary, then two or three years of degree or teacher training</td><td>Fixed the stage at which work experience and vocationalisation would operate</td></tr>
+      <tr><td>Work experience and national service</td><td><strong>Work experience and national service should form an integral part of the educational programme</strong>, and all educational institutions should provide opportunities for it</td><td>The sentence from which the whole work-education tradition in Indian schools derives</td></tr>
+      <tr><td>Vocationalisation</td><td>A <strong>10 per cent reservation</strong> for vocationalisation in the secondary stage, within the ten-year structure</td><td>The origin of the &ldquo;10 per cent vocationalisation&rdquo; figure, later replaced in emphasis by NEP 2020</td></tr>
+      <tr><td>Science, mathematics and technical education</td><td>Strong emphasis on the teaching of science and mathematics; the setting up of higher technical institutions, including an Indian Institute of Technology</td><td>Gives work education its subject base &mdash; work is where science and mathematics stop being formulas</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Three observations matter. The recommendation was <em>integral</em>, not optional: work experience was to be part of the programme of every institution, not an extra offered to some. The &ldquo;10 per cent&rdquo; fixed a number of seats, and in practice vocationalisation in most states stayed far below it, because the academic stream carried the social prestige and the vocational route was poorly resourced.</p>
+
+<p>The model is best read as a criticism of the school, not as a job scheme &mdash; but it is also the very model NEP 2020 identifies as a problem, since routing learners at fourteen into two streams decided a child&rsquo;s future at fourteen. The <strong>National Policy on Education of 1968</strong>, which followed the Commission, carried its language of work experience and vocationalisation into official policy; what NEP 2020 and the NCF-SE 2023 do is re-set the emphasis, not invent it.</p>
+
+<h3 id="s1-7">1.7 NCF-SE 2023 and Its Implications for Work and Vocational Education</h3>
+
+<p>The <strong>National Curriculum Framework for School Education 2023</strong>, released on <strong>29 March 2023</strong> by the Ministry of Education, operationalises the National Education Policy 2020. Two clarifications help. The <em>design changes</em> &mdash; the 5+3+3+4 structure, competency-based education, continuous and comprehensive evaluation, and the integration of vocational education &mdash; come from <strong>NEP 2020</strong>; the NCF sets out the <em>framework</em>, the aims and the competencies those changes imply. And the NCF is a framework, not the textbooks and curricula (NCFSE) produced under it.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 1.6 &mdash; The Five Stages of the NCF-SE 2023</caption>
+    <thead><tr><th style="width:18%">Stage</th><th style="width:14%">Ages</th><th style="width:20%">Classes</th><th>Place of work education in this stage</th></tr></thead>
+    <tbody>
+      <tr><td>Foundational</td><td>3&ndash;8 (five years)</td><td>Bal Vatika, Grades 1&ndash;2</td><td>Self-help and simple purposeful activity; first habits of sharing, arranging and caring for plants</td></tr>
+      <tr><td>Preparatory</td><td>8&ndash;11</td><td>Grades 3&ndash;5</td><td>Learning with objects and materials &mdash; paper folding, clay, sand, water, simple construction; the first real work tasks</td></tr>
+      <tr><td>Middle</td><td>11&ndash;14</td><td>Grades 6&ndash;8</td><td>The stage at which NEP 2020 places <strong>vocational exposure</strong>; school gardens, craft, community work</td></tr>
+      <tr><td>Secondary</td><td>14&ndash;18</td><td>Grades 9&ndash;10</td><td>Competency-based education brings the work of earlier stages to a recognised standard; specialisation begins</td></tr>
+      <tr><td>Higher secondary</td><td>18&ndash;21</td><td>Grades 11&ndash;12</td><td>Every child should have attained <strong>one vocational skill</strong> by the end of the school stage; options are offered, not assigned</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The implications for work education in a school are concrete:</p>
+
+<ol class="num">
+  <li><strong>Work education is no longer a separate stream; it is a dimension of every subject.</strong> The framework is multidisciplinary, with no two years of schooling the same. A separate &ldquo;work period&rdquo; repeating one craft for six years contradicts it directly.</li>
+  <li><strong>Art-integrated and sports-integrated education give it a ready ally.</strong> A teacher who links a garden, a mural and a sports day into one term&rsquo;s work plan is implementing the framework rather than adding to it.</li>
+  <li><strong>Competency-based education demands evidence of performance.</strong> If a child is to be shown to have attained a competency, the teacher must have watched the child perform it and must keep a record. This is the bridge to Unit 3 on assessment.</li>
+  <li><strong>Continuous and comprehensive evaluation replaces the terminal examination</strong>, for both subjects and work activities, across both scholastic and non-scholastic achievement.</li>
+  <li><strong>Local and Indian context and multiculturalism give local work its justification</strong> &mdash; the crafts, crops, foods and occupations of the locality are exactly the &ldquo;local specific works&rdquo; of 3.2.</li>
+  <li><strong>Foundational literacy and numeracy (NIPUN Bharat) are the priority of the early stage,</strong> so work activities in Grades 1 and 2 must be short, oral, rhythmic and embedded in play rather than long written assignments.</li>
+  <li><strong>Equity follows from the design.</strong> Because vocational exposure begins at Grade 6 and every child gains at least one vocational skill, no child is routed out of the mainstream at fourteen &mdash; the direct answer to the weakness of the 10 per cent model.</li>
+</ol>
+
+<div class="card rem"><span class="lbl">Remember</span>
+<p><strong>NEP 2020</strong> replaces the 10 per cent vocationalisation reservation with <strong>vocational exposure from Grade 6 onwards</strong>, aims that <em>every</em> child has <strong>one vocational skill</strong> by the end of the school stage, and provides a parallel <strong>B.Ed. in Vocational Education and Training</strong>. It also sets out five pillars of the school system: a nurturing, safe and engaging environment; a holistic and stress-free school education; foundational literacy and numeracy as a global mission; a focus on the quality and character of education; and embedding technology. Do not confuse those <em>five</em> with UNESCO&rsquo;s <em>four</em> pillars &mdash; they are two different lists.</p>
+</div>
+
+</section>
+
+<!-- ============ UNIT 2 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-2"><span class="h2num">Unit 2</span> Behavioural Changes in Learners</h2>
+
+<h3 id="s2-1">2.1 Behavioural Changes Expected from Work Education and Vocational Education</h3>
+
+<p>What actually changes in a child as a result of a good work or vocational education programme? The syllabus&rsquo;s answer is that the learner <strong>acquires knowledge, skills and attitude through work</strong> &mdash; and the teacher must <em>see</em> those three things happening and illustrate them, not simply assert them. &ldquo;The child becomes disciplined and self-confident&rdquo; is not an illustration; &ldquo;before the programme this child would not speak in front of the class, and in the sixth week she told the group, unprompted, that the knives must be washed before the vegetables are cut because otherwise the food is not safe &mdash; and the other eleven children accepted it&rdquo; is.</p>
+
+<p>Behaviour is learned by repetition under conditions. A single exciting demonstration produces almost no durable change; a graded sequence of tasks performed regularly, with feedback and consequence, produces a great deal. That is why the syllabus insists on &ldquo;well-structured and graded programmes&rdquo; &mdash; the gradedness is not tidiness, it is the mechanism of the change.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 2.1 &mdash; Behavioural Changes in Learners, with Illustrations</caption>
+    <thead><tr><th style="width:20%">Change expected</th><th style="width:11%">K / S / A</th><th>Before, and after, the work programme</th></tr></thead>
+    <tbody>
+      <tr><td>Punctuality and regularity</td><td>A</td><td><em>Before:</em> arrives after the bell most days, first to leave at the end of the day. <em>After:</em> arrives before the bell because the garden duty begins then; the duty register is signed without a reminder for three consecutive weeks</td></tr>
+      <tr><td>Disciplined work habits</td><td>S</td><td><em>Before:</em> cannot sustain attention beyond two or three minutes, leaves a mess half-finished. <em>After:</em> finishes a ten-step sequence &mdash; preparing a seed bed, rolling a file cover &mdash; without being told to hurry, and tidies the tools afterwards</td></tr>
+      <tr><td>Respect for tools, materials and the workplace</td><td>A</td><td><em>Before:</em> handles scissors and the duster as toys, leaves the area dirty. <em>After:</em> sharpens the scissors, returns them to the tool register, wipes the bench; a second child checks the tool box at the end of the period</td></tr>
+      <tr><td>Responsibility and accountability</td><td>A</td><td><em>Before:</em> blames another child, avoids any recorded duty. <em>After:</em> accepts the group&rsquo;s mistake, says which step went wrong and how it will be corrected, and reports honestly when a material is short</td></tr>
+      <tr><td>Self-confidence</td><td>A</td><td><em>Before:</em> does not speak in class, will not attempt a task in case of being shown to be unable. <em>After:</em> sequences the steps aloud while leading a group, and does not consult the teacher until two attempts have failed</td></tr>
+      <tr><td>Problem-solving and decision-making</td><td>S, K</td><td><em>Before:</em> asks the teacher to solve any difficulty, gives up when material runs short. <em>After:</em> when the paste runs out, decides on a thinner mixture, tests it on a scrap and explains the choice to the group</td></tr>
+      <tr><td>Cooperation and teamwork</td><td>A</td><td><em>Before:</em> works alone in a group task, disputes over who does what, will not share tools. <em>After:</em> negotiates a division of labour that suits the group, lets another child use the knife first, and can describe what the whole group did</td></tr>
+      <tr><td>Tolerance of hard work and of delayed reward</td><td>A</td><td><em>Before:</em> expects an immediate result, loses interest when nothing visible happens for a week. <em>After:</em> continues watering a bed for eight weeks before the first harvest, and still waters it on the last day of term</td></tr>
+      <tr><td>Reduced fear of manual work</td><td>A</td><td><em>Before:</em> considers sweeping, cooking or repairing as inferior and says so. <em>After:</em> willing to do any job in the school, and says &ldquo;we&rdquo; rather than &ldquo;they&rdquo; about the sweeper, cook and gardener</td></tr>
+      <tr><td>Resource-management and economic awareness</td><td>K, A</td><td><em>Before:</em> does not know what anything costs, or what the school spends on the garden. <em>After:</em> keeps the petty cash, knows the cost of a kilogram of seed, and can say what would happen if the sale price fell</td></tr>
+      <tr><td>Care for the environment and civic responsibility</td><td>K, A</td><td><em>Before:</em> leaves the tap running and waits for the janitor. <em>After:</em> reports a leaking tap and measures the loss, and initiates a Saturday boundary clean-up that two other classes join</td></tr>
+      <tr><td>Motor coordination and sequenced expression</td><td>S, K</td><td><em>Before:</em> poor grip and hand-eye coordination, speaks only in short answers. <em>After:</em> uses the spade, needle, brush and scissors accurately, and describes a process in sequence with &ldquo;first, next, because, finally&rdquo; &mdash; which is also the structure of a good written answer</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="footnote">K = knowledge, S = skill, A = attitude. These are the syllabus&rsquo;s own categories and a useful way of marking an answer: an assertion that cannot be placed in one of the three is probably not about behaviour at all.</p>
+<figure>
+  <svg viewBox="0 0 760 268" role="img" aria-label="The cycle by which repeated work activity becomes habit, then attitude, then self-image, and back to deeper work">
+    <g font-family="Georgia, 'Times New Roman', serif">
+      <rect x="26" y="34" width="164" height="62" rx="4" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.5"/>
+      <text x="108" y="60" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#8f4a2a">Work activity</text>
+      <text x="108" y="80" text-anchor="middle" font-size="12" fill="#33302b">graded, repeated</text>
+
+      <rect x="298" y="34" width="164" height="62" rx="4" fill="#f7efd8" stroke="#a5822e" stroke-width="1.5"/>
+      <text x="380" y="60" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#856722">Habit</text>
+      <text x="380" y="80" text-anchor="middle" font-size="12" fill="#33302b">skill made reliable</text>
+
+      <rect x="570" y="34" width="164" height="62" rx="4" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.5"/>
+      <text x="652" y="60" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#54603a">Attitude</text>
+      <text x="652" y="80" text-anchor="middle" font-size="12" fill="#33302b">a disposition to work</text>
+
+      <rect x="298" y="166" width="164" height="62" rx="4" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.5"/>
+      <text x="380" y="192" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#3d5a71">Self-image</text>
+      <text x="380" y="212" text-anchor="middle" font-size="12" fill="#33302b">&ldquo;I am capable&rdquo;</text>
+
+      <line x1="192" y1="65" x2="294" y2="65" stroke="#7a736a" stroke-width="1.5"/>
+      <polygon points="294,65 286,61 286,69" fill="#7a736a"/>
+      <line x1="464" y1="65" x2="566" y2="65" stroke="#7a736a" stroke-width="1.5"/>
+      <polygon points="566,65 558,61 558,69" fill="#7a736a"/>
+      <path d="M652 98 L652 132 Q652 148 636 148 L470 148" fill="none" stroke="#7a736a" stroke-width="1.5"/>
+      <polygon points="470,148 478,144 478,152" fill="#7a736a"/>
+      <line x1="296" y1="197" x2="196" y2="197" stroke="#7a736a" stroke-width="1.5"/>
+      <polygon points="196,197 204,193 204,201" fill="#7a736a"/>
+      <path d="M194 197 Q108 197 108 100" fill="none" stroke="#7a736a" stroke-width="1.5"/>
+      <polygon points="108,100 104,108 112,108" fill="#7a736a"/>
+
+      <text x="243" y="54" text-anchor="middle" font-size="12" fill="#7a736a">practice</text>
+      <text x="516" y="54" text-anchor="middle" font-size="12" fill="#7a736a">value</text>
+      <text x="596" y="130" text-anchor="middle" font-size="12" fill="#7a736a">and so back to</text>
+      <text x="596" y="146" text-anchor="middle" font-size="12" fill="#7a736a">deeper work</text>
+      <text x="108" y="30" text-anchor="middle" font-size="12" fill="#7a736a">planned task</text>
+
+      <text x="380" y="256" text-anchor="middle" font-size="12" fill="#7a736a">Observable as: punctuality &#183; care of tools &#183; teamwork &#183; self-confidence &#183; persistence</text>
+    </g>
+  </svg>
+  <figcaption><b>Figure 2.1</b> &mdash; How repeated work activity becomes a durable behavioural change. The cycle is why a single demonstration teaches almost nothing and a graded, term-long programme can change a child.</figcaption>
+</figure>
+
+<h4>Why the changes happen &mdash; and why they sometimes do not</h4>
+
+<p>Four mechanisms explain most of Table 2.1. <strong>Successful struggle</strong>: a task graded to the child&rsquo;s present capacity but not trivial produces the experience of having managed something difficult, and that experience is the raw material of self-confidence. <strong>Consequence</strong>: unlike a classroom exercise, a work task has a real result &mdash; the plants grew, the files were delivered, the accounts balanced &mdash; and a real consequence teaches more than praise. <strong>Other children&rsquo;s dependence</strong>: when a group waits for the child who can thread the needle or read the recipe, that child becomes necessary to others, and status acquired this way is far more durable than status conferred by a teacher.</p>
+
+<p><strong>Publicness</strong>: the product is seen, used and sometimes bought by the community, so the child&rsquo;s work has standing outside the classroom. This last one is the strongest single predictor of change &mdash; work that is used, bought, eaten, worn, planted or read changes children faster than work that is only displayed.</p>
+
+<p>The same reasoning explains failure. A task too easy produces boredom; an impossible one produces helplessness. If the product is destroyed or ignored after it is made, the child learns that effort does not matter. If the work is permanently rostered to the same three or four children, the rest of the class learns that work is the punishment of the unsuccessful. And if the teacher praises the product while ignoring the worker &mdash; takes the file covers and uses them without comment &mdash; the child learns the most damaging lesson of all.</p>
+
+<p>Collect the evidence the syllabus demands in four cheap ways: a <strong>before-and-after pair of short dated anecdotes</strong> in the child&rsquo;s own words; a <strong>checklist of observable behaviours</strong> marked daily for two weeks before the programme and again in the sixth week; a <strong>work sample</strong> from the first day and one from the last, kept side by side; and <strong>peer and self-report</strong> &mdash; ask the child what he or she can now do that was impossible in April, and ask two peers to say the same. These are exactly the assessment tools examined in 3.6.</p>
+
+</section>
+
+<!-- ============ UNIT 3 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-3"><span class="h2num">Unit 3</span> Curricular Integration and Assessment</h2>
+
+<h3 id="s3-1">3.1 Integration of Work Education with the Curricular Subjects</h3>
+
+<p>Integration is not co-existence. A separate &ldquo;work period&rdquo; beside the other subjects teaches children that work is something they do when the real lessons are over; integration means that <strong>one activity carries objectives from several subjects at once</strong>, so that a child making a seed tray is simultaneously doing language, mathematics, science and social studies. In Table 3.1 the right-hand column shows what the activity is <em>for</em> &mdash; the work-education objective the subject objectives are serving.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 3.1 &mdash; Integrating One Activity Across the Curricular Subjects</caption>
+    <thead><tr><th style="width:17%">Activity</th><th style="width:20%">Language</th><th style="width:20%">Mathematics</th><th style="width:20%">Science</th><th>Social studies, art and work education</th></tr></thead>
+    <tbody>
+      <tr><td>Raising vegetables in the school garden</td><td>Names the plants, writes the labels, reads the seed packet, describes growth in a paragraph</td><td>Counts plants, measures height in centimetres, calculates the yield per square metre, plots a growth graph, keeps the cost of seeds</td><td>Observes germination, root and shoot, the needs of a plant, the effect of light and water, the life cycle, the harm done by insects</td><td>Sees where the family&rsquo;s food comes from, who grows it and at what cost; draws a plant; cares for a living thing without owning it</td></tr>
+      <tr><td>Keeping a household budget</td><td>Reads a bill, writes a statement, argues for a purchase in a letter</td><td>Adds, subtracts, works with percentages, reads a table, draws a bar graph, compares two months</td><td>Notes the physical properties and uses of materials &mdash; fuel, paper, plastic, water; measures the household&rsquo;s use of each</td><td>Understands how a family earns and spends, the pressure on it, the difference between need and want; makes a chart</td></tr>
+      <tr><td>Surveying household waste</td><td>Records data in a register, labels the samples, writes the report and the group&rsquo;s findings</td><td>Weighs, totals, calculates per child, converts to percentages, estimates a saving</td><td>Tests paper for strength after wetting; tests whether compost heats; identifies materials by their properties and by a simple test</td><td>Understands the problem of waste in the locality and the habits of the community; designs a poster; makes a bin from the waste</td></tr>
+      <tr><td>Visiting a food preservation centre</td><td>Writes to arrange the visit, thanks the centre, reports what was seen</td><td>Records the cost of one unit, computes the profit, scales the recipe to a different quantity</td><td>Observes osmosis, the effect of sugar, salt, acid and heat on micro-organisms; why a sealed jar keeps</td><td>Sees the difference between household and industrial work; where the season&rsquo;s produce goes; why farmers get a low price</td></tr>
+      <tr><td>Repairing and maintaining school equipment</td><td>Lists the faults, writes to the headmaster, labels the parts, keeps a maintenance register</td><td>Measures wear, calculates the cost of repair against replacement, makes a simple chart of use over time</td><td>Identifies the material, the force that broke it, and the load it should bear; sees friction, levers and the effect of lubrication</td><td>Understands that the school&rsquo;s property belongs to the community; learns the value of repair against replacement; draws the item</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The right-hand column is the part most often left implicit, and it is the part that makes the activity <em>work</em> rather than a disguised lesson. Every integrated activity needs a product the children will actually use, and the syllabus&rsquo;s test of socially useful and valuable production applies to integrated work as much as to separate work.</p>
+
+<p>Integration with <strong>vocational education</strong> follows the same logic at a higher level: where the school runs a vocational stream, its workshop activities supply the practical competence, and the academic subjects supply the mathematics, the science and the language the trade actually needs. A child who can cut a straight seam and cannot read a pattern card is not yet trained for a tailoring shop, and a child who can read a pattern card and cannot cut a straight seam is no better off.</p>
+
+<h3 id="s3-2">3.2 Selection of Subject-Based Works and Local Specific Works</h3>
+
+<p>Works may be drawn from two sources. <strong>Subject-based work</strong> grows out of what a subject is already teaching: geometry gives measurement, stitching and folding; science gives magnetism and simple electricity; language gives the reading aloud and the dictation. <strong>Local specific work</strong> grows out of the occupations, materials, crops, crafts and problems of the locality itself. The syllabus requires both, and the choice between them is a decision about what the child already knows and what the child has never seen. Table 3.2 sets out the difference.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 3.2 &mdash; Choosing Between Subject-Based and Local Specific Work</caption>
+    <thead><tr><th style="width:22%">Basis</th><th style="width:39%">Subject-based work</th><th>Local specific work</th></tr></thead>
+    <tbody>
+      <tr><td>Source</td><td>The syllabus and the textbook of a subject</td><td>The occupations, materials, crops and problems of the locality</td></tr>
+      <tr><td>Purpose</td><td>To give the subject meaning, and to practise the skill the subject teaches</td><td>To connect school with the child&rsquo;s life, and to make an occupation visible as a possible future</td></tr>
+      <tr><td>Examples</td><td>Making a geometrical model, a switch, a weather gauge, an almirah measurement chart, a summary poster</td><td>Weaving, bamboo work, pottery, food preservation, vegetable growing, repairing, water harvesting, the local vocation</td></tr>
+      <tr><td>Materials</td><td>Available in the school, cheap, standardised</td><td>Locally available, repairable, and connected to the household&rsquo;s own resources</td></tr>
+      <tr><td>Strength</td><td>Systematic; the skill transfers directly to the next stage of the subject</td><td>Real, useful and absorbing; it keeps a child who is tired of textbooks engaged</td></tr>
+      <tr><td>Risk</td><td>Becomes a textbook exercise, done to be done and forgotten</td><td>Occupational stereotypes &mdash; only the work of one community, caste or gender &mdash; if not chosen carefully</td></tr>
+      <tr><td>The best combination</td><td colspan="2">Local specific work as the <em>activity</em>, subject-based work as the <em>method</em>: the child makes the thing the locality uses, and does it by measuring, calculating, reading, writing and recording, so that the subject is not an extra bolted on afterwards</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Three questions settle the choice. <strong>Is it locally real?</strong> Is anything in this village or neighbourhood actually made or done this way, or has it come from a textbook? <strong>Can we do it here?</strong> Is there time, money, space, water, a safe working height, a tool, and a person who knows how? <strong>Is it worth the children&rsquo;s time?</strong> Would the finished thing be used, and would a child remember this in five years? An activity that fails all three is a demonstration, not work education.</p>
+
+<h3 id="s3-3">3.3 Involvement of the Headmaster, Teachers and Parents in Identifying School-Based Problems and Remedial Measures</h3>
+
+<p>The syllabus asks for the headmaster, teachers and parents to be involved together in identifying school-based problems and in taking remedial measures. The mechanism is a cycle, and the order of the stages matters more than the meetings: <strong>identify the need &rarr; consult the people affected &rarr; plan materials, cost and time &rarr; do the work &rarr; observe and record &rarr; evaluate and improve.</strong> Skipping the second stage is the commonest failure; a measure imposed on teachers, or on children&rsquo;s homes, without asking them is resented and is not sustained. Table 3.3 sets out who does what.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 3.3 &mdash; Who Does What in a School Problem-Solving Cycle</caption>
+    <thead><tr><th style="width:14%">Stage</th><th style="width:20%">Headmaster</th><th style="width:19%">Teachers</th><th style="width:19%">Parents</th><th>Student-teacher and pupils</th></tr></thead>
+    <tbody>
+      <tr><td>1. Identify</td><td>Convenes the group; brings the school&rsquo;s records &mdash; attendance, marks, timings, breakages, complaints</td><td>Report what they actually see: which child cannot, which class is noisy, what is broken</td><td>Report what they see at home: why homework is not done, what children are asked to buy, which bus is late</td><td>Pupils say what makes the day difficult; the student-teacher records everything before anything is decided</td></tr>
+      <tr><td>2. Consult</td><td>Guarantees that the people affected are heard before a decision</td><td>Attend the discussion, and do not use it to hand out blame</td><td>Asked as partners, not as visitors; the School Management Committee is the right forum</td><td>Report back to the class what was decided and what was not, and why</td></tr>
+      <tr><td>3. Plan</td><td>Sanctions the plan, finds the money, approves the timetable change</td><td>Work out the teaching sequence and what each will do in class</td><td>Say plainly what time, labour or money they can actually give</td><td>Draft the plan, cost it, and divide the labour fairly</td></tr>
+      <tr><td>4. Do</td><td>Keep the time, the budget and the authority; protect the group&rsquo;s working hours</td><td>Take the classes; keep the ordinary teaching running alongside</td><td>Supply materials, labour, or the use of a place; help where help was promised</td><td>Do the work, and keep a dated record of it as it proceeds</td></tr>
+      <tr><td>5. Observe and record</td><td>Checks that the record exists; uses it in supervision</td><td>Observe and record the effect on the class, not on the mood of the group</td><td>Report whether the change has actually made a difference at home</td><td>Counts and dates, not impressions: how many, how long, how much, before and after</td></tr>
+      <tr><td>6. Evaluate and improve</td><td>Decides whether to continue, change or stop &mdash; and says so openly</td><td>Say what was hard to teach and what they would not do again</td><td>Say whether the change survived the term</td><td>Present the result, the limitations and the next step, and accept the criticism</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Two cautions. First, do not choose a problem the school has already decided to solve &mdash; the exercise is worthless if the answer is fixed in advance. Second, keep the cycle short; a measure begun in the last month of the year produces a record and no change.</p>
+
+<p>A worked example. A school finds that the drinking-water tank at the far end of the compound is always empty by eleven o&rsquo;clock, and that children queue and miss their morning period. The headmaster&rsquo;s records show the tank is filled once a week; teachers report the noise and the lateness; parents report the walk and the queue; the pupils say they do not ask because they are afraid of being late. The plan that follows uses the school&rsquo;s own work education &mdash; the children measure the tank, calculate the daily shortfall against the roll, and map the timings.</p>
+
+<p>The measure that emerges is a second, smaller covered tank nearer the classrooms, filled twice a day, with the children&rsquo;s chart beside it. The problem was solved by arithmetic, storage and timing, and every part of it was learned by doing.</p>
+
+<h3 id="s3-4">3.4 Identification and Utilisation of Community Resources</h3>
+
+<p>Community resources are the people, places, materials and skills that already exist in a locality, and most of them are free. Identifying them is a method, not a list: <strong>walk the locality, list everything within reach, ask who knows what, and mark what is free, what costs, what needs permission, and what is dangerous.</strong> That last category is part of the exercise &mdash; a factory, an open well, a quarry, a road and a paddy field are all resources in one sense and hazards in another.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 3.4 &mdash; Community Resources and How a School Can Use Them in the Curriculum</caption>
+    <thead><tr><th style="width:22%">Resource</th><th style="width:30%">What is available</th><th>How a school can use it</th></tr></thead>
+    <tbody>
+      <tr><td>People and their skills</td><td>The potter, the weaver, the carpenter, the blacksmith, the midwife, the farmer, the mason, the rickshaw puller, the cook, the retired teacher, the nurse, the NGO worker</td><td>Invited as the resource; demonstrated, questioned and tried by the children. The best single hour of the year is usually the one spent asking a working person about the working day</td></tr>
+      <tr><td>Places</td><td>The field, the garden, the pond, the river bank, the forest, the grazing ground, the workshop, the market, the panchayat office, the anganwadi, the health centre, the school, the factory gate</td><td>As sites for the exposure visit, for a local specific work, for project survey, and for ordinary lessons held outside four walls</td></tr>
+      <tr><td>Materials</td><td>Clay, bamboo, cane, jute, stone, sand, timber offcuts, coconut husk, paddy husk, farmyard manure, crop residue, waste paper, plastic, bottles, scrap metal</td><td>As the raw material of the workshop activities. Naming a material the children can see in a field is worth more than any description in a textbook</td></tr>
+      <tr><td>Organisations and institutions</td><td>The panchayat, the School Management Committee, the Block office, the Circle, the PWD, the forest department, the health department, the agriculture office, a bank or a post office, a cooperative, an NGO, the local library</td><td>As partners: for permission, for expertise, for materials, for a project, for a competition, for a place to display what the children have made</td></tr>
+      <tr><td>Places and people with information</td><td>The agricultural office, the weather station, the hospital&rsquo;s records, the census, the school&rsquo;s own attendance and marks records, the old people&rsquo;s memory</td><td>As data. The school&rsquo;s own attendance register is a dataset it already owns and has never used for anything</td></tr>
+      <tr><td>Work itself</td><td>The occupations of the locality, their rhythms, their tools, their skills, their seasons, their pay, and who does them</td><td>As content: what the work is, what it needs, what the school must do before a child can enter it, and what the child in the school will find when he goes out into it</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Utilisation is where most plans fail: a resource identified but not used is a wasted afternoon. So every resource used must be written down with four things &mdash; <strong>a person</strong> responsible for it, <strong>a date</strong> on which it will be used, <strong>a purpose</strong> stated in one sentence, and <strong>a product</strong>, meaning what the children will have made, measured, written or recorded by the time they are finished. Without the product, the visit is a trip; with it, it is work. And permission must be asked for in advance, from the person who owns the resource, not assumed.</p>
+
+<h3 id="s3-5">3.5 Shortcomings of the Present System of Assessment and Their Remedies</h3>
+
+<p>&ldquo;The present system&rdquo; means the ordinary, examination-dominated practice in Indian schools: written answers in prescribed books, a terminal examination, marks once or twice a year, and almost nothing at all about work, skills or attitude. Table 3.5 lists the shortcomings and the remedy for each; the remedies are not expensive, since most are changes in what the teacher does on an ordinary day.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 3.5 &mdash; Shortcomings of the Present System of Assessment, and the Remedy for Each</caption>
+    <thead><tr><th style="width:44%">Shortcoming</th><th>Remedy</th></tr></thead>
+    <tbody>
+      <tr><td>Assessment is almost entirely written, and a written answer cannot show whether a child can actually do the work</td><td>Assess the product and the performance directly: a practical test, a demonstration, an observation schedule</td></tr>
+      <tr><td>Only the written examination counts; a week&rsquo;s work in the garden is worth nothing</td><td>Give the work activity marks in the internal assessment, and publish the weighting in advance</td></tr>
+      <tr><td>Terminal only &mdash; nothing happens between the two tests, so nothing can be corrected</td><td>Continuous assessment: a short record after every activity, and a correction as soon as it is possible</td></tr>
+      <tr><td>Only scholastic achievement is assessed; skills, attitude, punctuality, neatness, cooperation and responsibility are ignored</td><td>Comprehensive assessment, with the wider development of the learner assessed as deliberately as the marks</td></tr>
+      <tr><td>The same tool is used for everything &mdash; a written test for a hand skill, a checklist for a piece of reasoning</td><td>Match the tool to the claim: a skill by performance, an attitude by observation over time, a fact by a written test</td></tr>
+      <tr><td>No criteria are published, so the child is judged on a standard never told to it</td><td>Publish the criteria, and preferably the rubric, before the work begins</td></tr>
+      <tr><td>No record exists, so growth cannot be shown and last year&rsquo;s work cannot be compared with this year&rsquo;s</td><td>Keep a portfolio and a register, and return the record to the child &mdash; the child should be able to see their own progress</td></tr>
+      <tr><td>Assessment is used to rank and to punish, so the child learns to conceal what it cannot do</td><td>Use assessment to improve: a correction made after a record is worth more than a mark recorded before it</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Six things follow from that table, and together they are a workable scheme: a <strong>record</strong> after every activity; the <strong>product</strong> itself examined; a <strong>demonstration</strong> at least once a term; a <strong>portfolio</strong> kept by the child; <strong>self-assessment and peer assessment</strong> by the children themselves; and a <strong>parent meeting</strong> in which the child&rsquo;s record is discussed and the child is present. None of these needs a new form designed from nothing, and none of them costs money. A five-mark answer should carry three or four shortcomings <em>paired with</em> their remedies and end with such a scheme &mdash; not a remedy that no ordinary teacher could carry out.</p>
+
+<h3 id="s3-6">3.6 Assessment Tools &mdash; Advantages, Disadvantages and Examples</h3>
+
+<p>Every tool has a use and a limit, and the skill lies in choosing the tool that fits the claim being made. Table 3.6 names all the tools with the use to which each is put, its advantages, its disadvantages, and a concrete example of the kind the syllabus asks for.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 3.6 &mdash; Assessment Tools: Use, Advantages, Disadvantages and Examples</caption>
+    <thead><tr><th style="width:16%">Tool</th><th style="width:20%">What it is and what it assesses</th><th style="width:20%">Advantages</th><th style="width:19%">Disadvantages</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td>Observation</td><td>Watching the child work, play, behave and interact over a period; assesses habits, attitude, cooperation, punctuality, care in handling tools</td><td>Unobtrusive, and the only tool that can see a work activity in progress; needs no equipment and no special time</td><td>Selective &mdash; the observer sees what is conspicuous; biased by expectation; hard to record exhaustively while also teaching</td><td>Whether the group brought its tools, swept its area and returned them; whether four particular children have stopped taking the cleaning work themselves</td></tr>
+      <tr><td>Checklist</td><td>A list of yes/no items to tick; assesses whether specified things happened</td><td>Quick, transparent to the child, and the same for every child, so it is fair</td><td>Tells <em>whether</em>, never <em>how well</em>; a long list is not a measurement; can become a routine of ticking</td><td>The daily-works checklist of Table 5.1 &mdash; board cleaned, waste separated, garden watered, tools returned</td></tr>
+      <tr><td>Rating scale</td><td>A graded scale, such as poor / fair / good / very good, on each of several traits</td><td>Records degree, not merely presence; shows the child where the improvement is</td><td>The judgement is still the observer&rsquo;s, and two teachers rate differently; can be summed into a false total</td><td>Punctuality, neatness, care of materials, helpfulness &mdash; rated on a five-point scale for every workshop session</td></tr>
+      <tr><td>Rubric</td><td>Written criteria with descriptions of low, middle and high performance; assesses against criteria rather than opinion</td><td>The most honest tool available: the child knows the standard in advance; markers agree; it can be used by the children themselves</td><td>Takes time to write and to apply; works only for a skill describable in levels; a poor rubric is worse than none</td><td>&ldquo;Seams &mdash; 1: straight but puckered; 2: straight, no puckering, even spacing; 3: as 2 and finished at both ends&rdquo;</td></tr>
+      <tr><td>Anecdotal record</td><td>A written note of one significant incident, written at the time; assesses what actually happened</td><td>Catches the exceptional event &mdash; a fight, an act of honesty, a sudden improvement &mdash; that no scale is designed to see</td><td>Unsystematic; easy to record the memorable incident and forget the ordinary; can be biased against a child the observer dislikes</td><td>&ldquo;6 March &mdash; R. gave up her place in the queue to a Class I child without being asked, then stood in the sun for ten minutes.&rdquo;</td></tr>
+      <tr><td>Interview</td><td>A face-to-face conversation, structured or not; assesses reasoning, understanding, ability to explain, self-knowledge</td><td>Reaches what no written test can &mdash; how the child thinks and why; normally paired with the practical demonstration</td><td>Time-consuming; the interviewer&rsquo;s questions shape the answer; a quiet child can be unfairly marked</td><td>Defending the project in the viva: why this waste material, what they would change, what the cost per child was</td></tr>
+      <tr><td>Questionnaire</td><td>A written set of questions for the child, and sometimes for parents; assesses opinion, attitude, self-report</td><td>Reaches many people at once; anonymity usually produces more honest answers; good for a baseline survey of habits</td><td>Reads whatever the child thinks the answer ought to be; gives no evidence of skill; must be short and simply worded</td><td>&ldquo;Which three jobs in the house do you do every day? &rdquo; given to sixty children and tabulated for the programme</td></tr>
+      <tr><td>Practical or performance assessment</td><td>The child performs the work while being examined; assesses whether the skill can actually be done</td><td>The most valid evidence for a skill, and the only one that satisfies the syllabus&rsquo;s demand for a demonstration; the product can be kept</td><td>Expensive in time; conditions must be made fair; the teacher must know how to score; anxiety affects performance</td><td>The assessed SIP demonstration: making a tray, sowing a row, stitching a seam, cooking a dish, from start to finished product</td></tr>
+      <tr><td>Portfolio</td><td>A dated, cumulative, child-owned collection of work samples, process records and self-assessment; assesses growth over time</td><td>Shows change, which no single test can; the child owns it; it is evidence of the <em>process</em> and not only the result</td><td>Takes time and storage; the child may select only the best pieces; it records what was kept, not everything done</td><td>Four dated photographs of the same bed as the plants grew, the sowing dates, the watering chart, and the child&rsquo;s own sentence about what failed</td></tr>
+      <tr><td>Project report</td><td>A written report of a piece of work, in a prescribed format, following an interview; assesses knowledge, process, evaluation and ability to report</td><td>Covers the whole process including planning and evaluation, which nothing else does; the interview establishes that the child&rsquo;s own work is described</td><td>May be copied or written by someone else; the writing skill can mask a weak practical performance unless the viva is taken seriously</td><td>Two curricular projects in groups, each with a report, a log of group meetings, photographs and an interview &mdash; activity 7 of Table 5.2</td></tr>
+      <tr><td>Peer and self-assessment</td><td>The children assess each other, and themselves, against published criteria; assesses the child&rsquo;s own judgement and standards</td><td>Cheap, immediate and formative; it teaches the standard by making the child apply it; a check on the teacher&rsquo;s rating</td><td>Marked too generously out of friendship or too harshly out of rivalry; marking is a skill that has to be taught</td><td>After a group activity each child ticks the group checklist for the group, and writes one line on his or her own contribution and one on what the group should do differently</td></tr>
+      <tr><td>Written and oral test</td><td>A written paper, or oral questioning, on knowledge and understanding; assesses facts, definitions, reasoning in words</td><td>Cheap, familiar, and the only practical way to examine fifty children at once; good for definitions, dates, differences and principles</td><td>Cannot show that a child can do anything at all; encourages written recall over performance; says nothing about attitude or effort</td><td>The unit test: work education versus vocational education, the four pillars, the Kothari Commission&rsquo;s recommendations, the stages of the NCF-SE 2023</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Two principles govern the choice. First, <strong>no single tool is adequate</strong> &mdash; every one of the twelve above is strong on one kind of claim and blind on another, so a judgement made from one tool is a claim about a moment. Second, <strong>match the tool to the claim</strong>: a skill is assessed by performance, an attitude by observation and self-report accumulated over time, a growth in achievement by a portfolio or a pre-and-post pair, a process by a project report, and knowledge by a written or oral test.</p>
+
+<p>A <strong>checklist</strong> answers <em>whether something happened</em>, a <strong>rating scale</strong> answers <em>how much of it</em>, and a <strong>rubric</strong> answers <em>how much against a published standard the child already knows</em>. Using a written test to assess a stitching skill, or an observation to assess a date, is not assessment; it is a guess. Name a tool with an example, or the name alone earns little.</p>
+
+</section>
+
+<!-- ============ UNIT 4 ============ -->
+<section class="unit-body">
+
+<h2 id="unit-4"><span class="h2num">Unit 4</span> Responsibility Towards Family and Society</h2>
+
+<p>Each topic in this unit is a piece of work that can actually be done and recorded. Domestic labour is in fact done mostly by women and girls, and a child who has measured a household&rsquo;s water, money and work will make better decisions than one who has only been told to save.</p>
+
+<h3 id="s4-1">4.1 Sharing Household Responsibilities</h3>
+
+<p>Work in a household is nearly always divided unequally, and the division is not usually by need. The reasons are cultural and not logical: the work is seen as belonging to a particular person, is invisible because it is done by one person, and is therefore never discussed. The remedy is threefold: <strong>find out what the work actually is</strong> (a time chart, not an opinion); <strong>share it by time rather than by importance</strong> (nothing is unimportant, but a task done for six hours is not a chore); and <strong>give every member a share that is theirs alone</strong>, including the repair and the planning, and not only the sweeping.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 4.1 &mdash; A Household Work Chart: Who Does What, and for How Long</caption>
+    <thead><tr><th style="width:34%">Task</th><th style="width:16%">Who does it now</th><th style="width:16%">How long, daily</th><th>Who will do it after the plan, and how long</th></tr></thead>
+    <tbody>
+      <tr><td>Fetching water</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+      <tr><td>Cleaning the house, the veranda and the latrine</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+      <tr><td>Cooking and washing up</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+      <tr><td>Washing clothes and the family&rsquo;s bedding</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+      <tr><td>Feeding, milking and tending the livestock and poultry</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+      <tr><td>Care of the younger children and the elderly</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+      <tr><td>Shopping, the field work, the harvest</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+      <tr><td>Repairs, the account book, the planning</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Fill this in for your own household over one working week, then add the totals &mdash; the result is usually shocking to the children who fill it in, and it is the most persuasive piece of work in this topic. In school, apply the same principle to the school&rsquo;s own domestic work: a published rotating duty roster, boys and girls alike, covering sweeping, the garden, the waste, the mid-day meal, and the school&rsquo;s own tools and plants. Name the school&rsquo;s own workers &mdash; the cook, the gardener, the sweeper, the watchman &mdash; in the timetable, so that the children who share the work see the work itself, and not only a list of duties.</p>
+
+<h3 id="s4-2">4.2 Domestic Budgeting and Planning</h3>
+
+<p>A budget is only useful compared with what actually happened, so the first budget a child makes must be a <em>record</em>, not a plan. Over one full month, enter every item of income &mdash; including irregular, seasonal and in-kind income at its money value &mdash; and every item of expenditure; total them; and then plan the next month against the record. Table 4.2 is a model for a household of five in rural Assam, with the percentages a working plan should roughly follow.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 4.2 &mdash; A Model Monthly Household Budget (Household of Five, Rural Assam)</caption>
+    <thead><tr><th style="width:26%">Head</th><th style="width:16%">Amount (&#8377;)</th><th style="width:10%">Share</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Total income</td><td>15,000</td><td>100%</td><td>Earned plus in-kind valued at market rates; the base of every calculation below</td></tr>
+      <tr><td>Food</td><td>5,250</td><td>35%</td><td>The largest single item in the rural household, and the one that can be reduced by planning meals and by the family&rsquo;s own kitchen garden</td></tr>
+      <tr><td>Housing, water and sanitation</td><td>1,800</td><td>12%</td><td>Rent where rented; a repaired roof and a sound well or tap cost far less than a new one</td></tr>
+      <tr><td>Festivals, gifts and social obligations</td><td>2,100</td><td>14%</td><td>The item most often unplanned, and the largest single cause of borrowing at year end</td></tr>
+      <tr><td>Education</td><td>1,200</td><td>8%</td><td>Books, fees, transport; the item that must not be the one that is cut</td></tr>
+      <tr><td>Transport</td><td>900</td><td>6%</td><td>The cost of a daily journey, and the reason many children drop out</td></tr>
+      <tr><td>Health and medicine</td><td>750</td><td>5%</td><td>Including the small sums that are spent on a pharmacy instead of on a health centre visit</td></tr>
+      <tr><td>Clothing</td><td>750</td><td>5%</td><td>Fewer, better garments, repaired and handed down, outlast more and cheaper ones</td></tr>
+      <tr><td>Fuel and light</td><td>750</td><td>5%</td><td>The most directly reducible item on the list &mdash; see 4.4</td></tr>
+      <tr><td><strong>Savings</strong></td><td><strong>1,500</strong></td><td><strong>10%</strong></td><td>Fixed, set aside on the day the income is received, and never spent. Saving last is saving nothing</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Three habits make the budget work, and all three are teachable to a nine-year-old. <strong>Write it down</strong> &mdash; money remembered is money already spent. <strong>Save first</strong> &mdash; the saving is the first item on the list, taken out on the day the income comes in, and not whatever is left at the end of the month. <strong>Compare and adjust</strong> &mdash; the value of the budget is not the budget but the comparison of the plan with what happened, done for the next month.</p>
+
+<h3 id="s4-3">4.3 Care for Children, Parents, Sick and Old-Age People</h3>
+
+<p>What is not claimed here is that a school child can nurse an invalid, support a family, or be responsible for anybody&rsquo;s safety. Care by a child is limited and specific, and the syllabus asks for it because habits of attention are formed early, not because the responsibility is heavy. Table 4.3 sets out what care means in practice, by the relationship concerned.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 4.3 &mdash; What &ldquo;Care&rdquo; Means Practically, by Relationship</caption>
+    <thead><tr><th style="width:22%">For whom</th><th>What a child can actually do</th></tr>
+    <tbody>
+      <tr><td>Younger children</td><td>Supervise, play with, help to feed, keep safe and out of danger, help with homework, read aloud, and tell an adult when something is wrong. Teach a child, do not undertake to nurse one</td></tr>
+      <tr><td>Parents</td><td>Respect their work, which is largely invisible; help with the household work; share the work chart; support a parent&rsquo;s illness or absence; not add avoidable expense or avoidable worry</td></tr>
+      <tr><td>The sick</td><td>Know the name of the illness and where the doctor is; keep the room clean, aired and quiet; fetch water and medicines; prepare or buy simple food; read to the patient; keep the telephone number of a relative at hand</td></tr>
+      <tr><td>Old-age people</td><td>Listen to them and remember what they say; read, write letters, and help with the post; sit with them when the household is busy and stay with them when nobody else will; notice food, medicine, hearing, a fall risk, or a light bulb that has failed. The loneliness of the old is usually more damaging than their physical need</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>One practical exercise in school: audit the safety of your own compound and the route home, and write down the three defects you would report to the School Management Committee. Every school finds the same three &mdash; a broken step, an unguarded well or pond, a low-hanging wire &mdash; and the finding is worth more than any amount of instruction, because the children can help fix it.</p>
+
+<h3 id="s4-4">4.4 Saving Water, Electricity and Fuel</h3>
+
+<p>Do not moralise children into saving water; measure them into it. A child who has filled a bucket and watched twenty litres disappear over ten minutes will not need to be told again. The work is therefore to <strong>measure the household&rsquo;s daily use, find the losses, and set a target</strong>.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 4.4 &mdash; Conservation Measures for Water, Electricity and Fuel</caption>
+    <thead><tr><th style="width:12%">For</th><th style="width:44%">Measures</th><th>How to check</th></tr>
+    <tbody>
+      <tr><td>Water</td><td>Repair every leaking tap and every leaking pipe; put a bucket under a dripping tap to measure the loss; mend the toilet; close taps while brushing teeth and while soaping; use a mug rather than a running tap; reuse washing water for the plants; keep the water and the latrine apart; protect the well and the tank from silt and leaves</td><td>Count the drips in one minute and multiply by 1440; read the meter or the tank level at the same hour on the same day each week</td></tr>
+      <tr><td>Electricity</td><td>Use the minimum bulb power that will do; switch off lights, fans and the television when leaving a room; use daylight first; use natural draught and cross-ventilation instead of a fan; use a fan in place of an air-conditioner where the budget allows it; unplug the charger</td><td>Read the meter on the same date each month and record it; put a switch at the entrance so that nobody has to reach the main switch in the dark</td></tr>
+      <tr><td>Fuel</td><td>Cook in one pot with a lid on, and size the fire to the pot; close the lids of the stove and the flue; collect dry fuel before the rains; use a smokeless or improved chulha; dry the wood before burning it; use biogas or solar where the household can afford it; cook in a vessel that matches the burner, and never leave fire unattended</td><td>Weigh the firewood used in a week; count the kerosene cans; time the cooking and shorten the time the flame is left burning</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Assam&rsquo;s situation makes water the first of the three, not the third. The state&rsquo;s rainfall is concentrated into about four months, and the months that follow are dry, so what is needed is not only less use but <strong>storage and recharge</strong>. The sequence below is the whole chain, and each step is a separate piece of school work:</p>
+
+<ol class="num">
+  <li><strong>At the tap and the bucket &mdash; use less.</strong> Mended taps, a mug rather than a running tap, a bucket for the bath and for washing, and the washing water to the plants.</li>
+  <li><strong>At the roof &mdash; catch it.</strong> A gutter along the roof edge, a mesh or leaf filter, and a down-pipe to a storage drum. Filter the collected water before use; never drink it untreated.</li>
+  <li><strong>At the yard &mdash; soak it back.</strong> The overflow into a soak pit filled in layers, coarse rubble below and finer above, left open so that the water percolates to the groundwater instead of running away.</li>
+  <li><strong>At the school &mdash; measure it.</strong> Measure the roof catchment, estimate the litres of rainfall that fell, compare with the volume collected, and account for evaporation, the first flush and the filter.</li>
+  <li><strong>At the village &mdash; recharge it.</strong> A percolation tank, a check dam or a community pond, costed and presented to the panchayat or the School Management Committee. This is activity 15 of the workshop list.</li>
+</ol>
+
+<h3 id="s4-5">4.5 House Safety, Security and Maintenance</h3>
+
+<p><strong>Safety</strong> is the prevention of injury, <strong>security</strong> is the protection against loss, and <strong>maintenance</strong> is the routine work that keeps the first two effective. Students confuse the three constantly, and conflating them is dangerous, because a fire drill is a safety measure, a locked door is a security measure, and oiling a door hinge that will not close is a maintenance measure. The syllabus&rsquo;s own conclusion is the one worth holding on to: <strong>there is no way of making a house absolutely safe, but there is no reason for a child to be injured in an ordinary house</strong> &mdash; which means the whole of the remedy is a list of small defects that are not repaired. Table 4.5 is that list.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 4.5 &mdash; A House Safety, Security and Maintenance Checklist</caption>
+    <thead><tr><th style="width:26%">Area</th><th>What to check</th></tr>
+    <tbody>
+      <tr><td>Fire</td><td>An open flame or stove within reach of children; a cooking fire unattended; no fire extinguisher; no sand bucket; ash disposed of in a covered pit away from the house; an electric point loose or sparking; a matchbox or a lighter within reach; an escape route blocked by stored things</td></tr>
+      <tr><td>Water</td><td>An open well, tank, pond or vessel without a cover or a fence; a child left alone near water; a wet floor left uncleared; a slippery step; a bathroom without a non-slip surface or a grab bar for the elderly</td></tr>
+      <tr><td>Structure</td><td>A loose or broken step, handrail, window grille or door; a low-hanging or exposed wire; a cracked wall or a leaking roof; a hanging ceiling fan with a pull that a child can reach; a heavy cupboard or almirah that a child can climb</td></tr>
+      <tr><td>Health</td><td>Stagnant water in the compound, a drain that does not clear, a latrine out of use, waste not covered; a knife or a blade within reach; a medicine kept open and unlocked; a mop or a wet cloth left across a passage</td></tr>
+      <tr><td>Security of the person</td><td>A gate or a main door without a lock; a window that can be entered; a child alone on a road after dark; a compound unlit at night; a stranger admitted without being questioned; the school gate left open after hours</td></tr>
+      <tr><td>Maintenance</td><td>Roof leaking; a wall damp and growing mould; a wooden door swollen and jamming; a tap that drips; a latrine without water; the boundary wall broken in two or three places; a tree limb overhanging the roof; a rat, insect or termite problem; a load stored so high that it will fall</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Deal with the cheapest repairs first, because a careful household can make them: clear the escape route, cover the well, keep the blade and the medicine out of reach, dispose of the ash safely, mend the step. Then the repairs that need a mason, a carpenter or an electrician. And throughout, the routine work &mdash; which is what maintenance means &mdash; because the list above is a set of habits that keep the defects from returning, not a set of one-time repairs.</p>
+
+</section>
+
+<!-- ============ PRACTICUM ============ -->
+<section class="unit-body">
+
+<h2 id="practicum">Practicum &mdash; Daily Works, Workshop Activities and Exposure Visit</h2>
+
+<p>The practicum has three parts: <strong>daily works, compulsory for every student-teacher</strong> (5 marks); <strong>workshop activities, any five of the fifteen listed</strong> (10 marks); and <strong>an exposure visit or a survey or study, any one</strong> (5 marks). Related activities are grouped below into clusters so that they share tools, and the clusters that most often cause injury &mdash; bamboo, food and sewing &mdash; carry an expanded safety treatment, because in a TEI workshop the accident is the real failure.</p>
+
+<h3 id="s5-1">5.1 Daily Works &mdash; Compulsory for Every Student-Teacher</h3>
+
+<p>The syllabus specifies two daily works, both compulsory for every student-teacher without exception: the conduct of the <strong>morning assembly</strong>, and the <strong>cleanliness and beautification of the classroom, the garden, the campus and the institution</strong>. They carry five marks between them, but their real purpose is elsewhere: the daily work is where the behavioural changes of Unit 2 are observed and where the assessment habits of Unit 3 are formed.</p>
+
+<h4>Daily work 1 &mdash; Conduct of the morning assembly</h4>
+
+<p>An assembly is a small, complete piece of organisation, and worth treating as a rehearsal for everything else in this paper.</p>
+
+<ol class="num">
+  <li><strong>Plan.</strong> Decide the items, the order, the timings and who does what; write the plan on one sheet in the group&rsquo;s own hand.</li>
+  <li><strong>Rehearse.</strong> Twice, in the classroom, at the same time of day. Rehearsal is the whole difference between a confident assembly and a flustered one.</li>
+  <li><strong>Lead.</strong> The leader opens with the greeting and states the theme; then a prayer or song, the flag, the thought for the day, the announcements, the vote of thanks.</li>
+  <li><strong>Keep discipline.</strong> The group&rsquo;s own members set the standard of standing and silence. A leader who shouts has taught the opposite of what the assembly is for.</li>
+  <li><strong>Keep time.</strong> Ten minutes, never twelve. Appointing a person responsible for time is the most transferable skill in this list.</li>
+  <li><strong>Review.</strong> Three minutes afterwards against a rating scale for the day&rsquo;s performance &mdash; which is 3.6 in action.</li>
+</ol>
+
+<h4>Daily work 2 &mdash; Cleanliness and beautification</h4>
+
+<p>Treat cleanliness as a system rather than a slogan, or it will be finished in twenty minutes on the first day and abandoned by the third week.</p>
+
+<ol class="num">
+  <li><strong>Divide.</strong> A published daily rota, so that every member has a named area and a named day, and the same four children are not always doing it.</li>
+  <li><strong>Sequence.</strong> Sweep from the far corner towards the door; collect in a dustpan, not with the broom; dust before mopping; mop from the back; clean the board last, because children write on it as they leave.</li>
+  <li><strong>Sort the waste.</strong> Wet and dry separated &mdash; dry into a bin, wet into compost. Note the quantity, and the school will soon have a record of how much rubbish a class generates.</li>
+  <li><strong>Water.</strong> Water the garden and potted plants at a fixed time, and check the plants rather than merely pouring water at them.</li>
+  <li><strong>Beautify in restraint.</strong> Charts, a small flower corner, a marked boundary, waste kept out of sight. The standard is <em>clean, ordered and alive</em> &mdash; three words worth defending in a viva.</li>
+  <li><strong>Inspect and record.</strong> A two-minute check at the end against the checklist below, with the date and the group&rsquo;s name. A checked, recorded task improves; an unrecorded one decays.</li>
+</ol>
+
+<p>A group running a rota for a month found that the classroom was dirty at the <em>edges</em> &mdash; under the almirah, behind the door, under the windows &mdash; because that is the part nobody had been assigned. Changing the sequence to start at the edges and work inwards changed the visible standard overnight.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 5.1 &mdash; Daily Works Checklist &mdash; What to Tick, and When</caption>
+    <thead><tr><th style="width:30%">What</th><th>Standard</th><th>When checked</th><th>Evidence kept</th></tr></thead>
+    <tbody>
+      <tr><td>Classroom and veranda swept and mopped; board cleaned</td><td>No dust, no litter, drain clear; board legible, no streaks</td><td>After the last period</td><td>Daily checklist, signed</td></tr>
+      <tr><td>Waste separated and removed</td><td>Dry recycled, wet composted, nothing on the ground</td><td>After the last period</td><td>Volume noted weekly</td></tr>
+      <tr><td>Garden and plants watered and weeded</td><td>Soil moist, no wilting, weeds out</td><td>Morning, before the bell</td><td>Garden register</td></tr>
+      <tr><td>Tools returned to the store</td><td>Counted, clean, in place</td><td>End of work</td><td>Tool register</td></tr>
+      <tr><td>Assembly conducted and ended on time</td><td>Planned, rehearsed, within ten minutes</td><td>Daily</td><td>Assembly rating sheet</td></tr>
+      <tr><td>Taps checked for leaks</td><td>No drip after five minutes</td><td>Weekly</td><td>Dated leak report</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="s5-2">5.2 Workshop Mode &mdash; The Fifteen Activities</h3>
+
+<p>The syllabus carries the instruction that governs how the workshops are run: <strong>the faculty is to give outline knowledge on each workshop topic and select only five topics for workshop, as per discussion with the trainees and the available resources in the TEI.</strong> You attend the outline session on each, the group then selects five on the basis of that discussion and of what the institute can provide, and you do those five properly. A workshop done badly and hurriedly is worth less than one done properly with tools, materials and time. Table 5.2 lists all fifteen, because all fifteen are examinable even though only five are performed.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 5.2 &mdash; The Fifteen Workshop Activities at a Glance</caption>
+    <thead><tr><th style="width:4%">No.</th><th style="width:38%">Activity</th><th style="width:18%">Cluster</th><th>What it teaches, and what you produce</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Chart preparation mapping works related to class-wise other curricular subjects</td><td>A &mdash; Paper, stationery, waste</td><td>Reads a table and sees that work education is planned across subjects; produces a reference chart the institute keeps</td></tr>
+      <tr><td>2</td><td>Making items from waste materials / waste management</td><td>A</td><td>States how much waste a class produces and what fraction of it can be used</td></tr>
+      <tr><td>3</td><td>Basic skills and allied knowledge of work and associated materials for making toys</td><td>A</td><td>Designs a toy to a purpose and tests it against use</td></tr>
+      <tr><td>4</td><td>Preparation of paper items, duster, bamboo items and clay models</td><td>B &mdash; Bamboo, clay, models</td><td>Works green bamboo and splits strips; sees why a duster is sewn to a pattern and not cut; kneads and shapes clay</td></tr>
+      <tr><td>5</td><td>Plantation of shady, fuel, ornamental, avenue and medicinal trees</td><td>C &mdash; Plantation, gardening</td><td>Understands why pit size, firming, watering and staking matter; keeps a survival record</td></tr>
+      <tr><td>6</td><td>Gardening &mdash; maintenance of the garden, and raising flowers, seedlings, vegetables and shrubs</td><td>C</td><td>Raises vegetables from seed to harvest; keeps a dated garden record</td></tr>
+      <tr><td>7</td><td>Curricular project &mdash; at least two, in groups, with report submission and an interview</td><td>J &mdash; The curricular project</td><td>Plans, does, records, evaluates and reports; defends the work in a viva</td></tr>
+      <tr><td>8</td><td>Development of plants by vegetative propagation &mdash; budding, grafting, cutting, layering</td><td>D &mdash; Vegetative propagation</td><td>Carries out each method on a woody plant and names the stock and the scion; explains why a fruit tree from seed does not come true to type</td></tr>
+      <tr><td>9</td><td>Food preservation &mdash; jam, jelly, tomato ketchup, pickles</td><td>E &mdash; Food preservation, cookery</td><td>Preserves a seasonal fruit by two methods and states the principle behind each; labels a product properly</td></tr>
+      <tr><td>10</td><td>Mushroom cultivation for consumption, preservation and sale</td><td>F &mdash; Mushroom cultivation</td><td>Runs a spawn-to-harvest cycle; produces a safe, labelled, saleable product</td></tr>
+      <tr><td>11</td><td>Stationery items &mdash; files, file boards, registers, writing pads, tamping ink, album, chart, map</td><td>A</td><td>Makes a usable file, register and pad to a stated standard; draws a scale map of the locality</td></tr>
+      <tr><td>12</td><td>Cookery skills with special reference to local and traditional food items</td><td>E</td><td>Cooks a local dish to a standard and writes the method for someone else; costs a meal</td></tr>
+      <tr><td>13</td><td>Cutting, hand embroidery, knitting and garment making</td><td>G &mdash; Cutting, embroidery, knitting, garment making</td><td>Cuts a pattern to size, sews a straight seam that does not pucker, casts on and binds off, makes a simple garment that fits</td></tr>
+      <tr><td>14</td><td>Preparation of family budget and maintenance of household accounts</td><td>H &mdash; Household accounts</td><td>Prepares a real budget and keeps it; understands saving as the first item, not the last</td></tr>
+      <tr><td>15</td><td>Groundwater and rainwater harvesting</td><td>I &mdash; Water harvesting</td><td>Calculates the volume of water available from a roof and a given rainfall; designs a soak pit and explains percolation</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Table 5.3 groups the same fifteen by cluster and gives, for each, the tools, the key sequence and the safety treatment. Clusters A and B share the paper skills; C, D and I are the ones most specific to the Assamese context; E and G are the two most accident-prone; J is the piece of research that links the whole practicum to 3.1 to 3.4.</p>
+
+
+<div class="tw">
+  <table>
+    <caption>Table 5.3 &mdash; Workshop Clusters: Tools, Key Sequence and Safety</caption>
+    <thead><tr><th style="width:15%">Cluster (activities)</th><th style="width:24%">Tools and materials</th><th>Key sequence</th><th>Safety</th></tr></thead>
+    <tbody>
+      <tr><td><strong>A &mdash; Paper, stationery and waste</strong> (1, 2, 3, 11)</td><td>Card and stiff board, old exercise books, chart paper, newspaper, glue, scale, scissors, bone folder, a book-binding needle with cotton, mallet and block, gum arabic or shellac, string, colour; separate bins, a weighing scale, bottles, bangles, matchboxes, clay, sand, paint</td><td><em>Chart:</em> classes down, subjects across, the activity in each cell, cut-out illustrations, a legend. <em>File cover:</em> measure, cut the card, fold the flaps, cut the corners at an angle, paste the cloth, press. <em>Register:</em> stitch the printed sheets through the fold, bind the cover. <em>Ink:</em> mix gum and shellac, add lamp black, tamp. <em>Map:</em> draw to scale. <em>Waste:</em> weigh one day&rsquo;s dry waste by type, compute the amount per child, design an item from the largest fraction, re-weigh next week and compare. <em>Toy:</em> decide its use, sketch it, mark the joints, join by lacing, slot-and-tab or drilled hole, test it, paint it</td><td>Cut on a board, never in the air. Pass the book-binding needle through the paper <em>toward</em> the body, the other hand protected by a card. No broken glass &mdash; hand it over. Round every cut edge with sandpaper. Sand or a heated awl burns. Keep small parts away from young children. Non-toxic paint only</td></tr>
+      <tr><td><strong>B &mdash; Bamboo, clay and models</strong> (4)</td><td>Chart paper, glue, bone folder, cotton or waste cloth, thread; thin green bamboo, a <em>dao</em> or bamboo knife, rasp, saw, drill, cane, wire; local river clay, sand, grog, a board or wheel, a kiln or drying rack</td><td><em>Paper:</em> fold, cut, paste, press under a weight. <em>Duster:</em> make the cover, sew it to fit, fill with cotton waste, close and turn the edges. <em>Bamboo:</em> mark and cut <em>green</em> bamboo with a sharp knife, scrape, split into strips, soak, weave or bind, drill, lash. <em>Clay:</em> clean and knead, remove stones, mix with sand, shape, dry slowly, fire if possible</td><td>The bamboo knife is a hook: it draws the hand in and cannot be stopped. Cut away from the body on a non-slip board; the left hand holds the bamboo <em>behind</em> the cut. Make thin strips by splitting, not slicing. Practise empty-handed first. Dry bamboo splits &mdash; cut it green. Cut wire with pliers, not teeth</td></tr>
+      <tr><td><strong>C &mdash; Plantation and gardening</strong> (5, 6)</td><td>Spade, pickaxe, dibbler, trowel, fork, hoe, rake, tape, stakes, watering can, compost, mulch, line and pegs, secateurs, hand lens, garden diary</td><td><em>Plantation:</em> fix the function of each site &mdash; shade, fuel, avenue, medicinal; pits not less than 45 cm cube; refill with topsoil and compost; water the pit; plant, backfill, press firmly, form a shallow basin, stake with a loose knot, mulch; water daily for the first month; replace dead plants. <em>Gardening:</em> mark the bed, dig, break clods, level, rake, mix in compost, furrow at the packet spacing, sow thinly, cover, firm, water with a fine rose, thin, weed shallowly, mulch; record sowing, germination, first harvest and yield</td><td>Lift with the knee, not the lever. Mark open pits &mdash; an unmarked pit is a leg fracture. Sterilise the pruning saw between plants. Never hold a seedling by the root ball. Gloves for manure. Work in the early morning, keep drinking water near, and stop a child showing heat stress</td></tr>
+      <tr><td><strong>D &mdash; Vegetative propagation</strong> (8)</td><td>A sharp knife or razor, secateurs, grafting tape or polythene strip, a rooting medium of sand and cocopeat, pots, a hand lens, a misted chamber, labels, a grafting bench</td><td>See Figure 3.1 and the method names below it. Each method is carried out on a woody plant, and the stock and the scion are named at every step</td><td>The grafting knife cuts toward the hand. A short scion beats a long one, and a cut surface that has dried will not take. Never graft a wet plant. Sterilise instruments between plants. Discard a failed union</td></tr>
+      <tr><td><strong>E &mdash; Food preservation and cookery</strong> (9, 12)</td><td>Heavy-bottomed pan, wooden spatula, sieve, sterilised jars, lids, wax, labels, thermometer, sugar, fruit, salt, vinegar, spices, oil; kadai, tawa, grater, bamboo steamer, mortar and pestle, and the local greens, gourds, beans, rice, millet, dried fish, bamboo shoot</td><td><em>Jam:</em> wash, peel, stone, macerate with sugar, cook over moderate heat until a teaspoonful wrinkles between the fingers, skim, fill hot into sterile jars, seal at once. <em>Jelly:</em> clarify the juice of guava, apple or wood apple through cloth, then proceed as for jam. <em>Ketchup:</em> simmer tomatoes with onion, garlic, chilli and spices, sieve, add sugar and vinegar, bottle hot. <em>Pickles:</em> fresh sound material, washed and dried completely, salted or oiled, packed, spiced oil or vinegar poured over so all is submerged. <em>Cookery:</em> learn a local dish from whoever cooks it, cook it to a stated standard, cost the meal per head, write the method for the school cook</td><td>Never over an open wood fire, and never alone. Long stirring over a reducing jam is a burn and a fire risk &mdash; keep a lid and a fire blanket near. Sterilise jars in boiling water. Never dip a wet spoon in a bottle. Tie back hair, wash hands, lift hot lids with a cloth, carry a pan with two hands and the handle inward</td></tr>
+      <tr><td><strong>F &mdash; Mushroom cultivation</strong> (10)</td><td>Compost or sawdust, wheat straw or paddy husk, spawn, polyethylene sheet, a bamboo frame or brick-and-earth bed, a dark shaded ventilated room, a covered jar, bucket, spray bottle, thermometer, labels</td><td>Prepare the bed or bags; chop and soak the straw and mix it with compost or sawdust so it holds water without dripping; pasteurise with steam or hot water to kill harmful organisms and competing moulds; cool to a temperature the spawn survives; mix in the spawn at the supplier&rsquo;s rate and only <em>then</em> handle the mixture, since every handful of ordinary soil introduces mould spores; fill and cover; hold temperature, darkness and humidity; mushrooms pin in three to four weeks; harvest by twisting and pulling, not cutting; dry or sell fresh, packed and labelled</td><td>Hygiene is the discipline: sterilise the room, wash hands, use clean buckets, never introduce dung or soil into the spawn. Mould in a bed means that batch is finished &mdash; do not harvest from it or eat from it, and do not let it infect the room. Steam and hot water are the burn hazards</td></tr>
+      <tr><td><strong>G &mdash; Cutting, embroidery, knitting, garment making</strong> (13)</td><td>Tape, scissors, tailor&rsquo;s chalk, paper patterns, fabric, a sewing machine with a stand and a foot, needles, threads, knitting needles, thimble, pincushion, zips, buttons, iron, measuring stand, mirror</td><td><em>Cutting:</em> take the measurements and write them down, add the seam allowance, make the pattern on paper first, lay the fabric with the grain, pin, weigh the chalk line, cut in long strokes on a board. <em>Embroidery:</em> mark the design, hoop the fabric, work from the centre outwards, keep the tension even, finish the reverse with a knot that will not show. <em>Knitting:</em> cast on, work knit and purl, keep the edges straight, bind off. <em>Garment:</em> mark the ease, cut, stay-stitch, sew darts and seams, finish neckline and armholes, set the sleeve, hem, buttonholes, buttons, press</td><td>The needle goes away from the body and the other hand wears a thimble. Never thread a machine with the power on, and stop it before a hand goes near the needle. Long needles are never left in the cloth; a dropped needle is found at once. Unplug the iron. One child at a machine, nobody standing behind</td></tr>
+      <tr><td><strong>H &mdash; Household accounts</strong> (14)</td><td>A ruled notebook or printed register, a pen, a calculator, the family&rsquo;s actual income and expenditure for a month, household bills</td><td>Fix the period as one full month; enter all income including irregular, seasonal and in-kind at its money value; enter expenditure under the categories of Table 4.2; total each category and the month; note the three largest items; set the saving aside first; maintain for a second month and compare plan with actual</td><td>Talk to the family before writing anything about their money, and never carry the figures outside the group or the institute</td></tr>
+      <tr><td><strong>I &mdash; Water harvesting</strong> (15)</td><td>Gutters and down-pipes, a mesh leaf filter, storage drums or a tank, a soak pit with gravel, sand and rubble, cement or brick, a measuring scale and jar, a bucket, a written record</td><td>Fit a gutter along the roof edge; fit a leaf filter; lead the water to a drum and use it for the garden and cleaning; pipe the overflow into a soak pit layered coarse below and fine above, left open to percolate. At school, measure the roof catchment, estimate the rainfall, compare with the volume collected, and account for evaporation, the first flush and the filter. At community scale, cost a percolation tank, check dam or pond and present it to the panchayat &mdash; see the chain in 4.4</td><td>Nobody works on a roof in the rain or on a wet mossy surface. Mark and cover an open soak pit, and fence it while it is open. Cover stored water against mosquitoes, and never use collected water for drinking without treatment</td></tr>
+      <tr><td><strong>J &mdash; The curricular project</strong> (7)</td><td>Access to the school and the community; stationery; a camera if permitted; a measuring scale or stopwatch; whatever the problem requires</td><td>Choose a problem that is real, small enough to act on, and within the school&rsquo;s power to change; plan the work, materials, cost and time; consult the people affected; divide the labour; record as you go &mdash; counts, weights, dates, quotations, photographs; evaluate against a stated target; report in the prescribed format. See the six-stage cycle in 3.3</td><td>Obtain permission before recording or photographing anyone. Keep the children&rsquo;s own work in the plan &mdash; a project the student-teacher did alone has failed, however well made</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>Food preservation &mdash; the five-point rule, and three non-negotiables</h4>
+
+<p>Food spoils because micro-organisms grow in it. Preservation works either by removing the water they need (drying, jam, pickle salt, sugar), by making the food too hot for them, by making it too acid or salty, or by keeping it cold. Every method in the syllabus is one of those four, and a clean workshop is the precondition for all of them.</p>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table 5.4 &mdash; A Five-Point Rule of Thumb for Food Safety in a Workshop</caption>
+    <thead><tr><th style="width:20%">The C</th><th>What it means</th><th>The concrete rule for your workshop</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Clean</strong></td><td>Clean hands, surfaces, utensils, fruit</td><td>Wash hands with soap; tie back hair; use a clean wiped table and fresh water; wash the fruit before cutting it</td></tr>
+      <tr><td><strong>Cook</strong></td><td>Cook thoroughly, all the way through</td><td>Cook fruit and vegetables until the raw taste is gone; never taste and then dip the spoon back in</td></tr>
+      <tr><td><strong>Cross-contamination</strong></td><td>Keep raw and ready-to-eat apart</td><td>One board for raw, one for ready; wash the knife between; keep any raw animal product completely separate</td></tr>
+      <tr><td><strong>Chill</strong></td><td>Keep it cold, and cool it fast</td><td>Refrigerate perishables within a few hours; never leave cooked food standing in a warm room; use an ice bath to cool before bottling</td></tr>
+      <tr><td><strong>Covered</strong></td><td>Protect what has been cooked</td><td>Cover and store; do not leave the lid off; a covered pot in the shade is safer than an open one in the sun</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card rem"><span class="lbl">Remember</span>
+<p><strong>Three non-negotiables for the food workshop.</strong> (1) Trainees do not handle raw animal products &mdash; meat, fish, egg &mdash; without supervision; where a demonstration requires one it is done by the teacher or shown on film, not practised. (2) Nothing made in a workshop is tasted and eaten by the maker; products are made, sealed, labelled and kept, and any tasting is under the institute&rsquo;s food-safety supervision. (3) For jam and jelly the jars are <strong>sterilised by boiling</strong> before filling, the jam is filled hot into the hot jar, the excess is turned down immediately, and a waxed lid is fixed at once. A great deal of home-made jam goes bad because the jar was clean but not sterile, or the seal was made after the jam had cooled.</p>
+<p><strong>Two rules for the sewing workshop.</strong> Stop the machine before putting your hand near the needle &mdash; never raise the presser foot on a stopped-and-unplugged machine with a hand under it. And measure twice, cut once, writing the measurements down before you cut.</p>
+</div>
+
+<figure>
+  <svg viewBox="0 0 760 226" role="img" aria-label="The five methods of vegetative propagation: cutting, layering, grafting, budding and tissue culture">
+    <g font-family="Georgia, 'Times New Roman', serif">
+      <rect x="14" y="34" width="140" height="130" rx="4" fill="#ecefdd" stroke="#6d7a4a" stroke-width="1.5"/>
+      <text x="84" y="58" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#54603a">CUTTING</text>
+      <text x="84" y="86" text-anchor="middle" font-size="12" fill="#33302b">A piece of stem or</text>
+      <text x="84" y="103" text-anchor="middle" font-size="12" fill="#33302b">root is cut from the</text>
+      <text x="84" y="120" text-anchor="middle" font-size="12" fill="#33302b">parent and rooted</text>
+      <text x="84" y="137" text-anchor="middle" font-size="12" fill="#33302b">in a moist medium.</text>
+      <text x="84" y="155" text-anchor="middle" font-size="12" fill="#7a736a">Rose, hibiscus,</text>
+      <text x="84" y="170" text-anchor="middle" font-size="12" fill="#7a736a">sugarcane, mint.</text>
+
+      <rect x="163" y="34" width="140" height="130" rx="4" fill="#e5ecf2" stroke="#4c6a83" stroke-width="1.5"/>
+      <text x="233" y="58" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#3d5a71">LAYERING</text>
+      <text x="233" y="86" text-anchor="middle" font-size="12" fill="#33302b">A branch is bent to</text>
+      <text x="233" y="103" text-anchor="middle" font-size="12" fill="#33302b">the ground and nicked</text>
+      <text x="233" y="120" text-anchor="middle" font-size="12" fill="#33302b">at the node; it roots</text>
+      <text x="233" y="137" text-anchor="middle" font-size="12" fill="#33302b">where it touches, then</text>
+      <text x="233" y="154" text-anchor="middle" font-size="12" fill="#33302b">is cut off.</text>
+      <text x="233" y="170" text-anchor="middle" font-size="12" fill="#7a736a">Ground, mound, air, wedge.</text>
+
+      <rect x="312" y="34" width="140" height="130" rx="4" fill="#f7efd8" stroke="#a5822e" stroke-width="1.5"/>
+      <text x="382" y="58" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#856722">GRAFTING</text>
+      <text x="382" y="86" text-anchor="middle" font-size="12" fill="#33302b">The scion is joined to</text>
+      <text x="382" y="103" text-anchor="middle" font-size="12" fill="#33302b">the stock so that the</text>
+      <text x="382" y="120" text-anchor="middle" font-size="12" fill="#33302b">cambium layers meet.</text>
+      <text x="382" y="137" text-anchor="middle" font-size="12" fill="#33302b">The union is firm in</text>
+      <text x="382" y="154" text-anchor="middle" font-size="12" fill="#33302b">six to eight weeks.</text>
+      <text x="382" y="170" text-anchor="middle" font-size="12" fill="#7a736a">Approach, splice, side</text>
+
+      <rect x="461" y="34" width="140" height="130" rx="4" fill="#f7e9e0" stroke="#b4623c" stroke-width="1.5"/>
+      <text x="531" y="58" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#8f4a2a">BUDDING</text>
+      <text x="531" y="86" text-anchor="middle" font-size="12" fill="#33302b">A single bud with a</text>
+      <text x="531" y="103" text-anchor="middle" font-size="12" fill="#33302b">sliver of bark, put</text>
+      <text x="531" y="120" text-anchor="middle" font-size="12" fill="#33302b">under the bark of the</text>
+      <text x="531" y="137" text-anchor="middle" font-size="12" fill="#33302b">stock, then wrapped.</text>
+      <text x="531" y="155" text-anchor="middle" font-size="12" fill="#7a736a">Citrus and mango.</text>
+      <text x="531" y="170" text-anchor="middle" font-size="12" fill="#7a736a">T-budding, I-budding,</text>
+
+      <rect x="610" y="34" width="140" height="130" rx="4" fill="#f1e8ee" stroke="#7a5570" stroke-width="1.5"/>
+      <text x="680" y="58" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#654761">TISSUE CULTURE</text>
+      <text x="680" y="86" text-anchor="middle" font-size="12" fill="#33302b">A tiny piece of tissue</text>
+      <text x="680" y="103" text-anchor="middle" font-size="12" fill="#33302b">is grown in a sterile</text>
+      <text x="680" y="120" text-anchor="middle" font-size="12" fill="#33302b">nutrient medium, and</text>
+      <text x="680" y="137" text-anchor="middle" font-size="12" fill="#33302b">many plants are made</text>
+      <text x="680" y="154" text-anchor="middle" font-size="12" fill="#33302b">from it very rapidly.</text>
+      <text x="680" y="170" text-anchor="middle" font-size="12" fill="#7a736a">Visit or film; do not</text>
+
+      <text x="380" y="196" text-anchor="middle" font-size="12" fill="#33302b">The offspring is identical to the parent plant. No seed, no flower and no season are required.</text>
+      <text x="380" y="214" text-anchor="middle" font-size="12" fill="#7a736a">Suckers, offsets and bulbs are natural forms. Assam&rsquo;s tea, areca nut, rubber, bamboo, jackfruit and pineapple are all propagated vegetatively.</text>
+    </g>
+  </svg>
+  <figcaption><b>Figure 3.1</b> &mdash; The methods of vegetative propagation. A tea, rubber or jackfruit plant raised from seed will not come true to type and takes years to bear; a pineapple grown from a sucker is a copy of its parent and fruits in a fraction of the time. That single word &mdash; <em>identical</em> &mdash; is the whole reason horticulturists use these methods.</figcaption>
+</figure>
+
+<h3 id="s5-3">5.3 Exposure Visit and Survey / Study &mdash; Any One</h3>
+
+<p>The third part of the practicum requires an <strong>exposure visit</strong> or a <strong>survey or study</strong>, selected <strong>as per the convenience of the TEI</strong> &mdash; by distance, transport, cost, season and the availability of the site, and not simply by what a student-teacher would most like to do. The seven sites named in the syllabus are an agricultural farm, a horticultural farm or nursery, a food preservation centre, a police station, an old age home, a shelter house, and a sports and yoga kendra. The alternative is a <strong>study of the different types of vocations engaged in by different communities of the locality and neighbouring areas</strong>, which is a survey rather than a visit and can be done from the institute.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 5.5 &mdash; Exposure Visit and Survey: What to Observe and What to Bring Back</caption>
+    <thead><tr><th style="width:19%">Choice</th><th>What to observe and record</th><th>What the report must contain</th></tr></thead>
+    <tbody>
+      <tr><td>Agricultural farm</td><td>The sequence of operations from seed-bed preparation to harvest; who does what and for how long; one operation measured &mdash; sowing rate, yield, cost; one problem the farmer faces</td><td>Date, place, persons met; the operation chart; the measurement; one problem and one possible solution; three questions the visit raised but did not answer</td></tr>
+      <tr><td>Horticultural farm or nursery</td><td>How seedlings are raised, hardened and sold; a vegetative propagation method demonstrated step by step; the price of a plant; what is lost between the nursery and the field</td><td>The above, plus a labelled drawing of the propagation method observed and a note on its relation to Cluster D</td></tr>
+      <tr><td>Food preservation centre</td><td>The steps from raw material to finished product; the point at which hygiene is enforced rather than advised; the machine a home cannot use; the price the producer receives and the price the shop charges</td><td>A flow diagram of the process; the five-point safety rule applied to the visit; the gap between home preservation and industrial preservation</td></tr>
+      <tr><td>Police station</td><td>The functions of the station; how a complaint is registered and what happens to it; the daily record; a child&rsquo;s own experience of being frightened of the police</td><td>Functions, records, procedure; one observation about children&rsquo;s relations with the police; one change the visit would recommend</td></tr>
+      <tr><td>Old age home</td><td>The daily routine; who is responsible for what; what residents can still do and what they cannot; the difference between this and care in a family</td><td>A day in the life of the home; the care needs of old people as a list; what the school can do for the old in its own locality, beyond visits</td></tr>
+      <tr><td>Shelter house</td><td>How families arrive and what they bring; the first needs, in order; who is responsible for the children there</td><td>A needs list in order of urgency; what the school could contribute that is genuinely useful; an account that is respectful, not voyeuristic</td></tr>
+      <tr><td>Sports and yoga kendra</td><td>The daily routine; the discipline required; who teaches and who is taught; the equipment; what a village child can realistically access</td><td>The routine; the difference between play, physical education and training; a plan for what the school could offer in its own compound</td></tr>
+      <tr><td>Survey of vocations in the locality</td><td>The occupations by community; the skills each requires; the number of days of work in a year; the income; the migration; the schooling each child must have for that occupation</td><td>A table of occupations with skills, seasonality and income; the three most common; the occupations that are disappearing; the one you could help most, and how</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Before the visit, prepare three questions, one per member, a notebook each, a permission letter and a printed schedule. During it, observe against the schedule, photograph only where permitted, <strong>record numbers rather than adjectives</strong>, and note the names of the persons met. Afterwards, write the report within twenty-four hours while the memory is fresh, in the prescribed format, and state clearly what you did not manage to find out.</p>
+
+<p>The most useful thing to bring back is a number: &ldquo;the man making these pots forms about ninety a day, sells them in the weekly market at between &#8377;25 and &#8377;40 each, and fires them in a kiln lit twice a month that takes two days to reach temperature&rdquo; tells a Class VI child what a kiln is, what a working month is, and why the shop&rsquo;s price is not the maker&rsquo;s. A report with three such numbers is worth more than one full of impressions.</p>
+
+<p class="footnote">The SI-I School Internship attaches one 10-mark activity to this paper: garden preparation, plantation of medicinal plants, or the making of decorative items from waste materials. Nothing further is required under this heading.</p>
+
+</section>
+
+<!-- ============ INTERNAL ASSESSMENT ============ -->
+<h2 id="internal">Internal Assessment &mdash; 30 Marks</h2>
+
+<p>Thirty of the fifty marks are internal, and the syllabus distributes them across four components: <strong>practicum 10, assignment 5, unit test 5, SIP activity 10</strong>. A fifth of the total comes from a written test; four fifths from work that is done, made, observed, recorded and demonstrated.</p>
+
+<div class="tw">
+  <table>
+    <caption>Table 6.1 &mdash; Internal Assessment: The Four Components</caption>
+    <thead><tr><th style="width:16%">Component</th><th style="width:9%">Marks</th><th>What is produced</th><th>How it is assessed</th></tr></thead>
+    <tbody>
+      <tr><td>Practicum</td><td>10</td><td>The daily-works records, five workshop products, and the exposure visit or survey report</td><td>Practical observation against the checklists above; the quality of the finished product; the observation record; the written report in the prescribed format</td></tr>
+      <tr><td>Assignment</td><td>5</td><td>Reports of assignments, <strong>in school and out of school</strong>, in the prescribed format</td><td>The report itself and the interview; a report not in the format loses marks before its content is read</td></tr>
+      <tr><td>Unit test</td><td>5</td><td>A written test on the four units of this paper</td><td>Short answers on the definitions, the differences, the thinkers and the framework; a common pattern across the institute</td></tr>
+      <tr><td>SIP activity</td><td>10</td><td>The School Internship activity for S1.9, with a demonstration</td><td>Direct observation of the demonstration, step by step; the record of the session; the reflection on what the children learned</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The <strong>assignment</strong> is specific in the syllabus: there are to be assignments both <em>in school</em> and <em>out of school</em>, both reported <em>in the prescribed format</em>. The in-school one is normally the curricular project; the out-of-school one the exposure visit or the community survey. &ldquo;Prescribed format&rdquo; means the institute&rsquo;s own proforma, and it is worth ten minutes with the faculty to obtain it before you start. Whatever the format, the report should contain the problem or question, the method, the data, the findings, the conclusion and the limitations &mdash; and for an out-of-school assignment, the date, the place and the persons met.</p>
+
+<p>The <strong>unit test</strong> is the only written component and is drawn directly from the four units: definitions, differences, the thinkers, the frameworks, and the two school-based discussions on curricular integration and on the problems of assessment.</p>
+
+<div class="card mist"><span class="lbl">Common Mistake</span>
+<p>The syllabus presents the practicum in two places and the two do not add up in the way a student expects. The practicum section lists daily works (5) + five workshops (10) + one exposure visit or survey (5) &mdash; that is 20 &mdash; while the internal assessment scheme credits the practicum component as 10 marks. This is a genuine feature of the published scheme, not a misreading, and the institute&rsquo;s programme handbook settles it. Do not &ldquo;correct&rdquo; it in a written answer; state the two figures exactly as printed, and say that the internal assessment scheme credits the practicum as a whole.</p>
+</div>
+
+<p>Where four fifths of the marks come from work, it is worth being clear about the criteria on which that work is judged, because they are the criteria of this paper&rsquo;s philosophy rather than of a conventional examination.</p>
+
+<ul class="check">
+  <li><strong>Was it planned?</strong> A written plan, a materials list and a division of labour, before the work started.</li>
+  <li><strong>Was something produced, and is it usable?</strong> The syllabus&rsquo;s test is socially useful and valuable production. A beautiful object nobody will use has half the marks at best.</li>
+  <li><strong>Was the process recorded?</strong> Dates, numbers, observations, photographs, registers. Process evidence is what a portfolio is for.</li>
+  <li><strong>Is the finished work to standard?</strong> Not perfect &mdash; to a stated standard, by the person asked to meet it. And could you explain it unaided? Practise explaining your work in two minutes without notes.</li>
+  <li><strong>Did the children do the work, and was it safe?</strong> A project the student-teacher did alone has failed, however well made; and a single careless accident in the bamboo or sewing workshop costs far more than the marks for that activity.</li>
+  <li><strong>Was it evaluated?</strong> What worked, what did not, what you would change. A project with no review is half-finished.</li>
+</ul>
+
+<!-- ============ QUICK SUBJECT REVISION ============ -->
+<h2 id="revision">Quick Subject Revision</h2>
+
+<h3>Unit-wise key facts</h3>
+
+<ul class="bul">
+  <li><strong>U1:</strong> work is planned, productive, purposeful and socially approved; work education is education <em>through</em> work for every child, integrated and uncertified; vocational education is education <em>for</em> an occupation, certificated, for a selected group. The four pillars are UNESCO&rsquo;s (Delhi Declaration 1969; Faure Report 1972).</li>
+  <li><strong>U1 thinkers and documents:</strong> Rousseau, <em>Emile</em> (1762) and the <em>Discourse on the Arts and Trades</em>; Gandhi, <em>Hind Swaraj</em> (1909) and <em>Nai Talim</em> (1918&ndash;19), charkha, Vinoba Bhave and Shramdan; the Education Commission, set up 1964, chaired by Dr D. S. Kothari, report June 1966; NCF-SE 2023 released 29 March 2023, framing NEP 2020.</li>
+  <li><strong>U2:</strong> the three categories are knowledge, skills and attitude; the four mechanisms are successful struggle, real consequence, dependence of others, and the public usefulness of the product; illustration is compulsory, not optional.</li>
+  <li><strong>U3:</strong> integration is not co-existence; every community resource used needs a person, a date, a purpose and a product; no assessment tool is adequate alone; match the tool to the claim &mdash; a skill by performance, an attitude by observation and self-report over time.</li>
+  <li><strong>U4:</strong> share household work by <em>time</em>, not by importance; a budget is only useful compared with what actually happened over a full month; save first, not last; teach conservation by measurement; most household accidents come from small unrepaired defects.</li>
+  <li><strong>Practicum and assessment:</strong> daily works (morning assembly; cleanliness and beautification) compulsory; five of fifteen workshop activities; one exposure visit or survey as per the convenience of the TEI. Internal assessment: practicum 10, assignment 5, unit test 5, SIP 10.</li>
+</ul>
+
+<h3>Essential definitions</h3>
+
+<p class="tight"><strong>Work</strong> &mdash; planned activities to produce, maintain, improve, innovate or transform materials, facilities, living conditions or services, with the specific purpose of meeting needs of conservation or extension, in socially approved ways. <strong>Work education</strong> &mdash; education through work, integrated with the whole curriculum and offered to every child. <strong>Vocational education</strong> &mdash; education for a specific vocation or trade, leading to certification and employment, generally for a selected group at the secondary stage or beyond. <strong>Vocationalisation</strong> &mdash; reserving a proportion of secondary-stage places for a vocational stream; recommended at 10 per cent by the Kothari Commission, replaced in emphasis by NEP 2020&rsquo;s vocational exposure.</p>
+
+<p class="tight"><strong>Dignity of labour</strong> &mdash; the intrinsic worth of honest work, of whatever kind and whatever the social rank of the worker. <strong>Work experience</strong> &mdash; the Kothari Commission&rsquo;s term for purposeful work integrated into the school programme as an integral part of every child&rsquo;s education. <strong>Nai Talim</strong> &mdash; Gandhi&rsquo;s scheme of basic education, centred on productive manual craft and intended to be self-supporting. <strong>Charkha</strong> &mdash; the spinning wheel, which Gandhi identified with the village as the basis of a self-reliant India.</p>
+
+<p class="tight"><strong>The four pillars of education</strong> &mdash; UNESCO&rsquo;s formulation: learning to know, to do, to live together, to be. <strong>Local specific work</strong> &mdash; an activity drawn from the actual occupations, materials, crops, crafts and problems of the locality. <strong>Continuous and comprehensive evaluation</strong> &mdash; assessment spread across the year and covering both scholastic achievement and the wider development of the learner. <strong>Portfolio</strong> &mdash; a dated, cumulative, child-owned collection of work samples, process records and self-assessment. <strong>Rubric</strong> &mdash; performance criteria with descriptions of low, middle and high performance, published to the children in advance.</p>
+
+<p class="tight"><strong>Vegetative propagation</strong> &mdash; producing new plants from a vegetative part of a parent plant, by cutting, layering, grafting, budding or tissue culture, so that the offspring is identical to the parent. <strong>Percolation / recharge</strong> &mdash; water at the surface sinking into the ground and joining the groundwater body. <strong>Domestic budget</strong> &mdash; a written plan of a household&rsquo;s income and expenditure for a stated period, prepared so that it can be compared with what actually happened.</p>
+
+<h3>Important dates and schemes</h3>
+
+<ul class="bul">
+  <li>1762 &mdash; Rousseau&rsquo;s <em>Emile</em>. 1909 &mdash; Gandhi&rsquo;s <em>Hind Swaraj</em>. 1918&ndash;19 &mdash; <em>Nai Talim</em>.</li>
+  <li>1964 &mdash; Education Commission set up; 29 June 1966 &mdash; report submitted. 1968 &mdash; National Policy on Education carries forward work experience and vocationalisation.</li>
+  <li>1969 &mdash; UNESCO Delhi Declaration (four pillars); 1972 &mdash; Faure Report, <em>Learning to Be</em>.</li>
+  <li>2020 &mdash; NEP 2020: 5+3+3+4 design, vocational exposure from Grade 6, one vocational skill for every child, B.Ed. in Vocational Education and Training, NIPUN Bharat, five pillars of the school system.</li>
+  <li>2023 &mdash; NCF-SE 2023 released 29 March 2023: Foundational (3&ndash;8), Preparatory (8&ndash;11), Middle (11&ndash;14), Secondary (14&ndash;18), Higher Secondary (18&ndash;21).</li>
+</ul>
+
+<h3>Essential practical requirements</h3>
+
+<ul class="bul">
+  <li>A published daily works rota; a garden register; a tool register; a dated observation record in four columns &mdash; date, task, what I noticed, what I did about it.</li>
+  <li>For any workshop: a materials list, a written plan, a division of labour, a safety note, and a product to a stated standard.</li>
+  <li>For the curricular project: two reports in the prescribed format, a log of group meetings, photographs, the data collected, and an interview at which every member can explain the whole project.</li>
+  <li>For the exposure visit: three prepared questions, a notebook per member, a permission letter, a printed schedule, and the report written within twenty-four hours.</li>
+  <li>Numbers, not adjectives, in every record &mdash; litres, weights, counts, dates, costs, before and after.</li>
+</ul>
+
+<h3>Model examination questions</h3>
+
+<div class="qa">
+  <div class="q l"><span class="qt">LA</span><p>&ldquo;Where there is no work there is no education.&rdquo; Examine this statement in the light of the aims of education, and describe how work may be integrated into the elementary school programme in an Assamese context.</p></div>
+  <div class="q l"><span class="qt">LA</span><p>Distinguish between work education and vocational education. Which of the two would you provide in a rural upper-primary school, and why?</p></div>
+  <div class="q l"><span class="qt">LA</span><p>Compare and contrast the views of Mahatma Gandhi and Jean-Jacques Rousseau on work and education, and state what each contributed to the idea of work education in Indian schools.</p></div>
+  <div class="q l"><span class="qt">LA</span><p>What recommendations did the Kothari Commission make regarding work experience and vocationalisation, and how do NEP 2020 and the NCF-SE 2023 differ from them?</p></div>
+  <div class="q l"><span class="qt">LA</span><p>Discuss the behavioural changes that a well-designed work education programme brings about in learners, and explain the mechanisms by which they occur. Illustrate from your own observation.</p></div>
+  <div class="q l"><span class="qt">LA</span><p>&ldquo;There is no best assessment tool.&rdquo; Discuss the major assessment tools available for work education with their advantages and disadvantages and specific examples of their use.</p></div>
+  <div class="q l"><span class="qt">LA</span><p>Critically examine the present system of assessment in Indian schools in the light of work education, and suggest a practical scheme for evaluating work activities in an elementary school.</p></div>
+</div>
+
+<!-- ============ IMPORTANT DIFFERENCES ============ -->
+<h2 id="differences">Important Differences</h2>
+
+<div class="tw tkeep">
+  <table>
+    <caption>Table D.1 &mdash; The Differences Most Often Asked For</caption>
+    <thead><tr><th style="width:30%">Between</th><th>The distinction</th></tr></thead>
+    <tbody>
+      <tr><td>Activity and work</td><td>Not every activity is work. Work is planned, productive or transformative, purposeful in meeting a need, and socially approved</td></tr>
+      <tr><td>Work education and vocational education</td><td>Education <em>through</em> work, for all children, integrated and uncertified, against education <em>for</em> an occupation, for a selected group, certificated and employment-oriented</td></tr>
+      <tr><td>Integration and co-existence</td><td>One activity carrying objectives from several subjects, against a separate &ldquo;work period&rdquo; beside the other subjects</td></tr>
+      <tr><td>Vocationalisation and vocational exposure</td><td>Reserving a fixed proportion of places for a vocational stream, against exposing every child to a range of occupations from Grade 6</td></tr>
+      <tr><td>Checklist, rating scale and rubric</td><td>Whether something happened, how much of it happened, and how much against named and published criteria</td></tr>
+      <tr><td>Formative and summative assessment</td><td>Assessment acted on immediately to improve learning, against assessment made at the end to certify or grade</td></tr>
+      <tr><td>Assessment and evaluation</td><td>Finding out where the learner is, against judging the programme, the teacher and the resource. A portfolio serves both, but the questions asked of it differ</td></tr>
+      <tr><td>House safety, security and maintenance</td><td>Prevention of injury, protection against loss, and the routine work that keeps the first two effective</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ COURSE INFORMATION ============ -->
+<h2 id="course">Course Information</h2>
+
+<h3>Course objectives</h3>
+
+<ol class="num">
+  <li>Develop an understanding of work as an aim of education, and of the place of work education and vocational education in the school curriculum.</li>
+  <li>Understand the thinking of Gandhi, Rousseau, the Kothari Commission and the national curriculum frameworks on work and education.</li>
+  <li>Recognise the behavioural changes that work education and vocational education bring about in learners.</li>
+  <li>Integrate work education with the other curricular subjects and with vocational education.</li>
+  <li>Work with the headmaster, teachers, parents and the community in identifying school-based problems and taking remedial action.</li>
+  <li>Understand the shortcomings of the present assessment system and use appropriate assessment tools.</li>
+  <li>Accept responsibility towards family and society &mdash; household work, budgeting, caring, and conserving water, electricity and fuel.</li>
+</ol>
+
+<h3>Mode of transaction</h3>
+
+<p>Conceptualisation comes first; the course is then transacted through group activity, group discussion and workshop; through survey and field studies; through report submission of assignments both in school and out of school, in the prescribed format; through interview and assessment; through demonstration in preparing different materials; and through feedback and review. Each mode generates evidence to keep &mdash; a register, an observation schedule, a report in the prescribed format, a viva, a demonstration and a reflective note.</p>
+
+
+<h3>Assessment structure</h3>
+
+<ul class="bul">
+  <li><strong>Total 50 marks: 20 external + 30 internal.</strong> Two credits; two to three periods a week. The external paper carries the four units, five marks each.</li>
+  <li><strong>Internal (30):</strong> practicum 10, assignment 5, unit test 5, SIP activity 10.</li>
+  <li><strong>Practicum components:</strong> daily works 5, any five of the fifteen workshop activities 10, any one exposure visit or survey 5. <strong>SI-I School Internship (10 marks):</strong> garden preparation, plantation of medicinal plants, or decorative items from waste materials.</li>
+</ul>
+
+<!-- ============ FACULTY / MENTOR NOTES ============ -->
+<h2 id="mentor">Faculty / Mentor Notes</h2>
+
+<ul class="bul">
+  <li>The syllabus directs that the faculty is to <strong>give outline knowledge on each workshop topic and select only five topics for workshop, as per discussion with the trainees and the available resources in the TEI</strong>. The attendance and the group record of that discussion are the evidence.</li>
+  <li>The exposure visit is to be <strong>selected as per the convenience of the TEI</strong> &mdash; distance, transport, cost, season and site availability &mdash; and the choice of site should be recorded with the reason.</li>
+  <li>Both assignment reports are to be submitted <strong>in the prescribed format</strong>; circulate the proforma at the start of the semester.</li>
+  <li>Clusters B (bamboo), E (food) and G (sewing and machine work) should not be run without the safety treatment in Table 5.3; the bamboo knife and the sewing machine are the two highest-risk items in the list.</li>
+  <li>The curricular project requires <strong>at least two projects in groups, with report submission and an interview</strong>, at least one addressing a school-based problem through the 3.3 cycle with the headmaster, teachers and parents.</li>
+</ul>
+
+<!-- ============ SUGGESTED READINGS ============ -->
+<h2 id="readings">Suggested Readings</h2>
+
+<ul class="bul">
+  <li><em>Work Experience in General Education</em> &mdash; N. P. Banerjee. <em>Gandhi on Education</em> &mdash; the writings on <em>Nai Talim</em>. <em>Karma Abhigyata</em> &mdash; SEBA, Assam.</li>
+  <li><em>Resource Materials, D.El.Ed course</em> &mdash; SCERT, with the prescribed report formats. <em>SLMs / Handbook</em> &mdash; IGNOU, NIOS, KKHSOU.</li>
+  <li><em>NCF-SE 2023</em> &mdash; the five stages and competency-based education. <em>NCF-FS 2022</em> &mdash; the five years before Grade 1. <em>NEP 2020</em> &mdash; vocational education and the 5+3+3+4 structure.</li>
+  <li>For Unit 1, cite in print: the Education Commission report; UNESCO&rsquo;s <em>Learning to Be</em> (1972).</li>
+</ul>
+</article>
+</body>
+</html>

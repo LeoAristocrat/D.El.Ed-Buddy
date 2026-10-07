@@ -370,8 +370,8 @@
           "question": "“Mathematics is the science of logic” — Explain the statement.",
           "marks": 2,
           "answer": [
-            "Mathematics uses precise definitions, relationships and justified steps to reach conclusions rather than relying only on guesses.",
-            "For example, from 7 = 5 + 2 we can explain why 7 − 2 = 5 by the inverse relationship between addition and subtraction."
+            "It is called the science of logic because mathematical knowledge grows only through a chain of reasoning: a few statements are accepted, and every later result is deduced from them. That is exactly Euclid's method in the Elements, and it is why a mathematical answer must be justified, not merely produced.",
+            "In the classroom this shows in mathematical talk. A child who says 'I subtracted two, so three are left' is thinking; the language is not reporting the answer, it is producing it."
           ],
           "status": "verified",
           "occurrences": [
@@ -382,14 +382,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-051",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2022-1-a",
           "question": "Mention one important objective of teaching mathematics at elementary level.",
           "marks": 1,
           "answer": [
-            "To develop children’s ability to reason and solve meaningful problems involving quantities, shapes and relationships."
+            "To enable the learner to understand mathematical concepts and apply them to problems of daily life — that is, to think mathematically and solve problems rather than merely memorise rules and sums."
           ],
           "status": "verified",
           "occurrences": [
@@ -407,17 +413,26 @@
               "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-015",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2022-9",
           "question": "Write briefly about the educational values of teaching mathematics.",
           "marks": 4,
           "answer": [
-            "Practical value: children use quantities, measures, time and money in everyday decisions.",
-            "Intellectual value: they practise analysing relationships, justifying claims and solving problems.",
-            "Communicative and social value: explaining strategies and comparing solutions develops precise expression and cooperative reasoning.",
-            "Aesthetic and cultural value: patterns in art, buildings and local practices reveal mathematical structure and the contributions of different communities."
+            "The educational value of mathematics is wider than the marks it produces, and at the elementary stage I would name five of it.",
+            "First, mathematics trains the mind to reason. A child who has worked out why 5 + 3 is 8 by joining two groups has practised something that transfers: taking a problem apart, trying a plan, checking the result and justifying it. The Mode of Transaction of this paper asks for exactly that chain - understand the problem, devise a strategy, solve it, check it, say why the answer is right - and a child who has learned it in mathematics carries the habit into every other subject.",
+            "Second, it develops the capacity for concentration, accuracy and orderly work. Mathematics does not tolerate a half-finished step, and in a classroom where most subjects can be passed on effort, this one asks for sustained attention.",
+            "Third, it is a vehicle for self-confidence and for tolerance. A child who can compare two prices, check a shopkeeper's arithmetic, read a bus timetable or measure out a ration has a competence that protects her in ordinary life, and that confidence spills into subjects where she feels weak.",
+            "Fourth, mathematics carries the cultural inheritance. When we attach place value to Aryabhata and the rules of zero to Brahmagupta, we tell children that mathematics was built by real people who were curious and sometimes wrong, not delivered as a list of rules from somewhere else. A rangoli on the floor and a woven gamosa border are patterns before they are art.",
+            "Fifth, it opens the way to further study and to work - and this is the value that families see most clearly.",
+            "There is a sixth value that belongs to us as teacher-training students, because it is the one we are most often tempted to skip. At this stage mathematics must be learned through concrete experience, language, pictures and symbols. If we hurry the symbol, we lose the child permanently; if we build the floor properly, every later topic stands on it. That is why the educational value of mathematics at the foundational stage is not the score in the terminal examination, but the child who can look at a quantity and know what to do with it."
           ],
           "status": "verified",
           "occurrences": [
@@ -428,14 +443,20 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2023-1-c",
           "question": "What do you mean by mathematization?",
           "marks": 1,
           "answer": [
-            "Mathematization means expressing and reasoning about a situation through mathematical ideas such as quantities, relationships, shapes or patterns."
+            "Mathematisation is the process of recognising mathematics in real situations and organising everyday experience into mathematical form — counting, comparing, grouping, measuring — so that mathematical ideas grow out of the child's own world."
           ],
           "status": "verified",
           "occurrences": [
@@ -446,7 +467,13 @@
               "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2023-2-c",
@@ -479,9 +506,10 @@
           "question": "Mention two vocations which use mathematics. Explain how these vocations use mathematics.",
           "marks": 3,
           "answer": [
-            "A carpenter measures length, checks angles and calculates areas before cutting wood.",
-            "A shopkeeper totals bills, measures quantities, calculates change and compares costs.",
-            "In both cases, choosing suitable units and checking whether a result is reasonable helps prevent waste and mistakes."
+            "Two vocations that use mathematics every day are the shopkeeper and the farmer.",
+            "The shopkeeper. Every sale is an addition and a subtraction. A customer buys 3 kg of potato at 24 rupees a kg and 2 kg of onion at 30 rupees a kg: 3 x 24 = 72 and 2 x 30 = 60, so the bill is 72 + 60 = 132 rupees. If the customer gives a 200-rupee note, the change is 200 - 132 = 68 rupees, and the shopkeeper must be able to count it out quickly. At the month end the shopkeeper adds up daily sales, works out the stock remaining, compares two prices to see which supplier is cheaper, and estimates profit. A shopkeeper who cannot calculate the change cannot run a shop.",
+            "The farmer. Before sowing, the farmer measures the field - for example 40 metres by 25 metres, so 40 x 25 = 1,000 square metres, that is 0.1 hectare. Seed is bought in packets of 5 kg, and 50 packets are 50 x 5 = 250 kg. After harvesting, the yield is weighed and compared with what was sown. The farmer also estimates how much fertiliser to buy, decides whether to irrigate on a particular day, and often keeps a mental tally of what each plot produced in order to choose what to plant next year.",
+            "Both vocations use the same four operations, plus measurement, estimation and record-keeping."
           ],
           "status": "verified",
           "occurrences": [
@@ -492,15 +520,21 @@
               "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2024-2-d",
           "question": "What is mathematisation? Explain with an example.",
           "marks": 2,
           "answer": [
-            "Mathematisation involves identifying and expressing the mathematical relationships in a situation so it can be reasoned about.",
-            "If 12 children need one pencil each and only 8 pencils are available, representing the shortage as 12 − 8 gives 4 more pencils needed."
+            "Mathematisation is the process of recognising mathematics in a real situation and representing it in mathematical form, so that ordinary experience is organised into numbers, shapes, quantities and relations.",
+            "Example: when a shopkeeper counts the notes and coins to give change, the child mathematises the act — the real exchange is turned into addition and subtraction, then into the number pattern 10, 20, 30, … Mathematisation also works the other way, taking a mathematical result back into the situation to check it."
           ],
           "status": "verified",
           "occurrences": [
@@ -511,7 +545,13 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-039",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-1-f",
@@ -536,8 +576,7 @@
           "question": "Name any two major aspects of early mathematics.",
           "marks": 2,
           "answer": [
-            "Numbers and operations, such as counting and combining quantities.",
-            "Shapes and spatial understanding, such as recognising shapes and describing relative positions."
+            "Any two of the seven aspects will do.\n- Pre-number concepts — sorting, matching, pairing, ordering, classifying, comparing and one-to-one correspondence, all without counting. In class this means grouping juli leaves by size or ordering pencils shortest to longest.\n- Measurement — comparing lengths, weights, capacities and time, first with non-standard units such as handspans or a strand of rekha grass, and later with instruments."
           ],
           "status": "verified",
           "occurrences": [
@@ -548,17 +587,26 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-030",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-5",
           "question": "What do you mean by a learning outcome? Explain with an example from elementary mathematics.",
           "marks": 4,
           "answer": [
-            "A learning outcome states what learners are expected to know, understand or demonstrate after learning; it focuses on learners’ performance rather than topics the teacher has covered.",
-            "A useful outcome is sufficiently clear to guide the choice of an activity and evidence of understanding.",
-            "Illustrative outcome: “The child groups a collection of up to 30 objects into tens and ones and explains the grouping.”",
-            "Give 24 sticks and ask the child to organise and explain them. Two bundles of ten and four loose sticks, connected to 24, provide evidence; simply copying “24” does not establish the same understanding."
+            "A learning outcome is a statement of what a learner will be able to do, demonstrate or perform, in observable and measurable terms, as a result of learning. The word that carries the whole definition is observable. Because the outcome must be observable, it forces the teacher to decide in advance what evidence will show that learning has happened - and if we cannot say what we will see the child do, we cannot teach for it and we cannot assess it.",
+            "The three words we use loosely are worth keeping apart. An aim is broad and usually unmeasurable (\"to create interest in mathematics\"). An objective is narrower (\"to understand addition\"). A learning outcome states the performance with a condition and a criterion: who will do what, on what, under what circumstances, and to what standard. A well-formed outcome has five parts - learner and action, content, condition, criterion, and the reason the learning is worth doing.",
+            "Worked example from Class I, on addition.",
+            "Weak statement: \"The child will understand addition.\" This is not an outcome, because nobody can look at a six-year-old and certify that understanding has occurred - \"understand\" hides the action.",
+            "Well-formed statement: \"Given 6 mangoes and 3 apples, the child will add by joining the two groups and stating the total, using concrete objects, in 4 out of 5 trials.\"",
+            "Part by part: the learner and the action are \"the child will add by joining and stating\"; the content is 6 mangoes and 3 apples; the condition is \"using concrete objects\"; the criterion is \"in 4 out of 5 trials\"; the justification is that joining is needed to combine quantities in ordinary life.",
+            "Why this matters to us as student-teachers. Assessment criteria must be written from learning outcomes - you cannot assess an outcome that was never stated. The outcome above tells me what TLM to prepare (mangoes or bottle tops, a plate for each child), what talk to listen for (\"I joined them, so there are 9 altogether\"), and what record to keep. In the compulsory activity for this paper we must analyse a real lesson by its outcome and its activity, and only an outcome written in this form lets us judge whether the activity actually produced it, or produced a lower one."
           ],
           "status": "verified",
           "occurrences": [
@@ -569,7 +617,13 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-002",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -946,8 +1000,8 @@
           "question": "Write two ways to make mathematics learning joyful.",
           "marks": 2,
           "answer": [
-            "Use purposeful games, such as matching dot cards to quantities, with enough thinking time for every child.",
-            "Connect concepts to familiar stories and objects, inviting different strategies and treating errors as opportunities to learn."
+            "Two ways I would actually use.\n- Art and sport as mathematical media: children draw a rangoli using one repeated unit and a line of symmetry, which is pattern work disguised as decoration; in games they count players and repeat a drill sequence.\n- Stories, games and group talk: a 'Mango Market' activity where each pair gets 3 mango tokens and 2 apple tokens, draws its shop on a slate and must tell the customer the total in words before writing any symbol.",
+            "And throughout, praise the strategy rather than only the right answer."
           ],
           "status": "verified",
           "occurrences": [
@@ -958,15 +1012,21 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-052",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-2-e",
           "question": "Who is the father of the heuristic method? Why is this method called child-centric?",
           "marks": 2,
           "answer": [
-            "Henry Edward Armstrong is commonly credited with developing the heuristic method of teaching science.",
-            "It is child-centred because learners investigate questions, try procedures and draw conclusions with teacher guidance, instead of receiving only ready-made statements."
+            "George Polya is called the father of the Heuristic method, which he set out in 1945 in 'How to Solve It'.",
+            "It is called child-centric because the problem is not handed to the child to be solved by a fixed rule. The child is treated as a thinker who already knows how to solve the problem and only needs help to do so. Polya's four steps — understand the problem, devise a plan, carry out the plan, look back — apply to any subject, and the child works out which of the strategies fits the particular problem."
           ],
           "status": "verified",
           "occurrences": [
@@ -977,15 +1037,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-055",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-2-f",
           "question": "“Mathematics is a tough and fearsome subject.” As a mathematics teacher, what strategy would you adopt to eradicate this negative belief?",
           "marks": 2,
           "answer": [
-            "Begin with accessible, meaningful problems using familiar objects so children experience success and can explain their reasoning.",
-            "Give time, supportive feedback and choices of representation; discuss mistakes without ridicule and avoid equating speed with intelligence."
+            "Strategy to remove the fear of mathematics\n- Begin with success and concrete experience: give each pair 3 bottle tops and 2 seeds and ask them to join the groups, so the first mathematics lesson is a discovery and not a rule.\n- Change the talk: praise the strategy and the reasoning ('you added because you joined them'), not only the right answer, so a wrong answer is safe to make.\n- Connect mathematics to the child's world through stories, games and the mathematics corner, and diagnose a misconception with real material instead of re-explaining in the same words."
           ],
           "status": "verified",
           "occurrences": [
@@ -996,15 +1061,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-056",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-6-2021-2-f-alternative",
           "question": "Write two differences between inductive and deductive methods.",
           "marks": 2,
           "answer": [
-            "Induction moves from particular examples towards a generalisation; deduction starts with an accepted rule and applies logical steps to a particular case.",
-            "Induction can suggest a conjecture from patterns, while deduction can establish a conclusion from stated premises. Testing examples alone does not prove a universal rule."
+            "Inductive and Deductive methods\n| Basis | Inductive method | Deductive method |\n|---|---|---|\n| Order | Particular to general — from examples to a rule | General to particular — from a rule to a case |\n| Steps | Discover the rule by trying many examples | Apply the known rule to a given case |\n| Example | Seeing 2, 4, 6, 8, 10 and stating 'each is 2 more' | Knowing 'each is 2 more' and finding the 20th term |\n| Used by | Pythagoras, and Polya's heuristic method | Euclid, in the Elements |"
           ],
           "status": "verified",
           "occurrences": [
@@ -1015,15 +1085,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-056",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-6-2022-2",
           "question": "Why is learning error analysis important to a mathematics teacher?",
           "marks": 2,
           "answer": [
-            "It helps reveal how a child is thinking, including misconceptions that a correct/incorrect score alone conceals.",
-            "The teacher can then choose suitable examples, representations and feedback, and check whether the revised explanation transfers to a new problem."
+            "Error analysis tells the teacher what rule the child has actually adopted, and therefore what must be re-taught. A child who writes 8 − 3 = 5 is not careless; the regular answer points to a rule, and a rule can be worked on.\n- It also makes assessment forward-looking: instead of a mark, it gives the next step of the lesson.\n- It must be handled non-punitively, because shame produces silence, and a silent child cannot be diagnosed."
           ],
           "status": "verified",
           "occurrences": [
@@ -1034,16 +1109,25 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-046",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2022-7",
           "question": "How does tangram activity help you become a good mathematics teacher?",
           "marks": 3,
           "answer": [
-            "Exploring pieces helps the teacher identify mathematical ideas such as composition of shapes, equal areas and spatial transformations.",
-            "Trying different solutions develops the ability to ask open questions and anticipate children’s strategies rather than insist on one procedure.",
-            "Observing learners arranging pieces provides evidence for feedback and adaptation, including larger or tactile pieces where needed."
+            "The tangram is useful to me as a teacher because the same seven pieces turn into hundreds of activities, and each one carries a different part of the syllabus.",
+            "Shape knowledge. The seven pieces are five triangles - two large, one medium, two small - a square and a parallelogram. Handling them makes the child know a triangle and a square by turning them in the hand, not by looking at a drawing. And since a square can be made from two large triangles, the child discovers that shapes can be composed as well as recognised.",
+            "Conserving area. All seven pieces make the same square every time, in every arrangement. When a child makes a rabbit and then a cat from the same pieces, she finds out for herself that rearranging does not change how much there is. That is conservation, and it is the concept a pre-operational child cannot be talked into.",
+            "Spatial reasoning and creativity. To build a figure the child has to rotate pieces in her mind, work out what is left over and how much space remains, and plan before she places anything.",
+            "Language and assessment. I ask the child to name the shapes she used and to state the rule of her design, and I can assess through the product itself.",
+            "It also serves the syllabus assignment of drawing a house or an animal using only regular shapes. In short, tangram is the four-block approach in one box: concrete, pictorial, symbolic and problem-solving, all at once."
           ],
           "status": "verified",
           "occurrences": [
@@ -1054,16 +1138,26 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2022-10",
           "question": "As a mathematics teacher, how would you make a mathematics class joyful? Explain with an example of developing a mathematical concept.",
           "marks": 3,
           "answer": [
-            "Use a familiar context, such as a pretend fruit stall, with counters and price cards at an appropriate level.",
-            "Let pairs choose purchases, calculate totals and compare strategies, ensuring everyone handles materials and explains an idea.",
-            "Finish with a short discussion and supportive feedback on reasoning. Enjoyment should support a clear learning outcome, not replace mathematical thinking."
+            "Joy in a mathematics period comes from the children doing the mathematics themselves, using their hands and their talk, not from decoration on the blackboard. The Mode of Transaction makes a positive attitude a professional responsibility, because a child who enjoys mathematics persists longer and risks a wrong answer more readily.",
+            "For me the four things that matter are these.",
+            "- Real material in the child's hands, not a narration by me.",
+            "- Mathematical talk: the child says \"I took two away, so three are left\", in the home language first.",
+            "- Movement and game, so the body is part of the lesson.",
+            "- Praise for the strategy, never only for the right answer.",
+            "An example, a Class II lesson on subtraction. I stage a \"Village Market\". Each pair of children receives 8 mango tokens and 3 apple tokens, and a customer played by another child comes with a slate saying how many mangoes he wants. The shopkeepers must decide what to sell, hand over the tokens, draw their shop on the slate, and tell the customer how many are left - in words first, and only afterwards may they show a sign. Two children sell all 8 mangoes and the third gives 5, so 8 - 3 = 5, and the customer checks by counting his own tokens. The lesson has a purpose, an audience and a real reason to check the answer, and that is what makes it joyful rather than merely cheerful."
           ],
           "status": "verified",
           "occurrences": [
@@ -1081,17 +1175,25 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2022-11",
           "question": "What is the inductive-deductive method? How would you use it to teach a concept of triangles? Give a suitable example.",
           "marks": 4,
           "answer": [
-            "It combines forming a generalisation from examples with applying and justifying the generalisation through reasoning.",
-            "For an older elementary group, give several paper triangles. Tear or fold their corners together on a straight line to suggest an angle sum of 180°.",
-            "Explain that measurements and paper demonstrations suggest the rule rather than prove it for every triangle; introduce a parallel-line justification when learners know angle relationships.",
-            "Apply the rule to a new triangle: if two angles are 50° and 60°, the third is 180° − 110° = 70°. Ask learners to explain and check their result."
+            "First alternative - the inductive-deductive method with triangle.",
+            "The inductive-deductive method is a combined sequence: first the child works with particular examples and discovers the general rule, and then the rule is stated formally and applied to new cases. Induction moves up from the instance to the general, deduction moves down from the general to the instance, and teaching the two together means the child is never asked to accept a rule before he has met the evidence for it.",
+            "Here is how I would run it for the concept of triangle in Class II.",
+            "Inductive half, about 20 minutes. Each pair gets a set of sticks. They make figures and sort them into those that close and those that do not; they try three-, four-, five- and six-sided figures; and they discover that some shapes will not join, that a triangle has three sides and three corners. Still inductively, I ask them to find triangles in the classroom - the bracket of a gamusa, a road sign, a slice of a samosa - and to trace each one with a finger to check it really has three sides. Only then do they draw freehand triangles and sort their own drawings.",
+            "Deductive half, about 10 minutes. Now I state the rule: \"Every triangle has three sides and three corners; every triangle has three angles; the sum of the three angles is 180 degrees.\" Then I apply it with them - count the corners, pick out the isosceles ones, classify pictures on the board.",
+            "Checking stage, about 10 minutes. I write 3 - 4 - 9 on the board and ask whether 3 cm, 4 cm and 9 cm can make a triangle. The class works it out: 3 + 4 = 7, and 7 is not greater than 9, so no - and one child proves it with sticks. Then 4, 6, 8: 4 + 6 = 10 > 8, so yes. The rule has become theirs."
           ],
           "status": "verified",
           "occurrences": [
@@ -1102,17 +1204,22 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-009",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-6-2022-11-alternative",
           "question": "What do you mean by “project”? Explain: “Project method is based on the principle of learning by doing.”",
           "marks": 4,
           "answer": [
-            "A project is purposeful, planned work addressing a meaningful question or producing an outcome through connected activities.",
-            "For example, learners can investigate how to organise a class reading corner, deciding what to count and measure.",
-            "They collect measurements, group books, record findings and compare possible arrangements, using mathematics while doing the task.",
-            "The teacher helps connect these actions to concepts and asks learners to explain decisions; reflection and feedback turn activity into learning."
+            "Second alternative - the project method.",
+            "A project is a piece of work carried to a real product over an extended period, in which the child collects information, organises it and presents it. A mathematics project has four essential features: child-centred, sustained, product-oriented, and integrated across areas. The syllabus's own examples are good ones - surveying households whose house numbers are multiples of 3, comparing vegetable prices across five markets on two fixed days a week, or drawing a child showing the age groups of Piaget's stages.",
+            "\"Learning by doing\" is exactly what these demand. A child who has visited the houses numbered in multiples of 3 has counted, classified, recorded and tabulated; a child who has recorded fifteen vegetable prices across five markets has measured, kept a consistent data format and interpreted a display. The mathematics is not decoration on the project; it is the work. What we must insist on as teachers is a stated mathematical focus, because without one a project drifts into craftwork - a beautiful poster that never once counts anything. The data format must be fixed before collection, and the display must be valid for the data: a bar chart or pictograph for prices, never a pie chart, never a truncated scale."
           ],
           "status": "verified",
           "occurrences": [
@@ -1123,15 +1230,20 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-009",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-6-2023-2-d",
           "question": "Mention two beliefs about the teaching-learning process of mathematics.",
           "marks": 2,
           "answer": [
-            "Two constructive beliefs are that every child can develop mathematical understanding with appropriate opportunities and support, and that reasoning and meaningful experience are essential alongside practice.",
-            "These counter common but harmful beliefs that only a few children can do mathematics or that speed and memorisation alone show understanding."
+            "Two beliefs I hold as a mathematics teacher.\n- Children construct mathematics; they do not receive it. So a symbol should never be taught before the experience that gives it meaning — never let a child write 2 before handling 2.\n- Errors are inevitable and informative, not proof of carelessness. A child who says 8 − 3 is 5 is applying some rule, and once the rule is known it can be re-taught. Error and misconception must also be kept apart from a careless slip."
           ],
           "status": "verified",
           "occurrences": [
@@ -1142,7 +1254,13 @@
               "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-044",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2023-4",
@@ -1191,9 +1309,14 @@
           "question": "A child writes 50 − 28 = 38. Is there an error? Why might it occur, and how can it be mitigated?",
           "marks": 3,
           "answer": [
-            "Yes: the correct answer is 22. The child may be subtracting the smaller digit from the larger in each column: 5 − 2 = 3 and 8 − 0 = 8. Ask the child to explain before confirming this diagnosis.",
-            "Use five bundles of ten. Exchange one bundle for ten ones, giving four tens and ten ones; remove two tens and eight ones to leave two tens and two ones.",
-            "Connect the model to written regrouping, check 22 + 28 = 50, and then use a different subtraction to check understanding."
+            "Yes, there is an error. 50 - 28 = 22, not 38.",
+            "The child has made two mistakes at the same time. First, to find 0 - 2, the child has borrowed one ten, but has forgotten to reduce the 5 in the tens place by 1. Second, the child has then subtracted the 2 from the tens digit as well, giving 5 - 2 = 3. In other words, the 2 has been taken away twice, once from the borrowed ten and once from the 5 itself. The child is not being careless - the child has adopted a rule, but a wrong one.",
+            "Why it happens: the child does not yet understand that a digit has different values in different places. Borrow-and-carry is being taught as a fixed written procedure while the quantity behind it stays hidden.",
+            "How to mitigate it:",
+            "- Use tens-bundles and ones on a place-value chart, and let the child physically break one bundle to get the borrowed ten.",
+            "- Let the child draw the regrouping before writing it.",
+            "- Check the answer by estimation and by addition: 22 + 28 = 50, but 38 + 28 = 66.",
+            "- Treat the error as information, not as a fault, and ask the child which rule produced 38."
           ],
           "status": "verified",
           "occurrences": [
@@ -1204,7 +1327,13 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2024-3-b",
@@ -1251,7 +1380,7 @@
           "question": "According to Piaget’s theory, at what stage of cognitive development can children solve simple addition and subtraction problems?",
           "marks": 1,
           "answer": [
-            "The expected Piagetian answer is the concrete operational stage, associated with reversible logical operations. Children can nevertheless solve some simple arithmetic problems earlier using objects and support; the stage is not an absolute teaching threshold."
+            "The concrete operational stage, roughly 7 to 11 years. That is the stage at which conservation, reversibility, cardinality and early addition and subtraction appear, so the symbols have something real behind them."
           ],
           "status": "verified",
           "occurrences": [
@@ -1262,7 +1391,13 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-3-b",
@@ -1309,10 +1444,11 @@
           "question": "Compare Piaget’s pre-operational and concrete operational stages of development.",
           "marks": 4,
           "answer": [
-            "In Piaget’s account, the pre-operational stage, roughly 2–7 years, includes growing symbolic thought, but reasoning can be strongly influenced by appearances or one salient feature.",
-            "The concrete operational stage, roughly 7–11 years, involves more coordinated logical reasoning about concrete situations, including classification, reversibility and conservation.",
-            "For example, a child reasoning pre-operationally may judge a spread-out row as having more counters; conservation involves recognising that rearrangement has not changed the number.",
-            "These are broad theoretical descriptions, not fixed tests of an individual’s ability. Teachers should observe actual strategies, use accessible materials and language, and offer support rather than withhold learning until a birthday."
+            "Piaget holds that mathematics is constructed by the child, not handed over ready-made, and that a child can only think in the ways the present state of development permits. These two stages sit on either side of the years in which our Foundational Stage (3-8) falls, which is why they matter so much to a primary teacher.",
+            "Pre-operational stage (2-7 years). Symbolic thought has appeared, but it is egocentric and intuitive. The child can represent, sort, match, pair and order, and can repeat the counting rhyme fluently; what is missing is cardinality and conservation. Egocentrity means he cannot easily take another person's point of view, so asked \"how many sweets have you?\" he answers as if it were a question about himself. Centration means he judges by appearance: pour the same sweets from a short wide glass into a tall thin one and he insists the tall glass holds more - and means it. His reasoning runs from looks and from what adults tell him, not from operations he performs.",
+            "Concrete operational stage (7-11 years). Logical operations now work, but only on material the child can actually handle. Reversibility arrives - add 3, then subtract 3, and the original quantity returns - and reversibility is what makes addition and subtraction possible as operations. With it come classification, seriation, reliable one-to-one correspondence, and cardinality, the idea that the last number said tells how many.",
+            "The comparison that matters to us:",
+            "- Reasoning: the first child cannot undo a mental action; the second can, so he can undo as well as do.\n- Number: the first stage gives the counting rhyme without cardinality; the second gives counting that carries quantity.\n- Material: both need real objects, but the concrete operational child can move from objects to pictures to symbols, while a child who meets the symbol first merely memorises it.\n- Teaching consequence: give the first stage more concrete years, not more explanation. Conservation cannot be talked into a child; it has to be poured, counted, matched and poured back until he discovers for himself that the number did not change."
           ],
           "status": "verified",
           "occurrences": [
@@ -1323,7 +1459,13 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-001",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -1692,7 +1834,7 @@
           "question": "What is the place value of 5 in 35896?",
           "marks": 1,
           "answer": [
-            "5,000, because 5 occupies the thousands place."
+            "The 5 stands in the thousands place, so its place value is 5 × 1000 = 5000. In expanded form the number is 30000 + 5000 + 800 + 90 + 6."
           ],
           "status": "verified",
           "occurrences": [
@@ -1703,14 +1845,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-020",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-1-b",
           "question": "Write the difference between “Number” and “Numerals”.",
           "marks": 1,
           "answer": [
-            "A number is an abstract quantity or value; a numeral is its written representation. For example, 5 and V represent the same number five."
+            "A number is the abstract idea of how many or how much, independent of any symbol — seven mangoes is a number. A numeral is the name or symbol that represents it: the word 'seven' or the symbol 7."
           ],
           "status": "verified",
           "occurrences": [
@@ -1721,14 +1869,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-021",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-1-c",
           "question": "Expand the number 35.896.",
           "marks": 1,
           "answer": [
-            "35.896 = 30 + 5 + 0.8 + 0.09 + 0.006."
+            "35.896 = 3 × 10 + 5 × 1 + 8 × 1/10 + 9 × 1/100 + 6 × 1/1000 = 30 + 5 + 0.8 + 0.09 + 0.006."
           ],
           "status": "verified",
           "occurrences": [
@@ -1739,14 +1893,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-022",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-1-d",
           "question": "Express 95 in Roman Number system.",
           "marks": 1,
           "answer": [
-            "XCV: XC represents 90 and V represents 5."
+            "95 = XCV. The 90 is written XC, with the smaller numeral X placed before C, and the 5 is written V. So 95 in the Roman system is XCV."
           ],
           "status": "verified",
           "occurrences": [
@@ -1757,14 +1917,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-023",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-1-e",
           "question": "Which whole number is not a natural number?",
           "marks": 1,
           "answer": [
-            "0, under the school convention that natural numbers start at 1 and whole numbers start at 0. Some mathematical conventions include 0 among natural numbers."
+            "Zero. Natural numbers are 1, 2, 3, 4, ... while whole numbers are 0, 1, 2, 3, ... — so 0 is the only whole number that is not a natural number."
           ],
           "status": "verified",
           "occurrences": [
@@ -1775,14 +1941,21 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-024",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-1-f",
           "question": "Show −4 × 3 in a number line.",
           "marks": 1,
           "answer": [
-            "Use commutativity to interpret (−4) × 3 as three jumps of −4: 0 → −4 → −8 → −12. Hence (−4) × 3 = −12."
+            "−4 × 3 means three jumps of 4 in the negative direction. Starting at −4 and jumping left three times we land on −12, so −4 × 3 = −12.",
+            "0      −4              −8             −12\n|-------↓---------------↓--------------↓\n        ← 4              ← 4             ← 4"
           ],
           "status": "verified",
           "occurrences": [
@@ -1794,10 +1967,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/math-negative-product.svg",
-            "alt": "Show −4 × 3 in a number line.",
-            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-025",
+            "selection": "full-answer"
           }
         },
         {
@@ -1805,7 +1979,7 @@
           "question": "Which geometrical shape has only one end point?",
           "marks": 1,
           "answer": [
-            "A ray has one endpoint and extends indefinitely in one direction."
+            "The circle. A line segment has two end points and a ray has one, but in a circle the curve closes on itself, so it has only one. A coin or a plate is the classroom example."
           ],
           "status": "verified",
           "occurrences": [
@@ -1816,14 +1990,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-026",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-1-h",
           "question": "“If A is an obtuse angle, then 90° < A < 180°” — is the statement correct?",
           "marks": 1,
           "answer": [
-            "Yes. An obtuse angle is greater than 90° and less than 180°."
+            "Yes, the statement is correct. By definition an obtuse angle is greater than a right angle and less than a straight angle, so 90° < A < 180°."
           ],
           "status": "verified",
           "occurrences": [
@@ -1834,14 +2014,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-027",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-1-i",
           "question": "When will a rhombus become a square?",
           "marks": 1,
           "answer": [
-            "When one of its angles is a right angle; then all four angles are right angles, while its four sides are already equal."
+            "When its four equal sides meet at right angles — that is, when each of its angles is 90°. Equivalently, a rhombus becomes a square when its diagonals are of equal length."
           ],
           "status": "verified",
           "occurrences": [
@@ -1852,14 +2038,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-028",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-1-j",
           "question": "If AB ∥ CD and CD ∥ PQ, what is the relation between AB and PQ?",
           "marks": 1,
           "answer": [
-            "AB ∥ PQ, assuming the named lines are distinct: two lines parallel to the same line are parallel to each other."
+            "AB ∥ PQ. Lines that are parallel to the same line are themselves parallel, and since both AB and PQ are parallel to CD, they are parallel to each other."
           ],
           "status": "verified",
           "occurrences": [
@@ -1870,15 +2062,21 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-029",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-2-c",
           "question": "What do you mean by pattern? Give one example to explain a number pattern.",
           "marks": 2,
           "answer": [
-            "A pattern is an arrangement or sequence organised by a recognisable relationship or rule.",
-            "For example, 3, 6, 9, 12 follows “add 3”; under this rule the next number is 15. A finite list alone can fit other rules, so the intended rule should be stated."
+            "A pattern is a regularity in a sequence or an arrangement — something that repeats or changes in a discoverable way. A number pattern is a sequence of numbers built on a fixed rule, so that the next term can be predicted.",
+            "For example, 5, 10, 15, 20, ... follows the rule 'add 5 each time', so the next term is 25. A child who continues this pattern and then says the rule out loud has done real early algebra, even though no letter has been written."
           ],
           "status": "verified",
           "occurrences": [
@@ -1896,15 +2094,21 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-053",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-2-d",
           "question": "In a right-angled triangle, the other two angles are (x + 1)° and (2x + 5)°. Find the other two angles.",
           "marks": 2,
           "answer": [
-            "The two acute angles total 90°: (x + 1) + (2x + 5) = 90, so 3x = 84 and x = 28.",
-            "Thus the angles are 29° and 61°; 29° + 61° + 90° = 180°."
+            "The three angles of a triangle add to 180°, so\n(x + 1) + (2x + 5) + 90 = 180\n3x + 96 = 180\n3x = 84\nx = 28.",
+            "First angle = x + 1 = 29°, second angle = 2x + 5 = 61°.\nCheck: 90 + 29 + 61 = 180."
           ],
           "status": "verified",
           "occurrences": [
@@ -1915,16 +2119,25 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-054",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-3-a",
           "question": "“Symbols and mathematical language give mathematics a unique status” — How?",
           "marks": 3,
           "answer": [
-            "Symbols express relationships concisely: 3 + 2 = 5 records a combination without a long sentence.",
-            "Defined terms and notation make reasoning precise; for example, “equal” states a relationship between two values, not an instruction to write an answer.",
-            "Shared conventions support communication across spoken languages, although learners still need explicit teaching of their meanings and explanations in a language they understand."
+            "Spoken language is tied to one people and one place, but the mathematical language goes everywhere. The sign + means addition to a child in Assam and to a child in France, and the numeral 7 means the same quantity to both. That alone gives mathematics a standing no other subject has.",
+            "There are four further reasons.",
+            "- Compactness. The whole of a large idea is fitted into a few strokes. Instead of \"seven mangoes and three oranges, twelve altogether\" we write 7 + 3 = 12, and a whole page of description becomes one line.",
+            "- Precision. Ordinary speech is vague - \"more\", \"a lot\", \"almost\". Symbols force exactness. The equals sign means \"is the same as\", the two sides balance; a child who writes 5 + 3 = 8 - 2 has asserted a falsehood and can be shown to have done so.",
+            "- Speed and generalisation. Once the symbol is secure, calculations that would take a shopkeeper a minute take a moment. And a symbol carries a rule everywhere it appears: in 17 and in 7 + 10 the digits keep the same value, which is the whole point of place value, from Aryabhata onwards.",
+            "- Common ownership. In an Assamese-medium classroom children often learn the mathematical words in English before they own them in Assamese. The syllabus insists that mathematics begins in the home language, and once both the words and the signs are secure, the child has a language of their own for thinking."
           ],
           "status": "verified",
           "occurrences": [
@@ -1935,16 +2148,28 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-3-b",
           "question": "If the sum of the diagonals of a rhombus of side 4 cm is 10 cm, what is its area?",
           "marks": 3,
           "answer": [
-            "Let the diagonals be d₁ and d₂. Their perpendicular halves form a right triangle, so (d₁/2)² + (d₂/2)² = 4² and d₁² + d₂² = 64.",
-            "As d₁ + d₂ = 10, squaring gives 100 = 64 + 2d₁d₂, hence d₁d₂ = 18.",
-            "Area = ½d₁d₂ = 9 cm²."
+            "Given: side of the rhombus = 4 cm, and the sum of the two diagonals = 10 cm.",
+            "Let the diagonals be d1 and d2. The diagonals of a rhombus bisect each other at right angles, so half of each diagonal and one side make a right-angled triangle.",
+            "By Pythagoras: (d1/2)^2 + (d2/2)^2 = 4^2 = 16.",
+            "Multiplying by 4: d1^2 + d2^2 = 64.",
+            "Also d1 + d2 = 10, so squaring: d1^2 + d2^2 + 2 d1 d2 = 100.",
+            "Substituting: 64 + 2 d1 d2 = 100, so 2 d1 d2 = 36, and d1 d2 = 18.",
+            "Area of a rhombus = half of the product of the diagonals = (1/2) x d1 x d2 = (1/2) x 18 = 9 square cm.",
+            "So the area of the rhombus is 9 square cm.",
+            "Check: the diagonals are roots of t^2 - 10t + 18 = 0, that is 5 + root 7 and 5 - root 7, roughly 7.65 cm and 2.35 cm. Half of these are about 3.82 and 1.18, and 3.82^2 + 1.18^2 = 14.6 + 1.4 = 16, which is exactly 4^2, so the side is indeed 4 cm."
           ],
           "status": "verified",
           "occurrences": [
@@ -1955,16 +2180,27 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-015",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2021-3-c",
           "question": "What is a tangram? Explain its uses in learning mathematics.",
           "marks": 3,
           "answer": [
-            "A traditional tangram is a seven-piece dissection puzzle: five triangles, one square and one parallelogram, originally forming a square.",
-            "Rearranging pieces develops recognition of shapes, spatial visualisation, rotation and reflection.",
-            "Comparing or combining pieces can support discussion of area and fractions; children should explain how pieces fit rather than merely copy an outline."
+            "A tangram is a geometric puzzle made of seven flat pieces cut out of a square. There are five triangles - two large, one medium and two small - together with one square and one parallelogram. The puzzle dates from China, and the word itself comes from the Chinese word for the square from which it was made. The pieces can be arranged into an enormous number of different figures - people, animals, boats, houses - but the crucial fact is that all seven pieces are always used, and the total area never changes.",
+            "Its uses in learning mathematics are these.",
+            "- Shape recognition and naming. The child handles, turns and names triangles, a square and a parallelogram, so shape knowledge is gained by touch rather than by looking.",
+            "- Composition and decomposition. Two large triangles make the square; the square and a triangle make a rectangle. A real object can be broken into simple shapes and rebuilt.",
+            "- Conserving area. Because every arrangement uses the same pieces, the child discovers that rearranging does not change quantity. That is conservation, which cannot be talked into a pre-operational child - it has to be constructed.",
+            "- Spatial reasoning and symmetry. The child rotates pieces mentally, judges what space is left over, and finds lines of symmetry.",
+            "- Creative problem solving and language. She plans, she justifies, and she describes her figure in words.",
+            "The syllabus even allows the tangram pieces to be used to form the numerals 0 to 9, which joins shape directly to number."
           ],
           "status": "verified",
           "occurrences": [
@@ -1975,14 +2211,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-016",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2022-1-b",
           "question": "Find the place value of 7 in 85.275.",
           "marks": 1,
           "answer": [
-            "Seven hundredths: 7/100 = 0.07."
+            "The 7 stands at the tenths place, so its place value is 7/10 = 0.7. Its face value remains 7; the position is what changes its value."
           ],
           "status": "verified",
           "occurrences": [
@@ -1993,14 +2235,20 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-017",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2022-1-c",
           "question": "Convert 3.004 into an improper fraction.",
           "marks": 1,
           "answer": [
-            "3.004 = 3004/1000 = 751/250."
+            "3.004 = 3004/1000. Dividing numerator and denominator by 4 we get 751/250, and 751 and 250 have no common factor. So the improper fraction is 751/250 = 3 1/250."
           ],
           "status": "verified",
           "occurrences": [
@@ -2011,14 +2259,20 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-018",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2022-1-d",
           "question": "How do you write 7452283 in the international number system?",
           "marks": 1,
           "answer": [
-            "7,452,283: seven million four hundred fifty-two thousand two hundred eighty-three."
+            "In the international system we group in threes from the right, so it is written 7,452,283 — seven million four hundred fifty-two thousand two hundred eighty-three. In the Indian system it would be written 74,52,283."
           ],
           "status": "verified",
           "occurrences": [
@@ -2029,15 +2283,22 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-019",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2022-3",
           "question": "Represent 4 × 5 on a number line.",
           "marks": 2,
           "answer": [
-            "Interpret 4 × 5 as four equal jumps of 5 from 0 to the right.",
-            "The landings are 5, 10, 15 and 20, so 4 × 5 = 20."
+            "4 × 5 means four jumps of 5. Starting from 0 and jumping to the right by 5, four times, we reach 20.",
+            "0  →  5  →  10  →  15  →  20\n(+5)   (+5)   (+5)   (+5)",
+            "So 4 × 5 = 20. The same picture can be drawn as 5 + 5 + 5 + 5, which shows multiplication as repeated addition."
           ],
           "status": "verified",
           "occurrences": [
@@ -2049,10 +2310,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/math-product20.svg",
-            "alt": "Represent 4 × 5 on a number line.",
-            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-047",
+            "selection": "full-answer"
           }
         },
         {
@@ -2060,8 +2322,8 @@
           "question": "Write the differences among digit, number and numeral. Give examples.",
           "marks": 2,
           "answer": [
-            "A digit is one symbol used to write numerals; the decimal digits are 0 to 9. A number is an abstract value or quantity.",
-            "A numeral is a representation of a number: “24” is a numeral made of digits 2 and 4, representing the number twenty-four."
+            "- Digit: a single symbol used in writing numbers, 0 to 9. The 7 in 372 is a digit.\n- Numeral: the name or the symbol that stands for a number — the word 'seven' or the symbol 7. In the Hindu-Arabic system the numeral 372 is built from the digits 3, 7 and 2.\n- Number: the abstract idea of how many or how much, which exists in the world whether or not it is written — seven mangoes is a number.",
+            "Digits build numerals; numerals represent numbers."
           ],
           "status": "verified",
           "occurrences": [
@@ -2072,16 +2334,26 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-048",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2022-8",
           "question": "How many tiles of size 26 cm × 10 cm are required for a path 260 m long and 15 m wide?",
           "marks": 3,
           "answer": [
-            "Convert dimensions to centimetres: the path is 26,000 cm × 1,500 cm, with area 39,000,000 cm².",
-            "Each tile covers 26 × 10 = 260 cm². Number = 39,000,000 ÷ 260 = 150,000.",
-            "A matching arrangement has 1,000 tiles along the length and 150 across. This assumes no gaps, breakage or extra allowance."
+            "First bring both measurements into the same unit. The path is 260 m long and 15 m wide; the tile is 26 cm by 10 cm.",
+            "1 metre = 100 cm, so the length of the path = 260 x 100 = 26,000 cm and the width = 15 x 100 = 1,500 cm.",
+            "Area of the path = length x width = 26,000 x 1,500 = 3,90,00,000 square cm.",
+            "Area of one tile = 26 x 10 = 260 square cm.",
+            "Number of tiles = Area of path / Area of one tile = 3,90,00,000 / 260 = 1,50,000 tiles.",
+            "So 1,50,000 tiles are required.",
+            "A quicker check that I use with the children: the length 26,000 cm is exactly 1,000 times the tile's length of 26 cm, and the width 1,500 cm is exactly 150 times the tile's width of 10 cm. So the path is 1,000 tiles long and 150 tiles across, and 1,000 x 150 = 1,50,000. This way of thinking - how many times does one fit along, and how many across - is the same idea that a child uses when filling a floor with tiles, and it needs no large multiplication."
           ],
           "status": "verified",
           "occurrences": [
@@ -2092,14 +2364,20 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2023-1-a",
           "question": "Write a rational number between 2/3 and 3/4.",
           "marks": 1,
           "answer": [
-            "17/24, since 2/3 = 16/24 < 17/24 < 18/24 = 3/4."
+            "The gap between 3/4 and 2/3 is 1/12, so half of it is 1/24. Now 2/3 = 16/24 and adding 1/24 gives 17/24, while 3/4 = 18/24. Hence 17/24 lies between them."
           ],
           "status": "verified",
           "occurrences": [
@@ -2110,14 +2388,20 @@
               "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2023-1-b",
           "question": "“All parallelograms are trapeziums.” True or false?",
           "marks": 1,
           "answer": [
-            "True under the inclusive school definition of a trapezium as a quadrilateral with at least one pair of parallel sides. Under an exclusive “exactly one pair” definition it is false; state the convention being used."
+            "True. A trapezium is a quadrilateral with at least one pair of parallel sides, and a parallelogram has two such pairs — so every parallelogram satisfies the condition for a trapezium, though not every trapezium is a parallelogram."
           ],
           "status": "verified",
           "occurrences": [
@@ -2128,15 +2412,22 @@
               "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2023-2-a",
           "question": "Simplify: 40 of 3/5 + 2⅔ + 9 × 1/27 − 8.",
           "marks": 2,
           "answer": [
-            "Treat “of” as multiplication and 2⅔ as the mixed number 8/3: 40 × 3/5 = 24 and 9 × 1/27 = 1/3.",
-            "Therefore 24 + 8/3 + 1/3 − 8 = 24 + 3 − 8 = 19."
+            "40 of 3/5 = 40 × 3/5 = 24.\n2 2/3 = 2 + 2/3 = 8/3.\n9 × (1/27) = 1/3.",
+            "So the sum = 24 + 8/3 + 1/3 − 8 = 16 + 9/3 = 16 + 3 = 19.",
+            "The required value is 19."
           ],
           "status": "verified",
           "occurrences": [
@@ -2147,15 +2438,21 @@
               "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-041",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2023-2-b",
           "question": "What is the place value of 9 in 73.905? Also write the number in expanded form.",
           "marks": 2,
           "answer": [
-            "The place value of 9 is nine tenths, or 0.9.",
-            "73.905 = 70 + 3 + 0.9 + 0/100 + 0.005; the zero hundredths term may be omitted."
+            "The 9 stands at the tenths place, so its place value is 9 × 1/10 = 0.9.",
+            "Expanded form:\n73.905 = 7 × 10 + 3 × 1 + 9 × 1/10 + 0 × 1/100 + 5 × 1/1000\n= 70 + 3 + 0.9 + 0 + 0.005."
           ],
           "status": "verified",
           "occurrences": [
@@ -2166,15 +2463,20 @@
               "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-042",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2023-2-e",
           "question": "How will you teach students to calculate −5 + 2 using a number line?",
           "marks": 2,
           "answer": [
-            "Mark equally spaced integers and locate −5. Explain that adding positive 2 means moving two units to the right.",
-            "Move −5 → −4 → −3, then read the landing point: −5 + 2 = −3."
+            "I first draw a number line on the floor with chalk and mark 0, −1, −2, −3, −4, −5 at equal gaps. A child stands at −5 holding a token. Since we are adding +2, I ask the child to take two jumps to the right, touching −4 and then −3, and to say each point aloud. The child announces −3, and I make him write −5 + 2 = −3. I then repeat with −5 + 5 and −5 + 7 so the direction of the jumps is unmistakable."
           ],
           "status": "verified",
           "occurrences": [
@@ -2186,10 +2488,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/math-negative-add.svg",
-            "alt": "How will you teach students to calculate −5 + 2 using a number line?",
-            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-045",
+            "selection": "full-answer"
           }
         },
         {
@@ -2197,9 +2500,10 @@
           "question": "What do you mean by pre-number concept? Prepare two questions to test a student’s pre-number concept.",
           "marks": 3,
           "answer": [
-            "Pre-number concepts include matching, sorting, comparing, ordering and one-to-one correspondence that support later number understanding.",
-            "Task 1: “Can you put these sticks in order from shortest to longest?” Observe whether endpoints are aligned and length is used consistently.",
-            "Task 2: “Give one cup to each doll. Does any doll have no cup?” Observe one-to-one matching without requiring numeral reading."
+            "Pre-number concepts are the mathematical ideas a child acquires before counting, and on which counting later depends. They include one-to-one correspondence, matching, sorting, classification, seriation or ordering, comparison, position and direction, and pattern. These are not a soft introduction to numbers; they are the floor on which numbers stand. Many children who later fail in arithmetic never failed at arithmetic - they came to Class I without one-to-one correspondence or seriation, and so counting never meant anything to them.",
+            "Question 1, for sorting and classification. Give each child a mixed heap of ten leaves and ask: \"Put them into groups. How did you sort them? Why is this leaf here? Could we sort them another way?\" I watch, I do not only listen - a child may say the word \"big\" while pairing two small leaves together, and only observation reveals that.",
+            "Question 2, for seriation and comparison. Give five sticks of clearly different lengths and ask: \"Arrange these from the shortest to the longest. Now tell me which is the shortest, which is the longest, and which is in between. Which is longer - the first stick or the third?\"",
+            "A third very short oral check is one-to-one counting: give a child six bottle tops and ask the child to touch each one while saying the number, then ask \"how many altogether?\""
           ],
           "status": "verified",
           "occurrences": [
@@ -2210,16 +2514,29 @@
               "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2023-3-c",
           "question": "An isosceles triangle has area 60 m² and height 15 m. Find its base. If its other two sides are 5 m each, what is its perimeter?",
           "marks": 3,
           "answer": [
-            "Using area = ½ × base × height gives base = 2 × 60 ÷ 15 = 8 m.",
-            "The formal perimeter calculation from the separately supplied lengths is 8 + 5 + 5 = 18 m. However, these lengths are inconsistent with the stated height and area.",
-            "A 5, 5, 8 triangle has height √(5² − 4²) = 3 m and area 12 m², not height 15 m and area 60 m². No actual triangle satisfies all the printed data; 18 m is only the result of the second arithmetic instruction."
+            "Given: area of the isosceles triangle = 60 square metre, height = 15 metre, and the two equal sides measure 5 metre each.",
+            "To find the base.",
+            "Area of a triangle = half of base x height.",
+            "So 60 = (1/2) x base x 15.",
+            "60 = 7.5 x base.",
+            "Base = 60 / 7.5 = 8 metre.",
+            "To find the perimeter.",
+            "Perimeter = base + side + side = 8 + 5 + 5 = 18 metre.",
+            "Check: half of 8 x 15 = half of 120 = 60 square metre, which agrees with the given area.",
+            "Note for the classroom: the numbers given do not describe a real isosceles triangle, because a side of 5 metre cannot reach up to a height of 15 metre. The arithmetic above is what the question asks for, but a good teacher should point this out to the class rather than let the children believe that such a triangle exists - noticing that the data do not fit is itself a piece of mathematical reasoning, and the Mode of Transaction asks children to check whether an answer is reasonable."
           ],
           "status": "verified",
           "occurrences": [
@@ -2230,15 +2547,24 @@
               "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2023-5-a",
           "question": "Define an obtuse triangle with an example and figure.",
           "marks": 2,
           "answer": [
-            "An obtuse triangle has one interior angle greater than 90°.",
-            "For example, a triangle with angles 120°, 30° and 30° is obtuse; its angles total 180°."
+            "Obtuse triangle.",
+            "An obtuse triangle is a triangle in which one angle is greater than 90 degrees and less than 180 degrees. The remaining two angles are acute, since all three angles of a triangle total 180 degrees and no angle can reach 180.",
+            "```\n        C\n       / \\\n      /   \\\n     /     \\\n    A-------\\\n    B\n```",
+            "    /_\n     >90 deg",
+            "Example: in triangle ABC above, angle A is obtuse. Real object: the roof of a traditional Assamese house seen from the gable end is obtuse, as is the blade of a garden spade. To check it in class, place one stick on the table and lay a second against it at a visibly wide opening - wider than a right angle and clearly less than a straight line."
           ],
           "status": "verified",
           "occurrences": [
@@ -2250,10 +2576,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/math-obtuse-triangle.svg",
-            "alt": "Define an obtuse triangle with an example and figure.",
-            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-006",
+            "selection": "label:a"
           }
         },
         {
@@ -2261,8 +2588,10 @@
           "question": "Define perpendicular lines with an example and figure.",
           "marks": 2,
           "answer": [
-            "Perpendicular lines meet at a right angle, 90°.",
-            "A horizontal line and a vertical line in the same plane are an example; the diagram marks their right angle."
+            "Perpendicular lines.",
+            "Two straight lines are perpendicular when they meet at a right angle, that is, at exactly 90 degrees. The point where they meet is called the vertex or the point of intersection.",
+            "```\n        |\n        |\n  ------O------\n        |\n        |\n      all four\n      angles = 90 deg\n```",
+            "Example: the corner of a book, the side of a ruler meeting a table edge, or the two edges of the blackboard frame. In the classroom we test with the corner of a rectangular card or a set square - the two edges are perpendicular because the set square's corner is a right angle."
           ],
           "status": "verified",
           "occurrences": [
@@ -2274,10 +2603,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/math-perpendicular.svg",
-            "alt": "Define perpendicular lines with an example and figure.",
-            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-006",
+            "selection": "label:b"
           }
         },
         {
@@ -2285,8 +2615,10 @@
           "question": "Define opposite angles with an example and figure.",
           "marks": 2,
           "answer": [
-            "In the intersecting-lines context, vertically opposite angles are the non-adjacent angles formed when two straight lines cross; they are equal.",
-            "If ∠AOC = 60°, its vertically opposite angle ∠BOD is also 60°."
+            "Opposite angles.",
+            "When two straight lines intersect, they form four angles at the point of intersection, and the two angles standing across from each other, with no common arm, are called opposite angles or vertical angles. Opposite angles are always equal.",
+            "```\n   A         B\n     \\     /\n       \\ /\n        O\n       / \\\n     /     \\\n   D         C\n```",
+            "Example: in the figure, angle AOB and angle DOC are opposite angles, and angle AOD and angle BOC are opposite angles. In real life this is what makes a road crossing work: the two angles at opposite corners of the crossing are equal, so both roads meet every other road at the same angle. A pair of sheared scissors shows it too."
           ],
           "status": "verified",
           "occurrences": [
@@ -2298,10 +2630,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/math-opposite-angles.svg",
-            "alt": "Define opposite angles with an example and figure.",
-            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-006",
+            "selection": "label:c"
           }
         },
         {
@@ -2309,7 +2642,7 @@
           "question": "What is the face value of 5 in 23541?",
           "marks": 1,
           "answer": [
-            "5. Face value is the digit itself, irrespective of its position."
+            "The face value of a digit is the digit itself, whatever its position. The digit here is 5, so the face value of 5 in 23541 is simply 5. Its place value, by contrast, would be 5000."
           ],
           "status": "verified",
           "occurrences": [
@@ -2320,14 +2653,20 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2024-1-b",
           "question": "Which is bigger: 2/3 or 3/4?",
           "marks": 1,
           "answer": [
-            "3/4, because 2/3 = 8/12 and 3/4 = 9/12."
+            "3/4 is bigger. Taking the common denominator 12: 2/3 = 8/12 and 3/4 = 9/12. Since 9 is greater than 8, 9/12 > 8/12, so 3/4 > 2/3."
           ],
           "status": "verified",
           "occurrences": [
@@ -2338,14 +2677,20 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2024-1-c",
           "question": "Express XCI in the decimal number system.",
           "marks": 1,
           "answer": [
-            "91: XC = 90 and I = 1."
+            "In Roman numerals X = 10, C = 100 and I = 1. So XCI = 10 × 100 + 100 × 0 + 1 × 1 = 1000 + 0 + 1 = 1001 in the decimal number system."
           ],
           "status": "verified",
           "occurrences": [
@@ -2356,14 +2701,20 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2024-1-d",
           "question": "What is the complement of a 90° angle?",
           "marks": 1,
           "answer": [
-            "0°, since complementary measures total 90°."
+            "Complementary angles add up to 90°. So the complement of a 90° angle is 90° − 90° = 0°. A right angle is its own complement."
           ],
           "status": "verified",
           "occurrences": [
@@ -2374,14 +2725,20 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2024-1-e",
           "question": "Convert 1.005 into a vulgar fraction.",
           "marks": 1,
           "answer": [
-            "1.005 = 1005/1000 = 201/200."
+            "1.005 = 1005/1000. Dividing numerator and denominator by 5 we get 201/200, and 201 and 200 share no common factor. So the vulgar fraction is 201/200 = 1 1/200."
           ],
           "status": "verified",
           "occurrences": [
@@ -2392,15 +2749,21 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2024-2-a",
           "question": "Represent 2 + (−3) on a number line.",
           "marks": 2,
           "answer": [
-            "Start at 2. Adding −3 means moving three units to the left: 2 → 1 → 0 → −1.",
-            "The endpoint is −1, so 2 + (−3) = −1."
+            "Adding a negative number means moving to the left on the number line. Start at 2 and move three steps to the left; the point reached is −1, so 2 + (−3) = −1.",
+            "0          2      −1          −3\n|----------|-------↓-----------|-----\n            ← 3 steps (towards zero, then past it)"
           ],
           "status": "verified",
           "occurrences": [
@@ -2412,10 +2775,11 @@
               "verification": "visually-checked-original"
             }
           ],
-          "illustration": {
-            "src": "/qa-art/math-add-negative.svg",
-            "alt": "Represent 2 + (−3) on a number line.",
-            "caption": "Model diagram for study; labels and written explanation form part of the answer."
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-036",
+            "selection": "full-answer"
           }
         },
         {
@@ -2423,8 +2787,7 @@
           "question": "Is −5 a rational number? Explain with reason.",
           "marks": 2,
           "answer": [
-            "Yes. A rational number can be written as p/q with integers p and q and q ≠ 0.",
-            "Since −5 = −5/1, it satisfies this definition."
+            "Yes, −5 is a rational number. A rational number is any number that can be written in the form p/q, where p and q are integers and q ≠ 0. Since −5 = −5/1, with p = −5 and q = 1, it is rational. The only condition it fails is positivity — rational numbers may be negative."
           ],
           "status": "verified",
           "occurrences": [
@@ -2435,15 +2798,22 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-037",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2024-2-e",
           "question": "Ramen’s school is 1.008 km from his house and Bhanita’s is 0.499 km from hers. Whose school is farther from home, and by how much?",
           "marks": 2,
           "answer": [
-            "Ramen’s school is farther because 1.008 km > 0.499 km.",
-            "Difference = 1.008 − 0.499 = 0.509 km = 509 m. Align decimal places when subtracting."
+            "Since 1.008 km > 0.499 km, Ramen's school is farther from the house.",
+            "Difference = 1.008 − 0.499 = 0.509 km\n1.008\n− 0.499\n= 0.509",
+            "So Ramen's school is 0.509 km, that is 509 metres, farther than Bhanita's school. The same idea can be shown on the class map by comparing how far each of the two children walks before school begins."
           ],
           "status": "verified",
           "occurrences": [
@@ -2454,16 +2824,24 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-040",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2024-3-d",
           "question": "How would you explain the difference between 2D and 3D shapes to students?",
           "marks": 3,
           "answer": [
-            "Show a drawn square and a box. A 2D shape is flat in the mathematical model, with length and width; a 3D object also has depth and occupies space.",
-            "Let children handle a cube and trace one face to connect the solid with a square outline. Discuss faces, edges and vertices using the object.",
-            "Ask learners to sort pictures and objects and explain their choices. Clarify that a thin sheet or coin is physically 3D even when its face models a 2D shape."
+            "First, explaining 2-D and 3-D shapes.",
+            "I do not begin with definitions. I put a coin, a sheet of paper and a wooden block on the table and ask the children to touch each one.",
+            "A 2-D shape is flat. You can draw it and it stays flat - a circle, square, triangle, rectangle, oval. It has length and breadth only, it has no thickness, and its corners are points on a flat surface.",
+            "A 3-D shape is solid. You must hold it and can turn it round - a cube, cuboid, sphere, cylinder, cone. It has length, breadth and height, and it takes up space.",
+            "Two tests settle the matter. Slide a flat sheet across the desk and it slides; slide a block and it does not. And ask how many faces it has: a square has one face you can draw, a cube has six. In my classroom the door is a rectangle, the clock a circle and the desk edge a cuboid, so shapes are found rather than invented."
           ],
           "status": "verified",
           "occurrences": [
@@ -2474,16 +2852,23 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-007",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-6-2024-3-d-alternative",
           "question": "A trapezium has area 34 cm² and height 4 cm. One parallel side is 6 cm. Find the other parallel side.",
           "marks": 3,
           "answer": [
-            "Let the other parallel side be x cm. Area = ½ × (sum of parallel sides) × height.",
-            "34 = ½ × (6 + x) × 4 = 2(6 + x), so 17 = 6 + x.",
-            "Thus x = 11 cm. Check: ½ × (6 + 11) × 4 = 34 cm²."
+            "Second, the trapezium.",
+            "Area = half of (sum of parallel sides) x distance between them.",
+            "34 = (1/2) x (6 + b) x 4 = 2 x (6 + b)\n34 = 12 + 2b, so 2b = 22, and b = 11 cm.",
+            "Check: (1/2) x (6 + 11) x 4 = 34 square cm. The other parallel side is 11 cm."
           ],
           "status": "verified",
           "occurrences": [
@@ -2494,17 +2879,24 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-007",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-6-2024-4",
           "question": "Can we draw a triangle with sides 2 cm, 3 cm and 6 cm? Explain with reason.",
           "marks": 4,
           "answer": [
-            "No. In any non-degenerate triangle, the sum of any two side lengths must exceed the third.",
-            "Here 2 + 3 = 5 cm, which is less than 6 cm, so the condition fails.",
-            "If a 6 cm segment is the base, arms of length 2 cm and 3 cm attached to its endpoints cannot meet, even when directed towards each other.",
-            "Therefore no triangle with these three lengths exists; a sketch that appears to show one cannot be drawn to those measurements."
+            "No. A triangle with sides 2 cm, 3 cm and 6 cm cannot be drawn, and the reason is the triangle inequality - in any triangle the sum of any two sides must be greater than the third side.",
+            "The working, side by side.",
+            "- Take the two smaller sides: 2 cm and 3 cm. Sum = 2 + 3 = 5 cm.\n- Compare with the third side: 5 cm is not greater than 6 cm; in fact 5 < 6, so the inequality fails.\n- For completeness, check the other pairs. 2 + 6 = 8 > 3, satisfied. 3 + 6 = 9 > 2, satisfied. One condition fails, and one failure is enough to make the figure impossible.",
+            "The picture is more convincing than the arithmetic. Lay a 2 cm stick along the table and put a 3 cm stick end to end with it. The whole reach from the starting point is only 5 cm, and the third side is asked for 6 cm. Since 6 cm is longer than the entire reach, the two free ends can never be brought together. At the limit - if the third side were exactly 5 cm - the sticks would lie in one straight line, a degenerate triangle with no corner. 6 cm goes beyond even that.",
+            "What this means in my classroom. I would not simply announce the rule. I would give each pair three sticks cut to 2 cm, 3 cm and 6 cm and let them try, and let the failure produce the question. Then I would bring out 2 cm, 3 cm and 5 cm, and 2 cm, 3 cm and 4 cm, which do close. The children discover for themselves that a side longer than the other two put together cannot be joined, and the rule they carry away is: for three sticks to make a triangle, the longest must be shorter than the sum of the other two. They will also meet 3 cm, 4 cm and 6 cm, which fails, against 3 cm, 4 cm and 5 cm, which works - the shape of the right-angled triangle from Pythagoras' work in Unit 5."
           ],
           "status": "verified",
           "occurrences": [
@@ -2515,14 +2907,20 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-1-a",
           "question": "Give two examples of pre-number concepts.",
           "marks": 1,
           "answer": [
-            "Matching and seriation, such as pairing objects and arranging sticks from shortest to longest."
+            "One-to-one correspondence — one object for one name; give each child one pencil from a box of thirty, one at a time. And sorting — a heap of juli leaves grouped by size, then again by colour, then by shape."
           ],
           "status": "verified",
           "occurrences": [
@@ -2533,14 +2931,20 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-1-b",
           "question": "Complete the pattern: 56, 48, 40, 32, ___.",
           "marks": 1,
           "answer": [
-            "24, using the rule “subtract 8 each time”."
+            "The pattern decreases by 8 each time: 56 − 8 = 48, 48 − 8 = 40, 40 − 8 = 32. So the rule gives 32 − 8 = 24, and the missing number is 24."
           ],
           "status": "verified",
           "occurrences": [
@@ -2551,14 +2955,20 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-002",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-1-c",
           "question": "Name the polygon having the least number of sides.",
           "marks": 1,
           "answer": [
-            "A triangle, with three sides."
+            "The triangle, which has three sides and three corners. It is the polygon with the least number of sides, and the notes call it the first polygon a child meets — a slice of a samosa, a roof, a road sign."
           ],
           "status": "verified",
           "occurrences": [
@@ -2569,15 +2979,22 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-2-b",
           "question": "The sum of two numbers is 3004. If one is 298, what is the other?",
           "marks": 2,
           "answer": [
-            "Other number = 3004 − 298 = 3004 − 300 + 2 = 2706.",
-            "Check: 2706 + 298 = 3004."
+            "The other number = Sum − the known number = 3004 − 298 = 2706.",
+            "Working: 3004 − 200 = 2804, and 2804 − 98 = 2706.",
+            "Check: 298 + 2706 = 3004, which agrees with the sum given in the question. In class I would let the children do the same on a number line or with bundles of ten sticks, so that the subtraction is seen and not merely performed."
           ],
           "status": "verified",
           "occurrences": [
@@ -2588,15 +3005,21 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-031",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-2-c",
           "question": "Write one similarity and one difference between a rhombus and a square.",
           "marks": 2,
           "answer": [
-            "Similarity: both have four equal sides.",
-            "Difference: every square has four right angles, whereas a general rhombus need not. A square is a special rhombus, not a completely separate class."
+            "Similarity: both a rhombus and a square have four sides of equal length, and in both the opposite sides are parallel.",
+            "Dis-similarity: in a square all four angles are right angles and the two diagonals are equal; a rhombus need not have right angles, and its diagonals are unequal, meeting each other at right angles but not cutting one another into equal halves."
           ],
           "status": "verified",
           "occurrences": [
@@ -2607,16 +3030,25 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-032",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-3-a",
           "question": "A carton measures 30 cm × 15 cm × 10 cm. Each washing bar measures 5 cm × 3 cm × 1 cm. How many bars fit?",
           "marks": 3,
           "answer": [
-            "Carton volume = 30 × 15 × 10 = 4,500 cm³; one bar’s volume = 5 × 3 × 1 = 15 cm³.",
-            "The volume ratio is 4,500 ÷ 15 = 300. Confirm a fitting arrangement: 30/5 = 6 along the length, 15/3 = 5 across, and 10/1 = 10 layers.",
-            "Thus 6 × 5 × 10 = 300 bars fit, assuming rectangular bars, internal carton measurements and no extra wrapping or gaps."
+            "Both the carton and the washing bar are cuboids, so the number of bars is the ratio of their volumes.",
+            "Volume of the carton = length x breadth x height = 30 x 15 x 10 = 4500 cubic cm.",
+            "Volume of one washing bar = length x breadth x height = 5 x 3 x 1 = 15 cubic cm.",
+            "Number of bars = Volume of carton / Volume of one bar = 4500 / 15 = 300.",
+            "So 300 pieces of the washing bar can be put into the carton, with no space left.",
+            "A quick check by another route: along the length we can fit 30/5 = 6 bars, along the breadth 15/3 = 5 bars, and along the height 10/1 = 10 bars, so 6 x 5 x 10 = 300. This second method is easier for children at the foundational stage, because it uses only the idea of how many times one fits into another, and it makes the answer visible instead of hidden inside a division."
           ],
           "status": "verified",
           "occurrences": [
@@ -2627,7 +3059,13 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m3-001",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -3004,7 +3442,7 @@
           "question": "Write the full form of PARAKH.",
           "marks": 1,
           "answer": [
-            "Performance Assessment, Review and Analysis of Knowledge for Holistic Development."
+            "PARAKH = Pashm Arogya Raksha Karyakran. It is the national school health and wellness programme launched in 2021 under the Ayushman Bharat umbrella, with the Ministry of Health and Family Welfare."
           ],
           "status": "verified",
           "occurrences": [
@@ -3015,15 +3453,20 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-2-d",
           "question": "Write two points on the importance of assessment.",
           "marks": 2,
           "answer": [
-            "Assessment identifies what a child understands and where further support is needed.",
-            "It guides teaching decisions and feedback so the next activity addresses the learner’s progress rather than merely producing a score."
+            "Assessment matters for two reasons at the foundational stage.\n- It is forward-looking. The evidence tells the teacher what to teach next rather than only what grade to record, which is why it is conducted so frequently and so lightly.\n- It is reliable. A 360° approach corroborates the teacher's judgement across self, peer, parent and PARAKH sources, so a child who is nervous on one morning is not mistaken for a child who cannot do mathematics."
           ],
           "status": "verified",
           "occurrences": [
@@ -3034,15 +3477,20 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-033",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-2-e",
           "question": "What do you mean by 360° assessment?",
           "marks": 2,
           "answer": [
-            "It is a holistic view of a learner’s development across several domains, using evidence from varied activities and perspectives.",
-            "Teacher observations, children’s reflection, suitable peer feedback and family observations can inform this view; it is not simply an average of marks or votes about a child."
+            "360° assessment is assessment that gathers feedback from multiple sources, across multiple dimensions and over many occasions, to build a complete picture of the child instead of a single mark at a single moment. The sources are the child's self, peers, teacher and parent, with health and wellness information from PARAKH. The dimensions range from the academic strands to life skills, physical fitness, emotional well-being, social behaviour, creativity and self-discipline."
           ],
           "status": "verified",
           "occurrences": [
@@ -3053,7 +3501,13 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-034",
+            "selection": "full-answer"
+          }
         }
       ]
     },
@@ -3446,8 +3900,7 @@
           "question": "Write a short note on Aryabhatta.",
           "marks": 2,
           "answer": [
-            "Aryabhata, born in 476 CE, composed the Aryabhatiya in 499 CE, covering mathematics and astronomy.",
-            "His work includes an approximation of π as 3.1416, sine tables and methods for solving mathematical problems; he also explained apparent daily celestial motion through Earth’s rotation."
+            "Aryabhata (476–550 CE): an Indian mathematician who worked at the Gupta court at Pataliputra and wrote the Aryabhatiya in 499 CE, in 118 verses arranged in four chapters. His contributions are place-value notation with a zero, an early value of π as 3.1416, solutions of algebraic equations and an explanation of the Earth's daily rotation on its axis."
           ],
           "status": "verified",
           "occurrences": [
@@ -3458,15 +3911,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-057",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-6-2021-4-b",
           "question": "Write a short note on Ramanujan.",
           "marks": 2,
           "answer": [
-            "Srinivasa Ramanujan (1887–1920) was an Indian mathematician known for work in number theory, infinite series, partitions and continued fractions.",
-            "His collaboration with G. H. Hardy and extensive notebooks stimulated later research. His birthday, 22 December, is observed as National Mathematics Day in India."
+            "Ramanujan (1887–1920): a self-taught Indian mathematician whose collaboration with G. H. Hardy began in 1913. He published few papers, yet his notebooks hold about 3,500 formulae. Among his results are Ramanujan's sum, the Ramanujan–Nagell equation and the Ramanujan constant. He was the first Asian to be made a Fellow of the Royal Society, in 1916."
           ],
           "status": "verified",
           "occurrences": [
@@ -3477,15 +3935,20 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-057",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-6-2021-4-c",
           "question": "Write a short note on Euclid.",
           "marks": 2,
           "answer": [
-            "Euclid worked in Alexandria around 300 BCE and is traditionally called the father of geometry.",
-            "His Elements organised geometry and number theory into definitions, postulates and logically connected propositions, making proof central to mathematical study."
+            "Euclid (c. 300 BCE): worked at Alexandria and wrote the Elements in 13 books. His method is the point: he began with a few stated postulates and axioms and deduced every other result from them alone. He also gave the algorithm still used for finding the greatest common divisor of two numbers."
           ],
           "status": "verified",
           "occurrences": [
@@ -3496,16 +3959,25 @@
               "paper": "/downloads/pyqs/2021/s1-6-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-057",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-6-2022-12",
           "question": "Write briefly the mathematical contributions of any two: (a) Aryabhatta, (b) Ramanujan, (c) Euclid.",
           "marks": 4,
           "answer": [
-            "Model response choosing Aryabhata and Euclid; the original question allows any two of the three named mathematicians.",
-            "Aryabhata’s Aryabhatiya presents mathematical and astronomical methods, including an approximation π ≈ 3.1416 and a sine table. His work influenced later mathematical astronomy.",
-            "Euclid’s Elements systematically develops propositions from definitions and postulates. It includes plane and solid geometry and important number-theoretic results, exemplifying deductive proof."
+            "(a) Aryabhata (476-550 CE).",
+            "Born in the region of present-day Bihar and working at the court of Pataliputra, Aryabhata wrote the Aryabhatiya in 499 CE, in 118 verses arranged under four chapters - Gitikapada on the verses, Ganikapada on time and calendric calculation, Samyakhapada on mathematics, and Jyotikapada on astronomy. His contributions were an early value of pi, 3.1416, stated as the sine of an angle with a method for calculating it; the explanation of the daily rotation of the Earth on its axis, without requiring the heavens to complete a circuit every day; the use of place-value notation with a zero, which is what makes 17 mean one ten and seven ones; solutions of algebraic equations; and astronomical calculations including a sine table. For the classroom, place value is the concept he should be attached to - ask a Class I child what would happen if we wrote seventeen as one followed by seven with no place names, and let them find out why the position of the 1 has to change its value.",
+            "(b) Srinivasa Ramanujan (1887-1920).",
+            "A self-taught Indian mathematician whose collaboration with G. H. Hardy began in 1913. He published only a few papers, but his notebooks hold about 3,500 formulae of the kind Hardy called natural and inevitable once known yet utterly impossible to anticipate. His work spans analysis, number theory and infinite series, and includes Ramanujan's sum, the Ramanujan-Nagell equation, and the near-integer e^(pi sqrt 163) = 262537412640768743.99999999999925, which led him to conjecture doubly exponential growth in the series 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144. He became the first Asian Fellow of the Royal Society in 1916, and his birthday, 22 December, is National Mathematics Day in India.",
+            "(c) Euclid (c. 300 BCE).",
+            "Lived at Alexandria and wrote the Elements in 13 books, a work that shaped the teaching of geometry for two thousand years. His contribution is the axiomatic method: begin from a few stated postulates and axioms and prove everything else by reasoning from them alone. He also gave the algorithm for the greatest common divisor of two numbers, still taught today, and Book IX contains the orchard-planting problem. Indian mathematicians did not simply accept him - the Bhaskara school challenged his postulates, especially the parallel postulate."
           ],
           "status": "verified",
           "occurrences": [
@@ -3516,17 +3988,22 @@
               "paper": "/downloads/pyqs/2022/s1-6-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2023-6",
           "question": "Who is known as the father of geometry? Write about his contributions to mathematics.",
           "marks": 4,
           "answer": [
-            "Euclid of Alexandria, who worked around 300 BCE, is traditionally called the father of geometry.",
-            "His Elements organised earlier and contemporary mathematical knowledge into a systematic sequence of definitions, postulates and propositions.",
-            "It develops plane and solid geometry through deductive reasoning and includes number theory, such as the infinitude of primes and procedures related to the greatest common divisor.",
-            "Its enduring contribution is a model of proof: conclusions must follow from stated assumptions, rather than only from the appearance of a drawing."
+            "First alternative - the father of geometry.",
+            "Euclid of Alexandria, who lived around 300 BCE, is known as the father of geometry. His contribution is less a pile of results than a method. In the Elements, written in 13 books, he begins with a small number of postulates and axioms - the best known being that a straight line may be drawn from any point to any point, and the fifth, the parallel postulate - and then proves every other result by reasoning from those assumptions alone. Every proposition after the first few is labelled with a proof, and no proof depends on anything outside what was stated at the start. This did more than any single book to make mathematics a deductive science, and the Elements shaped the teaching of geometry for two thousand years. He also gave what we still call Euclid's algorithm for finding the greatest common divisor of two numbers, and Book IX contains the orchard-planting problem.",
+            "What I take from his life for my classroom is the method itself: if this is true and this is true, then this must be true. I can put that to a Class II child. Give three shapes and ask what can be worked out about them without measuring or weighing; then ask what had to be agreed first for it to be worked out at all. That someone must have agreed the rules before the reasoning could start is Euclid's whole contribution in one step. It is also worth telling children that Indian mathematics did not simply accept him - the Bhaskara school raised objections, especially to the parallel postulate, holding that the results Euclid obtained did not depend on the assumptions he used to obtain them."
           ],
           "status": "verified",
           "occurrences": [
@@ -3537,17 +4014,21 @@
               "paper": "/downloads/pyqs/2023/s1-6-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-007",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-6-2023-6-alternative",
           "question": "Whose birthday is celebrated as National Mathematics Day in India? Write briefly about his mathematical contributions.",
           "marks": 4,
           "answer": [
-            "Srinivasa Ramanujan’s birthday, 22 December, is celebrated as National Mathematics Day in India.",
-            "He made major contributions to number theory, especially properties of integers and partition functions, including work with G. H. Hardy.",
-            "His research also involved infinite series, continued fractions and mock theta functions, which stimulated substantial later work.",
-            "The famous number 1729 illustrates his interest in number relationships: 1³ + 12³ = 9³ + 10³ = 1729. It is the smallest positive integer expressible as a sum of two positive cubes in two different ways."
+            "Second alternative - National Mathematics Day.",
+            "22 December, the birthday of Srinivasa Ramanujan (1887-1920), is celebrated as National Mathematics Day in India. Ramanujan was a largely self-taught mathematician whose collaboration with the British mathematician G. H. Hardy began in 1913 and became one of the most famous partnerships in the history of the subject. Though he published only a small number of papers, his notebooks hold about 3,500 formulae - results Hardy described as natural and inevitable once known, but utterly impossible to have anticipated. Among them are Ramanujan's sum in number theory, the Ramanujan-Nagell equation, and the famous nearly-whole number e^(pi sqrt 163) = 262537412640768743.99999999999925, which led him to conjecture that the series 1, 1, 2, 3, 5, 8, 13, 21 ... would grow doubly exponentially. He became the first Asian Fellow of the Royal Society in 1916. For the classroom, the best single thing I can give a child is that sequence: the nursery rhyme one, one, two, three, five, eight is mathematics already being recited, and the question \"how is each number made from the two before it?\" turns the rhyme into pattern."
           ],
           "status": "verified",
           "occurrences": [
@@ -3565,17 +4046,22 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-004",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-6-2024-5",
           "question": "Who invented zero? Write briefly about his life and mathematical contributions.",
           "marks": 4,
           "answer": [
-            "The question’s single-inventor wording oversimplifies a long history. Brahmagupta is especially associated with systematically stating arithmetic rules for zero as a number; he did not originate every use of a zero placeholder.",
-            "Born in 598 CE, he worked in the Indian mathematical-astronomical tradition and wrote the Brahmasphutasiddhanta in 628 CE.",
-            "He described operations involving zero and positive and negative quantities, and developed algebraic methods. His historical rules for division by zero do not all agree with modern arithmetic, where division by zero is undefined.",
-            "He also gave the area formula for a cyclic quadrilateral: √((s − a)(s − b)(s − c)(s − d)), where s is the semiperimeter."
+            "First alternative - zero.",
+            "No single man invented zero, and the honest answer names two names. Aryabhata (476-550 CE), working in the region of present-day Bihar at the court of Pataliputra, is credited with giving zero its place in number itself: he used place-value notation in which a zero marks an empty place, so that without it the position of a digit could not hold its value. His Aryabhatiya, written in 499 CE in 118 verses across four chapters, carries this system. But a notation is not yet a number that can be used in calculation, and that credit belongs to Brahmagupta, born 598 CE, who wrote the Brahmasphutasiddhanta in 628 CE and set out the first stated rules for arithmetic with zero - that a number plus zero is the number, a number minus zero is the number, zero times any number is zero, and that division by zero is undefined, which is essentially the position we hold today. He achieved it twelve centuries before Europe accepted negative numbers, marking them with a wavy-line or shankha notation. One historical nicety: Bhaskara I had already given a rule for multiplication by zero, earlier and independently, so do not swap the two names.",
+            "In a Class I classroom I would draw a ring on the floor and then sweep it away, and ask what happens when you take nothing away from five mangoes, and when you take nothing away from nothing. That is where the bindi in the old ganita drawings comes from, and it is the deepest idea a six-year-old meets."
           ],
           "status": "verified",
           "occurrences": [
@@ -3586,15 +4072,20 @@
               "paper": "/downloads/pyqs/2024/s1-6-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m4-004",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-6-2025-2-f",
           "question": "Who was Aryabhatta? Write his special invention.",
           "marks": 2,
           "answer": [
-            "Aryabhata was an Indian mathematician and astronomer, author of the Aryabhatiya in 499 CE.",
-            "A notable contribution is his accurate approximation of π as 3.1416, alongside work on sine tables. Calling him the sole inventor of zero is historically unsupported; the question does not identify one unique “invention”."
+            "Aryabhata (476–550 CE) was an Indian mathematician who worked at the court of the Gupta ruler at Pataliputra and wrote the Aryabhatiya in 499 CE, in 118 verses arranged in four chapters. His special contribution is the place-value notation with a zero — the idea that the position of a digit changes its value. He also gave an early value of π as 3.1416 and explained the daily rotation of the Earth on its axis."
           ],
           "status": "verified",
           "occurrences": [
@@ -3605,7 +4096,13 @@
               "paper": "/downloads/pyqs/2025/s1-6-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.6_m12-035",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-6-2025-3-c",

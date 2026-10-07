@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+---
+<Layout title="Attendance tracker" description="Track daily attendance and see how many days you need to reach your target.">
+<div class="wrap attendance-page">
+<PageHeader title="Show up. Stay on track." kicker="DAILY ATTENDANCE" back="/tools/" backLabel="Tools" description="One attendance record for the whole day. Keep count and stay on track."/>
+<p>Saved only in this browser. Clearing browser data removes your records. Use your institute’s attendance requirement as your target.</p>
+<noscript><p class="empty">Enable JavaScript to use the attendance tracker.</p></noscript>
+<div id="attendance-app" hidden>
+<section class="content-panel attendance-overview" aria-label="Attendance overview">
+<div><span class="eyebrow">MY ATTENDANCE</span><h2 id="attendance-percent">—</h2><p id="attendance-totals"></p><progress id="attendance-progress" max="100" value="0" aria-label="Attendance percentage"></progress><p id="attendance-guidance"></p></div>
+<form id="attendance-target"><label>My target (%)<input name="target" type="number" min="1" max="100" step="1" value="75" required/></label><button class="button secondary">Update target</button><p class="small">75% is a starting value, not an official requirement.</p></form>
+</section>
+<section class="content-panel spaced">
+<h2>Mark your day</h2><p>Choose today or a past date. Updating the same date changes its status without counting it twice. Leave holidays unmarked.</p>
+<label>Date<input id="attendance-date" type="date" required/></label><p id="attendance-day-status"></p>
+<div class="actions"><button class="button" id="attendance-present" type="button">Present</button><button class="button secondary" id="attendance-absent" type="button">Absent</button><button class="button secondary" id="attendance-clear" type="button">Clear this day</button></div>
+</section>
+<details class="content-panel spaced"><summary>Starting mid-semester? Add previous attendance</summary>
+<p>Enter totals for days before you started marking dates here. These opening totals are added to your dated records; do not count the same days twice.</p>
+<form id="attendance-opening" class="attendance-fields"><label>Previous days attended<input name="attended" type="number" min="0" max="1000000" step="1" value="0" required/></label><label>Previous working days<input name="held" type="number" min="0" max="1000000" step="1" value="0" required/></label><button class="button secondary">Save previous attendance</button></form>
+</details>
+<div class="attendance-feedback"><p id="attendance-status" role="status" aria-live="polite"></p><button id="attendance-undo" class="button secondary" type="button" disabled>Undo last change</button></div>
+<p id="attendance-storage" role="alert"></p>
+<details class="content-panel spaced"><summary>Recorded days</summary><p id="attendance-empty">No dates recorded yet.</p><ul id="attendance-history"></ul></details>
+</div></div></Layout>
+<script>import '../../scripts/attendance';</script>
+<style>
+  .attendance-page{max-width:1200px}.attendance-page p{line-height:1.65}
+  .attendance-overview{display:grid;grid-template-columns:2fr 1fr;gap:2rem;margin-top:2rem}
+  #attendance-percent{font-size:3rem;margin:.5rem 0}.attendance-rate{font-size:1.6rem;font-weight:700}
+  .attendance-fields{display:flex;flex-wrap:wrap;align-items:end;gap:1rem;margin:1rem 0}
+  .attendance-fields label{flex:1 1 140px}.attendance-fields label:first-child{flex:2 1 220px}
+  label{display:grid;gap:.5rem;font-size:1rem}input{width:100%;min-width:0;font:inherit;padding:.8rem;border:1px solid var(--line);border-radius:var(--radius-sm);color:var(--ink);background:var(--surface)}
+  #attendance-target .button{margin-top:1rem}.attendance-feedback{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin:1rem 0}
+  .attendance-subjects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+  .attendance-subject h2{overflow-wrap:anywhere;font-size:1.35rem}.attendance-subject .actions{flex-wrap:wrap}
+  progress{width:100%;height:.6rem;accent-color:var(--green)}details{margin-top:1.5rem}summary{cursor:pointer;font-size:1rem}#attendance-storage:empty{display:none}
+  @media(max-width:700px){.attendance-overview{grid-template-columns:1fr}.attendance-feedback{align-items:flex-start;flex-direction:column}.attendance-fields .button{width:100%}}
+</style>
+
+<style>.actions{flex-wrap:wrap}#attendance-date{max-width:20rem}#attendance-history{line-height:2;max-height:22rem;overflow:auto}</style>

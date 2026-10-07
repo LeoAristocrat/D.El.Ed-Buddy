@@ -14,6 +14,8 @@ const pyq = z.object({
   question: z.string().trim().min(1),
   marks: z.number().positive().multipleOf(0.5),
   answer,
+  answerFormat: z.literal('paragraphs').optional(),
+  answerSource: z.object({ kind: z.literal('owner-supplied'), id: z.string().min(1), selection: z.string().min(1) }).optional(),
   tables: z.array(answerTable).min(1).optional(),
   illustration: z.object({
     src: z.string().regex(/^\/qa-art\/[a-z0-9-]+\.svg$/),

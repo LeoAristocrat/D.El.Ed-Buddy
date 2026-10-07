@@ -390,8 +390,8 @@
           "question": "Write a short note on the power of Yoga.",
           "marks": 2,
           "answer": [
-            "The power of yoga refers here to its capacity to support balanced development through disciplined movement, attention and reflection.",
-            "For example, an appropriate routine can help a learner practise steadiness and calm responses. The original says “Power of Yoga”, which should not automatically be changed to the modern fitness style “Power Yoga”."
+            "Power of Yoga",
+            "The 'power' of yoga is what regular practice builds in a person: strength, stamina and flexibility in the body, and steadiness, control and clear attention in the mind. Strength and health are, however, by-products of the stilled mind rather than its aim. The syllabus also names a modern form by a similar name — Power Yoga — a vigorous, largely secular fitness system derived from Hatha Yoga, in which flowing sequences are held for several breaths to build heat, core strength and cardiovascular fitness. It suits older adolescents and adults; for primary children, gentle asana and Anulom-Vilom remain the right practice."
           ],
           "status": "verified",
           "occurrences": [
@@ -402,15 +402,21 @@
               "paper": "/downloads/pyqs/2021/s1-8-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-035",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-8-2021-6-b",
           "question": "Write a short note on Yoga Vasistha.",
           "marks": 2,
           "answer": [
-            "Yoga Vasistha is a Sanskrit philosophical work framed as the sage Vasistha’s instruction to Rama.",
-            "Through stories and dialogue it explores mind, self-knowledge, detachment and liberation; it is not simply a manual of physical postures."
+            "Yoga Vasistha",
+            "Yoga Vasistha is a classical Sanskrit text of the yoga tradition, traditionally attributed to the sage Vasistha and cast as a dialogue between Vasistha and Prince Rama. It is concerned less with postures than with the nature of the Self and of consciousness — what is real, what merely changes, and how a person may live free of fear and attachment while still acting fully in the world. Alongside the Yoga Sutras of Patanjali and the Bhagavad Gita, it counts among the important works of the tradition. The chief Hatha classic named in this syllabus, for asana and pranayama, is the Hatha Yoga Pradipika of Svatmarama, of the fifteenth century."
           ],
           "status": "verified",
           "occurrences": [
@@ -421,14 +427,20 @@
               "paper": "/downloads/pyqs/2021/s1-8-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-035",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-8-2022-1-a",
           "question": "Write the definition of Yoga given in Patanjali’s Yoga Sutras.",
           "marks": 1,
           "answer": [
-            "Yoga Sutra 1.2 states “yogaś citta-vṛtti-nirodhaḥ”: yoga is the stilling or restraint of the fluctuations of the mind."
+            "In the Yoga Sutras, Patanjali defines yoga as citta-vrtti-nirodha — the stilling of the fluctuations of the mind. Citta is the mind and its disturbances, vrtti is fluctuation, and nirodha is arrest."
           ],
           "status": "verified",
           "occurrences": [
@@ -439,14 +451,20 @@
               "paper": "/downloads/pyqs/2022/s1-8-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2022-1-b",
           "question": "Define Yoga Vasistha.",
           "marks": 1,
           "answer": [
-            "Yoga Vasistha is a philosophical text presenting Vasistha’s teachings to Rama on the mind, self-knowledge and liberation."
+            "Yoga Vasistha is a classical Sanskrit text of the yoga tradition, traditionally attributed to the sage Vasistha and presented as a dialogue between Vasistha and Rama. It deals with the nature of the Self and consciousness rather than with postures. The chief Hatha classic named in this syllabus is the Hatha Yoga Pradipika of Svatmarama."
           ],
           "status": "verified",
           "occurrences": [
@@ -457,14 +475,20 @@
               "paper": "/downloads/pyqs/2022/s1-8-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-014",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2022-2",
           "question": "State the aim of Yoga.",
           "marks": 1,
           "answer": [
-            "Yoga aims at self-mastery and harmonious development; in classical traditions its ultimate aim is spiritual liberation or self-realisation."
+            "The aim of yoga is the stilling of the mind, so that a person may act with clarity and steadiness. Health, strength and flexibility are by-products of that stilling and are never the end itself."
           ],
           "status": "verified",
           "occurrences": [
@@ -489,14 +513,20 @@
               "paper": "/downloads/pyqs/2024/s1-8-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2022-2-alternative",
           "question": "Write one definition of Yoga.",
           "marks": 1,
           "answer": [
-            "In the Bhagavad Gita, yoga is described as equanimity: maintaining a balanced mind in success and failure (2.48)."
+            "Patanjali, in the Yoga Sutras, defines yoga as citta-vrtti-nirodha — the stilling of the fluctuations of the mind. The widely used phrase 'the union of body, mind and soul' is a popular paraphrase, not a translation of this."
           ],
           "status": "verified",
           "occurrences": [
@@ -514,7 +544,13 @@
               "paper": "/downloads/pyqs/2023/s1-8-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2022-3",
@@ -561,8 +597,8 @@
           "question": "What is the scope of Yoga?",
           "marks": 2,
           "answer": [
-            "Yoga extends across ethical living, physical postures, breathing, attention, meditation and spiritual inquiry.",
-            "It is used in education, personal well-being and suitably supervised supportive health programmes, with practices adapted to context and ability."
+            "Scope means the range of activity the word yoga legitimately covers, and in this syllabus it is wide in two directions at once. Horizontally it runs from the single standing posture of Tadasana to the absorption of samadhi, covering the six main forms — Raja, Hatha, Karma, Jnana, Tantra and Bhakti. Vertically it runs from the body to the mind and from the mind to conduct, which is exactly the ladder Patanjali's eight limbs map.",
+            "Two boundaries are worth stating plainly: in the school context yoga is neither medicine nor religion. It is a secular system of health and mind-culture, open to every child."
           ],
           "status": "verified",
           "occurrences": [
@@ -573,15 +609,22 @@
               "paper": "/downloads/pyqs/2024/s1-8-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-026",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2024-2-c",
           "question": "Give two definitions of Yoga.",
           "marks": 2,
           "answer": [
-            "Patanjali, Yoga Sutra 1.2: yoga is the stilling of the fluctuations of the mind.",
-            "Bhagavad Gita 2.48: yoga is equanimity, or balance of mind in success and failure."
+            "1. Patanjali, in the Yoga Sutras: yoga is citta-vrtti-nirodha, the stilling of the fluctuations of the mind. This is the classical definition and carries the greatest authority.",
+            "2. The Mahabharata: yoga is the uniting of the senses and the self. The Bhagavad Gita (6.4) gives a third form — the senses stilled, the mind resting in the Self.",
+            "In school answers a popular paraphrase is often added: 'the union of body, mind and soul'. It is a description of the result, not a translation of the word."
           ],
           "status": "verified",
           "occurrences": [
@@ -592,7 +635,13 @@
               "paper": "/downloads/pyqs/2024/s1-8-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-028",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2024-3-alternative",
@@ -620,8 +669,8 @@
           "question": "What is the meaning of Yoga? Give one definition of Yoga.",
           "marks": 2,
           "answer": [
-            "Yoga comes from the Sanskrit root yuj, associated with joining, yoking or concentration; its philosophical meanings vary by tradition.",
-            "Patanjali defines it as the stilling of mental fluctuations in Yoga Sutra 1.2."
+            "Yoga is a Sanskrit word. It comes from the root yuj, 'to yoke or to join', and with the suffix -a it yields yoga — literally 'that which yokes or joins'. A yoke joins two oxen so that they pull together, and so yoga joins two things that cannot move usefully apart; which two is what the definitions debate.",
+            "One definition: Patanjali, in the Yoga Sutras, defines yoga as citta-vrtti-nirodha, the stilling of the fluctuations of the mind."
           ],
           "status": "verified",
           "occurrences": [
@@ -632,7 +681,13 @@
               "paper": "/downloads/pyqs/2025/s1-8-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-025",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2025-5",
@@ -1025,7 +1080,7 @@
           "question": "What is Tantra Yoga?",
           "marks": 1,
           "answer": [
-            "Tantra Yoga refers to practices within tantric traditions that use such means as mantra, visualisation and meditation for spiritual transformation."
+            "Tantra Yoga is a later, esoteric system of subtle energy rather than muscle. It works with chakras, kundalini, mantra and yantra through breath, posture, sound and visualisation, and it overlaps with Kriya and Mantra Yoga."
           ],
           "status": "verified",
           "occurrences": [
@@ -1036,14 +1091,20 @@
               "paper": "/downloads/pyqs/2021/s1-8-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-021",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2022-1-c",
           "question": "Define Dhyana.",
           "marks": 1,
           "answer": [
-            "Dhyana is meditation: a sustained, continuous flow of attention towards the chosen object of contemplation."
+            "Dhyana is the seventh limb of Ashtanga Yoga — meditation, a continuous, effortless flow of attention upon the chosen object. Dharana holds the mind on that object; dhyana sustains the holding."
           ],
           "status": "verified",
           "occurrences": [
@@ -1054,15 +1115,20 @@
               "paper": "/downloads/pyqs/2022/s1-8-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-015",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2022-4-alternative",
           "question": "Describe the word “concentration”.",
           "marks": 2,
           "answer": [
-            "Concentration means directing attention to a chosen object or task and bringing it back when it wanders.",
-            "In yoga, Dharana expresses this focused attention; a simple example is attending to one point while maintaining a comfortable posture."
+            "Concentration is the power to hold attention on one thing for a chosen length of time without being pulled away by everything else. It is trained directly by dharana, sustained by dhyana and steadied by Anulom-Vilom. In a Class III classroom it looks like a child who can follow a story or a sum for ten minutes."
           ],
           "status": "verified",
           "occurrences": [
@@ -1073,7 +1139,13 @@
               "paper": "/downloads/pyqs/2022/s1-8-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-032",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-8-2022-6",
@@ -1120,8 +1192,9 @@
           "question": "Write the names of any four of the eight limbs of Yoga.",
           "marks": 2,
           "answer": [
-            "Yama and Niyama.",
-            "Asana and Pranayama."
+            "The eight limbs of Ashtanga Yoga, in order, are Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana and Samadhi.",
+            "Any four of them:\n- Yama — restraint, the duties towards others (ahimsa, satya, asteya, brahmacharya, aparigraha).\n- Niyama — observance, the duties towards oneself (shaucha, santosha, tapas, svadhyaya, ishvarapranidhana).\n- Asana — a steady, comfortable posture.\n- Pranayama — regulation of the breath.",
+            "The first five limbs are external and concern life and body; the last three are internal and concern the mind alone."
           ],
           "status": "verified",
           "occurrences": [
@@ -1132,14 +1205,20 @@
               "paper": "/downloads/pyqs/2023/s1-8-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-031",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2023-7-a",
           "question": "Write a short note on Samadhi.",
           "marks": 1,
           "answer": [
-            "Samadhi is deep meditative absorption, traditionally described as a state in which ordinary separation between the meditator and the object of meditation falls away."
+            "Samadhi is the eighth and final limb of Ashtanga Yoga — absorption, the state in which the meditator, the act of meditation and the object of meditation become one. It is not practised deliberately; it is the natural result of perfect dhyana."
           ],
           "status": "verified",
           "occurrences": [
@@ -1157,7 +1236,13 @@
               "paper": "/downloads/pyqs/2024/s1-8-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2024-3",
@@ -1185,7 +1270,7 @@
           "question": "Write a short answer on Karma Yoga.",
           "marks": 1,
           "answer": [
-            "Karma Yoga is the path of dedicated, selfless action without selfish attachment to the results."
+            "Karma Yoga is the yoga of selfless action, one of the four paths of the Bhagavad Gita (chapter 3). It teaches nishkama karma — doing one's duty to the best of one's ability without attachment to the fruits of the action."
           ],
           "status": "verified",
           "occurrences": [
@@ -1196,14 +1281,20 @@
               "paper": "/downloads/pyqs/2025/s1-8-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2025-1-b",
           "question": "Write a short answer on Niyama.",
           "marks": 1,
           "answer": [
-            "Niyama refers to personal observances: cleanliness, contentment, disciplined effort, self-study and devotion or surrender to Ishvara."
+            "Niyama is the second limb of Ashtanga Yoga — observance, the personal discipline a practitioner owes to himself. Its five observances are shaucha, santosha, tapas, svadhyaya and ishvarapranidhana."
           ],
           "status": "verified",
           "occurrences": [
@@ -1214,14 +1305,20 @@
               "paper": "/downloads/pyqs/2025/s1-8-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-002",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2025-1-d",
           "question": "Write a short answer on Aparigraha.",
           "marks": 1,
           "answer": [
-            "Aparigraha is non-possessiveness or non-hoarding, one of the five Yamas."
+            "Aparigraha is the fifth of the five yamas — non-hoarding, the restraint of taking more than one needs. It means living simply, without accumulating beyond use, and is the yama of social restraint towards others."
           ],
           "status": "verified",
           "occurrences": [
@@ -1232,7 +1329,13 @@
               "paper": "/downloads/pyqs/2025/s1-8-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2025-4",
@@ -1629,7 +1732,7 @@
           "question": "What is Pranayama?",
           "marks": 1,
           "answer": [
-            "Pranayama is the conscious regulation of breathing; in yogic tradition it is also understood as regulation of prana, or vital energy."
+            "Pranayama means the extension and regulation of the breath — prana is breath and life-force, ayama is extension. It is the deliberate purification, lengthening, retention and balancing of the breath, and the direct bridge between body and mind."
           ],
           "status": "verified",
           "occurrences": [
@@ -1640,15 +1743,20 @@
               "paper": "/downloads/pyqs/2021/s1-8-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-020",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2021-5",
           "question": "Mention any four sitting-type asanas.",
           "marks": 2,
           "answer": [
-            "Sukhasana and Padmasana.",
-            "Vajrasana and Dandasana."
+            "The syllabus names five sitting asanas. Any four of them:\n- Sukhasana (sukha, ease) — legs crossed loosely, knees relaxed towards the floor; the beginner's seat and the usual posture of meditation.\n- Padmasana (padma, lotus) — feet placed on the opposite thighs; the classical seat of meditation.\n- Vajrasana (vajra, diamond or thunderbolt) — kneeling with the buttocks on the heels; easy to hold for long sitting.\n- Dandasana (danda, staff) — legs straight out in front, spine erect; it teaches correct upright sitting."
           ],
           "status": "verified",
           "occurrences": [
@@ -1659,15 +1767,21 @@
               "paper": "/downloads/pyqs/2021/s1-8-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-034",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2021-6-c",
           "question": "Write a short note on Pawanmuktasana.",
           "marks": 2,
           "answer": [
-            "Pawanmuktasana, commonly called the wind-relieving posture, is a supine posture in which the bent knee or knees are brought towards the trunk.",
-            "It gently moves the hips and lower back and is traditionally associated with abdominal comfort. It should be adapted to the person’s comfort and is not a guaranteed treatment for digestive disease."
+            "Pawanmuktasana",
+            "Pawanmuktasana means 'release of wind': pawan or vayu is wind or gas, and mukta means released. Lying on the back, the right knee is drawn up to the chest and held, then the left, then both together, the body rocking gently from side to side. It releases wind and bloating, relieves constipation and back pain, and it is the gentle first posture for a stiff, elderly or injured body. Draw the knee in only as far as is comfortable — modification is not failure."
           ],
           "status": "verified",
           "occurrences": [
@@ -1678,14 +1792,20 @@
               "paper": "/downloads/pyqs/2021/s1-8-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-035",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-8-2022-1-d",
           "question": "Mention one benefit of Ajapa.",
           "marks": 1,
           "answer": [
-            "Ajapa can help cultivate steady attention through awareness of the natural breath and its associated mantra."
+            "Because Ajapa is repetition without speech and without effort, the practitioner can sit longer without distraction — so the mind grows quiet, the chatter of thoughts subsides and concentration deepens."
           ],
           "status": "verified",
           "occurrences": [
@@ -1696,7 +1816,13 @@
               "paper": "/downloads/pyqs/2022/s1-8-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-016",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2022-7",
@@ -1807,7 +1933,7 @@
           "question": "Write a short note on Asana.",
           "marks": 1,
           "answer": [
-            "Asana is a yogic posture; Patanjali describes it as steady and comfortable."
+            "Asana — a steady, comfortable posture. Patanjali's standard is stricter than the classroom one: asana is a position held without effort, and the moment strain appears, one has gone too far."
           ],
           "status": "verified",
           "occurrences": [
@@ -1818,14 +1944,20 @@
               "paper": "/downloads/pyqs/2023/s1-8-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-012",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-8-2023-7-d",
           "question": "Write a short note on Mudra.",
           "marks": 1,
           "answer": [
-            "A mudra is a symbolic or yogic gesture or seal, using the hands or body, employed to support a particular practice or state of attention."
+            "Mudra — literally a seal, a deliberate arrangement of the hands and fingers that concentrates attention and is said to retain the energy of the practice."
           ],
           "status": "verified",
           "occurrences": [
@@ -1836,14 +1968,20 @@
               "paper": "/downloads/pyqs/2023/s1-8-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-012",
+            "selection": "label:d"
+          }
         },
         {
           "id": "s1-8-2024-1-a",
           "question": "Write a very short answer on Kriya.",
           "marks": 1,
           "answer": [
-            "In this syllabus context, kriya means a yogic cleansing practice, such as one of the six shatkriyas of Hatha Yoga."
+            "Kriya means a purposeful action; in yoga it means a cleansing practice. The six kriyas of this syllabus are Kapalabhati, Neti, Trataka, Nauli, Dhouti and Vasti, which clean the nose, throat, stomach, intestines and lungs."
           ],
           "status": "verified",
           "occurrences": [
@@ -1854,7 +1992,13 @@
               "paper": "/downloads/pyqs/2024/s1-8-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2024-4",
@@ -1882,8 +2026,8 @@
           "question": "What is Bandha? Explain one of its types.",
           "marks": 2,
           "answer": [
-            "Bandha means a yogic lock, traditionally used with other practices to regulate prana.",
-            "For example, Jalandhara Bandha is the throat or chin lock. It involves a controlled neck-and-chin position and must be learned with competent guidance, not forced as a classroom neck exercise."
+            "A bandha is a lock — a deliberate, sustained tightening of a specific muscle group, which is said to close a passage and to direct and retain the flow of prana along the nadis. There are three: Jalandhara (throat), Uddiyana (abdomen) and Mula (base of the pelvis).",
+            "Mula Bandha, the root lock, contracts the pelvic floor muscles as if holding back the passage of stool or urine, drawing the perineum upwards and inwards. It is practised in Sarvangasana, in Padmasana and at the close of an asana sequence, and it should never strain or bear down."
           ],
           "status": "verified",
           "occurrences": [
@@ -1894,7 +2038,13 @@
               "paper": "/downloads/pyqs/2025/s1-8-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-022",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2025-3",
@@ -2307,7 +2457,7 @@
           "question": "What is self-actualization?",
           "marks": 1,
           "answer": [
-            "Self-actualization is the development and fulfilment of one’s abilities and potential, associated with Abraham Maslow’s humanistic psychology."
+            "Self-actualisation means living in accordance with the best of one's own nature — knowing what one truly is, choosing it freely and expressing it in action, instead of living from fear, comparison and habit."
           ],
           "status": "verified",
           "occurrences": [
@@ -2332,7 +2482,13 @@
               "paper": "/downloads/pyqs/2024/s1-8-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2021-2",
@@ -2381,7 +2537,7 @@
           "question": "Write one difference between stress and depression.",
           "marks": 1,
           "answer": [
-            "Stress is a response to demands or pressures; depression is a mental-health condition involving persistent low mood or loss of interest and other symptoms, not merely everyday pressure."
+            "Difference between stress and depression: stress is a normal, temporary response to an outside demand and passes when the demand passes; depression is a clinical mood disorder whose loss of interest, energy and sleep persists for weeks, whether or not any cause is present."
           ],
           "status": "verified",
           "occurrences": [
@@ -2392,15 +2548,20 @@
               "paper": "/downloads/pyqs/2022/s1-8-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-017",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-8-2022-4",
           "question": "Explain the effects of Yoga on the physiological systems of the human body.",
           "marks": 2,
           "answer": [
-            "Appropriate postures can improve muscular strength, flexibility and balance, while breathing practice develops respiratory awareness and control.",
-            "Relaxation may help regulate stress responses and support cardiovascular well-being. These are possible benefits of suitable practice, not proof that yoga cures every organ disorder."
+            "Effects on the physiological systems: the syllabus names six — circulatory, musculoskeletal, digestive, nervous, respiratory and excretory — and yoga acts on each. It steadies the heartbeat and supports healthy blood pressure, increases the flexibility of spine and hips and corrects rounded shoulders, improves digestion and the bowel, calms the nervous system and improves sleep, deepens the breath, and assists the kidneys and bladder."
           ],
           "status": "verified",
           "occurrences": [
@@ -2411,15 +2572,20 @@
               "paper": "/downloads/pyqs/2022/s1-8-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-032",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-8-2022-5",
           "question": "“Regular practice of Yoga impacts positively on the circulatory system of the human body.” Justify.",
           "marks": 2,
           "answer": [
-            "Suitable movement engages muscles and supports circulation; relaxation and slow, comfortable breathing can reduce stress-related arousal.",
-            "Some programmes help blood-pressure management, but effects vary. Yoga is an adjunct to prescribed care, and strenuous or breath-retaining practices may be unsuitable for some people."
+            "Circulatory system — justified. Regular practice strengthens the heart muscle, steadies and moderates the heartbeat, improves circulation to the extremities, supports healthy blood pressure and lowers the resting heart rate. The reason is that slow pranayama with a longer out-breath calms the nervous system, and asanas keep the muscles active and the blood moving."
           ],
           "status": "verified",
           "occurrences": [
@@ -2430,15 +2596,20 @@
               "paper": "/downloads/pyqs/2022/s1-8-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-033",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-8-2022-5-alternative",
           "question": "“Regular practice of Yoga impacts positively on the digestive system of the human body.” Justify.",
           "marks": 2,
           "answer": [
-            "Gentle movement, relaxation and a regular routine may support abdominal comfort and reduce stress that aggravates some digestive symptoms.",
-            "Benefits vary and do not establish a cure for digestive disease; persistent pain or other symptoms require assessment rather than repeated abdominal compression."
+            "Digestive system — justified. Regular practice improves appetite and digestion, regulates the bowel, relieves bloating, wind and constipation, and tones the abdominal muscles. Uddiyana Bandha, Bhastrika, Nauli, Pawanmuktasana and Surya Namaskar are the practices the syllabus names for it."
           ],
           "status": "verified",
           "occurrences": [
@@ -2449,15 +2620,21 @@
               "paper": "/downloads/pyqs/2022/s1-8-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-033",
+            "selection": "excerpt"
+          }
         },
         {
           "id": "s1-8-2023-2",
           "question": "What is supplemental exercise? Give one example.",
           "marks": 2,
           "answer": [
-            "Supplemental exercise is activity added to a main activity or programme to support its aims.",
-            "For example, a sportsperson may add suitable yoga stretches and balance practice to sports training; the yoga supplements rather than replaces the main training."
+            "Supplemental exercise is a set of practices added to a person's main activity in order to supply what that activity lacks — usually flexibility, breathing, relaxation and concentration. The syllabus calls it Supplemental Yoga, and the typical practices are the Sun Salutation, standing forward bends, a standing asana sequence, Anulom-Vilom and Savasana.",
+            "For example, a football player who sprints hard but never stretches can add Surya Namaskar and a standing forward-bend sequence as a warm-up and Savasana as a cool-down. A student revising for four hours can add the same ten minutes for the back and the eyes."
           ],
           "status": "verified",
           "occurrences": [
@@ -2475,7 +2652,13 @@
               "paper": "/downloads/pyqs/2024/s1-8-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-027",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2023-6",
@@ -2503,8 +2686,8 @@
           "question": "Write down the effects of Yoga on the circulatory system. Mention any two asanas that help improve digestion.",
           "marks": 2,
           "answer": [
-            "Appropriate movement and relaxation can support circulation and stress management; some programmes help blood-pressure control as an adjunct to care.",
-            "Pawanmuktasana and Vajrasana are traditionally associated with digestive comfort. They require individual suitability and are not established cures for digestive disorders."
+            "On the circulatory system — heart, blood and vessels — regular practice strengthens the heart muscle, steadies and moderates the heartbeat, supports healthy blood pressure, improves circulation to the extremities and reduces the resting heart rate. The practices are pranayama (especially Anulom-Vilom), Savasana, Uddiyana Bandha and regular asana. In class this shows as children who are less breathless running up the school stairs.",
+            "Two asanas that improve digestion: Pawanmuktasana, which releases wind, bloating and constipation, and Surya Namaskar, which warms the body system by system and improves digestion."
           ],
           "status": "verified",
           "occurrences": [
@@ -2515,14 +2698,20 @@
               "paper": "/downloads/pyqs/2024/s1-8-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-029",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2025-1-c",
           "question": "Write a short answer on Power Yoga.",
           "marks": 1,
           "answer": [
-            "Power Yoga is a modern, physically demanding style using flowing postures to develop strength and endurance; programmes vary."
+            "Power Yoga is a modern, vigorous and largely secular fitness form of asana derived from Hatha Yoga, building strength, stamina and flexibility through flowing sequences held for several breaths. It shares only a letter with Raja Yoga and is not for primary children."
           ],
           "status": "verified",
           "occurrences": [
@@ -2533,14 +2722,20 @@
               "paper": "/downloads/pyqs/2025/s1-8-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2025-1-e",
           "question": "Write a short answer on Regenerative Yoga.",
           "marks": 1,
           "answer": [
-            "Regenerative Yoga uses gentle, restful practice to support relaxation and recovery from fatigue, rather than strenuous performance."
+            "Regenerative Yoga restores strength, energy and health after illness, injury, exhaustion or overwork. It rebuilds the body's depleted reserve through slow, supported, restful postures, gentle seated and supine asanas, Savasana and deep relaxation."
           ],
           "status": "verified",
           "occurrences": [
@@ -2551,14 +2746,20 @@
               "paper": "/downloads/pyqs/2025/s1-8-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2025-1-f",
           "question": "Write a short answer on the effect of Yoga on the digestive system.",
           "marks": 1,
           "answer": [
-            "Gentle movement and relaxation may support digestive comfort by helping with inactivity and stress; yoga does not cure all digestive diseases."
+            "Yoga improves appetite and digestion, regulates the bowel, relieves bloating, wind and constipation and tones the abdominal muscles. The practices named are Uddiyana Bandha, Bhastrika, Nauli, Pawanmuktasana, Surya Namaskar and the shatkarmas generally."
           ],
           "status": "verified",
           "occurrences": [
@@ -2569,15 +2770,21 @@
               "paper": "/downloads/pyqs/2025/s1-8-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2025-2-b",
           "question": "What do you mean by lifestyle diseases? Give two examples.",
           "marks": 2,
           "answer": [
-            "Lifestyle diseases are conditions whose risk is influenced by patterns such as inactivity, diet, smoking or harmful alcohol use, alongside genetic and environmental factors.",
-            "Examples are type 2 diabetes and hypertension. They are not simply the result of personal laziness or moral failure."
+            "Lifestyle diseases are illnesses largely produced by the way a person lives — chronic stress, sedentary habit, poor diet and insufficient activity. The syllabus names five: anxiety, depression, obesity, hypertension and diabetes.",
+            "Two examples: hypertension, where slow regular breathing and relaxation help to lower blood pressure and reduce the stress response; and obesity, where yoga improves body awareness, cuts down stress-eating and tones the muscles. In every one of them yoga is complementary to medical care, never a replacement for it."
           ],
           "status": "verified",
           "occurrences": [
@@ -2588,15 +2795,21 @@
               "paper": "/downloads/pyqs/2025/s1-8-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-023",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-8-2025-2-c",
           "question": "Write about the effect of Yoga on the respiratory system.",
           "marks": 2,
           "answer": [
-            "Appropriate breathing exercises develop awareness and coordination of breathing and may improve some respiratory measures.",
-            "Benefits depend on the practice and individual; breathing should remain comfortable, and respiratory disease still requires appropriate medical care."
+            "The respiratory system brings in oxygen and removes carbon dioxide. Regular practice increases the depth and capacity of breathing, strengthens the diaphragm and the muscles between the ribs, improves the cough and cleanses the nasal passages and the lungs.",
+            "The practices named for it are Kapalabhati, Bhastrika and Anulom-Vilom among the pranayamas, and Makarasana, Bhujangasana and Sarpasana among the asanas. In the classroom it shows in children who can read aloud from the back of the room without getting out of breath."
           ],
           "status": "verified",
           "occurrences": [
@@ -2607,7 +2820,13 @@
               "paper": "/downloads/pyqs/2025/s1-8-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.8_m12-024",
+            "selection": "full-answer"
+          }
         }
       ]
     }

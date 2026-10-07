@@ -31,7 +31,7 @@
           "question": "Write one objective of Work Education.",
           "marks": 1,
           "answer": [
-            "To develop respect for useful work and the people who perform it."
+            "One objective is to develop the dignity of labour — so that a child who sweeps the classroom or works in the garden does it without embarrassment, and treats the sweeper, cook and gardener as members of the school."
           ],
           "status": "verified",
           "occurrences": [
@@ -63,14 +63,20 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2021-1-b",
           "question": "Mention the four pillars of education.",
           "marks": 1,
           "answer": [
-            "Learning to know, learning to do, learning to live together and learning to be."
+            "Learning to know, learning to do, learning to live together and learning to be. These four pillars are UNESCO's formulation, set out in the Delhi Declaration of 1969 and developed in the Faure Report, Learning to Be (1972)."
           ],
           "status": "verified",
           "occurrences": [
@@ -88,14 +94,20 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2021-1-c",
           "question": "Write one difference between work education and vocational education.",
           "marks": 1,
           "answer": [
-            "Work education uses practical work for broad educational development, while vocational education focuses more specifically on knowledge and skills related to occupations."
+            "Work education is education through work, for every child, aiming at dignity of labour and self-reliance. Vocational education is education for a specific trade, for a selected group, leading to certification and placement. They differ in purpose, not only in timing."
           ],
           "status": "verified",
           "occurrences": [
@@ -113,14 +125,20 @@
               "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2022-1-a",
           "question": "What is work in work education?",
           "marks": 1,
           "answer": [
-            "Work is purposeful practical activity used as a medium for developing knowledge, skills and values, often through making useful things or providing a useful service."
+            "Work, as this syllabus uses the word, means planned activities carried out to produce, maintain, improve, innovate or transform materials, facilities, living conditions or services, with the specific purpose of meeting needs of conservation or extension, in socially approved ways."
           ],
           "status": "verified",
           "occurrences": [
@@ -131,14 +149,20 @@
               "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-012",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2022-1-c",
           "question": "What is bagless day?",
           "marks": 1,
           "answer": [
-            "A bagless day is a planned day of experiential learning beyond routine textbook lessons, such as supervised craft or vocational exposure; it is not simply a holiday."
+            "A bagless day is a day in the school programme when children come without bags, books and notebooks and spend the day in activity instead — visiting, working, observing and discussing — so that learning happens through experience."
           ],
           "status": "verified",
           "occurrences": [
@@ -156,14 +180,20 @@
               "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2022-1-d",
           "question": "Mention one objective of vocational education.",
           "marks": 1,
           "answer": [
-            "To develop knowledge and practical skills relevant to an occupational field."
+            "To equip the learner with the knowledge, skills and attitudes required for a specific occupation, to a standard an employer will recognise, so that the training ends in certification and a placement in that trade."
           ],
           "status": "verified",
           "occurrences": [
@@ -174,14 +204,20 @@
               "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-015",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2023-1-d",
           "question": "Define Vocational Education.",
           "marks": 1,
           "answer": [
-            "Vocational education develops knowledge, skills and attitudes related to occupational fields and preparation for working life."
+            "Vocational education is education for a vocation — a specific occupation or trade — equipping the learner with the knowledge, skills and attitudes needed to enter and perform that work to a standard an employer will recognise, normally leading to a certificate."
           ],
           "status": "verified",
           "occurrences": [
@@ -192,14 +228,20 @@
               "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-011",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2025-7-a",
           "question": "Write a short note: NEP 2020 and work education.",
           "marks": 1.5,
           "answer": [
-            "NEP 2020 promotes experiential and vocational exposure, including a 10-day bagless period during Grades 6–8 with opportunities to learn from local experts. It seeks to connect learning with practical skills and respect for different kinds of work."
+            "NEP 2020 and work education\nNEP 2020 replaces the old 10 per cent vocationalisation reservation with vocational exposure from Grade 6 onwards, so that no child is routed out of the mainstream at fourteen. It adopts the 5+3+3+4 design, makes work education a dimension of every subject rather than a separate stream, and aims that every child has at least one vocational skill by the end of the school stage."
           ],
           "status": "verified",
           "occurrences": [
@@ -210,14 +252,20 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-022",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-9-2025-7-b",
           "question": "Write a short note: View of Mahatma Gandhi regarding work education.",
           "marks": 1.5,
           "answer": [
-            "Gandhi saw meaningful productive work as a medium of education. Through craft-centred learning, intellectual development could be joined with practical skill, self-reliance, cooperation and dignity of labour."
+            "Mahatma Gandhi and work education\nIn Hind Swaraj (1909) Gandhi identified the village and the charkha as the soul of India and attacked the division between bookish and manual education. Nai Talim (1918–19) centred the whole of education on productive manual craft. Two convictions run through it: all work is dignified, and education should be self-supporting."
           ],
           "status": "verified",
           "occurrences": [
@@ -228,14 +276,20 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-022",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-9-2025-7-c",
           "question": "Write a short note: Differences between work education and vocational education.",
           "marks": 1.5,
           "answer": [
-            "Work education uses practical activity for broad educational development, including everyday skills and values. Vocational education focuses more specifically on preparation for occupational fields. Both can combine knowledge, practical competence and responsible attitudes."
+            "Work education and vocational education\nWork education is education through work — integrated with the whole curriculum, for every child without selection, broad in outcome and normally uncertified. Vocational education is education for a specific trade, with a separate syllabus, for a selected group from the secondary stage, ending in certification and placement."
           ],
           "status": "verified",
           "occurrences": [
@@ -246,15 +300,20 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-022",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-9-2021-6-a",
           "question": "Write a short note: Kothari Commission and Work Education.",
           "marks": 2,
           "answer": [
-            "The Kothari Commission (1964–66) recommended work experience as an integral part of general education.",
-            "It sought to connect education with productive activity and everyday life, helping learners combine understanding with practical participation."
+            "Kothari Commission and work education\nThe Education Commission, chaired by Dr. D. S. Kothari, was set up in 1964 and submitted its report on 29 June 1966. It recommended ten years of general education as 7+3+2, that work experience and national service should form an integral part of the educational programme in every institution, and a 10 per cent reservation for vocationalisation at the secondary stage. The National Policy on Education of 1968 carried this language into official policy."
           ],
           "status": "verified",
           "occurrences": [
@@ -265,15 +324,20 @@
               "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-030",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-9-2022-6-b",
           "question": "Write a short note: Mahatma Gandhi and work education.",
           "marks": 2,
           "answer": [
-            "Gandhi's basic education placed meaningful productive craft at the centre of learning, connecting practical activity with intellectual development.",
-            "It also emphasised self-reliance, cooperation and dignity of labour rather than treating manual work as inferior."
+            "Mahatma Gandhi and work education\nIn Hind Swaraj (1909) Gandhi argued that the village and the charkha were the soul of India and criticised sharply the division between bookish and manual education. From this came Nai Talim (1918–19), in which the whole of education was centred on productive manual craft. Vinoba Bhave and the Shramdan movement carried it into institutional practice. What survives in policy is the principle — dignity of labour and education connected to the means of living."
           ],
           "status": "verified",
           "occurrences": [
@@ -284,15 +348,20 @@
               "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-028",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-9-2022-6-c",
           "question": "Write a short note: Four pillars of education.",
           "marks": 2,
           "answer": [
-            "The four pillars are learning to know (understanding), learning to do (practical competence), learning to live together (cooperation) and learning to be (personal development).",
-            "Work education can connect them through a shared practical task that requires investigation, skilled action, collaboration and responsibility."
+            "Four pillars of education\nLearning to know, learning to do, learning to live together and learning to be — UNESCO's four pillars, from the Delhi Declaration of 1969 and the Faure Report, Learning to Be (1972). One work activity can serve all four: measuring a plot for a seed bed teaches knowing, cooking and building teach doing, group production teaches living together, and choosing a material and judging one's own finished work teaches being."
           ],
           "status": "verified",
           "occurrences": [
@@ -303,16 +372,21 @@
               "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-028",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-9-2023-6-a",
           "question": "Write a short note: Mahatma Gandhi and Work Education.",
           "marks": 3,
           "answer": [
-            "Gandhi's Nai Talim used productive craft as a central medium of basic education.",
-            "School subjects could be connected with the craft, allowing learners to join thought with practical work.",
-            "The broader aims included self-reliance, cooperative living and respect for labour, not merely learning to manufacture an object."
+            "Mahatma Gandhi and Work Education",
+            "Gandhi's educational thought grew out of his political argument. In Hind Swaraj (1909) he argued that the village and the charkha were the soul of India, and that independence could not be built by a small elite but had to begin among the millions who work with their hands. From this came basic education, or Nai Talim, usually dated 1918-19 and developed around the Non-Cooperation movement, in which the whole of education from the earliest stage upward was centred on productive manual craft with the charkha at its heart. Two convictions run through it: all work is dignified, and education should be self-supporting, so that the products are useful enough to pay for the process. Vinoba Bhave and the Shramdan movement carried the scheme into institutional practice. A small rural Assamese school running a kitchen garden or a paper and stationery unit is a standing example of what he meant."
           ],
           "status": "verified",
           "occurrences": [
@@ -323,7 +397,13 @@
               "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-006",
+            "selection": "label:a"
+          }
         }
       ],
       "practice": [
@@ -692,7 +772,7 @@
           "question": "Mention four activities of work education which helps in skill development of the learner.",
           "marks": 2,
           "answer": [
-            "Paper folding, clay modelling, supervised gardening and simple book-cover making."
+            "- Making stationery items — measuring card, cutting on a board, folding and binding a register — trains precision and sequence.\n- Bamboo and clay work — splitting green bamboo, weaving, kneading and shaping — trains hand skill and strength.\n- Gardening and plantation — sowing, thinning, watering, planting and keeping a dated garden record — trains care and regularity.\n- Cookery and food preservation — cutting, cooking and jarring jam or pickle — trains hygiene, measurement and discipline over a process."
           ],
           "status": "verified",
           "occurrences": [
@@ -703,15 +783,20 @@
               "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-029",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2021-6-c",
           "question": "Write a short note: Population Education and removal of evil customs from the society.",
           "marks": 2,
           "answer": [
-            "Population education helps learners examine relationships between people, resources, well-being and responsible social choices.",
-            "It can challenge harmful customs through informed discussion of equality, education and dignity, rather than blaming particular communities. School activities can build critical thinking and respectful communication that support social awareness."
+            "Population education and removal of evil customs\nPopulation education builds an understanding of population size, growth and distribution and of their relation to family welfare and resources, so that family size becomes a responsible choice. Customs such as child marriage, dowry and caste restriction grow out of ignorance; they are removed by awareness through schools, adult education and women's education, and by enforcing the existing legal provisions against them."
           ],
           "status": "verified",
           "occurrences": [
@@ -722,15 +807,20 @@
               "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-030",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-9-2023-3",
           "question": "What do you understand by behavioural change of learner? Write with example.",
           "marks": 2,
           "answer": [
-            "Behavioural change is a development in a learner's actions, understanding or attitudes through learning and experience.",
-            "For example, after guided group work, a learner who previously kept shared tools may begin to offer turns and return them responsibly, showing growth in cooperation and care."
+            "A behavioural change is a lasting change in what a child actually does — punctuality, care of tools, responsibility, self-confidence, cooperation — brought about by repeated work under real conditions, not by a single demonstration.\nFor example: before the programme a girl would not speak in front of the class; in the sixth week she told the group, unprompted, that the knives must be washed before the vegetables are cut because otherwise the food is not safe, and the other eleven children accepted it."
           ],
           "status": "verified",
           "occurrences": [
@@ -741,15 +831,20 @@
               "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-026",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2024-5-a",
           "question": "Write a short note: Behavioural changes in learners through work education activities.",
           "marks": 2,
           "answer": [
-            "Work education can develop understanding and practical skills, for example planning a sequence and measuring materials more accurately.",
-            "It can also develop cooperation, responsibility and respect for labour when activities include fair participation, feedback and reflection."
+            "The changes expected are punctuality and regularity, disciplined work habits, respect for tools and materials, responsibility and accountability, self-confidence, problem-solving, cooperation, tolerance of hard work and delayed reward, and a reduced fear of manual work. These are not assertions but records. A child who earlier arrived after the bell and left first now arrives before it, because the garden duty begins then, and signs the duty register for three consecutive weeks without a reminder."
           ],
           "status": "verified",
           "occurrences": [
@@ -760,14 +855,20 @@
               "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-024",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2025-6",
           "question": "Mention four activities of work education which help in knowledge and skill development of learners.",
           "marks": 2,
           "answer": [
-            "Supervised gardening, paper-box making, simple book-cover making and planning a model household budget."
+            "- Raising vegetables in the school garden — measurement, germination and record-keeping happen by doing, not from a diagram.\n- Preparing the household budget — bills, addition, percentages and a bar graph become a real plan the family will follow.\n- Surveying household waste — weighing, totalling and converting to percentages gives the class its own first dataset.\n- Repairing school equipment — the child identifies the material, the force that broke it and the cost of repair against replacement."
           ],
           "status": "verified",
           "occurrences": [
@@ -778,16 +879,21 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-021",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2021-3",
           "question": "“Work education promotes humanistic values of students” — Justify.",
           "marks": 3,
           "answer": [
-            "Sharing a practical task develops cooperation as learners listen, divide responsibilities and assist one another.",
-            "Experiencing the effort involved in useful work encourages respect for workers and challenges the idea that manual work is inferior.",
-            "Caring for common materials and contributing to a shared purpose develops responsibility and consideration for others. These values need fair participation and reflection, not merely the completion of a product."
+            "Humanistic values are the dispositions that treat other people as ends in themselves. Work education promotes them in a way few subjects can, because the child meets them as a worker rather than as a reader.",
+            "- Dignity of labour. The teacher treats the sweeper, cook, gardener and watchman as members of the school and names their work aloud. The worth of an activity is not measured by the social rank of the person who does it.\n- Honesty and accountability. A group that keeps accounts and a tool register, and reports honestly when a material is short, is learning a moral habit as much as a clerical one.\n- Self-respect. A task graded to the child's present capacity gives the experience of having managed something difficult, and out of that grows an honest self-image as a capable person.\n- Regard for others. Group production forces sharing, negotiation over scarce tools and acceptance of a common standard.\n- Care for the world. Measuring the water, tending a living plant without owning it, repairing rather than replacing - these make a child someone who maintains rather than merely consumes."
           ],
           "status": "verified",
           "occurrences": [
@@ -798,16 +904,23 @@
               "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2022-3",
           "question": "What is behavioural changes in learners? Mention two activities of work education for elementary learners to develop Social skills.",
           "marks": 3,
           "answer": [
-            "Behavioural changes are developments in how learners understand, perform and respond to tasks and other people as a result of learning and experience.",
-            "A shared gardening activity can develop cooperation through planning roles, sharing materials and caring for plants together.",
-            "A group classroom-organising project can develop communication and responsibility as learners discuss categories, listen to suggestions and carry out agreed duties."
+            "Behavioural change in learners means a visible and lasting change in what a child does, knows and feels - in the syllabus's three categories, knowledge, skills and attitude. It is not a change in marks alone. It is punctuality, care of tools, cooperation, self-confidence, acceptance of responsibility and a reduced fear of manual work. The test is simple: the teacher must be able to illustrate it with something that actually happened, with a date, rather than merely assert that the child has become disciplined.",
+            "Two activities for elementary learners:",
+            "1. Group production with divided roles - making eighty file covers, or cooking a dish together. Each child takes one job, scarce tools must be shared fairly, and the product has to meet a common standard. A Class V child who quarrels over who does what in week one can, by week six, describe what the whole group did.",
+            "2. A shared school responsibility - the published daily cleanliness rota, or the garden duty. Because the rota names every child and everybody serves, a learner learns that the tidiness of the school is not the sweeper's business alone."
           ],
           "status": "verified",
           "occurrences": [
@@ -818,16 +931,21 @@
               "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-007",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2023-6-b",
           "question": "Write a short note: Sociocultural evils.",
           "marks": 3,
           "answer": [
-            "Sociocultural evils are harmful social practices or attitudes, such as discrimination and exclusion, that undermine dignity and equal participation.",
-            "Education can help learners question them through evidence, discussion and reflection on fairness.",
-            "Cooperative work and respectful engagement with different people offer practical opportunities to challenge stereotypes; a community should not be labelled inferior because some practices need criticism."
+            "Socio-cultural evils",
+            "These are the customs, practices and beliefs of a society that harm the well-being of its members - untouchability and the caste-based division of labour, the idea that certain occupations are beneath certain people, the exclusion of girls, child labour and child marriage, and the neglect of the old and the sick. They persist because the work behind them is invisible, done by one person, and therefore never discussed. Work education attacks them directly by teaching the dignity of labour. When a child sweeps without embarrassment and speaks of the sweeper as 'we', the social division of work has lost its moral base."
           ],
           "status": "verified",
           "occurrences": [
@@ -838,16 +956,21 @@
               "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-006",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-9-2024-6",
           "question": "What is socio-cultural evils? What is the role of learners social skill development in removing social evils?",
           "marks": 3,
           "answer": [
-            "Socio-cultural evils are harmful social practices or attitudes that deny dignity or fair opportunities, such as discriminatory exclusion.",
-            "Communication and critical discussion help learners question stereotypes and express disagreement respectfully.",
-            "Empathy and cooperation support inclusive action, such as sharing roles fairly and challenging ridicule. Social skills contribute to change alongside broader educational and social efforts; they do not remove entrenched harms automatically."
+            "Socio-cultural evils are the customs, practices and beliefs of a society that harm the well-being of its members - untouchability and the caste-based division of labour, the belief that certain work is beneath certain people, the exclusion of girls, child labour, child marriage, and the neglect of the old and the sick. They survive because the work they justify is invisible, being done by one person, and therefore never discussed.",
+            "Social skill development is the direct answer. Social skills are the habits of living with other people - cooperating, sharing, resolving conflict, showing respect and holding an honest self-image. UNESCO's third pillar, learning to live together, names the same thing, and work education builds it through its very nature. Group production with divided roles forces a child to negotiate who does what, to wait for a turn, and to accept a common standard. In a school garden shared across castes and sexes, a child who once called sweeping inferior work begins to say 'we' about the sweeper. That one change of word removes the evil at its root, because a caste division of work rests on the denial of labour's dignity."
           ],
           "status": "verified",
           "occurrences": [
@@ -858,16 +981,22 @@
               "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2025-5",
           "question": "How behavioural changes of learners can be gained through activities of work education? Explain with examples.",
           "marks": 3,
           "answer": [
-            "Repeated guided activity develops practical competence: measuring and folding paper can improve accuracy and coordination.",
-            "Planning and troubleshooting develop understanding: learners may compare reasons why a made object is unstable and test a revision.",
-            "Shared roles and reflection develop attitudes: a group gardening task can encourage cooperation and regular responsibility. Teachers should observe progress over time rather than assume change from participation alone."
+            "Behaviour is learned by repetition under conditions, and that is exactly what a graded work programme supplies. A single exciting demonstration changes almost nothing; a task performed regularly over weeks, with feedback and a real consequence, changes a great deal. The cycle runs: graded and repeated work, then habit, then attitude, then a self-image of 'I am capable', which sends the child back to deeper work.",
+            "The changes are observable:\n- Punctuality - arriving before the bell because the garden duty begins then.\n- Care of tools - scissors sharpened and returned to the register instead of handled as toys.\n- Responsibility - accepting the group's mistake and saying which step went wrong.\n- Tolerance of delayed reward - watering a seed bed for eight weeks before the first harvest, and still watering it on the last day of term.\n- Self-confidence - sequencing the steps aloud while leading a group, and not consulting the teacher until two attempts have failed.",
+            "Work that is used, eaten or worn changes children faster than work that is only displayed."
           ],
           "status": "verified",
           "occurrences": [
@@ -878,7 +1007,13 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-003",
+            "selection": "full-answer"
+          }
         }
       ],
       "practice": [
@@ -1247,7 +1382,7 @@
           "question": "Mention two tools used for evaluation of Work Education.",
           "marks": 1,
           "answer": [
-            "An observation checklist and a rating scale."
+            "Observation — watching the child at work over a period — and the checklist, a list of yes/no items ticked daily, such as the daily-works checklist for board cleaned, waste separated, garden watered and tools returned."
           ],
           "status": "verified",
           "occurrences": [
@@ -1265,14 +1400,20 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-004",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2023-1-b",
           "question": "What is community resource?",
           "marks": 1,
           "answer": [
-            "A community resource is a locally available person, institution, place or material that can support learning or useful activity."
+            "Community resources are the people, places, materials and skills that already exist in a locality — the potter, the field, the pond, bamboo and clay, the panchayat, the health centre. Most of them are free."
           ],
           "status": "verified",
           "occurrences": [
@@ -1283,14 +1424,20 @@
               "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-009",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2025-1-b",
           "question": "What is human resource?",
           "marks": 1,
           "answer": [
-            "A human resource is a person whose knowledge, skills or experience can contribute to an activity, such as a local craftsperson helping learners understand a craft."
+            "Human resource means the people of a locality — the potter, weaver, carpenter, farmer, nurse, retired teacher and the parents — whose skills, time and labour a school draws on for its work education programme. Most of it is free."
           ],
           "status": "verified",
           "occurrences": [
@@ -1301,15 +1448,20 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-002",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2022-2",
           "question": "Suggest two measures for successful implementation of the subject work education in school.",
           "marks": 2,
           "answer": [
-            "Provide regular planned time, suitable materials and safe supervision for meaningful practical activities.",
-            "Connect activities with curriculum goals and available community expertise, then assess learners' participation and progress rather than only finished products."
+            "- Plan and record properly. A written plan, a materials list, a division of labour and a safety note before the work starts, and a dated record afterwards — date, task, what I noticed, what I did about it. An unrecorded task decays.\n- Give the work a real user. The product should be used, eaten, planted, sold or displayed, and the rubric should be published to the children in advance. Work that nobody uses teaches the child that effort does not matter."
           ],
           "status": "verified",
           "occurrences": [
@@ -1320,15 +1472,20 @@
               "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-027",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2022-6-a",
           "question": "Write a short note: Evaluation system in work education.",
           "marks": 2,
           "answer": [
-            "Evaluation should consider the learning process as well as the product, including understanding, practical skills, cooperation and responsible use of materials.",
-            "Teachers can combine observation, checklists, work samples and learner explanations, providing feedback during the task so learners can improve."
+            "Evaluation system in work education\nEvaluation in work education is continuous and comprehensive — a record after every activity, covering both scholastic achievement and the wider development of the learner, with the work activity carrying marks in the internal assessment. The tool must be matched to the claim: a skill is assessed by performance, an attitude by observation and self-report over time, growth by a portfolio or a before-and-after pair, and knowledge by a written or oral test."
           ],
           "status": "verified",
           "occurrences": [
@@ -1339,14 +1496,20 @@
               "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-028",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-9-2024-2",
           "question": "Mention four activities to fulfill the objectives of work education successfully.",
           "marks": 2,
           "answer": [
-            "Supervised gardening, making useful paper items, organising a class library and creating suitable objects from safe reusable materials."
+            "- Run a graded sequence of skills — tearing paper, then folding file covers, then binding a register — so that the child finishes a specified task to a stated standard, unaided.\n- Publish a duty roster with a tool register and accounts, so responsibility and accountability are built into the day.\n- Set group production with divided roles, shared tools and one common standard, which is what teaches cooperation.\n- Take children to real workers — farmers, weavers, artisans — through field visits and resource persons, which prepares them for the world of work."
           ],
           "status": "verified",
           "occurrences": [
@@ -1357,15 +1520,20 @@
               "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-023",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2024-7",
           "question": "Mention the evaluation systems used in work education.",
           "marks": 2,
           "answer": [
-            "Use continuous formative evaluation during activities through observation, checklists, learner explanations and feedback.",
-            "Use a summative review of practical performance, work samples or portfolios against clear criteria. Include self- and peer reflection as supporting evidence while retaining teacher responsibility for fair judgement."
+            "The syllabus asks for continuous and comprehensive evaluation — a short record after every activity, spread across the year and covering skills and attitude as well as marks. The tools are observation, checklist, rating scale, rubric, anecdotal record, interview, questionnaire, practical or performance assessment, portfolio, project report and peer and self-assessment, with the written or oral test reserved for knowledge."
           ],
           "status": "verified",
           "occurrences": [
@@ -1376,16 +1544,22 @@
               "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-025",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2021-4",
           "question": "What is community resource? Prepare a list of community resources of your locality.",
           "marks": 3,
           "answer": [
-            "A community resource is a person, place, institution or material in the local community that can support learning and useful activity.",
-            "An illustrative list includes gardeners, potters, carpenters, weavers, a library, a nursery, a market and suitable locally available clay or reusable materials.",
-            "In an examination response, adapt this list to resources actually present in your locality. Explain their relevance, such as a gardener supporting a plant-care activity, rather than inventing local facilities."
+            "A community resource is a person, place, material, organisation or source of information that already exists in a locality and can be used for learning - and most of them are free. Identifying them is a method, not a list: walk the locality, list everything within reach, ask who knows what, and mark what is free, what costs, what needs permission and what is dangerous. A factory, an open well and a road are resources in one sense and hazards in another.",
+            "A list for a typical Assamese semi-urban locality:\n- People and skills: the potter, weaver, carpenter, blacksmith, mason, cobbler, farmer, midwife, cook, retired teacher, nurse, an NGO worker.\n- Places: the paddy field, the pond and river bank, the weekly market, the workshop, the panchayat office, the anganwadi, the health centre, the agricultural office, the library.\n- Materials: clay, bamboo, cane, jute, sand, timber offcuts, paddy husk, farmyard manure, crop residue, waste paper, bottles, scrap metal.\n- Organisations: the panchayat, the School Management Committee, the Block office, the PWD, the agriculture and forest departments, a cooperative, an NGO.",
+            "Utilisation is where most plans fail. Every resource used must be written down with a person responsible, a date, a purpose in one sentence, and a product. Without the product the visit is a trip; with it, it is work."
           ],
           "status": "verified",
           "occurrences": [
@@ -1396,16 +1570,21 @@
               "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2023-6-c",
           "question": "Write a short note: Importance of morning assembly in school.",
           "marks": 3,
           "answer": [
-            "A well-planned assembly provides a shared beginning to the school day and communicates important information.",
-            "Learners can practise speaking, organising and cooperating through suitable rotating roles.",
-            "Inclusive activities can build a sense of community and responsibility. The programme should be accessible and respectful of different backgrounds rather than a platform for exclusion or humiliation."
+            "Importance of the morning assembly",
+            "The assembly is one of the two compulsory daily works, and it is a small complete piece of organisation - a rehearsal for everything else in this paper.\n- Discipline. The group's own members set the standard of standing and silence. A leader who shouts has taught the opposite of what the assembly is for.\n- Timekeeping. Ten minutes, never twelve. Appointing a person responsible for time is the most transferable skill in the list.\n- Confidence. Every child takes the microphone eventually - prayer, song, thought, announcement - and learns to speak in front of others.\n- Community. All classes gather, which is one of the few daily moments when the whole school meets as one.\n- Assessment. The three-minute review afterwards against a rating sheet is daily-work assessment in action."
           ],
           "status": "verified",
           "occurrences": [
@@ -1416,16 +1595,22 @@
               "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-006",
+            "selection": "label:c"
+          }
         },
         {
           "id": "s1-9-2025-4",
           "question": "“Work education is integrated with other curricular subjects” — Justify with examples.",
           "marks": 3,
           "answer": [
-            "A gardening task connects with mathematics when learners measure beds or compare quantities.",
-            "It connects with environmental studies when they observe plant growth and investigate water and soil needs.",
-            "Recording observations and explaining the process connect with language. Thus the same meaningful task applies and develops knowledge from several subjects."
+            "Integration is not co-existence. Co-existence is a separate work period beside the other subjects, and it teaches children that work is what they do when the real lessons are over. Integration means one activity carries objectives from several subjects at once.",
+            "Take raising vegetables in the school garden. Language names the plants, writes the labels and reads the seed packet. Mathematics counts plants, measures height, calculates yield per square metre and plots a growth graph. Science observes germination, the needs of a plant and the harm done by insects. Social studies shows where the family's food comes from and who grows it at what cost. Other examples are keeping a household budget, surveying household waste, visiting a food preservation centre and repairing school equipment.",
+            "Note what integration does not mean: the activity does not replace language or mathematics teaching. It means the same two periods serve several objectives, which is efficient."
           ],
           "status": "verified",
           "occurrences": [
@@ -1436,16 +1621,23 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-002",
+            "selection": "label:a"
+          }
         },
         {
           "id": "s1-9-2025-4-alternative",
           "question": "Discuss about the role of teachers and parents in carrying out different activities of work education in school?",
           "marks": 3,
           "answer": [
-            "Teachers select curriculum-linked activities, plan accessible roles and materials, demonstrate suitable methods and supervise safe participation.",
-            "Parents can share relevant knowledge or voluntary support and encourage learners, without doing the assessed work for them or being required to provide unaffordable resources.",
-            "Teachers and parents can communicate about needs and progress, while the school evaluates learners' own understanding, skills and participation and improves the programme."
+            "The role of teachers and parents",
+            "The syllabus asks the headmaster, teachers and parents to work together through a cycle: identify the need, consult the people affected, plan materials, cost and time, do the work, observe and record, evaluate and improve.",
+            "- Teachers carry the classes, work out the sequence, keep the ordinary teaching running alongside, and record what they actually see - which child cannot do what, which material is short, which class is noisy.\n- Parents are partners, not visitors. They say plainly what time, labour or money they can actually give, supply materials or labour, and report whether a change has really made a difference at home.",
+            "Skipping the consultation stage is the commonest failure. A measure imposed on teachers or on children's homes without asking them is resented, and it is not sustained."
           ],
           "status": "verified",
           "occurrences": [
@@ -1456,17 +1648,23 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-002",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-9-2022-4",
           "question": "Explain with examples how the locally available human resources and material resources help in implementation of work education in school.",
           "marks": 4,
           "answer": [
-            "Human resources provide practical knowledge and guidance: a local gardener can explain plant care, while a craftsperson can demonstrate a suitable making process.",
-            "Material resources make activities concrete and feasible: suitable local clay, seeds, paper or reusable containers can support supervised projects.",
-            "Together they connect school concepts with familiar work. For example, a nursery worker and seed-growing materials can help learners study plant needs and practise observation.",
-            "Teachers must select safe, accessible activities, agree on supervision and connect the experience with reflection and assessment. Local availability alone does not guarantee educational value or safety."
+            "Work education of the kind this syllabus asks for cannot be bought off a shelf. A school runs the programme out of what the locality already has, and that is a strength — the material is cheap, repairable and familiar.",
+            "Human resources come in two groups. Inside the school are the headmaster, who sanctions the plan and keeps the time and the budget; the teachers, who take the classes and record what they observe; and the school's own workers — the cook, the gardener, the sweeper, the watchman. Their work should be named aloud in the timetable, so that the dignity of labour is a fact in the room rather than a line in a textbook. Outside the school there are the potter, the weaver, the carpenter, the farmer, the nurse, the retired teacher. Invite them to demonstrate and to be questioned; the best hour of the year is often the one spent asking a working person about a working day. Parents are partners too, and the School Management Committee is the forum for anything that touches the timetable or the money.",
+            "Material resources are cheaper still: clay, bamboo, cane, jute, stone, sand, timber offcuts, coconut husk, paddy husk, farmyard manure, waste paper, bottles, scrap metal. Places count as resources too — the field, the pond, the river bank, the grazing ground, the market — and so do institutions: the panchayat, the Block office, the agriculture office, an NGO.",
+            "Three questions settle whether a resource becomes work education: is it locally real, can we actually do it here, and would a child remember the finished thing in five years. Then write it down with four things — a person responsible, a date, a purpose in one sentence, and a product. A resource identified but not used is only a wasted afternoon."
           ],
           "status": "verified",
           "occurrences": [
@@ -1484,17 +1682,23 @@
               "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m4-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2023-2",
           "question": "Mention different areas of work education. For successful implementation of Work Education in school, what strategies you will adopt?",
           "marks": 4,
           "answer": [
-            "Areas include gardening, craft and simple production, care of learning materials, household skills and useful community-oriented activities.",
-            "Select age-appropriate work that connects with curriculum goals and local needs, rather than isolated busywork.",
-            "Provide time, safe materials, demonstrations, accessible roles and suitable supervision, involving community expertise where helpful.",
-            "Assess planning, participation, understanding and the outcome, then use feedback to improve the programme. Do not judge success only by the number or appearance of products."
+            "Work enters a school through five main areas.",
+            "- Subject-based work, growing out of what a subject is already teaching — geometry giving measurement and folding, science giving magnetism and simple electricity, language giving the reading aloud and the dictation.\n- Local specific work, drawn from the occupations, materials and crops of the locality — bamboo and cane work, pottery, weaving, vegetable growing, food preservation, repair.\n- Daily institutional work: cleaning of classroom and compound, the garden, the mid-day meal and the assembly, each on a rotating roster with boys and girls alike.\n- Graded workshop and vocational exposure, with complexity rising with the class — tearing paper, then folding a file cover, then binding a register.\n- Community and project work — exposure visits, a survey of local vocations, and the curricular project.",
+            "For implementation I would adopt these strategies.",
+            "- Plan it and grade it. Every activity needs a written plan, a materials list, a division of labour and a safety note. A single demonstration teaches almost nothing; a graded, term-long programme changes children.\n- Integrate rather than add. One activity should carry objectives from several subjects, so that no separate work period is needed — otherwise work education has already reintroduced the division it exists to end.\n- Build it on local resources and local people, recording for each a person, a date, a purpose and a product.\n- Consult before deciding. A measure imposed on teachers without asking them is resented and does not survive the term.\n- Assess with the right tool — a skill by performance, an attitude by observation over time — and publish the criteria before the work begins.\n- Keep dated records of counts, weights and costs. A checked and recorded task improves; an unrecorded one decays."
           ],
           "status": "verified",
           "occurrences": [
@@ -1505,17 +1709,23 @@
               "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m4-003",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2023-4",
           "question": "Mention two short comings in evaluation of work education at school level and give suggestions for their elimination.",
           "marks": 4,
           "answer": [
-            "Shortcoming 1: judging only the finished product overlooks reasoning, effort and the help received.",
-            "Remedy: assess the process through observations, draft work and learner explanations alongside the result.",
-            "Shortcoming 2: vague or inconsistent criteria can favour expensive materials or polished work prepared by adults.",
-            "Remedy: use clear, accessible criteria, provide fair opportunities and record individual participation and progress over several occasions."
+            "Two shortcomings account for most of what goes wrong when a school evaluates its work education.",
+            "First, evaluation is almost entirely written and terminal. Marks are given twice a year for answers in prescribed books, and a written answer cannot show whether a child can actually sow a row, stitch a straight seam or cook a dish. The consequence is worse than unfairness: a week of honest work in the garden is worth nothing, so children learn quickly that the work period does not count. The remedy is to bring the work into the internal assessment with its weighting announced in advance, to examine the product itself, and to hold at least one practical demonstration per term. The child makes a tray, sows a row or cooks a dish from start to finished product, and the product is kept as evidence.",
+            "Second, no criteria are published and no record is kept. The child is judged against a standard never told to it, and because nothing is written down, growth cannot be shown and last year's work cannot be compared with this year's. The remedy is to publish the rubric or checklist before the work begins, keep a portfolio and a register, and give the record back to the child — a child who can see four dated photographs of the same bed as it grew has been assessed by something honest.",
+            "Neither remedy costs money. Put together they give a workable scheme: a short record after every activity, the product examined, one demonstration a term, a child-owned portfolio, self and peer assessment against published criteria, and a parent meeting with the child present. The skill lies in matching the tool to the claim — using a written test to judge a stitching skill is not assessment, it is a guess."
           ],
           "status": "verified",
           "occurrences": [
@@ -1526,7 +1736,13 @@
               "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m4-004",
+            "selection": "full-answer"
+          }
         }
       ],
       "practice": [
@@ -1895,7 +2111,7 @@
           "question": "Write one advantage of domestic budget.",
           "marks": 1,
           "answer": [
-            "It helps a family plan essential spending within its available income."
+            "One advantage is that it shows a family exactly where its money goes and which heads can be reduced — food, festivals, fuel and light — so that spending becomes a plan instead of a habit."
           ],
           "status": "verified",
           "occurrences": [
@@ -1906,14 +2122,20 @@
               "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-013",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2023-1-c",
           "question": "Mention one importance of family budget.",
           "marks": 1,
           "answer": [
-            "A family budget helps prioritise essential expenses and check that the planned spending fits the available income."
+            "A family budget is important because its value lies in comparison: the first budget a child makes must be a record of one full month, and the plan for the next month is then set against what actually happened."
           ],
           "status": "verified",
           "occurrences": [
@@ -1924,15 +2146,20 @@
               "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-010",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2021-6-b",
           "question": "Write a short note: Household safety and security.",
           "marks": 2,
           "answer": [
-            "Household safety involves recognising and reducing hazards, for example keeping movement areas clear and storing dangerous items appropriately under adult responsibility.",
-            "Security includes responsible care of the home and belongings and knowing whom to contact for help. Children should report problems to a trusted adult rather than attempt hazardous repairs or confront danger."
+            "Household safety and security\nSafety is the prevention of injury, security is the protection against loss, and maintenance is the routine work that keeps the first two effective — a fire drill is safety, a locked door is security, oiling a jammed hinge is maintenance. Most household accidents come from small unrepaired defects: an open well, a loose step, an exposed wire, medicine left within reach."
           ],
           "status": "verified",
           "occurrences": [
@@ -1943,15 +2170,20 @@
               "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-030",
+            "selection": "label:b"
+          }
         },
         {
           "id": "s1-9-2025-3",
           "question": "What should be the roles and responsibilities of family members in the caring of elderlys sick person?",
           "marks": 2,
           "answer": [
-            "Family members should listen to the older or sick person's needs, provide companionship and share suitable everyday assistance while respecting dignity and privacy.",
-            "Responsible adults should coordinate any necessary professional care and practical arrangements. Help should support appropriate independence, and children should not be expected to manage medical treatment or hazardous care tasks."
+            "For the sick: know the name of the illness and where the doctor is, keep the room clean, aired and quiet, fetch water and medicines, prepare simple food, read to the patient, and keep a relative's telephone number at hand.\nFor the old: listen and remember what they say, read and write letters, help with the post, sit with them when the household is busy, and notice food, medicine, hearing, a fall risk or a bulb that has failed. The loneliness of the old usually harms them more than their physical need."
           ],
           "status": "verified",
           "occurrences": [
@@ -1962,16 +2194,23 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m12-020",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2022-5",
           "question": "How can we avoid misuse of natural resources? Give three suggestions.",
           "marks": 3,
           "answer": [
-            "Use water carefully and arrange repair of leaks through responsible adults, avoiding unnecessary wastage.",
-            "Avoid unnecessary energy use, for example by switching off unneeded lights and planning suitable journeys efficiently.",
-            "Maintain and reuse suitable materials, buy realistic quantities and separate waste appropriately so usable resources are not discarded needlessly."
+            "Do not moralise children into saving; measure them into it. A child who has filled a bucket and watched twenty litres disappear in ten minutes will not need to be told again.",
+            "1. Measure first, then set a target. Count the drips from a tap in one minute and multiply by 1440 to get the daily loss. Read the electricity meter on the same date every month, weigh the firewood used in a week, and note the tank level at the same hour each week.",
+            "2. Repair and reduce at the source. Mend every leaking tap and put a bucket under a drip to measure it; close taps while brushing teeth and use a mug instead of a running tap; use the minimum bulb power that will do and switch off lights on leaving a room; cook in one lidded pot with the fire sized to the pot.",
+            "3. Harvest and reuse, not merely use less. Fix a gutter and a leaf filter along the roof edge, lead the water to a drum for the garden, and pipe the overflow into a soak pit layered coarse below and fine above, left open to percolate. In Assam the point is not only less use but storage and recharge, since the rain falls in about four months and the rest of the year is dry."
           ],
           "status": "verified",
           "occurrences": [
@@ -1982,16 +2221,22 @@
               "paper": "/downloads/pyqs/2022/s1-9-2022.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-008",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2023-5",
           "question": "“Work education helps students to be responsible towards family and society” — Explain.",
           "marks": 3,
           "answer": [
-            "Suitable household tasks develop self-reliance and an understanding that care of a home should be shared fairly.",
-            "Group and community-oriented activities develop cooperation and awareness of how one's actions affect others.",
-            "Resource conservation and care of common materials encourage responsibility beyond immediate personal benefit. Tasks should remain safe, age-appropriate and compatible with children's learning and well-being."
+            "Responsibility is not taught by telling a child to be responsible. It is built out of jobs the child genuinely owns, each with a record, a deadline and a consequence.",
+            "Towards family, work education produces three habits. First, sharing household work - a time chart filled in for one working week, shared by time rather than by importance, with every member given a share that is theirs alone, including the repair and the planning and not only the sweeping. Second, keeping a budget for a full month and comparing it with what actually happened, with the saving taken first and not last. Third, care - helping younger children, fetching water and medicine for the sick, and sitting with the old, whose loneliness is usually more damaging than their physical need.",
+            "Towards society the same habits widen. A group garden, a school bank or a boundary clean-up teaches that the school's property belongs to the community, and keeping the tool register and the accounts teaches accountability. Naming the cook, gardener, sweeper and watchman as members of the school raises a child who will one day take responsibility for others instead of merely obeying."
           ],
           "status": "verified",
           "occurrences": [
@@ -2002,16 +2247,21 @@
               "paper": "/downloads/pyqs/2023/s1-9-2023.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-005",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2025-2",
           "question": "Why preparation of budget for the family is important? Mention the steps of preparing a domestic budget.",
           "marks": 3,
           "answer": [
-            "A budget helps a family prioritise needs, plan spending within income and prepare for future commitments.",
-            "Estimate the available income, list regular and likely irregular expenses, and allocate amounts for essentials, other spending and feasible savings.",
-            "Check that the total fits the income, record actual expenditure and review differences before adjusting the next plan."
+            "A family budget matters because money remembered is money already spent. Without one, the household finds at the month's end that festivals and social obligations have eaten the year's savings, and it borrows. A budget shows where the money really goes, names the largest items, and turns hope into numbers a child can act on.",
+            "The steps are:\n- Fix the period as one full month.\n- Enter every item of income, including irregular, seasonal and in-kind income at its money value.\n- Enter expenditure under clear heads - food, housing, education, health, transport, fuel and light, clothing, festivals.\n- Total each head and the month, and note the three largest items.\n- Set the saving aside first, on the day the income comes in.\n- Plan the next month against the record, and compare the plan with what actually happened."
           ],
           "status": "verified",
           "occurrences": [
@@ -2022,17 +2272,23 @@
               "paper": "/downloads/pyqs/2025/s1-9-2025.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m3-001",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2021-5",
           "question": "What is the necessity of budget in a family? Prepare a model budget for middle class family.",
           "marks": 4,
           "answer": [
-            "A family budget helps match expenditure with available income, prioritise essential needs and plan for future or unexpected expenses.",
-            "Illustrative monthly income: ₹30,000. Housing ₹8,000; food and household essentials ₹8,000; utilities ₹2,500; transport ₹2,500.",
-            "Education ₹3,000; health and other necessary expenses ₹2,000; savings and contingency ₹4,000. Total allocation = ₹30,000.",
-            "This is a model, not a definition of a middle-class income or a recommended allocation for every household. Actual amounts depend on family size, location, income and needs."
+            "A budget is necessary because a family that does not write its money down discovers at the end of the month that the money went anyway. It shows where the income actually goes, so the largest item can be planned instead of merely suffered. It exposes the item most often left out — festivals, gifts and social obligations — which is the commonest cause of borrowing at the year end. It protects the item that must never be cut, which is education. It turns saving from whatever is left over, which is nothing, into a fixed sum taken out on the day the income arrives. And it gives children economic awareness: a child who has kept the petty cash and knows what a kilogram of seed costs can say what would happen if the selling price fell.",
+            "A model monthly budget for a middle class family of four with an income of ₹40,000:",
+            "Total income — ₹40,000\n- Food — ₹12,000 (30%)\n- Housing and maintenance — ₹6,000 (15%)\n- Education — ₹4,800 (12%)\n- Transport — ₹3,200 (8%)\n- Festivals and social obligations — ₹3,200 (8%)\n- Savings — ₹3,200 (8%)\n- Clothing — ₹2,800 (7%)\n- Health and medicine — ₹2,400 (6%)\n- Fuel and light — ₹2,400 (6%)",
+            "Savings stand at eight per cent here rather than the ten of the rural model, because a middle class household carries a fixed housing cost and medical risk; where the income is secure, the share can be raised. The discipline is the same in both cases — write it down, save first, and then compare this plan with what actually happened, because a budget is only useful against the record of a real month."
           ],
           "status": "verified",
           "occurrences": [
@@ -2043,17 +2299,24 @@
               "paper": "/downloads/pyqs/2021/s1-9-2021.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m4-006",
+            "selection": "full-answer"
+          }
         },
         {
           "id": "s1-9-2024-4",
           "question": "What is domestic budget? Prepare a model budget for your family?",
           "marks": 4,
           "answer": [
-            "A domestic budget is a plan for a household's income, expenditure and savings over a particular period.",
-            "Illustrative monthly income: ₹24,000. Housing ₹6,000; food and household needs ₹7,000; utilities ₹2,000.",
-            "Transport ₹2,000; education ₹2,000; health and other needs ₹2,000; savings and contingency ₹3,000. Total = ₹24,000.",
-            "For a personal answer, replace these fictional figures with an appropriate model without disclosing sensitive information. Check that categories meet the family's needs and that allocations do not exceed income."
+            "A domestic budget is a written statement of what a household expects to receive in a stated period and what it plans to spend on, kept in a form in which it can be compared with what actually happened. That last clause is what makes it more than a wish-list. Money remembered is money already spent, so it has to be written down; and a child's first budget should be a record of one real month, not a plan for an imaginary one, with every item of income entered — including irregular, seasonal and in-kind income at its money value.",
+            "A model monthly budget for a household of five in rural Assam:",
+            "Total income — ₹15,000\n- Food — ₹5,250 (35%)\n- Housing, water and sanitation — ₹1,800 (12%)\n- Festivals, gifts and social obligations — ₹2,100 (14%)\n- Education — ₹1,200 (8%)\n- Transport — ₹900 (6%)\n- Health and medicine — ₹750 (5%)\n- Clothing — ₹750 (5%)\n- Fuel and light — ₹750 (5%)\n- Savings — ₹1,500 (10%)",
+            "Food takes the largest share in a rural household, and the family's own kitchen garden is what brings it down. Festivals and social obligations are the item most often left unplanned, and the commonest single cause of borrowing at the year end. Education is the one that must never be the item cut.",
+            "Three habits make the budget work, and all three can be taught to a nine-year-old. Write it down. Save first — the saving is taken out on the day the income arrives, not whatever is left at the end of the month, because saving last is saving nothing. And compare: the value of a budget is not the budget itself, but the comparison of the plan with the record, repeated for the next month."
           ],
           "status": "verified",
           "occurrences": [
@@ -2064,7 +2327,13 @@
               "paper": "/downloads/pyqs/2024/s1-9-2024.pdf",
               "verification": "visually-checked-original"
             }
-          ]
+          ],
+          "answerFormat": "paragraphs",
+          "answerSource": {
+            "kind": "owner-supplied",
+            "id": "S1.9_m4-002",
+            "selection": "full-answer"
+          }
         }
       ],
       "practice": [
